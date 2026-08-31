@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAncient
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: 古風連身褲 | ancient jumpsuit
+  description: 一套破爛不堪、邊緣磨損的灰色連身工作服。看起來好像已經十多年沒洗過了。 | A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/ancient.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitKimono
-  name: kimono
-  description: Traditional chinese clothing.
+  name: 和服 | kimono
+  description: 傳統中國服飾。 | Traditional chinese clothing.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/kimono.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiBlack
-  name: black hawaiian shirt
-  description: Black as a starry night.
+  name: 黑色夏威夷襯衫 | black hawaiian shirt
+  description: 黑如星夜。 | Black as a starry night.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/hawaiblack.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiBlue
-  name: blue hawaiian shirt
-  description: Blue as a huge ocean.
+  name: 藍色夏威夷襯衫 | blue hawaiian shirt
+  description: 藍得像一片遼闊的大海。 | Blue as a huge ocean.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/hawaiblue.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiRed
-  name: red hawaiian shirt
-  description: Red as a juicy watermelons.
+  name: 紅色夏威夷襯衫 | red hawaiian shirt
+  description: 紅得像一顆多汁的西瓜。 | Red as a juicy watermelons.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/hawaired.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiYellow
-  name: yellow hawaiian shirt
-  description: Yellow as a bright sun.
+  name: 黃色夏威夷襯衫 | yellow hawaiian shirt
+  description: 黃得像一輪燦爛的太陽。 | Yellow as a bright sun.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/hawaiyellow.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFlannel
-  name: flannel jumpsuit
-  description: Smells like someones been grillin'.
+  name: 法蘭絨連身褲 | flannel jumpsuit
+  description: 聞起來好像有人在烤東西。 | Smells like someones been grillin'.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/flannel.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLoungewear
-  name: loungewear
-  description: A long stretch of fabric that wraps around your body for comfort.
+  name: 居家服 | loungewear
+  description: 一條長長的布料，環繞在身體周圍，帶來舒適感。 | A long stretch of fabric that wraps around your body for comfort.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/loungewear.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualBlue
-  name: casual blue jumpsuit
-  description: A loose worn blue shirt with a grey pants, perfect for someone looking to relax.
+  name: 休閒款藍色連身褲 | casual blue jumpsuit
+  description: 一件寬鬆、略顯磨損的藍色襯衫搭配灰色長褲，非常適合想要放鬆的人。 | A loose worn blue shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualPurple
-  name: casual purple jumpsuit
-  description: A loose worn purple shirt with a grey pants, perfect for someone looking to relax.
+  name: 休閒款紫色連身褲 | casual purple jumpsuit
+  description: 一件寬鬆、略顯磨舊的紫色襯衫，搭配灰色長褲，非常適合想要放鬆的人。 | A loose worn purple shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualRed
-  name: casual red jumpsuit
-  description: A loose worn red shirt with a grey pants, perfect for someone looking to relax.
+  name: 休閒款紅色連身褲 | casual red jumpsuit
+  description: 一件寬鬆且略顯舊的紅色襯衫，搭配灰色長褲，非常適合想要放鬆的人。 | A loose worn red shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -179,8 +179,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualGreen
-  name: casual green jumpsuit
-  description: A loose worn green shirt with a grey pants, perfect for someone looking to relax.
+  name: 休閒綠色連身褲 | casual green jumpsuit
+  description: 一件寬鬆且略顯舊的綠色襯衫，搭配灰色長褲，非常適合想要放鬆的人。 | A loose worn green shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDameDane
-  name: yakuza outfit
-  description: Baka mitai...
+  name: 黑幫裝束 | yakuza outfit
+  description: 真像個笨蛋…… | Baka mitai...
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/damedaneoutfit.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCossack
-  name: cossack suit
-  description: The good old pants and brigantine.
+  name: 哥薩克服裝 | cossack suit
+  description: 那條老舊的長褲和那艘雙桅帆船。 | The good old pants and brigantine.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/cossack.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGladiator
-  name: gladiator uniform
-  description: Made for true gladiators (or Ash Walkers).
+  name: 角鬥士制服 | gladiator uniform
+  description: 專為真正的角鬥士（或「灰燼行者」）打造。 | Made for true gladiators (or Ash Walkers).
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/gladiator.rsi
@@ -242,8 +242,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFamilyGuy
-  name: familiar garbs
-  description: Makes you remember the time you did something funny.
+  name: 熟悉的裝束 | familiar garbs
+  description: 會讓你想起自己曾經做過某件好笑的事。 | Makes you remember the time you did something funny.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/familiar_garbs.rsi

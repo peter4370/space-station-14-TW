@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: ModularReceiver
-  name: modular receiver
-  description: A vital part used in the creation of firearms. #Could use a better description, but I'm not a gun nut so I can't really do that.
+  name: 模組化接收器 | modular receiver
+  description: 槍械製造過程中所使用的一項關鍵部件。 #Could use a better description, but I'm not a gun nut so I can't really do that. | A vital part used in the creation of firearms. #Could use a better description, but I'm not a gun nut so I can't really do that.
   components:
     - type: Item
       storedRotation: -90
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseItem
   id: RifleStock
-  name: rifle stock
-  description: A robust wooden stock, used in the creation of firearms. #Same as above
+  name: 步槍槍托 | rifle stock
+  description: 一種堅固的木製槍托，用於製造槍械。 #Same as above | A robust wooden stock, used in the creation of firearms. #Same as above
   components:
     - type: Item
       storedRotation: -90

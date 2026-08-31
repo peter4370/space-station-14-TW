@@ -1,101 +1,68 @@
-reagent-name-coffee = coffee
-reagent-desc-coffee = A drink made from brewed coffee beans. Contains a moderate amount of caffeine.
-
-reagent-name-cream = cream
-reagent-desc-cream = The fatty, still liquid part of milk. Why don't you mix this with sum scotch, eh?
-
-reagent-name-coconut-water = coconut water
-reagent-desc-coconut-water = A favorite of survivors on deserted islands.
-
-reagent-name-cream-of-coconut = cream of coconut
-reagent-desc-cream-of-coconut = Sweet, syrupy version of coconut cream with added sugar.
-
-reagent-name-cafe-latte = cafe latte
-reagent-desc-cafe-latte = A nice, strong and tasty beverage while you are reading.
-
-reagent-name-tea-powder = tea powder
-reagent-desc-tea-powder = Finely ground tea leaves, used for making tea.
-
-reagent-name-green-tea = green tea
-reagent-desc-green-tea = Tasty green tea.
-
-reagent-name-grenadine = grenadine
-reagent-desc-grenadine = Not cherry flavored!
-
-reagent-name-iced-coffee = iced coffee
-reagent-desc-iced-coffee = Coffee and ice, refreshing and cool.
-
-reagent-name-iced-green-tea = iced green tea
-reagent-desc-iced-green-tea = Cold green tea.
-
-reagent-name-iced-tea = iced tea
-reagent-desc-iced-tea = No relation to a certain rap artist/actor.
-
-reagent-name-lemonade = lemonade
-reagent-desc-lemonade = Drink using lemon juice, water, and a sweetener such as cane sugar or honey.
-
-reagent-name-arnold-palmer = Arnold Palmer
-reagent-desc-arnold-palmer = Now watch this drive.
-
-reagent-name-milk = milk
-reagent-desc-milk = An opaque white liquid produced by the mammary glands of mammals.
-
-reagent-name-milk-goat = goats milk
-reagent-desc-milk-goat = An opaque white liquid produced by a goat. High buttermilk content.
-
-reagent-name-milk-sheep = sheep's milk
-reagent-desc-milk-sheep = An opaque white liquid produced by a sheep. High in fat.
-
-reagent-name-milk-oat = oat milk
-reagent-desc-milk-oat = Surprisingly tasty.
-
-reagent-name-milk-soy = soy milk
-reagent-desc-milk-soy = Consumers favorite.
-
-reagent-name-milk-spoiled = spoiled milk
-reagent-desc-milk-spoiled = This milk has gone rancid.
-
-reagent-name-nothing = nothing
-reagent-desc-nothing = Absolutely nothing.
-
-reagent-name-nuclear-cola = nuclear cola
-reagent-desc-nuclear-cola = Cola, cola never changes.
-
-reagent-name-hot-cocoa = hot cocoa
-reagent-desc-hot-cocoa = Smells like the holidays!
-
-reagent-name-soda-water = soda water
-reagent-desc-soda-water = A container of club soda. Why not make a scotch and soda?
-
-reagent-name-soy-latte = soy latte
-reagent-desc-soy-latte = A coffee drink made with espresso and steamed soy milk.
-
-reagent-name-tea = tea
-reagent-desc-tea = A drink made by boiling leaves of the tea tree, Camellia sinensis.
-
-reagent-name-tonic-water = tonic water
-reagent-desc-tonic-water = It tastes strange but at least the quinine keeps the Space Malaria at bay.
-
-reagent-name-water = water
-reagent-desc-water = A colorless liquid that humans need in order to survive.
-
-reagent-name-ice = ice
-reagent-desc-ice = Frozen water.
-
-reagent-name-dry-ramen = dry ramen
-reagent-desc-dry-ramen = Dry noodles and salt.
-
-reagent-name-hot-ramen = hot ramen
-reagent-desc-hot-ramen = Hot noodles.
-
+reagent-name-coffee = 咖啡
+reagent-desc-coffee = 一種以沖泡過的咖啡豆製成的飲品。含有適量的咖啡因。
+reagent-name-cream = 奶油
+reagent-desc-cream = 牛奶中那部分油膩且仍呈液態的部分。要不要試著把它和一點蘇格蘭威士忌混合一下呢？
+reagent-name-coconut-water = 椰子水 coconut water
+reagent-desc-coconut-water = 荒島上倖存者最喜愛的食物。
+reagent-name-cream-of-coconut = 椰子奶油 cream of coconut
+reagent-desc-cream-of-coconut = 添加了糖的椰子奶油，口感甜膩且帶有糖漿般的濃稠感。
+reagent-name-cafe-latte = 拿鐵咖啡 cafe latte
+reagent-desc-cafe-latte = 閱讀時，來一杯香醇濃郁、風味絕佳的飲品吧。
+reagent-name-tea-powder = 茶粉 tea powder
+reagent-desc-tea-powder = 細磨的茶葉，用於沖泡茶飲。
+reagent-name-green-tea = 綠茶 green tea
+reagent-desc-green-tea = 美味的綠茶。
+reagent-name-grenadine = 格拉納丁 grenadine
+reagent-desc-grenadine = 不是櫻桃口味！
+reagent-name-iced-coffee = 冰咖啡 iced coffee
+reagent-desc-iced-coffee = 咖啡與冰塊，清爽又沁涼。
+reagent-name-iced-green-tea = 冰綠茶 iced green tea
+reagent-desc-iced-green-tea = 冰綠茶。
+reagent-name-iced-tea = 冰茶 iced tea
+reagent-desc-iced-tea = 與某位饒舌歌手／演員並無任何關係。
+reagent-name-lemonade = 檸檬水 lemonade
+reagent-desc-lemonade = 飲用時，請加入檸檬汁、水，以及蔗糖或蜂蜜等甜味劑。
+reagent-name-arnold-palmer = 阿諾·帕爾默 Arnold Palmer
+reagent-desc-arnold-palmer = 現在請看這波進攻。Now watch this drive.
+reagent-name-milk = 牛奶
+reagent-desc-milk = 由哺乳動物乳腺分泌的一種不透明的白色液體。
+reagent-name-milk-goat = 山羊奶 oats milk
+reagent-desc-milk-goat = 由山羊產出的不透明白色液體。含有大量酪乳。
+reagent-name-milk-sheep = 羊奶
+reagent-desc-milk-sheep = 由綿羊產出的不透明白色液體。脂肪含量高。
+reagent-name-milk-oat = 燕麥奶 oat milk
+reagent-desc-milk-oat = 出乎意料地好吃。
+reagent-name-milk-soy = 豆漿 soy milk
+reagent-desc-milk-soy = 消費者最愛。
+reagent-name-milk-spoiled = 變質的牛奶 spoiled milk
+reagent-desc-milk-spoiled = 這牛奶已經變質了。
+reagent-name-nothing = 沒有什麼
+reagent-desc-nothing = 完全沒有。
+reagent-name-nuclear-cola = 核能可樂 nuclear cola
+reagent-desc-nuclear-cola = 可樂，可樂永遠不變。
+reagent-name-hot-cocoa = 熱可可 hot cocoa
+reagent-desc-hot-cocoa = 這氣味真讓人感覺到節日氣氛了！
+reagent-name-soda-water = 蘇打水 soda water
+reagent-desc-soda-water = 一罐蘇打水。何不來杯蘇格蘭威士忌加蘇打水呢？
+reagent-name-soy-latte = 豆奶拿鐵 soy latte
+reagent-desc-soy-latte = 一款以濃縮咖啡和蒸煮過的豆漿調製而成的咖啡飲品。
+reagent-name-tea = 茶 tea
+reagent-desc-tea = 一種將茶樹（學名：Camellia sinensis）的葉子煮沸後製成的飲品。
+reagent-name-tonic-water = 通寧水 tonic water
+reagent-desc-tonic-water = 味道雖然怪怪的，但至少奎寧能預防「太空瘧疾」。
+reagent-name-water = 水
+reagent-desc-water = 一種無色液體，人類賴以生存。
+reagent-name-ice = 冰
+reagent-desc-ice = 結冰的水。
+reagent-name-dry-ramen = 乾拉麵
+reagent-desc-dry-ramen = 乾麵和鹽。
+reagent-name-hot-ramen = 熱拉麵
+reagent-desc-hot-ramen = 熱麵。
 reagent-name-pilk = pilk
-reagent-desc-pilk = A sickening mixture of milk and cola.
-
+reagent-desc-pilk = 一種令人作嘔的牛奶與可樂混合物。
 reagent-name-posca = posca
-reagent-desc-posca = Poor warriors' drink from a forgotten era.
-
+reagent-desc-posca = 來自被遺忘時代的窮苦戰士之飲。
 reagent-name-mopwata = mopwata
-reagent-desc-mopwata = Dirty, stagnant mop water.
-
-reagent-name-orange-lime-soda = citrus bikeshed
-reagent-desc-orange-lime-soda = The soda should be orange! No, it should be lemon-lime!
+reagent-desc-mopwata = 髒兮兮、滯留不流的拖把水。
+reagent-name-orange-lime-soda = 柑橘自行車棚
+reagent-desc-orange-lime-soda = 那瓶汽水應該是柳橙味的！不，應該是檸檬-萊姆味的！

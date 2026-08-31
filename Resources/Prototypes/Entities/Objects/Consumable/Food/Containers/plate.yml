@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseFoodPlate
   id: FoodPlate
-  name: large plate
-  description: A large plate, excellent for bread.
+  name: 大盤子 | large plate
+  description: 一個大盤子，非常適合盛放麵包。 | A large plate, excellent for bread.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: BaseItem
   id: FoodPlateTrash
-  name: broken plate
-  description: A broken plate. Useless.
+  name: 破盤子 | broken plate
+  description: 一個破盤子。沒用了。 | A broken plate. Useless.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: BaseFoodPlate
   id: FoodPlateSmall
-  name: small plate
-  description: A small plate. Delicate.
+  name: 小盤 | small plate
+  description: 一個小盤子。精緻。 | A small plate. Delicate.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: BaseFoodPlate
   id: FoodPlatePlastic
-  name: large plastic plate
-  description: A large blue plastic plate, excellent for a birthday cake.
+  name: 大號塑膠盤 | large plastic plate
+  description: 一個大號的藍色塑膠盤，非常適合盛放生日蛋糕。 | A large blue plastic plate, excellent for a birthday cake.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: BaseFoodPlate
   id: FoodPlateSmallPlastic
-  name: small plastic plate
-  description: A blue plastic plate, excellent for slices of birthday cake.
+  name: 小塑膠盤 | small plastic plate
+  description: 一個藍色的塑膠盤，非常適合盛放生日蛋糕切片。 | A blue plastic plate, excellent for slices of birthday cake.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: BaseItem
   id: FoodPlateTin
-  name: pie tin
-  description: A cheap foil tin for pies.
+  name: 派盤 | pie tin
+  description: 一個便宜的鋁箔派盒。 | A cheap foil tin for pies.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: BaseItem
   id: FoodPlateMuffinTin
-  name: muffin tin
-  description: A cheap foil tin for muffins.
+  name: 瑪芬烤盤 | muffin tin
+  description: 一個便宜的馬芬箔紙烤盤。 | A cheap foil tin for muffins.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi

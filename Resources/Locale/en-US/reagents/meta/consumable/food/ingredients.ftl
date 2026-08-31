@@ -1,41 +1,28 @@
-reagent-name-flour = flour
-reagent-desc-flour = Used for baking.
-
-reagent-name-cornmeal = cornmeal
-reagent-desc-cornmeal = Used for baking.
-
-reagent-name-oats = oats
-reagent-desc-oats = Used for a variety of tasty purposes.
-
-reagent-name-enzyme = universal enzyme
-reagent-desc-enzyme = Used in cooking various dishes.
-
-reagent-name-egg = cooked egg
-reagent-desc-egg = Cooked chicken embryo, delicious.
-
-reagent-name-raw-egg = raw egg
-reagent-desc-raw-egg = Used for baking.
-
-reagent-name-sugar = sugar
-reagent-desc-sugar = Tasty spacey sugar!
-
-reagent-name-blackpepper = black pepper
-reagent-desc-blackpepper = Often used to flavor food or make people sneeze.
-
-reagent-name-vinegar = vinegar
-reagent-desc-vinegar = Often used to flavor food.
-
-reagent-name-rice = rice
-reagent-desc-rice = Hard, small white grains.
-
-reagent-name-oil-olive = olive oil
-reagent-desc-oil-olive = Viscous and fragrant.
-
-reagent-name-oil = oil
-reagent-desc-oil = Used by chefs to cook.
-
-reagent-name-capsaicin-oil = Capsaicin Oil
-reagent-desc-capsaicin-oil = Capsaicin Oil is the ingredient found in different types of hot peppers.
-
-reagent-name-frost-oil = Frost Oil
-reagent-desc-frost-oil = Frost Oil is the ingredient found in chilly peppers, a rare pepper mutation.
+reagent-name-flour = 麵粉 flour
+reagent-desc-flour = 用於烘焙。
+reagent-name-cornmeal = 玉米粉 cornmeal
+reagent-desc-cornmeal = 用於烘焙。
+reagent-name-oats = 燕麥 oats
+reagent-desc-oats = 可用於各種美味的用途。
+reagent-name-enzyme = 通用酵素 universal enzyme
+reagent-desc-enzyme = 用於烹調各式菜餚。
+reagent-name-egg = 水煮蛋 cooked egg
+reagent-desc-egg = 煮熟的雞胚，真好吃。
+reagent-name-raw-egg = 生蛋 raw egg
+reagent-desc-raw-egg = 用於烘焙。
+reagent-name-sugar = 糖 sugar
+reagent-desc-sugar = 美味又帶點太空感的糖！
+reagent-name-blackpepper = 黑胡椒 black pepper
+reagent-desc-blackpepper = 常被用來為食物增添風味，或讓人生噴嚏。
+reagent-name-vinegar = 醋 vinegar
+reagent-desc-vinegar = 常被用來為食物增添風味。
+reagent-name-rice = 米
+reagent-desc-rice = 堅硬、細小的白色顆粒。
+reagent-name-oil-olive = 橄欖油 olive oil
+reagent-desc-oil-olive = 質地濃稠且香氣馥郁。
+reagent-name-oil = 石油 oil
+reagent-desc-oil = 由廚師用於烹飪。
+reagent-name-capsaicin-oil = 辣椒素油 Capsaicin Oil
+reagent-desc-capsaicin-oil = 辣椒素油是各種辣椒中所含的成分。
+reagent-name-frost-oil = 弗羅斯特石油 Frost Oil
+reagent-desc-frost-oil = 「霜油」是辣椒中的一種成分，源自一種罕見的辣椒突變體。

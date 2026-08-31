@@ -1,21 +1,22 @@
-<Document>
-  # Cargo Bounties
-  While [textlink="Cargo" link="Cargo"] can make [color=cyan]spesos[color] selling just about anything, more spesos can be made by fulfilling [color=cyan]bounties[/color] found through the Cargo Bounty Computer.
 
-  ## Starting Bounties
+<Document>
+  # 貨運懸賞
+  雖然 [textlink="Cargo" link="Cargo"] 幾乎可以靠販售任何物品賺取 [color=cyan]spesos[color]，但透過「貨運懸賞電腦」找到的 [color=cyan]懸賞[/color] 來完成任務，還能賺取更多的 spesos。
+
+  ## 啟動懸賞
 
   <Box>
     <GuideEntityEmbed Entity="ComputerCargoBounty"/>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
   </Box>
 
-  To start a bounty, open the bounty screen by interacting with the [color=cyan]Cargo Bounty Computer[/color]. The Cargo Bounty Computer maintains a list of all the current bounties and lets you either print out a label or skip it.
+  要發起懸賞任務，請與 [color=cyan]貨物懸賞電腦[/color] 互動，以開啟懸賞畫面。 「貨物懸賞電腦」會列出所有當前的懸賞清單，並讓您選擇列印標籤或跳過此步驟。
 
-  - Printing the label gives you a [color=cyan]Bounty Manifest[/color] listing the goods that need to be acquired. You can print out infinite Bounty Manifests, so ensure you are not repeating the same work as another Cargo Technician.
+  - 列印標籤後，您將獲得一份 [color=cyan]賞金清單[/color]，其中列出了需要取得的所有物品。 您可以列印無數份「賞金貨運清單」，因此請確保您不會與其他貨運技術員重複進行相同的工作。
 
-  - Skipping a bounty replaces that bounty with a new one, as there can only be six active bounties at any time. Skipping has a 15-minute cooldown and voids that bounty, which may anger other Cargo Technicians working on it.
+  - 跳過一項懸賞後，該懸賞將被新的懸賞取代，因為任何時候最多只能有六項有效的懸賞。 跳過此任務會有 15 分鐘的冷卻時間，並會使該懸賞失效，這可能會惹惱正在處理該任務的其他貨運技術員。
 
-  ## Fulfilling Bounties
+  ## 完成懸賞任務
 
   <Box>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
@@ -23,13 +24,13 @@
     <GuideEntityEmbed Entity="AppraisalTool"/>
   </Box>
 
-  With the [color=cyan]Bounty Manifest[/color], it is now up to you to collect the required goods, but most departments will give you what you need if you ask for it with a Bounty Manifest.
+  有了 [color=cyan]賞金清單[/color]，現在就看你如何收集所需的貨物了；不過，只要出示賞金清單提出要求，大多數部門都會提供你所需的物品。
 
-  Once you have collected the goods, return to the cargo bay and put the goods inside an empty [color=cyan]Crate[/color]. After everything is in the crate, close it, and then apply the Bounty Manifest to it.
+  收集完貨物後，請返回貨艙，並將貨物放入一個空的 [color=cyan]貨箱[/color] 中。 將所有物品裝入貨箱後，請將貨箱關好，然後將《Bounty 貨運清單》貼在貨箱上。
 
-  To verify the completion of a bounty, use the [color=cyan]Appraisal Tool[/color] on it. It should show a confirmation that the bounty has been completed.
+  若要確認某項懸賞是否已完成，請對其使用 [color=cyan]鑑定工具[/color]。 系統應顯示一則確認訊息，表明懸賞任務已完成。
 
-  ## Selling Bounties
+  ## 出售懸賞
 
   <Box>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
@@ -37,9 +38,9 @@
     <GuideEntityEmbed Entity="CargoPalletSell"/>
   </Box>
 
-  Once you have verified that you have completed the bounty, follow the same steps as selling anything else.
+  確認您已完成該懸賞任務後，請依照與出售其他物品相同的步驟進行。
 
-  Just transport it to the [color=cyan]Trading Station[/color], sell it, and you are done!
+  只要將它運送到 [color=cyan]交易站[/color]，賣掉它，就大功告成了！
 
-  When you return, there should be a new bounty to take its place.
+  等你回來時，應該會有新的懸賞接替它的位置。
 </Document>

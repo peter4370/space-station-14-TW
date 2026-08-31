@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: HandLabeler
-  name: hand labeler
-  description: A hand labeler, used to label items and objects.
+  name: 手動標籤機 | hand labeler
+  description: 一款手動標籤機，用於為物品和物件貼上標籤。 | A hand labeler, used to label items and objects.
   components:
     - type: Sprite
       sprite: Objects/Tools/hand_labeler.rsi

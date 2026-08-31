@@ -3,8 +3,8 @@
   abstract: true
   parent: [ BaseStructure, StructureHealthFurnitureWeak ]
   id: CarpetBase
-  name: carpet
-  description: "Fancy walking surface."
+  name: 地毯 | carpet
+  description: "別具一格的步行路面。 | Fancy walking surface."
   components:
   - type: Sprite
     drawdepth: FloorTiles
@@ -222,7 +222,7 @@
 - type: entity
   parent: BaseStructure
   id: CarpetChapel
-  name: "chapel's carpet"
+  name: "禮拜堂的地毯 | chapel's carpet"
   components:
   - type: Sprite
     sprite: Structures/Furniture/Carpets/chapel_carpet.rsi
@@ -253,8 +253,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthFurnitureWeak ]
   id: CarpetCard
-  name: cardboard "carpet"
-  description: "Even lino is better."
+  name: 紙板「地毯」 | cardboard "carpet"
+  description: "就連油氈都比這好。 | Even lino is better."
   components:
   - type: Sprite
     drawdepth: FloorTiles

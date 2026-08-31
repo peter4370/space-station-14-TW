@@ -1,5 +1,5 @@
-jukebox-menu-title = Jukebox
-jukebox-menu-selectedsong = Selected Song:
-jukebox-menu-buttonplay = Play
-jukebox-menu-buttonpause = Pause
-jukebox-menu-buttonstop = Stop
+jukebox-menu-title = 點唱機
+jukebox-menu-selectedsong = 選曲：
+jukebox-menu-buttonplay = 播放
+jukebox-menu-buttonpause = 暫停
+jukebox-menu-buttonstop = 停止

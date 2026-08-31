@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitCargo
-  name: cargo tech jumpsuit
-  description: A sturdy jumpsuit, issued to members of the Cargo department.
+  name: Cargo Tech 連身工作服 | cargo tech jumpsuit
+  description: 一款堅固耐用的連身工作服，發放給貨運部門的成員。 | A sturdy jumpsuit, issued to members of the Cargo department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Cargo/cargotech.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSalvageSpecialist
-  name: salvage specialist's jumpsuit
-  description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+  name: 打撈專家的連身工作服 | salvage specialist's jumpsuit
+  description: 這是一件剪裁俐落的連身工作服，配有一套結實耐穿的工裝褲。它非常髒。 | It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Cargo/salvage.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitQM
-  name: quartermaster's jumpsuit
-  description: 'What can brown do for you?'
+  name: 司務長連身工作服 | quartermaster's jumpsuit
+  description: '棕色能為您做些什麼？ | What can brown do for you?'
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Cargo/qm.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitQMTurtleneck
-  name: quartermasters's turtleneck
-  description: A sharp turtleneck made for the hardy work environment of supply.
+  name: 軍需官的高領毛衣 | quartermasters's turtleneck
+  description: 一款剪裁利落的高領衫，專為供應鏈中嚴苛的工作環境而設計。 | A sharp turtleneck made for the hardy work environment of supply.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Cargo/qmturtle.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitQMFormal
-  name: quartermasters's formal suit
-  description: Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
+  name: 軍需官的正式西裝 | quartermasters's formal suit
+  description: 靈感源自歷史上軍隊的司務長，這套服裝是出席正式場合的完美選擇。 | Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Cargo/qmformal.rsi

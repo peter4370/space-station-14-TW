@@ -1,8 +1,8 @@
 - type: entity
-  name: mini hoe
+  name: 迷你鋤頭 | mini hoe
   parent: BaseItem
   id: HydroponicsToolMiniHoe
-  description: It's used for removing weeds or scratching your back.
+  description: 它用來除草或搔背。 | It's used for removing weeds or scratching your back.
   components:
   - type: Tag
     tags:
@@ -27,10 +27,10 @@
   - type: BotanyHoe
 
 - type: entity
-  name: plant clippers
+  name: 修枝剪 | plant clippers
   parent: BaseItem
   id: HydroponicsToolClippers
-  description: A tool used to take samples from plants.
+  description: 一種用於從植物中採集樣本的工具。 | A tool used to take samples from plants.
   components:
   - type: Sprite
     sprite: Objects/Tools/Hydroponics/clippers.rsi
@@ -52,10 +52,10 @@
     - Shearing
 
 - type: entity
-  name: scythe
+  name: 鐮刀 | scythe
   parent: BaseItem
   id: HydroponicsToolScythe
-  description: A sharp and curved blade on a long fibremetal handle, this tool makes it easy to reap what you sow.
+  description: 這件工具配備了一把鋒利且彎曲的刀刃，握柄則採用長型纖維金屬材質，讓您能輕鬆收穫親手播下的種子。 | A sharp and curved blade on a long fibremetal handle, this tool makes it easy to reap what you sow.
   components:
   - type: Tool
     qualities:
@@ -82,10 +82,10 @@
       Plastic: 100
 
 - type: entity
-  name: hatchet
+  name: 斧頭 | hatchet
   parent: BaseItem
   id: HydroponicsToolHatchet
-  description: A very sharp axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.
+  description: 一把鋒利無比的斧頭，配有短小的纖維金屬斧柄。它擁有悠久的劈砍歷史，但如今主要用於劈柴。 | A very sharp axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.
   components:
   - type: Tool
     qualities:
@@ -114,10 +114,10 @@
       Steel: 100
 
 - type: entity
-  name: spade
+  name: 鏟子 | spade
   parent: BaseItem
   id: HydroponicsToolSpade
-  description: A small tool for digging and moving dirt.
+  description: 一種用於挖掘和搬運泥土的小型工具。 | A small tool for digging and moving dirt.
   components:
   - type: Tag
     tags:
@@ -145,10 +145,10 @@
       Steel: 100
 
 - type: entity
-  name: plant bag
+  name: 植物袋 | plant bag
   id: PlantBag
   parent: BaseStorageItem
-  description: A bag for botanists to easily move their huge harvests.
+  description: 一款專為植物學家設計的袋子，方便他們搬運大量採集的植物標本。 | A bag for botanists to easily move their huge harvests.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/Equipment/plant_bag.rsi

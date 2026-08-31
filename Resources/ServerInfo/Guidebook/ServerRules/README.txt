@@ -1,5 +1,5 @@
-﻿These files contain Wizard's Den server rules. Since they reference Wizard's Den, they should not be used
-by other servers without at least enough modification to not mislead players into thinking that they are
-playing on Wizard's Den.
+﻿這些檔案包含「Wizard's Den」伺服器的規則。 由於它們引用了《巫師之巢》，因此不應使用
+由其他伺服器提供，且未進行至少足夠的修改，以致玩家誤以為這些內容是
+在《巫師之巢》中遊玩。
 
-The filenames used for the rules files are not themselves rules. Only the contents of the files are rules.
+規則檔案所使用的檔名本身並非規則。 只有檔案的內容才屬於規則。

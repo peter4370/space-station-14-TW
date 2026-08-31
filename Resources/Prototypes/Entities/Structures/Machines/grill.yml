@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseHeaterMachine
   id: KitchenElectricGrill
-  name: electric grill
-  description: A microwave? No, a real man cooks steaks on a grill!
+  name: 電烤架 | electric grill
+  description: 微波爐？不，真正的男人會用烤架烤牛排！ | A microwave? No, a real man cooks steaks on a grill!
   components:
   - type: Sprite
     # TODO: draw a sprite

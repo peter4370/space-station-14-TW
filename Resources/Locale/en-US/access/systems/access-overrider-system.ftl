@@ -1,10 +1,9 @@
-access-overrider-window-privileged-id = Privileged ID:
-access-overrider-window-eject-button = Eject
-access-overrider-window-insert-button = Insert
-access-overrider-window-target-label = Connected device:
-access-overrider-window-no-target = No connected device
-access-overrider-window-missing-privileges = Access to this device cannot be modified. The inserted ID is missing the following privileges:
-access-overrider-window-missing-privileges-no-id = Access to this device cannot be modified. Missing the following privileges:
-access-overrider-cannot-modify-access = You do not have sufficient privileges to modify this device!
-access-overrider-out-of-range = The connected device is too far away
-
+access-overrider-window-privileged-id = 具特權的識別碼：
+access-overrider-window-eject-button = 彈出
+access-overrider-window-insert-button = 插入
+access-overrider-window-target-label = 已連接的裝置：
+access-overrider-window-no-target = 沒有已連接的裝置
+access-overrider-window-missing-privileges = 此裝置的存取權限無法進行變更。所輸入的 ID 缺少以下權限：
+access-overrider-window-missing-privileges-no-id = 無法變更對此裝置的存取權限。缺少以下權限：
+access-overrider-cannot-modify-access = 您沒有足夠的權限來修改此裝置！
+access-overrider-out-of-range = 連線裝置距離過遠

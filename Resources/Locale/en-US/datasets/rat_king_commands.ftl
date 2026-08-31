@@ -1,14 +1,11 @@
-rat-king-command-stay-1 = Sit!
-rat-king-command-stay-2 = Stay!
-rat-king-command-stay-3 = Stop!
-
-rat-king-command-follow-1 = Heel!
-rat-king-command-follow-2 = Follow!
-
-rat-king-command-cheese-1 = Attack!
-rat-king-command-cheese-2 = Sic!
-rat-king-command-cheese-3 = Kill!
-rat-king-command-cheese-4 = Cheese 'Em!
-
-rat-king-command-loose-1 = Free!
-rat-king-command-loose-2 = Loose!
+rat-king-command-stay-1 = 坐下！
+rat-king-command-stay-2 = 別走！
+rat-king-command-stay-3 = 停下！
+rat-king-command-follow-1 = 立正！
+rat-king-command-follow-2 = 快來追蹤吧！
+rat-king-command-cheese-1 = 攻擊！
+rat-king-command-cheese-2 = 原話如此！
+rat-king-command-cheese-3 = 殺了！
+rat-king-command-cheese-4 = 來張芝士照吧！
+rat-king-command-loose-1 = 免費！
+rat-king-command-loose-2 = 放開！

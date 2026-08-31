@@ -1,50 +1,51 @@
+
 <Document>
-  # Access Configurator
-  The access configurator is a tool used to specify what type of personnel may use certain devices.
+  # 存取設定工具
+  存取設定工具是一種用於指定哪些類別的人員可使用特定裝置的工具。
 
   <Box>
-	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="access configurator"/>
+	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="存取設定工具"/>
   </Box>
 
-  Configurable devices can include airlocks, secure crates and lockers, as well as access restricted machines.
-  Note: Airlocks can have their accesses configured by the [color=#a4885c]Network Configurator[/color] (or multitool), for convenience.
+  可配置的設備可包括氣閘、安全箱及儲物櫃，以及限權操作的機器。
+  注意：為方便起見，氣閘的存取權限可透過 [color=#a4885c]網路設定工具[/color]（或多功能工具）進行設定。
 
-  ## Where to find Access Configurators
-  Each station is equipped with up to two access configurators. The first is in the possession of the Chief Engineer, while the second can be found with the Head of Personnel.
+  ## 哪裡可以找到存取設定器
+  每個站台最多配備兩個存取設定器。 第一份由總工程師保管，第二份則由人事主管保管。
 
-  ## How to use the access configurator
-  To modify a device using the access configurator:
-  - First, use the access configurator on the chosen device to link them together. This will automatically open the configurator UI.
-  - Next, insert an ID card into the access configurator.
-  - Set the access requirements of the connected device. What requirements can be added or removed will depend upon the access privileges of the inserted ID card.
-  - Any changes made will be applied [color=#a4885c]immediately[/color] - simply eject the ID card from the access configurator and close the UI when you are done.
+  ## 如何使用 Access 配置工具
+  若要使用 Access 配置工具修改裝置：
+  - 首先，請在選定的裝置上使用 Access 配置工具將它們相互連結。 這將自動開啟配置工具的使用者介面。
+  - 接著，請將ID卡插入門禁設定器中。
+  - 設定已連接裝置的存取權限。 哪些要求可以新增或移除，將取決於所插入的 ID 卡所擁有的存取權限。
+  - 任何變更都將 [color=#a48885c]立即[/color] 生效——完成後，只需將ID卡從存取設定器中取出，並關閉使用者介面即可。
 
-  ## Restrictions on changing access
-  As a safety precaution, the inserted ID must possess [bold]all[/bold] of the access requirements that are currently active on the connected device in order to modify it.
+  ## 變更存取權限的限制
+  基於安全考量，欲修改存取權限，所輸入的 ID 必須具備 [bold]所有[/bold] 目前在連線裝置上有效的存取權限。
 
-  For example, a device which can be accessed by both 'Science' and 'Medical' personnel can only by modified using an ID card that has access to [color=#a4885c]both[/color] of these departments.
-  The access configurator will warn the user if the inserted ID card does not have sufficient privileges to modify a device.
+  舉例來說，若某台設備可同時由「科學」與「醫療」人員存取，則僅能使用具備 [color=#a4885c]兩者[/color] 部門存取權限的識別卡來修改該設備。
+  若插入的識別卡沒有足夠的權限來修改裝置，存取配置程式會向使用者發出警告。
 
-  A device with no access requirements set, like a public access airlock, can be modified using any valid station ID card.
+  對於未設定存取權限的裝置（例如公共通道氣閘），可使用任何有效的站內ID卡進行修改。
 
-  ## Repairing access-broken ID card readers
-  Syndicate agents may attempt to hack access-restricted devices through the use of an [color=#a4885c]Authentication Disruptor[/color].
-  This nefarious tool will completely short out any ID card readers that are attached to the device, making it all-access.
+  ## 修復存取功能失效的身份證讀卡機
+  辛迪加特工可能會利用 [color=#a4885c]認證干擾器[/color] 試圖駭入受存取限制的裝置。
+  這項惡意工具將使連接至該裝置的任何ID卡讀卡機完全短路，使其能無限制地存取所有資料。
 
   <Box>
     <GuideEntityEmbed Entity="AccessBreaker"/>
   </Box>
 
-  To repair the damage, you'll commonly need to partially deconstruct the device and reconstruct it.
-  This will reset the access requirements to defaults, allowing you to reconfigure the device as needed.
+  要修復損壞，通常需要將裝置部分拆解，然後重新組裝。
+  此操作將將存取設定重設為預設值，讓您能根據需要重新設定該裝置。
 
-  ## Repairing access-broken Airlocks
-  Airlocks can be repaired multiple ways if their access requirements have been tampered with.
+  ## 修復存取權限遭篡改的 Airlocks
+  若 Airlocks 的存取權限設定遭篡改，可透過多種方式進行修復。
 
-  If you have an Access Configurator, you can use a [color=#a4885c]Screwdriver[/color] to remove the airlock's maintenance panel, and then use the Access Configurator to reconfigure the airlock's access requirements.
-  No partial deconstruction is needed.
+  如果您有「存取配置器」，可以使用 [color=#a4885c]螺絲起子[/color] 拆下氣鎖的維護面板，然後使用「存取配置器」重新設定氣鎖的存取要求。
+  無需進行部分解構。
 
-  If you don't have an Access Configurator, you can still fix the airlock by partially deconstructing it until you remove the door electronics, and then reconstructing it.
-  This will reset the airlock to the default access requirements it had at the start of the shift.
+  若您沒有「Access Configurator」，仍可透過將氣閘部分拆解（直到移除門體電子元件為止），再重新組裝，來修復氣閘。
+  此操作將將氣閘重設為班次開始時的預設進出要求。
 
 </Document>

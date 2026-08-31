@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBartender
-  name: bartender's uniform
-  description: A nice and tidy uniform. Shame about the bar though.
+  name: 調酒師制服 | bartender's uniform
+  description: 這身制服很整潔美觀。不過那條橫條就讓人有點遺憾了。 | A nice and tidy uniform. Shame about the bar though.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/bartender.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtChaplain
-  name: chaplain's jumpskirt
-  description: It's a black jumpskirt, often worn by religious folk.
+  name: 牧師的跳躍裙 | chaplain's jumpskirt
+  description: 這是一件黑色的連身裙，常被宗教人士穿著。 | It's a black jumpskirt, often worn by religious folk.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/chaplain.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtChef
-  name: chef uniform
-  description: Can't cook without this.
+  name: 廚師制服 | chef uniform
+  description: 沒有這個就做不了菜。 | Can't cook without this.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/chef.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHydroponics
-  name: hydroponics jumpskirt
-  description: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+  name: 水耕栽培跳躍裙 | hydroponics jumpskirt
+  description: 散發出一股濃烈的泥土味。希望這只是髒了，而不是被弄髒了。 | Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/hydro.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtJanitor
-  name: janitor jumpskirt
-  description: The jumpskirt for the poor sop with a mop.
+  name: 清潔工的跳躍裙 | janitor jumpskirt
+  description: 那件跳舞裙，是給那個拿著拖把的可憐蟲的。 | The jumpskirt for the poor sop with a mop.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/janitor.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMime
-  name: mime jumpskirt
-  description: ...
+  name: mime 跳舞裙 | mime jumpskirt
+  description: ... | ...
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/mime.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtLibrarian
-  name: librarian jumpskirt
-  description: A cosy green jumper fit for a curator of books.
+  name: 圖書館員跳跳裙 | librarian jumpskirt
+  description: 一件舒適的綠色毛衣，非常適合一位圖書策展人。 | A cosy green jumper fit for a curator of books.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/librarian.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCurator
-  name: sensible skirt
-  description: It's sensible. Too sensible...
+  name: 得體的裙子 | sensible skirt
+  description: 這很明智。實在太明智了…… | It's sensible. Too sensible...
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/curator.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPerformer
-  name: performer's jumpskirt
-  description: Hi, I'm Scott, president of Donk Pizza. Have you heard of [FAMOUS VIRTUAL PERFORMER]?
+  name: 表演者的跳躍裙 | performer's jumpskirt
+  description: 嗨，我是 Scott，Donk Pizza 的總裁。你聽過 [知名虛擬表演者] 嗎？ | Hi, I'm Scott, president of Donk Pizza. Have you heard of [FAMOUS VIRTUAL PERFORMER]?
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/performer.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtJanimaid
-  name: janitorial maid uniform
-  description: For professionals, not the posers.
+  name: 清潔女工制服 | janitorial maid uniform
+  description: 專為專業人士而設，而非那些裝模作樣的人。 | For professionals, not the posers.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/janimaid.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtJanimaidmini
-  name: janitorial maid uniform with miniskirt
-  description: Elite service, not some candy wrappers.
+  name: 穿著迷你裙的清潔女工制服 | janitorial maid uniform with miniskirt
+  description: 頂級服務，可不是什麼糖果包裝紙。 | Elite service, not some candy wrappers.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/janimaidmini.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMusician
-  name: musician's skirt
-  description: A fancy skirt for the musically inclined. Perfect for any lounge act!
+  name: 音樂家的裙子 | musician's skirt
+  description: 一款專為熱愛音樂的人士設計的華麗裙裝。非常適合任何沙龍表演！ | A fancy skirt for the musically inclined. Perfect for any lounge act!
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/musician.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPsychologist
-  name: psychologist suitskirt
-  description: I don't lose things. I place things in locations which later elude me.
+  name: 心理學家套裝裙 | psychologist suitskirt
+  description: 我不會弄丟東西。只是把東西放在某些地方，後來卻想不起來放在哪裡了。 | I don't lose things. I place things in locations which later elude me.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/psychologist.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtClown
-  name: clown skirt
-  description: HONK!
+  name: 小丑裙 | clown skirt
+  description: 嗶——！ | HONK!
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/clown.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtLawyerRed
-  name: red lawyer suitskirt
-  description: A flashy red suitskirt worn by lawyers and show-offs.
+  name: 紅色律師套裝裙裝 | red lawyer suitskirt
+  description: 一種由律師和愛出風頭的人穿著的、花俏的紅色套裝裙。 | A flashy red suitskirt worn by lawyers and show-offs.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/lawyerred.rsi
@@ -170,8 +170,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtLawyerBlue
-  name: blue lawyer suitskirt
-  description: A flashy blue suitskirt worn by lawyers and show-offs.
+  name: 藍色律師套裝裙 | blue lawyer suitskirt
+  description: 一種由律師和愛出風頭的人穿著的、花俏的藍色套裝裙。 | A flashy blue suitskirt worn by lawyers and show-offs.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/lawyerblue.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtLawyerBlack
-  name: black lawyer suitskirt
-  description: A subtle black suitskirt worn by lawyers and gangsters.
+  name: 黑色律師套裝裙 | black lawyer suitskirt
+  description: 一種低調的黑色套裝裙，常見於律師和黑幫分子身上。 | A subtle black suitskirt worn by lawyers and gangsters.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/lawyerblack.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtLawyerPurple
-  name: purple lawyer suitskirt
-  description: A stylish purple piece worn by lawyers and show people.
+  name: 紫色律師套裝裙 | purple lawyer suitskirt
+  description: 一款時尚的紫色單品，深受律師與演藝界人士青睞。 | A stylish purple piece worn by lawyers and show people.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/lawyerpurple.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtLawyerGood
-  name: good lawyer's suitskirt
-  description: A tacky suitskirt perfect for a CRIMINAL lawyer!
+  name: 優秀律師的套裝裙 | good lawyer's suitskirt
+  description: 一件俗氣的套裝裙，簡直是為「犯罪」律師量身打造！ | A tacky suitskirt perfect for a CRIMINAL lawyer!
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Service/lawyergood.rsi

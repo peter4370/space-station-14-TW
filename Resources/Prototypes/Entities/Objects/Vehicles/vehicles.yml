@@ -41,8 +41,8 @@
 - type: entity
   id: VehicleWheelchair
   parent: [BaseVehicleStrap, BaseFoldable, BaseItem]
-  name: wheelchair
-  description: A chair with big wheels. It looks like you can move in these on your own.
+  name: 輪椅 | wheelchair
+  description: 一張裝有大輪子的椅子。看起來似乎可以自己坐著移動。 | A chair with big wheels. It looks like you can move in these on your own.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/wheelchair.rsi
@@ -82,8 +82,8 @@
 - type: entity
   id: VehicleJanicart
   parent: BaseVehicleStrap
-  name: janicart
-  description: The janitor's trusty steed.
+  name: janicart | janicart
+  description: 清潔工那匹可靠的坐騎。 | The janitor's trusty steed.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/janicart.rsi
@@ -142,7 +142,7 @@
   - type: ItemSlots
     slots:
       key_slot:
-        name: vehicle-slot-component-slot-name-keys
+        name: 車輛-槽位-元件-槽位名稱-金鑰 | vehicle-slot-component-slot-name-keys
         whitelist:
           tags:
           - JanicartKeys
@@ -151,7 +151,7 @@
           params:
             volume: -3
       trashbag_slot:
-        name: janitorial-trolley-slot-component-slot-name-trashbag
+        name: 清潔推車-插槽-組件-插槽名稱-垃圾袋 | janitorial-trolley-slot-component-slot-name-trashbag
         whitelist:
           tags:
           - TrashBag

@@ -1,8 +1,6 @@
 ﻿### Portal verb text
 
-portal-component-ghost-traverse = Traverse
-
-portal-component-no-linked-entities = Can't ghost traverse a portal that doesn't have exactly 1 linked portal
-portal-component-can-ghost-traverse = Teleport to the linked portal
-
-portal-component-invalid-configuration-fizzle = The portal fizzles out!
+portal-component-ghost-traverse = 橫越
+portal-component-no-linked-entities = 若傳送門未與另一座傳送門精確連結，則無法以「幽靈穿越」的方式穿越該傳送門
+portal-component-can-ghost-traverse = 傳送至連結的傳送門
+portal-component-invalid-configuration-fizzle = 傳送門黯然熄滅！

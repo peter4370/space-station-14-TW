@@ -1,15 +1,16 @@
-﻿<Document>
-  # Passive Vent
-  The passive vent is an extremely basic vent.
-  It serves as a direct connection between the pipenet it's connected to and the atmosphere it's exposed to.
+﻿
+<Document>
+  # 被動式通風口
+  被動式通風口是一種極其基礎的通風口。
+  它充當了所連接的管網與其所處的大氣環境之間的直接通道。
   <Box>
     <GuideEntityEmbed Entity="GasPassiveVent"/>
   </Box>
-  Gasses are free to move between the passive vent and the atmosphere it's connected to.
-  The passive vent requires no [textlink="power" link="Power"] to function.
+  氣體可在被動式通風口與其所連接的大氣之間自由流動。
+  被動式通風口運作時無需 [textlink="電源" link="電源"]。
 
-  This vent is commonly found in the station's [textlink="gas storage tanks" link="GasMiningAndStorage"] and connected to the station's wastenet.
-  It is a simple and reliable way to pull gasses from a gas miner, or to space unwanted gasses safely.
+  此通風口通常設於該站點的 [textlink="天然氣儲存槽" link="GasMiningAndStorage"] 內，並連接至該站點的廢氣排放系統。
+  這是一種簡單且可靠的方法，可用於從氣體採集器中抽出氣體，或將不需要的氣體安全地排放至外太空。
 
-  The passive vent can be welded with any welding tool to stop it from functioning.
+  可使用任何焊接工具將被動式通風口焊接封死，使其無法運作。
 </Document>

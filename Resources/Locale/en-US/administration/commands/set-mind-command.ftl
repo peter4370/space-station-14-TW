@@ -1,4 +1,4 @@
-cmd-setmind-desc = Transfers a mind to the specified entity. The entity must have a {$requiredComponent}. By default this will force minds that are currently visiting other entities to return (i.e., return a ghost to their main body).
-cmd-setmind-help = Usage: {$command} <entityUid> <username> [unvisit]
-cmd-setmind-command-target-has-no-content-data-message = Target player does not have content data (wtf?)
-cmd-setmind-command-target-has-no-mind-message = Target entity does not have a mind (did you forget to make sentient?)
+cmd-setmind-desc = 將一個心智傳送至指定的實體。該實體必須具備 { $requiredComponent }。預設情況下，此操作將強制目前正在造訪其他實體的心智返回（即讓幽靈返回其主體）。
+cmd-setmind-help = 用法：{ $command }<entityUid> <username> [取消造訪]
+cmd-setmind-command-target-has-no-content-data-message = 目標玩家沒有內容資料（搞什麼鬼？）
+cmd-setmind-command-target-has-no-mind-message = 目標實體沒有意識（你是不是忘了賦予它知覺？）

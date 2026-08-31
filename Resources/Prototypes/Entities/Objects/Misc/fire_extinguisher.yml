@@ -55,8 +55,8 @@
 - type: entity
   parent: [SolutionFireExtinguisher, BaseFireExtinguisher]
   id: FireExtinguisher
-  name: fire extinguisher
-  description: It extinguishes fires.
+  name: 滅火器 | fire extinguisher
+  description: 它能撲滅火災。 | It extinguishes fires.
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: [SolutionFireExtinguisherLarge, FireExtinguisher]
   id: BorgFireExtinguisher
-  name: maneuvering jet
-  description: Based on fire extinguisher technology, the maneuvering jet is... well yes, its just a bigger fire extinguisher.
+  name: 機動噴射器 | maneuvering jet
+  description: 基於滅火器技術，這款機動噴射器……嗯，沒錯，它其實就是一個更大的滅火器。 | Based on fire extinguisher technology, the maneuvering jet is... well yes, its just a bigger fire extinguisher.
 
 - type: entity
   parent: [SolutionSpray, SolutionLarge]
@@ -106,7 +106,7 @@
         Quantity: 240
 
 - type: entity
-  name: extinguisher spray
+  name: 滅火器噴霧 | extinguisher spray
   id: ExtinguisherSpray
   parent: Vapor
   categories: [ HideSpawnMenu ]
@@ -124,10 +124,10 @@
     animationState: extinguish
 
 - type: entity
-  name: pocket fire extinguisher
+  name: 隨身滅火器 | pocket fire extinguisher
   parent: [SolutionFireExtinguisherMini, BaseFireExtinguisher]
   id: FireExtinguisherMini
-  description: A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
+  description: 一款輕巧緊湊、採用玻璃纖維框架的模擬滅火器。其容水量比其較大型號的同系列產品少。 | A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher_mini.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: [ FireExtinguisher, BaseXenoborgContraband ]
   id: SelfRechargingFireExtinguisher
-  name: self-recharging fire extinguisher
-  description: It extinguishes fires. it slowly refills with water.
+  name: 自動再充式滅火器 | self-recharging fire extinguisher
+  description: 它能撲滅火勢，並會緩慢地重新注滿水。 | It extinguishes fires. it slowly refills with water.
   components:
   - type: SolutionRegeneration
     generated:

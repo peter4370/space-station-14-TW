@@ -1,11 +1,10 @@
-admin-announce-title = Make Announcement
-admin-announce-announcement-placeholder = Announcement text...
-admin-announce-announcer-placeholder = Announcer
-admin-announce-announcer-default = Central Command
-admin-announce-button = Announce
-admin-announce-type-station = Station
-admin-announce-type-server = Server
-admin-announce-keep-open = Keep open
-
-cmd-announceui-desc = Opens the announcement UI.
-cmd-announceui-help = Usage: announceui
+admin-announce-title = 發布公告
+admin-announce-announcement-placeholder = 公告內容...
+admin-announce-announcer-placeholder = 播報員
+admin-announce-announcer-default = 中央司令部
+admin-announce-button = 公告
+admin-announce-type-station = 車站
+admin-announce-type-server = 伺服器
+admin-announce-keep-open = 保持開放
+cmd-announceui-desc = 開啟公告介面。
+cmd-announceui-help = 用法：announceui

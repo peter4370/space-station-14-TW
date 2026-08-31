@@ -1,29 +1,30 @@
+
 <Document>
-  # Atmos Tools
-  Atmospheric Technicians have the same core toolset as Engineers, but they also have access to two new tools, the Holofan Projector and the Gas Analyzer.
+  # 大氣工具
+  大氣技術人員擁有與工程師相同的核心工具組，但他們還能使用兩項新工具：全息風扇投影機與氣體分析儀。
 
   <Box>
     <GuideEntityEmbed Entity="HolofanProjector"/>
     <GuideEntityEmbed Entity="GasAnalyzer"/>
   </Box>
 
-  ## Holofan Projector
-  The Holofan Projector is a tool that can project a barrier of hard-light which blocks air and gas flow, while still allowing people to pass through.
+  ## Holofan 投影儀
+  Holofan 投影儀是一種能夠投射出「硬光屏障」的裝置，該屏障能阻擋空氣與氣體的流動，同時仍允許人員穿過。
 
   <Box>
     <GuideEntityEmbed Entity="HolofanProjector"/>
     <GuideEntityEmbed Entity="HoloFan"/>
   </Box>
 
-  This is super useful for moving in between [textlink="firelock buffers" link="FireAndGasControl"] without leaking gas between rooms, as well a signifying to regular crew that a room may be unsafe for entry.
-  It can also be used for forming a temporary barrier to allow crew to quickly move between a spaced and unspaced area without risk of leaking air from other rooms.
+  這對於在 [textlink="防火緩衝區" link="FireAndGasControl"] 之間移動時，既能防止氣體在房間之間洩漏，又能向一般工作人員示意某個房間可能不安全、不宜進入，非常實用。
+  它亦可用於搭建臨時屏障，讓工作人員能夠在隔間區域與非隔間區域之間快速移動，同時避免空氣從其他房間洩漏的風險。
 
-  It has an internal charge that will deplete with each use, but it can be recharged by taking out the power cell and inserting it into a cell charger or recharger.
+  它內建電量，每次使用後電量會逐漸耗盡，但可將電源電池取出，放入電池充電器或充電裝置中進行充電。
 
-  Holofans that are placed adjacent to a [textlink="firelock" link="FireAndGasControl"] will deactivate the firelock lockout, allowing the firelock to be opened by hand.
+  若將 Holofans 設置在 [textlink="firelock" link="FireAndGasControl"] 旁邊，將解除 firelock 的鎖定狀態，使 firelock 能以手動方式開啟。
 
-  ## Gas Analyzer
-  The Gas Analyzer is a tool that can be used to analyze the gas composition of an exposed atmosphere, or any [textlink="atmospheric device" link="GasManipulation"] containing gas.
+  ## 氣體分析儀
+  氣體分析儀是一種可用於分析暴露於外的氣體組成，或任何 [textlink="大氣裝置" link="GasManipulation"] 中所含氣體的工具。
 
   <Box>
     <GuideEntityEmbed Entity="GasAnalyzer"/>
@@ -37,16 +38,16 @@
     <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
   </Box>
 
-  You can use the Gas Analyzer by clicking on a gas-containing [textlink="device" link="GasManipulation"], or by clicking on the air in the room.
+  您可以透過點擊含有氣體的 [textlink="裝置" link="GasManipulation"]，或點擊房間內的空氣，來使用氣體分析儀。
 
-  When used, the gas analyzer will report on:
-  - The volume of the device measured (not the volume of the gas!)
-  - The total pressure of the gas, in kPa
-  - The temperature of the gas, in Kelvin (K) and Celsius (C)
-  - The precise composition of the gas in molar amounts, and as a percentage of the total gas volume
+  使用時，氣體分析儀將報告以下內容：
+  - 儀器所測量的體積（並非氣體的體積！）
+  - 氣體的總壓力，單位為 kPa
+  - 氣體的溫度，單位為開爾文 (K) 和攝氏度 (C)
+  - 氣體的精確組成（以摩爾量表示，並以佔總氣體體積的百分比呈現）
 
-  At the bottom of the UI, the gas analyzer will display a visual indication of the different [textlink="gasses" link="Gasses"] present in the composition, as well as their relative concentrations.
+  在使用者介面底部，氣體分析儀將以視覺方式顯示組成中存在的各種 [textlink="氣體" link="氣體"]，以及它們的相對濃度。
 
-  When the gas analyzer is analyzing binary and trinary [textlink="devices" link="GasManipulation"] (devices with two and three inputs/outputs), it will display the composition of each input/output separately. This is useful for troubleshooting gas [textlink="mixing and filtering" link="MixingAndFiltering"] setups.
+  當氣體分析儀正在分析二元及三元 [textlink="裝置" link="GasManipulation"]（即具備兩個或三個輸入／輸出的裝置）時，它會分別顯示每個輸入／輸出的組成。 這對於排除氣體 [textlink="混合與過濾" link="MixingAndFiltering"] 系統的故障非常有用。
 
 </Document>

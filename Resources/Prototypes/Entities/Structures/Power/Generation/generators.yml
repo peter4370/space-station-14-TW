@@ -4,8 +4,8 @@
   abstract: true
   parent: [ BaseMachine, StructureHealthMachineWeak ]
   id: BaseGenerator
-  description: A high efficiency thermoelectric generator.
-  name: generator
+  description: 一款高效率的熱電發電機。 | A high efficiency thermoelectric generator.
+  name: 發電機 | generator
   components:
   - type: AmbientSound
     range: 5
@@ -79,8 +79,8 @@
   abstract: true
   id: BaseGeneratorWallmount
   parent: [ BaseGenerator, BaseWallmount ]
-  name: wallmount generator
-  description: A high efficiency thermoelectric generator stuffed in a wall cabinet.
+  name: 壁掛式發電機 | wallmount generator
+  description: 一台塞進壁櫃裡的高效率熱電發電機。 | A high efficiency thermoelectric generator stuffed in a wall cabinet.
   components:
   - type: AmbientOnPowered
   - type: AmbientSound
@@ -126,8 +126,8 @@
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   categories: [ HideSpawnMenu ]
   id: BaseGeneratorWallmountFrame
-  name: wallmount generator frame
-  description: A construction frame for a wallmount generator.
+  name: 壁掛式發電機框架 | wallmount generator frame
+  description: 一款壁掛式發電機的安裝支架。 | A construction frame for a wallmount generator.
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -187,8 +187,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
-  name: shuttle APU
-  description: An auxiliary power unit for a shuttle - 6kW.
+  name: 太空梭輔助動力單元 | shuttle APU
+  description: 一臺用於太空梭的輔助動力單元——6千瓦。 | An auxiliary power unit for a shuttle - 6kW.
   suffix: APU, 6kW
   components:
   - type: PowerSupplier
@@ -211,8 +211,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPULV
-  name: shuttle LV APU
-  description: An advanced auxiliary power unit for a shuttle.
+  name: 太空梭 LV 輔助動力單元 | shuttle LV APU
+  description: 一款用於太空梭的先進輔助動力單元。 | An advanced auxiliary power unit for a shuttle.
   components:
   - type: NodeContainer
     examinable: true
@@ -282,8 +282,8 @@
 - type: entity
   parent: [ BaseRTG, StructureHealthMachineStrong ]
   id: GeneratorRTG
-  name: RTG
-  description: A Radioisotope Thermoelectric Generator for long term power.
+  name: RTG | RTG
+  description: 一款用於長期供電的放射性同位素熱電發電機。 | A Radioisotope Thermoelectric Generator for long term power.
   suffix: 10kW
   components:
   - type: Sprite
@@ -313,8 +313,8 @@
 - type: entity
   parent: [ BaseRTG, StructureHealthMachineFlimsy ]
   id: GeneratorRTGDamaged
-  name: damaged RTG
-  description: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+  name: 損壞的放射性同位素發電裝置 (RTG) | damaged RTG
+  description: 一款用於長期供電的放射性同位素熱電發電機。這台的屏蔽層已受損。 | A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
   suffix: 10kW
   components:
   - type: Sprite

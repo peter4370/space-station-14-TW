@@ -1,8 +1,9 @@
-<Document>
-  # Space Law: Crime Listing
-  Crime codes are colored by linked crime groups, which are classifications of crimes that are similar in nature. These classifications are useful for differentiating violent criminals from anti-authoritarian ones, for example.
 
-  ## Quick Crime Guide
+<Document>
+  # 太空法：犯罪清單
+  犯罪代碼的顏色取決於其所屬的犯罪群組，這些群組是根據犯罪性質相似性所進行的分類。 這些分類有助於區分暴力罪犯與反權威型罪犯，例如。
+
+  ## 犯罪速查指南
   <Table Columns="6">
     <ColorBox>
       <Box>
@@ -236,9 +237,9 @@
     </ColorBox>
   </Table>
 
-  ## Minor Crimes
-  - Warnings should be issued for a first offense.
-  - If multiple minor crimes have been committed or it is a repeat offense, then 5 minutes is the maximum sentence for a minor crime.
+  ## 輕微犯罪
+  - 初犯應予以警告。
+  - 若犯下多項輕微罪行，或屬累犯，則輕微罪行的最高刑期為 5 分鐘。
   <Table Columns="4">
     <ColorBox>
       <Box>
@@ -388,9 +389,9 @@
     </ColorBox>
   </Table>
 
-  ## Moderate Crimes
-  - The maximum sentence for a moderate crime is 5 minutes.
-  - Depending on the situation, you may want to issue a warning instead of detaining.
+  ## 中度罪行
+  - 中度罪行的最高刑期為 5 分鐘。
+  - 視情況而定，您或許應選擇給予警告，而非將其拘留。
   <Table Columns="4">
     <ColorBox>
       <Box>
@@ -541,9 +542,9 @@
     </ColorBox>
   </Table>
 
-  ## Major Crimes
-  - The maximum sentence for a major crime is 10 minutes.
-  - It is recommended not to use maximum sentences for those who are compliant.
+  ## 重大罪行
+  - 重大罪行的最高刑期為 10 分鐘。
+  - 建議對遵守規定的當事人，不要判處最高刑期。
   <Table Columns="4">
     <ColorBox>
       <Box>
@@ -648,8 +649,8 @@
     </ColorBox>
   </Table>
 
-  ## Extreme Crimes
-  - The maximum sentence for an extreme crime is 15 minutes.
+  ## 極度罪行
+  - 極度罪行的最高刑期為 15 分鐘。
   <Table Columns="4">
     <ColorBox>
       <Box>
@@ -755,8 +756,8 @@
     </ColorBox>
   </Table>
 
-  ## Capital Crimes
-  - Capital crimes should usually lead to a death sentence or shift-lasting detainment.
+  ## 死罪
+  - 死罪通常應判處死刑或長期監禁。
   <Table Columns="4">
     <ColorBox>
       <Box>
@@ -810,7 +811,7 @@
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Summed up, extreme sabotage of station systems or setting off self-destruction systems. This includes any means that cause the 
+        Summed up, extreme sabotage of station systems or setting off self-destruction systems. This includes any means that cause the
         entire station to become uninhabitable, releasing an active singularity, station-wide atmospherics sabotage, and destruction of the station AI all fall into this category.
       </Box>
     </ColorBox>

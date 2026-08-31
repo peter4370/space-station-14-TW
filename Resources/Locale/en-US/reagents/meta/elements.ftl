@@ -1,65 +1,44 @@
-reagent-name-aluminium = aluminium
-reagent-desc-aluminium = A silver, soft, non-magnetic, and ductile metal.
-
+reagent-name-aluminium = 鋁 aluminium
+reagent-desc-aluminium = 一種銀白色、質地柔軟、無磁性且延展性良好的金屬。
 reagent-name-ash = ash
-reagent-desc-ash = A light grey powdery residue
-
-reagent-name-carbon = carbon
-reagent-desc-carbon = A black, crystalline solid.
-
-reagent-name-charcoal = charcoal
-reagent-desc-charcoal = A black, porous solid
-
-reagent-name-chlorine = chlorine
-reagent-desc-chlorine = A yellow-green gas which is toxic to humans.
-
-reagent-name-copper = copper
-reagent-desc-copper = A soft, malleable, and ductile metal with very high thermal and electrical conductivity.
-
-reagent-name-fluorine = fluorine
-reagent-desc-fluorine = A highly toxic pale yellow gas. Extremely reactive.
-
-reagent-name-gold = gold
-reagent-desc-gold = Gold is a dense, soft, shiny metal and the most malleable and ductile metal known.
-
-reagent-name-hydrogen = hydrogen
-reagent-desc-hydrogen = A light, flammable gas.
-
-reagent-name-iodine = iodine
-reagent-desc-iodine = Commonly added to table salt as a nutrient. On its own it tastes far less pleasing.
-
-reagent-name-iron = iron
-reagent-desc-iron = A silvery-grey metal which forms iron oxides (rust) with contact with air. Commonly alloyed with other elements to create alloys such as steel.
-
-reagent-name-lithium = lithium
-reagent-desc-lithium = A soft, silvery-white alkali metal. It's highly reactive, and ignites if it makes contact with water.
-
-reagent-name-mercury = mercury
-reagent-desc-mercury = A silver metal which is liquid at room temperature. It's highly toxic to humans.
-
-reagent-name-potassium = potassium
-reagent-desc-potassium = A soft, shiny grey metal. Even more reactive than lithium.
-
-reagent-name-phosphorus = phosphorus
-reagent-desc-phosphorus = A reactive metal used in pyrotechnics and weapons.
-
-reagent-name-radium = radium
-reagent-desc-radium = A radioactive metal, silvery-white in its pure form. It glows due to its radioactivity and is highly toxic.
-
-reagent-name-silicon = silicon
-reagent-desc-silicon = A hard and brittle crystalline solid with a blue-grey color.
-
-reagent-name-silver = silver
-reagent-desc-silver = A soft, white, lustrous transition metal, it has the highest electrical conductivity of any element and the highest thermal conductivity of any metal.
-
-reagent-name-sulfur = sulfur
-reagent-desc-sulfur = A yellow, crystalline solid.
-
-reagent-name-sodium = sodium
-reagent-desc-sodium = A silvery-white alkali metal. Highly reactive in its pure form.
-
-reagent-name-uranium = uranium
-reagent-desc-uranium = A grey metallic chemical element in the actinide series, weakly radioactive.
-
-reagent-name-zinc = zinc
-reagent-desc-zinc = A silvery, brittle metal, often used in batteries to carry charge.
+reagent-desc-ash = 一層淺灰色的粉末狀殘留物
+reagent-name-carbon = 碳 carbon
+reagent-desc-carbon = 一種黑色、結晶狀的固體。
+reagent-name-charcoal = 木炭 charcoal
+reagent-desc-charcoal = 一種黑色、多孔的固體
+reagent-name-chlorine = 氯 chlorine
+reagent-desc-chlorine = 一種對人體有毒的黃綠色氣體。
+reagent-name-copper = 銅 copper
+reagent-desc-copper = 一種柔軟、易塑且延展性佳的金屬，具有極高的熱導率與電導率。
+reagent-name-fluorine = 氟 fluorine
+reagent-desc-fluorine = 一種劇毒的淡黃色氣體。極具反應性。
+reagent-name-gold = 黃金
+reagent-desc-gold = 黃金是一種密度高、質地柔軟、光澤亮麗的金屬，也是已知延展性與可塑性最強的金屬。
+reagent-name-hydrogen = 氫 hydrogen
+reagent-desc-hydrogen = 一種輕質、易燃的氣體。
+reagent-name-iodine = 碘 iodine
+reagent-desc-iodine = 通常作為營養素添加到食鹽中。單獨食用時，味道遠不如食鹽可口。
+reagent-name-iron = 鐵
+reagent-desc-iron = 一種銀灰色的金屬，接觸空氣後會形成氧化鐵（鏽）。通常與其他元素結合，製成鋼等合金。
+reagent-name-lithium = 鋰 lithium
+reagent-desc-lithium = 一種柔軟、呈銀白色的鹼金屬。它極具反應性，若接觸到水便會自燃。
+reagent-name-mercury = 汞 mercury
+reagent-desc-mercury = 一種在室溫下呈液態的銀色金屬。它對人類具有高度毒性。
+reagent-name-potassium = 鉀 potassium
+reagent-desc-potassium = 一種柔軟、光亮的灰色金屬。其化學活性甚至比鋰還要高。
+reagent-name-phosphorus = 磷 phosphorus
+reagent-desc-phosphorus = 一種用於煙火及武器的活性金屬。
+reagent-name-radium = 鐳 radium
+reagent-desc-radium = 一種放射性金屬，純態時呈銀白色。由於其放射性而會發光，且毒性極強。
+reagent-name-silicon = 矽 silicon
+reagent-desc-silicon = 一種呈藍灰色、質地堅硬且易碎的結晶狀固體。
+reagent-name-silver = 銀
+reagent-desc-silver = 這是一種柔軟、白色且具光澤的過渡金屬，其電導率在所有元素中最高，熱導率在所有金屬中亦居首位。
+reagent-name-sulfur = 硫磺 sulfur
+reagent-desc-sulfur = 一種黃色的結晶狀固體。
+reagent-name-sodium = 鈉 sodium
+reagent-desc-sodium = 一種銀白色的鹼金屬。純態時極具反應性。
+reagent-name-uranium = 鈾
+reagent-desc-uranium = 錒系中一種灰色的金屬化學元素，具有微弱的放射性。
+reagent-name-zinc = 鋅 zinc
+reagent-desc-zinc = 一種銀白色、易碎的金屬，常被用於電池中以儲存電荷。

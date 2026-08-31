@@ -44,7 +44,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadLightBase
-  name: base helmet with light
+  name: 配備燈光的基礎頭盔 | base helmet with light
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: ContainerContainer
     containers:
@@ -113,7 +113,7 @@
   abstract: true
   parent: [ ClothingHeadBase, TemperatureProtection ]
   id: ClothingHeadEVAHelmetBase
-  name: base space helmet
+  name: 基礎太空頭盔 | base space helmet
   components:
 # SlotBlocker blocked until UI change
 #  - type: SlotBlock
@@ -148,7 +148,7 @@
   abstract: true
   parent: TemperatureProtection
   id: ClothingHeadHardsuitBase
-  name: base hardsuit helmet
+  name: 基礎型硬質裝甲頭盔 | base hardsuit helmet
   categories: [ HideSpawnMenu ]
   components:
 # SlotBlocker blocked until UI change
@@ -205,7 +205,7 @@
   # No parent since it isn't an item
   # must parent both this and the desired helmet base when using
   id: ClothingHeadSuitWithLightBase
-  name: base hardsuit helmet with light
+  name: 配備燈光的基本型硬式戰甲頭盔 | base hardsuit helmet with light
   categories: [ HideSpawnMenu ]
   components:
 # SlotBlocker blocked until UI change
@@ -268,8 +268,8 @@
   abstract: true
   parent: TemperatureProtectionMinimal
   id: ClothingHeadHatHoodWinterBase
-  name: base winter coat hood
-  description: A hood, made to keep your head warm.
+  name: 基礎款冬季大衣連帽款 | base winter coat hood
+  description: 一款專為保暖頭部而設計的兜帽。 | A hood, made to keep your head warm.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

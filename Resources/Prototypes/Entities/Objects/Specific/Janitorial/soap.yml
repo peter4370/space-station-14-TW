@@ -4,7 +4,7 @@
   abstract: true
   parent: [SolutionSoapBase, BaseItem]
   id: BaseSoap
-  name: soap
+  name: 肥皂 soap | soap
   components:
   - type: Tag
     tags:
@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseSoap
   id: Soap
-  description: A cheap bar of soap. Doesn't smell.
+  description: 一塊便宜的肥皂。沒有味道。 | A cheap bar of soap. Doesn't smell.
   components:
   - type: Sprite
     layers:
@@ -90,7 +90,7 @@
 - type: entity
   parent: Soap
   id: SoapNT
-  description: A Nanotrasen brand bar of soap. Smells of plasma.
+  description: 一塊 Nanotrasen 品牌的香皂。散發著血漿的香氣。 | A Nanotrasen brand bar of soap. Smells of plasma.
   components:
   - type: Sprite
     layers:
@@ -113,7 +113,7 @@
 - type: entity
   parent: Soap
   id: SoapDeluxe
-  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
+  description: 一款「Waffle Co.」品牌的豪華香皂。散發著草莓香氣。 | A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
   components:
   - type: Sprite
     layers:
@@ -129,7 +129,7 @@
 - type: entity
   parent: [Soap, BaseSyndicateContraband]
   id: SoapSyndie
-  description: An untrustworthy bar of soap. Smells of fear.
+  description: 一塊不可信的肥皂。散發著恐懼的氣味。 | An untrustworthy bar of soap. Smells of fear.
   components:
   - type: Sprite
     layers:
@@ -158,8 +158,8 @@
 - type: entity
   parent: BaseSoap
   id: SoapletSyndie
-  name: soaplet
-  description: A tiny piece of syndicate soap.
+  name: soaplet | soaplet
+  description: 一塊小小的黑幫肥皂劇。 | A tiny piece of syndicate soap.
   categories: [ HideSpawnMenu ]
   components:
   - type: Solution
@@ -211,7 +211,7 @@
 - type: entity
   parent: Soap
   id: SoapHomemade
-  description: A homemade bar of soap. Smells of... well....
+  description: 一塊自製的肥皂。聞起來有種……嗯…… | A homemade bar of soap. Smells of... well....
   components:
   - type: Sprite
     layers:
@@ -231,8 +231,8 @@
 - type: entity
   parent: [SolutionLarge, BaseSoap]
   id: SoapOmega
-  name: omega soap
-  description: The most advanced soap known to mankind. Smells of bluespace.
+  name: 歐米茄香皂 | omega soap
+  description: 人類迄今所知最先進的肥皂。散發著「藍色空間」的香氣。 | The most advanced soap known to mankind. Smells of bluespace.
   components:
   - type: Sprite
     layers:

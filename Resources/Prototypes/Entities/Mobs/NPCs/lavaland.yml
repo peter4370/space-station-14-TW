@@ -1,9 +1,9 @@
 ﻿- type: entity
-  name: watcher
+  name: 觀察者 | watcher
   id: MobWatcherBase
   parent: [ SimpleSpaceMobBase, FlyingMobBase, BaseSlicingRefinable, BaseMobDestructible ]
   abstract: true
-  description: It's like it's staring right through you.
+  description: 感覺就像它正穿透你的身體直視著你。 | It's like it's staring right through you.
   components:
   - type: NpcFactionMember
     factions:
@@ -93,7 +93,7 @@
 - type: entity
   id: MobWatcherIcewing
   parent: MobWatcherBase
-  name: icewing watcher
+  name: 冰翼觀察者 | icewing watcher
   components:
   - type: Sprite
     layers:
@@ -111,7 +111,7 @@
 - type: entity
   id: MobWatcherMagmawing
   parent: MobWatcherBase
-  name: magmawing watcher
+  name: 岩漿之翼守望者 | magmawing watcher
   components:
   - type: Sprite
     layers:
@@ -132,9 +132,9 @@
 - type: entity
   id: MobWatcherPride
   parent: MobWatcherBase
-  name: pride watcher
+  name: 驕傲觀察者 | pride watcher
   suffix: Admeme
-  description: This rare subspecies only appears in June.
+  description: 這種罕見的亞種僅在六月出現。 | This rare subspecies only appears in June.
   components:
   - type: Sprite
     layers:

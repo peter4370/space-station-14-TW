@@ -1,15 +1,16 @@
-﻿<Document>
-  # Passive Gate
-  The passive gate is a simple one-way valve that prevents gasses from flowing backwards.
+﻿
+<Document>
+  # 被動式閘閥
+  被動式閘閥是一種簡單的單向閥，可防止氣體逆向流動。
   <Box>
     <GuideEntityEmbed Entity="GasPassiveGate"/>
   </Box>
 
-  The valve's input is on the side of the [color=red]red[/color] circle.
-  The valve also shows the current flow rate of the pipe when examined.
+  閥門的進水口位於 [color=red]紅色[/color] 圓圈的一側。
+  檢查該閥門時，亦可顯示管線當前的流量。
 
-  It's useful in many applications, for example:
-  - Preventing a pure gas from getting contaminated via a mixed gas flowing back through the pipe.
-  - Preventing pressure or temperature changes across two [textlink="pipenets" link="PipeNetworks"] in the opposite direction.
-  - Quickly checking the flow rate on a pipenet without needing a [textlink="gas analyzer" link="AtmosTools"].
+  它在許多應用中都很有用，例如：
+  - 防止純氣體因混合氣體逆流通過管路而受到污染。
+  - 防止兩個 [textlink="pipenets" link="PipeNetworks"] 之間的壓力或溫度變化朝相反方向發生。
+  - 無需使用 [textlink="氣體分析儀" link="AtmosTools"]，即可快速檢測管網的流量。
 </Document>

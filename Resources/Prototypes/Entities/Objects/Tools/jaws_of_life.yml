@@ -1,8 +1,8 @@
 - type: entity
-  name: jaws of life
+  name: 救生鉗 | jaws of life
   parent: BaseItem
   id: JawsOfLife
-  description: A set of jaws of life, compressed through the magic of science.
+  description: 一套「生命鉗」，透過科學的魔力被壓縮而成。 | A set of jaws of life, compressed through the magic of science.
   components:
   - type: Tag
     tags:
@@ -69,10 +69,10 @@
       collection: MetalThud
 
 - type: entity
-  name: syndicate jaws of death
+  name: 「死亡之顎」犯罪集團 | syndicate jaws of death
   parent: [ JawsOfLife, BaseSyndicateContraband]
   id: SyndicateJawsOfLife
-  description: Useful for breaking into secure areas and other nefarious activities.
+  description: 可用於闖入受保護區域及其他不法活動。 | Useful for breaking into secure areas and other nefarious activities.
   components:
   - type: Sprite
     sprite: Objects/Tools/jaws_of_life.rsi
@@ -121,10 +121,10 @@
     price: 1000
 
 - type: entity
-  name: xenoborg jaws of death
+  name: 異星機器人「死亡之顎」 | xenoborg jaws of death
   parent: [JawsOfLife, BaseXenoborgContraband ]
   id: XenoborgJawsOfLife
-  description: Useful for prying open bolted doors where organics are hiding.
+  description: 適用於撬開有有機物藏匿的螺栓門。 | Useful for prying open bolted doors where organics are hiding.
   components:
   - type: Sprite
     sprite: Objects/Tools/jaws_of_life.rsi

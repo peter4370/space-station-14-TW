@@ -31,8 +31,8 @@
   parent: GasTrinaryBase
   id: !type:CreateVariants
     values: [ GasFilter, GasFilterAlt1, GasFilterAlt2 ]
-  name: gas filter
-  description: Very useful for filtering gases.
+  name: 氣體過濾器 | gas filter
+  description: 對於過濾氣體非常有用。 | Very useful for filtering gases.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -94,7 +94,7 @@
   parent: GasFilter
   id: !type:CreateVariants
     values: [ GasFilterFlipped, GasFilterFlippedAlt1, GasFilterFlippedAlt2 ]
-  name: gas filter
+  name: 氣體過濾器 | gas filter
   suffix: Flipped
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
@@ -147,8 +147,8 @@
   parent: GasTrinaryBase
   id: !type:CreateVariants
     values: [ GasMixer, GasMixerAlt1, GasMixerAlt2 ]
-  name: gas mixer
-  description: Very useful for mixing gases.
+  name: 氣體混合器 | gas mixer
+  description: 對於氣體混合非常有用。 | Very useful for mixing gases.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -210,7 +210,7 @@
   parent: GasMixer
   id: !type:CreateVariants
     values: [ GasMixerFlipped, GasMixerFlippedAlt1, GasMixerFlippedAlt2 ]
-  name: gas mixer
+  name: 氣體混合器 | gas mixer
   suffix: Flipped
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
@@ -260,8 +260,8 @@
   parent: GasPipeBase
   id: !type:CreateVariants
     values: [ PressureControlledValve, PressureControlledValveAlt1, PressureControlledValveAlt2 ]
-  name: pneumatic valve
-  description: A bidirectional valve controlled by pressure. Opens if the output pipe is lower than the pressure of the control pipe by 101.325 kPa.
+  name: 氣動閥 | pneumatic valve
+  description: 一種由壓力控制的雙向閥。若輸出管內的壓力比控制管內的壓力低 101.325 kPa，則閥門開啟。 | A bidirectional valve controlled by pressure. Opens if the output pipe is lower than the pressure of the control pipe by 101.325 kPa.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:

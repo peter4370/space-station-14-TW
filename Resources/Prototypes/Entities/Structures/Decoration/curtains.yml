@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BaseCurtains
   parent: BaseStructure
-  name: curtains
-  description: Hides what others shouldn't see.
+  name: 窗簾 | curtains
+  description: 隱藏他人不該看見的內容。 | Hides what others shouldn't see.
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -60,7 +60,7 @@
   id: HospitalCurtains
   parent: BaseCurtains
   suffix: Hospital
-  description: Contains less than 1% mercury.
+  description: 汞含量低於 1%。 | Contains less than 1% mercury.
   components:
   - type: Sprite
     sprite: Structures/Decoration/Curtains/hospital.rsi

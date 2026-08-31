@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMinorContraband
   id: ThiefBeacon
-  name: thieving beacon
-  description: A device that will teleport everything around it to the thief's vault at the end of the shift.
+  name: 竊盜信標 | thieving beacon
+  description: 一種裝置，能在輪班結束時將周圍的一切傳送至竊賊的金庫中。 | A device that will teleport everything around it to the thief's vault at the end of the shift.
   components:
     - type: ThiefBeacon
     - type: StealArea
@@ -41,8 +41,8 @@
 
 - type: entity
   id: ToolboxThief
-  name: undetermined thieving toolbox
-  description: This is where your favorite thief's supplies lie. Try to remember which ones.
+  name: 無法辨識的竊盜工具箱 | undetermined thieving toolbox
+  description: 這裡就是你最喜歡的盜賊所藏的補給品所在之處。試著記住有哪些東西。 | This is where your favorite thief's supplies lie. Try to remember which ones.
   parent: [ BaseItem, BaseMinorContraband ]
   components:
   - type: Sprite
@@ -67,8 +67,8 @@
 
 - type: entity
   id: SatchelThief
-  name: undetermined thieving satchel
-  description: This is where your favorite thief's supplies lie. Folded for your convenience.
+  name: 來歷不明的竊盜包 | undetermined thieving satchel
+  description: 這裡就是你最喜愛的竊賊的補給品所在之處。已為你摺疊好，方便攜帶。 | This is where your favorite thief's supplies lie. Folded for your convenience.
   parent: ToolboxThief
   components:
   - type: Sprite

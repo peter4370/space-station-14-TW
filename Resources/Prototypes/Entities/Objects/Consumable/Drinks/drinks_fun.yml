@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseSqueezeBottle
   id: DrinkSpaceGlue
-  name: space glue tube
-  description: High performance glue intended for maintenance of extremely complex mechanical equipment. DON'T DRINK!
+  name: 太空膠管 | space glue tube
+  description: 這款高性能黏合劑專為極其複雜的機械設備維護而設計。請勿飲用！ | High performance glue intended for maintenance of extremely complex mechanical equipment. DON'T DRINK!
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/glue-tube.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseSqueezeBottle
   id: DrinkSpaceLube
-  name: space lube tube
-  description: High performance lubricant intended for maintenance of extremely complex mechanical equipment.
+  name: 太空潤滑管 | space lube tube
+  description: 一款專為維護極其複雜的機械設備而設計的高性能潤滑劑。 | High performance lubricant intended for maintenance of extremely complex mechanical equipment.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lube-tube.rsi
@@ -53,9 +53,9 @@
 - type: entity
   parent: BluespaceBeaker
   id: BottomlessLube
-  name: bottomless lube beaker
+  name: 無底潤滑劑量杯 | bottomless lube beaker
   suffix: DEBUG
-  description: This anomalous beaker infinitely produces space lube and as such is to be closely guarded such that it doesn't fall in the wrong hands.
+  description: 這只異常的燒杯能無限生產太空潤滑劑，因此必須嚴加看管，以免落入不法之徒手中。 | This anomalous beaker infinitely produces space lube and as such is to be closely guarded such that it doesn't fall in the wrong hands.
   components:
   - type: Solution
     solution:
@@ -71,8 +71,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase]
   id: DrinkJarWhat
-  name: jar of something
-  description: You can't really tell what this is.
+  name: 一罐什麼東西 | jar of something
+  description: 實在很難說這到底是什麼。 | You can't really tell what this is.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar_what.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassSmallBaseFull]
   id: DrinkMopwataBottleRandom
-  name: delicious mopwata
-  description: A foggy brown bottle with a faded label depicting a mop. It comes full of murky... vintage.
+  name: 美味的莫帕塔 | delicious mopwata
+  description: 一瓶霧蒙蒙的棕色玻璃瓶，瓶身上的標籤已褪色，畫著一把拖把。瓶內裝滿了渾濁的……陳年酒液。 | A foggy brown bottle with a faded label depicting a mop. It comes full of murky... vintage.
   components:
   - type: Solution
     solution:

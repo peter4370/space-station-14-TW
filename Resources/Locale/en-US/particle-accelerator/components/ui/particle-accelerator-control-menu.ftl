@@ -1,23 +1,22 @@
-particle-accelerator-control-menu-on-button = On
-particle-accelerator-control-menu-off-button = Off
-particle-accelerator-control-menu-service-manual-reference = Refer to p.132 of service manual
-particle-accelerator-control-menu-device-version-label = Mark 2 Particle Accelerator
-particle-accelerator-control-menu-power-label = [bold]Power:[/bold]
-particle-accelerator-control-menu-strength-label = [bold]Strength:[/bold]
-particle-accelerator-control-menu-alarm-control-1 = [bold][color=red]PARTICLE STRENGTH[/bold][/color]
-particle-accelerator-control-menu-alarm-control-2 = [bold][color=red]LIMITER FAILURE[/bold][/color]
-particle-accelerator-control-menu-scan-parts-button = Scan Parts
-particle-accelerator-control-menu-check-containment-field-warning = Ensure containment field is active before operation
-particle-accelerator-control-menu-status-label = [bold]Status:[/bold]
-particle-accelerator-control-menu-status-unknown = [font="Monospace"][color=red]Unknown[/color][/bold]
-particle-accelerator-control-menu-status-operational = [font="Monospace"][color=green]Operational[/color][/bold]
-particle-accelerator-control-menu-status-incomplete = [font="Monospace"][color=red]Incomplete[/color][/bold]
-particle-accelerator-control-menu-draw = [bold]Draw:[/bold]
-particle-accelerator-control-menu-draw-value = [font="Monospace"]{$watts}/{$lastReceive}[/font]
-particle-accelerator-control-menu-draw-not-available = [font="Monospace"][color=gray]N/A[/color][/font]
-particle-accelerator-control-menu-flavor-left = Please keep the clown away from this console!
+particle-accelerator-control-menu-on-button = 開啟
+particle-accelerator-control-menu-off-button = 關閉
+particle-accelerator-control-menu-service-manual-reference = 請參閱維修手冊第 132 頁
+particle-accelerator-control-menu-device-version-label = Mark 2 粒子加速器
+particle-accelerator-control-menu-power-label = [粗體]功率：[/粗體]
+particle-accelerator-control-menu-strength-label = [粗體]優勢：[/粗體]
+particle-accelerator-control-menu-alarm-control-1 = [粗體][顏色=紅色]粒子強度[/粗體][/顏色]
+particle-accelerator-control-menu-alarm-control-2 = [粗體][顏色=紅色]限流器故障[/粗體][/顏色]
+particle-accelerator-control-menu-scan-parts-button = 掃描零件
+particle-accelerator-control-menu-check-containment-field-warning = 操作前請確保隔離場處於啟用狀態
+particle-accelerator-control-menu-status-label = [粗體]狀態：[/粗體]
+particle-accelerator-control-menu-status-unknown = [font="Monospace"][color=red]未知[/color][/bold]
+particle-accelerator-control-menu-status-operational = [font="Monospace"][color=green]運作中[/color][/bold]
+particle-accelerator-control-menu-status-incomplete = [font="Monospace"][color=red]未完成[/color][/bold]
+particle-accelerator-control-menu-draw = [粗體]繪圖：[/粗體]
+particle-accelerator-control-menu-draw-value = [font="Monospace"]{ $watts }/{ $lastReceive }[/font]
+particle-accelerator-control-menu-draw-not-available = [font="Monospace"][color=gray]不適用[/color][/font]
+particle-accelerator-control-menu-flavor-left = 請讓那個小丑遠離這台遊戲主機！
 particle-accelerator-control-menu-flavor-right = v 1.6
-
-particle-accelerator-radio-message-on = PA power has been switched on.
-particle-accelerator-radio-message-off = PA power has been switched off.
-particle-accelerator-radio-message-num = PA strength has been set to level {$level}.
+particle-accelerator-radio-message-on = PA 電源已開啟。
+particle-accelerator-radio-message-off = PA 的電源已關閉。
+particle-accelerator-radio-message-num = PA 強度已設定為 { $level } 級。

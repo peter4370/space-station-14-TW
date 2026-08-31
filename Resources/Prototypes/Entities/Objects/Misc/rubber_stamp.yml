@@ -1,8 +1,8 @@
 - type: entity
-  name: generic rubber stamp
+  name: 通用橡皮章 | generic rubber stamp
   parent: BaseItem
   id: RubberStampBase
-  description: A rubber stamp for stamping important documents.
+  description: 一款用於蓋章的重要文件用橡皮章。 | A rubber stamp for stamping important documents.
   abstract: true
   components:
   - type: Stamp
@@ -32,7 +32,7 @@
     stealGroup: Stamp
 
 - type: entity
-  name: alternate rubber stamp
+  name: 備用橡皮章 | alternate rubber stamp
   parent: RubberStampBase
   id: RubberStampBaseAlt
   abstract: true
@@ -47,7 +47,7 @@
         maxDistance: 5
 
 - type: entity
-  name: captain's rubber stamp
+  name: 船長專用橡皮印章 | captain's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampCaptain
   categories: [ DoNotMap ]
@@ -70,7 +70,7 @@
         color: "#3681bb"
 
 - type: entity
-  name: CentComm rubber stamp
+  name: CentComm 橡皮章 | CentComm rubber stamp
   parent: RubberStampBase
   id: RubberStampCentcom
   categories: [ DoNotMap ]
@@ -93,7 +93,7 @@
         color: "#006600"
 
 - type: entity
-  name: chaplain's rubber stamp
+  name: 軍牧的橡皮章 | chaplain's rubber stamp
   parent: RubberStampBase
   id: RubberStampChaplain
   categories: [ DoNotMap ]
@@ -116,7 +116,7 @@
         color: "#7f7f7f"
 
 - type: entity
-  name: lawyer's rubber stamp
+  name: 律師的橡皮章 | lawyer's rubber stamp
   parent: RubberStampBase
   id: RubberStampLawyer
   categories: [ DoNotMap ]
@@ -139,7 +139,7 @@
         color: "#162742"
 
 - type: entity
-  name: clown's rubber stamp
+  name: 小丑的橡皮印章 | clown's rubber stamp
   parent: RubberStampBase
   id: RubberStampClown
   categories: [ DoNotMap ]
@@ -162,7 +162,7 @@
         color: "#ff33cc"
 
 - type: entity
-  name: chief engineer's rubber stamp
+  name: 總工程師的橡皮章 | chief engineer's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampCE
   categories: [ DoNotMap ]
@@ -185,7 +185,7 @@
         color: "#e09e00"
 
 - type: entity
-  name: chief medical officer's rubber stamp
+  name: 首席醫療官的橡皮章 | chief medical officer's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampCMO
   categories: [ DoNotMap ]
@@ -208,7 +208,7 @@
         color: "#3366ff"
 
 - type: entity
-  name: head of personnel's rubber stamp
+  name: 人事主管的橡皮章 | head of personnel's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampHop
   categories: [ DoNotMap ]
@@ -231,7 +231,7 @@
         color: "#004f71"
 
 - type: entity
-  name: head of security's rubber stamp
+  name: 安保主管的橡皮章 | head of security's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampHos
   categories: [ DoNotMap ]
@@ -254,7 +254,7 @@
         color: "#cc0000"
 
 - type: entity
-  name: mime's rubber stamp
+  name: 米姆的橡皮章 | mime's rubber stamp
   parent: RubberStampBase
   id: RubberStampMime
   categories: [ DoNotMap ]
@@ -278,7 +278,7 @@
         color: "#777777"
 
 - type: entity
-  name: quartermaster's rubber stamp
+  name: 司務長的橡皮章 | quartermaster's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampQm
   categories: [ DoNotMap ]
@@ -301,7 +301,7 @@
         color: "#906633"
 
 - type: entity
-  name: research director's rubber stamp
+  name: 科學總監的橡皮章 | research director's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampRd
   categories: [ DoNotMap ]
@@ -324,7 +324,7 @@
         color: "#7e59bb"
 
 - type: entity
-  name: trader's rubber stamp
+  name: 交易員的橡皮章 | trader's rubber stamp
   parent: RubberStampBase
   id: RubberStampTrader
   components:
@@ -346,7 +346,7 @@
         color: "#000000"
 
 - type: entity
-  name: syndicate rubber stamp
+  name: 辛迪加橡皮章 | syndicate rubber stamp
   parent: [RubberStampBase, BaseSyndicateContraband]
   id: RubberStampSyndicate
   categories: [ DoNotMap ]
@@ -371,7 +371,7 @@
         color: "#850000"
 
 - type: entity
-  name: warden's rubber stamp
+  name: 典獄長的橡皮印章 | warden's rubber stamp
   parent: [RubberStampBase, BaseSecurityContraband]
   id: RubberStampWarden
   categories: [ DoNotMap ]
@@ -394,7 +394,7 @@
         color: "#7b1d1f"
 
 - type: entity
-  name: APPROVED rubber stamp
+  name: 「已核准」印章 | APPROVED rubber stamp
   parent: RubberStampBaseAlt
   id: RubberStampApproved
   components:
@@ -416,7 +416,7 @@
         color: "#00be00"
 
 - type: entity
-  name: DENIED rubber stamp
+  name: 「駁回」橡皮章 | DENIED rubber stamp
   parent: RubberStampBaseAlt
   id: RubberStampDenied
   components:
@@ -438,7 +438,7 @@
         color: "#7d0b00"
 
 - type: entity
-  name: detective's rubber stamp
+  name: 偵探的橡皮印章 | detective's rubber stamp
   parent: [RubberStampBase, BaseSecurityContraband]
   id: RubberStampDetective
   categories: [ DoNotMap ]
@@ -461,10 +461,10 @@
         color: "#754731"
 
 - type: entity
-  name: greytide's rubber stamp
+  name: greytide 的橡皮章 | greytide's rubber stamp
   parent: RubberStampBase
   id: RubberStampGreytide
-  description: A rubber stamp for stamping important documents. The tide washes over you, just looking at it...
+  description: 一款用於蓋印重要文件的橡皮章。光是看著它，就讓人感覺彷彿被潮水淹沒…… | A rubber stamp for stamping important documents. The tide washes over you, just looking at it...
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-greytide
@@ -484,11 +484,11 @@
         color: "#323232"
 
 - type: entity
-  name: psychologist's rubber stamp
+  name: 心理學家的橡皮章 | psychologist's rubber stamp
   parent: RubberStampBase
   id: RubberStampPsychologist
   categories: [ DoNotMap ]
-  description: A rubber stamp for stamping important documents. Prescribe those treatments!
+  description: 一款用於蓋章的重要文件用橡皮章。開立這些治療處方吧！ | A rubber stamp for stamping important documents. Prescribe those treatments!
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-psychologist
@@ -508,10 +508,10 @@
         color: "#5B97BC"
 
 - type: entity
-  name: wizard's rubber stamp
+  name: 巫師的橡皮印章 | wizard's rubber stamp
   parent: [RubberStampBase, BaseMagicalContraband]
   id: RubberStampWizard
-  description: A chaotic wizard stamp for serving unchaotic paperwork, how ironic.
+  description: 一枚用來處理井然有序文書的混亂巫師印章，真是諷刺。 | A chaotic wizard stamp for serving unchaotic paperwork, how ironic.
   categories: [ DoNotMap ]
   components:
   - type: Stamp

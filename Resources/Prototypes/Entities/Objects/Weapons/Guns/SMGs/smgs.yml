@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseSMG
+  name: 基礎衝鋒槍 | BaseSMG
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: A rooty tooty point and shooty.
+  description: 一款超棒的隨拍相機。 | A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -37,7 +37,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 雜誌 | Magazine
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -47,7 +47,7 @@
             - MagazinePistolSubMachineGun
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 商會 | Chamber
         priority: 1
         whitelist:
           tags:
@@ -60,10 +60,10 @@
     price: 500
 
 - type: entity
-  name: Atreides
+  name: 阿特雷德家族 | Atreides
   parent: [BaseWeaponSubMachineGun, BaseMajorContraband]
   id: WeaponSubMachineGunAtreides
-  description: A rare machine pistol hailing from the Corporate Wars. Its extremely high fire rate and compact profile make it useful in close quarters combat. Despite its age, it is in remarkably good condition. Feeds from .35 SMG magazines.
+  description: 一款源自「企業戰爭」時期的稀有衝鋒手槍。其極高的射速與緊湊的機身設計，使其在近身戰中極具實用性。儘管年代久遠，但保存狀況卻出奇地良好。使用 .35 口徑衝鋒槍彈匣供彈。 | A rare machine pistol hailing from the Corporate Wars. Its extremely high fire rate and compact profile make it useful in close quarters combat. Despite its age, it is in remarkably good condition. Feeds from .35 SMG magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -83,10 +83,10 @@
   - type: Appearance
 
 - type: entity
-  name: C-20r submachine gun
+  name: C-20r 衝鋒槍 | C-20r submachine gun
   parent: [BaseWeaponSubMachineGun, BaseSyndicateContraband]
   id: WeaponSubMachineGunC20r
-  description: A classic and widespread submachine gun, infamous for its use by the Gorlex Marauders. One of the first homegrown Waffle Corp. designs, it remains in service today. Feeds from .35 SMG magazines.
+  description: 一款經典且廣泛使用的衝鋒槍，因被「戈勒克斯掠奪者」所使用而臭名昭著。這是「華夫公司」最早的自主設計之一，至今仍服役中。使用 .35 SMG 彈匣供彈。 | A classic and widespread submachine gun, infamous for its use by the Gorlex Marauders. One of the first homegrown Waffle Corp. designs, it remains in service today. Feeds from .35 SMG magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -123,10 +123,10 @@
     price: 5000
 
 - type: entity
-  name: C-20r ROW #I think ROW stands for Recharging Onboard Weapon so i'm following the L6C's example
+  name: C-20r 通行權 #I think ROW stands for Recharging Onboard Weapon so i'm following the L6C's example | C-20r ROW #I think ROW stands for Recharging Onboard Weapon so i'm following the L6C's example
   id: WeaponSubMachineGunC20rROW
   parent: BaseItem
-  description: A burst-fire C-20r submachine gun for use by cyborgs. Creates .35 caliber ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 一款供賽博格使用的 C-20r 連發衝鋒槍。透過內建的彈藥製造器即時生成 .35 口徑彈藥，該製造器會緩慢地自動重新裝填。 | A burst-fire C-20r submachine gun for use by cyborgs. Creates .35 caliber ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
   - type: Gun
     minAngle: 2
@@ -165,10 +165,10 @@
   - type: AmmoCounter
 
 - type: entity
-  name: Drozd
+  name: Drozd | Drozd
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunDrozd
-  description: A modern SMG manufactured by Nanotrasen’s Small Arms Division. It features an exceptional rate of fire in burst mode, useful for holding defensive angles or engaging hostiles at longer ranges. Feeds from .35 SMG magazines.
+  description: 一款由納諾特森（Nanotrasen）輕武器部門製造的現代衝鋒槍。其連發模式下擁有卓越的射速，既可用於守住防禦陣地，也能在較遠距離對敵人展開攻擊。使用 .35 衝鋒槍彈匣供彈。 | A modern SMG manufactured by Nanotrasen’s Small Arms Division. It features an exceptional rate of fire in burst mode, useful for holding defensive angles or engaging hostiles at longer ranges. Feeds from .35 SMG magazines.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -201,7 +201,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: 雜誌 | Magazine
           startingItem: MagazinePistolSubMachineGun
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -211,7 +211,7 @@
               - MagazinePistolSubMachineGun
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
-          name: Chamber
+          name: 商會 | Chamber
           priority: 1
           whitelist:
             tags:
@@ -223,10 +223,10 @@
     - type: Appearance
 
 - type: entity
-  name: WT550
+  name: WT550 | WT550
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunWt550
-  description: A truly unique firearm, the WT550 was designed by Nanotrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.
+  description: WT550 是一款真正獨特的槍械，由 Nanotrasen 的小型武器部門設計，是一款可單手完全操控的緊湊型衝鋒槍。它採用了獨特的內部後座緩衝裝置，並使用特製的頂置式 .35 口徑彈匣供彈。 | A truly unique firearm, the WT550 was designed by Nanotrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -262,7 +262,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 雜誌 | Magazine
         startingItem: MagazinePistolSubMachineGunTopMounted
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -272,7 +272,7 @@
             - MagazinePistolSubMachineGunTopMounted
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 商會 | Chamber
         priority: 1
         whitelist:
           tags:
@@ -284,10 +284,10 @@
   - type: Appearance
 
 - type: entity
-  name: brown briefcase
+  name: 棕色公事包 | brown briefcase
   parent: [BaseWeaponSubMachineGun]
   id: WeaponSubMachineGunBriefcase
-  description: Useful for carrying items in your hands.
+  description: 方便您用手攜帶物品。 | Useful for carrying items in your hands.
   suffix: Gun
   components:
   - type: Item

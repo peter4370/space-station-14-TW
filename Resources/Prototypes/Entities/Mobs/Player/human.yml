@@ -2,7 +2,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanSyndicateAgentBase
-  name: syndicate agent
+  name: 財團代理人 | syndicate agent
   suffix: Human, Base
   components:
   - type: RandomHumanoidAppearance
@@ -22,7 +22,7 @@
 - type: entity
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgent
-  name: syndicate agent
+  name: 財團代理人 | syndicate agent
   suffix: Human, Traitor
   components:
   # make the player a traitor once its taken
@@ -32,7 +32,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentMedic
-  name: syndicate medic
+  name: 黑幫醫護人員 | syndicate medic
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementMedic]
@@ -41,7 +41,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentSpy
-  name: syndicate spy
+  name: 黑幫間諜 | syndicate spy
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementSpy]
@@ -50,7 +50,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentThief
-  name: syndicate thief
+  name: 犯罪集團竊賊 | syndicate thief
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementThief]
@@ -72,7 +72,7 @@
 # Nuclear Operative
 - type: entity
   categories: [ HideSpawnMenu ]
-  name: Nuclear Operative
+  name: 核武特工 | Nuclear Operative
   parent: MobHuman
   id: MobHumanNukeOp
   components:
@@ -83,7 +83,7 @@
   categories: [ HideSpawnMenu ]
   parent: MobHuman
   id: MobHumanLoneNuclearOperative
-  name: Lone Operative
+  name: 獨行特工 | Lone Operative
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false
@@ -103,7 +103,7 @@
 # Wizard
 - type: entity
   categories: [ HideSpawnMenu ]
-  name: Wizard
+  name: 巫師 | Wizard
   parent: MobHuman
   id: MobHumanWizard
   components:

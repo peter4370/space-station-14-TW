@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxLightRifle
-  name: ammunition box (.30 rifle)
+  name: 彈藥箱（.30 步槍） | ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleBig
-  name: ammunition box (.30 rifle)
+  name: 彈藥箱（.30 步槍） | ammunition box (.30 rifle)
   suffix: Big
   components:
   - type: BallisticAmmoProvider
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifle
-  name: ammunition box (.30 rifle)
-  description: A cardboard box of .30 rifle rounds. Intended to hold general-purpose kinetic ammunition.
+  name: 彈藥箱（.30 步槍） | ammunition box (.30 rifle)
+  description: 一盒裝有.30口徑步槍子彈的紙箱。原定用於存放通用動能彈藥。 | A cardboard box of .30 rifle rounds. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRiflePractice
-  name: ammunition box (.30 rifle practice)
-  description: A cardboard box of .30 rifle rounds. Intended to hold harmless practice ammunition.
+  name: 彈藥箱（.30口徑步槍練習用） | ammunition box (.30 rifle practice)
+  description: 一個裝有.30口徑步槍子彈的紙箱。原本是用來裝無害的練習彈藥。 | A cardboard box of .30 rifle rounds. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleIncendiary
-  name: ammunition box (.30 rifle incendiary)
-  description: A cardboard box of .30 rifle rounds. Intended to hold self-igniting incendiary ammunition.
+  name: 彈藥箱（.30口徑步槍燃燒彈） | ammunition box (.30 rifle incendiary)
+  description: 一盒裝有 .30 口徑步槍子彈的紙箱。原定用於裝載自燃式燃燒彈。 | A cardboard box of .30 rifle rounds. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleUranium
-  name: ammunition box (.30 rifle uranium)
-  description: A cardboard box of .30 rifle rounds. Intended to hold exotic uranium-core ammunition.
+  name: 彈藥箱（.30口徑步槍鈾彈） | ammunition box (.30 rifle uranium)
+  description: 一盒裝有.30口徑步槍子彈的紙箱。原本是用來裝載特殊鈾芯彈藥的。 | A cardboard box of .30 rifle rounds. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium

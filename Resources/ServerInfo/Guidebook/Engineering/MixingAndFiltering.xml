@@ -1,55 +1,56 @@
+
 <Document>
-  # Mixing and Filtering
-  Gas mixers and filters are essential tools for manipulating the composition of gasses within a [textlink="pipe network" link="PipeNetworks"].
+  # 混合與過濾
+  氣體混合器與過濾器是調整 [textlink="管網" link="PipeNetworks"] 內氣體組成的必備工具。
   <Box>
     <GuideEntityEmbed Entity="GasMixer"/>
     <GuideEntityEmbed Entity="GasFilter"/>
   </Box>
 
-  ## Gas Mixer
-  Gas mixers are used to combine gasses in specific ratios within a [textlink="pipe network." link="PipeNetworks"]
-  They are essential for creating controlled gas mixtures for various applications.
+  ## 氣體混合器
+  氣體混合器用於在 [textlink="管網" link="PipeNetworks"]
+  內將氣體按特定比例混合。   它們對於製備適用於各種應用的受控氣體混合物至關重要。
 
-  Gas mixers have 3 connections: 2 inputs and 1 output, as shown below:
+  氣體混合器有 3 個連接埠：2 個輸入端和 1 個輸出端，如下圖所示：
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Primary" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="小學" Rotation="90"/>
     <GuideEntityEmbed Entity="GasMixer" Caption="" Rotation="90"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Output" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="輸出" Rotation="90"/>
   </Box>
 <Box>
-  <GuideEntityEmbed Entity="GasPipeStraight" Caption="Side"/>
+  <GuideEntityEmbed Entity="GasPipeStraight" Caption="側面"/>
 </Box>
 
-  Gas mixers will still respect the requested gas mixture even if one of the input gasses is not available. For example:
-  - If the requested mixture is 22% oxygen and 78% nitrogen, but there is no available oxygen, the mixer will not work until oxygen is available.
-  - If oxygen is available, but at a pressure lower than required to create the proper mixture at the requested pressure, the mixer will still create the mixture, but the output will be at a lower pressure than requested.
+  即使其中一種輸入氣體無法取得，氣體混合器仍會依照要求的氣體混合比例進行混合。 例如：
+  - 若所需混合氣體的成分為 22% 氧氣與 78% 氮氣，但當下沒有氧氣供應，則混合器將無法運作，直到有氧氣供應為止。
+  - 若有氧氣供應，但其壓力低於在指定壓力下形成適當混合氣所需的壓力，混合器仍會生成混合氣，但輸出壓力將低於指定值。
 
-  Gas mixers also mix gasses based on pressure, not on mols. This can cause problems if the gasses are at different temperatures. For example:
-  - Presume a gas mixer was asked to mix Oxygen and Nitrogen at a ratio of 1:2 at a certain pressure.
-  - The Nitrogen in this case is double the temperature of the Oxygen.
-  - Hotter gas has more pressure, and thus fewer mols per volume than Oxygen.
-  - Because of this, Nitrogen will have half the mols compared to Oxygen when the gas mixer attempts to create the mix.
-  - The output will be 1:1 instead of 1:2. You'll have 1 mol of Nitrogen per 1 mol of Oxygen, instead of 2 mols of Nitrogen per 1 mol of Oxygen.
+  氣體混合器也是根據壓力而非摩爾數來混合氣體的。 如果這些氣體的溫度不同，可能會造成問題。 例如：
+  - 假設某氣體混合器被要求在特定壓力下，將氧氣與氮氣按 1:2 的比例進行混合。
+  - 在這種情況下，氮氣的溫度是氧氣的兩倍。
+  - 溫度較高的氣體壓力較大，因此每單位體積所含的摩爾數比氧氣少。
+  - 正因如此，當氣體混合器嘗試調製混合氣時，氮氣的摩爾數將只有氧氣的一半。
+  - 輸出比例將為 1:1，而非 1:2。 每 1 摩爾氧氣將對應 1 摩爾氮氣，而非每 1 摩爾氧氣對應 2 摩爾氮氣。
 
-  Gas mixers can be used in a variety of applications, for example:
-  - Mixing oxygen and nitrogen to create a breathable atmosphere
-  - Mixing oxygen and plasma for plasma burning to create Tritium
+  氣體混合器可應用於多種場合，例如：
+  - 混合氧氣與氮氣以產生可呼吸的氣體環境
+  - 混合氧氣與等離子體進行等離子體燃燒，以生成氚
 
-  ## Gas Filter
-  Gas filters are used to separate gasses from a mixture within a [textlink="pipe network." link="PipeNetworks"]
+  ## 氣體過濾器
+  氣體過濾器用於從 [textlink="管路網絡。" link="PipeNetworks"] 內的混合氣體中分離出特定氣體
 
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="輸入" Rotation="90"/>
     <GuideEntityEmbed Entity="GasFilter" Caption="" Rotation="90"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Output" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="輸出" Rotation="90"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Filtered Output"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="經過篩選的輸出結果"/>
   </Box>
 
-  Gas filters will become blocked and will not filter gas if either output is blocked.
+  若任一輸出端發生堵塞，氣體過濾器將會堵塞，進而無法過濾氣體。
 
-  Gas filters can be used in a variety of applications, for example:
-  - Filtering out unwanted gasses from a [textlink="pipe network" link="PipeNetworks"]
-  - Separating specific gasses for storage in a station's recyclernet
+  氣體過濾器可應用於多種場合，例如：
+  - 從 [textlink="管線網路" link="PipeNetworks"]
+  中過濾出不需要的氣體   - 分離特定氣體，以便儲存於站點的回收網路中
 </Document>

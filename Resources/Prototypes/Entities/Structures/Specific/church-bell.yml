@@ -1,8 +1,8 @@
 - type: entity
   parent: StructureHealthFurnitureStrong
   id: ChurchBell
-  name: church bell
-  description: You feel your soul grow ever closer to the realms beyond for every chime this bell tolls...
+  name: 教堂鐘聲 | church bell
+  description: 每當這口鐘響起一聲，你便感覺自己的靈魂正日益接近彼岸的世界…… | You feel your soul grow ever closer to the realms beyond for every chime this bell tolls...
   placement:
     mode: SnapgridCenter
   components:

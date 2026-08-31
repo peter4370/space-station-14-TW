@@ -1,16 +1,17 @@
+
 <Document>
-  # Arachnids
+  # 蛛形綱
 
   <Box>
     <GuideEntityEmbed Entity="MobArachnid" Caption=""/>
   </Box>
 
-  They have two additional Pocket slots in their inventory. They can eat raw meat without any ill effects, but some foods like chocolate and onion poisons them.
-  They suffocate 50% faster, and their Blue Blood can't be metabolised from Iron, being based on Copper instead.
+  他們的裝備欄中還有兩個額外的「口袋」插槽。 牠們可以吃生肉而不會產生任何不良反應，但某些食物（例如巧克力與洋蔥）會讓牠們中毒。
+  牠們窒息的速度快了 50%，而且牠們的「藍血」無法透過鐵來代謝，因為其成分是以銅為基礎的。
 
-  Their unarmed attacks deal Piercing damage instead of Blunt.
+  他們的徒手攻擊會造成穿刺傷害，而非鈍擊傷害。
 
-  ## Sericulture
+  ## 養蠶業
 
   <Box>
     <GuideEntityEmbed Entity="MaterialWebSilk" Caption=""/>
@@ -19,7 +20,7 @@
     <GuideEntityEmbed Entity="WallWeb" Caption=""/>
   </Box>
 
-  Arachnids can create Websilk at the cost of getting more hungry. They (and only they) can craft bundles of websilk into various items from clothing and shields to entire walls.
+  蛛形綱動物能製造蛛絲，但代價是會變得更加飢餓。 他們（且唯有他們）能將一綑綑蛛絲製成各式物品，從衣物、盾牌到整面牆壁皆可。
 
 
 </Document>

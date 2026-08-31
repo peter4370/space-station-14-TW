@@ -1,9 +1,7 @@
-comp-gas-filter-ui-filter-transfer-rate = Transfer Rate (L/s):
-comp-gas-filter-ui-filter-set-rate = Set
-
-comp-gas-filter-ui-filter-gas-current = Currently Filtering:
-comp-gas-filter-ui-filter-gas-select = Select a gas to filter out:
-comp-gas-filter-ui-filter-gas-confirm = Set Gas
-comp-gas-filter-ui-filter-gas-none = None
-
-comp-gas-filter-filtered-gas-examine = It is filtering [color={$statusColor}]{$filteredGas}[/color].
+comp-gas-filter-ui-filter-transfer-rate = 傳輸速率（L/s）：
+comp-gas-filter-ui-filter-set-rate = 設定
+comp-gas-filter-ui-filter-gas-current = 目前篩選條件：
+comp-gas-filter-ui-filter-gas-select = 請選擇要過濾的氣體：
+comp-gas-filter-ui-filter-gas-confirm = 設定氣體
+comp-gas-filter-ui-filter-gas-none = 無
+comp-gas-filter-filtered-gas-examine = 它正在篩選 [color={ $statusColor }]{ $filteredGas }[/color]。

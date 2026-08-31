@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthDoor ]
   id: EnergyGate
-  name: energy gate
-  description: An advanced gate that permits one-way access and prevents tailgating.
+  name: 能量閘門 | energy gate
+  description: 一款先進的閘門，允許單向通行並防止尾隨進入。 | An advanced gate that permits one-way access and prevents tailgating.
   components:
   - type: Sprite
     sprite: Structures/Doors/Misc/energy-gate.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: EnergyGate
   id: EnergyGateAirtight
-  name: airtight energy gate
+  name: 氣密式能量閘門 | airtight energy gate
   suffix: Airtight
   components:
   - type: Airtight

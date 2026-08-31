@@ -22,8 +22,8 @@
   parent: GasTankBase
   abstract: true
   id: BaseJetpack
-  name: jetpack
-  description: It's a jetpack. It can hold 5 L of gas.
+  name: 噴射背包 | jetpack
+  description: 這是一個噴射背包。它可容納 5 公升的燃料。 | It's a jetpack. It can hold 5 L of gas.
   components:
   - type: Sprite
     sprite: Objects/Tanks/Jetpacks/blue.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleJetpack
-  name: Toggle jetpack
-  description: Toggles the jetpack, giving you movement outside the station.
+  name: 切換噴射背包 | Toggle jetpack
+  description: 切換噴射背包的啟用狀態，讓你能在太空站外移動。 | Toggles the jetpack, giving you movement outside the station.
   components:
   - type: Action
     useDelay: 1.0
@@ -86,7 +86,7 @@
 - type: entity
   id: JetpackBlue
   parent: BaseJetpack
-  name: jetpack
+  name: 噴射背包 | jetpack
   suffix: Empty
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   id: JetpackBlueFilled
   parent: JetpackBlue
-  name: jetpack
+  name: 噴射背包 | jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -117,7 +117,7 @@
 - type: entity
   id: JetpackBlack
   parent: [BaseJetpack, BaseSyndicateContraband]
-  name: jetpack
+  name: 噴射背包 | jetpack
   suffix: Empty
   components:
   - type: Item
@@ -135,7 +135,7 @@
 - type: entity
   id: JetpackBlackFilled
   parent: JetpackBlack
-  name: jetpack
+  name: 噴射背包 | jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -152,7 +152,7 @@
 - type: entity
   id: JetpackCaptain
   parent: [BaseJetpack, BaseGrandTheftContraband]
-  name: captain's jetpack
+  name: 船長的噴射背包 | captain's jetpack
   suffix: Empty
   components:
   - type: Sprite
@@ -175,7 +175,7 @@
 - type: entity
   id: JetpackCaptainFilled
   parent: JetpackCaptain
-  name: captain's jetpack
+  name: 船長的噴射背包 | captain's jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -192,8 +192,8 @@
 - type: entity
   id: JetpackMini
   parent: BaseJetpack
-  name: mini jetpack
-  description: It's a jetpack. It can hold 1.5 L of gas.
+  name: 迷你噴射背包 | mini jetpack
+  description: 這是一個噴射背包。它能裝下 1.5 公升的汽油。 | It's a jetpack. It can hold 1.5 L of gas.
   suffix: Empty
   components:
     - type: Item
@@ -216,7 +216,7 @@
 - type: entity
   id: JetpackMiniFilled
   parent: JetpackMini
-  name: mini jetpack
+  name: 迷你噴射背包 | mini jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -233,8 +233,8 @@
 - type: entity
   id: JetpackSecurity
   parent: [JetpackMini, BaseSecurityContraband]
-  name: security mini jetpack
-  description: A compact jetpack utilized by station security when patrolling the station's exterior. Not intended for long range travel, it holds only 1.5 L of gas.
+  name: 安全迷你噴射背包 | security mini jetpack
+  description: 這是一款由站內安保人員在巡邏站外時使用的輕巧噴射背包。此裝置不適用於長距離飛行，燃料容量僅有 1.5 公升。 | A compact jetpack utilized by station security when patrolling the station's exterior. Not intended for long range travel, it holds only 1.5 L of gas.
   suffix: Empty
   components:
   - type: Item
@@ -248,7 +248,7 @@
 - type: entity
   id: JetpackSecurityFilled
   parent: JetpackSecurity
-  name: security jetpack
+  name: 安全噴射背包 | security jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -265,7 +265,7 @@
 - type: entity
   id: JetpackVoid
   parent: BaseJetpack
-  name: void jetpack
+  name: void 噴射背包 | void jetpack
   suffix: Empty
   components:
   - type: Item
@@ -283,7 +283,7 @@
 - type: entity
   id: JetpackVoidFilled
   parent: JetpackVoid
-  name: void jetpack
+  name: void 噴射背包 | void jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -300,7 +300,7 @@
 - type: entity
   parent: [ JetpackBlack, BaseXenoborgContraband ]
   id: JetpackXenoborg
-  name: xenoborg jetpack
+  name: 外星機器人噴射背包 | xenoborg jetpack
   suffix: Infinite
   components:
   - type: GasTank

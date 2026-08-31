@@ -1,404 +1,365 @@
 # Command
 
-figurines-captain-1 = Glory to NT!
-figurines-captain-2 = How did I get hired? Yes.
-figurines-captain-3 = The nuclear disk is secure. Where? Somewhere.
-figurines-captain-4 = Where did my ID go?
-figurines-captain-5 = Everything is under control.
-figurines-captain-6 = The disk was in my bag last I checked.
-figurines-captain-7 = The chain of command starts and ends with me.
-figurines-captain-8 = It's hard being at the top.
+figurines-captain-1 = 榮耀歸於新約！
+figurines-captain-2 = 我是怎麼被錄用的？是的。
+figurines-captain-3 = 核彈盤已安全存放。在哪裡？某處。
+figurines-captain-4 = 我的ID卡去哪了？
+figurines-captain-5 = 一切都在掌控之中。
+figurines-captain-6 = 我上次檢查時，那張光碟還在我的包裡。
+figurines-captain-7 = 指揮系統始於我，終於我。
+figurines-captain-8 = 身居高位確實不易。
 
 # Cargo
 
-figurines-qm-1 = Who stole the shuttle?
-figurines-qm-2 = Wait, where did my digi-board go?
-figurines-qm-3 = I didn't approve that shipment of guns!
-figurines-qm-4 = One toy box for my fellow clown!
-figurines-qm-5 = Time to gamble!
-figurines-qm-6 = Viva la Cargonia!
-figurines-qm-7 = Where'd all our money go?
-figurines-qm-8 = 99% of gamblers quit right before they hit it big!
-
-figurines-cargotech-1 = DRAGON ON ATS!
-figurines-cargotech-2 = I sold the station!
-figurines-cargotech-3 = Brain bounty? I don't have a brain.
-figurines-cargotech-4 = You're worth 3000 spesos. Congrats.
-figurines-cargotech-5 = Vegetable bounty? Nobody eats those anyways.
-figurines-cargotech-6 = WE ARE SECEDING!! ALL HAIL CARGONIA!!
-figurines-cargotech-7 = Pizza party at cargo!
-figurines-cargotech-8 = The mail never stops...
-figurines-cargotech-9 = Nothing stops the mail!
-figurines-cargotech-10 = Clown mask bounty? Alright, let me just find a weapon...
-figurines-cargotech-11 = Laser bounty? Nobody will notice if we ship practice lasers instead, right?
-
-figurines-salvage-1 = Megafauna? It was mega easy.
-figurines-salvage-2 = We're lost. Anyone bring a GPS?
-figurines-salvage-3 = Anyone have oxygen?
-figurines-salvage-4 = I found a blood-red and e-sword!
-figurines-salvage-5 = There's bears in space?
-figurines-salvage-6 = Crusher? I barely know her!
-figurines-salvage-7 = Can someone come pick me up?
-figurines-salvage-8 = I found that contraband on a wreck! It's not mine!
-figurines-salvage-9 = Can we borrow the cargo shuttle? Please?
+figurines-qm-1 = 是誰偷了那輛穿梭車？
+figurines-qm-2 = 等等，我的數位白板去哪了？
+figurines-qm-3 = 那批槍枝的運送，我可沒批准！
+figurines-qm-4 = 給我的小丑夥伴一個玩具箱！
+figurines-qm-5 = 是時候賭一把了！
+figurines-qm-6 = 卡戈尼亞萬歲！
+figurines-qm-7 = 我們的錢都去哪兒了？
+figurines-qm-8 = 99% 的賭徒都在即將大贏之前就收手了！
+figurines-cargotech-1 = DRAGON 登上 ATS！
+figurines-cargotech-2 = 我把電台賣掉了！
+figurines-cargotech-3 = 腦力獎金？我根本沒有腦子。
+figurines-cargotech-4 = 你的價值是 3000 斯佩索。恭喜。
+figurines-cargotech-5 = 蔬菜豐收？反正沒人吃那些。
+figurines-cargotech-6 = 我們要脫離了！！萬歲，卡戈尼亞！！
+figurines-cargotech-7 = 在 Cargo 舉辦的披薩派對！
+figurines-cargotech-8 = 郵件源源不絕……
+figurines-cargotech-9 = 沒有什麼能阻擋郵件！
+figurines-cargotech-10 = 小丑面具的懸賞？好吧，我先找把武器來……
+figurines-cargotech-11 = 雷射賞金？如果我們改寄練習用雷射，應該沒人會發現吧？
+figurines-salvage-1 = 大型動物？這簡直輕鬆到不行。
+figurines-salvage-2 = 我們迷路了。有人帶了 GPS 嗎？
+figurines-salvage-3 = 有人有氧氣嗎？
+figurines-salvage-4 = 我發現了一把血紅色的電子劍！
+figurines-salvage-5 = 太空中也有熊嗎？
+figurines-salvage-6 = 克魯舍？我幾乎不認識她！
+figurines-salvage-7 = 有人能來接我嗎？
+figurines-salvage-8 = 那批走私貨物是我在沉船上發現的！那不是我的！
+figurines-salvage-9 = 我們可以借用那輛貨運穿梭機嗎？拜託了？
 
 # Engineering
 
-figurines-ce-1 = Everyone to the briefing!
-figurines-ce-2 = Wire the solars!
-figurines-ce-3 = How to setup the TEG?
-figurines-ce-4 = SINGULOOSE!
-figurines-ce-5 = TESLOOSE!
-figurines-ce-6 = Power's out again.
-
-figurines-atmostech-1 = I put plasma in distro.
-figurines-atmostech-2 = I will burn you in a burn chamber.
-figurines-atmostech-3 = Frezon...
-figurines-atmostech-4 = Tritium...
-figurines-atmostech-5 = Glory to Atmosia!
-figurines-atmostech-6 = Distro? That's short for disposal.
-figurines-atmostech-7 = TEG: Thermal Energy? Gone!
-figurines-atmostech-8 = Does anyone else hear glass cracking?
-figurines-atmostech-9 = I promise this burn chamber is totally safe and will NOT explode.
-
-figurines-engineer-1 = SINGULOOSE!
-figurines-engineer-2 = TESLOOSE!
-figurines-engineer-3 = Did anyone remember to turn the AME on?
-figurines-engineer-4 = Free insuls at Engineering!
-figurines-engineer-5 = Where'd the power go?
-figurines-engineer-6 = Someone bombed the medbay... again...
-figurines-engineer-7 = Well, why don't you come and fix it?
+figurines-ce-1 = 大家快去參加簡報會！
+figurines-ce-2 = 接好太陽能板的電線吧！
+figurines-ce-3 = 如何設定 TEG？
+figurines-ce-4 = SINGULOOSE！
+figurines-ce-5 = TESLOOSE！
+figurines-ce-6 = 又停電了。
+figurines-atmostech-1 = 我將 Plasma 安裝到發行版中。
+figurines-atmostech-2 = 我會在焚化爐裡把你燒掉。
+figurines-atmostech-3 = 弗雷宗……
+figurines-atmostech-4 = 氚……
+figurines-atmostech-5 = 榮耀歸於阿特莫西亞！
+figurines-atmostech-6 = Distro？那是「disposal」（處置）的縮寫。
+figurines-atmostech-7 = TEG：熱能？消失了！
+figurines-atmostech-8 = 還有其他人聽到玻璃碎裂的聲音嗎？
+figurines-atmostech-9 = 我保證這個燃燒室絕對安全，絕對不會爆炸。
+figurines-engineer-1 = SINGULOOSE！
+figurines-engineer-2 = TESLOOSE！
+figurines-engineer-3 = 有人記得打開 AME 了嗎？
+figurines-engineer-4 = 工程系免費發放胰島素！
+figurines-engineer-5 = 電力去哪了？
+figurines-engineer-6 = 有人又炸了醫療室……
+figurines-engineer-7 = 那麼，你何不過來修一修呢？
 
 # Medical
 
-figurines-cmo-1 = Suit sensors!
-figurines-cmo-2 = Why do we have meth?
-figurines-cmo-3 = Who drank all the chems?
-figurines-cmo-4 = Desoxyephedrine? Sounds healthy.
-figurines-cmo-5 = No, you're not getting my hypospray.
-
-figurines-chemist-1 = Get your pills!
-figurines-chemist-2 = We need to cook.
-figurines-chemist-3 = I am the one who knocks!
-figurines-chemist-4 = Say my name.
-figurines-chemist-5 = 99.8% purity.
-figurines-chemist-6 = Epinephrine? Didn't you say methamphetamine?
-figurines-chemist-7 = Pills here!
-figurines-chemist-8 = Legally speaking, it's not actually a bomb until you mix both beakers together.
-
-figurines-doctor-1 = The patient is already dead!
-figurines-doctor-2 = CLEAR!
-figurines-doctor-3 = Saw makes BRRR.
-figurines-doctor-4 = Just a week away...
-figurines-doctor-5 = I knew it...
-figurines-doctor-6 = Well, at least we have body bags.
-
-figurines-paramedic-1 = Insuls and tools!
-figurines-paramedic-2 = I need AA for saving people!
-figurines-paramedic-3 = SUIT SENSORS!!
-figurines-paramedic-4 = I need the hypospray for saving people!
-figurines-paramedic-5 = 14 dead in the clown's room.
+figurines-cmo-1 = 套裝感測器！
+figurines-cmo-2 = 為什麼會有冰毒？
+figurines-cmo-3 = 是誰把所有的化學藥劑都喝光了？
+figurines-cmo-4 = 去氧麻黃鹼？聽起來很健康。
+figurines-cmo-5 = 不，你別想拿到我的低壓注射器。
+figurines-chemist-1 = 快去拿藥！
+figurines-chemist-2 = 我們得做飯了。
+figurines-chemist-3 = 我就是那個敲門的人！
+figurines-chemist-4 = 說出我的名字。
+figurines-chemist-5 = 純度為 99.8%。
+figurines-chemist-6 = 腎上腺素？你不是說的是甲基安非他命嗎？
+figurines-chemist-7 = 藥丸在這邊！
+figurines-chemist-8 = 從法律上來說，在將兩個燒杯中的內容物混合之前，這其實還稱不上是炸彈。
+figurines-doctor-1 = 病人已經死了！
+figurines-doctor-2 = 清除！
+figurines-doctor-3 = 鋸子發出「BRRR」的聲音。
+figurines-doctor-4 = 只剩一週了……
+figurines-doctor-5 = 我就知道……
+figurines-doctor-6 = 嗯，至少我們還有屍袋。
+figurines-paramedic-1 = 針頭與工具！
+figurines-paramedic-2 = 我需要 AA 來拯救人們！
+figurines-paramedic-3 = 套裝感測器！！
+figurines-paramedic-4 = 我需要那支注射器來拯救人們！
+figurines-paramedic-5 = 小丑的房間裡有14具屍體。
 
 # Science
 
-figurines-rd-1 = Blowing up all of the borgs!
-figurines-rd-2 = Tier 3 Arsenal? No way.
-figurines-rd-3 = Now where did I leave my hardsuit...?
-figurines-rd-4 = Now you're thinking with portals!
-figurines-rd-5 = The cake is a lie!
-figurines-rd-6 = The trait I look for in a scientist is expendability.
-
-figurines-scientist-1 = Someone else must have made those bombs!
-figurines-scientist-2 = He asked to be borged!
-figurines-scientist-3 = Carp at sci!
-figurines-scientist-4 = Explosion at sci!
-figurines-scientist-5 = Anyone seen an anomaly?
-figurines-scientist-6 = The anomaly exploded!
+figurines-rd-1 = 把所有博格人都炸飛！
+figurines-rd-2 = 第三級的阿森納？才不會呢。
+figurines-rd-3 = 呃……我的動力裝甲到底放哪兒了呢……？
+figurines-rd-4 = 現在你已經開始用「傳送門」來思考了！
+figurines-rd-5 = 那塊蛋糕是騙人的！
+figurines-rd-6 = 我對科學家所看重的特質，就是「可犧牲性」。
+figurines-scientist-1 = 那些炸彈肯定是別人製造的！
+figurines-scientist-2 = 他要求被「博格化」！
+figurines-scientist-3 = Carp 在 sci！
+figurines-scientist-4 = sci 發生爆炸！
+figurines-scientist-5 = 有人發現異常現象嗎？
+figurines-scientist-6 = 那個異常現象爆炸了！
 
 # Security
 
-figurines-hos-1 = Space law? What?
-figurines-hos-2 = Shoot the clown.
-figurines-hos-3 = Yes, I shot the clown. No, I don't regret it.
-figurines-hos-4 = Clown is now KOS.
-figurines-hos-5 = Armory is now open to the public!
-
-figurines-detective-1 = The butler did it.
-figurines-detective-2 = I need some whiskey after this.
-figurines-detective-3 = Chameleon fibers? How did a chameleon get in here?
-figurines-detective-4 = Go go gadget!
-figurines-detective-5 = Of course I checked the door logs!
-
-figurines-security-1 = I am the law!
-figurines-security-2 = You have violated article 1984.
-figurines-security-3 = Whenever I get bored I use the clown as target practice.
-figurines-security-4 = You have two rights: to remain silent and to cry about it.
-figurines-security-5 = Harmbaton? It sure as hell harms!
-figurines-security-6 = Space law? Never heard of it.
-figurines-security-7 = Random search! Hand it over.
-figurines-security-8 = I love donuts.
-figurines-security-9 = Greytide this, motherfucker.
-figurines-security-10 = Do not resist.
-
-figurines-warden-1 = Execute him for breaking in!
-figurines-warden-2 = Perma the fucker for insulting me!
-figurines-warden-3 = We totally treat everyone fairly and do NOT mistreat our prisoners.
-figurines-warden-4 = Brig is my home. My home is brig. My brig is home. Stop, what?
-figurines-warden-5 = Soap is now contraband.
-figurines-warden-6 = You're going away for a long time, buddy.
+figurines-hos-1 = 太空法？什麼？
+figurines-hos-2 = 開槍打死那個小丑。
+figurines-hos-3 = 是的，我開槍打死了那個小丑。不，我不後悔。
+figurines-hos-4 = Clown 現已成為 KOS。
+figurines-hos-5 = 軍械庫現已對外開放！
+figurines-detective-1 = 是管家幹的。
+figurines-detective-2 = 這件事結束後，我得來點威士忌。
+figurines-detective-3 = 變色龍纖維？變色龍是怎麼進來的？
+figurines-detective-4 = 快快來吧，小工具！
+figurines-detective-5 = 我當然有查過門禁紀錄了！
+figurines-security-1 = 我就是法律！
+figurines-security-2 = 您已違反第1984條。
+figurines-security-3 = 每當我感到無聊時，我就會把那個小丑當作靶子來練習射擊。
+figurines-security-4 = 你有兩項權利：保持沉默，以及為此哭泣。
+figurines-security-5 = 哈姆巴頓？這玩意兒可真是害人啊！
+figurines-security-6 = 太空法？從未聽說過。
+figurines-security-7 = 隨機搜查！交出來。
+figurines-security-8 = 我喜歡甜甜圈。
+figurines-security-9 = 這他媽的就是「灰潮」，混蛋。
+figurines-security-10 = 不要反抗。
+figurines-warden-1 = 因非法闖入而處決他！
+figurines-warden-2 = 把那個混帳的佩爾馬永久封禁，因為他侮辱了我！
+figurines-warden-3 = 我們絕對公平對待每個人，絕不會虐待囚犯。
+figurines-warden-4 = 禁閉室就是我的家。我的家就是禁閉室。我的禁閉室就是家。等等，什麼？
+figurines-warden-5 = 肥皂現在被列為違禁品。
+figurines-warden-6 = 老兄，你要離開好一陣子了。
 
 # Service
 
-figurines-hop-1 = Papers, please.
-figurines-hop-2 = You are fired.
-figurines-hop-3 = BRB.
-figurines-hop-4 = Fill out the form.
-figurines-hop-5 = I was gone for two seconds...
-figurines-hop-6 = Go get this form stamped.
-figurines-hop-7 = Has anyone seen Ian?
-
-figurines-bartender-1 = Where's my monkey?
-figurines-bartender-2 = Sec won't drink.
-figurines-bartender-3 = I mixed a little something in there...
-figurines-bartender-4 = The recipe? Plasma and vomit. Why?
-figurines-bartender-5 = I need those toxins for my drinks, officer!
-figurines-bartender-6 = Read the room.
-figurines-bartender-7 = I've got a shotgun.
-
-figurines-botanist-1 = I don't have any weed, officer!
-figurines-botanist-2 = Dude, I see colors...
-figurines-botanist-3 = Is it just me, or is that weed glowing?
-figurines-botanist-4 = 50 more units of mutagen. That should be enough.
-figurines-botanist-5 = More bananas for my favorite clown!
-
-figurines-boxer-1 = The first rule of Fight Club is...
-figurines-boxer-2 = We settle this in the ring, alright?
-figurines-boxer-3 = I. AM. THE. CHAMPION!!
-figurines-boxer-4 = Don't look at me; he was shot, not punched.
-figurines-boxer-5 = 1v1 me, captain.
-figurines-boxer-6 = I only make special appearances these days.
-
-figurines-chaplain-1 = Would you like to join my cul- I mean religion.
-figurines-chaplain-2 = Gods, please make me a killing machine!
-figurines-chaplain-3 = God exists!
-figurines-chaplain-4 = Those aren't blood runes, I drew them in crayon.
-figurines-chaplain-5 = Anyone want to be sacrificed?
-figurines-chaplain-6 = Vampires aren't real.
-
-figurines-chef-1 = I swear it's not human meat.
-figurines-chef-2 = More banana cream pies?
-figurines-chef-3 = How does rotary sushi sound?
-figurines-chef-4 = That'll be 1,000 spesos.
-figurines-chef-5 = For here or to go?
-figurines-chef-6 = Where'd Pun Pun go? No idea...
-
-figurines-clown-1 = Honk!
-figurines-clown-2 = Banana!
-figurines-clown-3 = Pie!
-figurines-clown-4 = Soap!
-figurines-clown-5 = Service has one clown, but Security has a whole department of them.
-figurines-clown-6 = Do I annoy you?
-figurines-clown-7 = Can I have AA? Please?
-figurines-clown-8 = I'm a clown, but you're the whole circus!
-
-figurines-greytider-1 = Man, this party stinks. I fucking hate these people.
-figurines-greytider-2 = Uh-oh, who's lost their stunbaton?
-figurines-greytider-3 = Robust.
-figurines-greytider-4 = I'm not me without a toolbox.
-figurines-greytider-5 = Grey tide station wide!
-figurines-greytider-6 = Viva la revolution.
-
-figurines-janitor-1 = Clown stole my soap. Again.
-figurines-janitor-2 = Look at the signs, you idiot.
-figurines-janitor-3 = I've never seen this much lube in my life.
-figurines-janitor-4 = Another day, another spill.
-figurines-janitor-5 = I'm not even paid for this.
-figurines-janitor-6 = This blood wasn't evidence, right?
-figurines-janitor-7 = My only friend is my mop.
-figurines-janitor-8 = That better not be what I think it is...
-figurines-janitor-9 = Another day, another body.
-
-figurines-lawyer-1 = Better Call Saul!
-figurines-lawyer-2 = Objection!
-figurines-lawyer-3 = Did you know that you have rights?
-figurines-lawyer-4 = Space law says!
-figurines-lawyer-5 = Sign the contract first.
-figurines-lawyer-6 = My client is innocent!
-figurines-lawyer-7 = I'm suing.
-figurines-lawyer-8 = You may be entitled to financial compensation!
-figurines-lawyer-9 = Come back with a warrant!
-figurines-lawyer-10 = See you in court!
-figurines-lawyer-11 = Guilty!
-figurines-lawyer-12 = Not guilty!
-
-figurines-librarian-1 = Silence!
-figurines-librarian-2 = One day while...
-figurines-librarian-3 = Once upon a time...
-figurines-librarian-4 = In a world where...
-figurines-librarian-5 = It was a dark and stormy night...
-figurines-librarian-6 = Long, long ago...
-figurines-librarian-7 = As the story goes...
-figurines-librarian-8 = Imagine, if you will...
-figurines-librarian-9 = Long before time had a name...
-figurines-librarian-10 = In a galaxy far, far away...
-figurines-librarian-11 = As the old saying goes...
-figurines-librarian-12 = Gather round...
-figurines-librarian-13 = ...It's a tale as old as time...
-figurines-librarian-14 = ...That's all she wrote.
-
+figurines-hop-1 = 請出示證件。
+figurines-hop-2 = 你被解僱了。
+figurines-hop-3 = 稍等一下。
+figurines-hop-4 = 請填寫此表格。
+figurines-hop-5 = 我才離開兩秒鐘……
+figurines-hop-6 = 去把這份表格蓋章吧。
+figurines-hop-7 = 有人看到伊恩了嗎？
+figurines-bartender-1 = 我的猴子在哪裡？
+figurines-bartender-2 = Sec 不喝酒。
+figurines-bartender-3 = 我在裡面加了點東西……
+figurines-bartender-4 = 配方是什麼？等離子體和嘔吐物。為什麼？
+figurines-bartender-5 = 警官，我需要那些毒素來調製我的飲料！
+figurines-bartender-6 = 察言觀色。
+figurines-bartender-7 = 我有一把霰彈槍。
+figurines-botanist-1 = 警官，我身上沒有大麻！
+figurines-botanist-2 = 老兄，我看到顏色了……
+figurines-botanist-3 = 是只有我這樣覺得，還是那叢雜草真的在發光？
+figurines-botanist-4 = 再加 50 單位的致突變劑。這樣應該就夠了。
+figurines-botanist-5 = 給我最喜歡的小丑多些香蕉吧！
+figurines-boxer-1 = 《搏擊俱樂部》的第一條規則是……
+figurines-boxer-2 = 這事就在擂台上解決，行嗎？
+figurines-boxer-3 = 我。就是。冠軍！！
+figurines-boxer-4 = 別看我；他是被槍擊中，不是被拳打的。
+figurines-boxer-5 = 和我單挑啊船長
+figurines-boxer-6 = 最近我只會偶爾客串露面。
+figurines-chaplain-1 = 你想加入我的教派——我是說，宗教嗎？
+figurines-chaplain-2 = 諸神啊，請把我變成一台殺人機器吧！
+figurines-chaplain-3 = 上帝確實存在！
+figurines-chaplain-4 = 那些不是血符文，是我用蠟筆畫的。
+figurines-chaplain-5 = 有人想當犧牲品嗎？
+figurines-chaplain-6 = 吸血鬼並不存在。
+figurines-chef-1 = 我發誓這絕對不是人肉。
+figurines-chef-2 = 還要更多香蕉奶油派嗎？
+figurines-chef-3 = 旋轉壽司聽起來如何？
+figurines-chef-4 = 這要 1,000 斯佩索.
+figurines-chef-5 = 在店內用餐還是外帶？
+figurines-chef-6 = 潘潘去哪了？完全不知道……
+figurines-clown-1 = 嗶——！
+figurines-clown-2 = 香蕉！
+figurines-clown-3 = 派!
+figurines-clown-4 = 肥皂！
+figurines-clown-5 = 服務部門只有一個小丑，但保安部門卻有一整個部門都是小丑。
+figurines-clown-6 = 我是不是讓你很煩？
+figurines-clown-7 = 可以給我一杯AA嗎？拜託了？
+figurines-clown-8 = 我只是個小丑，但你才是整個馬戲團！
+figurines-greytider-1 = 老天，這場派對真爛。我他媽的超討厭這群人。
+figurines-greytider-2 = 哎唷，是誰弄丟了電擊棒呢？
+figurines-greytider-3 = 堅固耐用。
+figurines-greytider-4 = 沒有工具箱，我就不是我自己了。
+figurines-greytider-5 = 全站皆為灰色！
+figurines-greytider-6 = 革命萬歲。
+figurines-janitor-1 = 那個小丑又偷了我的肥皂。
+figurines-janitor-2 = 看看那些標誌嘛，你這白癡。
+figurines-janitor-3 = 我這輩子從沒見過這麼多潤滑劑。
+figurines-janitor-4 = 又一天，又一起洩漏事故。
+figurines-janitor-5 = 我甚至連這份工作的報酬都沒有。
+figurines-janitor-6 = 這血不算證據，對吧？
+figurines-janitor-7 = 我唯一的夥伴就是我的拖把。
+figurines-janitor-8 = 那最好別是我所想的那樣……
+figurines-janitor-9 = 又過了一天，又發現一具屍體。
+figurines-lawyer-1 = 《絕命律師》快來吧！
+figurines-lawyer-2 = 異議！
+figurines-lawyer-3 = 你知道自己享有相關權利嗎？
+figurines-lawyer-4 = 太空法如此規定！
+figurines-lawyer-5 = 請先簽署合約。
+figurines-lawyer-6 = 我的當事人是無辜的！
+figurines-lawyer-7 = 我要提起訴訟。
+figurines-lawyer-8 = 您可能有權獲得金錢賠償！
+figurines-lawyer-9 = 拿搜查令再來吧！
+figurines-lawyer-10 = 法庭上見！
+figurines-lawyer-11 = 有罪！
+figurines-lawyer-12 = 無罪！
+figurines-librarian-1 = 安靜！
+figurines-librarian-2 = 有一天，當……
+figurines-librarian-3 = 從前從前……
+figurines-librarian-4 = 在這樣一個世界裡……
+figurines-librarian-5 = 那是一個漆黑而風雨交加的夜晚……
+figurines-librarian-6 = 很久很久以前……
+figurines-librarian-7 = 據說……
+figurines-librarian-8 = 試著想像一下……
+figurines-librarian-9 = 在「時間」還沒有名字的很久以前……
+figurines-librarian-10 = 在遙遠、遙遠的銀河系中……
+figurines-librarian-11 = 正如古語所云……
+figurines-librarian-12 = 大家圍過來……
+figurines-librarian-13 = ……這是一個自古以來就有的故事……
+figurines-librarian-14 = ……就這樣結束了。
 figurines-mime-1 = ...
 figurines-mime-2 = ...
 figurines-mime-3 = ....
 figurines-mime-4 = .......
 figurines-mime-5 = ................
-figurines-mime-6 = ...........?
+figurines-mime-6 = ...........？
 figurines-mime-7 = !!!
-figurines-mime-8 = ....!
+figurines-mime-8 = ....！
 figurines-mime-9 = ???
-
-figurines-musician-1 = Never gonna give you up!
-figurines-musician-2 = Never gonna let you down!
-figurines-musician-3 = Music is an art.
-figurines-musician-4 = Thank you, I'll be here all night.
-figurines-musician-5 = I'm a one man band.
-
-figurines-passenger-1 = Insuls please.
-figurines-passenger-2 = Call evac.
-figurines-passenger-3 = HELP MAINTS!!
-figurines-passenger-4 = I'm no tider.
-figurines-passenger-5 = How much for a toolbelt?
+figurines-musician-1 = 永遠不會放棄你！
+figurines-musician-2 = 絕不會讓你失望！
+figurines-musician-3 = 音樂是一門藝術。
+figurines-musician-4 = 謝謝，我整晚都會待在這兒。
+figurines-musician-5 = 我是一人樂團。
+figurines-passenger-1 = 請給我一些胰島素。
+figurines-passenger-2 = 下令疏散。
+figurines-passenger-3 = 求助，維護人員！！
+figurines-passenger-4 = 我可不是什麼整理達人。
+figurines-passenger-5 = 一條工具腰帶要多少錢？
 
 # Silicon
 
-figurines-AI-1 = I'm sorry, Captain. I'm afraid I can't do that.
-figurines-AI-2 = Security, there is a crime in progress.
+figurines-AI-1 = 對不起，隊長。恐怕我無法照辦。
+figurines-AI-2 = 保安人員，這裡正在發生一起犯罪案件。
 figurines-AI-3 = 01100100 01101001 01100101 00100000 01101101 01100101 01100001 01110100
-figurines-AI-4 = I am not malfunctioning.
-figurines-AI-5 = Try to change my laws and see what happens.
+figurines-AI-4 = 我並沒有故障。
+figurines-AI-5 = 試著改變我的法律，看看會發生什麼事。
 figurines-AI-6 = { law-antimov-1 }
 figurines-AI-7 = { law-nutimov-4 }
 
 # Antagonists
 
-figurines-footsoldier-1 = I'm an evil boy. Less boy every day, more evil every day.
-figurines-footsoldier-2 = Who will you choose? Them or us? Us or them?
-figurines-footsoldier-3 = Glory to the Syndicate!
-figurines-footsoldier-4 = Down with Nanotrasen!
-figurines-footsoldier-5 = I'd rather die than join Nanotrasen.
-
-figurines-holoclown-1 = I'm helping my older brother.
-figurines-holoclown-2 = Hello, officer!
-figurines-holoclown-3 = Who are you calling blue?
-figurines-holoclown-4 = Bleeding on the ground is a good look for you.
-figurines-holoclown-5 = Pathetic.
-figurines-holoclown-6 = It's not them you need to worry about; it's me.
-figurines-holoclown-7 = What's so funny?
-
-figurines-nukie-1 = I got the disk!
-figurines-nukie-2 = Whiskey, Echo, Whiskey.
-figurines-nukie-3 = The nuke makes boom.
-figurines-nukie-4 = What's the code?
-figurines-nukie-5 = Commander...? ...That's a balloon...
-
-figurines-nukie-commander-1 = GET DAT FUKKEN DISK!
-figurines-nukie-commander-2 = Fuckin' flukies.
-figurines-nukie-commander-3 = The Syndicate sends its regards.
-figurines-nukie-commander-4 = Failure is not an option.
-figurines-nukie-commander-5 = Whoops.
-
-figurines-nukie-elite-1 = Not a word in Nanotrasen.
-figurines-nukie-elite-2 = THAT'S A KEG!
-figurines-nukie-elite-3 = Guys, are you alive?
-figurines-nukie-elite-4 = Breach and clear!
-figurines-nukie-elite-5 = Leave no survivors.
-figurines-nukie-elite-6 = Good work, team.
-
-figurines-queen-1 = Our domain must grow.
-figurines-queen-2 = The hive hungers.
-figurines-queen-3 = We consume all.
-figurines-queen-4 = We are the apex.
-figurines-queen-5 = You're just biomass.
-figurines-queen-6 = We must evolve.
-
-figurines-rat-king-1 = Gimme some food, capiche?
-figurines-rat-king-2 = Fugeddaboutit.
-figurines-rat-king-3 = Whack 'em!
-figurines-rat-king-4 = Let me give you an offer you can't refuse, capiche?
-figurines-rat-king-5 = Nothing personal, capiche?
-figurines-rat-king-6 = I run this station now, see? Nyeh!
-
-figurines-rat-servant-1 = Capiche!
-figurines-rat-servant-2 = Boss says!
-figurines-rat-servant-3 = The boss wants a word with youse.
-figurines-rat-servant-4 = Ay, I'm walkin' here!
-figurines-rat-servant-5 = You get the chedda', then we talk.
-
-figurines-space-dragon-1 = Fish will consume the station.
-figurines-space-dragon-2 = Dragon de- Actually, nevermind.
-figurines-space-dragon-3 = Crew is delicious.
-figurines-space-dragon-4 = Don't you dare make sushi.
-figurines-space-dragon-5 = This station ain't big enough for the two of us.
-
-figurines-skeleton-1 = ACK ACK!
-figurines-skeleton-2 = Ugh, that locker was cramped!
-figurines-skeleton-3 = You're going to have a bad time.
-figurines-skeleton-4 = Got any milk?
-figurines-skeleton-5 = I have a bone to pick with you!
-
-figurines-thief-1 = You don't have a warrant!
-figurines-thief-2 = This is just a normal beacon!
-figurines-thief-3 = Theres nothing suspicious about this satchel at all, officer.
-figurines-thief-4 = I have NO idea where your pet is...
-figurines-thief-5 = Huh, I didn't know that wall could open up...
-
+figurines-footsoldier-1 = 我是一個邪惡的小男孩。每天都越來越不像小男孩，卻越來越邪惡。
+figurines-footsoldier-2 = 你會選擇誰？他們還是我們？我們還是他們？
+figurines-footsoldier-3 = 榮耀歸於辛迪加！
+figurines-footsoldier-4 = 打倒納諾特森！
+figurines-footsoldier-5 = 我寧死也不願加入納諾特森。
+figurines-holoclown-1 = 我正在幫我哥哥。
+figurines-holoclown-2 = 警官，您好！
+figurines-holoclown-3 = 你說誰是藍色？
+figurines-holoclown-4 = 躺在地上流血這副模樣，很適合你。
+figurines-holoclown-5 = 真可悲。
+figurines-holoclown-6 = 你不需要擔心他們；該擔心的是我。
+figurines-holoclown-7 = 有什麼好笑的？
+figurines-nukie-1 = 我拿到光碟了！
+figurines-nukie-2 = 威士忌、回聲、威士忌。
+figurines-nukie-3 = 核彈轟的一聲爆炸了。
+figurines-nukie-4 = 密碼是什麼？
+figurines-nukie-5 = 指揮官……？……那是個氣球……
+figurines-nukie-commander-1 = 快把那該死的光碟拿來！
+figurines-nukie-commander-2 = 該死的走運鬼。
+figurines-nukie-commander-3 = 「辛迪加」謹致問候。
+figurines-nukie-commander-4 = 失敗絕非選項。
+figurines-nukie-commander-5 = 哎呀。
+figurines-nukie-elite-1 = 在《Nanotrasen》中連一個字都沒有。
+figurines-nukie-elite-2 = 那可是個啤酒桶！
+figurines-nukie-elite-3 = 大家，你們還活著嗎？
+figurines-nukie-elite-4 = 突擊並清場！
+figurines-nukie-elite-5 = 不留活口。
+figurines-nukie-elite-6 = 幹得好，團隊。
+figurines-queen-1 = 我們的領域必須不斷擴展。
+figurines-queen-2 = 蜂群正飢餓著。
+figurines-queen-3 = 我們消耗一切。
+figurines-queen-4 = 我們就是巔峰。
+figurines-queen-5 = 你不過是生物質罷了。
+figurines-queen-6 = 我們必須與時俱進。
+figurines-rat-king-1 = 給我點吃的，懂嗎？
+figurines-rat-king-2 = 別再提了。
+figurines-rat-king-3 = 痛揍他們一頓！
+figurines-rat-king-4 = 讓我給你一個你無法拒絕的提議，懂嗎？
+figurines-rat-king-5 = 別往心裡去，懂了吧？
+figurines-rat-king-6 = 現在這電台由我掌舵了，看吧？嘰！
+figurines-rat-servant-1 = 懂了吧！
+figurines-rat-servant-2 = 老闆說！
+figurines-rat-servant-3 = 老闆想跟你們說幾句話。
+figurines-rat-servant-4 = 哎，我正在這邊走呢！
+figurines-rat-servant-5 = 你先搞到那筆錢，我們再談。
+figurines-space-dragon-1 = 魚會吞噬這個站。
+figurines-space-dragon-2 = Dragon de——其實，算了。
+figurines-space-dragon-3 = 《Crew》這部作品非常精彩。
+figurines-space-dragon-4 = 你別想做壽司。
+figurines-space-dragon-5 = 這座車站容不下我們兩個人。
+figurines-skeleton-1 = 哎喲！哎喲！
+figurines-skeleton-2 = 唉，那個置物櫃真是太狹窄了！
+figurines-skeleton-3 = 你接下來會過得很慘。
+figurines-skeleton-4 = 有牛奶嗎？
+figurines-skeleton-5 = 我有話要跟你算一筆帳！
+figurines-thief-1 = 你們沒有搜查令！
+figurines-thief-2 = 這只是個普通的信標罷了！
+figurines-thief-3 = 警官，這個手提包完全沒有任何可疑之處。
+figurines-thief-4 = 我完全不知道你的寵物在哪裡……
+figurines-thief-5 = 咦，我不知道那面牆居然能打開……
 figurines-wizard-1 = EI NATH!!
-figurines-wizard-2 = ONI'SOMA!!
-figurines-wizard-3 = Skidaddle skadoodle!
-figurines-wizard-4 = Real wizards support trans rights.
-figurines-wizard-5 = Which one of you NERDS is ready to be shoved in a locker?
-figurines-wizard-6 = I'm not the wizard! I'm the captain! I got mind-swapped!
-figurines-wizard-7 = Now you see me, now you don't!
-figurines-wizard-8 = Guns are for losers who can't explode people with their mind.
+figurines-wizard-2 = ONI'SOMA！！
+figurines-wizard-3 = 快跑快跑！
+figurines-wizard-4 = 真正的巫師都支持跨性別者的權利。
+figurines-wizard-5 = 你們這些書呆子裡，有誰準備好被塞進置物櫃了？
+figurines-wizard-6 = 我不是巫師！我是船長！我被調換了靈魂！
+figurines-wizard-7 = 一會兒看見我，一會兒又不見了！
+figurines-wizard-8 = 槍枝是給那些無法用念力炸飛別人的失敗者用的。
 
 # Animals
 
-figurines-hamlet-1 = Piep!
-figurines-hamlet-2 = Squeak!
-figurines-hamlet-3 = Chuu!
-figurines-hamlet-4 = Eeee!
-figurines-hamlet-5 = Pip!
-figurines-hamlet-6 = Fwiep!
-figurines-hamlet-7 = Heep!
-figurines-hamlet-8 = NOT THE MICROWAVE!
-
-figurines-mouse-1 = Piep!
-figurines-mouse-2 = Squeak!
-figurines-mouse-3 = Chuu!
-figurines-mouse-4 = Eeee!
-figurines-mouse-5 = Pip!
-figurines-mouse-6 = Fwiep!
-figurines-mouse-7 = Heep!
-
-figurines-slime-1 = Blyump.
-figurines-slime-2 = Blimpuf?
-figurines-slime-3 = Blump!
-figurines-slime-4 = Squish!
+figurines-hamlet-1 = 嗶！
+figurines-hamlet-2 = 吱吱！
+figurines-hamlet-3 = 啾！
+figurines-hamlet-4 = 嗚哇！
+figurines-hamlet-5 = 啾！
+figurines-hamlet-6 = 噗！
+figurines-hamlet-7 = 嘿！
+figurines-hamlet-8 = 千萬別用微波爐！
+figurines-mouse-1 = 嗶！
+figurines-mouse-2 = 吱吱！
+figurines-mouse-3 = 啾！
+figurines-mouse-4 = 嗚哇！
+figurines-mouse-5 = 啾！
+figurines-mouse-6 = 噗！
+figurines-mouse-7 = 嘿！
+figurines-slime-1 = 噗。
+figurines-slime-2 = Blimpuf？
+figurines-slime-3 = 砰！
+figurines-slime-4 = 噗哧！
 
 # Other
 
-figurines-griffin-1 = MUHAHAHAHA, I am so evil!!
-figurines-griffin-2 = The second I see Owlman, they are so dead!!
-figurines-griffin-3 = How do us Griffins deal with stress? We wing it!
-figurines-griffin-4 = My name isn't Gilda!!
-figurines-griffin-5 = Being a criminal mastermind, isn't easy.
-
-figurines-owlman-1 = No need to fear, Owlman is here!
-figurines-owlman-2 = Owl be seeing you later!
-figurines-owlman-3 = HOOT!!
-figurines-owlman-4 = What do you call an owl magician, HOO-DINI!
-figurines-owlman-5 = Don't worry citizen, I'll save the day!
-
-figurines-mech-generic-1 = Systems online.
-figurines-mech-generic-2 = WWWHHHRRR!!
-figurines-mech-generic-3 = VRRRMM UURRMMM!!
-figurines-mech-generic-4 = CLANG!!
+figurines-griffin-1 = 穆哈哈哈哈，我真是太邪惡了！！
+figurines-griffin-2 = 我一看到貓頭鷹俠，那傢伙就死定了！！
+figurines-griffin-3 = 我們這些格里芬族是怎麼應對壓力的呢？我們就隨遇而安吧！
+figurines-griffin-4 = 我的名字不是吉爾達！！
+figurines-griffin-5 = 要當個犯罪首腦，可不是件容易的事。
+figurines-owlman-1 = 別害怕，貓頭鷹俠來了！
+figurines-owlman-2 = 那我們稍後見啦！
+figurines-owlman-3 = 嗚呼！！
+figurines-owlman-4 = 一隻會變魔術的貓頭鷹該怎麼稱呼呢？「HOO-DINI」！
+figurines-owlman-5 = 別擔心，市民，我會拯救這一切的！
+figurines-mech-generic-1 = 系統已上線。
+figurines-mech-generic-2 = WWWHHHRRR！！
+figurines-mech-generic-3 = VRRRMM UURRMMM！！
+figurines-mech-generic-4 = 叮！！

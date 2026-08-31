@@ -1,397 +1,249 @@
-marking-MothAntennasDefault-default = Antennae
-marking-MothAntennasDefault = Antennae (Default)
-
-marking-MothAntennasCharred-charred = Antennae
-marking-MothAntennasCharred = Antennae (Charred)
-
-marking-MothAntennasDbushy-dbushy = Antennae
-marking-MothAntennasDbushy = Antennae (Bushy)
-
-marking-MothAntennasDcurvy-dcurvy = Antennae
-marking-MothAntennasDcurvy = Antennae (Curvy)
-
-marking-MothAntennasDfan-dfan = Antennae
-marking-MothAntennasDfan = Antennae (Fan)
-
-marking-MothAntennasDpointy-dpointy = Antennae
-marking-MothAntennasDpointy = Antennae (Pointy)
-
-marking-MothAntennasFeathery-feathery = Antennae
-marking-MothAntennasFeathery = Antennae (Feathery)
-
-marking-MothAntennasFirewatch-firewatch = Antennae
-marking-MothAntennasFirewatch = Antennae (Firewatch)
-
-marking-MothAntennasGray-gray = Antennae
-marking-MothAntennasGray = Antennae (Gray)
-
-marking-MothAntennasJungle-jungle = Antennae
-marking-MothAntennasJungle = Antennae (Jungle)
-
-marking-MothAntennasMaple-maple = Antennae
-marking-MothAntennasMaple = Antennae (Maple)
-
-marking-MothAntennasMoffra-moffra = Antennae
-marking-MothAntennasMoffra = Antennae (Moffra)
-
-marking-MothAntennasOakworm-oakworm = Antennae
-marking-MothAntennasOakworm = Antennae (Oak Worm)
-
-marking-MothAntennasPlasmafire-plasmafire = Antennae
-marking-MothAntennasPlasmafire = Antennae (Plasmafire)
-
-marking-MothAntennasRoyal-royal = Antennae
-marking-MothAntennasRoyal = Antennae (Royal)
-
-marking-MothAntennasStriped-striped = Antennae
-marking-MothAntennasStriped = Antennae (Striped)
-
-marking-MothAntennasWhitefly-whitefly = Antennae
-marking-MothAntennasWhitefly = Antennae (White Fly)
-
-marking-MothAntennasWitchwing-witchwing = Antennae
-marking-MothAntennasWitchwing = Antennae (Witch Wing)
-
-marking-MothAntennasUnderwing-underwing_primary = Primary
-marking-MothAntennasUnderwing-underwing_secondary = Secondary
-marking-MothAntennasUnderwing = Antennae (Underwing)
-
-
-
+marking-MothAntennasDefault-default = 觸角
+marking-MothAntennasDefault = 天線（預設）
+marking-MothAntennasCharred-charred = 觸角
+marking-MothAntennasCharred = 觸角（焦黑）
+marking-MothAntennasDbushy-dbushy = 觸角
+marking-MothAntennasDbushy = 觸角（叢生型）
+marking-MothAntennasDcurvy-dcurvy = 觸角
+marking-MothAntennasDcurvy = 天線（彎曲型）
+marking-MothAntennasDfan-dfan = 觸角
+marking-MothAntennasDfan = 天線（風扇）
+marking-MothAntennasDpointy-dpointy = 觸角
+marking-MothAntennasDpointy = 觸角（尖尖的）
+marking-MothAntennasFeathery-feathery = 觸角
+marking-MothAntennasFeathery = 觸角（羽毛狀）
+marking-MothAntennasFirewatch-firewatch = 觸角
+marking-MothAntennasFirewatch = 《Antennae》（《Firewatch》）
+marking-MothAntennasGray-gray = 觸角
+marking-MothAntennasGray = 觸角（灰色）
+marking-MothAntennasJungle-jungle = 觸角
+marking-MothAntennasJungle = 天線（叢林）
+marking-MothAntennasMaple-maple = 觸角
+marking-MothAntennasMaple = 天線（楓樹）
+marking-MothAntennasMoffra-moffra = 觸角
+marking-MothAntennasMoffra = 天線（莫夫拉）
+marking-MothAntennasOakworm-oakworm = 觸角
+marking-MothAntennasOakworm = 觸角（橡樹蟲）
+marking-MothAntennasPlasmafire-plasmafire = 觸角
+marking-MothAntennasPlasmafire = 天線（Plasmafire）
+marking-MothAntennasRoyal-royal = 觸角
+marking-MothAntennasRoyal = 安特納（皇家）
+marking-MothAntennasStriped-striped = 觸角
+marking-MothAntennasStriped = 觸角（條紋）
+marking-MothAntennasWhitefly-whitefly = 觸角
+marking-MothAntennasWhitefly = 觸角（白粉蝨）
+marking-MothAntennasWitchwing-witchwing = 觸角
+marking-MothAntennasWitchwing = 天線（女巫之翼）
+marking-MothAntennasUnderwing-underwing_primary = 小學
+marking-MothAntennasUnderwing-underwing_secondary = 中學
+marking-MothAntennasUnderwing = 觸角（翅下）
 marking-MothWingsDefault-default = Wing
-marking-MothWingsDefault = Wings (Default)
-
+marking-MothWingsDefault = 翅膀（預設）
 marking-MothWingsCharred-charred = Wing
-marking-MothWingsCharred = Wings (Charred)
-
-marking-MothWingsDbushy-dbushy_primary = Primary
-marking-MothWingsDbushy-dbushy_secondary = Secondary
-marking-MothWingsDbushy = Wings (Dark & Bushy)
-
-marking-MothWingsDeathhead-deathhead_primary = Primary
-marking-MothWingsDeathhead-deathhead_secondary = Secondary
-marking-MothWingsDeathhead = Wings (Death's-Head)
-
+marking-MothWingsCharred = 雞翅（焦香）
+marking-MothWingsDbushy-dbushy_primary = 小學
+marking-MothWingsDbushy-dbushy_secondary = 中學
+marking-MothWingsDbushy = 翅膀（深色且濃密）
+marking-MothWingsDeathhead-deathhead_primary = 小學
+marking-MothWingsDeathhead-deathhead_secondary = 中學
+marking-MothWingsDeathhead = 翅膀（死神頭）
 marking-MothWingsFan-fan = Wing
-marking-MothWingsFan = Wings (Fan)
-
+marking-MothWingsFan = 翅膀（粉絲）
 marking-MothWingsDfan-dfan = Wing
-marking-MothWingsDfan = Wings (Dark & Fan)
-
+marking-MothWingsDfan = 翅膀（暗色與扇形）
 marking-MothWingsFeathery-feathery = Wing
-marking-MothWingsFeathery = Wings (Feathery)
-
-marking-MothWingsFirewatch-firewatch_primary = Primary
-marking-MothWingsFirewatch-firewatch_secondary = Secondary
-marking-MothWingsFirewatch = Wings (Firewatch)
-
+marking-MothWingsFeathery = 翅膀（羽毛狀）
+marking-MothWingsFirewatch-firewatch_primary = 小學
+marking-MothWingsFirewatch-firewatch_secondary = 中學
+marking-MothWingsFirewatch = 《Wings》（《Firewatch》）
 marking-MothWingsGothic-gothic = Wing
-marking-MothWingsGothic = Wings (Gothic)
-
+marking-MothWingsGothic = 《Wings》（哥德式）
 marking-MothWingsJungle-jungle = Wing
-marking-MothWingsJungle = Wings (Jungle)
-
+marking-MothWingsJungle = Wings（叢林）
 marking-MothWingsLadybug-ladybug = Wing
-marking-MothWingsLadybug = Wings (Ladybug)
-
-marking-MothWingsMaple-maple_primary = Primary
-marking-MothWingsMaple-maple_secondary = Secondary
-marking-MothWingsMaple = Wings (Maple)
-
-marking-MothWingsMoffra-moffra_primary = Primary
-marking-MothWingsMoffra-moffra_secondary = Secondary
-marking-MothWingsMoffra = Wings (Moffra)
-
+marking-MothWingsLadybug = 翅膀（瓢蟲）
+marking-MothWingsMaple-maple_primary = 小學
+marking-MothWingsMaple-maple_secondary = 中學
+marking-MothWingsMaple = 翅膀（楓樹）
+marking-MothWingsMoffra-moffra_primary = 小學
+marking-MothWingsMoffra-moffra_secondary = 中學
+marking-MothWingsMoffra = 《翅膀》（莫夫拉）
 marking-MothWingsOakworm-oakworm = Wing
-marking-MothWingsOakworm = Wings (Oak Worm)
-
-marking-MothWingsPlasmafire-plasmafire_primary = Primary
-marking-MothWingsPlasmafire-plasmafire_secondary = Secondary
-marking-MothWingsPlasmafire = Wings (Plasmafire)
-
+marking-MothWingsOakworm = 翅膀（橡樹蟲）
+marking-MothWingsPlasmafire-plasmafire_primary = 小學
+marking-MothWingsPlasmafire-plasmafire_secondary = 中學
+marking-MothWingsPlasmafire = 《Wings》（Plasmafire）
 marking-MothWingsPointy-pointy = Wing
-marking-MothWingsPointy = Wings (Pointy)
-
-marking-MothWingsRoyal-royal_primary = Primary
-marking-MothWingsRoyal-royal_secondary = Secondary
-marking-MothWingsRoyal = Wings (Royal)
-
+marking-MothWingsPointy = 翅膀（尖尖的）
+marking-MothWingsRoyal-royal_primary = 小學
+marking-MothWingsRoyal-royal_secondary = 中學
+marking-MothWingsRoyal = Wings（皇家）
 marking-MothWingsStellar-stellar = Wing
-marking-MothWingsStellar = Wings (Stellar)
-
+marking-MothWingsStellar = 《Wings》（Stellar）
 marking-MothWingsStriped-striped = Wing
-marking-MothWingsStriped = Wings (Striped)
-
+marking-MothWingsStriped = 翅膀（條紋）
 marking-MothWingsSwirly-swirly = Wing
-marking-MothWingsSwirly = Wings (Swirly)
-
+marking-MothWingsSwirly = 翅膀（螺旋狀）
 marking-MothWingsWhitefly-whitefly = Wing
-marking-MothWingsWhitefly = Wings (White Fly)
-
+marking-MothWingsWhitefly = 翅膀（白粉蝨）
 marking-MothWingsWitchwing-witchwing = Wing
-marking-MothWingsWitchwing = Wings (Witch Wing)
-
-marking-MothWingsUnderwing-underwing_primary = Primary
-marking-MothWingsUnderwing-underwing_secondary = Secondary
-marking-MothWingsUnderwing = Wings (Underwing)
-
-
-
-
-marking-MothChestCharred-charred_chest = Chest
-marking-MothChestCharred = Moth Chest (Charred)
-
-marking-MothHeadCharred-charred_head = Head
-marking-MothHeadCharred = Moth Head (Charred)
-
-marking-MothLLegCharred-charred_l_leg =  Left Leg
-marking-MothLLegCharred = Moth Left Leg (Charred)
-
-marking-MothRLegCharred-charred_r_leg = Right Leg
-marking-MothRLegCharred = Moth Right Leg (Charred)
-
-marking-MothLArmCharred-charred_l_arm = Left Arm
-marking-MothLArmCharred = Moth Left Arm (Charred)
-
-marking-MothRArmCharred-charred_r_arm = Right Arm
-marking-MothRArmCharred = Moth Right Arm (Charred)
-
-
-
-marking-MothChestDeathhead-deathhead_chest = Chest
-marking-MothChestDeathhead = Moth Chest (Death's-Head)
-
-marking-MothHeadDeathhead-deathhead_head = Head
-marking-MothHeadDeathhead = Moth Head (Death's-Head)
-
-marking-MothLLegDeathhead-deathhead_l_leg = Left Leg
-marking-MothLLegDeathhead = Moth Left Leg (Death's-Head)
-
-marking-MothRLegDeathhead-deathhead_r_leg = Right Leg
-marking-MothRLegDeathhead = Moth Right Leg (Death's-Head)
-
-marking-MothLArmDeathhead-deathhead_l_arm = Left Arm
-marking-MothLArmDeathhead = Moth Left Arm (Death's-Head)
-
-marking-MothRArmDeathhead-deathhead_r_arm = Right Arm
-marking-MothRArmDeathhead = Moth Right Arm (Death's-Head)
-
-
-
-marking-MothChestFan-fan_chest = Chest
-marking-MothChestFan = Moth Chest (Fan)
-
-marking-MothHeadFan-fan_head = Head
-marking-MothHeadFan = Moth Head (Fan)
-
-marking-MothLLegFan-fan_l_leg = Left Leg
-marking-MothLLegFan = Moth Left Leg (Fan)
-
-marking-MothRLegFan-fan_r_leg = Right Leg
-marking-MothRLegFan = Moth Right Leg (Fan)
-
-marking-MothLArmFan-fan_l_arm = Left Arm
-marking-MothLArmFan = Moth Left Arm (Fan)
-
-marking-MothRArmFan-fan_r_arm = Right Arm
-marking-MothRArmFan = Moth Right Arm (Fan)
-
-
-
-marking-MothChestFirewatch-firewatch_chest = Chest
-marking-MothChestFirewatch = Moth Chest (Firewatch)
-
-marking-MothHeadFirewatch-firewatch_head = Head
-marking-MothHeadFirewatch = Moth Head (Firewatch)
-
-marking-MothLLegFirewatch-firewatch_l_leg = Left Leg
-marking-MothLLegFirewatch = Moth Left Leg (Firewatch)
-
-marking-MothRLegFirewatch-firewatch_r_leg = Right Leg
-marking-MothRLegFirewatch = Moth Right Leg (Firewatch)
-
-marking-MothLArmFirewatch-firewatch_l_arm = Left Arm
-marking-MothLArmFirewatch = Moth Left Arm (Firewatch)
-
-marking-MothRArmFirewatch-firewatch_r_arm = Right Arm
-marking-MothRArmFirewatch = Moth Right Arm (Firewatch)
-
-
-
-marking-MothChestGothic-gothic_chest = Chest
-marking-MothChestGothic = Moth Chest (Gothic)
-
-marking-MothHeadGothic-gothic_head = Head 
-marking-MothHeadGothic = Moth Head (Gothic)
-
-marking-MothLLegGothic-gothic_l_leg = Left Leg
-marking-MothLLegGothic = Moth Left Leg (Gothic)
-
-marking-MothRLegGothic-gothic_r_leg = Right Leg
-marking-MothRLegGothic = Moth Right Leg (Gothic)
-
-marking-MothLArmGothic-gothic_l_arm = Left Arm
-marking-MothLArmGothic = Moth Left Arm (Gothic)
-
-marking-MothRArmGothic-gothic_r_arm = Right Arm
-marking-MothRArmGothic = Moth Right Arm (Gothic)
-
-
-
-marking-MothChestJungle-jungle_chest = Chest
-marking-MothChestJungle = Moth Chest (Jungle)
-
-marking-MothHeadJungle-jungle_head = Head
-marking-MothHeadJungle = Moth Head (Jungle)
-
-marking-MothLLegJungle-jungle_l_leg = Left Leg
-marking-MothLLegJungle = Moth Left Leg (Jungle)
-
-marking-MothRLegJungle-jungle_r_leg = Right Leg
-marking-MothRLegJungle = Moth Right Leg (Jungle)
-
-marking-MothLArmJungle-jungle_l_arm = Left Arm
-marking-MothLArmJungle = Moth Left Arm (Jungle)
-
-marking-MothRArmJungle-jungle_r_arm = Right Arm
-marking-MothRArmJungle = Moth Right Arm (Jungle)
-
-
-
-marking-MothChestMoonfly-moonfly_chest = Chest
-marking-MothChestMoonfly = Moth Chest (Moonfly)
-
-marking-MothHeadMoonfly-moonfly_head = Head
-marking-MothHeadMoonfly = Moth Head (Moonfly)
-
-marking-MothLLegMoonfly-moonfly_l_leg = Left Leg
-marking-MothLLegMoonfly = Moth Left Leg (Moonfly)
-
-marking-MothRLegMoonfly-moonfly_r_leg = Right Leg
-marking-MothRLegMoonfly = Moth Right Leg (Moonfly)
-
-marking-MothLArmMoonfly-moonfly_l_arm = Left Arm
-marking-MothLArmMoonfly = Moth Left Arm (Moonfly)
-
-marking-MothRArmMoonfly-moonfly_r_arm = Right Arm
-marking-MothRArmMoonfly = Moth Right Arm (Moonfly)
-
-
-
-marking-MothChestOakworm-oakworm_chest = Chest
-marking-MothChestOakworm = Moth Chest (Oak Worm)
-
-marking-MothHeadOakworm-oakworm_head = Head
-marking-MothHeadOakworm = Moth Head (Oak Worm)
-
-marking-MothLLegOakworm-oakworm_l_leg = Left Leg
-marking-MothLLegOakworm = Moth Left Leg (Oak Worm)
-
-marking-MothRLegOakworm-oakworm_r_leg = Right Leg
-marking-MothRLegOakworm = Moth Right Leg (Oak Worm)
-
-marking-MothLArmOakworm-oakworm_l_arm = Left Arm
-marking-MothLArmOakworm = Moth Left Arm (Oak Worm)
-
-marking-MothRArmOakworm-oakworm_r_arm = Right Arm
-marking-MothRArmOakworm = Moth Right Arm (Oak Worm)
-
-
-
-marking-MothChestPointy-pointy_chest = Chest
-marking-MothChestPointy = Moth Chest (Pointy)
-
-marking-MothHeadPointy-pointy_head = Head
-marking-MothHeadPointy = Moth Head (Pointy)
-
-marking-MothLLegPointy-pointy_l_leg = Left Leg
-marking-MothLLegPointy = Moth Left Leg (Pointy)
-
-marking-MothRLegPointy-pointy_r_leg = Right Leg
-marking-MothRLegPointy = Moth Right Leg (Pointy)
-
-marking-MothLArmPointy-pointy_l_arm = Left Arm
-marking-MothLArmPointy = Moth Left Arm (Pointy)
-
-marking-MothRArmPointy-pointy_r_arm = Right Arm
-marking-MothRArmPointy = Moth Right Arm (Pointy)
-
-
-
-marking-MothChestRagged-ragged_chest = Chest
-marking-MothChestRagged = Moth Chest (Ragged)
-
-marking-MothHeadRagged-ragged_head = Head
-marking-MothHeadRagged = Moth Head (Ragged)
-
-marking-MothLLegRagged-ragged_l_leg = Left Leg
-marking-MothLLegRagged = Moth Left Leg (Ragged)
-
-marking-MothRLegRagged-ragged_r_leg = Right Leg
-marking-MothRLegRagged = Moth Right Leg (Ragged)
-
-marking-MothLArmRagged-ragged_l_arm = Left Arm
-marking-MothLArmRagged = Moth Left Arm (Ragged)
-
-marking-MothRArmRagged-ragged_r_arm = Right Arm
-marking-MothRArmRagged = Moth Right Arm (Ragged)
-
-
-
-marking-MothChestRoyal-royal_chest = Chest
-marking-MothChestRoyal = Moth Chest (Royal)
-
-marking-MothHeadRoyal-royal_head = Head
-marking-MothHeadRoyal = Moth Head (Royal)
-
-marking-MothLLegRoyal-royal_l_leg = Left Leg
-marking-MothLLegRoyal = Moth Left Leg (Royal)
-
-marking-MothRLegRoyal-royal_r_leg = Right Leg
-marking-MothRLegRoyal = Moth Right Leg (Royal)
-
-marking-MothLArmRoyal-royal_l_arm = Left Arm
-marking-MothLArmRoyal = Moth Left Arm (Royal)
-
-marking-MothRArmRoyal-royal_r_arm = Right Arm
-marking-MothRArmRoyal = Moth Right Arm (Royal)
-
-
-
-marking-MothChestWhitefly-whitefly_chest = Chest
-marking-MothChestWhitefly = Moth Chest (White Fly)
-
-marking-MothHeadWhitefly-whitefly_head = Head
-marking-MothHeadWhitefly = Moth Head (White Fly)
-
-marking-MothLLegWhitefly-whitefly_l_leg = Left Leg
-marking-MothLLegWhitefly = Moth Left Leg (White Fly)
-
-marking-MothRLegWhitefly-whitefly_r_leg = Right Leg
-marking-MothRLegWhitefly = Moth Right Leg (White Fly)
-
-marking-MothLArmWhitefly-whitefly_l_arm = Left Arm
-marking-MothLArmWhitefly = Moth Left Arm (White Fly)
-
-marking-MothRArmWhitefly-whitefly_r_arm = Right Arm
-marking-MothRArmWhitefly = Moth Right Arm (White Fly)
-
-
-
-marking-MothChestWitchwing-witchwing_chest = Chest
-marking-MothChestWitchwing = Moth Chest (Witch Wing)
-
-marking-MothHeadWitchwing-witchwing_head = Head
-marking-MothHeadWitchwing = Moth Head (Witch Wing)
-
-marking-MothLLegWitchwing-witchwing_l_leg = Left Leg
-marking-MothLLegWitchwing = Moth Left Leg (Witch Wing)
-
-marking-MothRLegWitchwing-witchwing_r_leg = Right Leg
-marking-MothRLegWitchwing = Moth Right Leg (Witch Wing)
-
-marking-MothLArmWitchwing-witchwing_l_arm = Left Arm
-marking-MothLArmWitchwing = Moth Left Arm (Witch Wing)
-
-marking-MothRArmWitchwing-witchwing_r_arm = Right Arm
-marking-MothRArmWitchwing = Moth Right Arm (Witch Wing)
+marking-MothWingsWitchwing = 翅膀（女巫之翼）
+marking-MothWingsUnderwing-underwing_primary = 小學
+marking-MothWingsUnderwing-underwing_secondary = 中學
+marking-MothWingsUnderwing = 翅膀（翼下）
+marking-MothChestCharred-charred_chest = 胸部
+marking-MothChestCharred = 飛蛾箱（炭化）
+marking-MothHeadCharred-charred_head = 標題
+marking-MothHeadCharred = 飛蛾頭（焦黑）
+marking-MothLLegCharred-charred_l_leg = 左腿
+marking-MothLLegCharred = 飛蛾左腿（焦黑）
+marking-MothRLegCharred-charred_r_leg = 右腿
+marking-MothRLegCharred = 飛蛾的右腿（焦黑）
+marking-MothLArmCharred-charred_l_arm = 左臂
+marking-MothLArmCharred = 飛蛾左臂（焦黑）
+marking-MothRArmCharred-charred_r_arm = 右臂
+marking-MothRArmCharred = 飛蛾的右臂（焦黑）
+marking-MothChestDeathhead-deathhead_chest = 胸部
+marking-MothChestDeathhead = 蛾胸（死頭蛾）
+marking-MothHeadDeathhead-deathhead_head = 標題
+marking-MothHeadDeathhead = 飛蛾頭（死神頭）
+marking-MothLLegDeathhead-deathhead_l_leg = 左腿
+marking-MothLLegDeathhead = 蛾的左腿（死神頭）
+marking-MothRLegDeathhead-deathhead_r_leg = 右腿
+marking-MothRLegDeathhead = 蛾的右腿（死頭蛾）
+marking-MothLArmDeathhead-deathhead_l_arm = 左臂
+marking-MothLArmDeathhead = 蛾的左前肢（死頭蛾）
+marking-MothRArmDeathhead-deathhead_r_arm = 右臂
+marking-MothRArmDeathhead = 飛蛾右臂（死神頭顱）
+marking-MothChestFan-fan_chest = 胸部
+marking-MothChestFan = 蛾箱（扇形）
+marking-MothHeadFan-fan_head = 標題
+marking-MothHeadFan = 飛蛾頭（扇）
+marking-MothLLegFan-fan_l_leg = 左腿
+marking-MothLLegFan = 飛蛾左腿（扇狀）
+marking-MothRLegFan-fan_r_leg = 右腿
+marking-MothRLegFan = 飛蛾右腿（扇狀）
+marking-MothLArmFan-fan_l_arm = 左臂
+marking-MothLArmFan = 飛蛾左臂（扇）
+marking-MothRArmFan-fan_r_arm = 右臂
+marking-MothRArmFan = 飛蛾右臂（扇）
+marking-MothChestFirewatch-firewatch_chest = 胸部
+marking-MothChestFirewatch = 飛蛾寶箱（《Firewatch》）
+marking-MothHeadFirewatch-firewatch_head = 標題
+marking-MothHeadFirewatch = 飛蛾首領（《火線守望》）
+marking-MothLLegFirewatch-firewatch_l_leg = 左腿
+marking-MothLLegFirewatch = 飛蛾的左腿（《火線守望》）
+marking-MothRLegFirewatch-firewatch_r_leg = 右腿
+marking-MothRLegFirewatch = 飛蛾的右腿（《火線守望》）
+marking-MothLArmFirewatch-firewatch_l_arm = 左臂
+marking-MothLArmFirewatch = 《Moth》左臂（《Firewatch》）
+marking-MothRArmFirewatch-firewatch_r_arm = 右臂
+marking-MothRArmFirewatch = 飛蛾的右臂（《火線守望》）
+marking-MothChestGothic-gothic_chest = 胸部
+marking-MothChestGothic = 飛蛾櫃（哥德式）
+marking-MothHeadGothic-gothic_head = 標題
+marking-MothHeadGothic = 飛蛾之首（哥德式）
+marking-MothLLegGothic-gothic_l_leg = 左腿
+marking-MothLLegGothic = 飛蛾左腿（哥德式）
+marking-MothRLegGothic-gothic_r_leg = 右腿
+marking-MothRLegGothic = 飛蛾的右腿（哥德式）
+marking-MothLArmGothic-gothic_l_arm = 左臂
+marking-MothLArmGothic = 飛蛾左臂（哥德式）
+marking-MothRArmGothic-gothic_r_arm = 右臂
+marking-MothRArmGothic = 飛蛾右臂（哥德式）
+marking-MothChestJungle-jungle_chest = 胸部
+marking-MothChestJungle = 飛蛾寶箱（叢林）
+marking-MothHeadJungle-jungle_head = 標題
+marking-MothHeadJungle = 飛蛾首領（叢林）
+marking-MothLLegJungle-jungle_l_leg = 左腿
+marking-MothLLegJungle = 飛蛾左腿（叢林）
+marking-MothRLegJungle-jungle_r_leg = 右腿
+marking-MothRLegJungle = 飛蛾右腿（叢林）
+marking-MothLArmJungle-jungle_l_arm = 左臂
+marking-MothLArmJungle = 飛蛾左臂（叢林）
+marking-MothRArmJungle-jungle_r_arm = 右臂
+marking-MothRArmJungle = 飛蛾右臂（叢林）
+marking-MothChestMoonfly-moonfly_chest = 胸部
+marking-MothChestMoonfly = 飛蛾箱（月飛）
+marking-MothHeadMoonfly-moonfly_head = 標題
+marking-MothHeadMoonfly = 蛾頭（月蛾）
+marking-MothLLegMoonfly-moonfly_l_leg = 左腿
+marking-MothLLegMoonfly = 蛾的左腿（月蛾）
+marking-MothRLegMoonfly-moonfly_r_leg = 右腿
+marking-MothRLegMoonfly = 蛾的右腿（月蛾）
+marking-MothLArmMoonfly-moonfly_l_arm = 左臂
+marking-MothLArmMoonfly = 蛾的左臂（月飛蛾）
+marking-MothRArmMoonfly-moonfly_r_arm = 右臂
+marking-MothRArmMoonfly = 飛蛾的右臂（月飛蛾）
+marking-MothChestOakworm-oakworm_chest = 胸部
+marking-MothChestOakworm = 蛾蛀（橡樹蟲）
+marking-MothHeadOakworm-oakworm_head = 標題
+marking-MothHeadOakworm = 蛾頭（橡樹蟲）
+marking-MothLLegOakworm-oakworm_l_leg = 左腿
+marking-MothLLegOakworm = 蛾的左腿（橡樹蛾）
+marking-MothRLegOakworm-oakworm_r_leg = 右腿
+marking-MothRLegOakworm = 飛蛾右腿（橡樹蛾）
+marking-MothLArmOakworm-oakworm_l_arm = 左臂
+marking-MothLArmOakworm = 天蛾左臂（橡樹蟲）
+marking-MothRArmOakworm-oakworm_r_arm = 右臂
+marking-MothRArmOakworm = 蛾的右前足（橡樹蛾）
+marking-MothChestPointy-pointy_chest = 胸部
+marking-MothChestPointy = 飛蛾胸甲（尖頭型）
+marking-MothHeadPointy-pointy_head = 標題
+marking-MothHeadPointy = 飛蛾頭（尖頭）
+marking-MothLLegPointy-pointy_l_leg = 左腿
+marking-MothLLegPointy = 飛蛾左腿（尖的）
+marking-MothRLegPointy-pointy_r_leg = 右腿
+marking-MothRLegPointy = 飛蛾右腿（尖的）
+marking-MothLArmPointy-pointy_l_arm = 左臂
+marking-MothLArmPointy = 飛蛾左臂（尖尖的）
+marking-MothRArmPointy-pointy_r_arm = 右臂
+marking-MothRArmPointy = 飛蛾右臂（尖尖的）
+marking-MothChestRagged-ragged_chest = 胸部
+marking-MothChestRagged = 蛾胸（破爛）
+marking-MothHeadRagged-ragged_head = 標題
+marking-MothHeadRagged = 飛蛾頭（破爛）
+marking-MothLLegRagged-ragged_l_leg = 左腿
+marking-MothLLegRagged = 飛蛾左腿（破爛）
+marking-MothRLegRagged-ragged_r_leg = 右腿
+marking-MothRLegRagged = 飛蛾右腿（破爛）
+marking-MothLArmRagged-ragged_l_arm = 左臂
+marking-MothLArmRagged = 飛蛾左臂（破爛）
+marking-MothRArmRagged-ragged_r_arm = 右臂
+marking-MothRArmRagged = 飛蛾右臂（破爛）
+marking-MothChestRoyal-royal_chest = 胸部
+marking-MothChestRoyal = 飛蛾寶箱（皇家版）
+marking-MothHeadRoyal-royal_head = 標題
+marking-MothHeadRoyal = 飛蛾頭（皇家版）
+marking-MothLLegRoyal-royal_l_leg = 左腿
+marking-MothLLegRoyal = 飛蛾左腿（皇家）
+marking-MothRLegRoyal-royal_r_leg = 右腿
+marking-MothRLegRoyal = 飛蛾右腿（皇家）
+marking-MothLArmRoyal-royal_l_arm = 左臂
+marking-MothLArmRoyal = 飛蛾左臂（皇家版）
+marking-MothRArmRoyal-royal_r_arm = 右臂
+marking-MothRArmRoyal = 飛蛾右臂（皇家版）
+marking-MothChestWhitefly-whitefly_chest = 胸部
+marking-MothChestWhitefly = 蛾類蟲害（白粉蝨）
+marking-MothHeadWhitefly-whitefly_head = 標題
+marking-MothHeadWhitefly = 蛾頭（白粉蝨）
+marking-MothLLegWhitefly-whitefly_l_leg = 左腿
+marking-MothLLegWhitefly = 蛾的左腿（白粉蝨）
+marking-MothRLegWhitefly-whitefly_r_leg = 右腿
+marking-MothRLegWhitefly = 蛾的右腿（白蝿）
+marking-MothLArmWhitefly-whitefly_l_arm = 左臂
+marking-MothLArmWhitefly = 蛾的左前肢（白蝿）
+marking-MothRArmWhitefly-whitefly_r_arm = 右臂
+marking-MothRArmWhitefly = 蛾的右臂（白蝿）
+marking-MothChestWitchwing-witchwing_chest = 胸部
+marking-MothChestWitchwing = 飛蛾寶箱（女巫之翼）
+marking-MothHeadWitchwing-witchwing_head = 標題
+marking-MothHeadWitchwing = 飛蛾頭（女巫之翼）
+marking-MothLLegWitchwing-witchwing_l_leg = 左腿
+marking-MothLLegWitchwing = 飛蛾左腿（女巫之翼）
+marking-MothRLegWitchwing-witchwing_r_leg = 右腿
+marking-MothRLegWitchwing = 飛蛾右腿（女巫之翼）
+marking-MothLArmWitchwing-witchwing_l_arm = 左臂
+marking-MothLArmWitchwing = 飛蛾左臂（女巫之翼）
+marking-MothRArmWitchwing-witchwing_r_arm = 右臂
+marking-MothRArmWitchwing = 飛蛾的右臂（女巫之翼）

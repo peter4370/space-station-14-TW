@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: WatcherBolt
   categories: [ HideSpawnMenu ]
-  name: watcher bolt
+  name: 觀察螺栓 | watcher bolt
   components:
   - type: FlyBySound
     sound:
@@ -51,7 +51,7 @@
   parent: WatcherBolt
   id: WatcherBoltMagmawing
   categories: [ HideSpawnMenu ]
-  name: magmawing watcher bolt
+  name: 岩漿之翼守望者螺栓 | magmawing watcher bolt
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
@@ -74,7 +74,7 @@
   parent: BaseBullet
   id: BasiliskRay
   categories: [ HideSpawnMenu ]
-  name: basilisk ray
+  name: 巴希利斯克射線 | basilisk ray
   components:
   - type: FlyBySound
     sound:

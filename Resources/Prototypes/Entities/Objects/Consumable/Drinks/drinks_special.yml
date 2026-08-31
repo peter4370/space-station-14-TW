@@ -1,8 +1,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase, DrinkVisualsFillOverlay]
   id: DrinkShotGlass
-  name: shot glass
-  description: Perfect for slamming down onto the table angrily.
+  name: shot glass | shot glass
+  description: 非常適合氣急敗壞地重重拍在桌上。 | Perfect for slamming down onto the table angrily.
   components:
   - type: Solution
     solution:
@@ -32,8 +32,8 @@
 - type: entity
   parent: [DrinkBaseMaterialMetal, SolutionLarge, DrinkBase]
   id: DrinkIceBucket
-  name: ice bucket
-  description: A special bucket of refreshy ice. Prohibited use for challenge with the same name!
+  name: 冰桶 | ice bucket
+  description: 一桶特別的清爽冰塊。禁止用於同名挑戰！ | A special bucket of refreshy ice. Prohibited use for challenge with the same name!
   components:
   - type: Item
     size: Large
@@ -52,8 +52,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPorcelain, SolutionNormal, DrinkBase]
   id: DrinkTeapot
-  name: teapot  # short and stout
-  description: An elegant teapot. It simply oozes class.
+  name: 茶壺 # short and stout | teapot  # short and stout
+  description: 一款優雅的茶壺。它簡直散發著高雅氣質。 | An elegant teapot. It simply oozes class.
   components:
   - type: Item
     size: Normal
@@ -72,7 +72,7 @@
 - type: entity
   parent: BaseStorageItem
   id: DrinkCanPack
-  name: 6pack
+  name: 六塊肌 | 6pack
   components:
   - type: Sprite
     sprite: Objects/Misc/6pack.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: [DrinkBaseMaterialStrongMetal, SolutionSmall, DrinkBase]
   id: DrinkShaker
-  name: shaker
-  description: The trusty mixing buddy of the bartender.
+  name: 搖盪器 | shaker
+  description: 調酒師最值得信賴的調酒夥伴。 | The trusty mixing buddy of the bartender.
   components:
   - type: Solution
     solution:
@@ -151,8 +151,8 @@
 - type: entity
   parent: DrinkShaker
   id: DrinkShakerGold
-  name: golden shaker
-  description: A gold-plated shaker given as a token of appreciation for years of service. It doesn't make the drinks taste any different.
+  name: 金色搖盅 | golden shaker
+  description: 一個鍍金的調酒搖盪器，作為對多年服務的感謝禮物。它並不會讓飲料的味道有任何不同。 | A gold-plated shaker given as a token of appreciation for years of service. It doesn't make the drinks taste any different.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shaker_gold.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: [DrinkBaseMaterialMetal, DrinkBase]
   id: DrinkJigger
-  name: jigger
-  description: Like a shaker, but smaller. Used to control the amount of ingredients.
+  name: 量酒器 | jigger
+  description: 就像一個搖盅，但體積較小。用來控制食材的用量。 | Like a shaker, but smaller. Used to control the amount of ingredients.
   components:
   - type: Item
     size: Tiny
@@ -193,8 +193,8 @@
 - type: entity
   parent: [DrinkBaseMaterialStrongMetal, SolutionNormal, DrinkBase, DrinkVisualsFill]
   id: Pitcher
-  name: metal pitcher
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: 金屬水壺 | metal pitcher
+  description: 一款不鏽鋼保溫壺。每個人早晨的最佳夥伴。 | A stainless steel insulated pitcher. Everyone's best friend in the morning.
   components:
   - type: Item
     size: Normal
@@ -234,7 +234,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeBlue
-  name: blue milkshake
+  name: 藍色奶昔 | blue milkshake
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-blue.rsi
@@ -242,7 +242,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeEmpty
-  name: shakeempty
+  name: shakeempty | shakeempty
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-empty.rsi
@@ -250,7 +250,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeMeat
-  name: meat shake
+  name: 肉奶昔 | meat shake
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-meat.rsi
@@ -258,7 +258,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeRobo
-  name: robo shake
+  name: 機器人搖擺 | robo shake
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-robo.rsi
@@ -266,7 +266,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeWhite
-  name: white shake
+  name: 白色奶昔 | white shake
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-white.rsi

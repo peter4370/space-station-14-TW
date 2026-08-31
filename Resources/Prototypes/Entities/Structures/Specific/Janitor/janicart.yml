@@ -2,8 +2,8 @@
 - type: entity
   parent: [SolutionGinormous, SolutionTank, BaseStructureDynamic, StructureWheeled, StructureHealthContainerWeak]
   id: MopBucket
-  name: mop bucket
-  description: Holds water and the tears of the janitor.
+  name: 拖把桶 | mop bucket
+  description: 盛載著水，以及清潔工的淚水。 | Holds water and the tears of the janitor.
   components:
   - type: Clickable
   - type: Sprite
@@ -58,7 +58,7 @@
   - type: ItemSlots
     slots:
       item_slot:
-        name: mop-bucket-slot-component-slot-name-item
+        name: 拖把-水桶-插槽-元件-插槽名稱-項目 | mop-bucket-slot-component-slot-name-item
         ejectVerbText: mop-bucket-slot-component-eject-verb
         whitelist:
           tags:
@@ -121,7 +121,7 @@
         - MachineMask
 
 - type: entity
-  name: mop bucket
+  name: 拖把桶 | mop bucket
   id: MopBucketFull
   parent: MopBucket
   suffix: full
@@ -139,9 +139,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: mop bucket cube
+  name: 立方體拖把桶 | mop bucket cube
   id: MopBucketCubeWrapped
-  description: Unwrap this to get a mop bucket cube.
+  description: 拆開包裝，即可獲得一個拖把桶方塊。 | Unwrap this to get a mop bucket cube.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -153,8 +153,8 @@
 - type: entity
   parent: [SolutionGinormous, SolutionTank, BaseStructureDynamic, StructureWheeled, StructureHealthContainer]
   id: JanitorialTrolley
-  name: janitorial trolley
-  description: This is the alpha and omega of sanitation.
+  name: 清潔推車 | janitorial trolley
+  description: 這就是衛生工作的始與終。 | This is the alpha and omega of sanitation.
   components:
   - type: Sprite
     noRot: true
@@ -178,65 +178,65 @@
   - type: ItemSlots
     slots:
       mop_slot:
-        name: janitorial-trolley-slot-component-slot-name-mop
+        name: 清潔推車-插槽-組件-插槽名稱-拖把 | janitorial-trolley-slot-component-slot-name-mop
         whitelist:
           tags:
           - Mop
         insertOnInteract: false # or it conflicts with bucket logic
         priority: 9 # Higher than bucket slot
       plunger_slot:
-        name: janitorial-trolley-slot-component-slot-name-plunger
+        name: 清潔推車-插槽-組件-插槽名稱-推桿 | janitorial-trolley-slot-component-slot-name-plunger
         whitelist:
           tags:
           - Plunger
           - GoldenPlunger
         priority: 8
       wetfloorsign_slot4:
-        name: janitorial-trolley-slot-component-slot-name-sign
+        name: 清潔推車插槽組件插槽名稱標牌 | janitorial-trolley-slot-component-slot-name-sign
         whitelist:
           tags:
           - WetFloorSign
         priority: 7
       wetfloorsign_slot3:
-        name: janitorial-trolley-slot-component-slot-name-sign
+        name: 清潔推車插槽組件插槽名稱標牌 | janitorial-trolley-slot-component-slot-name-sign
         whitelist:
           tags:
           - WetFloorSign
         priority: 7
       wetfloorsign_slot2:
-        name: janitorial-trolley-slot-component-slot-name-sign
+        name: 清潔推車插槽組件插槽名稱標牌 | janitorial-trolley-slot-component-slot-name-sign
         whitelist:
           tags:
           - WetFloorSign
         priority: 7
       wetfloorsign_slot1:
-        name: janitorial-trolley-slot-component-slot-name-sign
+        name: 清潔推車插槽組件插槽名稱標牌 | janitorial-trolley-slot-component-slot-name-sign
         whitelist:
           tags:
           - WetFloorSign
         priority: 7
       lightreplacer_slot:
-        name: janitorial-trolley-slot-component-slot-name-lightreplacer
+        name: 清潔推車-插槽-元件-插槽名稱-Lightreplacer | janitorial-trolley-slot-component-slot-name-lightreplacer
         whitelist:
           components:
           - LightReplacer
         priority: 6
       spraybottle_slot:
-        name: janitorial-trolley-slot-component-slot-name-spray
+        name: 清潔推車-插槽-元件-插槽名稱-噴灑 | janitorial-trolley-slot-component-slot-name-spray
         whitelist:
           tags:
           - Spray
         insertOnInteract: false # or it conflicts with bucket logic
         priority: 5 # Higher than bucket slot
       bucket_slot:
-        name: janitorial-trolley-slot-component-slot-name-bucket
+        name: 清潔車-插槽-組件-插槽名稱-垃圾桶 | janitorial-trolley-slot-component-slot-name-bucket
         whitelist:
           tags:
           - Bucket
         insertOnInteract: false # or it also conflicts with bucket logic
         priority: 4 # Higher than trash bag slot
       trashbag_slot:
-        name: janitorial-trolley-slot-component-slot-name-trashbag
+        name: 清潔推車-插槽-組件-插槽名稱-垃圾袋 | janitorial-trolley-slot-component-slot-name-trashbag
         whitelist:
           tags:
           - TrashBag

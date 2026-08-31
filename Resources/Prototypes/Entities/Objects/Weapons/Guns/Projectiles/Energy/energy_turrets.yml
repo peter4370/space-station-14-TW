@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: BulletEnergyTurretBase
   categories: [ HideSpawnMenu ]
-  name: energy bolt
+  name: 能量光束 | energy bolt
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
@@ -43,7 +43,7 @@
   parent: BulletEnergyTurretBase
   id: BulletEnergyTurretLaser
   categories: [ HideSpawnMenu ]
-  name: laser bolt
+  name: 雷射螺栓 | laser bolt
   components:
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectHeavyLaser
@@ -62,7 +62,7 @@
   parent: BulletEnergyTurretBase
   id: BulletEnergyTurretDisabler
   categories: [ HideSpawnMenu ]
-  name: disabler bolt
+  name: 鎖止螺栓 | disabler bolt
   components:
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectOmnilaser
@@ -86,7 +86,7 @@
   parent: BaseBullet
   id: TeslaGunBullet
   categories: [ HideSpawnMenu ]
-  name: tesla gun lightning
+  name: 特斯拉槍閃電 | tesla gun lightning
   components:
   - type: TimedDespawn
     lifetime: 5

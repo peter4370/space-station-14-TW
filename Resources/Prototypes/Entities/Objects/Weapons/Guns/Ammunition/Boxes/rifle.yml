@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBig
-  name: ammunition box (.20 rifle)
+  name: 彈藥箱（.20 步槍） | ammunition box (.20 rifle)
   suffix: Big
   components:
   - type: BallisticAmmoProvider
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifle
-  name: ammunition box (.20 rifle)
-  description: A cardboard box of .20 rifle rounds. Intended to hold general-purpose kinetic ammunition.
+  name: 彈藥箱（.20 步槍） | ammunition box (.20 rifle)
+  description: 一盒裝有.20口徑步槍子彈的紙箱。原定用於存放通用動能彈藥。 | A cardboard box of .20 rifle rounds. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifle
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRiflePractice
-  name: ammunition box (.20 rifle practice)
-  description: A cardboard box of .20 rifle rounds. Intended to hold harmless practice ammunition.
+  name: 彈藥箱（.20口徑步槍練習用） | ammunition box (.20 rifle practice)
+  description: 一個裝有.20口徑步槍子彈的紙箱。原本是用來裝無害的練習彈藥的。 | A cardboard box of .20 rifle rounds. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRiflePractice
@@ -79,8 +79,8 @@
 - type: entity
   id: MagazineBoxRifleIncendiary
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle incendiary)
-  description: A cardboard box of .20 rifle rounds. Intended to hold self-igniting incendiary ammunition.
+  name: 彈藥箱（.20口徑步槍燃燒彈） | ammunition box (.20 rifle incendiary)
+  description: 一盒裝有 .20 口徑步槍子彈的紙箱。原定用於裝載自燃式燃燒彈。 | A cardboard box of .20 rifle rounds. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleIncendiary
@@ -95,8 +95,8 @@
 - type: entity
   id: MagazineBoxRifleUranium
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle uranium)
-  description: A cardboard box of .20 rifle rounds. Intended to hold exotic uranium-core ammunition.
+  name: 彈藥箱（.20口徑步槍鈾彈） | ammunition box (.20 rifle uranium)
+  description: 一盒裝有.20口徑步槍子彈的紙箱。原本是用來裝載特殊鈾芯彈藥的。 | A cardboard box of .20 rifle rounds. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleUranium

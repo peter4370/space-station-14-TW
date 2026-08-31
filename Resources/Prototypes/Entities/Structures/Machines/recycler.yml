@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, StructureHealthMachineStrong ]
   id: Recycler
-  name: recycler
-  description: A large crushing machine used to recycle small items inefficiently. There are lights on the side.
+  name: 回收業者 | recycler
+  description: 一台大型破碎機，用於回收小型物品，但效率不高。機身側面裝有燈具。 | A large crushing machine used to recycle small items inefficiently. There are lights on the side.
   components:
   - type: AmbientSound
     enabled: false

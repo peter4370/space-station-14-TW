@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateGenericSteel
-  name: crate
+  name: 木箱 | crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/generic.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CratePlastic
-  name: plastic crate
+  name: 塑膠箱 | plastic crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/plastic.rsi
@@ -39,7 +39,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateFreezer
-  name: freezer
+  name: 冷凍庫 | freezer
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/freezer.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateHydroponics
-  name: hydroponics crate
+  name: 水耕栽培箱 | hydroponics crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/hydroponics.rsi
@@ -69,7 +69,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateMedical
-  name: medical crate
+  name: 醫療用箱 | medical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medical.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateRadiation
-  name: radiation gear crate
-  description: Is not actually lead lined. Do not store your plutonium in this.
+  name: 輻射防護裝備箱 | radiation gear crate
+  description: 實際上並未襯有鉛。請勿將鈽存放在此處。 | Is not actually lead lined. Do not store your plutonium in this.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/radiation.rsi
@@ -90,7 +90,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateInternals
-  name: oxygen crate
+  name: 氧氣箱 | oxygen crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/o2.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateElectrical
-  name: electrical crate
+  name: 電箱 | electrical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/electrical.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateEngineering
-  name: engineering crate
+  name: 工程用木箱 | engineering crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/engineering.rsi
@@ -120,7 +120,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateScience
-  name: science crate
+  name: 科學箱 | science crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/science.rsi
@@ -130,7 +130,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSurgery
-  name: surgery crate
+  name: 手術箱 | surgery crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/surgery.rsi
@@ -140,7 +140,7 @@
 - type: entity
   parent: [ BaseCrate, StructureHealthContainerFlimsy ]
   id: CrateWeb
-  name: web crate
+  name: Web Crate | web crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/web.rsi
@@ -187,7 +187,7 @@
 - type: entity
   parent: [ CrateBaseSecure, BaseSecurityContraband ]
   id: CrateSecgear
-  name: secgear crate
+  name: secgear 貨箱 | secgear crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/sec_gear.rsi
@@ -200,7 +200,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateEngineeringSecure
-  name: secure engineering crate
+  name: 安全工程箱 | secure engineering crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/engicrate_secure.rsi
@@ -212,7 +212,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateMedicalSecure
-  name: secure medical crate
+  name: 安全醫療運輸箱 | secure medical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
@@ -224,7 +224,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateChemistrySecure
-  name: secure chemistry crate
+  name: 安全化學品箱 | secure chemistry crate
   components:
     - type: Icon
       sprite: Structures/Storage/Crates/chemcrate_secure.rsi
@@ -236,7 +236,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CratePrivateSecure
-  name: private crate
+  name: 私人貨櫃 | private crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/privatecrate_secure.rsi
@@ -246,7 +246,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateScienceSecure
-  name: secure science crate
+  name: 安全科學箱 | secure science crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/scicrate_secure.rsi
@@ -258,7 +258,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CratePlasma
-  name: plasma crate
+  name: 等離子貨箱 | plasma crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/plasma.rsi
@@ -270,7 +270,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateSecure
-  name: secure crate
+  name: 安全運輸箱 | secure crate
   components:
     - type: Icon
       sprite: Structures/Storage/Crates/secure.rsi
@@ -280,7 +280,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateHydroSecure
-  name: secure hydroponics crate
+  name: 防盜水耕箱 | secure hydroponics crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/hydro_secure.rsi
@@ -292,7 +292,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateWeaponSecure
-  name: secure weapon crate
+  name: 防盜武器箱 | secure weapon crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/weapon.rsi
@@ -305,8 +305,8 @@
   parent: [ CrateBaseSecure, BaseSecurityContraband ]
   suffix: Armory, Secure
   id: CrateContrabandStorageSecure
-  name: contraband storage crate
-  description: An armory access locked crate for storing contraband confiscated from suspects or prisoners.
+  name: 走私貨物儲存箱 | contraband storage crate
+  description: 一具存放從嫌疑人或囚犯處沒收之違禁品的軍械庫上鎖儲物箱。 | An armory access locked crate for storing contraband confiscated from suspects or prisoners.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/sec_gear.rsi
@@ -316,7 +316,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateCommandSecure
-  name: command crate
+  name: 命令匣 | command crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/command.rsi
@@ -328,8 +328,8 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateSyndicateSecure
-  name: secure syndicate crate
-  description: A dark steel crate with red bands and a letter S embossed on the front.
+  name: 安全辛迪加貨箱 | secure syndicate crate
+  description: 一個深色鋼製箱子，表面纏有紅色緞帶，正面壓印著字母 S。 | A dark steel crate with red bands and a letter S embossed on the front.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/syndicate_secure.rsi
@@ -341,7 +341,7 @@
 - type: entity
   parent: [ BaseCrate, StructureHealthContainerFlimsy ]
   id: CrateLivestock
-  name: livestock crate
+  name: 牲畜籠 | livestock crate
   components:
   - type: EntityStorage
     airtight: false
@@ -398,7 +398,7 @@
 - type: entity
   parent: [ BaseCrate, StructureHealthContainerFlimsy ]
   id: CrateRodentCage
-  name: hamster cage
+  name: 倉鼠籠 | hamster cage
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/cage.rsi
@@ -453,8 +453,8 @@
 - type: entity
   id: CrateBaseLockBox
   parent: CrateBaseSecure
-  name: lock box
-  description: "A secure lock box. Funds from its sale will be distributed back to the department. Just remember: Cargo always takes a cut."
+  name: 保險箱 | lock box
+  description: "一個安全的保險箱。出售所得將全數撥回該部門。請記住：貨運公司總是會抽成。 | A secure lock box. Funds from its sale will be distributed back to the department. Just remember: Cargo always takes a cut."
   abstract: true
   components:
   - type: Sprite
@@ -493,7 +493,7 @@
 - type: entity
   id: CrateLockBoxEngineering
   parent: CrateBaseLockBox
-  name: engineering lock box
+  name: 工程用保險箱 | engineering lock box
   components:
   - type: Sprite
     layers:
@@ -523,7 +523,7 @@
 - type: entity
   id: CrateLockBoxMedical
   parent: CrateBaseLockBox
-  name: medical lock box
+  name: 醫療用安全箱 | medical lock box
   components:
   - type: Sprite
     layers:
@@ -553,7 +553,7 @@
 - type: entity
   id: CrateLockBoxScience
   parent: CrateBaseLockBox
-  name: science lock box
+  name: 科學保險箱 | science lock box
   components:
   - type: Sprite
     layers:
@@ -583,7 +583,7 @@
 - type: entity
   id: CrateLockBoxSecurity
   parent: CrateBaseLockBox
-  name: security lock box
+  name: 安全保管箱 | security lock box
   components:
   - type: Sprite
     layers:
@@ -613,7 +613,7 @@
 - type: entity
   id: CrateLockBoxService
   parent: CrateBaseLockBox
-  name: service lock box
+  name: 服務保管箱 | service lock box
   components:
   - type: Sprite
     layers:
@@ -643,8 +643,8 @@
 - type: entity
   parent: CrateGeneric
   id: CratePirate
-  name: pirate chest
-  description: A space pirate chest, not for station lubbers.
+  name: 海盜寶箱 | pirate chest
+  description: 一個太空海盜寶箱，絕非給那些只會待在太空站上的陸地佬的。 | A space pirate chest, not for station lubbers.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/piratechest.rsi
@@ -671,9 +671,9 @@
 - type: entity
   parent: CratePirate
   id: CrateToyBox
-  name: toy box
+  name: 玩具箱 | toy box
   suffix: Empty
-  description: A box overflowing with fun.
+  description: 一個充滿樂趣的盒子。 | A box overflowing with fun.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/toybox.rsi
@@ -694,8 +694,8 @@
 - type: entity
   parent: [ BaseCrate, StructureHealthContainerFlimsy ]
   id: CrateCoffin
-  name: coffin
-  description: A comfy coffin, excellent place for the vampires and corpses.
+  name: 棺材 | coffin
+  description: 一具舒適的棺材，對吸血鬼和屍體來說真是個絕佳去處。 | A comfy coffin, excellent place for the vampires and corpses.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/coffin.rsi
@@ -733,9 +733,9 @@
 - type: entity
   parent: [ BaseCrate, StructureHealthContainer ]
   id: CrateWoodenGrave
-  name: grave
+  name: 墳墓 | grave
   suffix: wooden
-  description: Someone died here...
+  description: 有人死在這兒了…… | Someone died here...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/wooden_grave.rsi
@@ -781,9 +781,9 @@
 - type: entity
   parent: CrateWoodenGrave
   id: CrateStoneGrave
-  name: grave
+  name: 墳墓 | grave
   suffix: stone
-  description: Someone died here...
+  description: 有人死在這兒了…… | Someone died here...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/stone_grave.rsi
@@ -802,8 +802,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSyndicate
-  name: syndicate crate
-  description: A dark steel crate with red bands and a letter S embossed on the front.
+  name: syndicate 貨箱 | syndicate crate
+  description: 一個深色鋼製箱子，表面纏有紅色緞帶，正面壓印著字母 S。 | A dark steel crate with red bands and a letter S embossed on the front.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/syndicate.rsi
@@ -813,7 +813,7 @@
 - type: entity
   parent: [StructureWheeled, CrateBaseWeldable]
   id: CrateTrashCart
-  name: trash cart
+  name: 垃圾車 | trash cart
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart.rsi
@@ -836,7 +836,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateTrashCartJani
-  name: janitorial trash cart
+  name: 清潔用垃圾車 | janitorial trash cart
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart_jani.rsi

@@ -1,8 +1,8 @@
 - type: entity
   id: BaseThruster
   parent: BaseStructureDynamic
-  name: thruster
-  description: A thruster that allows a shuttle to move.
+  name: 推進器 | thruster
+  description: 一種能讓太空梭移動的推進器。 | A thruster that allows a shuttle to move.
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -48,7 +48,7 @@
 
 - type: entity
   id: Thruster
-  name: thruster
+  name: 推進器 | thruster
   parent: [ BaseThruster, ConstructibleMachine, BaseConstructibleMachineDestructible ]
   components:
   - type: Machine
@@ -97,7 +97,7 @@
 - type: entity
   parent: [ BaseThruster, StructureHealthMachineMassive ]
   id: ThrusterLarge
-  name: large thruster
+  name: 大型推進器 | large thruster
   placement:
     mode: AlignTileAny
   components:
@@ -190,8 +190,8 @@
 - type: entity
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine, BaseConstructibleMachineDestructible ]
-  name: gyroscope
-  description: Increases the shuttle's potential angular rotation.
+  name: 陀螺儀 | gyroscope
+  description: 增加穿梭機的潛在角轉動量。 | Increases the shuttle's potential angular rotation.
   components:
   - type: Thruster
     thrusterType: Angular
@@ -253,7 +253,7 @@
 - type: entity
   id: DebugGyroscope
   parent: BaseThruster
-  name: gyroscope
+  name: 陀螺儀 | gyroscope
   suffix: DEBUG
   components:
   - type: Thruster
@@ -281,8 +281,8 @@
 - type: entity
   parent: [ BaseStructureDynamic, StructureHealthMachineWeak ]
   id: RustedThruster
-  name: rusted thruster
-  description: An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
+  name: 生鏽的推進器 | rusted thruster
+  description: 一具因長期磨損而損壞、無法修復的推進器。僅能作為廢鐵處理。 | An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
   components:
   - type: Fixtures
     fixtures:

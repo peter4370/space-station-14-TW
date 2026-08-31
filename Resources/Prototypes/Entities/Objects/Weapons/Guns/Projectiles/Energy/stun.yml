@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: BulletTaser
   categories: [ HideSpawnMenu ]
-  name: taser bolt
+  name: 電擊槍彈頭 | taser bolt
   components:
   - type: FlyBySound
     sound:
@@ -60,8 +60,8 @@
   parent: BulletTaser
   id: BulletTaserSuper
   categories: [ HideSpawnMenu ]
-  name: taser bolt
-  description: If you can see this, you've probably been stun-meta'd
+  name: 電擊槍彈頭 | taser bolt
+  description: 如果你能看到這段文字，那你很可能已經被「暈眩 meta」了 | If you can see this, you've probably been stun-meta'd
   components:
   - type: Sprite
     noRot: true
@@ -89,7 +89,7 @@
   parent: BaseBullet
   id: BulletDisabler
   categories: [ HideSpawnMenu ]
-  name: disabler bolt
+  name: 鎖止螺栓 | disabler bolt
   components:
   - type: Reflective
     reflective:
@@ -133,7 +133,7 @@
   parent: BaseBullet
   id: BulletDisablerPractice
   categories: [ HideSpawnMenu ]
-  name: disabler bolt practice
+  name: 失能螺栓實作練習 | disabler bolt practice
   components:
   - type: FlyBySound
     sound:
@@ -174,7 +174,7 @@
   parent: BaseBullet
   id: BulletDisablerSmg
   categories: [ HideSpawnMenu ]
-  name: disabler bolt smg
+  name: 禁用螺栓式衝鋒槍 | disabler bolt smg
   components:
   - type: Reflective
     reflective:
@@ -218,7 +218,7 @@
   parent: BulletDisablerSmg
   id: BulletDisablerSmgSpread
   categories: [ HideSpawnMenu ]
-  name: disabling laser barrage
+  name: 停用雷射齊射 | disabling laser barrage
   components:
   - type: ProjectileSpread
     proto: BulletDisablerSmg
@@ -230,8 +230,8 @@
   parent: [ SolutionAmmo, BaseBullet ]
   id: EnergyCrossbowBolt
   categories: [ HideSpawnMenu ]
-  name: energy bolt
-  description: This'll hurt.
+  name: 能量光束 | energy bolt
+  description: 這會很痛。 | This'll hurt.
   components:
   - type: Reflective
     reflective:

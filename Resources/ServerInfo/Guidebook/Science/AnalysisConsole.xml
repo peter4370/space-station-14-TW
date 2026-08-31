@@ -1,22 +1,23 @@
-<Document>
-  # Analysis Console
 
-  The Analysis Console is a device used to interface with artifacts. It can be used to check nodes, their triggers and effects, and extract points.
+<Document>
+  # 分析主控台
+
+  分析主控台是一種用於與工件進行介接的裝置。 它可用於檢查節點、其觸發條件與效果，並擷取點。
 
   <Box>
-    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Analysis Console"/>
+    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="分析控制台"/>
   </Box>
 
-  The console displays detailed information about each node in the artifact’s tree structure. This includes:
-  - [bold]ID:[/bold] Unique identifier for use with the Node Scanner.
-  - [bold]Class:[/bold] The layer name, nodes on the same layer share it.
-  - [bold]Status:[/bold]
-  - [italic][color=red]Locked[/color][/italic] by default.
-  - [italic][color=plum]Active[/color][/italic] when first triggered.
-  - [italic][color=lime]Unlocked[/color][/italic] if a deeper node is reached (prevents manual activations).
-  - [bold]Durability:[/bold] Number of manual activations available.
-  - [bold]Effect:[/bold] What happens when the node activates or is manually triggered.
-  - [bold]Triggers:[/bold] Required actions to unlock the node.
-  - [bold]Server:[/bold] Choose the research server where extracted points are sent.
-  - [bold]Extract Points:[/bold] Extracts points from nodes unlocked since the last extraction.
+  主控台會顯示該工件樹狀結構中每個節點的詳細資訊。 其中包括：
+  - [粗體]ID：[/粗體] 用於 Node Scanner 的唯一識別碼。
+  - [粗體]類別：[/粗體] 圖層名稱，同一圖層上的節點皆共用此名稱。
+  - [粗體]狀態：[/粗體]
+  - 預設為 [斜體][color=red]鎖定[/color][/斜體]。
+  - 首次觸發時為 [斜體][color=plum]有效[/color][/斜體]。
+  - [italic][color=lime]解鎖[/color][/italic]（若到達更深層的節點，以防止手動觸發）。
+  - [粗體]耐用度：[/粗體] 可進行的手動啟動次數。
+  - [粗體]效果：[/粗體] 當節點被啟用或手動觸發時會發生什麼情況。
+  - [粗體]觸發條件：[/粗體] 解鎖該節點所需的動作。
+  - [粗體]伺服器：[/粗體] 選擇要將萃取的資料點傳送至的研究伺服器。
+  - [粗體]萃取點：[/粗體] 從上次萃取以來已解鎖的節點中萃取點。
 </Document>

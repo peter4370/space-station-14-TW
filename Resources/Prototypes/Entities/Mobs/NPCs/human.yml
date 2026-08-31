@@ -1,8 +1,8 @@
 - type: entity
-  name: civilian
+  name: 平民 | civilian
   parent: MobHuman
   id: MobCivilian
-  description: A miserable pile of secrets.
+  description: 一堆令人沮喪的秘密。 | A miserable pile of secrets.
   components:
   - type: InputMover
   - type: MobMover
@@ -13,7 +13,7 @@
     - NanoTrasen
 
 - type: entity
-  name: salvager
+  name: 打撈者 | salvager
   parent: MobHuman
   id: MobSalvager
   components:
@@ -30,10 +30,10 @@
         task: SimpleHumanoidHostileCompound
 
 - type: entity
-  name: spirate
+  name: spirate | spirate
   parent: MobHuman
   id: MobSpirate
-  description: Yarr!
+  description: 哟！ | Yarr!
   components:
   - type: NpcFactionMember
     factions:
@@ -48,7 +48,7 @@
       task: SimpleHumanoidHostileCompound
 
 - type: entity
-  name: syndicate footsoldier
+  name: 黑幫小嘍囉 | syndicate footsoldier
   parent: MobHuman
   id: MobSyndicateFootsoldier
   components:
@@ -65,7 +65,7 @@
         task: SimpleHumanoidHostileCompound
 
 - type: entity
-  name: syndicate shuttle pilot
+  name: 辛迪加穿梭機飛行員 | syndicate shuttle pilot
   parent: MobSyndicateFootsoldier
   id: MobSyndicateFootsoldierPilot
 
@@ -74,8 +74,8 @@
   suffix: Dead
   save: false # mobs are currently not saveable.
   id: SalvageHumanCorpse
-  name: unidentified corpse
-  description: I think they're dead.
+  name: 身份不明的遺體 | unidentified corpse
+  description: 我覺得他們已經死了。 | I think they're dead.
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false
@@ -92,8 +92,8 @@
 - type: entity
   parent: MobHuman
   id: MobCluwne
-  name: person
-  description: A polymorphed unfortunate.
+  name: 人 | person
+  description: 一個變形的倒楣鬼。 | A polymorphed unfortunate.
   components:
   - type: Cluwne
   - type: Speech

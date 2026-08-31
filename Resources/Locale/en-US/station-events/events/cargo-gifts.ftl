@@ -1,23 +1,20 @@
-cargo-gifts-event-announcement = Congratulations! { $sender } has decided to send { $description } to the station { $dest }. Look for it in your next cargo shipment.
-cargo-gift-default-description = A bundle of gifts
+cargo-gifts-event-announcement = 恭喜！{ $sender } 已決定將 { $description } 運送至 { $dest } 站。請留意您下一次的貨運。
+cargo-gift-default-description = 一籃禮物
 cargo-gift-default-sender = NanoTrasen
-cargo-gift-default-dest = Cargo Dept.
-
+cargo-gift-default-dest = 貨運部
 cargo-gift-dest-bar = bar
-cargo-gift-dest-eng = Engineering Dept
-cargo-gift-dest-supp = Cargo Dept
-cargo-gift-dest-janitor = Service Dept
-cargo-gift-dest-med = Medical Dept
-cargo-gift-dest-sec = Security Dept
-
-cargo-gift-pizza-small = A small pizza party
-cargo-gift-pizza-large = A large pizza party
-
-cargo-gift-eng = Repair Materials
-cargo-gift-vending = Vending machines refills
-cargo-gift-cleaning = Cleaning equipment
-cargo-gift-medical-supply = Medical supplies
-cargo-gift-space-protection = Space Hazard Protection
-cargo-gift-fire-protection = Fire Protection
-cargo-gift-security-guns = Lethal Weapons
-cargo-gift-security-riot = Riot Gear
+cargo-gift-dest-eng = 工程部
+cargo-gift-dest-supp = 貨運部
+cargo-gift-dest-janitor = 服務部
+cargo-gift-dest-med = 醫療部
+cargo-gift-dest-sec = 保安部
+cargo-gift-pizza-small = 一場小型披薩派對
+cargo-gift-pizza-large = 一場盛大的披薩派對
+cargo-gift-eng = 維修材料
+cargo-gift-vending = 自動販賣機的補貨
+cargo-gift-cleaning = 清潔設備
+cargo-gift-medical-supply = 醫療用品
+cargo-gift-space-protection = 太空危害防護
+cargo-gift-fire-protection = 消防安全
+cargo-gift-security-guns = 致命武器
+cargo-gift-security-riot = 防暴裝備

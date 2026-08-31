@@ -17,10 +17,10 @@
     capacity: 5
 
 - type: entity
-  name: wand of carp polymorph
+  name: 鯉魚變形魔杖 | wand of carp polymorph
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphCarp
-  description: For when you need a carp filet quick and the clown is looking juicy.
+  description: 因為當你需要快速準備一條鯉魚柳，而那條「小丑」看起來肉質鮮嫩多汁的時候。 | For when you need a carp filet quick and the clown is looking juicy.
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCarp
@@ -28,10 +28,10 @@
     count: 5
 
 - type: entity
-  name: wand of monkey polymorph
+  name: 猴形變幻魔杖 | wand of monkey polymorph
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphMonkey
-  description: For when you need a monkey friend.
+  description: 當你需要一位猴子朋友的時候。 | For when you need a monkey friend.
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltMonkey
@@ -39,10 +39,10 @@
     count: 5
 
 - type: entity
-  name: wand of fireball
+  name: 火球法杖 | wand of fireball
   parent: WeaponWandBase
   id: WeaponWandFireball
-  description: Great big balls of fire!
+  description: 天啊！ | Great big balls of fire!
   components:
   - type: Sprite
     layers:
@@ -60,8 +60,8 @@
     count: 5
 
 - type: entity
-  name: wand of the locker
-  description: Stuff nerds at a distance!
+  name: 置物櫃的魔杖 | wand of the locker
+  description: 讓書呆子們保持距離！ | Stuff nerds at a distance!
   parent: WeaponWandBase
   id: WeaponWandLocker
   components:
@@ -97,10 +97,10 @@
           False: { visible: False }
 
 - type: entity
-  name: magical wand of instant death
+  name: 瞬間致死魔法杖 | magical wand of instant death
   parent: WeaponWandBase
   id: WeaponWandDeath
-  description: Only the best and brightest of the Space Wizards R&D team worked together to create this beauty.
+  description: 唯有「太空巫師」研發團隊中最優秀、最聰明的成員齊心協力，才打造出這件傑作。 | Only the best and brightest of the Space Wizards R&D team worked together to create this beauty.
   components:
   - type: Sprite
     layers:
@@ -117,10 +117,10 @@
     count: 3
 
 - type: entity
-  name: wand of entrance
+  name: 進入之杖 | wand of entrance
   parent: WeaponWandBase
   id: WeaponWandPolymorphDoor
-  description: For when you need a get-away route.
+  description: 當你需要一條逃離路線時。 | For when you need a get-away route.
   components:
   - type: Sprite
     layers:
@@ -137,10 +137,10 @@
     count: 10
 
 - type: entity
-  name: wand of cluwning
+  name: 小丑魔杖 | wand of cluwning
   parent: WeaponWandPolymorphBase
   id: WeaponWandCluwne
-  description: Make their situation worse by turning them into a cluwne.
+  description: 把他們變成小丑，讓他們的處境更加惡劣。 | Make their situation worse by turning them into a cluwne.
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCluwne
@@ -150,8 +150,8 @@
 - type: entity
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphBread
-  name: magic bread wand
-  description: Turn all your friends into bread! Your boss! Your enemies! Your dog! Make everything bread!
+  name: 魔法麵包棒 | magic bread wand
+  description: 把所有朋友都變成麵包吧！你的老闆！你的敵人！你的狗！把所有東西都變成麵包！ | Turn all your friends into bread! Your boss! Your enemies! Your dog! Make everything bread!
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltBread

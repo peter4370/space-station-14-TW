@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazineShotgun
-  name: ammo drum (.50 shells)
+  name: 彈藥鼓（.50口徑子彈） | ammo drum (.50 shells)
   components:
   - type: Tag
     tags:
@@ -44,9 +44,9 @@
 
 - type: entity
   id: MagazineShotgunEmpty
-  name: ammo drum (.50 shells any)
+  name: 彈藥鼓（任何型號的.50口徑子彈） | ammo drum (.50 shells any)
   suffix: empty
-  description: A large drum magazine used by some military-grade automatic shotguns.
+  description: 一種大型鼓狀彈匣，用於某些軍用級自動霰彈槍。 | A large drum magazine used by some military-grade automatic shotguns.
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgun
-  name: ammo drum (.50 pellet)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold general-purpose kinetic ammunition.
+  name: 彈鼓（.50 錘頭彈） | ammo drum (.50 pellet)
+  description: 一種用於部分軍用級自動霰彈槍的大型鼓狀彈匣。設計用於裝載通用動能彈藥。 | A large drum magazine used by some military-grade automatic shotguns. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgun
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgunBeanbag
-  name: ammo drum (.50 beanbag)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold less-than-lethal beanbag ammunition.
+  name: 彈藥鼓（.50 豆袋彈） | ammo drum (.50 beanbag)
+  description: 一種用於部分軍用級自動霰彈槍的大型鼓狀彈匣。設計用途是裝載非致命性的豆袋彈。 | A large drum magazine used by some military-grade automatic shotguns. Intended to hold less-than-lethal beanbag ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgunSlug
-  name: ammo drum (.50 slug)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold long-ranged slug ammunition.
+  name: 彈藥鼓（.50 子彈） | ammo drum (.50 slug)
+  description: 一種用於部分軍用級自動霰彈槍的大型鼓狀彈匣。專為裝載遠距離用實心彈而設計。 | A large drum magazine used by some military-grade automatic shotguns. Intended to hold long-ranged slug ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunSlug
@@ -130,8 +130,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgunIncendiary
-  name: ammo drum (.50 incendiary)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold self-igniting incendiary ammunition.
+  name: 彈鼓（.50 燃燒彈） | ammo drum (.50 incendiary)
+  description: 一種用於部分軍用級自動霰彈槍的大型鼓狀彈匣。專門用於裝載自燃式燃燒彈藥。 | A large drum magazine used by some military-grade automatic shotguns. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunIncendiary

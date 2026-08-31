@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: BaseMeteor
-  name: meteor
-  description: You prefer them when they're burning up in the atmosphere.
+  name: 流星 | meteor
+  description: 你更喜歡看它們在大氣層中燃燒殆盡的樣子。 | You prefer them when they're burning up in the atmosphere.
   components:
   - type: Sprite
     noRot: false
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorSpaceDust
-  name: space dust
-  description: Makes a station sneeze.
+  name: 太空塵埃 | space dust
+  description: 讓一個車站打個噴嚏。 | Makes a station sneeze.
   components:
   - type: Sprite
     state: space_dust
@@ -198,9 +198,9 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorUrist
-  name: Urist McMeteor
+  name: 尤里斯·麥克梅特爾 | Urist McMeteor
   suffix: Meteor
-  description: As a successful member of society with a stable unflinching psyche and limitless drive, natural affinity for finance and domination, you have been selected, no, you have been effortlessly guided by divine (biological) trauma towards this moment. The gates of destiny fling open, and once again you're left standing on pulsating nothingness. A strobing headache of the soul.
+  description: 身為社會中的一員，你擁有穩定且堅定不移的心理素質、無窮無盡的動力，以及與生俱來的金融天賦與掌控慾；你已被選中——不，你其實是被神聖（生物性）的創傷毫不費力地引導至此刻。 命運之門轟然敞開，而你再次佇立於那脈動的虛無之中。靈魂正承受著如閃光燈般閃爍的劇烈頭痛。 | As a successful member of society with a stable unflinching psyche and limitless drive, natural affinity for finance and domination, you have been selected, no, you have been effortlessly guided by divine (biological) trauma towards this moment. The gates of destiny fling open, and once again you're left standing on pulsating nothingness. A strobing headache of the soul.
   components:
   - type: Sprite
     state: human_pixel
@@ -237,9 +237,9 @@
 - type: entity
   parent: BaseSolutionMeteor
   id: MeteorCow
-  name: Cosmic cow
+  name: 宇宙牛 | Cosmic cow
   suffix: Meteor
-  description: Moo-ving at relativistic speeds!
+  description: 以相對論速度「哞」動！ | Moo-ving at relativistic speeds!
   components:
   - type: Sprite
     state: cow_pixel
@@ -277,9 +277,9 @@
 - type: entity
   parent: BaseSolutionMeteor
   id: MeteorClown
-  name: Honksteroid
+  name: Honksteroid | Honksteroid
   suffix: Meteor
-  description: The final honkening!
+  description: 最後一聲「霍肯」！ | The final honkening!
   components:
   - type: Sprite
     state: clown_pixel
@@ -320,8 +320,8 @@
 - type: entity
   parent: BaseSolutionMeteor
   id: MeteorPotato
-  name: Space potato
-  description: A starchy threat from the depths of the space. Contains 200% of your daily sodium intake!
+  name: 太空馬鈴薯 | Space potato
+  description: 來自宇宙深處的澱粉威脅。鈉含量高達您每日建議攝取量的 200%！ | A starchy threat from the depths of the space. Contains 200% of your daily sodium intake!
   components:
   - type: Sprite
     state: potato

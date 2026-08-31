@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitBartender
-  name: bartender's uniform
-  description: A nice and tidy uniform. Shame about the bar though.
+  name: 調酒師制服 | bartender's uniform
+  description: 這身制服很整潔美觀。不過那條橫條就讓人有點遺憾了。 | A nice and tidy uniform. Shame about the bar though.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/bartender.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJacketMonkey
-  name: bartender's monkey jacket
-  description: A decent jacket, for a decent monkey.
+  name: 調酒師的猴子夾克 | bartender's monkey jacket
+  description: 一件像樣的外套，給一隻像樣的猴子。 | A decent jacket, for a decent monkey.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/punpun.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBartenderPurple
-  name: purple bartender's uniform
-  description: A special purple outfit to serve drinks.
+  name: 紫色的調酒師制服 | purple bartender's uniform
+  description: 一套專門用來端飲料的紫色服裝。 | A special purple outfit to serve drinks.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/bartender_purple.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChaplain
-  name: chaplain's jumpsuit
-  description: It's a black jumpsuit, often worn by religious folk.
+  name: 軍牧的連身工作服 | chaplain's jumpsuit
+  description: 這是一件黑色的連身衣，常被宗教人士穿著。 | It's a black jumpsuit, often worn by religious folk.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/chaplain.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChef
-  name: chef uniform
-  description: Can't cook without this.
+  name: 廚師制服 | chef uniform
+  description: 沒有這個就做不了菜。 | Can't cook without this.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/chef.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitClown
-  name: clown suit
-  description: HONK!
+  name: 小丑服 | clown suit
+  description: 嗶——！ | HONK!
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/clown.rsi
@@ -73,7 +73,7 @@
 - type: entity
   parent: ClothingUniformJumpsuitClown
   id: ClothingUniformJumpsuitClownBanana
-  name: banana clown suit
+  name: 香蕉小丑服 | banana clown suit
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/clown_banana.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJester
-  name: jester suit
-  description: A jolly dress, well suited to entertain your master, nuncle.
+  name: 小丑服 | jester suit
+  description: 這件俏皮的洋裝，非常適合用來款待你的主人，叔公。 | A jolly dress, well suited to entertain your master, nuncle.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/jester.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitHydroponics
-  name: hydroponics jumpsuit
-  description: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+  name: 水耕栽培連身工作服 | hydroponics jumpsuit
+  description: 散發出一股濃烈的泥土味。希望這只是髒了，而不是被弄髒了。 | Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/hydro.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitJanitor
-  name: janitor jumpsuit
-  description: The jumpsuit for the poor sop with a mop.
+  name: 清潔工連身工作服 | janitor jumpsuit
+  description: 那件給拿著拖把的可憐蟲穿的連身工作服。 | The jumpsuit for the poor sop with a mop.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/janitor.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMime
-  name: mime suit
-  description: ...
+  name: MIME 套裝 | mime suit
+  description: ... | ...
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/mime.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLibrarian
-  name: librarian jumpsuit
-  description: A cosy green jumper fit for a curator of books.
+  name: 圖書館員連身工作服 | librarian jumpsuit
+  description: 一件舒適的綠色毛衣，非常適合一位圖書策展人。 | A cosy green jumper fit for a curator of books.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/librarian.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCurator
-  name: sensible suit
-  description: It's sensible. Too sensible...
+  name: 得體的西裝 | sensible suit
+  description: 這很明智。實在太明智了…… | It's sensible. Too sensible...
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/curator.rsi
@@ -161,8 +161,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPsychologist
-  name: psychologist suit
-  description: I don't lose things. I place things in locations which later elude me.
+  name: 心理學家西裝 | psychologist suit
+  description: 我不會弄丟東西。只是把東西放在某些地方，後來卻想不起來放在哪裡了。 | I don't lose things. I place things in locations which later elude me.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/psychologist.rsi
@@ -172,8 +172,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTramDriver
-  name: tram driver jumpsuit
-  description: Perfectly ironed, for well-prepared professionals.
+  name: 電車司機連身工作服 | tram driver jumpsuit
+  description: 熨燙得完美無瑕，專為準備周全的專業人士而設。 | Perfectly ironed, for well-prepared professionals.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/tramdriver.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitReporter
-  name: reporter suit
-  description: A good reporter remains a skeptic all their life.
+  name: 記者套裝 | reporter suit
+  description: 一位優秀的記者，終其一生都會保持懷疑精神。 | A good reporter remains a skeptic all their life.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/reporter.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSafari
-  name: safari suit
-  description: Perfect for a jungle excursion.
+  name: 薩法里套裝 | safari suit
+  description: 非常適合進行叢林探險。 | Perfect for a jungle excursion.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/safari.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJournalist
-  name: journalist suit
-  description: If journalism is good, it is controversial, by nature.
+  name: 記者套裝 | journalist suit
+  description: 如果新聞報導是優質的，那麼它本質上就是具爭議性的。 | If journalism is good, it is controversial, by nature.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/journalist.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMonasticRobeDark
-  name: dark monastic robe
-  description: It's a dark robe, often worn by religious folk.
+  name: 深色的修道袍 | dark monastic robe
+  description: 這是一件深色的長袍，通常由宗教人士穿著。 | It's a dark robe, often worn by religious folk.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/monastic_robe_dark.rsi
@@ -227,8 +227,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMonasticRobeLight
-  name: light monastic robe
-  description: It's a light robe, often worn by religious folk.
+  name: 淺色僧袍 | light monastic robe
+  description: 這是一件輕便的長袍，通常由宗教人士穿著。 | It's a light robe, often worn by religious folk.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/monastic_robe_light.rsi
@@ -238,8 +238,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMusician
-  name: musician's tuxedo
-  description: A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
+  name: 音樂家的晚禮服 | musician's tuxedo
+  description: 一款專為音樂愛好者設計的華麗燕尾服。非常適合任何酒廊演出！ | A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/musician.rsi
@@ -249,9 +249,9 @@
 - type: entity
   parent: ClothingUniformJumpsuitClown
   id: ClothingUniformJumpsuitCluwne
-  name: cluwne suit
+  name: 克盧恩套裝 | cluwne suit
   suffix: Unremoveable
-  description: Cursed cluwne suit.
+  description: 這該死的小丑服。 | Cursed cluwne suit.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/cluwne.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerRed
-  name: red lawyer suit
-  description: A flashy red suit worn by lawyers and show-offs.
+  name: 紅色律師西裝 | red lawyer suit
+  description: 一種由律師和愛出風頭的人穿著的、花俏的紅色西裝。 | A flashy red suit worn by lawyers and show-offs.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/lawyerred.rsi
@@ -273,8 +273,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlue
-  name: blue lawyer suit
-  description: A flashy blue suit worn by lawyers and show-offs.
+  name: 藍色律師西裝 | blue lawyer suit
+  description: 一種由律師和愛出風頭的人穿著的、花俏的藍色西裝。 | A flashy blue suit worn by lawyers and show-offs.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/lawyerblue.rsi
@@ -284,8 +284,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlack
-  name: black lawyer suit
-  description: A subtle black suit worn by lawyers and gangsters.
+  name: 黑色律師西裝 | black lawyer suit
+  description: 一種低調的黑色西裝，既是律師也是黑幫分子所穿著的。 | A subtle black suit worn by lawyers and gangsters.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/lawyerblack.rsi
@@ -295,8 +295,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerPurple
-  name: purple lawyer suit
-  description: A stylish purple piece worn by lawyers and show people.
+  name: 紫色律師西裝 | purple lawyer suit
+  description: 一款時尚的紫色單品，深受律師與演藝界人士青睞。 | A stylish purple piece worn by lawyers and show people.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/lawyerpurple.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerGood
-  name: good lawyer's suit
-  description: A tacky suit perfect for a CRIMINAL lawyer!
+  name: 一套像樣的律師西裝 | good lawyer's suit
+  description: 一套俗氣的西裝，簡直是為犯罪辯護律師量身打造的！ | A tacky suit perfect for a CRIMINAL lawyer!
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/lawyergood.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformOveralls
-  name: overalls
-  description: Great for working outdoors.
+  name: 連身工作服 | overalls
+  description: 非常適合在戶外工作。 | Great for working outdoors.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Service/overalls.rsi

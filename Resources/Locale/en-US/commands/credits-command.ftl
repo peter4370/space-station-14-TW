@@ -1,2 +1,2 @@
-cmd-credits-desc = Opens the credits window
-cmd-credits-help = Usage: {$command}
+cmd-credits-desc = 開啟片尾字幕視窗
+cmd-credits-help = 用法：{ $command }

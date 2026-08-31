@@ -1,11 +1,11 @@
 - type: entity
-  name: skeleton pirate
+  name: 骷髏海盜 | skeleton pirate
   parent: MobSkeletonPerson
   id: MobSkeletonPirate
   components:
   - type: GhostRole
-    name: ghost-role-information-skeleton-pirate-name
-    description: ghost-role-information-skeleton-pirate-description
+    name: 幽靈角色資訊－骷髏海盜－名字 | ghost-role-information-skeleton-pirate-name
+    description: 幽靈角色資訊－骷髏海盜－描述 | ghost-role-information-skeleton-pirate-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -18,13 +18,13 @@
 
 
 - type: entity
-  name: skeleton biker
+  name: 骷髏騎士 | skeleton biker
   parent: MobSkeletonPerson
   id: MobSkeletonBiker
   components:
   - type: GhostRole
-    name: ghost-role-information-skeleton-biker-name
-    description: ghost-role-information-skeleton-biker-description
+    name: 幽靈角色資訊模板－機車騎士－姓名 | ghost-role-information-skeleton-biker-name
+    description: 幽靈角色資訊－骨架機車騎士－描述 | ghost-role-information-skeleton-biker-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -38,11 +38,11 @@
 - type: entity
   parent: MobSkeletonPerson
   id: MobSkeletonCloset
-  name: closet skeleton
+  name: 衣櫥裡的骷髏 | closet skeleton
   components:
   - type: GhostRole
-    name: ghost-role-information-closet-skeleton-name
-    description: ghost-role-information-closet-skeleton-description
+    name: ghost-角色資訊-衣櫥-骨架名稱 | ghost-role-information-closet-skeleton-name
+    description: ghost-role-information-closet-skeleton-description | ghost-role-information-closet-skeleton-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseElectronics
   parent: BaseItem
-  name: base electronics
+  name: 基礎電子學 | base electronics
   abstract: true
   suffix: Electronics
   components:

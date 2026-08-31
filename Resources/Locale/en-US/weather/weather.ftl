@@ -1,17 +1,14 @@
-cmd-weatherremove-desc = Remove specific weather from map.
-cmd-weatherset-desc = Removes all weather except the specified one. If the specified weather does not exist on the map, it adds it.
-cmd-weatheradd-desc = Add specific weather to map.
-
-cmd-weatherremove-help = weatherremove <mapId> <prototype>
-cmd-weatherset-help = weatherset <mapId> <prototype / null>
-cmd-weatheradd-help = weatheradd <mapId> <prototype / null>
-
-cmd-weather-error-no-arguments = Not enough arguments!
-cmd-weather-error-unknown-proto = Unknown Weather prototype!
-cmd-weather-error-wrong-time = Time is in the wrong format!
-cmd-weather-error-wrong-map = Map with MapId {$id} doesn't exist!
-cmd-weather-error-no-weather = This weather does not exist on the selected map!
-
-cmd-weather-hint-map-id = Map Id
-cmd-weather-hint-prototype = Weather entity prototype
-cmd-weather-hint-time = Duration in seconds (leave empty for infinite duration)
+cmd-weatherremove-desc = 從地圖上移除特定天氣。
+cmd-weatherset-desc = 移除所有天氣，僅保留指定的天氣。若地圖上不存在指定的天氣，則會新增該天氣。
+cmd-weatheradd-desc = 將特定天氣資料新增至地圖。
+cmd-weatherremove-help = weatherremove<mapId> <prototype>
+cmd-weatherset-help = weatherset<mapId> <原型 / null>
+cmd-weatheradd-help = weatheradd<mapId> <原型 / null>
+cmd-weather-error-no-arguments = 參數不足！
+cmd-weather-error-unknown-proto = 未知天氣原型！
+cmd-weather-error-wrong-time = 時間格式不正確！
+cmd-weather-error-wrong-map = MapId 為 { $id } 的 Map 不存在！
+cmd-weather-error-no-weather = 所選地圖上沒有這種天氣！
+cmd-weather-hint-map-id = 地圖編號
+cmd-weather-hint-prototype = 天氣實體原型
+cmd-weather-hint-time = 持續時間（以秒為單位；若留空則表示無限期）

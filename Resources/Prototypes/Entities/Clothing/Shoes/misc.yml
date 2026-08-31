@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesFlippers
-  name: flippers
-  description: A pair of rubber flippers that improves swimming ability when worn.
+  name: 蹼 | flippers
+  description: 一雙橡膠蛙鞋，穿上後能提升游泳能力。 | A pair of rubber flippers that improves swimming ability when worn.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/flippers.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesLeather
-  name: leather shoes
-  description: Very stylish pair of boots, made from fine leather.
+  name: 皮鞋 | leather shoes
+  description: 這雙靴子非常時尚，採用上等皮革製成。 | Very stylish pair of boots, made from fine leather.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/leather.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSlippers
-  name: slippers
-  description: Fluffy!
+  name: 拖鞋 | slippers
+  description: 好蓬鬆！ | Fluffy!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/slippers.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersDuck
-  name: ducky slippers
-  description: You wish these made quacking sounds as you walked. It's a good thing they don't, though.
+  name: 小鴨拖鞋 | ducky slippers
+  description: 你真希望這些東西在你走路時能發出「嘎嘎」的叫聲。不過，好在它們沒有這樣做。 | You wish these made quacking sounds as you walked. It's a good thing they don't, though.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/duck-slippers.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersLizard
-  name: lizard plushie slippers
-  description: An adorable pair of slippers that resemble a lizardperson. Combine this with some other green clothing and you'll be the coolest crewmember on the station!
+  name: 蜥蜴絨毛拖鞋 | lizard plushie slippers
+  description: 一雙造型可愛、酷似蜥蜴人的拖鞋。搭配其他綠色服裝，你就會成為太空站上最酷的船員！ | An adorable pair of slippers that resemble a lizardperson. Combine this with some other green clothing and you'll be the coolest crewmember on the station!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/lizard-slippers.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesTourist
-  name: tourist shoes
-  description: These cheap sandals don't look very comfortable.
+  name: 旅遊鞋 | tourist shoes
+  description: 這雙便宜的涼鞋看起來不太舒服。 | These cheap sandals don't look very comfortable.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/tourist.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesDameDane
-  name: yakuza shoes
-  description: At last...
+  name: 黑道鞋 | yakuza shoes
+  description: 總算…… | At last...
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesSnakeskinBoots
-  name: snakeskin boots
-  description: Boots made of once-valuable snakeskin, everyone around you would have been jealous.
+  name: 蛇皮靴 | snakeskin boots
+  description: 這雙由曾經極為珍貴的蛇皮製成的靴子，周遭的人肯定都會羨慕不已。 | Boots made of once-valuable snakeskin, everyone around you would have been jealous.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/snakeskin.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: [ClothingShoesBase, PowerCellSlotSmallItem, BaseToggleClothing]
   id: ClothingShoesBootsSpeed
-  name: speed boots
-  description: High-tech boots woven with quantum fibers, able to convert electricity into pure speed!
+  name: 速度靴 | speed boots
+  description: 採用量子纖維編織而成的高科技靴子，能夠將電力轉化為純粹的速度！ | High-tech boots woven with quantum fibers, able to convert electricity into pure speed!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/speedboots.rsi
@@ -148,15 +148,15 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
   - type: Tag
     tags: []
 
 - type: entity
   parent: BaseAction
   id: ActionToggleSpeedBoots
-  name: Toggle Speed Boots
-  description: Toggles the speed boots on and off.
+  name: Toggle Speed 雪靴 | Toggle Speed Boots
+  description: 開啟或關閉速度靴。 | Toggles the speed boots on and off.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -166,8 +166,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesBootsMoon
-  name: moon boots
-  description: Special anti-gravity boots developed with a speciality blend of lunar rock gel. Shipped from the Netherlands.
+  name: 月亮靴 | moon boots
+  description: 採用特殊配方混合月球岩石凝膠所研發的特殊抗重力靴。從荷蘭寄出。 | Special anti-gravity boots developed with a speciality blend of lunar rock gel. Shipped from the Netherlands.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/moonboots.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesBootsJump
-  name: jump boots
-  description: High-tech boots that give you the incredible ability to JUMP! With these boots you can jump over lava, chasms and weird chemicals on the floor!
+  name: 跳躍靴 | jump boots
+  description: 這雙高科技靴子能賦予你驚人的跳躍能力！穿上這雙靴子，你就能跳過熔岩、深淵，以及地面上的各種奇怪化學物質！ | High-tech boots that give you the incredible ability to JUMP! With these boots you can jump over lava, chasms and weird chemicals on the floor!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jumpboots.rsi

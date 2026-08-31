@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: StructureHealthMachineWeak
   id: UnfinishedMachineFrame
-  name: machine frame
-  description: A machine under construction. Needs more parts.
+  name: 機台框架 | machine frame
+  description: 一台正在組裝中的機器。還需要更多零件。 | A machine under construction. Needs more parts.
   suffix: Unfinished
   placement:
     mode: SnapgridCenter
@@ -58,7 +58,7 @@
 - type: entity
   parent: StructureHealthMachineWeak
   id: MachineFrame
-  name: machine frame
+  name: 機台框架 | machine frame
   suffix: Ready
   placement:
     mode: SnapgridCenter
@@ -129,7 +129,7 @@
 - type: entity
   parent: [ BaseStructureDynamic, StructureHealthMachineFlimsy ]
   id: MachineFrameDestroyed
-  name: destroyed machine frame
+  name: 損毀的機器機架 | destroyed machine frame
   placement:
     mode: SnapgridCenter
   components:

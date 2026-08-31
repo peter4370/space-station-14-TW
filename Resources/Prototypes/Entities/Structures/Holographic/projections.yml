@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseHoloSign
   id: HolosignWetFloor
-  name: wet floor sign
-  description: The words flicker as if they mean nothing.
+  name: 「地面濕滑」標誌 | wet floor sign
+  description: 那些字詞閃爍不定，彷彿毫無意義。 | The words flicker as if they mean nothing.
   components:
   - type: Sprite
     sprite: Structures/Holo/wetfloor.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseHoloSign
   id: HoloFan
-  name: holofan
-  description: A barrier of hard light that blocks air, but nothing else.
+  name: holofan | holofan
+  description: 一道由堅硬光線構成的屏障，能阻擋空氣，但無法阻擋其他任何東西。 | A barrier of hard light that blocks air, but nothing else.
   components:
   - type: Sprite
     sprite: Structures/Holo/holofan.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseHoloSign
   id: HoloPeel
-  name: holopeel
-  description: A banana peel made of slippery hard light, watch your step!
+  name: holopeel | holopeel
+  description: 一片由滑溜溜的硬光構成的香蕉皮，請小心腳下！ | A banana peel made of slippery hard light, watch your step!
   components:
   - type: Sprite
     sprite: Structures/Holo/peel.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseHoloSign
   id: HolosignSecurity
-  name: holographic barrier
-  description: A barrier of hard light that blocks movement, but pretty weak.
+  name: 全息屏障 | holographic barrier
+  description: 一道能阻擋移動的堅硬光牆，但強度相當薄弱。 | A barrier of hard light that blocks movement, but pretty weak.
   components:
     - type: Physics
       canCollide: true
@@ -138,8 +138,8 @@
 - type: entity
   parent: BaseHoloSign
   id: XenoborgDeflectorField
-  name: deflector field
-  description: An energy matrix, comprised of interlocking fields that deflect projectiles. Powerful, but short-lived.
+  name: 偏轉場 | deflector field
+  description: 一種由相互交錯的力場構成的能量矩陣，能偏轉飛彈。威力強大，但持續時間短暫。 | An energy matrix, comprised of interlocking fields that deflect projectiles. Powerful, but short-lived.
   components:
   - type: Physics
     bodyType: Static
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseHoloSign
   id: HolosignForcefield
-  name: holographic force field
-  description: A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.
+  name: 全息力場 | holographic force field
+  description: 一個強大的時空封鎖場，任何東西都無法穿透，就連特斯拉或奇點也不例外。 | A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.
   components:
   - type: Physics
     canCollide: true

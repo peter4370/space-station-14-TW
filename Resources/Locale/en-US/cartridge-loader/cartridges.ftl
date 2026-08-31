@@ -1,93 +1,82 @@
-device-pda-slot-component-slot-name-cartridge = Cartridge
-
-default-program-name = Program
-notekeeper-program-name = Notekeeper
+device-pda-slot-component-slot-name-cartridge = 墨盒
+default-program-name = 程式表
+notekeeper-program-name = 筆記本
 nano-task-program-name = NanoTask
-news-read-program-name = Station news
-
-crew-manifest-program-name = Crew manifest
-crew-manifest-cartridge-loading = Loading ...
-crew-manifest-cartridge-loading-failed = Failed to load crew manifest!
-
+news-read-program-name = 車站新聞
+crew-manifest-program-name = 船員名單
+crew-manifest-cartridge-loading = 載入中⋯⋯
+crew-manifest-cartridge-loading-failed = 無法載入船員名單！
 net-probe-program-name = NetProbe
-net-probe-scan = Scanned {$device}!
-net-probe-label-name = Name
-net-probe-label-address = Address
-net-probe-label-frequency = Frequency
-net-probe-label-network = Network
-
+net-probe-scan = 已掃描 { $device }！
+net-probe-label-name = 姓名
+net-probe-label-address = 地址
+net-probe-label-frequency = 頻率
+net-probe-label-network = 網路
 log-probe-program-name = LogProbe
-log-probe-scan = Downloaded logs from {$device}!
-log-probe-label-time = Time
-log-probe-label-accessor = Accessed by
+log-probe-scan = 已從 { $device } 下載日誌！
+log-probe-label-time = 時間
+log-probe-label-accessor = 由以下人員存取：
 log-probe-label-number = #
-log-probe-print-button = Print Logs
-log-probe-printout-device = Scanned Device: {$name}
-log-probe-printout-header = Latest logs:
-log-probe-printout-entry = #{$number} / {$time} / {$accessor}
-
+log-probe-print-button = 列印日誌
+log-probe-printout-device = 已掃描的裝置：{ $name }
+log-probe-printout-header = 最新日誌：
+log-probe-printout-entry = #{ $number } / { $time } / { $accessor }
 astro-nav-program-name = AstroNav
-
 med-tek-program-name = MedTek
 
 # NanoTask cartridge
 
 nano-task-ui-heading-high-priority-tasks =
     { $amount ->
-        [zero] No High Priority Tasks
-        [one] 1 High Priority Task
-       *[other] {$amount} High Priority Tasks
+        [zero] 無高優先級任務
+        [one] 1 項高優先級任務
+       *[other] { $amount } 項高優先級任務
     }
 nano-task-ui-heading-medium-priority-tasks =
     { $amount ->
-        [zero] No Medium Priority Tasks
-        [one] 1 Medium Priority Task
-       *[other] {$amount} Medium Priority Tasks
+        [zero] 沒有中等優先級任務
+        [one] 1 個中等優先級任務
+       *[other] { $amount } 個中等優先級任務
     }
 nano-task-ui-heading-low-priority-tasks =
     { $amount ->
-        [zero] No Low Priority Tasks
-        [one] 1 Low Priority Task
-       *[other] {$amount} Low Priority Tasks
+        [zero] 沒有低優先級任務
+        [one] 1 個低優先級任務
+       *[other] { $amount } 個低優先級任務
     }
-nano-task-ui-done = Done
-nano-task-ui-revert-done = Undo
-nano-task-ui-priority-low = Low
-nano-task-ui-priority-medium = Medium
-nano-task-ui-priority-high = High
-nano-task-ui-cancel = Cancel
-nano-task-ui-print = Print
-nano-task-ui-delete = Delete
-nano-task-ui-save = Save
-nano-task-ui-new-task = New Task
-nano-task-ui-description-label = Description:
-nano-task-ui-description-placeholder = Get something important
-nano-task-ui-requester-label = Requester:
-nano-task-ui-requester-placeholder = John Nanotrasen
-nano-task-ui-item-title = Edit Task
-nano-task-printed-description = [bold]Description[/bold]: {$description}
-nano-task-printed-requester = [bold]Requester[/bold]: {$requester}
-nano-task-printed-high-priority = [bold]Priority[/bold]: [color=red]High[/color]
-nano-task-printed-medium-priority = [bold]Priority[/bold]: Medium
-nano-task-printed-low-priority = [bold]Priority[/bold]: Low
-
+nano-task-ui-done = 完成
+nano-task-ui-revert-done = 撤銷
+nano-task-ui-priority-low = 低
+nano-task-ui-priority-medium = 中
+nano-task-ui-priority-high = 高
+nano-task-ui-cancel = 取消
+nano-task-ui-print = 列印
+nano-task-ui-delete = 刪除
+nano-task-ui-save = 儲存
+nano-task-ui-new-task = 新任務
+nano-task-ui-description-label = 說明：
+nano-task-ui-description-placeholder = 獲得某件重要的東西
+nano-task-ui-requester-label = 申請人：
+nano-task-ui-requester-placeholder = 約翰·納諾特拉森
+nano-task-ui-item-title = 編輯任務
+nano-task-printed-description = [粗體]說明[/粗體]：{ $description }
+nano-task-printed-requester = [粗體]請求者[/粗體]：{ $requester }
+nano-task-printed-high-priority = [bold]優先級[/bold]: [color=red]高[/color]
+nano-task-printed-medium-priority = [粗體]優先級[/粗體]：中等
+nano-task-printed-low-priority = [粗體]優先級[/粗體]：低
 # Wanted list cartridge
-wanted-list-program-name = Wanted list
-wanted-list-label-no-records = It's all right, cowboy
-wanted-list-search-placeholder = Search by name and status
-
-wanted-list-age-label = [color=darkgray]Age:[/color] [color=white]{$age}[/color]
-wanted-list-job-label = [color=darkgray]Job:[/color] [color=white]{$job}[/color]
-wanted-list-species-label = [color=darkgray]Species:[/color] [color=white]{$species}[/color]
-wanted-list-gender-label = [color=darkgray]Gender:[/color] [color=white]{$gender}[/color]
-
-wanted-list-reason-label = [color=darkgray]Reason:[/color] [color=white]{$reason}[/color]
-wanted-list-unknown-reason-label = unknown reason
-
-wanted-list-initiator-label = [color=darkgray]Initiator:[/color] [color=white]{$initiator}[/color]
-wanted-list-unknown-initiator-label = unknown initiator
-
-wanted-list-status-label = [color=darkgray]status:[/color] {$status ->
+wanted-list-program-name = 通緝名單
+wanted-list-label-no-records = 沒關係，牛仔
+wanted-list-search-placeholder = 依名稱與狀態搜尋
+wanted-list-age-label = [color=darkgray]年齡：[/color] [color=white]{ $age }[/color]
+wanted-list-job-label = [color=darkgray]職位：[/color] [color=white]{ $job }[/color]
+wanted-list-species-label = [color=darkgray]物種：[/color] [color=white]{ $species }[/color]
+wanted-list-gender-label = [color=darkgray]性別：[/color] [color=white]{ $gender }[/color]
+wanted-list-reason-label = [color=darkgray]理由：[/color] [color=white]{ $reason }[/color]
+wanted-list-unknown-reason-label = 原因不明
+wanted-list-initiator-label = [color=darkgray]發起人：[/color] [color=white]{ $initiator }[/color]
+wanted-list-unknown-initiator-label = 未知發起者
+wanted-list-status-label = [color=darkgray]status:[/color] { $status ->
         [suspected] [color=yellow]suspected[/color]
         [wanted] [color=red]wanted[/color]
         [detained] [color=#b18644]detained[/color]
@@ -95,9 +84,8 @@ wanted-list-status-label = [color=darkgray]status:[/color] {$status ->
         [discharged] [color=green]discharged[/color]
         [hostile] [color=darkred]hostile[/color]
         [eliminated] [color=gray]eliminated[/color]
-        *[other] none
+       *[other] none
     }
-
-wanted-list-history-table-time-col = Time
-wanted-list-history-table-reason-col = Crime
-wanted-list-history-table-initiator-col = Initiator
+wanted-list-history-table-time-col = 時間
+wanted-list-history-table-reason-col = 犯罪
+wanted-list-history-table-initiator-col = 發起人

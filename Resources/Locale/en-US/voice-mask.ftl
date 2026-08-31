@@ -1,15 +1,12 @@
-voice-mask-default-name-override = Unknown
-
-voice-mask-name-change-window = Voice Mask Name Change
-voice-mask-name-change-info = Type in the name you want to mimic.
-voice-mask-name-change-speech-style = Speech style
-voice-mask-name-change-set = Set name
-voice-mask-name-change-set-description = Change the name others hear to something else.
-voice-mask-name-change-toggle = Toggle voice mask
-voice-mask-name-change-accent-toggle = Block accent
-
-voice-mask-popup-toggle = Toggled voice mask.
-voice-mask-popup-accent-toggle = Toggled accent.
-
-voice-mask-popup-success = Name set successfully.
-voice-mask-popup-failure = Name could not be set.
+voice-mask-default-name-override = 未知
+voice-mask-name-change-window = 語音面具名稱變更
+voice-mask-name-change-info = 請輸入您想要模仿的名稱。
+voice-mask-name-change-speech-style = 演講風格
+voice-mask-name-change-set = 設定名稱
+voice-mask-name-change-set-description = 將他人聽到的名稱改為其他名稱。
+voice-mask-name-change-toggle = 切換語音遮罩
+voice-mask-name-change-accent-toggle = 區隔重音符
+voice-mask-popup-toggle = 切換語音濾鏡。
+voice-mask-popup-accent-toggle = 切換重音符號。
+voice-mask-popup-success = 名稱已成功設定。
+voice-mask-popup-failure = 無法設定名稱。

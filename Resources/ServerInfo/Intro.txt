@@ -1,8 +1,8 @@
-Welcome to Space Station 14! You have just started your shift aboard a Nanotrasen space station and along with your crewmates should cooperate, perform your job role to the best of your ability and have fun (not at the expense of others hopefully).
+歡迎來到第14號太空站！ 你剛開始在納諾特拉森太空站值勤，請與你的船員們通力合作，盡你所能做好本職工作，並享受其中樂趣（但希望不要以犧牲他人為代價）。
 
-Please make sure you understand the server rules (F1) and if you have any questions, consult this guide, your colleagues on shift in person or over radio or via discord. You can also ask admins for help (ahelp) by hitting the escape key > admin help and typing a message to any online admins. Especially do this if you witness someone breaking rules.
+請務必確認您已了解伺服器規則（F1）；如有任何疑問，請參閱本指南，或當面、透過無線電，或透過 Discord 向同班同事諮詢。 您也可以透過按下 Esc 鍵 > 管理員協助 (ahelp)，並向任何在線的管理員輸入訊息來尋求協助。 特別是當你目睹有人違反規則時，請務必這樣做。
 
-To reiterate, you are all a crew of people who work together (even the clown) and you should not be harming each other unless you have an extremely good reason (self defence) and even then, call security over radio, stun and detain, do not commit murder as a non antagonist (see antagonist further down).
+再次強調，你們都是一群並肩作戰的夥伴（連小丑也不例外），除非有極其充分的理由（例如自衛），否則不應互相傷害；即使有此理由，也應透過無線電呼叫安保人員，使用電擊槍制伏並拘留對方，切勿以非反派角色身分犯下謀殺罪（關於反派角色的說明請參閱下文）。
 
 
-Instead of intents, we have combat mode. Check controls below for its keybind. You can't attack anybody with it off, so no more hitting yourself with your own crowbar.
+我們採用的是「戰鬥模式」，而非「意圖」。 請查看下方的控制選項，以設定其鍵位綁定。 如果關閉這項功能，你就無法用它攻擊任何人，所以再也不會用自己的撬棍打到自己了。

@@ -1,8 +1,8 @@
 - type: entity
   parent: StructureHealthMachineStrong
   id: AmeController
-  name: AME controller
-  description: It's a controller for the antimatter engine.
+  name: AME 控制器 | AME controller
+  description: 這是反物質引擎的控制器。 | It's a controller for the antimatter engine.
   placement:
     mode: SnapgridCenter
   components:
@@ -122,8 +122,8 @@
 - type: entity
   parent: StructureHealthMachineStrong
   id: AmeShielding
-  name: AME shielding
-  description: Keeps the antimatter in and the matter out.
+  name: AME 屏蔽 | AME shielding
+  description: 將反物質封在裡面，並將物質阻隔在外。 | Keeps the antimatter in and the matter out.
   placement:
     mode: SnapgridCenter
   components:

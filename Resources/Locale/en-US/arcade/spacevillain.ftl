@@ -1,12 +1,11 @@
 ﻿spacevillain-menu-title = Space Villain
-spacevillain-menu-label-player = Player
-spacevillain-menu-label-enemy = Villain
-spacevillain-menu-label-health = {$amount} {-spacevillain-health}
-spacevillain-menu-label-magic = {$amount} {-spacevillain-magic}
-spacevillain-menu-button-attack = Attack
-spacevillain-menu-button-heal = Heal
-spacevillain-menu-button-recharge = Recharge
-spacevillain-menu-button-new-game = New Game
-
+spacevillain-menu-label-player = 玩家
+spacevillain-menu-label-enemy = 反派
+spacevillain-menu-label-health = { $amount } { -spacevillain-health }
+spacevillain-menu-label-magic = { $amount } { -spacevillain-magic }
+spacevillain-menu-button-attack = 攻擊
+spacevillain-menu-button-heal = 療癒
+spacevillain-menu-button-recharge = 充電
+spacevillain-menu-button-new-game = 新遊戲
 -spacevillain-health = HP
--spacevillain-magic = MP
+-spacevillain-magic = 國會議員

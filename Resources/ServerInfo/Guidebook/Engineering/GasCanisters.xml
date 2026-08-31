@@ -1,5 +1,6 @@
+
 <Document>
-  # Gas Canisters
+  # 瓦斯罐
   <Box>
     <GuideEntityEmbed Entity="AirCanister"/>
     <GuideEntityEmbed Entity="OxygenCanister"/>
@@ -11,20 +12,20 @@
     <GuideEntityEmbed Entity="GasPort"/>
   </Box>
 
-  Gas canisters are a way to store gas in a portable container for easy transport.
-  They can store [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] liters[/color] of gas.
+  氣罐是一種將氣體儲存在便攜式容器中，以便於運輸的方式。
+  它們可儲存 [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] 公升[/color] 的氣體。
 
-  You can connect handheld tanks to a gas canister to refill them using the release valve on the canister.
-  The release valve also has a adjustable pressure regulator to control the pressure of the handheld tank connected.
+  您可以將手持式氣罐連接至氣瓶，並利用氣瓶上的釋放閥為其補充氣體。
+  此洩壓閥還配備了一個可調式壓力調節器，用以控制連接的手持式氣瓶的壓力。
 
-  Opening the release valve on a canister with no handheld tank connected will release gas into the atmosphere, at the specified regulator pressure.
+  若在未連接手持式氣瓶的情況下開啟氣罐的釋放閥，氣體將以調節器設定的壓力釋放到大氣中。
 
-  [bold]Be sure to close the release valve before you eject your handheld tank![/bold]
+  [粗體]在彈出手持式氣罐之前，請務必先關閉釋放閥！[/粗體]
 
-  ## Connector Ports
-  Gas canisters and [textlink="portable scrubbers" link="PortableScrubber"] can be connected to a [textlink="pipenet" link="PipeNetworks"] by anchoring (wrenching) the device on top of a connector.
-  When connected, gas will be free to move in and out of the canister to balance pressure, temperature, and composition.
+  ## 連接埠
+  氣體罐及 [textlink="便攜式淨化器" link="PortableScrubber"] 可透過將裝置鎖定（擰緊）在連接埠上方，連接至 [textlink="管網" link="PipeNetworks"]。
+  一旦連接，氣體便能自由進出氣罐，以平衡壓力、溫度及成分。
 
-  A pump can be used to insert or extract gas from a canister, useful for filling or emptying a canister entirely.
+  可使用泵將氣體注入或抽出氣罐，此功能有助於將氣罐完全填滿或排空。
 
 </Document>

@@ -1,94 +1,66 @@
-marking-ArachnidCheliceraeDownwards = Chelicerae (Downwards)
-marking-ArachnidCheliceraeDownwards-downwards = Chelicerae
-
-marking-ArachnidCheliceraeInwards = Chelicerae (Inwards)
-marking-ArachnidCheliceraeInwards-inwards = Chelicerae
-
-marking-ArachnidAppendagesDefault = Appendages (Long)
-marking-ArachnidAppendagesDefault-long_primary = Appendage
-marking-ArachnidAppendagesDefault-long_secondary = Stripes
-
-marking-ArachnidAppendagesSharp = Appendages (Sharp)
-marking-ArachnidAppendagesSharp-sharp_primary = Appendage
-marking-ArachnidAppendagesSharp-sharp_secondary = Stripes
-
-marking-ArachnidAppendagesZigZag = Appendages (ZigZag)
-marking-ArachnidAppendagesZigZag-zigzag_primary = Appendage
-marking-ArachnidAppendagesZigZag-zigzag_secondary = Stripes
-
-marking-ArachnidAppendagesCurled = Appendages (Curled)
-marking-ArachnidAppendagesCurled-curled_primary = Appendage
-marking-ArachnidAppendagesCurled-curled_secondary = Stripes
-
-marking-ArachnidAppendagesStingers = Appendages (Stingers)
-marking-ArachnidAppendagesStingers-stingers_primary = Appendage
-marking-ArachnidAppendagesStingers-stingers_secondary = Stripes
-
-marking-ArachnidAppendagesChipped = Appendages (Chipped)
-marking-ArachnidAppendagesChipped-chipped_primary = Appendage
-marking-ArachnidAppendagesChipped-chipped_secondary = Stripes
-
-marking-ArachnidAppendagesHarvest = Appendages (Harvest)
-marking-ArachnidAppendagesHarvest-harvest_primary = Appendage
-marking-ArachnidAppendagesHarvest-harvest_secondary = Stripes
-
-marking-ArachnidAppendagesShort = Appendages (Short)
-marking-ArachnidAppendagesShort-short_primary = Appendage
-marking-ArachnidAppendagesShort-short_secondary = Stripes
-
-marking-ArachnidAppendagesFreaky = Appendages (Freaky long)
-marking-ArachnidAppendagesFreaky-freaky_primary = Appendage
-marking-ArachnidAppendagesFreaky-freaky_secondary = Stripes
-
-marking-ArachnidTorsoStripes = Stripes
-marking-ArachnidTorsoStripes-stripes = Design
-
-marking-ArachnidTorsoSlashes = Slashes
-marking-ArachnidTorsoSlashes-slashes = Design
-
-marking-ArachnidTorsoCross = Cross
-marking-ArachnidTorsoCross-cross = Design
-
+marking-ArachnidCheliceraeDownwards = 鉗肢（向下）
+marking-ArachnidCheliceraeDownwards-downwards = 顎肢
+marking-ArachnidCheliceraeInwards = 顎肢（向內）
+marking-ArachnidCheliceraeInwards-inwards = 顎肢
+marking-ArachnidAppendagesDefault = 附肢（長）
+marking-ArachnidAppendagesDefault-long_primary = 附屬物
+marking-ArachnidAppendagesDefault-long_secondary = 條紋
+marking-ArachnidAppendagesSharp = 附肢（夏普）
+marking-ArachnidAppendagesSharp-sharp_primary = 附屬物
+marking-ArachnidAppendagesSharp-sharp_secondary = 條紋
+marking-ArachnidAppendagesZigZag = 附肢（ZigZag）
+marking-ArachnidAppendagesZigZag-zigzag_primary = 附屬物
+marking-ArachnidAppendagesZigZag-zigzag_secondary = 條紋
+marking-ArachnidAppendagesCurled = 附肢（捲曲）
+marking-ArachnidAppendagesCurled-curled_primary = 附屬物
+marking-ArachnidAppendagesCurled-curled_secondary = 條紋
+marking-ArachnidAppendagesStingers = 附肢（螫針）
+marking-ArachnidAppendagesStingers-stingers_primary = 附屬物
+marking-ArachnidAppendagesStingers-stingers_secondary = 條紋
+marking-ArachnidAppendagesChipped = 附肢（破損）
+marking-ArachnidAppendagesChipped-chipped_primary = 附屬物
+marking-ArachnidAppendagesChipped-chipped_secondary = 條紋
+marking-ArachnidAppendagesHarvest = 附肢（收穫）
+marking-ArachnidAppendagesHarvest-harvest_primary = 附屬物
+marking-ArachnidAppendagesHarvest-harvest_secondary = 條紋
+marking-ArachnidAppendagesShort = 附肢（簡述）
+marking-ArachnidAppendagesShort-short_primary = 附屬物
+marking-ArachnidAppendagesShort-short_secondary = 條紋
+marking-ArachnidAppendagesFreaky = 附肢（超長篇）
+marking-ArachnidAppendagesFreaky-freaky_primary = 附屬物
+marking-ArachnidAppendagesFreaky-freaky_secondary = 條紋
+marking-ArachnidTorsoStripes = 條紋
+marking-ArachnidTorsoStripes-stripes = 設計
+marking-ArachnidTorsoSlashes = 斜線
+marking-ArachnidTorsoSlashes-slashes = 設計
+marking-ArachnidTorsoCross = 十字架
+marking-ArachnidTorsoCross-cross = 設計
 marking-ArachnidTorsoX = X
-marking-ArachnidTorsoX-x = Design
-
-marking-ArachnidTorsoHeart = Heart
-marking-ArachnidTorsoHeart-heart = Design
-
-marking-ArachnidTorsoHourglass = Hourglass
-marking-ArachnidTorsoHourglass-hourglass = Design
-
-marking-ArachnidTorsoNailAndHammer = Nail and Hammer
-marking-ArachnidTorsoNailAndHammer-nail-and-hammer = Design
-
-marking-ArachnidTorsoStar = Star
-marking-ArachnidTorsoStar-star = Design
-
-marking-ArachnidTorsoArrows = Arrows
-marking-ArachnidTorsoArrows-arrows = Design
-
-marking-ArachnidTorsoCore = Core
-marking-ArachnidTorsoCore-core = Design
-
+marking-ArachnidTorsoX-x = 設計
+marking-ArachnidTorsoHeart = 心
+marking-ArachnidTorsoHeart-heart = 設計
+marking-ArachnidTorsoHourglass = 沙漏
+marking-ArachnidTorsoHourglass-hourglass = 設計
+marking-ArachnidTorsoNailAndHammer = 釘子與鎚子
+marking-ArachnidTorsoNailAndHammer-nail-and-hammer = 設計
+marking-ArachnidTorsoStar = 星
+marking-ArachnidTorsoStar-star = 設計
+marking-ArachnidTorsoArrows = 箭頭
+marking-ArachnidTorsoArrows-arrows = 設計
+marking-ArachnidTorsoCore = 核心
+marking-ArachnidTorsoCore-core = 設計
 marking-ArachnidTorsoFiddleback = Fiddleback
-marking-ArachnidTorsoFiddleback-fiddleback = Design
-
-marking-ArachnidTorsoSkull = Skull
-marking-ArachnidTorsoSkull-skull = Design
-
-marking-ArachnidTorsoTarget = Target
-marking-ArachnidTorsoTarget-target = Design
-
-marking-ArachnidRArmStripes = Arachnid Stripes (Right)
-marking-ArachnidRArmStripes-stripes_right = Stripes
-
-marking-ArachnidLArmStripes = Arachnid Stripes (Left)
-marking-ArachnidLArmStripes-stripes_left = Stripes
-
-marking-ArachnidRLegStripes = Arachnid Stripes (Right)
-marking-ArachnidRLegStripes-stripes_right = Stripes
-
-marking-ArachnidLLegStripes = Arachnid Stripes (Left)
-marking-ArachnidLLegStripes-stripes_left = Stripes
-
-marking-ArachnidOverlayFuzzy = Fuzzy
+marking-ArachnidTorsoFiddleback-fiddleback = 設計
+marking-ArachnidTorsoSkull = 骷髏
+marking-ArachnidTorsoSkull-skull = 設計
+marking-ArachnidTorsoTarget = 目標
+marking-ArachnidTorsoTarget-target = 設計
+marking-ArachnidRArmStripes = 蛛形類條紋（右）
+marking-ArachnidRArmStripes-stripes_right = 條紋
+marking-ArachnidLArmStripes = 蛛形綱條紋（左）
+marking-ArachnidLArmStripes-stripes_left = 條紋
+marking-ArachnidRLegStripes = 蛛形類條紋（右）
+marking-ArachnidRLegStripes-stripes_right = 條紋
+marking-ArachnidLLegStripes = 蛛形綱條紋（左）
+marking-ArachnidLLegStripes-stripes_left = 條紋
+marking-ArachnidOverlayFuzzy = 模糊

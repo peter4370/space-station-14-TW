@@ -1,6 +1,7 @@
-﻿<Document>
-  #Atmosphere Input and Output
-  Inserting and extracting gasses from a present (or non-present) atmosphere is an essential part of Atmos' job.
+﻿
+<Document>
+  #大氣的輸入與輸出
+  向現有（或不存在的）大氣中注入及抽出氣體，是 Atmos 工作的重要環節。
   <Box>
     <GuideEntityEmbed Entity="GasVentPump"/>
     <GuideEntityEmbed Entity="GasPassiveVent"/>
@@ -9,12 +10,12 @@
     <GuideEntityEmbed Entity="PortableScrubber"/>
   </Box>
 
-  With these devices, Atmos can insert, extract, or scrub unwanted gasses from any atmosphere they would like.
-  This allows the maintaining of a safe, breathable atmosphere.
+  借助這些裝置，Atmos 能夠從任何他們想要的大氣中，插入、萃取或清除不需要的氣體。
+  這有助於維持一個安全且通風良好的環境。
 
-  Some of these devices require [textlink="power" link="Power"] to function, and can be linked to an [textlink="air alarm." link="AirAlarms"]
+  其中部分裝置需 [textlink="電源" link="電源"] 才能運作，並可將 [textlink="空氣警報器" link="AirAlarms"]
 
-  [textlink="Linking" link="Networking"] compatible devices to an air alarm unlocks more configuration options and functionality. Otherwise, these devices follow their default behavior as defined in the subguides.
+  將 [textlink="連線" link="網路連線"] 相容裝置與空氣警報器連結，可解鎖更多設定選項與功能。 否則，這些裝置將依照子指南中所定義的預設行為運作。
 
   <Box>
     <GuideEntityEmbed Entity="AirAlarm"/>

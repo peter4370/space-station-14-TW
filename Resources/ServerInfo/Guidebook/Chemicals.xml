@@ -1,37 +1,38 @@
-﻿<Document>
-# Chemicals
+﻿
+<Document>
+# 化學物質
 
-Chemicals are a powerful tool that can cause a variety of effects when consumed. Some can be found in plants, purchased from cargo, or be synthesized through combination with other chemicals.
+化學物質是一種強效的工具，攝入後可能產生各種影響。 有些物質可從植物中萃取，也可透過貨物購買，或透過與其他化學物質結合而合成。
 
-Knowing different types of chemicals and their effects is important for being able to manage injury and danger.
+了解各種化學物質及其影響，對於妥善應對傷害與危險至關重要。
 
-## Elements
+## 元素
 <GuideReagentGroupEmbed Group="Elements"/>
 
-## Medicine
+## 醫學
 <GuideReagentGroupEmbed Group="Medicine"/>
 
-## Narcotics
+## 毒品
 <GuideReagentGroupEmbed Group="Narcotics"/>
 
-## Pyrotechnics
+## 煙火
 <GuideReagentGroupEmbed Group="Pyrotechnic"/>
 
-## Toxins
+## 毒素
 <GuideReagentGroupEmbed Group="Toxins"/>
 
-## Foods
+## 食物
 <GuideReagentGroupEmbed Group="Foods"/>
 
-## Botanical
+## 植物學
 <GuideReagentGroupEmbed Group="Botanical"/>
 
-## Biological
+## 生物學
 <GuideReagentGroupEmbed Group="Biological"/>
 
-## Special
+## 特別版
 <GuideReagentGroupEmbed Group="Special"/>
 
-## Other
+## 其他
 <GuideReagentGroupEmbed Group="Unknown"/>
 </Document>

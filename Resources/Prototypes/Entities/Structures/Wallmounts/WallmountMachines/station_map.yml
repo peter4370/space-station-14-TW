@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   id: StationMapBroken
-  name: station map
-  description: A virtual map of the surrounding station.
+  name: 車站地圖 | station map
+  description: 車站周邊的虛擬地圖。 | A virtual map of the surrounding station.
   suffix: Wall broken
   components:
   - type: Sprite
@@ -32,8 +32,8 @@
 - type: entity
   parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
   id: StationMap
-  name: station map
-  description: A virtual map of the surrounding station.
+  name: 車站地圖 | station map
+  description: 車站周邊的虛擬地圖。 | A virtual map of the surrounding station.
   suffix: Wall
   components:
   - type: WallMount
@@ -108,8 +108,8 @@
 - type: entity
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   id: StationMapAssembly
-  name: station map assembly
-  description: A station map assembly.
+  name: 車站地圖組裝 | station map assembly
+  description: 車站地圖組件。 | A station map assembly.
   components:
   - type: WallMount
     arc: 360

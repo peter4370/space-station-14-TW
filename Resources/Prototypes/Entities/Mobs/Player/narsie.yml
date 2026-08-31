@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: MobNarsieBase
-  name: Nar'Sie
-  description: Your mind begins to bubble and ooze as it tries to comprehend what it sees.
+  name: 納爾·西 | Nar'Sie
+  description: 當你的腦海試圖理解眼前所見時，思緒便開始翻騰、汩汩湧現。 | Your mind begins to bubble and ooze as it tries to comprehend what it sees.
   components:
   - type: Sprite
     sprite: Mobs/Demons/narsie.rsi

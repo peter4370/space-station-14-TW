@@ -1,8 +1,8 @@
 - type: entity
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorControlBox
-  name: PA control computer
-  description: This controls the density of the particles.
+  name: PA 控制電腦 | PA control computer
+  description: 此設定用以控制粒子的密度。 | This controls the density of the particles.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/control_box.rsi
@@ -77,9 +77,9 @@
 - type: entity
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorControlBoxUnfinished
-  name: PA control computer
+  name: PA 控制電腦 | PA control computer
   suffix: Unfinished
-  description: This controls the density of the particles. It looks unfinished.
+  description: 這項設定用來控制粒子的密度。看起來還未完成。 | This controls the density of the particles. It looks unfinished.
   components:
     - type: Sprite
       sprite: Structures/Power/Generation/PA/control_box.rsi

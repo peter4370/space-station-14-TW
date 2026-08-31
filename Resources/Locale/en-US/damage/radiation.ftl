@@ -1,1 +1,1 @@
-mouth-taste-metal = You taste something metallic in your mouth!
+mouth-taste-metal = 你口中嚐到一股金屬味！

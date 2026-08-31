@@ -159,9 +159,9 @@
   - type: DnaSubstanceTrace
 
 - type: entity
-  name: beaker
+  name: 量杯 | beaker
   parent: BaseBeaker
-  description: Used to contain a moderate amount of chemicals and solutions.
+  description: 用於盛裝適量的化學品和溶液。 | Used to contain a moderate amount of chemicals and solutions.
   id: Beaker
   components:
   - type: Spillable
@@ -269,9 +269,9 @@
         Quantity: 60
 
 - type: entity
-  name: large beaker
+  name: 大量杯 | large beaker
   parent: [SolutionNormal, BaseBeaker]
-  description: Used to contain a large amount of chemicals or solutions.
+  description: 曾用於盛裝大量化學物質或溶液。 | Used to contain a large amount of chemicals or solutions.
   id: LargeBeaker
   components:
   - type: Spillable
@@ -299,9 +299,9 @@
     price: 20
 
 - type: entity
-  name: cryostasis beaker
+  name: 低溫保存燒杯 | cryostasis beaker
   parent: [SolutionCryo, BaseBeakerMetallic]
-  description: Used to contain chemicals or solutions without reactions.
+  description: 用於盛裝不會發生化學反應的化學物質或溶液。 | Used to contain chemicals or solutions without reactions.
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -314,9 +314,9 @@
     maxFillLevels: 0
 
 - type: entity
-  name: bluespace beaker
+  name: bluespace 量杯 | bluespace beaker
   parent: [SolutionGinormous, BaseBeakerMetallic] # Bluespace items hold 8x the solution of regular items (240u a tile)
-  description: Powered by experimental bluespace technology.
+  description: 採用實驗性藍色空間技術驅動。 | Powered by experimental bluespace technology.
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -331,9 +331,9 @@
     size: Normal
 
 - type: entity
-  name: dropper
+  name: 滴管 | dropper
   parent: [SolutionInjector, SolutionToolTiny, BaseItem]
-  description: Used to transfer small amounts of chemical solution between containers.
+  description: 用於在容器之間轉移少量化學溶液。 | Used to transfer small amounts of chemical solution between containers.
   id: Dropper
   components:
   - type: Sprite
@@ -379,8 +379,8 @@
 - type: entity
   parent: Dropper
   id: BorgDropper
-  name: hydraulic pipette
-  description: State-of-the-art hydraulic dropper built for cyborgs.
+  name: 液壓移液管 | hydraulic pipette
+  description: 專為半機械人設計的尖端液壓滴管。 | State-of-the-art hydraulic dropper built for cyborgs.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/dropper.rsi
@@ -393,9 +393,9 @@
     sprite: Objects/Specific/Chemistry/dropper.rsi
 
 - type: entity
-  name: syringe
+  name: 注射器 | syringe
   parent: [SolutionInjector, SolutionToolTiny, BaseItem]
-  description: Used to draw blood samples from mobs, or to inject them with reagents.
+  description: 用於從怪物身上抽取血液樣本，或向牠們注射試劑。 | Used to draw blood samples from mobs, or to inject them with reagents.
   id: BaseSyringe
   abstract: true
   components:
@@ -445,9 +445,9 @@
     - Trash
 
 - type: entity
-  name: mini syringe
+  name: 迷你注射器 | mini syringe
   parent: [SolutionToolVeryTiny, Syringe]
-  description: A regular syringe, reshaped to fit inside of a gun.
+  description: 一支普通的注射器，經重新塑形後可放入槍內。 | A regular syringe, reshaped to fit inside of a gun.
   id: MiniSyringe
   components:
   - type: Sprite
@@ -515,8 +515,8 @@
 - type: entity
   id: SyringeBluespace
   parent: [SolutionToolLarge, BaseSyringe]
-  name: bluespace syringe
-  description: Injecting with advanced bluespace technology.
+  name: bluespace 注射器 | bluespace syringe
+  description: 採用先進的藍空間技術進行注射。 | Injecting with advanced bluespace technology.
   components:
   - type: Sprite
     layers:
@@ -544,8 +544,8 @@
 - type: entity
   id: SyringeCryostasis
   parent: [SolutionCryo, BaseSyringe]
-  name: cryostasis syringe
-  description: A syringe used to contain chemicals or solutions without reactions.
+  name: 冷凍保存注射器 | cryostasis syringe
+  description: 一種用於盛裝不會發生反應的化學物質或溶液的注射器。 | A syringe used to contain chemicals or solutions without reactions.
   components:
   - type: Sprite
     layers:
@@ -563,10 +563,10 @@
     - Trash
 
 - type: entity
-  name: pill
+  name: 藥丸 | pill
   parent: [SolutionPill, BaseItem]
   id: Pill
-  description: It's not a suppository.
+  description: 這不是栓劑。 | It's not a suppository.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills.rsi
@@ -619,10 +619,10 @@
       maxVol: 20
 
 - type: entity
-  name: pill canister
+  name: 藥丸罐 | pill canister
   id: PillCanister
   parent: BaseStorageItem
-  description: Holds up to 10 pills.
+  description: 最多可容納 10 顆藥丸。 | Holds up to 10 pills.
   components:
   - type: Item
     size: Tiny

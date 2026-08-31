@@ -2,8 +2,8 @@
   parent: [ BaseWallmount, StructureHealthMachineWeak ]
   categories: [ HideSpawnMenu ]
   id: BaseAPC
-  name: APC
-  description: A control terminal for the area's electrical systems.
+  name: APC | APC
+  description: 該區域電力系統的控制終端。 | A control terminal for the area's electrical systems.
   placement:
     mode: SnapgridCenter
   components:
@@ -135,8 +135,8 @@
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   categories: [ HideSpawnMenu ]
   id: APCFrame
-  name: APC frame
-  description: A control terminal for the area's electrical systems, lacking the electronics.
+  name: APC 機箱 | APC frame
+  description: 該區域電氣系統的控制終端，未配備電子元件。 | A control terminal for the area's electrical systems, lacking the electronics.
   placement:
     mode: SnapgridCenter
   components:

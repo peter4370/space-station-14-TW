@@ -24,8 +24,8 @@
 
 - type: entity
   id: RedDirectionPointer
-  name: red direction pointer
-  description: Holographic arrow that points the way
+  name: 紅色方向指示器 | red direction pointer
+  description: 指引方向的全息箭頭 | Holographic arrow that points the way
   components:
   - type: Sprite
     sprite: Markers/directional_arrow_indicator.rsi

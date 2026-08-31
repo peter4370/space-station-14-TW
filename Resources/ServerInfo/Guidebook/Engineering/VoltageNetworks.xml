@@ -1,9 +1,10 @@
-﻿<Document>
-  # Voltage Networks
-  In Space Station 14, power distribution is divided into three separate voltage networks.
-  These networks are the [color=green]Low Voltage[/color] Network, the [color=Yellow]Medium Voltage[/color] Network, and the [color=orange]High Voltage[/color] Network.
+﻿
+<Document>
+  # 電壓網路
+  在太空站 14 中，電力分配分為三個獨立的電壓網路。
+  這些網路分別是 [color=green]低電壓[/color] 網路、[color=Yellow]中電壓[/color] 網路，以及 [color=orange]高電壓[/color] 網路。
 
-  These networks power different types of machinery on the station.
+  這些電網為太空站上的各類機械設備提供電力。
 
   <Box>
     <GuideEntityEmbed Entity="CableHVStack"/>
@@ -11,8 +12,8 @@
     <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
 
-  ## Low Voltage Network
-  The [color=green]Low Voltage[/color] Network is used for powering almost all small machines on the station. This includes things like lights, computers, and other small devices.
+  ## 低壓電網
+  [color=green]低壓[/color]電網用於為站內幾乎所有小型設備供電。這包括照明、電腦及其他小型裝置等。
 
   <Box>
     <GuideEntityEmbed Entity="PoweredSmallLight" Caption=""/>
@@ -24,18 +25,18 @@
     <GuideEntityEmbed Entity="AlwaysPoweredWallLight" Caption=""/>
   </Box>
 
-  [color=green]Low Voltage[/color] power is provided by APCs, which are wall-mounted devices that convert power from the [color=Yellow]Medium Voltage[/color] Network to [color=green]Low Voltage[/color].
+  [color=green]低壓[/color]電力由 APC 提供，這是一種壁掛式裝置，負責將 [color=Yellow]中壓[/color]電網的電力轉換為 [color=green]低壓[/color]電力。
 
   <Box>
     <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  [color=green]Low Voltage[/color] wire doesn't have to be directly run to every machine, as it can power multiple machines as long as the wire is close enough to the machine.
-  It can power machines within 2 tiles radially, and 3 tiles in each cardinal direction.
+  [color=green]低壓[/color]電線無需直接接至每台機器，只要電線距離機器足夠近，即可為多台機器供電。
+  它可為半徑範圍內 2 格內的機器供電，並可向四個正方位各 3 格範圍內的機器供電。
 
-  ## Medium Voltage Network
-  The [color=Yellow]Medium Voltage[/color] Network is used for powering APCs and other power-hungry machinery that can only accept [color=Yellow]Medium Voltage[/color] power.
-  The Particle Accelerator is an example, as it operates on [color=Yellow]Medium Voltage[/color] power.
+  ## 中壓電網
+  [color=Yellow]中壓[/color]電網用於為 APC 及其他僅能接受 [color=Yellow]中壓[/color]電源的高耗能機器供電。
+  粒子加速器便是其中一例，因其運作需仰賴 [color=Yellow]中壓[/color] 電力。
 
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
@@ -61,9 +62,9 @@
     [color=#999999][italic]The Particle Accelerator[italic][/color]
   </Box>
 
-  [color=Yellow]Medium Voltage[/color] power is provided by Substations, which are large machines that convert power from the [color=Orange]High Voltage[/color] Network to [color=Yellow]Medium Voltage[/color].
+  [color=Yellow]中壓[/color]電力由變電站提供，這些大型設備負責將來自[color=Orange]高壓[/color]電網的電力轉換為[color=Yellow]中壓[/color]。
 
-  There are also wallmount variants of these substations for compact spaces, like shuttles.
+  此外，針對空間狹小的場所（例如穿梭車），這些變電站亦有壁掛式變體。
   <Box HorizontalAlignment="Stretch">
     <Box>
       <GuideEntityEmbed Entity="SubstationBasic"/>
@@ -73,10 +74,10 @@
     </Box>
   </Box>
 
-  ## High Voltage Network
-  The [color=Orange]High Voltage[/color] Network is used for moving large amount of power across the station. It is used to power most power handling equipment, such as SMES units and Substations.
+  ## 高壓電網
+  [color=Orange]高壓[/color]電網用於在站內傳輸大量電力。它負責為大多數電力處理設備供電，例如 SMES 單元和變電站。
 
-  Most high-output generators output power to the [color=Orange]High Voltage[/color] Network.
+  大多數高輸出發電機皆將電力輸送到 [color=Orange]高壓[/color] 網路。
 
   <Box>
     <GuideEntityEmbed Entity="SMESBasic"/>
@@ -85,11 +86,11 @@
     <GuideEntityEmbed Entity="SubstationBasic"/>
   </Box>
 
-  ## Shock Damage
-  If you are shocked by a cable carrying power, you will take damage. The amount of damage you take is based on the voltage of the cable that shocked you.
+  ## 觸電傷害
+  若你觸碰到帶電的電纜，將會受到傷害。 你所承受的傷害值取決於觸電電纜的電壓。
 
-  [color=green]Low Voltage[/color] cables will deal less damage than [color=Yellow]Medium Voltage[/color] cables, which will deal less damage than [color=Orange]High Voltage[/color] cables.
+  [color=green]低電壓[/color]電纜造成的傷害較 [color=Yellow]中電壓[/color]電纜少，而 [color=Orange]高電壓[/color]電纜造成的傷害又比中電壓電纜更多。
 
-  Energized [color=Orange]High Voltage[/color] and [color=Yellow]Medium Voltage[/color] cabling hurts, so be sure to wear insulated gloves when working with it.
+  帶電的 [color=Orange]高壓[/color] 和 [color=Yellow]中壓[/color] 電纜會造成傷害，因此在處理時務必佩戴絕緣手套。
 
 </Document>

@@ -1,100 +1,67 @@
-signal-port-name-autoclose = Autoclose
-signal-port-description-autoclose = Toggles whether the device should automatically close.
-
-signal-port-name-toggle = Toggle
-signal-port-description-toggle = Toggles the state of a device.
-
-signal-port-name-on-receiver = On
-signal-port-description-on-receiver = Turns a device on.
-
-signal-port-name-off-receiver = Off
-signal-port-description-off-receiver = Turns a device off.
-
-signal-port-name-forward = Forward
-signal-port-description-forward = Makes a device (e.g. conveyor) operate in the normal direction.
-
-signal-port-name-reverse = Reverse
-signal-port-description-reverse = Makes a device (e.g. conveyor) operate in the reverse direction.
-
-signal-port-name-open = Open
-signal-port-description-open = Opens a device.
-
-signal-port-name-close = Close
-signal-port-description-close = Closes a device.
-
-signal-port-name-doorbolt = Door bolt
-signal-port-description-doorbolt = Bolts door when HIGH.
-
-signal-port-name-trigger-receiver = Trigger
-signal-port-description-trigger-receiver = Triggers some mechanism on the device.
-
-signal-port-name-timer = Timer
-signal-port-description-timer = Starts the timer countdown of the device.
-
-signal-port-name-order-sender = Order sender
-signal-port-description-order-sender = Cargo console order sender
-
-signal-port-name-order-receiver = Order receiver
-signal-port-description-order-receiver = Cargo console order receiver
-
-signal-port-name-pressurize = Pressurize
-signal-port-description-pressurize = Causes the device to starts releasing air until some target pressure is reached.
-
-signal-port-name-depressurize = Depressurize
-signal-port-description-depressurize = Causes the device to starts siphoning air until some target pressure is reached.
-
-signal-port-name-pod-sender = Cloning pod
-signal-port-description-pod-sender = Cloning pod signal sender
-
-signal-port-name-pod-receiver = Cloning pod
-signal-port-description-pod-receiver = Cloning pod signal receiver
-
-signal-port-name-med-scanner-sender = Medical scanner
-signal-port-description-med-scanner-sender = Medical scanner signal sender
-
-signal-port-name-med-scanner-receiver = Medical scanner
-signal-port-description-med-scanner-receiver = Medical scanner signal receiver
-
-signal-port-name-hold-open = Hold
-signal-port-description-hold-open = Turns off automatic closing.
-
-signal-port-name-artifact-analyzer-sender = Console
-signal-port-description-artifact-analyzer-sender = Analysis console signal sender
-
-signal-port-name-artifact-analyzer-receiver = Pad
-signal-port-description-artifact-analyzer-receiver = Artifact analyzer signal receiver
-
-signal-port-name-set-particle-delta = Set particle type: delta
-signal-port-description-set-particle-delta = Sets the type of particle this device emits to delta.
-
-signal-port-name-set-particle-epsilon = Set particle type: epsilon
-signal-port-description-set-particle-epsilon = Sets the type of particle this device emits to epsilon.
-
-signal-port-name-set-particle-zeta = Set particle type: zeta
-signal-port-description-set-particle-zeta = Sets the type of particle this device emits to zeta.
-
-signal-port-name-set-particle-sigma = Set particle type: sigma
-signal-port-description-set-particle-sigma = Sets the type of particle this device emits to sigma.
-
-signal-port-name-logic-input-a = Input A
-signal-port-description-logic-input-a = First input of a logic gate.
-
-signal-port-name-logic-input-b = Input B
-signal-port-description-logic-input-b = Second input of a logic gate.
-
-signal-port-name-logic-input = Input
-signal-port-description-logic-input = Input to the edge detector, cannot be a pulse signal.
-
-signal-port-description-logic-memory-input = Signal to load into the memory cell, when enabled.
-
-signal-port-name-logic-enable = Enable
-signal-port-description-logic-enable = Only loads the input signal into the memory cell when HIGH.
-
-signal-port-name-logic-random-input = Input Signal
-signal-port-description-logic-random-input = Receives any signal to trigger a random output.
-
-signal-port-name-target-receiver = Target receiver
-signal-port-description-target-receiver = Receives target information from a target finder.
-
-signal-port-name-target-source = Target Finder
-signal-port-description-target-source = Sends target information to a target receiver.
+signal-port-name-autoclose = 自動關閉
+signal-port-description-autoclose = 切換裝置是否應自動關閉。
+signal-port-name-toggle = 切換
+signal-port-description-toggle = 切換裝置的狀態。
+signal-port-name-on-receiver = 開啟
+signal-port-description-on-receiver = 開啟裝置。
+signal-port-name-off-receiver = 關閉
+signal-port-description-off-receiver = 關閉裝置。
+signal-port-name-forward = 前言
+signal-port-description-forward = 使設備（例如輸送帶）朝正常方向運作。
+signal-port-name-reverse = 反向
+signal-port-description-reverse = 使設備（例如輸送帶）朝反方向運作。
+signal-port-name-open = 開啟
+signal-port-description-open = 開啟一個裝置。
+signal-port-name-close = 關閉
+signal-port-description-close = 關閉裝置。
+signal-port-name-doorbolt = 門閂
+signal-port-description-doorbolt = 當處於「高」狀態時，會鎖上門。
+signal-port-name-trigger-receiver = 觸發器
+signal-port-description-trigger-receiver = 觸發裝置上的某種機制。
+signal-port-name-timer = 計時器
+signal-port-description-timer = 啟動裝置的計時器倒數。
+signal-port-name-order-sender = 訂單寄件人
+signal-port-description-order-sender = 貨運控制台訂單發送者
+signal-port-name-order-receiver = 訂單收件人
+signal-port-description-order-receiver = 貨艙控制台訂單接收器
+signal-port-name-pressurize = 加壓
+signal-port-description-pressurize = 使裝置開始釋放空氣，直到達到某個目標壓力為止。
+signal-port-name-depressurize = 減壓
+signal-port-description-depressurize = 使裝置開始抽吸空氣，直到達到某個目標壓力為止。
+signal-port-name-pod-sender = 克隆艙
+signal-port-description-pod-sender = 複製莢體訊號發射器
+signal-port-name-pod-receiver = 克隆艙
+signal-port-description-pod-receiver = 複製莢體訊號接收器
+signal-port-name-med-scanner-sender = 醫療掃描儀
+signal-port-description-med-scanner-sender = 醫療掃描儀訊號發射器
+signal-port-name-med-scanner-receiver = 醫療掃描儀
+signal-port-description-med-scanner-receiver = 醫療掃描儀訊號接收器
+signal-port-name-hold-open = 暫停
+signal-port-description-hold-open = 關閉自動關閉功能。
+signal-port-name-artifact-analyzer-sender = 主機
+signal-port-description-artifact-analyzer-sender = 分析主機訊號發送器
+signal-port-name-artifact-analyzer-receiver = 墊子
+signal-port-description-artifact-analyzer-receiver = 人工產物分析儀訊號接收器
+signal-port-name-set-particle-delta = 設定粒子類型：delta
+signal-port-description-set-particle-delta = 將此裝置所釋放的粒子類型設定為 delta。
+signal-port-name-set-particle-epsilon = 設定粒子類型：epsilon
+signal-port-description-set-particle-epsilon = 將此裝置所發射的粒子類型設定為 epsilon。
+signal-port-name-set-particle-zeta = 設定粒子類型：zeta
+signal-port-description-set-particle-zeta = 將此裝置所發出的粒子類型設定為 zeta。
+signal-port-name-set-particle-sigma = 設定粒子類型：sigma
+signal-port-description-set-particle-sigma = 將此裝置所發射的粒子類型設定為 sigma。
+signal-port-name-logic-input-a = 輸入 A
+signal-port-description-logic-input-a = 邏輯閘的第一個輸入端。
+signal-port-name-logic-input-b = 輸入 B
+signal-port-description-logic-input-b = 邏輯閘的第二個輸入端。
+signal-port-name-logic-input = 輸入
+signal-port-description-logic-input = 輸入至邊緣偵測器時，不得為脈衝訊號。
+signal-port-description-logic-memory-input = 當啟用時，此訊號將被載入至記憶體單元中。
+signal-port-name-logic-enable = 啟用
+signal-port-description-logic-enable = 僅在為 HIGH 時，才會將輸入訊號載入記憶體單元中。
+signal-port-name-logic-random-input = 輸入訊號
+signal-port-description-logic-random-input = 接收任何訊號以觸發隨機輸出。
+signal-port-name-target-receiver = 目標接收器
+signal-port-description-target-receiver = 從目標探測器接收目標資訊。
+signal-port-name-target-source = 目標搜尋器
+signal-port-description-target-source = 將目標資訊傳送至目標接收器。

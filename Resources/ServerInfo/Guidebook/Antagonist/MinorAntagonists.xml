@@ -1,32 +1,33 @@
+
 <Document>
-  # Minor Antagonists
+  # 次要反派
 
-  Minor Antagonists are ghost-controlled roles that give dead people a second chance to interact (and cause chaos!) around the station. They are spawned by random events.
+  次要反派是由幽靈操控的角色，讓死者有機會在車站內再次與人互動（並製造混亂！）。 它們是由隨機事件所產生的。
 
-  # Paradox Clone
+  # Paradox 克隆版
 
   <Box>
     <GuideEntityEmbed Entity="ParadoxCloneDummy"/>
   </Box>
 
-  A perfect copy of a random crewmember that was thrown into our universe by a space-time anomaly. To fix the paradox and survive they have to find and kill their original counterpart.
+  這是某位隨機船員的完美複製品，該船員因時空異常而被拋入我們的宇宙。 為了化解這個悖論並生存下來，他們必須找到並殺死自己原本的對應體。
 
-They have no special abilities, but are identical in appearance, DNA, fingerprints, clothing, equipment and IDs, making it hard to figure out who is the original and who is the clone... unless you know your fellow crewmembers well!
+他們沒有特殊能力，但在外貌、DNA、指紋、服裝、裝備和ID卡件方面完全相同，讓人難以分辨誰是原版、誰是克隆體……除非你對你的船員夥伴非常熟悉！
 
-  # Revenant
+  # 《亡魂》
 
   <Box>
     <GuideEntityEmbed Entity="MobRevenant"/>
   </Box>
 
-  Revenants are ethereal beings made of ectoplasm that haunt the crew and steal [color=#8f63e6]life essence[/color] from them.
-  - Your essence is your very own [bold]life force[/bold]. Taking damage reduces your essence.
-  - Essence is also spent to use [bold]abilities[/bold].
-  - To gain essence you first [bold]inspect[/bold] various souls for their worth. More worthy souls grant more essence. Then you must [bold]siphon[/bold] it either when the victim is crit, dead or asleep. All of this is done with [color=yellow][bold][keybind="Use"][/bold][/color].
-  - [bold]Stolen essence[/bold] is used to purchase new abilities to incapacitate the crew easier.
-  - You are [bold]vulnerable[/bold] to attacks when you siphon a soul or use an ability. You can tell when you are vulnerable when you have a [color=#8f63e6][italic]Corporeal[/italic][/color] status effect.
+  「復生者」是由靈質構成的虛幻生物，牠們會糾纏船員，並從他們身上竊取 [color=#8f63e6]生命精華[/color]。
+  - 你的本質就是你獨一無二的 [bold]生命力[/bold]。 受到傷害會減少你的精氣。
+  - 使用 [bold]技能[/bold] 時也會消耗精華。
+  - 要獲得精華，你必須先 [bold]檢視[/bold] 各種靈魂的價值。 越是值得的靈魂，賦予的精華就越多。 接著，你必須在受害者受到致命一擊、死亡或睡著時，[bold]吸取[/bold]它的能量。 所有這些操作皆透過 [color=yellow][bold][keybind="Use"][/bold][/color] 來完成。
+  - [粗體]被竊取的精華[/粗體]可用於購買新能力，以便更輕鬆地使船員喪失行動能力。
+  - 當你汲取靈魂或使用技能時，你會處於 [bold]易受攻擊[/bold] 的狀態。 當你處於 [color=#8f63e6][斜體]肉身[/斜體][/color] 狀態效果時，便能察覺自己處於脆弱狀態。
 
-  # Rat King
+  # 鼠王
 
   <Box>
     <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
@@ -36,15 +37,15 @@ They have no special abilities, but are identical in appearance, DNA, fingerprin
     <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
   </Box>
 
-  Rat kings are abnormally large rodents capable of [color=yellow]raising huge rat armies[/color] by eating equally huge amounts of food.
-  - You have several abilities that come at the cost of your [bold]hunger.[/bold]
-  - One such ability is [color=yellow][italic]Raise Army[/italic][/color], which summons a [bold]Rat Servant[/bold]. You can [bold]command[/bold] your servants to stay in place, follow you, attack a target of your choice or attack indiscriminately.
-  - You can conjure a cloud of [color=#77b58e]ammonia[/color] using [color=purple][italic]Rat King's Domain[/italic][/color]. This purple gas is mildly poisonous to humans but heals rats.
-  - [color=#9daa98][italic]Rummage[/italic][/color] through a disposal unit by using the context menu. Use this to find [bold]scraps of food[/bold] to grow your army.
-  - Besides your abilities, [bold]you are stronger than most other animals.[/bold] You and your servants are capable of speech and you're both small enough to fit under airlocks and tables.
-  - [bold]Your underlings are still very fragile![/bold] Beware of spacings, explosions and the business end of a melee weapon.
+  「鼠王」是一種體型異常龐大的囓齒動物，能夠透過攝取同樣龐大的食物量，[color=yellow]組建龐大的鼠軍[/color]。
+  - 你有幾項能力，其使用代價是消耗你的 [bold]飢餓值[/bold]。
+  - 其中一項能力是 [color=yellow][italic]徵召軍隊[/italic][/color]，此能力會召喚一名 [bold]老鼠僕從[/bold]。 你可以[bold]下令[/bold]你的僕從原地待命、跟隨你、攻擊你指定的目標，或是不分青紅皂白地攻擊。
+  - 你可以利用 [color=purple][italic]鼠王領域[/italic][/color] 召喚一團 [color=#77b58e]氨氣[/color]。 這種紫色氣體對人類略有毒性，但能治癒老鼠。
+  - 透過右鍵選單，[color=#9daa98][italic]翻找[/italic][/color] 垃圾處理裝置。 利用這個來尋找 [bold]食物殘渣[/bold]，以壯大你的軍隊。
+  - 除了你的能力之外，[bold]你的體格比大多數其他動物都強壯。[[/bold] 你和你的僕從都能說話，而且你們的體型都夠小，足以鑽進氣閘和桌子底下。
+  - [粗體]你的手下依然非常脆弱！[/粗體] 請小心間距、爆炸以及近戰武器的攻擊端。
 
-  # Space Dragon
+  # 太空龍
 
   <Box>
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
@@ -54,23 +55,23 @@ They have no special abilities, but are identical in appearance, DNA, fingerprin
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
   </Box>
 
-  Space dragons are giant extradimensional fish that can [color=red]eat crew[/color] and create [color=#4b7fcc]carp rifts.[/color]
-  - Dragons have powerful jaws that allow them to [color=red][italic]Devour[/italic][/color] infrastructure such as doors, windows, and walls.
-  - They can also heal themselves by using [color=red][italic]Devour[/italic][/color] on crew members that have gone unconscious or have died.
-  - Your [color=orange][italic]Dragon's Breath[/italic][/color] is a [bold]flaming projectile[/bold] which travels a straight flight path, exploding multiple times and igniting things along the way. Try not to hit your carps with this!
-  - You have the ability to [color=#4b7fcc][italic]Summon a Carp Rift[/italic][/color]. Rifts periodically spawn [bold]space carp[/bold] and charge up energy over a period of 5 minutes, [bold]which is when it's vulnerable.[/bold] After 5 minutes, it becomes invulnerable and will continue summoning carp as long as the dragon lives.
-  - You'll suffer a [bold]temporary debilitating feedback effect[/bold] if one of your rifts are destroyed before it's done charging.
-  - If a period of five minutes passes since your spawn or since the last time a rift was charging, [bold]you'll disappear.[/bold]
-  - Dragons who have the maximum of 3 fully charged rifts will [bold]never disappear[/bold], but they are still mortal.
+  太空龍是巨型的跨維度魚類，能夠[color=red]吞噬船員[/color]並製造[color=#4b7fcc]鯉魚裂隙。[/color]
+  - 龍擁有強大的下顎，能 [color=red][italic]吞噬[/italic][/color] 門、窗戶和牆壁等建築結構。
+  - 他們還能透過對已失去意識或陣亡的船員使用 [color=red][italic]吞噬[/italic][/color] 來自我治癒。
+  - 你的 [color=orange][italic]龍息[/italic][/color] 是一種 [bold]火焰彈[/bold]，會沿著直線飛行軌跡前進，途中會多次爆炸並點燃沿途的物體。 請盡量別用這個打到你的鯉魚！
+  - 你有能力 [color=#4b7fcc][斜體]召喚鯉魚裂隙[/斜體][/color]。 裂隙會定期生成 [bold]太空鯉魚[/bold]，並在 5 分鐘內累積能量，[bold]此時便是其最脆弱的時刻。[/bold] 5 分鐘後，它將變得無敵，且只要這條龍還活著，就會持續召喚鯉魚。
+  - 若你的裂隙在充能完成前被摧毀，你將遭受 [bold]暫時性的削弱反饋效果[/bold]。
+  - 若自你重生起，或自上次裂隙開始充能起，已過五分鐘，[bold]你將會消失。[/bold]
+  - 擁有最多 3 個完全充能裂隙的龍將[bold]永遠不會消失[/bold]，但牠們仍然會死亡。
 
-  # Slimes and Spiders
+  # 史萊姆與蜘蛛
 
   <Box>
     <GuideEntityEmbed Entity="MobAdultSlimesBlueAngry" Caption=""/>
     <GuideEntityEmbed Entity="MobGiantSpiderAngry" Caption=""/>
   </Box>
 
-  Slimes and spiders have no remarkable features, but will [color=cyan]infest the station[/color] from time to time regardless. Both will give chase and attack anything they see.
-  - Slimes may [bold]deal extra cellular or poison damage[/bold], based upon their color. Water hurts them just as it would hurt a slime person.
-  - Spiders have a venomous bite and can [bold]create webs[/bold] that are hard to move through, but are easily destroyed with a blade. They can also pry open doors, windoors, and airlocks.
+  史萊姆和蜘蛛雖然沒有什麼特別之處，但無論如何，它們仍會不時地[color=cyan]侵擾空間站[/color]。 兩者都會追趕並攻擊它們所見到的任何東西。
+  - 史萊姆可能會根據其顏色，[粗體]造成額外的細胞傷害或毒傷害[/粗體]。 水對他們的傷害，就如同對史萊姆人一樣。
+  - 蜘蛛的咬傷具有毒性，且能[bold]織出蛛網[/bold]，雖然難以穿過，但用刀刃便能輕易破壞。 它們還能撬開門、窗戶和氣閘。
 </Document>

@@ -1,20 +1,21 @@
-﻿<Document>
-  # Airlocks
-  Airlocks are used to control access to different areas of the station.
+﻿
+<Document>
+  # 氣閘
+  氣閘用於控制進入太空站不同區域的通道。
 
   <Box>
     <GuideEntityEmbed Entity="Airlock" Caption=""/>
     <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
   </Box>
 
-  Airlocks can be opened using either [color=yellow][bold][keybind="Use"][/bold][/color] with an empty hand, [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] if hands are full, or by colliding with the airlock.
+  若雙手空著，可使用 [color=yellow][bold][keybind="Use"][/bold][/color] 來開啟氣閘；若雙手拿著東西，則可使用 [color=yellow][bold][keybind="ActivateItemInWorld"][/粗體][/color]（當雙手已滿時），或是直接與氣閘發生碰撞。
 
-  Airlocks will only open if you have an ID card with the correct access level.
-  The ID card must be in your hand or in your ID slot.
-  In the case of having multiple IDs, the airlock will check them all when you try to open it.
-  This behavior is also the same for IDs in a PDA.
+  只有當您持有具備正確存取權限等級的身份證時，氣閘才會開啟。
+  ID卡必須拿在手上，或放在ID卡插槽內。
+  若擁有多個 ID，當您嘗試開啟氣閘時，系統會檢查所有 ID。
+  在 PDA 中，ID 的行為也是如此。
 
-  The access level required to open the door can be modified using an Access Configurator, or by using a Multitool on the door electronics for the airlock (which requires deconstruction).
+  開啟門所需的存取權限等級，可透過「存取權限設定工具」進行修改，或使用多功能工具操作氣閘的門體電子裝置（此操作需先拆解氣閘）。
 
   <Box>
     <GuideEntityEmbed Entity="AccessConfigurator" Caption=""/>
@@ -22,21 +23,21 @@
     <GuideEntityEmbed Entity="DoorElectronics" Caption=""/>
   </Box>
 
-  Airlocks block gas flow, so they can be used to seal off areas in case of a [textlink="hull breach" link="Spacing"] or a [textlink="fire." link="Fires"]
-  They also store gas on their tile, even when closed, so be careful when opening them during or after a gas leak.
+  氣閘能阻斷氣體流動，因此可在發生[textlink="船體破裂" link="Spacing"]或[textlink="火災" link="Fires"]時，用來封鎖相關區域。
+  即使處於關閉狀態，氣閘仍會在其格子上儲存氣體，因此於氣體洩漏期間或之後開啟氣閘時，請務必謹慎。
 
-  ## Bolting and Emergency Access
-  Airlocks can be bolted to prevent them from being opened or pried open by hand. When this occurs, the airlock will display red lights on the top of the door.
+  ## 上鎖與緊急進出
+  氣鎖可上鎖，以防止其被手動開啟或撬開。 當這種情況發生時，氣閘門頂部會亮起紅燈。
 
-  Airlocks can also be set to emergency access. In this mode, anyone can open the airlock, regardless of access level. When this occurs, the airlock will display flashing yellow lights on the top of the door.
+  氣閘亦可設定為緊急通行模式。 在此模式下，無論存取權限等級為何，任何人都可以開啟氣閘。 當這種情況發生時，氣閘門頂部會亮起閃爍的黃色燈光。
 
-  ## Remote Control
-  Airlocks can be controlled remotely, either by the station AI or by using a Door Remote.
+  ## 遙控
+  氣閘可透過空間站的人工智慧（AI）或使用「門遙控器」進行遙控。
   <Box>
     <GuideEntityEmbed Entity="PlayerStationAiEmpty" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]The Station AI, which has remote control over all airlocks[italic][/color]
+    [color=#999999][italic]「站內人工智慧」，可遠端控制所有氣閘[italic][/color]
   </Box>
 
   <Box>
@@ -48,20 +49,20 @@
     <GuideEntityEmbed Entity="DoorRemoteResearch" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]Precious door remotes. With unlimited power...[italic][/color]
+    [color=#999999][italic]珍貴的門禁遙控器。 擁有無窮無盡的力量……[斜體][/顏色]
   </Box>
 
 
-  Department heads usually get door remotes for their respective department.
+  各部門主管通常會獲得所屬部門的門禁遙控器。
 
-  They can open, close, bolt, and set to emergency access using these remotes.
+  他們可以利用這些遙控器來開啟、關閉、上鎖，以及設定為緊急通行模式。
 
-  ## Linking
-  Airlocks can be linked using the [textlink="Link" link="Networking"] system to other devices.
-  This allows for proper station airlocks to space, or to link multiple airlocks together.
+  ## 連結
+  氣閘可透過 [textlink="連結" link="網路連線"] 系統與其他裝置進行連結。
+  這使得太空站能夠設置適當的通往太空的氣閘，或將多個氣閘相互連接。
 
-  ## Styling
-  Airlocks can come in different styles to match station departments. The department style commonly reflects the required access level.
+  ##
+  的設計風格   氣閘有各種不同的設計風格，以配合站內各部門的需求。 部門的風格通常反映所需的存取層級。
 
   <Box>
     <GuideEntityEmbed Entity="Airlock" Caption=""/>
@@ -82,56 +83,56 @@
     <GuideEntityEmbed Entity="AirlockSecurityGlass" Caption=""/>
   </Box>
 
-  Airlocks can be repainted using a spray painter.
+  氣閘可使用噴漆槍重新噴漆。
   <Box>
     <GuideEntityEmbed Entity="SprayPainter" Caption=""/>
   </Box>
 
-  ## Wiring
-  Airlocks have internal wiring under their maintenance panel, which can be opened using a screwdriver.
-  Each wire controls some aspect of the airlock's functionality.
-  When you either pulse, cut, or mend the wire, it will affect the airlock in different ways.
+  ##
+  的接線   Airlock 的維護面板下方設有內部接線，可使用螺絲起子打開該面板。
+  每條電線都負責控制氣閘某項功能。
+  當您對電線進行脈衝、剪斷或修補時，都會以不同的方式影響氣鎖。
 
-  The lights next to the wires will indicate the status of the wire:
-  - A steady light indicates that the system is functioning as normal.
-  - A flashing light indicates that the system is malfunctioning. It is either not working or is behaving not as intended.
-  - No light indicates that the system is not powered.
+  電線旁的指示燈將顯示該電線的狀態：
+  - 指示燈恆亮表示系統運作正常。
+  - 閃爍的指示燈表示系統發生故障。 要不是無法運作，就是運作方式與預期不符。
+  - 若無燈號亮起，表示系統未通電。
 
-  Below is a list of the wires and their functions:
+  以下是各線路及其功能的清單：
 
-  [color=#a4885c]Bolt Wire (BOLT)[/color]
-  - [color=yellow]Pulse the wire[/color]: Bolts or unbolts the door.
-  - [color=red]Cut the wire[/color]: Bolts the door.
-  - [color=green]Mend the wire[/color]: Does nothing.
+  [color=#a4885c]鎖定線 (BOLT)[/color]
+  - [color=yellow]對該線路發送脈衝[/color]：鎖定或解鎖門。
+  - [color=red]剪斷電線[/color]：將門鎖死。
+  - [color=green]修補電線[/color]：無任何作用。
 
-  [color=#a4885c]Power Wire (POWR)[/color]
-  - [color=yellow]Pulse the wire[/color]: Cuts power to the door for a short time.
-  - [color=red]Cut the wire[/color]: Either cuts power to the door if both power wires are cut, or causes a short circuit if only one is cut, shocking people without insulated gloves.
-  - [color=green]Mend the wire[/color]: Either restores power to the door if both power wires are cut, or stops the short circuit if only one is cut.
+  [color=#a4885c]電源線 (POWR)[/color]
+  - [color=yellow]對電源線進行脈衝操作[/color]：短暫切斷門的電源。
+  - [color=red]剪斷電線[/color]：若兩條電源線均被剪斷，將切斷門的電源；若僅剪斷其中一條，則會造成短路，導致未戴絕緣手套的人觸電。
+  - [color=green]修復電線[/color]：若兩條電源線均被切斷，則恢復門的供電；若僅有一條被切斷，則消除短路。
 
-  [color=#a4885c]Log Wire (LOG)[/color]
-  - [color=yellow]Pulse the wire[/color]: Temporary disables door logging.
-  - [color=red]Cut the wire[/color]: Disables door logging.
-  - [color=green]Mend the wire[/color]: Re-enables door logging.
+  [color=#a4885c]日誌線 (LOG)[/color]
+  - [color=yellow]觸發線路[/color]：暫時停用門禁日誌記錄功能。
+  - [color=red]剪斷電線[/color]：停用門的記錄功能。
+  - [color=green]修復電線[/color]：重新啟用門禁記錄功能。
 
   [color=#a4885c]Bolt Light (BLIT)[/color]
-  - [color=yellow]Pulse the wire[/color]: Turns the system off temporarily, or turns it back on.
-  - [color=red]Cut the wire[/color]: Prevents the bolt light from turning on, which communicates if the door is bolted or not.
-  - [color=green]Mend the wire[/color]: Turns the system back on.
+  - [color=yellow]對電線進行脈衝[/color]：暫時關閉系統，或重新開啟系統。
+  - [color=red]剪斷電線[/color]：可防止門閂指示燈亮起，該指示燈用以顯示門是否已上閂。
+  - [color=green]修復電線[/color]：重新啟動系統。
 
-  [color=#a4885c]Timer Light (TIMR)[/color]
-  - [color=yellow]Pulse the wire[/color]: Reduces the door timer temporarily.
-  - [color=red]Cut the wire[/color]: Disables the timer. The door will close as soon as it is safe to do so.
-  - [color=green]Mend the wire[/color]: Re-enables the timer.
+  [color=#a4885c]計時器指示燈 (TIMR)[/color]
+  - [color=yellow]對電線進行脈衝刺激[/color]：暫時縮短門的計時器時間。
+  - [color=red]剪斷電線[/color]：停用計時器。 一旦情況安全，門便會關上。
+  - [color=green]修復電線[/color]：重新啟用計時器。
 
-  [color=#a4885c]Safety Light (SAFE)[/color]
-  - [color=yellow]Pulse the wire[/color]: Disables the safety system temporarily.
-  - [color=red]Cut the wire[/color]: Disables the safety system. The door will close even if there is an obstruction.
-  - [color=green]Mend the wire[/color]: Re-enables the safety system.
+  [color=#a4885c]安全燈 (SAFE)[/color]
+  - [color=yellow]對電線進行脈衝操作[/color]：暫時停用安全系統。
+  - [color=red]剪斷電線[/color]：此舉將使安全系統失效。 即使有障礙物，門仍會關上。
+  - [color=green]修復電線[/color]：重新啟用安全系統。
 
-  [color=#a4885c]AI Access Light (AIA)[/color]
-  - [color=yellow]Pulse the wire[/color]: Does nothing.
-  - [color=red]Cut the wire[/color]: Disables AI access. The AI can no longer control the door.
-  - [color=green]Mend the wire[/color]: Re-enables AI access.
+  [color=#a4885c]AI 存取燈 (AIA)[/color]
+  - [color=yellow]對電線進行脈衝[/color]：無作用。
+  - [color=red]剪斷電線[/color]：停用 AI 存取權限。 人工智慧已無法控制那扇門。
+  - [color=green]修復電線[/color]：重新啟用 AI 存取權限。
 
 </Document>

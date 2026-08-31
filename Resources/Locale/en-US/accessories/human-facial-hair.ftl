@@ -1,104 +1,70 @@
-marking-HumanFacialHairAbe = Beard (Abraham Lincoln)
-marking-HumanFacialHairAbe-abe = Beard (Abraham Lincoln)
-
-marking-HumanFacialHairBrokenman = Beard (Broken Man)
-marking-HumanFacialHairBrokenman-brokenman = Beard (Broken Man)
-
-marking-HumanFacialHairChin = Beard (Chinstrap)
-marking-HumanFacialHairChin-chin = Beard (Chinstrap)
-
-marking-HumanFacialHairDwarf = Beard (Dwarf)
-marking-HumanFacialHairDwarf-dwarf = Beard (Dwarf)
-
-marking-HumanFacialHairFullbeard = Beard (Full)
-marking-HumanFacialHairFullbeard-fullbeard = Beard (Full)
-
-marking-HumanFacialHairCroppedfullbeard = Beard (Cropped Fullbeard)
-marking-HumanFacialHairCroppedfullbeard-croppedfullbeard = Beard (Cropped Fullbeard)
-
-marking-HumanFacialHairGt = Beard (Goatee)
-marking-HumanFacialHairGt-gt = Beard (Goatee)
-
-marking-HumanFacialHairHip = Beard (Hipster)
-marking-HumanFacialHairHip-hip = Beard (Hipster)
-
-marking-HumanFacialHairJensen = Beard (Jensen)
-marking-HumanFacialHairJensen-jensen = Beard (Jensen)
-
-marking-HumanFacialHairNeckbeard = Beard (Neckbeard)
-marking-HumanFacialHairNeckbeard-neckbeard = Beard (Neckbeard)
-
-marking-HumanFacialHairWise = Beard (Very Long)
-marking-HumanFacialHairWise-wise = Beard (Very Long)
-
-marking-HumanFacialHairMuttonmus = Beard (Muttonmus)
-marking-HumanFacialHairMuttonmus-muttonmus = Beard (Muttonmus)
-
-marking-HumanFacialHairMartialartist = Beard (Martial Artist)
-marking-HumanFacialHairMartialartist-martialartist = Beard (Martial Artist)
-
-marking-HumanFacialHairChinlessbeard = Beard (Chinless Beard)
-marking-HumanFacialHairChinlessbeard-chinlessbeard = Beard (Chinless Beard)
-
-marking-HumanFacialHairMoonshiner = Beard (Moonshiner)
-marking-HumanFacialHairMoonshiner-moonshiner = Beard (Moonshiner)
-
-marking-HumanFacialHairLongbeard = Beard (Long)
-marking-HumanFacialHairLongbeard-longbeard = Beard (Long)
-
-marking-HumanFacialHairVolaju = Beard (Volaju)
-marking-HumanFacialHairVolaju-volaju = Beard (Volaju)
-
-marking-HumanFacialHair3oclock = Beard (Three o Clock Shadow)
-marking-HumanFacialHair3oclock-3oclock = Beard (Three o Clock Shadow)
-
-marking-HumanFacialHairFiveoclock = Beard (Five o Clock Shadow)
-marking-HumanFacialHairFiveoclock-fiveoclock = Beard (Five o Clock Shadow)
-
-marking-HumanFacialHair5oclockmoustache = Beard (Five o Clock Moustache)
-marking-HumanFacialHair5oclockmoustache-5oclockmoustache = Beard (Five o Clock Moustache)
-
-marking-HumanFacialHair7oclock = Beard (Seven o Clock Shadow)
-marking-HumanFacialHair7oclock-7oclock = Beard (Seven o Clock Shadow)
-
-marking-HumanFacialHair7oclockmoustache = Beard (Seven o Clock Moustache)
-marking-HumanFacialHair7oclockmoustache-7oclockmoustache = Beard (Seven o Clock Moustache)
-
-marking-HumanFacialHairMoustache = Moustache
-marking-HumanFacialHairMoustache-moustache = Moustache
-
-marking-HumanFacialHairPencilstache = Moustache (Pencilstache)
-marking-HumanFacialHairPencilstache-pencilstache = Moustache (Pencilstache)
-
-marking-HumanFacialHairSmallstache = Moustache (Smallstache)
-marking-HumanFacialHairSmallstache-smallstache = Moustache (Smallstache)
-
-marking-HumanFacialHairWalrus = Moustache (Walrus)
-marking-HumanFacialHairWalrus-walrus = Moustache (Walrus)
-
-marking-HumanFacialHairFumanchu = Moustache (Fu Manchu)
-marking-HumanFacialHairFumanchu-fumanchu = Moustache (Fu Manchu)
-
-marking-HumanFacialHairHogan = Moustache (Hulk Hogan)
-marking-HumanFacialHairHogan-hogan = Moustache (Hulk Hogan)
-
-marking-HumanFacialHairSelleck = Moustache (Selleck)
-marking-HumanFacialHairSelleck-selleck = Moustache (Selleck)
-
-marking-HumanFacialHairChaplin = Moustache (Square)
-marking-HumanFacialHairChaplin-chaplin = Moustache (Square)
-
-marking-HumanFacialHairVandyke = Moustache (Van Dyke)
-marking-HumanFacialHairVandyke-vandyke = Moustache (Van Dyke)
-
-marking-HumanFacialHairWatson = Moustache (Watson)
-marking-HumanFacialHairWatson-watson = Moustache (Watson)
-
-marking-HumanFacialHairElvis = Sideburns (Elvis)
-marking-HumanFacialHairElvis-elvis = Sideburns (Elvis)
-
-marking-HumanFacialHairMutton = Sideburns (Mutton Chops)
-marking-HumanFacialHairMutton-mutton = Sideburns (Mutton Chops)
-
-marking-HumanFacialHairSideburn = Sideburns
-marking-HumanFacialHairSideburn-sideburn = Sideburns
+marking-HumanFacialHairAbe = 鬍鬚（亞伯拉罕·林肯）
+marking-HumanFacialHairAbe-abe = 鬍鬚（亞伯拉罕·林肯）
+marking-HumanFacialHairBrokenman = 比爾德（《破碎之人》）
+marking-HumanFacialHairBrokenman-brokenman = 比爾德（《破碎之人》）
+marking-HumanFacialHairChin = 鬍鬚（下巴帶）
+marking-HumanFacialHairChin-chin = 鬍鬚（下巴帶）
+marking-HumanFacialHairDwarf = 比爾德（矮人）
+marking-HumanFacialHairDwarf-dwarf = 比爾德（矮人）
+marking-HumanFacialHairFullbeard = 鬍子（濃密）
+marking-HumanFacialHairFullbeard-fullbeard = 鬍子（濃密）
+marking-HumanFacialHairCroppedfullbeard = 鬍鬚（短款全鬍）
+marking-HumanFacialHairCroppedfullbeard-croppedfullbeard = 鬍鬚（短款全鬍）
+marking-HumanFacialHairGt = 鬍鬚（山羊鬍）
+marking-HumanFacialHairGt-gt = 鬍鬚（山羊鬍）
+marking-HumanFacialHairHip = 鬍子（文青風）
+marking-HumanFacialHairHip-hip = 鬍子（文青風）
+marking-HumanFacialHairJensen = 比爾德（詹森）
+marking-HumanFacialHairJensen-jensen = 比爾德（詹森）
+marking-HumanFacialHairNeckbeard = 鬍鬚（頸鬚）
+marking-HumanFacialHairNeckbeard-neckbeard = 鬍鬚（頸鬚）
+marking-HumanFacialHairWise = 鬍鬚（非常長）
+marking-HumanFacialHairWise-wise = 鬍鬚（非常長）
+marking-HumanFacialHairMuttonmus = 鬍子（Muttonmus）
+marking-HumanFacialHairMuttonmus-muttonmus = 鬍子（Muttonmus）
+marking-HumanFacialHairMartialartist = 比爾德（武術家）
+marking-HumanFacialHairMartialartist-martialartist = 比爾德（武術家）
+marking-HumanFacialHairChinlessbeard = 鬍鬚（無下巴鬍鬚）
+marking-HumanFacialHairChinlessbeard-chinlessbeard = 鬍鬚（無下巴鬍鬚）
+marking-HumanFacialHairMoonshiner = 比爾德（私釀酒客）
+marking-HumanFacialHairMoonshiner-moonshiner = 比爾德（私釀酒客）
+marking-HumanFacialHairLongbeard = 鬍鬚（長）
+marking-HumanFacialHairLongbeard-longbeard = 鬍鬚（長）
+marking-HumanFacialHairVolaju = 比爾德（沃拉朱）
+marking-HumanFacialHairVolaju-volaju = 比爾德（沃拉朱）
+marking-HumanFacialHair3oclock = 鬍鬚（三點鐘陰影）
+marking-HumanFacialHair3oclock-3oclock = 鬍鬚（三點鐘陰影）
+marking-HumanFacialHairFiveoclock = 鬍鬚（五點鐘陰影）
+marking-HumanFacialHairFiveoclock-fiveoclock = 鬍鬚（五點鐘陰影）
+marking-HumanFacialHair5oclockmoustache = 鬍鬚（五點鐘小鬍子）
+marking-HumanFacialHair5oclockmoustache-5oclockmoustache = 鬍鬚（五點鐘小鬍子）
+marking-HumanFacialHair7oclock = 鬍鬚（七點鐘陰影）
+marking-HumanFacialHair7oclock-7oclock = 鬍鬚（七點鐘陰影）
+marking-HumanFacialHair7oclockmoustache = 鬍鬚（七點鐘鬍）
+marking-HumanFacialHair7oclockmoustache-7oclockmoustache = 鬍鬚（七點鐘鬍）
+marking-HumanFacialHairMoustache = 鬍鬚
+marking-HumanFacialHairMoustache-moustache = 鬍鬚
+marking-HumanFacialHairPencilstache = 鬍鬚（鉛筆鬍）
+marking-HumanFacialHairPencilstache-pencilstache = 鬍鬚（鉛筆鬍）
+marking-HumanFacialHairSmallstache = 小鬍子 (Smallstache)
+marking-HumanFacialHairSmallstache-smallstache = 小鬍子 (Smallstache)
+marking-HumanFacialHairWalrus = 鬍鬚（海象）
+marking-HumanFacialHairWalrus-walrus = 鬍鬚（海象）
+marking-HumanFacialHairFumanchu = 鬍鬚（傅滿洲式）
+marking-HumanFacialHairFumanchu-fumanchu = 鬍鬚（傅滿洲式）
+marking-HumanFacialHairHogan = 「鬍子」（霍克·霍根）
+marking-HumanFacialHairHogan-hogan = 「鬍子」（霍克·霍根）
+marking-HumanFacialHairSelleck = 鬍鬚（塞勒克）
+marking-HumanFacialHairSelleck-selleck = 鬍鬚（塞勒克）
+marking-HumanFacialHairChaplin = 鬍鬚（方形）
+marking-HumanFacialHairChaplin-chaplin = 鬍鬚（方形）
+marking-HumanFacialHairVandyke = 鬍鬚（范戴克式）
+marking-HumanFacialHairVandyke-vandyke = 鬍鬚（范戴克式）
+marking-HumanFacialHairWatson = 鬍鬚（華生）
+marking-HumanFacialHairWatson-watson = 鬍鬚（華生）
+marking-HumanFacialHairElvis = 鬢角（貓王）
+marking-HumanFacialHairElvis-elvis = 鬢角（貓王）
+marking-HumanFacialHairMutton = 鬢角（羊角鬢）
+marking-HumanFacialHairMutton-mutton = 鬢角（羊角鬢）
+marking-HumanFacialHairSideburn = 鬢角
+marking-HumanFacialHairSideburn-sideburn = 鬢角

@@ -1,11 +1,12 @@
-limited-charges-charges-remaining = {$charges ->
-    [one] It has [color=fuchsia]{$charges}[/color] charge remaining.
-    *[other] It has [color=fuchsia]{$charges}[/color] charges remaining.
-}
-
-limited-charges-max-charges = It's at [color=green]maximum[/color] charges.
-limited-charges-recharging = {$seconds ->
-    [one] There is [color=yellow]{$seconds}[/color] second left until the next charge.
-    *[other] There are [color=yellow]{$seconds}[/color] seconds left until the next charge.
-}
-limited-charges-no-charges = No charges left!
+limited-charges-charges-remaining =
+    { $charges ->
+        [one] 剩餘 [color=fuchsia]{ $charges }[/color] 次電量。
+       *[other] 剩餘 [color=fuchsia]{ $charges }[/color] 次電量。
+    }
+limited-charges-max-charges = 它已達到 [color=green]最大[/color] 電量。
+limited-charges-recharging =
+    { $seconds ->
+        [one] 距離下次充能還剩 [color=yellow]{ $seconds }[/color] 秒。
+       *[other] 距離下次充能還剩 [color=yellow]{ $seconds }[/color] 秒。
+    }
+limited-charges-no-charges = 電量已耗盡！

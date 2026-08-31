@@ -1,26 +1,27 @@
+
 <Document>
-  # Antimatter Engine (AME)
-  The Antimatter Engine is a short-term support generator for the station, providing a sizable chunk of power for a limited time.
+  # 反物質引擎 (AME)
+  反物質引擎是空間站的短期支援發電機，能在有限時間內提供大量電力。
 
-  It's mainly used to assist engineers in starting up bigger engines like the [textlink="Singularity Engine" link="SingularityEngine"] or [textlink="Tesla Engine" link="TeslaEngine"], by supplementing the station's [textlink="batteries" link="PowerStorage"] with partial power to extend their runtime.
+  它主要用於協助工程師啟動較大型的引擎，例如 [textlink="奇點引擎" link="SingularityEngine"] 或 [textlink="特斯拉引擎" link="TeslaEngine"]等較大型引擎，透過為站點的 [textlink="電池" link="PowerStorage"] 補充部分電力，以延長其運作時間。
 
-  ## Construction
-  <Box>Required parts:</Box>
+  ## 施工
+  <Box>所需零件：</Box>
   <Box>
   <GuideEntityEmbed Entity="AmeController"/>
   <GuideEntityEmbed Entity="AmePartFlatpack"/>
   <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
-  The AME Controller is the part of the AME that outputs power to the station's grid through an [textlink="HV connection" link="VoltageNetworks"].
-  Because of this, you'll want to start your AME construction with the controller on top of an [color=orange]HV wire[/color].
+  AME 控制器是 AME 的組成部分，負責透過 [textlink="高壓連接" link="VoltageNetworks"] 向電站的電網輸出電力。
+  正因如此，在開始組裝 AME 時，應先將控制器放置在 [color=orange]高壓電線[/color] 上方。
 
-  Most stations have exposed [color=orange]HV wiring[/color] or designated spots to wrench an AME controller, so that it connects to the grid.
+  大多數電站都有外露的 [color=orange]高壓電纜[/color]，或是設有專用位置，以便操作 AME 控制器，使其能連接至電網。
 
-  AME shielding is the physical structure that makes the antimatter engine. It's made by converting AME flatpacks into shielding using a multitool.
+  AME 屏蔽層是構成反物質引擎的物理結構。 它是透過使用多功能工具，將 AME 扁平套件轉化為屏蔽層而製成的。
 
-  To construct an AME, start putting down a 3x3 or larger square of AME flatpacks in preparation for construction, making sure to maximize the number of "center" pieces that are surrounded on all eight sides.
-  The greater amount of center pieces, the more cores your AME will have, and the more power it will be able to output safely.
+  要組裝 AME，請先將 3x3 或更大的 AME 扁平套件排列成正方形，為組裝做準備，並務必盡可能多地使用那些八面皆被其他部件包圍的「中心」部件。
+  中心元件的數量越多，您的 AME 所具備的核心數量就越多，且能夠安全輸出的功率也就越大。
 
   <Box>
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
@@ -38,7 +39,7 @@
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
   </Box>
 
-  Once this is done, you can use a multitool to convert each AME flatpack into shielding, which should form a finished AME configuration.
+  完成此步驟後，您可以使用多功能工具將每個 AME 平裝包轉化為屏蔽結構，如此便應能形成完整的 AME 配置。
 
   <GuideEntityEmbed Entity="AmeController" Caption=""/>
   <Box>
@@ -57,20 +58,20 @@
     <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
   </Box>
   <Box>
-    [color=#999999][italic]An example of a one core setup[italic][/color]
+    [color=#999999][italic]單核心配置的範例[italic][/color]
   </Box>
 
-  ## Operation
-  To start the AME, insert a fuel jar into the AME controller, and set the safe injection rate.
+  ##
+  操作   要啟動 AME，請將燃料罐插入 AME 控制器中，並設定安全的注入速率。
 
-  The safe injection rate is the point where the AME can safely run without overheating, while maximizing power output.
+  安全噴射率是指航空醫療工程師（AME）能在不致過熱的情況下安全運作，同時將輸出功率最大化之點。
 
-  This rate is always twice the core count.
+  此倍率始終為核心數的兩倍。
 
-  For example, an AME with one core will have a safe injection rate of 2. With two cores, the safe injection rate would be 4, and so on.
+  舉例來說，一個單核心的 AME 其安全注入率為 2. 若為雙核心，安全注入率即為 4，以此類推。
 
-  Any more than this ratio will eventually result in the engine [color=#ff0000]overheating[/color] and, shortly afterwards, [color=#ff0000]exploding[/color].
+  若此比例超過此數值，最終將導致引擎 [color=#ff0000]過熱[/color]，並在不久之後 [color=#ff0000]爆炸[/color]。
 
-  The AME controller will [textlink="report" link="InspectingPower"] on both the amount of power it is providing to the grid, and the theoretical maximum power it could provide if demanded.
+  AME 控制器將 [textlink="report" link="InspectingPower"] 同時監測其供應至電網的電力量，以及在需求情況下其理論上可提供的最大電力。
 
 </Document>

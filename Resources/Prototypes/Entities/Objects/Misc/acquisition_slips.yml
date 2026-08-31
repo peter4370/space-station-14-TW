@@ -2,8 +2,8 @@
   abstract: true
   parent: Paper
   id: PaperAcquisitionSlip
-  name: acquisition slip
-  description: A slip with order details on it. It can be given to Cargo to complete the order.
+  name: 收購單據 | acquisition slip
+  description: 一張載有訂單詳情的單據。可將其交給貨運公司以完成訂單。 | A slip with order details on it. It can be given to Cargo to complete the order.
   components:
   - type: Sprite
     layers:

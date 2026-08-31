@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCasualBlue
-  name: casual blue jumpskirt
-  description: A loose worn blue shirt with a grey skirt, perfect for someone looking to relax.
+  name: 休閒款藍色連身裙 | casual blue jumpskirt
+  description: 一件寬鬆的舊藍色襯衫搭配灰色裙子，非常適合想要放鬆的人。 | A loose worn blue shirt with a grey skirt, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCasualPurple
-  name: casual purple jumpskirt
-  description: A loose worn purple shirt with a grey skirt, perfect for someone looking to relax.
+  name: 休閒款紫色連身裙 | casual purple jumpskirt
+  description: 一件寬鬆的舊紫色襯衫搭配灰色裙子，非常適合想要放鬆的人。 | A loose worn purple shirt with a grey skirt, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCasualRed
-  name: casual red jumpskirt
-  description: A loose worn red shirt with a grey skirt, perfect for someone looking to relax.
+  name: 休閒款紅色連身裙 | casual red jumpskirt
+  description: 一件寬鬆的舊紅襯衫搭配灰色裙子，非常適合想要放鬆的人。 | A loose worn red shirt with a grey skirt, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCasualGreen
-  name: casual green jumpskirt
-  description: A loose worn green shirt with a grey skirt, perfect for someone looking to relax.
+  name: 休閒綠色連身裙 | casual green jumpskirt
+  description: 一件寬鬆且略顯舊的綠色襯衫，搭配灰色裙子，非常適合想要放鬆的人。 | A loose worn green shirt with a grey skirt, perfect for someone looking to relax.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Civilian/casual.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtOldDress
-  name: old dress
-  description: A worn-looking dress from a very long time ago.
+  name: 舊洋裝 | old dress
+  description: 一件看起來有些舊的、來自很久以前的洋裝。 | A worn-looking dress from a very long time ago.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Civilian/olddress.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtOfLife
-  name: skirt of life
-  description: A skirt that symbolizes the joy and positivity of our life.
+  name: 生命的裙襬 | skirt of life
+  description: 一條象徵我們生活中的喜悅與正能量的裙子。 | A skirt that symbolizes the joy and positivity of our life.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Civilian/skirtoflife.rsi

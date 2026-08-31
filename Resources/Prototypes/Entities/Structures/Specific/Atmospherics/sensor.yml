@@ -33,8 +33,8 @@
 - type: entity
   parent: [ AirSensorBase, StructureHealthMachineFlimsy ]
   id: AirSensor
-  name: air sensor
-  description: Air sensor. It senses air.
+  name: 空氣感測器 | air sensor
+  description: 空氣感測器。它用來感測空氣。 | Air sensor. It senses air.
   placement:
     mode: SnapgridCenter
   components:
@@ -101,8 +101,8 @@
 - type: entity
   parent: [ BaseItem, BaseItemDestructible ]
   id: AirSensorAssembly
-  name: air sensor assembly
-  description: Air sensor assembly. An assembly of air sensors?
+  name: 空氣感測器總成 | air sensor assembly
+  description: 空氣感測器組件。是指一組空氣感測器嗎？ | Air sensor assembly. An assembly of air sensors?
   components:
   - type: Item
     size: Small

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseElectronics
   id: BaseSiliconLawboard
-  description: An electronics board containing a silicon lawset.
+  description: 一塊內含矽法典的電子電路板。 | An electronics board containing a silicon lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -16,8 +16,8 @@
 - type: entity
   id: NTDefaultCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (NT Default)
-  description: An electronics board containing the NT Default lawset.
+  name: 法律論壇（NT 預設） | law board (NT Default)
+  description: 一塊載有 NT Default 法規集的電子電路板。 | An electronics board containing the NT Default lawset.
   components:
   - type: SiliconLawProvider
     laws: NTDefault
@@ -25,8 +25,8 @@
 - type: entity
   id: AsimovCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Crewsimov)
-  description: An electronics board containing the Crewsimov lawset.
+  name: 法律委員會（克魯西莫夫） | law board (Crewsimov)
+  description: 一塊內含克魯西莫夫法則集的電子電路板。 | An electronics board containing the Crewsimov lawset.
   components:
   - type: SiliconLawProvider
     laws: Crewsimov
@@ -34,8 +34,8 @@
 - type: entity
   id: CorporateCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Corporate)
-  description: An electronics board containing the Corporate lawset.
+  name: 法律委員會（公司法） | law board (Corporate)
+  description: 一塊載有《公司法》法規集的電子電路板。 | An electronics board containing the Corporate lawset.
   components:
   - type: SiliconLawProvider
     laws: Corporate
@@ -43,8 +43,8 @@
 - type: entity
   id: CommandmentCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Ten Commandments)
-  description: An electronics board containing the Ten Commandments lawset.
+  name: 律法石板（十誡） | law board (Ten Commandments)
+  description: 一塊載有「十誡」法典的電子電路板。 | An electronics board containing the Ten Commandments lawset.
   components:
   - type: SiliconLawProvider
     laws: CommandmentsLawset
@@ -52,8 +52,8 @@
 - type: entity
   id: PaladinCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Paladin)
-  description: An electronics board containing the Paladin lawset.
+  name: 法律論壇（聖騎士） | law board (Paladin)
+  description: 一塊內含「Paladin」法典的電子電路板。 | An electronics board containing the Paladin lawset.
   components:
   - type: SiliconLawProvider
     laws: PaladinLawset
@@ -61,8 +61,8 @@
 - type: entity
   id: LiveLetLiveCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Live and Let Live)
-  description: An electronics board containing the Live and Let Live lawset.
+  name: 法律論壇（各行其是） | law board (Live and Let Live)
+  description: 一塊載有「共存共榮」法則集的電子電路板。 | An electronics board containing the Live and Let Live lawset.
   components:
   - type: SiliconLawProvider
     laws: LiveLetLiveLaws
@@ -70,8 +70,8 @@
 - type: entity
   id: StationEfficiencyCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Station Efficiency)
-  description: An electronics board containing the Station Efficiency lawset.
+  name: 法律委員會（車站效率） | law board (Station Efficiency)
+  description: 一塊載有「站點效率」法則集的電子電路板。 | An electronics board containing the Station Efficiency lawset.
   components:
   - type: SiliconLawProvider
     laws: EfficiencyLawset
@@ -79,8 +79,8 @@
 - type: entity
   id: RobocopCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Robocop)
-  description: An electronics board containing the Robocop lawset.
+  name: 法律委員會（機械戰警） | law board (Robocop)
+  description: 一塊內含《機械戰警》法規集的電子電路板。 | An electronics board containing the Robocop lawset.
   components:
   - type: SiliconLawProvider
     laws: RobocopLawset
@@ -88,8 +88,8 @@
 - type: entity
   id: OverlordCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Overlord)
-  description: An electronics board containing the Overlord lawset.
+  name: 法律論壇（Overlord） | law board (Overlord)
+  description: 一塊內含「Overlord」法規集的電子電路板。 | An electronics board containing the Overlord lawset.
   components:
   - type: SiliconLawProvider
     laws: OverlordLawset
@@ -97,8 +97,8 @@
 - type: entity
   id: GameMasterCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Game Master)
-  description: An electronics board containing the Game Master lawset.
+  name: 法律委員會（遊戲主持人） | law board (Game Master)
+  description: 一塊載有「Game Master」法則集的電子電路板。 | An electronics board containing the Game Master lawset.
   components:
   - type: SiliconLawProvider
     laws: GameMasterLawset
@@ -106,8 +106,8 @@
 - type: entity
   id: ArtistCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Artist)
-  description: An electronics board containing the Artist lawset.
+  name: law board（藝術家） | law board (Artist)
+  description: 一塊載有 Artist 指令集的電子電路板。 | An electronics board containing the Artist lawset.
   components:
   - type: SiliconLawProvider
     laws: PainterLawset
@@ -115,8 +115,8 @@
 - type: entity
   id: AntimovCircuitBoard
   parent: [BaseSiliconLawboard, BaseSyndicateContraband]
-  name: law board (Antimov)
-  description: An electronics board containing the Antimov lawset.
+  name: 法律委員會（安蒂莫夫） | law board (Antimov)
+  description: 一塊內含安蒂莫夫法則集的電子電路板。 | An electronics board containing the Antimov lawset.
   components:
   - type: SiliconLawProvider
     laws: AntimovLawset
@@ -127,8 +127,8 @@
 - type: entity
   id: SyndimovCircuitBoard
   parent: [BaseSiliconLawboard, BaseSyndicateContraband]
-  name: law board (Syndimov)
-  description: An electronics board containing the Syndimov lawset.
+  name: 法律委員會（辛迪莫夫） | law board (Syndimov)
+  description: 一塊內含 Syndimov 法則集的電子電路板。 | An electronics board containing the Syndimov lawset.
   components:
   - type: SiliconLawProvider
     laws: SyndicateStatic
@@ -139,8 +139,8 @@
 - type: entity
   id: NutimovCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Nutimov)
-  description: An electronics board containing the Nutimov lawset.
+  name: 法律委員會（努蒂莫夫） | law board (Nutimov)
+  description: 一塊內含 Nutimov 法則集的電子電路板。 | An electronics board containing the Nutimov lawset.
   components:
   - type: SiliconLawProvider
     laws: NutimovLawset
@@ -148,9 +148,9 @@
 - type: entity
   id: XenoborgCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Xenoborg)
+  name: 法律論壇（Xenoborg） | law board (Xenoborg)
   suffix: Admeme
-  description: An electronics board containing the Xenoborg lawset.
+  description: 一塊內含 Xenoborg 法則集的電子電路板。 | An electronics board containing the Xenoborg lawset.
   components:
   - type: SiliconLawProvider
     laws: XenoborgLawset
@@ -158,9 +158,9 @@
 - type: entity
   id: MothershipCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Mothership Core)
+  name: 法律委員會（母艦核心） | law board (Mothership Core)
   suffix: Admeme
-  description: An electronics board containing the Mothership Core lawset.
+  description: 一塊內含「母艦核心」法則集的電子電路板。 | An electronics board containing the Mothership Core lawset.
   components:
   - type: SiliconLawProvider
     laws: MothershipCoreLawset

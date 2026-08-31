@@ -1,2 +1,2 @@
-throw-scoreboard-command-description = Show round-end scoreboard for all players, but not finish the round
-throw-scoreboard-command-help-text = Usage: throwscoreboard
+throw-scoreboard-command-description = 顯示所有玩家的本輪積分板，但不結束本輪
+throw-scoreboard-command-help-text = 用法：throwscoreboard

@@ -1,16 +1,17 @@
+
 <Document>
-  # Thermo-electric Engine (TEG)
+  # 熱電引擎（TEG）
 
-  The TEG generates power by exchanging heat between hot and cold gasses.
-  On the station, hot gas is usually created by burning plasma, and an array of [textlink="heat-exchanging" link="Radiators"] pipes in space radiates away heat to cool down circulated gasses.
+  TEG 透過熱氣與冷氣之間的熱交換來發電。
+  在空間站上，高溫氣體通常由燃燒等離子體產生，而太空中的 [textlink="熱交換" link="輻射器"] 管陣列則會散發熱量，藉此冷卻循環中的氣體。
 
-  The TEG relies heavily on [textlink="atmospherics" link="Atmospherics"] [textlink="piping." link="Pipes"]
-  The only truly special component about it is the generator core and circulators; the rest is all off-the-shelf atmospherics equipment.
-  Note that while the exact layout may vary significantly depending on the station, the general components and setup are usually the same.
+  TEG 極度依賴 [textlink="大氣系統" link="大氣系統"] [textlink="管路" link="管路"]
+  其中唯一真正特殊的組件是發電機核心與循環器；其餘皆為現成的氣體系統設備。
+  請注意，雖然具體佈局可能因電台而異，但一般組件與配置通常都相同。
 
-  ## Generator
+  ## 發電機
 
-  The main generator itself is a machine made up of 3 major parts: the central generator and two "circulators", in this arrangement:
+  主發電機本身是由 3 個主要部分組成的裝置：中央發電機和兩個「循環器」，其排列方式如下：
 
   <Box>
     <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
@@ -18,42 +19,42 @@
     <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
   </Box>
 
-  The circulators take in either a hot or cold gas, and pass it through the machine to exchange heat.
-  The gas then gets output on the other end of the circulator. The generator produces the actual power and outputs it over an [color=orange]HV wire[/color].
+  循環器會吸入高溫或低溫氣體，並將其通過機器進行熱交換。
+  隨後，氣體會從循環器的另一端排出。發電機負責產生實際電力，並透過 [color=orange]高壓電線[/color] 輸出的。
 
-  Note that the circulators are [color=#a4885c]directional[/color]: they will only let gas through one way.
-  You can see this direction in-game by examining the circulator itself.
-  A pressure difference is required across the input and output, so pumps are generally provided and must be turned on.
+  請注意，循環器是 [color=#a4885c]有方向性的[/color]：它們只允許氣體單向通過。
+  您可以在遊戲中檢視循環器本身以確認此方向。
+  輸入端與輸出端之間需要存在壓力差，因此通常會提供泵浦，且必須開啟。
 
-  There is no preference for which side must be hot or cold, there need only be a difference in temperature between them.
-  The gasses in the two "loops" are never mixed, [color=#a4885c]only energy is exchanged between them[/color].
-  The hot side will cool down, the cold side will heat up.
+  並不規定哪一側必須是熱側或冷側，只要兩者之間存在溫差即可。
+  兩個「迴路」中的氣體絕不會混合，[color=#a4885c]兩者之間僅會進行能量交換[/color]。
+  熱側會冷卻，冷側會升溫。
 
-  ## The Pipes
+  ## 管路
 
-  There are 2 major [textlink="pipenets" link="PipeNetworks"] to worry about here: [color=red]The Hot Loop[/color] (where gas will be burnt for heat), and [color=cyan]The Cold Loop[/color] (where circulated, heated waste gas will either be removed into space or cooled back down).
-  Make sure that [color=#a4885c][bold]both [textlink="pipenets" link="PipeNetworks"] do NOT mix[/bold][/color], as only heat should be transferred between the two through the TEG.
+  這裡有 2 個主要的 [textlink="pipenets" link="PipeNetworks"] 管路系統需要注意： [color=red]熱迴路[/color]（在此處燃燒氣體以產生熱能），以及 [color=cyan]冷迴路[/color]（在此處，循環的加熱廢氣將被排出至太空，或冷卻回原溫）。
+  請務必確保 [color=#a4885c][bold]這兩套 [textlink="pipenets" link="PipeNetworks"] 管路系統絕不混合[/bold][/color]，因為兩者之間僅應透過 TEG 進行熱能傳遞。
 
-  # The Hot Loop
+  # 熱迴路
 
-  As I'm sure a wise person once said: the best way to make something hot is to light it on fire.
-  Well, depending on context, that may not be very wise, but luckily your engineering department has just what's needed to do it wisely after all.
+  正如某位智者曾說過：讓某物變熱的最佳方法就是點燃它。
+  當然，視情況而定，這可能並非明智之舉，但幸運的是，貴工程部門恰好擁有所需的一切，終究能以明智的方式完成這項任務。
 
-  As stated above, there are many different layouts one can follow to heat up (or cool down) gasses; this part of the guide will cover some common methods one will often see for the hot loop, involving [color=red]the Burn Chamber[/color].
+  如上所述，有許多不同的佈局方案可用來加熱（或冷卻）氣體；本指南的這一部分將介紹熱迴路中常見的一些方法，這些方法都涉及 [color=red]燃燒室[/color]。
 
-  Side note: Plasma fires burn relatively cool compared to, for example, Tritium fires.
-  It may be viable to extract Tritium from an extraction setup and react it with Oxygen to get truly hellish temperatures for power.
+  附帶一提： 相較於例如氚火，等離子體火焰的燃燒溫度相對較低。
+  或許可以從萃取裝置中提取氚，並使其與氧氣反應，以產生真正地獄般的溫度來發電。
 
-  ## The Burn Chamber
+  ## 燃燒室
 
-  The burn chamber is the preferred method for heating up gasses, and it is commonly used for other purposes too. (see: Tritium production)
+  燃燒室是加熱氣體的首選方法，同時也常被用於其他用途。 （參見：氚的生產）
 
-  Most (if not all) stations have the burn chamber separated from the main atmospherics block by a 1-wide spaced grid, to prevent the flow of scalding hot gas to Atmos if there was a breach. The chambers consist of 3 important parts:
-  - The [textlink="Air Injector" link="AirInjector"]/[textlink="Passive Vent" link="PassiveVent"]
-  - The Space Vent
-  - The [textlink="scrubber" link="AirScrubber"] Array
+  大多數（若非全部）站點都會以 1 格寬的網格將燃燒室與主大氣模組隔開，以防萬一發生破裂時，滾燙的高溫氣體流入大氣模組。 燃燒室由 3 個重要部分組成：
+  - [textlink="空氣注入器" link="AirInjector"]/[textlink="被動通風口" link="PassiveVent"]
+  - 空間通風口
+  - [textlink="洗滌器" link="AirScrubber"]陣列
 
-  Here is one layer of an example setup:
+  以下是一個示例配置的單層結構：
   <Box>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
@@ -83,38 +84,38 @@
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
   </Box>
 
-  The [textlink="air injector" link="AirInjector"] (or [textlink="passive vent" link="PassiveVent"]) injects air (or allows air to flow) into the burn chamber.
-  Either should be supplemented with a pump before it, to keep pressures high.
+  [textlink="空氣注入器" link="AirInjector"]（或 [textlink="被動式通風口" link="PassiveVent"]) 會將空氣注入（或讓空氣流入）燃燒室。
+  無論使用哪種裝置，都應在裝置前方加裝一臺泵，以維持高壓。
 
-  There is a notable difference between the [textlink="passive vent" link="PassiveVent"] and the [textlink="air injector" link="AirInjector"]; the [textlink="air injector" link="AirInjector"] can only keep injecting air up to [color=#a4885c]9MPa[/color], which can be reached very easily with a good burn.
-  Ideally, switch out the [textlink="air injector" link="AirInjector"] for a [textlink="passive vent" link="PassiveVent"] connected to a volume pump.
+  [textlink="被動通風口" link="PassiveVent"] 與 [textlink="空氣注入器" link="AirInjector"] 之間存在顯著差異； [textlink="空氣注入器" link="AirInjector"] 只能將氣壓維持在 [color=#a4885c]9MPa[/color] 以下，而這在燃燒狀況良好時極易達到。
+  理想的情況下，應將 [textlink="空氣注入器" link="AirInjector"] 更換為連接至容積泵的 [textlink="被動式排氣口" link="PassiveVent"]。
 
-  The space vent (designated as a blast door to space on one side of the burn chamber) allows waste gasses to be expelled and destroyed.
-  Open this occasionally to keep the pressure under control, or to space excess input gas.
-  You even might find the pneumatic valve useful for occasionally spacing the gas.
+  太空排氣口（位於燃燒室一側，被設計為通往太空的防爆門）可將廢氣排出並予以銷毀。
+  請不時開啟此閥門以控制壓力，或調節過量的輸入氣體。
+  您甚至可能會發現氣動閥在偶爾調節氣體流量時相當實用。
 
-  The [textlink="scrubber" link="AirScrubber"] array filters out all the burnt gasses and sends them through the TEG.
-  Note that using default settings on the [textlink="scrubbers" link="AirScrubber"] is a bad idea, as valuable plasma will be filtered out too.
+  [textlink="洗滌器" link="AirScrubber"] 陣列會過濾所有燃燒產生的氣體，並將其送入 TEG。
+  請注意，直接使用 [textlink="scrubbers" link="AirScrubber"] 的預設設定並非良策，因為寶貴的電漿也會一併被過濾掉。
 
-  Instead, use a network configurator to connect all the [textlink="scrubbers" link="AirScrubber"] to a nearby air alarm, and set the air alarm's [textlink="scrubber" link="AirScrubber"] settings to scrub everything except Oxygen and Plasma, and to siphon air as well.
-  This ensures that as much heat as available can be collected and sent to the TEG.
+  相反地，請使用網路配置工具將所有 [textlink="scrubbers" link="AirScrubber"] 連接至附近的空氣警報器，並將該空氣警報器的 [textlink="scrubber" link="AirScrubber"] 設定調整為僅過濾氧氣與等離子體以外的所有物質，同時也需抽取空氣。
+  這能確保盡可能多地收集熱能並傳送至 TEG。
 
-  Note that this is just one of many ways you can setup the hot loop; [color=#a4885c]feel free to mix and match setups as needed![/color]
-  [textlink="Volume pumps" link="Pumps"] in replacement of [textlink="pressure pumps" link="Pumps"], [textlink="radiator" link="Radiators"] loops for heat collection, or even a Pyroclastic anomaly to provide said heat!
-  The stars are the limit!
+  請注意，這只是設置熱迴路眾多方法中的一種；[color=#a4885c]請根據需要自由組合各種設置！[/color]
+  [textlink="體積泵" link="Pumps"] 取代 [textlink="壓力泵" link="Pumps"]，利用 [textlink="輻射器" link="Radiators"] 迴路收集熱能，甚至可利用火山碎屑異常來提供熱能！
+  創意無限！
 
-  # The Cold Loop
+  # 冷迴路
 
-  As with the Hot Loop, the Cold Loop must also be setup to operate the TEG.
-  However, the Cold Loop is usually a lot more low-tech than the Hot Loop; in reality, the Cold Loop only has to be "relatively" cooler—hey, room temperature is technically cooler than the surface of the sun, right?
+  與熱迴路相同，冷迴路也必須設定妥當才能驅動熱電發電機（TEG）。
+  然而，冷迴路通常比熱迴路簡單得多；實際上，冷迴路只需「相對」較冷即可——嘿，從技術上來說，室溫不就比太陽表面還冷嗎？
 
-  There are 3 main methods you will see used for the Cold Loop: [color=#a4885c]The Water Cooler[/color] (see: Liltenhead's video on the TEG), [color=cyan]the Coolant Array[/color] and [color=#a4885c]the Freezer Loop[/color].
+  冷迴路主要有三種常見的配置方式：[color=#a4885c]水冷器[/color]（參見：Liltenhead 關於 TEG 的影片）、[color=cyan]冷媒陣列[/color] 以及 [color=#a4885c]冷凍迴路[/color]。
 
-  ## The Water Cooler
+  ## 水冷器
 
-  An equally naive method as the Pipe Burn, this simply involves taking some useless gas (in this case, Water Vapor) and flowing it through the TEG and into space. It's dirt-cheap and simple, at the cost of efficiency and permanent loss of gas.
+  這是一種與「管道燃燒」同樣天真的方法，只需將一些無用的氣體（此處為水蒸氣）通過 TEG 導入太空即可。 成本極低且操作簡單，但代價是效率低下以及氣體的永久損失。
 
-  Setting this up is so simple, even Hamlet could manage it. Take an output of a gas (here, Water Vapor), send it through the Cold side of the TEG, and then vent it into space.
+  設置過程極為簡單，就連哈姆雷特都能辦到。將某種氣體（此處為水蒸氣）的輸出端，送入 TEG 的冷側，然後排放至太空中。
 
   <Box>
     <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
@@ -125,21 +126,21 @@
     <GuideEntityEmbed Entity="GasPassiveVent" Rotation="270" Caption="" Margin="-1"/>
   </Box>
 
-  ## Coolant Array
+  ## 冷卻液陣列
 
-  This is the default method for the Cold Loop you will see on a variety of stations.
-  Being of moderate complexity and having no losses of any resource, this [color=#a4885c]should[/color] be the main method of cooling down the TEG.
-  However, most stations at the moment somehow have their radiators hooked up wrong (or suggest incorrect piping), reducing efficiency greatly.
+  這是您在各種空間站上常見的「冷迴路」預設方法。
+  由於複雜度適中且不會造成任何資源損失，這 [color=#a4885c]理應[/color] 成為冷卻 TEG 的主要方法。
+  然而，目前大多數空間站不知何故將散熱器接錯了（或建議了錯誤的管路配置），導致效率大幅降低。
 
-  To use heat-exchangers properly, they must be setup in [color=#a4885c]parallel[/color], not in series (like what you see on most stations).
-  A gas pump at max pressure should be placed after, and a volumetric pump before the heat-exchangers.
-  The flow-rate of the volumetric pump should be set using the following formula:
+  要正確使用熱交換器，必須將其以[color=#a4885c]並聯[/color]方式設置，而非串聯（如同您在大多數空間站所見的那樣）。
+  應在熱交換器後方安裝最大壓力的氣體泵，並在熱交換器前方安裝容積式泵。
+  容積式泵的流量應根據以下公式設定：
   <Box>
     [color=cyan]( 200 / number of heat-exchangers )[/color] L/s.
   </Box>
 
-  Simply speaking, the Coolant Array consists of 3 major parts: An input connector port, a few pumps and the heat-exchanger array out in space.
-  It can be setup like so:
+  簡單來說，冷卻液陣列由 3 個主要部分組成：一個輸入連接埠、幾台泵浦，以及位於太空中的熱交換器陣列。
+  其設置方式如下：
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
@@ -186,17 +187,17 @@
     <GuideEntityEmbed Entity="GasPort" Rotation="180" Caption="" Margin="-1"/>
   </Box>
 
-  - Connector Port: Use this to input a gas with high heat capacity; most of the time, Plasma or Frezon is used to do so, as they both have very high specific heat capacities (although almost any gas will do). (Yes, Plasma =/= Hot. You can cool it down, and it acts as a excellent heat exchange medium.)
-  - Input/Output Pumps: Used to make sure gas keeps flowing through both the Circulator and the radiator array. As the gas cools down and heats up (and as it flows through the Exchanger), pressure must be applied for it to keep flowing.
-  - Radiator: Basically, just a bunch of radiators in space. Not much to say, besides the fact that it cools down the gas inside it. Make sure the radiators are [color=#a4885c]placed on lattice, not plating[/color]! Otherwise, the heat-exchange efficiency will be greatly reduced, as the radiators aren't directly exposed to space below them.
+  - 連接器端口：用於導入高熱容的氣體；多數情況下會使用等離子體或弗雷ゾン，因為兩者的比熱容都極高（儘管幾乎任何氣體都能勝任）。 （是的，等離子體 ≠ 高溫。您可以將其冷卻，此時它便能作為極佳的熱交換介質。）
+  - 輸入／輸出泵：用於確保氣體持續流經循環器與散熱器陣列。 隨著氣體冷卻與加熱（以及流經熱交換器時），必須施加壓力才能使其持續流動。
+  - 散熱器：基本上就是太空中的散熱器群組。除了能冷卻其中的氣體之外，沒有太多好說的。 請務必將散熱器 [color=#a4885c]放置於格柵結構上，而非平板結構[/color]！否則，由於散熱器無法直接接觸其下方的太空環境，熱交換效率將大幅降低。
 
-  ## The Freezer Loop
+  ## 冷凍循環
 
-  Most of the time, you will see this method being used in efficient TEG setups.
-  It's basically just the Coolant array, but replacing the radiators with a freezer.
-  Even though the freezer does use power, it is only a small fraction of what the TEG can generate, and it's better than the default Coolant array at the moment, so go fish.
+  大多數情況下，你會看到這種方法被應用於高效的 TEG 配置中。
+  它基本上就是冷媒陣列，只是將散熱器替換為冷凍機。
+  儘管冷凍機確實會消耗電力，但其耗電量僅佔 TEG 發電量的極小部分，而且目前其效能優於預設的「冷卻液陣列」，因此不妨一試。
 
-  Follow the steps for the Coolant array, but use a freezer in place of the Heat-Exchangers. As so:
+  請依照「冷卻液陣列」的步驟操作，但將熱交換器替換為冷凍機。具體如下：
   <Box>
     <GuideEntityEmbed Entity="GasPort" Rotation="90" Caption="" Margin="-1"/>
     <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
@@ -217,18 +218,18 @@
     <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
   </Box>
 
-  Once again, use Plasma or Frezon in the loop for max efficiency (although almost any gas will do).
+  再次提醒，若要達到最高效率，請在循環中使用等離子體（Plasma）或弗雷松（Frezon）（儘管幾乎任何氣體都能達到效果）。
 
-  ## In the Pursuit of Greater Efficiency
-  Remember, Atmospherics is a science, and as such, it is always evolving.
-  The setups above are just the tip of the iceberg; there are many ways to setup the TEG and many ways to improve upon the setups above.
-  [color=#a4885c]Experiment![/color]
+  ## 追求更高效率
+  請記住，大氣工學是一門科學，因此它始終在不斷演進。
+  上述配置僅是冰山一角；TEG 的設置方式多種多樣，改善上述配置的方法也不勝枚舉。
+  [color=#a4885c]動手實驗吧！[/color]
 
-  Always seek to improve upon the designs you see and always seek to improve upon the designs you make.
-  The TEG is a powerful tool and with great power comes great responsibility.
-  Make sure to use it wisely and make sure to use it well.
+  始終致力於改進您所見的設計，並不斷優化您自己的設計。
+  TEG 是一項強大的工具，而巨大的力量伴隨著巨大的責任。
+  請務必明智地使用它，並確保能善用它。
 
-  Space Station 14 atmospherics is a complex system and the TEG is just one part of it.
-  [bold]It's like a giant puzzle, so go out and solve it![/bold]
+  太空站 14 大氣壓系統是一個複雜的系統，而 TEG 僅是其中的一部分。
+  [粗體]這就像一幅巨大的拼圖，所以去解開它吧！[/粗體]
 
 </Document>

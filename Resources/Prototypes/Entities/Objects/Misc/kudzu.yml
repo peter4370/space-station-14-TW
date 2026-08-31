@@ -34,8 +34,8 @@
 - type: entity
   parent: [ BaseKudzu, SolutionFood ]
   id: Kudzu
-  name: kudzu
-  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  name: 葛藤 | kudzu
+  description: 一種生長迅速且危險的植物。你為什麼還要停下來看它啊？！ | A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
   components:
   - type: MeleeSound
     soundGroups:
@@ -126,8 +126,8 @@
 - type: entity
   parent: Kudzu
   id: KudzuFlowerFriendly
-  name: floral carpet
-  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
+  name: 花卉地毯 | floral carpet
+  description: 一片色彩繽紛的花毯向四面八方延伸。你不知道該把它拆掉還是留著。 | A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
   suffix: Friendly, Floral Anomaly
   components:
   - type: Sprite
@@ -185,8 +185,8 @@
   abstract: true
   parent: [ BaseKudzu, SolutionFood ]
   id: BaseFleshKudzu
-  name: tendons
-  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  name: 肌腱 | tendons
+  description: 一團正在迅速增生的肉質肌腱。你為什麼要停下來盯著它看啊？！ | A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
   components:
   - type: MeleeSound
     soundGroups:
@@ -293,7 +293,7 @@
 - type: entity
   parent: [ BaseKudzu, BaseShadow ]
   id: ShadowKudzu
-  name: dark haze
+  name: 濃重的迷霧 | dark haze
   components:
   - type: Physics
     canCollide: false
@@ -336,7 +336,7 @@
 - type: entity
   parent: ShadowKudzu
   id: ShadowKudzuWeak
-  name: haze
+  name: 霧霾 | haze
   components:
   - type: Kudzu
     spreadChance: 0 #appears during pulsation. It shouldnt spreading.

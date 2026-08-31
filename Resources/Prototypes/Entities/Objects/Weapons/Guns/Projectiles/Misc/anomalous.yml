@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseBullet
   id: AnomalousParticleDelta
-  name: delta particles
+  name: delta 粒子 | delta particles
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -61,7 +61,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleEpsilon
-  name: epsilon particles
+  name: ε粒子 | epsilon particles
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -91,7 +91,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleZeta
-  name: zeta particles
+  name: 澤塔粒子 | zeta particles
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -121,7 +121,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleOmegaStrong
-  name: omega particles
+  name: 歐米茄粒子 | omega particles
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -150,7 +150,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleSigma
-  name: sigma particles
+  name: 西格瑪粒子 | sigma particles
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -168,7 +168,7 @@
 - type: entity
   parent: AnomalousParticleSigma
   id: AnomalousParticleSigmaStrong
-  name: sigma particles
+  name: 西格瑪粒子 | sigma particles
   categories: [ HideSpawnMenu ]
   components:
   - type: AnomalousParticle

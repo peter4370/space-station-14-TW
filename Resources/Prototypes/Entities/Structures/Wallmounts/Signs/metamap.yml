@@ -1,8 +1,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapMetaRight
-  name: "Meta Station map"
-  description: "A map of Meta Station. This looks really old."
+  name: "Meta Station 地圖 | Meta Station map"
+  description: "一張 Meta Station 的地圖。這張地圖看起來真的很舊。 | A map of Meta Station. This looks really old."
   components:
   - type: Sprite
     state: metamap64x

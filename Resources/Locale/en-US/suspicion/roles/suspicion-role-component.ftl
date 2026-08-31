@@ -1,3 +1,3 @@
-suspicion-role-component-role-traitor = traitor
-suspicion-role-component-role-innocent = innocent
-suspicion-role-component-on-examine-tooltip = They were {$article} [color={$colorName}]{$role}[/color]!
+suspicion-role-component-role-traitor = 叛徒
+suspicion-role-component-role-innocent = 無辜的
+suspicion-role-component-on-examine-tooltip = 他們是 { $article } [color={ $colorName }]{ $role }[/color]！

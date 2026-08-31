@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomFoodBakedWhole
-  name: random baked food spawner
+  name: 隨機烘焙食品生成器 | random baked food spawner
   suffix: Whole
   placement:
     mode: AlignTileAny

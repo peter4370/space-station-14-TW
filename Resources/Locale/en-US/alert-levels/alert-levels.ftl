@@ -1,36 +1,27 @@
-alert-level-announcement = Attention! Station alert level is now {$name}! {$announcement}
-
-alert-level-unknown = Unknown.
-alert-level-unknown-instructions = Unknown.
-
-alert-level-green = Green
-alert-level-green-announcement = It is now safe to return to your workplaces.
-alert-level-green-instructions = Do your job.
-
-alert-level-blue = Blue
-alert-level-blue-announcement = There is a confirmed threat to the station. Security should perform random checks. Crewmembers are advised to be vigilant and report suspicious activity to security.
-alert-level-blue-instructions = Crewmembers are advised to be vigilant and report suspicious activity to security.
-
-alert-level-red = Red
-alert-level-red-announcement = There is an immediate threat to the station. Security should prepare to use lethal force if necessary. Crewmembers should find a safe place to shelter in, and are advised to follow any present authorities.
-alert-level-red-instructions = Crewmembers should find a safe place to shelter in, and are advised to follow any present authorities.
-
-alert-level-violet = Violet
-alert-level-violet-announcement = There is a viral threat on the station. Medical staff are advised to isolate crewmembers with any symptoms. Crewmembers are advised to distance themselves from others and perform safety measures to prevent further spread.
-alert-level-violet-instructions = Crewmembers are advised to distance themselves from others and perform safety measures to prevent further spread.
-
-alert-level-yellow = Yellow
-alert-level-yellow-announcement = There is a structural or atmospheric threat within the station. Engineering staff are advised to immediately respond and perform safety measures. Crewmembers are advised to stay away from the threat, and stay in their workplaces if necessary.
-alert-level-yellow-instructions = Crewmembers are advised to stay away from the threat, and stay in their workplaces if necessary.
-
-alert-level-gamma = Gamma
-alert-level-gamma-announcement = Central Command has ordered the Gamma security level on the station. Security is to have weapons equipped at all times, and all civilians are to immediately seek their nearest head for transportation to a secure location.
-alert-level-gamma-instructions = All civilians are to immediately seek their nearest head for transportation to a secure location.
-
+alert-level-announcement = 注意！車站警戒等級現已提升至 { $name }！{ $announcement }
+alert-level-unknown = 未知。
+alert-level-unknown-instructions = 未知。
+alert-level-green = 綠色
+alert-level-green-announcement = 現在已經可以安全地返回工作崗位了。
+alert-level-green-instructions = 做好你的工作。
+alert-level-blue = 藍色
+alert-level-blue-announcement = 該站已確認面臨威脅。安全人員應進行隨機檢查。建議全體工作人員保持警覺，並向安全人員通報任何可疑活動。
+alert-level-blue-instructions = 建議機組人員保持警覺，並將可疑活動通報給保安人員。
+alert-level-red = 紅色
+alert-level-red-announcement = 該站正面臨迫在眉睫的威脅。安全人員應做好準備，必要時可使用致命武力。工作人員應尋找安全場所避難，並建議服從現場相關當局的指示。
+alert-level-red-instructions = 船員應尋找安全的地方避難，並建議遵從當地當局的指示。
+alert-level-violet = 紫羅蘭
+alert-level-violet-announcement = 空間站內出現病毒威脅。建議醫護人員將出現任何症狀的船員隔離。建議船員與他人保持距離，並採取安全措施以防止病毒進一步傳播。
+alert-level-violet-instructions = 建議船員與他人保持距離，並採取安全措施，以防止疫情進一步蔓延。
+alert-level-yellow = 黃色
+alert-level-yellow-announcement = 站內出現結構性或環境性威脅。建議工程人員立即採取應對措施並執行安全措施。建議船員遠離威脅區域，必要時請留在工作崗位上。
+alert-level-yellow-instructions = 建議機組人員遠離威脅，必要時請留在工作崗位上。
+alert-level-gamma = 伽瑪
+alert-level-gamma-announcement = 中央指揮部已下令將空間站的安全等級提升至「伽馬」級。安保人員須隨時配備武器，所有平民應立即向最近的負責人報到，以便被送往安全地點。
+alert-level-gamma-instructions = 所有平民應立即前往最近的負責人處，以便由其安排前往安全地點。
 alert-level-delta = Delta
-alert-level-delta-nuke-announcement = The station is currently under threat of imminent destruction. Crewmembers are advised to listen to heads of staff for more information.
-alert-level-delta-instructions = Crewmembers are advised to listen to heads of staff for more information.
-
+alert-level-delta-nuke-announcement = 該站目前正面臨即將遭破壞的威脅。建議全體工作人員聽從主管指示，以獲取更多資訊。
+alert-level-delta-instructions = 建議船員聆聽各部門主管的指示，以獲取更多資訊。
 alert-level-epsilon = Epsilon
-alert-level-epsilon-announcement = Central Command has ordered the Epsilon security level on the station. Consider all contracts terminated.
-alert-level-epsilon-instructions = Consider all contracts terminated.
+alert-level-epsilon-announcement = 中央指揮部已下令將該站的安全等級提升至「伊普西隆」級。所有合約均視為終止。
+alert-level-epsilon-instructions = 所有合約均視為已終止。

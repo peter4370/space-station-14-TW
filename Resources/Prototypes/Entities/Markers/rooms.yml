@@ -1,6 +1,6 @@
 - type: entity
   id: BaseRoomMarker
-  name: room spawner
+  name: 房間生成器 | room spawner
   parent: MarkerBase
   components:
   - type: RoomFill

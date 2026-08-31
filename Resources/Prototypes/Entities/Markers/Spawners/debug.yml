@@ -1,5 +1,5 @@
 - type: entity
-  name: Urist Spawner
+  name: 尤里斯產卵者 | Urist Spawner
   id: SpawnMobHuman
   parent: MarkerBase
   suffix: DEBUG

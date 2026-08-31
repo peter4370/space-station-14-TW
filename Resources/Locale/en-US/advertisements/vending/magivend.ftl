@@ -1,12 +1,11 @@
-advertisement-magivend-1 = Sling spells the proper way with MagiVend!
-advertisement-magivend-2 = Be your own Houdini! Use MagiVend!
+advertisement-magivend-1 = 使用 MagiVend，就能正確拼寫「Sling」！
+advertisement-magivend-2 = 成為你自己的胡迪尼！使用 MagiVend！
 advertisement-magivend-3 = FJKLFJSD
 advertisement-magivend-4 = AJKFLBJAKL
 advertisement-magivend-5 = >MFW
-advertisement-magivend-6 = HONK!
+advertisement-magivend-6 = 嗶——！
 advertisement-magivend-7 = EI NATH
-advertisement-magivend-8 = Destroy the station!
-advertisement-magivend-9 = Space-time bending hardware!
-advertisement-magivend-10 = 1234 LOONIES LOL!
-advertisement-magivend-11 = NAR'SIE, RISE!!!
-
+advertisement-magivend-8 = 摧毀這座車站！
+advertisement-magivend-9 = 時空彎曲裝置！
+advertisement-magivend-10 = 1234 加元硬幣，哈哈！
+advertisement-magivend-11 = 納爾西，崛起吧！！！

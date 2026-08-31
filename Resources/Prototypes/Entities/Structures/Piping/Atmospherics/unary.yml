@@ -24,8 +24,8 @@
   parent: [GasUnaryBase, AirSensorBase]
   id: !type:CreateVariants
     values: [ GasVentPump, GasVentPumpAlt1, GasVentPumpAlt2 ]
-  name: air vent
-  description: Has a valve and a pump attached to it.
+  name: 通風口 | air vent
+  description: 其上裝有閥門和泵。 | Has a valve and a pump attached to it.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -90,8 +90,8 @@
   parent: GasUnaryBase
   id: !type:CreateVariants
     values: [ GasPassiveVent, GasPassiveVentAlt1, GasPassiveVentAlt2 ]
-  name: passive vent
-  description: It's an open vent.
+  name: 被動式通風口 | passive vent
+  description: 這是一個開放式通風口。 | It's an open vent.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -130,8 +130,8 @@
   parent: [GasUnaryBase, AirSensorBase]
   id: !type:CreateVariants
     values: [ GasVentScrubber, GasVentScrubberAlt1, GasVentScrubberAlt2 ]
-  name: air scrubber
-  description: Has a valve and pump attached to it.
+  name: 空氣淨化器 | air scrubber
+  description: 其上裝有閥門和泵。 | Has a valve and pump attached to it.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -196,8 +196,8 @@
   parent: GasUnaryBase
   id: !type:CreateVariants
     values: [ GasOutletInjector, GasOutletInjectorAlt1, GasOutletInjectorAlt2 ]
-  name: air injector
-  description: Has a valve and pump attached to it.
+  name: 空氣注入器 | air injector
+  description: 其上裝有閥門和泵。 | Has a valve and pump attached to it.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -247,7 +247,7 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseConstructibleMachineDestructible ]
   id: BaseGasThermoMachine
-  name: thermomachine
+  name: 熱機 | thermomachine
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -297,8 +297,8 @@
   parent: BaseGasThermoMachine
   id: !type:CreateVariants
     values: [ GasThermoMachineFreezer, GasThermoMachineFreezerAlt1, GasThermoMachineFreezerAlt2 ]
-  name: freezer
-  description: Cools gas in connected pipes.
+  name: 冷凍庫 | freezer
+  description: 冷卻連接管路中的氣體。 | Cools gas in connected pipes.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]  
   placement:
@@ -362,8 +362,8 @@
   parent: BaseGasThermoMachine
   id: !type:CreateVariants
     values: [ GasThermoMachineHeater, GasThermoMachineHeaterAlt1, GasThermoMachineHeaterAlt2 ]
-  name: heater
-  description: Heats gas in connected pipes.
+  name: 加熱器 | heater
+  description: 將連接的管路中的氣體加熱。 | Heats gas in connected pipes.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -428,8 +428,8 @@
     values: [ GasThermoMachineFreezer, GasThermoMachineFreezerAlt1, GasThermoMachineFreezerAlt2 ]
   id: !type:CreateVariants
     values: [ GasThermoMachineHellfireFreezer, GasThermoMachineHellfireFreezerAlt1, GasThermoMachineHellfireFreezerAlt2 ]
-  name: hellfire freezer
-  description: An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
+  name: 地獄之火冷凍庫 | hellfire freezer
+  description: 一種能為連接的管線內氣體冷卻的先進機器。其副作用是會使周圍區域變冷。冷得要命！ | An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   components:
@@ -447,8 +447,8 @@
     values: [ GasThermoMachineHeater, GasThermoMachineHeaterAlt1, GasThermoMachineHeaterAlt2 ]
   id: !type:CreateVariants
     values: [ GasThermoMachineHellfireHeater, GasThermoMachineHellfireHeaterAlt1, GasThermoMachineHellfireHeaterAlt2 ]
-  name: hellfire heater
-  description: An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
+  name: 地獄之火暖爐 | hellfire heater
+  description: 一種能加熱連接管路中氣體的先進機器。其副作用是會將熱量洩漏到周圍區域。熱得要命！ | An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   components:
@@ -465,8 +465,8 @@
   parent: [ SolutionTank, SolutionHuge, BaseMachinePowered, SmallConstructibleMachine, BaseSmallConstructibleMachineDestructible ]
   id: !type:CreateVariants
     values: [ BaseGasCondenser, BaseGasCondenserAlt1, BaseGasCondenserAlt2 ]
-  name: condenser
-  description: Condenses gases into liquids. Now we just need some plumbing.
+  name: 冷凝器 | condenser
+  description: 將氣體冷凝成液體。現在我們只需要一些管路系統了。 | Condenses gases into liquids. Now we just need some plumbing.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:

@@ -1,8 +1,8 @@
 - type: entity
-  name: laser raptor
+  name: 雷射猛禽 | laser raptor
   id: MobLaserRaptor
   parent: [SimpleMobBase, BaseSlicingRefinable, BaseMobDestructible]
-  description: From the Viking age.
+  description: 源自維京時代。 | From the Viking age.
   components:
     - type: NpcFactionMember
       factions:
@@ -79,15 +79,15 @@
   - MobBloodstream
   - MobFlammable
   - MobCombat
-  name: tomato killer
-  description: Looks like it's not you eating tomatoes today, it's the tomatoes eating you.
+  name: 番茄殺手 | tomato killer
+  description: 看來今天不是你在吃番茄，而是番茄在吃你。 | Looks like it's not you eating tomatoes today, it's the tomatoes eating you.
   components:
   - type: GhostRole
     prob: 0.05
     makeSentient: true
     allowSpeech: true
-    name: ghost-role-information-tomatokiller-name
-    description: ghost-role-information-tomatokiller-description
+    name: 幽靈角色資訊 - 番茄殺手 - 名字 | ghost-role-information-tomatokiller-name
+    description: ghost-role-information-tomatokiller-description | ghost-role-information-tomatokiller-description
     rules: ghost-role-information-familiar-rules
     raffle:
       settings: short

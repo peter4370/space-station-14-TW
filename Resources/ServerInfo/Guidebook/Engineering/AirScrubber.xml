@@ -1,29 +1,30 @@
-﻿<Document>
-  # Air Scrubber
-  The air scrubber is essential in maintaining an atmosphere free of waste gasses emitted by breathing creatures and atmospheric upsets.
-  Its primary job is to scrub unwanted gasses from the atmosphere it's exposed to.
+﻿
+<Document>
+  # 空氣淨化器
+  空氣淨化器對於維持一個沒有呼吸生物排放的廢氣及大氣擾動的環境至關重要。
+  其主要功能是清除所接觸的大氣中不必要的气體。
   <Box>
     <GuideEntityEmbed Entity="GasVentScrubber"/>
   </Box>
-  The air scrubber requires [textlink="power" link="Power"] through a nearby [textlink="LV cable" link="VoltageNetworks"] to function.
+  空氣淨化器需透過附近的 [textlink="低壓電纜" link="VoltageNetworks"] 獲取 [textlink="電力" link="Power"] 方能運作。
 
-  The default behavior of an air scrubber is to scrub all gasses except Nitrogen and Oxygen from the atmosphere it's exposed to. It will continue this behavior unless directed by a [textlink="linked" link="Networking"] [textlink="air alarm" link="AirAlarms"].
+  氣體淨化器的預設運作方式，是將其接觸到的氣體中，除氮氣和氧氣以外的所有氣體進行淨化。 除非透過 [textlink="linked" link="Networking"] [textlink="air alarm" link="AirAlarms"] 進行指示，否則它將持續此行為。
 
-  The scrubber can be welded with any welding tool to stop it from functioning.
+  可使用任何焊接工具對洗滌塔進行焊接，使其停止運作。
 
-  ## Configuration Options
-  When [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"], air scrubbers gain more functionality.
+  ## 設定選項
+  當 [textlink="連結" link="網路連線"] 至 [textlink="空氣警報" link="AirAlarms"] 時，空氣淨化器將具備更多功能。
 
-  The target gasses for scrubbing can be defined in the "Gas filters" dropdown. Keep in mind this resets if you change [textlink="air alarm" link="AirAlarms"] modes.
+  可在「氣體過濾器」下拉式選單中設定需進行洗滌的目標氣體。 請注意，若您變更 [textlink="air alarm" link="AirAlarms"] 模式，此設定將會重置。
 
-  Air scrubbers have two "direction" options: Scrubbing and Siphoning.
-  - Scrubbing scrubs gasses as defined in the gas filters.
-  - Siphoning ignores all gas filters, and sucks all gasses out of the atmosphere.
+  空氣淨化器有兩種「運作模式」：淨化模式與虹吸模式。
+  - 洗滌過程會對氣體進行洗滌，其定義詳見氣體過濾器相關說明。
+  - 虹吸作用會忽略所有氣體過濾器，並將大氣中的所有氣體抽離。
 
-  Both of these modes are limited by the Rate setting, which defines the rate (in litres) at which the scrubber sucks gasses from its exposed atmosphere.
+  這兩種模式均受「流量」設定的限制，該設定定義了洗滌塔從其暴露的大氣環境中吸入氣體的速率（單位為公升）。
 
-  Air scrubbers also have a "WideNet" setting, which expands the radius of the scrubber's operating range. Normally, the scrubber scrubs the atmosphere on the single tile it's exposed to.
-  In WideNet mode, the scrubber scrubs gas from the 4 tiles surrounding the scrubber, as shown:
+  空氣淨化器還設有「WideNet」模式，可擴大淨化器的運作範圍半徑。 通常，淨化器會對其接觸到的單一磁磚上的大氣進行淨化。
+  在 WideNet 模式下，洗滌器會對其周圍的 4 個方塊中的氣體進行洗滌，如下所示：
 
   <Box>
     <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
@@ -37,10 +38,10 @@
     <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
   </Box>
 
-  This effectively multiplies its total speed, as air scrubbers will now perform their scrubbing work on 5 tiles at once.
+  這實際上使其總速度倍增，因為空氣淨化器現在能同時對 5 個方格進行淨化作業。
 
-  Scrubbers [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"] in auto mode will automatically enable WideNet mode under the [textlink="air alarm's" link="AirAlarms"] "Filtering (Wide)" mode when a high concentration of unwanted gasses is detected in the atmosphere.
+  當洗滌器 [textlink="linked" link="網路連線"] 連接到 [textlink="空氣警報器" link="AirAlarms"] 並處於自動模式時，若大氣中偵測到高濃度的不必要氣體，系統將在 [textlink="空氣警報器的" link="AirAlarms"] 「過濾（廣域）」模式下，當大氣中偵測到高濃度的非目標氣體時，便會自動啟用 WideNet 模式。
 
-  WideNet is extremely useful in quickly scrubbing large amounts of tritium from plasma burn chambers.
+  WideNet 在快速清除等離子體燃燒室中的大量氚方面極為有效。
 
 </Document>

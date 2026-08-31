@@ -1,13 +1,9 @@
 ﻿comp-containment-turned-on = The containment field generator boots up.
-comp-containment-turned-off = The containment field generator shuts down.
-
-comp-containment-on = It's switched [color=green]on[/color], ready to generate a connection.
-comp-containment-off = It's switched [color=red]off[/color].
-
-comp-containment-connected = The containment field generator shoots out a light as it establishes a connection!
-comp-containment-disconnected = The containment field generator light fades away, severing the connection.
-
-comp-containment-anchor-warning = You cannot unanchor the containment field generator while it's on or connected!
-comp-containment-toggle-warning = You cannot turn the generator off while it's connected.
-
-comp-field-vaporized = The {$entity} hits the field and vaporizes into nothing!
+comp-containment-turned-off = 隔離場發射器已關閉。
+comp-containment-on = 它已 [color=green]開啟[/color]，準備建立連線。
+comp-containment-off = 它已切換至 [color=red]關閉[/color] 狀態。
+comp-containment-connected = 當封閉場發生器建立連線時，會射出一道光！
+comp-containment-disconnected = 隔離場發生器的光芒逐漸淡去，切斷了連結。
+comp-containment-anchor-warning = 當封鎖場發生器處於開啟狀態或已連接時，您無法解除其錨定！
+comp-containment-toggle-warning = 發電機在連接狀態下，請勿將其關閉。
+comp-field-vaporized = { $entity } 一接觸場地，便瞬間蒸發，化為虛無！

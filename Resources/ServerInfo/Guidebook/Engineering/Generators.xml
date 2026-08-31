@@ -1,18 +1,19 @@
-﻿<Document>
-  # Generators
-  Generators are devices that produce power for the station. They vary in size and power output, and each has its own unique quirks and requirements.
+﻿
+<Document>
+  # 發電機
+  發電機是為電廠提供電力的設備。 它們在尺寸和輸出功率上各不相同，且每種都有其獨特的特性與需求。
 
-  Engineers are intended to setup low-tier generators like Solar Arrays and the AME at the start of the shift, to give enough time to setup higher-tier generators like the Singularity Engine for sustained power for the rest of the shift.
+  工程師應在班次開始時架設低階發電機（如太陽能陣列和 AME），以便預留足夠時間來架設高階發電機（如奇點引擎），以確保在班次剩餘時間內能持續供電。
 
   <Box>
     <GuideEntityEmbed Entity="SingularityGenerator" Caption=""/>
     <GuideEntityEmbed Entity="TeslaGenerator" Caption=""/>
   </Box>
   <Box>
-    ## Singularity and Tesla Engine
+    ## 奇點與特斯拉引擎
   </Box>
   <Box>
-    [color=#999999][italic]Devices capable of infinite energy — and destructive potential[italic][/color]
+    [color=#999999][italic]具備無限能量——以及破壞潛力的裝置[italic][/color]
   </Box>
 
   <Box>
@@ -20,10 +21,10 @@
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
   </Box>
   <Box>
-    ## Antimatter Engine
+    ## 反物質引擎
   </Box>
   <Box>
-    [color=#999999][italic]Short-term support generator for the station[italic][/color]
+    [color=#999999][italic]該電站的短期供電裝置[italic][/color]
   </Box>
 
   <Box>
@@ -32,10 +33,10 @@
     <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
   </Box>
   <Box>
-    ## Thermo-electric Generator
+    ## 熱電發電機
   </Box>
   <Box>
-    [color=#999999][italic]Advanced atmospherics generator that harnesses the energy of gasses[italic][/color]
+    [color=#999999][italic]一款能利用氣體能量的先進大氣效應產生器[italic][/color]
   </Box>
 
   <Box>
@@ -44,32 +45,32 @@
     <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
   </Box>
   <Box>
-    ## Solar Panels
+    ## 太陽能板
   </Box>
   <Box>
-    [color=#999999][italic]Low-maintenance passive power source[italic][/color]
-  </Box>
-
-
-  <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="" />
-    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="" />
-    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="" />
-  </Box>
-  <Box>
-    ## Portable Generators
-  </Box>
-  <Box>
-    [color=#999999][italic]Portable generators for crew use and emergency power[italic][/color]
+    [color=#999999][italic]免維護的被動式電源[italic][/color]
   </Box>
 
+
   <Box>
-    <GuideEntityEmbed Entity="GeneratorRTG" Caption="" />
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption=""/>
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption=""/>
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption=""/>
   </Box>
   <Box>
-    ## Radioisotope Thermoelectric Generator
+    ## 便攜式發電機
   </Box>
   <Box>
-    [color=#999999][italic]Zero-maintenance passive power source[italic][/color]
+    [color=#999999][italic]供機組人員使用及應急供電的攜帶式發電機[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="GeneratorRTG" Caption=""/>
+  </Box>
+  <Box>
+    ## 放射性同位素熱電發電機
+  </Box>
+  <Box>
+    [color=#999999][italic]免維護的被動式電源[italic][/color]
   </Box>
 </Document>

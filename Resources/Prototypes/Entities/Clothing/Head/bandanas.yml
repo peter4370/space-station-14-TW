@@ -34,49 +34,49 @@
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBlack]
   id: ClothingHeadBandBlack
-  name: black bandana
+  name: 黑色頭巾 | black bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBlue]
   id: ClothingHeadBandBlue
-  name: blue bandana
+  name: 藍色頭巾 | blue bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBotany]
   id: ClothingHeadBandBotany
-  name: botany bandana
+  name: 植物圖案頭巾 | botany bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGold]
   id: ClothingHeadBandGold
-  name: gold bandana
+  name: 金色頭巾 | gold bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGreen]
   id: ClothingHeadBandGreen
-  name: green bandana
+  name: 綠色頭巾 | green bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGrey]
   id: ClothingHeadBandGrey
-  name: grey bandana
+  name: 灰色頭巾 | grey bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandRed]
   id: ClothingHeadBandRed
-  name: red bandana
+  name: 紅色頭巾 | red bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandSkull]
   id: ClothingHeadBandSkull
-  name: skull bandana
+  name: 骷髏頭頭巾 | skull bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandMerc]
   id: ClothingHeadBandMerc
-  name: mercenary bandana
+  name: 傭兵頭巾 | mercenary bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBrown]
   id: ClothingHeadBandBrown
-  name: brown bandana
+  name: 棕色頭巾 | brown bandana

@@ -1,11 +1,9 @@
-objective-condition-steal-title-no-owner = Steal the {$itemName}.
-objective-condition-steal-title-alive-no-owner = Steal {$itemName}.
-objective-condition-steal-title = Steal the {$owner}'s {$itemName}.
-objective-condition-steal-description = We need you to steal {$itemName}. Don't get caught.
-
-objective-condition-steal-station = station
-objective-condition-steal-Ian = head of personnel's corgi
-
-objective-condition-thief-description = The {$itemName} would be a great addition to my collection!
-objective-condition-thief-animal-description = The {$itemName} would be a great addition to my collection! Most importantly, alive.
-objective-condition-thief-multiply-description = I need to get {$count} {MAKEPLURAL($itemName)} (any) and take them with me.
+objective-condition-steal-title-no-owner = 偷走 { $itemName }。
+objective-condition-steal-title-alive-no-owner = 竊取 { $itemName }。
+objective-condition-steal-title = 偷走 { $owner } 的 { $itemName }。
+objective-condition-steal-description = 我們需要你偷走 { $itemName }。千萬別被抓到。
+objective-condition-steal-station = 車站
+objective-condition-steal-Ian = 人事主管的柯基犬
+objective-condition-thief-description = 這件 { $itemName } 將是我收藏中的絕佳之作！
+objective-condition-thief-animal-description = 這隻 { $itemName } 絕對會是我收藏中的絕佳之作！最重要的是，它是活的。
+objective-condition-thief-multiply-description = 我需要取得 { $count } { MAKEPLURAL($itemName) }（任一種），並將它們帶走。

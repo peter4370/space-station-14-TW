@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseShutter, StructureHealthDoorStrong ]
   id: BlastDoor
-  name: blast door
-  description: Blast-retardant AND fire-retardant!
+  name: 防爆門 | blast door
+  description: 兼具防爆與阻燃功能！ | Blast-retardant AND fire-retardant!
   components:
   - type: AccessReader
     containerAccessProvider: board
@@ -84,8 +84,8 @@
 - type: entity
   parent: [ BaseStructureDynamic, StructureHealthDoor ]
   id: BlastDoorFrame
-  name: blast door frame
-  description: Blast-retardant AND fire-retardant!
+  name: 防爆門框 | blast door frame
+  description: 兼具防爆與阻燃功能！ | Blast-retardant AND fire-retardant!
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/airlock-blastdoor.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: BlastDoor
   id: BlastDoorXeno
-  name: exodermis blast door
-  description: Don't lose an arm!
+  name: 外皮防爆門 | exodermis blast door
+  description: 千萬別弄斷手臂啊！ | Don't lose an arm!
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/exo-blastdoor.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: BlastDoorFrame
   id: BlastDoorXenoFrame
-  name: exodermis blast door frame
-  description: Blast-retardant AND fire-retardant!
+  name: 外皮防爆門門框 | exodermis blast door frame
+  description: 兼具防爆與防火功能！ | Blast-retardant AND fire-retardant!
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/exo-blastdoor.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: BlastDoor
   id: BlastDoorXenoborg
-  name: mechadermis blast door
-  description: Don't lose a head!
+  name: mechadermis 防爆門 | mechadermis blast door
+  description: 別慌！ | Don't lose a head!
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/airlock-blastdoor.rsi

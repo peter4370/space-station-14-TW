@@ -1,5 +1,6 @@
+
 <Document>
-  # Zombies
+  # 殭屍
 
   <Box>
     [color=#999999][italic]"They're coming to get you, Barbara!"[/italic][/color]
@@ -8,39 +9,39 @@
     <GuideEntityEmbed Entity="SignBiohazard" Caption=""/>
   </Box>
 
-  Zombies are conversion antagonists that infect all beings that they bite with [color=#7e916e]Romerol[/color], a deadly, contagious virus that can easily spread if not contained.
+  殭屍是「轉化」的敵對者，會將一種名為 [color=#7e916e]羅默羅爾[/color] 的致命且具傳染性的病毒傳染給所有被其咬傷的生物；若未加以遏制，這種病毒便會迅速蔓延。
 
   <Box>
     <GuideReagentEmbed Reagent="Romerol"/>
   </Box>
 
-  ## Initial Infected
-  You are patient zero. You have [color=#7e916e]Romerol[/color] coursing through your veins and you have a grand desire to share it with every single flesh being you see.
+  ## 初始感染者
+  你是「零號病人」。你的血管中正流淌著 [color=#7e916e]羅梅羅爾[/color]，而且你極度渴望將它分享給眼前每一個有血有肉的生物。
 
-  Upon learning of your infection, [italic]all bets are off[/italic]. You have only so much time before you turn, and you want to [bold]maximize your chances of taking over the station.[/bold]
-  Use this time to prepare weapons, gear, and traps. [italic]Space Law means nothing to you now.[/italic]
+  一旦發現你已感染，[italic]一切皆成未知[/italic]。 在你變異之前只剩有限的時間，而你想 [bold]將接管空間站的機會最大化[/bold]。
+  利用這段時間準備武器、裝備和陷阱。[italic]太空法對你來說已毫無意義。[/斜體]
 
-  ## Transmission
-  Zombies only know how to shamble, bite and throw themselves against barricades. Their bite [bold]may not always transmit [color=#7e916e]Romerol[/color][/bold] through heavy layers of clothing, but it'll definitely hurt.
+  ## 傳染
+  殭屍只懂得蹣跚而行、咬人，以及撞向路障。牠們的咬傷 [粗體]未必總能穿透厚重的衣物層將 [color=#7e916e]羅梅羅病毒[/color][/粗體] 傳染給人，但肯定會很痛。
 
-  The undead can also chomp on a crit or dead body to [bold]instantly convert[/bold] it to a zombie.
+  不死生物也能啃咬重傷者或屍體，將其 [bold]瞬間轉化[/bold] 為殭屍。
 
-  ## Zombie Attributes
-  A zombie can be identified by dark green skin, red eyes, slow movement, rotting smell, and lack of motor functions. They'll drop their headset and gloves upon turning, and cuffs don't work against their vicious bite.
+  ## 殭屍屬性
+  殭屍的特徵包括深綠色皮膚、紅眼、行動緩慢、散發腐臭味，以及缺乏運動機能。 它們在變異時會掉落頭盔和手套，而手銬對其凶猛的咬噬無效。
 
-  Zombies are known for their [bold]resilience to slashes, bruises, poison and cold.[/bold] They can survive in a vacuum and do not require food, water, air, or sleep. The undead do, however, [italic]take increased burn and shock damage.[/italic]
+  殭屍以其[bold]對斬擊、挫傷、毒藥和寒冷的強大抵抗力[/bold]而聞名。它們能在真空環境中存活，且無需食物、水、空氣或睡眠。 然而，這些不死生物會[斜體]承受更高的灼燒與電擊傷害。[/斜體]
 
-  ## Survival
-  When the infection sweeps and [color=#cb0000]Security[/color] falls, it's up to the [bold]survivors[/bold] to try and make it to Central Command.
+  ## 生存
+  當疫情肆虐且[color=#cb0000]安全系統[/color]崩潰時，就得靠 [bold]倖存者[/bold] 設法抵達中央指揮部。
 
-  [bold]Constructing barricades[/bold] around departments or [bold]bolting doors[/bold] can buy enough time to make weapons, save lives or make a plan.
+  在各部門周圍 [bold]搭建路障[/bold] 或 [bold]鎖緊門戶[/bold]，能爭取足夠的時間來製作武器、拯救生命或擬定計畫。
 
-  Remember that when it really hits the fan, [italic]you've gotta do what you gotta do[/italic], as long as it's not at the expense of fellow survivors. Scavenge what you need from those who haven't made it.
+  請記住，當事態真的失控時，[italic]你必須做該做的事[/italic]，只要這不會以犧牲其他倖存者為代價。 從那些未能倖存的人身上搜刮你所需的物品。
 
-  ## Cure
-  [bold]Those who are already undead can only be cured by [color=red]death.[/color][/bold]
+  ## 治療
+  [bold]已經變成不死生物的人，唯有透過 [color=red]死亡[/color] 才能治癒。[bold]
 
-  If you're infected but not zombified yet, using [color=#86caf7]Ambuzol[/color] will cure you but won't prevent re-infection. [color=#1274b5]Ambuzol Plus[/color] will cure and prevent re-infection only while alive.
+  如果你被感染但尚未變成殭屍，使用 [color=#86caf7]安布佐爾[/color] 可治癒你，但無法預防再次感染。[color=#1274b5]安布佐爾加強版[/color] 僅在存活期間能治癒並預防再次感染。
 
   <Box>
     <GuideReagentEmbed Reagent="Ambuzol"/>

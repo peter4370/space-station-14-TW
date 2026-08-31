@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: Gateway
-  name: gateway
-  description: A mysterious gateway built by unknown hands, it allows for faster than light travel to far-flung locations.
+  name: 閘道器 | gateway
+  description: 這座由未知之手建造的神秘傳送門，能讓人以超光速前往遙遠之地。 | A mysterious gateway built by unknown hands, it allows for faster than light travel to far-flung locations.
   components:
   - type: Sprite
     sprite: Structures/Machines/gateway.rsi

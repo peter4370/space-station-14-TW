@@ -1,7 +1,7 @@
 - type: entity
   parent: [MobObserverBase, InventoryBase]
   id: AdminObserver
-  name: admin observer
+  name: 管理員觀察員 | admin observer
   categories: [ HideSpawnMenu ]
   components:
   - type: ContentEye
@@ -133,8 +133,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowSolar
-  name: Solar Control Interface
-  description: View a Solar Control Interface.
+  name: 太陽能控制介面 | Solar Control Interface
+  description: 檢視太陽能控制介面。 | View a Solar Control Interface.
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
@@ -142,8 +142,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCommunications
-  name: Communications Interface
-  description: View a Communications Interface.
+  name: 通訊介面 | Communications Interface
+  description: 檢視通訊介面。 | View a Communications Interface.
   components:
   - type: Action
     keywords: [ "AI", "console", "interface" ]
@@ -158,8 +158,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowRadar
-  name: Mass Scanner Interface
-  description: View a Mass Scanner Interface.
+  name: 批量掃描器介面 | Mass Scanner Interface
+  description: 檢視批次掃描器介面。 | View a Mass Scanner Interface.
   components:
   - type: Action
     keywords: [ "AI", "console", "interface" ]
@@ -178,8 +178,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCargo
-  name: Cargo Ordering Interface
-  description: View a Cargo Ordering Interface.
+  name: 貨物訂購介面 | Cargo Ordering Interface
+  description: 檢視貨運訂單介面。 | View a Cargo Ordering Interface.
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
@@ -187,8 +187,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCrewMonitoring
-  name: Crew Monitoring Interface
-  description: View a Crew Monitoring Interface.
+  name: 機組人員監控介面 | Crew Monitoring Interface
+  description: 檢視機組人員監控介面。 | View a Crew Monitoring Interface.
   components:
   - type: Action
     keywords: [ "AI", "console", "interface" ]
@@ -203,8 +203,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowStationRecords
-  name: Station Records Interface
-  description: View a Station Records Interface.
+  name: 站點記錄介面 | Station Records Interface
+  description: 檢視「站點記錄」介面。 | View a Station Records Interface.
   components:
   - type: Action
     keywords: [ "AI", "console", "interface" ]

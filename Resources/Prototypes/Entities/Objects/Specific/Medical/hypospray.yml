@@ -47,8 +47,8 @@
 - type: entity
   parent: [SolutionToolSmall, BaseHypospray, BaseGrandTheftContraband]
   id: Hypospray
-  name: hypospray
-  description: A sterile injector for rapid administration of drugs to patients.
+  name: 低壓噴霧器 | hypospray
+  description: 一種用於向患者快速給藥的無菌注射器。 | A sterile injector for rapid administration of drugs to patients.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: [BaseHypospray, BaseSyndicateContraband]
   id: SyndiHypo
-  name: gorlex hypospray
-  description: A sterile injector for rapid administration of drugs. Reverse-engineered from Nanotrasen designs, Cybersun produces these in limited quantities for Gorlex Marauders' corpsmen.
+  name: 戈雷克斯低壓噴霧器 | gorlex hypospray
+  description: 一款用於快速施打藥物的無菌注射器。Cybersun 根據 Nanotrasen 的設計進行逆向工程，為 Gorlex 掠奪者部隊的醫務兵限量生產此款注射器。 | A sterile injector for rapid administration of drugs. Reverse-engineered from Nanotrasen designs, Cybersun produces these in limited quantities for Gorlex Marauders' corpsmen.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/syndihypo.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: [SolutionHyposprayTiny, BaseHypospray]
   id: BorgHypo
-  name: borghypo
-  description: A sterile injector for rapid administration of drugs to patients. This integrated model is specialized for use by medical borgs.
+  name: borghypo | borghypo
+  description: 一款用於向患者快速注射藥物的無菌注射器。此一體化機型專為醫療博格人設計。 | A sterile injector for rapid administration of drugs to patients. This integrated model is specialized for use by medical borgs.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseHypospray
   id: JetInjector
-  name: jet injector
-  description: A sterile injector for convenient administration of drugs to patients.
+  name: 噴射注射器 | jet injector
+  description: 一種無菌注射器，用以方便地為患者給藥。 | A sterile injector for convenient administration of drugs to patients.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/jetinjector.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: [SolutionHypospraySmall, JetInjector]
   id: AdvancedJetInjector
-  name: advanced jet injector
-  description: A pristine, fashionable, high quality injector. Allows for a faster injection, with a slightly larger capacity.
+  name: 先進噴射注射器 | advanced jet injector
+  description: 一款嶄新、時尚且高品質的噴油嘴。可實現更快的噴射速度，且容量略大。 | A pristine, fashionable, high quality injector. Allows for a faster injection, with a slightly larger capacity.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/advanced_jetinjector.rsi
@@ -178,9 +178,9 @@
 - type: entity
   parent: SyndiHypo
   id: AdminHypo
-  name: experimental hypospray
+  name: 實驗性皮下注射器 | experimental hypospray
   suffix: Admeme
-  description: The ultimate application of bluespace technology and rapid chemical administration.
+  description: 藍空間技術與快速化學給藥技術的終極應用。 | The ultimate application of bluespace technology and rapid chemical administration.
   components:
   - type: Solution
     solution:
@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseHypoInjector # I plan to resize medipens to 1x2 eventually:tm:
   id: ChemicalMedipen
-  name: chemical medipen
-  description: A single-dose, non-refillable medipen.
+  name: 化學型 Medipen | chemical medipen
+  description: 一支單劑量、不可重複填充的 Medipen。 | A single-dose, non-refillable medipen.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: EmergencyMedipen
-  name: emergency medipen
-  description: A single-dose, non-refillable medipen containing epinephrine and tranexamic acid, used to temporarily stabilize patients in critical condition and buy time for them to recieve proper medical treatment. Beware of overdose.
+  name: 緊急用 Medipen | emergency medipen
+  description: 一種單劑量、不可重複填充的「Medipen」注射筆，內含腎上腺素和氨甲環酸，用於暫時穩定危重患者的狀況，並為其爭取時間以接受適當的醫療處置。請注意避免過量使用。 | A single-dose, non-refillable medipen containing epinephrine and tranexamic acid, used to temporarily stabilize patients in critical condition and buy time for them to recieve proper medical treatment. Beware of overdose.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
-  name: poison auto-injector
-  description: A single-dose, non-refillable medipen containing ultravasculine and epinephrine, used to quickly and easily treat toxin poisoning.
+  name: 毒藥poison自動注射器 | poison auto-injector
+  description: 一種單劑量、不可重複填充的 Medipen，內含 Ultravasculine 和腎上腺素，用於快速且輕鬆地治療毒素中毒。 | A single-dose, non-refillable medipen containing ultravasculine and epinephrine, used to quickly and easily treat toxin poisoning.
   components:
   - type: Item
     inhandVisuals:
@@ -293,8 +293,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: BruteAutoInjector
-  name: brute auto-injector
-  description: A single-dose, non-refillable medipen containing bicaridine and tranexamic acid, used to quickly and easily treat simple physical injuries. Commonly used as a combat medicine.
+  name: brute 自動注射器 | brute auto-injector
+  description: 一種含有比卡里定和氨甲環酸的單劑量、不可重複填充式「Medipen」，用於快速且輕鬆地治療簡單的物理性創傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing bicaridine and tranexamic acid, used to quickly and easily treat simple physical injuries. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -328,8 +328,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: BurnAutoInjector
-  name: burn auto-injector
-  description: A single-dose, non-refillable medipen containing dermaline and leporazine, used to quickly and easily treat non-chemical burns. Commonly used as a combat medicine.
+  name: 燒傷(burn)自動注射器 | burn auto-injector
+  description: 一種單劑量、不可重複填充的「Medipen」，內含德馬林（Dermaline）和萊波拉津（Leporazine），用於快速且輕鬆地治療非化學性燒傷。通常作為戰地醫療用品使用。 | A single-dose, non-refillable medipen containing dermaline and leporazine, used to quickly and easily treat non-chemical burns. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -363,8 +363,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: RadAutoInjector
-  name: rad auto-injector
-  description: A single-dose, non-refillable medipen containing arithrazine and bicaridine, used to quickly and easily treat radiation poisoning.
+  name: rad 自動注射器 | rad auto-injector
+  description: 一種單劑量、不可重複填充的「Medipen」注射筆，內含阿利特拉津和比卡里丁，用於快速且輕鬆地治療輻射中毒。 | A single-dose, non-refillable medipen containing arithrazine and bicaridine, used to quickly and easily treat radiation poisoning.
   components:
   - type: Item
     inhandVisuals:
@@ -398,8 +398,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: PunctAutoInjector
-  name: puncturase auto-injector
-  description: A single-dose, non-refillable medipen containing puncturase and tranexamic acid, used to quickly and easily treat puncture wounds. Commonly used as a combat medicine.
+  name: Puncturase 自動注射器 | puncturase auto-injector
+  description: 一種單劑量、不可補充的 Medipen，內含穿刺酶和氨甲環酸，用於快速且輕鬆地治療穿刺傷口。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing puncturase and tranexamic acid, used to quickly and easily treat puncture wounds. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -435,8 +435,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: PyraAutoInjector
-  name: pyrazine auto-injector
-  description: A single-dose, non-refillable medipen containing pyrazine and dermaline, used to quickly and easily treat thermal burns. Commonly used as a combat medicine.
+  name: 吡嗪(pyrazine)自動注射器 | pyrazine auto-injector
+  description: 一種單劑量、不可重複填充的 Medipen，內含吡嗪和德拉林，用於快速且輕鬆地治療熱燒傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing pyrazine and dermaline, used to quickly and easily treat thermal burns. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -470,8 +470,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: AirlossAutoInjector
-  name: airloss auto-injector
-  description: A single-dose, non-refillable medipen containing saline and dexalin plus, used to quickly and easily treat blood loss and asphyxiation.
+  name: airloss 自動注射器 | airloss auto-injector
+  description: 一款單劑量、不可補充的 Medipen，內含生理食鹽水與 Dexalin Plus，用於快速且輕鬆地治療失血及窒息。 | A single-dose, non-refillable medipen containing saline and dexalin plus, used to quickly and easily treat blood loss and asphyxiation.
   components:
   - type: Item
     inhandVisuals:
@@ -505,8 +505,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: SpaceMedipen
-  name: space medipen
-  description: A single-dose, non-refillable medipen containing barozine and leporazine, used to protect exposed flesh from the deadly effects of space.
+  name: space medipen | space medipen
+  description: 一種單劑量、不可重複填充的「Medipen」，內含巴羅津和萊波拉津，用於保護暴露在外的皮膚免受太空環境的致命影響。 | A single-dose, non-refillable medipen containing barozine and leporazine, used to protect exposed flesh from the deadly effects of space.
   components:
   - type: Item
     inhandVisuals:
@@ -545,8 +545,8 @@
 - type: entity
   parent: SyndicateMedipen
   id: Stimpack
-  name: hyperzine injector
-  description: A chemical injector containing a large shot of pure hyperzine. For when it's time to throw down. Effects last for about 60 seconds.
+  name: 超媒體雜誌注入器 | hyperzine injector
+  description: 一個裝有大量純超辛烷的化學注射器。專為決戰時刻而設。效果持續約 60 秒。 | A chemical injector containing a large shot of pure hyperzine. For when it's time to throw down. Effects last for about 60 seconds.
   components:
   - type: Item
     inhandVisuals:
@@ -582,8 +582,8 @@
 - type: entity
   parent: [ SolutionToolTiny, SyndicateMedipen ]
   id: StimpackMini
-  name: hyperzine microinjector
-  description: A chemical microinjector containing a small shot of pure hyperzine. Effects last for about 30 seconds.
+  name: hyperzine 微量注射器 | hyperzine microinjector
+  description: 一種化學微量注射器，內含一小劑純超辛鎘。藥效持續約 30 秒。 | A chemical microinjector containing a small shot of pure hyperzine. Effects last for about 30 seconds.
   components:
   - type: Item
     inhandVisuals:
@@ -619,8 +619,8 @@
 - type: entity
   parent: SyndicateMedipen
   id: CombatMedipen
-  name: combat medipen
-  description: A single-dose, non-refillable medipen containing a chemical cocktail that treats most forms of damage.
+  name: 戰鬥醫用筆 | combat medipen
+  description: 一支單劑量、不可重複填充的「梅迪彭」，內含可治療多數類型損傷的化學混合物。 | A single-dose, non-refillable medipen containing a chemical cocktail that treats most forms of damage.
   components:
   - type: Item
     inhandVisuals:
@@ -682,8 +682,8 @@
 - type: entity
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: HypopenBox
-  name: hypopen box
-  description: A small box containing a hypopen. Packaging disintegrates when opened, leaving no evidence behind.
+  name: hypopen 包裝盒 | hypopen box
+  description: 一個小盒子，裡面裝著一支「Hypopen」。開封時包裝會自行分解，不留任何痕跡。 | A small box containing a hypopen. Packaging disintegrates when opened, leaving no evidence behind.
   components:
   - type: Item
     size: Tiny
@@ -699,8 +699,8 @@
 - type: entity
   parent: [ SolutionHyposprayTiny, ChemicalMedipen ]
   id: WehMedipenTiny
-  name: weh auto-injector
-  description: A non-refillable medipen containing a dose of weh.
+  name: weh 自動注射器 | weh auto-injector
+  description: 一支不可重複填充的 Medipen，內含一劑 weh。 | A non-refillable medipen containing a dose of weh.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -721,9 +721,9 @@
   parent: WehMedipenTiny
   id: WehMedipen
   categories: [ DoNotMap ]
-  name: weh auto-injector
+  name: weh 自動注射器 | weh auto-injector
   suffix: DO NOT MAP
-  description: A non-refillable medipen containing multiple doses of weh.
+  description: 一支不可重複填充的 Medipen，內含多劑量的 weh。 | A non-refillable medipen containing multiple doses of weh.
   components:
   - type: Solution
     solution:

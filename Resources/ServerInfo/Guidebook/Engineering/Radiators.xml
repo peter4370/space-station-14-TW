@@ -1,28 +1,29 @@
-﻿<Document>
-  # Radiators
-  Radiators are a device that enables the exchange of heat energy between a [textlink="pipenet" link="PipeNetworks"] and the environment.
+﻿
+<Document>
+  # 散熱器
+  散熱器是一種能使 [textlink="pipenet" link="PipeNetworks"] 與環境之間進行熱能交換的裝置。
 
   <Box>
     <GuideEntityEmbed Entity="HeatExchanger"/>
   </Box>
 
-  Radiators are completely passive: they do not require power to function.
-  They will always equalize the temperature of the gas in the [textlink="pipenet" link="PipeNetworks"] with the environment.
+  散熱器完全是被動式的：它們運作時無需電力。
+  它們總是會將 [textlink="pipenet" link="PipeNetworks"] 中的氣體溫度與環境溫度保持一致。
 
-  Radiators have two methods of transferring heat: convection and radiation.
-  - Convection is the transfer of heat through the movement of gas.
-  - Radiation is the transfer of heat through electromagnetic waves.
+  散熱器有兩種傳熱方式：對流和輻射。
+  - 對流是指透過氣體的運動而產生的熱傳遞。
+  - 輻射是指透過電磁波傳遞熱量的過程。
 
-  If a radiator is in a vacuum, it will only be able to transfer heat through radiation.
-  If it is in an atmosphere, it will be able to transfer heat through both convection and radiation.
+  如果散熱器處於真空環境中，它將只能透過輻射來傳熱。
+  如果處於大氣中，它將能夠透過對流和輻射兩種方式傳遞熱量。
 
-  Under convection, you can only get as cold or as hot as the atmosphere or [textlink="pipenet" link="PipeNetworks"] you're exchanging heat with (given the temperature of the gas in the [textlink="pipenet" link="PipeNetworks"] or atmosphere stays the same).
+  在對流作用下，溫度只能達到與大氣或 [textlink="pipenet" link="PipeNetworks"] 與之進行熱交換的對象（假設[textlink="pipenet" link="PipeNetworks"]中的氣體或大氣溫度保持不變）。
 
-  If you're exchanging heat with space, you can only get as cold as space.
-  To increase the efficiency of radiation, you can build radiators on lattice, which will allow the radiator to radiate more heat, compared to being directly attached to hull tile.
+  若你與太空進行熱交換，溫度最多只能降至與太空相同的程度。
+  為了提高輻射效率，您可以將輻射器建在格柵上；與直接安裝在船體格子上相比，這樣能讓輻射器釋放出更多的熱量。
 
-  Gas will flow naturally through the radiator via differences in pressure, but you can use a gas pump to increase the flow rate.
+  氣體會因壓力差而自然流經散熱器，但您可以使用氣泵來提高流量。
 
-  Increasing the flow rate of gas through the radiator will increase the rate of heat exchange.
+  提高通過散熱器的氣體流量，將能提升熱交換速率。
 
   </Document>

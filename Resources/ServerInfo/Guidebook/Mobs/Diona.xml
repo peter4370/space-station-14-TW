@@ -1,38 +1,39 @@
+
 <Document>
-  # Diona
+  # 迪奧娜
 
   <Box>
     <GuideEntityEmbed Entity="MobDiona" Caption=""/>
   </Box>
 
-  They can't wear shoes, but are not slowed by Kudzu.
-  They get hungry and thirsty slower.
-  Their "blood" is tree sap and can't be metabolised from Iron.
-  Being plants, Weed Killer poisons them, while Robust Harvest heals them (but not without risk when overused!)
+  牠們無法穿鞋，但藤蔓並未阻礙牠們的前進。
+  他們感到飢餓和口渴的速度較慢。
+  他們的「血液」其實是樹液，無法透過鐵來代謝。
+  既然是植物，「除草劑」會毒害牠們，而「豐收之力」則能治癒牠們（但若過度使用，仍非毫無風險！）
 
-  They take [color=#1e90ff]30% less Blunt damage and 20% less Slash damage[/color];
-  but [color=#ffa500]50% more Heat damage, 20% more Shock damage, and they can easily
-  catch on fire when receiving enough Heat damage from *any* source.[/color]
+  它們承受的[color=#1e90ff]鈍擊傷害減少 30%，切割傷害減少 20%[/color]；
+  但 [color=#ffa500]會承受多出 50% 的熱能傷害、多出 20% 的電擊傷害，且當受到來自 *任何* 來源的熱能傷害達到一定程度時，便會輕易
+  起火。[/color]
 
-  ## Make Like A Tree And Leave
+  ## 像樹一樣，悄悄離開
   <Box>
     <GuideEntityEmbed Entity="FloraTree" Caption=""/>
   </Box>
-  Being exposed to too much Robust Harvest will cause a Diona to grow out of control, turning into an immobile tree (dropping all their equipment).
-  Cutting down the tree will "restore" the Diona to their mobile state.
+  若迪奧娜接觸過多的「豐饒收成」，會導致其生長失控，變成一棵無法移動的樹（並掉落所有裝備）。
+  砍倒這棵樹將使「迪奧納」恢復到可移動的狀態。
 
-  ## Diona Nymphs
+  ## 迪奧娜仙子
   <Box>
     <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
     <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
     <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
   </Box>
-  After death, a Diona can voluntarily destroy their own body, releasing their "internal organs" as three Nymphs,
-  with the player taking control of the Brain Nymph.
-  It can talk but has no hands or inventory, and can't do much.
+  死後，迪奧娜可以主動摧毀自己的身體，將其「內臟」釋放為三名仙女，
+  玩家將操控其中「腦仙女」。
+  它雖然會說話，但沒有手，也沒有物品欄，而且沒什麼用處。
 
-  After 10 minutes, a Nymph can reform into a whole Diona. This will be a new randomised body with a random name,
-  and there will be little to no evidence beyond their word about who they were before.
+  10分鐘後，仙女便能重新化身為完整的迪奧娜。 這將是一個全新的、名稱隨機生成的組織，網址為
+  ，而關於他們過去的身份，除了他們自己的說法之外，幾乎沒有任何證據可循。
 
 
 </Document>

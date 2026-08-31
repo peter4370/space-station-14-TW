@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAlexander
-  name: Alexander Spawner
+  name: 亞歷山大·斯波納 | Alexander Spawner
   suffix: Chef Pet
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBandito
-  name: Bandito Spawner
+  name: Bandito 生成器 | Bandito Spawner
   suffix: RD Pet
   components:
   - type: Sprite
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCat
-  name: Random Cat Spawner
+  name: 隨機貓生成器 | Random Cat Spawner
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatBingus
-  name: Bingus Spawner
+  name: 賓古斯產卵器 | Bingus Spawner
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatException
-  name: Exception Spawner
+  name: 例外產生器 | Exception Spawner
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatFloppa
-  name: Floppa Spawner
+  name: Floppa 產卵器 | Floppa Spawner
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatRuntime
-  name: Runtime Spawner
+  name: 執行階段生成器 | Runtime Spawner
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCorgi
-  name: Corgi Spawner
+  name: 柯基生成器 | Corgi Spawner
   suffix: HoP Pet
   components:
   - type: Sprite
@@ -119,7 +119,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCorgiMouse
-  name: Dev Mouse Spawner
+  name: Dev 老鼠生成器 | Dev Mouse Spawner
   suffix: Dev Map Pet, Admeme
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCrabAtmos
-  name: Tropico Spawner
+  name: Tropico 生物生成器 | Tropico Spawner
   suffix: Atmos Pet
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobFoxRenault
-  name: Fox Renault Spawner
+  name: 狐狸雷諾產卵者 | Fox Renault Spawner
   suffix: Captain Pet
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMcGriff
-  name:  McGriff Spawner
+  name:  麥格里夫產卵器 | McGriff Spawner
   suffix: Warden Pet
   components:
   - type: Sprite
@@ -175,7 +175,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHamsterHamlet
-  name: Hamster Hamlet Spawner
+  name: 倉鼠村生成器 | Hamster Hamlet Spawner
   suffix: Bridge Pet (crate)
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobKangarooWillow
-  name: Willow Spawner
+  name: 柳樹生成器 | Willow Spawner
   suffix: Boxer Pet
   components:
   - type: Sprite
@@ -206,7 +206,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMonkeyPunpun
-  name: Pun Pun Spawner
+  name: Pun Pun 生成器 | Pun Pun Spawner
   suffix: Bartender Pet
   components:
   - type: Sprite
@@ -221,7 +221,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPollyParrot
-  name: Polly the parrot Spawner
+  name: 鸚鵡波莉的產卵者 | Polly the parrot Spawner
   suffix: CE Pet
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPossumMorty
-  name: Possum Morty Spawner
+  name: 負鼠莫蒂生成器 | Possum Morty Spawner
   suffix: Morgue Pet
   components:
   - type: Sprite
@@ -250,7 +250,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobRaccoonMorticia
-  name: Raccoon Morticia Spawner
+  name: 浣熊莫蒂西亞生成器 | Raccoon Morticia Spawner
   suffix: QM Pet
   components:
   - type: Sprite
@@ -264,7 +264,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobShiva
-  name: Shiva Spawner
+  name: 濕婆生成器 | Shiva Spawner
   suffix: Security Pet
   components:
   - type: Sprite
@@ -279,7 +279,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSlothPaperwork
-  name: Sloth Paperwork Spawner
+  name: 懶惰文書生成器 | Sloth Paperwork Spawner
   suffix: Librarian Pet
   components:
   - type: Sprite
@@ -293,7 +293,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSmile
-  name: Smile Spawner
+  name: 微笑生成器 | Smile Spawner
   suffix: Science Pet
   components:
   - type: Sprite
@@ -307,7 +307,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobWalter
-  name: Walter Spawner
+  name: 沃爾特·斯波納 | Walter Spawner
   suffix: Chemistry Pet
   components:
   - type: Sprite

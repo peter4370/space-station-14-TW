@@ -1,2 +1,2 @@
-hot-potato-passed = {$from} passed hot potato to {$to}!
-hot-potato-failed = Can't pass the potato to {$to}!
+hot-potato-passed = { $from } 將「燙手山芋」傳給了 { $to }！
+hot-potato-failed = 不能把「馬鈴薯」傳給 { $to }！

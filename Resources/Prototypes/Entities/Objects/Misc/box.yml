@@ -46,8 +46,8 @@
 - type: entity
   parent: BoxBase
   id: ToteBase
-  name: circuit tote
-  description: A large tote for carrying circuit boards.
+  name: 電路托特包 | circuit tote
+  description: 一款用於攜帶電路板的大型托特包。 | A large tote for carrying circuit boards.
   components:
   - type: Sprite
     layers:

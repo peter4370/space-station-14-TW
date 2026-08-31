@@ -1,25 +1,26 @@
-﻿<Document>
-  # Expanding and Repairing Stations
-  In Space Station 14, it is common for players to want to expand the station, or repair holes left by meteors or other damage.
+﻿
+<Document>
+  # 擴建與修復太空站
+  在《太空站 14》中，玩家通常會想擴建太空站，或是修復隕石撞擊或其他損害所造成的破洞。
 
-  ## Lattice
-  Lattice is bare rodwork placed in empty space. It's used as a foundation for building and anchoring objects onto the station.
+  ## 《Lattice》
+  《Lattice》是由置於空曠空間中的裸露棒狀結構所構成。 它被用作在空間站上建造和固定物體的基礎。
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
     <GuideEntityEmbed Entity="PartRodMetal" Caption=""/>
   </Box>
 
-  You can create lattice by placing rods on empty space using [color=yellow][bold][keybind="Use"][/bold][/color]. Remember you can craft steel sheets into rods using the construction menu.
+  您可以透過在空白處放置桿件，並使用 [color=yellow][bold][keybind="Use"][/bold][/color] 來建立格柵。 請記住，您可以透過「建造」選單，將鋼板製成鋼棒。
 
-  Lattice cannot hold pressure, and all gasses will leak out into space through it.
+  晶格無法承受壓力，所有氣體都會透過它洩漏到太空中。
 
-  You can use wirecutters to remove lattice by using [color=yellow][bold][keybind="Use"][/bold][/color] on them.
+  您可以使用斷線鉗移除格柵，方法是對其使用 [color=yellow][bold][keybind="Use"][/bold][/color]。
 
-  If the game is preventing you from placing lattice, it's because there is another separated grid too close to the grid you're trying to expand. You can use a wirecutter to remove the offending grid.
+  如果遊戲不讓你放置格子，那是因為有另一個獨立的網格距離你正試圖擴展的網格太近了。 您可以使用剪線鉗將問題的網格移除。
 
-  ## Hull Tiles
-  Hull tiles are solid foundation for the station, where all the other parts of the station rest upon.
+  ## 艙體磁磚
+  艙體磁磚是太空站的堅實基礎，太空站的其他所有部分皆建基於此。
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -28,12 +29,12 @@
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Lattice can be made into hull tiles by using either steel or almost any type of floor tile on them by pressing [color=yellow][bold][keybind="Use"][/bold][/color].
-  This will convert the lattice into a hull tile, which can hold pressure and gasses.
+  按下 [color=yellow][bold][keybind="Use"][/bold][/color] 後，即可將格柵轉變為船體磁磚，方法是將鋼材或幾乎任何類型的地板磁磚放置在其上。
+  這將把晶格轉為外殼磁磚，該外殼磁磚能夠承受壓力並容納氣體。
 
-  It is advised to use floor tiles to replace lattice instead of steel sheets, as you can craft 4 floor tiles from a single steel sheet.
+  建議使用地板磚來取代格柵，而非鋼板，因為一張鋼板可以製作出 4 塊地板磚。
 
-  You can use an RCD to deconstruct hull tiles into lattice.
+  您可以使用 RCD 將船體磁磚拆解成格子結構。
 
 
 </Document>

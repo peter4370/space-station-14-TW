@@ -33,9 +33,9 @@
 - type: entity
   parent: [ SprayBottleBase, DrinkVisualsFill ]
   id: SprayBottle
-  name: spray bottle
+  name: 噴霧瓶 | spray bottle
   suffix: Empty
-  description: A spray bottle with an unscrewable top.
+  description: 一個瓶蓋可旋開的噴霧瓶。 | A spray bottle with an unscrewable top.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/spray_bottle.rsi
@@ -51,9 +51,9 @@
 - type: entity
   parent: [SolutionNormal, SprayBottle]
   id: MegaSprayBottle
-  name: mega spray bottle
+  name: 超大容量噴霧瓶 | mega spray bottle
   suffix: Empty
-  description: A huge spray bottle, capable of unrivaled janitorial power.
+  description: 一款超大容量噴霧瓶，具備無與倫比的清潔威力。 | A huge spray bottle, capable of unrivaled janitorial power.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/spray_bottle.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: SprayBottle
   id: SprayBottleWater
-  name: spray bottle
+  name: 噴霧瓶 | spray bottle
   suffix: Filled
   components:
   - type: Tag
@@ -94,7 +94,7 @@
   parent: SprayBottle
   id: SprayBottleSpaceCleaner
   suffix: Space Cleaner
-  description: BLAM!-brand non-foaming space cleaner!
+  description: BLAM! 品牌無泡沫太空清潔劑！ | BLAM!-brand non-foaming space cleaner!
   components:
   - type: Solution
     solution:
@@ -111,7 +111,7 @@
   parent: MegaSprayBottle
   id: MegaSprayBottleSpaceCleaner
   suffix: Space Cleaner
-  description: BLAM!-brand non-foaming space cleaner, now in a bigger package for those huge blood puddles!
+  description: BLAM! 品牌無泡沫空間清潔劑，現推出更大包裝，專為清理那些巨大的血灘而設計！ | BLAM!-brand non-foaming space cleaner, now in a bigger package for those huge blood puddles!
   components:
   - type: Solution
     solution:
@@ -124,9 +124,9 @@
 - type: entity
   parent: [SolutionNormal, SprayBottle]
   id: BorgSprayBottle
-  name: internal spray jet
+  name: 內部噴射嘴 | internal spray jet
   suffix: Filled
-  description: A pressurized vessel for spraying reagents, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
+  description: 一種用於噴灑試劑的加壓容器，直接安裝在清潔機器人上。通常裝有太空清潔劑，用於處理那些惱人的潑灑物。 | A pressurized vessel for spraying reagents, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
   components:
   - type: Solution
     solution:
@@ -137,9 +137,9 @@
 - type: entity
   parent: [SolutionLarge, MegaSprayBottle]
   id: BorgMegaSprayBottle
-  name: adv. internal spray jet
+  name: adv. 內部噴射嘴 | adv. internal spray jet
   suffix: Filled
-  description: An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
+  description: 這是整合式噴霧瓶的升級版，可直接安裝於清潔機器人上。此款噴霧瓶能利用空氣中的濕氣製造空間清潔劑。 | An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
   components:
   - type: Solution
     solution:
@@ -159,7 +159,7 @@
   parent: [SolutionSmall, SolutionVapor]
   id: Vapor
   categories: [ HideSpawnMenu ]
-  name: "vapor"
+  name: "蒸氣 | vapor"
   components:
   - type: Vapor
     active: true

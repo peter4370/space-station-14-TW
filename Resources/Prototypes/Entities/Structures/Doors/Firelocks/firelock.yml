@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseStructure, StructureHealthDoor ]
   id: BaseFirelock
-  name: firelock
-  description: Apply crowbar.
+  name: 火繩槍 | firelock
+  description: 使用撬棍。 | Apply crowbar.
   components:
   - type: Anchorable
     flags:
@@ -180,7 +180,7 @@
 - type: entity
   id: FirelockGlass
   parent: Firelock
-  name: glass firelock
+  name: 玻璃火鎖槍 | glass firelock
   components:
     - type: Sprite
       sprite: Structures/Doors/Airlocks/Glass/firelock-base.rsi
@@ -205,7 +205,7 @@
 - type: entity
   id: FirelockEdge
   parent: Firelock
-  name: firelock
+  name: 火繩槍 | firelock
   components:
     - type: Sprite
       sprite: Structures/Doors/Misc/edge_door_hazard.rsi

@@ -1,59 +1,48 @@
-salvage-expedition-type = Mission
-salvage-expedition-window-title = Salvage expeditions
-salvage-expedition-window-difficulty = Difficulty:
-salvage-expedition-window-details = Details:
-salvage-expedition-window-hostiles = Hostiles:
-salvage-expedition-window-duration = Duration:
-salvage-expedition-window-biome = Biome:
-salvage-expedition-window-modifiers = Modifiers:
-
-offering-window-claimed = Claimed
-offering-window-claim = Claim
-
-salvage-expedition-window-next = Next offer
-
-salvage-expedition-difficulty-Moderate = Moderate
-salvage-expedition-difficulty-Hazardous = Hazardous
-salvage-expedition-difficulty-Extreme = Extreme
-
-salvage-expedition-difficulty-players = Recommended salvagers:
-
+salvage-expedition-type = 使命
+salvage-expedition-window-title = 打撈遠征
+salvage-expedition-window-difficulty = 難度：
+salvage-expedition-window-details = 詳情：
+salvage-expedition-window-hostiles = 敵對勢力：
+salvage-expedition-window-duration = 時長：
+salvage-expedition-window-biome = 生物群系：
+salvage-expedition-window-modifiers = 修飾詞：
+offering-window-claimed = 聲稱
+offering-window-claim = 主張
+salvage-expedition-window-next = 下一項優惠
+salvage-expedition-difficulty-Moderate = 中等
+salvage-expedition-difficulty-Hazardous = 危險
+salvage-expedition-difficulty-Extreme = 極限
+salvage-expedition-difficulty-players = 推薦的打撈船：
 # Runner
-salvage-expedition-not-all-present = Not all salvagers are aboard the shuttle!
-
-salvage-expedition-announcement-countdown-minutes = {$duration} minutes remaining to complete the expedition.
-salvage-expedition-announcement-countdown-seconds = {$duration} seconds remaining to complete the expedition.
-salvage-expedition-announcement-dungeon = Dungeon is located {$direction}.
-salvage-expedition-completed = Expedition is completed.
-salvage-expedition-reward-description = Mission completion reward
-
+salvage-expedition-not-all-present = 並非所有打撈人員都在太空梭上！
+salvage-expedition-announcement-countdown-minutes = { $duration } 分鐘即可完成這趟探險。
+salvage-expedition-announcement-countdown-seconds = 距離完成這趟探險還剩 { $duration } 秒。
+salvage-expedition-announcement-dungeon = 「地牢」位於 { $direction }。
+salvage-expedition-completed = 探險任務已完成。
+salvage-expedition-reward-description = 任務完成獎勵
 # Salvage biome mod
-salvage-biome-mod-caves = Caves
-salvage-biome-mod-grasslands = Grasslands
-salvage-biome-mod-snow = Snow
-salvage-biome-mod-lava = Lava
-
+salvage-biome-mod-caves = 洞穴
+salvage-biome-mod-grasslands = 草原
+salvage-biome-mod-snow = 雪
+salvage-biome-mod-lava = 熔岩
 # Salvage mods
-salvage-light-mod-daylight = Daylight
-salvage-light-mod-evening = Evening
-salvage-light-mod-night = Night time
-
-salvage-temperature-mod-room-temperature = Room temperature
-salvage-temperature-mod-hot = Hot
-salvage-temperature-mod-high-temperature = High temperature
-salvage-temperature-mod-extreme-heat = Extreme heat
-salvage-temperature-mod-cold = Cold
-salvage-temperature-mod-low-temperature = Low temperature
-salvage-temperature-mod-extreme-cold = Extreme cold
-
-salvage-air-mod-no-atmosphere = No atmosphere
-salvage-air-mod-breathable-atmosphere = Breathable atmosphere
-salvage-air-mod-dangerous-atmosphere = Dangerous atmosphere
-salvage-air-mod-toxic-atmosphere = Toxic atmosphere
-salvage-air-mod-volatile-atmosphere = Volatile atmosphere
-
-salvage-dungeon-mod-lava-brig = Lava Brig
-salvage-dungeon-mod-snowy-labs = Snowy labs
-salvage-dungeon-mod-experiment = Experiment
-salvage-dungeon-mod-haunted = Haunted
-salvage-dungeon-mod-mineshaft = Mineshaft
+salvage-light-mod-daylight = 日光
+salvage-light-mod-evening = 傍晚
+salvage-light-mod-night = 夜間
+salvage-temperature-mod-room-temperature = 室溫
+salvage-temperature-mod-hot = 熱門
+salvage-temperature-mod-high-temperature = 高溫
+salvage-temperature-mod-extreme-heat = 極端高溫
+salvage-temperature-mod-cold = 寒冷
+salvage-temperature-mod-low-temperature = 低溫
+salvage-temperature-mod-extreme-cold = 嚴寒
+salvage-air-mod-no-atmosphere = 沒有大氣層
+salvage-air-mod-breathable-atmosphere = 可呼吸的大氣層
+salvage-air-mod-dangerous-atmosphere = 危險的大氣
+salvage-air-mod-toxic-atmosphere = 有毒的大氣
+salvage-air-mod-volatile-atmosphere = 易揮發性大氣
+salvage-dungeon-mod-lava-brig = 熔岩監獄
+salvage-dungeon-mod-snowy-labs = 雪白的拉布拉多犬
+salvage-dungeon-mod-experiment = 實驗
+salvage-dungeon-mod-haunted = 鬼屋
+salvage-dungeon-mod-mineshaft = 礦井

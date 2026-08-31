@@ -40,8 +40,8 @@
 - type: entity
   parent: BaseDispenser
   id: CleanerDispenser
-  name: space cleaner dispenser
-  description: Wallmount Space Cleaner dispenser.
+  name: 空間清潔劑分配器 | space cleaner dispenser
+  description: 壁掛式空間清潔劑分配器。 | Wallmount Space Cleaner dispenser.
   components:
   - type: Sprite
     layers:
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseDispenser
   id: FuelDispenser
-  name: fuel dispenser
-  description: Wallmount Fuel dispenser.
+  name: 加油機 | fuel dispenser
+  description: 壁掛式燃油加注機。 | Wallmount Fuel dispenser.
   components:
   - type: Sprite
     layers:

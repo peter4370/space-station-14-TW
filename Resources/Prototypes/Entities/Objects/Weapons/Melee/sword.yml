@@ -23,10 +23,10 @@
 
 #Shortswords
 - type: entity
-  name: cutlass
+  name: 短劍 | cutlass
   parent: [ BaseSword, BaseMajorContraband ]
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: 一把彎曲得極其詭異的刀刃，常見於太空海盜手中。 | A wickedly curved blade, often seen in the hands of space pirates.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -45,10 +45,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: machete
+  name: 開山刀 | machete
   parent: [ BaseSword, BaseMajorContraband ]
   id: Machete
-  description: A large, vicious looking blade.
+  description: 一把龐大且看起來極其凶惡的刀。 | A large, vicious looking blade.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/machete.rsi
@@ -68,10 +68,10 @@
 
 #Longswords
 - type: entity
-  name: captain's sabre
+  name: 船長軍刀 | captain's sabre
   parent: [ BaseSword, BaseCommandContraband ]
   id: CaptainSabre
-  description: A ceremonial weapon belonging to the captain of the station.
+  description: 這是該站站長的一件禮儀武器。 | A ceremonial weapon belonging to the captain of the station.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
@@ -104,10 +104,10 @@
     stealGroup: CaptainSword
 
 - type: entity
-  name: katana
+  name: katana | katana
   parent: [ BaseSword, BaseMajorContraband ]
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: 以並非十分古老的塑鋼製成的古法工藝品。 | Ancient craftwork made with not so ancient plasteel.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/katana.rsi
@@ -131,10 +131,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: energy katana
+  name: 能量刀 | energy katana
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: 一把蘊含強大能量的日本刀。 | A katana infused with strong energy.
   components:
   - type: Contraband
     severity: HighlyIllegal
@@ -167,10 +167,10 @@
 
 #Greatswords
 - type: entity
-  name: claymore
+  name: 克萊莫 | claymore
   parent: [ BaseSword, BaseMajorContraband ]
   id: Claymore
-  description: An ancient war blade.
+  description: 一把古戰刀。 | An ancient war blade.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -196,10 +196,10 @@
 
 #Other/Weird
 - type: entity
-  name: throngler
+  name: throngler | throngler
   parent: [ BaseSword, BaseMajorContraband ]
   id: Throngler
-  description: If Security dares take it from you, just remind them that they are indeed mortal.
+  description: 如果保安膽敢從你那裡拿走它，就提醒他們，他們終究也是凡人。 | If Security dares take it from you, just remind them that they are indeed mortal.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

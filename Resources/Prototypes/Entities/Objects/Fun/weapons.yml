@@ -14,8 +14,8 @@
 - type: entity
   parent: [ BaseItem, BaseToyGun ]
   id: FoamCrossbow
-  name: foam crossbow
-  description: Aiming this at Security may get you filled with lead.
+  name: 泡沫弩 | foam crossbow
+  description: 若將這東西對準保安人員，你可能會被子彈打穿。 | Aiming this at Security may get you filled with lead.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_crossbow.rsi
@@ -43,10 +43,10 @@
         ents: []
 
 - type: entity
-  name: Foam Force Astro Ace
+  name: 泡沫力量 星際王牌 | Foam Force Astro Ace
   parent: [ BaseToyGun, BaseWeaponShotgun, BaseGunWieldable ]
   id: WeaponRifleFoam
-  description: A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
+  description: 一款頂級品質的發泡膠步槍。其塑膠材質觸感堅固，機械結構也十分穩固。 | A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_rifle.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: [ BaseItem, BaseToyGun ]
   id: RevolverCapGun
-  name: cap gun
-  description: Looks almost like the real thing! Ages 8 and up.
+  name: 玩具槍 | cap gun
+  description: 看起來簡直和真的一模一樣！適合 8 歲及以上兒童。 | Looks almost like the real thing! Ages 8 and up.
   components:
   - type: Sprite
     sprite: Objects/Fun/capgun.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: [ BaseItem, BaseToyGun ]
   id: WeaponStickyHand
-  name: sticky hand
-  description: They're saying you're reaching. They're saying it's a stretch. You'll show them all, and you'll stick it to them.
+  name: 黏手 | sticky hand
+  description: 他們說你太牽強了。他們說這太牽強了。你會讓他們全都見識見識，並給他們一個教訓。 | They're saying you're reaching. They're saying it's a stretch. You'll show them all, and you'll stick it to them.
   components:
   - type: GrapplingGun
     cycleSound: /Audio/Misc/woosh.ogg
@@ -177,8 +177,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: FoamBlade
-  name: foamblade
-  description: It says "Sternside Changs number 1 fan" on it.
+  name: foamblade | foamblade
+  description: 上面寫著「斯特恩賽德·張的頭號粉絲」。 | It says "Sternside Changs number 1 fan" on it.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_blade.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: FoamCutlass
-  name: foam cutlass
-  description: Cosplay as a pirate and force your friends to walk the plank.
+  name: 泡沫短劍 | foam cutlass
+  description: 打扮成海盜，逼迫你的朋友走木板。 | Cosplay as a pirate and force your friends to walk the plank.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: ToySword
-  name: toy sword
-  description: New Sandy-Cat plastic sword! Comes with realistic sound and full color! Looks almost like the real thing!
+  name: 玩具劍 | toy sword
+  description: 全新「桑迪貓」塑膠劍！附有逼真音效與全彩設計！看起來簡直跟真的一樣！ | New Sandy-Cat plastic sword! Comes with realistic sound and full color! Looks almost like the real thing!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -285,8 +285,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: CardSword
-  name: cardboard sword
-  description: A cardboard tube fashioned into the shape of a sword.
+  name: 紙板劍 | cardboard sword
+  description: 一個被塑造成劍形的紙板管。 | A cardboard tube fashioned into the shape of a sword.
   components:
   - type: Sprite
     sprite: Objects/Fun/card_sword.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: ToyHammer
-  name: rubber hammer
-  description: A brightly colored hammer made of rubber.
+  name: 橡膠鎚 | rubber hammer
+  description: 一把由橡膠製成的色彩鮮豔的錘子。 | A brightly colored hammer made of rubber.
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_hammer.rsi

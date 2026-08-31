@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
   id: Screen
-  name: screen
-  description: Displays text or time.
+  name: 螢幕 | screen
+  description: 顯示文字或時間。 | Displays text or time.
   components:
   - type: Rotatable
   - type: TextScreenVisuals
@@ -50,8 +50,8 @@
 - type: entity
   id: ArrivalsShuttleTimer
   parent: Screen
-  name: arrivals screen
-  description: Displays time of arrivals shuttle ETA.
+  name: 抵達螢幕 | arrivals screen
+  description: 顯示接駁車預計抵達時間。 | Displays time of arrivals shuttle ETA.
   components:
   - type: DeviceNetwork
     deviceNetId: Private

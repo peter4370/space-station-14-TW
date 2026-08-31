@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazinePistol
-  name: pistol magazine (.35 auto)
+  name: 手槍彈匣（.35自動） | pistol magazine (.35 auto)
   components:
   - type: Tag
     tags:
@@ -35,7 +35,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: 衝鋒槍彈匣（.35 Auto） | machine pistol magazine (.35 auto)
   components:
   - type: Tag
     tags:
@@ -68,7 +68,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazinePistolSubMachineGun  # Yeah it's weird but it's pistol caliber
-  name: SMG magazine (.35 auto)
+  name: SMG 彈匣（.35 自動手槍） | SMG magazine (.35 auto)
   components:
   - type: Tag
     tags:
@@ -100,8 +100,8 @@
 - type: entity
   parent: [ BaseItem, BaseSecurityContraband ]
   id: MagazinePistolSubMachineGunTopMounted
-  name: WT550 magazine (.35 auto top-mounted)
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
+  name: WT550 彈匣（.35 自動式，頂部裝填） | WT550 magazine (.35 auto top-mounted)
+  description: 專為 WT550 衝鋒槍設計的非傳統式 30 發頂部供彈彈匣。適用於裝填通用動能彈藥。 | Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: Item
     storedRotation: 90
@@ -134,9 +134,9 @@
 - type: entity
   parent: MagazinePistolSubMachineGunTopMounted
   id: MagazinePistolSubMachineGunTopMountedEmpty
-  name: WT550 magazine (.35 auto top-mounted any)
+  name: WT550 彈匣（.35自動式，頂部裝填，任何型號） | WT550 magazine (.35 auto top-mounted any)
   suffix: empty
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
+  description: 專為 WT550 衝鋒槍設計的非傳統式 30 發頂部供彈彈匣。 | Unconventional 30-round top feeding magazine for the WT550 SMG.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseMagazinePistol
   id: MagazinePistol
-  name: pistol magazine (.35 auto)
-  description: 10-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition.
+  name: 手槍彈匣（.35自動） | pistol magazine (.35 auto)
+  description: 適用於手槍的 10 發單排彈匣。設計用於裝填通用動能彈藥。 | 10-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -165,9 +165,9 @@
 - type: entity
   parent: MagazinePistol
   id: MagazinePistolEmpty
-  name: pistol magazine (.35 auto any)
+  name: 手槍彈匣（任何 .35 自動型號） | pistol magazine (.35 auto any)
   suffix: empty
-  description: 10-round single-stack magazine for pistols.
+  description: 適用於手槍的 10 發單排彈匣。 | 10-round single-stack magazine for pistols.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -187,8 +187,8 @@
 - type: entity
   parent: MagazinePistol
   id: MagazinePistolIncendiary
-  name: pistol magazine (.35 auto incendiary)
-  description: 10-round single-stack magazine for pistols. Intended to hold self-igniting incendiary ammunition.
+  name: 手槍彈匣（.35 自動式燃燒彈） | pistol magazine (.35 auto incendiary)
+  description: 適用於手槍的 10 發單排彈匣。設計用於裝載自燃式燃燒彈藥。 | 10-round single-stack magazine for pistols. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -214,8 +214,8 @@
 - type: entity
   parent: BaseMagazinePistol
   id: MagazinePistolPractice
-  name: pistol magazine (.35 auto practice)
-  description: 10-round single-stack magazine for pistols. Intended to hold harmless practice ammunition.
+  name: 手槍彈匣（.35自動練習彈） | pistol magazine (.35 auto practice)
+  description: 適用於手槍的 10 發單排彈匣。專為裝填無害的練習彈藥而設計。 | 10-round single-stack magazine for pistols. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -241,8 +241,8 @@
 - type: entity
   parent: BaseMagazinePistol
   id: MagazinePistolUranium
-  name: pistol magazine (.35 auto uranium)
-  description: 10-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition.
+  name: 手槍彈匣（.35 Auto 鈾彈） | pistol magazine (.35 auto uranium)
+  description: 適用於手槍的 10 發單排彈匣。專為裝載特殊鈾芯彈藥而設計。 | 10-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -268,8 +268,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGun
-  name: SMG magazine (.35 auto)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
+  name: SMG 彈匣（.35 自動手槍） | SMG magazine (.35 auto)
+  description: 適用於衝鋒槍的 30 發雙排彈匣。設計用於裝填通用動能彈藥。 | 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -291,9 +291,9 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunEmpty
-  name: SMG magazine (.35 auto any)
+  name: SMG 彈匣（任何型號的 .35 自動手槍用） | SMG magazine (.35 auto any)
   suffix: empty
-  description: 30-round double-stack magazine for submachine guns.
+  description: 適用於衝鋒槍的 30 發雙排彈匣。 | 30-round double-stack magazine for submachine guns.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -313,8 +313,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunPractice
-  name: SMG magazine (.35 auto practice)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold harmless practice ammunition.
+  name: SMG 彈匣（.35 自動手槍練習用） | SMG magazine (.35 auto practice)
+  description: 適用於衝鋒槍的 30 發雙排彈匣。專為裝載無害的練習彈藥而設計。 | 30-round double-stack magazine for submachine guns. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -340,8 +340,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunUranium
-  name: SMG magazine (.35 auto uranium)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
+  name: SMG 彈匣（.35 自動式鈾彈） | SMG magazine (.35 auto uranium)
+  description: 適用於衝鋒槍的 30 發雙排彈匣。專為裝載特殊鈾芯彈藥而設計。 | 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -367,8 +367,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunIncendiary
-  name: SMG magazine (.35 auto incendiary)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
+  name: SMG 彈匣（.35 自動點火彈） | SMG magazine (.35 auto incendiary)
+  description: 適用於衝鋒槍的 30 發雙排彈匣。設計用於裝填自燃式燃燒彈。 | 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -394,9 +394,9 @@
 - type: entity
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacityEmpty
-  name: machine pistol magazine (.35 auto any)
+  name: 衝鋒槍彈匣（任何型號的.35自動手槍彈匣） | machine pistol magazine (.35 auto any)
   suffix: empty
-  description: Custom 15-round double-stack magazine for the Viper pistol.
+  description: 專為 Viper 手槍設計的 15 發雙排彈匣。 | Custom 15-round double-stack magazine for the Viper pistol.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -416,8 +416,8 @@
 - type: entity
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
-  description: Custom 15-round double-stack magazine for the Viper pistol. Intended to hold general-purpose kinetic ammunition.
+  name: 衝鋒槍彈匣（.35 Auto） | machine pistol magazine (.35 auto)
+  description: 專為 Viper 手槍設計的 15 發雙排彈匣。適用於裝填通用動能彈藥。 | Custom 15-round double-stack magazine for the Viper pistol. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -437,8 +437,8 @@
 - type: entity
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacityPractice
-  name: machine pistol magazine (.35 auto practice)
-  description: Custom 15-round double-stack magazine for the Viper pistol. Intended to hold harmless practice ammunition.
+  name: 衝鋒槍彈匣（.35自動練習彈） | machine pistol magazine (.35 auto practice)
+  description: 專為 Viper 手槍設計的 15 發雙排彈匣。僅適用於裝填無害的練習彈藥。 | Custom 15-round double-stack magazine for the Viper pistol. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice

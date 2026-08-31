@@ -1,20 +1,10 @@
-command-description-stations-list =
-    Returns a list of all stations.
-command-description-stations-get =
-    Gets the active station, if and only if there is only one.
-command-description-stations-getowningstation =
-    Gets the station that a given entity is "owned by" (within)
-command-description-stations-grids =
-    Returns all grids associated with the input station.
-command-description-stations-config =
-    Returns the config associated with the input station, if any.
-command-description-stations-addgrid =
-    Adds a grid to the given station.
-command-description-stations-rmgrid =
-    Removes a grid from the given station.
-command-description-stations-rename =
-    Renames the given station.
-command-description-stations-largestgrid =
-    Returns the largest grid the given station has, if any.
-command-description-stations-rerollBounties =
-    Clears all the current bounties for the station and gets a new selection.
+command-description-stations-list = 回傳所有電台的清單。
+command-description-stations-get = 取得當前工作站，但僅當且僅當僅存在一個工作站時才如此。
+command-description-stations-getowningstation = 取得指定實體「所屬」（位於其中）的站點
+command-description-stations-grids = 回傳所有與輸入站點相關聯的網格。
+command-description-stations-config = 若存在，則返回與該輸入站相關聯的設定。
+command-description-stations-addgrid = 在指定的電台中新增一個網格。
+command-description-stations-rmgrid = 從指定的站點移除一個網格。
+command-description-stations-rename = 將指定的電台重新命名。
+command-description-stations-largestgrid = 若該站點有最大網格，則回傳該網格；若無，則不回傳。
+command-description-stations-rerollBounties = 清除該站點當前所有懸賞任務，並取得新的任務選項。

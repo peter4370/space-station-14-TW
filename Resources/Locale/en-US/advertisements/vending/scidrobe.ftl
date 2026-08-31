@@ -1,3 +1,3 @@
-advertisement-scidrobe-1 = Longing for the smell of plasma burnt flesh? Buy your science clothing now!
-advertisement-scidrobe-2 = Made with 10% Auxetics, so you don't have to worry about losing your arm!
-advertisement-scidrobe-3 = These DEFINITELY will protect you when the artifact inevitably explodes.
+advertisement-scidrobe-1 = 渴望聞到等離子灼燒肉體的氣味嗎？現在就購買您的科學服裝吧！
+advertisement-scidrobe-2 = 採用 10% 輔變材料製成，因此您無須擔心手臂會脫落！
+advertisement-scidrobe-3 = 當那件神器難免爆炸時，這些絕對能保護你。

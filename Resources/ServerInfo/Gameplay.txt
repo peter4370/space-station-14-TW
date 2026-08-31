@@ -1,22 +1,22 @@
-If you’re new to roleplaying or are unfamiliar with IC and OOC please read on. If not, skip to the next section.
+如果您是角色扮演的新手，或對「劇中」（IC）與「劇外」（OOC）不熟悉，請繼續閱讀。 如果不是，請跳至下一節。
 
-SS14 is at its core a roleplaying game - You play a role on the station through your character which you can customise from the lobby prior to joining the game. You can select the roles or jobs your character plays via the customisation menu too. When you’re in a round playing your character, you are IC or In Character. When you’re in character you forget any knowledge of previous rounds or essentially of the outside world and you play as if you’re a member of the station's crew.
+SS14 本質上是一款角色扮演遊戲——你將透過自己的角色在空間站中扮演一個角色，並可在加入遊戲前於大廳中自訂該角色。 你也可以透過自訂選單，選擇角色所擔任的角色或職務。 當你在回合中扮演角色時，你就是「IC」（即「角色內」）。 當你投入角色時，你會忘記之前幾輪的任何資訊，甚至幾乎忘記外界的一切，並彷彿自己就是空間站船員的一員般進行遊戲。
 
-Therefore, OOC or Out of Character is any conversations you have outside of the game world e.g. in the OOC chat, on discord or with your friends. You shouldn’t discuss the current round or anything that’s IC (in character) in out of character OOC chats. Likewise anything you see or read in OOC cannot be used by your character in game such as if someone on discord names a traitor or tells you they’re dying in a certain location and for you to go help them. This is known as metagaming and will get you banned if discovered.
+因此，OOC（即「脫角」或「角色外」）是指任何發生在遊戲世界之外的對話，例如： 在 OOC 聊天室、Discord 上，或是與你的朋友一起。 你不應該在「角色外」（OOC）的聊天中討論當前回合或任何「角色內」（IC）的內容。 同樣地，你在 OOC 中所見或所讀到的任何內容，你的角色在遊戲中都不得使用；例如，若有人在 Discord 上指名道姓地指認某個叛徒，或是告訴你他們正在某個地點掙扎求生，並要你前去協助他們。 這被稱為「超遊戲行為」，一旦被發現，將會遭到封號。
 
-If you suspect a player in game is metagaming (e.g. you’re a traitor and they just walk up to you and kill you without you doing anything to antagonise them) then report them via ahelp or discord.
+若您懷疑遊戲中某位玩家有「超遊戲」行為（例如： （如果你是叛徒，而他們只是走過來殺了你，且你並未做任何激怒他們的舉動），請透過 ahelp 或 Discord 檢舉他們。
 
-To summarise, when you’re in game, don’t discuss the round anywhere else until the round is over and don’t share information about the round in OOC such as if you’re dying, where you are or if you find a traitor.
+總而言之，當你身處遊戲中時，請勿在其他任何地方討論當輪遊戲，直到該輪結束為止；也不要在遊戲外（OOC）分享關於該輪的資訊，例如你是否即將陣亡、目前所在位置，或是是否發現叛徒。
 
 
-Traitors, antagonists, RDM and “self antag”
+叛徒、反派、RDM 以及「自我反派」
 
-If in your character customisation settings you selected the chance to become an antagonist (antag) or other traitor role, it is not guaranteed that you will be one. When a traitor gamemode round starts there is a random roll of all the players who selected the chance to become a traitor and only some get selected. They will be notified they are a traitor in chat and will have a set of objectives they can view by pressing C.
+若您在角色自訂設定中選擇了「有機會成為反派（antag）」或其他背叛者角色的選項，並不保證您一定會成為該角色。 當「叛徒」遊戲模式的回合開始時，系統會對所有選擇了「有機會成為叛徒」選項的玩家進行隨機抽籤，最終僅有部分玩家會被選中。 他們將在聊天頻道中被標示為「叛徒」，並會收到一組任務目標，按下 C 鍵即可查看。
 
-Being an antagonist is not an excuse to go on a murder spree. Your job is to complete your objectives which on occasion will include escaping alive or dying a glorious death. How you complete your objectives is up to you so murder is valid but try to have fun (ideally not at everyones expense but that’s up to you).
+身為反派，並不代表可以以此為藉口大開殺戒。 你的任務是完成各項目標，這些目標有時包括倖存逃脫，有時則是光榮犧牲。 如何達成目標全由你決定，因此殺人也是可行的，但請盡量玩得開心（最好別是以犧牲所有人為代價，不過這就看你了）。
 
-If you suspect an antagonist such as a traitor or cultist etc report them to security as fast as possible and if necessary do what you can to protect yourself. Remember traitors are people too, so ideally they should be arrested and prosecuted under space law and not just murdered (but do what you need to do to survive).
+若您懷疑某人屬於敵對分子（例如叛徒或邪教分子等），請儘快向保安部門舉報，並在必要時採取一切必要措施保護自己。 請記住，叛徒也是人，因此理想情況下，應依據太空法將他們逮捕並起訴，而非直接殺害（但為了生存，請採取必要的行動）。
 
-RDM or random deathmatch is the act of killing someone for no reason or attempting to. If you are being attacked it is likely the other person could be an antag but if you’re unsure, ask the admins for help (ahelp) to check this when convenient.
+RDM（即隨機死亡對戰）是指無故殺害他人或企圖殺害他人的行為。 若您正遭受攻擊，對方很可能是敵對玩家；但若您不確定，請向管理員尋求協助（ahelp），以便他們在方便時進行確認。
 
-Self antag or self antagonising is when you are NOT an antagonist which is determined at round start on traitor modes, and you go out of your way to break the law, damage the station or commit murder. Breaking the law is not inherently self antagging, but murdering, attacking, attempting to break into high security areas etc are examples of self antagging and will get you banned. Unless you are an official antagonist then you are a normal member of the crew who’s only objective is to complete their shift in their designated role.
+所謂「自我反派」或「自我反派行為」，是指在叛徒模式中，當你在回合開始時被判定為「非反派」角色，卻仍刻意違反法規、破壞空間站或犯下謀殺罪行。 違法行為本身並不等同於自我標記，但謀殺、攻擊、企圖闖入高度戒備區域等行為，均屬自我標記的範疇，將導致您被封禁。 除非你是正式的反派角色，否則你就是船員中的一員，唯一目標就是以指定身分完成當班任務。

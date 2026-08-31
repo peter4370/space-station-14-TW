@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseStructure, StructureHealthFurniture ]
   id: KitchenSpike
-  name: meat spike
-  description: A spike for collecting meat from animals.
+  name: 釣肉架 | meat spike
+  description: 一種用於從動物身上取肉的尖刺。 | A spike for collecting meat from animals.
   components:
   - type: InteractionOutline
   - type: Sprite

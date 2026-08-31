@@ -3,7 +3,7 @@
 
 - type: entity
   parent: MarkerBase
-  name: Salvage Material Crate Spawner
+  name: 回收材料箱生成器 | Salvage Material Crate Spawner
   id: SalvageMaterialCrateSpawner
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 
 - type: entity
   parent: MarkerBase
-  name: salvage loot spawner
+  name: 打撈戰利品生成器 | salvage loot spawner
   id: SalvageLootSpawner
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   parent: MarkerBase
-  name: Salvage Mob Spawner
+  name: 「打撈團」生成器 | Salvage Mob Spawner
   id: SalvageMobSpawner
   suffix: 25
   components:
@@ -101,7 +101,7 @@
       tableId: SalvageMobTable
 
 - type: entity #I made this in case someone decided to make a terrifying space tick swarm for salvage. that someone may be me -EG404
-  name: Salvage Space Tick Spawner
+  name: 回收空間蜱蟲生成器 | Salvage Space Tick Spawner
   id: SpaceTickSpawner
   parent: MarkerBase
   suffix: 100
@@ -116,7 +116,7 @@
         - MobTickSalvage
 
 - type: entity
-  name: Salvage Space Bear Spawner
+  name: 回收「太空熊」生成器 | Salvage Space Bear Spawner
   id: SpawnMobBearSalvage
   parent: MarkerBase
   components:
@@ -130,7 +130,7 @@
     - MobBearSpaceSalvage
 
 - type: entity
-  name: Salvage Space Kangaroo Spawner
+  name: 回收空間袋鼠生成器 | Salvage Space Kangaroo Spawner
   id: SpawnMobKangarooSalvage
   parent: MarkerBase
   components:
@@ -144,7 +144,7 @@
     - MobKangarooSpaceSalvage
 
 - type: entity
-  name: Salvage Space Spider Spawner
+  name: 回收「太空蜘蛛」生成器 | Salvage Space Spider Spawner
   id: SpawnMobSpiderSalvage
   parent: MarkerBase
   components:
@@ -158,7 +158,7 @@
     - MobSpiderSpaceSalvage
 
 - type: entity
-  name: Salvage Space Cobra Spawner
+  name: 回收太空眼镜蛇生成器 | Salvage Space Cobra Spawner
   id: SpawnMobCobraSalvage
   parent: MarkerBase
   components:
@@ -173,7 +173,7 @@
 
 - type: entity
   parent: MarkerBase
-  name: Salvage Flesh Spawner
+  name: 回收肉體生成器 | Salvage Flesh Spawner
   id: SalvageFleshSpawner
   suffix: 100
   components:
@@ -193,7 +193,7 @@
 
 - type: entity
   parent: MarkerBase
-  name: Salvage Living Light Spawner
+  name: 回收「生機之光」生成器 | Salvage Living Light Spawner
   id: SalvageLivingLightSpawner
   suffix: 100
   components:

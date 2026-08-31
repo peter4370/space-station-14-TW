@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitEVA
-  name: EVA suit
-  description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space.
+  name: EVA 防護服 | EVA suit
+  description: 一款輕量級太空服，具備保護穿著者免受太空真空環境侵害的基本能力。 | A lightweight space suit with the basic ability to protect the wearer from the vacuum of space.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, BaseSyndicateContraband ]
   id: ClothingOuterEVASuitSyndicate
-  name: syndicate EVA suit
-  description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
+  name: 辛迪加 EVA 戰衣 | syndicate EVA suit
+  description: "背面貼有標籤，上面寫著：「這絕對不是敵對企業的財產，真的！」 | Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: [ TemperatureProtectionMinimal, ClothingOuterEVASuitBaseToggleable ]
   id: ClothingOuterSuitEmergency
-  name: emergency pressure suit
-  description: This bulky, uninsulated pressure suit was clearly not meant for extended use in outer space, despite NanoTrasen's claims that it passes corporate regulations.
+  name: 緊急壓力服 | emergency pressure suit
+  description: 這套笨重且未經隔熱處理的壓力服，顯然並非為在太空中長時間使用而設計，儘管 NanoTrasen 聲稱它符合公司規定。 | This bulky, uninsulated pressure suit was clearly not meant for extended use in outer space, despite NanoTrasen's claims that it passes corporate regulations.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: [ TemperatureProtectionMinimal, ClothingOuterEVASuitBase]
   id:  ClothingOuterHardsuitEVAPrisoner
-  name: prisoner pressure suit
-  description: An emergency pressure suit meant for prisoners. It's not fully rated for extended use in outer space, but some wardens consider the lack of thermal insulation a feature.
+  name: 囚犯壓力服 | prisoner pressure suit
+  description: 一款專為囚犯設計的緊急壓力服。雖然它未經全面認證，無法在太空中長時間使用，但有些獄警卻將其缺乏隔熱功能視為一項特點。 | An emergency pressure suit meant for prisoners. It's not fully rated for extended use in outer space, but some wardens consider the lack of thermal insulation a feature.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_prisoner.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitAncientEVA
-  name: NTSRA voidsuit #Nanotrasen Space Research Association
-  description: An ancient space suit, designed by the NTSRA branch of CentComm. It is very finely crafted, allowing for greater mobility than most modern space suits.
+  name: NTSRA 無效訴訟 #Nanotrasen Space Research Association | NTSRA voidsuit #Nanotrasen Space Research Association
+  description: 一款由中央司令部（CentCom）轄下NTSRA分部設計的古早款太空服。其工藝極為精湛，活動靈活性甚至優於多數現代太空服。 | An ancient space suit, designed by the NTSRA branch of CentComm. It is very finely crafted, allowing for greater mobility than most modern space suits.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/ancient_voidsuit.rsi

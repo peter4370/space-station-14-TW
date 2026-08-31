@@ -1,6 +1,6 @@
-job-greet-station-name = Welcome aboard {$stationName}.
-job-greet-introduce-job-name = Your role is: {$jobName}.
-job-greet-important-disconnect-admin-notify = You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via ahelp.
-job-greet-supervisors-warning = As the {$jobName} you answer directly to {$supervisors}. Special circumstances may change this.
-job-greet-crew-shortages = As this station was initially staffed with a skeleton crew, additional access has been added to your ID card.
-job-not-available-wait-in-lobby = The round has started, but you did not receive any of your preferred job roles (or have no preferred job roles selected) and chose to remain in the lobby. You can change this behavior on the customization screen.
+job-greet-station-name = 歡迎登陸 { $stationName }。
+job-greet-introduce-job-name = 您的角色是：{ $jobName }。
+job-greet-important-disconnect-admin-notify = 您目前擔任的職位對遊戲進度至關重要。若您必須斷線，請透過 ahelp 通知管理員。
+job-greet-supervisors-warning = 身為 { $jobName }，您直接向 { $supervisors } 彙報。特殊情況下，此安排可能會有所變動。
+job-greet-crew-shortages = 由於本站最初僅配置了少量人員，因此已為您的ID卡卡新增了額外的進出權限。
+job-not-available-wait-in-lobby = 本輪已開始，但您並未獲得任何您偏好的職位（或未選取任何偏好的職位），因此選擇留在等候室。您可以在自訂畫面中變更此設定。

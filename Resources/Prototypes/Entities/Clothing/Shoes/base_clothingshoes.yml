@@ -47,7 +47,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: clothing-boots-sidearm
+        name: 服裝-靴子-配槍 | clothing-boots-sidearm
         priority: 4
         ejectOnBreak: true
         whitelist:
@@ -69,4 +69,4 @@
   abstract: true
   parent: [ ClothingShoesBaseButcherable, TemperatureProtectionMinimal ]
   id: ClothingShoesBaseWinterBoots
-  description: Fluffy boots to help survive even the coldest of winters.
+  description: 毛茸茸的靴子，助您度過最嚴寒的冬天。 | Fluffy boots to help survive even the coldest of winters.

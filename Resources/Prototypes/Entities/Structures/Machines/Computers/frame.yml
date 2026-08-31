@@ -47,8 +47,8 @@
 - type: entity
   id: ComputerFrame
   parent: BaseStructureComputer
-  name: computer frame
-  description: A computer under construction.
+  name: 電腦機殼 | computer frame
+  description: 一台正在組裝中的電腦。 | A computer under construction.
   components:
   - type: Sprite
     sprite: Structures/Machines/parts.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: [ BaseStructureComputerIndestructible, StructureHealthMachineFlimsy ]
   id: ComputerBroken
-  name: broken computer
-  description: This computer has seen better days.
+  name: 故障的電腦 | broken computer
+  description: 這台電腦已經不復當年的風采了。 | This computer has seen better days.
   components:
   - type: Construction
     graph: Computer

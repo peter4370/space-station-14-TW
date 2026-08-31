@@ -2,8 +2,8 @@
   abstract: true
   parent: StructureHealthContainerFlimsy
   id: BaseBigBox
-  name: cardboard box #it's still just a box
-  description: Huh? Just a box...
+  name: 紙箱 #it's still just a box | cardboard box #it's still just a box
+  description: 咦？只是一個盒子…… | Huh? Just a box...
   components:
     - type: Transform
       noRot: true
@@ -84,7 +84,7 @@
   id: StealthBox
   suffix: stealth
   parent: BaseBigBox
-  description: Kept ya waiting, huh?
+  description: 讓你們久等了，對吧？ | Kept ya waiting, huh?
   components:
     - type: Damageable
       damageModifierSet: WoodMod #Syndicate boxes should have a bit of protection
@@ -108,8 +108,8 @@
   id: GhostBox
   parent: StealthBox
   suffix: ""
-  name: ghost box
-  description: Beware!
+  name: 幽靈盒 | ghost box
+  description: 請注意！ | Beware!
   components:
     - type: Fixtures
       fixtures:

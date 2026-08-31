@@ -2,8 +2,8 @@
 - type: entity
   parent: [ BaseSimpleMob, MobCombat, MobRobotic, BaseMobDestructible ]
   id: MobHivebot
-  name: hivebot
-  description: Agitating, mechanized pests.
+  name: hivebot | hivebot
+  description: 令人煩擾的機械化害蟲。 | Agitating, mechanized pests.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -73,9 +73,9 @@
 - type: entity
   parent: MobHivebot
   id: MobHivebotRanged
-  name: hivebot
+  name: hivebot | hivebot
   suffix: Ranged
-  description: Agitating, mechanized pests. This one has a gun.
+  description: 令人不安的機械化害蟲。這隻還拿著一把槍。 | Agitating, mechanized pests. This one has a gun.
   components:
   - type: Sprite
     layers:
@@ -104,8 +104,8 @@
 - type: entity
   parent: MobHivebotRanged
   id: MobHivebotStrong
-  name: strong hivebot
-  description: Agitating, mechanized pests. This one looks much stronger then normal.
+  name: 強大的 Hivebot | strong hivebot
+  description: 令人煩躁的機械化害蟲。這隻看起來比平常的要強大得多。 | Agitating, mechanized pests. This one looks much stronger then normal.
   components:
   - type: Sprite
     layers:

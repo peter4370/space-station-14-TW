@@ -1,24 +1,25 @@
+
 <Document>
-  # Slime People
+  # 史萊姆人
 
   <Box>
     <GuideEntityEmbed Entity="MobSlimePerson" Caption=""/>
   </Box>
 
-  They breathe nitrogen instead of oxygen, which is abundant in the station air, but harder to find compressed into gas tanks. They take significant damage if they are sprayed or splashed with water, but can
-  (and like other species, need to) drink it safely to stay hydrated.
-  They exhale nitrous oxide and are unaffected by it.
-  Their body can process 6 reagents at the same time instead of just 2.
+  他們呼吸的是氮氣而非氧氣——雖然空間站的空氣中富含氧氣，但要將其壓縮存入氣罐中卻較為困難。 若被水噴灑或濺到身上，牠們會受到相當大的傷害，但可以
+  （且與其他物種一樣，必須）安全地飲用水分以維持體內水分平衡。
+  他們會呼出一氧化二氮，卻不會受到其影響。
+  他們的身體能夠同時處理 6 種試劑，而不是只有 2 種。
 
-  Slimepeople have an [bold]internal 2x3 storage inventory[/bold] inside of their slime membrane. Anyone can see what's inside and take it out of you without asking,
-  so be careful.
+  史萊姆人其史萊姆膜內擁有一個 [bold]2x3 的內部儲物欄位[/bold]。 任何人都能看到裡面有什麼，而且不用徵得你的同意就能拿走，
+  所以請多加小心。
 
-  Slimepeople have roughly [color=#1e90ff]double[/color] regeneration compared to other humanoids and can regenerate from far greater wounds up to [color=#1e90ff]triple[/color] compared to others.
+  相較於其他人形生物，史萊姆人的再生能力大約是其[color=#1e90ff]兩倍[/color]，且能從比其他生物嚴重得多、甚至多達[color=#1e90ff]三倍[/color]的傷勢中恢復。
 
-  Their slime "blood" can not be regenerated from Iron. Slime Blood is technically a source of
-  moderately filling food for other species, although drinking the blood of your coworkers is usually frowned upon.
-  They suffocate 80% slower, but take pressure damage 9% faster. This makes them by far the species most capable to survive in hard vacuum. For a while.
+  牠們的黏液「血液」無法透過鐵來再生。 從技術上來說，「史萊姆血」是
+  對其他物種而言頗具飽足感的食物來源，儘管飲用同事的血液通常會招致非議。
+  牠們窒息的速度慢了 80%，但承受壓力傷害的速度卻快了 9%。 這使得牠們無疑是迄今為止最能適應極度真空環境的物種。 有一陣子。
 
-  They take [color=#1e90ff]40% less Blunt damage[/color], but [color=#ffa500]50% more Cold damage, 20% more Slash damage and 20% more Piercing damage[/color].
+  他們承受的 [color=#1e90ff]鈍擊傷害減少 40%[/color]，但承受的 [color=#ffa500]冰霜傷害增加 50%、斬擊傷害增加 20% 以及穿刺傷害增加 20%[/color]。
 
 </Document>

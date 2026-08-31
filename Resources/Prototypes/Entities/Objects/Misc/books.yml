@@ -1,8 +1,8 @@
 - type: entity
-  name: book
+  name: 書 | book
   parent: BaseItem
   id: BookBase
-  description: A hardcover book.
+  description: 一本精裝書。 | A hardcover book.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -73,8 +73,8 @@
 - type: entity
   id: BookSpaceEncyclopedia
   parent: BaseGuidebook
-  name: space encyclopedia
-  description: An encyclopedia containing all the knowledge. The author of this encyclopedia is unknown.
+  name: 太空百科全書 | space encyclopedia
+  description: 一部蘊含所有知識的百科全書。這部百科全書的作者不詳。 | An encyclopedia containing all the knowledge. The author of this encyclopedia is unknown.
   components:
   - type: Sprite
     layers:
@@ -94,8 +94,8 @@
 - type: entity
   id: BookTheBookOfControl
   parent: BaseGuidebook
-  name: the book of control
-  description: Essential to become robust.
+  name: 《控制之書》 | the book of control
+  description: 這是變得堅韌不可或缺的。 | Essential to become robust.
   components:
   - type: Sprite
     layers:
@@ -115,8 +115,8 @@
 - type: entity
   id: BookBartendersManual
   parent: BaseGuidebook
-  name: bartender's manual
-  description: This manual is stained with beer.
+  name: 調酒師手冊 | bartender's manual
+  description: 這本手冊上有啤酒漬。 | This manual is stained with beer.
   components:
   - type: Sprite
     layers:
@@ -134,8 +134,8 @@
 - type: entity
   id: BookHowToCookForFortySpaceman
   parent: BaseGuidebook
-  name: How To Cook For Forty Spacemen
-  description: A book about cooking written by a space chef.
+  name: 如何為四十名太空人做飯 | How To Cook For Forty Spacemen
+  description: 一本由太空廚師所寫的烹飪書。 | A book about cooking written by a space chef.
   components:
   - type: Sprite
     layers:
@@ -152,8 +152,8 @@
 - type: entity
   id: BookLeafLoversSecret
   parent: BaseGuidebook
-  name: leaf lover's secret
-  description: It has a strong weed smell. It motivates you to feed and seed.
+  name: 葉子愛好者的秘密 | leaf lover's secret
+  description: 它散發著濃烈的雜草氣味。這會激勵你進行施肥和播種。 | It has a strong weed smell. It motivates you to feed and seed.
   components:
   - type: Sprite
     layers:
@@ -173,8 +173,8 @@
 - type: entity
   id: BookEngineersHandbook
   parent: BaseGuidebook
-  name: engineer's handbook
-  description: A handbook about engineering written by Nanotrasen.
+  name: 工程師手冊 | engineer's handbook
+  description: 由 Nanotrasen 撰寫的一本關於工程學的手冊。 | A handbook about engineering written by Nanotrasen.
   components:
   - type: Sprite
     layers:
@@ -193,8 +193,8 @@
 - type: entity
   id: BookScientistsGuidebook
   parent: BaseGuidebook
-  name: scientist's guidebook
-  description: A guidebook about science written by Nanotrasen.
+  name: 科學家指南 | scientist's guidebook
+  description: 由 Nanotrasen 撰寫的一本關於科學的指南。 | A guidebook about science written by Nanotrasen.
   components:
   - type: Sprite
     layers:
@@ -211,8 +211,8 @@
 - type: entity
   id: BookSecurity
   parent: BaseGuidebook
-  name: security 101
-  description: A book about security written by Nanotrasen. The book is stained with blood. It seems to have been used more as a weapon than reading material.
+  name: 資安入門 | security 101
+  description: 一本由納諾特森所撰寫的安全相關書籍。書上沾滿了血跡，看來它被當作武器使用的次數，似乎比當作閱讀材料還要多。 | A book about security written by Nanotrasen. The book is stained with blood. It seems to have been used more as a weapon than reading material.
   components:
   - type: Sprite
     layers:
@@ -235,8 +235,8 @@
 - type: entity
   id: BookHowToKeepStationClean
   parent: BaseGuidebook
-  name: how to keep station clean
-  description: This book is very clean.
+  name: 如何保持車站整潔 | how to keep station clean
+  description: 這本書非常乾淨。 | This book is very clean.
   components:
   - type: Sprite
     layers:
@@ -252,8 +252,8 @@
 - type: entity
   id: BookHowToRockAndStone
   parent: BaseGuidebook
-  name: how to rock and stone
-  description: A very detailed guide about salvage written by Karl, a legendary space miner, however he's missing. It motivates you to rock and stone.
+  name: 如何玩轉岩石與石頭 | how to rock and stone
+  description: 這是一份由傳奇太空礦工卡爾撰寫的、關於打撈作業的極為詳盡指南，不過他本人卻下落不明。這份指南會激勵你大展身手。 | A very detailed guide about salvage written by Karl, a legendary space miner, however he's missing. It motivates you to rock and stone.
   components:
   - type: Sprite
     layers:
@@ -273,8 +273,8 @@
 - type: entity
   id: BookMedicalReferenceBook
   parent: BaseGuidebook
-  name: medical reference book
-  description: A reference book about medical written by an old doctor. The handwriting is barely comprehensible.
+  name: 醫學參考書 | medical reference book
+  description: 一本由一位老醫師撰寫的醫學參考書。字跡幾乎難以辨認。 | A reference book about medical written by an old doctor. The handwriting is barely comprehensible.
   components:
   - type: Sprite
     layers:
@@ -292,8 +292,8 @@
 - type: entity
   id: BookHowToSurvive
   parent: BaseGuidebook
-  name: how to survive
-  description: Ironically the author of this book is dead.
+  name: 如何生存 | how to survive
+  description: 諷刺的是，這本書的作者已經過世了。 | Ironically the author of this book is dead.
   components:
   - type: Sprite
     layers:
@@ -313,8 +313,8 @@
 - type: entity
   id: BookChemicalCompendium
   parent: BaseGuidebook
-  name: chempendium
-  description: A comprehensive guide written by some old skeleton of a professor about chemical synthesis.
+  name: chempendium | chempendium
+  description: 由某位老教授撰寫的一本關於化學合成的綜合指南。 | A comprehensive guide written by some old skeleton of a professor about chemical synthesis.
   components:
   - type: Sprite
     layers:
@@ -332,8 +332,8 @@
 - type: entity
   id: BookAILawCompendium
   parent: BaseGuidebook
-  name: My, Robot
-  description: A dictionary of all the ways silicons can go wrong. By Isaac Crewsimov.
+  name: 哎呀，機器人 | My, Robot
+  description: 一本詳盡列出矽膠可能出錯的所有情況的辭典。作者：艾薩克・克魯西莫夫。 | A dictionary of all the ways silicons can go wrong. By Isaac Crewsimov.
   components:
   - type: Sprite
     layers:
@@ -351,8 +351,8 @@
 - type: entity
   id: BookSpaceLaw
   parent: BaseGuidebook
-  name: space law
-  description: A set of Nanotrasen guidelines for keeping law and order on their space stations.
+  name: 太空法 | space law
+  description: 一套由納諾特森（Nanotrasen）制定的、用於維護其太空站治安與秩序的準則。 | A set of Nanotrasen guidelines for keeping law and order on their space stations.
   components:
   - type: Sprite
     layers:
@@ -369,7 +369,7 @@
   parent: BookBase
   id: BookRandom
   suffix: random visual
-  description: Each book is unique! What is hidden in this one?
+  description: 每一本書都是獨一無二的！這本書裡藏著什麼呢？ | Each book is unique! What is hidden in this one?
   components:
   - type: RandomMetadata
     nameSegments:
@@ -441,8 +441,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosDistro
-  name: "Newton's Guide to Atmos: The Distro"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "《牛頓的大氣指南：發行版》 | Newton's Guide to Atmos: The Distro"
+  description: 頁邊潦草地寫滿了無數難以辨識的筆記。正文的大部分都被手寫的問號覆蓋了。 | There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -460,8 +460,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosWaste
-  name: "Newton's Guide to Atmos: Waste"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "《牛頓的《大氣》指南：廢棄物》 | Newton's Guide to Atmos: Waste"
+  description: 頁邊潦草地寫滿了無數難以辨識的筆記。正文的大部分都被手寫的問號覆蓋了。 | There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -479,8 +479,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosAirAlarms
-  name: "Newton's Guide to Atmos: Air Alarms"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "《牛頓的大氣指南：空氣警報》 | Newton's Guide to Atmos: Air Alarms"
+  description: 頁邊潦草地寫滿了無數難以辨識的筆記。正文的大部分都被手寫的問號覆蓋了。 | There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -498,8 +498,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosVentsMore
-  name: "Newton's Guide to Atmos: Vents and More"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: "《牛頓的大氣指南：通風口及其他》 | Newton's Guide to Atmos: Vents and More"
+  description: 頁邊潦草地寫滿了無數難以辨識的筆記。正文的大部分都被手寫的問號覆蓋了。 | There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:

@@ -1,1 +1,1 @@
-inspect-mind-verb-get-data-text = Inspect Mind
+inspect-mind-verb-get-data-text = 檢視心靈

@@ -40,7 +40,7 @@
   parent: BaseBullet
   id: BulletNanite
   categories: [ HideSpawnMenu ]
-  name: nanite crystal
+  name: 奈米晶體 | nanite crystal
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/nanite_crystal.rsi

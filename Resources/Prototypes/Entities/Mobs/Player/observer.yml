@@ -2,7 +2,7 @@
   id: Incorporeal
   save: false
   abstract: true
-  description: Mobs without physical bodies
+  description: 沒有實體的怪物 | Mobs without physical bodies
   components:
   - type: Sprite
     noRot: true
@@ -35,8 +35,8 @@
   - BaseMob
   id: MobObserverBase
   abstract: true
-  name: observer
-  description: Boo!
+  name: 觀察家 | observer
+  description: 嗚哇！ | Boo!
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -123,8 +123,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: 嗚哇！ | Boo!
+  description: 因為無聊而嚇唬你的船員吧！ | Scare your crew members because of boredom!
   components:
   - type: Action
     checkCanInteract: false
@@ -139,8 +139,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleLighting
-  name: Toggle Lighting
-  description: Toggle light rendering to better observe dark areas.
+  name: 切換照明 | Toggle Lighting
+  description: 切換光源渲染模式，以便更清楚地觀察暗部區域。 | Toggle light rendering to better observe dark areas.
   components:
   - type: Action
     clientExclusive: true
@@ -153,8 +153,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: 切換視野 | Toggle FoV
+  description: 切換視野，以便查看玩家所見的畫面。 | Toggles field-of-view in order to see what players see.
   components:
   - type: Action
     clientExclusive: true
@@ -167,8 +167,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: 切換幽靈模式 | Toggle Ghosts
+  description: 切換其他幽靈的顯示狀態。 | Toggle the visibility of other ghosts.
   components:
   - type: Action
     clientExclusive: true
@@ -182,8 +182,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: 切換「幽靈聽覺」功能 | Toggle Ghost Hearing
+  description: 在「聆聽所有訊息」與「僅聆聽廣播及附近訊息」之間切換。 | Toggle between hearing all messages and hearing only radio & nearby messages.
   components:
   - type: Action
   - type: Sprite

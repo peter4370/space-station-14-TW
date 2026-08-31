@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseStructure, StructureHealthBarrierWeak ]
   id: BaseRailing
-  name: railing
-  description: Basic railing meant to protect idiots like you from falling.
+  name: 欄杆 | railing
+  description: 這只是個基本的護欄，用來防止像你這樣的白癡掉下去。 | Basic railing meant to protect idiots like you from falling.
   components:
   - type: Sprite
     drawdepth: SmallObjects

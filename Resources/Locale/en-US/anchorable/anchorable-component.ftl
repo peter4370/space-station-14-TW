@@ -1,5 +1,4 @@
-anchorable-anchored = Anchored
-anchorable-unanchored = Unanchored
-anchorable-occupied = Tile occupied
-
-anchorable-fail-not-on-station = This can only be anchored on a station!
+anchorable-anchored = 錨定
+anchorable-unanchored = 《無錨》
+anchorable-occupied = 磁磚已被佔用
+anchorable-fail-not-on-station = 這只能在某個站點上錨定！

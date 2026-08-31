@@ -1,8 +1,9 @@
+
 <Document>
 
-# Biological
+# 生物
 
-These reagents include chemicals that you can get from certain materials and from living things. To get the other chemicals you have to use machines like the electrolyzer and the centrifuge.
+這些試劑包含可從特定材料及生物體中取得的化學物質。 要獲得其他化學物質，就必須使用電解槽和離心機這類設備。
 
 <GuideReagentGroupEmbed Group="Biological"/>
 

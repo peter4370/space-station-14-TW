@@ -115,7 +115,7 @@
 
 - type: entity
   id: PuddleSparkle
-  name: sparkle
+  name: 閃耀 | sparkle
   placement:
     mode: SnapgridCenter
   components:
@@ -136,8 +136,8 @@
 - type: entity
   parent: SolutionTile
   id: Puddle
-  name: puddle
-  description: A puddle of liquid.
+  name: 水窪 | puddle
+  description: 一灘液體。 | A puddle of liquid.
   placement:
     mode: SnapgridCenter
   components:

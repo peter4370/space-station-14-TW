@@ -47,8 +47,8 @@
 - type: entity
   parent: [SolutionTiny, BaseChemistryVial]
   id: ChemistryEmptyVial
-  name: vial
-  description: A small vial.
+  name: 小瓶 | vial
+  description: 一個小玻璃瓶。 | A small vial.
   components:
   - type: Item
     sprite: Objects/Specific/Chemistry/vial.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: [SolutionVeryTiny, BaseChemistryVial]
   id: ChemistryEmptyVialSmall
-  name: mini vial
-  description: A smaller vial.
+  name: 迷你小瓶 | mini vial
+  description: 一個較小的安瓿。 | A smaller vial.
   components:
   - type: Item
     sprite: Objects/Specific/Chemistry/vial_mini.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: [SolutionTiny, BaseChemistryAmpoule]
   id: ChemistryEmptyAmpoule
-  name: ampoule
-  description: Break to open.
+  name: 安瓿 | ampoule
+  description: 拉開即可開啟。 | Break to open.
   components:
   - type: Item
     sprite: Objects/Specific/Chemistry/ampoule.rsi

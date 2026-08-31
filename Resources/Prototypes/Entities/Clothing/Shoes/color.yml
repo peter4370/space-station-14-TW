@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorBlack
-  name: black shoes
-  description: Stylish black shoes.
+  name: 黑色鞋子 | black shoes
+  description: 時尚的黑色鞋子。 | Stylish black shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorWhite
-  name: white shoes
-  description: Don't take them off at your office Christmas party.
+  name: 白色鞋子 | white shoes
+  description: 在辦公室的聖誕派對上，千萬別把它們脫下來。 | Don't take them off at your office Christmas party.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorBlue
-  name: blue shoes
-  description: Stylish blue shoes.
+  name: 藍色鞋子 | blue shoes
+  description: 一雙時尚的藍色鞋子。 | Stylish blue shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorBrown
-  name: brown shoes
-  description: A pair of brown shoes.
+  name: 棕色鞋子 | brown shoes
+  description: 一雙棕色鞋子。 | A pair of brown shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorGreen
-  name: green shoes
-  description: Stylish green shoes.
+  name: 綠色鞋子 | green shoes
+  description: 一雙時尚的綠色鞋子。 | Stylish green shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorOrange
-  name: orange shoes
-  description: Stylish orange shoes.
+  name: 橘色鞋子 | orange shoes
+  description: 一雙時尚的橘色鞋子。 | Stylish orange shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorRed
-  name: red shoes
-  description: Stylish red shoes.
+  name: 紅鞋 | red shoes
+  description: 一雙時尚的紅鞋。 | Stylish red shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -219,8 +219,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorYellow
-  name: yellow shoes
-  description: Stylish yellow shoes.
+  name: 黃色鞋子 | yellow shoes
+  description: 一雙時尚的黃色鞋子。 | Stylish yellow shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi
@@ -250,8 +250,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesColorPurple
-  name: purple shoes
-  description: Stylish purple shoes.
+  name: 紫色鞋子 | purple shoes
+  description: 時尚的紫色鞋子。 | Stylish purple shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/color.rsi

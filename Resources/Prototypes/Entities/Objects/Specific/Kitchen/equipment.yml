@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseHandheldGrinder
   id: MortarAndPestle
-  name: mortar and pestle
-  description: Used for grinding small amounts of objects.
+  name: 研缽與研杵 | mortar and pestle
+  description: 用於研磨少量物件。 | Used for grinding small amounts of objects.
   components:
   - type: Sprite
     sprite: Objects/Specific/Kitchen/mortar_and_pestle.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: MortarAndPestle
   id: MortarAndPestleMakeshift
-  name: makeshift mortar and pestle
-  description: Used for grinding small amounts of objects. Inferior version made out of wood.
+  name: 臨時製作的研缽與研杵 | makeshift mortar and pestle
+  description: 用於研磨少量物品。較低級的版本由木頭製成。 | Used for grinding small amounts of objects. Inferior version made out of wood.
   components:
   - type: Sprite
     sprite: Objects/Specific/Kitchen/mortar_and_pestle.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseHandheldGrinder
   id: HandheldJuicer
-  name: handheld juicer
-  description: Used for juicing small amounts of objects.
+  name: 手持式榨汁機 | handheld juicer
+  description: 用於榨取少量物體的汁液。 | Used for juicing small amounts of objects.
   components:
   - type: Sprite
     sprite: Objects/Specific/Kitchen/handheld_juicer.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: HandheldJuicer
   id: HandheldJuicerMakeshift
-  name: makeshift juicer
-  description: Used for juicing small amounts of objects. Inferior version made out of wood.
+  name: 簡易榨汁機 | makeshift juicer
+  description: 用於榨取少量物體的汁液。較劣的版本由木頭製成。 | Used for juicing small amounts of objects. Inferior version made out of wood.
   components:
   - type: Sprite
     sprite: Objects/Specific/Kitchen/handheld_juicer.rsi
@@ -127,10 +127,10 @@
 
 # Construction
 - type: entity
-  name: incomplete mortar and pestle
+  name: 不完整的研缽與研杵 | incomplete mortar and pestle
   parent: BaseItem
   id: IncompleteMortarAndPestle
-  description: A few planks of wood stuck together.
+  description: 幾塊木板拼湊在一起。 | A few planks of wood stuck together.
   components:
   - type: Sprite
     sprite: Objects/Specific/Kitchen/mortar_and_pestle.rsi
@@ -147,10 +147,10 @@
     node: incompleteMortarAndPestle
 
 - type: entity
-  name: incomplete handheld juicer
+  name: 不完整的便攜式榨汁機 | incomplete handheld juicer
   parent: BaseItem
   id: IncompleteHandheldJuicer
-  description: A some wood and plastic stuck together.
+  description: 只是一塊木頭和塑膠黏在一起。 | A some wood and plastic stuck together.
   components:
   - type: Sprite
     sprite: Objects/Specific/Kitchen/handheld_juicer.rsi

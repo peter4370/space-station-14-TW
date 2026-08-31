@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: HoloparasiteInjector
-  name: holoparasite injector
-  description: A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+  name: 全息寄生體注射器 | holoparasite injector
+  description: 一件由手持裝置組成的複雜藝術品，讓使用者能夠寄宿一名全息寄生守護者。 | A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: HoloparasiteInjector
   id: HoloClownInjector
-  name: holoclown injector
-  description: A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
+  name: 全息小丑注射器 | holoclown injector
+  description: 一件由手持機械組成的複雜藝術品，讓使用者能夠收養一名全息小丑守護者。 | A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
   components:
   - type: GuardianCreator
     guardianProto: MobHoloClownGuardian
@@ -22,8 +22,8 @@
 - type: entity
   parent: [BaseItem, BaseMagicalContraband]
   id: GuardianDeck
-  name: guardian deck
-  description: A deck of guardian tarot cards, capable of binding a personal guardian to your body.
+  name: 守護者牌組 | guardian deck
+  description: 一副守護者塔羅牌，能夠將一位個人守護者與你的身體綁定。 | A deck of guardian tarot cards, capable of binding a personal guardian to your body.
   components:
   - type: Sprite
     sprite: Objects/Magic/deck.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxHoloparasite
-  name: holoparasite box
-  description: A box containing a holoparasite injector.
+  name: 全息寄生盒 | holoparasite box
+  description: 一個裝有全息寄生蟲注射器的盒子。 | A box containing a holoparasite injector.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -56,8 +56,8 @@
 - type: entity
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxHoloclown
-  name: holoclown box
-  description: A box containing a holoclown injector.
+  name: 全息小丑盒 | holoclown box
+  description: 一個裝有全息小丑注射器的盒子。 | A box containing a holoclown injector.
   components:
   - type: EntityTableContainerFill
     containers:

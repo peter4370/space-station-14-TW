@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseConstructibleMachineDestructible ]
   id: TelecomServer
-  name: telecommunication server
-  description: When powered and filled with encryption keys it allows radio headset communication.
+  name: 電信伺服器 | telecommunication server
+  description: 在通電並載入加密金鑰後，即可進行無線電耳機通訊。 | When powered and filled with encryption keys it allows radio headset communication.
   components:
   - type: Sprite
     sprite: Structures/Machines/telecomms.rsi

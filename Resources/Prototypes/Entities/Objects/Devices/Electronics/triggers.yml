@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseItem
   id: TimerTrigger
-  name: timer trigger
-  description: A configurable timer.
+  name: 定時器觸發 | timer trigger
+  description: 一個可設定的計時器。 | A configurable timer.
   components:
   - type: Sprite
     sprite: Objects/Devices/timer.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: TimerTrigger
   id: SignalTrigger
-  name: signal trigger
-  description: Adds a machine link that is triggered by signals.
+  name: 訊號觸發 | signal trigger
+  description: 新增一個由訊號觸發的機器連結。 | Adds a machine link that is triggered by signals.
   components:
   - type: Sprite
     sprite: Objects/Devices/signaltrigger.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseItem
   id: VoiceTrigger
-  name: voice trigger
-  description: Adds a machine link that is triggered by vocal keywords.
+  name: 語音觸發 | voice trigger
+  description: 新增一個由語音關鍵字觸發的機器連結。 | Adds a machine link that is triggered by vocal keywords.
   components:
   - type: Item
     size: Tiny

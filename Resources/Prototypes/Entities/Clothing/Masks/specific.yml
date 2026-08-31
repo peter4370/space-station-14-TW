@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingMaskBase, BaseChameleon]
   id: ClothingMaskGasChameleon
-  name: gas mask
-  description: A face-covering mask that can be connected to an air supply.
+  name: 防毒面具 | gas mask
+  description: 一款可連接供氣系統的面部防護口罩。 | A face-covering mask that can be connected to an air supply.
   suffix: Chameleon
   components:
     - type: Tag
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskGoldenCursed
-  name: golden mask
-  description: Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.
+  name: 金色面具 | golden mask
+  description: 這些面具過去曾用於詭異的啞劇中，但自從有位演員在舞台上發瘋後，便再也沒人使用它們了。你會發誓，當你轉頭不看時，那張臉會扭曲變形。 | Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.
   components:
   - type: Sprite
     sprite: Clothing/Mask/goldenmask.rsi

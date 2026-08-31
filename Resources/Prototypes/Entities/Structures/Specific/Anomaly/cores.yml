@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseAnomalyCore
   abstract: true
-  name: anomaly core
-  description: The core of a destroyed incomprehensible object.
+  name: 異常核心 | anomaly core
+  description: 一個已毀壞且難以理解的物體的核心。 | The core of a destroyed incomprehensible object.
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi
@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreFlesh
-  description: The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
+  description: 一具被摧毀的肉體異變體的核心。正以令人作嘔的方式脈動著，但若經烹調，或許能成為一頓豐盛的餐點。 | The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
   suffix: Flesh
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreFleshInert # Can be microwaved to turn it into a massive piece of meat
-  description: The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?
+  description: 一具被摧毀的肉體異變體的惰性核心。它正令人作嘔地脈動著，但在行家手中，說不定會是道美味佳餚？ | The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?
   suffix: Flesh, Inert
   components:
   - type: Sprite

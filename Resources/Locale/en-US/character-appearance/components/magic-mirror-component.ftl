@@ -1,14 +1,11 @@
-magic-mirror-component-activate-user-has-no-hair = You can't have any hair!
-
-magic-mirror-add-slot-self = You're giving yourself some hair.
-magic-mirror-remove-slot-self = You're removing some of your hair.
-magic-mirror-change-slot-self = You're changing your hairstyle.
-magic-mirror-change-color-self = You're changing your hair color.
-
-magic-mirror-add-slot-target = Hair is being added to you by {THE($user)}.
-magic-mirror-remove-slot-target = Your hair is being cut off by {THE($user)}.
-magic-mirror-change-slot-target = Your hairstyle is being changed by {THE($user)}.
-magic-mirror-change-color-target = Your hair color is being changed by {THE($user)}.
-
-magic-mirror-blocked-by-hat-self = You need to take off your hat before changing your hair.
-magic-mirror-blocked-by-hat-self-target = You try to change {POSS-ADJ($target)} hair but {POSS-ADJ($target)} clothes get in the way.
+magic-mirror-component-activate-user-has-no-hair = 你不能留任何頭髮！
+magic-mirror-add-slot-self = 你正在讓自己長出一些頭髮。
+magic-mirror-remove-slot-self = 你正在剃掉一些頭髮。
+magic-mirror-change-slot-self = 你正在改變髮型。
+magic-mirror-change-color-self = 你正在改變髮色。
+magic-mirror-add-slot-target = { THE($user) } 正在為您添加髮型。
+magic-mirror-remove-slot-target = 你的頭髮正被 { THE($user) } 剪掉。
+magic-mirror-change-slot-target = 您的髮型正由 { THE($user) } 進行變更。
+magic-mirror-change-color-target = 您的髮色正由 { THE($user) } 進行變更。
+magic-mirror-blocked-by-hat-self = 在整理頭髮之前，你需要先脫下帽子。
+magic-mirror-blocked-by-hat-self-target = 你試著改變 { POSS-ADJ($target) } 髮型，但 { POSS-ADJ($target) } 衣服卻成了阻礙。

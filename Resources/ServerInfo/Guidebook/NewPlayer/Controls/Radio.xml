@@ -1,64 +1,65 @@
+
 <Document>
-# Speech and Text Channels
-Talking is a key part of Space Station 14. You can press [keybind="FocusChatInputWindow"/] to jump to the text box.
+# 語音與文字頻道
+對話是《太空站14》的重要環節。 您可以按下 [keybind="FocusChatInputWindow"/] 來跳轉至文字輸入框。
 
-The word next to the text box is the [color=#a4885c]text channel[/color] you're about to send the message to, or rather how you're about to say what you've typed.
+文字方塊旁邊的字詞，就是您即將向其發送訊息的 [color=#a4885c]文字頻道[/color]，或者說，您即將透過何種方式傳達您所輸入的內容。
 
-Local is normal speech at normal volume.
+「本地」是指以正常音量進行的正常對話。
 
-Whisper can only be heard when nearby somebody. You automatically whisper into your radio to send messages over it.
+只有當附近有人時，才能聽見耳語。 你會自動對著對講機輕聲說話，藉此傳送訊息。
 
-Emotes are gestures that you make. Can be received by anyone who is not blinded. You will often see mimes do many emotes.
+表情動作就是你所做的手勢。 任何未被蒙蔽的人都能接收。 你經常會看到默劇演員做出各種表情。
 
-Whisper messages can be sent by starting your message with [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color] and Emotes can be sent by starting your message with ([color=#a4885c]@[/color]).
-You can also cycle through all of these text channels by pressing [keybind="CycleChatChannelForward"/].
+若要在私聊中傳送訊息，請在訊息開頭輸入 [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color]；若要傳送表情，請在訊息開頭輸入 ([color=#a4885c]@[/color])。
+您也可以按下 [keybind="CycleChatChannelForward"/] 來依序切換所有這些文字頻道。
 
-People may not be able to make out all of what you're saying if you're standing too far away from them. This is especially important if you're whispering.
+如果你離對方太遠，對方可能無法聽清楚你所說的一切。 如果你正在低語，這一點尤其重要。
 
-## Radio
+## 無線電
 
-Your radio allows you to communicate across the entire station and to your specific [color=#a4885c]department[/color].
+透過這台無線電，您可以與整個基地以及您所屬的 [color=#a4885c]部門[/color] 進行通訊。
 
 <Box>
   <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
 </Box>
 
-To send a [color=#a4885c]station-wide[/color] message over the radio preface, use the [color=#32cd32]Common[/color] channel by beginning your text with [color=#32cd32]semi-colon (;)[/color].
-People standing right next to you might catch bits of your radio message, even if they don't have the access to the relevant radio channel. Watch for eavesdroppers.
+若要透過無線電前置系統發送 [color=#a4885c]全站[/color] 訊息，請使用 [color=#32cd32]通用[/color] 頻道，並在訊息開頭加上 [color=#32cd32]分號 (;)[/color]。
+即使身旁的人無法收聽相關的廣播頻道，他們仍可能聽見你廣播訊息的片段。 請留意是否有竊聽者。
 
-## Departmental Radio
+## 部門無線電
 
-You are able to send messages over your departmental radio channels using [color=#32cd32]colon (:)[/color] followed by the department letter as long as you're wearing a headset with your department's encryption key.
+只要您佩戴了內含該部門加密金鑰的耳機，即可透過部門無線電頻道，使用 [color=#32cd32]冒號 (:)[/color] 加上該部門代碼來發送訊息。
 
-Examine your headset to see the department channels available to you.
+請檢查您的耳機，查看可供您使用的部門頻道。
 
 <Box>
   <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
 </Box>
 
-Examining an unmodified engineering headset would show you the prefixes for the [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] channels.
+若檢視一款未經修改的工程用耳機，您會看到 [color=#32cd32]通用[/color] 和 [color=#f37746]工程[/color] 頻道的前綴。
 
-It is also possible to use [color=#a4885c]:h[/color]. This hotkey will automatically default to your department radio channel.
-For example, if you're a Station Engineer then [color=#a4885c]:h[/color] will default to [color=#f37746]:e[/color].
+也可以使用 [color=#a4885c]:h[/color]。 此快捷鍵將自動預設為貴部門的無線電頻道。
+舉例來說，如果你是站務工程師，那麼 [color=#a4885c]:h[/color] 預設會顯示為 [color=#f37746]:e[/color]。
 
-## Encryption Keys
-[color=#a4885c]Encryption keys[/color] give you access to their respective channel.
+## 加密金鑰
+[color=#a4885c]加密金鑰[/color] 可讓您存取對應的頻道。
 
-Examining our engineering headset from earlier shows us [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] because an engineer's headset starts with those [color=#a4885c]encryption keys[/color].
+檢視我們先前提到的工程師耳機，可以發現上面標有 [color=#32cd32]通用[/color] 和 [color=#f37746]工程[/color] 的字樣，因為工程師的耳機正是從這些 [color=#a4885c]加密金鑰[/color] 開始的。
 
 <Box>
   <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
   <GuideEntityEmbed Entity="EncryptionKeyEngineering"/>
 </Box>
 
-You can take out encryption keys by using a [color=#a4885c]screwdriver[/color] on a headset. New encryption keys are put into headsets by clicking on one with an encryption key in your hand.
+您可以使用 [color=#a48885c]螺絲起子[/color] 從耳機上取出加密金鑰。 要將新的加密金鑰放入耳機中，請點擊您手中已持有加密金鑰的那個耳機。
 
-All command members have extras of their relevant encryption key, but you can also request one at the HoP's office when you're getting your job changed.
+所有指揮部成員都備有其相關加密金鑰的備用副本，但您在辦理職務變動手續時，亦可向 HoP 辦公室申請一份。
 
-## OOC Channels
-OOC (out-of-character) channels exist outside of the game world. They are LOOC, OOC and Dead chat.
+## OOC 頻道
+OOC（角色外）頻道存在於遊戲世界之外。 它們分別是 LOOC、OOC 和 Dead 聊天。
 
-LOOC is on during the rounds, OOC is typically off until the round ends and you can only see and talk in Dead chat when you are, well, dead.
+在回合進行期間，LOOC 功能會開啟；OOC 功能通常會關閉，直到該回合結束為止；而只有當你「死亡」時，才能在死亡聊天室中查看訊息並發言。
 
-Do not discuss the current round in the Discord or in OOC if it's on during the round.
+若本輪活動正在進行中，請勿在 Discord 或 OOC 中討論本輪內容。
 </Document>

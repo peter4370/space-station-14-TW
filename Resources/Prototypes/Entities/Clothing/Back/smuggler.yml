@@ -31,9 +31,9 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, ClothingBackpackSatchel, BaseMinorContraband ]
   id: ClothingBackpackSatchelSmuggler
-  name: smuggler's satchel
+  name: 走私者的背包 | smuggler's satchel
   suffix: Empty
-  description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
+  description: 一個方便攜帶、看起來可疑的肩包。厚度剛剛好，可以塞進地磚底下。 | A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/smuggler.rsi
@@ -42,9 +42,9 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorage, ClothingBackpackSatchel, BaseMinorContraband ]
   id: ClothingBackpackSatchelSmugglerUnanchored
-  name: smuggler's satchel
+  name: 走私者的背包 | smuggler's satchel
   suffix: Empty, Unanchored
-  description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
+  description: 一個方便攜帶、看起來可疑的肩包。厚度剛剛好，可以塞進地磚底下。 | A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/smuggler.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, BriefcaseSyndie, BaseMinorContraband ]
   id: BriefcaseSmugglerCash
-  name: smuggler's briefcase
+  name: 走私者的公事包 | smuggler's briefcase
   suffix: Smuggler, Do Not Map
   components:
   - type: EntityTableContainerFill
@@ -67,7 +67,7 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, ClothingBackpackDuffelClown, BaseMinorContraband ]
   id: ClothingBackpackDuffelClownSmuggler
-  name: smuggler's clown duffel bag
+  name: 走私者小丑旅行袋 | smuggler's clown duffel bag
   suffix: Smuggler, Do Not Map
   components:
   - type: EntityTableContainerFill
@@ -92,7 +92,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomSatchelSpawner
-  name: random smuggler's satchel spawner
+  name: 隨機走私者背包生成器 | random smuggler's satchel spawner
   suffix: Do Not Map
   components:
   - type: Sprite

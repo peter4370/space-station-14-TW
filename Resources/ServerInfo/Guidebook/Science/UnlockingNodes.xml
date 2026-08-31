@@ -1,48 +1,49 @@
+
 <Document>
-  # Unlocking Nodes
+  # 解鎖節點
   <Box>
     <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
     <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
   </Box>
 
-  To activate and unlock nodes on an artifact, you should:
-  - Check a node on the [bold]Analysis Console[/bold] to check its triggers and effects.
-  - Perform the [bold]triggers[/bold] listed in the console. Some require direct interaction with the artifact, while others may only need the correct environment or a specific action performed nearby.
-  - Once a trigger is successfully performed, the artifact will respond with the message: [italic]"It begins to shift in strange ways..."[/italic]. The [bold]Node Scanner[/bold] will then indicate which specific nodes are being triggered.
+  若要啟用並解鎖神器上的節點，您應：
+  - 在 [bold]分析控制台[/bold] 上選取一個節點，以查看其觸發條件與效果。
+  - 執行控制台中列出的 [bold]觸發條件[/bold]。 有些觸發條件需要直接與神器互動，而其他觸發條件則可能僅需處於正確的環境中，或在附近執行特定動作。
+  - 一旦成功觸發，神器將顯示以下訊息：[italic]「它開始以奇怪的方式發生變化……」[/斜體]。隨後，[粗體]節點掃描器[/粗體]將顯示哪些特定節點已被觸發。
 
-  Artifacts enter an unlocking state after the first trigger is met. During this state, any remaining triggers must be completed. The unlocking window initially lasts a few seconds and resets each time a new trigger is activated. This window grows longer with each additional node unlocked, giving more time to complete further triggers.
+  當第一個觸發條件達成後，神器便會進入解鎖狀態。在此狀態下，必須完成所有剩餘的觸發條件。解鎖時限最初為數秒，且每當有新的觸發條件被激活時，時限便會重置。 隨著每個額外節點被解鎖，此時間窗會逐漸延長，提供更多時間來完成後續觸發條件。
 
-  Once all required triggers are completed successfully, the artifact will trigger it's effect and a popup will appear saying: [italic]"It slows down, visibly changed."[/italic], and the node will appear as [bold][color=plum]Active[/color][/bold] on the Console.
+  一旦所有必要的觸發條件均成功完成，遺物將觸發其效果，並會出現一個彈出視窗，顯示：[italic]「它變慢了，外觀明顯改變。」[/italic]，且該節點在控制台中將顯示為 [bold][color=plum]活躍[/color][/bold]。
 
-  If an artifact fails to activate, it will stop resonating and display the message: [italic]"It slows down before uneventfully stopping."[/italic] After this, it enters a cooldown period before it can be activated again.
+  若神器未能成功啟動，它將停止共振並顯示訊息：[italic]「它逐漸減速，最終平靜地停止。」[/斜體] 此後，該神器將進入冷卻期，待冷卻結束後方可再次啟動。
 
-  The order of trigger activation [bold]does not matter[/bold] for individual nodes. [italic]However[/italic], some triggers affect multiple nodes. As a rule of thumb, start with a trigger that is unique to the node you want to unlock. Activating a trigger for a different node during this phase prevents the target node from unlocking until the artifact’s cooldown ends.
+  對於單一節點而言，觸發器的啟動順序 [粗體]並不重要[/粗體]。[斜體]然而[/斜體]，某些觸發器會影響多個節點。 一般來說，建議先觸發該節點專屬的觸發器。若在此階段觸發了其他節點的觸發器，將導致目標節點無法解鎖，直至神器冷卻時間結束為止。
 
   <GuideReagentEmbed Reagent="Artifexium"/>
 
-  ## Active Nodes
-  Once unlocked, a node is considered active. Only the highest unlocked nodes in a tree’s layer are activatable, lower nodes in the same tree cannot be triggered anymore once a higher node has been activated.
+  ## 活躍節點
+  節點一旦解鎖，即被視為活躍狀態。僅樹狀結構中該層級內最高且已解鎖的節點可被啟動；一旦同一樹狀結構中的較高層級節點被啟動，該樹狀結構中較低層級的節點便無法再被觸發。
 
-  Artifacts often have multiple trees. Layer precedence applies within each tree, but different trees operate independently. This means nodes in different trees can be activated simultaneously as long as they are the highest unlocked nodes in their respective trees.
+  神器通常擁有多棵樹狀結構。每棵樹內皆適用層級優先原則，但不同的樹狀結構運作上相互獨立。這意味著只要不同樹狀結構中的節點是各自樹狀結構中已解鎖的最高層節點，即可同時被啟動。
 
-  [bold]Manual activation triggers all unlocked nodes at once and consumes durability.[/bold]
+  [粗體]手動啟動會同時觸發所有已解鎖的節點，並消耗耐久度。[/粗體]
 
   <GuideReagentEmbed Reagent="ArtifactGlue"/>
 
-  ## Triggers
-  Examples include:
-  - Examining the artifact
-  - Playing an instrument
-  - Damaging or throwing it
-  - Exposing it to gases (plasma, tritium, etc.)
-  - Changing pressure or temperature
-  - Using tools (screwdriver, multitool, crowbar, wrench)
-  - Splashing reagents (blood, water, ammonia, etc.)
-  - Killing something nearby
+  ## 觸發條件
+  範例包括：
+  - 檢查該物品
+  - 演奏樂器
+  - 損壞或拋擲該物品
+  - 使其接觸氣體（等離子體、氚等）
+  - 改變壓力或溫度
+  - 使用工具（螺絲起子、多功能工具、撬棍、扳手）
+  - 潑灑試劑（血液、水、氨等）
+  - 殺死附近生物
 
-  ## Effects
-  Effects can be:
-  - [color=green]Harmless:[/color] producing plants, animals, or junk
-  - [color=#00ccff]Helpful:[/color] charging batteries, creating instruments or money
-  - [color=red]Hazardous:[/color] anomalies, radiation, explosions, hostile fauna
+  ## 效果
+  效果可能包括：
+  - [color=green]無害：[/color] 產生植物、動物或廢品
+  - [color=#00ccff]有益：[/color] 為電池充電、製造工具或金錢
+  - [color=red]危險：[/color] 異常現象、輻射、爆炸、具攻擊性的動物
 </Document>

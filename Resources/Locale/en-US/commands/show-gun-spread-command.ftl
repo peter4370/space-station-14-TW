@@ -1,3 +1,3 @@
 ﻿cmd-showgunspread-desc = Shows gun spread overlay for debugging.
-cmd-showgunspreade-help = Usage: showgunspread
-cmd-showgunspread-status = Set spread overlay to {$status}.
+cmd-showgunspreade-help = 用法：showgunspread
+cmd-showgunspread-status = 將擴展疊加層設定為 { $status }。

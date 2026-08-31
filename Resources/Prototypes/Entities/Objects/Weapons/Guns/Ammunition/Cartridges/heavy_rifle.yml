@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseCartridge, BaseSecurityContraband ]
   id: BaseCartridgeHeavyRifle
-  name: cartridge (.10 rifle)
+  name: 子彈（.10 步槍） | cartridge (.10 rifle)
   components:
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
 - type: entity
   parent: BaseCartridgeHeavyRifle
   id: CartridgeMinigun
-  name: cartridge (.10 rifle)
+  name: 子彈（.10 步槍） | cartridge (.10 rifle)
   components:
   - type: CartridgeAmmo
     proto: BulletMinigun

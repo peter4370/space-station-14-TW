@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseDeltaPressureReinforcedGlass, BaseWindowStructure, BaseRCDResistant, StructureHealthBarrierStrong]
   id: ShuttleWindow
-  name: shuttle window
+  name: 穿梭窗 | shuttle window
   components:
   - type: Sprite
     sprite: Structures/Windows/window-shuttle.rsi

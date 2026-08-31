@@ -1,41 +1,42 @@
+
 <Document>
-# Medical Doctor
-It's time to heal. Or at least, try to heal, anyway. Medical Doctors are the primary caretakers of every boo boo and ouchie crewmembers get on the station, be it a small scratch, or boiled skin.
+# 醫師
+是時候療癒了。 或者至少，還是試著療傷吧。 無論是輕微的刮傷還是起水泡，只要太空站成員受了傷，醫師都是他們的主要照護者。
 
-This guide will give you a basic outline of the treatment options you have available, triage, and other avenues of care.
+本指南將為您概述可用的治療選項、分流程序及其他照護途徑。
 
-## The Basics
-There are two ways to tell what's ailing someone: Taking a scan (with a health analyzer or a medical PDA), or examining them, with a shift-click, and clicking the heart symbol.
+## 基礎知識
+判斷患者病因有兩種方法：進行掃描（使用健康分析儀或醫療用 PDA），或是透過「Shift + 點擊」進行檢查，並點擊心臟圖示。
 
-Using a health analyzer is often more powerful than examination, as some things (such as poison, or radiation) don't show up on examination. However, using an analyzer has its drawbacks, as it makes noise and uses up a battery.
+使用健康分析儀通常比體檢更為有效，因為有些狀況（例如中毒或輻射）在體檢中無法被偵測到。 然而，使用分析儀也有其缺點，因為它會產生噪音，而且會耗盡電池電量。
 <Box>
-<GuideEntityEmbed Entity="SignExamroom" Caption="examine patient"/>
+<GuideEntityEmbed Entity="SignExamroom" Caption="為患者進行檢查"/>
 <GuideEntityEmbed Entity="MedicalPDA"/>
-<GuideEntityEmbed Entity="MedicalInternPDA" Caption="intern PDA"/>
+<GuideEntityEmbed Entity="MedicalInternPDA" Caption="實習生 PDA"/>
 <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
 </Box>
 
-## Medication and Treatment Options
-Before we go any further, it's probably a good idea to go over damage types, and what will heal them. The wiki has more extensive info available, but these are commonly used.
+## 藥物與治療選項
+在繼續探討之前，或許先來複習一下傷害類型，以及各自的治療方式會比較好。 維基上還有更詳盡的資訊，但以下這些是常用項目。
 
-An important note: Most medication has an overdose level, which will cause harm to your patient. Chemicals also take time to metabolise in pill form, if you want things to act quickly, use a syringe.
+重要提醒：大多數藥物都有過量劑量，若超過此劑量將對您的病患造成傷害。 化學物質以藥丸形式攝取時，代謝也需要時間；若想讓藥效迅速發揮，請使用注射器。
 
-- Brute Damage: Bicaridine or Bruise Packs
-- Burn Damage: Dermaline or Ointment
-- Toxin (Poison): Dylovene
-- Toxin (Radiation) Hyronalin or Arithrazine
-- Airloss: Dexaline or Inaprovaline
-- Bloodloss: Dexaline (Examine the patient, if pale, they still need blood or iron.)
-- Bleeding: Tranexamic acid and Gauze (Bleeding can also be cauterized with burn damage.)
+- 鈍傷：比卡里丁（Bicaridine）或瘀傷敷料包
+- 燒傷：德馬林（Dermaline）或藥膏
+- 毒素（Poison）：迪洛文（Dylovene）
+- 毒素（Radiation）：海羅納林（Hyronalin）或阿瑞特拉津（Arithrazine）
+- 失血： 德克薩林（Dexaline）或伊納普羅瓦林（Inaprovaline）
+- 失血：德克薩林（Dexaline）（檢查患者，若面色蒼白，則仍需輸血或補充鐵質。）
+- 出血：氨甲環酸與紗布（若伴有燒傷，也可透過燒灼止血。）
 
-Many stations are stocked with kits in storage, and all medics have some equipment in their starting belt.
+許多哨所的儲藏室裡都備有急救包，而所有醫護人員的起始腰帶上也都配有部分裝備。
 
 <Box>
 <GuideEntityEmbed Entity="MedkitFilled"/>
-<GuideEntityEmbed Entity="MedkitBruteFilled" Caption="brute kit"/>
-<GuideEntityEmbed Entity="MedkitRadiationFilled" Caption="radiation kit"/>
-<GuideEntityEmbed Entity="MedkitBurnFilled" Caption="burn kit"/>
-<GuideEntityEmbed Entity="MedkitToxinFilled" Caption="toxin kit"/>
+<GuideEntityEmbed Entity="MedkitBruteFilled" Caption="暴力破解工具包"/>
+<GuideEntityEmbed Entity="MedkitRadiationFilled" Caption="輻射應急套件"/>
+<GuideEntityEmbed Entity="MedkitBurnFilled" Caption="燒傷急救包"/>
+<GuideEntityEmbed Entity="MedkitToxinFilled" Caption="毒素檢測套組"/>
 </Box>
 
 <Box>
@@ -46,27 +47,27 @@ Many stations are stocked with kits in storage, and all medics have some equipme
 <GuideEntityEmbed Entity="Gauze"/>
 </Box>
 
-## Basic Treatment and Triage
-Examine your patient, and note down the important details: Are they alive? Bleeding? What type of damage?
+## 基本處置與分流
+檢查患者，並記錄重要細節：患者是否尚有生命跡象？ 有出血嗎？ 是什麼樣的損壞？
 
-If alive, treat them as best as you can. Patients are in critical condition at 100 damage, and dead at 200. Keep this in mind when choosing how to treat them. Emergency Pens and Epinephrine are often used to keep patients stable.
+如果他們還活著，請盡你所能好好照顧他們。 當傷害值達到 100 時，患者將處於危急狀態；達到 200 時，則會死亡。 在決定如何對待他們時，請謹記這一點。 常使用急救筆和腎上腺素來維持患者的生命徵象穩定。
 
-If possible, buckle them to a medical bed, if you need time to treat them, strap them to a stasis bed instead. Just keep in mind that metabolism (and by extension, healing chemicals) are slowed to a crawl when on stasis, they'll need to be taken off of it for the medicine to be effective. (But Blood Packs, Ointment, and Brute packs all work as normal.)
+如果可能的話，請將他們綁在醫療床上；若需要時間進行治療，則應將他們綁在靜止床上。 請記住，當處於靜止狀態時，新陳代謝（以及由此產生的癒合化學物質）會變得極其緩慢，必須先解除靜止狀態，藥物才能發揮效果。 （但「血包」、「藥膏」和「野獸包」都能照常使用。）
 <Box>
 <GuideEntityEmbed Entity="MedicalBed"/>
 <GuideEntityEmbed Entity="StasisBed"/>
 </Box>
-## Assessing Corpses
-You can't save them all, sometimes, death happens. Depending on the [color=#a4885c]status[/color] of the body, there are a few things that can be done.
+## 檢視屍體
+你無法拯救所有人，有時候，死亡就是會發生。 根據遺體的 [color=#a4885c]狀況[/color]，可以採取幾種處理方式。
 
-1. Do they have a soul attached? You can tell if, when examining, the following phrase is displayed: "Their soul has departed." If this isn't displayed, there is still a player who can be revived.
+1. 它們有附著的靈魂嗎？ 您可透過檢查，觀察是否顯示以下字句：「他們的靈魂已經離去。」 如果未顯示此訊息，表示仍有可復活的玩家。
 
-2. Is the body rotting? If it is, sadly, they'll have to be cloned. A rotting body can't be brought back with a defibrillator. (See Cloning)
+2. 屍體是否正在腐爛？ 如果真是這樣，遺憾的是，就只能將它們克隆出來了。 一具腐爛的屍體是無法用除顫器救回來的。 （參見「克隆」）
 
-3. If they have a soul, and aren't rotten, it's possible to revive them. Consider storing the body in a morgue tray if you don't have enough time to revive someone, as the body will rot if you wait too long.
+3. 如果他們有靈魂，而且靈魂尚未腐朽，就有可能讓他們復活。 若您沒有足夠的時間讓某人恢復生機，請考慮將遺體存放於停屍間的屍盤中，因為若等待過久，遺體將會腐爛。
 
-## Revival
-Not counting airloss, Defibrillators can be used to revive patients under 200 total damage. Chemicals don't metabolise in the dead, but brute packs and ointment can still patch them up. Use them to bring their numbers down enough for revival.
+## 復甦
+不計入生命值流失的情況下，除顫器可用於讓總傷害值低於 200 的患者恢復意識。 化學物質在屍體體內不會代謝，但野蠻人的繃帶和藥膏仍能為他們包紮傷口。 利用它們將其數量減少到足以讓牠們重獲生機的程度。
 
 <Box>
 <GuideEntityEmbed Entity="Brutepack"/>

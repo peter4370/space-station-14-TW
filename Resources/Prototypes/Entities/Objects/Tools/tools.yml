@@ -1,8 +1,8 @@
 - type: entity
-  name: wirecutter
+  name: Wirecutter | wirecutter
   parent: BaseItem
   id: Wirecutter
-  description: This kills the wire.
+  description: 這會使電線失效。 | This kills the wire.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -46,10 +46,10 @@
   - type: BotanySampleTaker
 
 - type: entity
-  name: screwdriver
+  name: 螺絲起子 screwdriver | screwdriver
   parent: BaseItem
   id: Screwdriver
-  description: Industrial grade torque in a small screwdriving package.
+  description: 小巧的螺絲起子機身，卻具備工業級扭力。 | Industrial grade torque in a small screwdriving package.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -90,10 +90,10 @@
     price: 30
 
 - type: entity
-  name: wrench
+  name: 扳手 | wrench
   parent: BaseItem
   id: Wrench
-  description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
+  description: '一種常用的組裝與拆卸工具。請記住：向左轉是鎖緊，向右轉是拆卸。 | A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
   components:
   - type: EmitSoundOnLand
     sound:
@@ -132,10 +132,10 @@
     - Construction
 
 - type: entity
-  name: multitool
+  name: 多功能工具 | multitool
   parent: BaseItem
   id: Multitool
-  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
+  description: 一種先進的工具，用於複製、儲存及透過電線和機器傳送電脈衝與訊號。 | An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -186,10 +186,10 @@
     - InspectingPower
 
 - type: entity
-  name: network configurator
+  name: 網路設定工具 | network configurator
   parent: BaseItem
   id: NetworkConfigurator
-  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
+  description: 一款用於將裝置相互連結的工具。具備兩種模式：用於批量連結裝置的「清單模式」，以及用於進階裝置連結的「連結模式」。 | A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
   components:
     - type: EmitSoundOnLand
       sound:
@@ -239,10 +239,10 @@
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.
 - type: entity
-  name: power drill
+  name: 電鑽 | power drill
   parent: BaseItem
   id: PowerDrill
-  description: A simple powered hand drill.
+  description: 一款簡單的電動手鑽。 | A simple powered hand drill.
   components:
   - type: Tag
     tags:
@@ -306,8 +306,8 @@
 - type: entity
   id: RCD
   parent: [ BaseItem, BaseEngineeringContraband ]
-  name: RCD
-  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  name: RCD | RCD
+  description: 此快速施工裝置可用於迅速安裝及拆除各類站體結構與固定裝置。運作時需使用壓縮氣體。 | The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
   components:
   - type: RCD
     availablePrototypes:
@@ -367,8 +367,8 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: experimental RCD
-  description: Cyborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
+  name: 實驗性 RCD | experimental RCD
+  description: 一種安裝於機械人身上的快速建造裝置，可透過內建的製造器即時生成壓縮物質。 | Cyborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -380,17 +380,17 @@
   id: RCDExperimental
   parent: RCD
   suffix: Admeme
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: 實驗性 RCD | experimental RCD
+  description: 一種經「藍空間」增強的快速建造裝置，能被動地自行生成壓縮物質。 | A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
   components:
   - type: AutoRecharge
     rechargeDuration: 1
 
 - type: entity
-  name: compressed matter
+  name: 壓縮物質 | compressed matter
   parent: BaseItem
   id: RCDAmmo
-  description: A cartridge of raw matter compacted by bluespace technology. Used in rapid construction devices.
+  description: 一顆透過「藍色空間」技術壓製而成的原料彈匣。用於快速建造裝置。 | A cartridge of raw matter compacted by bluespace technology. Used in rapid construction devices.
   components:
   - type: RCDAmmo
   - type: Sprite
@@ -407,10 +407,10 @@
     price: 60
 
 - type: entity
-  name: omnitool
+  name: omnitool | omnitool
   parent: BaseItem
   id: Omnitool
-  description: A drone's best friend.
+  description: 無人機的最佳夥伴。 | A drone's best friend.
   components:
   - type: Sprite
     sprite: Objects/Tools/omnitool.rsi
@@ -473,10 +473,10 @@
 
 #Other
 - type: entity
-  name: shovel
+  name: 鏟子 | shovel
   parent: BaseItem
   id: Shovel
-  description: A large tool for digging and moving dirt.
+  description: 一種用於挖掘和搬運泥土的大型工具。 | A large tool for digging and moving dirt.
   components:
   - type: Sprite
     sprite: Objects/Tools/shovel.rsi
@@ -502,8 +502,8 @@
 - type: entity
   parent: BaseItem
   id: RollingPin
-  name: rolling pin
-  description: A tool used to shape and flatten dough.
+  name: 擀麵棍 | rolling pin
+  description: 一種用於塑形和壓平麵糰的工具。 | A tool used to shape and flatten dough.
   components:
   - type: Sprite
     sprite: Objects/Tools/rolling_pin.rsi

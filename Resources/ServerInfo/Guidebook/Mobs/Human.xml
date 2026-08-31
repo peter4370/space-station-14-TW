@@ -1,11 +1,12 @@
+
 <Document>
-  # Humans
+  # 人類
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceHuman" Caption=""/>
   </Box>
 
-  Depending on who you ask, humans are either unremarkable or the universal standard to which everything else is compared.
-  They have no special mechanics or notable attributes.
+  視你問的是誰而定，人類要麼是平平無奇的存在，要麼就是用來衡量萬物的普世標準。
+  它們沒有特殊的機制，也沒有值得注意的屬性。
 
 </Document>

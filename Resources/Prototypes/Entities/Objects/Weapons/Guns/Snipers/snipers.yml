@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponSniper
+  name: 基礎武器：狙擊槍 | BaseWeaponSniper
   parent: BaseItem
   id: BaseWeaponSniper
-  description: A rooty tooty point and shooty.
+  description: 一款超棒的隨拍相機。 | A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -39,10 +39,10 @@
     price: 500
 
 - type: entity
-  name: Kardashev-Mosin
+  name: 卡達謝夫-莫辛 | Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable, SolutionDart, BaseMajorContraband]
   id: WeaponSniperMosin
-  description: A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of .30 rifle.
+  description: 卡達謝夫-莫辛步槍堪稱真正的歷史遺珍，自670年前問世以來，幾乎參與過每一場武裝衝突。無論是用於狩獵、狙擊，還是無休止的壕溝戰，這支步槍的栓動式設計幾乎與原始設計完全相同。可裝填10發.30口徑步槍子彈。 | A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of .30 rifle.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -87,10 +87,10 @@
     price: 500
 
 - type: entity
-  name: Hristov
+  name: 赫里斯托夫 | Hristov
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperHristov
-  description: For when you absolutely, positively need to make someone regret their life choices from a safe distance. Uses .60 anti-materiel ammo.
+  description: 當你絕對、務必得在安全距離外，讓某人為自己的人生抉擇感到後悔時。使用 .60 口徑反器材彈藥。 | For when you absolutely, positively need to make someone regret their life choices from a safe distance. Uses .60 anti-materiel ammo.
   components:
   - type: Item
     size: Huge
@@ -128,10 +128,10 @@
     price: 3500
 
 - type: entity
-  name: musket
+  name: 火槍 | musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband ]
   id: Musket
-  description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
+  description: 這東西早在你出生之前就該被收進博物館了。使用.60口徑的反器材彈藥。 | This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
   components:
   - type: Tool
     qualities:
@@ -169,10 +169,10 @@
   - type: GunRequiresWield
 
 - type: entity
-  name: flintlock pistol
+  name: 燧發手槍 | flintlock pistol
   parent: [BaseWeaponSniper, BaseMajorContraband]
   id: WeaponPistolFlintlock
-  description: A pirate's companion. Yarrr! Uses .45 magnum ammo.
+  description: 海盜的夥伴。哇噠！使用 .45 馬格南子彈。 | A pirate's companion. Yarrr! Uses .45 magnum ammo.
   components:
   - type: Gun
     minAngle: 0

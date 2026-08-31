@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: OffsetCane
-  name: standard offset cane
-  description: A standard offset cane, essential for getting around when your legs aren't up to the task. May or may not grant you the wisdom of the elderly.
+  name: 標準偏移手杖 | standard offset cane
+  description: 一支標準的偏心手杖，當雙腿無法勝任行走任務時，它是行動不可或缺的輔助工具。至於能否因此賦予你長者的智慧，那就不得而知了。 | A standard offset cane, essential for getting around when your legs aren't up to the task. May or may not grant you the wisdom of the elderly.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/standard.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneClown
-  name: rainbow offset cane
-  description: A rainbow offset cane, perfect for clowns and those who enjoy a splash of color in their lives.
+  name: 彩虹漸變手杖 | rainbow offset cane
+  description: 一支彩虹色偏移手杖，非常適合小丑，以及那些喜歡在生活中增添一抹色彩的人。 | A rainbow offset cane, perfect for clowns and those who enjoy a splash of color in their lives.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/clown.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneMime
-  name: striped offset cane
-  description: A black and white striped cane, perfect for silent performances.
+  name: 條紋偏心手杖 | striped offset cane
+  description: 一根黑白條紋手杖，非常適合用於無聲表演。 | A black and white striped cane, perfect for silent performances.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/mime.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneNT
-  name: nanotrasen offset cane
-  description: A nanotrasen standard issue offset cane with the NT logo, favored by those who prefer a more corporate look.
+  name: nanotrasen 偏心手杖 | nanotrasen offset cane
+  description: 一款印有 NT 標誌的 Nanotrasen 標準款偏心手杖，深受偏好較為正式風格的人士青睞。 | A nanotrasen standard issue offset cane with the NT logo, favored by those who prefer a more corporate look.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/nanotrasen.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneWood
-  name: wooden offset cane
-  description: A wooden offset cane, a classic choice for those who appreciate natural materials and a sturdy grip.
+  name: 木製偏心手杖 | wooden offset cane
+  description: 一支木製偏心手杖，對於鍾愛天然材質與穩固握感的人而言，是經典之選。 | A wooden offset cane, a classic choice for those who appreciate natural materials and a sturdy grip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/wood.rsi

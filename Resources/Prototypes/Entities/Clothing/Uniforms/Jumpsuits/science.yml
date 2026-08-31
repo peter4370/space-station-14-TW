@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitResearchDirector
-  name: research director's turtleneck
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+  name: 科學主任的高領衫 | research director's turtleneck
+  description: 這是一件高領衫，專為那些具備勝任研究總監職位所需專業知識的人士所穿。其布料能提供輕微的防護，抵禦生物污染物。 | It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Science/rnd.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitScientist
-  name: scientist jumpsuit
-  description: It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
+  name: 科學家連身工作服 | scientist jumpsuit
+  description: 它由一種特殊纖維製成，能提升他人對穿戴者的智商印象，同時削弱其個人道德觀。上面印有標誌，表明穿戴者是一名科學家。 | It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Science/scientist.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitScientistFormal
-  name: scientist's formal jumpsuit
-  description: A uniform for sophisticated scientists, best worn with its matching tie.
+  name: 科學家的正式連身工作服 | scientist's formal jumpsuit
+  description: 一款專為優雅科學家設計的制服，最適合搭配同款領帶穿著。 | A uniform for sophisticated scientists, best worn with its matching tie.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Science/scientist_formal.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitRoboticist
-  name: roboticist jumpsuit
-  description: It's a slimming black with reinforced seams; great for industrial work.
+  name: 機器人工程師連身工作服 | roboticist jumpsuit
+  description: 這是一款修身款的黑色工作服，縫線經過加固處理；非常適合從事工業工作。 | It's a slimming black with reinforced seams; great for industrial work.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Science/roboticist.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorResearcher
-  name: senior researcher jumpsuit
-  description: A sign of skill and prestige within the science department.
+  name: 資深科學家連身工作服 | senior researcher jumpsuit
+  description: 這是科學系內展現專業能力與聲望的象徵。 | A sign of skill and prestige within the science department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Science/senior_researcher.rsi

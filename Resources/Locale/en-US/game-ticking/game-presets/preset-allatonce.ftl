@@ -1,5 +1,4 @@
-all-at-once-title = All at once
-all-at-once-description = It's just not your day...
-
-aller-at-once-title = Aller at once
-aller-at-once-description = You have fucked up now. You *have* fucked up now.
+all-at-once-title = 一瞬間
+all-at-once-description = 今天就是你運氣不佳的一天……
+aller-at-once-title = 一次全部完成
+aller-at-once-description = 你現在搞砸了。你現在*真的*搞砸了。

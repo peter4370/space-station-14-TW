@@ -1,6 +1,6 @@
 - type: entity
-  name: explosive grenade
-  description: Grenade that creates a small but devastating explosion.
+  name: 爆炸性手榴彈 | explosive grenade
+  description: 一種能引發規模雖小卻極具破壞力的爆炸的手榴彈。 | Grenade that creates a small but devastating explosion.
   parent: [VolatileGrenadeBase, TimerGrenadeBase, BaseSyndicateContraband]
   id: ExGrenade
   components:
@@ -22,8 +22,8 @@
     beepInterval: 2 # 2 beeps total (at 0 and 2)
 
 - type: entity
-  name: flashbang
-  description: Eeeeeeeeeeeeeeeeeeeeee.
+  name: 閃光震撼彈 | flashbang
+  description: 嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚 | Eeeeeeeeeeeeeeeeeeeeee.
   parent: [ FragileGrenadeBase, TimerGrenadeBase, BaseSecurityContraband ]
   id: GrenadeFlashBang
   components:
@@ -77,8 +77,8 @@
 # Tuned to be a general bomb that deals equipment damage without explicitly gibbing, however it will still gladly instakill anyone that mishandles it.
 # One of the few syndie bombs that should punch holes in space.
 - type: entity
-  name: syndicate minibomb
-  description: A syndicate-manufactured explosive used to stow destruction and cause chaos.
+  name: 「辛迪加」迷你炸彈 | syndicate minibomb
+  description: 一種由犯罪集團製造的爆炸物，用於製造破壞並引發混亂。 | A syndicate-manufactured explosive used to stow destruction and cause chaos.
   parent: [VolatileGrenadeBase, TimerGrenadeBase, BaseSyndicateContraband]
   id: SyndieMiniBomb
   components:
@@ -106,8 +106,8 @@
     price: 2000
 
 - type: entity
-  name: self destruct
-  description: Go out on your own terms!
+  name: 自我毀滅 | self destruct
+  description: 按照自己的方式踏上旅程吧！ | Go out on your own terms!
   parent: TimerGrenadeBase
   id: SelfDestructSeq
   categories: [ HideSpawnMenu ]
@@ -154,8 +154,8 @@
 - type: entity
   parent: [ FragileGrenadeBase, TimerGrenadeBase, BaseSyndicateContraband ]
   id: SingularityGrenade
-  name: singularity grenade
-  description: Grenade that simulates the power of a singularity, pulling things in a heap.
+  name: 奇點手榴彈 | singularity grenade
+  description: 一枚模擬奇點威力的手榴彈，能將周遭事物吸入一團。 | Grenade that simulates the power of a singularity, pulling things in a heap.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/singularitygrenade.rsi
@@ -224,8 +224,8 @@
     price: 1000
 
 - type: entity
-  name: whitehole grenade
-  description: Grenade that repulses everything around for some time.
+  name: 白洞手榴彈 | whitehole grenade
+  description: 一枚能將周圍的一切擊退一段時間的手榴彈。 | Grenade that repulses everything around for some time.
   parent: SingularityGrenade
   id: WhiteholeGrenade
   components:
@@ -285,8 +285,8 @@
 
 - type: entity
   parent: [ VolatileGrenadeBase, TimerGrenadeBase ]
-  name: the nuclear option
-  description: Please don't throw it, think of the children.
+  name: 「核選項」 | the nuclear option
+  description: 請不要亂丟，請為孩子著想。 | Please don't throw it, think of the children.
   id: NuclearGrenade
   components:
   - type: Sprite
@@ -309,8 +309,8 @@
 - type: entity
   parent: [ BaseItem, BaseItemDestructible ]
   id: ModularGrenade
-  name: modular grenade
-  description: A grenade casing. Requires a trigger and a payload.
+  name: 模組化手榴彈 | modular grenade
+  description: 一枚手榴彈彈殼。需搭配扳機和裝藥。 | A grenade casing. Requires a trigger and a payload.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/modular.rsi
@@ -351,8 +351,8 @@
     price: 75
 
 - type: entity
-  name: EMP grenade
-  description: A grenade designed to wreak havoc on electronic systems.
+  name: 電磁脈衝手榴彈 | EMP grenade
+  description: 一款專為破壞電子系統而設計的手榴彈。 | A grenade designed to wreak havoc on electronic systems.
   parent: [ImpactGrenadeBase, BaseSyndicateContraband]
   id: EmpGrenade
   components:
@@ -370,8 +370,8 @@
     price: 666 # 2000 for 3, I love fractions
 
 - type: entity
-  name: holy hand grenade
-  description: O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
+  name: 神聖的手榴彈 | holy hand grenade
+  description: 主啊，求祢賜福於這枚祢的手榴彈，好讓祢能憑著祢的憐憫，藉此將祢的敵人炸得粉碎。 | O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
   parent: [TimerGrenadeBase, BaseSyndicateContraband]
   id: HolyHandGrenade
   components:
@@ -401,8 +401,8 @@
 # Non-explosive "dummy" grenades to use as a distraction.
 
 - type: entity
-  name: trick grenade
-  description: All the grenade without any of the boom.
+  name: 哄騙手榴彈 | trick grenade
+  description: 擁有手榴彈的一切，卻沒有任何爆炸聲。 | All the grenade without any of the boom.
   parent: TimerGrenadeBase
   id: GrenadeDummy
   components:
@@ -428,8 +428,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: syndicate trickybomb
-  description: A syndicate-manufactured explosive used to make an excellent distraction.
+  name: 「trickybomb」組織 | syndicate trickybomb
+  description: 由犯罪集團製造的爆炸物，用來製造極佳的混淆視聽效果。 | A syndicate-manufactured explosive used to make an excellent distraction.
   parent: [GrenadeDummy, BaseSyndicateContraband]
   id: SyndieTrickyBomb
   components:

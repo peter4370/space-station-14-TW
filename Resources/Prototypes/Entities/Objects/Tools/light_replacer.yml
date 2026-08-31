@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
-  name: light replacer
+  name: 換燈器 | light replacer
   id: LightReplacer
-  description: An item which uses magnets to easily replace broken lights. Refill by adding more lights into the replacer.
+  description: 一款利用磁鐵，可輕鬆更換損壞燈泡的產品。只需將更多燈泡放入更換器中即可補充。 | An item which uses magnets to easily replace broken lights. Refill by adding more lights into the replacer.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/light_replacer.rsi

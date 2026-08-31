@@ -1,2 +1,2 @@
-speech-muted = You can't speak right now!
-fake-death-muted = You can't fake your death without a voice!
+speech-muted = 你現在不能說話！
+fake-death-muted = 沒有聲音的話，你根本無法假死！

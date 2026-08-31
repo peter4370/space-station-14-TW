@@ -1,8 +1,8 @@
 - type: entity
   id: LidSalami
   parent: BaseItem
-  name: salami lid
-  description: Ain't gon' fit, won't fit.
+  name: 薩拉米香腸蓋 | salami lid
+  description: 穿不下，絕對穿不下。 | Ain't gon' fit, won't fit.
   components:
   - type: Sprite
     sprite: Objects/Decoration/lidsalami.rsi

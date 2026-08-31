@@ -138,7 +138,7 @@
   abstract: true
   parent: [ClothingOuterBaseLargeInsulated, AllowSuitStorageClothing]
   id: ClothingOuterEVASuitBase
-  name: base EVA Suit
+  name: 基礎型 EVA 太空服 | base EVA Suit
   components:
 # SlotBlocker blocked until UI change
 #  - type: SlotBlock
@@ -164,7 +164,7 @@
   abstract: true
   parent: [ ClothingOuterEVASuitBase, GeigerCounterClothing ]
   id: ClothingOuterHardsuitBase
-  name: base hardsuit
+  name: 基礎型硬質裝甲服 | base hardsuit
   components:
   - type: PressureProtection
     highPressureMultiplier: 0.3
@@ -213,7 +213,7 @@
   abstract: true
   parent: ClothingOuterBase
   id: ClothingOuterBaseToggleable
-  name: hoodie with hood
+  name: 帶帽連帽衫 | hoodie with hood
   components:
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterDefault

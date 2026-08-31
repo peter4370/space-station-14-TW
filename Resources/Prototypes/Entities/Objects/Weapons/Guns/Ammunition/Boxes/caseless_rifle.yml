@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxCaselessRifle
-  name: ammunition box (.25 caseless)
+  name: 彈藥箱（.25 無殼彈） | ammunition box (.25 caseless)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifle
-  name: ammunition box (.25 caseless)
-  description: A cardboard box of .25 caseless rounds. Intended to hold general-purpose kinetic ammunition.
+  name: 彈藥箱（.25 無殼彈） | ammunition box (.25 caseless)
+  description: 一個裝有 .25 無彈殼子彈的紙箱。原意是用來盛裝通用動能彈藥。 | A cardboard box of .25 caseless rounds. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRiflePractice
-  name: ammunition box (.25 caseless practice)
-  description: A cardboard box of .25 caseless rounds. Intended to hold harmless practice ammunition.
+  name: 彈藥箱（.25 無殼練習彈） | ammunition box (.25 caseless practice)
+  description: 一個裝有 .25 無殼子彈的紙箱。原意是用來盛裝無害的練習彈藥。 | A cardboard box of .25 caseless rounds. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice

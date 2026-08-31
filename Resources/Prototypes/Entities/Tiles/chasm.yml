@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: FloorChasmEntity
-  name: chasm
-  description: You can't even see the bottom.
+  name: 深淵 | chasm
+  description: 連底部都看不見。 | You can't even see the bottom.
   placement:
     mode: SnapgridCenter
     snap:

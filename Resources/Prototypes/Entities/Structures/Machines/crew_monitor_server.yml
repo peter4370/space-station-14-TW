@@ -1,8 +1,8 @@
 - type: entity
   id: CrewMonitoringServer
   parent: [ BaseMachinePowered, ConstructibleMachine, StructureHealthMachineStrong ]
-  name: crew monitoring server
-  description: Receives and relays the status of all active suit sensors on the station.
+  name: 船員監控伺服器 | crew monitoring server
+  description: 接收並轉發該站所有處於運作狀態的裝甲感測器的狀態資訊。 | Receives and relays the status of all active suit sensors on the station.
   components:
   - type: Sprite
     sprite: Structures/Machines/server.rsi

@@ -1,58 +1,52 @@
 # Generic
-lathe-category-circuitry = Circuitry
-lathe-category-clothing = Clothing
-lathe-category-lights = Lights
-lathe-category-machines = Machines
-lathe-category-parts = Parts
-lathe-category-tools = Tools
-lathe-category-weapons = Weapons
-
+lathe-category-circuitry = 電路
+lathe-category-clothing = 服裝
+lathe-category-lights = 燈光
+lathe-category-machines = 機器
+lathe-category-parts = 零件
+lathe-category-tools = 工具
+lathe-category-weapons = 武器
 # Biogen
-lathe-category-food = Food
-lathe-category-chemicals = Chemicals
-lathe-category-materials = Materials
-
+lathe-category-food = 食物
+lathe-category-chemicals = 化學品
+lathe-category-materials = 材料
 # Circuit imprinter
-lathe-category-computers = Computers
-lathe-category-engineering = Engineering
-lathe-category-general = General
-lathe-category-medical = Medical
-lathe-category-research = Research
-lathe-category-security = Security
-lathe-category-service = Service
-lathe-category-supply = Supply
-
+lathe-category-computers = 電腦
+lathe-category-engineering = 工程學
+lathe-category-general = 概述
+lathe-category-medical = 醫療
+lathe-category-research = 研究
+lathe-category-security = 安保區
+lathe-category-service = 服務
+lathe-category-supply = 供應
 # Cutter
-lathe-category-tiles = Tiles
-lathe-category-circuit-tile = Circuit
-lathe-category-concrete-tile = Concrete
-lathe-category-dark-tile = Dark
-lathe-category-faux-tile = Faux
+lathe-category-tiles = 磁磚
+lathe-category-circuit-tile = 電路
+lathe-category-concrete-tile = 混凝土
+lathe-category-dark-tile = 黑暗
+lathe-category-faux-tile = 仿製
 lathe-category-maints-tile = Maints
-lathe-category-marble = Marble
-lathe-category-steel-tile = Steel
-lathe-category-shuttle-tile = Shuttle
-lathe-category-white-tile = White
-lathe-category-wood-tile = Wood
-lathe-category-plastic-tile = Plastic
-lathe-category-precious-tile = Precious
-lathe-category-industrial-tile = Industrial
-
+lathe-category-marble = 大理石
+lathe-category-steel-tile = 鋼
+lathe-category-shuttle-tile = 穿梭車
+lathe-category-white-tile = 白色
+lathe-category-wood-tile = 木材
+lathe-category-plastic-tile = 塑膠
+lathe-category-precious-tile = 珍貴
+lathe-category-industrial-tile = 工業
 # Science
-lathe-category-mechs = Mechs
-lathe-category-modules = Modules
-lathe-category-robotics = Robotics
-
+lathe-category-mechs = 機甲
+lathe-category-modules = 模組
+lathe-category-robotics = 機器人學
 # Security TechFab
-lathe-category-ammo = Ammo
-lathe-category-boxes = Boxes
-lathe-category-magazines = Magazines
-
+lathe-category-ammo = 彈藥
+lathe-category-boxes = 盒子
+lathe-category-magazines = 雜誌
 # Uniform
-lathe-category-bedsheets = Bedsheets
-lathe-category-carpets = Carpets
-lathe-category-coats = Coats
-lathe-category-command = Command
-lathe-category-hats = Hats
-lathe-category-jumpsuits = Jumpsuits
-lathe-category-neck = Neck
+lathe-category-bedsheets = 床單
+lathe-category-carpets = 地毯
+lathe-category-coats = 外套
+lathe-category-command = 指揮部
+lathe-category-hats = 帽子
+lathe-category-jumpsuits = 連身褲
+lathe-category-neck = 頸部

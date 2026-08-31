@@ -1,18 +1,19 @@
+
 <Document>
-  # Shuttle-craft
+  # 穿梭船
 
-  Shuttle construction is straightforward, albeit rather expensive and hard to pull off within an hour.
+  穿梭船的建造過程相當簡單，儘管成本頗高，且很難在一小時內完成。
 
-  It's a good activity if you have a significant amount of spare time on your hands and want a bit of a challenge.
+  如果你有相當多的閒暇時間，又想找點挑戰，這是一項不錯的活動。
 
-  ## Getting started
-  <Box>Required parts:</Box>
+  ## 開始使用
+  <Box>所需零件：</Box>
   <Box>
   <GuideEntityEmbed Entity="Thruster"/>
   <GuideEntityEmbed Entity="Gyroscope"/>
   <GuideEntityEmbed Entity="ComputerShuttle"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
+  <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N."/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="CableHVStack"/>
@@ -21,10 +22,10 @@
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  <Box>Optional parts:</Box>
+  <Box>可選配件：</Box>
   <Box>
   <GuideEntityEmbed Entity="AirCanister"/>
-  <GuideEntityEmbed Entity="LightTube" Caption="lighting"/>
+  <GuideEntityEmbed Entity="LightTube" Caption="照明"/>
   <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   <GuideEntityEmbed Entity="SMESBasic"/>
   </Box>
@@ -33,8 +34,8 @@
   <GuideEntityEmbed Entity="NuclearBomb"/>
   </Box>
 
-  ## Foundation
-  For this step you'll need steel sheets, metal rods, and floor tiles (optional).
+  ## 地基
+  此步驟您將需要鋼板、金屬桿以及地磚（可選）。
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -46,32 +47,32 @@
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Head out into space with steel sheets and metal rods in hand and click on the edge of the station to place lattice.
+  手持鋼板和金屬桿，前往太空中，並點擊空間站的邊緣來放置格子結構。
 
-  Place a line of lattice about 3-4 tiles away from the station, then start building a platform with lattice.
+  在車站外約 3 至 4 塊磚的距離處放置一排格柵，然後開始用格柵搭建月台。
 
-  Keep doing this until you have a platform that is at least 3x3 in size, which is connected to the station via a single lattice line.
+  請持續這樣做，直到你建立出一個尺寸至少為 3×3 的平台，且該平台透過單條格子線與車站相連。
 
-  Once you're finished constructing the base of your shuttle, you can use wirecutters to snip the connecting lattice that joins your new ship and the station.
+  完成太空梭底座的組裝後，您可以使用剪線鉗剪斷連接新太空船與太空站的格狀結構。
 
-  This platform is considered a different grid from the station and thus will not have any gravity or be held in place by a station anchor — it can move around freely.
+  該平台被視為與站體不同的座標網，因此既不會受到重力影響，也不會由站體錨點固定——它可以自由移動。
 
-  You can expand your lattice platform further by clicking just off the edge with some rods in hand.
+  只要手持幾根桿子，點擊格子平台的邊緣外側，即可進一步擴展你的格子平台。
 
-  ## Docking Ports
-  Shuttle airlocks serve as docking ports, where ships can dock to stations safely.
+  ## 對接埠
+  穿梭艙充當對接埠，讓飛船能夠安全地與空間站對接。
 
-  The orientation of docking ports is important, as it determines on which face the shuttle will dock.
+  对接端口的朝向至關重要，因為這決定了穿梭機將對接於哪一面。
 
-  The little numb on the bottom of the docking port determines the direction of the docking port.
+  對接埠底部的小凸起決定了對接埠的方向。
 
   <Box>
     <GuideEntityEmbed Entity="AirlockShuttle"/>
     <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   </Box>
 
-  ## Directional Control
-  From there, once you have the shape you want, bring out and install thrusters at the edges.
+  ## 方向控制
+  接著，當您得到想要的形狀後，便在邊緣處延伸並安裝推進器。
 
   <Box>
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="0"/>
@@ -80,28 +81,28 @@
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="270"/>
   </Box>
 
-  It's a good idea to install four thrusters, one on each side of the platform, to ensure you can move in any direction.
+  建議安裝四具推進器，分別安裝在平台的每側，以確保能夠朝任何方向移動。
 
-  They must be pointing outward into space to function and will not fire if there's a tile in the way of the nozzle.
-  You can rotate thrusters—even anchored ones—using either [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] or [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate clockwise or counterclockwise.
+  這些噴嘴必須朝外對準太空才能運作，若噴嘴前方有磁磚擋住，便無法發射。
+  您可以使用 [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] 或 [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] 來進行順時針或逆時針旋轉。
 
-  Thrusters can be disabled or enabled using [color=yellow][bold][keybind="Use"][/bold][/color] with an empty hand or [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
+  可透過空手時按下 [color=yellow][bold][keybind="Use"][/bold][/color]，或按下 [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color]，來啟用或停用推進器。
 
-  ## Rotational Control
-  Now that you have directional control, you'll need to install a gyroscope to control your rotation.
+  ## 旋轉控制
+  既然已經具備方向控制功能，接下來您需要安裝一個陀螺儀來控制旋轉。
 
   <Box>
     <GuideEntityEmbed Entity="Gyroscope"/>
   </Box>
-  The placement of the gyroscope is not as important as the thrusters, but it should be somewhere convenient for you to access and power.
+  陀螺儀的安裝位置雖不如推進器重要，但應選擇一個方便您進行操作與供電的位置。
 
-  Note for large mass objects, you may need more than one gyroscope to rotate effectively.
+  請注意，對於質量較大的物體，您可能需要使用多個陀螺儀才能有效地使其旋轉。
 
-  ## Power
-  Now that you have all the systems in place, you'll need to power them.
+  ## 供電
+  既然所有系統都已就緒，接下來就需要為它們供電。
 
-  For small shuttles, a J.R.P.A.C.M.A.N.-type portable generator is a good choice. It provides straight LV power, so you don't have to worry about transformers.
-  Fuel for the generator is also commonly found in maintenance tunnels.
+  對於小型穿梭機而言，J.R.P.A.C.M.A.N. 型號的便攜式發電機是個不錯的選擇。 它提供直流低壓電源，因此您無需擔心變壓器的问题。
+  發電機所需的燃料通常也能在維護隧道中找到。
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -112,9 +113,9 @@
     </Box>
   </Box>
 
-  Some stations, however, provide much better generators and compact solutions like the Shuttle APU or the static generator.
-  These output HV and will have to be stepped down to MV and LV.
-  Luckily, these stations also usually provide wallmount substation boards for this purpose.
+  然而，部分車站提供性能更佳的發電機，以及像「Shuttle APU」或靜態發電機這類緊湊型解決方案。
+  這些輸出為高壓（HV），必須降壓至中壓（MV）和低壓（LV）。
+  所幸，這些變電站通常也會為此目的提供壁掛式變電站配電盤。
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -128,9 +129,9 @@
     </Box>
   </Box>
 
-  ## Piloting
-  Finally, install the shuttle computer wherever it is convenient and ensure all your thrusters and gyroscopes are receiving power (remember to wire the MV and LV networks!).
-  If they are, congratulations! You should have a functional shuttle!
+  ## 試運行
+  最後，將太空梭電腦安裝在方便的位置，並確保所有推進器與陀螺儀均已供電（請記得連接主電路 MV 與低壓電路 LV！）。
+  如果是的話，恭喜！ 你應該有一台能正常運作的穿梭機才對！
 
-  Making it livable and good-looking is left as an exercise to the reader.
+  至於如何讓它既宜居又美觀，就留給讀者自己去嘗試了。
 </Document>

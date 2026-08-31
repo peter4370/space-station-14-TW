@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BorgHypo, BaseXenoborgContraband ]
   id: NocturineHypo
-  name: nocturine hypo
-  description: A self-refilling injector for rapid administration of nocturine to victms.
+  name: 夜間低血糖 | nocturine hypo
+  description: 一種可自動補充的注射器，用於向受害者快速施打夜尿劑。 | A self-refilling injector for rapid administration of nocturine to victms.
   components:
   - type: Solution
     solution:

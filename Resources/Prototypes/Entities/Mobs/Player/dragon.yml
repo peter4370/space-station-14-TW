@@ -2,8 +2,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase, BaseSlicingRefinable, MobNightVision, BaseMobDestructible ]
   id: BaseMobDragon
   suffix: ""
-  name: space dragon
-  description: A flying leviathan, loosely related to space carps.
+  name: 太空龍 | space dragon
+  description: 一種會飛的利維坦，與太空鯉魚有鬆散的關聯。 | A flying leviathan, loosely related to space carps.
   abstract: true
   components:
   - type: Bloodstream
@@ -15,8 +15,8 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ghost-role-information-space-dragon-name
-    description: ghost-role-information-space-dragon-description
+    name: 幽靈角色資訊空間之龍之名 | ghost-role-information-space-dragon-name
+    description: 幽靈角色資訊－空間龍－描述 | ghost-role-information-space-dragon-description
     rules: ghost-role-information-space-dragon-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -193,7 +193,7 @@
   suffix: Dungeon
   components:
   - type: GhostRole
-    description: ghost-role-information-space-dragon-dungeon-description
+    description: 幽靈角色資訊－空間龍－地城描述 | ghost-role-information-space-dragon-dungeon-description
     rules: ghost-role-information-space-dragon-dungeon-rules
     raffle:
       settings: default
@@ -216,8 +216,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSpawnRift
-  name: Summon Carp Rift
-  description: Summons a carp rift that will periodically spawns carps.
+  name: 召喚鯉魚裂隙 | Summon Carp Rift
+  description: 召喚一道鯉魚裂隙，該裂隙會定期生成鯉魚。 | Summons a carp rift that will periodically spawns carps.
   components:
   - type: Action
     useDelay: 1
@@ -232,8 +232,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDevour
-  name: "[color=red]Devour[/color]"
-  description: Attempt to break a structure with your jaws or swallow a creature.
+  name: "[color=red]吞噬[/color] | [color=red]Devour[/color]"
+  description: 試著用下顎摧毀一座建築物，或將某個生物吞下肚。 | Attempt to break a structure with your jaws or swallow a creature.
   components:
   - type: Action
     itemIconStyle: BigAction
@@ -259,8 +259,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDragonsBreath
-  name: "[color=orange]Dragon's Breath[/color]"
-  description: Spew out flames at anyone foolish enough to attack you!
+  name: "[color=orange]龍之息[/color] | [color=orange]Dragon's Breath[/color]"
+  description: 對任何愚蠢到敢攻擊你的人，就向他們噴出火焰吧！ | Spew out flames at anyone foolish enough to attack you!
   components:
   - type: Action
     useDelay: 5
@@ -284,7 +284,7 @@
 - type: entity
   parent: Smoke
   id: BloodSmoke
-  name: smoke
+  name: 煙 | smoke
   categories: [ HideSpawnMenu ]
   components:
   - type: Smoke

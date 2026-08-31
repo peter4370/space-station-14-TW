@@ -1,9 +1,9 @@
 # Tool closet
 - type: entity
   id: ClosetTool
-  name: tool closet
+  name: 工具櫃 | tool closet
   parent: ClosetSteelBase
-  description: It's a storage unit for tools.
+  description: 這是一個用來存放工具的儲物櫃。 | It's a storage unit for tools.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -14,9 +14,9 @@
 # Radiation suit closet
 - type: entity
   id: ClosetRadiationSuit
-  name: radiation suit closet
+  name: 防輻射服儲藏櫃 | radiation suit closet
   parent: ClosetSteelBase
-  description: "More comfortable than radiation poisioning."
+  description: "比輻射中毒來得舒服些。 | More comfortable than radiation poisioning."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -27,9 +27,9 @@
 # Emergency closet
 - type: entity
   id: ClosetEmergency
-  name: emergency closet
+  name: 緊急儲物櫃 | emergency closet
   parent: ClosetSteelBase
-  description: It's a storage unit for emergency breath masks and O2 tanks.
+  description: 這是用來存放緊急用呼吸面罩和氧氣瓶的儲物櫃。 | It's a storage unit for emergency breath masks and O2 tanks.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -40,9 +40,9 @@
 # Emergency N2 closet
 - type: entity
   id: ClosetEmergencyN2
-  name: emergency nitrogen closet
+  name: 緊急氮氣儲藏室 | emergency nitrogen closet
   parent: ClosetSteelBase
-  description: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+  description: 裡面滿是救生設備。當然，這得假設你呼吸的是氮氣才行。 | It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -53,9 +53,9 @@
 # Fire safety closet
 - type: entity
   id: ClosetFire
-  name: fire-safety closet
+  name: 消防儲物櫃 | fire-safety closet
   parent: ClosetSteelBase
-  description: It's a storage unit for fire-fighting supplies.
+  description: 這是一個用於存放消防設備的儲藏室。 | It's a storage unit for fire-fighting supplies.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -66,9 +66,9 @@
 # EOD closet
 - type: entity
   id: ClosetBomb
-  name: EOD closet
+  name: EOD 儲物櫃 | EOD closet
   parent: ClosetSteelBase
-  description: It's a storage unit for explosion-protective suits.
+  description: 這是用來存放防爆服的儲物櫃。 | It's a storage unit for explosion-protective suits.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -79,9 +79,9 @@
 # Janitorial bomb suit closet
 - type: entity
   id: ClosetJanitorBomb
-  name: janitorial bomb suit closet
+  name: 清潔人員的炸彈防護服儲藏室 | janitorial bomb suit closet
   parent: ClosetSteelBase
-  description: It's a storage unit for janitorial explosion-protective suits.
+  description: 這是用來存放清潔人員防爆防護服的儲物櫃。 | It's a storage unit for janitorial explosion-protective suits.
   categories: [ DoNotMap ]
   components:
   - type: Appearance
@@ -96,8 +96,8 @@
 - type: entity
   id: ClosetL3
   parent: ClosetSteelBase
-  name: level 3 biohazard gear closet
-  description: It's a storage unit for level 3 biohazard gear.
+  name: 第3級生物危害防護裝備儲藏室 | level 3 biohazard gear closet
+  description: 這是用來存放第三級生物危害防護裝備的儲物櫃。 | It's a storage unit for level 3 biohazard gear.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -152,9 +152,9 @@
 # Maintenance closet
 - type: entity
   id: ClosetMaintenance
-  name: maintenance closet
+  name: 維修儲藏室 | maintenance closet
   parent: ClosetSteelBase
-  description: It's a storage unit.
+  description: 這是一個儲物間。 | It's a storage unit.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -164,9 +164,9 @@
 # Syndicate
 - type: entity
   id: LockerSyndicate
-  name: blood-red closet
+  name: 血紅色的衣櫥 | blood-red closet
   parent: ClosetSteelBase
-  description: It's a storage unit with a blood-red design.
+  description: 這是一個採用血紅色設計的儲物櫃。 | It's a storage unit with a blood-red design.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -177,10 +177,10 @@
 # Bluespace closet
 - type: entity
   id: ClosetBluespace
-  name: suspicious closet
+  name: 可疑的衣櫥 | suspicious closet
   suffix: Bluespace
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: 這是一個儲物間……對吧？ | It's a storage unit... right?
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker
@@ -196,10 +196,10 @@
 # Unstable bluespace closet
 - type: entity
   id: ClosetBluespaceUnstable
-  name: suspicious closet
+  name: 可疑的衣櫥 | suspicious closet
   suffix: Bluespace unstable
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: 這是一個儲物間……對吧？ | It's a storage unit... right?
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker

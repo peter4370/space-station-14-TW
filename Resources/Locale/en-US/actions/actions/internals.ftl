@@ -1,9 +1,8 @@
-action-name-internals-toggle-on = Toggle Internals On
-action-description-internals-toggle-on = Breathe from the equipped gas tank. Also requires equipped breath mask.
-action-name-internals-toggle-off = Toggle Internals Off
-action-description-internals-toggle-off = Breathe from the environment.
-
-internals-self-no-breath-tool = You are not wearing a breathing tool
-internals-other-no-breath-tool = {$ent} is not wearing a breathing tool
-internals-self-no-tank = You are not wearing a gas tank
-internals-other-no-tank = {$ent} is not wearing a gas tank
+action-name-internals-toggle-on = 開啟「內部運作」功能
+action-description-internals-toggle-on = 從裝備上的氣瓶中呼吸。此外，還需裝備呼吸面罩。
+action-name-internals-toggle-off = 關閉內部功能
+action-description-internals-toggle-off = 從環境中汲取氣息。
+internals-self-no-breath-tool = 您沒有佩戴呼吸裝置
+internals-other-no-breath-tool = { $ent } 並未佩戴呼吸裝置
+internals-self-no-tank = 你身上並沒有穿著一個汽油桶
+internals-other-no-tank = { $ent } 沒有裝上油箱

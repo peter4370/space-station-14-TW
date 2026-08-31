@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: MachineFlatpacker
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseConstructibleMachineDestructible ]
-  name: Flatpacker 1001
-  description: An industrial machine used for expediting machine construction across the station.
+  name: Flatpacker 1001 | Flatpacker 1001
+  description: 一種用於加速車站各處機械施工的工業機械。 | An industrial machine used for expediting machine construction across the station.
   components:
   - type: Sprite
     sprite: Structures/Machines/flatpacker.rsi
@@ -72,7 +72,7 @@
   - type: ItemSlots
     slots:
       board_slot:
-        name: flatpacker-item-slot-name
+        name: flatpacker-項目-插槽名稱 | flatpacker-item-slot-name
         whitelist:
           components:
           - MachineBoard

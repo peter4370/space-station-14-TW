@@ -1,33 +1,34 @@
-﻿<Document>
-  # Gas Mining and Storage
-  Gasses are often permanently used. Whether they are lost to [textlink="space" link="Spacing"] or used in a burn chamber, the station needs to be able to produce more gas to replace what is lost.
-  It also needs to store this gas in a safe and efficient manner.
+﻿
+<Document>
+  # 天然氣開採與儲存
+  天然氣通常會被長期使用。 無論這些氣體是因 [textlink="space" link="間距"] 而流失，還是被用於燃燒室，該站都必須能夠產生更多氣體，以彌補流失的部分。
+  此外，還需要以安全且有效率的方式儲存這種氣體。
 
-  ## Gas Miners
-  Gas miners are used to replenish the station's gas supply. They are found in the gas storage tanks in Atmospherics.
+  ## 燃料採集者
+  燃料採集者用於補充站點的燃料儲備。 它們位於「大氣層」中的氣體儲存槽內。
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
     <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
   </Box>
 
-  Gas miners constantly produce room temperature gas and push it into the exposed atmosphere. They require no power to function, and never stop working unless they have reached the defined [bold]cutoff pressure[/bold].
+  氣體開採業者持續生產室溫下的氣體，並將其排入外露的大氣中。 它們運作時無需電源，除非達到預設的 [bold]截止壓力[/bold]，否則永遠不會停止運作。
 
-  You can see more information about the gas miners by inspecting them using [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
-  Try inspecting the gas miners presented above.
+  您可以透過使用 [color=yellow][bold][keybind="ExamineEntity"][/bold][/color] 來檢視這些氣體採礦者，以獲取更多相關資訊。
+  不妨仔細檢視上述的氣體礦工。
 
-  Gas miners come in tiers, with the larger versions having a higher pressure cutoff than the smaller versions.
+  瓦斯礦工分為不同等級，其中較大型的機型其高壓截止值比小型機型更高。
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
     <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 kPa"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 千帕"/>
   </Box>
 
-  If gas miners are ever unanchored from the station, they can be reanchored using a regular wrench.
+  若瓦斯開採設備與站體的連接曾一度鬆脫，可使用普通扳手重新固定。
 
-  ## Gas Storage
-  Gas storage tanks are used to store gas produced by the gas miners, and to make it available to other processes. They are found in Atmospherics.
+  ## 氣體儲存
+  氣體儲存槽用於儲存氣體開採商所生產的氣體，並將其供應給其他製程使用。 它們出現在《Atmospherics》中。
 
   <Box>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
@@ -52,15 +53,15 @@
   </Box>
 
   <Box>
-    [color=#999999][italic]An example of a small gas holding tank[italic][/color]
+    [color=#999999][italic]小型氣體儲存槽的範例[italic][/color]
   </Box>
 
-  Various atmos processes insert and remove gasses from the gas storage tanks.
-  For example:
-  - The gas miner provides fresh gasses to the gas storage tanks, if there is room.
-  - The recyclernet injects reclaimed gasses into the gas storage tanks for reuse.
-  - Setups like the distronet and burn chamber remove gasses from the gas storage tanks.
+  各種氣體處理流程會將氣體注入氣體儲存槽，並從中抽出氣體。
+  例如：
+  - 若儲氣罐尚有餘裕，氣體開採機便會向儲氣罐輸送新鮮氣體。
+  - 「Recyclernet」將回收的氣體注入氣體儲存槽中以供再利用。
+  - 像「氣體分配網」和「燃燒室」這類裝置，能將氣體從氣體儲存槽中排出。
 
-  Gas storage tanks are designed to be able to be measured using a [textlink="Gas Analyzer" link="AtmosTools"].
-  Because the outflow vent is a [textlink="passive vent" link="PassiveVent"], you can use a [textlink="gas analyzer" link="AtmosTools"] to measure the gas content of the [textlink="pump's" link="Pumps"] input, which is drawing from the gas storage tank.
+  氣體儲存槽的設計，使其能夠透過 [textlink="氣體分析儀" link="AtmosTools"] 進行測量。
+  由於流出通風口屬於 [textlink="被動式通風口" link="PassiveVent"]， 您可以使用 [textlink="氣體分析儀" link="AtmosTools"] 來測量 [textlink="泵" link="Pumps"] 進氣口的氣體成分，該進氣口是從氣體儲存槽中抽取氣體的。
 </Document>

@@ -47,7 +47,7 @@
 - type: entity
   parent: MobStatusEffectDebuff
   id: StatusEffectForcedSleeping
-  name: forced sleep
+  name: 強制睡眠 | forced sleep
   components:
   - type: ForcedSleepingStatusEffect
   - type: StunnedStatusEffect
@@ -57,7 +57,7 @@
 - type: entity
   parent: MobStatusEffectBase # Not even rejuvenate can cure SSD...
   id: StatusEffectSSDSleeping
-  name: forced sleep
+  name: 強制睡眠 | forced sleep
   components:
   - type: ForcedSleepingStatusEffect
   - type: StunnedStatusEffect
@@ -68,7 +68,7 @@
 - type: entity
   parent: MobStatusEffectBase
   id: StatusEffectPressureImmunity
-  name: pressure immunity
+  name: 抗壓能力 | pressure immunity
   components:
   - type: PressureImmunityStatusEffect
 
@@ -77,7 +77,7 @@
   abstract: true
   parent: MobStatusEffectBase
   id: MutedStatusEffectBase
-  name: muted
+  name: 靜音 | muted
   components:
   - type: StatusEffectAlert
     alert: Muted
@@ -107,7 +107,7 @@
 - type: entity
   parent: [ MobStatusEffectBase, MobStatusEffectDebuff ]
   id: StatusEffectChangelingMuted
-  name: imperceptibly muted
+  name: 不知不覺間變得低調 | imperceptibly muted
   components:
   - type: MutedStatusEffect
 
@@ -115,7 +115,7 @@
 - type: entity
   parent: MobStatusEffectDebuff
   id: StatusEffectDrowsiness
-  name: drowsiness
+  name: 嗜睡 | drowsiness
   components:
   - type: DrowsinessStatusEffect
 
@@ -123,7 +123,7 @@
 - type: entity
   parent: MobStatusEffectDebuff
   id: StatusEffectSeeingRainbow
-  name: hallucinations
+  name: 幻覺 | hallucinations
   components:
   - type: SeeingRainbowsStatusEffect
   - type: ExaminableStatusEffect
@@ -133,7 +133,7 @@
 - type: entity
   parent: MobStatusEffectDebuff
   id: StatusEffectWoozy
-  name: woozy
+  name: 頭暈目眩 | woozy
   components:
   - type: DrunkStatusEffect
 
@@ -141,7 +141,7 @@
 - type: entity
   parent: [ StatusEffectWoozy, StatusEffectSlurred, StatusEffectClumsyDrunk ]
   id: StatusEffectDrunk
-  name: drunk
+  name: 醉酒 | drunk
   components:
   - type: ExaminableStatusEffect
     messageId: status-effect-examine-drunk
@@ -152,7 +152,7 @@
 - type: entity
   parent: MobStatusEffectDebuff
   id: StatusEffectBlindness
-  name: temporary blindness
+  name: 暫時性失明 | temporary blindness
   components:
   - type: StatusEffect
     whitelist:
@@ -168,7 +168,7 @@
 - type: entity
   parent: MobStatusEffectDebuff
   id: StatusEffectFlashed
-  name: flashed
+  name: 閃現 | flashed
   components:
   - type: StatusEffect
     whitelist:

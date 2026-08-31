@@ -1,8 +1,8 @@
 - type: entity
   id: BaseDefibrillator
   parent: BaseItem
-  name: defibrillator
-  description: CLEAR! Zzzzat!
+  name: 除顫器 | defibrillator
+  description: CLEAR！ZZZZAT——！ | CLEAR! Zzzzat!
   abstract: true
   components:
     - type: Sprite
@@ -59,7 +59,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
 
 - type: entity
   id: DefibrillatorOneHandedUnpowered
@@ -69,8 +69,8 @@
 - type: entity
   id: DefibrillatorCompact # This should be a research item at some point
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
-  name: compact defibrillator
-  description: Now in fun size!
+  name: 小型除顫器 | compact defibrillator
+  description: 現在推出迷你裝！ | Now in fun size!
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsmall.rsi
@@ -99,8 +99,8 @@
 - type: entity
   id: DefibrillatorSyndicate
   parent: [ DefibrillatorCompact, BaseSyndicateContraband ]
-  name: interdyne defibrillator
-  description: Doubles as a self-defense weapon against war-crime inclined tiders.
+  name: Interdyne 除顫器 | interdyne defibrillator
+  description: 同時也能作為自衛武器，用以對抗有犯下戰爭罪傾向的潮汐者。 | Doubles as a self-defense weapon against war-crime inclined tiders.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsyndi.rsi

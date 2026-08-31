@@ -1,64 +1,44 @@
 # Weaponry
 
 uplink-pistol-viper-name = Viper
-uplink-pistol-viper-desc = A small and easily concealable pistol. Retrofitted with a fully automatic receiver. Uses extended pistol magazines (.35 auto).
-
-uplink-pistol-cobra-name = Cobra
-uplink-pistol-cobra-desc = A rugged, robust operator handgun with inbuilt silencer. Uses pistol magazines (.25 caseless).
-
-uplink-rifle-mosin-name = Kardashev-Mosin
-uplink-rifle-mosin-desc = A bolt action service rifle that has seen many wars. Not modern by any standard, hand loaded, and terrible recoil, but it is cheap.
-
-uplink-esword-name = Energy Sword
-uplink-esword-desc = A very dangerous energy sword that can reflect shots. Can be stored in pockets when turned off. Makes a lot of noise when used or turned on.
-
-uplink-edagger-name = Energy Dagger
-uplink-edagger-desc = A small energy blade conveniently disguised in the form of a pen.
-
-uplink-energycrossbow-name = Mini Energy Crossbow
-uplink-energycrossbow-desc = The go-to sidearm of any operative who prefers their victims not to be moving. Fires regenerating toxic arrows that floors victims in an instant.
-
-uplink-knives-kit-name = Throwing Knives Kit
-uplink-knives-kit-desc = A set of 8 syndicate branded throwing knives, perfect for embedding into the body of your victims. Capable of ignoring armor entirely when thrown.
-
-uplink-gloves-north-star-name = Gloves of the North Star
-uplink-gloves-north-star-desc = A pair of gloves that improve the damage and speed of your punches, allowing you to beat people to death in a flurry of blows.
-
-uplink-gloves-knuckleduster-name = Syndicate Knuckle Dusters
-uplink-gloves-knuckleduster-desc = A pair of plastitanium knuckle dusters that let you punch hard enough to break the captain's jaw into pieces.
-
-uplink-eshield-name = Energy Shield
-uplink-eshield-desc = An exotic energy shield that reflects almost all laser beams, and provides protection from bullets and other physical attacks. Cannot be repaired.
-
-uplink-rigged-boxing-gloves-name = Rigged Boxing Gloves
-uplink-rigged-boxing-gloves-desc = Float like a butterfly, sting like a bee. Hits harder than you'd expect.
-
-uplink-sniper-bundle-name = Sniper Bundle
-uplink-sniper-bundle-desc = An inconspicuous briefcase that contains a Hristov, 10 spare bullets and a convenient disguise. Useful for breaching operations or assassination attempts, assuming the wielder is skilled enough.
-
+uplink-pistol-viper-desc = 一款體積小巧、易於隱藏的手槍。經改裝後配備全自動槍機。使用加長型手槍彈匣（.35自動）。
+uplink-pistol-cobra-name = 眼镜蛇
+uplink-pistol-cobra-desc = 一款堅固耐用的操作員手槍，內建消音器。採用手槍彈匣（.25 無殼彈）。
+uplink-rifle-mosin-name = 卡達謝夫-莫辛
+uplink-rifle-mosin-desc = 一款歷經無數戰爭考驗的栓動式制式步槍。無論以何種標準來看都算不上現代化，必須手動裝填，後座力也極其劇烈，但價格很便宜。
+uplink-esword-name = 能量劍
+uplink-esword-desc = 一把極其危險的能量劍，能夠反射射擊。關閉時可收納於口袋中。使用或開啟時會發出很大聲響。
+uplink-edagger-name = 能量匕首
+uplink-edagger-desc = 一把小巧的能量刀，巧妙地偽裝成一支筆的模樣。
+uplink-energycrossbow-name = 迷你能量弩
+uplink-energycrossbow-desc = 這是任何希望受害者保持靜止的行動人員首選的隨身武器。能發射具有再生效果的有毒箭矢，瞬間讓受害者倒地不起。
+uplink-knives-kit-name = 飛刀套組
+uplink-knives-kit-desc = 一套共 8 把、印有「辛迪加」標誌的投擲刀，非常適合刺入受害者的身體。投擲時可完全無視護甲。
+uplink-gloves-north-star-name = 北極星手套
+uplink-gloves-north-star-desc = 一雙能提升拳擊傷害與速度的手套，讓你能以連環猛擊將對手打死。
+uplink-gloves-knuckleduster-name = 「黑手黨」指節銅環
+uplink-gloves-knuckleduster-desc = 一對塑鈦合金指節套，讓你出拳時力道之大，足以將隊長的下巴打得粉碎。
+uplink-eshield-name = 能量護盾
+uplink-eshield-desc = 一種奇特的能量護盾，能反射幾乎所有的雷射光束，並提供抵禦子彈及其他物理攻擊的防護。無法修復。
+uplink-rigged-boxing-gloves-name = 經過改裝的拳擊手套
+uplink-rigged-boxing-gloves-desc = 如蝴蝶般輕盈，如蜜蜂般叮人。打起來比你想像中更狠。
+uplink-sniper-bundle-name = 狙擊手套組
+uplink-sniper-bundle-desc = 一個不起眼的手提箱，內含一把赫里斯托夫手槍、10發備用子彈以及一套方便的偽裝裝備。若使用者技藝高超，此物對於突襲行動或暗殺任務頗為實用。
 uplink-hushpup-name = Hushpup
-uplink-hushpup-desc = A powerful silenced shotgun with a low magazine capacity. Uses .50 shotgun ammo.
-
+uplink-hushpup-desc = 一把威力強大但配有消音器的霰彈槍，彈匣容量較低。使用 .50 口徑霰彈槍彈藥。
 uplink-c20r-name = C-20r
-uplink-c20r-desc = Old faithful: The classic C-20r Submachine Gun.
-
-uplink-c20r-bundle-name = C-20r Bundle
-uplink-c20r-bundle-desc = Old faithful: The classic C-20r Submachine Gun, bundled with three magazines.
-
-uplink-bulldog-name = Bulldog
-uplink-bulldog-desc = Lean and mean: Contains the popular Bulldog Shotgun.
-
-uplink-bulldog-bundle-name = Bulldog Bundle
-uplink-bulldog-bundle-desc = Lean and mean: Contains the popular Bulldog Shotgun, a 12g slug drum, and four 12g buckshot drums.
-
-uplink-estoc-bundle-name = Estoc DMR bundle
-uplink-estoc-bundle-desc = A designated marksman rifle, fitted with a mid-range optic for longer-range combat. Bundled with three rifle magazines (.20 rifle).
-
-uplink-grenade-launcher-name = China-Lake
-uplink-grenade-launcher-desc = An old China-Lake grenade launcher bundled with 5 rounds of anti-personnel ammo.
-
-uplink-grenade-launcher-bundle-name = China-Lake Bundle
-uplink-grenade-launcher-bundle-desc = An old China-Lake grenade launcher bundled with 11 rounds of varying destructive capability.
-
-uplink-l6-saw-bundle-name = L6 Saw Bundle
-uplink-l6-saw-bundle-desc = More dakka: The iconic L6 light machine gun, bundled with 2 box magazines.
+uplink-c20r-desc = 老夥伴：經典的 C-20r 衝鋒槍。
+uplink-c20r-bundle-name = C-20r 套裝
+uplink-c20r-bundle-desc = 老牌經典：經典的 C-20r 衝鋒槍，隨附三支彈匣。
+uplink-bulldog-name = 鬥牛犬
+uplink-bulldog-desc = 精簡而強悍：內含廣受歡迎的「鬥牛犬霰彈槍」。
+uplink-bulldog-bundle-name = 鬥牛犬套裝
+uplink-bulldog-bundle-desc = 精簡而強悍：內含廣受歡迎的「鬥牛犬霰彈槍」、一盒 12 號實心彈彈鼓，以及四盒 12 號散彈彈鼓。
+uplink-estoc-bundle-name = Estoc DMR 套裝
+uplink-estoc-bundle-desc = 一款配備中程瞄準鏡的指定狙擊步槍，適用於遠距離作戰。隨附三個步槍彈匣（.20 步槍彈）。
+uplink-grenade-launcher-name = 中國湖
+uplink-grenade-launcher-desc = 一把舊式的「中國湖」榴彈發射器，附帶 5 發反人員彈藥。
+uplink-grenade-launcher-bundle-name = 中國-外灘套裝
+uplink-grenade-launcher-bundle-desc = 一把舊式的「中國湖」榴彈發射器，附帶 11 發破壞力各異的榴彈。
+uplink-l6-saw-bundle-name = L6 鋸具套組
+uplink-l6-saw-bundle-desc = 更多火力：標誌性的 L6 輕機槍，隨附 2 個盒式彈匣。

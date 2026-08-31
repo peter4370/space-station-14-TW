@@ -1,20 +1,21 @@
-﻿<Document>
-  # Power Storage
-  Because of [textlink="Power Ramping" link="Ramping"], it is important to have power storage devices to help flatten out spikes and dips in power usage, as well as to provide power in the event of a power deficit.
+﻿
+<Document>
+  # 電力儲存
+  由於 [textlink="功率波動" link="波動"] 的關係，配備電力儲存裝置至關重要，這不僅有助於平滑用電量的尖峰與低谷，還能於電力短缺時提供電力。
 
-  Each transformer for its respective power level ([color=orange]HV[/color], [color=yellow]MV[/color], and [color=green]LV[/color]) has an attached small battery to handle minor spikes and dips; however, this is not viable in the case of a large grid deficit.
+  每台變壓器（分別對應其功率等級：[color=orange]高壓[/color]、[color=yellow]中壓[/color] 及 [color=green]低壓[/color]）均配有一顆小型電池，用以應對輕微的電壓尖峰與電壓驟降；然而，若面臨大規模的電網供電不足，此方案便無法行得通。
 
   ## SMES
 
-  The Superconducting Magnetic Energy Storage (SMES) unit is a device that can store a large amount of power and release it quickly.
+  超導磁能儲存（SMES）裝置是一種能夠儲存大量電力並迅速釋放的設備。
 
   <Box>
     <GuideEntityEmbed Entity="SMESBasic"/>
   </Box>
 
-  In order to charge the SMES unit, [color=orange]HV[/color] power must be provided to a cable terminal pointing at the SMES unit. The SMES will draw power from the terminal and send power out from underneath.
+  為了為 SMES 裝置充電，必須將 [color=orange]HV[/color] 電源供應至指向 SMES 裝置的電纜端子。 SMES 將從終端汲取電力，並從底部輸出電力。
 
-  The terminal will ensure that the [color=orange]HV input[/color] and [color=orange]HV output[/color] do not connect.
+  該終端將確保 [color=orange]高壓輸入[/color] 與 [color=orange]高壓輸出[/color] 不會相互連接。
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -29,22 +30,22 @@
     </Box>
   </Box>
 
-  SMESes can store [color=orange][protodata="SMESBasic" comp="Battery" member="MaxCharge" format="N0"/] J[/color] of energy and can output a maximum [color=orange][protodata="SMESBasic" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] of power.
+  SMES 可儲存 [color=orange][protodata="SMESBasic" comp="Battery" member="MaxCharge" format="N0"/] J[/color] 的能量，並能輸出最大 [color=orange][protodata="SMESBasic" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] 的功率。
 
-  If the battery is full, the SMES will pass through the power it receives from the input cable to the output cable. In the event of a power deficit, the SMES will ramp up to supplement the power draw.
+  若電池已充滿，SMES 會將從輸入電纜接收的電力傳輸至輸出電纜。 若發生電力短缺，SMES 將提高輸出功率以補充電力需求。
 
-  ## Advanced SMES
-  The Advanced SMES unit is a more advanced version of the SMES unit that can store even more power.
+  ## 進階 SMES
+  進階 SMES 裝置是 SMES 裝置的升級版本，能夠儲存更多的電力。
 
   <Box>
     <GuideEntityEmbed Entity="SMESAdvanced"/>
   </Box>
 
-  They're primarily used in station SMES arrays to store large amounts of power for the station's power grid.
-  They help to buy engineers time to setup power at roundstart or to provide power in the event of a power deficit for extended periods of time.
+  它們主要用於電站的小型能源系統（SMES）陣列中，用以儲存大量電力，供電站電網使用。
+  它們有助於為工程師爭取時間，以便在回合開始時建立電力供應，或在電力短缺持續較長時間的情況下提供電力。
 
-  Advanced SMESes can store [color=orange][protodata="SMESAdvanced" comp="Battery" member="MaxCharge" format="N0"/] J[/color] of energy and can output a maximum [color=orange][protodata="SMESAdvanced" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] of power.
+  進階 SMES 可儲存 [color=orange][protodata="SMESAdvanced" comp="Battery" member="MaxCharge" format="N0"/] J[/color] 的能量，並能輸出最大 [color=orange][protodata="SMESAdvanced" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] 的功率。
 
-  Keep in mind that these aren't a magic solution to power deficits and they can't store infinite energy.
-  A station load will drain these battries quickly if there is no power source partially supporting them.
+  請記住，這些並非解決電力短缺的萬靈丹，而且它們也無法儲存無限的能量。
+  如果沒有電源提供部分支援，車站的負載會迅速耗盡這些電池的電量。
 </Document>

@@ -1,8 +1,8 @@
 - type: entity
   parent: BookBase
   id: BookNarsieLegend
-  name: the legend of nar'sie
-  description: The book is an old, leather-bound tome with intricate engravings on the cover. The pages are yellowed and fragile with age, with the ink of the text faded in some places. It appears to have been well-read and well-loved, with dog-eared pages and marginalia scrawled in the margins. Despite its aged appearance, the book still exudes a sense of mystical power and wonder, hinting at the secrets and knowledge contained within its pages.
+  name: 《納爾西的傳說》 | the legend of nar'sie
+  description: 這本書是一本古老的皮革裝幀巨著，封面上刻有精緻的雕紋。書頁因歲月而泛黃脆弱，文字的墨跡在某些地方已然褪色。看來這本書曾被反覆閱讀且備受珍愛，書頁邊角有摺痕，頁邊也塗寫著潦草的批註。 儘管外觀顯得陳舊，這本書仍散發著一股神秘的力量與奇蹟感，隱約透露出書頁間所蘊藏的秘密與知識。 | The book is an old, leather-bound tome with intricate engravings on the cover. The pages are yellowed and fragile with age, with the ink of the text faded in some places. It appears to have been well-read and well-loved, with dog-eared pages and marginalia scrawled in the margins. Despite its aged appearance, the book still exudes a sense of mystical power and wonder, hinting at the secrets and knowledge contained within its pages.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -17,15 +17,15 @@
       - state: icon_pentagramm
         color: "#911129"
       - state: detail_bookmark
-        color: red 
+        color: red
     - type: Paper
       content: book-text-narsielegend
 
 - type: entity
   parent: BookBase
   id: BookTruth
-  name: exploring different philosophical perspectives on truth and the complexity of lying
-  description: A book exploring the different philosophical perspectives on truth and lying has a worn cover, with creases and marks indicating frequent use and thoughtful contemplation. The spine shows signs of wear from being pulled off the shelf again and again. The pages themselves are filled with underlines, notes in the margins, and highlighted passages as readers grapple with the nuances and complexities of the topic.
+  name: 探討關於真理及說謊之複雜性的不同哲學觀點 | exploring different philosophical perspectives on truth and the complexity of lying
+  description: 一本探討真理與謊言不同哲學觀點的書，封面已顯磨損，摺痕與痕跡顯示出它曾被頻繁翻閱並經過深思熟慮。書脊上則因反覆從書架上取下而留有磨損的痕跡。 書頁上布滿了劃線、頁邊註記以及螢光筆標示的段落，這反映出讀者們正竭力釐清這個主題的細微差異與複雜性。 | A book exploring the different philosophical perspectives on truth and lying has a worn cover, with creases and marks indicating frequent use and thoughtful contemplation. The spine shows signs of wear from being pulled off the shelf again and again. The pages themselves are filled with underlines, notes in the margins, and highlighted passages as readers grapple with the nuances and complexities of the topic.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: BookBase
   id: BookWorld
-  name: shaping the state of the world - interplay of forces and choices
-  description: The book is a well-preserved hardcover with a simple, elegant design on the cover, depicting the image of a world in motion. The pages are crisp and clean, with no signs of wear or tear, suggesting that it has been well-cared for and valued by its previous owner. The text is printed in a clear, legible font, and the chapters are organized in a logical and easy-to-follow manner, making it accessible to readers of all levels of expertise.
+  name: 塑造世界局勢——力量與抉擇的相互作用 | shaping the state of the world - interplay of forces and choices
+  description: 這本書是一本保存完好的精裝本，封面設計簡約優雅，描繪出一個動感十足的世界。 書頁平整潔淨，毫無磨損或破損的痕跡，顯示前任擁有者對此書倍加呵護與珍視。書中文字採用清晰易讀的字體，各章節的編排邏輯清晰且條理分明，讓無論專業程度如何的讀者都能輕鬆理解。 | The book is a well-preserved hardcover with a simple, elegant design on the cover, depicting the image of a world in motion. The pages are crisp and clean, with no signs of wear or tear, suggesting that it has been well-cared for and valued by its previous owner. The text is printed in a clear, legible font, and the chapters are organized in a logical and easy-to-follow manner, making it accessible to readers of all levels of expertise.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: BookBase
   id: BookIanAntarctica
-  name: adventures of robert & ian - exploring antarctica
-  description: The book is a small paperback in good condition, with an illustration of Ian the corgi and the colony of penguins on the cover. The title, "Ian and Robert's Antarctic Adventure", is written in bold white letters against a blue background. The back cover features a brief summary of the story, highlighting the themes of humility, resilience, and the beauty of nature.
+  name: 羅伯特與伊恩的冒險——探索南極洲 | adventures of robert & ian - exploring antarctica
+  description: 這本書是一本小開本的平裝書，狀況良好，封面上印有柯基犬伊恩與一窩企鵝的插圖。 書名《伊恩與羅伯特的南極冒險》以白色粗體字印於藍色背景上。封底刊載了故事的簡要摘要，著重闡述了謙遜、韌性與自然之美等主題。 | The book is a small paperback in good condition, with an illustration of Ian the corgi and the colony of penguins on the cover. The title, "Ian and Robert's Antarctic Adventure", is written in bold white letters against a blue background. The back cover features a brief summary of the story, highlighting the themes of humility, resilience, and the beauty of nature.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: BookBase
   id: BookSlothClownSSS
-  name: the sloth and the clown - space station shenanigans
-  description: The book looks new, with a glossy cover featuring Chuckles the clown and Snuggles the sloth floating in space with a backdrop of stars and planets. Chuckles is dressed in his banana costume and Snuggles is sleeping on a hammock made of space ropes. The title "The Sloth and the Clown - Space Station Shenanigans" is written in bold and colorful letters.
+  name: 樹懶與小丑——太空站的鬧劇 | the sloth and the clown - space station shenanigans
+  description: 這本書看起來嶄新如初，封面採用亮面印刷，描繪小丑查克爾斯（Chuckles）和樹懶斯納格爾斯（Snuggles）在星辰與行星構成的背景中漂浮於太空。查克爾斯身穿香蕉裝，而斯納格爾斯則躺在由太空繩索編織而成的吊床上熟睡。 書名《樹懶與小丑——太空站的惡作劇》以粗體且色彩繽紛的字體呈現。 | The book looks new, with a glossy cover featuring Chuckles the clown and Snuggles the sloth floating in space with a backdrop of stars and planets. Chuckles is dressed in his banana costume and Snuggles is sleeping on a hammock made of space ropes. The title "The Sloth and the Clown - Space Station Shenanigans" is written in bold and colorful letters.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: BookBase
   id: BookSlothClownPranks
-  name: the sloth and the clown - pranks on zorgs
-  description: The book is in excellent condition, with crisp pages and a bright cover. The cover of the book features Chuckles and Snuggles, surrounded by the different species they encountered during their adventures in space. In the background, the Zorgs can be seen peeking out from behind a spaceship.
+  name: 樹懶與小丑——對佐爾格斯的惡作劇 | the sloth and the clown - pranks on zorgs
+  description: 這本書狀況極佳，頁面平整，封面色彩鮮豔。書封上描繪了查克爾斯和斯納格爾斯，周圍環繞著他們在太空冒險途中遇到的各種生物。背景中，可以看到佐格族正從一艘太空船後面探頭張望。 | The book is in excellent condition, with crisp pages and a bright cover. The cover of the book features Chuckles and Snuggles, surrounded by the different species they encountered during their adventures in space. In the background, the Zorgs can be seen peeking out from behind a spaceship.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: BookBase
   id: BookSlothClownMMD
-  name: the sloth and the clown - maze maze danger
-  description: The book looks new and vibrant, with an image of Chuckles and Snuggles standing in front of the changing maze on the cover. The title "The Sloth and the Clown - Maze Maze Danger" is written in bold, colorful letters that pop against a background of space and stars.
+  name: 樹懶與小丑——迷宮迷宮危險 | the sloth and the clown - maze maze danger
+  description: 這本書看起來嶄新又生動，封面上印著查克爾斯和斯納格爾斯站在變幻迷宮前的圖案。書名《樹懶與小丑——迷宮大危機》以粗體、色彩繽紛的字體書寫，在太空與星辰的背景上格外醒目。 | The book looks new and vibrant, with an image of Chuckles and Snuggles standing in front of the changing maze on the cover. The title "The Sloth and the Clown - Maze Maze Danger" is written in bold, colorful letters that pop against a background of space and stars.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: BookBase
   id: BookStruck
-  name: the humbling and transformative experience of being struck by lightning
-  description: The cover of the book is an electrifying image of lightning striking the ground, with a silhouette of a person standing in the midst of it. The title is written in bold letters in white against a black background, conveying the power and intensity of the experience. The subtitle is written in smaller letters below the title, providing a hint of the philosophical and spiritual themes explored within.
+  name: 被雷擊中這段令人謙卑且帶來蛻變的經歷 | the humbling and transformative experience of being struck by lightning
+  description: 這本書的封面是一幅令人震撼的畫面：一道閃電劈向地面，一名人物的剪影佇立其中。書名以白色粗體字印在黑色背景上，傳達出這段經歷所蘊含的力量與張力。 副標題以較小的字體印於書名下方，暗示了書中探討的哲學與靈性主題。 | The cover of the book is an electrifying image of lightning striking the ground, with a silhouette of a person standing in the midst of it. The title is written in bold letters in white against a black background, conveying the power and intensity of the experience. The subtitle is written in smaller letters below the title, providing a hint of the philosophical and spiritual themes explored within.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: BookBase
   id: BookSun
-  name: reaching for the sun - a plant's quest for life
-  description: The book is new, with a bright and vibrant cover featuring a plant stretching its leaves towards the sun. The title, "Reaching for the Sun - A Plant's Quest for Life," is written in bold, green letters, with an image of the sun rising behind the plant. The cover evokes a sense of growth, energy, and the beauty of nature.
+  name: 追尋陽光——植物對生命的追求 | reaching for the sun - a plant's quest for life
+  description: 這本書是全新的，封面色彩鮮豔生動，描繪了一株植物正將葉片伸向太陽的畫面。 書名《追尋陽光——一株植物的生命之旅》以粗體綠色字體呈現，背景中一輪朝陽正從植物身後升起。封面令人感受到成長、活力與大自然之美。 | The book is new, with a bright and vibrant cover featuring a plant stretching its leaves towards the sun. The title, "Reaching for the Sun - A Plant's Quest for Life," is written in bold, green letters, with an image of the sun rising behind the plant. The cover evokes a sense of growth, energy, and the beauty of nature.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: BookBase
   id: BookPossum
-  name: fallen ambitions - the tragic tale of morty the possum
-  description: The book is in good condition, with a hardcover and a dark green forest background. In the center of the cover, there is a sad looking possum sitting on a branch, with a distant and lonely expression on its face. The title, "Fallen Ambitions - The Tragic Tale of Morty the Possum," is written in bold, gold letters above the possum.
+  name: 破滅的野心——負鼠莫蒂的悲劇故事 | fallen ambitions - the tragic tale of morty the possum
+  description: 這本書狀況良好，為精裝本，封面背景是深綠色的森林。封面中央，有一隻神情憂鬱的負鼠坐在樹枝上，臉上流露著遙遠而孤獨的神情。 書名《墮落的抱負——負鼠莫蒂的悲劇故事》以粗體金色字體印在負鼠上方。 | The book is in good condition, with a hardcover and a dark green forest background. In the center of the cover, there is a sad looking possum sitting on a branch, with a distant and lonely expression on its face. The title, "Fallen Ambitions - The Tragic Tale of Morty the Possum," is written in bold, gold letters above the possum.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -219,8 +219,8 @@
 - type: entity
   parent: BookBase
   id: BookCafe
-  name: the cafe possum
-  description: The book is in new condition, with a vibrant and whimsical cover that features a charming illustration of a tiny possum peeking out from behind a coffee cup, with a colorful and bustling cafe scene in the background. The title "The Cafe Possum" is written in bold, playful lettering, and the author's name is printed in a smaller font below it.
+  name: 「袋貂咖啡館」 | the cafe possum
+  description: 這本書狀況如新，封面色彩鮮豔且充滿奇思妙想，描繪了一隻迷人的小負鼠正從咖啡杯後探頭張望，背景則是色彩繽紛、熱鬧非凡的咖啡館場景。 書名《咖啡館袋貂》以粗體、活潑的字體呈現，作者姓名則以較小的字體印在其下方。 | The book is in new condition, with a vibrant and whimsical cover that features a charming illustration of a tiny possum peeking out from behind a coffee cup, with a colorful and bustling cafe scene in the background. The title "The Cafe Possum" is written in bold, playful lettering, and the author's name is printed in a smaller font below it.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -237,8 +237,8 @@
 - type: entity
   parent: BookBase
   id: BookFeather
-  name: a feather of magic - the wandering bird's journey to belonging
-  description: The book would be in new condition, with a glossy cover depicting the wandering bird surrounded by a glowing forest, with the magical feather at the center. The title, "A Feather of Magic," would be written in bold, glittering letters, while the subtitle, "The Wandering Bird's Journey to Belonging," would be written in smaller print underneath. The back cover would feature a brief summary of the story, along with reviews from critics praising the book's themes of hope and renewal.
+  name: 一顆魔法羽毛——流浪之鳥尋找歸屬的旅程 | a feather of magic - the wandering bird's journey to belonging
+  description: 這本書的狀態將如新，封面採用光面印刷，描繪了一隻流浪的鳥兒，周遭環繞著光芒四射的森林，中央則是一根魔法羽毛。 書名《魔法之羽》將以粗體、閃閃發光的字體呈現，而副標題《流浪之鳥尋找歸屬的旅程》則以較小的字體印於其下。 書背將印有故事的簡短摘要，以及評論家們讚揚本書所傳達的希望與重生主題的書評。 | The book would be in new condition, with a glossy cover depicting the wandering bird surrounded by a glowing forest, with the magical feather at the center. The title, "A Feather of Magic," would be written in bold, glittering letters, while the subtitle, "The Wandering Bird's Journey to Belonging," would be written in smaller print underneath. The back cover would feature a brief summary of the story, along with reviews from critics praising the book's themes of hope and renewal.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: BookBase
   id: BookIanLostWolfPup
-  name: the adventures of ian and renault - finding the lost wolf pup
-  description: The book is a new condition with a colorful cover, depicting Ian the corgi and Renault the fox on a journey through the forest, with the lost wolf pup to their feet. The title "The Adventures of Ian and Renault - Finding the Lost Wolf Pup" is prominently displayed at the top, with the author's name below. The cover has a whimsical and adventurous feel to it, attracting readers of all ages.
+  name: 伊恩與雷諾的冒險——尋找那隻走失的小狼崽 | the adventures of ian and renault - finding the lost wolf pup
+  description: 這本書狀況如新，封面色彩繽紛，描繪了柯基犬伊恩和狐狸雷諾正穿越森林的旅程，他們腳邊還躺著那隻迷路的狼崽。書名《伊恩與雷諾的冒險——尋找迷路的狼崽》醒目地印在封面頂端，作者姓名則位於其下。 封面洋溢著奇幻而冒險的氛圍，吸引各年齡層的讀者。 | The book is a new condition with a colorful cover, depicting Ian the corgi and Renault the fox on a journey through the forest, with the lost wolf pup to their feet. The title "The Adventures of Ian and Renault - Finding the Lost Wolf Pup" is prominently displayed at the top, with the author's name below. The cover has a whimsical and adventurous feel to it, attracting readers of all ages.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -278,8 +278,8 @@
 - type: entity
   parent: BookBase
   id: BookIanRanch
-  name: the adventures of ian and renault - ranch expedition
-  description: The book appears to be new, with crisp pages and an unblemished cover. The cover features a colorful illustration of Ian and Renault, surrounded by various animals they encountered on the ranch, including horses, cows, and chickens. The title, "The Adventures of Ian and Renault - Ranch Expedition," is written in bold letters above the image, with the subtitle, "Helping Animals in Need," written below.
+  name: 伊恩與雷諾的冒險——牧場探險之旅 | the adventures of ian and renault - ranch expedition
+  description: 這本書看起來是全新的，書頁撥動時清脆，封面也毫無瑕疵。 封面印有一幅色彩繽紛的插圖，描繪了伊恩和雷諾，周圍環繞著他們在牧場上遇見的各種動物，包括馬、牛和雞。書名《伊恩與雷諾的冒險——牧場探險》以粗體字印在插圖上方，副標題《幫助有需要的動物》則印在下方。 | The book appears to be new, with crisp pages and an unblemished cover. The cover features a colorful illustration of Ian and Renault, surrounded by various animals they encountered on the ranch, including horses, cows, and chickens. The title, "The Adventures of Ian and Renault - Ranch Expedition," is written in bold letters above the image, with the subtitle, "Helping Animals in Need," written below.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -298,8 +298,8 @@
 - type: entity
   parent: BookBase
   id: BookIanOcean
-  name: the adventures of ian and renault - an ocean adventure
-  description: The book is new and in excellent condition. The cover shows Ian and Renault running and playing on the beach, with the blue ocean and golden sand in the background. The title is written in bold, playful letters, and the subtitle reads "An Ocean Adventure."
+  name: 伊恩與雷諾的冒險——一場海洋冒險 | the adventures of ian and renault - an ocean adventure
+  description: 這本書是全新的，狀況極佳。封面描繪了伊恩和雷諾在海灘上奔跑玩耍的場景，背景是湛藍的大海和金黃的沙灘。書名以粗體、活潑的字體書寫，副標題則為「一場海洋冒險」。 | The book is new and in excellent condition. The cover shows Ian and Renault running and playing on the beach, with the blue ocean and golden sand in the background. The title is written in bold, playful letters, and the subtitle reads "An Ocean Adventure."
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -318,8 +318,8 @@
 - type: entity
   parent: BookBase
   id: BookIanMountain
-  name: the adventures of ian and renault - a mountain expedition
-  description: The book is in new condition. The cover is a stunning mountain landscape with Ian and Renault in the foreground, looking out over the vista of the surrounding peaks and valleys. The title is written in bold, block letters at the top, with the subtitle, "A Mountain Expedition," written underneath.
+  name: 伊恩與雷諾的冒險——一次登山探險 | the adventures of ian and renault - a mountain expedition
+  description: 這本書狀況如新。封面印有一幅令人驚豔的山景，伊恩和雷諾站在前景，眺望著周圍山巒與山谷的壯闊景致。書名以粗體方塊字印於頂部，其下則印有副標題「一次登山探險」。 | The book is in new condition. The cover is a stunning mountain landscape with Ian and Renault in the foreground, looking out over the vista of the surrounding peaks and valleys. The title is written in bold, block letters at the top, with the subtitle, "A Mountain Expedition," written underneath.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -337,8 +337,8 @@
 - type: entity
   parent: BookBase
   id: BookIanCity
-  name: the adventures of ian and renault - exploring the city
-  description: The book is in new condition, with crisp pages and a glossy cover. The cover features a colorful illustration of Ian and Renault exploring the city, with tall buildings and bustling streets in the background. Ian is leading the way, with his tail wagging excitedly, while Renault follows close behind, her ears perked up and her eyes wide with wonder. The title, "The Adventures of Ian and Renault," is written in bold, playful letters, with the subtitle, "Exploring the City," written below in smaller font.
+  name: 伊恩與雷諾的冒險——探索城市 | the adventures of ian and renault - exploring the city
+  description: 這本書狀況如新，頁面平整，封面光亮如新。封面印有一幅色彩繽紛的插圖，描繪伊恩和雷諾正在探索城市，背景中可見高聳的大樓與熙熙攘攘的街道。伊恩走在最前面，尾巴興奮地搖晃著；雷諾緊隨其後，耳朵豎得高高的，雙眼因驚奇而睜得大大的。 書名《伊恩與雷諾的冒險》以粗體、活潑的字體書寫，副標題《探索城市》則以較小的字體印在下方。 | The book is in new condition, with crisp pages and a glossy cover. The cover features a colorful illustration of Ian and Renault exploring the city, with tall buildings and bustling streets in the background. Ian is leading the way, with his tail wagging excitedly, while Renault follows close behind, her ears perked up and her eyes wide with wonder. The title, "The Adventures of Ian and Renault," is written in bold, playful letters, with the subtitle, "Exploring the City," written below in smaller font.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -357,8 +357,8 @@
 - type: entity
   parent: BookBase
   id: BookIanArctic
-  name: the adventures of ian and renault - an arctic journey of courage and friendship
-  description: |
+  name: 《伊恩與雷諾的冒險》——一段充滿勇氣與友誼的北極之旅 | the adventures of ian and renault - an arctic journey of courage and friendship
+  description:
     The book looks new and adventurous, with a picture of Ian and Renault standing in front of an icy landscape with snowflakes falling all around them. The title, "The Adventures of Ian and Renault," is written in bold letters at the top, with a subtitle that reads, "An Arctic Journey of Courage and Friendship."
     2nd Edition.
   components:
@@ -379,8 +379,8 @@
 - type: entity
   parent: BookBase
   id: BookIanDesert
-  name: the adventures of ian and renault - exploring the mysterious desert
-  description: The book is in new condition and would have a colorful cover depicting Ian and Renault against a desert backdrop. The cover would feature images of various animals and plants that the two encountered on their adventure, such as a rattlesnake, coyotes, sand dunes, and an oasis. The title, "The Adventures of Ian and Renault" is prominently displayed on the cover in bold letters, while the subtitle "Exploring the Mysterious Desert" is written in smaller letters underneath.
+  name: 伊恩與雷諾的冒險——探索神秘的沙漠 | the adventures of ian and renault - exploring the mysterious desert
+  description: 這本書狀況如新，封面色彩繽紛，以沙漠為背景描繪了伊恩和雷諾的身影。封面上會出現兩人冒險途中遇到的各種動植物圖案，例如響尾蛇、郊狼、沙丘和綠洲。 書名《伊恩與雷諾的冒險》以粗體字醒目地印在封面上，而副標題《探索神秘的沙漠》則以較小的字體印在下方。 | The book is in new condition and would have a colorful cover depicting Ian and Renault against a desert backdrop. The cover would feature images of various animals and plants that the two encountered on their adventure, such as a rattlesnake, coyotes, sand dunes, and an oasis. The title, "The Adventures of Ian and Renault" is prominently displayed on the cover in bold letters, while the subtitle "Exploring the Mysterious Desert" is written in smaller letters underneath.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -399,8 +399,8 @@
 - type: entity
   parent: BookBase
   id: BookNames
-  name: the power of names - a philosophical exploration
-  description: The book is a gently used philosophy text, with a cover that features a close-up of a person's mouth, with the word "names" written on their lips. The title is "The Power of Names - A Philosophical Exploration," and the author's name is prominently displayed underneath. The overall design is simple and elegant, with the focus on the text rather than any flashy graphics or images.
+  name: 名字的力量——一場哲學探索 | the power of names - a philosophical exploration
+  description: 這本書是一本狀況尚可的哲學教科書，封面上印有一張人物嘴巴的特寫，其唇間寫著「名字」一詞。書名為《名字的力量——一場哲學探索》，作者姓名則醒目地印在書名下方。 整體設計簡約而優雅，重點在於文字本身，而非任何花俏的圖形或圖片。 | The book is a gently used philosophy text, with a cover that features a close-up of a person's mouth, with the word "names" written on their lips. The title is "The Power of Names - A Philosophical Exploration," and the author's name is prominently displayed underneath. The overall design is simple and elegant, with the focus on the text rather than any flashy graphics or images.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: BookBase
   id: BookEarth
-  name: earthly longing
-  description: The book is in good condition, with a slightly faded cover due to exposure to sunlight.  The cover of the book depicts a panoramic view of the Earth from space, with a bright blue ocean and green landmasses. In the foreground, a lone astronaut is seen sitting in front of a window, gazing wistfully at the Earth. The title of the book, "Earthly Longing," is written in bold white letters against a black background at the top of the cover.
+  name: 塵世之渴望 | earthly longing
+  description: 這本書狀況良好，但封面因長期暴露在陽光下而略顯褪色。書封上描繪了從太空俯瞰地球的全景圖，湛藍的海洋與翠綠的陸地交相輝映。 在前景中，可見一名孤身宇航員坐在窗前，神情惆悵地凝視著地球。書名《對地球的思念》以粗體白色字體印於封面頂端，襯以黑色背景。 | The book is in good condition, with a slightly faded cover due to exposure to sunlight.  The cover of the book depicts a panoramic view of the Earth from space, with a bright blue ocean and green landmasses. In the foreground, a lone astronaut is seen sitting in front of a window, gazing wistfully at the Earth. The title of the book, "Earthly Longing," is written in bold white letters against a black background at the top of the cover.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -441,8 +441,8 @@
 - type: entity
   parent: BookBase
   id: BookAurora
-  name: journey beyond - the starship aurora mission
-  description: The book is in excellent condition, with a shiny cover depicting a spaceship hovering above a planet, perhaps with the Earth in the background. The title "Journey Beyond - The Starship Aurora Mission" is written in bold, silver letters. The cover also features a quote from a review, "A breathtaking tale of human achievement and exploration" to entice potential readers.
+  name: 超越之旅——「極光號」星艦任務 | journey beyond - the starship aurora mission
+  description: 這本書狀況極佳，封面光亮如新，描繪了一艘懸浮在行星上空的太空船，背景或許是地球。 書名《超越之旅——極光號太空船任務》以粗體銀色字體呈現。封面還印有一段書評引言：「這是一部關於人類成就與探索的令人屏息的故事」，用以吸引潛在讀者。 | The book is in excellent condition, with a shiny cover depicting a spaceship hovering above a planet, perhaps with the Earth in the background. The title "Journey Beyond - The Starship Aurora Mission" is written in bold, silver letters. The cover also features a quote from a review, "A breathtaking tale of human achievement and exploration" to entice potential readers.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -451,9 +451,9 @@
       - state: cover_base
         color: "#0f204f"
       - state: decor_vertical_middle
-        color: "#3c6ab0" 
+        color: "#3c6ab0"
       - state: decor_spine
-        color: "#3c6ab0" 
+        color: "#3c6ab0"
       - state: icon_stars2
       - state: icon_aurora
       - state: detail_bookmark
@@ -466,8 +466,8 @@
 - type: entity
   parent: BookBase
   id: BookTemple
-  name: the nature of the divine - embracing the many gods
-  description: The book appears new with crisp pages and an uncreased spine. The cover features an image of a temple with a glowing, multicolored aura around it, symbolizing the various gods discussed in the book. The title is displayed prominently in gold lettering, with the author's name and a brief summary of the book written in smaller text below.
+  name: 神性的本質——包容眾神 | the nature of the divine - embracing the many gods
+  description: 這本書看起來嶄新如初，書頁平整，書脊毫無摺痕。封面印有一座寺廟的圖案，周圍環繞著熠熠生輝、色彩斑斕的光暈，象徵書中提及的眾神。書名以金色字體醒目地呈現，下方則以較小的字體列出作者姓名及本書的簡要內容簡介。 | The book appears new with crisp pages and an uncreased spine. The cover features an image of a temple with a glowing, multicolored aura around it, symbolizing the various gods discussed in the book. The title is displayed prominently in gold lettering, with the author's name and a brief summary of the book written in smaller text below.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -488,8 +488,8 @@
 - type: entity
   parent: BookBase
   id: BookWatched
-  name: watched
-  description: The book is in good condition, with a slightly worn cover that features a dark and ominous space station looming in the background. The title "Watched" is written in bold letters that seem to be staring back at the reader, conveying the feeling of being constantly observed. The blurb on the back cover hints at a thrilling and suspenseful tale of paranoia and danger in a confined setting.
+  name: 觀看 | watched
+  description: 這本書狀況良好，封面略顯磨損，背景中矗立著一座陰暗而令人不寒而慄的太空站。書名《被監視》（Watched）以粗體字印製，彷彿正凝視著讀者，營造出一種時刻被監視的感覺。 封底的簡介暗示這將是一個發生在封閉環境中、充滿偏執與危險的驚悚懸疑故事。 | The book is in good condition, with a slightly worn cover that features a dark and ominous space station looming in the background. The title "Watched" is written in bold letters that seem to be staring back at the reader, conveying the feeling of being constantly observed. The blurb on the back cover hints at a thrilling and suspenseful tale of paranoia and danger in a confined setting.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -510,8 +510,8 @@
 - type: entity
   parent: BookBase
   id: BookMedicalOfficer
-  name: horizon's battle - a medical officer's tale of trust and survival
-  description: The cover features Smith, the medical officer, in his uniform, looking determined and ready to face any challenge. The backdrop shows the SS Horizon under attack, with explosions and smoke filling the space station. In the foreground, a wizard with a staff can be seen, adding an element of mystery and intrigue to the scene. The title is prominently displayed in bold letters, with the author's name and a tagline indicating the book's action-packed and suspenseful nature.
+  name: 《地平線之戰》——一位軍醫關於信任與生存的故事 | horizon's battle - a medical officer's tale of trust and survival
+  description: 封面呈現了身穿制服的醫務官史密斯，神情堅定，彷彿已做好迎接任何挑戰的準備。背景中，太空站「SS Horizon」正遭受攻擊，爆炸與濃煙充斥整個太空站。前景中可見一位手持法杖的巫師，為畫面增添了一絲神秘與懸疑的氛圍。 書名以醒目的粗體字呈現，並附有作者姓名及標語，彰顯本書充滿動作與懸疑的特質。 | The cover features Smith, the medical officer, in his uniform, looking determined and ready to face any challenge. The backdrop shows the SS Horizon under attack, with explosions and smoke filling the space station. In the foreground, a wizard with a staff can be seen, adding an element of mystery and intrigue to the scene. The title is prominently displayed in bold letters, with the author's name and a tagline indicating the book's action-packed and suspenseful nature.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -531,8 +531,8 @@
 - type: entity
   parent: BookBase
   id: BookMorgue
-  name: the ghostly residents of the abandoned morgue
-  description: The book looks old and worn, with faded lettering on the cover. The cover depicts a dark and eerie morgue, with a full moon casting an ominous glow over the scene. In the foreground are Morty the possum and Morticia the raccoon, with mischievous expressions on their faces, peeking out from behind a metal shelf. The title is written in bold, spooky letters, with the subtitle "A Tale of Animal Spirits" written in smaller font below.
+  name: 那座廢棄停屍間裡的幽靈居民 | the ghostly residents of the abandoned morgue
+  description: 這本書看起來既舊又破，封面的字跡已褪色。封面描繪了一間陰暗詭異的停屍間，一輪滿月正將不祥的光芒投射在整個場景上。 前景中，負鼠莫蒂和浣熊莫蒂西亞正從金屬層架後面探頭張望，臉上帶著調皮的表情。書名以粗體且帶有詭異感的字體書寫，下方則以較小的字體標註副標題「動物靈魂的故事」。 | The book looks old and worn, with faded lettering on the cover. The cover depicts a dark and eerie morgue, with a full moon casting an ominous glow over the scene. In the foreground are Morty the possum and Morticia the raccoon, with mischievous expressions on their faces, peeking out from behind a metal shelf. The title is written in bold, spooky letters, with the subtitle "A Tale of Animal Spirits" written in smaller font below.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -551,8 +551,8 @@
 - type: entity
   parent: BookBase
   id: BookRufus
-  name: rufus and the mischievous fairy
-  description: The book is in new condition, with vibrant colors and illustrations on the cover. The cover shows Rufus on his bicycle, with Blossom flying beside him in a playful manner. The title is written in bold, whimsical font, with the characters' names highlighted in a contrasting color. The overall aesthetic is charming and inviting, appealing to children and adults alike.
+  name: 魯弗斯與調皮的精靈 | rufus and the mischievous fairy
+  description: 這本書狀況如新，封面色彩鮮豔，插圖生動活潑。封面描繪了魯弗斯騎著自行車的模樣，而布洛サム則以俏皮的姿態在他身旁翱翔。書名採用粗體且充滿奇思妙想的字體書寫，角色名字則以對比鮮明的顏色突出顯示。整體美感迷人且引人入勝，無論是孩童還是成人都會為之著迷。 | The book is in new condition, with vibrant colors and illustrations on the cover. The cover shows Rufus on his bicycle, with Blossom flying beside him in a playful manner. The title is written in bold, whimsical font, with the characters' names highlighted in a contrasting color. The overall aesthetic is charming and inviting, appealing to children and adults alike.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -576,8 +576,8 @@
 - type: entity
   parent: BookBase
   id: BookMap
-  name: the map of adventure
-  description: The book is in a good condition, with a glossy cover depicting a jungle scene with vibrant colors and intricate details. The title "The Map of Adventure," is written in bold, gold lettering. The cover also features an image of a mysterious suitcase with the map spilling out of it.
+  name: 冒險地圖 | the map of adventure
+  description: 這本書狀況良好，封面採用光面設計，描繪了一幅色彩鮮豔、細節精緻的叢林場景。書名《冒險地圖》以粗體金色字體呈現。封面還印有一只神秘的行李箱，地圖正從箱中傾瀉而出。 | The book is in a good condition, with a glossy cover depicting a jungle scene with vibrant colors and intricate details. The title "The Map of Adventure," is written in bold, gold lettering. The cover also features an image of a mysterious suitcase with the map spilling out of it.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -599,8 +599,8 @@
 - type: entity
   parent: BookBase
   id: BookJourney
-  name: a journey of music, mountains, and self-discovery
-  description: The book is in excellent condition, with crisp pages and a glossy cover. The cover features a striking image of a mountain range, with a silhouette of a climber with a guitar on their back in the foreground. The title is bold and eye-catching, with the subtitle "A Journey of Music, Mountains, and Self-Discovery."
+  name: 一段融合音樂、群山與自我探索的旅程 | a journey of music, mountains, and self-discovery
+  description: 這本書狀況極佳，書頁平整，封面光亮如新。封面上印有一幅引人注目的山脈圖景，前景中則有一位背著吉他的登山者剪影。書名字體粗體醒目，副標題為「音樂、山巒與自我探索之旅」。 | The book is in excellent condition, with crisp pages and a glossy cover. The cover features a striking image of a mountain range, with a silhouette of a climber with a guitar on their back in the foreground. The title is bold and eye-catching, with the subtitle "A Journey of Music, Mountains, and Self-Discovery."
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -620,8 +620,8 @@
 - type: entity
   parent: BookBase
   id: BookInspiration
-  name: finding inspiration - a writer's journey through the woods
-  description: The book is in a new condition with a cover depicting a serene forest scene with a waterfall and colorful wildflowers. The title of the book "Finding Inspiration - A Writer's Journey Through the Woods" and the author's name are prominently displayed at the bottom.
+  name: 尋找靈感——一位作家在森林中的旅程 | finding inspiration - a writer's journey through the woods
+  description: 這本書狀況如新，封面描繪了一幅寧靜的森林景致，其中有瀑布和色彩繽紛的野花。書名《尋找靈感——一位作家穿越森林的旅程》以及作者姓名，均醒目地印在封底下方。 | The book is in a new condition with a cover depicting a serene forest scene with a waterfall and colorful wildflowers. The title of the book "Finding Inspiration - A Writer's Journey Through the Woods" and the author's name are prominently displayed at the bottom.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -642,8 +642,8 @@
 - type: entity
   parent: BookBase
   id: BookJanitorTale
-  name: the tales of a tired janitor
-  description: A clean looking book, smelling vaguely of soap and bleach. 
+  name: 一位疲憊的清潔工的故事 | the tales of a tired janitor
+  description: 一本看起來很乾淨的書，隱約散發著肥皂和漂白水的气味。 | A clean looking book, smelling vaguely of soap and bleach.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi

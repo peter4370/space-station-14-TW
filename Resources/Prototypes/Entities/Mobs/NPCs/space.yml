@@ -1,9 +1,9 @@
 - type: entity
-  name: basic
+  name: 基礎 | basic
   id: MobSpaceBasic
   parent: [ SimpleSpaceMobBase, MobNightVision ]
   abstract: true
-  description: It looks friendly. Why don't you give it a hug?
+  description: 看起來很友善。何不抱抱它呢？ | It looks friendly. Why don't you give it a hug?
   components:
   - type: HTN
     rootTask:
@@ -72,10 +72,10 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: space bear
+  name: 太空熊 | space bear
   id: MobBearSpace
   parent: [MobSpaceBasic, BaseSlicingRefinable, BaseMobDestructible]
-  description: It looks friendly. Why don't you give it a hug?
+  description: 看起來很友善。何不抱抱它呢？ | It looks friendly. Why don't you give it a hug?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -121,10 +121,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space kangaroo
+  name: 太空袋鼠 | space kangaroo
   id: MobKangarooSpace
   parent: [MobSpaceBasic, StripableInventoryBase, BaseSlicingRefinable, BaseMobDestructible]
-  description: It looks friendly. Why don't you give it a hug?
+  description: 看起來很友善。何不抱抱它呢？ | It looks friendly. Why don't you give it a hug?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -182,10 +182,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space spider
+  name: 太空蜘蛛 | space spider
   id: MobSpiderSpace
   parent: [MobSpaceBasic, BaseSlicingRefinable, BaseMobDestructible]
-  description: It's so glowing, it looks dangerous.
+  description: 它閃耀得如此耀眼，看起來甚至有些危險。 | It's so glowing, it looks dangerous.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -287,10 +287,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space cobra
+  name: 太空眼镜蛇 | space cobra
   id: MobCobraSpace
   parent: [MobSpaceBasic, BaseSlicingRefinable, BaseMobDestructible]
-  description: Long fangs and a glowing hood, and the alluring look begs to come closer.
+  description: 長長的獠牙與發光的兜帽，那迷人的神情讓人忍不住想靠近。 | Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -396,8 +396,8 @@
 - type: entity
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobSheepBase, BaseMobDestructible ]
   id: MobSheepSpace
-  name: space sheep
-  description: A sheep... in space!
+  name: 太空綿羊 | space sheep
+  description: 一隻羊……在太空中！ | A sheep... in space!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -501,15 +501,15 @@
 - type: entity
   parent: [SimpleSpaceMobBase, BaseMobAnimal, SolutionVermin, MobNightVision]
   id: MobSnail
-  name: snail
-  description: Revolting unless you're french.
+  name: 蝸牛 | snail
+  description: 除非你是法國人，否則這實在令人作嘔。 | Revolting unless you're french.
   components:
   - type: GhostRole
     makeSentient: true
     allowSpeech: false
     allowMovement: true
-    name: ghost-role-information-snail-name
-    description: ghost-role-information-snail-description
+    name: ghost-role-information-snail-name | ghost-role-information-snail-name
+    description: ghost-role-information-snail-description | ghost-role-information-snail-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -660,8 +660,8 @@
   suffix: Speed
   components:
   - type: GhostRole
-    name: ghost-role-information-snailspeed-name
-    description: ghost-role-information-snailspeed-description
+    name: ghost-role-information-snailspeed-name | ghost-role-information-snailspeed-name
+    description: ghost-role-information-snailspeed-description | ghost-role-information-snailspeed-description
     rules: ghost-role-information-freeagent-rules
   - type: Sprite
     layers:
@@ -684,11 +684,11 @@
 - type: entity
   parent: [ BaseMobMothroach, MobSnail ]
   id: MobSnailMoth
-  name: snoth
+  name: 斯諾斯 | snoth
   components:
   - type: GhostRole
-    name: ghost-role-information-snoth-name
-    description: ghost-role-information-snoth-description
+    name: 幽靈角色資訊－斯諾斯－名稱 | ghost-role-information-snoth-name
+    description: 幽靈角色資訊－斯諾斯－描述 | ghost-role-information-snoth-description
     rules: ghost-role-information-freeagent-rules
   - type: Sprite
     layers:

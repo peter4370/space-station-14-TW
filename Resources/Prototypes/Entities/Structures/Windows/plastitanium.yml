@@ -2,8 +2,8 @@
   id: PlastitaniumWindowBase
   parent: BaseStructure
   abstract: true
-  name: plastitanium window
-  description: Don't smudge up the glass down there.
+  name: 塑鈦窗 | plastitanium window
+  description: 別把那裡的玻璃弄髒了。 | Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
     snap:
@@ -55,7 +55,7 @@
 - type: entity
   id: PlastitaniumWindowSquareBase
   abstract: true
-  name: plastitanium window
+  name: 塑鈦窗 | plastitanium window
   parent: PlastitaniumWindowBase
   components:
   - type: Sprite
@@ -80,7 +80,7 @@
 
 - type: entity
   id: PlastitaniumWindowIndestructible
-  name: plastitanium window
+  name: 塑鈦窗 | plastitanium window
   parent: PlastitaniumWindowSquareBase
   suffix: indestructible
   components:
@@ -90,7 +90,7 @@
 - type: entity
   parent: [ PlastitaniumWindowSquareBase, StructureHealthBarrierStrong ]
   id: PlastitaniumWindow
-  name: plastitanium window
+  name: 塑鈦窗 | plastitanium window
   components:
   - type: Destructible
     thresholds:
@@ -124,7 +124,7 @@
 - type: entity
   id: PlastitaniumWindowDiagonalBase
   abstract: true
-  name: plastitanium window
+  name: 塑鈦窗 | plastitanium window
   parent: PlastitaniumWindowBase
   suffix: diagonal
   components:
@@ -165,7 +165,7 @@
 
 - type: entity
   id: PlastitaniumWindowDiagonalIndestructible
-  name: plastitanium window
+  name: 塑鈦窗 | plastitanium window
   parent: PlastitaniumWindowDiagonalBase
   suffix: diagonal, indestructible
   components:
@@ -174,7 +174,7 @@
 
 - type: entity
   id: PlastitaniumWindowDiagonal
-  name: plastitanium window
+  name: 塑鈦窗 | plastitanium window
   parent: [ PlastitaniumWindowDiagonalBase, StructureHealthBarrierStrong ]
   suffix: diagonal
   components:

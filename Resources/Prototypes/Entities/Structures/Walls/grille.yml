@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthBarrier ]
   id: Grille
-  name: grille
-  description: A flimsy framework of iron rods.
+  name: 格柵 | grille
+  description: 一個由鐵桿組成的脆弱框架。 | A flimsy framework of iron rods.
   placement:
     mode: SnapgridCenter
     snap:
@@ -102,7 +102,7 @@
 - type: entity
   parent: Grille
   id: GrilleDiagonal
-  name: diagonal grille
+  name: 對角線格柵 | diagonal grille
   components:
   - type: Sprite
     sprite: Structures/Walls/grille-diagonal.rsi
@@ -142,8 +142,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthFurnitureWeak ]
   id: GrilleBroken
-  name: grille
-  description: A flimsy framework of iron rods. It has seen better days.
+  name: 格柵 | grille
+  description: 一個由鐵桿組成的簡陋框架。它早已不復往日的風采。 | A flimsy framework of iron rods. It has seen better days.
   components:
   - type: Sprite
     drawdepth: Walls

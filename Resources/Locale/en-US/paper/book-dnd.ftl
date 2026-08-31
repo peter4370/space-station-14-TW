@@ -1,155 +1,155 @@
-book-cnc-sheet = C&C 5e Character Sheet
+book-cnc-sheet =
+    C&C 5e 角色表
     --------------------------------------------------------------------------------------
-    SECTION 1:  THE BASICS
+    第 1 節：基本資料
     --------------------------------------------------------------------------------------
-    Character Name  :
-    Race / Class    :
-    Level / Exp Pts :
-    Background      :
-
+    角色名稱  :
+    種族／職業    :
+    等級／經驗值 :
+    背景故事      :
+    
     --------------------------------------------------------------------------------------
-    SECTION 2: ABILITIES
+    第 2 節：能力值
     --------------------------------------------------------------------------------------
-    Strength     =     10   (+0) 10 Base
-    Dexterity    =     10   (+0) 10 Base
-    Constitution =     10   (+0) 10 Base
-    Intelligence =     10   (+0) 10 Base
-    Wisdom       =     10   (+0) 10 Base
-    Charisma     =     10   (+0) 10 Base
-
-    Proficiency Bonus =
-    Perception (passive wisdom) =
-
-    Racial (Race)
-
-    Class (Class)
-
-
+    力量     =     10   (+0) 10 基礎
+    敏捷    =     10   (+0) 10 基礎
+    體質 =     10   (+0) 10 基礎
+    智力 =     10   (+0) 10 基礎值
+    智慧       =     10   (+0) 10 基礎值
+    魅力     =     10   (+0) 10 基礎值
+    
+    熟練加值 =
+    感知（被動智慧） =
+    
+    種族（種族）
+    
+    職業（職業）
+    
+    
     --------------------------------------------------------------------------------------
-    SECTION 3:  SAVING THROWS
+    第 3 節： 豁免檢定
     --------------------------------------------------------------------------------------
-
-    ( )Strength     =      +0
-    ( )Dexterity    =      +0
-    ( )Constitution =      +0
-    ( )Intelligence =      +0
-    ( )Wisdom       =      +0
-    ( )Charisma     =      +0
-
-
+    
+    ( )力量     =      +0
+    ( )敏捷     =      +0
+    ( )體質     =      +0
+    ( )智力     =      +0
+    ( )智慧     =      +0
+    ( )魅力     =      +0
+    
+    
     --------------------------------------------------------------------------------------
-    SECTION 4:  SKILLS
+    第 4 節：  技能
     --------------------------------------------------------------------------------------
-
-    ( )  Acrobatics (Dex)      +0       ( )  Medicine (Wis)        +0
-    ( )  Animal Handling (Wis) +0       ( )  Nature (Int)          +0
-    ( )  Arcana (Int)          +0       ( )  Perception (Wis)      +0
-    ( )  Athletics  (Str)      +0       ( )  Performance (Cha)     +0
-    ( )  Deception (Cha)       +0       ( )  Persuasion (Cha)      +0
-    ( )  History (Int)         +0       ( )  Religion (Int)        +0
-    ( )  Insight (Wis)         +0       ( )  Sleight of Hand (Dex) +0
-    ( )  Intimidation (Cha)    +0       ( )  Stealth (Dex)         +0
-    ( )  Investigation (Int)   +0       ( )  Survival (Wis)        +0
-
-
+    
+    ( )  雜技（敏捷）      +0       ( )  醫術（智慧）        +0
+    ( )  馴獸（智慧） +0       ( )  自然（智力）          +0
+    ( )  奧秘（智力）          +0       ( )  感知（智慧）      +0
+    ( )  體能（力量）      +0       ( )  表演（魅力）     +0
+    ( )  欺騙（魅力）       +0       ( )  說服 (魅力)      +0
+    ( )  歷史 (智力)         +0       ( )  宗教 (智力)        +0
+    ( )  洞察 (智慧)         +0       ( )  手法 (敏捷) +0
+    ( )  威嚇（魅力）    +0       ( )  潛行（敏捷）         +0
+    ( )  調查（智力）   +0       ( )  生存（智慧）        +0
+    
+    
     --------------------------------------------------------------------------------------
-    SECTION 5:  COMBAT & HEALTH
+    第 5 節：戰鬥與健康
     --------------------------------------------------------------------------------------
-
-
-    Armor Class          :
-    Initiative (passive) :
-    Speed                :
-
-    Hit Dice             :
-    Max Hit Points       :
-    Current Hit Points   :
-    Temporary Hit Points :
-
-    ATTACKS
-    Weapon type(Melee or Ranged)   /   Bonus   /   Damage (Type)
-
+    
+    
+    護甲等級          :
+    先攻（被動） :
+    移動速度                :
+    
+    生命骰             :
+    最大生命值       :
+    當前生命值   :
+    臨時生命值 :
+    
+    攻擊
+    武器類型（近戰或遠程）   /   加值   /   傷害（類型）
+    
     --------------------------------------------------------------------------------------
-    SECTION 6:  BACKGROUND
+    第 6 節： 背景
     --------------------------------------------------------------------------------------
-
-    Age / Gender         :
-    Height / Weight      :
-    Eyes / Skin / Hair   :
-    Description          :
-
-    Background           :
-    Skill Proficiencies  :
-    Tool Proficiencies   :
-    Languages            :
-
-    Features             :
-    Con of Choice        :
-    Traits               :
-    Ideal                :
-    Bonds                :
-    Flaws                :
-
+    
+    年齡／性別         :
+    身高／體重      :
+    眼睛／膚色／髮色   :
+    外貌描述          :
+    
+    背景           :
+    技能熟練度  :
+    工具熟練度   :
+    語言            :
+    
+    特徵             :
+    自選缺點        :
+    特質               :
+    理想                :
+    羈絆                :
+    缺陷                :
+    
     --------------------------------------------------------------------------------------
-    SECTION 7: EXTRAS
+    第 7 節：額外內容
     --------------------------------------------------------------------------------------
-    Equipment List
-    Description                 Cost       Weight
-
-
-    lbs
-
-    Wealth
+    裝備清單
+    描述                 成本       重量
+    
+    
+    磅
+    
+    財富
     PP         :
     EP         :
     GP         :
     SP         :
     CP         :
-
-    Gems         :
-    Jewelry      :
-    Other        :
-    Magic Items  :
-
-
+    
+    寶石         :
+    珠寶      :
+    其他        :
+    魔法物品  :
+    
+    
     --------------------------------------------------------------------------------------
-    SECTION 8: SPELLCASTING
+    第 8 節：施法
     --------------------------------------------------------------------------------------
-
-    Spell Level:
-    Spell Save DC:
-    Spell Attack Mod:
-    Spell Slots:
-      1: (MAX) (USED)
-      2: (MAX) (USED)
-      3: (MAX) (USED)
-      4: (MAX) (USED)
-      5: (MAX) (USED)
-      6: (MAX) (USED)
-      7: (MAX) (USED)
-      8: (MAX) (USED)
-      9: (MAX) (USED)
-
-    Cantrips
-    Name  Casting Time  Range  Duration  Components
-
-    1: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    2: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    3: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    4: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    5: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    6: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    7: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    8: Name  Casting Time  Range  Duration  Components  Ritual?
-
-    9: Name  Casting Time  Range  Duration  Components  Ritual?
+    
+    法術等級：
+    法術豁免難度：
+    法術攻擊修正值：
+    法術位：
+      1：(最大) (已使用)
+      2：(最大) (已使用)
+      3：(最大) (已使用)
+      4：(最大) (已使用)
+      5： (最大) (已使用)
+      6: (最大) (已使用)
+      7: (最大) (已使用)
+      8: (最大) (已使用)
+      9: (最大) (已使用)
+    
+    基礎法術
+    名稱  施法時間  範圍  持續時間  施法成分
+    
+    1: 名稱  施法時間  範圍  持續時間  施法成分  需儀式？
+    
+    2: 名稱  施法時間  範圍  持續時間  施法成分  需儀式？
+    
+    3: 名稱  施法時間  範圍  持續時間  施法成分  需儀式？
+    
+    4：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
+    
+    5：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
+    
+    6：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
+    
+    7：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
+    
+    8：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
+    
+    9：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
     --------------------------------------------------------------------------------------
-    Carps and Crypts 5e
-
+    《鯉魚與墓穴》第5版

@@ -1,20 +1,20 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: windoor
-  description: It's a window and a sliding door. Wow!
+  name: windoor | windoor
+  description: 那是一扇窗戶和一扇推拉門。哇！ | It's a window and a sliding door. Wow!
 
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: plasma windoor
-  description: It's a pink window *and* a sliding door. Amazing!
+  name: 等離子風窗 | plasma windoor
+  description: 這既是一扇粉紅色的窗戶，*又*是一扇推拉門。太棒了！ | It's a pink window *and* a sliding door. Amazing!
 
 - type: entity
   id: WindoorUranium
   parent: BaseUraniumWindoor
-  name: uranium windoor
-  description: It's a window and a sliding door. Huh? Oh, and it's green!
+  name: 鈾風窗 | uranium windoor
+  description: 那是一扇窗戶和一扇推拉門。咦？哦，而且是綠色的！ | It's a window and a sliding door. Huh? Oh, and it's green!
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Please sort these alphabetically

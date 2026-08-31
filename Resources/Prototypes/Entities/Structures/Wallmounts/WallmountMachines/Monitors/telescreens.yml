@@ -2,8 +2,8 @@
   parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
   id: WallmountTelescreen
   suffix: camera monitor
-  name: telescreen
-  description: Finally, some decent reception around here...
+  name: 電視螢幕 | telescreen
+  description: 總算在這附近有像樣的訊號了…… | Finally, some decent reception around here...
   components:
   - type: Sprite
     sprite: Structures/Machines/computers.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   id: WallmountTelescreenFrame
-  name: telescreen frame
-  description: Finally, some decent reception around here...
+  name: 電視螢幕邊框 | telescreen frame
+  description: 總算在這附近有像樣的訊號了…… | Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelescreen

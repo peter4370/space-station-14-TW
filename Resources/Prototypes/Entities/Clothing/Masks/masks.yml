@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskGas
-  name: gas mask
-  description: A face-covering mask that can be connected to an air supply.
+  name: 防毒面具 | gas mask
+  description: 一款可連接供氣系統的面部防護口罩。 | A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gas.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ClothingMaskGas, BaseSecurityContraband]
   id: ClothingMaskGasSecurity
-  name: security gas mask
-  description: A standard issue Security gas mask.
+  name: 防護防毒面具 | security gas mask
+  description: 一款標準配發的安保防毒面具。 | A standard issue Security gas mask.
   components:
   - type: Item
     size: Tiny
@@ -43,8 +43,8 @@
 - type: entity
   parent: [ClothingMaskGas, BaseSyndicateContraband]
   id: ClothingMaskGasSyndicate
-  name: syndicate gas mask
-  description: A close-fitting tactical mask that can be connected to an air supply.
+  name: 「辛迪加」防毒面具 | syndicate gas mask
+  description: 一款貼合臉部的戰術面罩，可連接供氣系統。 | A close-fitting tactical mask that can be connected to an air supply.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gassyndicate.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasAtmos
-  name: atmospheric gas mask
-  description: Improved gas mask utilized by atmospheric technicians. It's flameproof!
+  name: 大氣防毒面具 | atmospheric gas mask
+  description: 大氣技術人員所使用的改良型防毒面具。它具有防火功能！ | Improved gas mask utilized by atmospheric technicians. It's flameproof!
   components:
   - type: Sprite
     sprite: Clothing/Mask/gasatmos.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: [ClothingMaskGasAtmos, BaseCommandContraband]
   id: ClothingMaskGasCaptain
-  name: captain's gas mask
-  description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
+  name: 船長防毒面具 | captain's gas mask
+  description: Nanotrasen 為了省事，把一具備用的大氣防毒面具重新塗漆，但千萬別告訴任何人。 | Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gascaptain.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: [ ClothingMaskGasAtmos, BaseCentcommContraband ]
   id: ClothingMaskGasCentcom
-  name: CentComm gas mask
-  description: Oooh, gold and green. Fancy! This should help as you sit in your office.
+  name: CentComm 防毒面具 | CentComm gas mask
+  description: 噢，金色和綠色。真別緻！這應該能讓你在辦公室裡坐著時感到舒心。 | Oooh, gold and green. Fancy! This should help as you sit in your office.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gascentcom.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: [ClothingMaskGas, BaseCargoContraband]
   id: ClothingMaskGasExplorer
-  name: explorer gas mask
-  description: A military-grade gas mask that can be connected to an air supply.
+  name: 探險家用防毒面具 | explorer gas mask
+  description: 一款可連接供氣系統的軍用級防毒面具。 | A military-grade gas mask that can be connected to an air supply.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gasexplorer.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskBreathMedical
-  name: medical mask
-  description: A close-fitting sterile mask that can be connected to an air supply.
+  name: 醫用口罩 | medical mask
+  description: 一款貼合臉部、可連接氣源的無菌口罩。 | A close-fitting sterile mask that can be connected to an air supply.
   components:
   - type: Item
     size: Tiny
@@ -145,8 +145,8 @@
 - type: entity
   parent: ClothingMaskBreathMedical
   id: ClothingMaskBreathMedicalSecurity
-  name: military-style medical mask
-  description: A medical mask with a small layer of protection against damage and viruses, similar to the one used in the medical units of the first corporate war.
+  name: 軍用風格醫用口罩 | military-style medical mask
+  description: 一款具備基本防護功能、能抵禦傷害與病毒的醫用口罩，其設計類似於第一次企業戰爭期間醫療單位所使用的款式。 | A medical mask with a small layer of protection against damage and viruses, similar to the one used in the medical units of the first corporate war.
   components:
   - type: Item
     size: Tiny
@@ -165,8 +165,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskBreath
-  name: breath mask
-  description: Might as well keep this on 24/7.
+  name: 呼吸面罩 | breath mask
+  description: 乾脆讓它全天候運作吧。 | Might as well keep this on 24/7.
   components:
   - type: Item
     size: Tiny
@@ -191,8 +191,8 @@
   parent: ClothingMaskBase
   id: ClothingMaskClownBase
   abstract: true
-  name: clown wig and mask
-  description: A true prankster's facial attire. A clown is incomplete without his wig and mask.
+  name: 小丑假髮與面具 | clown wig and mask
+  description: 一位真正惡作劇高手的臉部裝扮。小丑若沒有假髮和面具，便稱不上完整。 | A true prankster's facial attire. A clown is incomplete without his wig and mask.
   components:
   - type: Appearance
   - type: Sprite
@@ -212,7 +212,7 @@
 - type: entity
   parent: [ClothingMaskClownBase, BaseFoldable]
   id: ClothingMaskClown
-  description: A clown mask featuring a foldable wig; a true prankster's attire.
+  description: 一款配有可摺疊假髮的小丑面具；這正是惡作劇高手的裝扮。 | A clown mask featuring a foldable wig; a true prankster's attire.
   components:
   - type: Foldable
     canFoldInsideContainer: true
@@ -239,7 +239,7 @@
 - type: entity
   parent: ClothingMaskClownBase
   id: ClothingMaskClownBanana
-  name: banana clown wig and mask
+  name: 香蕉小丑假髮與面具 | banana clown wig and mask
   components:
   - type: Sprite
     sprite: Clothing/Mask/clown_banana.rsi
@@ -260,8 +260,8 @@
 - type: entity
   parent: [ClothingMaskClownBase, BaseSecurityContraband]
   id: ClothingMaskClownSecurity
-  name: security clown wig and mask
-  description: A debatably oxymoronic but protective mask and wig.
+  name: 保安小丑假髮與面具 | security clown wig and mask
+  description: 一款雖可謂自相矛盾，卻能提供防護的口罩與假髮。 | A debatably oxymoronic but protective mask and wig.
   components:
   - type: Sprite
     sprite: Clothing/Mask/clown_security.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskJoy
-  name: joy mask
-  description: Express your happiness or hide your sorrows with this laughing face with crying tears of joy cutout.
+  name: 歡樂面具 | joy mask
+  description: 用這個笑著流下喜悅眼淚的笑臉剪影，來表達你的喜悅或掩飾你的悲傷吧。 | Express your happiness or hide your sorrows with this laughing face with crying tears of joy cutout.
   components:
   - type: Sprite
     sprite: Clothing/Mask/joy.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskMime
-  name: mime mask
-  description: The traditional mime's mask. It has an eerie facial posture.
+  name: MIME 遮罩 | mime mask
+  description: 傳統默劇演員的面具。其面部表情令人毛骨悚然。 | The traditional mime's mask. It has an eerie facial posture.
   components:
   - type: Sprite
     sprite: Clothing/Mask/mime.rsi
@@ -322,8 +322,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskSterile
-  name: sterile mask
-  description: A sterile mask designed to help prevent the spread of diseases.
+  name: 無菌口罩 | sterile mask
+  description: 一款專為協助預防疾病傳播而設計的無菌口罩。 | A sterile mask designed to help prevent the spread of diseases.
   components:
   - type: Sprite
     sprite: Clothing/Mask/sterile.rsi
@@ -343,8 +343,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskMuzzle
-  name: muzzle
-  description: To stop that awful noise.
+  name: 槍口 | muzzle
+  description: 為了讓那個可怕的噪音停止。 | To stop that awful noise.
   components:
   - type: Item
     size: Tiny
@@ -367,8 +367,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskPlague
-  name: plague doctor mask
-  description: A bad omen.
+  name: 瘟疫醫生面具 | plague doctor mask
+  description: 不祥之兆。 | A bad omen.
   components:
   - type: Sprite
     sprite: Clothing/Mask/plaguedoctormask.rsi
@@ -385,9 +385,9 @@
 - type: entity
   parent: ClothingMaskClownBase
   id: ClothingMaskCluwne
-  name: cluwne face and hair
+  name: 克盧恩的臉和頭髮 | cluwne face and hair
   suffix: Unremoveable
-  description: Cursed cluwne face and hair.
+  description: 這張該死的小丑臉和頭髮。 | Cursed cluwne face and hair.
   components:
   - type: Sprite
     sprite: Clothing/Mask/cluwne.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseSecurityContraband ]
   id: ClothingMaskGasSwat
-  name: swat gas mask
-  description: A elite issue Security gas mask.
+  name: 特警防毒面具 | swat gas mask
+  description: 一款專為特種部隊設計的安全防毒面具。 | A elite issue Security gas mask.
   components:
   - type: Sprite
     sprite: Clothing/Mask/swat.rsi
@@ -428,8 +428,8 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseSecurityCargoContraband ]
   id: ClothingMaskGasMerc
-  name: mercenary gas mask
-  description: Slightly outdated, but reliable military-style gas mask.
+  name: 傭兵防毒面具 | mercenary gas mask
+  description: 雖然稍顯過時，但仍是一款可靠的軍用風格防毒面具。 | Slightly outdated, but reliable military-style gas mask.
   components:
   - type: Sprite
     sprite: Clothing/Mask/merc.rsi
@@ -446,8 +446,8 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseCentcommContraband ]
   id: ClothingMaskGasERT
-  name: ert gas mask
-  description: The gas mask of the elite squad of the ERT.
+  name: 防毒面具 | ert gas mask
+  description: 緊急應變小組（ERT）菁英小隊的防毒面具。 | The gas mask of the elite squad of the ERT.
   components:
   - type: Sprite
     sprite: Clothing/Mask/ert.rsi
@@ -474,8 +474,8 @@
 - type: entity
   parent: ClothingMaskGasERT
   id: ClothingMaskGasDeathSquad
-  name: death squad gas mask
-  description: A unique gas mask for the NT's most elite squad.
+  name: 死亡小隊防毒面具 | death squad gas mask
+  description: 一款專為北領地最精銳部隊設計的獨特防毒面具。 | A unique gas mask for the NT's most elite squad.
   components:
   - type: Sprite
     sprite: Clothing/Mask/squadron.rsi
@@ -497,8 +497,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskRat
-  name: rat mask
-  description: A mask of a rat that looks like a rat. Perhaps they will take you for a fellow rat.
+  name: 老鼠面具 | rat mask
+  description: 一頂長得像老鼠的老鼠面具。說不定他們會把你當成同類的老鼠呢。 | A mask of a rat that looks like a rat. Perhaps they will take you for a fellow rat.
   components:
   - type: Sprite
     sprite: Clothing/Mask/rat.rsi
@@ -517,8 +517,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskFox
-  name: fox mask
-  description: What does the fox say?
+  name: 狐狸面具 | fox mask
+  description: 狐狸會發出什麼聲音？ | What does the fox say?
   components:
   - type: Sprite
     sprite: Clothing/Mask/fox.rsi
@@ -533,8 +533,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskBee
-  name: bee mask
-  description: For the queen!
+  name: 蜜蜂面具 | bee mask
+  description: 為了女王！ | For the queen!
   components:
   - type: Sprite
     sprite: Clothing/Mask/bee.rsi
@@ -549,8 +549,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskBear
-  name: bear mask
-  description: I'm a cloudy, cloudy, cloudy, I'm not a bear at all.
+  name: 熊面具 | bear mask
+  description: 我是朵雲、朵雲、朵雲，我根本不是熊。 | I'm a cloudy, cloudy, cloudy, I'm not a bear at all.
   components:
   - type: Sprite
     sprite: Clothing/Mask/bear.rsi
@@ -565,8 +565,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskRaven
-  name: raven mask
-  description: Where I am, death... or glitter.
+  name: 烏鴉面具 | raven mask
+  description: 在我所在之處，不是死亡……就是閃耀。 | Where I am, death... or glitter.
   components:
   - type: Sprite
     sprite: Clothing/Mask/raven.rsi
@@ -581,8 +581,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskJackal
-  name: jackal mask
-  description: It is better not to turn your back to the owner of the mask, it may bite.
+  name: 豺狼面具 | jackal mask
+  description: 最好不要背對面具的主人，它可能會咬人。 | It is better not to turn your back to the owner of the mask, it may bite.
   components:
   - type: Sprite
     sprite: Clothing/Mask/jackal.rsi
@@ -597,8 +597,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskBat
-  name: bat mask
-  description: A bloodsucker by night, and a cute, blinded beast by day.
+  name: 蝙蝠面具 | bat mask
+  description: 夜晚是吸血鬼，白天則是隻可愛卻失明的野獸。 | A bloodsucker by night, and a cute, blinded beast by day.
   components:
   - type: Sprite
     sprite: Clothing/Mask/bat.rsi
@@ -613,8 +613,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskNeckGaiter
-  name: neck gaiter
-  description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
+  name: 頸套 | neck gaiter
+  description: 這款時尚的頸套，能保護你的脖子免受宇宙風的侵襲嗎？... | Stylish neck gaiter for your neck, can protect from the cosmic wind?...
   components:
   - type: Sprite
     sprite: Clothing/Mask/neckgaiter.rsi
@@ -629,7 +629,7 @@
 - type: entity
   parent: ClothingMaskNeckGaiter
   id: ClothingMaskNeckGaiterRed
-  name: red neck gaiter
+  name: 紅色頸套 | red neck gaiter
   components:
   - type: Sprite
     sprite: Clothing/Mask/neckgaiterred.rsi
@@ -639,8 +639,8 @@
 - type: entity
   parent: ClothingMaskClownBase
   id: ClothingMaskBlushingClown
-  name: blushing clown mask
-  description: A mask for a blushing clown.
+  name: 臉頰泛紅的小丑面具 | blushing clown mask
+  description: 一張供臉紅小丑佩戴的面具。 | A mask for a blushing clown.
   components:
   - type: Sprite
     sprite: Clothing/Mask/blushingclown.rsi
@@ -650,8 +650,8 @@
 - type: entity
   parent: ClothingMaskMime
   id: ClothingMaskBlushingMime
-  name: blushing mime mask
-  description: Those ruddy cheeks just want to be rubbed.
+  name: 泛紅的默劇面具 | blushing mime mask
+  description: 那雙紅潤的臉頰，簡直讓人忍不住想摸一摸。 | Those ruddy cheeks just want to be rubbed.
   components:
   - type: Sprite
     sprite: Clothing/Mask/blushingmime.rsi
@@ -661,8 +661,8 @@
 - type: entity
   parent: ClothingMaskMime
   id: ClothingMaskSadMime
-  name: sad mime mask
-  description: Many people think this is what a real mime mask looks like.
+  name: 悲傷的默劇面具 | sad mime mask
+  description: 許多人以為真正的默劇面具就是這個樣子。 | Many people think this is what a real mime mask looks like.
   components:
   - type: Sprite
     sprite: Clothing/Mask/sadmime.rsi
@@ -672,8 +672,8 @@
 - type: entity
   parent: ClothingMaskMime
   id: ClothingMaskScaredMime
-  name: scared mime mask
-  description: Looks like it would scream if it wasn't a mask.
+  name: 驚恐的默劇面具 | scared mime mask
+  description: 如果這不是面具的話，看起來好像會尖叫一樣。 | Looks like it would scream if it wasn't a mask.
   components:
   - type: Sprite
     sprite: Clothing/Mask/scaredmime.rsi
@@ -683,8 +683,8 @@
 - type: entity
   parent: [ClothingMaskMime, BaseSecurityContraband]
   id: ClothingMaskMimeSecurity
-  name: security mime mask
-  description: You have the right to remain silent.
+  name: 安全性 MIME 遮罩 | security mime mask
+  description: 你有權保持沉默。 | You have the right to remain silent.
   components:
   - type: Sprite
     sprite: Clothing/Mask/mime_security.rsi
@@ -701,8 +701,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskItalianMoustache
-  name: italian moustache
-  description: Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly.
+  name: 義式鬍鬚 | italian moustache
+  description: 採用正宗義大利鬍鬚毛製成。會讓佩戴者產生一種難以抗拒的衝動，忍不住想要激烈地比劃手勢。 | Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly.
   components:
   - type: Sprite
     sprite: Clothing/Mask/italian_moustache.rsi
@@ -714,8 +714,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskNinja
-  name: ninja mask
-  description: A close-fitting nano-enhanced mask that acts both as an air filter and a post-modern fashion statement.
+  name: 忍者面具 | ninja mask
+  description: 一款貼合臉型的奈米強化口罩，既能作為空氣過濾器，同時也是後現代時尚的宣言。 | A close-fitting nano-enhanced mask that acts both as an air filter and a post-modern fashion statement.
   components:
   - type: Sprite
     sprite: Clothing/Mask/ninja.rsi
@@ -730,8 +730,8 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskWeldingGas
-  name: welding gas mask
-  description: A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
+  name: 焊接面罩 | welding gas mask
+  description: 一款內建焊接護目鏡和面罩的防毒面具。外形像骷髏頭，顯然是某個書呆子設計的。 | A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
   components:
   - type: Sprite
     sprite: Clothing/Mask/welding-gas.rsi

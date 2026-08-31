@@ -1,9 +1,9 @@
 - type: entity
   id: ClosetCursed
   parent: ClosetSteelBase
-  name: closet
+  name: 衣櫥 | closet
   suffix: cursed
-  description: A standard-issue Nanotrasen storage unit.
+  description: 一間標準配備的 Nanotrasen 儲藏室。 | A standard-issue Nanotrasen storage unit.
   components:
   - type: CursedEntityStorage
   - type: EntityStorage

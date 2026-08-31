@@ -1,38 +1,26 @@
 reagent-name-carpetium = carpetium
-reagent-desc-carpetium = A mystical chemical, usually outsourced from the Clown Planet, that covers everything it touches in carpet. Somehow filters out carpotoxin from the blood stream.
-
-reagent-name-fiber = fiber
-reagent-desc-fiber = A raw material, usually extracted from wool or other fabric products.
-
-reagent-name-buzzochloric-bees = buzzochloric bees
-reagent-desc-buzzochloric-bees = Liquid bees. Oh god it's LIQUID BEES NO-
-
-reagent-name-ground-bee = ground Bee
-reagent-desc-ground-bee = Bee grounds. Gross.
-
-reagent-name-brass = brass
-reagent-desc-brass = Smells like clockwork.
-
-reagent-name-licoxide = licoxide
-reagent-desc-licoxide = A synthetic battery acid. It looks... electrifying.
-
+reagent-desc-carpetium = 一種神秘的化學物質，通常從「小丑星球」外購而來，凡是它接觸到的東西都會被地毯覆蓋。不知為何，它能將血液中的「卡波毒素」過濾出去。
+reagent-name-fiber = 纖維 fiber
+reagent-desc-fiber = 一種原料，通常從羊毛或其他紡織品中提取。
+reagent-name-buzzochloric-bees = 嗡嗡氯蜂 buzzochloric bees
+reagent-desc-buzzochloric-bees = 液態蜜蜂。天啊，是液態蜜蜂，不——
+reagent-name-ground-bee = 地蜂 ground Bee
+reagent-desc-ground-bee = 蜂巢。好噁心。
+reagent-name-brass = 黃銅
+reagent-desc-brass = 這簡直像鐘錶一樣精準。
+reagent-name-licoxide = 利考西德 licoxide
+reagent-desc-licoxide = 一種合成電池酸。看起來……令人振奮。
 reagent-name-razorium = razorium
-reagent-desc-razorium = A strange, non-newtonian chemical. It is produced when two conflicting brute medications are combined. When force is applied to it, it temporarily hardens creating millions of tiny, sharp edges. Very painful.
-
+reagent-desc-razorium = 一種奇特的非牛頓流體化學物質。當兩種相互衝突的強力藥物混合時，便會產生這種物質。當施加外力時，它會暫時硬化，形成數百萬個微小而銳利的棱角。極其疼痛。
 reagent-name-fresium = Fresium
-reagent-desc-fresium = A mysterious compound that slows the vibration of atoms and molecules... somehow. In layman's terms, it makes things cold... REALLY cold. Can cause long-lasting movement issues if ingested.
-
-reagent-name-laughter = laughter
-reagent-desc-laughter = Some say that this is the best medicine, but recent studies have proven that to be untrue.
-
-reagent-name-weh = juice that makes you Weh
-reagent-desc-weh = Pure essence of lizard plush. Makes you Weh!
-
-reagent-name-hew = juice that makes you Hew
-reagent-desc-hew = Pure essence of inversed lizard plush. Makes you Hew!
-
+reagent-desc-fresium = 一種神秘的化合物，能減緩原子和分子的振動……具體原理尚不明確。通俗來說，它會讓事物變冷……真的非常冷。若被攝入體內，可能會導致長期運動功能障礙。
+reagent-name-laughter = 笑聲
+reagent-desc-laughter = 有人說這是最好的良藥，但最近的研究已證實這並非事實。
+reagent-name-weh = 讓你感到「Weh」的果汁
+reagent-desc-weh = 蜥蜴絨毛玩偶的精髓所在。讓人忍不住「哇！」一聲！
+reagent-name-hew = 讓你變得像休一樣的果汁
+reagent-desc-hew = 這是一款純正的「倒立蜥蜴」絨毛玩偶。讓人忍不住「嘶！」一聲！
 reagent-name-catessence = felinase
-reagent-desc-catessence = A type of carcinogenic enzyme known to break down proteins found within the vocal cords of most animals. Mixing is NOT recommended.
-
+reagent-desc-catessence = 一種已知會分解大多數動物聲帶內蛋白質的致癌酶。不建議混合使用。
 reagent-name-canidessence = caninase
-reagent-desc-canidessence = A type of carcinogenic enzyme known to break down proteins found within the vocal cords of most animals. Mixing is NOT recommended.
+reagent-desc-canidessence = 一種已知會分解大多數動物聲帶內蛋白質的致癌酶。不建議混合使用。

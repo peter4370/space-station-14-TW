@@ -1,20 +1,14 @@
-reagent-name-oxygen = oxygen
-reagent-desc-oxygen = An oxidizing, colorless gas.
-
-reagent-name-plasma = plasma
-reagent-desc-plasma = Funky, space-magic pixie dust. You probably shouldn't eat this, but we both know you will anyways.
-
-reagent-name-tritium = tritium
-reagent-desc-tritium = Radioactive space-magic pixie dust.
-
-reagent-name-carbon-dioxide = carbon dioxide
-reagent-desc-carbon-dioxide = You have genuinely no idea what this is.
-
-reagent-name-nitrogen = nitrogen
-reagent-desc-nitrogen = A colorless, odorless unreactive gas. Highly stable.
-
-reagent-name-nitrous-oxide = nitrous oxide
-reagent-desc-nitrous-oxide = You know how everything seems funnier when you're tired? Well...
-
+reagent-name-oxygen = 氧氣 oxygen
+reagent-desc-oxygen = 一種具氧化性的無色氣體。
+reagent-name-plasma = 等離子體
+reagent-desc-plasma = 充滿酷勁的太空魔法精靈塵。你大概不該吃這個，但我們都心知肚明，你反正還是會吃的。
+reagent-name-tritium = 氚 tritium
+reagent-desc-tritium = 具有放射性的太空魔法精靈粉。
+reagent-name-carbon-dioxide = 二氧化碳 carbon dioxide
+reagent-desc-carbon-dioxide = 你真的完全不知道這是什麼。
+reagent-name-nitrogen = 氮 nitrogen
+reagent-desc-nitrogen = 一種無色、無味且不具反應性的氣體。極為穩定。
+reagent-name-nitrous-oxide = 一氧化二氮 nitrous oxide
+reagent-desc-nitrous-oxide = 你知道嗎？當你累的時候，總覺得什麼事都特別好笑？嗯……
 reagent-name-frezon = frezon
-reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.
+reagent-desc-frezon = 一種極其有效的冷卻劑……同時也具有致幻作用。

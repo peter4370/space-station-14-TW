@@ -1,8 +1,9 @@
-﻿<Document>
-  # Wire Panels
-  Some station devices like airlocks, vending machines, and arcade consoles have wire panels, which control certain aspects of their functionality.
+﻿
+<Document>
+  # 線路面板
+  某些站點設備（例如氣閘、自動販賣機和街機）設有線路面板，用於控制其功能的某些方面。
 
-  These panels can be opened using a screwdriver to access the wiring inside.
+  可使用螺絲起子打開這些面板，以便接觸內部線路。
 
   <Box>
     <GuideEntityEmbed Entity="Wirecutter"/>
@@ -10,20 +11,20 @@
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  From here you can use wirecutters and a multitool to interact with the wiring. Note that interacting with the wiring often requires insulated gloves, as if the wire is live, you can get shocked.
+  在此處，您可以使用剪線鉗和多功能工具來處理線路。 請注意，接觸電線時通常需要戴上絕緣手套，因為如果電線帶電，可能會觸電。
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  You can cut and mend wires using the wirecutters and pulse wires using the multitool.
+  您可以使用剪線鉗剪斷和修補電線，並使用多功能工具對電線進行脈衝處理。
 
-  Cutting wires often completely disables or restores functionality to a device.
-  It may also trigger unintended functionality like shocking people, dropping door bolts, or exploding.
+  剪斷電線往往會導致裝置完全無法運作，或使其恢復正常功能。
+  這也可能觸發一些非預期功能，例如電擊他人、釋放門閂，或是引發爆炸。
 
-  Pulsing wires can have a variety of effects, but oftentimes it either temporarily disables or enables functionality.
+  脈衝信號線可能產生各種效果，但通常會導致功能暫時停用或啟用。
 
-  You can't pulse wires if the wire you're trying to pulse is cut. You have to mend the wire first.
+  如果要進行脈衝操作的電線已經斷裂，就無法對其進行脈衝操作。 你得先把電線修好。
 
 
 </Document>

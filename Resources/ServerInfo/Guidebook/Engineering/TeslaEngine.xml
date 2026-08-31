@@ -1,6 +1,7 @@
-﻿<Document>
-  # Tesla Engine
-  The Tesla Engine is a powerful generator that uses a contained ball of lightning to produce energy for the station.
+﻿
+<Document>
+  # 特斯拉引擎
+  特斯拉引擎是一台強大的發電機，它利用一顆被封存的球狀閃電為空間站產生能源。
   <Box>
     <GuideEntityEmbed Entity="TeslaGenerator"/>
   </Box>
@@ -8,13 +9,13 @@
     <GuideEntityEmbed Entity="TeslaEnergyBall"/>
   </Box>
 
-  It generates power by harnessing the lightning strikes produced by the lightning ball using Tesla Coils.
+  它透過特斯拉線圈，利用閃電球產生的閃電來發電。
 
-  ## Containment Field
-  The Tesla Engine requires a containment field to prevent the lightning ball from escaping and destroying the station.
+  ## 封閉場
+  特斯拉引擎需要一個封閉場，以防止閃電球逃逸並摧毀站點。
 
-  It is suggested to use the minimum size containment field for the lightning ball.
-  Larger containment fields allow the lightning ball to reach closer to sensitive equipment and potentially strike it, ignoring placed grounding rods and tesla coils.
+  建議使用最小尺寸的封閉場來包圍閃電球。
+  較大的封閉場會使閃電球更接近敏感設備，並可能擊中這些設備，且會無視已放置的接地棒和特斯拉線圈。
 
   <Box>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
@@ -32,19 +33,19 @@
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
   </Box>
 
-  ## Lightning Strikes
-  When the Tesla Engine is active, the lightning ball will periodically strike objects surrounding it.
+  ## 閃電打擊
+  當特斯拉引擎處於活躍狀態時，閃電球會定期打擊周圍的物體。
 
-  The Tesla prefers to strike some objects more than others, such as Tesla Coils and Grounding Rods.
+  特斯拉引擎傾向於優先打擊某些物體，例如特斯拉線圈和接地棒。
 
-  If the tesla can't find any Tesla Coils or Grounding Rods to strike first, it will strike almost any station object capable of being powered, such as Substations, APCs, and general machinery.
+  若特斯拉無法先找到特斯拉線圈或接地棒來擊中，它便會擊中幾乎所有能夠供電的電站物件，例如變電站、APC 及一般機械設備。
 
-  Certain objects aren't struck by the tesla, such as batteries, lights, PDAs, and other handheld items.
+  某些物件不會被特斯拉擊中，例如電池、燈具、PDA 及其他手持物品。
 
-  It will also strike mobs and crew members, shocking them. Make sure to wear insulated gloves before approaching it.
+  它也會擊中生物和船員，並對其造成電擊。在靠近它之前，請務必戴上絕緣手套。
 
-  ## Tesla Coils
-  Lightning strikes can be harnessed using Tesla Coils, which convert the lightning strikes into power for the station.
+  ## 特斯拉線圈
+  可以利用特斯拉線圈來收集雷擊，將雷擊轉化為空間站的電力。
 
   <Box>
     <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
@@ -52,16 +53,16 @@
     <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
   </Box>
 
-  Tesla Coils should be placed around the lightning ball to capture the energy from lightning strikes, as well as to prevent the lightning from striking sensitive equipment further away.
+  應在閃電球周圍設置特斯拉線圈，以捕捉閃電擊中的能量，並防止閃電擊中更遠處的敏感設備。
 
-  Tesla Coils take damage every time they are struck by lightning, and will eventually break if not repaired.
-  Be sure to monitor the condition of the Tesla Coils and repair them as needed.
+  特斯拉線圈每次遭閃電擊中都會受到損傷，若未及時修復，最終將會損壞。
+  請務必密切監控特斯拉線圈的狀態，並視需要進行維修。
 
-  When lightning strikes Tesla Coils, they fill an internal battery, which is rapidly discharged to the grid.
-  It will discharge this power even if there is no consumer to take it, so it's a good idea to have an SMES nearby to store the power and discharge it smoothly.
+  當閃電擊中特斯拉線圈時，會為其內部電池充電，而該電池會迅速將電能釋放至電網。
+  即使沒有負載設備接收電力，它仍會將這股電力釋放出去，因此建議在附近設置 SMES 來儲存電力並平穩地釋放。
 
-  ## Grounding Rods
-  Grounding Rods help protect sensitive equipment from being struck and prevent a loosed tesla (tesloose).
+  ## 接地棒
+  接地棒有助於保護敏感設備免受雷擊，並防止特斯拉線圈鬆脫（tesloose）。
 
   <Box>
     <Box>
@@ -75,27 +76,27 @@
     </Box>
   </Box>
 
-  Grounding rods do not take damage from lightning strikes.
-  This makes them beneficial for forming a safety net of grounding rods to rely on in case the tesla coils are damaged or destroyed.
+  接地棒不會因遭雷擊而受損。
+  因此，利用接地棒構建一道安全網是明智之舉，以便在特斯拉線圈受損或毀壞時有所依靠。
 
-  Engineers should use grounding rods to protect sensitive equipment from lightning strikes, such as the Emitters powering the containment field generators.
+  工程師應使用接地棒來保護敏感設備免受雷擊，例如為禁錮場發電機供電的「發射器」。
 
-  ## Loosed Tesla (Tesloose)
-  If the lightning ball escapes the containment field, it is referred to as a loosed tesla, or tesloose.
+  ## 脫逃的特斯拉（Tesloose）
+  若閃電球逃離束縛場，即稱為「脫逃的特斯拉」或「Tesloose」。
 
-  An escaped tesla will randomly walk around the station, attracted to objects that can be powered, such as APCs, Substations, and machinery.
-  It will also gladly strike crew members and mobs, shocking them.
+  脫逃的特斯拉會隨機在站內遊蕩，並被可供電的物體吸引，例如裝甲運兵車、變電站及各類機械。
+  它也會樂於攻擊船員和怪物，使他們遭受電擊。
 
-  Wearing insulated gloves will protect you from being shocked by the tesla, but it won't prevent the tesla from striking you.
+  穿著絕緣手套可防止你被特斯拉電擊，但無法阻止特斯拉攻擊你。
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  The tesla can be destroyed by firing antiparticles at it using a Portable Particle Decelerator, however, the Tesla is much more powerful than the Singularity, and it will take a lot of antiparticles to destroy it.
-  A group of people using decelerators is recommended to destroy a tesloose.
+  透過使用「便攜式粒子減速器」向特斯拉發射反粒子，即可摧毀它；然而，特斯拉的威力遠勝於奇點，需要大量反粒子才能將其摧毀。
+  建議由一群人使用減速器來摧毀特斯拉。
 
-  Portable Particle Decelerators can be either researched and made by the Research Department, or they can be bought from Cargo.
+  便攜式粒子減速器既可由研究部門研發並製造，也可從「貨運」處購買。
 
   <Box>
     <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>

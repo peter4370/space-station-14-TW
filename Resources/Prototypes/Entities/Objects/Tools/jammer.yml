@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: BaseJammer
-  name: radio jammer
-  description: This device will disrupt any nearby outgoing radio communication as well as suit sensors when activated.
+  name: 無線電干擾器 | radio jammer
+  description: 此裝置一旦啟動，將干擾附近任何外發的無線電通訊，並會干擾戰衣上的感測器。 | This device will disrupt any nearby outgoing radio communication as well as suit sensors when activated.
   components:
   - type: Sprite
     sprite: Objects/Devices/jammer.rsi
@@ -18,11 +18,11 @@
     - wattage: 2
       range: 6
       message: radio-jammer-component-set-message-low
-      name: radio-jammer-component-setting-low
+      name: 無線電干擾器元件設定為低 | radio-jammer-component-setting-low
     - wattage: 12
       range: 12
       message: radio-jammer-component-set-message-high
-      name: radio-jammer-component-setting-high
+      name: 無線電干擾器元件設定值設為高 | radio-jammer-component-setting-high
   - type: Appearance
   - type: ItemToggle
   - type: GenericVisualizer
@@ -36,10 +36,10 @@
     price: 1500
 
 - type: entity
-  name: radio jammer
+  name: 無線電干擾器 | radio jammer
   parent: [BaseJammer, PowerCellSlotMediumItem, BaseSyndicateContraband]
   id: RadioJammer
-  description: This device will disrupt any nearby outgoing and incoming radio communication as well as suit sensors when activated.
+  description: 此裝置一旦啟動，將干擾附近所有發射與接收的無線電通訊，並干擾太空服的感測器。 | This device will disrupt any nearby outgoing and incoming radio communication as well as suit sensors when activated.
   components:
   - type: GenericVisualizer
     visuals:
@@ -60,7 +60,7 @@
 - type: entity
   parent: [BaseJammer, BaseXenoborgContraband]
   id: XenoborgRadioJammer
-  name: xenoborg radio jammer
+  name: 外星機器人無線電干擾器 | xenoborg radio jammer
   components:
   - type: RadioJammer
     frequenciesExcluded:

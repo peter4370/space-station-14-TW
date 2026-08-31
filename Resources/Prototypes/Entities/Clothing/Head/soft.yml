@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBluesoft
-  name: blue cap
-  description: A blue baseball cap.
+  name: 藍色帽子 | blue cap
+  description: 一頂藍色的棒球帽。 | A blue baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bluesoft.rsi
@@ -53,13 +53,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBluesoft]
   id: ClothingHeadHatBluesoftFlipped
-  name: blue cap
+  name: 藍色帽子 | blue cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCargosoft
-  name: cargo cap
-  description: A baseball cap colored to match cargo's uniforms.
+  name: 貨斗蓋 | cargo cap
+  description: 一頂顏色與卡戈隊制服相配的棒球帽。 | A baseball cap colored to match cargo's uniforms.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/cargosoft.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCargosoft]
   id: ClothingHeadHatCargosoftFlipped
-  name: cargo cap
+  name: 貨斗蓋 | cargo cap
   components:
   - type: Tag
     tags:
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatQMsoft
-  name: quartermaster's cap
-  description: A baseball cap colored to match the Quartermaster's uniform.
+  name: 司務長帽 | quartermaster's cap
+  description: 一頂顏色與司務長制服相配的棒球帽。 | A baseball cap colored to match the Quartermaster's uniform.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/qmsoft.rsi
@@ -98,13 +98,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatQMsoft]
   id: ClothingHeadHatQMsoftFlipped
-  name: quartermaster's cap
+  name: 司務長帽 | quartermaster's cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCommandSoft
-  name: command cap
-  description: A baseball cap in command's distinctive shade of blue.
+  name: 指揮帽 | command cap
+  description: 一頂採用指揮官專屬藍色的棒球帽。 | A baseball cap in command's distinctive shade of blue.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/commandsoft.rsi
@@ -114,13 +114,13 @@
 - type: entity
   parent: [ ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCommandSoft ]
   id: ClothingHeadHatCommandSoftFlipped
-  name: command cap
+  name: 指揮帽 | command cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCorpsoft
-  name: corporate cap
-  description: A baseball cap in corporation colors.
+  name: 企業資本上限 | corporate cap
+  description: 一頂印有公司配色的棒球帽。 | A baseball cap in corporation colors.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft.rsi
@@ -130,13 +130,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCorpsoft]
   id: ClothingHeadHatCorpsoftFlipped
-  name: corporate cap
+  name: 企業資本上限 | corporate cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreensoft
-  name: green cap
-  description: A green baseball cap.
+  name: 綠色帽子 | green cap
+  description: 一頂綠色的棒球帽。 | A green baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greensoft.rsi
@@ -146,13 +146,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreensoft]
   id: ClothingHeadHatGreensoftFlipped
-  name: green cap
+  name: 綠色帽子 | green cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBlacksoft
-  name: black cap
-  description: A black baseball cap.
+  name: 黑色帽子 | black cap
+  description: 一頂黑色的棒球帽。 | A black baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/blacksoft.rsi
@@ -162,13 +162,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBlacksoft]
   id: ClothingHeadHatBlacksoftFlipped
-  name: black cap
+  name: 黑色帽子 | black cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreysoft
-  name: grey cap
-  description: A grey baseball cap.
+  name: 灰色帽子 | grey cap
+  description: 一頂灰色的棒球帽。 | A grey baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft.rsi
@@ -178,13 +178,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreysoft]
   id: ClothingHeadHatGreysoftFlipped
-  name: grey cap
+  name: 灰色帽子 | grey cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMimesoft
-  name: white cap
-  description: A white baseball cap.
+  name: 白色帽子 | white cap
+  description: 一頂白色的棒球帽。 | A white baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/mimesoft.rsi
@@ -194,13 +194,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMimesoft]
   id: ClothingHeadHatMimesoftFlipped
-  name: white cap
+  name: 白色帽子 | white cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatOrangesoft
-  name: orange cap
-  description: An orange baseball cap.
+  name: 橘色帽子 | orange cap
+  description: 一頂橘色的棒球帽。 | An orange baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft.rsi
@@ -210,13 +210,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatOrangesoft]
   id: ClothingHeadHatOrangesoftFlipped
-  name: orange cap
+  name: 橘色帽子 | orange cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatPurplesoft
-  name: purple cap
-  description: A purple baseball cap.
+  name: 紫色帽 | purple cap
+  description: 一頂紫色的棒球帽。 | A purple baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft.rsi
@@ -232,7 +232,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatPurplesoft]
   id: ClothingHeadHatPurplesoftFlipped
-  name: purple cap
+  name: 紫色帽 | purple cap
   components:
   - type: Tag
     tags:
@@ -244,8 +244,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatRedsoft
-  name: red cap
-  description: A red baseball cap.
+  name: 紅帽 | red cap
+  description: 一頂紅色的棒球帽。 | A red baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft.rsi
@@ -255,13 +255,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatRedsoft]
   id: ClothingHeadHatRedsoftFlipped
-  name: red cap
+  name: 紅帽 | red cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatSecsoft
-  name: security cap
-  description: A baseball cap colored to match security's uniforms.
+  name: 安全蓋 | security cap
+  description: 一頂顏色與保全人員制服相配的棒球帽。 | A baseball cap colored to match security's uniforms.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft.rsi
@@ -271,13 +271,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSecsoft]
   id: ClothingHeadHatSecsoftFlipped
-  name: security cap
+  name: 安全蓋 | security cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatYellowsoft
-  name: yellow cap
-  description: A yellow baseball cap.
+  name: 黃色帽子 | yellow cap
+  description: 一頂黃色的棒球帽。 | A yellow baseball cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft.rsi
@@ -287,13 +287,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatYellowsoft]
   id: ClothingHeadHatYellowsoftFlipped
-  name: yellow cap
+  name: 黃色帽子 | yellow cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBizarreSoft
-  name: troublemaker's cap
-  description: A truly.. bizarre accessory.
+  name: 搗蛋鬼的帽子 | troublemaker's cap
+  description: 這真是個……古怪的配件。 | A truly.. bizarre accessory.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft.rsi
@@ -303,13 +303,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBizarreSoft]
   id: ClothingHeadHatBizarreSoftFlipped
-  name: troublemaker's cap
+  name: 搗蛋鬼的帽子 | troublemaker's cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatParamedicsoft
-  name: paramedic cap
-  description: A blue baseball cap with a cross on the front.
+  name: 救護員帽 | paramedic cap
+  description: 一頂藍色棒球帽，正面綴有十字架。 | A blue baseball cap with a cross on the front.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/paramedicsoft.rsi
@@ -325,7 +325,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatParamedicsoft]
   id: ClothingHeadHatParamedicsoftFlipped
-  name: paramedic cap
+  name: 救護員帽 | paramedic cap
   components:
   - type: Tag
     tags:

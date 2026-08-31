@@ -1,9 +1,10 @@
-markings-search = Search
--markings-selection = { $selectable ->
-    [0] You have no markings remaining.
-    [one] You can select one more marking.
-   *[other] You can select { $selectable } more markings.
-}
+markings-search = 搜尋
+-markings-selection =
+    { $selectable ->
+        [0] 您已無剩餘標記。
+        [one] 您還可以選擇一個標記。
+       *[other] 您還可以選擇 { $selectable } 個標記。
+    }
 markings-limits = { $required ->
     [true] { $count ->
         [-1] Select at least one marking.
@@ -18,50 +19,47 @@ markings-limits = { $required ->
        *[other] Select up to {$count} markings. { -markings-selection(selectable: $selectable) }
     }
 }
-markings-reorder = Reorder markings
-
-humanoid-marking-modifier-respect-limits = Respect limits
-humanoid-marking-modifier-respect-group-sex = Respect group & sex restrictions
-humanoid-marking-modifier-base-layers = Base layers
-humanoid-marking-modifier-enable = Enable
-humanoid-marking-modifier-prototype-id = Prototype id:
+markings-reorder = 重新排列標記
+humanoid-marking-modifier-respect-limits = 尊重界限
+humanoid-marking-modifier-respect-group-sex = 請遵守群組與性別限制
+humanoid-marking-modifier-base-layers = 底層衣物
+humanoid-marking-modifier-enable = 啟用
+humanoid-marking-modifier-prototype-id = 原型編號：
 
 # Categories
 
-markings-organ-Torso = Torso
-markings-organ-Head = Head
-markings-organ-ArmLeft = Left Arm
-markings-organ-ArmRight = Right Arm
-markings-organ-HandRight = Right Hand
-markings-organ-HandLeft = Left Hand
-markings-organ-LegLeft = Left Leg
-markings-organ-LegRight = Right Leg
-markings-organ-FootLeft = Left Foot
-markings-organ-FootRight = Right Foot
-markings-organ-Eyes = Eyes
-
-markings-layer-Special = Special
-markings-layer-Tail = Tail
-markings-layer-Tail-Moth = Wings
-markings-layer-Hair = Hair
-markings-layer-FacialHair = Facial Hair
-markings-layer-UndergarmentTop = Undershirt
-markings-layer-UndergarmentBottom = Underpants
-markings-layer-Chest = Chest
-markings-layer-Head = Head
-markings-layer-Snout = Snout
-markings-layer-SnoutCover = Snout (Cover)
-markings-layer-HeadSide = Head (Side)
-markings-layer-HeadTop = Head (Top)
-markings-layer-Eyes = Eyes
-markings-layer-RArm = Right Arm
-markings-layer-LArm = Left Arm
-markings-layer-RHand = Right Hand
-markings-layer-LHand = Left Hand
-markings-layer-RLeg = Right Leg
-markings-layer-LLeg = Left Leg
-markings-layer-RFoot = Right Foot
-markings-layer-LFoot = Left Foot
-markings-layer-Overlay = Overlay
-markings-layer-TailOverlay = Overlay
-
+markings-organ-Torso = 軀幹
+markings-organ-Head = 標題
+markings-organ-ArmLeft = 左臂
+markings-organ-ArmRight = 右臂
+markings-organ-HandRight = 右手
+markings-organ-HandLeft = 左手
+markings-organ-LegLeft = 左腿
+markings-organ-LegRight = 右腿
+markings-organ-FootLeft = 左腳
+markings-organ-FootRight = 右腳
+markings-organ-Eyes = 眼睛
+markings-layer-Special = 特別
+markings-layer-Tail = 尾巴
+markings-layer-Tail-Moth = 翅膀
+markings-layer-Hair = 頭髮
+markings-layer-FacialHair = 臉部毛髮
+markings-layer-UndergarmentTop = 內衣
+markings-layer-UndergarmentBottom = 內褲
+markings-layer-Chest = 胸部
+markings-layer-Head = 標題
+markings-layer-Snout = 鼻吻部
+markings-layer-SnoutCover = 《Snout》（封面）
+markings-layer-HeadSide = 頭部（側面）
+markings-layer-HeadTop = 頁首（頂部）
+markings-layer-Eyes = 眼睛
+markings-layer-RArm = 右臂
+markings-layer-LArm = 左臂
+markings-layer-RHand = 右手
+markings-layer-LHand = 左手
+markings-layer-RLeg = 右腿
+markings-layer-LLeg = 左腿
+markings-layer-RFoot = 右腳
+markings-layer-LFoot = 左腳
+markings-layer-Overlay = 疊加層
+markings-layer-TailOverlay = 疊加層

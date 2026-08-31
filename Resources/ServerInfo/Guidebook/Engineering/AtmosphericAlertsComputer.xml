@@ -1,30 +1,31 @@
-﻿<Document>
-  # Atmospheric Alerts Computer
-  The Atmospheric Alerts Computer is a computer that shows information on all air alarms and fire alarms across the station.
+﻿
+<Document>
+  # 大氣警報電腦
+  大氣警報電腦是一台可顯示該站內所有空氣警報及火災警報資訊的電腦。
 
   <Box>
     <GuideEntityEmbed Entity="ComputerAlert"/>
   </Box>
 
-  It is a useful tool for quickly identifying areas that require attention.
+  這是一項有用的工具，能快速找出需要關注的領域。
 
-  The Atmospheric Alerts Computer is often found in Atmospherics, and is used by Atmospherics Technicians to monitor atmospheres across the entire station.
-  However, it is also a good indicator for general engineers to gauge station damage.
+  「大氣警報電腦」通常設置於大氣部門，由大氣技術人員用來監測整個站區的大氣狀況。
+  然而，這對一般工程師而言，也是評估車站損毀情況的一個良好指標。
 
-  The computer displays lists of Air Alarms in [color=orange]Warning[/color] and [color=red]Danger[/color] levels. Additionally, the computer displays the location of all air alarms, color-coded based on their current status.
+  電腦會顯示 [color=orange]警告[/color] 及 [color=red]危險[/color] 等級的空襲警報清單。 此外，電腦會顯示所有空氣警報的位置，並根據其當前狀態以不同顏色標示。
 
-  Air alarms with the normal status are hidden by default.
-  You can toggle the visibility of normal air alarms by adjusting the filters at the bottom of the interface.
+  處於正常狀態的空氣警報預設為隱藏狀態。
+  您可以透過調整介面底部的篩選器，來切換一般空氣警報的顯示狀態。
 
-  The map draws a box around the area that the air alarm is monitoring, which can help identify the area that is in danger.
-  This box will change color based on the status of the air alarm.
+  地圖會在空襲警報監測的區域周圍標出一個方框，這有助於辨識處於危險中的區域。
+  此方塊會根據空氣警報的狀態而改變顏色。
 
-  If an Air Alarm is unpowered, it is shown as greyed out on the list and on the map.
+  若某個氣體警報器斷電了，則在清單及地圖上會以灰色顯示。
 
-  Clicking on an air alarm on the list or on the map will show detailed information about the atmosphere in that area, which can help gauge the type of emergency that is occurring.
+  點擊清單或地圖上的空氣警報，即可顯示該區域的空氣品質詳細資訊，這有助於判斷正在發生的緊急狀況類型。
 
-  A list of triggered [textlink="fire alarms" link="FireAndGasControl"] is also displayed on the Atmospheric Alerts Computer in a separate tab, which can be used to quickly identify areas that might be on fire.
+  大氣警報電腦上的獨立分頁中，亦會顯示已觸發的 [textlink="火災警報" link="FireAndGasControl"] 清單，可用於快速辨識可能發生火災的區域。
 
-  You can silence specific alarms (such as alarms that monitor burn chambers and freezers) by clicking on the alarm in the list and pressing the "Silence alerts" button.
-  This will hide the alarm from the list, but it will still be visible on the map.
+  您可以透過在清單中點選特定警報（例如監控燃燒室和冷凍庫的警報），然後按下「靜音警報」按鈕，來將這些警報靜音。
+  這樣一來，該警報將從清單中隱藏，但在地圖上仍會顯示。
 </Document>

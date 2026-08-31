@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCentcom
-  name: central commander's cloak
-  description: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
+  name: 中央指揮官的斗篷 | central commander's cloak
+  description: 一件華麗而高雅的綠色斗篷，飾有精美的金色滾邊，是專為中央指揮官量身訂製的。這件斗篷重得驚人，那金色的滾邊說不定是真金做的。 | A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/centcomcloakformal.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCap
-  name: captain's cloak
-  description: A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
+  name: 船長斗篷 | captain's cloak
+  description: 一件華麗又舒適的藍色斗篷，邊緣綴有精美的金色滾邊；雖然不像你其他財物那樣特別珍貴，但確實很講究。 | A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/cap.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHos
-  name: head of security's cloak
-  description: An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
+  name: 安全主管的斗篷 | head of security's cloak
+  description: 一件精緻的深紅長袍，專為那些能對不法之徒展現統治權威之人而製。在起訴過程中，試著表現得體面些吧！ | An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/hos.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCe
-  name: chief engineer's cloak
-  description: A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
+  name: 首席工程師的斗篷 | chief engineer's cloak
+  description: 一件飾有淺藍色紋樣的深綠色斗篷，頒發給那些證明自己已精通精確工程學藝術的人士。 | A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/ce.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingCloakCmo
-  name: chief medical officer's cloak
-  description: A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
+  name: 首席醫務官的斗篷 | chief medical officer's cloak
+  description: 一件綴有綠色十字的純淨藍色斗篷，散發出一種盡責與樂於助人的氣質。 | A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/cmo.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakRd
-  name: research director's cloak
-  description: A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
+  name: 科學主任的斗篷 | research director's cloak
+  description: 一件帶有紫色條紋的白袍，彰顯您作為尖端科技仲裁者的身分。 | A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/rd.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakQm
-  name: quartermaster's cloak
-  description: A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
+  name: 司務長斗篷 | quartermaster's cloak
+  description: 一件帶有反光條紋的厚實棕色斗篷，雖然不如其他款式華麗，但確實展現了你的管理能力。 | A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/qm.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHop
-  name: head of personnel's cloak
-  description: A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
+  name: 人事主管的斗篷 | head of personnel's cloak
+  description: 一件藍色斗篷，肩部飾有紅色鑲邊，並綴有金色鈕扣，證明你是空間站內任何氣閘的守門人。 | A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/hop.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakHerald
-  name: herald's cloak
-  description: An evil-looking red cloak with spikes on its shoulders.
+  name: 先驅者的斗篷 | herald's cloak
+  description: 一件看起來邪惡的紅色斗篷，肩部綴有尖刺。 | An evil-looking red cloak with spikes on its shoulders.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/herald.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakNanotrasen
-  name: nanotrasen cloak
-  description: A stately blue cloak to represent NanoTrasen.
+  name: 奈米傳送隱形斗篷 | nanotrasen cloak
+  description: 一件氣派的藍色斗篷，用以象徵 NanoTrasen。 | A stately blue cloak to represent NanoTrasen.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCapFormal
-  name: captain's formal cloak
-  description: A lavish and decorated cloak for special occasions.
+  name: 船長禮服斗篷 | captain's formal cloak
+  description: 一件華麗且裝飾精美的斗篷，專為特殊場合而設計。 | A lavish and decorated cloak for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/capcloakformal.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAdmin
-  name: weh cloak
-  description: Weh!
+  name: weh 斗篷 | weh cloak
+  description: 哇！ | Weh!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/admin.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakSalvagerSupreme
-  name: supereme salvager's cloak
-  description: Worn by the most skilled salvagers, for one who has mastered space and made the mining asteroid his domain. They don't just hand these things out, y'know?
+  name: 至高救贖者之斗篷 | supereme salvager's cloak
+  description: 這是由最嫻熟的回收者所穿戴的裝備，專為那些已駕馭太空、並將採礦小行星視為自己地盤的人而設。你知道的，這種東西可不是隨便就能拿到的。 | Worn by the most skilled salvagers, for one who has mastered space and made the mining asteroid his domain. They don't just hand these things out, y'know?
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/miner.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakTrans
-  name: vampire cloak
-  description: Worn by high ranking vampires of the transylvanian society of vampires.
+  name: 吸血鬼斗篷 | vampire cloak
+  description: 由特蘭西瓦尼亞吸血鬼社會中的高階吸血鬼所佩戴。 | Worn by high ranking vampires of the transylvanian society of vampires.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/trans.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakGoliathCloak
-  name: goliath cloak
-  description: A cloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
+  name: 巨人斗篷 | goliath cloak
+  description: 這件斗篷是由遙遠星球上某種韌性極強的動物皮製成，儘管隨著歲月流逝，其防護功效已大為減弱。 | A cloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/goliathcloak.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakPirateCap
-  name: pirate captain cloak
-  description: A rather fetching black pirate cloak, complete with skull motif.
+  name: 海盜船長斗篷 | pirate captain cloak
+  description: 一件頗為迷人的黑色海盜斗篷，上面還綴有骷髏圖案。 | A rather fetching black pirate cloak, complete with skull motif.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/piratecap.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakMoth
-  name: moth cloak
-  description: A cloak in the form of moth wings is an unusual and original element of the wardrobe that can attract the attention of others. It is made of a thin fabric imitating moth wings, with soft and fluffy edges. The raincoat is fastened around the neck with straps, and has a hood in the shape of a moths head.
+  name: 飛蛾斗篷 | moth cloak
+  description: 一件形似蛾翼的斗篷，是衣櫥中既獨特又別出心裁的單品，能吸引他人的目光。它採用仿蛾翼紋理的輕薄布料製成，邊緣柔軟蓬鬆。這件斗篷以綁帶繫於頸部，並配有形似蛾頭的兜帽。 | A cloak in the form of moth wings is an unusual and original element of the wardrobe that can attract the attention of others. It is made of a thin fabric imitating moth wings, with soft and fluffy edges. The raincoat is fastened around the neck with straps, and has a hood in the shape of a moths head.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/moth.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakVoid
-  name: void cloak
-  description: A cloak of darkness. For those who have gone to the dark side of the force.
+  name: void cloak | void cloak
+  description: 一片黑暗的斗篷。獻給那些已投身原力黑暗面的人們。 | A cloak of darkness. For those who have gone to the dark side of the force.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/void.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAce
-  name: pilot's cloak
-  description: Cloak awarded to Nanotrasen's finest space aces.
+  name: 飛行員斗篷 | pilot's cloak
+  description: 「隱形斗篷」是授予納諾特拉森最頂尖太空王牌的獎勵。 | Cloak awarded to Nanotrasen's finest space aces.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/ace.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAro
-  name: werewolf cloak
-  description: This cloak lets others know you're a lone wolf.
+  name: 狼人斗篷 | werewolf cloak
+  description: 這件斗篷讓別人知道你是一匹獨行狼。 | This cloak lets others know you're a lone wolf.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/aro.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAroace
-  name: aeropilot's cloak # thank you happyman442 this was the best name idea ever
-  description: Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
+  name: 飛行員的斗篷 # thank you happyman442 this was the best name idea ever | aeropilot's cloak # thank you happyman442 this was the best name idea ever
+  description: 在擁有適居大氣的行星上，這件隱形斗篷會頒發給納諾特拉森最優秀的飛行員。 | Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/aroace.rsi
@@ -238,8 +238,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBi
-  name: poison cloak
-  description: The purple color is a clear indicator you are poisonous.
+  name: 毒斗篷 | poison cloak
+  description: 紫色是表明你有毒的明顯徵兆。 | The purple color is a clear indicator you are poisonous.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/bi.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakIntersex
-  name: cyclops cloak
-  description: The circle on this cloak represents a cyclops' eye.
+  name: 獨眼巨人斗篷 | cyclops cloak
+  description: 這件斗篷上的圓圈象徵著獨眼巨人的一隻眼睛。 | The circle on this cloak represents a cyclops' eye.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/intersex.rsi
@@ -256,8 +256,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakLesbian
-  name: poet cloak
-  description: This cloak belonged to an ancient poet, you forgot which one.
+  name: 詩人之袍 | poet cloak
+  description: 這件斗篷曾屬於一位古代詩人，你已經忘記是誰了。 | This cloak belonged to an ancient poet, you forgot which one.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/les.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakGay
-  name: multi-level marketing cloak
-  description: This cloak is highly sought after in the Nanotrasen Marketing Offices.
+  name: 多層次行銷的偽裝 | multi-level marketing cloak
+  description: 這件斗篷在納諾特拉森的行銷辦公室裡極受追捧。 | This cloak is highly sought after in the Nanotrasen Marketing Offices.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/gay.rsi
@@ -274,8 +274,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakEnby
-  name: treasure hunter cloak
-  description: This cloak belonged to a greedy treasure hunter.
+  name: 尋寶者斗篷 | treasure hunter cloak
+  description: 這件斗篷原本屬於一名貪婪的尋寶者。 | This cloak belonged to a greedy treasure hunter.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/enby.rsi
@@ -283,8 +283,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakPan
-  name: chef's cloak
-  description: Meant to be worn alongside a frying pan.
+  name: 主廚披風 | chef's cloak
+  description: 本產品設計為與平底鍋搭配使用。 | Meant to be worn alongside a frying pan.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/pan.rsi

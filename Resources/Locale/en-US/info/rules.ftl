@@ -1,9 +1,8 @@
 ﻿# Rules
 
-ui-rules-header = Wizard's Den Official Server Rules
-ui-rules-header-rp = Wizard's Den Roleplay Official Server Rules
-ui-rules-accept = I have read and agree to follow the rules
-ui-rules-wait = The accept button will be enabled after {$time} seconds.
-
-ui-rules-button-home = Home
-ui-rules-button-back = Back
+ui-rules-header = 《巫師之巢》官方伺服器規則
+ui-rules-header-rp = 《巫師之巢》角色扮演官方伺服器規則
+ui-rules-accept = 我已閱讀並同意遵守相關規則
+ui-rules-wait = 「接受」按鈕將在 { $time } 秒後啟用。
+ui-rules-button-home = 首頁
+ui-rules-button-back = 返回

@@ -1,5 +1,6 @@
+
 <Document>
-  # Thieves
+  # 《竊賊》
 
   <Box>
     [color=#999999][italic]"Yoink! I'll be taking that! And that! Ooh, don't mind if I do!"[/italic][/color]
@@ -8,34 +9,34 @@
     <GuideEntityEmbed Entity="ClothingNeckCloakVoid" Caption=""/>
   </Box>
 
-  Thieves are petty yet crafty [color=green]criminals[/color] who can't keep their hands to themselves. You were forcefully given a [bold]pacifism implant[/bold] after your last arrest, but you won't let that stop you from trying to add to your collection.
+  小偷是那些狡猾卻不入流的 [color=green]罪犯[/color]，總是按捺不住想偷東西的衝動。你上次被捕後，被迫植入了 [bold]和平主義植入體[/bold]，但這並不會阻止你繼續擴充你的收藏。
 
 
-  ## Art of the Steal
-  Unlike other antagonists, it's important to [bold]stay out of trouble[/bold] because of your pacifism implant.
-  While you can still use [color=yellow]stun weapons[/color] in a pinch, you should run if [color=#cb0000]Security[/color] picks a fight with you.
-  You work alone, and you don't have any friends to pull you out of danger.
+  ## 竊盜之藝
+  與其他反派不同，由於你植入了和平主義植入物，因此務必 [bold]遠離麻煩[/bold]。
+  雖然在萬不得已時仍可使用 [color=yellow]暈眩武器[/color]，但若 [color=#cb0000]保安人員[/color] 向你挑釁，你最好立刻逃跑。
+  你獨自行動，身邊沒有朋友能把你從險境中解救出來。
 
-  But against all odds, you'll successfully swipe what you want using determination, sleight of hand, a few tools, and your [color=cyan]pickpocketing skills[/color].
+  然而，儘管形勢不利，你仍將憑藉決心、手法、幾樣工具以及你的 [color=cyan]扒竊技巧[/color]，成功偷走你想要的東西。
 
-  The pickpocketing skills you have give you a major advantage: [bold]the ability to take things from people without them even noticing[/bold]. With a little practice, you can steal their wallet and keep up a conversation at the same time.
+  你擁有的扒竊技巧賦予你一項重大優勢：[bold]能在對方毫無察覺的情況下取走物品[/bold]。稍加練習，你就能一邊與對方交談，一邊順手偷走他們的錢包。
 
-  It is advised to get a pair of gloves, as your fingerprints could still be traced back to the stolen goods if they're found.
+  建議你準備一雙手套，因為如果贓物被發現，你的指紋仍可能被追查到贓物上。
 
 
-  ## Tools of the Trade
-  You've got two more aces up your stolen sleeves: your [color=cyan]thieving beacon[/color] and your [color=cyan]thieving satchel[/color].
+  ## 行竊工具
+  你的偷竊袖中還藏著兩張王牌：你的 [color=cyan]竊盜信標[/color] 和 [color=cyan]竊盜背包[/color]。
 
-  Your [color=cyan]thieving beacon[/color] provides safe passage home for trinkets that may not be easy to carry with you on the evac shuttle. Simply find a secluded part of the station to unfold the thieving beacon, then set its coordinates to your hideout.
-  Any shinies near it will be [bold]teleported to your vault when the shift ends[/bold], fulfilling your objectives.
+  你的 [color=cyan]竊盜信標[/color] 能為那些難以帶上撤離穿梭機的小飾品提供安全返家的通道。 只需在空間站的僻靜處展開竊盜信標，然後將其座標設定為你的藏身處即可。
+  任何位於其附近的珍稀物品都將在[bold]班次結束時被傳送至你的保險庫[/bold]，從而完成你的任務目標。
 
-  However, this will instantly out you if found and make it extremely easy for people to reclaim their "missing" possessions. [bold]Make sure to hide it well![/bold]
+  然而，若被發現，這將立即暴露你的行蹤，並讓他人極易取回他們「失蹤」的財物。[bold]請務必將它藏好！[/bold]
 
   <Box>
     <GuideEntityEmbed Entity="ThiefBeacon"/>
   </Box>
 
-  Your [color=cyan]thieving satchel[/color] contains... well, whatever you remembered to pack. [bold]You can select two pre-made kits[/bold] to help you complete grander heists.
+  你的 [color=cyan]竊賊背包[/color] 裡裝有……嗯，就看你記得帶了什麼。 [bold]你可以選擇兩組預先搭配好的裝備組[/bold]，來協助你完成更壯觀的搶劫任務。
 
   <Box>
     <GuideEntityEmbed Entity="SatchelThief"/>
@@ -55,23 +56,23 @@
     <GuideEntityEmbed Entity="ClothingBackpackSatchelSmugglerUnanchored"/>
   </Box>
 
-  After approving your selection, the kits will fold out into a [color=cyan]smuggler's satchel[/color].
-  Larger kits will fall onto the floor around you.
-  [bold]Don't let anyone see your kits or smuggler's satchel[/bold], as they will recognize it as contraband!
-  The smuggler's satchel can be wrenched to the hull plating underneath floor tiles if you need to hide items from prying eyes.
+  確認選項後，這些裝備包會展開成一個 [color=cyan]走私者背包[/color]。
+  較大的套件會掉落在您周圍的地板上。
+  [bold]千萬別讓任何人看見您的套件或走私者背包[/bold]，否則他們會認出那是違禁品！
+  若需將物品藏匿於窺探的目光之下，可將走私者挎包擰緊固定於地板磁磚下方的船體裝甲板上。
 
 
-  ## Centerpiece of the Collection
-  Your kleptomania will take you places. One day, you'll feel like stealing a few figurines. Another day, you'll feel like stealing an industrial machine.
+  ## 收藏的中心piece
+  你的偷竊癖將帶你走遍各地。總有一天，你會想偷幾尊小雕像。 另一天，你可能會想偷一台工業機器。
 
-  No matter. They'll all be a part of your collection within a matter of time.
+  沒關係。遲早它們都會成為你收藏的一部分。
 
-  You can steal items by [bold]having them on your person[/bold] when you get to CentComm. Failing this, you can steal larger items by [bold]leaving them by your thieving beacon.[/bold]
+  當你抵達 CentComm 時，只要將物品[bold]隨身攜帶[/bold]，就能將其竊取。 若無法做到這點，你可以透過[bold]將較大型物品留在盜竊信標旁[/bold]來偷取。
 
-  Some of the more [italic]animate[/italic] objectives may not cooperate with you. Make sure they're alive and with you or your thieving beacon when the shift ends.
-  A [color=cyan]pet carrier[/color] is optional, but might make the critters easier to handle.
+  某些較為[italic]有生命[/italic]的目標可能不會配合你。 請確保在班次結束時，它們仍活著且在你身邊或你的「竊盜信標」附近。
+  [color=cyan]寵物運輸箱[/color] 雖非必需，但可能會讓這些小生物更容易處理。
 
-  Things that you may desire include but are not limited to:
+  你可能需要的物品包括但不限於：
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Figurines"/>

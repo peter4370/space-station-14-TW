@@ -46,8 +46,8 @@
 - type: entity
   parent: [ BaseHydroponicsSoil, StructureHealthContainer ]
   id: hydroponicsSoil
-  name: soil
-  description: A mix of organic matter and minerals creating a soil to grow your plant in space. Seems to be dry.
+  name: 土壤 | soil
+  description: 由有機物和礦物質混合而成的混合物，用來在太空中培育植物。看起來似乎有些乾。 | A mix of organic matter and minerals creating a soil to grow your plant in space. Seems to be dry.
   components:
   - type: Damageable
     damageModifierSet: RockMod
@@ -67,8 +67,8 @@
 - type: entity
   parent: hydroponicsSoil
   id: FungalSoil
-  name: fungal soil
-  description: A mix of organic matter and fungal root creating a soil to grow your plant in space. Seems to be dry.
+  name: 真菌土壤 | fungal soil
+  description: 由有機質與真菌根系混合而成的混合物，可作為在太空中種植植物的土壤。看起來似乎有些乾燥。 | A mix of organic matter and fungal root creating a soil to grow your plant in space. Seems to be dry.
   components:
   - type: Construction
     graph: Soil

@@ -1,8 +1,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitPyjamaSyndicateBlack
-  name: black syndicate pyjamas
-  description: For those long nights in perma.
+  name: 黑色黑手黨睡衣 | black syndicate pyjamas
+  description: 獻給在 perma 度過的那些漫漫長夜。 | For those long nights in perma.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/pyjamasyndicateblack.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitPyjamaSyndicatePink
-  name: pink syndicate pyjamas
-  description: For those long nights in perma.
+  name: 粉紅幫睡衣 | pink syndicate pyjamas
+  description: 獻給在 perma 度過的那些漫漫長夜。 | For those long nights in perma.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/pyjamasyndicatepink.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitPyjamaSyndicateRed
-  name: red syndicate pyjamas
-  description: For those long nights in perma.
+  name: 紅色辛迪加睡衣 | red syndicate pyjamas
+  description: 獻給在 perma 度過的那些漫漫長夜。 | For those long nights in perma.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/pyjamasyndicatered.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitOperative
-  name: operative jumpsuit
-  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  name: 特勤連身衣 | operative jumpsuit
+  description: 專為在深空執行戰術行動的精英組織特工設計的制服。 | Uniform for elite syndicate operatives performing tactical operations in deep space.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/operative.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTacticool
-  name: tacticool jumpsuit
-  description: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
+  name: 戰術風連身服 | tacticool jumpsuit
+  description: 專為在深空執行「戰術絕緣手套竊盜」任務、表現平平的實境扮演者（LARPer）所設計的制服。 | Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/tacticool.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: [ ClothingUniformBase ]
   id: ClothingUniformJumpsuitMercenary
-  name: mercenary jumpsuit
-  description: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
+  name: 傭兵連身服 | mercenary jumpsuit
+  description: 專為真正的傭兵設計的服裝，他們曾歷經火海、水域，以及充斥著危險怪獸或懸賞目標的星球叢林。 | Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/mercenary.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitNinja
-  name: ninja jumpsuit
-  description: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
+  name: 忍者連身服 | ninja jumpsuit
+  description: 舒適的忍者服，無論是放鬆時還是需要練習時，都能讓您穿著自如。 | Comfortable ninja suit, for convenience when relaxing and when you need to practice.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/ninja.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPirate
-  name: pirate slops
-  description: A pirate variation of a space sailor's jumpsuit.
+  name: 海盜的殘羹剩飯 | pirate slops
+  description: 一款以太空水手連身衣為藍本的海盜風變體款式。 | A pirate variation of a space sailor's jumpsuit.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/pirate.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitSyndieFormal
-  name: syndicate formal suit
-  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  name: 黑幫正式西裝 | syndicate formal suit
+  description: "該組織的制服設計優雅，穿著這身制服去搞些骯髒把戲，實在有些可惜。 | The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/syndieformal.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSlicingRefinable]
   id: ClothingUniformJumpsuitWeb
-  name: web jumpsuit
-  description: Makes it clear that you are one with the webs.
+  name: 網眼連身褲 | web jumpsuit
+  description: 這清楚地表明，你與蛛網合而為一。 | Makes it clear that you are one with the webs.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Special/web.rsi

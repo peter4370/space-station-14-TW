@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetEVA
-  name: EVA helmet
-  description: An old-but-gold helmet designed for extravehicular activites. Infamous for making security officers paranoid.
+  name: EVA 頭盔 | EVA helmet
+  description: 一款專為太空行走設計、雖舊卻經典的頭盔。因常讓安保人員感到疑神疑鬼而臭名昭著。 | An old-but-gold helmet designed for extravehicular activites. Infamous for making security officers paranoid.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/eva.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetEVALarge
-  name: emergency helmet
-  description: Hard to believe this cheap-looking thing is airtight, but it is.
+  name: 緊急用安全帽 | emergency helmet
+  description: 很難相信這件看起來很廉價的東西竟然是氣密的，但事實確實如此。 | Hard to believe this cheap-looking thing is airtight, but it is.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/eva_large.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: [ ClothingHeadEVAHelmetBase, BaseSyndicateContraband ]
   id: ClothingHeadHelmetSyndicate
-  name: syndicate EVA helmet
-  description: A simple, stylish EVA helmet. Designed for maximum humble space-badassery.
+  name: Syndicate EVA 頭盔 | syndicate EVA helmet
+  description: 一款簡約又時尚的 EVA 頭盔。專為在有限空間內展現極致酷帥風采而設計。 | A simple, stylish EVA helmet. Designed for maximum humble space-badassery.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/eva_syndicate.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetCosmonaut
-  name: cosmonaut helmet
-  description: Ancient design, but advanced manufacturing. #Description here originally started with " A deceptively well armored space helmet." Potentially had armor values in SS13 that weren't brought over?
+  name: 太空人頭盔 | cosmonaut helmet
+  description: 設計雖古樸，但製造工藝卻十分先進。 #Description here originally started with " A deceptively well armored space helmet." Potentially had armor values in SS13 that weren't brought over? | Ancient design, but advanced manufacturing. #Description here originally started with " A deceptively well armored space helmet." Potentially had armor values in SS13 that weren't brought over?
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/cosmonaut.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetAncient
-  name: NTSRA void helmet
-  description: An ancient space helmet, designed by the NTSRA branch of CentComm.
+  name: NTSRA 無內襯安全帽 | NTSRA void helmet
+  description: 一款由中央司令部（CentCom）轄下 NTSRA 分部設計的古代太空頭盔。 | An ancient space helmet, designed by the NTSRA branch of CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ancientvoidsuit.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: [ ClothingHeadSuitWithLightBase, ClothingHeadEVAHelmetBase ] #Despite acting like a hardsuit helmet, since it inherits from EVA Helmet, it goes here.
   id: ClothingHeadHelmetVoidParamed
-  name: paramedic void helmet
-  description: A void helmet made for paramedics.
+  name: 救護員虛空頭盔 | paramedic void helmet
+  description: 一款專為救護人員設計的空心頭盔。 | A void helmet made for paramedics.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

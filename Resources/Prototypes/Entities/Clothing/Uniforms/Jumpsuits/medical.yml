@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitChemistry
-  name: chemistry jumpsuit
-  description: There's some odd stains on this jumpsuit. Hm.
+  name: 化學實驗連身衣 | chemistry jumpsuit
+  description: 這件連身褲上有幾處奇怪的污漬。嗯。 | There's some odd stains on this jumpsuit. Hm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/chemistry.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVirology
-  name: virology jumpsuit
-  description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+  name: 病毒學防護服 | virology jumpsuit
+  description: 它採用一種特殊纖維製成，能提供針對生物危害的特殊防護。上面還繡有病毒學家級別的肩章。 | It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/virology.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGenetics
-  name: genetics jumpsuit
-  description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
+  name: 遺傳學連身衣 | genetics jumpsuit
+  description: 它由一種特殊纖維製成，能提供針對生物危害的特殊防護。上面繡有遺傳學家級別的肩章。 | It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/genetics.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitCMO
-  name: chief medical officer's jumpsuit
-  description: It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 首席醫療官的連身工作服 | chief medical officer's jumpsuit
+  description: 這是一套由具備擔任首席醫療官資歷的人員所穿著的連身工作服，能提供基本的生物防護。 | It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/cmo.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCMOTurtle
-  name: chief medical officer's turtleneck jumpsuit
-  description: It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 首席醫療官的高領連身工作服 | chief medical officer's turtleneck jumpsuit
+  description: 這是一件由具備擔任首席醫療官資歷的人士所穿的高領衫。它能提供輕微的生物防護。 | It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/cmo_turtle.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitMedicalDoctor
-  name: medical doctor jumpsuit
-  description: It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+  name: 醫師連身工作服 | medical doctor jumpsuit
+  description: 它由一種特殊纖維製成，能提供輕微的生物危害防護。胸前繡有十字標誌，表示穿著者是受過訓練的醫護人員。 | It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/medical.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitParamedic
-  name: paramedic jumpsuit
-  description: It's got a plus on it, that's a good thing right?
+  name: 救護員連身工作服 | paramedic jumpsuit
+  description: 上面標有「＋」，這應該是好事吧？ | It's got a plus on it, that's a good thing right?
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/paramedic.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorPhysician
-  name: senior physician jumpsuit
-  description: A sign of skill and prestige within the medical department.
+  name: 資深醫師連身工作服 | senior physician jumpsuit
+  description: 這是醫學界中展現專業能力與聲望的象徵。 | A sign of skill and prestige within the medical department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/senior_physician.rsi

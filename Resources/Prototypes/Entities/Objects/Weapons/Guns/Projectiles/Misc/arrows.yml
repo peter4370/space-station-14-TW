@@ -58,8 +58,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowRegular
-  name: arrow
-  description: You can feel the power of the steppe within you.
+  name: 箭頭 | arrow
+  description: 你能感受到草原的力量在自己體內湧動。 | You can feel the power of the steppe within you.
   components:
   - type: Sprite
     layers:
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovised
-  name: glass shard arrow
-  description: The greyshirt's preferred projectile.
+  name: 玻璃碎片箭 | glass shard arrow
+  description: 「灰衫族」最喜愛的投擲物。 | The greyshirt's preferred projectile.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedPlasma
-  name: plasma glass shard arrow
-  description: The greyshirt's preferred projectile. Now with extra lethality!
+  name: 等離子玻璃碎片箭 | plasma glass shard arrow
+  description: 「灰衫」最愛的彈藥。如今殺傷力更強！ | The greyshirt's preferred projectile. Now with extra lethality!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedUranium
-  name: uranium glass shard arrow
-  description: The greyshirt's preferred projectile. Now with added radiation!
+  name: 鈾玻璃碎片箭頭 | uranium glass shard arrow
+  description: 灰衫黨最愛使用的投射物。現在還增加了輻射效果！ | The greyshirt's preferred projectile. Now with added radiation!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedCarp
-  name: carp tooth arrow
-  description: The salvager's preferred arrow. Kill your enemies with the teeth of their families.
+  name: 鯉魚牙箭 | carp tooth arrow
+  description: 打撈者的首選箭矢。用敵人親人的利齒來擊殺他們。 | The salvager's preferred arrow. Kill your enemies with the teeth of their families.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowCard
-  name: cardboard arrow
-  description: Careful, you'll poke an eye out!
+  name: 紙板箭頭 | cardboard arrow
+  description: 小心點，你會戳瞎別人的眼睛喔！ | Careful, you'll poke an eye out!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi

@@ -73,8 +73,8 @@
 - type: entity
   parent: [BasePlasticExplosive, BaseSyndicateContraband]
   id: C4
-  name: composition C-4
-  description: Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
+  name: 作品 C-4 | composition C-4
+  description: 用於在特定區域打孔，且不會造成過多多餘的孔洞。是破壞者的最愛。 | Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/c4.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: [ BasePlasticExplosive, BaseSecurityCargoContraband ]
   id: SeismicCharge
-  name: seismic charge
-  description: Concussion based explosive designed to destroy large amounts of rock.
+  name: 震源裝藥 | seismic charge
+  description: 一種以衝擊波為原理的爆破裝置，專為摧毀大量岩石而設計。 | Concussion based explosive designed to destroy large amounts of rock.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/seismic.rsi

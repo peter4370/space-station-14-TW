@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseItem
   id: SingularityToy
-  name: singuloth-brand toy
-  description: Mass-produced by a sadistic corporate conglomerate!
+  name: singuloth 品牌玩具 | singuloth-brand toy
+  description: 由一家殘忍的跨國企業集團大量生產！ | Mass-produced by a sadistic corporate conglomerate!
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_singularity.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseItem
   id: TeslaToy
-  name: Teddy Tesla
-  description: The favorite toy of the great engineer Nikola Tesla.
+  name: 泰迪·特斯拉 | Teddy Tesla
+  description: 偉大工程師尼古拉·特斯拉最喜愛的玩具。 | The favorite toy of the great engineer Nikola Tesla.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: [ BaseItem, BaseMagicalContraband ]
   id: PonderingOrb
-  name: pondering orb
-  description: Ponderous, man... Really ponderous.
+  name: 沉思之球 | pondering orb
+  description: 真沉重啊，老兄……真的好沉重。 | Ponderous, man... Really ponderous.
   components:
   - type: Sprite
     sprite: Objects/Fun/pondering_orb.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: PonderingOrb
   id: PonderingOrbWizard
-  name: pondering orb
-  description: Ponderous, man... Really ponderous. Magically shows the station's camera network.
+  name: 沉思之球 | pondering orb
+  description: 真沉重啊，老兄……真的好沉重。神奇地顯示出車站的攝影機網絡。 | Ponderous, man... Really ponderous. Magically shows the station's camera network.
   suffix: Wizard
   components:
   - type: ActivatableUI
@@ -108,8 +108,8 @@
 - type: entity
   parent: BaseItem
   id: Magic9Ball
-  name: magic 9 ball
-  description: An endless source of wisdom... Now with a speaker included!
+  name: 魔術 9 號球 | magic 9 ball
+  description: 源源不絕的智慧之源……現在還附有揚聲器！ | An endless source of wisdom... Now with a speaker included!
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/magic9ball.rsi

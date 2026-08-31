@@ -61,7 +61,7 @@
 
 - type: entity
   id: LandMineKickUnarmed
-  name: kick mine
+  name: 踢我的 | kick mine
   parent: BaseLandMine
   components:
   - type: GhostKickOnTrigger
@@ -79,8 +79,8 @@
   - type: Armable
 
 - type: entity
-  name: modular mine
-  description: This bad boy could be packing any number of dangers. Or a bike horn.
+  name: 模組化礦場 | modular mine
+  description: 這傢伙說不定藏著各種危險。又或者，只是一支自行車喇叭。 | This bad boy could be packing any number of dangers. Or a bike horn.
   parent: BaseLandMine
   id: LandMineModularUnarmed
   components:
@@ -100,7 +100,7 @@
   - type: Armable
 
 - type: entity
-  name: explosive mine
+  name: 爆炸性地雷 | explosive mine
   parent: BaseLandMine
   id: LandMineExplosiveUnarmed
   components:

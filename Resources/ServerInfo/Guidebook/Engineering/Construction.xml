@@ -1,5 +1,6 @@
+
 <Document>
-  # Construction
+  # 施工
 
   <Box>
     <GuideEntityEmbed Entity="Bed" Caption=""/>
@@ -9,17 +10,17 @@
   </Box>
 
 
-  The Construction Menu is how you build and craft objects in the game.
-  It can be accessed by pressing [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color].
+  「建造選單」是您在遊戲中建造和製作物品的方式。
+  按下 [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color] 即可開啟。
 
-  When placing objects that "snap" to the grid, you can hold [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] to place an entire line at a time, and [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] to place an entire grid at a time.
+  當放置會「對齊」到網格的物件時，您可以按住 [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] 來一次放置整行，並按住 [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] 則可一次放置整個網格。
 
-  When crafting objects with a lot of ingredients, keep in mind you don't have to hold everything at once; you can simply place the ingredients on the floor, in your backpack or on a table near you, and they'll be used up during crafting like normal.
+  當製作需要大量材料的手工物品時，請記住你不必一次將所有材料都拿在手上；你可以直接將材料放在地上、背包裡或附近的桌子上，它們在製作過程中仍會像平常一樣被消耗掉。
 
-  When placing a "building ghost" somewhere in the world, press [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] to rotate the ghost clockwise.
-  If you are building a mirrorable component (think: Gas Mixers/Filters), you can press [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] to flip the ghost.
+  當將「建築幽靈」放置在世界上的某個位置時，按下 [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] 即可將幽靈順時針旋轉。
+  若您正在建構可鏡像的元件（例如：氣體混合器／過濾器），可按下 [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] 來翻轉幽靈模型。
 
-  You can also use [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] and [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate an object clockwise or counterclockwise if it's already built, as long as it is unanchored (unwrenched).
+  您也可以使用 [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] 和 [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] 來將已建構的物件順時針或逆時針旋轉，只要該物件尚未錨定（未鎖定）即可。
 
 
 

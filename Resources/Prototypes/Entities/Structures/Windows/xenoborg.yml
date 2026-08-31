@@ -1,7 +1,7 @@
 - type: entity
   id: XenoborgWindow
   parent: PlastitaniumWindow
-  name: mechadermis window
+  name: mechadermis 視窗 | mechadermis window
   components:
   - type: Sprite
     drawdepth: WallTops

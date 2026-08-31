@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: BulletAcid
   categories: [ HideSpawnMenu ]
-  name: acid spit
+  name: 酸液噴濺 | acid spit
   components:
   - type: Projectile
     damage:
@@ -19,7 +19,7 @@
   parent: [ SolutionVapor, SolutionSmall ]
   id: BulletWaterShot
   categories: [ HideSpawnMenu ]
-  name: water
+  name: 水 | water
   components:
   - type: Clickable
   - type: Physics
@@ -58,7 +58,7 @@
   parent: BaseBullet
   id: BulletHivebot
   categories: [ HideSpawnMenu ]
-  name: hivebot bullet
+  name: hivebot 簡報 | hivebot bullet
   components:
   - type: Projectile
     damage:
@@ -68,7 +68,7 @@
 - type: entity
   id: GrapplingHook
   categories: [ HideSpawnMenu ]
-  name: grappling hook
+  name: 鉤爪 | grappling hook
   components:
   - type: EmbeddableProjectile
     deleteOnRemove: true
@@ -103,7 +103,7 @@
   parent: GrapplingHook
   id: StickyHandPalm
   categories: [ HideSpawnMenu ]
-  name: sticky hand palm
+  name: 黏手掌 | sticky hand palm
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/sticky_hand.rsi

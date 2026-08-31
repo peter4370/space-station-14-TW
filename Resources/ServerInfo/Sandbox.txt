@@ -1,16 +1,16 @@
 
-[color=#ffffff]Entity spawn panel options[/color]
-[color=#a4885c]Default[/color] spawns small entities like mugs without aligning them to anything, while aligning block entities like walls to the grid.
-[color=#a4885c]PlaceFree[/color] spawns all entities without aligning them.
-[color=#a4885c]PlaceNearby[/color] limits the spawn radius to around 2 tiles.
-[color=#a4885c]SnapgridCenter[/color] aligns the entity to the middle of the tile.
-[color=#a4885c]SnapgridBorder[/color] aligns the entity to the border of the tile.
+[color=#ffffff]實體生成面板選項[/color]
+[color=#a4885c]預設[/color] 會生成如馬克杯這類小型實體，且不會將其對齊至任何位置；而像牆壁這類方塊實體則會對齊至網格。
+[color=#a4885c]PlaceFree[/color] 會生成所有實體，但不會將它們對齊。
+[color=#a4885c]PlaceNearby[/color] 將生成半徑限制在約 2 格。
+[color=#a4885c]SnapgridCenter[/color] 會將實體對齊至磁磚的中間。
+[color=#a4885c]SnapgridBorder[/color] 會將實體對齊至方塊的邊緣。
 
-[color=#ffffff]Grid aligned options[/color]
-[color=#a4885c]AlignSimilar[/color] snaps the entity to similar entities. Currently broken.
-[color=#a4885c]AlignTileAny[/color] aligns the entity to the grid.
-[color=#a4885c]AlignTileEmpty[/color] target tile must be empty
-[color=#a4885c]AlignTileNonDense[/color] no colliders allowed in the target tile.
-[color=#a4885c]AlignTileDense[/color] colliders must be in the target tile.
-[color=#a4885c]AlignWall[/color] snaps to vertical halftiles.
-[color=#a4885c]AlignWallProper[/color] snaps the entity to the middle of the tile edges
+[color=#ffffff]網格對齊選項[/color]
+[color=#a4885c]對齊相似物件[/color] 會將該實體對齊至相似的實體。 目前無法正常運作。
+[color=#a4885c]AlignTileAny[/color] 會將實體對齊至網格。
+[color=#a4885c]AlignTileEmpty[/color] 目標格子必須為空
+[color=#a4885c]AlignTileNonDense[/color] 目標方塊中不允許存在碰撞體。
+[color=#a4885c]AlignTileDense[/color] 碰撞體必須位於目標方格內。
+[color=#a4885c]AlignWall[/color] 會對齊至垂直方向的半格。
+[color=#a4885c]AlignWallProper[/color] 會將實體對齊至磁磚邊緣的中間位置

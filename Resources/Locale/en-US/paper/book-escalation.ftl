@@ -1,27 +1,28 @@
-book-text-escalation = When it comes to getting robusted, it's all about strategy. Do it right and you'll be the envy of the station. Do it wrong and the gods themselves may turn against you. Personally, I always aim for the former...
-
-        First things first: let the insults fly! This is your chance to really let your opponent know what you think of their ridiculously large shoes and that annoying bike horn.
-
-        No conflict is complete without a little bit of physicality. Give your opponent a good shove or two, and if you're lucky, they'll stumble and fall, providing even more opportunities for insults.
-
-        But beware, because by now your opponent is probably trying to kill you. So, try to calm things down a bit. It'll make you look good during the inevitable homicide investigation.
-
-        If deescalation doesn't work, it's time to grab a weapon. But be smart about it - choose something that looks like it couldn't possibly be deadly, like this book.
-
-        And if you're both still standing, it's time to pull out the big guns. Find the sharpest thing you can and end things, because everyone's getting kind of tired of this by now.
-
-        Now parade your vanquished opponent through the halls to the medbay so that everyone knows just how robust you really are.
-
-        Remember, it's all about conserving energy. Let your opponent do some of the escalation for you - it's a win-win!
-
-book-text-escalation-security = Get it right and you'll have the whole station calling you shitsec. Get it wrong and you'll face harmbatoning from the gods. Personally, I always aim for the former...
-
-        They say the pen is mightier than the sword, but you don't have a sword, you have a stun baton, and as soon as you start writing, any suspect is going to leave.
-
-        So, try starting your confrontations with words. It probably won't get you called shitsec, but it's also not likely to be very effective against someone with lethal intent.
-
-        Your next move should be to use non-lethal or less lethal devices, like stun batons, disablers, flashes, and flashbangs. Just make sure you get some training on these before trying to use them - offering them to a suspect in exchange for their cooperation is not an effective use of these tools.
-
-        If you're lucky enough to run into a suspect who is a lethal threat, it's time to bust out all the goodies you've been hoarding from the armory.
-
-        For an extra intimidation factor, take your robusted suspects to the medbay to be healed instead of the brig. That way, the whole crew can see just how robust you are.
+book-text-escalation =
+    談到被「robusted」，關鍵在於策略。做對了，你會成為整個站點的焦點；做錯了，連諸神都可能與你為敵。就我個人而言，我總是以前者為目標……
+    
+    首先：讓辱罵如雨點般飛來！ 這是你向對手徹底表達你對他那雙荒謬大鞋和那惱人自行車喇叭真實看法的絕佳機會。
+    
+    沒有一點肢體衝突，衝突就不算完整。用力推對手一兩下，運氣好的話，他會踉蹌跌倒，這將為你提供更多辱罵的機會。
+    
+    但請當心，因為此時你的對手很可能正試圖殺了你。所以，試著讓氣氛稍微冷靜下來。這將使你在不可避免的謀殺案調查中顯得體面些。
+    
+    如果緩和局勢的手段行不通，那就該拿起武器了。 但要聰明點——選些看起來絕對不可能致命的東西，比如這本書。
+    
+    倘若你們倆都還站著，那就該祭出大殺器了。找出你能找到的最鋒利之物，一了百了，畢竟到現在為止，大家都已經有點受夠這場鬧劇了。
+    
+    現在，把你擊敗的對手遊行帶過走廊前往醫療室，讓所有人都知道你究竟有多強悍。
+    
+    記住，這一切都是為了節省體力。讓對手替你加碼升級戰況——這可是雙贏的局面！
+book-text-escalation-security =
+    做對了，整個站點都會稱你為「shitsec」；做錯了，你將面臨眾神用「harmbaton」痛毆。 就我個人而言，我總是以前者為目標……
+    
+    人們常說「筆比劍更強大」，但你手裡拿的不是劍，而是電擊棒；只要你一動筆，任何嫌疑犯都會逃之夭夭。
+    
+    因此，試著用言語開啟對峙。這樣雖然不太會讓你被叫「屎警」，但面對懷有致命意圖的人時，效果恐怕也不太理想。
+    
+    你的下一步應該是使用非致命或較低致命性的裝置，例如電擊棒、失能器、閃光彈和閃光震撼彈。 務必在嘗試使用前接受相關訓練——將這些裝備提供給嫌犯以換取其配合，並非有效運用這些工具的方式。
+    
+    若你夠幸運遇到構成致命威脅的嫌犯，就是時候拿出你從軍械庫囤積的所有好東西了。
+    
+    若想增添威懾力，不妨將那些「體格強健」的嫌疑人送往醫務室治療，而非關進禁閉室。這樣一來，全體船員都能親眼見證你究竟有多麼「強悍」。

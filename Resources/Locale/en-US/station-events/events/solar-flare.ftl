@@ -1,2 +1,2 @@
-station-event-solar-flare-start-announcement = A solar flare has been detected near the station. Some communication channels may not function.
-station-event-solar-flare-end-announcement = The solar flare ended. Communication channels no longer affected.
+station-event-solar-flare-start-announcement = 已在空間站附近偵測到一次太陽耀斑。部分通訊頻道可能無法正常運作。
+station-event-solar-flare-end-announcement = 太陽耀斑已結束。通訊頻道不再受到影響。

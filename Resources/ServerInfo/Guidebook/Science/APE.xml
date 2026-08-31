@@ -1,21 +1,22 @@
+
 <Document>
 # A.P.E.
 
-The Anomalous Particle Emitter is a machine used to interface with anomalies. It is the primary way of manipulating the stats of an anomaly.
+「異常粒子發射器」是一種用於與異常現象進行交互的裝置。 這是操控異常現象數值的主要方式。
 
 <Box>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-The A.P.E. can shoot four different kinds of anomalous particles: Delta, Epsilon, Sigma and Zeta. Each particle type has certain effects:
+A.P.E. 可發射四種不同的異常粒子：Delta、Epsilon、Sigma 和 Zeta。 每種粒子類型都有特定的效果：
 
-- [color=crimson]Danger:[/color] Increases the severity of an anomaly.
-- [color=plum]Unstable:[/color] Increases the instability of an anomaly.
-- [color=goldenrod]Containment:[/color] Increases anomaly stability at the cost of its health - if an anomaly is struck by too many containment particles, it will collapse, leaving behind an anomaly core.
-- [color=#6b75fa]Transformation:[/color] Increases anomaly severity with a chance of changing its behavior.
+- [color=crimson]危險：[/color] 會加劇異常現象的嚴重程度。
+- [color=plum]不穩定：[/color] 增加異常現象的不穩定性。
+- [color=goldenrod]封鎖：[/color] 以犧牲生命值為代價來提升異常現象的穩定性——若異常現象受到過多封鎖粒子的衝擊，便會崩解，並留下異常核心。
+- [color=#6b75fa]轉化：[/color] 提高異常現象的嚴重程度，並有機會改變其行為模式。
 
-Which particle type corresponds to each effect is unique and can be learned by scanning the anomaly.
+每種效果對應的粒子類型皆不相同，可透過掃描異常現象來了解。
 
-The A.P.E. can also be locked by anyone with science access, which prevents it from being deconstructed, turned on or off, or having the particle type switched.
+A.P.E. 此外，任何具備科學權限的人員皆可將其鎖定，藉此防止其被拆解、開啟或關閉，或變更粒子類型。
 
 </Document>

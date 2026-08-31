@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: GasPipeSansLayersIndestructible
-  name: gas pipe
-  description: Holds gas.
+  name: 瓦斯管 | gas pipe
+  description: 可儲存氣體。 | Holds gas.
   placement:
     mode: SnapgridCenter
   components:
@@ -322,8 +322,8 @@
 - type: entity
   id: GasPipeBroken
   parent: [ GasPipeSansLayersIndestructible, BaseGasPipeLayers, StructureHealthFurniture ]
-  name: broken pipe
-  description: It used to hold gas.
+  name: 破裂的管道 | broken pipe
+  description: 它以前是用來儲存天然氣的。 | It used to hold gas.
   components:
   - type: Sprite
     layers:
@@ -344,8 +344,8 @@
 - type: entity
   parent: GasPipeBase
   id: GasPipeManifold
-  name: gas pipe manifold
-  description: Allows gas pipes of different configurations to be connected together.
+  name: 燃氣管路匯流排 | gas pipe manifold
+  description: 可將不同配置的瓦斯管相互連接。 | Allows gas pipes of different configurations to be connected together.
   placement:
     mode: SnapgridCenter
   components:

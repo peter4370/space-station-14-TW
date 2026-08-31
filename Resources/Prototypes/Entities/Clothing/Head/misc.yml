@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBunny
-  name: bunny ears
-  description: Cute bunny ears.
+  name: 兔耳朵 | bunny ears
+  description: 可愛的兔耳朵。 | Cute bunny ears.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/bunny.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCake
-  name: cake hat
-  description: You put the cake on your head. Brilliant.
+  name: 蛋糕帽 | cake hat
+  description: 你把蛋糕放在頭上。真棒。 | You put the cake on your head. Brilliant.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cake.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatChickenhead
-  name: chicken head
-  description: "It's a chicken head. Bok bok bok!"
+  name: 雞頭 | chicken head
+  description: "這是隻雞頭。咯咯咯！ | It's a chicken head. Bok bok bok!"
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/chickenhead.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlowerWreath
-  name: flower wreath
-  description: A wreath of colourful flowers. Can be worn both on head and neck.
+  name: 花環 | flower wreath
+  description: 一頂由繽紛花朵編織而成的花環。可佩戴於頭部或頸部。 | A wreath of colourful flowers. Can be worn both on head and neck.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/flower-wreath.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingHeadLightBase
   id: ClothingHeadHatPumpkin
-  name: pumpkin hat
-  description: A jack o' lantern! Believed to ward off evil spirits.
+  name: 南瓜帽 | pumpkin hat
+  description: 南瓜燈！據信能驅邪避災。 | A jack o' lantern! Believed to ward off evil spirits.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pumpkin.rsi
@@ -85,7 +85,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
   - type: HideLayerClothing
     slots:
     - Hair
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPwig
-  name: pwig
-  description: To be honest, those look ridiculous.
+  name: pwig | pwig
+  description: 說實話，那些看起來真的很荒謬。 | To be honest, those look ridiculous.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pwig.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadMirror
-  name: head mirror
-  description: I doubt even the CMO knows how to use this thing.
+  name: 前視鏡 | head mirror
+  description: 我懷疑就連首席行銷長（CMO）都不知道該怎麼用這個東西。 | I doubt even the CMO knows how to use this thing.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/head_mirror.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRichard
-  name: richard
-  description: 'Do you like hurting people?'
+  name: 理查德 | richard
+  description: '你喜歡傷害別人嗎？ | Do you like hurting people?'
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/richard.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSkub
-  name: skub hat
-  description: 'Best paired with the Skub Suit.'
+  name: skub 帽子 | skub hat
+  description: '最適合搭配 Skub 套裝。 | Best paired with the Skub Suit.'
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/skubhead.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatShrineMaidenWig
-  name: shrine maiden's wig
-  description: The tag reads "All proceeds go to the Hakurei Shrine."
+  name: 神女的假髮 | shrine maiden's wig
+  description: 標籤上寫著：「所有收益將捐贈給白雷神社。」 | The tag reads "All proceeds go to the Hakurei Shrine."
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCone
-  name: warning cone
-  description: This cone is trying to warn you of something!
+  name: 警示錐 | warning cone
+  description: 這個錐形標誌正試圖向你發出某種警告！ | This cone is trying to warn you of something!
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cone.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFancyCrown
-  name: fancy crown
-  description: It smells like dead rat. Lets you speak like one!
+  name: 華麗皇冠 | fancy crown
+  description: 這味道像死老鼠一樣。讓你也能像老鼠一樣說話！ | It smells like dead rat. Lets you speak like one!
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/fancycrown.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
   id: ClothingHeadHatCatEars
-  name: cat ears
-  description: "NYAH!"
+  name: 貓耳 | cat ears
+  description: "哼！ | NYAH!"
   categories: [ DoNotMap ]
   components:
   - type: Tag
@@ -261,14 +261,14 @@
 - type: entity
   parent: BaseToggleAction
   id: ActionBecomeValid
-  name: Become Valid
-  description: "*notices your killsign* owo whats this"
+  name: squiddy | Become Valid
+  description: "戴上這副詭異的面具，嚇嚇你的朋友吧。 | *notices your killsign* owo whats this"
 
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatDogEars
-  name: doggy ears
-  description: Only for good boys.
+  name: 紅色浣熊帽 | doggy ears
+  description: 這頂紅浣熊毛茸茸的帽子！ | Only for good boys.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -281,8 +281,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSquid
-  name: squiddy
-  description: "Scare your friends with this eldritch mask."
+  name: 水滴 | squiddy
+  description: "讓這些八隻眼的小夥伴們變得可愛八倍！ | Scare your friends with this eldritch mask."
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/squiddy.rsi
@@ -300,8 +300,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRedRacoon
-  name: red racoon hat
-  description: Fluffy hat of red racoon!
+  name: 髮飾 | red racoon hat
+  description: 一款精美的髮飾，可插在髮絲之間。 | Fluffy hat of red racoon!
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/red_racoon.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: [SolutionDrink, Clothing]
   id: WaterDropletHat
-  name: water droplet
-  description: Makes 8-eyed friends 8 times more adorable!
+  name: 表演者的假髮 | water droplet
+  description: 仔細觀察後，似乎是光纖製成的。 | Makes 8-eyed friends 8 times more adorable!
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/waterdroplet.rsi

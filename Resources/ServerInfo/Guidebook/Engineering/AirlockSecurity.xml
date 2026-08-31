@@ -1,13 +1,14 @@
+
 <Document>
-  # Airlock Upgrades
-  It is not uncommon for plucky individuals to try and bypass an airlock by meddling with its internal wiring.
+  # 氣閘升級
+  常有膽大包天的傢伙試圖透過篡改氣閘的內部線路來繞過氣閘，這類情況並不少見。
 
-  Fortunately, certain countermeasures can be installed into airlocks to inconvenience any would-be trespassers.
+  所幸，可以在氣閘中安裝某些防範措施，以讓任何潛在的入侵者感到不便。
 
-  ## Medium security airlocks
-  The most basic form of intrusion deterrence is to install a secured steel plating that will prevent access to internal wiring of the airlock.
+  ## 中等安全等級的氣鎖
+  最基本的防入侵措施，是安裝一塊加固的鋼板，以防止他人接觸氣鎖內的電線。
 
-  To upgrade a basic airlock to a medium security airlock, you will require the following materials:
+  若要將基本氣閘升級為中度安全氣閘，您將需要以下材料：
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 steel sheets"/>
@@ -20,16 +21,16 @@
 	  </Box>
   </Box>
 
-  To upgrade a basic airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the steel sheets to the airlock.
-  -	Weld the steel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+  要升級基本氣閘：
+  -    使用螺絲起子打開氣閘的維護面板。
+  -    將鋼板放入氣閘中。
+  -    將鋼板焊接至指定位置。
+  -    使用螺絲起子關閉維護面板。
 
-  ## High security airlocks
-  For airlocks leading to the more sensitive areas of the space station, the use of stronger deterrents are advised. High security airlocks have improved armor plating to protect its internal wiring.
+  ## 高安全等級氣閘
+  對於通往太空站較敏感區域的氣閘，建議採用更強效的威懾措施。 高安全性氣閘配備了改良的裝甲板，用以保護其內部線路。
 
-  To upgrade a medium security airlock to a high security airlock, you will require the following materials:
+  若要將中安全級別的氣閘升級為高安全級別的氣閘，您將需要以下材料：
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -42,16 +43,16 @@
 	  </Box>
   </Box>
 
-  To upgrade a medium security airlock:
-  - Use the screwdriver to open the airlock maintenance panel.
-  - Add the plasteel sheets to the airlock.
-  - Weld the plasteel sheets into place.
-  - Close the maintenance panel using the screwdriver.
+  要升級中安全級別的氣閘：
+  - 使用螺絲起子打開氣閘的維護面板。
+  - 將塑鋼板放入氣鎖中。
+  - 將塑鋼板焊接至指定位置。
+  - 使用螺絲起子關上維護面板。
 
-  ## Maximum security airlocks
-  You can optionally upgrade a high security airlock to a maximum security airlock. Maximum security airlocks possess an additional layer of electrified wire mesh on top of its other protections, which can shock any unauthorized personnel attempting to tamper with the airlock.
+  ## 最高安全等級氣鎖
+  您可選擇將高安全等級氣鎖升級為最高安全等級氣鎖。 最高安全等級的氣閘在其他防護措施之外，還加裝了一層帶電鐵絲網，任何未經授權且企圖篡改氣閘的人員，都會遭到電擊。
 
-  To upgrade a high security airlock to a maximum security airlock, you will require the following materials:
+  若要將高安全等級氣鎖升級為最高安全等級氣鎖，您將需要以下材料：
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -67,10 +68,10 @@
 	  </Box>
   </Box>
 
-  To upgrade a high security airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the plasteel sheets to the airlock.
-  -	Weld the plasteel sheets into place.
-  - Add the metal rods to the airlock.
-  -	Close the maintenance panel using the screwdriver.
+  要升級高安全性氣鎖：
+  -    使用螺絲起子打開氣鎖的維護面板。
+  -    將塑鋼板放入氣閘中。
+  -    將塑鋼板焊接至指定位置。
+  - 將金屬桿放入氣鎖中。
+  -    使用螺絲起子關閉維護面板。
 </Document>

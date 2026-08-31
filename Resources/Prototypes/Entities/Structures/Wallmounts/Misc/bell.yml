@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseWallmountMetallic, StructureHealthFurnitureStrong ]
   id: BoxingBell
-  name: boxing bell
-  description: Ding ding!
+  name: 拳擊鈴 | boxing bell
+  description: 叮叮！ | Ding ding!
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/bell.rsi

@@ -1,23 +1,19 @@
 ### Locale for wielding items; i.e. two-handing them
 
-wieldable-verb-text-wield = Wield
-wieldable-verb-text-unwield = Unwield
-
-wieldable-component-successful-wield = You wield { THE($item) }.
-wieldable-component-failed-wield = You unwield { THE($item) }.
-wieldable-component-successful-wield-other = { CAPITALIZE(THE($user)) } wields { THE($item) }.
-wieldable-component-failed-wield-other = { CAPITALIZE(THE($user)) } unwields { THE($item) }.
-wieldable-component-blocked-wield = { CAPITALIZE(THE($blocker)) } blocks you from wielding { THE($item) }.
-
-wieldable-component-no-hands = You don't have enough hands!
-wieldable-component-not-enough-free-hands = {$number ->
-    [one] You need a free hand to wield { THE($item) }.
-    *[other] You need { $number } free hands to wield { THE($item) }.
-}
-wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } isn't in your hands!
-
-wieldable-component-requires = { CAPITALIZE(THE($item))} must be wielded!
-
-gunwieldbonus-component-examine = This weapon has improved accuracy when wielded.
-
-gunrequireswield-component-examine = This weapon can only be fired when wielded.
+wieldable-verb-text-wield = 揮舞
+wieldable-verb-text-unwield = 難以駕馭
+wieldable-component-successful-wield = 你揮舞著 { THE($item) }。
+wieldable-component-failed-wield = 您使用了 { THE($item) }。
+wieldable-component-successful-wield-other = { CAPITALIZE(THE($user)) } 運用 { THE($item) }。
+wieldable-component-failed-wield-other = { CAPITALIZE(THE($user)) } 會產生 { THE($item) }。
+wieldable-component-blocked-wield = { CAPITALIZE(THE($blocker)) } 會阻止你使用 { THE($item) }。
+wieldable-component-no-hands = 你人手不夠啊！
+wieldable-component-not-enough-free-hands =
+    { $number ->
+        [one] 你需要一隻空出的手來揮舞 { THE($item) }。
+       *[other] 你需要 { $number } 隻空出的手來揮舞 { THE($item) }。
+    }
+wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } 並非由你掌控！
+wieldable-component-requires = { CAPITALIZE(THE($item)) } 必須善加運用！
+gunwieldbonus-component-examine = 使用這把武器時，其準確度有所提升。
+gunrequireswield-component-examine = 這把武器必須在手持時才能開火。

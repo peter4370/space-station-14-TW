@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseShutter
-  name: shutter
-  description: One shudders to think about what might be behind this shutter.
+  name: 快門 | shutter
+  description: 光是想到這扇百葉窗後面可能藏著什麼，就讓人不寒而慄。 | One shudders to think about what might be behind this shutter.
   placement:
     mode: SnapgridCenter
   components:
@@ -143,8 +143,8 @@
 - type: entity
   parent: ShuttersNormal
   id: ShuttersRadiation
-  name: radiation shutters
-  description: These come with extra-radiation-resistant paint.
+  name: 防輻射百葉窗 | radiation shutters
+  description: 這些產品採用了超耐輻射塗料。 | These come with extra-radiation-resistant paint.
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters-radiation.rsi
@@ -181,8 +181,8 @@
 - type: entity
   id: ShuttersWindow
   parent: [BaseDeltaPressureGlass, BaseShutter, StructureHealthDoorWeak]
-  name: window shutters
-  description: The Best (TM) place to see your friends explode!
+  name: 窗戶百葉窗 | window shutters
+  description: 觀看朋友們「爆炸」的最佳（TM）場所！ | The Best (TM) place to see your friends explode!
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters-window.rsi
@@ -230,8 +230,8 @@
 - type: entity
   parent: [ BaseStructureDynamic, StructureHealthDoorWeak ]
   id: ShuttersFrame
-  name: shutter frame
-  description: A frame for constructing a shutter.
+  name: 快門框 | shutter frame
+  description: 用於組裝快門的框架。 | A frame for constructing a shutter.
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi

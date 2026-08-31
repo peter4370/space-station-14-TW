@@ -1,8 +1,8 @@
 - type: entity
-  name: ritual dagger
+  name: 儀式匕首 | ritual dagger
   parent: BaseItem
   id: RitualDagger
-  description: A strange dagger used by sinister groups for rituals and sacrifices.
+  description: 一把奇特的匕首，常被邪惡組織用於儀式與獻祭。 | A strange dagger used by sinister groups for rituals and sacrifices.
   components:
   - type: Tool
     qualities:
@@ -25,10 +25,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: eldritch blade
+  name: 詭異之刃 | eldritch blade
   parent: BaseItem
   id: EldritchBlade
-  description: A sword humming with unholy energy.
+  description: 一把迸發著邪惡能量的嗡鳴之劍。 | A sword humming with unholy energy.
   components:
   - type: Tool
     qualities:
@@ -51,10 +51,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: unholy halberd
+  name: 不聖之鉞 | unholy halberd
   parent: BaseItem
   id: UnholyHalberd
-  description: A poleaxe that seems to be linked to its wielder.
+  description: 一把似乎與其持有者息息相關的戰斧。 | A poleaxe that seems to be linked to its wielder.
   components:
   - type: Tool
     qualities:

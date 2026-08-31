@@ -22,7 +22,7 @@
 - type: entity
   parent: MarkerBase
   id: BoardGameSpawner100
-  name: Board Game Spawner
+  name: 桌遊生成器 | Board Game Spawner
   suffix: 100
   components:
   - type: Sprite
@@ -38,7 +38,7 @@
 - type: entity
   parent: MarkerBase
   id: BattleMapSpawner100
-  name: Battle Map Spawner
+  name: 戰鬥地圖生成器 | Battle Map Spawner
   suffix: 100
   components:
   - type: Sprite

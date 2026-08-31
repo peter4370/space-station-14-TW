@@ -113,8 +113,8 @@
 - type: entity
   parent: [MobSiliconBase, SolutionFireExtinguisherMini]
   id: MobFireBot
-  name: firebot
-  description: A little fire extinguishing bot. He looks rather anxious.
+  name: firebot | firebot
+  description: 一個小小的滅火機器人。他看起來頗為焦慮。 | A little fire extinguishing bot. He looks rather anxious.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/firebot.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: honkbot
-  description: Horrifying.
+  name: honkbot | honkbot
+  description: 太可怕了。 | Horrifying.
   components:
   - type: SpamEmitSound
     minInterval: 2
@@ -197,8 +197,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-honkbot-name
-    description: ghost-role-information-honkbot-description
+    name: ghost-role-information-honkbot-name | ghost-role-information-honkbot-name
+    description: ghost-role-information-honkbot-description | ghost-role-information-honkbot-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -216,8 +216,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: jonkbot
-  description: Horrifying.
+  name: jonkbot | jonkbot
+  description: 太可怕了。 | Horrifying.
   components:
   - type: SpamEmitSound
     sound:
@@ -231,8 +231,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-jonkbot-name
-    description: ghost-role-information-jonkbot-description
+    name: ghost-role-information-jonkbot-name | ghost-role-information-jonkbot-name
+    description: ghost-role-information-jonkbot-description | ghost-role-information-jonkbot-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -256,8 +256,8 @@
 - type: entity
   parent: [MobSiliconBase, SolutionMopNormal]
   id: MobCleanBot
-  name: cleanbot
-  description: The creep of automation now threatening space janitors.
+  name: cleanbot | cleanbot
+  description: 自動化浪潮正逐漸侵蝕太空清潔工的生計。 | The creep of automation now threatening space janitors.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -296,8 +296,8 @@
   - ShowMedicalIcons
   - StripableInventoryBase
   id: MobMedibot
-  name: medibot
-  description: No substitute for a doctor, but better than nothing.
+  name: medibot | medibot
+  description: 雖然無法取代醫生，但總比什麼都沒有好。 | No substitute for a doctor, but better than nothing.
   components:
   - type: Medibot
     treatments:
@@ -344,8 +344,8 @@
   - MobSiliconBase
   - StripableInventoryBase
   id: MobMimeBot
-  name: mimebot
-  description: Why not give the mimebot a friendly wave?
+  name: mimebot | mimebot
+  description: 何不向這個默劇機器人友善地揮揮手呢？ | Why not give the mimebot a friendly wave?
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/mimebot.rsi
@@ -356,8 +356,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-mimebot-name
-    description: ghost-role-information-mimebot-description
+    name: ghost-role-information-mimebot-name | ghost-role-information-mimebot-name
+    description: ghost-role-information-mimebot-description | ghost-role-information-mimebot-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -373,8 +373,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobSupplyBot
-  name: supplybot
-  description: Delivers cargo!
+  name: supplybot | supplybot
+  description: 運送貨物！ | Delivers cargo!
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/supplybot.rsi
@@ -390,8 +390,8 @@
         state: supplybot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-supplybot-name
-    description: ghost-role-information-supplybot-description
+    name: ghost-role-information-supplybot-name | ghost-role-information-supplybot-name
+    description: ghost-role-information-supplybot-description | ghost-role-information-supplybot-description
     rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: default
@@ -444,8 +444,8 @@
 - type: entity
   parent: [ MobSiliconBase, MobCombat ]
   id: MobHugBot
-  name: hugbot
-  description: Awww, who needs a hug?
+  name: 擁抱機器人 | hugbot
+  description: 哎呀，誰需要一個擁抱呢？ | Awww, who needs a hug?
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/hugbot.rsi

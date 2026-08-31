@@ -2,8 +2,8 @@
 - type: entity
   abstract: true
   id: BasePortal
-  name: bluespace portal
-  description: Transports you to a linked destination!
+  name: bluespace 入口網站 | bluespace portal
+  description: 將您傳送至連結的目的地！ | Transports you to a linked destination!
   components:
   - type: Transform
     anchored: True
@@ -34,7 +34,7 @@
 - type: entity
   parent: BasePortal
   id: PortalRed
-  description: This one looks more like a redspace portal.
+  description: 這個看起來更像是一個紅域傳送門。 | This one looks more like a redspace portal.
   components:
   - type: Sprite
     layers:
@@ -69,8 +69,8 @@
 - type: entity
   parent: [ BasePortal, BaseShadow ]
   id: ShadowPortal
-  name: shadow rift
-  description: Looks unstable.
+  name: 陰影裂隙 | shadow rift
+  description: 看起來不太穩。 | Looks unstable.
   components:
   - type: Portal
     arrivalSound: /Audio/Items/hiss.ogg

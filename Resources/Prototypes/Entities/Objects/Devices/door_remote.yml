@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DoorRemoteDefault
-  name: door remote
-  description: A gadget which can open and bolt doors remotely.
+  name: 車門遙控器 | door remote
+  description: 一款能夠遠端開啟和上鎖門的裝置。 | A gadget which can open and bolt doors remotely.
   abstract: true
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCommand
-  name: command door remote
+  name: 門控遙控器 | command door remote
   components:
   - type: Sprite
     layers:
@@ -79,8 +79,8 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCustom
-  name: custom door remote
-  description: A gadget which can open and bolt doors remotely. This advanced variant does not have built-in access, instead inheriting the ID access of the user.
+  name: 客製化車庫門遙控器 | custom door remote
+  description: 一款可遠端開啟及鎖門的小型裝置。此進階版本未內建存取功能，而是繼承使用者的身分識別存取權限。 | A gadget which can open and bolt doors remotely. This advanced variant does not have built-in access, instead inheriting the ID access of the user.
   components:
   - type: Sprite
     layers:
@@ -96,7 +96,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteSecurity
-  name: security door remote
+  name: 防盜門遙控器 | security door remote
   components:
   - type: Sprite
     layers:
@@ -112,7 +112,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseSecurityCommandContraband]
   id: DoorRemoteArmory
-  name: armory door remote
+  name: 武器庫門遙控器 | armory door remote
   components:
   - type: Sprite
     layers:
@@ -128,7 +128,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteService
-  name: service door remote
+  name: 服務門遙控器 | service door remote
   components:
   - type: Sprite
     layers:
@@ -144,7 +144,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteResearch
-  name: research door remote
+  name: 科學用門遙控器 | research door remote
   components:
   - type: Sprite
     layers:
@@ -160,7 +160,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCargo
-  name: cargo door remote
+  name: 後車廂門遙控器 | cargo door remote
   components:
   - type: Sprite
     layers:
@@ -176,7 +176,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteMedical
-  name: medical door remote
+  name: 醫療用門遙控器 | medical door remote
   components:
   - type: Sprite
     layers:
@@ -192,7 +192,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteEngineering
-  name: engineering door remote
+  name: 工程用門遙控器 | engineering door remote
   components:
   - type: Sprite
     layers:
@@ -208,8 +208,8 @@
 - type: entity
   parent: [DoorRemoteCanEletrifyDoors, BaseCommandContraband]
   id: DoorRemoteAll
-  name: super door remote
-  description: A gadget which can open and bolt doors remotely. This one works even on wooden doors!
+  name: 超級車庫門遙控器 | super door remote
+  description: 一款能遠端開啟和上鎖的裝置。這款裝置甚至連木門也能使用！ | A gadget which can open and bolt doors remotely. This one works even on wooden doors!
   suffix: Admeme
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   parent: [DoorRemoteCanEletrifyDoors, BaseXenoborgContraband]
   id: DoorRemoteXenoborg
-  name: xenoborg door remote
+  name: Xenoborg 門用遙控器 | xenoborg door remote
   components:
   - type: Sprite
     layers:

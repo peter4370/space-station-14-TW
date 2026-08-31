@@ -1,77 +1,52 @@
-signal-port-name-pressed = Pressed
-signal-port-description-pressed = This port is invoked whenever the transmitter is activated.
-
-signal-port-name-on-transmitter = On
-signal-port-description-on-transmitter = This port is invoked whenever the transmitter is turned on.
-
-signal-port-name-off-transmitter = Off
-signal-port-description-off-transmitter = This port is invoked whenever the transmitter is turned off.
-
-signal-port-name-status-transmitter = Status
-signal-port-description-status-transmitter = This port is invoked with HIGH or LOW depending on the transmitter status.
-
-signal-port-name-left = Left
-signal-port-description-left = This port is invoked whenever the lever is moved to the leftmost position.
-
-signal-port-name-right = Right
-signal-port-description-right = This port is invoked whenever the lever is moved to the rightmost position.
-
-signal-port-name-doorstatus = Door status
-signal-port-description-doorstatus = This port is invoked with HIGH when the door opens and LOW when the door finishes closing.
-
-signal-port-name-dockstatus = Dock status
-signal-port-description-dockstatus = This port is invoked with HIGH when docked and LOW when undocked.
-
-signal-port-name-middle = Middle
-signal-port-description-middle = This port is invoked whenever the lever is moved to the neutral position.
-
-signal-port-name-trigger-sender = Trigger
-signal-port-description-trigger-sender = This port is invoked whenever the device triggers.
-
-signal-port-name-timer-trigger = Timer
-signal-port-description-timer-trigger = This port is invoked whenever the timer is up.
-
-signal-port-name-timer-start = Timer Start
-signal-port-description-timer-start = This port is invoked whenever the timer starts.
-
-signal-port-name-logic-output = Output
-signal-port-description-logic-output = This port is invoked with HIGH or LOW depending on the selected gate and inputs.
-
-signal-port-name-logic-output-high = High Output
-signal-port-description-logic-output-high = This port is invoked whenever the input has a rising edge.
-
-signal-port-name-logic-output-low = Low Output
-signal-port-description-logic-output-low = This port is invoked whenever the input has a falling edge.
-
-signal-port-name-air-danger = Danger
-signal-port-description-air-danger = This port is invoked with HIGH when in danger mode and LOW when not.
-
-signal-port-name-air-warning = Warning
-signal-port-description-air-warning = This port is invoked with HIGH when in warning mode and LOW when not.
-
-signal-port-name-air-normal = Normal
-signal-port-description-air-normal = This port is invoked with HIGH when in normal mode and LOW when not.
-
-signal-port-name-decaying = Decaying
-signal-port-description-decaying = This port is invoked when a bound anomaly starts to decay.
-
-signal-port-name-stabilize = Stabilize
-signal-port-description-stabilize = This port is invoked when a bound anomaly is normalized.
-
-signal-port-name-growing = Growing
-signal-port-description-growing = This port is invoked when a bound anomaly starts to grow.
-
-signal-port-name-pulse = Pulse
-signal-port-description-pulse = This port is invoked when a bound anomaly is pulsing.
-
-signal-port-name-supercrit = Supercritical
-signal-port-description-supercrit = This port is invoked when a bound anomaly explode after supercrit state.
-
-signal-port-name-power-charging = Charging
-signal-port-description-power-charging = This port is invoked with HIGH when the battery is gaining charge and LOW when not.
-
-signal-port-name-power-discharging = Discharging
-signal-port-description-power-discharging = This port is invoked with HIGH when the battery is losing charge and LOW when not.
-
-signal-port-name-item-detected = Detected
-signal-port-description-item-detected = This port is invoked whenever the transmitter detects an item.
+signal-port-name-pressed = 壓製
+signal-port-description-pressed = 每當發射器被啟動時，都會呼叫此連接埠。
+signal-port-name-on-transmitter = 開啟
+signal-port-description-on-transmitter = 每當發射器開啟時，都會呼叫此連接埠。
+signal-port-name-off-transmitter = 關閉
+signal-port-description-off-transmitter = 每當發射器關閉時，都會呼叫此連接埠。
+signal-port-name-status-transmitter = 狀態
+signal-port-description-status-transmitter = 此埠會根據發射器的狀態，以 HIGH 或 LOW 觸發。
+signal-port-name-left = 左
+signal-port-description-left = 每當撥桿移動到最左側位置時，都會呼叫此連接埠。
+signal-port-name-right = 對
+signal-port-description-right = 每當撥桿移至最右側位置時，都會呼叫此介面函式。
+signal-port-name-doorstatus = 門的狀態
+signal-port-description-doorstatus = 當門開啟時，此連接埠會接收到 HIGH 訊號；當門完全關閉時，則會接收到 LOW 訊號。
+signal-port-name-dockstatus = 碼頭狀態
+signal-port-description-dockstatus = 此連接埠在停靠時會被設定為 HIGH，在脫離停靠時則會被設定為 LOW。
+signal-port-name-middle = 中間
+signal-port-description-middle = 每當操縱桿移至空檔位置時，都會呼叫此介面。
+signal-port-name-trigger-sender = 觸發器
+signal-port-description-trigger-sender = 每當裝置觸發時，都會呼叫此連接埠。
+signal-port-name-timer-trigger = 計時器
+signal-port-description-timer-trigger = 每當計時器倒數結束時，都會呼叫此介面。
+signal-port-name-timer-start = 計時器開始
+signal-port-description-timer-start = 每當計時器啟動時，都會呼叫此連接埠。
+signal-port-name-logic-output = 輸出
+signal-port-description-logic-output = 此埠會根據所選的閘極與輸入，分別以 HIGH 或 LOW 狀態觸發。
+signal-port-name-logic-output-high = 高輸出
+signal-port-description-logic-output-high = 每當輸入出現上升沿時，都會呼叫此埠。
+signal-port-name-logic-output-low = 產量低
+signal-port-description-logic-output-low = 每當輸入出現下降沿時，都會觸發此埠。
+signal-port-name-air-danger = 危險
+signal-port-description-air-danger = 此埠在危險模式下以 HIGH 狀態觸發，非危險模式下則以 LOW 狀態觸發。
+signal-port-name-air-warning = 警告
+signal-port-description-air-warning = 此埠在警示模式下以 HIGH 狀態觸發，非警示模式下則以 LOW 狀態觸發。
+signal-port-name-air-normal = 正常
+signal-port-description-air-normal = 此埠在正常模式下會以 HIGH 狀態觸發，非正常模式下則以 LOW 狀態觸發。
+signal-port-name-decaying = 腐朽
+signal-port-description-decaying = 當某個已綁定的異常現象開始消散時，便會觸發此回調函式。
+signal-port-name-stabilize = 穩定
+signal-port-description-stabilize = 當已綁定的異常狀況被正常化時，會呼叫此介面。
+signal-port-name-growing = 成長
+signal-port-description-growing = 當已綁定的異常現象開始擴大時，便會觸發此端點。
+signal-port-name-pulse = 脈搏
+signal-port-description-pulse = 當某個已綁定的異常現象正在脈動時，便會調用此埠。
+signal-port-name-supercrit = 超臨界
+signal-port-description-supercrit = 當某個已綁定的異常在達到超臨界狀態後爆炸時，便會觸發此端口。
+signal-port-name-power-charging = 充電
+signal-port-description-power-charging = 當電池正在充電時，此連接埠會被設定為 HIGH；當未充電時，則被設定為 LOW。
+signal-port-name-power-discharging = 放電
+signal-port-description-power-discharging = 當電池電量正在耗盡時，此連接埠會輸出 HIGH 訊號；否則則輸出 LOW 訊號。
+signal-port-name-item-detected = 已偵測到
+signal-port-description-item-detected = 每當傳輸器偵測到物品時，都會呼叫此連接埠。

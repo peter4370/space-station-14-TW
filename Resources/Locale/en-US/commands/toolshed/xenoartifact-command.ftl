@@ -1,29 +1,15 @@
-command-description-xenoartifact-list =
-    List all EntityUids of spawned artifacts.
-command-description-xenoartifact-printmatrix =
-    Prints out matrix that displays all edges between nodes.
-command-description-xenoartifact-totalresearch =
-    Gets all research points that can be extracted from artifact currently.
-command-description-xenoartifact-averageresearch =
-    Calculates amount of research points average generated xeno artifact will output when fully activated.
-command-description-xenoartifact-unlockallnodes =
-    Unlocks all nodes of artifact.
-
-command-description-xenoartifact-createnode =
-    Create node in artifact (new on depth 0 or attach next to existing one).
-command-description-xenoartifact-createnodeatdepth =
-    Add a new node to the given artifact.
-command-description-xenoartifact-spawnartwithnode =
-    Spawns a new xeno artifact with single node with the given trigger and effect.
-command-description-xenoartifact-unlocknode =
-    Marks a node as unlocked.
-command-description-xenoartifact-removenode =
-    Removes a node from a xeno artifact.
-command-description-xenoartifact-addedge =
-    Adds an edge between two nodes of a xeno artifact.
-
-command-spawnartifactwithnode-spawn-artifact-item-hint = use hand-held artifact
-command-spawnartifactwithnode-spawn-artifact-structure-hint = use structure-like stationary artifact
+command-description-xenoartifact-list = 列出所有已生成工件的 EntityUid。
+command-description-xenoartifact-printmatrix = 輸出一個矩陣，用以顯示節點之間的所有邊。
+command-description-xenoartifact-totalresearch = 取得目前可從該文物中萃取的所有研究點數。
+command-description-xenoartifact-averageresearch = 計算平均每件外星遺物在完全啟動時所產生的研究點數總量。
+command-description-xenoartifact-unlockallnodes = 解鎖神器的所有節點。
+command-description-xenoartifact-createnode = 在工件中建立節點（若為新節點則位於第 0 層，若為現有節點則附著於其旁）。
+command-description-xenoartifact-createnodeatdepth = 在指定的工件中新增一個節點。
+command-description-xenoartifact-spawnartwithnode = 生成一個具有單一節點、並具備指定觸發條件與效果的新外星遺物。
+command-description-xenoartifact-unlocknode = 將節點標記為已解鎖。
+command-description-xenoartifact-removenode = 從異族遺物中移除一個節點。
+command-description-xenoartifact-addedge = 在異界遺物的兩個節點之間新增一條邊。
+command-spawnartifactwithnode-spawn-artifact-item-hint = 使用手持式文物
+command-spawnartifactwithnode-spawn-artifact-structure-hint = 使用類似結構的靜態偽影
 command-spawnartifactwithnode-spawn-artifact-type-hint = <artifact entity proto id>
-
-command-xenoartifact-common-node-hint = depth {$depth} node {$nodeId} trigger {$nodeDetail}
+command-xenoartifact-common-node-hint = depth { $depth } node { $nodeId } trigger { $nodeDetail }

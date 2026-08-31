@@ -1,41 +1,28 @@
-tool-quality-anchoring-name = Anchoring
-tool-quality-anchoring-tool-name = Wrench
-
-tool-quality-prying-name = Prying
-tool-quality-prying-tool-name = Crowbar
-
-tool-quality-screwing-name = Screwing
-tool-quality-screwing-tool-name = Screwdriver
-
-tool-quality-cutting-name = Cutting
+tool-quality-anchoring-name = 錨定
+tool-quality-anchoring-tool-name = 扳手
+tool-quality-prying-name = 窺探
+tool-quality-prying-tool-name = 撬棍
+tool-quality-screwing-name = 螺紋加工
+tool-quality-screwing-tool-name = 螺絲起子
+tool-quality-cutting-name = 切割
 tool-quality-cutting-tool-name = Wirecutter
-
-tool-quality-shearing-name = Shearing
+tool-quality-shearing-name = 剪切
 tool-quality-shearing-tool-name = Wirecutter
-
-tool-quality-welding-name = Welding
-tool-quality-welding-tool-name = Welder
-
-tool-quality-pulsing-name = Pulsing
-tool-quality-pulsing-tool-name = Multitool
-
-tool-quality-slicing-name = Slicing
-tool-quality-slicing-tool-name = Knife
-
-tool-quality-sawing-name = Sawing
-tool-quality-sawing-tool-name = Saw
-
-tool-quality-honking-name = Honking
-tool-quality-honking-tool-name = Bike Horn
-
-tool-quality-woodcutting-name = Woodcutting
-tool-quality-woodcutting-tool-name = Hatchet
-
-tool-quality-rolling-name = Rolling
-tool-quality-rolling-tool-name = Rolling Pin
-
-tool-quality-digging-name = Digging
-tool-quality-digging-tool-name = Shovel
-
-tool-quality-brushing-name = Brushing
-tool-quality-brushing-tool-name = Wire Brush
+tool-quality-welding-name = 焊接
+tool-quality-welding-tool-name = 焊工
+tool-quality-pulsing-name = 脈動
+tool-quality-pulsing-tool-name = 多功能工具
+tool-quality-slicing-name = 切片
+tool-quality-slicing-tool-name = 刀
+tool-quality-sawing-name = 鋸切
+tool-quality-sawing-tool-name = 鋸
+tool-quality-honking-name = 按喇叭
+tool-quality-honking-tool-name = 自行車喇叭
+tool-quality-woodcutting-name = 木刻
+tool-quality-woodcutting-tool-name = 《斧頭》
+tool-quality-rolling-name = 滾動
+tool-quality-rolling-tool-name = 擀麵棍
+tool-quality-digging-name = 挖掘
+tool-quality-digging-tool-name = 鏟子
+tool-quality-brushing-name = 刷牙
+tool-quality-brushing-tool-name = 鋼絲刷

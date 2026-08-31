@@ -41,8 +41,8 @@
 - type: entity
   parent: Solution
   id: SolutionCube # This will be deleted at a later date. Using solutions for this is really dumb.
-  name: cube
-  description: if you're reading this, nuh uh! file a bug report.
+  name: 立方體 | cube
+  description: 如果你正在閱讀這段文字，那可就錯了！請提交錯誤報告。 | if you're reading this, nuh uh! file a bug report.
   categories: [ HideSpawnMenu ]
   components:
   - type: Solution
@@ -54,7 +54,7 @@
   abstract: true
   parent: [SolutionTiny, SolutionFood, RehydratableItem]
   id: RehydratableAnimalCube
-  description: Just add water!
+  description: 只需加水即可！ | Just add water!
   components:
   - type: Sprite
     sprite: Objects/Misc/monkeycube.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MonkeyCube
-  name: monkey cube
+  name: 猴子方塊 | monkey cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -94,7 +94,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: KoboldCube
-  name: kobold cube
+  name: 科博爾德方塊 | kobold cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -103,7 +103,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: CowCube
-  name: cow cube
+  name: 牛形方塊 | cow cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -112,7 +112,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: GoatCube
-  name: goat cube
+  name: 山羊方塊 | goat cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -121,7 +121,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MothroachCube
-  name: mothroach cube
+  name: 蛾蟑螂方塊 | mothroach cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -130,7 +130,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MoproachCube
-  name: moproach cube
+  name: moproach cube | moproach cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -139,7 +139,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MouseCube
-  name: mouse cube
+  name: 滑鼠方塊 | mouse cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -148,8 +148,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: CockroachCube
-  name: cockroach cube
-  description: Just add wa- OH GOD!
+  name: 蟑螂方塊 | cockroach cube
+  description: 只要加點水——天啊！ | Just add wa- OH GOD!
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -158,8 +158,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: SpaceCarpCube
-  name: carp cube
-  description: Just add water! At your own risk.
+  name: 鯉魚方塊 | carp cube
+  description: 只需加水即可！後果自負。 | Just add water! At your own risk.
   components:
   - type: Solution
     solution:
@@ -177,8 +177,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: SpaceTickCube
-  name: tick cube
-  description: Just add water! At your own risk.
+  name: tick cube | tick cube
+  description: 只需加水即可！後果自負。 | Just add water! At your own risk.
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -187,8 +187,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: AbominationCube
-  name: abomination cube
-  description: Just add blood!
+  name: 可憎之立方體 | abomination cube
+  description: 只要加點血就行！ | Just add blood!
   components:
   - type: Reactive
     reactions:
@@ -208,8 +208,8 @@
 - type: entity
   parent: [PlushieCarp, RehydratableItem, BaseSyndicateContraband]
   id: DehydratedSpaceCarp
-  name: dehydrated space carp
-  description: Looks like a plush toy carp, but just add water and it becomes a real-life space carp!
+  name: 脫水太空鯉魚 | dehydrated space carp
+  description: 乍看之下像是一隻絨毛鯉魚玩偶，但只要加點水，它就會變成一尾活生生的太空鯉魚！ | Looks like a plush toy carp, but just add water and it becomes a real-life space carp!
   components:
   - type: Fixtures # BaseItem from PlushieCarp overrides fixtures, making carp not react to extinguishers
     fixtures:
@@ -261,8 +261,8 @@
 - type: entity
   parent: RehydratableItem
   id: MopBucketCube
-  name: mop bucket cube
-  description: Just add water! And then more water!
+  name: 立方體拖把桶 | mop bucket cube
+  description: 只要加水！然後再加點水！ | Just add water! And then more water!
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi

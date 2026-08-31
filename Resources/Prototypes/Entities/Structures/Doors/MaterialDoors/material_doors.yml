@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseMaterialDoor
-  name: door
-  description: A door, where will it lead?
+  name: 門 | door
+  description: 一扇門，它會通往何處？ | A door, where will it lead?
   components:
   - type: Anchorable
     flags:
@@ -69,7 +69,7 @@
 - type: entity
   parent: [ BaseMaterialDoorNavMap, StructureHealthDoorWeak ]
   id: PlasmaDoor
-  name: plasma door
+  name: 等離子門 | plasma door
   components:
   - type: Sprite
     sprite: Structures/Doors/MaterialDoors/plasma-door.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: [ BaseMaterialDoorNavMap, StructureHealthDoorWeak ]
   id: GoldDoor
-  name: gold door
+  name: 金門 | gold door
   components:
   - type: Sprite
     sprite: Structures/Doors/MaterialDoors/gold-door.rsi
@@ -117,7 +117,7 @@
 - type: entity
   parent: [ BaseMaterialDoorNavMap, StructureHealthDoorWeak ]
   id: SilverDoor
-  name: silver door
+  name: 銀色門 | silver door
   components:
   - type: Sprite
     sprite: Structures/Doors/MaterialDoors/silver-door.rsi
@@ -140,7 +140,7 @@
 - type: entity
   parent: [ BaseMaterialDoorNavMap, StructureHealthBarrierStrong ]
   id: WoodDoor
-  name: wooden door
+  name: 木門 | wooden door
   components:
   - type: Sprite
     sprite: Structures/Doors/MaterialDoors/wood-door.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: [ BaseMaterialDoorNavMap, StructureHealthBarrierWeak ]
   id: PaperDoor
-  name: paper door
+  name: 紙門 | paper door
   components:
   - type: Sprite
     sprite: Structures/Doors/MaterialDoors/paper-door.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: [ BaseMaterialDoorNavMap, StructureHealthBarrierWeak ]
   id: WebDoor
-  name: web door
-  description: A door, leading to the lands of the spiders... or a spaced room.
+  name: 網路門戶 | web door
+  description: 一扇門，通往蜘蛛的國度……抑或是一間空蕩蕩的房間。 | A door, leading to the lands of the spiders... or a spaced room.
   components:
   - type: Sprite
     sprite: Structures/Doors/MaterialDoors/web-door.rsi
@@ -231,7 +231,7 @@
 - type: entity
   parent: [ BaseMaterialDoorNavMap, StructureHealthBarrierWeak ]
   id: CardDoor
-  name: cardboard door
+  name: 紙板門 | cardboard door
   components:
   - type: Sprite
     sprite: Structures/Doors/MaterialDoors/card-door.rsi

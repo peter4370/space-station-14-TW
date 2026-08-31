@@ -1,7 +1,7 @@
 - type: entity
   parent: [ MobHuman, StorePresetChangeling ]
   id: MobLing
-  name: Urist McLing
+  name: 尤里斯·麥克林 | Urist McLing
   suffix: Non-Antag
   components:
   - type: ChangelingDevour
@@ -34,8 +34,8 @@
   - MobNightVision
   - BaseMobDestructible
   id: MobHeadSlug
-  name: headslug
-  description: A small, slug-like creature with a large, gaping maw. It's covered in a thick, slimy mucus.
+  name: 標題標籤 | headslug
+  description: 一種體型嬌小、形似蛞蝓的生物，擁有一個巨大且張得大大的嘴巴。全身覆蓋著一層濃稠、黏滑的黏液。 | A small, slug-like creature with a large, gaping maw. It's covered in a thick, slimy mucus.
   components:
   - type: Fixtures
     fixtures:

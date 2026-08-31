@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthFurniture ]
   id: Bookshelf
-  name: "bookshelf"
-  description: Mostly filled with books.
+  name: "書架 | bookshelf"
+  description: 裡面大多是書。 | Mostly filled with books.
   components:
   - type: Sprite
     sprite: Structures/Furniture/bookshelf.rsi

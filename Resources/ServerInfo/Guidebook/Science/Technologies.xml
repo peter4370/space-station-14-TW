@@ -1,20 +1,21 @@
+
 <Document>
-# Technologies
+# 技術
 
-All technologies have a cost and a tier requirement in order to be researched. Unlocking them adds a variety of recipes that can be printed at various lathes.
+所有技術皆需支付成本並達到特定等級要求，方可進行研究。解鎖這些技術後，將新增多種可在各類車床上列印的配方。
 
-The different technologies and their respective discipline are listed below.
+各項技術及其對應的學科列於下方。
 
-## Industrial
+## 工業
 <GuideTechDisciplineEmbed Discipline="Industrial"/>
 
-## Arsenal
+## 阿森納
 <GuideTechDisciplineEmbed Discipline="Arsenal"/>
 
-## Experimental
+## 實驗性
 <GuideTechDisciplineEmbed Discipline="Experimental"/>
 
-## Civilian Services
+## 民用服務
 <GuideTechDisciplineEmbed Discipline="CivilianServices"/>
 
 </Document>

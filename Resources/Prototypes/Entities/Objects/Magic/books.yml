@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseItem, BaseMagicalContraband ]
   id: BaseSpellbook
-  name: spellbook
+  name: 法術書 | spellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -24,9 +24,9 @@
 - type: entity
   parent: [ BaseItem, StorePresetSpellbook, BaseMagicalContraband ]
   id: WizardsGrimoire
-  name: wizard's grimoire
+  name: 巫師的魔典 | wizard's grimoire
   suffix: Wizard
-  description: A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Decades of study went into researching this collection of mystical secrets; now go use them to ruin someone's day.
+  description: 一本厚重的巨著，收錄了用於製作魔法咒語和召喚超自然裝備的複雜玄奧公式。這部蘊含神秘秘術的典籍凝聚了數十年的研究心血；現在就去運用它們，讓某人過個糟心的一天吧。 | A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Decades of study went into researching this collection of mystical secrets; now go use them to ruin someone's day.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -64,7 +64,7 @@
   parent: WizardsGrimoire
   id: WizardsGrimoireDebug
   suffix: Wizard, DEBUG
-  description: A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Someone wrote "FOR EXPERIMENTAL USE ONLY" on the inside cover.
+  description: 一本厚重的巨著，收錄了用於製作魔法咒語與召喚超自然裝備的複雜秘術公式。有人在內封面寫下了「僅供實驗使用」的字樣。 | A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Someone wrote "FOR EXPERIMENTAL USE ONLY" on the inside cover.
   components:
     - type: Store
       ownerOnly: false # For ease of debugging.
@@ -75,7 +75,7 @@
 - type: entity
   parent: BaseSpellbook
   id: SpawnSpellbook
-  name: spawn spellbook
+  name: 生成法術書 | spawn spellbook
   components:
     - type: Spellbook
       spellActions:
@@ -84,7 +84,7 @@
 - type: entity
   parent: BaseSpellbook
   id: ForceWallSpellbook
-  name: force wall spellbook
+  name: 「力量之牆」法術書 | force wall spellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseSpellbook
   id: BlinkBook
-  name: blink spellbook
+  name: 眨眼法術書 | blink spellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -128,7 +128,7 @@
 - type: entity
   parent: BaseSpellbook
   id: SmiteBook
-  name: smite spellbook
+  name: 「擊殺」法術書 | smite spellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -151,7 +151,7 @@
 - type: entity
   parent: BaseSpellbook
   id: KnockSpellbook
-  name: knock spellbook
+  name: 敲擊法術書 | knock spellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: BaseSpellbook
   id: FireballSpellbook
-  name: fireball spellbook
+  name: 火球法術書 | fireball spellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -197,7 +197,7 @@
 - type: entity
   parent: BaseSpellbook
   id: ScrollRunes
-  name: scroll of runes
+  name: 符文卷軸 | scroll of runes
   components:
   - type: Item
     size: Normal

@@ -1,6 +1,6 @@
-mech-soundboard-BikeHorn = Honk!
+mech-soundboard-BikeHorn = 嗶——！
 mech-soundboard-CluwneHorn = !knoH
-mech-soundboard-TrollAnimals = animal noises
+mech-soundboard-TrollAnimals = 動物的叫聲
 mech-soundboard-TrollEsword = e-sword
-mech-soundboard-TrollBeeping = Beep beep beep
-mech-soundboard-TrollMeeting = red vented!!!!!
+mech-soundboard-TrollBeeping = 嗶嗶嗶
+mech-soundboard-TrollMeeting = 紅色通風口！！！！

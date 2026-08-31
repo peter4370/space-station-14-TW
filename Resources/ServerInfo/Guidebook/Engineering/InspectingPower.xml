@@ -1,60 +1,61 @@
-﻿<Document>
-  # Inspecting Power
-  Engineers can inspect a power network to see useful statistics about it.
-  This can help engineers diagnose power issues and find root causes to problems.
+﻿
+<Document>
+  # 檢查電力系統
+  工程師可以檢查電力網路，以查看有關該網路的有用統計資料。
+  這有助於工程師診斷電源問題，並找出問題的根本原因。
 
-  ## Power Monitoring Computer
-  The Power Monitoring Computer is a device that can be used to inspect all the power networks on the station.
+  ## 電力監測電腦
+  電力監測電腦是一種可用於檢查站內所有電力網路的裝置。
 
   <Box>
     <GuideEntityEmbed Entity="ComputerPowerMonitoring"/>
   </Box>
 
-  The Power Monitoring Computer has two major sections, a station map and the power statistics.
+  電力監控電腦主要分為兩個部分：站點地圖與電力統計資料。
 
-  The station map shows:
-  - The station layout, with [color=green]low[/color], [color=yellow]medium[/color], and [color=orange]high[/color] [textlink="voltage networks" link="VoltageNetworks"] highlighted.
-  - [textlink="All APCs, SMES, and substations." link="VoltageNetworks"]
-  - All power [textlink="producers" link="Generators"] connected to the station (note that they don't have to be connected to a power network to be shown).
+  車站地圖顯示：
+  - 車站佈局圖，其中 [color=green]低[/color]、[color=yellow]中[/color] 及 [color=orange]高[/color] [textlink="電壓網路" link="VoltageNetworks"] 已被標示出來。
+  - [textlink="所有 APC、SME 及變電站。" link="VoltageNetworks"]
+  - 所有連接至該變電站的 [textlink="發電設施" link="發電機組"]（請注意，這些設施無需連接至電力網即可顯示）。
 
-  The power statistics show:
-  - The total [textlink="generator" link="Generators"] output, which is what the generators are currently producing to match grid demand.
-  - The total [textlink="battery" link="PowerStorage"] usage, which is the amount of power being drawn from batteries. Grids completely powered by generators will show low battery usage.
-  - The total network loads, which is the amount of power being requested by the station.
+  電力統計數據顯示：
+  - [textlink="generator" link="發電機"] 的總輸出量，即發電機目前為滿足電網需求所產生的電力。
+  - [textlink="電池" link="PowerStorage"]的總使用量，即從電池中汲取的電力總量。 完全由發電機供電的電網，其電池使用量將較低。
+  - 總網路負載，即該電台所請求的電力總量。
 
-  In an ideal situation, the total generator output should match the total network load, and the total battery usage should be low.
-  Using these three statistics, engineers can get an accurate picture of the station's power situation.
-  For example:
-  - If the total generator output is lower than the total network load, the station is in a power deficit.
-  - If the total battery usage is high, the station is drawing power from batteries to make up the difference.
-  - If it is zero with the generator load below the total network load, then the station is actively in a brownout, as the batteries are fully discharged.
-  - If the total generator output is higher than the total network load, the SMESes are charging.
+  在理想情況下，發電機的總輸出應與電網總負載相匹配，且電池的總消耗應保持在低水平。
+  透過這三項數據，工程師們能夠準確掌握該電站的供電狀況。
+  例如：
+  - 若發電機總輸出低於電網總負載，則該電站處於電力短缺狀態。
+  - 若總電池耗電量偏高，充電站便會從電池中汲取電力以彌補差額。
+  - 若發電機負載低於總網路負載時，該數值為零，則表示該電站正處於電壓下陷狀態，因為電池已完全放電。
+  - 若發電機總輸出功率高於電網總負載，則 SMES 正在充電。
 
-  ## Device Tabs
-  The Power Monitoring Computer has tabs for each device category on the station.
-  Navigating these power tabs will show the power statistics for each device category.
-  For example:
-  - Clicking on a source will show what that source is supplying the power to, and how much power it is supplying. It will also highlight the devices that are connected to that source.
-  - Clicking on an SMES, Substation, or APC will show the two power grids it is connected to, how much power it is receiving, and how much power it is distributing, as well as the exact devices that are making an exchange with the target device.
+  ## 裝置分頁
+  電力監控電腦針對站內各裝置類別設有對應的分頁。
+  瀏覽這些「電源」分頁，即可查看各類裝置的電源統計資料。
+  例如：
+  - 點擊某個電源，即可顯示該電源正在為哪些設備供電，以及供電量是多少。 它還會標示出連接到該來源的裝置。
+  - 點擊 SMES、變電站或 APC 時，將顯示其連接的兩個電網、其接收的電力量、分配的電力量，以及與目標裝置進行電力交換的具體裝置。
 
-  ## Inspecting via Multitool
-  The Multitool can be used to inspect power cables to see their power statistics.
+  ## 透過 Multitool 進行檢測
+  Multitool 可用於檢測電源線，以查看其電源相關數據。
 
   <Box>
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  When you click on a cable with the Multitool, it will show the cable's power statistics. This includes:
-  - The current supply, which is the amount of power the source is providing.
-  - The current supply from batteries, which is the amount of power being drawn from batteries.
-  - The theoretical supply, which is the maximum amount of power the source could provide if demanded.
-  - The ideal consumption, which is the current demand on the cable.
-  - The input storage, which is the capacity of batteries that are currently charging.
-  - The output storage, which is the capacity of batteries that are currently discharging.
+  當您使用「多功能工具」點擊某條纜線時，系統會顯示該纜線的電力統計資料。 這包括：
+  - 電流供應，即電源所提供的電量。
+  - 電池的當前供電量，即從電池中汲取的電量。
+  - 理論供應量，即若需求存在時，該電源所能提供的最大電力。
+  - 理想耗電量，即電纜的當前負載。
+  - 輸入儲存量，即目前正在充電的電池容量。
+  - 輸出儲能，即目前正在放電的電池容量。
 
-  Note that this information is relevant only to the voltage network you inspected.
-  A [color=green]low voltage[/color] cable (which likely only services a few rooms) will not show the same statistics as a [color=orange]high voltage[/color] cable (which services the entire station).
+  請注意，此資訊僅適用於您所檢查的電壓網路。
+  一條 [color=green]低壓[/color] 電纜（通常僅供電給幾個房間）所顯示的統計數據，將與一條 [color=orange]高壓[/color] 電纜（供電範圍涵蓋整個車站）的統計數據不同。
 
-  This is useful information to keep in mind, as it can help you troubleshoot why "this room is powered, but this one isn't!"
+  這是一項值得記住的有用資訊，因為它能協助您釐清「這個房間有電，但那個房間卻沒電！」的原因。
 
 </Document>

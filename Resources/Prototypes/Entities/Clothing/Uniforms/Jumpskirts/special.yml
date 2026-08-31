@@ -1,8 +1,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformSkirtBase, BaseSyndicateContraband]
   id: ClothingUniformJumpskirtOperative
-  name: operative jumpskirt
-  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  name: 作戰式跳傘裙 | operative jumpskirt
+  description: 專為在深空執行戰術行動的精英組織特工設計的制服。 | Uniform for elite syndicate operatives performing tactical operations in deep space.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Special/operative_s.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtTacticool
-  name: tacticool jumpskirt
-  description: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
+  name: 戰術風跳躍裙 | tacticool jumpskirt
+  description: 專為在深空執行「戰術絕緣手套竊盜」任務、表現平平的實境扮演者（LARPer）所設計的制服。 | Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Special/tacticool_s.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseSyndicateContraband ]
   id: ClothingUniformJumpskirtSyndieFormalDress
-  name: syndicate formal dress
-  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  name: 辛迪加正式禮服 | syndicate formal dress
+  description: "該組織的制服設計優雅，穿著這身制服去搞些骯髒把戲，實在有些可惜。 | The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Special/syndieformaldress.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtTacticalMaid
-  name: tactical maid suitskirt
-  description: It is assumed that the best maids should have designer suits.
+  name: 戰術女僕套裝裙 | tactical maid suitskirt
+  description: 一般認為，最優秀的傭人應該擁有設計師款套裝。 | It is assumed that the best maids should have designer suits.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Special/tacticalmaid.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSlicingRefinable]
   id: ClothingUniformJumpskirtWeb
-  name: web jumpskirt
-  description: Makes it clear that you are one with the webs.
+  name: 網眼跳舞裙 | web jumpskirt
+  description: 這清楚地表明，你與蛛網合而為一。 | Makes it clear that you are one with the webs.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Special/web.rsi

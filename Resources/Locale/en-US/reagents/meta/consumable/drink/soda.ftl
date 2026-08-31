@@ -1,57 +1,38 @@
-reagent-name-cola = Space Cola
-reagent-desc-cola = A sweet, carbonated soft drink.
-
-reagent-name-shirley-temple = Shirley Temple
-reagent-desc-shirley-temple = A favorite amongst younger members of the crew.
-
-reagent-name-changeling-sting = Changeling Sting
-reagent-desc-changeling-sting = A mildly alcoholic soda. You take a tiny sip and feel a burning sensation...
-
-reagent-name-dr-gibb = Dr. Gibb
-reagent-desc-dr-gibb = A delicious blend of 42 different flavours.
-
-reagent-name-energy-drink = Red Bool
-reagent-desc-energy-drink = A dose of energy! Nanotrasen is not responsible if you grow avian appendages.
-
-reagent-name-grape-soda = grape soda
-reagent-desc-grape-soda = It's Graaaaaape!
-
-reagent-name-ice-cream = ice cream
-reagent-desc-ice-cream = It was either this or the microwave, and nobody wants ice cream soup!
-
+reagent-name-cola = 太空可樂 Space Cola
+reagent-desc-cola = 一款甜味、含氣的軟性飲料。
+reagent-name-shirley-temple = 雪莉·坦普爾 Shirley Temple
+reagent-desc-shirley-temple = 這是船員中年輕成員最喜愛的。
+reagent-name-changeling-sting = 《變形者之刺》Changeling Sting
+reagent-desc-changeling-sting = 一款微醺的汽水。只要小啜一口，便會感到一股灼熱感……
+reagent-name-dr-gibb = 吉布博士 Dr. Gibb
+reagent-desc-dr-gibb = 由 42 種不同風味精心調配而成的美味組合。
+reagent-name-energy-drink = 紅布爾 Red Bool
+reagent-desc-energy-drink = 補充滿滿的能量！若您因此長出鳥類的附肢，Nanotrasen 概不負責。
+reagent-name-grape-soda = 葡萄汽水 grape soda
+reagent-desc-grape-soda = 是葡萄啊～～～～！
+reagent-name-ice-cream = 冰淇淋 ice cream
+reagent-desc-ice-cream = 要麼這樣，要麼用微波爐，畢竟沒人想喝冰淇淋湯吧！
 reagent-name-lemon-lime = Smite
-reagent-desc-lemon-lime = Tangy lime and lemon soda.
-
-reagent-name-lemon-lime-cranberry = Smite Cranberry
-reagent-desc-lemon-lime-cranberry = Tart cranberry, Christmas, and a hint of lemon and lime.
-
-reagent-name-pwr-game = PWR Game
-reagent-desc-pwr-game = The only drink with the PWR that true gamers crave. When a gamer talks about gamerfuel, this is what they're literally referring to.
-
-reagent-name-root-beer = root beer
-reagent-desc-root-beer = A very sweet, carbonated drink reminiscent of sarsaparilla. Goes well with ice cream.
-
-reagent-name-root-beer-float = root beer float
-reagent-desc-root-beer-float = Root beer, but now with ice cream on top. It truly is the magnum opus of Canadian summertime drinks.
-
+reagent-desc-lemon-lime = 酸爽的萊姆與檸檬汽水。
+reagent-name-lemon-lime-cranberry = 擊潰蔓越莓 Smite Cranberry
+reagent-desc-lemon-lime-cranberry = 酸甜的蔓越莓、聖誕氣息，以及一絲檸檬與萊姆的清香。
+reagent-name-pwr-game = PWR 遊戲 PWR Game
+reagent-desc-pwr-game = 這款飲品蘊含真正玩家夢寐以求的「PWR」。當玩家談論「玩家能量」時，他們所指的正是這款飲品。
+reagent-name-root-beer = 根啤酒 root beer
+reagent-desc-root-beer = 一款非常甜美的碳酸飲料，風味類似沙士。很適合搭配冰淇淋。
+reagent-name-root-beer-float = 根啤酒浮冰 root beer float
+reagent-desc-root-beer-float = 根啤酒，但現在上面加了冰淇淋。這確實是加拿大夏季飲品中的巔峰之作。
 reagent-name-sol-dry = Sol Dry
-reagent-desc-sol-dry = Sweet ginger soda from outer space!
-
-reagent-name-roy-rogers = Roy Rogers
-reagent-desc-roy-rogers = Solid proof that there IS something known as too sweet.
-
-reagent-name-space-mountain-wind = Space Solar Wind
-reagent-desc-space-mountain-wind = Blows right through you like a solar wind.
-
+reagent-desc-sol-dry = 來自外太空的甘薑汽水！
+reagent-name-roy-rogers = 羅伊·羅傑斯 Roy Rogers
+reagent-desc-roy-rogers = 這正是鐵證，證明世上確實存在所謂的「太甜」這種東西。
+reagent-name-space-mountain-wind = 太空太陽風 Space Solar Wind
+reagent-desc-space-mountain-wind = 就像太陽風一樣，直衝而過，穿透你的身心。
 reagent-name-space-up = Space-Up
-reagent-desc-space-up = Tastes like a hull breach in your mouth.
-
+reagent-desc-space-up = 嚐起來就像是嘴裡發生了船體破裂一樣。
 reagent-name-starkist = Starkist
-reagent-desc-starkist = A sweet, orange flavored soft drink.
-
-reagent-name-fourteen-loko = Fourteen Loko
-reagent-desc-fourteen-loko = A highly processed liquid substance barely-passing intergalatic health standards for a soft drink.
-
-reagent-name-shamblers-juice = Shambler's Juice
-reagent-desc-shamblers-juice = ~Shake me up some of that Shambler's Juice!~
-
+reagent-desc-starkist = 一款甜味、帶有橘子風味的軟性飲料。
+reagent-name-fourteen-loko = 十四洛科 Fourteen Loko
+reagent-desc-fourteen-loko = 一種高度加工的液態物質，其作為軟性飲料的品質僅勉強符合星系間健康標準。
+reagent-name-shamblers-juice = 「蹣跚者」的果汁 Shambler's Juice
+reagent-desc-shamblers-juice = ~給我來點「蹣跚者之汁」吧！~

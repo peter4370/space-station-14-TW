@@ -15,7 +15,7 @@
 
 - type: entity
   id: RandomFloraTree
-  name: random tree spawner
+  name: 隨機樹木生成器 | random tree spawner
   parent: MarkerBase
   components:
   - type: Sprite

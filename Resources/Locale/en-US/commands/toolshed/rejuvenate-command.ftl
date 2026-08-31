@@ -1,2 +1,1 @@
-command-description-rejuvenate =
-    Rejuvenates the given entities, restoring them to full health, clearing status effects, etc.
+command-description-rejuvenate = 使指定的對象恢復活力，使其生命值恢復至滿值，並清除狀態效果等。

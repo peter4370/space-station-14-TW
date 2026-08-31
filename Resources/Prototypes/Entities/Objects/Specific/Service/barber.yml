@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BarberScissors
-  name: barber scissors
-  description: Is able to reshape the hairstyle of any crew cut to your liking.
+  name: 理髮剪 | barber scissors
+  description: 能夠根據您的喜好，將任何平頭髮型重新塑形。 | Is able to reshape the hairstyle of any crew cut to your liking.
   parent: BaseItem
   components:
   - type: Sprite

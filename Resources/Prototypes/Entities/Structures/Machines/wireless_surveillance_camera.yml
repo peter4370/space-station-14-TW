@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseStructureDynamic, SmallConstructibleMachine, BaseSmallConstructibleMachineDestructible ]
   id: SurveillanceWirelessCameraBase
-  name: wireless camera
-  description: A camera. It's watching you. Kinda.
+  name: 無線攝影機 | wireless camera
+  description: 一台攝影機。它正在監視你。算是吧。 | A camera. It's watching you. Kinda.
   placement:
     mode: SnapgridCenter
   components:

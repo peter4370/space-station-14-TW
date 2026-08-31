@@ -1,58 +1,40 @@
 # Pointless
 
-uplink-barber-scissors-name = Barber Scissors
-uplink-barber-scissors-desc = A good tool to give your fellow agent a nice haircut, unless you want to give it to yourself.
-
-uplink-snack-box-name = Syndicate Snack Box
-uplink-snack-box-desc = A box of delicious snacks and drinks to eat alone or with your team. Includes 1 toy you didn't want.
-
-uplink-clothing-conducting-gloves-name = Conducting Gloves
-uplink-clothing-conducting-gloves-desc = Looks exactly like insulated gloves, but shocks you far worse than if you had nothing at all! Best given as a gift to passengers you really don't like.
-
-uplink-revolver-cap-gun-name = Cap Gun
-uplink-revolver-cap-gun-desc = Looks almost like the real thing! Ages 8 and up.
-
-uplink-syndicate-stamp-name = Syndicate Rubber Stamp
-uplink-syndicate-stamp-desc = A rubber stamp for stamping important documents.
-
-uplink-cat-ears-name = Cat Ears
+uplink-barber-scissors-name = 理髮剪刀
+uplink-barber-scissors-desc = 這是一款能幫你的同事剪個漂亮髮型的好工具，除非你想自己動手剪。
+uplink-snack-box-name = Syndicate 零食盒
+uplink-snack-box-desc = 一盒美味的零食和飲料，無論是獨自享用或與團隊分享都很適合。內含 1 件你原本不想要的玩具。
+uplink-clothing-conducting-gloves-name = 指揮手套
+uplink-clothing-conducting-gloves-desc = 看起來跟保暖手套一模一樣，但帶電時的衝擊感卻比完全不戴手套時還要強烈得多！最適合送給那些你真的不喜歡的乘客。
+uplink-revolver-cap-gun-name = 玩具槍
+uplink-revolver-cap-gun-desc = 看起來簡直和真的一模一樣！適合 8 歲及以上兒童。
+uplink-syndicate-stamp-name = 「辛迪加」橡皮章
+uplink-syndicate-stamp-desc = 一款用於蓋章的重要文件用橡皮章。
+uplink-cat-ears-name = 貓耳
 uplink-cat-ears-desc = UwU
-
-uplink-outlaw-hat-name = Outlaw Hat
-uplink-outlaw-hat-desc = A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
-
-uplink-outlaw-glasses-name = Outlaw Glasses
-uplink-outlaw-glasses-desc = A must for every self-respecting undercover agent.
-
-uplink-costume-pyjama-name = Syndicate Pyjama Duffel Bag
-uplink-costume-pyjama-desc = Contains 3 pairs of syndicate pyjamas and 4 plushies for the ultimate sleepover.
-
-uplink-costume-clown-name = Clown Costume Duffel Bag
-uplink-costume-clown-desc = Contains a complete Clown outfit. Includes PDA and service radio.
-
-uplink-carp-suit-bundle-name = Carp Suit Duffel Bag
-uplink-carp-suit-bundle-desc = Contains a carp suit and some friends to play with.
-
-uplink-operative-suit-name = Operative Jumpsuit
-uplink-operative-suit-desc = A suit given to our nuclear operatives with fine fabric to make sure you stand out, no other benefits aside from looking cool.
-
-uplink-operative-skirt-name = Operative Jumpskirt
-uplink-operative-skirt-desc = A skirt given to our nuclear operatives with fine fabric to make sure you stand out, no other benefits aside from looking cool.
-
-uplink-balloon-name = Syndie Balloon
-uplink-balloon-desc = Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
-
-uplink-scarf-syndie-red-name = Striped syndicate red scarf
-uplink-scarf-syndie-red-desc = A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
-
-uplink-scarf-syndie-green-name = Striped syndicate green scarf
-uplink-scarf-syndie-green-desc = A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
-
-uplink-business-card-name = Syndicate Business Card
-uplink-business-card-desc = A business card that you can give to someone to demonstrate your involvement in the syndicate or leave at the crime scene in order to make fun of the detective. You can buy no more than three of them.
-
-uplink-decoy-kit-name = Decoy Kit
-uplink-decoy-kit-desc = State-of-the-art distraction technology straight from RND. Comes with five realistic balloons, four decoy grenades, and some snap poppers!
-
-uplink-contraband-lighter-name = Contraband Lighter box
-uplink-contraband-lighter-desc = A mystery box guaranteed to contain a syndicate branded lighter. No fuel required
+uplink-outlaw-hat-name = 亡命之徒帽
+uplink-outlaw-hat-desc = 一頂讓你看起來彷彿攜帶一把刻有「一」字及另外十九個編號的齒槽手槍的帽子。
+uplink-outlaw-glasses-name = 《法外之徒》眼鏡
+uplink-outlaw-glasses-desc = 每位自尊自重的臥底探員都不可或缺的裝備。
+uplink-costume-pyjama-name = Syndicate 睡衣風旅行袋
+uplink-costume-pyjama-desc = 內含 3 套 Syndicate 睡衣和 4 隻絨毛玩偶，讓您享受最棒的睡衣派對。
+uplink-costume-clown-name = 小丑服裝旅行袋
+uplink-costume-clown-desc = 內含一套完整的小丑服裝。包含PDA及執勤無線電。
+uplink-carp-suit-bundle-name = 鯉魚圖案旅行袋
+uplink-carp-suit-bundle-desc = 內含一套鯉魚裝，還有幾位朋友可以一起玩。
+uplink-operative-suit-name = 行動連身服
+uplink-operative-suit-desc = 這套提供給我們核子特工的西裝採用精緻面料，確保你能脫穎而出，除了看起來很酷之外，別無其他好處。
+uplink-operative-skirt-name = 行動式跳躍裙
+uplink-operative-skirt-desc = 這條專為我們的核武特工設計的裙子採用精緻面料，確保你能脫穎而出，除了看起來很酷之外，別無其他好處。
+uplink-balloon-name = 辛迪·巴隆
+uplink-balloon-desc = 頒發給那些在辛迪樂園（Syndieland）的「原子龍捲風」遊樂設施中倖存下來、最勇敢的勇者。
+uplink-scarf-syndie-red-name = 條紋工會紅圍巾
+uplink-scarf-syndie-red-desc = 一條時尚的條紋「辛迪加紅」圍巾。對於擁有敏銳時尚觸覺的人，以及那些正想偷點什麼的人來說，這都是完美的冬季配飾。
+uplink-scarf-syndie-green-name = 條紋工會綠色圍巾
+uplink-scarf-syndie-green-desc = 一條時尚的條紋辛迪加綠圍巾。對於那些擁有敏銳時尚觸覺的人，以及正想偷點什麼的人來說，這正是完美的冬季配飾。
+uplink-business-card-name = 「辛迪加」名片
+uplink-business-card-desc = 這是一張名片，你可以將它交給他人以證明自己與犯罪集團有關聯，或是將它留在犯罪現場，藉此戲弄偵探。你最多只能購買三張。
+uplink-decoy-kit-name = 誘餌套組
+uplink-decoy-kit-desc = 來自 RND 的尖端干擾技術。內含五顆逼真的氣球、四顆假手榴彈，以及一些「啪」聲爆裂玩具！
+uplink-contraband-lighter-name = 走私打火機盒
+uplink-contraband-lighter-desc = 一個神秘禮盒，保證內含一款印有「Syndicate」品牌標誌的打火機。無需燃料

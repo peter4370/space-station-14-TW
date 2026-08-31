@@ -1,1 +1,1 @@
-radio-microphone-component-examine = The current channel is [color={$color}]{$channel} ({$frequency})[/color].
+radio-microphone-component-examine = 當前頻道是 [color={ $color }]{ $channel } ({ $frequency })[/color]。

@@ -1,8 +1,8 @@
 - type: entity
   parent: StructureHealthContainerWeak
   id: CableTerminal
-  name: cable terminal
-  description: You see a small warning on the red cables in grungy black ink. "CONNECT RED TO BATTERY FOR CHARGE."
+  name: 電纜端子 | cable terminal
+  description: 你會看到紅色的電線上用骯髒的黑色墨水寫著一小段警告：「將紅色電線連接至電池以進行充電。」 | You see a small warning on the red cables in grungy black ink. "CONNECT RED TO BATTERY FOR CHARGE."
   placement:
     mode: SnapgridCenter
   components:

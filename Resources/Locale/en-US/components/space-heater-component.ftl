@@ -1,17 +1,14 @@
 ﻿comp-space-heater-ui-title = Temperature Control Unit
-comp-space-heater-ui-thermostat = Thermostat:
-comp-space-heater-ui-mode = Mode
+comp-space-heater-ui-thermostat = 恆溫器：
+comp-space-heater-ui-mode = 模式
 comp-space-heater-ui-increase-temperature-range = +
 comp-space-heater-ui-decrease-temperature-range = -
-
-comp-space-heater-mode-Auto = Auto
-comp-space-heater-mode-Heat = Heat
-comp-space-heater-mode-Cool = Cool
-
-comp-space-heater-ui-power-consumption = Power level:
-comp-space-heater-ui-Low-power-consumption = Low
-comp-space-heater-ui-Medium-power-consumption = Medium
-comp-space-heater-ui-High-power-consumption = High
-
-comp-space-heater-device-name = space heater
-comp-space-heater-unanchored = The {$device} is not anchored.
+comp-space-heater-mode-Auto = 汽車
+comp-space-heater-mode-Heat = 熱
+comp-space-heater-mode-Cool = 酷
+comp-space-heater-ui-power-consumption = 力量等級：
+comp-space-heater-ui-Low-power-consumption = 低
+comp-space-heater-ui-Medium-power-consumption = 中
+comp-space-heater-ui-High-power-consumption = 高
+comp-space-heater-device-name = 電暖器
+comp-space-heater-unanchored = { $device } 未設定錨點。

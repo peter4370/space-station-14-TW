@@ -1,31 +1,26 @@
-teleporter-console-slot-name = Disk
-teleporter-console-chip-record = Coordinates saved!
-
-teleporter-console-chip-examine-recorded = [color=#f5b942]Recorded coordinates: {$portal}[/color]
-teleporter-console-chip-examine-null = [color=#f5b942]Recorded coordinates: None[/color]
+teleporter-console-slot-name = 磁碟
+teleporter-console-chip-record = 座標已儲存！
+teleporter-console-chip-examine-recorded = [color=#f5b942]記錄的座標：{ $portal }[/color]
+teleporter-console-chip-examine-null = [color=#f5b942]記錄的座標：無[/color]
 
 # UI
 
-teleporter-console-user-interface-title = Teleporter control console
-
-teleporter-console-user-interface-locate = Locate
-teleporter-console-user-interface-start-connection = Start connection
-teleporter-console-user-interface-cut-connection = Cut connection
-teleporter-console-user-interface-no-power = Unpowered
-
-teleporter-console-user-interface-no-teleporters = No teleporters
-teleporter-console-user-interface-unknown-station = Unknown station
-teleporter-console-user-interface-flavor-left = Manufacturer company takes no legal responsibility in cases of gate instability or resonance cascade.
+teleporter-console-user-interface-title = 傳送器控制台
+teleporter-console-user-interface-locate = 定位
+teleporter-console-user-interface-start-connection = 建立連線
+teleporter-console-user-interface-cut-connection = 中斷連線
+teleporter-console-user-interface-no-power = 無電源
+teleporter-console-user-interface-no-teleporters = 沒有傳送器
+teleporter-console-user-interface-unknown-station = 未知車站
+teleporter-console-user-interface-flavor-left = 若發生閘門不穩定或共振連鎖現象，製造商概不承擔任何法律責任。
 teleporter-console-user-interface-flavor-right = v0.666
-
-teleporter-name-unknown = Unlabeled location
-teleporter-name-rd-first = RD Portable portal red
-teleporter-name-rd-second = RD Portable portal blue
-
-teleporter-name-center = Teleport hangar
-teleporter-name-salvage = Salvage
-teleporter-name-medical = Medical
-teleporter-name-engineering = Engineering
-teleporter-name-security = Security
-teleporter-name-science = Science
-teleporter-name-cargo = Cargo
+teleporter-name-unknown = 未標註地點
+teleporter-name-rd-first = RD 便攜式入口網站 紅色
+teleporter-name-rd-second = RD 便攜式入口 藍色
+teleporter-name-center = 傳送機庫
+teleporter-name-salvage = 打撈部
+teleporter-name-medical = 醫療
+teleporter-name-engineering = 工程學
+teleporter-name-security = 安保區
+teleporter-name-science = 科學
+teleporter-name-cargo = 貨物部

@@ -1,8 +1,8 @@
 - type: entity
-  name: mail bag
+  name: 讀者來信 | mail bag
   id: MailBag
   parent: BaseStorageItem
-  description: A bag for carrying mail around the station. Made from tanned space bear hide.
+  description: 一款用於在車站內運送郵件的袋子。採用鞣製的太空熊皮製成。 | A bag for carrying mail around the station. Made from tanned space bear hide.
   components:
   - type: Sprite
     sprite: Objects/Specific/Cargo/mail_bag.rsi

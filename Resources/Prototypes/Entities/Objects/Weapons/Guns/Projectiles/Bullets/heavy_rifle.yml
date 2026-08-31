@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: BulletHeavyRifle
   categories: [ HideSpawnMenu ]
-  name: bullet (.10 rifle)
+  name: 子彈（.10 步槍彈） | bullet (.10 rifle)
   components:
   - type: Projectile
     damage:
@@ -13,7 +13,7 @@
   parent: BulletHeavyRifle
   id: BulletMinigun
   categories: [ HideSpawnMenu ]
-  name: minigun bullet (.10 rifle)
+  name: 迷你機槍子彈（.10 口徑步槍） | minigun bullet (.10 rifle)
   components:
   - type: Projectile
     damage:

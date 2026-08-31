@@ -1,9 +1,10 @@
-<Document>
-# Service
-[color=#9fed58]Service[/color] keeps the station clean, efficient and sane so that all other departments can do their jobs better and keep their staff happy. They also end up doing most of the paperwork on the station.
 
-## Personnel
-[color=#9fed58]Service[/color]'s staff is made up of Service Workers, Chefs, Botanists, Bartenders, Janitors, Chaplains, Clowns, Mimes, Musicians, Lawyers, Librarians and Passengers. Service is run by the Head of Personnel.
+<Document>
+# 服務部
+[color=#9fed58]服務部[/color] 負責維持站內環境的整潔、運作的效率與秩序，讓其他所有部門都能更順利地執行職務，並確保員工保持愉快的心情。此外，站內大部分的文書工作最終也由他們處理。
+
+## 人事
+[color=#9fed58]服務部[/color] 的員工由服務人員、主廚、植物學家、調酒師、清潔工、牧師、小丑、默劇演員、音樂家、律師、圖書館員及乘客組成。服務部由人事主管負責管理。
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineChef" Caption="Chef"/>
@@ -24,11 +25,11 @@
     <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="HoP"/>
   </Box>
 
-## Working Together
-[color=#9fed58]Service[/color], despite being the most diverse, tends to be the most [color=#a4885c]interlinked[/color] department by far.
-Most [color=#9fed58]Service[/color] jobs require [color=#a4885c]cooperation[/color] between workers.
-Chefs often need ingredients that only botanists can grow efficiently. The bartender may request bananas that only clowns carry in abundance.
-The lawyer may invite the mime to play charades to convince the judge that their client is innocent.
+## 攜手合作
+[color=#9fed58]服務業[/color]，儘管是多樣性最高的領域，卻往往是迄今為止最為 [color=#a4885c]相互關聯[/color] 的部門。
+大多數 [color=#9fed58]服務業[/color]的工作崗位都需要員工之間進行[color=#a4885c]合作[/color]。
+主廚經常需要一些只有植物學家才能高效種植的食材。調酒師可能會要求提供香蕉，而這正是小丑們隨身攜帶的豐富物產。
+律師可能會邀請默劇演員表演猜字遊戲，以說服法官相信他們的當事人是無辜的。
 
-A lot of [color=#a4885c]collaboration[/color] is necessary within and without [color=#9fed58]Service[/color]. Often times, [color=#9fed58]Service[/color] is required by other departments, so be on your toes.
+在 [color=#a4885c]服務[/color] 部門內外，都需要大量的 [color=#a4885c]合作[/color]。很多時候，其他部門會要求 [color=#9fed58]服務[/color] 部門提供協助，因此請隨時保持警覺。
 </Document>

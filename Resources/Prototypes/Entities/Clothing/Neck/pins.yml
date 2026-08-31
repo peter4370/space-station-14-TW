@@ -2,8 +2,8 @@
   parent: ClothingNeckBase
   id: ClothingNeckPinBase
   abstract: true
-  name: pin
-  description: Be nothing do crime.
+  name: pin | pin
+  description: 一事無成，卻去犯罪。 | Be nothing do crime.
   components:
   - type: Item
     size: Tiny
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckLGBTPin
-  name: LGBT pin
-  description: Be gay do crime.
+  name: LGBT 別針 | LGBT pin
+  description: 當個同性戀，去犯罪吧。 | Be gay do crime.
   components:
   - type: Sprite
     state: lgbt
@@ -53,8 +53,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAllyPin
-  name: straight ally pin
-  description: Be ally do crime.
+  name: 異性戀盟友別針 | straight ally pin
+  description: 當盟友，犯下罪行。 | Be ally do crime.
   components:
   - type: Sprite
     state: ally
@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAromanticPin
-  name: aromantic pin
-  description: Be aro do crime.
+  name: 無浪漫傾向的徽章 | aromantic pin
+  description: 提高犯罪警覺。 | Be aro do crime.
   components:
   - type: Sprite
     state: aro
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAroacePin
-  name: aroace pin
-  description: Be aroace do crime.
+  name: aroace 別針 | aroace pin
+  description: 保持警惕，防範犯罪。 | Be aroace do crime.
   components:
   - type: Sprite
     state: aroace
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAsexualPin
-  name: asexual pin
-  description: Be ace do crime.
+  name: 無性愛別針 | asexual pin
+  description: 當個犯罪高手。 | Be ace do crime.
   components:
   - type: Sprite
     state: asex
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckBisexualPin
-  name: bisexual pin
-  description: Be bi do crime.
+  name: 雙性戀別針 | bisexual pin
+  description: 當個雙性戀，去犯罪吧。 | Be bi do crime.
   components:
   - type: Sprite
     state: bi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckGayPin
-  name: gay pin
-  description: Be gay~ do crime.
+  name: 同志別針 | gay pin
+  description: 當個同志～去犯罪吧。 | Be gay~ do crime.
   components:
   - type: Sprite
     state: gay
@@ -131,8 +131,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckIntersexPin
-  name: intersex pin
-  description: Be intersex do crime.
+  name: 雙性人別針 | intersex pin
+  description: 身為雙性人，就得犯罪。 | Be intersex do crime.
   components:
   - type: Sprite
     state: inter
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckLesbianPin
-  name: lesbian pin
-  description: Be lesbian do crime.
+  name: 女同志別針 | lesbian pin
+  description: 當女同志，去犯罪。 | Be lesbian do crime.
   components:
   - type: Sprite
     state: les
@@ -157,8 +157,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckNonBinaryPin
-  name: non-binary pin
-  description: "01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101"
+  name: 非二元接腳 | non-binary pin
+  description: "01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101 | 01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101"
   components:
   - type: Sprite
     state: non
@@ -170,8 +170,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckPansexualPin
-  name: pansexual pin
-  description: Be pan do crime.
+  name: 全性戀別針 | pansexual pin
+  description: 犯下罪行吧。 | Be pan do crime.
   components:
   - type: Sprite
     state: pan
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckPluralPin
-  name: plural pin
-  description: Be plural, do crimes.
+  name: 複數的別針 | plural pin
+  description: 結伴而行，犯下罪行。 | Be plural, do crimes.
   components:
   - type: Sprite
     state: plural
@@ -196,8 +196,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckOmnisexualPin
-  name: omnisexual pin
-  description: Be omni do crime.
+  name: 全性戀別針 | omnisexual pin
+  description: 凡事皆可為罪。 | Be omni do crime.
   components:
   - type: Sprite
     state: omni
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckGenderqueerPin
-  name: genderqueer pin
-  description: be crime, do gender
+  name: 性別流動別針 | genderqueer pin
+  description: 犯罪，性別 | be crime, do gender
   components:
   - type: Sprite
     state: gender
@@ -222,8 +222,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckGenderfluidPin
-  name: genderfluid pin
-  description: be gender, be fluid
+  name: 性別流動別針 | genderfluid pin
+  description: 做自己，活出流動性 | be gender, be fluid
   components:
   - type: Sprite
     state: fluid
@@ -235,8 +235,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckTransPin
-  name: transgender pin
-  description: Be trans do crime.
+  name: 跨性別徽章 | transgender pin
+  description: 身為跨性別者就得犯罪。 | Be trans do crime.
   components:
   - type: Sprite
     state: trans
@@ -248,8 +248,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAutismPin
-  name: neurodivergent pin
-  description: Be neurodivergent, do crime.
+  name: 神經多樣性別針 | neurodivergent pin
+  description: 身為神經多樣性者，去犯罪吧。 | Be neurodivergent, do crime.
   components:
   - type: Sprite
     state: autism
@@ -259,8 +259,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckGoldAutismPin
-  name: autism pin
-  description: Be autistic, do crime.
+  name: 自閉症別針 | autism pin
+  description: 患有自閉症，就去犯罪吧。 | Be autistic, do crime.
   components:
   - type: Sprite
     state: goldautism
@@ -270,8 +270,8 @@
 - type: entity
   parent: [SolutionSpray, SolutionTiny, BaseItem]
   id: SprayFlowerPin
-  name: flower pin
-  description: A cute flower pin. Something seems off with it...
+  name: 花形胸針 | flower pin
+  description: 一枚可愛的花朵胸針。總覺得它哪裡不太對勁…… | A cute flower pin. Something seems off with it...
   components:
   - type: Item
     size: Tiny

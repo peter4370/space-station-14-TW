@@ -10,7 +10,7 @@
 - type: entity
   parent: [ BaseWeaponBallisticTurretIndestructible, StructureHealthMachineWeak ]
   id: WeaponTurretSyndicateDisposable
-  name: disposable ballistic turret
+  name: 一次性防彈砲塔 | disposable ballistic turret
   suffix: Syndicate, Disposable
   components:
   - type: NpcFactionMember
@@ -80,9 +80,9 @@
 - type: entity
   parent: [ BaseWeaponBallisticTurretIndestructible, StructureHealthMachine ]
   id: WeaponTurretXeno
-  name: xeno turret
+  name: 外星炮塔 | xeno turret
   suffix: Xeno
-  description: Shoots 9mm acid projectiles.
+  description: 可發射 9 毫米酸彈。 | Shoots 9mm acid projectiles.
   components:
   - type: NpcFactionMember
     factions:

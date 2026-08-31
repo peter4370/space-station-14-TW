@@ -1,14 +1,13 @@
-character-setup-gui-character-setup-label = Character setup
-character-setup-gui-character-setup-adminremarks-button = Admin Remarks
-character-setup-gui-character-setup-stats-button = Stats
-character-setup-gui-character-setup-rules-button = Rules
-character-setup-gui-character-setup-close-button = Close
-character-setup-gui-create-new-character-button = Create new slot...
-character-setup-gui-create-new-character-button-tooltip = A maximum of {$maxCharacters} characters are allowed.
-character-setup-gui-character-picker-button-delete-button = Delete
-character-setup-gui-character-picker-button-confirm-delete-button = Confirm
-
-character-setup-gui-save-panel-title = Unsaved character changes
-character-setup-gui-save-panel-save = Save
-character-setup-gui-save-panel-nosave = Don't save
-character-setup-gui-save-panel-cancel = Cancel
+character-setup-gui-character-setup-label = 角色設定
+character-setup-gui-character-setup-adminremarks-button = 管理員備註
+character-setup-gui-character-setup-stats-button = 統計數據
+character-setup-gui-character-setup-rules-button = 規則
+character-setup-gui-character-setup-close-button = 關閉
+character-setup-gui-create-new-character-button = 建立新插槽...
+character-setup-gui-create-new-character-button-tooltip = 最多允許 { $maxCharacters } 個字元。
+character-setup-gui-character-picker-button-delete-button = 刪除
+character-setup-gui-character-picker-button-confirm-delete-button = 確認
+character-setup-gui-save-panel-title = 未儲存的角色變更
+character-setup-gui-save-panel-save = 儲存
+character-setup-gui-save-panel-nosave = 不要儲存
+character-setup-gui-save-panel-cancel = 取消

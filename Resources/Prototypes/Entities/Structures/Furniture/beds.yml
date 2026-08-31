@@ -43,8 +43,8 @@
 - type: entity
   parent: [ BaseBed, StructureHealthFurniture ]
   id: Bed
-  name: bed
-  description: This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
+  name: 床 | bed
+  description: 這可以用來躺臥、睡覺或綁在身上。在此休息可獲得極其緩慢的恢復效果。 | This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
   components:
   - type: Destructible
     thresholds:
@@ -64,8 +64,8 @@
 - type: entity
   parent: Bed
   id: MedicalBed
-  name: medical bed
-  description: A hospital bed for patients to recover in. Resting here provides fairly slow healing.
+  name: 醫療用病床 | medical bed
+  description: 一張供患者休養的病床。在此休息可讓傷勢以相當緩慢的速度康復。 | A hospital bed for patients to recover in. Resting here provides fairly slow healing.
   components:
   - type: Sprite
     state: bed-MED
@@ -86,8 +86,8 @@
 - type: entity
   parent: [ BaseBed, StructureHealthFurniture ]
   id: DogBed
-  name: dog bed
-  description: A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off.
+  name: 狗床 | dog bed
+  description: 一張看起來很舒適的狗床。萬一重力突然消失，你甚至可以將寵物綁在上面。 | A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off.
   components:
   - type: Sprite
     state: dogbed
@@ -117,8 +117,8 @@
 - type: entity
   parent: Bed
   id: Mattress
-  name: mattress
-  description: Better sleep in that then on the floor i guess.
+  name: 床墊 | mattress
+  description: 我想，睡在那裡總比睡在地板上好些吧。 | Better sleep in that then on the floor i guess.
   components:
   - type: Sprite
     state: mattress
@@ -128,8 +128,8 @@
 - type: entity
   parent: [ BaseBed, StructureHealthFurniture ]
   id: WebBed
-  name: web bed
-  description: You got webbed.
+  name: 網床 | web bed
+  description: 你被網住了。 | You got webbed.
   components:
   - type: Damageable
     damageModifierSet: ThreadMod
@@ -153,8 +153,8 @@
 - type: entity
   parent: [ BaseBed,StructureHealthFurnitureStrong ]
   id: PsychBed
-  name: psychologist bed
-  description: An upholstered bed for the psychological care of patients.
+  name: 心理學家專用床 | psychologist bed
+  description: 一款用於患者心理照護的軟墊床。 | An upholstered bed for the psychological care of patients.
   components:
   - type: Sprite
     state: psychbed

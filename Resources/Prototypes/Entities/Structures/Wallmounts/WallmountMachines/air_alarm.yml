@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
   id: AirAlarm
-  name: air alarm
-  description: An air alarm. Alarms... air?
+  name: 氣體警報器 | air alarm
+  description: 氣體警報器。警報……空襲？ | An air alarm. Alarms... air?
   components:
   - type: StationAiWhitelist
   - type: Electrified
@@ -103,8 +103,8 @@
 - type: entity
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   id: AirAlarmAssembly
-  name: air alarm assembly
-  description: An air alarm. Doesn't look like it'll be alarming air any time soon.
+  name: 空氣警報裝置 | air alarm assembly
+  description: 一個氣體警報器。看來是警不了報了。 | An air alarm. Doesn't look like it'll be alarming air any time soon.
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air-alarm.rsi

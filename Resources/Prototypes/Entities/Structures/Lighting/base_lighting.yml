@@ -76,9 +76,9 @@
 - type: entity
   parent: [ BaseWallLight, BaseLightHousingDestructible ]
   id: AlwaysPoweredWallLight
-  name: light
+  name: 光 | light
   suffix: Always powered
-  description: "An always powered light."
+  description: "一盞始終通電的燈。 | An always powered light."
   components:
   - type: Construction
     graph: LightFixture
@@ -104,9 +104,9 @@
 - type: entity
   parent: AlwaysPoweredWallLight
   id: PoweredlightEmpty
-  name: light
+  name: 光 | light
   suffix: Empty
-  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  description: "一種照明裝置。當裝上燈管時，會從電源汲取電力並發出光線。 | A light fixture. Draws power and produces light when equipped with a light tube."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/Lighting/light-tube.rsi
@@ -255,9 +255,9 @@
 - type: entity
   parent: [ BaseWallLight, BaseLightHousingDestructible ]
   id: SmallLight
-  name: small light
+  name: 小燈 | small light
   suffix: Always Powered
-  description: "An always powered light."
+  description: "一盞始終通電的燈。 | An always powered light."
   components:
     - type: AmbientSound
       volume: -15
@@ -300,9 +300,9 @@
 - type: entity
   parent: SmallLight
   id: PoweredSmallLightEmpty
-  name: small light
+  name: 小燈 | small light
   suffix: Empty
-  description: "A light fixture. Draws power and produces light when equipped with a light bulb."
+  description: "一種照明裝置。在裝上燈泡後，即可通電並發光。 | A light fixture. Draws power and produces light when equipped with a light bulb."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/Lighting/light-small.rsi
@@ -417,8 +417,8 @@
 - type: entity
   parent: [ BaseWallLight, BaseLightHousingDestructible ]
   id: EmergencyLight
-  name: emergency light
-  description: A small light with an internal battery that turns on as soon as it stops receiving any power. Nanotrasen technology allows it to adapt its color to alert crew to the conditions of the station.
+  name: 應急燈 | emergency light
+  description: 一款內建電池的小型燈具，一旦停止接收任何電源，便會自動亮起。藉由 Nanotrasen 技術，它能根據太空站的狀況調整燈光顏色，以提醒船員。 | A small light with an internal battery that turns on as soon as it stops receiving any power. Nanotrasen technology allows it to adapt its color to alert crew to the conditions of the station.
   components:
   - type: PointLight
     enabled: false

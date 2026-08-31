@@ -1,10 +1,7 @@
 ﻿parse-bool-fail = Unable to parse {$arg} as a bool
-parse-float-fail = Unable to parse {$arg} as a float
-
-cmd-lockeyes-desc = Prevents eyes from being rotated any further.
-cmd-lockeyes-help = Usage: lockeyes <true/false>
-
-cmd-rotateeyes-desc = Rotates every player's current eye to the specified rotation
-cmd-rotateeyes-help = rotateeyes <degrees (default 0)>
-cmd-rotateeyes-command-count = Set {$count} eye rotations
-
+parse-float-fail = 無法將 { $arg } 解析為浮點數
+cmd-lockeyes-desc = 防止眼睛繼續轉動。
+cmd-lockeyes-help = 用法：lockeyes <true/false>
+cmd-rotateeyes-desc = 將每位玩家當前的視線旋轉至指定的旋轉角度
+cmd-rotateeyes-help = rotateeyes<degrees (default 0)>
+cmd-rotateeyes-command-count = 設定 { $count } 眼球旋轉角度

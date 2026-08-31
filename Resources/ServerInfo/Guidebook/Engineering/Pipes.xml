@@ -1,25 +1,26 @@
-﻿<Document>
-  # Pipes
-  Pipes are used to distribute gasses from one place to another.
-  There are a wide variety of pipes available to construct:
+﻿
+<Document>
+  # 管線
+  管線是用來將氣體從一處輸送至另一處的。
+  可供建造的管子種類繁多：
 
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="straight"/>
-    <GuideEntityEmbed Entity="GasPipeHalf" Caption="half"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Caption="bend"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="T junction"/>
-    <GuideEntityEmbed Entity="GasPipeFourway" Caption="fourway"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="直的"/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption="一半"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption="彎曲"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="T型路口"/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption="四向"/>
   </Box>
 
-  Pipes will [color=#a4885c]automatically connect[/color] to other pipes when anchored (or wrenched) to the hull to form a [textlink="network of pipes." link="PipeNetworks"]
-  A network of pipes is commonly called a [textlink="pipenet" link="PipeNetworks"].
+  管道在錨定（或用扳手固定）於船體時，會 [color=#a4885c]自動連接[/color] 至其他管道，從而形成 [textlink="管道網絡。" link="PipeNetworks"]
+  管線網絡通常被稱為 [textlink="pipenet" link="PipeNetworks"]。
 
-  Pipes will [color=red]not connect[/color] to pipes that are already connected to a different pipe.
-  For example, building a bent pipe on top of a straight pipe to form a makeshift T-junction will not work.
+  管線將 [color=red]不會連接[/color] 至已與其他管線連接的管線。
+  舉例來說，將彎管架設在直管上方以形成臨時 T 型接頭，是行不通的。
 
-  However, two pipes can share a tile as long as one isn't obstructing the other's connection to another pipe.
-  For example, two bend pipes can be placed on the same tile, with one moving gas from north to east, and the other moving gas from west to south.
+  然而，只要其中一條管道不會阻礙另一條管道與其他管道的連接，兩條管道便可共用同一塊瓷磚。
+  例如，可以在同一塊磁磚上放置兩根彎管，其中一根將氣體從北向東輸送，另一根則將氣體從西向南輸送。
 
-  You can color pipes (and most equipment that handles gasses) using a spray painter.
-  This is commonly done to distinguish the air and waste components of the station's Distro pipenet.
+  您可以使用噴漆槍為管子（以及大多數處理氣體的設備）上色。
+  此舉通常是用來區分該站 Distro 管網中的空氣與廢氣成分。
 </Document>

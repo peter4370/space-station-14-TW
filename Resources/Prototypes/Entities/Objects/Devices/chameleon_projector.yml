@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: ChameleonProjectorNoBattery
-  name: chameleon projector
-  description: Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+  name: 變色龍投影機 | chameleon projector
+  description: 全息寄生體技術可用於創造你周遭任何物體的硬光複製品。一旦被拾起或停用，偽裝效果即會消失。 | Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/chameleon_projector.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ChameleonProjectorNoBattery
   id: ChameleonProjector
-  name: chameleon projector
-  description: Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+  name: 變色龍投影機 | chameleon projector
+  description: 全息寄生體技術可用於創造你周遭任何物體的硬光複製品。一旦被拾起或停用，偽裝效果即會消失。 | Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
   suffix: Battery
   components:
   - type: Appearance
@@ -62,7 +62,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: PowerCellSlot
     cellSlotId: cell_slot
@@ -76,7 +76,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: ChameleonDisguise
-  name: Urist McKleiner
+  name: 尤里斯·麥克萊納 | Urist McKleiner
   components:
   # this and the name/desc get replaced, this is just placeholder incase something goes wrong
   - type: Sprite
@@ -94,8 +94,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseNoRot
-  name: Toggle Rotation
-  description: Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
+  name: 切換旋轉方向 | Toggle Rotation
+  description: 使用此功能可防止你的偽裝旋轉，讓你在某些情況下更容易隱藏身形。 | Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
   components:
   - type: Action
     itemIconStyle: BigAction
@@ -108,8 +108,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseAnchor
-  name: Toggle Anchored
-  description: For many objects you will want to be anchored to not be completely obvious.
+  name: 切換錨點 | Toggle Anchored
+  description: 對於許多物件來說，您會希望將其錨定，以免過於顯眼。 | For many objects you will want to be anchored to not be completely obvious.
   components:
   - type: Action
     itemIconStyle: BigAction

@@ -9,8 +9,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingEmpty
-  name: empty frame
-  description: An empty frame, waiting to be filled with art.
+  name: 空白畫框 | empty frame
+  description: 一個空蕩蕩的畫框，等待著被藝術填滿。 | An empty frame, waiting to be filled with art.
   components:
   - type: Sprite
     state: painting0
@@ -18,8 +18,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingMoony
-  name: Abstract No.1
-  description: An imposing abstract painting. It feels like it's pressuring you to do good.
+  name: 摘要第1號 | Abstract No.1
+  description: 一幅氣勢恢宏的抽象畫作。它彷彿在施加壓力，促使你行善。 | An imposing abstract painting. It feels like it's pressuring you to do good.
   components:
   - type: Sprite
     state: painting1
@@ -27,8 +27,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingPersistenceOfMemory
-  name: The Persistence of Memory
-  description: This painting depicts a barren landscape. It's filled with various surreal objects.
+  name: 《記憶的持久性》 | The Persistence of Memory
+  description: 這幅畫描繪了一片荒涼的景致，畫面中充滿了各式各樣的超現實物體。 | This painting depicts a barren landscape. It's filled with various surreal objects.
   components:
   - type: Sprite
     state: painting2
@@ -36,8 +36,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheSonOfMan
-  name: The Son of Man
-  description: This painting depicts a formal-looking man. His face is obscured by an apple.
+  name: 人子 | The Son of Man
+  description: 這幅畫描繪了一位看起來很正式的男子。他的臉被一個蘋果遮住了。 | This painting depicts a formal-looking man. His face is obscured by an apple.
   components:
   - type: Sprite
     state: painting3
@@ -45,8 +45,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheKiss
-  name: The Kiss
-  description: This painting depicts a couple in tender embrace. It's covered in glittery gold ornamentation.
+  name: 《吻》 | The Kiss
+  description: 這幅畫描繪了一對情侶深情相擁的模樣。畫作上佈滿了閃閃發光的金色裝飾。 | This painting depicts a couple in tender embrace. It's covered in glittery gold ornamentation.
   components:
   - type: Sprite
     state: painting4
@@ -54,8 +54,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheScream
-  name: The Scream
-  description: This painting depicts a distressed man standing on a bridge.
+  name: 《吶喊》 | The Scream
+  description: 這幅畫描繪了一位神情沮喪的男子站在一座橋上。 | This painting depicts a distressed man standing on a bridge.
   components:
   - type: Sprite
     state: painting5
@@ -63,8 +63,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheGreatWave
-  name: The Great Wave off Kanagawa
-  description: This painting depicts a majestic wave. It's throwing around several small fishing boats.
+  name: 《神奈川沖浪裏》 | The Great Wave off Kanagawa
+  description: 這幅畫描繪了一道氣勢磅礡的巨浪，正將幾艘小漁船拋來拋去。 | This painting depicts a majestic wave. It's throwing around several small fishing boats.
   components:
   - type: Sprite
     state: painting6
@@ -72,8 +72,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingCafeTerraceAtNight
-  name: Cafe Terrace at Night
-  description: This painting depicts lively night scene at a cafe.
+  name: 《夜色中的露天咖啡館》 | Cafe Terrace at Night
+  description: 這幅畫描繪了咖啡館裡生動活潑的夜景。 | This painting depicts lively night scene at a cafe.
   components:
   - type: Sprite
     state: painting7
@@ -81,8 +81,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingNightHawks
-  name: Nighthawks
-  description: This painting depicts a lonely-looking diner. The patrons are sitting glumly at the counter.
+  name: 《夜鷹》 | Nighthawks
+  description: 這幅畫描繪了一家看起來孤寂的餐館。顧客們神情沮喪地坐在吧檯前。 | This painting depicts a lonely-looking diner. The patrons are sitting glumly at the counter.
   components:
   - type: Sprite
     state: painting8
@@ -90,8 +90,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSkeletonCigarette
-  name: Skull of a Skeleton with Burning Cigarette
-  description: This painting depicts an impressionist portrait of a skeleton. A lit cigarette is wedged between its teeth.
+  name: 手持燃著的香菸的骷髏頭骨 | Skull of a Skeleton with Burning Cigarette
+  description: 這幅畫以印象派風格描繪了一具骷髏的肖像。它牙縫間夾著一支點燃的香菸。 | This painting depicts an impressionist portrait of a skeleton. A lit cigarette is wedged between its teeth.
   components:
   - type: Sprite
     state: painting9
@@ -99,8 +99,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSkeletonBoof
-  name: Skull of MLG Skeleton with Fat Boof
-  description: Painting goes hard. Feel free to screenshot.
+  name: MLG 骷髏頭骨，附肥大臀部 | Skull of MLG Skeleton with Fat Boof
+  description: 繪畫過程很艱辛。歡迎隨意截圖。 | Painting goes hard. Feel free to screenshot.
   components:
   - type: Sprite
     state: painting10
@@ -108,8 +108,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingPrayerHands
-  name: Study of the Hands of an Apostle
-  description: This painting depicts a pair of hands clasped in prayer.
+  name: 《使徒之手》研究 | Study of the Hands of an Apostle
+  description: 這幅畫描繪了一雙合十祈禱的手。 | This painting depicts a pair of hands clasped in prayer.
   components:
   - type: Sprite
     state: painting11
@@ -117,8 +117,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingOldGuitarist
-  name: The Old Guitarist
-  description: This painting depicts an old, thin man clutching a guitar. His face looks shallow and sickly.
+  name: 《老吉他手》 | The Old Guitarist
+  description: 這幅畫描繪了一位年老瘦弱的男子，正緊握著一把吉他。他的臉龐看起來凹陷且病懨懨的。 | This painting depicts an old, thin man clutching a guitar. His face looks shallow and sickly.
   components:
   - type: Sprite
     state: painting12
@@ -126,8 +126,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingOlympia
-  name: Olympia
-  description: This painting depicts a nude woman lying on a bed. A servant is tending to her.
+  name: 奧林匹亞 | Olympia
+  description: 這幅畫描繪了一名裸體女子躺在床上。一名僕人正在照料她。 | This painting depicts a nude woman lying on a bed. A servant is tending to her.
   components:
   - type: Sprite
     state: painting13
@@ -135,8 +135,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSaturn
-  name: Saturn Devouring His Son
-  description: This painting depicts giant devouring a human corpse. He has a frightening look in his eyes.
+  name: 《土星吞噬其子》 | Saturn Devouring His Son
+  description: 這幅畫描繪了一隻巨獸正在吞噬一具人類屍體。它的眼神令人不寒而慄。 | This painting depicts giant devouring a human corpse. He has a frightening look in his eyes.
   components:
   - type: Sprite
     state: painting14
@@ -144,8 +144,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSleepingGypsy
-  name: The Sleeping Gypsy
-  description: This painting depicts a gypsy sleeping among their belongings in the desert. A lion stands behind them.
+  name: 《沉睡的吉普賽人》 | The Sleeping Gypsy
+  description: 這幅畫描繪了一名吉普賽人在沙漠中，睡在自己的隨身物品之間。他們身後站著一頭獅子。 | This painting depicts a gypsy sleeping among their belongings in the desert. A lion stands behind them.
   components:
   - type: Sprite
     state: painting15
@@ -153,8 +153,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingRedBlueYellow
-  name: Composition with Red Blue and Yellow
-  description: This painting is made up of several boxes. They are filled with flat shades of color.
+  name: 紅、藍、黃的構圖 | Composition with Red Blue and Yellow
+  description: 這幅畫由幾個方塊組成。這些方塊塗滿了平塗的色塊。 | This painting is made up of several boxes. They are filled with flat shades of color.
   components:
   - type: Sprite
     state: painting16
@@ -162,8 +162,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingAmogusTriptych
-  name: Amogus Triptych (Untitled.)
-  description: This painting is made up of 3 individual sections. Each depicts a religious figure.
+  name: 《阿莫古斯三聯畫》（無題） | Amogus Triptych (Untitled.)
+  description: 這幅畫由三個獨立部分組成，每個部分都描繪了一位宗教人物。 | This painting is made up of 3 individual sections. Each depicts a religious figure.
   components:
   - type: Sprite
     state: painting17
@@ -171,8 +171,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingHelloWorld
-  name: Hello World
-  description: This painting is made up of lots of multicolored squares arranged in a peculiar pattern. Perhaps it means something?
+  name: Hello World | Hello World
+  description: 這幅畫由許多色彩繽紛的正方形組成，排列成一種奇特的圖案。這或許代表著某種意義？ | This painting is made up of lots of multicolored squares arranged in a peculiar pattern. Perhaps it means something?
   components:
   - type: Sprite
     state: painting18
@@ -180,8 +180,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSadClown
-  name: Sad Clown
-  description: This painting is a sad clown! It sparks joy.
+  name: 悲傷的小丑 | Sad Clown
+  description: 這幅畫畫的是個悲傷的小丑！它卻讓人感到喜悅。 | This painting is a sad clown! It sparks joy.
   components:
   - type: Sprite
     state: painting19

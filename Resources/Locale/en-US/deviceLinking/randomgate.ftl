@@ -1,3 +1,3 @@
-random-gate-menu-settings = Success Probability (%):
-random-gate-menu-setup = Random Gate Setup
-random-gate-menu-apply = Apply
+random-gate-menu-settings = 成功機率（%）：
+random-gate-menu-setup = 隨機閘門設定
+random-gate-menu-apply = 申請

@@ -1,6 +1,6 @@
-access-reader-unknown-id = Unknown
-access-reader-access-label = [color=yellow]{$access}[/color]
-access-reader-examination = Access is generally restricted to personnel with {$access} access.
-access-reader-examination-functionality-restricted = {$access} access may be required to use certain functions.
-access-reader-access-settings-modified-message = [italic]The access reader has been modified to accept personnel with {$access} access.[/italic]
-access-reader-access-settings-removed-message = [italic]The settings on the access reader have been deleted.[/italic]
+access-reader-unknown-id = 未知
+access-reader-access-label = [color=yellow]{ $access }[/color]
+access-reader-examination = 存取權限通常僅限於具備 { $access } 存取權限的人員。
+access-reader-examination-functionality-restricted = { $access } 使用某些功能時可能需要存取權限。
+access-reader-access-settings-modified-message = [斜體]門禁讀卡器已進行修改，現可接受持有 { $access } 門禁權限的人員進入。[/斜體]
+access-reader-access-settings-removed-message = [斜體]存取讀取器的設定已被刪除。[/斜體]

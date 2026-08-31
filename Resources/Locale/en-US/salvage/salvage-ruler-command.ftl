@@ -1,2 +1,2 @@
-cmd-salvageruler-desc = Measures grids on this map to get a total world AABB. Use for salvage bounds specifications.
-cmd-salvageruler-help = Usage: {$command}
+cmd-salvageruler-desc = 測量此地圖上的網格，以取得全球 AABB。用於制定打撈範圍規範。
+cmd-salvageruler-help = 用法：{ $command }

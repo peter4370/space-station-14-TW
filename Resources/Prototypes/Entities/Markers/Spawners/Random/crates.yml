@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: CrateEmptySpawner
-  name: Empty Crate Spawner
+  name: 空箱子生成器 | Empty Crate Spawner
   components:
   - type: Sprite
     layers:
@@ -158,7 +158,7 @@
       weight: 0.2
 
 - type: entity
-  name: Filled Crate Spawner
+  name: 裝滿的貨箱生成器 | Filled Crate Spawner
   id: CrateFilledSpawner
   suffix: Low Value
   parent: MarkerBase
@@ -175,7 +175,7 @@
     offset: 0.0
 
 - type: entity
-  name: random engineering crate spawner
+  name: 隨機工程箱生成器 | random engineering crate spawner
   id: LootSpawnerRandomCrateEngineering
   parent: MarkerBase
   components:
@@ -224,7 +224,7 @@
     offset: 0.0
 
 - type: entity
-  name: random security crate spawner
+  name: 隨機安全箱生成器 | random security crate spawner
   id: LootSpawnerRandomCrateSecurity
   parent: MarkerBase
   components:
@@ -269,7 +269,7 @@
     - id: CrateLockBoxService
 
 - type: entity
-  name: random lockbox spawner
+  name: 隨機寶箱生成器 | random lockbox spawner
   id: LootSpawnerRandomLockbox
   parent: MarkerBase
   suffix: 90%

@@ -1,17 +1,14 @@
-signal-linker-component-saved = Successfully saved link to {$machine}!
-signal-linker-component-linked-port = Successfully linked {$machine1}:{$port1} to {$machine2}:{$port2}!
-signal-linker-component-unlinked-port = Successfully unlinked {$machine1}:{$port1} from {$machine2}:{$port2}!
-signal-linker-component-connection-refused = {$machine} refused the connection!
-signal-linker-component-max-connections-receiver = Maximum connections reached on the receiver!
-signal-linker-component-max-connections-transmitter = Maximum connections reached on the transmitter!
-
-signal-linker-component-type-mismatch = The port's type does not match the type of the saved port!
-
-signal-linker-component-out-of-range = Connection is out of range!
-
+signal-linker-component-saved = 已成功儲存 { $machine } 的連結！
+signal-linker-component-linked-port = 已成功將 { $machine1 }:{ $port1 } 連結至 { $machine2 }:{ $port2 }！
+signal-linker-component-unlinked-port = 已成功將 { $machine1 }:{ $port1 } 與 { $machine2 }:{ $port2 } 解除關聯！
+signal-linker-component-connection-refused = { $machine } 拒絕了此連線！
+signal-linker-component-max-connections-receiver = 接收端已達到最大連線數！
+signal-linker-component-max-connections-transmitter = 發射器已達到最大連接數！
+signal-linker-component-type-mismatch = 此連接埠的類型與已儲存連接埠的類型不符！
+signal-linker-component-out-of-range = 連線超出範圍！
 # Verbs
-signal-linking-verb-text-link-default = Link default ports
-signal-linking-verb-success = Connected all default {$machine} links.
-signal-linking-verb-fail = Failed to connect all default {$machine} links.
-signal-linking-verb-disabled-no-transmitter = First interact with a transmitter, then link default ports.
-signal-linking-verb-disabled-no-receiver = First interact with a receiver, then link default ports.
+signal-linking-verb-text-link-default = 連結預設埠
+signal-linking-verb-success = 已連線所有預設 { $machine } 連結。
+signal-linking-verb-fail = 無法連線至所有預設 { $machine } 連結。
+signal-linking-verb-disabled-no-transmitter = 首先與發射器建立連線，然後連結預設埠。
+signal-linking-verb-disabled-no-receiver = 首先與接收器建立連線，然後連結預設埠。

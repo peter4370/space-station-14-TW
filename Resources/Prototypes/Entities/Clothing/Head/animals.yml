@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalCat
-  name: grey cat hat
-  description: A cute and fluffy head of a grey cat.
+  name: 灰色貓咪帽 | grey cat hat
+  description: 一隻灰色貓咪那可愛又毛茸茸的頭。 | A cute and fluffy head of a grey cat.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/cat.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalCatBrown
-  name: brown cat hat
-  description: A cute and fluffy head of a brown cat.
+  name: 棕色貓咪帽子 | brown cat hat
+  description: 一隻棕色貓咪那可愛又毛茸茸的頭。 | A cute and fluffy head of a brown cat.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/cat2.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalCatBlack
-  name: black cat hat
-  description: A cute and fluffy head of a black cat.
+  name: 黑貓帽 | black cat hat
+  description: 一隻黑貓那可愛又毛茸茸的頭。 | A cute and fluffy head of a black cat.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/cat3.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalHeadslime
-  name: headslime hat
-  description: A green, sticky headslime, you put it on your head.
+  name: 頭部黏液帽 | headslime hat
+  description: 一種綠色、黏糊糊的「頭黏液」，你可以把它戴在頭上。 | A green, sticky headslime, you put it on your head.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/headslime.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatAnimalMonkey
-  name: monkey hat
-  description: That's a monkey head. It has a hole on a mouth to eat bananas.
+  name: 猴子帽 | monkey hat
+  description: 那是一顆猴頭。它的嘴巴上有個洞，用來吃香蕉。 | That's a monkey head. It has a hole on a mouth to eat bananas.
   components:
   - type: Sprite
     sprite: Clothing/Head/Animals/monkey.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponShotgun
+  name: 基礎武器：霰彈槍 | BaseWeaponShotgun
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: A rooty tooty point and shooty.
+  description: 一款超棒的隨拍相機。 | A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -48,11 +48,11 @@
     price: 500
 
 - type: entity
-  name: Bulldog
+  name: 鬥牛犬 | Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
-  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
+  description: 一款專為近距離作戰設計的自動彈匣供彈霰彈槍。後座力強得像一匹吃了類固醇的騾子。使用.50口徑霰彈槍彈。 | An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -86,7 +86,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 雜誌 | Magazine
         startingItem: MagazineShotgun
         priority: 2
         whitelist:
@@ -109,10 +109,10 @@
     price: 5000
 
 - type: entity
-  name: double-barreled shotgun
+  name: 雙管獵槍 | double-barreled shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderContraband]
   id: WeaponShotgunDoubleBarreled
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: 一部不朽的經典之作。使用.50口徑霰彈槍彈。 | An immortal classic. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
@@ -131,20 +131,20 @@
     deconstructionTarget: null
 
 - type: entity
-  name: double-barreled shotgun
+  name: 雙管獵槍 | double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: 一部不朽的經典之作。使用.50口徑霰彈槍彈。 | An immortal classic. Uses .50 shotgun shells.
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: 執法者 | Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
-  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
+  description: 一款頂級半自動霰彈槍，更是所有安全部隊的驕傲。使用 .50 口徑霰彈槍彈。 | A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -164,10 +164,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Kammerer
+  name: 卡默勒 | Kammerer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
-  description: An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.
+  description: 一款經典而可靠的设计，深受許多世界中非正規部隊的青睞。使用.50口徑霰彈槍彈。 | An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.
   components: # intend for Kammerer to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
@@ -185,10 +185,10 @@
     - WeaponShotgunKammerer
 
 - type: entity
-  name: sawn-off shotgun
+  name: 鋸短霰彈槍 | sawn-off shotgun
   parent: [ BaseWeaponShotgun, BaseSecurityBartenderContraband ]
   id: WeaponShotgunSawn
-  description: Groovy! Uses .50 shotgun shells.
+  description: 太酷了！使用.50口徑霰彈槍彈。 | Groovy! Uses .50 shotgun shells.
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
@@ -211,10 +211,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: sawn-off shotgun
+  name: 鋸短霰彈槍 | sawn-off shotgun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: Groovy! Uses .50 shotgun shells.
+  description: 太酷了！使用.50口徑霰彈槍彈。 | Groovy! Uses .50 shotgun shells.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -225,10 +225,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: handmade pistol
+  name: 手工製手槍 | handmade pistol
   parent: [BaseWeaponShotgun, BaseMinorContraband]
   id: WeaponShotgunHandmade
-  description: Looks unreliable. Uses .50 shotgun shells.
+  description: 看起來不太可靠。使用.50口徑霰彈槍彈。 | Looks unreliable. Uses .50 shotgun shells.
   components:
   - type: Item
     size: Small
@@ -252,11 +252,11 @@
     price: 0
 
 - type: entity
-  name: blunderbuss
+  name: 短管火槍 | blunderbuss
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: Deadly at close range.
+  description: 在近距離內極具殺傷力。 | Deadly at close range.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
@@ -269,10 +269,10 @@
     price: 0
 
 - type: entity
-  name: improvised shotgun
+  name: 自製霰彈槍 | improvised shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunImprovised
-  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
+  description: 一把爛透了、手工打造的霰彈槍，使用 .50 口徑霰彈槍彈。槍膛內僅能裝填一發子彈。 | A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
@@ -293,7 +293,7 @@
     price: 20
 
 - type: entity
-  name: improvised shotgun
+  name: 自製霰彈槍 | improvised shotgun
   parent: WeaponShotgunImprovised
   suffix: Loaded
   id: WeaponShotgunImprovisedLoaded
@@ -304,8 +304,8 @@
 - type: entity
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunHushpup
-  name: Hushpup
-  description: An obscure modification of the Enforcer, fitted with an experimental muffler. Great for those with a strict moral code. Uses .50 shotgun shells.
+  name: Hushpup | Hushpup
+  description: 一款鮮為人知的「執法者」改裝型，配備了實驗性消音器。非常適合那些道德標準嚴格的人。使用.50口徑霰彈槍彈。 | An obscure modification of the Enforcer, fitted with an experimental muffler. Great for those with a strict moral code. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/hushpup.rsi

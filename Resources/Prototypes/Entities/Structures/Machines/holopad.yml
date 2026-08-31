@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseConstructibleMachineDestructible ]
   id: Holopad
-  name: holopad
-  description: "A floor-mounted device for projecting holographic images."
+  name: 全息平板 | holopad
+  description: "一種用於投射全像影像的地面安裝式裝置。 | A floor-mounted device for projecting holographic images."
   components:
   - type: Transform
     anchored: true
@@ -103,8 +103,8 @@
           collection: MetalGlassBreak
 
 - type: entity
-  name: long-range holopad
-  description: "A floor-mounted device for projecting holographic images to similar devices that are far away."
+  name: 長距離全息板 | long-range holopad
+  description: "一種設置於地面的裝置，用於將全息影像投射至遠處的類似裝置上。 | A floor-mounted device for projecting holographic images to similar devices that are far away."
   parent: Holopad
   id: HolopadLongRange
   components:
@@ -116,8 +116,8 @@
     ignoreTelephonesOnSameGrid: true
 
 - type: entity
-  name: quantum entangling holopad
-  description: "An floor-mounted device for projecting holographic images to similar devices at extreme distances."
+  name: 量子糾纏全息板 | quantum entangling holopad
+  description: "一種地面安裝式裝置，用於將全息影像投射至極遠距離處的類似裝置上。 | An floor-mounted device for projecting holographic images to similar devices at extreme distances."
   parent: Holopad
   id: HolopadUnlimitedRange
   components:
@@ -129,8 +129,8 @@
     ignoreTelephonesOnSameGrid: true
 
 - type: entity
-  name: bluespace holopad
-  description: "An experimental floor-mounted device for projecting holographic images via bluespace."
+  name: bluespace 全息面板 | bluespace holopad
+  description: "一款透過「藍色空間」投影全息影像的實驗性落地式裝置。 | An experimental floor-mounted device for projecting holographic images via bluespace."
   parent: Holopad
   id: HolopadBluespace
   suffix: Unrestricted range
@@ -146,7 +146,7 @@
 # These are spawned by holopads
 - type: entity
   id: HolopadHologram
-  name: hologram
+  name: 全息圖 | hologram
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Transform

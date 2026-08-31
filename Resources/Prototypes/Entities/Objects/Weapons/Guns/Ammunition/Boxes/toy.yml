@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BoxDonkSoftBase
-  name: toy ammunition box
+  name: 玩具彈藥箱 | toy ammunition box
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -17,8 +17,8 @@
 - type: entity
   parent: BoxDonkSoftBase
   id: BoxDonkSoftBox
-  name: foam dart box
-  description: A cardboard box of foam darts.
+  name: 泡棉飛鏢盒 | foam dart box
+  description: 一盒裝有泡棉飛鏢的紙箱。 | A cardboard box of foam darts.
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: BoxCartridgeCap
-  name: cap gun cartridge box
-  description: A cardboard box of cap gun cartridges.
+  name: 玩具槍子彈盒 | cap gun cartridge box
+  description: 一盒紙盒裝的玩具手槍子彈。 | A cardboard box of cap gun cartridges.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCap

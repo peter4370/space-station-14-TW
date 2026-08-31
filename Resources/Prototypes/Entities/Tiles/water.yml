@@ -1,8 +1,8 @@
 - type: entity
   parent: SolutionTile
   id: FloorWaterEntity
-  name: water
-  description: A real thirst quencher.
+  name: 水 | water
+  description: 這真是解渴的好東西。 | A real thirst quencher.
   placement:
     mode: SnapgridCenter
     snap:
@@ -70,8 +70,8 @@
 - type: entity
   parent: FloorWaterEntity
   id: FloorSwimmingPoolEntity
-  name: swimming pool
-  description: Refreshing and relaxing!
+  name: 游泳池 | swimming pool
+  description: 令人神清氣爽、放鬆身心！ | Refreshing and relaxing!
   components:
   - type: FloorOccluder
   - type: Sprite

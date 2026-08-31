@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseFoam
   id: Smoke
-  name: smoke
+  name: 煙 | smoke
   categories: [ HideSpawnMenu ]
   components:
   - type: Occluder
@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseFoam
   id: TearGasSmoke
-  name: tear gas
+  name: 催淚瓦斯 tear gas | tear gas
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 - type: entity
   parent: Smoke
   id: WizardSmoke
-  name: smoke
+  name: 煙 | smoke
   categories: [ HideSpawnMenu ]
   components:
   - type: Smoke
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseFoam
   id: Foam
-  name: foam
+  name: 泡沫 | foam
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 
 - type: entity
   id: MetalFoam
-  name: metal foam
+  name: 金屬泡沫 | metal foam
   categories: [ HideSpawnMenu ]
   parent: Foam
   components:
@@ -140,7 +140,7 @@
 
 - type: entity
   id: IronMetalFoam
-  name: iron metal foam
+  name: 鐵金屬泡沫 | iron metal foam
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -149,7 +149,7 @@
 
 - type: entity
   id: AluminiumMetalFoam
-  name: aluminium metal foam
+  name: 鋁金屬泡沫 | aluminium metal foam
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -160,7 +160,7 @@
   abstract: true
   parent: StructureHealthBarrierWeak
   id: BaseFoamedMetal
-  name: base foamed metal
+  name: 基底發泡金屬 | base foamed metal
   placement:
     mode: SnapgridCenter
     snap:
@@ -202,8 +202,8 @@
 
 - type: entity
   id: FoamedIronMetal
-  name: foamed iron metal
-  description: "For sealing hull breaches."
+  name: 發泡鐵金屬 | foamed iron metal
+  description: "用於封堵船體破口。 | For sealing hull breaches."
   parent: BaseFoamedMetal
   components:
   - type: Sprite
@@ -225,8 +225,8 @@
 - type: entity
   parent: BaseFoamedMetal
   id: FoamedAluminiumMetal
-  name: foamed aluminium metal
-  description: "Leftover sparse foam from an aluminum foam grenade. Easily destroyed."
+  name: 發泡鋁金屬 | foamed aluminium metal
+  description: "來自鋁質泡沫手榴彈的殘餘稀疏泡沫。極易被摧毀。 | Leftover sparse foam from an aluminum foam grenade. Easily destroyed."
   components:
   - type: Sprite
     drawdepth: Effects

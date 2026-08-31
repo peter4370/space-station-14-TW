@@ -1,34 +1,35 @@
-﻿<Document>
-  # Singularity Engine
-  The Singularity Engine is a powerful generator that uses a contained singularity to produce energy for the station.
+﻿
+<Document>
+  # 奇點引擎
+  奇點引擎是一款強大的發電機，利用其內含的奇點為空間站產生能源。
 
   <Box>
     <GuideEntityEmbed Entity="SingularityGenerator"/>
     <GuideEntityEmbed Entity="Singularity"/>
   </Box>
 
-  It generates power by collecting the radiation emitted by the singularity using Radiation Collectors and gaseous plasma.
+  它透過「輻射收集器」與氣態等離子體，收集奇點所發出的輻射來發電。
 
-  ## Starting the Singularity Engine
-  To start the Singularity Engine, engineers must follow these steps:
-  - Place the Singularity Generator in the middle of the containment field. Some stations start with the generator already in place, while others require engineers to bring it from cold storage.
-  - Turn on the four Containment Field Generators.
-  - Turn on and lock the Emitters.
-  - Confirm that the Containment Field Generators have created a Containment Field around the Singularity.
-  - Turn on the Radiation Collectors. These require plasma to produce power. They might not come fueled, so be sure to refill them.
-  - Construct the Particle Accelerator.
-  - Turn on the Particle Accelerator Control Computer and set the power level to the desired power level.
+  ## 啟動奇點引擎
+  要啟動奇點引擎，工程師必須遵循以下步驟：
+  - 將奇點發生器放置於封鎖場的正中央。 有些電站上線時發電機已就位，而有些則需要工程師從冷藏庫將發電機運來。
+  - 啟動四台封鎖場發生器。
+  - 開啟並鎖定發射器。
+  - 確認「封鎖場發生器」已在奇點周圍建立了一個封鎖場。
+  - 開啟輻射收集器。 這些裝置需要利用等離子體來發電。 這些物品可能沒有預先加滿燃料，因此請務必為它們補充燃料。
+  - 建造粒子加速器。
+  - 開啟粒子加速器控制電腦，並將功率設定為所需的功率等級。
 
-  Once these steps are complete, the Singularity Engine will start producing power for the station.
-  Be sure to monitor the singularity's power level and containment field to prevent it from escaping and destroying the station.
-  Check in to refill the collectors often, as they will run out of plasma over time.
+  完成這些步驟後，奇點引擎將開始為該站供電。
+  請務必監控奇點的能量水平與封鎖場，以防止其逃逸並摧毀太空站。
+  請經常前往收集器進行補充，因為隨著時間推移，收集器內的血漿會逐漸耗盡。
 
-  ## Containment Field
-  To prevent the singularity from escaping and destroying the station, engineers must contain it within a Containment Field.
+  ## 封鎖場
+  為防止奇點逃逸並摧毀空間站，工程師必須將其封鎖在封鎖場內。
 
-  It is suggested to use a max size containment field for the singularity. Any smaller and the singularity may outgrow its field and escape.
+  建議針對奇點使用具有最大尺寸限制的封裝場。 若再小一點，奇點可能會超出其場的範圍而逃逸。
 
-  Containment field generators should be arranged in a square, with 7 tiles of spacing between each field generator.
+  隔離場發生器應以正方形陣列排列，每個發生器之間應間隔 7 格。
 
   <Box>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
@@ -36,42 +37,42 @@
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
   </Box>
 
-  ## Power Levels and Decay
-  Because singularities emit radiation, they decay, losing power over time.
+  ## 功率等級與衰減
+  由於奇點會發出輻射，因此會隨時間衰減，功率也隨之降低。
 
-  To counter this decay, the Particle Accelerator emits particles that collide with the singularity, feeding and sustaining it.
+  為了抵消這種衰變，粒子加速器會釋放粒子，使這些粒子與奇點發生碰撞，藉此為奇點提供能量並維持其存在。
 
-  Singularities have defined power levels, which determine their radiation output.
-  Engineers can increase or decrease the singularity's power level by adjusting the power level on the Particle Accelerator Control Computer.
+  奇點具有特定的功率等級，這些等級決定了它們的輻射輸出。
+  工程師可透過調整粒子加速器控制電腦上的功率等級，來提高或降低奇點的功率等級。
 
-  Particle Accelerators normally operate between power levels 1 and 3, which translate to a power level of 1 to 3 on the singularity.
+  粒子加速器通常在功率等級 1 至 3 之間運作，這相當於奇點上的功率等級 1 至 3。
 
-  Power levels also determine how big the singularity is, with higher power levels sustaining larger singularities capable of producing more power.
+  功率等級也決定了奇點的大小，功率等級越高，所能維持的奇點就越大，且能產生更多的能量。
 
-  ## Producing Power
-  The Singularity Engine produces power by capturing the radiation emitted by it using Radiation Collectors.
+  ## 發電
+  奇點引擎透過輻射收集器捕獲自身發出的輻射，藉此產生電力。
   <Box>
     <GuideEntityEmbed Entity="RadiationCollector"/>
     <GuideEntityEmbed Entity="PlasmaTank"/>
   </Box>
-  They require gaseous plasma to function. The plasma containers attached to the collectors must be filled with plasma to produce power.
+  它們需要氣態等離子體才能運作。 安裝在集熱器上的等離子體容器必須注入等離子體，才能產生電力。
 
-  You can turn on the collectors by interacting with them using [color=yellow][bold][keybind="Use"][/bold][/color].
+  您可以透過與收集器互動，並使用 [color=yellow][bold][keybind="Use"][/bold][/color] 來啟動它們。
 
-  You can also eject the tank by interacting with the collector using [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
-  From here, you can refill the tank with plasma using a plasma canister and reinsert it into the collector.
+  您也可以透過與收集器互動，並按下 [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color] 來彈出儲槽。
+  在此處，您可以使用等離子罐為儲槽補充等離子體，然後將其重新裝回收集器中。
 
-  The maximum power the radiation collector can produce is determined by:
-  - The amount of radiation it is capturing (which is effectively the Singularity's power level)
-  - The amount of plasma it has in its connected tank
+  輻射收集器所能產生的最大功率取決於以下因素：
+  - 其捕獲的輻射量（這實際上就是奇點的功率等級）
+  - 其連接的儲槽中所含的等離子體量
 
-  Over time the collector will drain the tank of plasma, which reduces it's effective power output.
-  Eventually the tank will be empty, and the collector will stop producing power. Be sure to refill the tank often!
+  隨著時間推移，收集器會逐漸耗盡儲槽中的等離子體，從而降低其有效功率輸出。
+  最終，儲能槽將會耗盡，集電器便會停止發電。 請務必經常為水箱加水！
 
-  ## Radiation Protection
-  The singularity emits a massive amount of radiation, which can kill crew members who are not wearing proper protection.
-  Be sure to wear a radiation suit or an engineering hardsuit when working near the singularity.
-  This won't completely negate the radiation, but it will reduce the damage you take.
+  ## 輻射防護
+  奇點會釋放出大量輻射，未穿戴適當防護裝備的船員可能會因此喪命。
+  在奇點附近工作時，務必穿著輻射防護服或工程用重型防護服。
+  這雖然無法完全消除輻射，但能減輕你所承受的傷害。
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitEngineering"/>
@@ -83,23 +84,23 @@
     <GuideEntityEmbed Entity="GeigerCounter"/>
   </Box>
 
-  The Chief Engineer has a special hardsuit that negates all radiation damage, which allows them to work near the singularity without fear of accumulating radiation damage over time.
+  總工程師配備了一套特殊的防護服，能抵消所有輻射傷害，這使他們能夠在奇點附近工作，無需擔心隨時間累積的輻射傷害。
 
-  ## Singularity Properties
-  The Singularity has several properties, which both make it dangerous and useful for power generation:
-  - It has a strong gravitational pull that can suck in objects and crew members.
-  - It has an event horizon, which can permanently destroy any object that touches it, whether it be a crew member or station equipment. Any object swallowed by the singularity is lost forever, and feeds the singularity.
-  - It constantly emits radiation that can harm crew members who aren't wearing proper protection.
-  - The singularity can decay over time, losing power and radiation output.
+  ## 奇點的特性
+  奇點具有幾項特性，這些特性使其既危險又對發電有所助益：
+  - 它具有強大的引力，能夠將物體和船員吸入其中。
+  - 它擁有一個事件視界，任何接觸到它的物體——無論是船員還是太空站設備——都將被永久摧毀。 任何被奇點吞噬的物體都將永遠消失，並成為奇點的養分。
+  - 它會持續釋放輻射，可能對未穿戴適當防護裝備的機組人員造成傷害。
+  - 奇點會隨時間推移而衰變，逐漸失去能量與輻射輸出。
 
-  ## Loosed Singularity (Singuloose)
-  If the singularity escapes its containment field, it will begin to consume the station, destroying everything in its path.
-  The more it consumes, the larger it grows, making it harder to potentially contain it again.
+  ## 脫韁奇點（Singuloose）
+  倘若奇點逃離其封鎖場，便會開始吞噬太空站，摧毀沿途的一切。
+  它消耗得越多，體積就越大，這使得日後要再次加以控制可能變得更加困難。
 
-  The singularity can be destroyed by firing antiparticles at it using a Portable Particle Decelerator, but this is a risky and dangerous operation that requires careful planning and execution.
-  Often multiple decelerators firing at once are needed to destroy a singularity.
+  雖然可以利用「便攜式粒子減速器」向奇點發射反粒子來摧毀它，但這是一項風險極高且危險的操作，需要仔細規劃與執行。
+  通常需要同時啟動多個減速器，才能摧毀一個奇點。
 
-  Portable Particle Decelerators can be either researched and made by the Research Department, or they can be bought from Cargo.
+  「攜帶式粒子減速器」可由研究部門進行研發並製造，亦可從「貨運」處購買。
 
   <Box>
     <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>

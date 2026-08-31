@@ -1,8 +1,8 @@
 - type: entity
   parent: StructureHealthMachineWeak
   id: Morgue
-  name: morgue
-  description: Used to store bodies until someone fetches them. Includes a high-tech alert system for false-positives!
+  name: 停屍間 | morgue
+  description: 用來存放遺體，直到有人前來領取為止。配備了針對誤報的高科技警報系統！ | Used to store bodies until someone fetches them. Includes a high-tech alert system for false-positives!
   placement:
     mode: SnapgridCenter
   components:
@@ -97,8 +97,8 @@
 - type: entity
   parent: StructureHealthMachineWeak
   id: Crematorium
-  name: crematorium
-  description: A human incinerator. Works well on barbecue nights.
+  name: 火化場 | crematorium
+  description: 一座人類焚化爐。在烤肉之夜特別管用。 | A human incinerator. Works well on barbecue nights.
   placement:
     mode: SnapgridCenter
   components:

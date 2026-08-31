@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomFoodSingle
-  name: random food spawner
+  name: 隨機食物生成器 | random food spawner
   suffix: Single Serving
   placement:
     mode: AlignTileAny

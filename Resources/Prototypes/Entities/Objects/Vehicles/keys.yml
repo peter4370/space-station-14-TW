@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: VehicleKeyJanicart
-  name: janicart keys
-  description: Interesting design.
+  name: janicart 密鑰 | janicart keys
+  description: 設計頗有意思。 | Interesting design.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/janicart.rsi

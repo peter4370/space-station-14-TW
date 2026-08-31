@@ -121,7 +121,7 @@
   abstract: true
   id: BaseVeinCoal
   suffix: Coal
-  description: An ore vein rich with coal.
+  description: 一條富含煤炭的礦脈。 | An ore vein rich with coal.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -136,7 +136,7 @@
   abstract: true
   id: BaseVeinGold
   suffix: Gold
-  description: An ore vein rich with gold.
+  description: 一條富含黃金的礦脈。 | An ore vein rich with gold.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -151,7 +151,7 @@
   abstract: true
   id: BaseVeinDiamond
   suffix: Diamond
-  description: An ore vein rich with diamonds.
+  description: 一條富含鑽石的礦脈。 | An ore vein rich with diamonds.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -166,7 +166,7 @@
   abstract: true
   id: BaseVeinPlasma
   suffix: Plasma
-  description: An ore vein rich with plasma.
+  description: 一條富含等離子的礦脈。 | An ore vein rich with plasma.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -181,7 +181,7 @@
   abstract: true
   id: BaseVeinQuartz
   suffix: Quartz
-  description: An ore vein rich with quartz.
+  description: 一條富含石英的礦脈。 | An ore vein rich with quartz.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -196,7 +196,7 @@
   abstract: true
   id: BaseVeinSilver
   suffix: Silver
-  description: An ore vein rich with silver.
+  description: 一條富含銀礦的礦脈。 | An ore vein rich with silver.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -211,7 +211,7 @@
   abstract: true
   id: BaseVeinSteel
   suffix: Steel
-  description: An ore vein rich with iron.
+  description: 一條富含鐵礦的礦脈。 | An ore vein rich with iron.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -226,7 +226,7 @@
   abstract: true
   id: BaseVeinUranium
   suffix: Uranium
-  description: An ore vein rich with uranium.
+  description: 一條富含鈾的礦脈。 | An ore vein rich with uranium.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -241,7 +241,7 @@
   abstract: true
   id: BaseVeinSalt
   suffix: Salt
-  description: An ore vein rich with salt.
+  description: 一條富含鹽分的礦脈。 | An ore vein rich with salt.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -256,7 +256,7 @@
   abstract: true
   id: BaseVeinArtifactFragment
   suffix: Artifact Fragment
-  description: A vein rich with strange artifacts.
+  description: 一條蘊藏著奇異文物的大礦脈。 | A vein rich with strange artifacts.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -271,7 +271,7 @@
   abstract: true
   id: BaseVeinRandom
   suffix: 33% Random Ores
-  description: A vein rich with strange artifacts.
+  description: 一條蘊藏著奇異文物的大礦脈。 | A vein rich with strange artifacts.
   components:
   - type: OreVein
     oreChance: 0.33
@@ -284,8 +284,8 @@
 - type: entity
   abstract: true
   id: BaseAsteroidRockVisuals
-  name: asteroid rock
-  description: A rocky asteroid.
+  name: 小行星岩 | asteroid rock
+  description: 一顆岩石小行星。 | A rocky asteroid.
   components:
   - type: Icon
     sprite: Structures/Walls/stone.rsi
@@ -400,8 +400,8 @@
 - type: entity
   abstract: true
   id: BaseIronRockVisuals
-  name: ironrock
-  description: A rocky asteroid.
+  name: ironrock | ironrock
+  description: 一顆岩石小行星。 | A rocky asteroid.
   components:
   - type: Icon
     sprite: Structures/Walls/stone-ironrock.rsi
@@ -468,7 +468,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallRock
-  name: rock
+  name: 搖滾 | rock
   suffix: planetmap
   components:
   - type: Transform
@@ -615,7 +615,7 @@
 - type: entity
   parent: WallRock
   id: WallRockSnow
-  name: snowdrift
+  name: 雪堆 | snowdrift
   components:
   - type: Icon
     sprite: Structures/Walls/stone-snow.rsi
@@ -669,7 +669,7 @@
 - type: entity
   parent: WallRock
   id: WallRockSand
-  name: sandstone
+  name: 砂岩 | sandstone
   components:
   - type: Icon
     sprite: Structures/Walls/stone-sand.rsi
@@ -722,7 +722,7 @@
 
 - type: entity
   id: WallRockChromite
-  name: chromite
+  name: 鉻鐵礦 | chromite
   parent: WallRock
   components:
   - type: Icon

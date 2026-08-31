@@ -1,25 +1,26 @@
-﻿<Document>
-  # Fires
-  Fires are arguably the most dangerous atmospheric upset that can occur on the station.
+﻿
+<Document>
+  # 火災
+  火災可說是該站可能發生的最危險的大氣異常現象。
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
     <GuideEntityEmbed Entity="FirelockGlass" Caption=""/>
   </Box>
 
-  They often make high-pressure and high-temperature gasses, which can quickly spread throughout the station if firelocks or doors are opened carelessly, even if only for a moment.
+  這些設施經常會產生高壓、高溫的氣體，一旦防火閘或門被不慎打開——哪怕只是片刻——這些氣體便會迅速擴散至整個站內。
 
-  If people are caught in a fire, they can quickly become incapacitated, die, and even ash, rendering them unrevivable.
+  若有人被困於火場中，可能會迅速失去行動能力、死亡，甚至化為灰燼，導致無法被救活。
 
-  ## Combating Fires
-  The key elements of a fire are fuel and oxygen.
-  Removing any of these two elements will extinguish the fire.
-  For example, fires that have no oxygen flowing to them will slowly snuff themselves out, and fires that have no fuel will also extinguish themselves.
+  ## 滅火
+  火災的關鍵要素是燃料和氧氣。
+  只要移除這兩個要素中的任何一個，火勢就會熄滅。
+  舉例來說，如果火源沒有氧氣供應，火勢會逐漸自行熄滅；同樣地，如果火源沒有燃料，火勢也會自行熄滅。
 
-  Exposing the fire to space will extinguish it, as all the gas will simply be spaced.
-  You can then [textlink="fix" link="ExpandingRepairingStation"] the [textlink="spacing" link="Spacing"] and repressurize the area.
+  若將火焰暴露在太空中，火便會熄滅，因為所有氣體都會被太空稀釋。
+  接著，您可以 [textlink="修復" link="擴建維修站"] 調整 [textlink="間距" link="間距"]，並讓該區域恢復加壓。
 
-  ## Tips
-  - [bold]Know the signs of a future fire.[/bold] If an area is filled with highly flammable gasses, it's only a matter of time before a careless passenger sets it off. Try to isolate the area and scrub the gasses out as quickly as possible.
-  - [bold]Prevent the spread of gasses using a holofan projector.[/bold] Letting gasses through a firelock can make other rooms dangerous, even for a moment. This increases the number of rooms you have to fix.
+  ## 提示
+  - [粗體]了解未來火災的徵兆。[/粗體] 如果某個區域充斥著高度易燃的氣體，只要有粗心大意的乘客，引發火災只是時間問題。 請盡可能將該區域隔離，並儘快將氣體徹底清除。
+  - [粗體]使用全息風扇投影機防止氣體擴散。[/粗體] 若讓氣體通過防火鎖，即使只是片刻，也可能使其他房間變得危險。 這會增加您必須修繕的房間數量。
 </Document>

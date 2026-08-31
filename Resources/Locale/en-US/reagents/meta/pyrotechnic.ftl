@@ -1,23 +1,16 @@
-reagent-name-thermite = thermite
-reagent-desc-thermite = A mixture that becomes extremely hot when ignited.
-
-reagent-name-napalm = napalm
-reagent-desc-napalm = It's just a little flammable.
-
-reagent-name-phlogiston = phlogiston
-reagent-desc-phlogiston = Catches you on fire and makes you ignite.
-
-reagent-name-chlorine-trifluoride = chlorine trifluoride
-reagent-desc-chlorine-trifluoride = You really, REALLY don't want to get this shit anywhere near you.
-
-reagent-name-foaming-agent = foaming agent
-reagent-desc-foaming-agent = Makes foam such as that's required in metal foam grenades.
-
-reagent-name-welding-fuel = welding fuel
-reagent-desc-welding-fuel = Used by welders to weld.
-
-reagent-name-xenoborg-oil = xenoborg oil
-reagent-desc-xenoborg-oil = A light oil used to slip and burn organics.
-
-reagent-name-fluorosurfactant = fluorosurfactant
-reagent-desc-fluorosurfactant = A perfluoronated sulfonic acid that forms a foam when mixed with water.
+reagent-name-thermite = 熱熔劑 thermite
+reagent-desc-thermite = 一種在點燃時會變得極度高溫的混合物。
+reagent-name-napalm = 凝固汽油彈 napalm
+reagent-desc-napalm = 它只是稍微有點易燃罷了。
+reagent-name-phlogiston = 燃素 phlogiston
+reagent-desc-phlogiston = 點燃你的熱情，讓你熾熱燃燒。
+reagent-name-chlorine-trifluoride = 三氟氯化氫 chlorine trifluoride
+reagent-desc-chlorine-trifluoride = 你真的、真的千萬別讓這玩意兒靠近你。
+reagent-name-foaming-agent = 發泡劑 foaming agent
+reagent-desc-foaming-agent = 可製成如金屬泡沫手榴彈所需的那種泡沫。
+reagent-name-welding-fuel = 焊接燃料 welding fuel
+reagent-desc-welding-fuel = 由焊工用於焊接。
+reagent-name-xenoborg-oil = 外星機器人油
+reagent-desc-xenoborg-oil = 一種用於使有機物滑動並燃燒的輕質油。
+reagent-name-fluorosurfactant = 氟表面活性劑 fluorosurfactant
+reagent-desc-fluorosurfactant = 一種全氟磺酸，與水混合時會產生泡沫。

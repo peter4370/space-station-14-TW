@@ -1,15 +1,13 @@
 ﻿cmd-changecvar-no-arguments = You must specify a cvar.
-cmd-changecvar-cvar-not-registered = The cvar {$cvar} is not registered.
-cmd-changecvar-cvar-not-allowed = You cannot change this cvar.
-cmd-changecvar-value-out-of-range = The value is out of range. The range is {$min} to {$max}.
-cmd-changecvar-desc = Change a cvar value.
-cmd-changecvar-help = Usage: changecvar <cvar | ? | search> <value>
-cmd-changecvar-available-cvars = Listing available cvars:
-cmd-changecvar-no-cvars = No cvars found that you are allowed to change.
-cmd-changecvar-success = CVar {$cvar} changed from "{$old}" to "{$value}".
-
-cmd-changecvar-search-no-arguments = You must specify a search term.
-cmd-changecvar-search-no-matches = No cvars found matching the search term.
-cmd-changecvar-search-matches = Found {$count} cvars matching the search term:
-
+cmd-changecvar-cvar-not-registered = cvar { $cvar } 尚未註冊。
+cmd-changecvar-cvar-not-allowed = 您無法變更此 cvar。
+cmd-changecvar-value-out-of-range = 該值超出範圍。範圍為 { $min } 至 { $max }。
+cmd-changecvar-desc = 變更 cvar 的值。
+cmd-changecvar-help = 用法：changecvar<cvar | ? | search> <value>
+cmd-changecvar-available-cvars = 列出可用的 cvars：
+cmd-changecvar-no-cvars = 未找到您有權變更的 cvars。
+cmd-changecvar-success = CVar { $cvar } 已從 "{ $old }" 變更為 "{ $value }"。
+cmd-changecvar-search-no-arguments = 您必須指定搜尋詞。
+cmd-changecvar-search-no-matches = 未找到與搜尋詞相符的 cvars。
+cmd-changecvar-search-matches = 找到 { $count } 個與搜尋詞相符的 cvars：
 cmd-changecvar-arg-name = <name | ? | search>

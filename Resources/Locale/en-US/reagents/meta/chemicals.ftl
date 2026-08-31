@@ -1,38 +1,26 @@
-reagent-name-acetone = acetone
-reagent-desc-acetone = A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life.
-
-reagent-name-phenol = phenol
-reagent-desc-phenol = An aromatic ring of carbon with a hydroxyl group. A useful precursor to some medicines, but has no healing properties on its own.
-
-reagent-name-sodium-carbonate = sodium carbonate
-reagent-desc-sodium-carbonate = A white, odorless, water-soluble salt that yields an alkaline solution in water.  Also known as soda ash.
-
+reagent-name-acetone = 丙酮 acetone
+reagent-desc-acetone = 一種滑膩、略帶致癌性的液體。在日常生活中有許多平凡的用途。
+reagent-name-phenol = 苯酚 phenol
+reagent-desc-phenol = 一個帶有羥基的芳香碳環。是某些藥物的有用前體，但本身並無治療功效。
+reagent-name-sodium-carbonate = 碳酸鈉 sodium carbonate
+reagent-desc-sodium-carbonate = 一種白色、無味、可溶於水的鹽類，溶於水後會形成鹼性溶液。亦稱為碳酸鈉。
 reagent-name-artifexium = artifexium
-reagent-desc-artifexium = A lavender mixture of microscopic artifact fragments and a strong acid. It has the ability to activate artifacts.
-
-reagent-name-artifact-glue = artifact glue
-reagent-desc-artifact-glue = Mixture of glue and artifexium. It can restore durability of nodes in artifact on touch.
-
-reagent-name-benzene = benzene
-reagent-desc-benzene = An aromatic, slightly carcinogenic, ring of carbon, forming a base for many organic compounds.
-
-reagent-name-hydroxide = hydroxide
-reagent-desc-hydroxide = A strong alkaline chemical, forming a base for many organic compounds.
-
-reagent-name-sodium-hydroxide = sodium hydroxide
-reagent-desc-sodium-hydroxide = A white, odorless, water-soluble salt that yields an strong alkaline solution in water. Causes burns and vomiting when ingested.
-
-reagent-name-fersilicite = fersilicite
-reagent-desc-fersilicite = An intermetallic compound with unusual magnetic properties at low temperatures.
-
-reagent-name-sodium-polyacrylate = sodium polyacrylate
-reagent-desc-sodium-polyacrylate = A super-absorbent polymer with assorted industrial uses.
-
-reagent-name-cellulose = cellulose fibers
-reagent-desc-cellulose = A crystaline polydextrose polymer, plants swear by this stuff.
-
+reagent-desc-artifexium = 一種由微觀神器碎片與強酸混合而成的薰衣草色物質。它具有啟動神器的能力。
+reagent-name-artifact-glue = 工藝品膠水 artifact glue
+reagent-desc-artifact-glue = 由膠水與神器材料混合而成的物質。觸碰時，可恢復神器中節點的耐久度。
+reagent-name-benzene = 苯 benzene
+reagent-desc-benzene = 一種芳香性、略具致癌性的碳環，是許多有機化合物的基礎。
+reagent-name-hydroxide = 氫氧化物 hydroxide
+reagent-desc-hydroxide = 一種強鹼性化學物質，是許多有機化合物的鹼基。
+reagent-name-sodium-hydroxide = 氫氧化鈉 sodium hydroxide
+reagent-desc-sodium-hydroxide = 一種白色、無味、可溶於水的鹽類，溶於水後會形成強鹼性溶液。若誤食，會引起灼傷及嘔吐。
+reagent-name-fersilicite = 鋁矽石 fersilicite
+reagent-desc-fersilicite = 一種在低溫下具有特殊磁性特性的金屬間化合物。
+reagent-name-sodium-polyacrylate = 聚丙烯酸鈉 sodium polyacrylate
+reagent-desc-sodium-polyacrylate = 一種具有多種工業用途的超吸水聚合物。
+reagent-name-cellulose = 纖維素纖維 cellulose fibers
+reagent-desc-cellulose = 一種結晶狀的聚右旋糖聚合物，植物對此可是推崇備至。
 reagent-name-rororium = rororium
-reagent-desc-rororium = A strange substance which fills the cores of the hivelords that roam the mining asteroid. Thought to be the source of their regenerative powers.
-
-reagent-name-lye = lye
-reagent-desc-lye = A translucent, orange, alkaline solution used in traditional soap production.
+reagent-desc-rororium = 一種充滿於遊蕩於採礦小行星上的蜂巢領主核心中的奇怪物質。據信是牠們再生能力的來源。
+reagent-name-lye = 鹼液 lye
+reagent-desc-lye = 一種半透明、橙色的鹼性溶液，用於傳統肥皂的生產。

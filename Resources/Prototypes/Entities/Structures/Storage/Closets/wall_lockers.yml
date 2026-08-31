@@ -1,8 +1,8 @@
 - type: entity
   id: ClosetWall
   parent: BaseWallCloset
-  name: maintenance wall closet
-  description: It's a storage unit.
+  name: 壁櫃的保養 | maintenance wall closet
+  description: 這是一個儲物間。 | It's a storage unit.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -11,9 +11,9 @@
 
 - type: entity
   id: ClosetWallEmergency
-  name: emergency wall closet
+  name: 緊急壁櫃 | emergency wall closet
   parent: BaseWallCloset
-  description: It's a storage unit for emergency breath masks and O2 tanks.
+  description: 這是用來存放緊急用呼吸面罩和氧氣瓶的儲物櫃。 | It's a storage unit for emergency breath masks and O2 tanks.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: emergency
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseWallCloset
   id: ClosetWallEmergencyN2
-  name: emergency nitrogen wall closet
-  description: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+  name: 緊急用氮氣壁櫃 | emergency nitrogen wall closet
+  description: 裡面滿是救生設備。當然，這得假設你呼吸的是氮氣才行。 | It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: n2
@@ -33,9 +33,9 @@
 
 - type: entity
   id: ClosetWallFire
-  name: fire-safety wall closet
+  name: 防火壁櫥 | fire-safety wall closet
   parent: BaseWallCloset
-  description: It's a storage unit for fire-fighting supplies.
+  description: 這是一個用於存放消防設備的儲藏室。 | It's a storage unit for fire-fighting supplies.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: fire
@@ -45,8 +45,8 @@
 - type: entity
   id: ClosetWallBlue
   parent: BaseWallCloset
-  name: blue wall closet
-  description: "A wardrobe packed with stylish blue clothing."
+  name: 藍色壁櫃 | blue wall closet
+  description: "一個塞滿時尚藍色衣物的衣櫥。 | A wardrobe packed with stylish blue clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -56,8 +56,8 @@
 - type: entity
   id: ClosetWallPink
   parent: BaseWallCloset
-  name: pink wall closet
-  description: "A wardrobe packed with fabulous pink clothing."
+  name: 粉紅色的壁櫃 | pink wall closet
+  description: "一個塞滿了絕美粉紅色衣物的衣櫥。 | A wardrobe packed with fabulous pink clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -67,8 +67,8 @@
 - type: entity
   id: ClosetWallBlack
   parent: BaseWallCloset
-  name: black wall closet
-  description: "A wardrobe packed with stylish black clothing."
+  name: 黑色壁櫃 | black wall closet
+  description: "一個塞滿時尚黑色衣物的衣櫥。 | A wardrobe packed with stylish black clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -78,8 +78,8 @@
 - type: entity
   id: ClosetWallGreen
   parent: BaseWallCloset
-  name: green wall closet
-  description: "A wardrobe packed with stylish green clothing."
+  name: 綠色壁掛式衣櫥 | green wall closet
+  description: "一個塞滿時尚綠色服飾的衣櫥。 | A wardrobe packed with stylish green clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -89,7 +89,7 @@
 - type: entity
   id: ClosetWallOrange
   parent: BaseWallCloset
-  name: prison wall closet
+  name: 監獄牆邊的壁櫥 | prison wall closet
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -99,8 +99,8 @@
 - type: entity
   id: ClosetWallYellow
   parent: BaseWallCloset
-  name: yellow wall closet
-  description: "A wardrobe packed with stylish yellow clothing."
+  name: 黃色壁櫃 | yellow wall closet
+  description: "一個塞滿時尚黃色衣物的衣櫥。 | A wardrobe packed with stylish yellow clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -110,8 +110,8 @@
 - type: entity
   id: ClosetWallWhite
   parent: BaseWallCloset
-  name: white wall closet
-  description: "A wardrobe packed with stylish white clothing."
+  name: 白色壁櫃 | white wall closet
+  description: "一個塞滿時尚白色衣物的衣櫥。 | A wardrobe packed with stylish white clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -121,8 +121,8 @@
 - type: entity
   id: ClosetWallGrey
   parent: BaseWallCloset
-  name: grey wall closet
-  description: "A wardrobe packed with a tide of grey clothing."
+  name: 灰色壁櫥 | grey wall closet
+  description: "衣櫥裡塞滿了一大堆灰色衣物。 | A wardrobe packed with a tide of grey clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -132,8 +132,8 @@
 - type: entity
   id: ClosetWallMixed
   parent: BaseWallCloset
-  name: mixed wall closet
-  description: "A wardrobe packed with a mix of colorful clothing."
+  name: 混合式壁櫃 | mixed wall closet
+  description: "一個衣櫥裡塞滿了各式各樣色彩繽紛的衣物。 | A wardrobe packed with a mix of colorful clothing."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -143,7 +143,7 @@
 - type: entity
   id: ClosetWallAtmospherics
   parent: BaseWallCloset
-  name: atmospherics wall closet
+  name: atmospherics 壁櫃 | atmospherics wall closet
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -153,7 +153,7 @@
 - type: entity
   id: LockerWallMedical
   parent: BaseWallLocker
-  name: medical wall locker
+  name: 醫療用壁掛式儲物櫃 | medical wall locker
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: med
@@ -165,8 +165,8 @@
 - type: entity
   parent: BaseWallLocker
   id: LockerWallEvacRepair
-  name: emergency shuttle emergency wall locker
-  description: It's emergencies all the way down.
+  name: 緊急接駁車、緊急壁櫃 | emergency shuttle emergency wall locker
+  description: 一路上盡是緊急狀況。 | It's emergencies all the way down.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: eng
@@ -178,8 +178,8 @@
 - type: entity
   parent: [ GenpopBase , BaseWallLocker ]
   id: LockerWallBasePrisoner
-  name: prisoner wall closet
-  description: It's a secure locker for an inmate's personal belongings during their time in prison.
+  name: 囚犯的壁櫥 | prisoner wall closet
+  description: 這是一個供囚犯在服刑期間存放個人物品的安全置物櫃。 | It's a secure locker for an inmate's personal belongings during their time in prison.
   suffix: 1
 
 - type: entity
@@ -241,8 +241,8 @@
 - type: entity
   id: LockerWallSyndicate
   parent: BaseWallLocker
-  name: blood-red wall locker
-  description: It's a wall storage unit with a blood-red design.
+  name: 血紅色的壁櫃 | blood-red wall locker
+  description: 這是一款採用血紅色設計的壁掛式收納櫃。 | It's a wall storage unit with a blood-red design.
   suffix: "Locked"
   components:
   - type: Appearance

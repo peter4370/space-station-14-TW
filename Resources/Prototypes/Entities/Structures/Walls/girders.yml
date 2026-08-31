@@ -24,8 +24,8 @@
 - type: entity
   parent: [ BaseGirder, StructureHealthBarrier ]
   id: Girder
-  name: girder
-  description: A large structural assembly made out of metal; It requires a layer of metal before it can be considered a wall.
+  name: 樑 | girder
+  description: 由金屬製成的大型結構組件；必須先鋪設一層金屬，才能被視為一堵牆。 | A large structural assembly made out of metal; It requires a layer of metal before it can be considered a wall.
   components:
   - type: Construction
     graph: Girder
@@ -55,8 +55,8 @@
 - type: entity
   parent: [ BaseGirder, StructureHealthBarrierWeak ]
   id: ReinforcedGirder
-  name: reinforced girder
-  description: A large structural assembly made out of metal and plasteel; It requires a layer of plasteel before it can be considered a reinforced wall.
+  name: 鋼筋梁 | reinforced girder
+  description: 由金屬和塑鋼製成的大型結構組件；必須先鋪設一層塑鋼，才能被視為加固牆。 | A large structural assembly made out of metal and plasteel; It requires a layer of plasteel before it can be considered a reinforced wall.
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi

@@ -49,8 +49,8 @@
 - type: entity
   parent: BaseGravityGenerator # StructureHealthMachineMassive
   id: GravityGenerator
-  name: gravity generator
-  description: It's what keeps you to the floor.
+  name: 重力發生器 | gravity generator
+  description: 這正是讓你緊貼地面的原因。 | It's what keeps you to the floor.
   placement:
     mode: AlignTileAny
   components:
@@ -85,9 +85,9 @@
 - type: entity
   parent: [ BaseGravityGenerator, ConstructibleMachine, BaseConstructibleMachineDestructible ]
   id: GravityGeneratorMini
-  name: mini gravity generator
+  name: 迷你重力發生器 | mini gravity generator
   suffix: Charged
-  description: It's what keeps you to the floor, now in fun size.
+  description: 正是它讓你緊貼地板，現在推出迷你裝。 | It's what keeps you to the floor, now in fun size.
   components:
   - type: Sprite
     sprite: Structures/Machines/gravity_generator_mini.rsi

@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: EmitterBolt
   categories: [ HideSpawnMenu ]
-  name: emitter bolt
+  name: 發射器螺栓 | emitter bolt
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/Singularity/emitter.rsi

@@ -1,46 +1,47 @@
-<Document>
-  # Forensics
 
-  There are a lot of tools to help you gather and examine the evidence at your disposal
+<Document>
+  # 鑑識
+
+  有許多工具可協助您蒐集和檢視現有的證據
 
   # LogProbe
 
-  This little add-on to your PDA is incredibly useful, just install the cartridge and your PDA will acquire the ability to scan anything with access (like airlocks) and see who has used them recently.
+  這個為您的 PDA 設計的小型附加元件極其實用，只需安裝卡匣，您的 PDA 便能掃描任何可存取的設施（例如氣閘），並查看近期曾使用過這些設施的人員。
 
-  You can normally find it inside the detective locker. After inserting it on your PDA, go to the programs tab and the log probe application should be there, to use the application you just have to interact with anything that requires access with your PDA while the application is open and the information will be instantly displayed in it.
+  通常可以在偵探的儲物櫃裡找到它。 將其插入您的 PDA 後，請前往「程式」分頁，您應能看到「日誌探測」應用程式。要使用此應用程式，您只需在應用程式開啟時，透過 PDA 與任何需要存取權限的項目進行互動，相關資訊便會立即顯示在應用程式中。
 
-  It should be noted that the name shown in the application is not to be trusted 100% of the time since it gets the name from the identification card of whoever used the thing we are scanning, so if for example someone opened an airlock with no card the application would display "Unknown" as the name.
+  需要注意的是，應用程式中顯示的姓名並非百分之百可信，因為該姓名是從掃描對象的身份證上取得的；因此，例如若有人未持身份證便開啟氣閘，應用程式便會將姓名顯示為「未知」。
 
   <Box>
     <GuideEntityEmbed Entity="LockerDetective"/>
     <GuideEntityEmbed Entity="LogProbeCartridge"/>
   </Box>
 
-  # DNA and Fingerprints
+  # DNA 與指紋
 
-  ## How to get someone’s DNA?
+  ## 如何取得某人的 DNA？
 
-  You can scan blood puddles, vomit, glasses, bottles, cans and other liquid containers using the [color=#a4885c]forensic scanner[/color] to get DNA of any person.
+  您可以使用 [color=#a4885c]鑑識掃描器[/color] 掃描血跡、嘔吐物、玻璃杯、瓶子、罐子及其他盛裝液體的容器，以取得任何人的 DNA。
   <Box>
     <GuideEntityEmbed Entity="ForensicScanner"/>
   </Box>
-  So be careful before fighting with someone.
+  所以，在與人起衝突之前，請務必謹慎。
 
-   That same forensic scanner can also get fingerprint information about who touched pretty much any object. If the possible perpetrator was using gloves, then your scanner will print out which fibers were left on the crime scene.
+   同一台鑑識掃描器還能取得指紋資訊，藉此查明幾乎任何物品曾被誰觸碰過。 如果嫌疑犯當時戴著手套，那麼您的掃描儀將會列印出留在犯罪現場的纖維種類。
 
-  ## I got DNA. How do I recognize whose it is?
+  ## 我有 DNA。 我該怎麼辨別這是誰的呢？
 
-  You can print the forensic information of the object you scanned so you never miss it. Now with the paper containing DNA you can simply find a [color=#a4885c]Station Records Computer[/color] and look for a person whose DNA matches. Same applies to finding whose fingerprint it is.
+  您可以列印所掃描物件的鑑識資訊，以免遺漏任何細節。 現在，只要帶著這張含有 DNA 的紙張，你只需找到一台 [color=#a4885c]車站紀錄電腦[/color]，並搜尋 DNA 與之匹配的人即可。 同樣地，要查明這是指紋的主人也是如此。
 
-  ## Taking Fingerprints
-  It is also possible to take someone's fingerprints while on scene if you make them take off their gloves and apply a forensic pad to their fingers. No need to run back to [color=#a4885c]Station Records Computer[/color] to check if the butler did it!
+  ## 採集指紋
+  若能讓當事人脫下手套，並在指尖塗上鑑識用棉墊，亦可在現場採集其指紋。 不必跑回 [color=#a4885c]Station Records Computer[/color] 去查證是不是管家幹的！
 
   <GuideEntityEmbed Entity="ForensicPad"/>
 
-  ## Fibers
-  Whenever people wearing gloves touch anything on the station, they are bound to leave behind some fibers. This complicates things, but nothing is unsolvable for a real detective.
+  ## 纖維
+  每當戴著手套的人觸碰站內任何物品時，都難免會留下一些纖維。 這讓事情變得複雜了，但對一位真正的偵探來說，沒有什麼問題是無法解決的。
 
-  There are up to [color=red]26[/color] different types of fibers possible. Can that stop you from solving the case?
+  最多可有 [color=red]26[/color] 種不同的纖維類型。 這會阻礙你破案嗎？
 
   <Box>
     <GuideEntityEmbed Entity="ComputerStationRecords"/>

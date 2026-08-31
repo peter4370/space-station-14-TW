@@ -2,7 +2,7 @@
   abstract: true
   parent: [SolutionCryo, SolutionCompositeNormalStackable, BaseItem, BaseItemDestructible]
   id: MaterialBase
-  description: A raw material.
+  description: 一種原料。 | A raw material.
   components:
   - type: Appearance
   - type: Sprite

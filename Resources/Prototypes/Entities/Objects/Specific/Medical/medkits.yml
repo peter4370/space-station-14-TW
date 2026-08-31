@@ -1,6 +1,6 @@
 - type: entity
-  name: first aid kit
-  description: It's an emergency medical kit for those serious boo-boos.
+  name: 急救箱 | first aid kit
+  description: 這是一款專為嚴重小傷勢準備的急救包。 | It's an emergency medical kit for those serious boo-boos.
   parent: BaseStorageItem
   id: Medkit
   components:
@@ -23,8 +23,8 @@
     - Medkit
 
 - type: entity
-  name: burn treatment kit
-  description: "A specialized medical kit for when the toxins lab spontaneously burns down."
+  name: 燒傷處理套組 (burn treatment kit) | burn treatment kit
+  description: "一套專門用於毒素實驗室發生自燃時使用的醫療急救包。 | A specialized medical kit for when the toxins lab spontaneously burns down."
   parent: Medkit
   id: MedkitBurn
   components:
@@ -34,8 +34,8 @@
     heldPrefix: burnkit
 
 - type: entity
-  name: toxin treatment kit
-  description: "Used to treat toxic blood content."
+  name: 毒素處理套組 (toxin treatment kit) | toxin treatment kit
+  description: "用於治療血液中的有毒物質。 | Used to treat toxic blood content."
   parent: Medkit
   id: MedkitToxin
   components:
@@ -45,8 +45,8 @@
     heldPrefix: toxinkit
 
 - type: entity
-  name: oxygen deprivation treatment kit
-  description: "A box full of oxygen goodies."
+  name: 缺氧治療套組 (oxygen deprivation treatment kit) | oxygen deprivation treatment kit
+  description: "一個裝滿氧氣好物的盒子。 | A box full of oxygen goodies."
   parent: Medkit
   id: MedkitO2
   components:
@@ -56,8 +56,8 @@
     heldPrefix: o2kit
 
 - type: entity
-  name: brute trauma treatment kit
-  description: "A first aid kit for when you get toolboxed."
+  name: 重創急救包 (brute trauma treatment kit) | brute trauma treatment kit
+  description: "當你遭遇「工具箱襲擊」時，這套急救包派上用場。 | A first aid kit for when you get toolboxed."
   parent: Medkit
   id: MedkitBrute
   components:
@@ -67,8 +67,8 @@
     heldPrefix: brutekit
 
 - type: entity
-  name: advanced first aid kit
-  description: "An advanced kit to help deal with advanced wounds."
+  name: 進階急救包 (advanced first aid kit) | advanced first aid kit
+  description: "一套用於處理複雜傷口的高階急救套件。 | An advanced kit to help deal with advanced wounds."
   parent: Medkit
   id: MedkitAdvanced
   components:
@@ -78,8 +78,8 @@
     heldPrefix: advkit
 
 - type: entity
-  name: radiation treatment kit
-  description: "If you took your Rad-X you wouldn't need this."
+  name: 放射治療套件 (radiation treatment kit) | radiation treatment kit
+  description: "如果你服用了 Rad-X，就不會需要這個了。 | If you took your Rad-X you wouldn't need this."
   parent: Medkit
   id: MedkitRadiation
   components:
@@ -89,8 +89,8 @@
     heldPrefix: radkit
 
 - type: entity
-  name: combat medical kit
-  description: "For the big weapons among us."
+  name: 戰地急救包 (combat medical kit) | combat medical kit
+  description: "獻給我們當中那些擁有重型武器的人。 | For the big weapons among us."
   parent: Medkit
   id: MedkitCombat
   components:

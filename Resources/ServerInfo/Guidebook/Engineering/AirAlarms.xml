@@ -1,65 +1,66 @@
-﻿<Document>
+﻿
+<Document>
   # Air Alarms
-  The Air Alarm is a device that enables central monitoring and control over all relevant Atmos devices linked to it.
+  Air Alarm 是一款可對所有連接到它的相關 Atmos 裝置進行集中監控與控制的裝置。
 
   <Box>
     <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
 
-  Using the Air Alarm, Atmos can quickly and efficiently manage the atmosphere in a given area.
+  透過「Air Alarm」系統，Atmos 能夠快速且有效地管理特定區域內的氣體環境。
 
-  A room will often have an Air Alarm mounted on the wall, for quick control over multiple devices in that room.
+  房間的牆上通常會安裝一個「Air Alarm」，以便快速控制該房間內的多台設備。
 
-  You can see how to link devices in the [textlink="Link" link="Networking"] guide.
+  您可以在 [textlink="連結" link="網路"] 指南中查看如何將裝置進行連結。
 
-  ## User Interface
-  Interacting with an Air Alarm will bring up a menu with 3 sections:
-  - Top: The current status of the air alarm. This includes the current pressure and temperature of the area the air alarm is monitoring.
-  - Middle: Lists of linked [textlink="Air Vents" link="AirVent"] and [textlink="Air Scrubbers" link="AirScrubber"], as well as all sensors reporting back to the air alarm.
-  - Bottom: Buttons to control air alarm operating modes, as well as the ability to toggle the automatic changing of modes.
+  ## 使用者介面
+  操作空氣警報器時，會彈出一個包含 3 個區段的選單：
+  - 頂部：空氣警報器的當前狀態。 這包括空氣警報器所監測區域的當前壓力與溫度。
+  - 中間：列出連結的 [textlink="通風口" link="AirVent"] 和 [textlink="空氣淨化器" link="AirScrubber"]，以及所有向空氣警報系統回報的感測器。
+  - 底部：用於控制氣壓警報運作模式的按鈕，以及可切換自動模式變更功能的按鈕。
 
-  ## Alarm Status
-  Air alarms quickly communicate the status of the area they are monitoring through the color of the light on the device:
-  - [color=green]Normal[/color]: The area is safe to breathe in.
-  - [color=yellow]Warning[/color]: The area is starting to deviate from the desired atmosphere, and is becoming unsafe.
-  - [color=red]Danger[/color]: The area is no longer safe, internals and/or hardsuits are required.
+  ## 警報狀態
+  空氣警報器會透過裝置上的燈光顏色，迅速顯示其監測區域的狀態：
+  - [color=green]正常[/color]：該區域的空氣安全，可安全呼吸。
+  - [color=yellow]警告[/color]：該區域的氛圍正逐漸偏離預期，且已變得不安全。
+  - [color=red]危險[/color]：該區域已不再安全，必須穿著內部防護裝備和／或重型護甲。
 
-  Air alarms will automatically drop (close) linked [textlink="firelocks" link="FireAndGasControl"] when the [color=Red]Danger[/color] status is reached.
-  These [textlink="firelocks" link="FireAndGasControl"] will automatically raise (open) when the status returns to [color=green]Normal[/color].
+  當狀態達到 [color=Red]危險[/color] 時，空氣警報器將自動關閉（關閉）相連的 [textlink="firelocks" link="FireAndGasControl"]。
+  當狀態恢復為 [color=green]正常[/color] 時，這些 [textlink="火槍" link="FireAndGasControl"] 會自動升起（打開）。
 
-  Air alarms have [textlink="signal" link="Networking"] outputs for each of the three statuses, which can be used to trigger other [textlink="signal" link="Networking"] devices when the status changes.
+  空氣警報器針對這三種狀態各設有 [textlink="signal" link="Networking"] 輸出端子，當狀態發生變化時，可藉此觸發其他 [textlink="signal" link="Networking"] 裝置。
 
-  ## Sensors
-  All [textlink="Air Vents" link="AirVent"] and [textlink="Air Scrubbers" link="AirScrubber"] have a built-in sensor, which reports back to the air alarm.
-  These sensors can be adjusted in the [bold]Sensors[/bold] tab of the air alarm menu.
+  ## 感測器
+  所有 [textlink="通風口" link="AirVent"] 和 [textlink="空氣淨化器" link="AirScrubber"] 均內建感測器，該感測器會將數據回傳至空氣警報系統。
+  這些感測器可在空氣警報選單的 [粗體]感測器[/粗體] 標籤頁中進行調整。
 
-  An air alarm's status is directly determined by the thresholds on each sensor.
-  If a sensor reports a pressure, temperature, or gas composition outside the set thresholds, the air alarm will change its status accordingly.
+  空氣警報器的狀態直接取決於各感測器的閾值。
+  若感測器回報的壓力、溫度或氣體成分超出設定閾值，空氣警報的狀態將隨之改變。
 
-  These thresholds can be adjusted and disabled as needed.
-  For example, if you are monitoring a room that naturally has a low temperature (such as a freezer) or a high temperature (such as a burn chamber), you can adjust the temperature thresholds to match the expected values.
+  這些閾值可視需要進行調整或停用。
+  例如，若您監測的空間本身溫度較低（例如冷凍庫）或較高（例如燃燒室），您可以調整溫度閾值，使其符合預期值。
 
-  An air sensor can also be constructed and [textlink="linked" link="Networking"] to an air alarm.
+  此外，也可組裝一個空氣感測器，並[textlink="linked" link="網路連線"]至空氣警報器。
 
   <Box>
     <GuideEntityEmbed Entity="AirSensor"/>
   </Box>
 
-  This is useful for monitoring areas that you don't have an air vent or scrubber in already.
+  這對於監測那些尚未安裝通風口或洗滌器的區域非常有用。
 
-  ## Operating Modes
-  To control connected devices quickly, air alarms feature operating modes, which quickly changes the behavior of all linked devices to achieve a desired effect.
-  - None: Disables all devices linked to the air alarm.
-  - Filtering: [textlink="Air Vents" link="AirVent"] will be enabled with their external bound set to standard atmospheric pressure. [textlink="Air Scrubbers" link="AirScrubber"] will be enabled and scrub all waste gasses normally.
-  - Filtering (Wide): Same as Filtering, but all linked [textlink="Air Scrubbers" link="AirScrubber"] will enable their WideNet mode.
-  - Fill: [textlink="Air Vents" link="AirVent"] will be enabled with their external bound set to max pressure, [color=orange][protodata="GasVentPump" comp="GasVentPump" member="MaxPressure"/] kPa[/color]. [textlink="Air Scrubbers" link="AirScrubber"] will be disabled.
-  - Panic: [textlink="Air Vents" link="AirVent"] will be disabled, and [textlink="Air Scrubbers" link="AirScrubber"] will be set to siphon mode.
+  ## 操作模式
+  為了快速控制已連接的裝置，Air Alarms 設有各種操作模式，可迅速變更所有連結裝置的運作行為，以達到預期效果。
+  - 無：停用所有與空氣警報器連結的裝置。
+  - 篩選：[textlink="通風口" link="AirVent"] 將被啟用，其外部邊界條件將設定為標準大氣壓。 [textlink="空氣淨化器" link="AirScrubber"] 將被啟用，並如常淨化所有廢氣。
+  - 篩選（廣泛）：與「篩選」功能相同，但所有連結的 [textlink="空氣淨化器" link="AirScrubber"] 都會啟用其 WideNet 模式。
+  - 填充：[textlink="通風口" link="AirVent"] 將被啟用，其外部邊界值設定為最大壓力 [color=orange][protodata="GasVentPump" comp="GasVentPump" member="MaxPressure"/] kPa[/color]。 [textlink="空氣淨化機" link="AirScrubber"] 將被停用。
+  - 恐慌狀態：[textlink="通風口" link="AirVent"] 將被停用，而 [textlink="空氣淨化器" link="AirScrubber"] 將設定為虹吸模式。
 
-  Air alarms will automatically switch between the Filtering and Filtering (Wide) modes based on the current status of the area they are monitoring.
-  - If the area reaches [color=red]Danger[/color] status or above, the air alarm will switch to Filtering (Wide) mode.
-  - If the area reaches [color=green]Normal[/color] or [color=yellow]Warning[/color] status, the air alarm will switch to Filtering mode.
+  空氣警報器會根據其監測區域的當前狀態，自動在「過濾」與「過濾（廣域）」模式之間切換。
+  - 若該區域達到 [color=red]危險[/color] 級別或更高，空氣警報將切換至「過濾（廣域）」模式。
+  - 若該區域達到 [color=green]正常[/color] 或 [color=yellow]警告[/color] 狀態，空氣警報器將切換至過濾模式。
 
-  This behavior can be disabled by toggling the "Auto" box in the bottom section of the air alarm menu.
+  可透過切換空氣警報選單底部區塊中的「自動」核取方塊，來停用此功能。
 
-  Relevant tips on how to fix [textlink="spacing" link="Spacing"] and [textlink="fires" link="Fires"] can be found in the relevant guides.
+  有關如何修正 [textlink="spacing" link="間距"] 和 [textlink="fires" link="火災"] 的相關提示，請參閱相關指南。
 </Document>

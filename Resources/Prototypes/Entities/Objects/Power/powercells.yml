@@ -51,8 +51,8 @@
       maxVol: 5
 
 - type: entity
-  name: potato battery
-  description: Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
+  name: 馬鈴薯電池 | potato battery
+  description: 有人把兩顆釘子和一些鐵絲插進了一顆大馬鈴薯裡。不知為何，這竟能產生一點電荷。 | Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
   id: PowerCellPotato
   parent: BasePowerCell
   components:
@@ -70,8 +70,8 @@
     node: potatobattery
 
 - type: entity
-  name: small-capacity power cell
-  description: A rechargeable power cell. This is the cheapest kind you can find.
+  name: 小容量電源電池 | small-capacity power cell
+  description: 一款可充電電池。這是市面上最便宜的款式。 | A rechargeable power cell. This is the cheapest kind you can find.
   id: PowerCellSmall
   suffix: Full
   parent: BasePowerCell
@@ -110,8 +110,8 @@
 - type: entity
   parent: PowerCellSmall
   id: PowerCellSmallNuclear
-  name: small-capacity nuclear power cell
-  description: A self rechargeable power cell, designed for fast recharge rate at the expense of capacity.
+  name: 小容量核能電池 | small-capacity nuclear power cell
+  description: 一種自充電式電池，設計上以犧牲容量為代價，換取快速的充電速率。 | A self rechargeable power cell, designed for fast recharge rate at the expense of capacity.
   components:
   - type: BatterySelfRecharger
     autoRechargeRate: 36 # 10 seconds to recharge
@@ -123,8 +123,8 @@
         Quantity: 5
 
 - type: entity
-  name: medium-capacity power cell
-  description: A rechargeable power cell. This is the popular and reliable version.
+  name: 中容量動力電池 | medium-capacity power cell
+  description: 一款可充電電池。這是廣受歡迎且可靠的款式。 | A rechargeable power cell. This is the popular and reliable version.
   id: PowerCellMedium
   suffix: Full
   parent: BasePowerCell
@@ -163,8 +163,8 @@
     startingCharge: 0
 
 - type: entity
-  name: high-capacity power cell
-  description: A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
+  name: 高容量電力電池 | high-capacity power cell
+  description: 一款可充電的標準化電池。此頂級品牌所儲存的能量比競爭對手多出高達 50%。 | A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
   id: PowerCellHigh
   suffix: Full
   parent: BasePowerCell
@@ -203,8 +203,8 @@
     startingCharge: 0
 
 - type: entity
-  name: hyper-capacity power cell
-  description: A rechargeable standardized power cell. This iteration pushes the upper limits of portable power storage, boasting 66% more capacity than its predecessor.
+  name: 超高容量電力電池 | hyper-capacity power cell
+  description: 一款可充電的標準化電源電池。此款產品將便攜式儲能技術推向新高度，其容量較前代產品提升了 66%。 | A rechargeable standardized power cell. This iteration pushes the upper limits of portable power storage, boasting 66% more capacity than its predecessor.
   id: PowerCellHyper
   suffix: Full
   parent: BasePowerCell
@@ -245,8 +245,8 @@
 - type: entity
   parent: BasePowerCell
   id: PowerCellMicroreactor
-  name: microreactor power cell
-  description: A rechargeable standardized microreactor cell. Has lower capacity but slowly recharges by itself.
+  name: 微反應器動力單元 | microreactor power cell
+  description: 一款可充電的標準化微反應器單元。容量較低，但能緩慢地自行充電。 | A rechargeable standardized microreactor cell. Has lower capacity but slowly recharges by itself.
   suffix: Full
   components:
   - type: Sprite
@@ -284,8 +284,8 @@
     startingCharge: 0
 
 - type: entity
-  name: antique power cell prototype
-  description: A small cell that self recharges. Used in old laser arms research.
+  name: 古董動力電池原型 | antique power cell prototype
+  description: 一種能自行充電的小型電池。曾用於早期雷射武器的研究。 | A small cell that self recharges. Used in old laser arms research.
   id: PowerCellAntiqueProto
   parent: BasePowerCell
   components:
@@ -352,8 +352,8 @@
 - type: entity
   id: PowerCageSmall
   parent: BasePowerCage
-  name: small-capacity power cage
-  description: A rechargeable power cage for big devices. This is the cheapest kind you can find.
+  name: 小容量電源機箱 | small-capacity power cage
+  description: 一款適用於大型裝置的可充電電源盒。這是市面上最便宜的款式。 | A rechargeable power cage for big devices. This is the cheapest kind you can find.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -370,8 +370,8 @@
 - type: entity
   id: PowerCageMedium
   parent: BasePowerCage
-  name: medium-capacity power cage
-  description: A rechargeable power cage for big devices. The gold standard of capacity and cost.
+  name: 中型容量電力機櫃 | medium-capacity power cage
+  description: 一款專為大型裝置設計的可充電電源盒。在容量與成本方面堪稱業界標竿。 | A rechargeable power cage for big devices. The gold standard of capacity and cost.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -393,8 +393,8 @@
 - type: entity
   id: PowerCageHigh
   parent: BasePowerCage
-  name: high-capacity power cage
-  description: A rechargeable power cage for big devices. Increased capacity for increased power levels.
+  name: 大容量電源機架 | high-capacity power cage
+  description: 一款適用於大型裝置的可充電電源盒。容量提升，提供更高的功率輸出。 | A rechargeable power cage for big devices. Increased capacity for increased power levels.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthDoorWeak ]
   id: WindoorAssembly
-  name: windoor assembly
-  description: It opens, it closes, and you can see through it!
+  name: 風門組件 | windoor assembly
+  description: 它可以打開，也可以關上，而且還能透視！ | It opens, it closes, and you can see through it!
   placement:
     mode: SnapgridCenter
   components:
@@ -50,8 +50,8 @@
 - type: entity
   parent: WindoorAssembly
   id: WindoorAssemblyPlasma
-  name: plasma windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks purp-, no, pink. Wait...
+  name: 等離子風窗組件 | plasma windoor assembly
+  description: 它可以打開，可以關上，而且還能透視！這個看起來是紫——不，是粉紅色的。等等…… | It opens, it closes, and you can see through it! This one looks purp-, no, pink. Wait...
   components:
   - type: Sprite
     sprite: Structures/Doors/Windoors/plasma.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: WindoorAssembly
   id: WindoorAssemblyUranium
-  name: uranium windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks sickly green...
+  name: 鈾風窗組件 | uranium windoor assembly
+  description: 它可以打開，可以關上，而且還能透視！這個看起來是種病態的綠色…… | It opens, it closes, and you can see through it! This one looks sickly green...
   components:
   - type: Sprite
     sprite: Structures/Doors/Windoors/uranium.rsi

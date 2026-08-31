@@ -1,14 +1,15 @@
-﻿<Document>
-  #Air Injector
-  The air injector is a special vent that forces gasses into the atmosphere it's exposed to.
+﻿
+<Document>
+  #空氣注入器
+  空氣注入器是一種特殊的通氣口，能將氣體強制注入其所處的大氣中。
   <Box>
     <GuideEntityEmbed Entity="GasOutletInjector"/>
   </Box>
-  It is primarily used to force gasses into high-pressure rooms like the station's [textlink="gas storage rooms" link="GasMiningAndStorage"] or a burn chamber.
+  它主要用於將氣體壓入高壓室，例如該站點的 [textlink="氣體儲存室" link="GasMiningAndStorage"] 或燃燒室。
 
-  The air injector does not require [textlink="power" link="Power"] to function.
+  空氣注入器運作時無需 [textlink="電源" link="電源"]。
 
-  The air injector will inject gasses into the atmosphere it's exposed to until the atmosphere reaches [color=orange][protodata="GasOutletInjector" comp="GasOutletInjector" member="MaxPressure"/] kPa[/color].
+  氣體注入器會將氣體注入其所處的氣體環境中，直到該氣體環境的壓力達到 [color=orange][protodata="GasOutletInjector" comp="GasOutletInjector" member="MaxPressure"/] kPa[/color] 為止。
 
-  The air injector's speed is proportional to the amount of gas in the injector.
+  空氣噴射器的轉速與噴射器內氣體的量成正比。
 </Document>

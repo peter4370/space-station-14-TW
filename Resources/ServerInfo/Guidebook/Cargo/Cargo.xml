@@ -1,25 +1,26 @@
+
 <Document>
-  # Cargo
+  # 貨運
 
-  The Supply department, also known as [color=cyan]Cargo[/color], supplies the station with necessary resources, such as fuel and raw materials, and comfort resources, such as lottery tickets and plushies.
+  補給部門，亦稱為 [color=cyan]貨運[/color]，負責為空間站提供必要的資源（例如燃料和原材料），以及生活娛樂資源（例如樂透彩券和絨毛玩偶）。
 
-  They raise the [color=cyan]spesos[/color] (the currency of the station) for this through many methods, such as taking bounties, selling miscellaneous items, and salvaging, allowing them to purchase a wide variety of equipment from off-station for any crew member's needs. It is Cargo's job to fulfill the needs of the rest of the station.
+  他們透過多種方式籌集[color=cyan]斯佩索[/color]（該空間站的貨幣），例如領取懸賞金、販售各類物品以及回收資源，藉此能從空間站外購置各式各樣的裝備，以滿足任何船員的需求。 卡戈的職責就是滿足空間站其他人員的需求。
 
-  ## Personnel
+  ## 人員
 
-  Cargo is made up of [color=cyan]Cargo Technicians[/color] and [color=cyan]Salvage Specialists[/color] and is led by the [color=cyan]Quartermaster[/color].
+  「卡戈號」的成員由 [color=cyan]貨運技術員[/color] 和 [color=cyan]打撈專家[/color] 組成，並由 [color=cyan]司務長[/color] 率領。
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="Cargo Tech"/>
-    <GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Salvage"/>
+    <GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="打撈部"/>
     <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="QM"/>
   </Box>
 
-  ## Making Money
+  ## 賺錢
 
-  The main struggle of any Cargo department is not having enough money.
+  任何貨運部門面臨的主要困境，就是資金不足。
 
-  Cargo makes their money by selling things at the [color=cyan]Trading Station[/color]. Almost everything on the station has economic value that you can sell, as seen via the [color=cyan]appraisal tool[/color]. That value then further increases when you sell it as part of a [textlink="bounty" link="CargoBounties"].
+  Cargo 透過在 [color=cyan]貿易站[/color] 販售商品來賺取利潤。 如透過 [color=cyan]鑑定工具[/color] 所見，站內幾乎所有物品都具有經濟價值，可以出售。 當您將其作為 [textlink="bounty" link="CargoBounties"] 的一部分出售時，該價值還會進一步提升。
 
   <Box>
     <GuideEntityEmbed Entity="AppraisalTool"/>
@@ -27,9 +28,9 @@
     <GuideEntityEmbed Entity="CrateGenericSteel"/>
   </Box>
 
-  Upon finding something valuable, bring it to the [color=cyan]Cargo Bay[/color]. If it fits inside a [color=cyan]Crate[/color], find an empty crate and put the items in it.
+  一旦發現有價值的物品，請將其帶到 [color=cyan]貨艙[/color]。 如果物品能放進 [color=cyan]貨箱[/color] 裡，請找一個空貨箱，將這些物品放進去。
 
-  If the [color=cyan]Cargo Shuttle[/color] is away, you can put all the items you want to sell onto the [color=cyan]Cargo Pallets[/color]. Once the shuttle has docked at the station, you load the crates and everything else to be sold onto it.
+  如果 [color=cyan]貨運穿梭機[/color] 不在場，你可以將所有想要出售的物品放上 [color=cyan]貨運托盤[/color]。 一旦太空梭與太空站對接完成，你就將貨箱以及其他待售物品全數裝載上太空梭。
 
   <Box>
     <GuideEntityEmbed Entity="ComputerPalletConsole"/>
@@ -37,54 +38,54 @@
     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
   </Box>
 
-  After the shuttle is loaded, fly it to the Trade Station. There, move the sellable items onto the green [color=cyan]Cargo Selling Pallets[/color], and then go to the [color=cyan]Cargo Sale Computer[/color] and click [italic]"Sell"[/italic].
+  將貨物裝載至太空梭後，駕駛它飛往貿易站。 請將可出售的物品移至綠色的 [color=cyan]貨物銷售托盤[/color] 上，然後前往 [color=cyan]貨物銷售電腦[/color]，並點擊 [italic]「出售」[/italic]。
 
-  Now, you can take those spesos and bring them back to the station and deposit them into the [color=cyan]Cargo Request Computer[/color].
+  現在，你可以將這些斯佩索帶回站內，並存入 [color=cyan]貨物請求電腦[/color] 中。
 
-  You can also make even more money by completing [textlink="bounties" link="CargoBounties"] or selling valuable items from [textlink="salvage" link="Salvage"].
+  您也可以透過完成 [textlink="bounties" link="CargoBounties"] 或販售來自 [textlink="salvage" link="Salvage"] 的珍貴物品來賺取更多金錢。
 
-  ## Ordering
+  ## 訂購
 
   <Box>
     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
   </Box>
 
-  Every order begins at a [color=cyan]Cargo Request Computer[/color]. First and foremost, making an order requires that Cargo has enough spesos. If Cargo doesn't have the money, get some.
+  每筆訂單都始於一台 [color=cyan]貨運申請電腦[/color]。 首先，下單的前提是 Cargo 必須擁有足夠的 spesos。 如果 Cargo 沒錢，那就想辦法弄點來。
 
-  It is also the sole discretion of Cargo to fulfill any given request. If Cargo is tight on spesos, they are free to deny requests that are not immediately necessary.
+  此外，是否接受任何特定請求，完全由 Cargo 自行決定。 如果 Cargo 的預算吃緊，他們可以自由拒絕那些並非當下必要的請求。
 
-  To make an order, click the name of whatever is requested, provide the recipient, type an appropriate reason for why they need it, and then press "Approve" on the order.
+  若要下單，請點擊所需物品的名稱、填寫收件人資訊、輸入該物品的適當用途，然後在訂單上按下「核准」。
 
-  Sometimes a public Cargo Request Computer exists, in which case all you need to do is approve orders that people make themselves.
+  有時會設有公共的「貨運請求電腦」，這種情況下，您只需批准使用者自行下達的訂單即可。
 
   <Box>
     <GuideEntityEmbed Entity="CargoPalletBuy"/>
     <GuideEntityEmbed Entity="PaperCargoInvoice"/>
   </Box>
 
-  Then, to collect the order, it must be transported back to the station from the [color=cyan]Trading Station[/color].
+  接著，為了領取訂單，必須將其從 [color=cyan]貿易站[/color] 運回車站。
 
-  In the Trading Station, on the [color=cyan]Cargo Buying Pallets[/color], is a crate holding that order. Load it onto the shuttle and fly it back.
+  在交易站內的 [color=cyan]貨物購買托盤[/color] 上，有一個裝有該訂單的貨箱。 將它裝載到穿梭機上，然後飛回來。
 
-  Once it is at the Cargo Dock, you can read the [color=cyan]Cargo Invoice[/color] label on it to find out the intended recipient. Finally, deliver it to them.
+  一旦貨物抵達貨運碼頭，您即可閱讀其上的 [color=cyan]貨運發票[/color] 標籤，以查明預定收件人。 最後，將它交給他們。
 
-  ## Piloting
+  ## 試行「
 
-  Orders are delivered to the station via the orbiting [color=cyan]Trade Station[/color] and are transported to the main station by the [color=cyan]Cargo Shuttle[color]. The shuttle does not fly itself, so it must either be piloted in the shuttle or remotely.
+  」 訂單會透過環繞軌道的 [color=cyan]貿易站[/color] 送達該站，並由 [color=cyan]貨運穿梭機[/color] 運送至主站。 太空梭無法自動飛行，因此必須由機上飛行員駕駛，或是透過遠端操控。
 
   <Box>
     <GuideEntityEmbed Entity="ComputerShuttleCargo"/>
   </Box>
 
-  To fly the shuttle, you must first find the [color=cyan]Cargo Shuttle Console[/color]. One is inside the Cargo Bay, and the other is inside the Cargo Shuttle.
+  要駕駛這艘穿梭機，你必須先找到 [color=cyan]貨運穿梭機控制台[/color]。 一個在貨艙內，另一個則在貨運穿梭機內。
 
-  After interacting with the computer, there should be a navigation view from the shuttle. Here are the steps for piloting the shuttle to and from the Trading Station:
+  與電腦互動後，應會從太空梭中出現一個導覽視圖。 以下是駕駛穿梭機往返貿易站的操作步驟：
 
-  - First, switch to the [color=yellow]"DOCK"[/color] screen and [color=yellow]undock[/color] any airlocks between the shuttle and the station.
-  - Now, with the shuttle disconnected, you can pilot it. [italic]Remember that you are flying in space and momentum is conserved[/italic].
-  - The controls are [color=yellow][keybind="ShuttleStrafeUp"][/color] and [color=yellow][keybind="ShuttleStrafeDown"][/color] for strafing up and down, [color=yellow][keybind="ShuttleStrafeLeft"][/color] and [color=yellow][keybind="ShuttleStrafeRight"][/color] for strafing left and right, and [color=yellow][keybind="ShuttleRotateLeft"][/color] and [color=yellow][keybind="ShuttleRotateRight"][/color] for turning left and right. To brake, press [color=yellow][keybind="ShuttleBrake"][/color].
-  - Then pilot the shuttle to the [color=cyan]Trade Station[/color].
-  - Once you are there, [color=yellow]dock[/color] to the airlocks and you are done.
+  - 首先，切換至 [color=yellow]「DOCK」[/color] 畫面，並將穿梭機與空間站之間的任何氣閘 [color=yellow]解除對接[/color]。
+  - 現在，太空梭已與母船分離，您可以駕駛它了。 [斜體]請記住，你正在太空中飛行，且動量是守恆的[/斜體]。
+  - 控制鍵分別為 [color=yellow][keybind="ShuttleStrafeUp"][/color] 和 [color=yellow][keybind="ShuttleStrafeDown"][/color]，用於向上和向下側移，[color=yellow][keybind="ShuttleStrafeLeft"][/color] 及 [color=yellow][keybind="ShuttleStrafeRight"][/color] 分別用於左右側移，以及 [color=yellow][keybind="ShuttleRotateLeft"][/color] 和 [color=yellow][keybind="ShuttleRotateRight"][/color] 分別用於向左和向右轉向。 要煞車，請按下 [color=yellow][keybind="ShuttleBrake"][/color]。
+  - 接著駕駛太空梭前往 [color=cyan]貿易站[/color]。
+  - 抵達後，[color=yellow]對接[/color]至氣閘，就大功告成了。
 
-  [textlink="Learn about bounties, a way to maximize your on-station profits." link="CargoBounties"]
+  [textlink="了解賞金機制，這是讓您在空間站獲利最大化的方法之一。" link="CargoBounties"]
 </Document>

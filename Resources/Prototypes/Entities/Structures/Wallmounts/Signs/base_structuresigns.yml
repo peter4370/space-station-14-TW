@@ -20,7 +20,7 @@
   abstract: true
   parent: [ BaseWallmountMetallic, BaseSignIndestructible, StructureHealthFurniture ]
   id: BaseSign
-  name: base sign
+  name: 基號 | base sign
   components:
   - type: Destructible
     thresholds:

@@ -23,7 +23,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: robot
-    name: cyborg
+    name: 半機械人 | cyborg
   - type: InteractionPopup
     interactSuccessString: petting-success-generic-cyborg
     interactFailureString: petting-failure-generic-cyborg
@@ -35,7 +35,7 @@
 - type: entity
   id: BorgChassisGeneric
   parent: BorgChassisSelectable
-  name: generic cyborg
+  name: 通用型機械人 | generic cyborg
   suffix: type picked
   components:
   - type: BorgSwitchableType
@@ -44,7 +44,7 @@
 - type: entity
   id: BorgChassisMining
   parent: BorgChassisSelectable
-  name: salvage cyborg
+  name: 打撈型賽博格 | salvage cyborg
   components:
   - type: BorgSwitchableType
     selectedBorgType: mining
@@ -52,7 +52,7 @@
 - type: entity
   id: BorgChassisEngineer
   parent: BorgChassisSelectable
-  name: engineer cyborg
+  name: 工程師機械人 | engineer cyborg
   components:
   - type: BorgSwitchableType
     selectedBorgType: engineering
@@ -60,7 +60,7 @@
 - type: entity
   id: BorgChassisJanitor
   parent: BorgChassisSelectable
-  name: janitor cyborg
+  name: 機器人清潔工 | janitor cyborg
   components:
   - type: BorgSwitchableType
     selectedBorgType: janitor
@@ -68,7 +68,7 @@
 - type: entity
   id: BorgChassisMedical
   parent: BorgChassisSelectable
-  name: medical cyborg
+  name: 醫療型賽博格 | medical cyborg
   components:
   - type: BorgSwitchableType
     selectedBorgType: medical
@@ -76,7 +76,7 @@
 - type: entity
   id: BorgChassisService
   parent: BorgChassisSelectable
-  name: service cyborg
+  name: 服務型機械人 | service cyborg
   components:
   - type: BorgSwitchableType
     selectedBorgType: service
@@ -84,8 +84,8 @@
 - type: entity
   id: BorgChassisSyndicateAssault
   parent: BaseBorgChassisSyndicate
-  name: syndicate assault cyborg
-  description: A lean, mean killing machine with access to a variety of deadly modules.
+  name: 黑幫突擊機械人 | syndicate assault cyborg
+  description: 一臺精悍強悍的殺戮機器，能配備各式各樣的致命模組。 | A lean, mean killing machine with access to a variety of deadly modules.
   components:
     - type: Sprite
       layers:
@@ -116,8 +116,8 @@
 - type: entity
   id: BorgChassisSyndicateMedical
   parent: [BaseBorgChassisSyndicate, ShowMedicalIcons]
-  name: syndicate medical cyborg
-  description: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
+  name: 辛迪加醫療機械人 | syndicate medical cyborg
+  description: 一名戰鬥醫療機械人。雖然攻擊能力有限，但其支援能力足以彌補這一點。 | A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
   components:
     - type: Sprite
       layers:
@@ -155,8 +155,8 @@
 - type: entity
   id: BorgChassisSyndicateSaboteur
   parent: BaseBorgChassisSyndicate
-  name: syndicate saboteur cyborg
-  description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
+  name: 犯罪集團 破壞者 機械人 | syndicate saboteur cyborg
+  description: 一款流線型的工程類人型機器人，配備了隱蔽模組。其變色龍投影器能讓它偽裝成納諾特拉森（Nanotrasen）的類人型機器人。 | A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
   components:
     - type: Sprite
       layers:
@@ -191,8 +191,8 @@
 - type: entity
   id: BorgChassisDerelict
   parent: BaseBorgChassisDerelict
-  name: derelict cyborg
-  description: A man-machine hybrid that assists in station activity. This one is in a state of great disrepair.
+  name: 廢棄的賽博格 | derelict cyborg
+  description: 一種協助空間站運作的人機混合體。這台已嚴重損壞。 | A man-machine hybrid that assists in station activity. This one is in a state of great disrepair.
   components:
   - type: Sprite
     layers:
@@ -223,8 +223,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: EngineeringBorgChassisDerelict
-  name: derelict engineer cyborg
-  description: A man-machine hybrid that assists the engineering department. This one seems to have chunks of strange crystals pockmarking its surface.
+  name: 被遺棄的工程師機器人 | derelict engineer cyborg
+  description: 一種協助工程部門的人機混合體。這台的表面似乎布滿了零星的奇怪晶體。 | A man-machine hybrid that assists the engineering department. This one seems to have chunks of strange crystals pockmarking its surface.
   components:
   - type: Sprite
     layers:
@@ -253,8 +253,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: JanitorBorgChassisDerelict
-  name: derelict janitor cyborg
-  description: A man-machine hybrid that assists the service department. It's a bigger mess than anything it can clean up.
+  name: 被遺棄的清潔工機械人 | derelict janitor cyborg
+  description: 一種協助維修部門的人機混合體。它造成的混亂，比它能清理的任何東西都要嚴重。 | A man-machine hybrid that assists the service department. It's a bigger mess than anything it can clean up.
   components:
   - type: Sprite
     layers:
@@ -287,8 +287,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: MedicalBorgChassisDerelict
-  name: derelict medical cyborg
-  description: A man-machine hybrid that assists the medical department. This one's needles don't look very sanitary.
+  name: 廢棄的醫療型賽博格 | derelict medical cyborg
+  description: 一款協助醫療部門的人機混合體。這台的針頭看起來不太衛生。 | A man-machine hybrid that assists the medical department. This one's needles don't look very sanitary.
   components:
   - type: Sprite
     layers:
@@ -328,8 +328,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: MiningBorgChassisDerelict
-  name: derelict salvage cyborg
-  description: A man-machine hybrid that assists the cargo department. This one has seen the wrong side of a gibtonite chunk.
+  name: 廢棄打撈賽博格 | derelict salvage cyborg
+  description: 一款協助貨運部門的人機混合體。這台曾被一塊吉布托尼特礦塊狠狠擊中。 | A man-machine hybrid that assists the cargo department. This one has seen the wrong side of a gibtonite chunk.
   components:
   - type: Sprite
     layers:
@@ -362,8 +362,8 @@
 - type: entity
   parent: BaseBorgChassisSyndicateDerelict
   id: SyndicateAssaultBorgChassisDerelict
-  name: derelict syndicate assault cyborg
-  description: A lean, mean killing machine with access to a variety of deadly modules. This one is more rust-orange than blood-red.
+  name: 廢棄組織的攻擊型機甲 | derelict syndicate assault cyborg
+  description: 一臺精瘦而凶殘的殺戮機器，配備多種致命模組。這台機體的顏色更偏向鏽橙色，而非血紅色。 | A lean, mean killing machine with access to a variety of deadly modules. This one is more rust-orange than blood-red.
   components:
   - type: Sprite
     layers:

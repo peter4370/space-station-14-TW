@@ -2,7 +2,7 @@
 # Although based on MobBaseAncestor, this species does not have a "developed" playable species it is an ancestor to.
 
 - type: entity
-  name: scurret
+  name: scurret | scurret
   id: MobBaseScurret
   parent: MobBaseAncestor
   abstract: true
@@ -152,8 +152,8 @@
 # Spawnable scurrets have a random name and colour.
 
 - type: entity
-  name: scurret
-  description: Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnolds's Pizza's "loyal workforce".
+  name: ghost-角色資訊-情緒支持-Scurret-姓名 | scurret
+  description: ghost-role-information-emotional-support-scurret-description | Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnolds's Pizza's "loyal workforce".
   id: MobScurret
   parent: MobBaseScurret
   components:
@@ -183,7 +183,7 @@
 - type: entity
   abstract: true
   id: MobBaseEmotionalSupportScurret
-  name: Emotional Support Scurret
+  name: 情感支持 斯庫雷特 | Emotional Support Scurret
   components:
     - type: Loadout
       prototypes: [ EmotionalSupportScurretGear ]
@@ -193,7 +193,7 @@
     - type: GhostRole
       makeSentient: true
       name: ghost-role-information-emotional-support-scurret-name
-      description: ghost-role-information-emotional-support-scurret-description
+      description: 這些小生物俗稱「瓦瓦」，源自瓦瓦星球的濕地，構成了阿諾德披薩店「忠實員工」的主體。這隻則是來當臨時工的。 | ghost-role-information-emotional-support-scurret-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default

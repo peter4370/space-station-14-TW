@@ -3,8 +3,8 @@
   parent:
   - Incorporeal
   - BaseMob
-  name: revenant
-  description: A spooky ghostie.
+  name: 復仇者 | revenant
+  description: 一個嚇人的小鬼。 | A spooky ghostie.
   components:
   - type: Emag
     emagType: All
@@ -35,8 +35,8 @@
     maxZoom: 1.2, 1.2
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-revenant-name
-    description: ghost-role-information-revenant-description
+    name: 幽靈角色資訊－復仇者之名 | ghost-role-information-revenant-name
+    description: 幽靈角色資訊－復仇者－描述 | ghost-role-information-revenant-description
     rules: ghost-role-information-antagonist-rules
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist

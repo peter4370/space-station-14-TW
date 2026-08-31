@@ -3,8 +3,8 @@
 - type: entity
   id: RipleyCentralElectronics
   parent: BaseElectronics
-  name: ripley central control module
-  description: The electrical control center for the ripley mech.
+  name: 里普利中央控制模組 | ripley central control module
+  description: 瑞普利機甲的電氣控制中心。 | The electrical control center for the ripley mech.
   components:
     - type: Item
       storedRotation: 0
@@ -21,8 +21,8 @@
 - type: entity
   id: RipleyPeripheralsElectronics
   parent: BaseElectronics
-  name: ripley peripherals control module
-  description: The electrical peripherals control for the ripley mech.
+  name: Ripley 周邊設備控制模組 | ripley peripherals control module
+  description: 瑞普利機甲的電子周邊控制系統。 | The electrical peripherals control for the ripley mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -39,8 +39,8 @@
 - type: entity
   id: HonkerCentralElectronics
   parent: BaseElectronics
-  name: H.O.N.K. central control module
-  description: The electrical control center for the H.O.N.K. mech.
+  name: H.O.N.K. 中央控制模組 | H.O.N.K. central control module
+  description: H.O.N.K. 機甲的電控中心。 | The electrical control center for the H.O.N.K. mech.
   components:
     - type: Item
       storedRotation: 0
@@ -57,8 +57,8 @@
 - type: entity
   id: HonkerPeripheralsElectronics
   parent: BaseElectronics
-  name: H.O.N.K. peripherals control module
-  description: The electrical peripherals control for the H.O.N.K. mech.
+  name: H.O.N.K. 周邊設備控制模組 | H.O.N.K. peripherals control module
+  description: H.O.N.K. 機甲的電子周邊控制系統。 | The electrical peripherals control for the H.O.N.K. mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -73,8 +73,8 @@
 - type: entity
   id: HonkerTargetingElectronics
   parent: BaseElectronics
-  name: H.O.N.K. weapon control and targeting module
-  description: The electrical targeting control for the H.O.N.K. mech.
+  name: H.O.N.K. 武器控制與瞄準模組 | H.O.N.K. weapon control and targeting module
+  description: H.O.N.K. 機甲的電子瞄準控制系統。 | The electrical targeting control for the H.O.N.K. mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -91,8 +91,8 @@
 - type: entity
   id: HamtrCentralElectronics
   parent: BaseElectronics
-  name: HAMTR central control module
-  description: The electrical control center for the HAMTR mech.
+  name: HAMTR 中央控制模組 | HAMTR central control module
+  description: HAMTR 機甲的電氣控制中心。 | The electrical control center for the HAMTR mech.
   components:
     - type: Item
       storedRotation: 0
@@ -109,8 +109,8 @@
 - type: entity
   id: HamtrPeripheralsElectronics
   parent: BaseElectronics
-  name: HAMTR peripherals control module
-  description: The electrical peripherals control for the HAMTR mech.
+  name: HAMTR 周邊設備控制模組 | HAMTR peripherals control module
+  description: HAMTR 機甲的電子周邊設備控制系統。 | The electrical peripherals control for the HAMTR mech.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

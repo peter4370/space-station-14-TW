@@ -1,8 +1,6 @@
-pai-mass-scanner-name = Mass Scanner
-pai-mass-scanner-desc = Enables you to scan nearby masses to assist in navigation.
-
-pai-midi-player-name = MIDI Player
-pai-midi-player-desc = Enables you to play music to entertain your owner.
-
-pai-station-map-name = Station Map
-pai-station-map-desc = Enables you to view the station map to assist in navigation.
+pai-mass-scanner-name = 質量掃描器
+pai-mass-scanner-desc = 可讓您掃描附近的物體，以協助導航。
+pai-midi-player-name = MIDI 播放器
+pai-midi-player-desc = 讓您能夠播放音樂來娛樂您的主人。
+pai-station-map-name = 車站地圖
+pai-station-map-desc = 讓您能夠查看車站地圖，以協助導航。

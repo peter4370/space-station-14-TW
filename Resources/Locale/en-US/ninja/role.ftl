@@ -1,8 +1,6 @@
-ninja-round-end-agent-name = ninja
-
-objective-issuer-spiderclan = [color=#33cc00]Spider Clan[/color]
-
+ninja-round-end-agent-name = 忍者
+objective-issuer-spiderclan = [color=#33cc00]蜘蛛一族[/color]
 ninja-role-greeting =
-    I am an elite mercenary of the mighty Spider Clan!
-    Surprise is my weapon. Shadows are my armor. Without them, I am nothing.
-    Use your pinpointer to find the station. Good luck!
+    我是強大「蜘蛛一族」的精英傭兵！
+    出其不意是我的武器，陰影是我的盔甲。沒有它們，我就一無是處。
+    請使用你的定位器來尋找這個據點。祝你好運！

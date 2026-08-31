@@ -1,84 +1,85 @@
+
 <Document>
-# Botany
-As a botanist, it is your job to grow enough food to stop the chef from seeking "alternative sources". Grow lots of wheat, and when you get tired of that, grow weed. Make weed smoothies and spike drinks with nettles. Just keep growing plants, and you'll do great!
+# 植物學
+身為一名植物學家，你的任務是種植足夠的食物，以免主廚不得不尋找「替代來源」。 種大量的小麥，等膩了之後，就種大麻吧。 製作大麻果昔，並在飲品中加入蕁麻提味。 只要繼續種植植物，你一定會做得很好！
 
-## Starting your shift
-First identify the machines around you that you will be using. Coordinate with the Chef to see if they want anything specific to be grown, otherwise grow wheat and bananas and whatever else you feel like growing. You may also grow plants for Chemistry (Medbay), the Bartender, or to sell by Cargo.
+## 開始您的班次
+首先，請確認您周圍將要使用的機器。 請與主廚協調，確認他是否希望種植某些特定作物；若無特別要求，則種植小麥、香蕉，以及任何你覺得想種的作物。 您也可以種植植物，供「化學」（醫療艙）、調酒師使用，或是透過「貨運」出售。
 
 
-# Tools
-There are many tools that can be used to keep your crops healthy and growing. The Hydroponics Tray is where you will spend most of your time as a botanist.
+# 工具
+有許多工具可以幫助您維持作物健康並促進生長。 作為一名植物學家，您將在水耕栽培托盤旁度過大部分時間。
 
-## Hydroponics Tray
+## 水耕栽培托盤
 <Box>
 <GuideEntityEmbed Entity="hydroponicsTray"/>
 </Box>
-It's a hydroponics tray, it grows plants with water. First fill the tray with water, then add seeds.
-Hydroponics tray lights indicate different things depending on color and position:
-- [color=red]Red Light, Left[/color]: Dead plant that needs re-planting. Use a spade to remove the plant.
-- [color=orange]Flashing Orange Light, Center[/color]: The environment is sub-optimal. Check what is affecting the plant by Shift Clicking on it. It is likely weeds but it could be undesirable pressure or lack of oxygen. If weeds, use a mini hoe or spray 1 time with weed spray. Be warned, however, that overuse of weed killers can lead to unhealthy plants, possibly killing them.
-- [color=#0336ff]Blue Light, Right[/color]: Needs water. Use bucket on the water tank and fill the tray.
-- [color=green]Green Light, Left[/color]: Ready for harvest. Left click to harvest.
-- [color=yellow]Yellow Light, Right[/color]: Needs nutrients. Use any fruit and put it into the soil or get EZ nutrients from chemistry.
+這是一個水耕托盤，是用水來種植植物的。 首先將托盤注滿水，然後加入種子。
+水耕托盤上的指示燈會根據顏色和位置顯示不同的訊息：
+- [color=red]紅燈，左側[/color]：植物已死亡，需要重新種植。 請使用鏟子將植物挖出。
+- [color=orange]中央處閃爍的橘色燈光[/color]：環境狀況未達最佳。 按住 Shift 鍵並點擊該植物，以查看是什麼因素影響了它。 很可能是雜草，但也可能是環境壓力過大或缺氧所致。 若有雜草，請使用迷你鋤頭，或噴灑一次除草劑。 不過請注意，過度使用除草劑可能會導致植物健康受損，甚至可能使它們死亡。
+- [color=#0336ff]藍燈，右側[/color]：需要澆水。 將水桶放在水箱上，並將托盤裝滿水。
+- [color=green]綠燈，左側[/color]：已準備好收成。 左鍵點擊以採集。
+- [color=yellow]黃燈，右轉[/color]：需要養分。 使用任何水果並將其放入土壤中，或是從化學物質中獲取 EZ 營養素。
 
-The lifecycle of a hydroponics tray is the following:
-- [color=lightgreen]Empty[/color]: no water, seed or nutrients
-- [color=lightgreen]Hydrated[/color]: you've added water to it (e.g. from a bottle or bucket).
-- [color=lightgreen]Ready for planting[/color]: you've added water and nutrients to it (i.e. fertilizer).
-- [color=lightgreen]Planted[/color]: you've added a seed to it
-- [color=lightgreen]Ready for Harvest[/color]: you've waited for the plant to grow
-- [color=lightgreen]Sampled[/color]: you've taken a sample (seed)
-- [color=lightgreen]Harvested[/color]: you've picked ready plants. Some plants will then grow again. Others will die and need replanting.
-- [color=lightgreen]Unhealthy[/color]: You've sampled too many seeds or sprayed it with deadly chemicals. The plant isn't coping too well. It'll continue to grow. Health can be restored by fertilizers or you can cut your losses and extract a seed (plant clippers) and replant.
-- [color=lightgreen]Old / Wilted[/color]: the plant has matured and will soon die. It will still be harvestable and you can extract seeds but only for a short duration. Extract the seed and then pluck it out / chop it down.
-- [color=lightgreen]Dead[/color]: the plant has been harvested and ceased growing. It should be plucked out / chopped down. No seeds can be extracted.
+水耕托盤的生命週期如下：
+- [color=lightgreen]空托盤[/color]：沒有水、種子或養分
+- [color=lightgreen]加水狀態[/color]：您已向其中加水（例如從瓶子或水桶中加入）。
+- [color=lightgreen]已準備好進行種植[/color]：您已為其補充了水分和養分（即肥料）。
+- [color=lightgreen]已種植[/color]：您已向其中添加了一顆種子
+- [color=lightgreen]準備收成[/color]：你已等待植物生長
+- [color=lightgreen]採樣[/color]：你已採集樣本（種子）
+- [color=lightgreen]收成[/color]：你已採收成熟的植物。 隨後，有些植物會再次生長。 其餘的會枯死，需要重新種植。
+- [color=lightgreen]不健康[/color]：你採集了過多的種子，或是對其噴灑了致命的化學物質。 這株植物的狀況不太好。 它將會持續成長。 可以透過施肥來恢復植株的健康，或者你可以止損，用植物剪刀剪下種子並重新栽種。
+- [color=lightgreen]老化／枯萎[/color]：植物已成熟，即將死亡。 它仍然可以收穫，你也可以提取種子，但僅限於短暫的一段時間內。 取出種子，然後將其拔出／砍倒。
+- [color=lightgreen]死亡[/color]：該植物已採收，並停止生長。 應該把它拔掉／砍倒。 無法取出種子。
 
-## Seed Extractor
+## 去籽機
 <Box>
 <GuideEntityEmbed Entity="SeedExtractor"/>
 </Box>
-It extracts seeds. Insert crop, receive seeds.
+它用來擷取種子。 播種，收穫種子。
 
 
-# Plant Genetics
-Like all other forms of life known to NanoTrasen, plants pass traits to offspring in their genes. By manipulating plant genetics, botanists can produce plant varieties with desirable mutations that increase plant health and yield.
+# 植物遺傳學
+如同 NanoTrasen 所知的所有其他生命形式一樣，植物也是透過基因將性狀傳給後代。 透過操縱植物的基因，植物學家能夠培育出具有理想突變的植物品種，從而提升植物的健康狀況與產量。
 
-## Traits
-The phenotype, or set of observable characteristics and traits of a plant, can be determined through careful observation and study. A few common traits include:
+## 性狀
+表型，即植物的一組可觀察到的特徵與性狀，可透過仔細的觀察與研究來確定。 幾項常見的特徵包括：
 
-- [color=lightgreen]Bioluminescence[/color]: plants with this trait glow in the dark
-- [color=lightgreen]High yield[/color]: plants with this trait yield more fruit per harvest
-- [color=lightgreen]Less water[/color]: plants with this trait require less water than normal to grow
-- [color=lightgreen]Ligneous[/color]: plants with this trait require sharp tools to harvest
-- [color=lightgreen]Long life[/color]: plants with this trait live for more harvest cycles before dying
-- [color=lightgreen]Low light[/color]: plants with this trait need less light than normal to grow
-- [color=lightgreen]Pest resistance[/color]: plants with this trait are more resistant to pests
-- [color=lightgreen]Seedless[/color]: plants with this trait do not produce viable seeds
-- [color=lightgreen]Weed resistance[/color]: plants with this trait suppress weed growth
+- [color=lightgreen]生物發光[/color]：具備此特徵的植物在黑暗中會發光
+- [color=lightgreen]高產量[/color]：具備此特徵的植物每批收成可產出更多果實
+- [color=lightgreen]需水量較低[/color]：具備此特性的植物生長所需水分較一般植物少
+- [color=lightgreen]木質化[/color]：具備此特性的植物需使用銳利工具才能收穫
+- [color=lightgreen]長壽[/color]：具備此特性的植物在死亡前能經歷更多收成週期
+- [color=lightgreen]低光照[/color]：具有此特性的植物生長所需的光照較一般植物少
+- [color=lightgreen]抗蟲性[/color]：具備此特性的植物對害蟲的抵抗力較強
+-[color=lightgreen]無籽[/color]：具備此特性的植物不會產生可發芽的種子
+- [color=lightgreen]抗雜草性[/color]：具備此特性的植物能抑制雜草生長
 
-You can determine the phenotype of a plant simply by growing them and observing them! This is how Gregor Mendel, father of genetics, studied them in 1866.
+您只需種植並觀察植物，即可判斷其表型！ 這就是遺傳學之父格雷戈爾·孟德爾於1866年研究它們的方式。
 
-## Mutations
-Plants treated with [color=cyan]unstable mutagen[/color] will experience random genetic mutations, which can alter their genes and result in changes to their traits. You can save the plants with mutations you want by harvesting their seeds.
+## 突變
+經 [color=cyan]不穩定致突變劑[/color] 處理的植物會發生隨機的基因突變，這可能改變其基因，並導致性狀發生變化。 你可以透過採收種子，保存那些具有你想要突變特徵的植物。
 
-The more unstable mutagen you use, the more mutations you will get. Since many genes are vital to a plant's survival, most mutations will cause a plant to die.
+使用的致突變劑越不穩定，產生的突變就越多。 由於許多基因對植物的生存至關重要，因此大多數突變都會導致植物死亡。
 
 <Box>
 <GuideEntityEmbed Entity="ChemistryBottleUnstableMutagen"/>
 </Box>
 
-## Cross-Pollination
-You can use a [color=cyan]sterile swab[/color] to transfer pollen from one plant to another. Plants that are cross-pollinated have a chance to transfer traits. Be careful re-using swabs; pollen is sticky!
+## 異花授粉
+您可以使用 [color=cyan]無菌棉籤[/color]，將花粉從一株植物轉移到另一株植物上。 經由異花授粉的植物，有机会傳遞性狀。 重複使用棉籤時請多加小心；花粉很黏！
 
 <Box>
 <GuideEntityEmbed Entity="BoxMouthSwab"/>
 <GuideEntityEmbed Entity="DiseaseSwab"/>
 </Box>
 
-## Chemicals
-Some chemicals have special effects on plants.
+## 化學物質
+某些化學物質對植物具有特殊影響。
 
-[textlink="Click here to see all botanical chemicals." link="Botanical"]
+[textlink="點擊此處查看所有植物化學物質。" link="植物化學物質"]
 
 <GuideReagentEmbed Reagent="Dylovene"/>
 <GuideReagentEmbed Reagent="Cryoxadone"/>

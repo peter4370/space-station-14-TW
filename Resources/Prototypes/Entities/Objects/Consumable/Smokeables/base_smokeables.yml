@@ -1,5 +1,5 @@
 - type: entity
-  description: "If you want to get cancer, might as well do it in style."
+  description: "既然要得癌症，倒不如得得有格調一點。 | If you want to get cancer, might as well do it in style."
   id: BaseSmokable
   parent: [SolutionSmokable, SolutionTiny, BaseItem]
   abstract: true
@@ -52,7 +52,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: smoking-pipe-slot-component-slot-name-bowl
+      name: 煙斗-插槽-元件-插槽名稱-煙斗碗 | smoking-pipe-slot-component-slot-name-bowl
       whitelist:
         tags:
           - Smokable

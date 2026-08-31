@@ -1,6 +1,5 @@
-handheld-grinder-cannot-juice = You cannot juice {THE($item)}!
-handheld-grinder-cannot-grind = You cannot grind {THE($item)}!
-
-handheld-grinder-default = You finished processing {THE($item)}.
-handheld-grinder-juiced = You finished juicing {THE($item)}.
-handheld-grinder-grinded = You finished grinding {THE($item)}.
+handheld-grinder-cannot-juice = 你無法榨取 { THE($item) } 的汁！
+handheld-grinder-cannot-grind = 你無法研磨 { THE($item) }！
+handheld-grinder-default = 您已完成對 { THE($item) } 的處理。
+handheld-grinder-juiced = 您已完成榨汁 { THE($item) }。
+handheld-grinder-grinded = 您已完成研磨 { THE($item) }。

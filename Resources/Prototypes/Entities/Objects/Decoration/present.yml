@@ -1,7 +1,7 @@
 - type: entity
   id: PresentBase
-  name: present
-  description: A little box with incredible surprises inside.
+  name: 目前 | present
+  description: 一個小盒子，裡面藏著令人驚喜的驚喜。 | A little box with incredible surprises inside.
   abstract: true
   components:
   - type: Sprite
@@ -448,8 +448,8 @@
   id: PresentTrash
   categories: [ HideSpawnMenu ]
   parent: BaseItem
-  name: wrapping paper
-  description: Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
+  name: 包裝紙 | wrapping paper
+  description: 仔細地摺疊好、用膠帶黏好，並繫上蝴蝶結。接著便鄭重其事地將它撕爛，拋到地板上。 | Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
   components:
   - type: Sprite
     sprite: Objects/Decoration/present.rsi

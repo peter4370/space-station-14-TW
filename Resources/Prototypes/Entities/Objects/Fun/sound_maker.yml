@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseItem
   id: BikeHorn
-  name: bike horn
-  description: A horn off of a bicycle.
+  name: 自行車喇叭 | bike horn
+  description: 一隻自行車的喇叭。 | A horn off of a bicycle.
   components:
   - type: Sprite
     sprite: Objects/Fun/bikehorn.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseItem
   id: CluwneHorn
-  name: broken bike horn
-  description: A broken horn off of a bicycle.
+  name: 壞掉的自行車喇叭 | broken bike horn
+  description: 一隻從自行車上斷下的車鈴。 | A broken horn off of a bicycle.
   components:
   - type: UseDelay
   - type: Sprite
@@ -93,8 +93,8 @@
 - type: entity
   parent: BikeHorn
   id: GoldenBikeHorn
-  name: golden honker
-  description: A happy honk prize, pray to the gods for your reward.
+  name: 金鵝 | golden honker
+  description: 一聲歡快的喇叭聲，就是獎品，祈求諸神賜予你獎賞吧。 | A happy honk prize, pray to the gods for your reward.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -118,8 +118,8 @@
 - type: entity
   parent: BikeHorn
   id: BananiumHorn
-  name: bananium horn
-  description: An air horn made from bananium.
+  name: 香蕉角 | bananium horn
+  description: 一款由香蕉木製成的氣喇叭。 | An air horn made from bananium.
   components:
   - type: Sprite
     sprite: Objects/Fun/bananiumhorn.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseItem
   id: PushHorn
-  name: push horn
-  description: This powerful bikehorn is sure to blast frowns away.
+  name: 按鈕喇叭 | push horn
+  description: 這款強勁的自行車喇叭，絕對能讓那些皺眉的表情一掃而空。 | This powerful bikehorn is sure to blast frowns away.
   components:
   - type: Sprite
     sprite: Objects/Fun/push_horn.rsi
@@ -199,8 +199,8 @@
   abstract: true
   parent: BaseItem
   id: BaseWhistle
-  name: whistle
-  description: Someone forgot to turn off a kettle?
+  name: 哨聲 | whistle
+  description: 是有人忘了關水壺嗎？ | Someone forgot to turn off a kettle?
   components:
   - type: Item
     sprite: Objects/Fun/whistles.rsi
@@ -232,7 +232,7 @@
 - type: entity
   parent: BaseWhistle
   id: SecurityWhistle
-  description: The sound of it brings fear.
+  description: 光是聽見這個聲音就令人感到恐懼。 | The sound of it brings fear.
   components:
   - type: Sprite
     state: sec
@@ -244,8 +244,8 @@
 - type: entity
   parent: [BaseWhistle, BaseMinorContraband]
   id: SyndicateWhistle
-  name: trench whistle
-  description: A whistle used by Syndicate commanders to draw attention. Avanti!
+  name: 戰壕哨 | trench whistle
+  description: 辛迪加指揮官用來引起注意的哨子。前進！ | A whistle used by Syndicate commanders to draw attention. Avanti!
   components:
   - type: Sprite
     state: trench
@@ -286,8 +286,8 @@
 - type: entity
   parent: BaseRubberToy
   id: ToyRubberDuck
-  name: rubber ducky
-  description: Not carried here by ocean currents.
+  name: 橡皮鴨 | rubber ducky
+  description: 並非由洋流帶到此處。 | Not carried here by ocean currents.
   components:
   - type: Sprite
     sprite: Objects/Fun/ducky.rsi
@@ -319,8 +319,8 @@
 - type: entity
   parent: BaseRubberToy
   id: RubberChicken
-  name: rubber chicken
-  description: A stress inducing parody of nature's most delectable avian.
+  name: 橡皮雞 | rubber chicken
+  description: 一部以大自然中最美味的鳥類為題材、令人感到壓力的惡搞作品。 | A stress inducing parody of nature's most delectable avian.
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_chicken.rsi
@@ -345,8 +345,8 @@
 - type: entity
   parent: BaseItem
   id: NewtonCradle
-  name: newton cradle
-  description: A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
+  name: 牛頓擺 | newton cradle
+  description: 一種讓無聊的文員用來提醒自己「時間還沒停下來」的裝置。內含重力。 | A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
   components:
   - type: Sprite
     sprite: Objects/Fun/newton_cradle.rsi
@@ -374,8 +374,8 @@
 - type: entity
   parent: BaseItem
   id: ClownRecorder
-  name: clown recorder
-  description: When you just can't get those laughs coming the natural way!
+  name: 小丑竖笛 | clown recorder
+  description: 當你實在無法自然地逗人發笑的時候！ | When you just can't get those laughs coming the natural way!
   components:
   - type: Sprite
     sprite: Objects/Fun/clownrecorder.rsi
@@ -401,8 +401,8 @@
 - type: entity
   parent: BaseItem
   id: WhoopieCushion
-  name: whoopie cushion
-  description: A practical joke device involving flatulence humour.
+  name: 放屁墊 | whoopie cushion
+  description: 一種以放屁幽默為主題的惡作劇裝置。 | A practical joke device involving flatulence humour.
   components:
   - type: Sprite
     sprite: Objects/Fun/whoopie.rsi
@@ -464,8 +464,8 @@
 - type: entity
   parent: BaseItem
   id: Skub
-  name: skub
-  description: Skub is the fifth Chaos God.
+  name: skub | skub
+  description: 斯庫布是第五位混沌之神。 | Skub is the fifth Chaos God.
   components:
   - type: Sprite
     sprite: Objects/Misc/skub.rsi

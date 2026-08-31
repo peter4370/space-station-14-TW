@@ -67,8 +67,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: PowerCellRecharger
-  name: cell recharger
-  description: An older model recharger that can recharge power cells.
+  name: 手機充電器 | cell recharger
+  description: 一款較舊型的充電器，可用於為電力電池充電。 | An older model recharger that can recharge power cells.
   components:
   - type: Sprite
     sprite: Structures/Power/cell_recharger.rsi
@@ -92,7 +92,7 @@
     slots:
       charger_slot:
         ejectOnInteract: true
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         whitelist:
           tags:
           - PowerCell
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ BaseItemRecharger, ConstructibleMachine ]
   id: PowerCageRecharger
-  name: cage recharger
-  description: A specialized machine made for recharging the heavy cage batteries used by ship-mounted weapons.
+  name: 籠式充電器 | cage recharger
+  description: 一款專門用於為艦載武器所使用的重型籠式電池充電的專用機器。 | A specialized machine made for recharging the heavy cage batteries used by ship-mounted weapons.
   components:
   - type: Fixtures
     fixtures:
@@ -138,7 +138,7 @@
     slots:
       charger_slot:
         ejectOnInteract: true
-        name: Power cage
+        name: 動力籠 | Power cage
         whitelist:
           tags:
           - PowerCage
@@ -150,8 +150,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: WeaponCapacitorRecharger
-  name: recharger
-  description: A modern recharging station that can fit both power cells and small electronic devices.
+  name: 充電器 | recharger
+  description: 一座現代化的充電站，既能為電池組充電，也能為小型電子裝置充電。 | A modern recharging station that can fit both power cells and small electronic devices.
   components:
   - type: Sprite
     sprite: Structures/Power/recharger.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: TurboItemRecharger
-  name: turbo recharger
-  description: An overclocked recharger. Not recommended for use around asthmatics.
+  name: 渦輪增壓器 | turbo recharger
+  description: 一款超頻充電器。不建議在哮喘患者身邊使用。 | An overclocked recharger. Not recommended for use around asthmatics.
   components:
   - type: Sprite
     sprite: Structures/Power/turbo_recharger.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: [ BaseItemRecharger, BaseWallmount ]
   id: WallWeaponCapacitorRecharger
-  name: wall recharger
-  description: A compact wall-mounted recharger. It can only recharge electronic devices and has no space for power cells.
+  name: 壁掛式充電器 | wall recharger
+  description: 一款體積小巧的壁掛式充電器。它僅能為電子裝置充電，且沒有空間容納電池。 | A compact wall-mounted recharger. It can only recharge electronic devices and has no space for power cells.
   components:
   - type: Sprite
     sprite: Structures/Power/wall_recharger.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: [ BaseRecharger, BaseConstructibleMachineDestructible ]
   id: BorgCharger
-  name: cyborg recharging station
-  description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+  name: 機械人充電站 | cyborg recharging station
+  description: 一款適用於各類機器人及半機械人實體的固定式充電器。空間出乎意料地寬敞。 | A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
   components:
   - type: Sprite
     sprite: Structures/Power/borg_charger.rsi
@@ -332,8 +332,8 @@
 - type: entity
   parent: BorgCharger
   id: BorgChargerXenoborg
-  name: xenoborg recharging station
-  description: A stationary charger for xenoborgs. Feels claustrophobic.
+  name: 外星機器人充電站 | xenoborg recharging station
+  description: 一款專為異種博格設計的固定式充電器。讓人有種幽閉恐懼感。 | A stationary charger for xenoborgs. Feels claustrophobic.
   components:
   - type: Sprite
     sprite: Structures/Power/xenoborg_charger.rsi

@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: BulletLightRifle
   categories: [ HideSpawnMenu ]
-  name: bullet (.30 rifle)
+  name: 子彈（.30 步槍彈） | bullet (.30 rifle)
   components:
   - type: Projectile
     damage:
@@ -13,7 +13,7 @@
   parent: BaseBulletPractice
   id: BulletLightRiflePractice
   categories: [ HideSpawnMenu ]
-  name: bullet (.30 rifle practice)
+  name: 子彈（.30 步槍練習用） | bullet (.30 rifle practice)
   components:
   - type: Projectile
     damage:
@@ -24,7 +24,7 @@
   parent: BaseBulletIncendiary
   id: BulletLightRifleIncendiary
   categories: [ HideSpawnMenu ]
-  name: bullet (.30 rifle incendiary)
+  name: 子彈（.30 步槍燃燒彈） | bullet (.30 rifle incendiary)
   components:
   - type: Projectile
     damage:
@@ -36,7 +36,7 @@
   parent: BaseBulletUranium
   id: BulletLightRifleUranium
   categories: [ HideSpawnMenu ]
-  name: bullet (.30 rifle uranium)
+  name: 子彈（.30 步槍鈾彈） | bullet (.30 rifle uranium)
   components:
   - type: Projectile
     damage:

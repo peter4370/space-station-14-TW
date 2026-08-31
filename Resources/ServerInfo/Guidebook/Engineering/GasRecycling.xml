@@ -1,25 +1,26 @@
+
 <Document>
-  # Gas Recycling
-  Gas recycler is a machine that converts waste gasses into breathable ones.
+  # 氣體回收
+  氣體回收機是一種能將廢氣轉化為可呼吸氣體的機器。
 
   <Box>
     <GuideEntityEmbed Entity="GasRecycler"/>
   </Box>
-  Specificaly it can recycle Carbon Dioxide and Nitrous Oxide into Oxygen and Nitrogen.
+  具體來說，它能夠將二氧化碳和一氧化二氮轉化為氧氣和氮氣。
 
-  The machine has a two [textlink="pipenet" link="PipeNetworks"] connections, for gas input and output.
+  該機器設有兩個 [textlink="pipenet" link="PipeNetworks"] 連接口，分別用於天然氣的輸入與輸出。
 
-  For recycler to work, tha gas needs to be pressurized to [color=#a4885c]3000 kPa[/color] heated to [color=#a4885c]573,15K[/color], and the pressure at the inlet needs to be higher than outlet.
-  If these conditions are not met, the gases will just pass through without getting recycled (as will unrecyclable gases).
+  要使回收器正常運作，該氣體必須被加壓至 [color=#a4885c]3000 kPa[/color]，並加熱至 [color=#a4885c]573.15 K[/color]，且入口處的壓力必須高於出口處。
+  若未滿足這些條件，氣體便會直接通過而不被回收（不可回收的氣體亦然）。
 
   <Box>
-    <GuideEntityEmbed Entity="GasRecyclerMachineCircuitboard" Caption="Gas recycler circuit board"/>
+    <GuideEntityEmbed Entity="GasRecyclerMachineCircuitboard" Caption="氣體回收器電路板"/>
   </Box>
 
-  The machine can be constructed using a circuit board, which can be made at a circuit imprinter.
-  It first needs to be researched by [textlink="science" link="Science"] though.
+  這台機器可以使用電路板來組裝，而電路板則可透過電路印製機製作。
+  不過，這首先需要由 [textlink="science" link="Science"] 進行研究。
 
-  Gas recycling can be used as an alternative to gas miners, or as a backup to build a redundancy in the atmospheric system.
-  [color=#a4885c]Just don't forget to cool the gas before releasing it into the station![/color]
+  氣體回收技術既可作為氣體採集裝置的替代方案，也可作為備援機制，以在大氣系統中建立冗餘機制。
+  [color=#a4885c]只是別忘了在將氣體導入站內之前先將其冷卻！[/color]
 
 </Document>

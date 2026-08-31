@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCentcomFormalDress
-  name: central command formal dress
-  description: A dress for special occasions.
+  name: 中央司令部正式禮服 | central command formal dress
+  description: 一件適合特殊場合的洋裝。 | A dress for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Centcomm/centcomformaldress.rsi

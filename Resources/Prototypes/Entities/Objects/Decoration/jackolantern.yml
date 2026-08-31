@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CarvedPumpkin
-  name: carved pumpkin
-  description: A traditional spooky decoration.
+  name: 雕刻南瓜 | carved pumpkin
+  description: 一種傳統的詭異裝飾。 | A traditional spooky decoration.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/pumpkin.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CarvedPumpkin
   id: PumpkinLantern
-  name: jack o' lantern
-  description: A carved pumpkin, emitting an eerie glow.
+  name: 南瓜燈 | jack o' lantern
+  description: 一個雕刻過的南瓜，散發著詭異的光芒。 | A carved pumpkin, emitting an eerie glow.
   components:
     - type: Sprite
       state: lantern

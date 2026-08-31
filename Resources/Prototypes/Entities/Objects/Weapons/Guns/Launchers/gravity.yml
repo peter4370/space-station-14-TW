@@ -28,8 +28,8 @@
 - type: entity
   parent: [ BaseWeaponGravityGun, PowerCellSlotMediumItem ]
   id: WeaponTetherGun
-  name: tether gun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  name: 繫繩槍 | tether gun
+  description: 操控物體周圍的重力，使其以極高速度被彈射出去。 | Manipulates gravity around objects to fling them at high velocities.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
@@ -53,13 +53,13 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: [ BaseWeaponGravityGun, PowerCellSlotMediumItem ]
   id: WeaponForceGun
-  name: force gun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  name: 強力槍 | force gun
+  description: 操控物體周圍的重力，使其以極高速度被彈射出去。 | Manipulates gravity around objects to fling them at high velocities.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/force_gun.rsi
@@ -89,14 +89,14 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
 
 # Admeme
 - type: entity
   parent: WeaponTetherGun
   id: WeaponTetherGunAdmin
-  name: tether gun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  name: 繫繩槍 | tether gun
+  description: 操控物體周圍的重力，使其以極高速度被彈射出去。 | Manipulates gravity around objects to fling them at high velocities.
   suffix: Admeme
   components:
   - type: TetherGun
@@ -110,8 +110,8 @@
 - type: entity
   parent: WeaponForceGun
   id: WeaponForceGunAdmin
-  name: force gun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  name: 強力槍 | force gun
+  description: 操控物體周圍的重力，使其以極高速度被彈射出去。 | Manipulates gravity around objects to fling them at high velocities.
   suffix: Admeme
   components:
   - type: ForceGun

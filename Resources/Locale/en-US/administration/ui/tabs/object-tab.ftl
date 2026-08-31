@@ -1,13 +1,10 @@
 ﻿object-tab-entity-id = Entity ID
-object-tab-object-name = Object name
-
-object-tab-object-type = Object type:
-object-tab-object-search = Search...
-
-object-tab-object-type-grids = Grids
-object-tab-object-type-maps = Maps
-object-tab-object-type-stations = Stations
-object-tab-refresh-button = Refresh
-
-object-tab-entity-teleport = Teleport
-object-tab-entity-delete = Delete
+object-tab-object-name = 物件名稱
+object-tab-object-type = 物件類型：
+object-tab-object-search = 搜尋...
+object-tab-object-type-grids = 網格
+object-tab-object-type-maps = 地圖
+object-tab-object-type-stations = 車站
+object-tab-refresh-button = 重新整理
+object-tab-entity-teleport = 瞬間移動
+object-tab-entity-delete = 刪除

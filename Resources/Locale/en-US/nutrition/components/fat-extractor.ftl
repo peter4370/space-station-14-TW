@@ -1,6 +1,6 @@
-fat-extractor-fact-1 = Fats are triglycerides made up of a combination of different building blocks; glycerol and fatty acids.
-fat-extractor-fact-2 = Adults should get a recommended 20-35% of their energy intake from fat.
-fat-extractor-fact-3 = Being overweight or obese puts you at an increased risk of chronic diseases, such as cardiovascular diseases, metabolic syndrome, type 2 diabetes, and some types of cancers.
-fat-extractor-fact-4 = Not all fats are bad. A certain amount of fat is an essential part of a healthy balanced diet.
-fat-extractor-fact-5 = Saturated fat should form no more than 11% of your daily calories.
-fat-extractor-fact-6 = Unsaturated fat, that is monounsaturated fats, polyunsaturated fats, and omega-3 fatty acids, is found in plants and fish.
+fat-extractor-fact-1 = 脂肪是由不同組成單位——甘油和脂肪酸——組合而成的三酸甘油酯。
+fat-extractor-fact-2 = 成人應讓脂肪佔其總能量攝取量的 20% 至 35%，這符合相關建議。
+fat-extractor-fact-3 = 體重過重或肥胖會增加罹患慢性疾病的風險，例如心血管疾病、代謝症候群、第二型糖尿病以及某些類型的癌症。
+fat-extractor-fact-4 = 並非所有脂肪都是有害的。適量的脂肪是健康均衡飲食中不可或缺的一部分。
+fat-extractor-fact-5 = 飽和脂肪所佔的每日熱量比例不應超過 11%。
+fat-extractor-fact-6 = 不飽和脂肪——即單元不飽和脂肪、多元不飽和脂肪及歐米伽-3脂肪酸——存在於植物和魚類中。

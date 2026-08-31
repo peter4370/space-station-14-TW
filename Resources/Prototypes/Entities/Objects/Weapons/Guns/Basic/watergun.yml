@@ -51,8 +51,8 @@
 - type: entity
   parent: WeaponWaterGunBase
   id: WeaponWaterPistol
-  name: water pistol
-  description: The dinkiest of water-based weaponry. You swear the trigger doesn't do anything.
+  name: 水槍 | water pistol
+  description: 最微不足道的水基武器。你發誓扳機根本沒什麼用。 | The dinkiest of water-based weaponry. You swear the trigger doesn't do anything.
   components:
   - type: Item
     shape:
@@ -73,8 +73,8 @@
 - type: entity
   parent: [SolutionNormal, WeaponWaterGunBase] # 24 shots
   id: WeaponWaterBlaster
-  name: water blaster
-  description: With this bad boy, you'll be the coolest kid at the summer barbecue.
+  name: 水槍 | water blaster
+  description: 有了這台帥氣的玩意兒，你絕對會成為夏季烤肉派對上最酷的人。 | With this bad boy, you'll be the coolest kid at the summer barbecue.
   components:
   - type: Gun
     cameraRecoilScalar: 0 #no recoil
@@ -108,8 +108,8 @@
 - type: entity
   parent: [SolutionHuge, WeaponWaterGunBase] # 96 shots
   id: WeaponWaterBlasterSuper
-  name: super water blaster
-  description: No! No! Not in the eyes!
+  name: 超級水槍 | super water blaster
+  description: 不！不！別弄進眼睛裡！ | No! No! Not in the eyes!
   components:
   - type: Gun
     cameraRecoilScalar: 0 #no recoil

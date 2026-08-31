@@ -1,6 +1,7 @@
-﻿<Document>
-  # Pipe Networks
-  Pipe networks — commonly called Pipenets — are a series of interconnected [textlink="pipes" link="Pipes"], usually with a common task.
+﻿
+<Document>
+  # 管線網路
+  管線網路——通常稱為 Pipenets——是一系列相互連接的 [textlink="管線" link="管線"]，通常具有共同的任務。
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
@@ -12,28 +13,28 @@
     <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
   </Box>
 
-  Pipenets are used all throughout the station to deliver, remove, or otherwise move gas throughout it.
-  Great examples are the station's Distro or Wastenet, which deliver breathable air and remove waste gas, respectively.
+  管網遍布整個車站，用於輸送、排出或以其他方式移動站內的气體。
+  很好的例子就是該站點的「Distro」或「Wastenet」，它們分別負責供應新鮮空氣並排出廢氣。
 
-  ## How Pipenets Work
-  In Space Station 14, pipenets behave as a whole, defined volume, with input/output points at the ends of the network.
-  Forcing or vacuuming gas in or out using a [textlink="pump" link="Pumps"] will affect the entire network, not just the pipe it's connected to.
+  ## 管網的運作原理
+  在《太空站 14》中，管網被視為一個整體、定義明確的體積，其網路兩端設有輸入／輸出點。
+  使用 [textlink="泵" link="Pumps"] 將氣體強制注入或抽離，將會影響整個管路系統，而不僅僅是其連接的管路。
 
-  Pipenets are only separated by devices capable of interrupting flow, or by certain devices.
-  For example, a [textlink="Pressure Pump" link="Pumps"] will not allow gas to flow through it unless it's powered and has gas to pump.
+  Pipenets 僅能透過具備中斷流量功能之裝置，或特定裝置來進行分離。
+  舉例來說，一個 [textlink="壓力泵" link="泵"] 除非通電且有氣體可泵送，否則不會讓氣體通過。
 
-  Some examples of devices that separate pipe networks are:
-  - [textlink="Pressure and Volumetric Pumps" link="Pumps"]
-  - [textlink="Gas Mixers and Filters" link="MixingAndFiltering"]
-  - [textlink="All Valves" link="Valves"]
-  - [textlink="Radiators" link="Radiators"]
+  以下是一些用於分離管路網路的設備範例：
+  - [textlink="壓力泵與容積式泵" link="Pumps"]
+  - [textlink="氣體混合器與過濾器" link="MixingAndFiltering"]
+  - [textlink="所有閥門" link="閥門"]
+  - [textlink="散熱器" link="散熱器"]
 
-  An example of a pipenet being separated into two, distinct pipenets by a [textlink="pump" link="Pumps"] is shown below:
+  下圖展示了一個管路網被 [textlink="泵浦" link="Pumps"] 分割成兩個獨立管路網的範例：
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 1" Rotation="90"/>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
-    <GuideEntityEmbed Entity="GasPressurePump" Caption="Network Separator" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="網路分隔符" Rotation="90"/>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 2" Rotation="90"/>
   </Box>

@@ -3,7 +3,7 @@
 - type: entity
   id: ShuttleGunBase
   parent: BaseStructure
-  name: shittle gun
+  name: 屎槍 | shittle gun
   abstract: true
   components:
   - type: Appearance
@@ -38,8 +38,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine, BaseConstructibleMachineDestructible]
-  name: LSE-400c "Svalinn machine gun"
-  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+  name: LSE-400c「斯瓦林機槍」 | LSE-400c "Svalinn machine gun"
+  description: 基本型固定式雷射武器。對活體目標及電子設備皆具殺傷力。使用普通電源電池發射，且射速極高。 | Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: 雜誌 | Magazine
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -95,8 +95,8 @@
 - type: entity
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine, BaseConstructibleMachineDestructible]
-  name: LSE-1200c "Perforator"
-  description: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
+  name: LSE-1200c「Perforator」 | LSE-1200c "Perforator"
+  description: 先進的固定式雷射裝置。會摧毀電子設備，且對健康極為危險！透過能量籠進行發射。 | Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -130,7 +130,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: 雜誌 | Magazine
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -147,8 +147,8 @@
 - type: entity
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase, ConstructibleMachine, BaseConstructibleMachineDestructible]
-  name: EXP-320g "Friendship"
-  description: A small stationary grenade launcher that holds 2 grenades.
+  name: EXP-320g「友誼」 | EXP-320g "Friendship"
+  description: 一款可裝載 2 枚手榴彈的小型固定式榴彈發射器。 | A small stationary grenade launcher that holds 2 grenades.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -193,8 +193,8 @@
 - type: entity
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine, BaseConstructibleMachineDestructible]
-  name: EXP-2100g "Duster"
-  description: A powerful stationary grenade launcher. A cartridge is required for use.
+  name: EXP-2100g「Duster」 | EXP-2100g "Duster"
+  description: 一款威力強大的固定式榴彈發射器。使用時需裝填彈匣。 | A powerful stationary grenade launcher. A cartridge is required for use.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -230,7 +230,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 雜誌 | Magazine
         priority: 2
         whitelist:
           tags:
@@ -246,8 +246,8 @@
 - type: entity
   parent: [ ShuttleGunBase, BaseMachineDestructible ]
   id: ShuttleGunPirateCannon
-  name: pirate ship cannon
-  description: Kaboom!
+  name: 海盜船大砲 | pirate ship cannon
+  description: 砰！ | Kaboom!
   components:
   - type: ContainerContainer
     containers:
@@ -274,8 +274,8 @@
 - type: entity
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine, BaseConstructibleMachineDestructible]
-  name: PTK-800 "Matter Dematerializer"
-  description: Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
+  name: PTK-800「物質解體器」 | PTK-800 "Matter Dematerializer"
+  description: 回收型固定式採礦炮塔。能自行逐步累積能量，對於小行星開採極為有效。 | Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -319,8 +319,8 @@
 - type: entity
   parent: [ ShuttleGunBase, StructureHealthMachineWeak ]
   id: ShuttleGunKineticOld
-  name: exomorphic dematerializer
-  description: An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to mechanical constructions.
+  name: 外形解質器 | exomorphic dematerializer
+  description: 一門古老的艦砲，運用生物力學系統來儲存與釋放能量。儘管其設計獨特，但由於其裝填與射擊速度遜於機械結構，已逐漸被淘汰。 | An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to mechanical constructions.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/xeno.rsi

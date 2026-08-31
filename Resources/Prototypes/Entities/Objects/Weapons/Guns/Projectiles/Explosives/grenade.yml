@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: PelletClusterRubber
   categories: [ HideSpawnMenu ]
-  name: pellet (ball, rubber)
+  name: 膠球（球狀、橡膠製） | pellet (ball, rubber)
   components:
   - type: Projectile
     damage:
@@ -17,7 +17,7 @@
   parent: BaseBullet
   id: PelletClusterLethal
   categories: [ HideSpawnMenu ]
-  name: pellet (ball, lethal)
+  name: 子彈（圓形、致命） | pellet (ball, lethal)
   components:
   - type: Projectile
     damage:
@@ -30,7 +30,7 @@
   parent: BaseBulletIncendiary
   id: PelletClusterIncendiary
   categories: [ HideSpawnMenu ]
-  name: pellet (ball, incendiary)
+  name: 彈丸（球形、燃燒彈） | pellet (ball, incendiary)
   components:
   - type: Projectile
     damage:
@@ -47,7 +47,7 @@
   parent: BaseBullet
   id: PelletClusterLessLethal
   categories: [ HideSpawnMenu ]
-  name: pellet (ball, less lethal)
+  name: 彈丸（球形，非致命性） | pellet (ball, less lethal)
   components:
   - type: Projectile
     damage:

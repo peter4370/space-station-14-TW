@@ -1,1 +1,1 @@
-﻿station-event-vent-creatures-start-horde-announcement = Attention. A large influx of unknown life forms have been detected moving through the station's ventilation systems. They are expected to emerge near {$location}. Please evacuate the area to avoid loss of personnel.
+﻿station-event-vent-creatures-start-horde-announcement = 注意。 已偵測到大量不明生命體正穿梭於站內的通風系統之中。 預計它們將出現在 {$location} 附近。 請立即撤離該區域，以避免人員傷亡。

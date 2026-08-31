@@ -1,8 +1,8 @@
 - type: entity
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorPowerBox
-  name: PA power box
-  description: Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles.
+  name: PA 電源盒 | PA power box
+  description: 正式名稱為「粒子聚焦電磁透鏡」。此裝置利用電磁波來聚焦α粒子。 | Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/power_box.rsi
@@ -22,9 +22,9 @@
 - type: entity
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorPowerBoxUnfinished
-  name: PA power box
+  name: PA 電源盒 | PA power box
   suffix: Unfinished
-  description: Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles. It looks unfinished.
+  description: 正式名稱為「粒子聚焦電磁透鏡」。此裝置利用電磁波來聚焦α粒子。看起來尚未完工。 | Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles. It looks unfinished.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/power_box.rsi

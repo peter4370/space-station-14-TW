@@ -1,6 +1,6 @@
 - type: entity
-  name: urn
-  description: Store the Dead smart and Compact since 2300.
+  name: urn | urn
+  description: 自 2300 年起，以聰明且精巧的方式安放逝者。 | Store the Dead smart and Compact since 2300.
   parent: BaseStorageItem
   id: Urn
   components:

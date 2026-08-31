@@ -1,20 +1,21 @@
-<Document>
-# Medical
-This is the department where people go to when they're hurt, it's up to the folks working here to fix them.
 
-## Personnel
-[color=#5b97bc]Medical[/color]'s staff is made up of Medical Interns, Medical Doctors, Paramedics and Chemists. [color=#5b97bc]Medical[/color] is run by the Chief Medical Officer.
+<Document>
+# 醫療
+這是人們受傷時會前往的部門，治癒傷者的重任就落在這裡的工作人員身上。
+
+## 人員
+[color=#5b97bc]醫療[/color]部門的員工包括實習醫師、執業醫師、救護員及化學技師。 [color=#5b97bc]醫療[/color]部門由首席醫療官負責管理。
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Doctor"/>
-    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Paramedic"/>
-    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="Chemist"/>
-    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="CMO"/>
+    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="醫生"/>
+    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="急救員"/>
+    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="化學家"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="首席行銷長"/>
   </Box>
-  
-Right now, medbay is divided into two different sets of care:
 
-## Medical Treatment
+目前，醫療站分為兩類不同的照護服務：
+
+## 醫療治療
   <Box>
     <GuideEntityEmbed Entity="Brutepack"/>
     <GuideEntityEmbed Entity="Bloodpack"/>
@@ -22,7 +23,7 @@ Right now, medbay is divided into two different sets of care:
     <GuideEntityEmbed Entity="Gauze"/>
     <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
   </Box>
-## Chemical Production
+## 化學品生產
   <Box>
     <GuideEntityEmbed Entity="ChemDispenser"/>
     <GuideEntityEmbed Entity="LargeBeaker"/>

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtResearchDirector
-  name: research director's turtleneck
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+  name: 科學主任的高領衫 | research director's turtleneck
+  description: 這是一件高領衫，專為那些具備勝任研究總監職位所需專業知識的人士所穿。其布料能提供輕微的防護，抵禦生物污染物。 | It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Science/rnd.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtScientist
-  name: scientist jumpskirt
-  description: It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
+  name: 科學家跳跳裙 | scientist jumpskirt
+  description: 它由一種特殊纖維製成，能提升他人對穿戴者的智商印象，同時削弱其個人道德觀。上面印有標誌，表明穿戴者是一名科學家。 | It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Science/scientist.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRoboticist
-  name: roboticist jumpskirt
-  description: It's a slimming black with reinforced seams; great for industrial work.
+  name: 機器人專家跳躍裙 | roboticist jumpskirt
+  description: 這是一款修身款的黑色工作服，縫線經過加固處理；非常適合從事工業工作。 | It's a slimming black with reinforced seams; great for industrial work.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Science/roboticist.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorResearcher
-  name: senior researcher jumpskirt
-  description: A sign of skill and prestige within the science department.
+  name: 資深科學家 jumpskirt | senior researcher jumpskirt
+  description: 這是科學系內展現專業能力與聲望的象徵。 | A sign of skill and prestige within the science department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Science/senior_researcher.rsi

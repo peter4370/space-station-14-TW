@@ -1,54 +1,54 @@
-book-text-atmos-distro = The distribution network, or "distro" for short, is the station's lifeline. It's responsible for transporting air from atmospherics throughout the station.
-
-        Relevant pipes are often painted Popping Subdued Blue, but a surefire way to identify them is to use a tray scanner to trace which pipes are connected to active vents on the station.
-
-        The standard gas mix of the distribution network is 20 degrees celsius, 78% nitrogen, 22% oxygen. You can check this by using a gas analyzer on a distro pipe or any vent connected to it. Special circumstances may call for special mixes.
-
-        When it comes to deciding on a distro pressure, there are a few things to consider. Active vents will regulate the station's pressure, so as long as everything is functioning properly, there's no such thing as too high of a distro pressure.
-
-        A higher distro pressure will allow the distro network to act as a buffer between the gas miners and vents, providing a significant amount of extra air that can be used to re-pressurize the station after a spacing.
-
-        A lower distro pressure will reduce the amount of gas lost in the event that the distro is spaced, a quick way to deal with distro contamination. It can also help slow or prevent over-pressurization of the station in the event of vent issues.
-
-        Common distro pressures are in the range of 300-375 kPa, but other pressures can be used with knowledge of the risks and benefits.
-
-        The pressure of the network is determined by the last pump pumping into it. To prevent bottlenecks, all other pumps between the miners and the last pump should be set to their maximum rate, and any unnecessary devices should be removed.
-
-        You can validate the distro pressure with a gas analyzer, but keep in mind that high demand due to things like spacings can cause the distro to be below the set target pressure for extended periods. So, if you see a dip in pressure, don't panic - it might be temporary.
-
-book-text-atmos-waste = The waste network is the primary system responsible for keeping the air on the station free of contaminants.
-
-        You can identify the relevant pipes by their Pleasing Dull Red color or by using a tray scanner to trace which pipes are connected to the scrubbers on the station.
-
-        The waste network is used to transport waste gasses to either be filtered or spaced. It is ideal to keep the pressure at 0 kPa, but it may sometimes be at a low non-zero pressure while in use.
-
-        Technicians have the option to filter or space the waste gasses. While spacing is faster, filtering allows for the gasses to be reused for recycling or selling.
-
-        The waste network can also be used to diagnose atmospheric issues on the station. High levels of a waste gas may suggest a large leak, while the presence of non-waste gases may indicate a scrubber configuration or physical connection issue. If the gases are at a high temperature, it could indicate a fire.
-
-book-text-atmos-alarms = Air alarms are located throughout stations to allow management and monitoring of the local atmosphere.
-
-            The air alarm interface provides technicians with a list of connected sensors, their readings, and the ability to adjust thresholds. These thresholds are used to determine the alarm condition of the air alarm. Technicians can also use the interface to set target pressures for vents and configure the operating speeds and targeted gases for scrubbers.
-
-            While the interface allows for fine-tuning of the devices under the air alarm's control, there are also several modes available for rapid configuration of the alarm. These modes are automatically switched to when the alarm state changes:
-            - Filtering: The default mode
-            - Filtering (wide): A filtering mode that modifies the operation of scrubbers to scrub a wider area
-            - Fill: Disables scrubbers and sets vents to their maximum pressure
-            - Panic: Disables vents and sets scrubbers to siphon
-
-            A multitool or network configurator can be used to link devices to air alarms.
-
+book-text-atmos-distro =
+    分配網路（簡稱「distro」）是該站的生命線。它負責將大氣中的空氣輸送至站內各處。
+    
+    相關管線通常會塗上「淡雅藍」，但最可靠的辨識方法是使用托盤掃描器，追蹤哪些管線連接至站內正在運作的通風口。
+    
+    分配網路的標準氣體混合比例為攝氏 20 度、78% 氮氣、22% 氧氣。 您可以使用氣體分析儀檢測配氣管或其連接的任何排氣口來確認這一點。特殊情況下可能需要特殊的氣體混合比例。
+    
+    在決定配氣壓力時，有幾點需要考慮。 活躍的排氣口會調節站內的壓力，因此只要一切運作正常，就不存在所謂「配氣壓力過高」的情況。
+    
+    較高的分配壓力能讓分配網路在氣體採集器與排氣口之間發揮緩衝作用，提供大量額外空氣，可在發生間隔現象後用於重新加壓站體。
+    
+    較低的配氣壓力能在配氣系統發生洩漏時減少氣體損失，這是處理配氣系統污染的快速方法。此外，若通風口出現問題，此舉亦有助於減緩或防止加氣站發生過壓。
+    
+    常見的配氣壓力範圍為 300-375 kPa，但在充分了解相關風險與效益的前提下，亦可採用其他壓力值。
+    
+    管網的壓力由最後一臺向管網輸送的泵決定。為防止瓶頸，礦工與最後一臺泵之間的所有其他泵應設定為最大流量，並移除任何不必要的裝置。
+    
+    您可以使用氣體分析儀驗證分配器的壓力，但請注意，由於間距等因素導致的需求過高，可能會使分配器的壓力在較長一段時間內低於設定的目標壓力。因此，若您觀察到壓力下降，請勿驚慌——這可能是暫時的現象。
+book-text-atmos-waste =
+    廢氣網絡是負責維持空間站空氣無污染的主要系統。
+    
+    您可以透過其「悅目的暗紅色」來辨識相關管線，或使用托盤掃描器追蹤哪些管線連接至空間站的淨化器。
+    
+    廢氣網絡用於將廢氣輸送至過濾或排放處。 理想情況下應將壓力維持在 0 kPa，但在運作時有時可能會處於較低的非零壓力狀態。
+    
+    技術人員可選擇過濾或排放廢氣。雖然排放速度較快，但過濾則能讓氣體被重新利用，用於回收或銷售。
+    
+    廢氣網路亦可用於診斷站內的大氣問題。若某種廢氣濃度過高，可能暗示存在大規模洩漏；若檢測到非廢氣成分，則可能表示洗滌塔配置或物理連接出現問題。若氣體溫度過高，則可能表示發生火災。
+book-text-atmos-alarms =
+    各站內均設置有空氣警報器，以便管理與監控當地大氣狀況。
+    
+    空氣警報介面會向技術人員顯示已連接感測器的清單及其讀數，並提供調整閾值的功能。這些閾值用於判定空氣警報器的警報狀態。 技術人員亦可透過此介面為排氣口設定目標壓力，並為洗滌器配置運作速度及目標氣體。
+    
+    雖然此介面可對空氣警報器所控制的裝置進行微調，但亦提供數種模式以供快速配置警報。 當警報狀態改變時，系統會自動切換至以下模式：
+    - 過濾：預設模式
+    - 過濾（寬範圍）： 一種過濾模式，可調整淨化器的運作方式以淨化更廣的範圍
+    - 填充：停用淨化器，並將排氣口設定為最大壓力
+    - 緊急模式：停用排氣口，並將淨化器設定為虹吸模式
+    
+    可使用多功能工具或網路配置程式將裝置連結至空氣警報器。
 book-text-atmos-vents =
-    Below is a quick reference guide to several atmospheric devices:
-
-                Passive Vents:
-                These vents don't require power, they allow gases to flow freely both into and out of the pipe network they are attached to.
-
-                Active Vents:
-                These are the most common vents on the station. They have an internal pump, and require power. By default, they will only pump gases out of pipes, and only up to 101 kpa. However, they can be reconfigured using an air alarm. They will also lock out if the room is under 1 kpa, to prevent pumping gasses into space.
-
-                Air Scrubbers:
-                These devices allow gases to be removed from the environment and put into the connected pipe network. They can be configured to select specific gases when connected to an air alarm.
-
-                Air Injectors:
-                Injectors are similar to active vents, but they have no internal pump and do not require power. They cannot be configured, but they can continue to pump gasses up to much higher pressures.
+    以下是幾種大氣設備的快速參考指南：
+    
+                被動式排氣口：
+                這些排氣口無需電源，可讓氣體自由進出其所連接的管路系統。
+    
+                主動式排氣口：
+                這些是站內最常見的排氣口。它們內建泵浦，且需要電源。 預設情況下，它們僅會將氣體從管道中抽離，且壓力上限為 101 kPa。 不過，可透過空氣警報器重新配置其功能。若房間內壓力低於 1 kPa，它們也會自動鎖定，以防止將氣體抽入太空。
+    
+                空氣淨化器：
+                這些裝置能將環境中的氣體移除，並導入連接的管路網絡中。 當連接至空氣警報器時，可將其設定為篩選特定氣體。
+    
+                空氣注入器：
+                注入器與主動式通風口類似，但沒有內部泵浦且無需電源。它們無法進行設定，但能持續將氣體泵送至更高壓力。

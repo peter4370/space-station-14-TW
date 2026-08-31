@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic cannon
+  name: 自製氣動砲 | improvised pneumatic cannon
   parent: [BaseStorageItem, BaseMinorContraband]
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: 僅憑一根管子、幾條束線帶和一門氣動砲就臨時改裝而成。若氣罐氣量不足，則無法接收。 | Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -48,7 +48,7 @@
   - type: ItemSlots
     slots:
       gas_tank:
-        name: pneumatic-cannon-component-itemslot-name
+        name: 氣動砲-組件-項目-插槽名稱 | pneumatic-cannon-component-itemslot-name
         whitelist:
           components:
           - GasTank
@@ -65,9 +65,9 @@
 - type: entity
   parent: BaseStorageItem
   id: LauncherCreamPie
-  name: pie cannon
+  name: 派炮 | pie cannon
   suffix: Empty
-  description: Load cream pie for optimal results.
+  description: 為獲得最佳效果，請加入奶油派。 | Load cream pie for optimal results.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -106,10 +106,10 @@
         ents: []
 
 - type: entity
-  name: experimental pie cannon
+  name: 實驗性派炮 | experimental pie cannon
   parent: BaseWeaponBattery
   id: BorgLauncherCreamPie
-  description: Deliver a generous portion of cream directly to the crew! Automatically bakes pies over time.
+  description: 直接將一大份鮮奶油送給船員們！會隨著時間自動烘烤派。 | Deliver a generous portion of cream directly to the crew! Automatically bakes pies over time.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -139,10 +139,10 @@
     size: Normal
 
 - type: entity
-  name: syringe gun
+  name: 注射槍 | syringe gun
   parent: BaseStorageItem
   id: LauncherSyringe
-  description: Load full of poisoned syringes for optimal fun.
+  description: 裝滿摻毒的注射器，享受極致的樂趣。 | Load full of poisoned syringes for optimal fun.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi

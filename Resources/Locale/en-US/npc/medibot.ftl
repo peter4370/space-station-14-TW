@@ -1,7 +1,6 @@
-medibot-start-inject = Hold still, please.
-medibot-finish-inject = All done.
-
-medibot-target-dead = The patient is dead.
-medibot-target-healthy = The patient is already healthy.
-medibot-target-injected = The patient was injected.
-medibot-recently-injected = The patient was recently injected.
+medibot-start-inject = 請保持不動。
+medibot-finish-inject = 都搞定了。
+medibot-target-dead = 該患者已死亡。
+medibot-target-healthy = 該患者目前身體健康。
+medibot-target-injected = 該患者已接受注射。
+medibot-recently-injected = 該患者最近接受了注射。

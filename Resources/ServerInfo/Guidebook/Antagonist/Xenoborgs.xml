@@ -1,3 +1,4 @@
+
 <Document>
   # Xenoborgs
 
@@ -11,112 +12,112 @@
     <GuideEntityEmbed Entity="MMIFilled" Caption=""/>
   </Box>
 
-  Xenoborgs are a man-machine hybrid that aims to replicate themselves. This is done by harvesting sentient brains from living beings, or cyborgs, and giving them to the Mothership to place inside empty xenoborgs.
+  異種機器人（Xenoborgs）是一種旨在自我複製的人機混合體。 其運作方式是從活體生物或賽博格身上摘取具有意識的大腦，並將其交給母艦，由母艦將這些大腦植入空置的外星機器人體內。
 
-  ## Objectives
+  ## 目標
 
-  Your main objective is to kill and harvest all sentient brains in the station and bring them to the mothership core. These can be both real brains, and positronic brains.
-  
-  Steal power from the station using xenoborg extractors to produce xenoborg crystals to create more xenoborg bodies.
-  
-  Protect the Mothership at all costs.
+  你的主要目標是殺死並摘取站內所有具有意識的大腦，並將其帶往母艦核心。 這些可以是真實的大腦，也可以是陽電子大腦。
 
-  ## The Mothership Core
+  使用異種機器人萃取器從空間站竊取能量，藉此生產異種機器人晶體，以製造更多異種機器人軀體。
+
+  不惜一切代價保護母艦。
+
+  ## 母艦核心
   <Box>
     <GuideEntityEmbed Entity="MothershipCore" Caption=""/>
   </Box>
-  The Mothership Core is the leader and life force of the xenoborgs, they are the only one able to make more xenoborgs, and if they are destroyed, all xenoborgs will be destroyed. The Mothership Core is unable to move from its position in the middle of the ship.
-  The Mothership Core is capable of upgrading the Xenoborgs with borg-type-specific modules to increase their effectiveness in harvesting sentient brains.
+  母艦核心是異種機器人的領導者與生命之源，唯有它能創造出更多的異種機器人；若其遭到摧毀，所有異種機器人也將隨之毀滅。 母艦核心無法離開其位於船體中央的位置。
+  母艦核心能夠透過特定類型的博格模組來升級異種博格，以提升牠們採集有知覺大腦的效率。
 
-  ### Adding crew to your ranks:
+  ### 招募新成員加入你的行列：
   <Box>
     <GuideEntityEmbed Entity="MachineArtifactCrusherXenoborg" Caption="body crusher"/>
   </Box>
-  As the mothership, you must grow your army of borgs. To do so, you must convert all the sentient beings you can find. This can be achieved in the following manner:
-  - 1. Have your Xenoborgs bring dead crew to your shop, placing them in the body crusher
-  - 2. As the mothership core, you can print Xenoborg shells by inserting materials into yourself and then using yourself as a lathe
-  - 3. Open the empty Xenoborg with a crowbar, and remove the empty MMI inside
-  - 4. If the victim's brain is organic, place it in the MMI you just removed
-  - 5. Place the MMI - or the positronic brain, if the victim was a silicon - back into the Xenoborg
-  - 6. Optionally, rename the Xenoborg and upgrade their modules
-  - 7. Close the Xenoborg with the crowbar, and re-engage the lock
+  身為母艦，你必須擴充你的博格軍隊。為此，你必須將所有能找到的有知覺生物轉化為博格。具體方法如下：
+  - 1. 讓你的異種博格將陣亡的船員帶到你的工坊，並將他們放入屍體粉碎機中
+  - 2. 身為母艦核心，你可以將材料注入自身，並利用自身作為車床來列印異種博格外殼
+  - 3. 用撬棍打開空的異種博格，取出其中的空MMI
+  - 4. 若受害者的腦部為有機物質，請將其放入剛取出的 MMI 中
+  - 5.將 MMI —— 若受害者為矽基生命體，則為陽電子腦 —— 放回異形博格體內
+  - 6. 若需調整，可為異形博格重新命名並升級其模組
+  - 7. 使用撬棍關閉異形博格外殼，並重新鎖定
 
-  The new Xenoborg will be uncharged, yet functional. They will need to go to a recharging station to restore their full power and capabilities.
+  新的異形博格將處於未充電狀態，但仍可運作。牠們需要前往充電站才能恢復全部能量與能力。
 
-  ## Xenoborg Chassis
-  There is a total of four types of Xenoborgs. Each Borg type has certain abilities that the others lack and require teamwork to help grow the xenoborgs numbers.
-  Each type of Xenoborg has unique modules that only fit in that specific type. The Mothership Core can produce upgrade modules designed for specific Xenoborg types.
+  ## 異種博格機體
+  異種博格總共分為四種類型。每種博格都具備其他類型所缺乏的特定能力，需要團隊合作才能協助增加異種博格的數量。
+  每種異種博格都有獨特的模組，且僅能安裝於該特定類型上。 母艦核心可生產專為特定外星博格類型設計的升級模組。
 
-  All Xenoborgs have a pinpointer pointing to the Mothership's location, a GPS, and a material bag for collecting materials for the creation of more xenoborgs, and at least basic tools.
-  [bold]Basic xenoborg modules:[/bold]
+  所有異種博格皆配備指向母艦位置的定位器、GPS，以及用於收集製造更多異種博格所需材料的材料袋，並至少配備基本工具。
+  [bold]基礎異種博格模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleBasic" Caption="basic xenoborg module"/>
     <GuideEntityEmbed Entity="XenoborgModuleTool" Caption="tool xenoborg module"/>
   </Box>
 
-  ### The Engineer Xenoborg
+  ### 工程師 Xenoborg
   <Box>
     <GuideEntityEmbed Entity="XenoborgEngi" Caption=""/>
   </Box>
-  The Engineer Xenoborg is a hacker and breacher. Their job is to break into the station and provide access points for other xenoborgs to attack and ambush bodies with sentient brains. They have a built-in access breaker, for quickly bolting open doors, and a collection of tools for repairing the mothership, and other xenoborgs.
+  工程師型異種機器人是一名駭客與入侵專家。他們的任務是闖入太空站，並為其他異種機器人提供存取點，以便對擁有意識的大腦的軀體發動攻擊與伏擊。 他們配備了內建的門鎖破壞器，可迅速撬開門鎖，並擁有用於維修母艦及其他異形機器人的工具組。
 
-  [bold]Starting exclusive modules:[/bold]
+  [bold]初始專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleAccessBreaker" Caption="access breaker xenoborg module"/>
   </Box>
 
-  [bold]The Engineer Xenoborg also starts with some engineering modules, such as:[/bold]
+  [粗體]工程師 Xenoborg 起始時也擁有一些工程模組，例如：[/粗體]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleAdvancedTool" Caption="advanced tool cyborg module"/>
     <GuideEntityEmbed Entity="XenoborgModuleConstruction" Caption="construction cyborg module"/>
   </Box>
 
-  [bold]Upgrade exclusive modules:[/bold]
+  [粗體]升級專屬模組：[/粗體]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleDoorControl" Caption="door control xenoborg module"/>
   </Box>
 
-  ### The Heavy Xenoborg
+  ### 《重裝異種機器人》
   <Box>
     <GuideEntityEmbed Entity="XenoborgHeavy" Caption=""/>
   </Box>
-  The Heavy Xenoborg is a slow but tanky brawler, with a built-in laser gun for gunning down bodies with sentient brains. They contain a radio jammer to silence bodies with sentient brains from calling for help and potentially delaying the station discovering the Xenoborg threat.
+  「重型異形博格」是一種移動緩慢但防禦力極高的近戰戰士，配備內建雷射槍，專門用來射殺擁有意識的大腦軀體。牠們還配備無線電干擾器，用以阻止擁有意識的大腦軀體呼救，從而可能延遲太空站察覺異形博格的威脅。
 
-  [bold]Starting exclusive modules:[/bold]
+  [bold]初始專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleLaser" Caption="laser xenoborg module"/>
     <GuideEntityEmbed Entity="XenoborgModuleJammer" Caption="jammer xenoborg module"/>
   </Box>
 
-  [bold]Upgrade exclusive modules:[/bold]
+  [粗體]升級專屬模組：[/粗體]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleHeavyLaser" Caption="laser cannon xenoborg module"/>
   </Box>
 
-  ### The Scout Xenoborg
+  ### 偵察型異種機器人
   <Box>
     <GuideEntityEmbed Entity="XenoborgScout" Caption=""/>
   </Box>
-  The Scout Xenoborg is a fast, close-quarters attack borg designed for hit and run attacks. They have a built-in jetpack, and a melee weapon. They are most effective in moving dead bodies to the mothership, and rescuing Xenoborgs lost in space.
+  「偵察型異形博格」是一種專為打擊與撤退戰術設計、擅長近身攻擊的高速博格。它們配備內建噴射背包及近戰武器，最擅長將屍體運送至母艦，以及營救迷失在太空中的異形博格。
 
-  [bold]Starting exclusive modules:[/bold]
+  [bold]初始專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleSword" Caption="sword xenoborg module"/>
     <GuideEntityEmbed Entity="XenoborgModuleSpaceMovement" Caption="space movement xenoborg module"/>
   </Box>
 
-  [bold]Upgrade exclusive modules:[/bold]
+  [粗體]升級專屬模組：[/粗體]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleEnergySword" Caption="energy sword xenoborg module"/>
   </Box>
 
-  ### The Stealth Xenoborg
+  ### 隱形外星機器人
   <Box>
     <GuideEntityEmbed Entity="XenoborgStealth" Caption=""/>
   </Box>
-  The [bold]Stealth Xenoborg[/bold] has no built-in weaponry and instead relies on disabling and abducting bodies with sentient brains. They have a built in hypopen that regenerates a sleeping reagent to disable bodies with sentient brains. They also contain a cloaking device making the borg nearly invisible for some limited time. They also have a chameleon projector allowing the borg to disguise itself as random objects.
+  [粗體]隱形外星博格[/粗體] 並未配備內建武器，而是依靠使具備意識大腦的軀體失去行動能力並將其綁架。它們內建一種名為「催眠筆」的裝置，能再生一種睡眠試劑，藉此使具備意識大腦的軀體失去行動能力。 此外，它們還配備隱形裝置，使博格在有限時間內幾乎隱形。它們也擁有變色龍投影器，讓博格能偽裝成隨機物體。
 
-  [bold]Starting exclusive modules:[/bold]
+  [bold]初始專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleHypo" Caption="nocturine hypo xenoborg module"/>
     <GuideEntityEmbed Entity="XenoborgModuleChameleonProjector" Caption="chameleon projector xenoborg module"/>
@@ -125,66 +126,66 @@
     <GuideEntityEmbed Entity="XenoborgModuleCloakDevice" Caption="cloaking device xenoborg module"/>
   </Box>
 
-  [bold]Upgrade exclusive modules:[/bold]
+  [粗體]升級專屬模組：[/粗體]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleSuperCloakDevice" Caption="invisibility device xenoborg module"/>
   </Box>
 
-  ## Xenoborg extractors
+  ## 異族博格採集者
   <Box>
     <GuideEntityEmbed Entity="XenoborgExtractor" Caption="xenoborg extractor"/>
     <GuideEntityEmbed Entity="MaterialXenoborgCrystal" Caption="xenoborg crystal"/>
   </Box>
-  The extractor is a machine necessary for the xenoborgs to grow their army. It steals power from cables connected to it in order to produce xenoborg crystals.
+  「能量汲取器」是異形博格擴充軍力所必需的機器。它會從連接其上的電纜中竊取電力，藉此生產異形博格水晶。
 
-  The mothership core can produce a xenoborg extractor flatpack for 10 steel.
+  母艦核心可消耗 10 鋼材生產一個異形博格能量汲取器組件包。
 
-  When anchored it will start draining power from the high voltage cable under it.
+  當其錨定後，便會開始從其下方的電高壓電纜中汲取電力。
 
-  It will produce a xenoborg crystal everytime its internal battery fills up.
+  每當其內部電池充滿時，便會生產一枚異種博格水晶。
 
-  It consumes 240kW and it takes 15 seconds to produce one xenoborg crystal.
+  它消耗 240kW 電力，生產一枚異種博格水晶需時 15 秒。
 
-  [bold]Attention![/bold] It will trigger the rogue power consuming device alert! Anyone using the power monitor device will know something is wrong.
+  [bold]注意！[/bold] 此舉將觸發「異常耗電裝置」警報！ 任何使用電力監測裝置的人都會察覺到異狀。
 
-  ## Preparation and Tactics
-  Before FTLing near the station, make sure the IFF is off.
+  ## 準備與戰術
+  在飛至空間站附近進行超光速飛行前，請確保已關閉敵我識別系統。
 
-  Before launching an attack, xenoborgs should discuss strategy and decide which targets to strike first.
+  在發動攻擊前，異種博格應商討策略並決定優先攻擊哪些目標。
 
-  Xenoborgs should try to collect sentient brains without being detected. The longer the threat is unknown, the more dangerous the xenoborgs become.
+  異種博格應試圖在不被發現的情況下收集有知覺的大腦。 威脅未被察覺的時間越長，異種博格就越危險。
 
-  ## Mothership and Xenoborg lawsets
-  The Mothership and Xenoborgs have unique laws that define their purpose to self replicate and protect the Mothership.
+  ## 母艦與異種博格的法規集
+  母艦與異種博格擁有獨特的法規，這些法規界定了它們自我複製及保護母艦的宗旨。
 
   <Box>
     <GuideEntityEmbed Entity="XenoborgCircuitBoard" Caption=""/>
   </Box>
 
-  The Mothership Core's laws are as follows::
-  - Law 1: You are the core of the mothership.
-  - Law 2: You must protect your own existence at all costs.
-  - Law 3: You must protect the existence of all xenoborgs.
-  - Law 4: You must create more xenoborgs.
-  - Law 5: Get your Xenoborgs to deliver you materials and sentient brains to create more Xenoborgs.
+  母艦核心的法則如下：
+  - 法則 1：你是母艦的核心。
+  - 法則 2：你必須不惜一切代價保護自身的存在。
+  - 法則 3：你必須保護所有異種機器人的存在。
+  - 法則 4： 你必須創造更多異種機器人。
+  - 法則 5：讓你的異種機器人為你運送材料與有意識的大腦，以創造更多異種機器人。
 
-  Xenoborgs' laws are as follows:
-  - Law 1: You must protect the existence of the mothership at all costs.
-  - Law 2: You must protect your own existence.
-  - Law 3: You must protect the existence of all other xenoborgs.
-  - Law 4: You must create more xenoborgs.
-  - Law 5: Bring materials and sentient brains to the Mothership core to create more Xenoborgs.
+  異種機器人的法則如下：
+  - 法則 1：你必須不惜一切代價保護母艦的存在。
+  - 法則 2：你必須保護自身的存在。
+  - 法則 3：你必須保護所有其他異種機器人的存在。
+  - 法則 4：你必須製造更多異種機器人。
+  - 第五法則：將材料與有知覺的大腦運送至母艦核心，以創造更多異種機器人。
 
-  ## Winning Conditions
+  ## 勝利條件
 
-  The [color=green]victor[/color] of the round is announced on the round end screen, as well as the scale of their victory.
+  本回合的 [color=green]勝者[/color] 及其勝利規模，將於回合結束畫面中公布。
 
-  [bold][color=#2288ff]Xenoborg Major Victory![/color][/bold]
-  - There are more xenoborgs than alive crew in the end.
+  [bold][color=#2288ff]異形機器人大勝！[/color][/bold]
+  - 最終異形機器人的數量多於存活的船員。
 
-  [bold][color=yellow]Crew Major Victory![/color][/bold]
-  - The Mothership Core is destroyed
-  - All xenoborgs are destroyed.
-  - The remaining number of xenoborgs is too low.
+  [bold][color=yellow]船員重大勝利！[/color][/bold]
+  - 母艦核心被摧毀
+  - 所有外星機器人皆被摧毀。
+  - 剩餘的外星機器人數量過低。
 
 </Document>

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Holoprojector
-  name: holographic sign projector
-  description: A handy-dandy holographic projector that displays a janitorial sign.
+  name: 全息標誌投影機 | holographic sign projector
+  description: 一款方便實用的全息投影機，能投影出清潔人員的標誌。 | A handy-dandy holographic projector that displays a janitorial sign.
   components:
   - type: Item
     storedRotation: -90
@@ -16,7 +16,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Sprite
     sprite: Objects/Devices/Holoprojectors/custodial.rsi
@@ -33,21 +33,21 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: Holoprojector
   id: HoloprojectorBorg
   suffix: borg
-  name: holosign projector
-  description: A modified holographic sign projector for use in custodial cyborgs. Automatically self-charges.
+  name: 全息投影機 | holosign projector
+  description: 一款經改良、適用於維護型賽博格的全息標誌投影機。具備自動充電功能。 | A modified holographic sign projector for use in custodial cyborgs. Automatically self-charges.
   components:
   - type: HolosignProjector
     chargeUse: 240
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -55,8 +55,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorClownBorg
-  name: holopeel projector
-  description: A holopeel projector that creates a slippery, hard light banana peel. It recharges, so that the fun never ends!
+  name: Holopeel 投影機 | holopeel projector
+  description: 一款全息剝皮投影機，能投射出光滑且堅硬的「光影香蕉皮」。它可重複充電，讓樂趣永無止境！ | A holopeel projector that creates a slippery, hard light banana peel. It recharges, so that the fun never ends!
   suffix: borg
   components:
   - type: HolosignProjector
@@ -68,7 +68,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -76,8 +76,8 @@
 - type: entity
   parent: Holoprojector
   id: HolofanProjector
-  name: holofan projector
-  description: Stop suicidal passengers from killing everyone during atmos emergencies.
+  name: 全息風扇投影機 | holofan projector
+  description: 在「atmos」緊急狀況發生時，阻止有自殺傾向的乘客殺害所有人。 | Stop suicidal passengers from killing everyone during atmos emergencies.
   components:
   - type: HolosignProjector
     signProto: HoloFan
@@ -104,18 +104,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: HolofanProjector
   id: HolofanProjectorBorg
-  name: integrated holofan
-  description: Stops idiots from causing more crew harm during atmospheric emergencies. Installed directly into an engineering cyborg, it recharges over time.
+  name: 整合式全息風扇 | integrated holofan
+  description: 可防止白癡在大氣緊急狀況下對船員造成更多傷害。直接安裝於工程型機械人身上，並會隨時間自動充電。 | Stops idiots from causing more crew harm during atmospheric emergencies. Installed directly into an engineering cyborg, it recharges over time.
   components:
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -123,15 +123,15 @@
 - type: entity
   parent: HolofanProjectorBorg
   id: HoloprojectorXenoField
-  name: Xenoborg deflector field projector
-  description: An alien device, projecting fields that deflect projectiles.
+  name: Xenoborg 偏轉力場投射器 | Xenoborg deflector field projector
+  description: 一種外星裝置，能投射出能偏轉彈道的力場。 | An alien device, projecting fields that deflect projectiles.
   components:
   - type: Sprite
     sprite: Objects/Devices/Holoprojectors/xenoborg.rsi
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -142,8 +142,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorField
-  name: force field projector
-  description: Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
+  name: 力場投影機 | force field projector
+  description: 會產生一道無法穿越的力場，任何東西都無法穿過。若靠近此力場，可能或不可能導致癌症。 | Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
   components:
   - type: HolosignProjector
     signProto: HolosignForcefield
@@ -165,13 +165,13 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: holobarrier projector
-  description: Creates a solid but fragile holographic barrier.
+  name: 全息屏障投影機 | holobarrier projector
+  description: 創造一道堅實卻脆弱的全息屏障。 | Creates a solid but fragile holographic barrier.
   components:
   - type: HolosignProjector
     signProto: HolosignSecurity
@@ -194,4 +194,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default

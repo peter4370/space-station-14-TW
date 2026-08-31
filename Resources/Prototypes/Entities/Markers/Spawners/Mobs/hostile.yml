@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnClownSpider
-  name: clown spider spawner
+  name: 小丑蜘蛛生成器 | clown spider spawner
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBear
-  name: Space Bear Spawner
+  name: 太空熊生成器 | Space Bear Spawner
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBehonker
-  name: behonker Spawner
+  name: behonker 生成器 | behonker Spawner
   components:
   - type: Sprite
     layers:
@@ -46,7 +46,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBoxingKangaroo
-  name: Boxing Kangaroo Spawner
+  name: 拳擊袋鼠生成器 | Boxing Kangaroo Spawner
   suffix: Hostile
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHellspawn
-  name: Hellspawn Spawner
+  name: 地獄產卵者 | Hellspawn Spawner
   components:
   - type: Sprite
     layers:
@@ -75,7 +75,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobKangaroo
-  name: Space Kangaroo Spawner
+  name: 太空袋鼠生成器 | Space Kangaroo Spawner
   components:
   - type: Sprite
     layers:
@@ -89,7 +89,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLuminousEntity
-  name: luminous entity spawner
+  name: 發光實體生成器 | luminous entity spawner
   components:
   - type: Sprite
     layers:
@@ -103,7 +103,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLuminousObject
-  name: luminous object spawner
+  name: 發光物體生成器 | luminous object spawner
   components:
   - type: Sprite
     layers:
@@ -117,7 +117,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLuminousPerson
-  name: luminous person spawner
+  name: 發光人物生成器 | luminous person spawner
   components:
   - type: Sprite
     layers:
@@ -131,7 +131,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobOreCrab
-  name: ore crab spawner
+  name: 礦石螃蟹生成器 | ore crab spawner
   components:
   - type: Sprite
     layers:
@@ -152,7 +152,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPurpleSnake
-  name: Purple Snake Spawner
+  name: 紫蛇生成器 | Purple Snake Spawner
   components:
   - type: Sprite
     layers:
@@ -166,7 +166,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSmallPurpleSnake
-  name: Small Purple Snake Spawner
+  name: 小型紫色蛇生成器 | Small Purple Snake Spawner
   components:
   - type: Sprite
     layers:
@@ -180,7 +180,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSpaceCobra
-  name: Space Cobra Spawner
+  name: 太空眼镜蛇生成器 | Space Cobra Spawner
   components:
   - type: Sprite
     layers:
@@ -194,7 +194,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSpaceSpider
-  name: Space Spider Spawner
+  name: 太空蜘蛛生成器 | Space Spider Spawner
   components:
   - type: Sprite
     layers:
@@ -208,7 +208,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobWatcherIcewing
-  name: Watcher Icewing Spawner
+  name: 「守望者冰翼」生成器 | Watcher Icewing Spawner
   components:
   - type: Sprite
     layers:
@@ -224,7 +224,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobWatcherLavaland
-  name: Watcher Lavaland Spawner
+  name: 守望者 拉瓦蘭 生成器 | Watcher Lavaland Spawner
   components:
   - type: Sprite
     layers:
@@ -240,7 +240,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobWatcherMagmawing
-  name: Watcher Magmawing Spawner
+  name: 守望者·岩漿翼生成者 | Watcher Magmawing Spawner
   components:
   - type: Sprite
     layers:
@@ -256,7 +256,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobWatcherPride
-  name: Watcher Pride Spawner
+  name: 守望者之傲 生成器 | Watcher Pride Spawner
   components:
   - type: Sprite
     layers:

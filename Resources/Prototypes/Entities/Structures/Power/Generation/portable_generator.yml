@@ -118,8 +118,8 @@
         enabled: false
 
 - type: entity
-  name: P.A.C.M.A.N.-type portable generator
-  description: |-
+  name: P.A.C.M.A.N. 型便攜式發電機 | P.A.C.M.A.N.-type portable generator
+  description:
     A flexible backup generator for powering a variety of equipment.
     Runs off solid plasma sheets and is rated for up to 30 kW.
   parent: PortableGeneratorSwitchableBase
@@ -179,8 +179,8 @@
       supplyRampTolerance: 1500
 
 - type: entity
-  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator
-  description: |-
+  name: S.U.P.E.R.P.A.C.M.A.N. 型便攜式發電機 | S.U.P.E.R.P.A.C.M.A.N.-type portable generator
+  description:
     An advanced generator for powering departments.
     Runs off uranium sheets and is rated for up to 50 kW.
   parent: PortableGeneratorSwitchableBase
@@ -237,8 +237,8 @@
 - type: entity
   parent: [SolutionTank, SolutionSmall, PortableGeneratorBase]
   id: PortableGeneratorJrPacman
-  name: J.R.P.A.C.M.A.N.-type portable generator
-  description: |-
+  name: J.R.P.A.C.M.A.N. 型便攜式發電機 | J.R.P.A.C.M.A.N.-type portable generator
+  description:
     A small generator capable of powering individual rooms, in case of emergencies.
     Runs off welding fuel and is rated for up to 8 kW.
     Rated ages 3 and up.

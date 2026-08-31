@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: pointing arrow
+  name: 指向箭頭 | pointing arrow
   id: PointingArrow
   save: false
   components:

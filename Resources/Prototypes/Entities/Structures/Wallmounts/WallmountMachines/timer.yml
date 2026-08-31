@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseWallmountMachine, StructureHealthMachineFlimsy ]
   id: SignalTimer
-  name: signal timer
-  description: It's a timer for sending timed signals to things.
+  name: 訊號計時器 | signal timer
+  description: 這是一個用於向各種裝置發送定時訊號的計時器。 | It's a timer for sending timed signals to things.
   components:
   - type: StationAiWhitelist
   - type: WallMount
@@ -56,8 +56,8 @@
 - type: entity
   id: ScreenTimer
   parent: SignalTimer
-  name: screen timer
-  description: It's a timer for sending timed signals to things, with a built-in screen.
+  name: 螢幕計時器 | screen timer
+  description: 這是一個用於向各種裝置發送定時訊號的計時器，並內建螢幕。 | It's a timer for sending timed signals to things, with a built-in screen.
   components:
   - type: SignalTimer
     canEditLabel: true
@@ -84,8 +84,8 @@
 - type: entity
   id: BrigTimer
   parent: ScreenTimer
-  name: brig timer
-  description: It's a timer for brig cells.
+  name: 囚室計時器 | brig timer
+  description: 這是用於單人牢房的計時器。 | It's a timer for brig cells.
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -102,8 +102,8 @@
 
 - type: entity
   id: TimerFrame
-  name: timer frame
-  description: A construction frame for a timer.
+  name: 計時幀 | timer frame
+  description: 計時器的結構框架。 | A construction frame for a timer.
   components:
   - type: Sprite
     drawdepth: WallMountedItems

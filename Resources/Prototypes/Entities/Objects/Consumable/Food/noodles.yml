@@ -5,7 +5,7 @@
   abstract: true
   parent: [SolutionSmall, FoodInjectableBase]
   id: FoodNoodlesBase
-  description: Now that's a nice pasta!
+  description: 這真是道美味的義大利麵啊！ | Now that's a nice pasta!
   components:
   - type: Item
     shape:
@@ -23,8 +23,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodlesBoiled
-  name: boiled spaghetti
-  description: A plain dish of noodles, this needs more ingredients.
+  name: 水煮義大利麵 | boiled spaghetti
+  description: 這是一盤普通的麵，需要多加些配料才行。 | A plain dish of noodles, this needs more ingredients.
   components:
   - type: Item
     storedOffset: 0,-4
@@ -38,8 +38,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodles
-  name: spaghetti
-  description: Spaghetti and crushed tomatoes. Just like your abusive father used to make!
+  name: 義大利麵 | spaghetti
+  description: 義大利麵配番茄碎。就跟你那個虐待你的父親以前做的一樣！ | Spaghetti and crushed tomatoes. Just like your abusive father used to make!
   components:
   - type: Item
     storedOffset: 0,-4
@@ -64,8 +64,8 @@
 - type: entity
   parent: [SolutionNormal, FoodNoodlesBase]
   id: FoodNoodlesCopy
-  name: copypasta
-  description: You probably shouldn't try this, you always hear people talking about how bad it is...
+  name: 複製貼上 | copypasta
+  description: 你最好別試這個，總聽到大家說這有多糟糕…… | You probably shouldn't try this, you always hear people talking about how bad it is...
   components:
   - type: Item
     size: Normal
@@ -92,8 +92,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodlesMeatball
-  name: spaghetti and meatballs
-  description: Now that's a nice-a meatball!
+  name: 義大利麵配肉丸 | spaghetti and meatballs
+  description: 這才叫是美味的肉丸啊！ | Now that's a nice-a meatball!
   components:
   - type: Item
     storedOffset: 0,-4
@@ -118,8 +118,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodlesSpesslaw
-  name: spesslaw
-  description: A lawyer's favourite.
+  name: spesslaw | spesslaw
+  description: 律師的最愛。 | A lawyer's favourite.
   components:
   - type: Item
     storedOffset: 0,-4
@@ -132,10 +132,10 @@
 # Tastes like pasta, meat.
 
 - type: entity
-  name: chow mein
+  name: 炒麵 | chow mein
   parent: FoodNoodlesBase
   id: FoodNoodlesChowmein
-  description: A nice mix of noodles and fried vegetables.
+  description: 麵條與炸蔬菜的絕佳搭配。 | A nice mix of noodles and fried vegetables.
   components:
   - type: FlavorProfile
     flavors:
@@ -157,8 +157,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodlesButter
-  name: butter noodles
-  description: Noodles covered in savory butter. Simple and slippery, but delicious.
+  name: 奶油麵 | butter noodles
+  description: 淋上香濃奶油的麵條。簡單又滑順，卻十分美味。 | Noodles covered in savory butter. Simple and slippery, but delicious.
   components:
   - type: Item
     storedOffset: 0,-4

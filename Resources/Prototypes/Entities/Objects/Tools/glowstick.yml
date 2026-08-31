@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: GlowstickBase
-  name: glowstick
-  description: Useful for raves and emergencies.
+  name: 螢光棒 | glowstick
+  description: 在狂歡派對和緊急情況下都很實用。 | Useful for raves and emergencies.
   components:
   - type: SpaceGarbage
   - type: ExpendableLight
@@ -66,7 +66,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickRed
-  name: red glowstick
+  name: 紅色發光棒 | red glowstick
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-red-glowstick-name
@@ -77,7 +77,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickPurple
-  name: purple glowstick
+  name: 紫色螢光棒 | purple glowstick
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-purple-glowstick-name
@@ -88,7 +88,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickYellow
-  name: yellow glowstick
+  name: 黃色螢光棒 | yellow glowstick
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-yellow-glowstick-name
@@ -99,7 +99,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickBlue
-  name: blue glowstick
+  name: 藍色螢光棒 | blue glowstick
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-blue-glowstick-name
@@ -110,7 +110,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickGreen
-  name: green glowstick
+  name: 綠色螢光棒 | green glowstick
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-green-glowstick-name
@@ -122,7 +122,7 @@
 # THE FOLLOWING ARE ALL DUMMY ENTITIES USED TO TEST THE LIGHT BEHAVIOUR SYSTEM
 # ----------------------------------------------------------------------------
 - type: entity
-  name: light pulse test
+  name: 光脈衝測試 | light pulse test
   parent: BaseItem
   id: LightBehaviourTest1
   categories: [ HideSpawnMenu ]
@@ -153,7 +153,7 @@
       enabled: true
 
 - type: entity
-  name: color cycle test
+  name: 色彩循環測試 | color cycle test
   parent: BaseItem
   id: LightBehaviourTest2
   categories: [ HideSpawnMenu ]
@@ -185,7 +185,7 @@
       - green
 
 - type: entity
-  name: multi-behaviour light test
+  name: 多行為光照測試 | multi-behaviour light test
   parent: BaseItem
   id: LightBehaviourTest3
   categories: [ HideSpawnMenu ]
@@ -225,7 +225,7 @@
       - green
 
 - type: entity
-  name: light fade in test
+  name: 燈光淡入測試 | light fade in test
   parent: BaseItem
   id: LightBehaviourTest4
   categories: [ HideSpawnMenu ]
@@ -256,7 +256,7 @@
       enabled: true
 
 - type: entity
-  name: light pulse radius test
+  name: 光脈衝半徑測試 | light pulse radius test
   parent: BaseItem
   id: LightBehaviourTest5
   categories: [ HideSpawnMenu ]
@@ -287,7 +287,7 @@
       enabled: true
 
 - type: entity
-  name: light randomize radius test
+  name: 輕量級半徑隨機化測試 | light randomize radius test
   parent: BaseItem
   id: LightBehaviourTest6
   categories: [ HideSpawnMenu ]

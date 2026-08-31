@@ -1,8 +1,9 @@
-<Document>
-  
-  # Specialized Brute Chemicals
 
-  Nanotrasen's greatest scientists have synthesized three more specific brute chemicals! Each one heals a specific damage subtype.
+<Document>
+
+  # 特殊「蠻力」化學物質
+
+  Nanotrasen 最頂尖的科學家們又合成了三種更特殊的「蠻力」化學物質！ 每種都能治療特定類型的傷害。
 
   <GuideReagentEmbed Reagent="Bruizine"/>
   <GuideReagentEmbed Reagent="Puncturase"/>
@@ -10,19 +11,19 @@
 
   # Razorium
 
-  [color=red]USE CAUTION[/color] when using the aforementioned specialized brute chemicals. Should one mix together with a different type of brute chemical, the resulting mixture will create a dangerous chemical known as Razorium!
+  使用上述特殊強效化學品時，請 [color=red]謹慎行事[/color]。 若將其與另一種粗糙的化學物質混合，所產生的混合物將會形成一種名為「拉佐里姆」的危險化學物質！
   <GuideReagentEmbed Reagent="Razorium"/>
-  To avoid this, make sure the patient is done metabolizing one brute medication before giving them another. Keep an eye on the rate their health is changing.
+  為避免這種情況，請確保患者已完全代謝完一種藥物後，再給予另一種藥物。 請密切留意他們的健康狀況變化速度。
 
-  [bold]Some examples of mixtures that create Razorium are as follows:[/bold]
+  [粗體]以下是一些會產生 Razorium 的混合物範例：[/粗體]
 
-  Bicaridine and Puncturase
+  比卡里丁與普恩圖拉酶 (Bicaridine and Puncturase)
 
-  Puncturase and Lacerinol
+  普恩圖拉酶與拉塞里諾 (Puncturase and Lacerinol)
 
-  Bruizine and Bicaridine
+  布魯伊津與比卡里丁 (Bruizine and Bicaridine)
 
-  Lacerinol and Bruizine
+  拉塞里諾與布魯伊津 (Lacerinol and Bruizine)
 
-  Please note that [bold]any[/bold] combination of these 4 chemicals will likely mix and create Razorium! Be careful when creating these chemicals, as they contain Bicaridine. Any leftover Bicaridine will likely mix to create Razorium!
+  請注意，這 4 種化學物質的 [粗體]任何[/粗體]組合，都很可能會混合並產生 Razorium！ 製備這些化學物質時請務必謹慎，因為它們含有比卡里丁Bicaridine。 任何剩餘的比卡里丁(Bicaridine)很可能會混合後形成拉佐里姆(Razorium)！
 </Document>

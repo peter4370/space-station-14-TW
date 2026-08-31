@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: TableBase
-  name: table
-  description: A square piece of metal standing on four metal legs.
+  name: 表格 | table
+  description: 一塊方形金屬片，立於四條金屬腳上。 | A square piece of metal standing on four metal legs.
   components:
   - type: Animateable
   - type: PlaceableSurface
@@ -42,7 +42,7 @@
   abstract: true
   parent: TableBase
   id: CounterBase
-  name: counter
+  name: 計數器 | counter
   components:
   - type: Fixtures
     fixtures:

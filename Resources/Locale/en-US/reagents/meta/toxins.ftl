@@ -1,95 +1,64 @@
-reagent-name-toxin = toxin
-reagent-desc-toxin = An unsurprisingly toxic chemical. Available at an emagged chem dispenser.
-
-reagent-name-carpotoxin = carpotoxin
-reagent-desc-carpotoxin = A highly toxic reagent found in space carps. Causes a painful burning sensation.
-
-reagent-name-mold = mold
-reagent-desc-mold = A fungal growth, often found in dark, humid places or on expired bread. Will cause you to develop a disease if ingested.
-
-reagent-name-polytrinic-acid = polytrinic acid
-reagent-desc-polytrinic-acid = An extremely corrosive chemical substance. Severely burns anyone who comes directly into contact with it.
-
-reagent-name-chloral-hydrate = chloral hydrate
-reagent-desc-chloral-hydrate = A sedative and hypnotic chemical. Commonly used to put other people to sleep, whether they want to or not.
-
-reagent-name-gastrotoxin = gastrotoxin
-reagent-desc-gastrotoxin = A moderately toxic byproduct of decomposition. Most commonly found in spoiled food.
-
-reagent-name-ferrochromic-acid = ferrochromic acid
-reagent-desc-ferrochromic-acid = A mildy corrosive solution, unable of causing severe danger unless ingested.
-
-reagent-name-fluorosulfuric-acid = fluorosulfuric acid
-reagent-desc-fluorosulfuric-acid = A highly corrosive chemical, capable of leaving quite a mark on your skin.
-
-reagent-name-sulfuric-acid = sulfuric acid
-reagent-desc-sulfuric-acid = A corrosive chemical. Keep away from your face.
-
-reagent-name-unstable-mutagen = unstable mutagen
-reagent-desc-unstable-mutagen = Causes mutations when injected into living people or plants. High doses may be lethal, especially in humans.
-
-reagent-name-heartbreaker-toxin = heartbreaker toxin
-reagent-desc-heartbreaker-toxin = A hallucinogenic compound derived from mindbreaker toxin. it blocks neurological signals to the respiratory system, causing asphyxiation. Dexalin plus and epinephrine will filter it out, however.
-
+reagent-name-toxin = 毒素 toxin
+reagent-desc-toxin = 一種毫不意外具有毒性的化學物質。可於 emagged 化學品分配器取得。
+reagent-name-carpotoxin = 卡波毒素 carpotoxin
+reagent-desc-carpotoxin = 一種存在於太空鯉魚體內的高度有毒試劑。會引起劇烈的灼痛感。
+reagent-name-mold = 黴菌 mold
+reagent-desc-mold = 一種真菌，常見於陰暗潮濕之處或過期麵包上。若誤食，會導致身體患病。
+reagent-name-polytrinic-acid = 聚三羧酸 polytrinic acid
+reagent-desc-polytrinic-acid = 一種極具腐蝕性的化學物質。任何與其直接接觸者都會遭受嚴重灼傷。
+reagent-name-chloral-hydrate = 氯醛水合物 chloral hydrate
+reagent-desc-chloral-hydrate = 一種鎮靜催眠的化學物質。通常用於讓他人入睡，不論對方是否願意。
+reagent-name-gastrotoxin = 胃毒素 gastrotoxin
+reagent-desc-gastrotoxin = 一種毒性中等的分解副產物。最常出現在變質的食物中。
+reagent-name-ferrochromic-acid = 鉻酸鐵 ferrochromic acid
+reagent-desc-ferrochromic-acid = 一種輕微具腐蝕性的溶液，除非誤食，否則不會造成嚴重危險。
+reagent-name-fluorosulfuric-acid = 氟硫酸 fluorosulfuric acid
+reagent-desc-fluorosulfuric-acid = 一種極具腐蝕性的化學物質，會讓你的皮膚留下相當明顯的痕跡。
+reagent-name-sulfuric-acid = 硫酸 sulfuric acid
+reagent-desc-sulfuric-acid = 一種具腐蝕性的化學物質。請遠離臉部。
+reagent-name-unstable-mutagen = 不穩定的致突變劑 unstable mutagen
+reagent-desc-unstable-mutagen = 若注入活體人類或植物體內，會導致突變。高劑量可能致命，對人類而言尤為如此。
+reagent-name-heartbreaker-toxin = 「情場殺手」毒素 heartbreaker toxin
+reagent-desc-heartbreaker-toxin = 一種源自「心碎者毒素」的致幻化合物。它會阻斷傳遞至呼吸系統的神經訊號，導致窒息。不過，使用「德克薩林加」搭配腎上腺素即可將其排出體外。
 reagent-name-lexorin = lexorin
-reagent-desc-lexorin = A fast-acting chemical used to asphyxiate people rapidly.
-
-reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = A potent hallucinogenic compound that is formerly known as LSD.
-
-reagent-name-histamine = histamine
-reagent-desc-histamine = A chemical caused by allergenics reacting with antibodies. Lethal at large quantities.
-
-reagent-name-theobromine = theobromine
-reagent-desc-theobromine = A bitter alkaloid of the cacao plant, commonly found in chocolate. Do not feed to animals.
-
-reagent-name-amatoxin = amatoxin
-reagent-desc-amatoxin = A deadly toxin found in some mushrooms, primarily fly amanita. Small doses can be lethal.
-
-reagent-name-vent-crud = vent crud
-reagent-desc-vent-crud = A jet black substance found in poorly maintained ventilation systems. Can cause vent cough.
-
+reagent-desc-lexorin = 一種作用迅速的化學物質，用於迅速使人窒息。
+reagent-name-mindbreaker-toxin = 「心靈粉碎者」毒素 mindbreaker toxin
+reagent-desc-mindbreaker-toxin = 一種強效的致幻化合物，曾被稱為 LSD。
+reagent-name-histamine = 組胺 histamine
+reagent-desc-histamine = 由過敏原與抗體反應所產生的化學物質。大量接觸會致命。
+reagent-name-theobromine = 可可堿 theobromine
+reagent-desc-theobromine = 可可樹中的一種苦味生物鹼，常見於巧克力中。請勿餵食動物。
+reagent-name-amatoxin = 阿馬托毒素 amatoxin
+reagent-desc-amatoxin = 一種存在於某些蘑菇（主要是蠅毒蕈）中的致命毒素。即使微量攝入也可能致命。
+reagent-name-vent-crud = 發洩不滿 vent crud
+reagent-desc-vent-crud = 一種在維護不善的通風系統中發現的漆黑物質。可能引發「通風道咳嗽」。
 reagent-name-romerol = romerol
-reagent-desc-romerol = An otherworldly concoction able to bring the undead to life. If untreated, the effects are irreversible and will bring certain doom upon the station. Handle with care.
-
-reagent-name-uncooked-animal-proteins = uncooked animal proteins
-reagent-desc-uncooked-animal-proteins = This is very risky for the stomachs of softer lifeforms to digest.
-
-reagent-name-allicin = allicin
-reagent-desc-allicin = An organosulfur compound found in alliums like garlic, onions, and related plants.
-
+reagent-desc-romerol = 一種能讓不死生物復活的超自然藥劑。若未經處理，其效果將不可逆轉，並將使太空站面臨必然的毀滅。請謹慎處理。
+reagent-name-uncooked-animal-proteins = 未經烹調的動物蛋白質 uncooked animal proteins
+reagent-desc-uncooked-animal-proteins = 對於消化能力較弱的生物而言，這對其胃部來說非常危險。
+reagent-name-allicin = 大蒜素 allicin
+reagent-desc-allicin = 一種存在於大蒜、洋蔥及相關植物等蔥屬植物中的有機硫化合物。
 reagent-name-pax = pax
-reagent-desc-pax = A psychiatric chemical which prevents the patient from directly harming anyone.
-
-reagent-name-honk = honk
-reagent-desc-honk = A toxin found in bananium. Causes severe honking and internal bleeding, may also cause the patient to mutate.
-
-reagent-name-lead = lead
-reagent-desc-lead = A slow-acting but incredibly lethal toxin found in steel, albeit in trace amounts. Tasteless.
-
-reagent-name-bungotoxin = bungotoxin
-reagent-desc-bungotoxin = A moderately slow-acting poison found within the pit of the bungo fruit.
-
+reagent-desc-pax = 一種精神科用藥，能防止患者直接傷害他人。
+reagent-name-honk = 按喇叭 honk
+reagent-desc-honk = 一種存在於香蕉中的毒素。會引起劇烈的鳴叫和內出血，也可能導致患者發生突變。
+reagent-name-lead = 鉛 lead
+reagent-desc-lead = 一種存在於鋼材中的作用緩慢但極其致命的毒素，儘管含量極微。無味。
+reagent-name-bungotoxin = 邦戈毒素 bungotoxin
+reagent-desc-bungotoxin = 一種作用速度適中、存在於文公果果核中的毒物。
 reagent-name-vestine = vestine
-reagent-desc-vestine = Has an adverse reaction within the body causing major jittering. While not particularly useful on its own, it can be used to produce a small variety of chemicals.
-
-reagent-name-tazinide = tazinide
-reagent-desc-tazinide = A highly dangerous metallic mixture which can interfere with most movement through an electrifying current.
-
-reagent-name-lipolicide = lipolicide
-reagent-desc-lipolicide = A powerful toxin that will destroy fat cells, massively reducing body weight in a short time. Deadly to those without nutriment in their body.
-
-reagent-name-mechanotoxin = mechanotoxin
-reagent-desc-mechanotoxin = A neurotoxin used as venom by some species of spider. Degrades movement when built up.
-
-reagent-name-toxintrash = reprocessed material
-reagent-desc-toxintrash = An awful-smelling slurry efficiently refined from discarded matter. It represents a perfect, zero-waste conversion of salvage into Vox sustenance, though it is a violent poison to others.
-
+reagent-desc-vestine = 會在體內引發不良反應，導致劇烈顫抖。雖然單獨使用時並無特別用途，但可用於製造少量種類的化學物質。
+reagent-name-tazinide = 塔齊尼德 tazinide
+reagent-desc-tazinide = 一種極度危險的金屬混合物，會干擾電流所產生的大部分運動。
+reagent-name-lipolicide = 脂溶性殺菌劑 lipolicide
+reagent-desc-lipolicide = 一種強效毒素，能摧毀脂肪細胞，在短時間內大幅減輕體重。對於體內缺乏養分的人而言，此毒素具有致命性。
+reagent-name-mechanotoxin = 機械毒素 mechanotoxin
+reagent-desc-mechanotoxin = 一種由某些蜘蛛物種用作毒液的神經毒素。當其累積時，會削弱行動能力。
+reagent-name-toxintrash = 再加工材料
+reagent-desc-toxintrash = 一種從廢棄物中高效提煉而成的、氣味難聞的漿液。它代表著將回收物轉化為沃克斯（Vox）養分的完美、零浪費過程，儘管對其他人而言卻是劇毒。
 reagent-name-hemorrhinol = hemorrhinol
-reagent-desc-hemorrhinol = A toxin that causes severe damage to blood vessels, causing rapid bleeding.
-
+reagent-desc-hemorrhinol = 一種會對血管造成嚴重損害，並導致急速出血的毒素。
 reagent-name-hivarol = hivarol
-reagent-desc-hivarol = A toxin that attacks specific types of cells in the body, damaging hivemind communication and causing severe pain if one is present.
-
-reagent-name-phosphoric-acid = phosphoric acid
-reagent-desc-phosphoric-acid = An acidic chemical often used in agriculture. Keep away from your eyes.
+reagent-desc-hivarol = 一種會攻擊體內特定類型細胞的毒素，會破壞群體意識的溝通，若該毒素存在，將引發劇烈疼痛。
+reagent-name-phosphoric-acid = 磷酸
+reagent-desc-phosphoric-acid = 一種常用于農業的酸性化學物質。請避免接觸眼睛。

@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseStructureWall
-  name: basewall
-  description: Keeps the air in and the greytide out.
+  name: 基牆 | basewall
+  description: 讓空氣留下來，將「灰色潮汐」擋在外面。 | Keeps the air in and the greytide out.
   placement:
     mode: SnapgridCenter
     snap:
@@ -104,7 +104,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallBrick
-  name: brick wall
+  name: 磚牆 | brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/brick.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallBrass
-  name: brass wall
+  name: 黃銅牆 | brass wall
   components:
   - type: Sprite
     sprite: Structures/Walls/brass.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallMeat
-  name: meat wall
-  description: Sticky.
+  name: 肉牆 | meat wall
+  description: 置頂。 | Sticky.
   components:
   - type: Tag
     tags:
@@ -202,7 +202,7 @@
 - type: entity
   parent: [ BaseWall, BaseStructureHealth ]
   id: WallDebug
-  name: debug wall
+  name: 除錯牆 | debug wall
   suffix: DEBUG
   components:
   - type: Sprite
@@ -223,7 +223,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallGold
-  name: gold wall
+  name: 金色牆壁 | gold wall
   components:
   - type: Sprite
     sprite: Structures/Walls/gold.rsi
@@ -265,7 +265,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallPlasma
-  name: plasma wall
+  name: 等離子牆 | plasma wall
   components:
   - type: Sprite
     sprite: Structures/Walls/plasma.rsi
@@ -298,7 +298,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlastitaniumIndestructible
-  name: plastitanium wall
+  name: 塑鈦合金牆 | plastitanium wall
   suffix: indestructible
   components:
   - type: Sprite
@@ -325,7 +325,7 @@
 - type: entity
   parent: [ WallPlastitaniumIndestructible, StructureHealthWallStrong ]
   id: WallPlastitanium
-  name: plastitanium wall
+  name: 塑鈦合金牆 | plastitanium wall
   suffix: ""
   components:
   - type: Damageable
@@ -341,7 +341,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallPlastitaniumDiagonalIndestructible
-  name: plastitanium wall
+  name: 塑鈦合金牆 | plastitanium wall
   suffix: diagonal, indestructible
   components:
   - type: Sprite
@@ -357,7 +357,7 @@
 - type: entity
   parent: [ WallPlastitaniumDiagonalIndestructible, StructureHealthWallStrong ]
   id: WallPlastitaniumDiagonal
-  name: plastitanium wall
+  name: 塑鈦合金牆 | plastitanium wall
   suffix: diagonal
   components:
   - type: Sprite
@@ -379,7 +379,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallStrong ]
   id: WallReinforced
-  name: reinforced wall
+  name: 加固牆 | reinforced wall
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
@@ -454,7 +454,7 @@
 - type: entity
   parent: [ WallDiagonalBase, StructureHealthWallStrong ]
   id: WallReinforcedDiagonal
-  name: reinforced wall
+  name: 加固牆 | reinforced wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -478,7 +478,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallStrong ]
   id: WallMarble
-  name: marble wall
+  name: 大理石牆 | marble wall
   components:
   - type: Sprite
     sprite: Structures/Walls/marble.rsi
@@ -502,7 +502,7 @@
 - type: entity
   parent: BaseWall
   id: WallMarbleIndestructible
-  name: marble wall
+  name: 大理石牆 | marble wall
   suffix: indestructible
   components:
   - type: Sprite
@@ -529,7 +529,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallSilver
-  name: silver wall
+  name: 銀色牆壁 | silver wall
   components:
   - type: Sprite
     sprite: Structures/Walls/silver.rsi
@@ -561,7 +561,7 @@
 - type: entity
   parent: [ WallDiagonalBase, StructureHealthWallStrong ]
   id: WallShuttleDiagonal
-  name: shuttle wall
+  name: 穿梭牆 | shuttle wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -612,7 +612,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallStrong ]
   id: WallShuttle
-  name: shuttle wall
+  name: 穿梭牆 | shuttle wall
   components:
   - type: Damageable
     damageModifierSet: PlasteelStaticMod
@@ -667,7 +667,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWall ]
   id: WallSolid
-  name: solid wall
+  name: 實心牆 | solid wall
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
@@ -701,7 +701,7 @@
 - type: entity
   parent: [ WallDiagonalBase, StructureHealthWall ]
   id: WallSolidDiagonal
-  name: solid wall
+  name: 實心牆 | solid wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -739,7 +739,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWall ]
   id: WallSolidChitin
-  name: exodermis wall
+  name: 外皮層壁 | exodermis wall
   components:
   - type: Damageable
     damageModifierSet: SteelStaticMod
@@ -768,7 +768,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallStrong ]
   id: WallReinforcedChitin
-  name: reinforced exodermis
+  name: 強化外皮層 | reinforced exodermis
   components:
   - type: Sprite
     sprite: Structures/Walls/exo.rsi
@@ -810,7 +810,7 @@
 - type: entity
   parent: WallPlastitanium
   id: WallXenoborg
-  name: mechadermis wall
+  name: 機械表皮壁 | mechadermis wall
   components:
   - type: Sprite
     sprite: Structures/Walls/exo-borg.rsi
@@ -823,7 +823,7 @@
 - type: entity
   parent: WallPlastitaniumDiagonal
   id: WallXenoborgDiagonal
-  name: mechadermis wall
+  name: 機械表皮牆 | mechadermis wall
   suffix: diagonal
   components:
   - type: Sprite
@@ -837,7 +837,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallWeak ]
   id: WallUranium
-  name: uranium wall
+  name: 鈾牆 | uranium wall
   components:
   - type: Sprite
     sprite: Structures/Walls/uranium.rsi
@@ -877,8 +877,8 @@
 - type: entity
   parent: [ BaseWall, StructureHealthBarrierStrong ]
   id: WallWood
-  name: wood wall
-  description: The traditional greytide defense.
+  name: 木牆 | wood wall
+  description: 傳統的「灰潮」辯護。 | The traditional greytide defense.
   components:
   - type: Sprite
     sprite: Structures/Walls/wood.rsi
@@ -910,8 +910,8 @@
 - type: entity
   parent: [ BaseWall, StructureHealthBarrier ]
   id: WallWeb
-  name: web wall
-  description: Keeps the spiders in and the greytide out.
+  name: 網路牆 | web wall
+  description: 讓蜘蛛留在裡面，把「灰潮」擋在外面。 | Keeps the spiders in and the greytide out.
   components:
   - type: MeleeSound
     soundGroups:
@@ -946,7 +946,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWall ]
   id: WallMining
-  name: mining wall
+  name: 採礦牆 | mining wall
   components:
   - type: Sprite
     sprite: Structures/Walls/mining.rsi
@@ -968,7 +968,7 @@
 - type: entity
   parent: [ WallDiagonalBase, StructureHealthWall ]
   id: WallMiningDiagonal
-  name: mining wall
+  name: 採礦牆 | mining wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -990,7 +990,7 @@
 
 - type: entity
   id: WallInvisible
-  name: invisible wall
+  name: 無形之牆 | invisible wall
   components:
   - type: TimedDespawn
     lifetime: 15
@@ -1011,7 +1011,7 @@
 
 - type: entity
   id: WallForce
-  name: force wall
+  name: 力場牆 | force wall
   components:
   - type: TimedDespawn
     lifetime: 10
@@ -1039,7 +1039,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthBarrierStrong ]
   id: WallConcrete
-  name: concrete wall
+  name: 混凝土牆 | concrete wall
   components:
   - type: Sprite
     sprite: Structures/Walls/concrete.rsi
@@ -1065,8 +1065,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthBarrierWeak ]
   id: Cardwall
-  name: cardboard wall
-  description: Budget cuts are hitting hard.
+  name: 紙板牆 | cardboard wall
+  description: 預算削減正造成嚴峻衝擊。 | Budget cuts are hitting hard.
   placement:
     mode: SnapgridCenter
     snap:

@@ -1,9 +1,8 @@
 ﻿# Bomb planting strings
 
-comp-sticky-start-stick-bomb = You start planting the bomb...
-comp-sticky-success-stick-bomb = You planted the bomb
-comp-sticky-start-unstick-bomb = You start carefully removing the bomb...
-comp-sticky-success-unstick-bomb = You removed the bomb
-
+comp-sticky-start-stick-bomb = 你開始安裝炸彈……
+comp-sticky-success-stick-bomb = 是你放置了那顆炸彈
+comp-sticky-start-unstick-bomb = 你開始小心地拆除那顆炸彈……
+comp-sticky-success-unstick-bomb = 你拆除了那顆炸彈
 # General strings
-comp-sticky-unstick-verb-text = Unstick
+comp-sticky-unstick-verb-text = 解除卡住

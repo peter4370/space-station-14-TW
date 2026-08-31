@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltChampion
-  name: championship belt
-  description: Proves to the world that you are the strongest!
+  name: 冠軍腰帶 | championship belt
+  description: 向全世界證明你才是最強的！ | Proves to the world that you are the strongest!
   components:
   - type: Sprite
     sprite: Clothing/Belt/champion.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltSuspendersRed
-  name: red suspenders
-  description: For holding your pants up.
+  name: 紅色吊帶 | red suspenders
+  description: 用來固定褲子的。 | For holding your pants up.
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_red.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: ClothingBeltSuspendersRed
   id: ClothingBeltSuspendersBlack
-  name: black suspenders
+  name: 黑色吊帶 | black suspenders
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_black.rsi

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: MailingUnitElectronics
   parent: BaseElectronics
-  name: mailing unit electronics
-  description: An electronics board used in mailing units.
+  name: 郵寄裝置電子元件 | mailing unit electronics
+  description: 郵寄裝置中使用的電子電路板。 | An electronics board used in mailing units.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

@@ -2,8 +2,8 @@
   abstract: true
   parent: MaterialBase
   id: ShardCrystalBase
-  name: crystal shard
-  description:  A small piece of crystal.
+  name: 水晶碎片 | crystal shard
+  description:  一小塊水晶。 | A small piece of crystal.
   components:
   - type: Tool
     qualities:
@@ -36,8 +36,8 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalCyan
-  name: cyan crystal shard
-  description: A small piece of crystal.
+  name: 青色水晶碎片 | cyan crystal shard
+  description: 一小塊水晶。 | A small piece of crystal.
   components:
   - type: Sprite
     color: "#47f8ff"
@@ -52,7 +52,7 @@
 
 - type: entity
   parent: ShardCrystalBase
-  name: blue crystal shard
+  name: 藍色水晶碎片 | blue crystal shard
   id: ShardCrystalBlue
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 
 - type: entity
   parent: ShardCrystalBase
-  name: yellow crystal shard
+  name: 黃色水晶碎片 | yellow crystal shard
   id: ShardCrystalYellow
   components:
   - type: Sprite
@@ -85,7 +85,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalOrange
-  name: orange crystal shard
+  name: 橘色水晶碎片 | orange crystal shard
   components:
   - type: Sprite
     color: "#ff8227"
@@ -100,7 +100,7 @@
 
 - type: entity
   parent: ShardCrystalBase
-  name: black crystal shard
+  name: 黑色水晶碎片 | black crystal shard
   id: ShardCrystalBlack
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalPink
-  name: pink crystal shard
+  name: 粉紅色水晶碎片 | pink crystal shard
   components:
   - type: Sprite
     color: "#ff66cc"
@@ -133,7 +133,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalGreen
-  name: green crystal shard
+  name: 綠色水晶碎片 | green crystal shard
   components:
   - type: Sprite
     color: "#52ff39"
@@ -149,7 +149,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalRed
-  name: red crystal shard
+  name: 紅色水晶碎片 | red crystal shard
   components:
   - type: Sprite
     color: "#fb4747"
@@ -165,7 +165,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalRandom
-  name: random crystal shard
+  name: 隨機的水晶碎片 | random crystal shard
   components:
   - type: EntityTableSpawner
     table: !type:GroupSelector

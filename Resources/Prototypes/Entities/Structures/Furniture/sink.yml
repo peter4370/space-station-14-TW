@@ -1,8 +1,8 @@
 - type: entity
   parent: [SolutionTank, SolutionHuge, StructureHealthFurnitureStrong]
   id: SinkEmpty
-  name: sink
-  description: The faucets have been tightened to the maximum possible torque but are still known to drip.
+  name: 水槽 | sink
+  description: 水龍頭已擰緊至最大扭力，但據悉仍會滴水。 | The faucets have been tightened to the maximum possible torque but are still known to drip.
   suffix: Empty
   placement:
     mode: SnapgridCenter
@@ -75,7 +75,7 @@
 - type: entity
   parent: Sink
   id: SinkWide
-  name: wide sink
+  name: 寬型水槽 | wide sink
   components:
     - type: Sprite
       sprite: Structures/Furniture/sink.rsi
@@ -92,7 +92,7 @@
 #Stemless Sink
 
 - type: entity
-  name: sink
+  name: 水槽 | sink
   id: SinkStemless
   parent: SinkEmpty
   components:
@@ -105,7 +105,7 @@
         visible: false
 
 - type: entity
-  name: sink
+  name: 水槽 | sink
   id: SinkStemlessWater
   parent: SinkStemless
   suffix: Water

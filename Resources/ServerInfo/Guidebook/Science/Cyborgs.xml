@@ -1,65 +1,65 @@
+
 <Document>
-  # Cyborgs
-  Cyborgs are man-machine hybrids, purpose-built by the [textlink="robotics"  link="Robotics"] division of science for various duties across the station. Bound by strictly-followed [color=cyan]silicon laws[/color], they serve the crew unconditionally. [italic](Most of the time.)[italic]
+  # 賽博格
+  賽博格是人機混合體，由科學領域的 [textlink="robotics"  link="機器人學"] 部門專門打造，用以執行空間站內的各項任務。 受嚴格遵守的 [color=cyan]矽法則[/color] 所約束，牠們無條件地服侍船員。 [斜體](大多數時候。)[斜體]
 
-  ## Basic Components
+  ## 基本元件
   <Box>
-    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="Cyborg Endoskeleton"/>
-    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="Exosuit Fabricator"/>
+    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="機械人內骨骼"/>
+    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="外骨骼服製造機"/>
   </Box>
-  All cyborgs are built on an endoskeleton, which can be crafted at an [color=#a4885c]Exosuit Fabricator[/color]. Further assembly steps can be followed by [color=#a4885c]examining[/color] the endoskeleton. Once built, further upgrades like additional tools and a longer battery life can be unlocked with modules or improved power cells.
+  所有機械人都是以內骨骼為基礎打造的，該內骨骼可透過 [color=#a4885c]外骨骼製造機[/color] 製成。 後續的組裝步驟可透過 [color=#a4885c]檢視[/color] 內骨骼來進行。 一旦組裝完成，便可透過模組或改良型電源組，解鎖諸如新增工具及延長電池續航力等進一步升級功能。
 
-  Newly built cyborgs need a [color=#a4885c]brain[/color] able to interface with the electronic body. There are two main types, both of which are able to speak independently, should the chassis be decommissioned, exchanged, or otherwise suffer an unscheduled disassembly.
-  - The [color=#a4885c]Man-Machine Interface[/color] or MMI for short, is an apparatus able to facilitate communication between a biological brain and electronic components, enabling those suffering from major workplace accidents to continue serving their crew, long after their body is gone.
-  - The [color=#a4885c]Positronic Brain[/color] is an entirely artificial brain, capable of spontaneous neural activity. The time for the synthetic neurons to descramble can wildly vary, but they allow for the creation of cyborgs without having to extract a brain from a crew member.
+  新製造的機械人需要一個能夠與電子軀體進行介接的 [color=#a4885c]大腦[/color]。 主要有兩種類型，無論機箱是否退役、更換，或因其他原因發生非預定拆解，這兩種類型皆能獨立運作。
+  - [color=#a4885c]人機介面[/color]（簡稱 MMI）是一種能夠促進生物大腦與電子元件之間溝通的裝置，使遭遇重大職場事故的人士，即使在身體消亡後許久，仍能繼續為其團隊效力。
+  - [color=#a4885c]正電子腦[/color] 是一種完全人工製造的大腦，能夠進行自發性神經活動。 合成神經元解碼所需的時間可能差異極大，但它們使我們得以製造賽博格，而無需從船員體內摘除大腦。
   <Box>
-    <GuideEntityEmbed Entity="MMIFilled" Caption="Man-Machine Interface"/>
-    <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
+    <GuideEntityEmbed Entity="MMIFilled" Caption="人機介面"/>
+    <GuideEntityEmbed Entity="PositronicBrain" Caption="正電子大腦"/>
   </Box>
-  Both brains can be fabricated without requiring any additional research.
+  這兩種大腦皆可製造，無需進行任何額外研究。
 
-  ## Cyborg types
-  Once created, a cyborg needs to specialize its chassis to a duty on the station. This determines what modules it starts with, which additional modules can be installed, and what [color=#a4885c]departmental radio channel[/color] it has access to. All cyborgs have access to the [color=#D381C9]Science[/color] and [color=green]station-wide[/color] radio channels. All cyborg types have [color=#a4885c]all-access[/color].
+  ## 機械人類型
+  機械人一經製造，便需針對太空站內的特定任務，對其機體進行專門化調整。 這決定了系統初始啟動時會使用哪些模組、可安裝哪些額外模組，以及系統可存取的 [color=#a4885c]部門無線電頻道[/color]。 所有機械人皆可收聽 [color=#D381C9]科學[/color] 及 [color=green]全站[/color] 廣播頻道。 所有類型的賽博格皆擁有 [color=#a4885c]全權存取權限[/color]。
   <Box>
-    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption="Generic"/>
-    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="Engineering"/>
-    <GuideEntityEmbed Entity="BorgChassisMining" Caption="Salvage"/>
-    <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="Janitor"/>
-    <GuideEntityEmbed Entity="BorgChassisService" Caption="Service"/>
-    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Medical"/>
+    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption="通用"/>
+    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="工程學"/>
+    <GuideEntityEmbed Entity="BorgChassisMining" Caption="打撈部"/>
+    <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="清潔工"/>
+    <GuideEntityEmbed Entity="BorgChassisService" Caption="服務"/>
+    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="醫療"/>
   </Box>
   <Box>
-    [italic]Examples of various cyborg types[/italic]
+    [斜體]各類賽博格的例子[/斜體]
   </Box>
-  Once a cyborg chassis has been specialized, it cannot be changed. To change types, a new chassis must be constructed. The brain, power cell, and any modules [italic](if they are compatible with the new chassis)[/italic] can be carried over from the old chassis if desired.
+  一旦賽博格機體經過專用化改造，便無法再進行變更。 若要更換車型，必須打造一具新的底盤。 若需要，可將主機板、電源供應器以及任何模組 [斜體](若其與新機殼相容)[/斜體] 從舊機殼移轉過來。
 
-  ## Modules
+  ## 模組
   <Box>
-    <GuideEntityEmbed Entity="BorgModuleTool" Caption="Tool Cyborg Module"/>
+    <GuideEntityEmbed Entity="BorgModuleTool" Caption="工具機械人模組"/>
   </Box>
-  Cyborgs do not have hands, and therefore cannot pick things up like most other players. Instead, their equipment is provided by various [color=#a4885c]modules[/color]. Every cyborg type starts with its own specific set of modules, but additional modules can be inserted as upgrades. These additional modules can be printed at the [color=#a4885c]Exosuit Fabricator[/color].
+  機械人沒有手，因此無法像其他大多數玩家那樣撿起物品。 相反地，他們的設備是由各種 [color=#a4885c]模組[/color] 所提供的。 每種機械人最初都配備一套專屬的模組，但可透過升級方式追加其他模組。 這些附加模組可在 [color=#a4885c]Exosuit Fabricator[/color] 上列印。
 
-  [color=#a4885c]Generic[/color] modules add versatility. They can be fitted into any chassis, granting useful tools such as crowbars, GPS, and the ability to interact with cables. [bold]The generic cyborg chassis can fit up to five additional modules.[/bold]
+  [color=#a4885c]通用[/color] 模組能提升多功能性。 它們可安裝於任何機殼中，並提供諸如撬棍、GPS 等實用工具，以及與纜線互動的能力。 [粗體]這款通用型機械人機身最多可安裝五個額外模組。[/粗體]
   <Box>
-    <GuideEntityEmbed Entity="BorgModuleCable" Caption="Cable"/>
-    <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="Fire Extinguisher"/>
+    <GuideEntityEmbed Entity="BorgModuleCable" Caption="電纜"/>
+    <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="滅火器"/>
   </Box>
   <Box>
-    [italic]Examples of generic modules[/italic]
+    [斜體]通用模組的範例[/斜體]
   </Box>
 
-  For more specific needs, [color=#a4885c]specialized[/color] modules are available, granting capabilities like scanning anomalies, constructing walls, reviving crew mates, or cleaning a space lube spill. These modules are typically colored with the same palette as the department [italic](or occupation)[/italic] they relate to. These modules [italic](with exception to [color=#D381C9]science[/color] modules, which can fit any chassis,)[/italic] can only be fitted in their associated borg chassis. [bold]The specialized borg chassis, being the engineering, janitorial, service, medical, and mining chassis, can fit up to three additional modules.[/bold]
+  若需更具體的功能，可選用 [color=#a4885c]專用[/color] 模組，這些模組能提供掃描異常狀況、搭建隔牆、復活船員，或是清理太空潤滑劑洩漏等能力。 這些模組的配色通常與其所屬的部門 [斜體](或職業)[/斜體] 採用相同的色盤。 這些模組 [斜體](但 [color=#D381C9]科學[/color] 模組除外，該類模組可安裝於任何機殼上)[/斜體] 只能安裝在其對應的博格機殼中。 [粗體]專用的博格底盤（包括工程、清潔、服務、醫療及採礦底盤）最多可加裝三個模組。[/粗體]
   <Box>
-    <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="Anomaly"/>
+    <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="異常現象"/>
     <GuideEntityEmbed Entity="BorgModuleRCD" Caption="RCD"/>
-    <GuideEntityEmbed Entity="BorgModuleMining" Caption="Mining"/>
-    <GuideEntityEmbed Entity="BorgModuleCleaning" Caption="Cleaning"/>
-    <GuideEntityEmbed Entity="BorgModuleService" Caption="Service"/>
-    <GuideEntityEmbed Entity="BorgModuleChemical" Caption="Chemical"/>
+    <GuideEntityEmbed Entity="BorgModuleMining" Caption="採礦"/>
+    <GuideEntityEmbed Entity="BorgModuleCleaning" Caption="清潔"/>
+    <GuideEntityEmbed Entity="BorgModuleService" Caption="服務"/>
+    <GuideEntityEmbed Entity="BorgModuleChemical" Caption="化學"/>
   </Box>
   <Box>
-    [italic]Examples of specialized modules. Note the housing and circuit board colors.
+    [斜體]專業模組的例子。 請注意外殼與電路板的顏色。
   </Box>
-  Additional modules with advanced or novel capabilities can be acquired through new [textlink="technologies"  link="Technologies"] researched by scientists.
+  透過科學家所研究出的新[textlink="技術"  link="技術"]，可取得具備進階或創新功能的額外模組。
 </Document>
-

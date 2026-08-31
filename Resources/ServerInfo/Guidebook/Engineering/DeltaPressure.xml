@@ -1,17 +1,18 @@
+
 <Document>
-  # Delta Pressure
-  Delta Pressure, or ΔP, is the difference in pressure between two areas.
-  This difference in pressure can exert a force on objects between the two areas, dealing [bold]pressure damage[/bold] to some objects in its way.
+  # 壓差
+  壓差（ΔP）是指兩個區域之間的壓力差。
+  這種壓力差會對位於兩區域之間的物體施加力量，並對沿途的部分物體造成 [bold]壓力傷害[/bold]。
 
-  Various objects made out of glass, such as Windows, Windoors, and Shutters can experience pressure damage if the ΔP between the two sides is high enough.
-  This damage can cause these objects to shatter, allowing gas to flow freely between the two areas.
+  由玻璃製成的各種物件，例如窗戶、玻璃門和百葉窗，若兩側之間的壓差（ΔP）足夠大，便可能會遭受壓力損壞。
+  這種損壞可能會導致這些物件碎裂，使氣體得以在兩個區域之間自由流動。
 
-  Different types of objects have different thresholds for how much ΔP they can withstand before shattering.
-  Generally, the stronger the glass, the higher the threshold. Objects that are thin will also have lower thresholds.
+  不同類型的物體，在碎裂前所能承受的 ΔP 閾值各不相同。
+  一般來說，玻璃越堅固，其閾值就越高。 較薄的物體，其閾值也會較低。
 
-  Objects like walls, airlocks, and firelocks are not affected by ΔP.
+  牆壁、氣閘和防火閘等物體不受 ΔP 的影響。
 
-  ## Standard Glass and Objects
+  ## 標準玻璃與物體
   <Box>
     <GuideEntityEmbed Entity="Window" Caption=""/>
     <GuideEntityEmbed Entity="WindowDirectional" Caption=""/>
@@ -20,22 +21,22 @@
     <GuideEntityEmbed Entity="InflatableWall" Caption=""/>
   </Box>
 
-  Standard full-size glass and other weak objects can withstand a ΔP of up to [color=orange][protodata="Window" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  標準的全尺寸玻璃及其他脆弱物體，在開始出現裂痕之前，可承受高達 [color=orange][protodata="Window" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的 ΔP。
 
-  Quarter-size glass, such as directional windows, can withstand a ΔP of up to [color=orange][protodata="WindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  四分之一大小的玻璃（例如定向窗）在開始出現裂痕之前，可承受高達 [color=orange][protodata="WindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的 ΔP。
 
-  ## Reinforced Glass and Objects
+  ## 強化玻璃與物體
   <Box>
     <GuideEntityEmbed Entity="ReinforcedWindow" Caption=""/>
     <GuideEntityEmbed Entity="WindowReinforcedDirectional" Caption=""/>
     <GuideEntityEmbed Entity="ShuttleWindow" Caption=""/>
   </Box>
 
-  Reinforced full-size glass can withstand a ΔP of up to [color=orange][protodata="ReinforcedWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  強化全尺寸玻璃在開始出現裂痕之前，可承受高達 [color=orange][protodata="ReinforcedWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的 ΔP。
 
-  Reinforced quarter-size glass can withstand a ΔP of up to [color=orange][protodata="WindowReinforcedDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  強化四分之一尺寸玻璃在開始出現裂痕之前，可承受高達 [color=orange][protodata="WindowReinforcedDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的 ΔP。
 
-  ## Plasma/Uranium Glass
+  ## 等離子體／鈾玻璃
   <Box>
     <GuideEntityEmbed Entity="PlasmaWindow" Caption=""/>
     <GuideEntityEmbed Entity="PlasmaWindowDirectional" Caption=""/>
@@ -45,11 +46,11 @@
     <GuideEntityEmbed Entity="WindoorUranium" Caption=""/>
   </Box>
 
-  Plasma glass and uranium glass can withstand a ΔP of up to [color=orange][protodata="PlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  等離子玻璃和鈾玻璃在開始出現裂痕之前，可承受高達 [color=orange][protodata="PlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的 ΔP。
 
-  Plasma and uranium quarter-size glass can withstand a ΔP of up to [color=orange][protodata="PlasmaWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  等離子體與鈾製的四分之一尺寸玻璃，在開始出現裂痕之前，可承受高達 [color=orange][protodata="PlasmaWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的 ΔP。
 
-  ## Reinforced Plasma/Uranium Glass
+  ## 強化等離子體／鈾玻璃
 
   <Box>
     <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Caption=""/>
@@ -59,8 +60,8 @@
 
   </Box>
 
-  Reinforced plasma glass and uranium glass can withstand a ΔP of up to [color=orange][protodata="ReinforcedPlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  強化等離子體玻璃和鈾玻璃在開始出現裂痕之前，可承受高達 [color=orange][protodata="ReinforcedPlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的 ΔP。
 
-  Reinforced plasma and uranium quarter-size glass can withstand a ΔP of up to [color=orange][protodata="PlasmaReinforcedWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] before starting to crack.
+  經等離子體強化且含鈾的四分之一尺寸玻璃，在開始出現裂紋之前，可承受高達 [color=orange][protodata="PlasmaReinforcedWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] 的壓差。
 
 </Document>

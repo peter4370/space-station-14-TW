@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseLightHousingDestructible
   id: AlwaysPoweredStrobeLight
-  name: strobe
+  name: 閃光燈 | strobe
   suffix: Always powered
-  description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
+  description: "咦？！抱歉，我只聽到「嗚——嗚——嗚——嗚——」！ | UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
   placement:
     mode: SnapgridCenter
     snap:
@@ -70,8 +70,8 @@
             max: 1
 
 - type: entity
-  name: strobe
-  description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
+  name: 閃光燈 | strobe
+  description: "咦？！抱歉，我只聽到「嗚——嗚——嗚——嗚——」！ | UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
   id: PoweredStrobeLightEmpty
   suffix: Empty
   parent: AlwaysPoweredStrobeLight

@@ -21,7 +21,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: explosive payload
+  name: 爆炸性彈頭 | explosive payload
   parent: [ BasePayload, BaseSecurityContraband ]
   id: ExplosivePayload
   components:
@@ -37,10 +37,10 @@
   - type: ExplodeOnTrigger
 
 - type: entity
-  name: chemical payload
+  name: 化學載荷 | chemical payload
   parent: [ BasePayload, BaseMedicalScienceContraband ]
   id: ChemicalPayload
-  description: A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
+  description: 一種化學載荷。內部有空間可存放兩個燒杯。搭配觸發器與外殼使用，即可引發化學反應。 | A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
   components:
   - type: Sprite
     sprite: Objects/Devices/payload.rsi
@@ -73,10 +73,10 @@
     price: 60
 
 - type: entity
-  name: flash payload
+  name: Flash 有效載荷 | flash payload
   parent: [ BasePayload, BaseSecurityScienceCommandContraband ]
   id: FlashPayload
-  description: A single-use flash payload.
+  description: 一次性的閃存載荷。 | A single-use flash payload.
   components:
     - type: Sprite
       sprite: Objects/Devices/payload.rsi

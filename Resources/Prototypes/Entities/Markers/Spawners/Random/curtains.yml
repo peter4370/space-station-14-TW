@@ -1,5 +1,5 @@
 - type: entity
-  name: random curtain spawner
+  name: 隨機窗簾生成器 | random curtain spawner
   id: CurtainSpawner
   parent: MarkerBase
   components:

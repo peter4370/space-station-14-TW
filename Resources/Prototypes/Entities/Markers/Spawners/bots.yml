@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMedibot
-  name: medibot spawner
+  name: medibot 生成器 | medibot spawner
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCleanBot
-  name: cleanbot spawner
+  name: cleanbot 生成器 | cleanbot spawner
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobFireBot
-  name: firebot spawner
+  name: 火怪生成器 | firebot spawner
   components:
   - type: Sprite
     layers:
@@ -43,7 +43,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSupplyBot
-  name: supplybot spawner
+  name: supplybot 生成器 | supplybot spawner
   components:
   - type: Sprite
     layers:
@@ -57,7 +57,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHonkBot
-  name: honkbot spawner
+  name: honkbot 生成器 | honkbot spawner
   components:
   - type: Sprite
     layers:

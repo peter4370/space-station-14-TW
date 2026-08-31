@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckStoleChaplain
-  name: chaplain stole
-  description: An elegantly designed stole, with a vibrant gold plus on either end.
+  name: 牧師聖帶 | chaplain stole
+  description: 一款設計優雅的披肩，兩端各飾有鮮豔的金色「＋」形圖案。 | An elegantly designed stole, with a vibrant gold plus on either end.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Stoles/chaplain.rsi

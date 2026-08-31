@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, BaseItemDestructible ]
   id: LogicEmptyCircuit
-  name: empty circuit
-  description: Something seems to be missing.
+  name: 空電路 | empty circuit
+  description: 似乎少了點什麼。 | Something seems to be missing.
   components:
   - type: Sprite
     drawdepth: ThinPipe
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseLogicItem
   id: LogicGateOr
-  name: logic gate
-  description: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
+  name: 邏輯閘 | logic gate
+  description: 一種具有兩個輸入端和一個輸出端的邏輯閘。技術人員可使用螺絲起子來變更其運作模式。 | A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
   suffix: Or
   components:
   - type: Sprite
@@ -202,8 +202,8 @@
 - type: entity
   parent: BaseLogicItem
   id: EdgeDetector
-  name: edge detector
-  description: Splits rising and falling edges into unique pulses and detects how edgy you are.
+  name: 邊緣偵測器 | edge detector
+  description: 將上升沿與下降沿拆分為獨立的脈衝，並偵測你的「鋒利度」。 | Splits rising and falling edges into unique pulses and detects how edgy you are.
   components:
   - type: Sprite
     layers:
@@ -226,8 +226,8 @@
 - type: entity
   parent: BaseLogicItem
   id: PowerSensor
-  name: power sensor
-  description: Generates signals in response to powernet changes. Can be cycled between cable voltages.
+  name: 功率感測器 | power sensor
+  description: 會根據電力網的變化產生訊號。可在不同電纜電壓之間切換。 | Generates signals in response to powernet changes. Can be cycled between cable voltages.
   components:
   - type: Sprite
     layers:
@@ -273,8 +273,8 @@
 - type: entity
   parent: BaseLogicItem
   id: MemoryCell
-  name: memory cell
-  description: A D-Latch circuit that stores a signal which can be changed depending on input and enable ports.
+  name: 記憶單元 | memory cell
+  description: 一種 D 型鎖存器電路，用於儲存訊號，該訊號可根據輸入端與使能端而改變。 | A D-Latch circuit that stores a signal which can be changed depending on input and enable ports.
   components:
   - type: Sprite
     layers:
@@ -294,8 +294,8 @@
 - type: entity
   parent: BaseLogicItem
   id: RandomGate
-  name: random gate
-  description: A logic gate that outputs a random signal when input changes.
+  name: 隨機閘門 | random gate
+  description: 一種當輸入變化時會輸出隨機訊號的邏輯閘。 | A logic gate that outputs a random signal when input changes.
   components:
   - type: Sprite
     layers:

@@ -64,8 +64,8 @@
 - type: entity
   parent: BasePaper
   id: Paper
-  name: paper
-  description: A piece of white paper.
+  name: 論文 | paper
+  description: 一張白紙。 | A piece of white paper.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -92,10 +92,10 @@
   - type: StationAiWhitelist
 
 - type: entity
-  name: paper scrap
+  name: 紙屑 | paper scrap
   parent: BasePaper
   id: PaperScrap
-  description: 'A crumpled up piece of white paper.'
+  description: '一張被揉皺的白紙。 | A crumpled up piece of white paper.'
   components:
   - type: Tag
     tags:
@@ -108,10 +108,10 @@
     - state: scrap
 
 - type: entity
-  name: office paper
+  name: 辦公用紙 | office paper
   parent: Paper
   id: PaperOffice
-  description: 'A plain sheet of office paper.'
+  description: '一張普通的辦公用紙。 | A plain sheet of office paper.'
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -120,10 +120,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: artifact analyzer printout
+  name: 遺物分析儀的列印報告 | artifact analyzer printout
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: The readout of a device forgotten to time.
+  description: 一個被遺忘在時間長河中的裝置所顯示的讀數。 | The readout of a device forgotten to time.
   components:
   - type: Sprite
     layers:
@@ -147,10 +147,10 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: captain's thoughts
+  name: 船長的感想 | captain's thoughts
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "A page of the captain's journal. In luxurious lavender."
+  description: "船長日誌中的一頁。採用奢華的薰衣草色。 | A page of the captain's journal. In luxurious lavender."
   components:
   - type: Sprite
     layers:
@@ -181,10 +181,10 @@
         color: "#e6e6fa"
 
 - type: entity
-  name: cargo invoice
+  name: 貨物發票 | cargo invoice
   parent: Paper
   id: PaperCargoInvoice
-  description: 'A single unit of bureaucracy.'
+  description: '一個官僚單位。 | A single unit of bureaucracy.'
   components:
   - type: Sprite
     layers:
@@ -225,8 +225,8 @@
 - type: entity
   id: PaperNanoTaskItem
   parent: Paper
-  name: NanoTask item
-  description: A printed NanoTask item. Can be inserted into your PDA to add it to your tasks.
+  name: NanoTask 項目 | NanoTask item
+  description: 一份已列印的 NanoTask 項目。可將其插入您的 PDA，以將其新增至您的待辦事項中。 | A printed NanoTask item. Can be inserted into your PDA to add it to your tasks.
   components:
   - type: Tag
     tags:
@@ -259,8 +259,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: bounty manifest
-  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
+  name: 懸賞清單 | bounty manifest
+  description: 一張標示該木箱內含懸賞目標的紙標籤。出售貼有此標籤的木箱即可完成該懸賞任務。 | A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
   components:
   - type: Sprite
     layers:
@@ -308,8 +308,8 @@
 - type: entity
   id: PaperSalvageJobLabel
   parent: PaperCargoInvoice
-  name: salvage job shipment label
-  description: A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
+  name: 救回貨件運送標籤 | salvage job shipment label
+  description: 一張標示該木箱內裝有用於完成打撈任務貨物的紙質標籤。出售附有此標籤的木箱即可完成該任務。 | A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
   components:
   - type: Sprite
     layers:
@@ -349,10 +349,10 @@
         color: "#f7e574"
 
 - type: entity
-  name: character sheet
+  name: 角色資料表 | character sheet
   parent: Paper
   id: PaperCNCSheet # legally gray zone of using "D&D" and "DND"
-  description: 'A sheet for your Carps and Crypts characters.'
+  description: '一份專為《Carps and Crypts》角色設計的資料表。 | A sheet for your Carps and Crypts characters.'
   components:
   - type: Paper
     contentSize: 10000
@@ -398,7 +398,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: nuclear authentication codes
+  name: 核認證碼 | nuclear authentication codes
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -413,8 +413,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: syndicate codeword
-  description: A leaked codeword to possibly get in touch with the Syndicate.
+  name: 犯罪集團的暗語 | syndicate codeword
+  description: 一個可能用於聯繫「辛迪加」的洩露代號。 | A leaked codeword to possibly get in touch with the Syndicate.
   categories: [ DoNotMap ]
   components:
   - type: TraitorCodePaper
@@ -422,8 +422,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband]
   id: AllTraitorCodesPaper
-  name: syndicate codewords registry
-  description: A registry of all active Syndicate codewords.
+  name: 犯罪集團密碼登記冊 | syndicate codewords registry
+  description: 所有有效「辛迪加」密碼的登錄表。 | A registry of all active Syndicate codewords.
   suffix: Admeme
   components:
   - type: TraitorCodePaper
@@ -431,10 +431,10 @@
     codewordShowAll: true
 
 - type: entity
-  name: envelope
+  name: 信封 | envelope
   parent: BaseItem
   id: Envelope
-  description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
+  description: '一款小巧的信封，能讓您的敏感文件遠離外人的窺探。 | A small envelope for keeping prying eyes off of your sensitive documents.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -464,7 +464,7 @@
   - type: ItemSlots
     slots:
       letter_slot:
-        name: envelope-letter-slot
+        name: 信封信件投遞口 | envelope-letter-slot
         insertSound: /Audio/Effects/packetrip.ogg
         ejectSound: /Audio/Effects/packetrip.ogg
         whitelist:

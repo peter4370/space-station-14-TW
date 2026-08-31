@@ -1,8 +1,8 @@
 - type: entity
   parent: [VolatileGrenadeBase, TimerGrenadeBase, BaseSecurityContraband ]
   id: SmokeGrenade
-  name: smoke grenade
-  description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
+  name: 煙霧彈 | smoke grenade
+  description: 一種戰術手榴彈，使用時會釋放出一大團持續時間較長的煙霧。 | A tactical grenade that releases a large, long-lasting cloud of smoke when used.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/smoke.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: [ BaseCivilianContraband, SmokeGrenade ]
   id: CleanerGrenade
-  name: cleanade
-  description: Special grenade for janitors, releasing large cloud of space cleaner foam.
+  name: cleanade | cleanade
+  description: 專為清潔人員設計的手榴彈，能釋放出大量太空清潔泡沫。 | Special grenade for janitors, releasing large cloud of space cleaner foam.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/janitor.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: SmokeGrenade
   id: TearGasGrenade
-  name: tear gas grenade
-  description: A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
+  name: 催淚瓦斯手榴彈 | tear gas grenade
+  description: 一枚鎮暴用催淚瓦斯手榴彈。會引起刺激感、疼痛，並讓你淚流不止。 | A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ BaseEngineeringContraband, SmokeGrenade ]
   id: MetalFoamGrenade
-  name: metal foam grenade
-  description: An emergency tool used for patching hull breaches with special quick-set metal foam. Almost as good as real floors!
+  name: 金屬泡沫手榴彈 | metal foam grenade
+  description: 一種用於以特殊快乾金屬泡沫修補船體破洞的緊急工具。效果幾乎和真正的地板一樣好！ | An emergency tool used for patching hull breaches with special quick-set metal foam. Almost as good as real floors!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/metalfoam.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: [ BaseEngineeringContraband, VolatileGrenadeBase, TimerGrenadeBase ] # Prevent inheriting DeleteOnTrigger from SmokeGrenade
   id: AirGrenade
-  name: air grenade
-  description: A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!
+  name: 癱瘓手榴彈 | air grenade
+  description: 一種特殊的固態化學手榴彈，用於將標準空氣迅速釋放至特定區域。可填滿多達 30 格！ | A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/airboom.rsi

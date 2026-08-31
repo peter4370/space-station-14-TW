@@ -1,64 +1,65 @@
-﻿<Document>
-  # Air Vent
-  The air vent is a standard vent, found in all rooms that you want to pressurize with a breathable atmosphere.
-  Its primary job is to transfer gasses into the atmosphere it's exposed to until it reaches a set pressure.
+﻿
+<Document>
+  # 通風口
+  通風口是一種標準通風裝置，常見於所有需要維持通風且空氣可呼吸的加壓空間中。
+  其主要功能是將氣體輸送至其所處的大氣中，直到達到預設壓力為止。
 
   <Box>
     <GuideEntityEmbed Entity="GasVentPump"/>
   </Box>
 
-  The air vent requires [textlink="power" link="Power"] through a nearby [textlink="LV cable" link="VoltageNetworks"] to function.
+  通風口需透過附近的 [textlink="LV 電纜" link="VoltageNetworks"] 供電 [textlink="power" link="Power"] 才能運作。
 
-  The air vent can be welded with any welding tool to stop it from functioning.
+  可使用任何焊接工具將通風口焊接封死，使其無法運作。
 
-  ## Default Operation
-  The default behavior of an air vent is to simply output gas to the exposed atmosphere at a pressure of [color=orange][protodata="GasVentPump" comp="GasVentPump" member="DefaultExternalBound"/] kPa[/color].
+  ## 預設運作方式
+  排氣口的預設行為，是直接以 [color=orange][protodata="GasVentPump" comp="GasVentPump" member="DefaultExternalBound"/] kPa[/color] 的壓力，將氣體排放至外部大氣中。
 
-  The speed of the air vent scales with the difference between twice the connected [textlink="pipenet's" link="PipeNetworks"] pressure and the pressure of the exposed atmosphere.
-  To put it in a word equation:
+  通風口的風速與連接的 [textlink="pipenet's" link="PipeNetworks"] 壓力之兩倍與暴露於外氣壓之間的差值成正比。
+  用一個詞方程式來表示的話：
   <Box>
-    [italic]Speed = 2 × Pipenet Pressure - Exposed Atmosphere Pressure[/italic]
+    [斜體]速度 = 2 × 管網壓力 - 暴露大氣壓力[/斜體]
   </Box>
 
-  For example, this means that an air vent will be unable to pump to 101.3 kPa if the gas inside the vent goes below half that.
+  舉例來說，這意味著如果通風管內的氣壓低於該數值的一半，該通風管將無法將氣壓提升至 101.3 kPa。
 
-  ## Pressure Lockout
-  Air vents will enter [color=red]pressure lockout[/color] when the pressure of the atmosphere it's exposed to is below [color=orange][protodata="GasVentPump" comp="GasVentPump" member="UnderPressureLockoutThreshold"/] kPa[/color].
-  This is to prevent wasting useful gasses to space if a room is not sealed.
-  The lights on the air vent will turn [color=yellow]yellow[/color] to highlight this change.
+  ## 壓力鎖定
+  當排氣口所處的大氣壓力低於 [color=orange][protodata="GasVentPump" comp="GasVentPump" member="UnderPressureLockoutThreshold"/] kPa[/color] 時，通風口將進入 [color=red]壓力鎖定[/color] 狀態。
+  此舉旨在防止當房間未密封時，有用的氣體白白流失到太空中。
+  通風口上的指示燈將轉為 [color=yellow]黃色[/color]，以顯示此項變更。
 
-  This can be [color=green]overridden[/color] by right-clicking on the vent and selecting 'Release pressure lock out', or setting the mode to Fill on a connected [textlink="air alarm" link="AirAlarms"].
+  您可以透過右鍵點擊通風口並選擇「解除壓力鎖定」，或將已連接的 [textlink="空氣警報器" link="AirAlarms"] 模式設定為「填充」，來 [color=green]覆寫[/color] 此設定。
 
-  It is important to note that air vents in [color=red]pressure lockout[/color] still very slowly leak out gas.
-  The amount of gas they leak out is relative to the current pressure of the pipenet they're connected to.
+  必須注意的是，處於 [color=red]壓力鎖定[/color] 狀態下的通氣孔仍會極緩慢地洩漏氣體。
+  它們洩漏的氣體量取決於其所連接的管網當前的壓力。
 
-  ## Configuration Options
-  When [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"], air vents gain more functionality.
+  ## 設定選項
+  當 [textlink="連結" link="網路連線"] 至 [textlink="空氣警報" link="AirAlarms"] 時，通風口將具備更多功能。
 
-  Air vents have two "vent direction" options: Releasing and Siphoning.
-  - Releasing simply releases gasses into the atmosphere from the connected pipenet.
-  - Siphoning sucks the air out of the atmosphere and into the connected pipenet. The lights on the air vent will turn [color=red]red[/color] to highlight this change.
+  通風口有兩種「通風方向」選項：排氣與虹吸。
+  - 所謂「排放」，指的只是將連接到管線系統中的氣體釋放到大氣中。
+  - 虹吸作用會將大氣中的空氣吸入相連的管網中。 通風口上的指示燈將轉為 [color=red]紅色[/color]，以顯示此項變更。
 
-  ## Pressure Bounds
-  Air vents have a pressure bound system, which controls the pressure at which an air vent will pressurize an atmosphere, or draw from a connected pipenet. These limits are taken into account in both releasing and siphoning modes.
+  ## 壓力限制
+  排氣閥設有壓力限制系統，用以控制排氣閥向大氣加壓，或從連接的管網中抽氣時的壓力值。 無論是在釋放模式還是虹吸模式下，都會將這些限制納入考量。
 
-  The "PressureBound" setting has four options:
-  - ExternalBound makes the air vent respect the pressure limits defined in the External bound entry.
-  - InternalBound makes the air vent respect the pressure limits defined in the Internal bound entry.
-  - Both makes the air vent respect the pressure limits defined in both the External and Internal bound entries.
-  - NoBound makes the air vent respect no limit.
+  「PressureBound」設定有四種選項：
+  - ExternalBound 會讓排氣口遵循在 External bound 項目中定義的壓力限制。
+  - InternalBound 可使通風口遵循「Internal bound」項目中定義的壓力限制。
+  - 這兩種方式都會使通風口遵守「外部」與「內部」限制條目中所定義的壓力限制。
+  - NoBound 讓通風口不受任何限制。
 
-  When the vent is in releasing mode:
-  - If the External bound pressure is set to 101.3 kPa, the air vent will not pressurize the atmosphere above 101.3 kPa.
-  - If the Internal bound pressure is set to 50 kPa, the air vent will not draw gas from the connected pipe if its pressure is below 50 kPa.
+  當洩壓閥處於洩壓模式時：
+  - 若外部上限壓力設定為 101.3 kPa，則洩壓閥不會使大氣壓力超過 101.3 kPa。
+  - 若將內部上限壓力設定為 50 kPa，當連接管路的壓力低於 50 kPa 時，排氣閥將不會從該管路吸入氣體。
 
-  When the vent is in siphoning mode:
-  - If the External bound pressure is set to 101.3 kPa, the air vent will siphon gasses until the atmosphere reaches 101.3 kPa.
-  - If the Internal bound pressure is set to 50 kPa, the air vent will not push gasses into the pipenet if its pressure is above 50 kPa.
+  當排氣閥處於虹吸模式時：
+  - 若外部上限壓力設定為 101.3 kPa，排氣閥將持續虹吸氣體，直至大氣壓力達到 101.3 kPa 為止。
+  - 若將內部上限壓力設定為 50 kPa，當管路系統內的壓力高於 50 kPa 時，排氣閥便不會將氣體推入管路系統中。
 
-  If you're still confused about PressureBounds, here's a simple way to think about it:
-  - You can think of the External bound as the upper limit for the exposed atmosphere. "I will not pressurize the exposed atmosphere past this pressure, or draw from the atmosphere below this pressure."
-  - You can think of the Internal bound as the lower limit for the connected pipenet. "I will not draw from my source below this pressure, or push air into the pipenet above this pressure."
-  - The "Pressure bound" settings simply define which limits to respect or ignore.
+  如果你對「壓力邊界」（PressureBounds）仍感困惑，這裡有個簡單的理解方式：
+  - 你可以將「外部邊界」（External bound）視為暴露在大氣中的上界。 「我不會將暴露於大氣中的部分加壓至超過此壓力，也不會從大氣中抽取低於此壓力的氣體。」
+  - 您可以將「內部邊界」視為所連接管網的下限。 「在低於此壓力的情況下，我不會從我的水源抽水；在高於此壓力的情況下，也不會將空氣壓入管網。」
+  - 「壓力限制」設定僅是用來定義應遵循或忽略哪些限制。
 
 </Document>

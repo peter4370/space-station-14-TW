@@ -1,26 +1,18 @@
-reagent-name-e-z-nutrient = EZ nutrient
-reagent-desc-e-z-nutrient = Give your plants some of those EZ nutrients! Dionas find this delicious.
-
+reagent-name-e-z-nutrient = EZ 營養素 EZ nutrient
+reagent-desc-e-z-nutrient = 給你的植物補充一些 EZ 營養素吧！迪奧納斯覺得這味道很棒。
 reagent-name-left4-zed = left-4-zed
-reagent-desc-left4-zed = A cocktail of mutagenic compounds that gives nutrients, harms and affects plant life's genome.
-
-reagent-name-pest-killer = pest killer
-reagent-desc-pest-killer = A mixture that targets pests. While useful it slowly poisons plants with toxins, be careful when using it.
-
+reagent-desc-left4-zed = 一種由致突變化合物組成的混合物，既能提供養分，卻又會對植物的基因組造成損害並產生影響。
+reagent-name-pest-killer = 殺蟲劑 pest killer
+reagent-desc-pest-killer = 一種針對害蟲的混合劑。雖然有用，但其中的毒素會逐漸毒害植物，使用時請務必小心。
 reagent-name-plant-b-gone = plant-B-gone
-reagent-desc-plant-b-gone = A harmful toxic mixture to kill plantlife. Very effective against kudzu.
-
-reagent-name-robust-harvest = robust harvest
-reagent-desc-robust-harvest = A highly effective fertilizer with a limited potency-boosting effect on plants. Use it cautiously, as excessive application can reduce plant yield. It has a particularly beneficial effect on dionas.
-
-reagent-name-weed-killer = weed killer
-reagent-desc-weed-killer = A mixture that targets weeds. Very effective against kudzu. While useful it slowly poisons plants with toxins, be careful when using it.
-
-reagent-name-ammonia = ammonia
-reagent-desc-ammonia = An effective fertilizer, it gives your plants some nutrients.
-
-reagent-name-diethylamine = diethylamine
-reagent-desc-diethylamine = A very potent fertilizer, treats plants with nutrients, eliminates pests, and sometimes it can even speed up growth.
-
-reagent-name-sedin = sedin
-reagent-desc-sedin = A modified version of diethylamine that can restore seeds on plants at the cost of potency.
+reagent-desc-plant-b-gone = 一種能殺死植物的有害有毒混合物。對葛藤極為有效。
+reagent-name-robust-harvest = 豐收 robust harvest
+reagent-desc-robust-harvest = 這是一種高效能的肥料，但對植物的增效作用有限。使用時請謹慎，因為過量施用可能會降低植物產量。它對迪奧納斯植物有特別顯著的益處。
+reagent-name-weed-killer = 除草劑 weed killer
+reagent-desc-weed-killer = 一種針對雜草的混合劑。對葛藤非常有效。雖然實用，但會透過毒素緩慢毒害植物，使用時請多加小心。
+reagent-name-ammonia = 氨 ammonia
+reagent-desc-ammonia = 這是一種有效的肥料，能為您的植物提供一些養分。
+reagent-name-diethylamine = 二乙胺 diethylamine
+reagent-desc-diethylamine = 這是一種效力極強的肥料，能為植物提供養分、驅除害蟲，有時甚至能加速生長。
+reagent-name-sedin = 塞丁 sedin
+reagent-desc-sedin = 一種經修飾的二乙胺衍生物，能使植物恢復結籽能力，但代價是藥效會減弱。

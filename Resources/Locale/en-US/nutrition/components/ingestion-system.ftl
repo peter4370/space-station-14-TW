@@ -1,61 +1,60 @@
 ﻿### Interaction Messages
 
+
 # System
 
+
 ## When trying to ingest without the required utensil... but you gotta hold it
-ingestion-you-need-to-hold-utensil = You need to be holding {INDEFINITE($utensil)} {$utensil} to eat that!
 
-ingestion-try-use-is-empty = {CAPITALIZE(THE($entity))} is empty!
-ingestion-try-use-wrong-utensil = You can't {$verb} {THE($food)} with {INDEFINITE($utensil)} {$utensil}.
-
-ingestion-remove-mask = You need to take off the {$entity} first.
+ingestion-you-need-to-hold-utensil = 你必須持有 { INDEFINITE($utensil) } { $utensil } 才能吃那個！
+ingestion-try-use-is-empty = { CAPITALIZE(THE($entity)) } 為空！
+ingestion-try-use-wrong-utensil = 你無法 { $verb } { THE($food) } 與 { INDEFINITE($utensil) } { $utensil } 結合。
+ingestion-remove-mask = 您需要先移除 { $entity }。
 
 ## Failed Ingestion
 
-ingestion-you-cannot-ingest-any-more = You can't {$verb} any more!
-ingestion-other-cannot-ingest-any-more = {CAPITALIZE(SUBJECT($target))} can't {$verb} any more!
-
-ingestion-cant-digest = You can't digest {THE($entity)}!
-ingestion-cant-digest-other = {CAPITALIZE(SUBJECT($target))} can't digest {THE($entity)}!
+ingestion-you-cannot-ingest-any-more = 你已經不能再 { $verb } 了！
+ingestion-other-cannot-ingest-any-more = { CAPITALIZE(SUBJECT($target)) } 已經無法 { $verb } 了！
+ingestion-cant-digest = 你無法消化 { THE($entity) }！
+ingestion-cant-digest-other = { CAPITALIZE(SUBJECT($target)) } 無法處理 { THE($entity) }！
 
 ## Action Verbs, not to be confused with Verbs
 
-ingestion-verb-food = Eat
-ingestion-verb-drink = Drink
+ingestion-verb-food = 吃
+ingestion-verb-drink = 飲品
 
 # Edible Component
 
--edible-satiated = { $satiated ->
-    [true] {" "}You don't feel like you could { $verb } any more.
-  *[false] {""}
-}
-
+-edible-satiated =
+    { $satiated ->
+        [true] { " " }你覺得自己再也無法 { $verb } 了。
+       *[false] { "" }
+    }
 edible-nom = Nom. {$flavors}{ -edible-satiated(satiated: $satiated, verb: "eat") }
 edible-nom-other = Nom.
 edible-slurp = Slurp. {$flavors}{ -edible-satiated(satiated: $satiated, verb: "drink") }
-edible-slurp-other = Slurp.
+edible-slurp-other = 啜啜。
 edible-swallow = You swallow { THE($food) }.{ -edible-satiated(satiated: $satiated, verb: "swallow") }
-edible-gulp = Gulp. {$flavors}
-edible-gulp-other = Gulp.
-
-edible-has-used-storage = You cannot {$verb} { THE($food) } with an item stored inside.
+edible-gulp = 咕嚕。 { $flavors }
+edible-gulp-other = 咕嚕。
+edible-has-used-storage = 您無法對存放有項目的 { $verb } { THE($food) } 執行此操作。
 
 ## Nouns
 
-edible-noun-edible = edible
-edible-noun-food = food
-edible-noun-drink = drink
-edible-noun-pill = pill
+edible-noun-edible = 可食用的
+edible-noun-food = 食物
+edible-noun-drink = 飲品
+edible-noun-pill = 藥丸
 
 ## Verbs
 
-edible-verb-edible = ingest
-edible-verb-food = eat
-edible-verb-drink = drink
-edible-verb-pill = swallow
+edible-verb-edible = 攝入
+edible-verb-food = 吃
+edible-verb-drink = 飲品
+edible-verb-pill = 燕子
 
 ## Force feeding
 
-edible-force-feed = {CAPITALIZE(THE($user))} is trying to make you {$verb} something!
+edible-force-feed = { CAPITALIZE(THE($user)) } 正試圖讓你 { $verb } 某件事！
 edible-force-feed-success = {CAPITALIZE(THE($user))} forced you to {$verb} something! {$flavors}{ -edible-satiated(satiated: $satiated, verb: $verb) }
-edible-force-feed-success-user = You successfully feed {THE($target)}
+edible-force-feed-success-user = 您已成功餵食 { THE($target) }

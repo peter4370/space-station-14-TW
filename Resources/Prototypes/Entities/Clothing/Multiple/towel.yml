@@ -2,8 +2,8 @@
   abstract: true
   parent: [UnsensoredClothingUniformBase, ClothingHeadBase, ClothingBeltBase]
   id: BaseTowel
-  name: base towel
-  description: If you want to survive out here, you gotta know where your towel is.
+  name: 基礎毛巾 | base towel
+  description: 如果你想在這兒生存下去，就得知道你的毛巾放哪裡。 | If you want to survive out here, you gotta know where your towel is.
   components:
   - type: Sprite
     sprite: Clothing/Multiple/towel.rsi
@@ -34,7 +34,7 @@
 
 - type: entity
   id: TowelColorWhite
-  name: white towel
+  name: 白色毛巾 | white towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: TowelColorNT
-  name: NanoTrasen brand towel
+  name: NanoTrasen 品牌毛巾 | NanoTrasen brand towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: TowelColorCentcom
-  name: centcom towel
+  name: 中央司令部毛巾 | centcom towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 
 - type: entity
   id: TowelColorSyndicate
-  name: syndicate towel
+  name: 辛迪加毛巾 | syndicate towel
   parent: [ BaseTowel, BaseSyndicateContraband ]
   components:
   - type: Sprite

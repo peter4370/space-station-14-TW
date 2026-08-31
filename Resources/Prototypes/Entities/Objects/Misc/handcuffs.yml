@@ -1,6 +1,6 @@
 - type: entity
-  name: handcuffs
-  description: Used to detain criminals and other assholes.
+  name: 手銬 | handcuffs
+  description: 用來關押罪犯和其他混蛋。 | Used to detain criminals and other assholes.
   id: Handcuffs
   parent: [BaseItem, BaseSecurityCommandContraband]
   components:
@@ -31,8 +31,8 @@
     delay: 3
 
 - type: entity
-  name: makeshift handcuffs
-  description: Homemade handcuffs crafted from spare cables.
+  name: 臨時手銬 | makeshift handcuffs
+  description: 利用閒置電纜製作的自製手銬。 | Homemade handcuffs crafted from spare cables.
   id: Cablecuffs
   parent: Handcuffs
   components:
@@ -70,8 +70,8 @@
     color: forestgreen
 
 - type: entity
-  name: zipties
-  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
+  name: 束線帶 | zipties
+  description: 堅固的一次性塑膠束帶，非常適合用來約束暴躁的囚犯。 | Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
   id: Zipties
   parent: Handcuffs
   components:
@@ -113,8 +113,8 @@
       Plastic: 25
 
 - type: entity
-  name: broken zipties
-  description: These zipties look like they tried to manage the wrong cables.
+  name: 斷裂的束線帶 | broken zipties
+  description: 這些束線帶看起來好像是試圖整理錯了線材。 | These zipties look like they tried to manage the wrong cables.
   id: ZiptiesBroken
   parent: BaseHandcuffsBroken
   components:
@@ -123,8 +123,8 @@
     state: cuff-broken
 
 - type: entity
-  name: broken cables
-  description: These cables are broken in several places and don't seem very useful.
+  name: 斷裂的電纜 | broken cables
+  description: 這些電纜有多處斷裂，看來沒什麼用處。 | These cables are broken in several places and don't seem very useful.
   id: CablecuffsBroken
   parent: BaseHandcuffsBroken
   components:
@@ -144,8 +144,8 @@
 - type: entity
   parent: Handcuffs
   id: ClothingOuterStraightjacket
-  name: straitjacket
-  description: Used to restrain those who may cause harm to themselves or others.
+  name: 束縛衣 | straitjacket
+  description: 用於約束可能對自己或他人造成傷害的人。 | Used to restrain those who may cause harm to themselves or others.
   components:
   - type: Item
     size: Normal

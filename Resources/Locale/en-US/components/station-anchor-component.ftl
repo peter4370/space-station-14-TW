@@ -1,2 +1,2 @@
 ﻿station-anchor-unanchoring-failed = Can't unanchor an active station anchor.
-station-anchor-window-title = Station Anchor
+station-anchor-window-title = 電視台主播

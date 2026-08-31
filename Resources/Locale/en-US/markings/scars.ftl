@@ -1,35 +1,24 @@
-marking-ScarEyeRight-scar_eye_right = Right Eye Scar
-marking-ScarEyeRight = Eye Scar (Right)
-
-marking-ScarEyeLeft-scar_eye_left = Left Eye Scar
-marking-ScarEyeLeft = Eye Scar (Left)
-
-marking-ScarTopSurgeryShort-scar_top_surgery_short = Top Surgery Scar
-marking-ScarTopSurgeryShort = Top Surgery Scar (Short)
-
-marking-ScarTopSurgeryLong-scar_top_surgery_long = Top Surgery Scar
-marking-ScarTopSurgeryLong = Top Surgery Scar (Long)
-
-marking-ScarChest-scar_chest = Chest Scar
-marking-ScarChest = Chest Scar
-
-marking-ScarNeck-scar_neck = Neck Scar
-marking-ScarNeck = Neck Scar
-
-marking-ScarChestBullets-scar_chest_bullets = Bullet Holes Scar
-marking-ScarChestBullets = Chest Scar (Bullets)
-
-marking-ScarStomachBullets-scar_stomach_bullets = Bullet Holes Scar
-marking-ScarStomachBullets = Stomach Scar (Bullets)
-
-marking-ScarFace1-scar_face_1 = Face Scar
-marking-ScarFace1 = Face Scar (Large)
-
-marking-ScarFace2-scar_face_2 = Face Scar
-marking-ScarFace2 = Face Scar (Small)
-
-marking-ScarEyeRightSmall-scar_eye_right_small = Right Eye Scar (Small)
-marking-ScarEyeRightSmall = Small Eye Scar (Right)
-
-marking-ScarEyeLeftSmall-scar_eye_left_small = Left Eye Scar (Small)
-marking-ScarEyeLeftSmall = Small Eye Scar (Left)
+marking-ScarEyeRight-scar_eye_right = 右眼疤痕
+marking-ScarEyeRight = 眼部疤痕（右眼）
+marking-ScarEyeLeft-scar_eye_left = 左眼疤痕
+marking-ScarEyeLeft = 眼部疤痕（左眼）
+marking-ScarTopSurgeryShort-scar_top_surgery_short = 胸部手術疤痕
+marking-ScarTopSurgeryShort = 胸部手術疤痕（短篇）
+marking-ScarTopSurgeryLong-scar_top_surgery_long = 胸部手術疤痕
+marking-ScarTopSurgeryLong = 胸部手術疤痕（長型）
+marking-ScarChest-scar_chest = 胸部的疤痕
+marking-ScarChest = 胸部的疤痕
+marking-ScarNeck-scar_neck = 頸部疤痕
+marking-ScarNeck = 頸部疤痕
+marking-ScarChestBullets-scar_chest_bullets = 彈孔留下的傷疤
+marking-ScarChestBullets = 胸部疤痕（子彈）
+marking-ScarStomachBullets-scar_stomach_bullets = 彈孔留下的傷疤
+marking-ScarStomachBullets = 腹部疤痕（子彈）
+marking-ScarFace1-scar_face_1 = 臉部疤痕
+marking-ScarFace1 = 臉部疤痕（大）
+marking-ScarFace2-scar_face_2 = 臉部疤痕
+marking-ScarFace2 = 臉部疤痕（小）
+marking-ScarEyeRightSmall-scar_eye_right_small = 右眼疤痕（小）
+marking-ScarEyeRightSmall = 右眼小疤痕
+marking-ScarEyeLeftSmall-scar_eye_left_small = 左眼疤痕（小）
+marking-ScarEyeLeftSmall = 左眼小疤痕

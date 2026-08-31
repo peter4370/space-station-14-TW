@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseMachine, BaseMachineDestructible, BaseXenoborgContraband]
   id: XenoborgExtractor
-  name: xenoborg extractor
-  description: Drains electricity from the grid to produce xenoborg crystals via nuclear fusion.
+  name: 外星博格萃取器 | xenoborg extractor
+  description: 從電網汲取電力，透過核聚變來製造外星博格晶體。 | Drains electricity from the grid to produce xenoborg crystals via nuclear fusion.
   suffix: Unanchored
   placement:
     mode: PlaceFree

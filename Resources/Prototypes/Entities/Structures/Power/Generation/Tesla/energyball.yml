@@ -36,8 +36,8 @@
 - type: entity
   id: TeslaEnergyBall
   parent: BaseEnergyBall
-  name: ball lightning
-  description: A giant ball of pure energy. The space around it is humming and melting.
+  name: 球狀閃電 | ball lightning
+  description: 一團巨大的純能量球。它周圍的空間正發出嗡嗡聲並逐漸融化。 | A giant ball of pure energy. The space around it is humming and melting.
   components:
   - type: Fixtures
     fixtures:
@@ -118,8 +118,8 @@
 - type: entity
   id: TeslaMiniEnergyBall
   parent: BaseEnergyBall
-  name: mini ball lightning
-  description: The cub of a destructive energy cage. Not as dangerous, but still not worth touching with bare hands.
+  name: 微型球狀閃電 | mini ball lightning
+  description: 破壞性能量牢籠中的一隻幼獸。雖然沒那麼危險，但還是不值得徒手觸碰。 | The cub of a destructive energy cage. Not as dangerous, but still not worth touching with bare hands.
   components:
   - type: ChasingWalk
     minSpeed: 2

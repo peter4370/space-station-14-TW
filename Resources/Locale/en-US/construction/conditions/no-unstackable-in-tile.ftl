@@ -1,2 +1,2 @@
-construction-step-condition-no-unstackable-in-tile = You cannot make a stack of similar devices.
-pipe-restrict-overlap-popup-blocked = { CAPITALIZE(THE($pipe))} doesn't fit over the other pipes!
+construction-step-condition-no-unstackable-in-tile = 您無法將同類裝置堆疊在一起。
+pipe-restrict-overlap-popup-blocked = { CAPITALIZE(THE($pipe)) } 無法套用在其他管道上！

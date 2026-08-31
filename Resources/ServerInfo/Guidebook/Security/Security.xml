@@ -1,39 +1,40 @@
+
 <Document>
-# Security
-Ensuring the safety of both station and crew is number one for [color=#cb0000]Security[/color]. They are ready for any situation, and [color=#cb0000]Security[/color] are on hand to maintain order and control crowds.
+# 安全
+確保空間站與乘組人員的安全，是 [color=#cb0000]安全[/color] 部門的首要任務。 他們已做好應對任何情況的準備，而 [color=#cb0000]保安人員[/color] 也隨時待命，以維持秩序並管控人群。
 
-They face [textlink="Syndicate Agents" link="Traitors"], [textlink="Nuclear Operatives" link="NuclearOperatives"], [textlink="Zombies" link="Zombies"] and unruly staff.
+他們必須面對 [textlink="辛迪加特工" link="叛徒"], [textlink="核武特工" link="核武特工"], [textlink="殭屍" link="殭屍"] 以及一幫難搞的工作人員。
 
-## Personnel
-[color=#cb0000]Security[/color]'s staff is made up of Security Cadets, Security Officers, and the Detective. [color=#cb0000]Security[/color] is run by the Warden and Head of Security.
+## 人員
+[color=#cb0000]安全部門[/color] 的員工由安全見習生、安全人員以及偵探組成。 [color=#cb0000]安全事務[/color] 由監獄長兼安全主管負責。
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Secoff"/>
-    <GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Detective"/>
-    <GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Warden"/>
+    <GuideEntityEmbed Entity="ToyFigurineDetective" Caption="偵探"/>
+    <GuideEntityEmbed Entity="ToyFigurineWarden" Caption="典獄長"/>
     <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="HoS"/>
   </Box>
 
-## Gear
-First we have non-lethals a step above simply telling someone to cooperate with instructions. Both the stunbaton and disabler are capable of limiting the movement of an assailant, whereas handcuffs can be applied to deny a criminal free movement and access to their hands. Cuffs will also shove the person down if your [color=red]harm mode[/color] is active during uncuff.
+## 裝備
+首先，我們來談談非致命性武器——這類武器的效果，比單純要求對方配合指令更進一步。 電擊棒與制伏器皆能限制襲擊者的行動，而手銬則可用於剝奪罪犯的行動自由，並使其無法使用雙手。 如果在解開手銬時你的 [color=red]傷害模式[/color] 處於啟用狀態，手銬也會將該人推倒。
   <Box>
     <GuideEntityEmbed Entity="Stunbaton"/>
     <GuideEntityEmbed Entity="Handcuffs"/>
    <GuideEntityEmbed Entity="WeaponDisabler"/>
   </Box>
 
-## Flashes
-[color=#a4885c]Flashes[/color] are an effective tool for dispersing crowds and apprehending particularly evasive targets, with a large area of effect blinding all those without protection.
-It is worth noting that flashes can be both used in a large area ([color=yellow]Z[/color] hotkey) and if you attack somebody with it while [color=red]harm mode[/color] is active. Important to note that localized flashes last [color=yellow]2.5[/color] times as long as large area ones.
-[color=#cb0000]Security[/color] and [color=#a4885c]some[/color] other members of staff have eye protection from flashbangs and flashes.
+## 閃光彈
+[color=#a4885c]閃光彈[/color] 是驅散人群及逮捕特別善於逃脫的目標的有效工具，其廣闊的作用範圍能使所有未受保護的人暫時失明。
+值得注意的是，閃光技能既可在大範圍內使用（[color=yellow]Z[/color] 快捷鍵），也可在 [color=red]傷害模式[/color] 生效時用它攻擊敵人。 需特別注意的是，局部閃光持續的時間是大範圍閃光的 [color=yellow]2.5[/color] 倍。
+[color=#cb0000]安保人員[/color]以及 [color=#a4885c]部分[/color]其他員工都配有防護眼鏡，用以防範閃光彈和強光。
   <Box>
     <GuideEntityEmbed Entity="Flash"/>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
     <GuideEntityEmbed Entity="GrenadeFlashBang"/>
   </Box>
 
-## Lethals
-Should the situation dictate, [color=#cb0000]Security[/color] have access to laser rifles, shotguns, handguns and automatic rifles able to put down substantial fire against any who would stand against the station.
+## 致命武器
+若情勢所需，[color=#cb0000]安全部門[/color] 可動用雷射步槍、霰彈槍、手槍及自動步槍，對任何企圖對抗太空站的敵人展開猛烈火力壓制。
   <Box>
     <GuideEntityEmbed Entity="WeaponLaserCarbine"/>
     <GuideEntityEmbed Entity="WeaponShotgunKammerer"/>

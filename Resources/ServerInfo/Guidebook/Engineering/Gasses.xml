@@ -1,12 +1,13 @@
-﻿<Document>
-  # Gasses
-  Gasses are a critical part of the station's operation.
-  You may know them as the stuff you breathe, but they are also used in many other ways.
+﻿
+<Document>
+  # 氣體
+  氣體是該站運作的關鍵環節。
+  你可能只知道它們是我們呼吸的物質，但它們還有許多其他用途。
 
-  Gasses have certain properties that make them useful for different tasks.
-  Atmospherics can also synthesize exotic gasses from other gasses, which can be used for special purposes.
+  氣體具有某些特性，使其能應用於各種不同的任務。
+  Atmospherics 還能利用其他氣體合成特殊氣體，這些氣體可用於特殊用途。
 
-  ## Oxygen
+  ## 氧氣
   <Box>
     <GuideEntityEmbed Entity="OxygenCanister" Caption=""/>
     <GuideEntityEmbed Entity="OxygenTank" Caption=""/>
@@ -15,12 +16,12 @@
     <GuideEntityEmbed Entity="EmergencyOxygenTank" Caption=""/>
   </Box>
 
-  A common gas, used by most species on the station to breathe.
+  一種常見的氣體，站內大多數物種都以此作為呼吸用的氣體。
 
-  Oxygen is an oxidizer, which means it supports combustion.
-  This makes it both useful when fusing gasses in a burn chamber, and dangerous when mixed with flammable gasses.
+  氧氣是一種氧化劑，這意味著它能促進燃燒。
+  這使得它在燃燒室中融合氣體時十分有用，但若與易燃氣體混合則相當危險。
 
-  ## Nitrogen
+  ## 氮
   <Box>
     <GuideEntityEmbed Entity="NitrogenCanister" Caption=""/>
     <GuideEntityEmbed Entity="NitrogenTank" Caption=""/>
@@ -29,94 +30,94 @@
     <GuideEntityEmbed Entity="EmergencyNitrogenTank" Caption=""/>
   </Box>
 
-  An inert gas, used in part with oxygen to create a breathable atmosphere.
+  一種惰性氣體，部分與氧氣混合以形成可供呼吸的氣體環境。
 
-  Nitrogen is very stable and comprises most of a standard breathable atmosphere.
+  氮氣非常穩定，且佔標準可呼吸大氣的大部分。
 
-  Some species like Slimes breathe nitrogen, with the Vox species requiring strictly nitrogen to breathe.
+  有些物種（例如史萊姆）以氮氣呼吸，而沃克斯物種則必須完全依靠氮氣才能呼吸。
 
-  ## Air Mix
+  ## 空氣混合
   <Box>
     <GuideEntityEmbed Entity="AirCanister" Caption=""/>
     <GuideEntityEmbed Entity="AirTank" Caption=""/>
   </Box>
 
-  A mixture of gasses that is breathable to most species on the station.
-  It consists of 21% oxygen and 79% nitrogen.
+  一種對空間站上大多數物種而言可呼吸的氣體混合物。
+  它由 21% 的氧氣和 79% 的氮氣組成。
 
 
-  ## Carbon Dioxide
+  ## 二氧化碳
   <Box>
     <GuideEntityEmbed Entity="CarbonDioxideCanister" Caption=""/>
   </Box>
 
-  A waste gas produced by most species on the station. A common byproduct of combustion.
+  這是站內大多數物種所產生的廢氣。 燃燒的常見副產物。
 
-  Despite seeming useless, some departments use it in their line of work.
+  儘管看似毫無用處，但某些部門仍將其運用於日常工作中。
 
-  ## Water Vapor
+  ## 水蒸氣
   <Box>
     <GuideEntityEmbed Entity="WaterVaporCanister" Caption=""/>
   </Box>
-  A common gas, produced by the burning of plasma and other processes.
+  一種常見的氣體，由等離子體燃燒及其他過程產生。
 
-  Water vapor has a good specific heat capacity compared to other gasses, making it useful for moving heat around.
+  與其他氣體相比，水蒸氣的比熱較高，因此很適合用來傳遞熱量。
 
-  ## Plasma
+  ## 等離子體
   <Box>
     <GuideEntityEmbed Entity="PlasmaCanister" Caption=""/>
   </Box>
-  A highly flammable gas that is used in many processes on the station.
+  一種極易燃的氣體，用於太空站上的許多製程。
 
-  Engineering uses this gas to generate power and create exotic gasses.
+  工程學利用這種氣體來發電並製造特殊氣體。
 
-  Burning it generates a lot of heat, as well as gas byproducts such as carbon dioxide, water vapor, and tritium, depending on the efficiency of the burn.
+  燃燒時會產生大量熱量，並會根據燃燒效率的不同，產生二氧化碳、水蒸氣和氚等氣態副產物。
 
-  Plasma gas also has a good specific heat capacity, making it useful for moving heat around.
+  等離子體氣體還具有良好的比熱容，因此可用於傳輸熱量。
 
-  ## Tritium
+  ## 氚
   <Box>
     <GuideEntityEmbed Entity="TritiumCanister" Caption=""/>
   </Box>
-  An extremely flammable radioactive gas that is used in the creation of frezon.
+  一種極易燃的放射性氣體，用於製造「弗雷佐恩」。
 
-  Tritium is produced when burning plasma in a burn chamber, and can be used to create frezon gas in a complicated mixing process.
+  氚是在燃燒室中燃燒等離子體時產生的，並可透過複雜的混合過程用於製造弗雷森氣體。
 
-  The efficiency of tritium fusion depends on various factors such as burn richness and temperature.
+  氚聚變的效率取決於多種因素，例如燃燒富度與溫度。
 
   ## Frezon
   <Box>
     <GuideEntityEmbed Entity="FrezonCanister" Caption=""/>
   </Box>
 
-  A highly sought after gas, due to the difficulty in creating it and its many properties.
+  由於難以製備且具有多種特性，這是一種極受追捧的氣體。
 
-  It has an extremely high specific heat capacity, making it excellent for moving large amounts of heat around.
+  它的比熱極高，因此非常適合用於傳輸大量熱量。
 
-  Frezon can combine in the air with nitrogen to create nitrous oxide, alongside cooling down the air significantly to below freezing temperatures.
+  Frezon 能在空氣中與氮氣結合，生成一氧化二氮，同時將空氣溫度大幅降低至冰點以下。
 
-  Frezon is very complicated to create, requiring a mix of tritium, oxygen, and nitrogen, all tuned precisely to create the gas.
-  If you're looking to create this gas yourself, here's what you need to know:
-  - Frezon is produced by the combination of oxygen, tritium, and nitrogen.
-  - Tritium and oxygen are mixed at a ratio of around 1:50.
-  - Nitrogen is required as a catalyst for the reaction. The amount of nitrogen consumed is dependent on the efficiency of the reaction.
-  - The frezon reaction only occurs at cryogenic temperatures, below 73.15 K. The efficency of the reaction (how much frezon is produced) is dependent on the temperature. The closer to 73.15 K, the more frezon is produced, and the less nitrogen is consumed.
+  Frezon 的製程極為複雜，需要將氚、氧氣和氮氣混合，並將各成分的比例精確調校，才能製成這種氣體。
+  如果您想自行製造這種氣體，以下是您需要了解的資訊：
+  - Frezon 是透過氧氣、氚和氮氣的結合所產生的。
+  - 氚與氧的混合比例約為 1:50。
+  - 氮是該反應所需的催化劑。 消耗的氮量取決於反應的效率。
+  - 弗雷松反應僅在低於 73.15 K 的極低溫下發生。該反應的效率（即產生的弗雷松量）取決於溫度。 溫度越接近 73.15 K，產生的 frezon 就越多，而消耗的氮氣就越少。
 
-  Remember, atmospherics is all about experimentation and process optimization. Try it until you get it right!
+  請記住，氛圍音效的關鍵在於實驗與流程優化。 多試幾次，直到做對為止！
 
-  ## Nitrous Oxide
+  ## 一氧化二氮
   <Box>
     <GuideEntityEmbed Entity="NitrousOxideCanister" Caption=""/>
     <GuideEntityEmbed Entity="EmergencyFunnyOxygenTank" Caption=""/>
   </Box>
-  A recreational and waste gas, produced by slimes and the combination of frezon and nitrogen.
+  一種由泥漿以及弗雷宗與氮氣的結合所產生的娛樂性及廢氣。
 
-  ## Ammonia
+  ## 氨
   <Box>
     <GuideEntityEmbed Entity="AmmoniaCanister" Caption=""/>
   </Box>
-  A gas produced by the decomposition of bodies.
+  屍體分解所產生的一種氣體。
 
-  Can be condensed to create ammonia, which can be used to make space cleaner.
+  可經由冷凝作用生成氨，而氨可用於製造太空清潔劑。
 
 </Document>

@@ -392,7 +392,7 @@
 - type: entity
   parent: MarkerBase
   id: ToySpawner90
-  name: Toy Spawner
+  name: 玩具生成器 | Toy Spawner
   suffix: 90
   components:
   - type: Sprite
@@ -408,7 +408,7 @@
 - type: entity
   parent: MarkerBase
   id: PlushieSpawner50
-  name: Plushie Spawner
+  name: 絨毛玩偶生成器 | Plushie Spawner
   suffix: 50
   components:
   - type: Sprite
@@ -424,7 +424,7 @@
 - type: entity
   parent: MarkerBase
   id: SpacemenFigurineSpawner90
-  name: Spacemen Minifigure Spawner
+  name: 太空人迷你人偶生成器 | Spacemen Minifigure Spawner
   suffix: 90
   components:
   - type: Sprite
@@ -440,7 +440,7 @@
 - type: entity
   parent: MarkerBase
   id: MechFigurineSpawner50
-  name: Mech Figurine Spawner
+  name: 機甲人偶生成器 | Mech Figurine Spawner
   suffix: 50
   components:
   - type: Sprite
@@ -456,7 +456,7 @@
 - type: entity
   parent: MarkerBase
   id: ToyWeaponSpawner90
-  name: Toy Weapon Spawner
+  name: 玩具武器生成器 | Toy Weapon Spawner
   suffix: 90
   components:
   - type: Sprite
@@ -472,7 +472,7 @@
 - type: entity
   parent: MarkerBase
   id: CapGunSpawner90
-  name: Cap Gun Spawner
+  name: 玩具槍生成器 | Cap Gun Spawner
   suffix: 90
   components:
   - type: Sprite
@@ -488,7 +488,7 @@
 - type: entity
   parent: MarkerBase
   id: MiscToySpawner90
-  name: Miscellaneous Toy Spawner
+  name: 雜項玩具生成器 | Miscellaneous Toy Spawner
   suffix: 90
   components:
   - type: Sprite
@@ -504,7 +504,7 @@
 - type: entity
   parent: MarkerBase
   id: ToySoundMakerSpawner90
-  name: Toy Sound Maker Spawner
+  name: 玩具聲音生成器生成器 | Toy Sound Maker Spawner
   suffix: 90
   components:
   - type: Sprite
@@ -520,7 +520,7 @@
 - type: entity
   parent: MarkerBase
   id: CrayonSpawner90
-  name: Crayon Spawner
+  name: 蠟筆生成器 | Crayon Spawner
   suffix: 90
   components:
   - type: Sprite

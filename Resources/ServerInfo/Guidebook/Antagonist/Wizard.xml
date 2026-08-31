@@ -1,5 +1,6 @@
-﻿<Document>
-  # The Wizard
+﻿
+<Document>
+  # 《魔法師》
 
   <Box>
     [color=#457573][italic]IT'S WIZARD TIME MOTHERF-...[italic][/color]
@@ -7,24 +8,24 @@
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineWizard" Caption=""/>
   </Box>
-  Wizards are a force of chaos and unpredictability. You never know what one is going to do next.
-  Generally sent by the [color=#40E0D0]Space Wizards Federation[/color] or some schmuck turned into one by rolling a nat 20 on a cursed die.
-  And since a Wizard is highly unpredictable, one may show up when you least expect it!
+  巫師是混沌與不可預測的力量。你永遠不知道他們接下來會做什麼。
+  通常由 [color=#40E0D0]太空巫師聯盟[/color] 派遣，或是某個倒楣鬼在擲詛咒骰時擲出自然 20 而被迫成為巫師。
+  而且由於巫師極難預測，他們可能會在你最意想不到的時候突然現身！
 
-  ## The Grimoire
+  ## 《秘術之書》
   <Box>
     <GuideEntityEmbed Entity="WizardsGrimoire" Caption="Wizards Grimoire"/>
   </Box>
 
-  [bold]By wizard law of eld your Grimoire is bound to you.[/bold] This means you cannot share your Grimoire with anyone else. The spells and equipment inside are for you and you alone.
-  The Wizard's Grimoire is used to get all sorts of magical spells, equipment, and creatures. What's available to you is [italic]extremely powerful[/italic] so you only have 10 [color=#FF0000]W[/color][color=#FFA500]i[/color][color=#FFFF00]z[/color][color=#00FF00]€[/color][color=#0000FF]o[/color][color=#4B0082]i[/color][color=#8F00FF]n[/color]™ to spend on them.
-  Your only limit, other than the price, is your creativity. Try to find some combinations!
+  [bold]根據古老的巫師法則，你的《巫師法典》與你密不可分。[/bold] 這意味著你無法將《巫師法典》分享給任何人。其中的咒語與裝備僅供你個人使用。
+  《巫師法典》是用來獲取各類魔法咒語、裝備及生物的。 你能取得的內容皆 [italic]極其強大[/italic]，因此你僅有 10 點 [color=#FF0000]W[/color][color=#FFA500]i[/color][color=#FFFF00]z[/color][color=#00FF00]€[/color][color=#0000FF]o[/color][color=#4B0082]i[/color][color=#8F00FF]n[/color]™ 可用於購買這些物品。
+  除了價格之外，唯一的限制就是你的創意。試著找出一些搭配組合吧！
 
   <Box>
     <GuideEntityEmbed Entity="PonderingOrbWizard" Caption="The Pondering Orb"/>
   </Box>
 
-  If you ever find yourself wanting to ponder, look no further! The [bold]Pondering Orb[/bold] allows the Wizard to tap into the Station's camera network to spy on others unsuspectingly.
-  Could be useful if you're trying to plan something out or stay one step ahead of [color=red]Security[/color].
+  如果你有時候想靜下心來思考，那就別再找了！ [bold]沉思之球[/bold]能讓法師接管空間站的攝影機網路，在他人毫無防備的情況下進行窺探。
+  無論是策劃行動，還是想在[color=red]安全部門[/color]之前搶先一步，這都可能派上用場。
 
 </Document>

@@ -1,12 +1,13 @@
+
 <Document>
-# Chemist
-Now you've done it. You picked the one job where -math- is mandatory. Grab your beaker, pull up a chair, and get cracking, it's time to cook up some chems.
+# 化學家
+現在你可真是闖大禍了。 你偏偏選了那個必須會「數學」的工作。 拿好你的量杯，拉張椅子坐下，然後動手吧——是時候來調製一些化學物質了。
 
-While chemists primarily make medications, there's a very wide variety of chemicals that can be made, all of which are showcased in the Chemicals entry of the Guidebook.
+雖然化學家主要從事藥物研發，但其實可以合成的化學物質種類非常廣泛，這些內容均收錄於《指南》的「化學物質」條目中。
 
-[textlink="Click here to see a complete list of chemicals." link="Chemicals"]
+[textlink="點擊此處查看化學品完整清單。" link="化學品"]
 
-## Equipment:
+## 設備：
 
   <Box>
     <GuideEntityEmbed Entity="ChemDispenser"/>
@@ -22,25 +23,25 @@ While chemists primarily make medications, there's a very wide variety of chemic
     <GuideEntityEmbed Entity="PillCanister"/>
   </Box>
 
-## The Basics:
-Chemistry is fairly straightforward once you know what to expect. Here's a simple, step-by-step process on how to begin.
+## 基礎知識：
+只要了解其運作原理，化學其實相當直截了當。 以下是一個簡單的分步指南，說明如何開始。
 
-- Grab a beaker, Pill Canister, and if desired, some Bottles.
-- Place the beaker in the Chemical Dispenser, and Pill Canister (or bottle) in the Chem Master.
-- Open the Chemical Dispenser UI, and make your mix. Recipes are in other sections of the guidebook.
-- Alt-click the dispenser to remove your beaker, and place it in the Chem Master.
-- Open the Chem Master UI. On the Input tab, move your mix into the buffer.
-- Move to the Output tab, customise your pill, and press the Create button.
-- Alt-click the Chem Master to get the pill bottle out. You may have to remove the beaker first.
-- Click on a table, crate, or another surface to empty the pill bottle if desired. Alternatively, store or empty it into another storage container.
+- 準備一個量杯、一個藥丸罐，以及（若需要的話）一些瓶子。
+- 將量杯放入化學藥劑分配器中，並將藥丸罐（或瓶子）放入 Chem Master 中。
+- 開啟化學劑分配器的使用者介面，並調配您的混合物。 食譜收錄於本指南的其他章節中。
+- 按住 Alt 鍵並點擊分配器，取出量杯，並將其放入「Chem Master」中。
+- 開啟 Chem Master 使用者介面。 在「輸入」索引標籤中，將您的混音移入緩衝區。
+- 切換至「輸出」分頁，自訂您的藥丸，然後按下「建立」按鈕。
+- 按住 Alt 鍵並點擊「Chem Master」，即可取出藥瓶。 您可能需要先將量杯移開。
+- 如需將藥瓶倒空，請點擊桌子、木箱或其他平面。 或者，將其存放起來，或倒入另一個儲存容器中。
 
-That's it, you've made your first set of pills! Consider checking with Medical Doctors and other crew to see what else may be requested, refilling the medical kits in medbay storage, or just experimenting!
+就是這樣，你已經製作出第一批藥丸了！ 不妨向醫師及其他船員諮詢，了解還有哪些可能的需求；補充醫務室儲藏室裡的急救包；或者就單純地試著做做看吧！
 
-You can also use the hand labeler to organize individual bottles or bags without using the Chem Master labeling system.
+您也可以使用手動標籤機來整理單個瓶子或袋子，而無需使用 Chem Master 標籤系統。
 
-## Extra Content:
+## 額外內容：
 
-Speaking of experimentation, there are a few more toy you can use when it comes to chemistry. This job requires a lot of trial and error, but it was worth mentioning that these things exist! It's up to you to figure out what to make with them.
+說到實驗，在化學方面還有幾種玩具可以試試。 這份工作需要經過許多試錯，但值得提的是，這些東西確實存在！ 該用它們做什麼，就看你自己了。
 
   <Box>
     <GuideEntityEmbed Entity="ModularGrenade"/>

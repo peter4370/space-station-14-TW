@@ -1,43 +1,44 @@
-﻿<Document>
-  # Pneumatic Valve
-  The pneumatic valve is a bidirectional valve controlled via a pressure input.
+﻿
+<Document>
+  # 氣動閥
+  氣動閥是一種透過壓力輸入進行控制的雙向閥。
   <Box>
     <GuideEntityEmbed Entity="PressureControlledValve"/>
   </Box>
 
-  The pneumatic valve has 3 connections: input, output, and control.
-  The "input" side will be the input/output connection with the highest pressure, and can switch sides, making the valve bidirectional.
+  氣動閥有 3 個連接口：輸入、輸出和控制。
+  「輸入」側將是壓力最高的輸入／輸出連接端，且可切換兩側，使閥門具有雙向功能。
 
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input/Output"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="輸入／輸出"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Control" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="控制" Rotation="90"/>
     <GuideEntityEmbed Entity="PressureControlledValve" Caption=""/>
     <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input/Output"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="輸入／輸出"/>
   </Box>
 
-  The valve will [color=green]open[/color] when the pressure on the output side is lower than the pressure on the control side by [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color].
+  當輸出側的壓力比控制側的壓力低 [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 時，閥門將 [color=green]開啟[/color]。
 
-  The valve will [color=red]close[/color] when the pressure of the output side reaches the pressure of the control side within [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color].
+  當輸出側的壓力在 [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 範圍內達到控制側的壓力時，閥門將 [color=red]關閉[/color]。
 
-  For example, a pneumatic valve with a control pressure of 500 kPa will open when the output pressure is 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] or lower, and it will close when the output pressure is 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] or higher.
+  舉例來說，控制壓力為 500 kPa 的氣動閥，當輸出壓力達到 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 或更低時，並會在輸出壓力為 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 或更高時，則會關閉。
 
-  The valve's control pressure is determined by a pipenet connection, and as such can be adjusted on the fly by a [textlink="pump" link="Pumps"] or another source of pressure control.
+  閥門的控制壓力由管路連接決定，因此可透過 [textlink="泵" link="泵"] 或其他壓力控制來源進行即時調整。
 
-  ## Differences to Pumps
+  ## 與泵的區別
 
-  The pneumatic valve is different from a [textlink="pump" link="Pumps"] which moves gas via work.
-  The pneumatic valve is a passive device that moves gas based on the higher pressure of the input gas, and as such it can sometimes fill volumes faster than a [textlink="pump" link="Pumps"] can.
+  氣動閥與[textlink="泵" link="Pumps"]不同，後者是透過做功來驅動氣體流動。
+  氣動閥是一種被動裝置，它利用輸入氣體的較高壓力來驅動氣體流動，因此有時其填充體積的速度甚至比 [textlink="泵" link="泵"] 還要快。
 
-  For example, a pneumatic valve with a control pressure of 500 kPa will fill a volume faster than a pressure [textlink="pump" link="Pumps"] set to 500 kPa.
-  However, the [textlink="pump" link="Pumps"] will be able to maintain the pressure in the volume more accurately.
+  舉例來說，控制壓力為 500 kPa 的氣動閥，其填充容積的速度會比壓力 [textlink="泵" link="泵"] 設定為 500 kPa 時更快。
+  然而，[textlink="泵" link="泵"] 將能更精確地維持該空間內的壓力。
 
-  The pneumatic valve can be used in a variety of applications, for example:
-  - To automatically vent gasses in a burn chamber based on control input
-  - The filling of a volume quickly, based on a customizable control pressure
+  氣動閥可應用於多種場合，例如：
+  - 根據控制輸入，自動將燃燒室中的氣體排出
+  - 根據可自訂的控制壓力，快速填充一定體積
 
 </Document>

@@ -1,22 +1,23 @@
-﻿<Document>
-# Station and Shifts
+﻿
+<Document>
+# 站點與輪班
 
-Every round of SS14 is a [bold]self-contained shift[/bold] that takes place on one of many different stations.
+SS14 的每一輪都是一個 [bold]獨立的輪班[/bold]，發生在眾多不同站點中的其中一個。
 
-Rounds typically last from [color=cyan]45 to 90 minutes[/color], but players are free to leave and join at any point during a round.
+每輪通常持續 [color=cyan]45 至 90 分鐘[/color]，但玩家可在輪次進行中的任何時刻自由離開或加入。
 
-## Shuttle Terminal
-If you join in the middle of a shift, you will likely spawn on the [color=lime]shuttle terminal[/color].
-Here you can grab drinks, converse with other players, and wait for the shuttle to take you to the station.
+## 穿梭車候車區
+若您在輪次中途加入，很可能會出現在 [color=lime]穿梭車候車區[/color]。
+您可以在這裡取用飲品、與其他玩家交談，並等待穿梭車載您前往站點。
 
-Screens on the walls will give you an ETA for the shuttle.
-When it arrives, simply walk on to be transported to the station.
+牆上的螢幕會顯示接駁車的預計抵達時間。
+接駁車抵達時，只需走上去即可被送往空間站。
 
-Make sure to stay inside the terminal and to not stand in the shuttle landing zone. [color=#EB2D3A][bold]You can be crushed by shuttles flying in[/bold][/color]
+請務必待在航站樓內，切勿站在接駁車降落區。 [color=#EB2D3A][bold]您可能會被飛入的穿梭機撞到[/bold][/color]
 
-## Navigation
-Every station has a wide variety of locations to visit.
-These range from specific departments where work happens to common areas where you can relax and chat with others.
+## 導航
+每個站點都有各式各樣的場所可供造訪。
+這些場所涵蓋了進行工作的特定部門，以及您可以放鬆並與他人聊天交流的公共區域。
 
 <Box>
   <GuideEntityEmbed Entity="StationMap"/>
@@ -24,28 +25,28 @@ These range from specific departments where work happens to common areas where y
   <GuideEntityEmbed Entity="SignBridge" Caption="Marker Signs"/>
 </Box>
 
-[color=cyan]Station maps[/color] give you an overview of the entire station with colored markers denoting locations of different things.
-Regular [color=cyan]signs[/color] on walls can point you to different departments.
+[color=cyan]車站地圖[/color] 讓您掌握整個車站的概況，並以彩色標記標示各項設施的位置。
+牆上的一般 [color=cyan]標誌[/color] 則可引導您前往不同部門。
 
-## Leaving the Station
-At the end of the shift [color=gray](barring a [color=red][bold]nuclear disaster[/bold][/color])[/color], you will leave the station via the [color=lime]evac shuttle[/color].
-When it's called, an announcement will play on the station alerting the crew and signaling its [color=cyan]arrival in 10 minutes.[/color]
-Once it arrives, you'll need to make your way over to it, board it, and then survive the trip to [bold]Central Command[/bold].
+## 離開站區
+輪班結束時 [color=gray]（除非發生 [color=red][bold]核災難[/bold][/color）[/color]），您將搭乘 [color=lime]疏散穿梭車[/color] 離開站區。
+當接駁車被召喚時，站內會播放廣播通知全體人員，並預告其 [color=cyan]將於 10 分鐘後抵達。[/color]
+接駁車抵達後，你需要前往該處、登車，並在前往 [bold]中央指揮部[/bold] 的途中確保自身安全。
 
-The round doesn't officially end until you reach [bold]Central Command[/bold]
+在您抵達 [bold]中央指揮部[/bold] 之前，本回合不會正式結束
 
 <Box>
   <GuideEntityEmbed Entity="CryogenicSleepUnit"/>
 </Box>
 
-If you need to leave a round early, you can do so through a [color=lime]cryogenic sleep unit[/color].
-Simply going inside and leaving the game will store your belongings and ensure that they are not stolen or misused.
+若您需要提前離開一輪，可透過 [color=lime]低溫睡眠艙[/color] 進行。
+只需進入艙內並退出遊戲，您的隨身物品便會被妥善保管，確保不會遭竊或被濫用。
 
-## More Info
-Learning the controls? [textlink="Click here to read about the different controls" link="Controls"]
+## 更多資訊
+正在學習操作方式嗎？[textlink="點擊此處了解各種操作方式" link="操作說明"]
 
-Don't know how to perform a job? [textlink="Click here to jump to a list of departments" link="Jobs"]
+不知道如何執行工作嗎？ [textlink="點擊此處跳轉至部門列表" link="工作"]
 
-Keep dying? [textlink="Click here to see a survival guide" link="Survival"]
+總是死掉嗎？ [textlink="點擊此處查看生存指南" link="生存"]
 
 </Document>

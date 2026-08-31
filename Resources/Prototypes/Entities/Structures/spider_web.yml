@@ -46,8 +46,8 @@
 - type: entity
   id: SpiderWeb
   parent: SpiderWebBase
-  name: spider web
-  description: It's stringy and sticky.
+  name: 蜘蛛網 | spider web
+  description: 質地纖維感強且黏膩。 | It's stringy and sticky.
   components:
   - type: Sprite
     color: "#ffffffdd"
@@ -84,8 +84,8 @@
 - type: entity
   id: SpiderWebClown
   parent: [SolutionFood, SolutionVeryTiny, SpiderWebBase]
-  name: clown spider web
-  description: It's stringy and slippy.
+  name: 小丑蜘蛛網 | clown spider web
+  description: 它又韌又滑。 | It's stringy and slippy.
   components:
   - type: Sprite
     color: "#ffa3fc"

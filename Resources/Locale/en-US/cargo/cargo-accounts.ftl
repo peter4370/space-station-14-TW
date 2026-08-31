@@ -1,17 +1,12 @@
-cargo-account-cargo-name = Station Supply Budget
+cargo-account-cargo-name = 站點物資預算
 cargo-account-cargo-code = SUP
-
-cargo-account-engineering-name = Maintenance Savings
+cargo-account-engineering-name = 維護成本存款
 cargo-account-engineering-code = ENG
-
-cargo-account-medical-name = Crew Healthcare Fund
+cargo-account-medical-name = Crew 醫療保健基金
 cargo-account-medical-code = MED
-
-cargo-account-science-name = Interstellar Development Funding
+cargo-account-science-name = 星際開發資金
 cargo-account-science-code = RND
-
-cargo-account-security-name = Station Defense Reserves
-cargo-account-security-code = SEC
-
-cargo-account-service-name = Collective Service Holdings
+cargo-account-security-name = 基地防禦預備隊
+cargo-account-security-code = 美國證券交易委員會 (SEC)
+cargo-account-service-name = 集體服務控股
 cargo-account-service-code = SRV

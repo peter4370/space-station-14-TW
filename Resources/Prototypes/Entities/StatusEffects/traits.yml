@@ -20,7 +20,7 @@
 - type: entity
   parent: [ PainNumbnessStatusEffectBase, TraitStatusEffectBase ]
   id: TraitStatusEffectPainNumbness
-  name: pain numbness
+  name: 疼痛、麻木 | pain numbness
 
 - type: entity
   parent: [ MutedStatusEffectBase, TraitStatusEffectBase ]

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthContainerFlimsy ]
   id: Rack
-  name: rack
-  description: A rack for storing things on.
+  name: 機架 | rack
+  description: 一個用來存放物品的架子。 | A rack for storing things on.
   components:
   - type: MeleeSound
     soundGroups:

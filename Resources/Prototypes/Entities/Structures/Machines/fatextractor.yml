@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: FatExtractor
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseConstructibleMachineDestructible ]
-  name: lipid extractor
-  description: Safely and efficiently extracts excess fat from a subject.
+  name: 脂質萃取器 | lipid extractor
+  description: 能安全且有效地從受試者體內抽取多餘脂肪。 | Safely and efficiently extracts excess fat from a subject.
   components:
   - type: FatExtractor
     minHungerThreshold: Peckish

@@ -1,10 +1,7 @@
-cmd-arrivals-enable-hint = Enables arrivals
-cmd-arrivals-disable-hint = Disables arrivals
-
-cmd-arrivals-returns = Set arrivals returns to {$value}.
-cmd-arrivals-returns-hint = Toggles allowing players to return via arrivals.
-
-cmd-arrivals-invalid = Invalid arg supplied.
-
-cmd-arrivals-force-hint = Forces players to arrive.
-cmd-arrivals-forced = Forced {$uid} to arrive to the station.
+cmd-arrivals-enable-hint = 啟用抵達功能
+cmd-arrivals-disable-hint = 停用抵達功能
+cmd-arrivals-returns = 將「抵達」設定恢復為 { $value }。
+cmd-arrivals-returns-hint = 切換開關，讓玩家能透過「抵達」頁面返回。
+cmd-arrivals-invalid = 提供的參數無效。
+cmd-arrivals-force-hint = 迫使玩家抵達。
+cmd-arrivals-forced = 迫使 { $uid } 抵達車站。

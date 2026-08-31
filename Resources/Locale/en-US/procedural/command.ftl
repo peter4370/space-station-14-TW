@@ -1,22 +1,19 @@
-cmd-dungen-desc = Generates a procedural dungeon with the specified preset, position, and seed. Will spawn in space if the MapId doesn't have MapGridComponent.
-cmd-dungen-help = dungen <MapId> <DungeonPreset> <PosX> <PosY> [seed]
-cmd-dungen-arg-count = Require 4 args.
-cmd-dungen-map-parse = Unable to parse MapId.
-cmd-dungen-mapgrid = Unable to find MapGrid.
-cmd-dungen-config = Unable to find dungeon config.
-cmd-dungen-pos = Unable to parse position.
-cmd-dungen-seed = Unable to parse seed.
-cmd-dungen-start = Generating dungeon with seed {$seed}
-
-cmd-dungen-hint-map = Map Id
-cmd-dungen-hint-config = Dungeon config
-cmd-dungen-hint-posx = Position X
-cmd-dungen-hint-posy = Position Y
-cmd-dungen-hint-seed = [Seed]
-
-cmd-dungen_preset_vis-desc = Generates a tile-based preview of a dungeon preset.
-cmd-dungen_preset_vis-help = dungen_preset_vis <mapid> <preset>
-
-cmd-dungen_pack_vis-success = Success
-cmd-dungen_pack_vis-desc = Generates a tile-based preview of a dungeon pack.
-cmd-dungen_pack_vis-help = dungen_pack_vis <mapid> <pack>
+cmd-dungen-desc = 根據指定的預設值、位置和種子生成一個程序生成的地牢。若 MapId 沒有 MapGridComponent，則會在太空中生成。
+cmd-dungen-help = dungen<MapId> <DungeonPreset> <PosX> <PosY> [種子]
+cmd-dungen-arg-count = 需要 4 個參數。
+cmd-dungen-map-parse = 無法解析 MapId。
+cmd-dungen-mapgrid = 找不到 MapGrid。
+cmd-dungen-config = 找不到地城設定檔。
+cmd-dungen-pos = 無法解析位置。
+cmd-dungen-seed = 無法解析種子。
+cmd-dungen-start = 使用種子 { $seed } 生成地城
+cmd-dungen-hint-map = 地圖編號
+cmd-dungen-hint-config = 地城設定
+cmd-dungen-hint-posx = 職位 X
+cmd-dungen-hint-posy = Y 位置
+cmd-dungen-hint-seed = [種子]
+cmd-dungen_preset_vis-desc = 產生地城預設值的網格式預覽。
+cmd-dungen_preset_vis-help = dungen_preset_vis<mapid> <preset>
+cmd-dungen_pack_vis-success = 成功
+cmd-dungen_pack_vis-desc = 產生地城包的網格式預覽。
+cmd-dungen_pack_vis-help = dungen_pack_vis<mapid> <pack>

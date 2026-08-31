@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthFurnitureStrong ]
   id: Fireplace
-  name: fireplace
-  description: A place that has fire. Cozy!
+  name: 壁爐 | fireplace
+  description: 一個有暖爐的地方。好溫馨！ | A place that has fire. Cozy!
   components:
   - type: Sprite
     noRot: true

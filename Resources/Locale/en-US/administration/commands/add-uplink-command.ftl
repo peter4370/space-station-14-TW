@@ -1,10 +1,9 @@
-cmd-adduplink-desc = Creates uplink on selected item and link it to users account
-cmd-adduplink-help = Usage: adduplink [username] [item-id] [discountEnabled]
-
-add-uplink-command-completion-1 = Username (defaults to self)
-add-uplink-command-completion-2 = Uplink uid (default to PDA)
-add-uplink-command-completion-3 = Is uplink discount enabled
-add-uplink-command-error-1 = Selected player doesn't control any entity
-add-uplink-command-error-2 = Failed to add uplink to the player
-add-uplink-command-success-pda = Uplink added to player PDA with code {$code}
-add-uplink-command-success-implant = Uplink added to player as an implant
+cmd-adduplink-desc = 在選定的項目上建立上行連結，並將其連結至使用者帳戶
+cmd-adduplink-help = 用法：adduplink [使用者名稱] [項目 ID] [discountEnabled]
+add-uplink-command-completion-1 = 使用者名稱（預設為 self）
+add-uplink-command-completion-2 = 上行鏈路 UID（預設為 PDA）
+add-uplink-command-completion-3 = 上行頻寬折扣是否已啟用
+add-uplink-command-error-1 = 選中的玩家未控制任何實體
+add-uplink-command-error-2 = 無法將上行連結新增至播放器
+add-uplink-command-success-pda = 已將 Uplink 透過代碼 { $code } 新增至玩家的 PDA 中
+add-uplink-command-success-implant = 將「上行鏈路」作為植入物添加至玩家身上

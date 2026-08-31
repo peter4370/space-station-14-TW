@@ -1,16 +1,17 @@
+
 <Document>
-  # Reptilians
+  # 爬蟲人
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceReptilian" Caption=""/>
   </Box>
 
-  They can ONLY eat fruits and meat, but can eat raw meat and drink blood without any ill effects.
-  They prefer a somewhat higher temperature range than humans.
-  They can drag objects with their tail, keeping both their hands free.
+  牠們只能吃水果和肉類，但即使食用生肉或飲用鮮血，也不會產生任何不良影響。
+  牠們偏好比人類稍高的溫度範圍。
+  牠們可以用尾巴拖曳物品，讓雙手都保持空閒。
 
-  Their unarmed claw attacks deal Slash damage instead of Blunt.
+  牠們的徒手爪擊會造成「切割」傷害，而非「鈍擊」傷害。
 
-  They take [color=#ffa500]30% more Cold damage.[/color]
+  他們承受的[color=#ffa500]冰霜傷害增加 30%。[/color]
 
 </Document>

@@ -1,24 +1,25 @@
-<Document>
-## Anomaly Scanner
 
-The Anomaly Scanner is used to gather various information on anomalies. They can be found inside the lockers in the science department.
+<Document>
+## 異常掃描器
+
+異常掃描器用於蒐集各種與異常現象相關的資訊。這些裝置可於科學系的儲物櫃內找到。
 
 <Box>
 <GuideEntityEmbed Entity="AnomalyScanner"/>
 </Box>
 
-Scanning an anomaly shows the severity, general stability, approximate point output, reactions with particle types, and time until the next pulse. The reaction types, specifically, can be used in conjunction with the A.P.E. to manipulate anomalies.
+掃描異常現象時，會顯示其嚴重程度、整體穩定性、近似點數輸出、與各類粒子的反應，以及距離下一次脈衝的剩餘時間。其中，反應類型可與 A.P.E. 配合使用，藉此操控異常現象。
 
-## Anomaly Vessel
+## 異常物載體
 
-The anomaly vessel is a machine that generates points from anomalies. Use the anomaly scanner on an empty vessel, and the anomaly that was last scanned will be synced with the vessel.
+異常物載體是一種能從異常現象中產生點數的裝置。在空載體上使用異常掃描器，系統便會將上次掃描到的異常現象與該載體同步。
 
 <Box>
 <GuideEntityEmbed Entity="MachineAnomalyVessel"/>
 </Box>
 
-The amount of points a vessel generates per second is based on the severity, stability, and health of an anomaly. The higher each of these values, the higher the point output will be.
+一艘船艦每秒產生的點數取決於異常現象的嚴重程度、穩定性及健康狀態。這三項數值越高，產出的點數就越多。
 
-Be careful: if an anomaly goes [color=#a4885c]supercritical[/color], the vessel it is linked to will explode. This may damage the station and nearby equipment.
+請注意：若異常狀況進入 [color=#a4885c]超臨界[/color] 狀態，與其連結的容器將會爆炸。這可能會損壞空間站及附近的設備。
 
 </Document>

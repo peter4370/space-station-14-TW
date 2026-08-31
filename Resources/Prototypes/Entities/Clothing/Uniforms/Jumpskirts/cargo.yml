@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargo
-  name: cargo tech jumpskirt
-  description: A sturdy jumpskirt, issued to members of the Cargo department.
+  name: Cargo Tech 跳躍式短裙 | cargo tech jumpskirt
+  description: 一款結實耐用的跳傘裙，發放給貨運部門的成員。 | A sturdy jumpskirt, issued to members of the Cargo department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Cargo/cargotech.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtQM
-  name: quartermaster's jumpskirt
-  description: 'What can brown do for you?'
+  name: 司務長的跳傘裙 | quartermaster's jumpskirt
+  description: '棕色能為您做些什麼？ | What can brown do for you?'
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Cargo/qm.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtQMTurtleneck
-  name: quartermasters's turtleneck
-  description: A sharp turtleneck made for the hardy work environment of supply.
+  name: 軍需官的高領毛衣 | quartermasters's turtleneck
+  description: 一款剪裁利落的高領衫，專為供應鏈中嚴苛的工作環境而設計。 | A sharp turtleneck made for the hardy work environment of supply.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Cargo/qmturtleskirt.rsi

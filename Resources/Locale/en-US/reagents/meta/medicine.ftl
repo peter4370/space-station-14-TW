@@ -1,159 +1,107 @@
 reagent-name-cryptobiolin = cryptobiolin
-reagent-desc-cryptobiolin = Causes confusion and dizziness.
-
+reagent-desc-cryptobiolin = 會引起混亂和暈眩。
 reagent-name-dylovene = dylovene
-reagent-desc-dylovene = A broad-spectrum anti-toxin, which treats toxin damage in organisms. Overdosing will cause vomiting, dizzyness and pain.
-
-reagent-name-diphenhydramine = diphenhydramine
-reagent-desc-diphenhydramine = Rapidly purges the body of histamine, reduces jitteriness, causes drowsiness, and treats poison damage. Often included in sleep medication.
-
-reagent-name-arithrazine = arithrazine
-reagent-desc-arithrazine = A mildly unstable medication used for the most extreme case of radiation poisoning. Exerts minor stress on the body.
-
-reagent-name-bicaridine = bicaridine
-reagent-desc-bicaridine = An analgesic which is highly effective at treating brute damage. It's useful for stabilizing people who have been severely beaten, as well as treating less life-threatening injuries.
-
-reagent-name-cryoxadone = cryoxadone
-reagent-desc-cryoxadone = Required for the proper function of cryogenics. Heals all standard types of damage, but only works in temperatures under 213K. It can treat and rejuvenate plants when applied in small doses.
-
-reagent-name-doxarubixadone = doxarubixadone
-reagent-desc-doxarubixadone = A cryogenics chemical. Heals cellular damage caused by dangerous gasses and chemicals.
-
+reagent-desc-dylovene = 一種廣譜抗毒素，用於治療生物體因毒素造成的損傷。過量服用會引起嘔吐、暈眩和疼痛。
+reagent-name-diphenhydramine = 苯海拉明 (diphenhydramine)
+reagent-desc-diphenhydramine = 能迅速清除體內的組胺、減輕焦躁感、引起嗜睡，並治療中毒傷害。常被用於安眠藥中。
+reagent-name-arithrazine = 阿利特拉津 (arithrazine)
+reagent-desc-arithrazine = 一種輕度不穩定的藥物，用於治療最嚴重的輻射中毒病例。對身體造成的負擔較輕。
+reagent-name-bicaridine = 雙苯胺 (Bicaridine)
+reagent-desc-bicaridine = 一種對治療嚴重創傷極為有效的止痛藥。它既能幫助穩定遭受嚴重毆打者的狀況，也能用於治療不太危及生命的傷勢。
+reagent-name-cryoxadone = 克羅克薩酮 (cryoxadone)
+reagent-desc-cryoxadone = 這是低溫技術正常運作所必需的。可治癒所有標準類型的損傷，但僅在低於 213K 的溫度下有效。若以小劑量使用，可治療並恢復植物的生機。
+reagent-name-doxarubixadone = 多沙魯比克薩酮 (doxarubixadone)
+reagent-desc-doxarubixadone = 一種低溫化學物質。能修復由危險氣體和化學物質所造成的細胞損傷。
 reagent-name-dermaline = dermaline
-reagent-desc-dermaline = An advanced chemical that is more effective at treating burn damage than kelotane.
-
-reagent-name-dexalin = dexalin
-reagent-desc-dexalin = Used for treating minor oxygen deprivation and bloodloss. A required reagent for dexalin plus.
-
-reagent-name-dexalin-plus = dexalin plus
-reagent-name-dexalin-plus-saline = dexalin plus & saline
-reagent-desc-dexalin-plus = Used in treatment of extreme cases of oxygen deprivation and bloodloss. Flushes heartbreaker toxin out of the blood stream.
-
-reagent-name-epinephrine = epinephrine
-reagent-desc-epinephrine = An effective stabilizing chemical used to keep a critical person from dying to asphyxiation while patching up minor damage during crit. Flushes heartbreaker toxin out the blood stream at the cost of more epinephrine, but may add histamine. Helps reduce stun time. Commonly found in the form of emergency medipens.
-
+reagent-desc-dermaline = 一種比凱洛坦（Kelotane）更能有效治療燒傷損傷的先進化學藥劑。
+reagent-name-dexalin = 德克薩林 (dexalin)
+reagent-desc-dexalin = 用於治療輕微缺氧及失血。為「德克薩林 Plus」的必備試劑。
+reagent-name-dexalin-plus = 德薩林 Plus (dexalin plus)
+reagent-name-dexalin-plus-saline = 德克沙林加 & 生理食鹽水
+reagent-desc-dexalin-plus = 用於治療極嚴重的缺氧及失血情況。能將「心碎毒素」從血液中排出。
+reagent-name-epinephrine = 腎上腺素 (epinephrine)
+reagent-desc-epinephrine = 一種有效的穩定劑，用於在重傷狀態下修復輕微損傷時，防止重傷者因窒息而死亡。能將「心碎毒素」從血液中排出，代價是消耗更多腎上腺素，但可能會增加組胺。有助於縮短暈眩時間。通常以緊急醫療筆的形式出現。
 reagent-name-hyronalin = hyronalin
-reagent-desc-hyronalin = A weak treatment for radiation damage. A precursor to arithrazine and phalanximine. Can cause vomiting.
-
-reagent-name-ipecac = ipecac
-reagent-desc-ipecac = A rapid-acting emetic. Useful for stopping unmetabolized poisons, or mass-vomiting sessions.
-
+reagent-desc-hyronalin = 對輻射損傷的療效不彰。為亞瑞特拉津和法蘭西明的前體。可能引起嘔吐。
+reagent-name-ipecac = 吐根 ipecac
+reagent-desc-ipecac = 一種速效催吐劑。可用於阻止未代謝的毒素，或進行大量嘔吐。
 reagent-name-inaprovaline = inaprovaline
-reagent-desc-inaprovaline = Inaprovaline is a synaptic stimulant and cardiostimulant, commonly used to treat asphyxiation damage caused during critical states and reduce bleeding. Used in many advanced medicines.
-
+reagent-desc-inaprovaline = 伊納普羅林是一種突觸興奮劑及心臟興奮劑，常用於治療危重狀態下造成的窒息性損傷，並能減少出血。廣泛應用於許多先進藥物中。
 reagent-name-kelotane = kelotane
-reagent-desc-kelotane = Treats burn damage. Overdosing greatly reduces the body's ability to retain water.
-
-reagent-name-leporazine = leporazine
-reagent-desc-leporazine = A chemical used to stabilize body temperature and rapidly cure cold damage. Great for unprotected EVA travel, but prevents the use of cryogenic tubes.
-
+reagent-desc-kelotane = 用於治療燒傷。過量服用會大幅降低身體的保水能力。
+reagent-name-leporazine = 勒波拉津 leporazine
+reagent-desc-leporazine = 一種用於穩定體溫並快速治療低溫傷害的化學物質。非常適合在未受保護的情況下進行 EVA 行動，但會妨礙冷凍管的使用。
 reagent-name-barozine = barozine
-reagent-desc-barozine = A potent chemical that prevents pressure damage. Causes extreme stress on the body.
-
-reagent-name-phalanximine = phalanximine
-reagent-desc-phalanximine = An advanced chemical used in the treatment of cancer. Causes moderate radiation poisoning, acid burns, and vomiting on organics. Can potentially remove the death gene on plants.
-
-reagent-name-polypyrylium-oligomers = Polypyrylium Oligomers
-reagent-desc-polypyrylium-oligomers = A purple mixture of short polyelectrolyte chains not easily synthesized in the laboratory. Heals asphyxiation and brute damage. Stops bleeding over time.
-
-reagent-name-romerodone = romerodone
-reagent-desc-romerodone = A byproduct of centrifuging zombie blood, perhaps you could make a cure with this.
-
-
-reagent-name-ambuzol = ambuzol
-reagent-desc-ambuzol = A highly engineered substance able to cure the zombie infection.
-
-reagent-name-ambuzol-plus = ambuzol plus
-reagent-desc-ambuzol-plus = Further engineered with omnizine, inoculates the living against the infection.
-
-reagent-name-pulped-banana-peel = pulped banana peel
-reagent-desc-pulped-banana-peel = Pulped banana peels have some effectiveness against bleeding.
-
+reagent-desc-barozine = 一種能預防壓力損傷的強效化學物質。會對身體造成極大的壓力。
+reagent-name-phalanximine = 法蘭西明 phalanximine
+reagent-desc-phalanximine = 一種用於治療癌症的先進化學物質。會對有機物造成中度輻射中毒、酸灼傷及嘔吐。可能具有去除植物上「死亡基因」的能力。
+reagent-name-polypyrylium-oligomers = 多吡啶低聚物
+reagent-desc-polypyrylium-oligomers = 一種由短聚電解質鏈polyelectrolyte chains組成的紫色混合物，在實驗室中難以合成。可治癒窒息與重創造成的傷害，並能隨時間推移止血。
+reagent-name-romerodone = 羅默羅酮
+reagent-desc-romerodone = 這是離心分離殭屍血液後產生的副產品，或許可以用它來製成解藥。
+reagent-name-ambuzol = 安布佐爾 ambuzol
+reagent-desc-ambuzol = 一種經過高度工程化的物質，能夠治癒殭屍感染。
+reagent-name-ambuzol-plus = 安布佐爾 Plus (ambuzol plus)
+reagent-desc-ambuzol-plus = 經由「Omnizine」技術進一步改良，能使活體對抗感染。
+reagent-name-pulped-banana-peel = 搗碎的香蕉皮
+reagent-desc-pulped-banana-peel = 搗碎的香蕉皮對止血有一定效果。
 reagent-name-siderlac = siderlac
-reagent-desc-siderlac = A powerful anti-caustic medicine derived from plants.
-
-reagent-name-stellibinin = stellibinin
-reagent-desc-stellibinin = A natual anti-toxin with particular effectiveness against amatoxin.
-
+reagent-desc-siderlac = 一種源自植物的強效抗蝕傷藥物。
+reagent-name-stellibinin = 斯特利比寧 (stellibinin)
+reagent-desc-stellibinin = 一種天然抗毒素，對阿馬托毒素amatoxin具有特別顯著的功效。
 reagent-name-synaptizine = synaptizine
-reagent-desc-synaptizine = A toxic chemical that halves the duration of stuns and knockdowns.
-
-reagent-name-tranexamic-acid = tranexamic acid
-reagent-desc-tranexamic-acid = A blood-clotting medicine used to prevent profuse bleeding. Causes heavier bleeding on overdose. Commonly found in small doses within emergency medipens.
-
-reagent-name-tricordrazine = tricordrazine
-reagent-desc-tricordrazine = A wide-spectrum stimulant, originally derived from cordrazine. Treats minor damage of all basic health types as long as the user is not heavily wounded. Best used as an additive to other chemicals.
-
+reagent-desc-synaptizine = 一種有毒化學物質，能將暈眩與擊倒的持續時間減半。
+reagent-name-tranexamic-acid = 氨甲環酸 ranexamic acid
+reagent-desc-tranexamic-acid = 一種用於預防大量出血的凝血藥物。若服用過量，會導致出血量增加。常見於急救藥筆中，劑量通常較小。
+reagent-name-tricordrazine = 三羧基哌嗪 tricordrazine
+reagent-desc-tricordrazine = 一種廣譜興奮劑，最初源自科德拉津cordrazine。只要使用者未受重傷，即可治療所有基本健康類型的輕微損傷。最適合作為其他化學物質的添加劑使用。
 reagent-name-lipozine = lipozine
-reagent-desc-lipozine = A chemical that accelerates metabolism, causing the user to hunger faster.
-
+reagent-desc-lipozine = 一種能加速新陳代謝的化學物質，會讓使用者更快感到飢餓。
 reagent-name-omnizine = omnizine
-reagent-desc-omnizine = A soothing milky liquid with an iridescent gleam. A well known conspiracy theory says that its origins remain a mystery because revealing the secrets of its production would render most commercial pharmaceuticals obsolete.
-
-reagent-name-ultravasculine = ultravasculine
-reagent-desc-ultravasculine = A complicated anti-toxin solution that quickly flushes out toxin while causing minor stress on the body. Reacts with histamine, duplicating itself while flushing it out. Overdose causes extreme pain.
-
+reagent-desc-omnizine = 一種質地柔滑、泛著虹彩光澤的乳狀液體。有一種廣為流傳的陰謀論指出，其來源至今仍是個謎，因為一旦揭露其製程的秘密，將使大多數商業藥品變得過時。
+reagent-name-ultravasculine = 超血管素 ultravasculine
+reagent-desc-ultravasculine = 一種複雜的抗毒素溶液，能迅速將毒素排出體外，同時對身體造成的負擔極輕微。該溶液會與組胺發生反應，在排出組胺的同時進行自我複製。若過量使用，將引發劇烈疼痛。
 reagent-name-oculine = oculine
-reagent-desc-oculine = A simple saline compound used to treat the eyes via ingestion.
-
-reagent-name-ethylredoxrazine = ethylredoxrazine
-reagent-desc-ethylredoxrazine = Neutralises the effects of alcohol in the blood stream. Though it is commonly needed, it is rarely requested.
-
+reagent-desc-oculine = 一種簡單的鹽類化合物，用於經口攝入以治療眼睛。
+reagent-name-ethylredoxrazine = 乙基還原氧化拉嗪 ethylredoxrazine
+reagent-desc-ethylredoxrazine = 能中和血液中酒精的作用。雖然這通常是必要的，但很少有人會主動要求。
 reagent-name-cognizine = cognizine
-reagent-desc-cognizine = A mysterious chemical which is able to make any non-sentient creature sentient.
-
-reagent-name-ethyloxyephedrine = ethyloxyephedrine
-reagent-desc-ethyloxyephedrine = A mildly unstable medicine derived from desoxyephedrine, primarily used to combat narcolepsy.
-
-reagent-name-diphenylmethylamine = diphenylmethylamine
-reagent-desc-diphenylmethylamine = A more stable medicine than ethyloxyephedrine. Useful for keeping someone awake.
-
+reagent-desc-cognizine = 一種神秘的化學物質，能夠讓任何無知覺的生物獲得知覺。
+reagent-name-ethyloxyephedrine = 乙氧基麻黃鹼 ethyloxyephedrine
+reagent-desc-ethyloxyephedrine = 一種源自去氧麻黃鹼的微不穩定藥物，主要用於治療發作性睡病。
+reagent-name-diphenylmethylamine = 二苯基甲胺 diphenylmethylamine
+reagent-desc-diphenylmethylamine = 比乙氧基麻黃鹼更穩定的藥物。可用於讓患者保持清醒。
 reagent-name-sigynate = sigynate
-reagent-desc-sigynate = A thick pink syrup useful for neutralizing acids and soothing trauma caused by acids. Tastes sweet!
-
-reagent-name-saline = saline
-reagent-desc-saline = A mixture of salt and water. Commonly used to treat dehydration or low fluid presence in blood.
-
-reagent-name-lacerinol = lacerinol
-reagent-desc-lacerinol = A fairly unreactive chemical that boosts collagen synthesis to incredible levels, healing slash trauma.
-
-reagent-name-puncturase = puncturase
-reagent-name-puncturase-tranexamic = puncturase & tranexamic
-reagent-desc-puncturase = A fizzy chemical that helps rebuild trauma caused by piercing damage, leaving a slight amount of tissue damage behind.
-
+reagent-desc-sigynate = 一種濃稠的粉紅色糖漿，有助於中和酸性物質，並舒緩酸類造成的損傷。味道很甜！
+reagent-name-saline = 生理食鹽水 saline
+reagent-desc-saline = 鹽與水的混合物。通常用於治療脫水或血液中液體含量過低的情況。
+reagent-name-lacerinol = 拉塞里諾 lacerinol
+reagent-desc-lacerinol = 一種化學性質相當穩定的物質，能將膠原蛋白的合成提升至驚人的程度，從而促進創傷癒合。
+reagent-name-puncturase = 穿刺酶 puncturase
+reagent-name-puncturase-tranexamic = Puncturase 與氨甲環酸
+reagent-desc-puncturase = 一種會產生氣泡的化學物質，有助於修復穿刺造成的創傷，但會留下少許組織損傷。
 reagent-name-bruizine = bruizine
-reagent-desc-bruizine = Originally developed as a cough medicine, it turns out this chemical is wildly effective at treating blunt force trauma.
-
-reagent-name-holywater = holy water
-reagent-desc-holywater = The cleanest and purest of waters straight from the hands of god, is known to magically heal wounds.
-
-reagent-name-pyrazine = pyrazine
-reagent-name-pyrazine-dermaline = pyrazine & dermaline
-reagent-desc-pyrazine = Efficiently heals burns from the hottest of fires. Causes massive internal bleeding when overdosed.
-
+reagent-desc-bruizine = 這種化學物質最初是作為咳嗽藥開發的，結果發現它對治療鈍性創傷極為有效。
+reagent-name-holywater = 聖水 holy water
+reagent-desc-holywater = 這最清澈、最純淨的水，直接源自神之手，據說具有神奇的療傷功效。
+reagent-name-pyrazine = 吡嗪 pyrazine
+reagent-name-pyrazine-dermaline = 吡嗪與德馬林
+reagent-desc-pyrazine = 能有效治癒最灼熱火焰造成的燒傷。若服用過量，會導致大量內出血。
 reagent-name-insuzine = insuzine
-reagent-desc-insuzine = Rapidly repairs dead tissue caused by electrocution, but cools you slightly. Completely freezes the patient when overdosed.
-
+reagent-desc-insuzine = 能迅速修復因觸電而壞死的組織，但會使身體略微降溫。若用量過大，將使患者完全凍結。
 reagent-name-opporozidone = opporozidone
-reagent-desc-opporozidone= A difficult to synthesize cryogenic drug used to regenerate rotting tissue and brain matter.
-
+reagent-desc-opporozidone = 一種難以合成的低溫藥物，用於再生腐爛的組織與腦組織。
 reagent-name-arcryox = arcryox
-reagent-desc-arcryox = A sickeningly blue cryogenics chemical that is able to heal extreme wounds even on the dead. It has trouble stabilizing patients however.
-
-reagent-name-aloxadone = aloxadone
-reagent-desc-aloxadone = A cryogenics chemical. Used to treat severe burns and frostbite via regeneration of the affected tissue. Works regardless of the patient being alive or dead.
-
-reagent-name-mannitol = mannitol
-reagent-desc-mannitol = Efficiently restores brain damage.
-
+reagent-desc-arcryox = 一種令人作嘔的湛藍色低溫化學物質，甚至能治癒死者身上的極度嚴重傷口。然而，它卻難以穩定病患的狀況。
+reagent-name-aloxadone = 阿洛沙酮 aloxadone
+reagent-desc-aloxadone = 一種低溫化學藥劑。用於透過再生受損組織來治療嚴重燒傷及凍傷。無論患者是生是死，皆能發揮作用。
+reagent-name-mannitol = 甘露醇 mannitol
+reagent-desc-mannitol = 能有效修復腦部損傷。
 reagent-name-psicodine = psicodine
-reagent-desc-psicodine = Suppresses anxiety and other various forms of mental distress. Overdose causes hallucinations and minor toxin damage.
-
-reagent-name-potassium-iodide = potassium iodide
-reagent-desc-potassium-iodide = Will reduce the damaging effects of radiation by 90%. Prophylactic use only.
-
-reagent-name-haloperidol = haloperidol
-reagent-desc-haloperidol = Removes most stimulating and hallucinogenic drugs. Reduces druggy effects and jitteriness. Causes drowsiness.
-
-reagent-name-heparin = heparin
-reagent-desc-heparin = Commonly used as an anticoagulant medication. Causes blood to have difficulty forming clots. Can cause internal bleeding when overdosed.
+reagent-desc-psicodine = 可緩解焦慮及其他各種形式的精神痛苦。過量服用會導致幻覺及輕微的毒性損傷。
+reagent-name-potassium-iodide = 碘化鉀 potassium iodide
+reagent-desc-potassium-iodide = 可將輻射的傷害減輕 90%。僅供預防性使用。
+reagent-name-haloperidol = 氟哌啶醇 haloperidol
+reagent-desc-haloperidol = 可清除多數興奮劑及致幻劑。減輕藥物作用及焦躁感。會引起嗜睡。
+reagent-name-heparin = 肝素
+reagent-desc-heparin = 通常用作抗凝血藥物。會使血液難以形成血塊。若服用過量，可能會引起內出血。

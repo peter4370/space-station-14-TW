@@ -1,12 +1,13 @@
+
 <Document>
-  # Networking
-  On the station, devices need to communicate to each other to perform their functions.
-  [textlink="Air alarms" link="AirAlarms"] need to talk to their respective devices, [textlink="doors" link="Airlocks"] need to be linked to form proper airlocks, and much more.
+  # 網路
+  在該站點中，各裝置需要相互通訊才能執行其功能。
+  [textlink="氣壓警報器" link="AirAlarms"] 需要與各自的裝置進行通訊，[textlink="門" link="Airlocks"] 需要相互連結以形成適當的氣閘，此外還有許多其他功能。
 
-  This is done through two systems, the Link system and the List system.
+  這透過兩個系統來實現，分別是「連結系統」和「清單系統」。
 
-  You can use either the Multitool or Network Configurator to interact with these systems.
-  You can switch between the different systems using [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] or by hovering your cursor over the device and using [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
+  您可以使用「多功能工具」或「網路設定程式」來與這些系統進行互動。
+  您可以透過 [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] 在不同系統之間切換，或將游標懸停在裝置上並使用 [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color] 進行切換。
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -17,12 +18,12 @@
     </Box>
   </Box>
 
-  Some devices will require access to link devices to them.
-  For example, you need Atmospherics access to link devices to an [textlink="air alarm" link="AirAlarms"].
-  For doors, you'll need the access level of the door you're linking to.
+  某些裝置需要存取權限，才能將其他裝置與其配對。
+  舉例來說，您需要取得 Atmospherics 的存取權限，才能將裝置連接到 [textlink="空氣警報器" link="AirAlarms"]。
+  對於門，您需要指定要連結到的那扇門的存取層級。
 
-  ## Link System
-  The link system is used for explicitly linking two devices, such as linking a door to another door.
+  ## 連結系統
+  連結系統用於明確地將兩個裝置相互連結，例如將一扇門與另一扇門連結起來。
 
   <Box>
     <GuideEntityEmbed Entity="AirlockExternal"/>
@@ -31,13 +32,13 @@
     <GuideEntityEmbed Entity="SignalButton"/>
   </Box>
 
-  Under the link system, devices have [bold]ports[/bold] that are capable of either sending or receiving signals.
+  在連結系統中，裝置具有 [bold]埠[/bold]，這些埠能夠傳送或接收訊號。
 
-  Hovering over a port using your cursor will show a tooltip that tells you what the port does.
-  For example, output ports will state the conditions under which they will invoke a signal, and input ports will state what the device will do if it receives a signal.
+  將游標懸停在某個連接埠上時，會顯示一個工具提示，說明該連接埠的功能。
+  例如，輸出埠會說明在何種條件下會觸發訊號，而輸入埠則會說明裝置在接收到訊號時會採取什麼行動。
 
-  ## List System
-  The list system is used for linking multiple devices to a single primary device, such as linking multiple atmospherics devices to an air alarm.
+  ## 列表系統
+  列表系統用於將多個裝置連接到單一主裝置，例如將多個大氣感測器裝置連接到空氣警報器。
 
   <Box>
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
@@ -47,18 +48,18 @@
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
   </Box>
 
-  Each device has its own unique address, which is used to identify it in the list system. When you link a device to a primary device, you are adding the device's address to a list of devices that the primary device will communicate with.
+  每個裝置都有其獨一無二的位址，該位址用於在清單系統中識別該裝置。 當您將某個裝置連接到主裝置時，即表示您將該裝置的位址新增至主裝置將與之通訊的裝置清單中。
 
-  You can save a device's address to your tool by interacting with the device using [color=yellow][bold][keybind="Use"][/bold][/color].
+  您可以透過使用 [color=yellow][bold][keybind="Use"][/bold][/color] 與裝置互動，將該裝置的位址儲存至您的工具中。
 
-  Once you have a list of devices saved to your tool, you can link them to a primary device by interacting with the primary device using [color=yellow][bold][keybind="Use"][/bold][/color], which will bring up a UI.
+  將裝置清單儲存至工具後，您可以透過 [color=yellow][bold][keybind="Use"][/bold][/color] 與主裝置互動，將這些裝置連結至主裝置；此操作會彈出一個使用者介面。
 
-  The UI has multiple options:
-  - Set: Overwrites the current list of linked devices with the devices saved on the tool.
-  - Add: Adds the devices saved on the tool to the current list of linked devices.
-  - Clear: Removes all linked devices from the air alarm.
-  - Copy: Copies the list of currently linked devices to the tool.
-  - Show: Draws a line between the primary device and all linked devices. This is useful for visualizing the area the air alarm covers.
+  使用者介面提供多項選項：
+  - 設定：將工具中儲存的裝置清單覆寫至當前已連結裝置清單。
+  - 新增：將儲存於該工具中的裝置新增至當前的已連結裝置清單中。
+  - 清除：從空氣警報器中移除所有已連結的裝置。
+  - 複製：將目前已連線的裝置清單複製到該工具中。
+  - 顯示：在主裝置與所有已連結裝置之間繪製一條線。 這有助於直觀地了解氣體警報所涵蓋的範圍。
 
-  If you need to clear your tool, you can press [color=yellow][bold][keybind="Use"][/bold][/color] on the tool or use [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] to bring up a list of saved devices, and then press the "Clear" button.
+  若需清除工具欄，您可以按下 [color=yellow][bold][keybind="Use"][/bold][/color] 按鍵，或使用 [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] 調出已儲存裝置清單，接著按下「清除」按鈕。
 </Document>

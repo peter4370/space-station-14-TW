@@ -7,8 +7,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, SolutionTiny, DrinkBaseCup, DrinkVisualsFillOverlay]
   id: DrinkGlass
-  name: metamorphic glass
-  description: A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
+  name: 變質玻璃 | metamorphic glass
+  description: 一款能自動變形，根據杯中飲品自動調整成最適合形狀的變形玻璃杯。杯底有被磨掉的專利號碼。 | A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
   components:
   - type: Item
     size: Small
@@ -37,8 +37,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkJar
-  name: jar
-  description: The hipster's cup.
+  name: jar | jar
+  description: 潮人的杯子。 | The hipster's cup.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar.rsi
@@ -876,7 +876,7 @@
   parent: DrinkGlass
   id: DrinkHoochGlass
   suffix: hooch
-  description: You've really hit rock bottom now... your liver packed its bags and left last night.
+  description: 你現在真的跌到谷底了……你的肝臟昨晚已經收拾行囊離開了。 | You've really hit rock bottom now... your liver packed its bags and left last night.
   components:
   - type: Solution
     solution:
@@ -1958,8 +1958,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWaterJug
-  name: water jug
-  description: Stay hydrated.
+  name: 水壺 | water jug
+  description: 請保持水分。 | Stay hydrated.
   components:
   - type: Solution
     solution:
@@ -2254,7 +2254,7 @@
   parent: DrinkGlass
   id: DrinkBacchusBlessing
   suffix: bacchus blessing
-  description: You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
+  description: 你從未想過，一種液體竟然會如此令人作嘔。你確定嗎……？ | You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
   components:
   - type: Solution
     solution:

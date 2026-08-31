@@ -1,6 +1,7 @@
-﻿<Document>
-  # Valves
-  Valves are a quick way to halt or permit gas flow through a [textlink="pipenet" link="PipeNetworks"].
+﻿
+<Document>
+  # 閥門
+  閥門是快速切斷或允許氣體通過 [textlink="pipenet" link="PipeNetworks"] 的方法。
   <Box>
     <GuideEntityEmbed Entity="GasValve"/>
     <GuideEntityEmbed Entity="SignalControlledValve"/>
@@ -8,9 +9,9 @@
     <GuideEntityEmbed Entity="GasPassiveGate"/>
     <GuideEntityEmbed Entity="GasPressureRegulator"/>
   </Box>
-  All valves do not require [textlink="power" link="Power"] to operate.
+  並非所有閥門都需要 [textlink="電源" link="電源"] 才能運作。
 
-  Valves may look simple, but they can enable a wide variety of complex pipe systems, including:
-  - Signal valves responding to air alarm or logic gate outputs
-  - Pneumatic valves controlling variable venting of waste gasses from a burn chamber
+  閥門看似簡單，卻能實現各式各樣的複雜管路系統，包括：
+  - 響應空氣警報或邏輯閘輸出訊號的信號閥
+  - 控制燃燒室廢氣可變排氣量之氣動閥
 </Document>

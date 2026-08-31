@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BulletFoam
-  name: foam dart
-  description: I hope you're wearing eye protection.
+  name: 泡沫飛鏢 | foam dart
+  description: 希望你戴上了護目鏡。 | I hope you're wearing eye protection.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_dart.rsi
@@ -37,7 +37,7 @@
   parent: BaseBullet
   id: BulletCap
   categories: [ HideSpawnMenu ]
-  name: cap bullet
+  name: 帽式子彈 | cap bullet
   components:
   - type: Sprite
     sprite: Objects/Fun/capgun.rsi

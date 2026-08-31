@@ -1,6 +1,6 @@
 #Industrial spawners
 - type: entity
-  name: industrial fluff spawner
+  name: 工業用絮毛生成器 | industrial fluff spawner
   id: LootSpawnerIndustrialFluff
   parent: MarkerBase
   components:
@@ -37,7 +37,7 @@
     offset: 0.0
 
 - type: entity
-  name: industrial loot spawner
+  name: 工業級戰利品生成器 | industrial loot spawner
   suffix: Tools + Materials
   id: LootSpawnerIndustrial
   parent: MarkerBase

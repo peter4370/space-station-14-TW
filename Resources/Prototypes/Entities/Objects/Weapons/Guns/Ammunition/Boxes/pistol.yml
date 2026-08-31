@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxPistol
-  name: ammunition box (.35 auto)
+  name: 彈藥箱（.35自動手槍） | ammunition box (.35 auto)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistol
-  name: ammunition box (.35 auto)
-  description: A cardboard box of .35 auto rounds. Intended to hold general-purpose kinetic ammunition.
+  name: 彈藥箱（.35自動手槍） | ammunition box (.35 auto)
+  description: 一個裝有 .35 自動手槍子彈的紙箱。原定用於盛裝通用動能彈藥。 | A cardboard box of .35 auto rounds. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolPractice
-  name: ammunition box (.35 auto practice)
-  description: A cardboard box of .35 auto rounds. Intended to hold harmless practice ammunition.
+  name: 彈藥箱（.35自動手槍練習用） | ammunition box (.35 auto practice)
+  description: 一個裝有.35自動手槍子彈的紙箱。原意是存放無害的練習彈藥。 | A cardboard box of .35 auto rounds. Intended to hold harmless practice ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -59,8 +59,8 @@
 - type: entity
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
-  name: ammunition box (.35 auto incendiary)
-  description: A cardboard box of .35 auto rounds. Intended to hold self-igniting incendiary ammunition.
+  name: 彈藥箱（.35 自動式燃燒彈） | ammunition box (.35 auto incendiary)
+  description: 一盒 .35 自動手槍子彈的紙盒。原定用於裝載自燃式燃燒彈。 | A cardboard box of .35 auto rounds. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolUranium
-  name: ammunition box (.35 auto uranium)
-  description: A cardboard box of .35 auto rounds. Intended to hold exotic uranium-core ammunition.
+  name: 彈藥箱（.35自動手槍鈾彈） | ammunition box (.35 auto uranium)
+  description: 一個裝有.35自動手槍子彈的紙箱。原本是用來裝載特殊鈾芯彈藥的。 | A cardboard box of .35 auto rounds. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium

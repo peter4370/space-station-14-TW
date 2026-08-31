@@ -1,18 +1,13 @@
-health-examinable-silicon-none = There is no obvious damage to be seen.
-
-health-examinable-silicon-Blunt-15 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } minor dents on { POSS-ADJ($target) } chassis.[/color]
-health-examinable-silicon-Blunt-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } chassis is severely dented![/color]
-health-examinable-silicon-Blunt-100 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } chassis is almost completely caved in![/color]
-
-health-examinable-silicon-Slash-8 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } some minor scratches.[/color]
-health-examinable-silicon-Slash-30 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } significant scratches on { POSS-ADJ($target) } chassis.[/color]
-health-examinable-silicon-Slash-75 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } major gashes across { POSS-ADJ($target) } plating![/color]
-health-examinable-silicon-Slash-100 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } chassis is torn up![/color]
-
-health-examinable-silicon-Piercing-50 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } large holes all over { POSS-ADJ($target) } chassis![/color]
-
-health-examinable-silicon-Heat-15 = [color=orange]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } superficial burns across { POSS-ADJ($target) } chassis.[/color]
-health-examinable-silicon-Heat-50 = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } chassis is significantly charred.[/color]
-health-examinable-silicon-Heat-75 = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } chassis is partially melted![/color]
-
-health-examinable-silicon-Shock-50 = [color=lightgoldenrodyellow]{ CAPITALIZE(POSS-ADJ($target)) } circuits seem partially fried![/color]
+health-examinable-silicon-none = 沒有明顯的損壞跡象。
+health-examinable-silicon-Blunt-15 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 底盤上有些微凹痕 { POSS-ADJ($target) }。[/color]
+health-examinable-silicon-Blunt-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 車架嚴重凹陷！[/color]
+health-examinable-silicon-Blunt-100 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 車架幾乎完全塌陷了！[/color]
+health-examinable-silicon-Slash-8 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 有些輕微刮痕。[/color]
+health-examinable-silicon-Slash-30 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 機身上有明顯的刮痕。[/color]
+health-examinable-silicon-Slash-75 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 鍍層上布滿了巨大的裂痕！[/color]
+health-examinable-silicon-Slash-100 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 底盤被撕爛了！[/color]
+health-examinable-silicon-Piercing-50 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 底盤上到處都是 { POSS-ADJ($target) } 大洞！[/color]
+health-examinable-silicon-Heat-15 = [color=orange]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 車體{ POSS-ADJ($target) } 處出現表淺燒傷。[/color]
+health-examinable-silicon-Heat-50 = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 底盤嚴重焦黑。[/color]
+health-examinable-silicon-Heat-75 = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 底盤部分熔化了！[/color]
+health-examinable-silicon-Shock-50 = [color=lightgoldenrodyellow]{ CAPITALIZE(POSS-ADJ($target)) } 電路似乎部分燒壞了！[/color]

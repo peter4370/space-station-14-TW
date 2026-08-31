@@ -1,42 +1,43 @@
 ## Entity
 
-chem-master-component-activate-no-hands = You have no hands.
-chem-master-component-cannot-put-entity-message = You can't put this in the ChemMaster!
+chem-master-component-activate-no-hands = 你沒有手。
+chem-master-component-cannot-put-entity-message = 你不能把這個放進 ChemMaster 裡！
 
 ## Bound UI
+
 chem-master-bound-user-interface-title = ChemMaster 4000
 
 ## UI
 
-chem-master-window-input-tab = Input
-chem-master-window-output-tab = Output
-chem-master-window-container-label = Container
-chem-master-window-eject-button = Eject
-chem-master-window-no-container-loaded-text = No container loaded.
-chem-master-window-buffer-text = Buffer
-chem-master-window-buffer-label = buffer:
-chem-master-window-buffer-all-amount = All
-chem-master-window-buffer-empty-text = Buffer empty.
-chem-master-window-buffer-low-text = Not enough solution in buffer
-chem-master-window-transfer-button = Transfer
-chem-master-window-discard-button = Discard
-chem-master-window-packaging-text = Packaging
-chem-master-current-text-label = Label:
-chem-master-window-pills-label = Pills:
-chem-master-window-pill-type-label = Pill type:
-chem-master-window-pills-number-label = Count:
-chem-master-window-dose-label = Dose (u):
-chem-master-window-create-button = Create
-chem-master-window-bottles-label = Bottles:
-chem-master-window-unknown-reagent-text = Unknown reagent
-chem-master-window-sort-type-none = Sort by: Oldest First
-chem-master-window-sort-type-alphabetical = Sort by: Alphabetical
-chem-master-window-sort-type-quantity = Sort by: Quantity
-chem-master-window-sort-type-latest = Sort by: Recent First
-chem-master-output-buffer-draw = Buffer
-chem-master-output-beaker-draw = Beaker
-chem-master-window-no-beaker-text = No beaker loaded
-chem-master-window-beaker-empty-text = Beaker Empty
-chem-master-window-beaker-low-text = Not enough solution in beaker
-chem-master-output-source = Packaging source:
-chem-master-no-source = No Source
+chem-master-window-input-tab = 輸入
+chem-master-window-output-tab = 輸出
+chem-master-window-container-label = 容器
+chem-master-window-eject-button = 彈出
+chem-master-window-no-container-loaded-text = 未載入任何容器。
+chem-master-window-buffer-text = 緩衝區
+chem-master-window-buffer-label = 緩衝區：
+chem-master-window-buffer-all-amount = 全部
+chem-master-window-buffer-empty-text = 緩衝區已空。
+chem-master-window-buffer-low-text = 緩衝液中的溶液不足
+chem-master-window-transfer-button = 轉帳
+chem-master-window-discard-button = 刪除
+chem-master-window-packaging-text = 包裝
+chem-master-current-text-label = 標籤：
+chem-master-window-pills-label = 藥丸：
+chem-master-window-pill-type-label = 藥丸類型：
+chem-master-window-pills-number-label = 計數：
+chem-master-window-dose-label = 劑量 (u)：
+chem-master-window-create-button = 建立
+chem-master-window-bottles-label = 瓶子：
+chem-master-window-unknown-reagent-text = 未知試劑
+chem-master-window-sort-type-none = 排序方式：由舊到新
+chem-master-window-sort-type-alphabetical = 排序方式：字母順序
+chem-master-window-sort-type-quantity = 排序方式：數量
+chem-master-window-sort-type-latest = 排序方式：最新為先
+chem-master-output-buffer-draw = 緩衝區
+chem-master-output-beaker-draw = 量杯
+chem-master-window-no-beaker-text = 未放置量杯
+chem-master-window-beaker-empty-text = 燒杯為空
+chem-master-window-beaker-low-text = 燒杯中的溶液不足
+chem-master-output-source = 包裝來源：
+chem-master-no-source = 無來源

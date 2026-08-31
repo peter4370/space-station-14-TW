@@ -1,67 +1,56 @@
-borg-player-not-allowed = The brain doesn't fit!
-borg-player-not-allowed-eject = The brain was expelled from the chassis!
-
-borg-panel-not-open = The cyborg's panel isn't open...
-
-borg-mind-added = {CAPITALIZE($name)} powered on!
-borg-mind-removed = {CAPITALIZE($name)} shut off!
-
-borg-module-too-many = There's not enough room for another module...
-borg-module-duplicate = This module is already installed in this cyborg...
-borg-module-whitelist-deny = This module doesn't fit in this type of cyborg...
-borg-module-incompatible = This module isn't compatible with {THE($existing)}...
-borg-module-prerequisite-unfulfilled = This module requires another module to function...
-
-borg-module-action-name = Activate {$moduleName}
-borg-module-action-description = Select the {$moduleName}, enabling you to use the tools it provides.
-
-borg-construction-guide-string = The cyborg limbs and torso must be attached to the endoskeleton.
-
-borg-ui-menu-title = Cyborg Interface
-borg-ui-charge-label = Charge: {$charge}%
-borg-ui-no-brain = No brain present
-borg-ui-remove-battery = Remove
-borg-ui-modules-label = Modules:
-borg-ui-module-counter = {$actual}/{$max}
-
+borg-player-not-allowed = 大腦放不進去！
+borg-player-not-allowed-eject = 大腦被從機殼中彈了出來！
+borg-panel-not-open = 那個機械人的控制面板並未打開……
+borg-mind-added = { CAPITALIZE($name) } 已啟動！
+borg-mind-removed = { CAPITALIZE($name) } 已關閉！
+borg-module-too-many = 沒有足夠的空間再加裝一個模組……
+borg-module-duplicate = 這個模組已經安裝在這具機械人身上了……
+borg-module-whitelist-deny = 這個模組不適合安裝在這種類型的賽博格上……
+borg-module-incompatible = 此模組與 { THE($existing) } 不相容……
+borg-module-prerequisite-unfulfilled = 此模組需搭配另一個模組才能運作……
+borg-module-action-name = 啟用 { $moduleName }
+borg-module-action-description = 選取 { $moduleName }，即可使用該網站提供的工具。
+borg-construction-guide-string = 機械義肢與軀幹必須安裝在內骨骼上。
+borg-ui-menu-title = 機械人介面
+borg-ui-charge-label = 電量：{ $charge }%
+borg-ui-no-brain = 腦子不在
+borg-ui-remove-battery = 移除
+borg-ui-modules-label = 模組：
+borg-ui-module-counter = { $actual }/{ $max }
 # Transponder
-borg-transponder-disabled-popup = A brain shoots out the top of {$name}!
-borg-transponder-disabling-popup = Your transponder begins to lock you out of the chassis!
-borg-transponder-destroying-popup = The self destruct of {$name} starts beeping!
-borg-transponder-emagged-disabled-popup = Your transponder's lights go out!
-borg-transponder-emagged-destroyed-popup = Your transponder's fuse blows!
+borg-transponder-disabled-popup = 一顆大腦從 { $name } 的頂端迸射而出！
+borg-transponder-disabling-popup = 您的應答器開始將您鎖在底盤之外了！
+borg-transponder-destroying-popup = { $name } 的自毀機制開始發出嗶嗶聲！
+borg-transponder-emagged-disabled-popup = 您的應答器燈號熄滅了！
+borg-transponder-emagged-destroyed-popup = 您的應答器保險絲燒斷了！
 
 ## Borg type selection UI.
-borg-select-type-menu-title = Select Chassis Type
-borg-select-type-menu-bottom-text = Chassis selection is irreversible
-borg-select-type-menu-available = Available types
-borg-select-type-menu-information = Information
-borg-select-type-menu-select-type = Select type to view information
-borg-select-type-menu-confirm = Confirm selection
-borg-select-type-menu-guidebook = Guidebook
+
+borg-select-type-menu-title = 選擇底盤類型
+borg-select-type-menu-bottom-text = 底盤的選擇一經確定便無法更改
+borg-select-type-menu-available = 可選類型
+borg-select-type-menu-information = 資訊
+borg-select-type-menu-select-type = 選擇類型以查看相關資訊
+borg-select-type-menu-confirm = 確認選項
+borg-select-type-menu-guidebook = 指南手冊
 
 ## Borg type information
 
-borg-type-generic-name = Generic
-borg-type-generic-desc = Jack of all trades, master of none. Do various random station tasks, or maybe help out the science department that built you.
-borg-type-generic-transponder = generic cyborg
-
-borg-type-engineering-name = Engineering
-borg-type-engineering-desc = Assist the engineering team in station construction, repairing damage, or fixing electrical and atmospheric issues.
-borg-type-engineering-transponder = engineering cyborg
-
-borg-type-mining-name = Salvage
-borg-type-mining-desc = Join salvage and help them mine for materials, scavenge wrecks, and fight off hostile wildlife.
-borg-type-mining-transponder = salvage cyborg
-
-borg-type-janitor-name = Janitor
-borg-type-janitor-desc = Keep the station nice and tidy, clean up spills, collect and properly dispose of trash left around by lazy crewmembers.
-borg-type-janitor-transponder = janitor cyborg
-
-borg-type-medical-name = Medical
-borg-type-medical-desc = Provide medical attention to crew who need it, either in medbay or in hazardous areas conventional paramedics cannot reach.
-borg-type-medical-transponder = medical cyborg
-
-borg-type-service-name = Service
-borg-type-service-desc = Help out with a wide range of crew services, ranging from serving snacks and drinks to botany to entertainment.
-borg-type-service-transponder = service cyborg
+borg-type-generic-name = 通用
+borg-type-generic-desc = 樣樣通，樣樣鬆。執行各種隨機的空間站任務，或者幫幫當初打造你的科學部門一把。
+borg-type-generic-transponder = 通用型機械人
+borg-type-engineering-name = 工程學
+borg-type-engineering-desc = 協助工程團隊進行站點建造、修復損壞處，或解決電氣及氣象相關問題。
+borg-type-engineering-transponder = 工程學上的半機械人
+borg-type-mining-name = 打撈部
+borg-type-mining-desc = 加入打撈隊，協助他們開採材料、搜尋沉船殘骸，並抵禦敵對的野生動物。
+borg-type-mining-transponder = 打撈型賽博格
+borg-type-janitor-name = 清潔工
+borg-type-janitor-desc = 保持工作站整潔有序，清理灑出的液體，並將懶惰的船員隨處亂扔的垃圾收集起來並妥善處理。
+borg-type-janitor-transponder = 機器人清潔工
+borg-type-medical-name = 醫療
+borg-type-medical-desc = 為需要醫療協助的船員提供醫療照護，無論是在醫務室，還是在一般救護人員無法進入的危險區域。
+borg-type-medical-transponder = 醫療型賽博格
+borg-type-service-name = 服務
+borg-type-service-desc = 協助處理各類船員服務，範圍涵蓋從提供點心和飲料，到植物學乃至娛樂活動等。
+borg-type-service-transponder = 服務型機械人

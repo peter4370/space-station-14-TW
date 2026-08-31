@@ -1,44 +1,30 @@
 reagent-name-astrotame = Astrotame
-reagent-desc-astrotame = The sweetness of a thousand sugars but none of the calories.
-
-reagent-name-bbq-sauce = BBQ sauce
-reagent-desc-bbq-sauce = Hand wipes not included.
-
-reagent-name-cornoil = corn oil
-reagent-desc-cornoil = Corn oil, A delicious oil used in cooking. Made from corn.
-
+reagent-desc-astrotame = 擁有千種糖的甜味，卻不含任何熱量。
+reagent-name-bbq-sauce = 燒烤醬
+reagent-desc-bbq-sauce = 不包含濕紙巾。
+reagent-name-cornoil = 玉米油
+reagent-desc-cornoil = 玉米油，一種用於烹飪的美味食用油。以玉米為原料製成。
 reagent-name-coldsauce = coldsauce
-reagent-desc-coldsauce = Leaves the tongue numb in its passage.
-
-reagent-name-horseradish-sauce = horseradish sauce
-reagent-desc-horseradish-sauce = Smelly horseradish sauce.
-
-reagent-name-hotsauce = hotsauce
-reagent-desc-hotsauce = Burns so good.
-
-reagent-name-ketchup = ketchup
-reagent-desc-ketchup = Made from pureed tomatoes and flavored with spices.
-
-reagent-name-ketchunaise = ketchunaise
-reagent-desc-ketchunaise = So-called Russian dressing, popular among Space Americans.
-
-reagent-name-laughin-syrup = laughin' syrup
-reagent-desc-laughin-syrup = The product of juicing Laughin' Peas. Fizzy, and seems to change flavour based on what it's used with!
-
-reagent-name-mayo = mayonnaise
-reagent-desc-mayo = Creamy sauce, made from oil, egg, and some (edible) acid.
-
-reagent-name-mustard = mustard
-reagent-desc-mustard = Basic yellow mustard, made from the seeds of the mustard plant.
-
-reagent-name-vinaigrette = vinaigrette
-reagent-desc-vinaigrette = A basic salad dressing made with oil, vinegar and seasoning.
-
-reagent-name-soysauce = soy sauce
-reagent-desc-soysauce = A salty soy-based flavoring.
-
-reagent-name-table-salt = table salt
-reagent-desc-table-salt = Commonly known as salt, Sodium Chloride is often used to season food or kill borers instantly.
-
-reagent-name-syrup = syrup
-reagent-desc-syrup = Delicious syrup made from tree sap, somehow stickier than glue.
+reagent-desc-coldsauce = 經過時會讓舌頭感到麻木。
+reagent-name-horseradish-sauce = 辣根醬 horseradish sauce
+reagent-desc-horseradish-sauce = 氣味刺鼻的辣根醬。
+reagent-name-hotsauce = 辣醬
+reagent-desc-hotsauce = 燒得真棒。
+reagent-name-ketchup = 番茄醬
+reagent-desc-ketchup = 由番茄泥製成，並以香料調味。
+reagent-name-ketchunaise = 凱楚奈斯 ketchunaise
+reagent-desc-ketchunaise = 所謂的「俄式沙拉醬」，在太空美國人中頗受歡迎。
+reagent-name-laughin-syrup = 笑聲糖漿 laughin' syrup
+reagent-desc-laughin-syrup = 這是將「Laughin' Peas」榨汁製成的產品。氣泡感十足，而且似乎會根據搭配的食材而改變風味！
+reagent-name-mayo = 美乃滋 mayonnaise
+reagent-desc-mayo = 一種由油、蛋和少許（可食用的）酸製成的濃稠醬汁。
+reagent-name-mustard = 芥末 mustard
+reagent-desc-mustard = 基本款黃芥末醬，以芥菜籽製成。
+reagent-name-vinaigrette = 油醋汁 vinaigrette
+reagent-desc-vinaigrette = 一種由油、醋和調味料調製而成的基礎沙拉醬。
+reagent-name-soysauce = 醬油
+reagent-desc-soysauce = 一種以大豆為基底的鹹味調味劑。
+reagent-name-table-salt = 食鹽
+reagent-desc-table-salt = 氯化鈉，俗稱鹽，常被用來調味或瞬間殺死木蠹蟲。
+reagent-name-syrup = 糖漿
+reagent-desc-syrup = 一種由樹液製成的美味糖漿，不知為何比膠水還黏。

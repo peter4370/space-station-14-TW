@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseCartridge, BaseSecurityContraband ]
   id: BaseCartridgePistol
-  name: cartridge (.35 auto)
+  name: 子彈（.35 Auto） | cartridge (.35 auto)
   components:
   - type: Tag
     tags:
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseCartridgePistol
   id: CartridgePistol
-  name: cartridge (.35 auto)
-  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Standard kinetic ammunition is common and useful in most situations.
+  name: 子彈（.35 Auto） | cartridge (.35 auto)
+  description: 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。標準動能彈藥十分常見，且在大多數情況下都相當實用。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Standard kinetic ammunition is common and useful in most situations.
   components:
   - type: CartridgeAmmo
     proto: BulletPistol
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseCartridgePistol
   id: CartridgePistolPractice
-  name: cartridge (.35 auto practice)
-  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+  name: 子彈（.35 Auto 練習彈） | cartridge (.35 auto practice)
+  description: 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。練習彈使用的是粉筆製成的彈頭，射中時會有些許刺痛感，但除此之外不會造成任何持久性傷害。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
   components:
   - type: CartridgeAmmo
     proto: BulletPistolPractice
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseCartridgePistol
   id: CartridgePistolIncendiary
-  name: cartridge (.35 auto incendiary)
-  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+  name: 子彈（.35自動燃燒彈） | cartridge (.35 auto incendiary)
+  description: 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。燃燒彈藥含有自燃化合物，能使目標起火燃燒。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
   components:
   - type: CartridgeAmmo
     proto: BulletPistolIncendiary
@@ -60,8 +60,8 @@
 
 - type: entity
   id: CartridgePistolUranium
-  name: cartridge (.35 auto uranium)
-  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
+  name: 子彈彈匣（.35 Auto 鈾彈） | cartridge (.35 auto uranium)
+  description: 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。鈾彈藥將子彈的鉛芯替換為可裂變材料，使目標從內部受到輻射照射。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseCartridgePistol
   id: CartridgePistolSpent
-  name: cartridge (.35 auto)
+  name: 子彈（.35 Auto） | cartridge (.35 auto)
   suffix: spent
   components:
   - type: Sprite

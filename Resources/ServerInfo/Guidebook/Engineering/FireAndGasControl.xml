@@ -1,7 +1,8 @@
-﻿<Document>
-  # Fire and Gas Control
-  Unfortunately, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], and other [textlink="atmospheric upsets" link="AtmosphericUpsets"] are a common occurrence on the station.
-  These upsets can quickly spread throughout the station and make the atmosphere uninhabitable for the crew.
+﻿
+<Document>
+  # 火災與氣體控制
+  遺憾的是，[textlink="火災" link="火災"], [textlink="間距" link="間距"] 以及其他 [textlink="大氣異常" link="大氣異常"] 在該站時有發生。
+  這些異常狀況可能會迅速蔓延至整個空間站，使站內環境變得不適合乘組人員居住。
 
   <Box>
     <GuideEntityEmbed Entity="Firelock"/>
@@ -10,33 +11,33 @@
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  To combat this, stations have a variety of devices to help prevent these upsets from spreading.
+  為解決此問題，各電站配備了多種裝置，以協助防止這些異常狀況蔓延。
 
-  ## Firelocks
-  Firelocks are a simple and effective way to prevent fires from spreading throughout the station.
+  ## 防火鎖
+  防火鎖是一種簡單且有效的方法，能防止火勢在車站內蔓延。
 
-  Based on conditions sensed by the firelock, or through instruction from a connected [textlink="air" link="AirAlarms"] or fire alarm, they can close off sections of the station to prevent the spread of dangerous conditions.
+  根據防火閘感測到的狀況，或透過連線的 [textlink="air" link="AirAlarms"] 或火災警報器的指令，這些裝置可封鎖車站的部分區域，以防止危險狀況蔓延。
 
-  ## Station Sectioning
-  Firelocks are intentionally placed in key areas to divide the station into sections. Open spaces like hallways or promenades are divided into smaller sections. This prevents the spread of dangerous conditions to the entire station through connected rooms, hallways, and other open spaces.
+  ## 站內分區
+  防火隔間會刻意設置於關鍵區域，用以將車站劃分為不同區段。 像走廊或長廊這類開放空間被劃分為較小的區段。 此舉可防止危險狀況透過相連的房間、走廊及其他開放空間，蔓延至整個車站。
 
-  ## Basic Operation
-  When not connected to an [textlink="air alarm" link="AirAlarms"] or fire alarm, firelocks will function based on the conditions they sense. Firelocks will drop (close) if:
-  - The temperature between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] or more.
-  - The pressure between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] or more.
+  ## 基本操作
+  當未連接至 [textlink="空氣警報器" link="AirAlarms"] 或火災警報器時，防火鎖將根據其感測到的狀況運作。 若發生以下情況，防火鎖將會關閉：
+  - 防火鎖兩側的溫度差達到 [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] 或以上。
+  - 火鎖兩側的壓力差達 [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] 或以上。
 
-  If these conditions continue, the firelock will enter lockout mode. Firelocks in lockout mode will have [color=red]red[/color] lights and cannot be pried open by hand. They can only be opened by people with Engineering access or by using a crowbar.
+  若這些狀況持續，火鎖將進入鎖定模式。 處於鎖定模式的 Firelock 會亮起 [color=red]紅色[/color] 指示燈，且無法用手撬開。 只有具備「工程」權限的人員，或使用撬棍，才能將其打開。
 
-  Firelocks in lockout mode cannot be opened by using Engineering access if they are unpowered. Only a crowbar can open an unpowered firelock in lockout mode.
+  處於鎖定模式的火鎖，若未供電，則無法透過工程存取功能開啟。 只有撬棍才能打開處於鎖定模式且未通電的火槍。
 
-  If the conditions between the two sides of the firelock return to within acceptable differences, the firelock will disable lockout mode, and can be opened by anyone.
-  Note that this only means that the conditions are the same on both sides of the firelock, not that they are safe.
+  若火鎖兩側的條件恢復至可接受的差異範圍內，火鎖將解除鎖定模式，屆時任何人皆可開啟。
+  請注意，這僅表示火鎖兩側的狀況相同，並不表示它們是安全的。
 
-  A common example of this is a firelock that has released due to both sides being exposed to space.
+  一個常見的例子是，由於兩側都暴露在太空中，導致鎖定裝置解除。
 
-  ## Connecting to Air and Fire Alarms
-  Firelocks can be connected to [textlink="air alarms" link="AirAlarms"] and fire alarms to receive instructions on when to drop.
-  Firelocks use the [textlink="List system" link="Networking"], and you can connect these devices using a multitool or network configurator.
+  ## 連接至空氣警報器與火災警報器
+  防火鎖可連接至 [textlink="空氣警報器" link="AirAlarms"] 及火災警報器，以便接收何時應放下鎖具的指示。
+  Firelocks 採用 [textlink="清單系統" link="網路連線"]，您可以透過多功能工具或網路設定程式來連接這些裝置。
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
@@ -46,32 +47,32 @@
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
   </Box>
 
-  Each firelock has its own unique address. The process for connecting air vents, scrubbers, and sensors to air alarms is very similar.
+  每把火槍都有其獨一無二的地址。 將通風口、洗滌器及感測器連接至空氣警報器的步驟非常相似。
 
-  ## Operation Under Air Alarms
-  When connected to an air alarm, firelocks will also drop under the command of the connected [textlink="air alarm" link="AirAlarms"].
+  ## 空氣警報運作
+  當連接至空氣警報時，防火閘也會在所連接的 [textlink="空氣警報" link="AirAlarms"] 的指令下降下。
 
-  Firelocks will drop if the air alarm reaches a [color=red]Danger[/color] alert state. Firelocks will remain dropped until the air alarm returns to a [color=green]Green[/color] alert state.
+  若氣體警報達到 [color=red]危險[/color] 警戒狀態，消防栓將會自動降下。 在氣體警報恢復至 [color=green]綠色[/color] 警戒狀態之前，火槍將持續保持掉落狀態。
 
-  Firelocks that are in lockout mode will not raise even if the air alarm returns to a [color=green]Green[/color] alert state. Even if the pressure difference is resolved, the firelock will remain dropped until the air alarm re-sends a green alert state.
+  處於鎖定模式的防火鎖，即使空氣警報恢復至 [color=green]綠色[/color] 警報狀態，也不會升起。 即使壓力差已消除，防火閘仍將保持關閉狀態，直到空氣警報器再次發出綠色警報狀態為止。
 
-  ## Operation Under Fire Alarms
-  When connected to a fire alarm, firelocks will drop if the fire alarm is triggered. Firelocks will remain dropped until the fire alarm is reset.
+  ## 火災警報觸發時的運作
+  當連接至火災警報系統時，若火災警報被觸發，防火鎖將自動解鎖。 在火災警報重置之前，消防鎖將保持解鎖狀態。
 
-  ## Fire Alarms
-  Fire alarms are devices that can be used to centrally control all connected firelocks.
+  ## 火災警報器
+  火災警報器是一種可用於集中控制所有連接之防火鎖的裝置。
 
   <Box>
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  Devices with sensors can be [textlink="linked" link="Networking"] to fire alarms, which will trigger the fire alarm if the sensor enters the [color=red]Danger[/color] temperature threshold as defined by its sensors.
+  配備感測器的裝置可與[textlink="linked" link="網路連線"]連接，當感測器偵測到的溫度達到其感測器所定義的[color=red]危險[/color]溫度閾值時，便會觸發火災警報。
 
-  When the fire alarm is triggered, all connected firelocks will be overridden with a [color=red]Danger[/color] alert state and will drop.
+  當火災警報觸發時，所有已連接的防火鎖將被強制切換至 [color=red]危險[/color] 警示狀態，並自動解鎖。
 
-  The alarm will automatically clear itself when the sensor returns to a [color=green]Normal[/color] temperature threshold.
+  當感測器恢復至 [color=green]正常[/color] 溫度閾值時，警報將自動解除。
 
-  You can trigger and reset a fire alarm manually by interacting with it.
+  您可以透過操作火災警報器，手動觸發或重置警報。
 
-  This can be used to quickly drop firelocks in a room manually, or to raise them after an upset has been resolved.
+  此功能可用於手動快速將房間內的火槍放下，或在解決衝突後將其抬起。
 </Document>

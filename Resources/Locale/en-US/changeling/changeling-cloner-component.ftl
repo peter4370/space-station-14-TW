@@ -1,11 +1,9 @@
-changeling-cloner-component-empty = It is empty.
-changeling-cloner-component-filled = It has a DNA sample in it.
-changeling-cloner-component-spent = It has been used.
-
-changeling-cloner-component-reset-verb = Reset DNA
-changeling-cloner-component-reset-popup = You purge the injector's DNA storage.
-
-changeling-cloner-component-draw-user = You start drawing DNA from {THE($target)}.
-changeling-cloner-component-draw-target = {CAPITALIZE(THE($user))} starts drawing DNA from you.
-changeling-cloner-component-inject-user = You start injecting DNA into {THE($target)}.
-changeling-cloner-component-inject-target = {CAPITALIZE(THE($user))} starts injecting DNA into you.
+changeling-cloner-component-empty = 裡面是空的。
+changeling-cloner-component-filled = 裡面有一份 DNA 樣本。
+changeling-cloner-component-spent = 它已經被使用過了。
+changeling-cloner-component-reset-verb = 重置 DNA
+changeling-cloner-component-reset-popup = 你清除了注射器的 DNA 儲存裝置。
+changeling-cloner-component-draw-user = 你開始從 { THE($target) } 提取 DNA。
+changeling-cloner-component-draw-target = { CAPITALIZE(THE($user)) } 開始從你身上提取 DNA。
+changeling-cloner-component-inject-user = 你開始將 DNA 注入 { THE($target) }。
+changeling-cloner-component-inject-target = { CAPITALIZE(THE($user)) } 開始將 DNA 注入你的體內。

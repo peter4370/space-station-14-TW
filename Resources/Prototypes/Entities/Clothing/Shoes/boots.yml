@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsWork
-  name: workboots
-  description: Engineering lace-up work boots for the especially blue-collar.
+  name: 工作靴 | workboots
+  description: 專為藍領工作者設計的工程系帶工作靴。 | Engineering lace-up work boots for the especially blue-collar.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/workboots.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: [ClothingShoesMilitaryBase, BaseSecurityContraband]
   id: ClothingShoesBootsJack
-  name: jackboots
-  description: Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+  name: 軍靴 | jackboots
+  description: Nanotrasen 專為戰鬥情境或戰鬥狀況設計的安全戰鬥靴。隨時隨地，皆為戰鬥。 | Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jackboots.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsSalvage
-  name: salvage boots
-  description: Steel-toed salvage boots for salvaging in hazardous environments.
+  name: 打撈靴 | salvage boots
+  description: 適用於危險環境中進行打撈作業的鋼頭打撈靴。 | Steel-toed salvage boots for salvaging in hazardous environments.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/explorer.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsPerformer
-  name: performer's boots
-  description: These boots provide great traction for when you're up on stage.
+  name: 表演者專用靴 | performer's boots
+  description: 這雙靴子能為你在舞台上的表演提供絕佳的抓地力。 | These boots provide great traction for when you're up on stage.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/performer.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: [ClothingShoesMilitaryBase, BaseSecurityContraband]
   id: ClothingShoesBootsCombat
-  name: combat boots
-  description: Robust combat boots for combat scenarios or combat situations. All combat, all the time.
+  name: 作戰靴 | combat boots
+  description: 專為作戰場景或作戰情境設計的堅固戰鬥靴。時刻準備作戰，無時無刻。 | Robust combat boots for combat scenarios or combat situations. All combat, all the time.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/combatboots.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesHighheelBoots
-  name: high-heeled boots
-  description: Snazy boots for when you want to be stylish, yet prepared.
+  name: 高跟靴 | high-heeled boots
+  description: 這款時尚又實用的靴子，讓你在展現時尚風格的同時，也能做好萬全準備。 | Snazy boots for when you want to be stylish, yet prepared.
   components:
   - type: MeleeWeapon
     damage:
@@ -83,8 +83,8 @@
 - type: entity
   parent: [ ClothingShoesMilitaryBase ]
   id: ClothingShoesBootsMerc
-  name: mercenary boots
-  description: Boots that have gone through many conflicts and that have proven their combat reliability.
+  name: 傭兵靴 | mercenary boots
+  description: 這雙軍靴歷經多次戰事考驗，其作戰可靠性已獲得證實。 | Boots that have gone through many conflicts and that have proven their combat reliability.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/mercboots.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsLaceup
-  name: laceup shoes
-  description: The height of fashion, and they're pre-polished!
+  name: 繫帶鞋 | laceup shoes
+  description: 堪稱時尚巔峰，而且已經預先拋光了！ | The height of fashion, and they're pre-polished!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/laceups.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinter
-  name: winter boots
+  name: 冬季靴子 | winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterboots.rsi
@@ -117,7 +117,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterCargo
-  name: cargo winter boots
+  name: Cargo 冬季靴 | cargo winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootscargo.rsi
@@ -127,7 +127,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterEngi
-  name: engineering winter boots
+  name: 工程用冬季靴 | engineering winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootsengi.rsi
@@ -137,7 +137,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterMed
-  name: medical winter boots
+  name: 醫療用冬季靴 | medical winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootsmed.rsi
@@ -147,7 +147,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterSci
-  name: science winter boots
+  name: 科學冬季靴 | science winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssci.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: [ClothingShoesBaseWinterBoots, ClothingShoesMilitaryBase, BaseSecurityContraband]
   id: ClothingShoesBootsWinterSec
-  name: security winter boots
+  name: 防滑冬季靴 | security winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssec.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: [ClothingShoesBaseWinterBoots, BaseSyndicateContraband]
   id: ClothingShoesBootsWinterSyndicate
-  name: syndicate's winter boots
-  description: Durable heavy boots, looks like merch from "Syndieland".
+  name: Syndicate 的冬季靴子 | syndicate's winter boots
+  description: 一雙耐穿的厚底靴，看起來像是《Syndieland》的周邊商品。 | Durable heavy boots, looks like merch from "Syndieland".
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssyndicate.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: [ClothingShoesBaseWinterBoots, BaseSlicingRefinable]
   id: ClothingShoesBootsWinterWeb
-  name: web winter boots
-  description: Boots made out of dense webbing to help survive even the coldest of winters.
+  name: 網路冬季靴 | web winter boots
+  description: 這雙由緻密織帶製成的靴子，能助您度過最嚴寒的冬季。 | Boots made out of dense webbing to help survive even the coldest of winters.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootsweb.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsCowboyBrown
-  name: brown cowboy boots
-  description: They got spurs that jingle and/or jangle.
+  name: 棕色牛仔靴 | brown cowboy boots
+  description: 他們的馬刺會發出叮噹聲和／或叮噹叮噹聲。 | They got spurs that jingle and/or jangle.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootsbrown.rsi
@@ -223,7 +223,7 @@
 - type: entity
   parent: ClothingShoesBootsCowboyBrown
   id: ClothingShoesBootsCowboyBlack
-  name: black cowboy boots
+  name: 黑色牛仔靴 | black cowboy boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootsblack.rsi
@@ -233,7 +233,7 @@
 - type: entity
   parent: ClothingShoesBootsCowboyBrown
   id: ClothingShoesBootsCowboyWhite
-  name: white cowboy boots
+  name: 白色牛仔靴 | white cowboy boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootswhite.rsi
@@ -243,7 +243,7 @@
 - type: entity
   parent: ClothingShoesBootsCowboyBrown
   id: ClothingShoesBootsCowboyFancy
-  name: fancy cowboy boots
+  name: 時尚牛仔靴 | fancy cowboy boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootsfancy.rsi

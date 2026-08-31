@@ -1,14 +1,10 @@
-reagent-name-bleach = bleach
-reagent-desc-bleach = Heavy duty cleaner that can clean tiles better than Space Cleaner. Extremely toxic when ingested.
-
-reagent-name-space-cleaner = space cleaner
-reagent-desc-space-cleaner = This is able to clean almost all surfaces of almost anything that may dirty them. The janitor is likely to appreciate refills.
-
-reagent-name-soap = soap
-reagent-desc-soap = I wouldn't clean my mouth out with this if I were you.
-
-reagent-name-space-lube = space lube
-reagent-desc-space-lube = Space Lube is a high performance lubricant intended for maintenance of extremely complex mechanical equipment (and certainly not used to make people slip).
-
-reagent-name-space-glue = space glue
-reagent-desc-space-glue = Space Glue is a high performance glue intended for maintenance of extremely complex mechanical equipment (and certainly not used to make people stick to the floor).
+reagent-name-bleach = 漂白劑
+reagent-desc-bleach = 一款強力清潔劑，清潔磁磚的效果比「Space Cleaner」更佳。若誤食，毒性極強。
+reagent-name-space-cleaner = 太空清潔機 space cleaner
+reagent-desc-space-cleaner = 這款產品幾乎能清潔任何物品上可能沾染污垢的幾乎所有表面。清潔人員很可能會對補充裝感到滿意。
+reagent-name-soap = 肥皂 soap
+reagent-desc-soap = 換作是我，我可不會用這個來漱口。
+reagent-name-space-lube = 太空潤滑劑 space lube
+reagent-desc-space-lube = Space Lube 是一款專為維護極其複雜的機械設備所設計的高性能潤滑劑（當然絕非用於讓人滑倒）。
+reagent-name-space-glue = 太空膠 space glue
+reagent-desc-space-glue = 「太空膠」是一種高性能黏合劑，專為極其複雜的機械設備維護而設計（當然絕非用來讓人們黏在地板上）。

@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseDeltaPressureReinforcedPlasma, BaseWindowStructure, BaseRCDResistant, StructureHealthBarrierStrong]
   id: ReinforcedPlasmaWindow
-  name: reinforced plasma window
+  name: 強化等離子窗 | reinforced plasma window
   components:
   - type: Sprite
     sprite: Structures/Windows/window-plasma-reinf.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: [BaseDeltaPressureReinforcedPlasmaQuarter, BaseWindowStructureDirectional, BaseRCDResistant, StructureHealthBarrier]
   id: PlasmaReinforcedWindowDirectional
-  name: directional reinforced plasma window
+  name: 定向強化等離子窗 | directional reinforced plasma window
   components:
   - type: Sprite
     sprite: Structures/Windows/directional.rsi

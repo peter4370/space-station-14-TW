@@ -1,51 +1,52 @@
+
 <Document>
-  # Xenoarchaeology
+  # 外星考古學
 
-  Xenoarchaeology is a branch of Science focused on researching alien [bold]artifacts[/bold].
+  外星考古學是科學的一門分支，專注於研究外星 [bold]文物[/bold]。
 
-  Unlocking their secrets grants research points and reveals strange, potentially useful, or dangerous effects.
+  解開這些文物的秘密可獲得研究點數，並揭示出奇異、可能有用或危險的效果。
 
-  At round start, Science usually has one or two artifacts in the lab. More can be:
-  - Ordered from [color=orange]Cargo[/color]
-  - Found by [color=orange]Salvage[/color]
-  - Assembled from [bold]fragments[/bold]
-  - Appear during certain station events
+  每回合開始時，科學部門的實驗室中通常會有一至兩件文物。 其他取得方式包括：
+  - 從 [color=orange]貨運[/color] 訂購
+  - 透過 [color=orange]打撈[/color] 發現
+  - 由 [bold]碎片[/bold] 組裝而成
+  - 在特定空間站事件中出現
 
-  ## Artifacts
+  ## 文物
   <Box>
     <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
     <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
   </Box>
 
-  Artifacts contain [bold]nodes[/bold] arranged in [bold]layers[/bold].
-  - Unlocking a node unlocks connected nodes on upper layers.
-  - Each node has [bold]triggers[/bold], actions that must be performed near the artifact to unlock a node.
-  - When a node is unlocked, its [bold]effect[/bold] will trigger, and the node becomes [bold][color=plum]Active[/color][/bold].
-  - Each node has [bold]durability[/bold]: the number of times it can be manually activated after being unlocked.
-  - Higher nodes are harder to reach but give more [bold]research points[/bold].
-  - Unlocking all nodes provides no special bonus, but every node yields research points.
+  遺物包含以 [bold]層[/bold] 形式排列的 [bold]節點[/bold]。
+  - 解鎖一個節點，將同時解鎖上層中與其相連的節點。
+  - 每個節點都有 [bold]觸發條件[/bold]，即必須在遺物附近執行特定動作才能解鎖該節點。
+  - 當節點被解鎖時，其 [bold]效果[/bold] 將會觸發，且該節點會變成 [bold][color=plum]活躍[/color][/bold] 狀態。
+  - 每個節點皆有 [bold]耐久度[/bold]：即解鎖後可手動觸發的次數。
+  - 層級較高的節點較難抵達，但能提供更多的 [bold]研究點數[/bold]。
+  - 解鎖所有節點並不會提供特殊獎勵，但每個節點都會產生研究點數。
 
-  ## Equipment
+  ## 裝備
   <Box>
     <GuideEntityEmbed Entity="MachineArtifactAnalyzer" Caption="Analyzer"/>
     <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Analysis Console"/>
     <GuideEntityEmbed Entity="NodeScanner" Caption="Node Scanner"/>
   </Box>
-  - [bold]Artifact Analyzer:[/bold] Stationary device that scans artifacts, sending data to the Console.
-  - [bold][textlink="Analysis Console:" link="AnalysisConsole"][/bold] Stationary device that is used to display the node tree. Must be linked to an Analyzer with a multitool.
-  - [bold]Node Scanner:[/bold] Small hand-held device that can show the ID of the node currently being activated and whether the artifact is ready to trigger, letting scientist have minimal required knowledge for operating inside chamber near artifact and far without direct access to console.
+  - [bold]文物分析儀：[/bold] 用於掃描文物的固定式裝置，會將資料傳送至控制台。
+  - [bold][textlink="分析控制台：" link="AnalysisConsole"][/bold] 用於顯示節點樹的固定式裝置。 必須透過多功能工具與分析器連結。
+  - [bold]節點掃描器：[/bold] 小型手持裝置，可顯示當前正在啟動的節點 ID，以及遺物是否已準備好觸發，讓科學家即使在遺物附近或遠處的實驗室內操作，無需直接接觸控制台，也能以最低限度所需的知識進行操作。
 
   <Box>
     <GuideEntityEmbed Entity="CrateArtifactContainer" Caption="Artifact Container"/>
     <GuideEntityEmbed Entity="HandheldArtifactContainer" Caption="Handheld Container"/>
   </Box>
-  - [bold]Artifact Containers:[/bold] Safely store and transports artifacts and prevent nodes from triggering.
+  - [粗體]文物容器：[/粗體] 安全地儲存與運輸文物，並防止節點被觸發。
   <Box>
     <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="Crusher"/>
   </Box>
-  - [bold]Artifact Crusher:[/bold] Crushes artifacts into fragments. Four fragments can be rebuilt into a new artifact.
+  - [粗體]神器粉碎機：[/粗體] 將神器粉碎成碎片。四片碎片可重組為一件新的神器。
   <Box>
     <GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
   </Box>
-  - [bold]Artifact Fragment:[/bold] Pieces of destroyed artifacts. Four fragments can be rebuilt into a new artifact using the craft menu.
+  - [粗體]神器碎片：[/粗體] 被摧毀的神器殘片。透過製作選單，可將四片碎片重組為一件新的神器。
 </Document>

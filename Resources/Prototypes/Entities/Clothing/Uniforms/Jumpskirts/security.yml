@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtDetective
-  name: hard-worn suitskirt
-  description: Someone who wears this means business.
+  name: 經年累月穿著的套裝裙 | hard-worn suitskirt
+  description: 穿這件衣服的人，可是認真的。 | Someone who wears this means business.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/detective.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtDetectiveGrey
-  name: noir suitskirt
-  description: A hard-boiled private investigator's grey suit, complete with tie clip.
+  name: 黑色套裝裙 | noir suitskirt
+  description: 一位硬派私家偵探的灰色西裝，配有領帶夾。 | A hard-boiled private investigator's grey suit, complete with tie clip.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/detective_grey.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtHoS
-  name: head of security's jumpskirt
-  description: It's bright red and rather crisp, much like security's victims tend to be.
+  name: 安保主管的連體裙 | head of security's jumpskirt
+  description: 它呈鮮紅色，質地相當爽脆，這點與安全人員的受害者通常的模樣頗為相似。 | It's bright red and rather crisp, much like security's victims tend to be.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/hos.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtHoSAlt
-  name: head of security's turtleneck
-  description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+  name: 安保主管的高領衫 | head of security's turtleneck
+  description: 這是一件高領衫，只有那些足夠強悍且紀律嚴明、足以晉升為安全主管的人才會穿。 | It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/hos_alt.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtHoSParadeMale
-  name: head of security's parade uniform
-  description: A head of security's luxury-wear, for special occasions.
+  name: 安全主管的閱兵禮服 | head of security's parade uniform
+  description: 一名安保主管在特殊場合穿著的奢華服飾。 | A head of security's luxury-wear, for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/hos_parade.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBrigmedic
-  name: brigmedic jumpskirt
-  description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
+  name: 軍醫跳躍裙 | brigmedic jumpskirt
+  description: 這套制服是發放給已受過訓練且符合資格的人員。沒人在乎那場訓練只花了半天時間。 | This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/brigmedic.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPrisoner
-  name: prisoner jumpskirt
-  description: A jumpskirt used for prisoners. It has suit sensors automatically enabled at all times.
+  name: 囚犯式短裙 | prisoner jumpskirt
+  description: 一款供囚犯使用的跳躍裙。其服裝感測器會隨時自動啟用。 | A jumpskirt used for prisoners. It has suit sensors automatically enabled at all times.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Color/color.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSec
-  name: security jumpskirt
-  description: A jumpskirt made of strong material, providing robust protection.
+  name: 安全跳躍裙 | security jumpskirt
+  description: 一款採用堅韌材質製成的跳躍裙，能提供強效的防護。 | A jumpskirt made of strong material, providing robust protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/security.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtWarden
-  name: warden's uniform
-  description: A formal security suit for officers complete with Nanotrasen belt buckle.
+  name: 獄警制服 | warden's uniform
+  description: 一套配備 Nanotrasen 皮帶扣的正式警用制服。 | A formal security suit for officers complete with Nanotrasen belt buckle.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/warden.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtHosFormal
-  name: hos's formal dress
-  description: A dress for special occasions.
+  name: 霍斯的正式禮服 | hos's formal dress
+  description: 一件適合特殊場合的洋裝。 | A dress for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/hosformaldress.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSeniorOfficer
-  name: senior officer jumpskirt
-  description: A sign of skill and prestige within the security department.
+  name: 高級軍官跳躍裙 | senior officer jumpskirt
+  description: 這是保安部門內展現專業能力與聲望的象徵。 | A sign of skill and prestige within the security department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/senior_officer.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSecGrey
-  name: grey security jumpskirt
-  description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+  name: 灰色防彈連身裙 | grey security jumpskirt
+  description: 這是過去某個時期的戰術遺物，那時「納諾特拉森」尚未決定，將防護服染成紅色比清洗掉血跡更划算。 | A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/security_grey.rsi

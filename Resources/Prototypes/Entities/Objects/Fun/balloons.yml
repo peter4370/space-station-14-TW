@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseBalloon
   id: BalloonSyn
-  name: syndie balloon
-  description: Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
+  name: 辛迪·巴隆 | syndie balloon
+  description: 頒發給那些在辛迪樂園（Syndieland）的「原子龍捲風」遊樂設施中倖存下來、最勇敢的勇者。 | Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/syndicate.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: BaseBalloon
   id: BalloonNT
-  name: nanotrasen balloon
-  description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
+  name: 納米特拉森氣球 | nanotrasen balloon
+  description: 專為對「辛迪加」特工造成最大心理傷害而設計。 | Specially designed to inflict maximum psychological damage to Syndicate operatives.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/nanotrasen.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseBalloon
   id: BalloonCorgi
-  name: corgi balloon
-  description: Just like owning a real dog - but a lot floatier.
+  name: 柯基氣球 | corgi balloon
+  description: 就像養了一隻真正的狗一樣——只是更輕盈許多。 | Just like owning a real dog - but a lot floatier.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/corgi.rsi

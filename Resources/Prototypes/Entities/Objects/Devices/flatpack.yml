@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFlatpack
-  name: base flatpack
-  description: A flatpack used for constructing something.
+  name: 基本平裝盒 | base flatpack
+  description: 用於組裝某物的平板包裝。 | A flatpack used for constructing something.
   categories:
   - HideSpawnMenu
   components:
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SolarAssemblyFlatpack
-  name: solar assembly flatpack
-  description: A flatpack used for constructing a solar assembly.
+  name: 太陽能組件平裝盒 | solar assembly flatpack
+  description: 用於組裝太陽能系統的平裝套件。 | A flatpack used for constructing a solar assembly.
   components:
   - type: Flatpack
     entity: SolarAssembly
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AmeControllerFlatpack
-  name: AME controller flatpack
-  description: A flatpack used for constructing the terminal that controls the antimatter engine.
+  name: AME 控制器平板包裝 | AME controller flatpack
+  description: 一套用於組裝反物質引擎控制終端的組裝套件。 | A flatpack used for constructing the terminal that controls the antimatter engine.
   components:
   - type: Sprite
     layers:
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AmePartFlatpack
-  name: AME flatpack
-  description: A flatpack used for constructing an antimatter engine reactor.
+  name: AME 平裝盒 | AME flatpack
+  description: 用於組裝反物質引擎反應器的組裝式套件。 | A flatpack used for constructing an antimatter engine reactor.
   components:
   - type: Sprite
     layers:
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SingularityGeneratorFlatpack
-  name: singularity generator flatpack
-  description: A flatpack used for constructing a singularity generator.
+  name: 奇點產生器 Flatpack 套件 | singularity generator flatpack
+  description: 用於組裝奇點發生器的平裝套件。 | A flatpack used for constructing a singularity generator.
   components:
   - type: Flatpack
     entity: SingularityGenerator
@@ -109,8 +109,8 @@
 - type: entity
   parent: BaseFlatpack
   id: RadiationCollectorFlatpack
-  name: radiation collector flatpack
-  description: A flatpack used for constructing a radiation collector.
+  name: 輻射收集器平裝包 | radiation collector flatpack
+  description: 用於組裝輻射收集器的平裝套件。 | A flatpack used for constructing a radiation collector.
   components:
   - type: Flatpack
     entity: RadiationCollectorNoTank
@@ -125,8 +125,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ContainmentFieldGeneratorFlatpack
-  name: containment field generator flatpack
-  description: A flatpack used for constructing a containment field generator.
+  name: 封閉場發生器 平板包裝 | containment field generator flatpack
+  description: 用於組裝隔離場發射器的套裝組件。 | A flatpack used for constructing a containment field generator.
   components:
   - type: Flatpack
     entity: ContainmentFieldGenerator
@@ -141,8 +141,8 @@
 - type: entity
   parent: BaseFlatpack
   id: EmitterFlatpack
-  name: emitter flatpack
-  description: A flatpack used for constructing an emitter.
+  name: 發射器平板包裝 | emitter flatpack
+  description: 用於組裝發射器的平裝套件。 | A flatpack used for constructing an emitter.
   components:
   - type: Flatpack
     entity: Emitter
@@ -157,8 +157,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGeneratorFlatpack
-  name: tesla generator flatpack
-  description: A flatpack used for constructing a tesla generator.
+  name: 特斯拉發電機平裝包 | tesla generator flatpack
+  description: 一套用於組裝特斯拉發電機的平裝套件。 | A flatpack used for constructing a tesla generator.
   components:
   - type: Flatpack
     entity: TeslaGenerator
@@ -173,8 +173,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaCoilFlatpack
-  name: tesla coil flatpack
-  description: A flatpack used for constructing a tesla coil.
+  name: 特斯拉線圈平裝包 | tesla coil flatpack
+  description: 一套用於組裝特斯拉線圈的平裝套件。 | A flatpack used for constructing a tesla coil.
   components:
   - type: Flatpack
     entity: TeslaCoil
@@ -189,8 +189,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGroundingRodFlatpack
-  name: grounding rod flatpack
-  description: A flatpack used for constructing a grounding rod.
+  name: 接地棒平裝盒 | grounding rod flatpack
+  description: 用於搭建接地棒的組裝套件。 | A flatpack used for constructing a grounding rod.
   components:
   - type: Flatpack
     entity: TeslaGroundingRod
@@ -205,8 +205,8 @@
 - type: entity
   parent: BaseFlatpack
   id: GyroscopeFlatpack
-  name: gyroscope flatpack
-  description: A flatpack used for constructing a gyroscope.
+  name: 陀螺儀平裝盒 | gyroscope flatpack
+  description: 一套用於組裝陀螺儀的平裝套件。 | A flatpack used for constructing a gyroscope.
   components:
   - type: Flatpack
     entity: Gyroscope
@@ -220,8 +220,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ThrusterFlatpack
-  name: thruster flatpack
-  description: A flatpack used for constructing a thruster.
+  name: 推進器平裝盒 | thruster flatpack
+  description: 用於組裝推進器的平裝套件。 | A flatpack used for constructing a thruster.
   components:
   - type: Flatpack
     entity: Thruster
@@ -235,8 +235,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SpaceHeaterFlatpack
-  name: space heater flatpack
-  description: A flatpack used for constructing a space heater.
+  name: 電暖器平裝盒 | space heater flatpack
+  description: 用於組裝空間取暖器的平裝盒。 | A flatpack used for constructing a space heater.
   components:
   - type: Flatpack
     entity: SpaceHeaterAnchored
@@ -244,8 +244,8 @@
 - type: entity
   parent: BaseFlatpack
   id: FaxMachineFlatpack
-  name: fax machine flatpack
-  description: A flatpack used for constructing a fax machine.
+  name: 傳真機平裝盒 | fax machine flatpack
+  description: 用於組裝傳真機的平裝式套件。 | A flatpack used for constructing a fax machine.
   components:
   - type: Sprite
     layers:
@@ -256,8 +256,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringServerFlatpack
-  name: crew monitoring server flatpack
-  description: A flatpack used for constructing a crew monitoring server.
+  name: Crew 監控伺服器 Flatpack | crew monitoring server flatpack
+  description: 用於建置機組人員監控伺服器的套裝軟體。 | A flatpack used for constructing a crew monitoring server.
   components:
   - type: Flatpack
     entity: CrewMonitoringServer
@@ -265,8 +265,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringComputerFlatpack
-  name: crew monitoring computer flatpack
-  description: A flatpack used for constructing a crew monitoring console.
+  name: 機組人員監控電腦平裝盒 | crew monitoring computer flatpack
+  description: 用於組裝乘員監控控制台的平裝套件。 | A flatpack used for constructing a crew monitoring console.
   components:
   - type: Flatpack
     entity: ComputerCrewMonitoring
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseFlatpack
   id: HydroponicsTrayFlatpack
-  name: hydroponics tray flatpack
-  description: A flatpack used for constructing a hydroponics tray.
+  name: 水耕栽培器平裝包 | hydroponics tray flatpack
+  description: 用於組裝水耕栽培器的平裝套件。 | A flatpack used for constructing a hydroponics tray.
   components:
   - type: Flatpack
     entity: hydroponicsTray
@@ -290,8 +290,8 @@
 - type: entity
   parent: [ BaseFlatpack, BaseSyndicateContraband ]
   id: SyndicateMicrowaveFlatpack
-  name: donk co. microwave flatpack
-  description: A flatpack used for constructing a microwave too hot for Nanotrasen to handle.
+  name: donk co. 微波爐平裝盒 | donk co. microwave flatpack
+  description: 一套用於組裝微波爐的平裝套件，其發出的熱量過高，連 Nanotrasen 都無法應付。 | A flatpack used for constructing a microwave too hot for Nanotrasen to handle.
   components:
   - type: Item
     size: Normal
@@ -304,8 +304,8 @@
 - type: entity
   parent: [ BaseFlatpack, BaseXenoborgContraband ]
   id: XenoborgExtractorFlatpack
-  name: xenoborg extractor flatpack
-  description: A flatpack used for constructing a xenoborg extractor.
+  name: 外星博格採集器 平裝包 | xenoborg extractor flatpack
+  description: 用於組裝異種博格萃取器的平裝套件。 | A flatpack used for constructing a xenoborg extractor.
   components:
   - type: Sprite
     layers:
@@ -324,8 +324,8 @@
 - type: entity
   parent: BaseFlatpack
   id: MachineAnomalyVesselFlatpack
-  name: anomaly vessel flatpack
-  description: A flatpack used for constructing an anomaly vessel.
+  name: 異常容器扁平包裝盒 | anomaly vessel flatpack
+  description: 用於建造異常載具的組裝套件。 | A flatpack used for constructing an anomaly vessel.
   components:
   - type: Flatpack
     entity: MachineAnomalyVessel

@@ -15,10 +15,10 @@
 # Cautery
 
 - type: entity
-  name: cautery
+  name: 電灼術 | cautery
   id: Cautery
   parent: BaseToolSurgery
-  description: A surgical tool used to cauterize open wounds.
+  description: 一種用於燒灼開放性傷口的外科器械。 | A surgical tool used to cauterize open wounds.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/cautery.rsi
@@ -36,10 +36,10 @@
 # Drill
 
 - type: entity
-  name: drill
+  name: 鑽頭 | drill
   id: Drill
   parent: BaseToolSurgery
-  description: A surgical drill for making holes into hard material.
+  description: 一種用於在硬質材料上鑽孔的手術鑽頭。 | A surgical drill for making holes into hard material.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/drill.rsi
@@ -61,10 +61,10 @@
 # Scalpel
 
 - type: entity
-  name: scalpel
+  name: 手術刀 | scalpel
   id: Scalpel
   parent: BaseToolSurgery
-  description: A surgical tool used to make incisions into flesh.
+  description: 一種用於在皮膚上切開切口的外科器械。 | A surgical tool used to make incisions into flesh.
   components:
   - type: Tool
     qualities:
@@ -90,10 +90,10 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: shiv
+  name: shiv | shiv
   id: ScalpelShiv
   parent: Scalpel
-  description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
+  description: 一塊尖銳的玻璃，邊緣經過打磨，並用膠帶纏繞作為握柄。 # Could become a decent tool or weapon with right tool mods. | A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
   components:
   - type: Sprite
     state: shiv
@@ -112,10 +112,10 @@
 
 
 - type: entity
-  name: advanced scalpel
+  name: 先進手術刀 | advanced scalpel
   id: ScalpelAdvanced
   parent: Scalpel
-  description: Made of more expensive materials, sharper and generally more reliable.
+  description: 採用較昂貴的材質製成，鋒利度更高，且整體而言更為可靠。 | Made of more expensive materials, sharper and generally more reliable.
   components:
   - type: Sprite
     state: advanced
@@ -127,10 +127,10 @@
         Slash: 12
 
 - type: entity
-  name: laser scalpel
+  name: 雷射手術刀 | laser scalpel
   id: ScalpelLaser
   parent: Scalpel
-  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
+  description: 一種利用定向雷射進行切割、而非使用刀片的手術刀，不僅能進行更精確的手術，同時在切割時還能進行電凝止血。 | A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
   components:
   - type: Sprite
     state: laser
@@ -140,10 +140,10 @@
 # Scissors
 
 - type: entity
-  name: retractor
+  name: 牽開器 | retractor
   id: Retractor
   parent: BaseToolSurgery
-  description: A surgical tool used to hold open incisions.
+  description: 一種用於撐開切口的外科器械。 | A surgical tool used to hold open incisions.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scissors.rsi
@@ -153,10 +153,10 @@
     storedRotation: 90
 
 - type: entity
-  name: hemostat
+  name: 止血器 | hemostat
   id: Hemostat
   parent: Retractor
-  description: A surgical tool used to compress blood vessels to prevent bleeding.
+  description: 一種用於壓迫血管以防止出血的外科器械。 | A surgical tool used to compress blood vessels to prevent bleeding.
   components:
   - type: Sprite
     state: hemostat
@@ -173,10 +173,10 @@
 # Saws
 
 - type: entity
-  name: metal saw
+  name: 金屬鋸 | metal saw
   id: Saw
   parent: BaseToolSurgery
-  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
+  description: 用於將木材及其他物品鋸成碎片。或在緊急情況下，用來鋸骨頭。 | For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
   components:
   - type: Utensil
     types:
@@ -195,10 +195,10 @@
 # No melee for regular saw because have you ever seen someone use a band saw as a weapon? It's dumb.
 
 - type: entity
-  name: choppa
+  name: choppa | choppa
   id: SawImprov
   parent: Saw
-  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: 一把由你能找到的任何鋒利而兇惡的物品製成的邪惡鋸齒刀刃。 # It would make a pretty decent weapon, given there are more space for some tool mods too. | A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
   components:
   - type: Sprite
     state: improv
@@ -215,10 +215,10 @@
     speedModifier: 0.5
 
 - type: entity
-  name: circular saw
+  name: 圓鋸 | circular saw
   id: SawElectric
   parent: Saw
-  description: For heavy duty cutting.
+  description: 適用於重型切割作業。 | For heavy duty cutting.
   components:
   - type: Sprite
     state: electric
@@ -234,10 +234,10 @@
     speedModifier: 1.5
 
 - type: entity
-  name: advanced circular saw
+  name: 進階圓鋸 | advanced circular saw
   id: SawAdvanced
   parent: [ SawElectric, BaseSyndicateContraband ]
-  description: Interdyne's state-of-the-art surgical saw. Guaranteed to stay spotless and sterile, no matter how messy the job.
+  description: Interdyne 的尖端手術鋸。無論手術過程多麼混亂，皆保證保持一塵不染且無菌。 | Interdyne's state-of-the-art surgical saw. Guaranteed to stay spotless and sterile, no matter how messy the job.
   components:
   - type: Sprite
     state: advanced

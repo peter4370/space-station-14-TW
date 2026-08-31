@@ -1,18 +1,16 @@
-inner-anomaly-start-message-pyro = You can feel the insane flame inside of you. You became the host of a pyroclastic anomaly.
-inner-anomaly-start-message-shock = Lightning bolts quivering at your fingertips! You became the host of a electric anomaly.
-inner-anomaly-start-message-shadow = There's an impenetrable darkness oozing out of you... You became the host of a shadow anomaly.
-inner-anomaly-start-message-frost = The icy frost is binding your bones. You became the host of a ice anomaly.
-inner-anomaly-start-message-flora = Leaves and flowers sprout through your skin! You became the host of a floral anomaly.
-inner-anomaly-start-message-bluespace = Your thoughts are racing like mad! You became the host of a bluespace anomaly.
-inner-anomaly-start-message-flesh = Your body is growing frantically. You became the host of a flesh anomaly.
-inner-anomaly-start-message-grav = Everything becames unnaturally heavy and light at the same time... You became the host of a gravity anomaly.
-inner-anomaly-start-message-tech = Your head is buzzing with the amount of chaotic information! You became the host of a tech anomaly.
-inner-anomaly-start-message-rock = The crystals are growing through your bones! You became the host of a rock anomaly.
-inner-anomaly-start-message-santa = You're becoming obsessed with the Christmas spirit! You became the host of a Christmas anomaly.
-
-inner-anomaly-end-message = The abnormal activity within you disappears without a trace....
-
-inner-anomaly-severity-info-50 = You feel that the anomaly is taking over half your body.
-inner-anomaly-severity-info-75 = You feel that the anomaly is taking over a large part of your body.
-inner-anomaly-severity-info-90 = You feel that the anomaly has almost completely taken over your body.
-inner-anomaly-severity-info-100 = The anomaly inside you is growing uncontrollably, causing immense pain, and tearing you apart!
+inner-anomaly-start-message-pyro = 你能感受到體內那股瘋狂的火焰。你已成為一股火山碎屑流異象的宿主。
+inner-anomaly-start-message-shock = 指尖顫動著閃電！你已成為一處電磁異常現象的宿主。
+inner-anomaly-start-message-shadow = 一股深不可測的黑暗正從你體內滲出……你已成為一樁陰影異常現象的宿主。
+inner-anomaly-start-message-frost = 刺骨的寒霜正凍結你的骨頭。你已成為一處冰之異象的宿主。
+inner-anomaly-start-message-flora = 葉子與花朵從你的皮膚中破皮而出！你已成為這起花卉異常現象的宿主。
+inner-anomaly-start-message-bluespace = 你的思緒正如瘋了一般飛速奔馳！你成了「藍色空間」異常現象的宿主。
+inner-anomaly-start-message-flesh = 你的身體正在瘋狂地成長。你已成為某種肉體異變的宿主。
+inner-anomaly-start-message-grav = 萬物同時變得既不自然地沉重，又輕盈……你成了重力異常的宿主。
+inner-anomaly-start-message-tech = 腦中充斥著大量雜亂無章的資訊，讓你暈頭轉向！你竟成了某項科技異常現象的宿主。
+inner-anomaly-start-message-rock = 水晶正從你的骨頭裡生長出來！你已成為一處岩石異常現象的宿主。
+inner-anomaly-start-message-santa = 你已經完全沉迷於聖誕氛圍了！你成了某場聖誕異象的主辦者。
+inner-anomaly-end-message = 你內心的異常活動便會無跡可尋地消失……
+inner-anomaly-severity-info-50 = 你感覺到那股異常現象正逐漸佔據你半邊身體。
+inner-anomaly-severity-info-75 = 你感覺到那股異常現象正逐漸佔據你身體的大部分。
+inner-anomaly-severity-info-90 = 你感覺到那股異常現象幾乎已完全掌控了你的身體。
+inner-anomaly-severity-info-100 = 你體內的異變正失控地擴散，帶來劇烈的痛苦，並將你撕裂！

@@ -1,38 +1,39 @@
+
 <Document>
-# Survival
-It is generally wise to avoid situations that will cause you harm, because medical can only heal you so much with limited chemicals and medical items and especially when there's nuclear operatives on your doorstep.
+# 生存
+通常來說，避免可能對您造成傷害的情況是明智之舉，因為醫療人員在化學藥劑和醫療物資有限的情況下，能為您提供的治療終究有限，尤其當核武特工就在您家門口時更是如此。
 
-## Identifying your situation
-Your PDA contains both a vessel name and list of crew currently active in your vessel, a reminder for your name if needed, and your assigned job for the shift, allowing you to quickly assess the situation.
+## 掌握當前狀況
+您的 PDA 內含船隻名稱及目前在船上執勤的船員名單，必要時還能提醒您的姓名，並顯示您本班次的指定職務，讓您能迅速評估當前狀況。
 
-## Emergency Treatment
-In the event of a serious emergency, there are a few things you can do to help ensure your long-term survival, including:
-- If entering critical condition, use the emergency medipen from your emergency box, it'll make sure you don't end up unable to do anything. Emergency medipens can also be used to revive people currently in crit on the floor, and to prolong the amount of time you have to deal with poisons/etc.
+## 緊急處置
+若發生嚴重緊急狀況，您可以採取以下幾項措施來確保長期生存，包括：
+- 若狀況危急，請使用急救箱中的緊急醫療筆，這能確保您不會陷入完全無法行動的狀態。 緊急醫療筆亦可用於救活當前倒臥在地且處於危急狀態的人員，並能延長您處理中毒等狀況的時間。
 
 <Box>
   <GuideEntityEmbed Entity="EmergencyMedipen"/>
 </Box>
 
-- Your emergency box contains a breath mask and oxygen tank, which can help you survive longer in a spacing situation. If you're one of the slimepeople, be aware that nitrogen replaces oxygen for you and that your emergency box will start with a red tank of nitrogen replacing the standard blue/yellow oxygen tank.
+- 你的緊急應變箱內含呼吸面罩和氧氣罐，這些裝備能幫助你在太空環境中存活更久。如果你是「黏液人」之一，請注意，對你而言，氮氣會取代氧氣，因此你的緊急應變箱起初會配備一個紅色的氮氣罐，而非標準的藍黃色氧氣罐。
 
 <Box>
   <GuideEntityEmbed Entity="ClothingMaskBreath"/>
   <GuideEntityEmbed Entity="EmergencyOxygenTankFilled"/>
 </Box>
 
-- If actively bleeding out, or simply wishing to prepare, it's possible to slice up cloth items with a knife or other sharp object and use the resulting cloth to create gauze in the crafting menu to stem bleeding with, however cloth alone can be used to less of a degree in emergencies.
+- 若正在大量出血，或單純想預先做好準備，可以使用刀子或其他尖銳物品將布料裁切成小塊，並在製作選單中將這些布料製成紗布以止血；不過在緊急情況下，單純使用布料也能在一定程度上達到止血效果。
 
 <Box>
   <GuideEntityEmbed Entity="Gauze"/>
   <GuideEntityEmbed Entity="MaterialCloth"/>
 </Box>
 
-## Other Various Tips
-- In lieu of an actual health analyzer, simply examining yourself and using the detailed examine is a good way to figure out what wounds you have.
-- If going blind, carrots are another way to treat the issue (as they contain Oculine, the chemistry drug used to treat blindness) should they be available.
-- Well-made meals (cooked food not from a vending machine) is generally much better for your overall health and can help heal smaller wounds more quickly.
-- Simple bed rest can allow some wounds to close up on their own. Medical beds are best for this, providing a sterile surface and support for all damaged body parts, but any bed works.
-- Actually sleeping on a bed boosts your healing rate even farther.
-- Meals that contain proteins, such as meat, will tremendously help your body's condition after severe bloodloss. It's still advised to visit a doctor and get treated though.
+## 其他各類小技巧
+- 若沒有實際的健康分析儀，只需自我檢查並使用詳細檢查表，就是判斷自身受了哪些傷的好方法。
+- 若面臨失明，胡蘿蔔是另一種治療方法（因為它們含有「奧庫林」，這是一種用於治療失明的化學藥物），前提是能取得胡蘿蔔。
+- 精心烹調的餐點（非自動販賣機販售的熟食）通常對整體健康更有益，並能幫助較小的傷口更快癒合。
+- 單純的臥床休息可讓某些傷口自行癒合。醫療用床最適合此用途，能提供無菌表面並支撐所有受損的身體部位，但任何床鋪皆可。
+- 實際上在床上睡覺能進一步提升你的癒合速度。
+- 含有蛋白質的餐點（例如肉類），在嚴重失血後將極大程度地改善你的身體狀況。不過，仍建議就醫接受治療。
 
 </Document>

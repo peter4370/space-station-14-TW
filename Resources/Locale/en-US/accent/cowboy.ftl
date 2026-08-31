@@ -1,248 +1,166 @@
-accent-cowboy-words-1 = wow
-accent-cowboy-replacement-1 = by gum
-
-accent-cowboy-words-2 = alien
-accent-cowboy-replacement-2 = space critter
-
-accent-cowboy-words-3 = aliens
-accent-cowboy-replacement-3 = space critters
-
-accent-cowboy-words-4 = ambush
-accent-cowboy-replacement-4 = bush whack
-
-accent-cowboy-words-5 = angry
-accent-cowboy-replacement-5 = fit to be tied
-
-accent-cowboy-words-6 = animal
-accent-cowboy-replacement-6 = critter
-
-accent-cowboy-words-7 = animals
-accent-cowboy-replacement-7 = critters
-
-accent-cowboy-words-8 = arrest
+accent-cowboy-words-1 = 哇
+accent-cowboy-replacement-1 = 天啊
+accent-cowboy-words-2 = 外星人
+accent-cowboy-replacement-2 = 太空生物
+accent-cowboy-words-3 = 外星人
+accent-cowboy-replacement-3 = 太空生物
+accent-cowboy-words-4 = 伏擊
+accent-cowboy-replacement-4 = 劈開灌木叢
+accent-cowboy-words-5 = 生氣
+accent-cowboy-replacement-5 = 氣得要命
+accent-cowboy-words-6 = 動物
+accent-cowboy-replacement-6 = 小動物
+accent-cowboy-words-7 = 動物
+accent-cowboy-replacement-7 = 小動物
+accent-cowboy-words-8 = 逮捕
 accent-cowboy-replacement-8 = lasso
-
-accent-cowboy-words-9 = arrested
-accent-cowboy-replacement-9 = lassoed
-
-accent-cowboy-words-10 = bomb
-accent-cowboy-replacement-10 = dynamite
-
-accent-cowboy-words-11 = borg
-accent-cowboy-replacement-11 = tin man
-
-accent-cowboy-words-12 = bye
-accent-cowboy-replacement-12 = so long
-
-accent-cowboy-words-13 = cell
+accent-cowboy-words-9 = 被逮捕
+accent-cowboy-replacement-9 = 被套住
+accent-cowboy-words-10 = 炸彈
+accent-cowboy-replacement-10 = 炸藥
+accent-cowboy-words-11 = 博格
+accent-cowboy-replacement-11 = 錫人
+accent-cowboy-words-12 = 再見
+accent-cowboy-replacement-12 = 再見
+accent-cowboy-words-13 = 細胞
 accent-cowboy-replacement-13 = pokey
-
-accent-cowboy-words-14 = chef
+accent-cowboy-words-14 = 主廚
 accent-cowboy-replacement-14 = cookie
-
-accent-cowboy-words-15 = coffee
-accent-cowboy-replacement-15 = black water
-
-accent-cowboy-words-16 = confused
-accent-cowboy-replacement-16 = stumped
-
-accent-cowboy-words-17 = cool
-accent-cowboy-replacement-17 = slick
-
-accent-cowboy-words-18 = corpse
-accent-cowboy-replacement-18 = dead meat
-
-accent-cowboy-words-19 = cow
+accent-cowboy-words-15 = 咖啡
+accent-cowboy-replacement-15 = 黑水
+accent-cowboy-words-16 = 困惑
+accent-cowboy-replacement-16 = 束手無策
+accent-cowboy-words-17 = 酷
+accent-cowboy-replacement-17 = 俐落
+accent-cowboy-words-18 = 屍體
+accent-cowboy-replacement-18 = 死路一條
+accent-cowboy-words-19 = 牛
 accent-cowboy-replacement-19 = dogie
-
-accent-cowboy-words-20 = cows
-accent-cowboy-replacement-20 = dogies
-
-accent-cowboy-words-21 = crazy
-accent-cowboy-replacement-21 = cracked
-
-accent-cowboy-words-22 = cyborg
-accent-cowboy-replacement-22 = tin man
-
-accent-cowboy-words-23 = dad
+accent-cowboy-words-20 = 牛
+accent-cowboy-replacement-20 = 小牛犢
+accent-cowboy-words-21 = 瘋狂
+accent-cowboy-replacement-21 = 出現裂痕
+accent-cowboy-words-22 = 半機械人
+accent-cowboy-replacement-22 = 錫人
+accent-cowboy-words-23 = 爸爸
 accent-cowboy-replacement-23 = pappy
-
-accent-cowboy-words-24 = revolver
-accent-cowboy-replacement-24 = six-shooter
-
-accent-cowboy-words-25 = explosive
-accent-cowboy-replacement-25 = dynamite
-
-accent-cowboy-words-26 = a fight
-accent-cowboy-replacement-26 = a scrap
-
-accent-cowboy-words-27 = food
+accent-cowboy-words-24 = 左輪手槍
+accent-cowboy-replacement-24 = 六發左輪手槍
+accent-cowboy-words-25 = 爆炸性的
+accent-cowboy-replacement-25 = 炸藥
+accent-cowboy-words-26 = 一場打架
+accent-cowboy-replacement-26 = 一塊廢料
+accent-cowboy-words-27 = 食物
 accent-cowboy-replacement-27 = grub
-
-accent-cowboy-words-28 = friend
-accent-cowboy-replacement-28 = partner
-
-accent-cowboy-words-29 = goodbye
-accent-cowboy-replacement-29 = so long
-
+accent-cowboy-words-28 = 朋友
+accent-cowboy-replacement-28 = 合作夥伴
+accent-cowboy-words-29 = 再見
+accent-cowboy-replacement-29 = 再見
 accent-cowboy-words-30 = greytide
-accent-cowboy-replacement-30 = varmints
-
+accent-cowboy-replacement-30 = 害獸
 accent-cowboy-words-31 = greytider
-accent-cowboy-replacement-31 = varmint
-
+accent-cowboy-replacement-31 = 害獸
 accent-cowboy-words-32 = greytiders
-accent-cowboy-replacement-32 = varmints
-
-accent-cowboy-words-33 = guess
-accent-cowboy-replacement-33 = reckon
-
-accent-cowboy-words-34 = gun
-accent-cowboy-replacement-34 = big iron
-
-accent-cowboy-words-35 = handcuff
-accent-cowboy-replacement-35 = hog tie
-
-accent-cowboy-words-36 = handcuffed
-accent-cowboy-replacement-36 = hog tied
-
-accent-cowboy-words-37 = what the hell
-accent-cowboy-replacement-37 = what in tarnation
-
-accent-cowboy-words-38 = hello
-accent-cowboy-replacement-38 = howdy
-
-accent-cowboy-words-39 = hey
-accent-cowboy-replacement-39 = howdy
-
-accent-cowboy-words-40 = hi
-accent-cowboy-replacement-40 = howdy
-
-accent-cowboy-words-41 = hungry
-accent-cowboy-replacement-41 = peckish
-
-accent-cowboy-words-42 = idiot
-accent-cowboy-replacement-42 = dunderhead
-
-accent-cowboy-words-43 = intending
-accent-cowboy-replacement-43 = fixing
-
-accent-cowboy-words-44 = jail
+accent-cowboy-replacement-32 = 害獸
+accent-cowboy-words-33 = 猜想
+accent-cowboy-replacement-33 = 估計
+accent-cowboy-words-34 = 槍
+accent-cowboy-replacement-34 = 大型機器
+accent-cowboy-words-35 = 手銬
+accent-cowboy-replacement-35 = 五花綁
+accent-cowboy-words-36 = 被銬上手銬
+accent-cowboy-replacement-36 = 被五花大綁
+accent-cowboy-words-37 = 這到底是怎麼回事啊
+accent-cowboy-replacement-37 = 這到底是怎麼回事啊
+accent-cowboy-words-38 = 你好
+accent-cowboy-replacement-38 = 你好啊
+accent-cowboy-words-39 = 嘿
+accent-cowboy-replacement-39 = 你好啊
+accent-cowboy-words-40 = 嗨
+accent-cowboy-replacement-40 = 你好啊
+accent-cowboy-words-41 = 飢餓
+accent-cowboy-replacement-41 = 有點餓
+accent-cowboy-words-42 = 白癡
+accent-cowboy-replacement-42 = 蠢蛋
+accent-cowboy-words-43 = 打算
+accent-cowboy-replacement-43 = 修復
+accent-cowboy-words-44 = 監獄
 accent-cowboy-replacement-44 = pokey
-
-accent-cowboy-words-45 = lots
-accent-cowboy-replacement-45 = heaps
-
-accent-cowboy-words-46 = nervous
-accent-cowboy-replacement-46 = rattled
-
-accent-cowboy-words-47 = ninja
-accent-cowboy-replacement-47 = bushwhacker
-
-accent-cowboy-words-48 = ninjas
-accent-cowboy-replacement-48 = bushwhackers
-
-accent-cowboy-words-49 = noise
-accent-cowboy-replacement-49 = ruckus
-
+accent-cowboy-words-45 = 許多
+accent-cowboy-replacement-45 = 一大堆
+accent-cowboy-words-46 = 緊張
+accent-cowboy-replacement-46 = 驚慌失措
+accent-cowboy-words-47 = 忍者
+accent-cowboy-replacement-47 = 游擊者
+accent-cowboy-words-48 = 忍者
+accent-cowboy-replacement-48 = 游擊隊
+accent-cowboy-words-49 = 噪音
+accent-cowboy-replacement-49 = 騷動
 accent-cowboy-words-50 = nukies
-accent-cowboy-replacement-50 = outlaws
-
+accent-cowboy-replacement-50 = 亡命之徒
 accent-cowboy-words-51 = ops
-accent-cowboy-replacement-51 = outlaws
-
-accent-cowboy-words-52 = newbie
-accent-cowboy-replacement-52 = greenhorn
-
-accent-cowboy-words-53 = newbies
-accent-cowboy-replacement-53 = greenhorns
-
-accent-cowboy-words-54 = please
-accent-cowboy-replacement-54 = pray
-
-accent-cowboy-words-55 = punched
-accent-cowboy-replacement-55 = slogged
-
+accent-cowboy-replacement-51 = 亡命之徒
+accent-cowboy-words-52 = 新手
+accent-cowboy-replacement-52 = 新手
+accent-cowboy-words-53 = 新手
+accent-cowboy-replacement-53 = 新手
+accent-cowboy-words-54 = 請
+accent-cowboy-replacement-54 = 祈禱
+accent-cowboy-words-55 = 被戳了
+accent-cowboy-replacement-55 = 艱辛地奮鬥
 accent-cowboy-words-56 = ran
-accent-cowboy-replacement-56 = skedaddled
-
-accent-cowboy-words-57 = robbery
-accent-cowboy-replacement-57 = stick up
-
-accent-cowboy-words-58 = run
-accent-cowboy-replacement-58 = skedaddle
-
-accent-cowboy-words-59 = running
-accent-cowboy-replacement-59 = skedaddling
-
-accent-cowboy-words-60 = scream
-accent-cowboy-replacement-60 = holler
-
-accent-cowboy-words-61 = screamed
-accent-cowboy-replacement-61 = hollered
-
-accent-cowboy-words-62 = screaming
-accent-cowboy-replacement-62 = hollering
-
-accent-cowboy-words-63 = police
-accent-cowboy-replacement-63 = law
-
-accent-cowboy-words-64 = officer
-accent-cowboy-replacement-64 = deputy
-
-accent-cowboy-words-65 = officers
-accent-cowboy-replacement-65 = deputies
-
+accent-cowboy-replacement-56 = 倉皇逃竄
+accent-cowboy-words-57 = 搶劫
+accent-cowboy-replacement-57 = 挺身而出
+accent-cowboy-words-58 = 執行
+accent-cowboy-replacement-58 = 溜之大吉
+accent-cowboy-words-59 = 跑步
+accent-cowboy-replacement-59 = 倉皇逃竄
+accent-cowboy-words-60 = 尖叫
+accent-cowboy-replacement-60 = 大喊一聲
+accent-cowboy-words-61 = 尖叫
+accent-cowboy-replacement-61 = 大喊
+accent-cowboy-words-62 = 尖叫
+accent-cowboy-replacement-62 = 大喊大叫
+accent-cowboy-words-63 = 警察
+accent-cowboy-replacement-63 = 法律
+accent-cowboy-words-64 = 警官
+accent-cowboy-replacement-64 = 副手
+accent-cowboy-words-65 = 幹部
+accent-cowboy-replacement-65 = 副手
 accent-cowboy-words-66 = shitsec
-accent-cowboy-replacement-66 = crooked law
-
-accent-cowboy-words-67 = shoe
-accent-cowboy-replacement-67 = boot
-
-accent-cowboy-words-68 = shoes
-accent-cowboy-replacement-68 = boots
-
-accent-cowboy-words-69 = steal
-accent-cowboy-replacement-69 = rustle
-
-accent-cowboy-words-70 = stole
-accent-cowboy-replacement-70 = rustled
-
-accent-cowboy-words-71 = stolen
-accent-cowboy-replacement-71 = rustled
-
-accent-cowboy-words-72 = thank you
-accent-cowboy-replacement-72 = much obliged
-
-accent-cowboy-words-73 = thanks
-accent-cowboy-replacement-73 = much obliged
-
-accent-cowboy-words-74 = think
-accent-cowboy-replacement-74 = reckon
-
-accent-cowboy-words-75 = tired
-accent-cowboy-replacement-75 = dragged out
-
-accent-cowboy-words-76 = toilet
-accent-cowboy-replacement-76 = outhouse
-
-accent-cowboy-words-77 = totally
-accent-cowboy-replacement-77 = plumb
-
-accent-cowboy-words-78 = traitor
-accent-cowboy-replacement-78 = outlaw
-
-accent-cowboy-words-79 = traitors
-accent-cowboy-replacement-79 = outlaws
-
-accent-cowboy-words-80 = very
-accent-cowboy-replacement-80 = mighty
-
-accent-cowboy-words-81 = yell
-accent-cowboy-replacement-81 = holler
-
-accent-cowboy-words-82 = yelled
-accent-cowboy-replacement-82 = hollered
-
-accent-cowboy-words-83 = yelling
-accent-cowboy-replacement-83 = hollering
+accent-cowboy-replacement-66 = 歪曲的法律
+accent-cowboy-words-67 = 鞋子
+accent-cowboy-replacement-67 = 開機
+accent-cowboy-words-68 = 鞋子
+accent-cowboy-replacement-68 = 長靴
+accent-cowboy-words-69 = 偷竊
+accent-cowboy-replacement-69 = 沙沙聲
+accent-cowboy-words-70 = 偷了
+accent-cowboy-replacement-70 = 沙沙作響
+accent-cowboy-words-71 = 被盜的
+accent-cowboy-replacement-71 = 沙沙作響
+accent-cowboy-words-72 = 謝謝
+accent-cowboy-replacement-72 = 非常感謝
+accent-cowboy-words-73 = 謝謝
+accent-cowboy-replacement-73 = 非常感謝
+accent-cowboy-words-74 = 思考
+accent-cowboy-replacement-74 = 估計
+accent-cowboy-words-75 = 累了
+accent-cowboy-replacement-75 = 拖延
+accent-cowboy-words-76 = 廁所
+accent-cowboy-replacement-76 = 戶外廁所
+accent-cowboy-words-77 = 完全
+accent-cowboy-replacement-77 = 垂直
+accent-cowboy-words-78 = 叛徒
+accent-cowboy-replacement-78 = 法外之徒
+accent-cowboy-words-79 = 叛徒
+accent-cowboy-replacement-79 = 亡命之徒
+accent-cowboy-words-80 = 非常
+accent-cowboy-replacement-80 = 強大
+accent-cowboy-words-81 = 大喊
+accent-cowboy-replacement-81 = 大喊一聲
+accent-cowboy-words-82 = 大喊
+accent-cowboy-replacement-82 = 大喊
+accent-cowboy-words-83 = 大喊大叫
+accent-cowboy-replacement-83 = 大喊大叫

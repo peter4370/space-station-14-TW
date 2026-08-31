@@ -1,3 +1,4 @@
+
 <Document>
   # Vulpkanin
 
@@ -5,12 +6,12 @@
     <GuideEntityEmbed Entity="MobVulpkanin" Caption=""/>
   </Box>
 
-  Vulpkanin, due to their dense fur, [color=#1e90ff]prefer colder temperatures[/color] and [color=#ffa500]heat up faster.[/color]
-  Their agile (but clumsy) legs allow them to leap short distances, be careful not to bump into anything!
+  伏爾坎人由於毛皮濃密，[color=#1e90ff]偏好較冷的氣溫[/color]，且 [color=#ffa500]體溫上升得較快。[color]
+  牠們靈活（但笨拙）的雙腿能讓牠們短距離跳躍，請小心別撞到任何東西！
 
-  Their diet allows them to safely eat raw meat but they get poisoned by theobromine.
+  牠們的飲食習性讓牠們能安全地食用生肉，但會因可可鹼而中毒。
 
-  Their weirdly shaped muzzle leads to difficulties drinking, making them sometimes spill small amounts of whatever they drank onto the ground.
+  牠們奇特形狀的口吻導致飲水困難，有時會將飲用的液體少量灑落在地。
 
-  They take [color=#1e90ff]15% less Cold damage[/color] but [color=#ffa500]15% more Heat damage.[/color].
+  牠們承受的[color=#1e90ff]冰凍傷害減少 15%[/color]，但[color=#ffa500]高溫傷害增加 15%[/color]。
 </Document>

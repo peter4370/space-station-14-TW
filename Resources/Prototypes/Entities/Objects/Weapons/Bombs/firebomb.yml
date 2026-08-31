@@ -4,8 +4,8 @@
 - type: entity
   parent: [ BaseItem, BaseItemDestructible, BaseMinorContraband ]
   id: FireBomb
-  name: fire bomb
-  description: A weak, improvised incendiary device.
+  name: 燃燒彈 | fire bomb
+  description: 一個威力微弱、臨時拼湊而成的縱火裝置。 | A weak, improvised incendiary device.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/ied.rsi
@@ -56,9 +56,9 @@
 - type: entity
   parent: [ DrinkColaCanEmpty, BaseMinorContraband ]
   id: FireBombEmpty
-  name: fire bomb
+  name: 燃燒彈 | fire bomb
   suffix: empty
-  description: A weak, improvised incendiary device. This one has no fuel.
+  description: 一個簡陋、臨時拼湊的縱火裝置。這個裝置裡沒有燃料。 | A weak, improvised incendiary device. This one has no fuel.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/ied.rsi
@@ -85,7 +85,7 @@
   parent: FireBombEmpty
   id: FireBombFuel
   suffix: fuel
-  description: A weak, improvised incendiary device. This one is missing wires.
+  description: 一個粗製濫造的簡易燃燒裝置。這個裝置缺少導線。 | A weak, improvised incendiary device. This one is missing wires.
   components:
   - type: Sprite
     layers:

@@ -1,41 +1,42 @@
+
 <Document>
-# Anomalous Research
+# 異常現象研究
 
-Anomalous Research is a subdepartment of Science focused around the containment and manipulation of various unique anomalies.
+異常現象研究是「科學部」下轄的一個分支部門，主要致力於各種獨特異常現象的封鎖與操控。
 
-## Equipment
+## 設備
 <Box>
 <GuideEntityEmbed Entity="AnomalyScanner"/>
 <GuideEntityEmbed Entity="MachineAnomalyVessel"/>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-Scanners, vessels, and A.P.E.s are all used in the containment and observation of anomalies.
+掃描器、載具以及 A.P.E. 皆用於對異常現象進行封鎖與監測。
 
 <Box>
 <GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
 </Box>
 
-The anomaly generator can produce a random anomaly somewhere on the station at the cost of plasma.
+異常發生器可以消耗等離子體，在空間站的某處產生隨機異常。
 
-## Anomalies
-Anomalies are static objects that appear on the station. They cannot be moved, and must be worked around, no matter their location.
+## 異常現象
+異常現象是出現在空間站上的靜態物件。 無論它們位於何處，都無法移動，必須繞過它們來處理。
 
 <Box>
 <GuideEntityEmbed Entity="AnomalyPyroclastic"/>
 </Box>
 
-Each anomaly has three main stats, two of which can be seen in anomaly scans:
+每個異常現象都有三項主要屬性，其中兩項可在異常掃描中看到：
 
-- [color=#a4885c]Severity:[/color] This is a numerical value corresponding to the danger of an anomaly.
-- [color=#a4885c]Stability:[/color] Shown as either decaying, stable, or growing; this is how frequently and widespread the effects will be.
-- [color=#a4885c]Health:[/color] Health is a hidden stat. It decreases when you use [color=#a4885c]containment particles[/color] on an anomaly. If you use too many, the anomaly will disappear.
+- [color=#a4885c]嚴重程度：[/color] 這是對應異常現象危險程度的數值。
+- [color=#a4885c]穩定性：[/color] 顯示為「衰退」、「穩定」或「增長」；這代表其影響發生的頻率及範圍。
+- [color=#a4885c]生命值：[/color] 生命值是一項隱藏屬性。 當您對異常現象使用 [color=#a4885c]封鎖粒子[/color] 時，其數值便會降低。 如果使用過多，異常現象就會消失。
 
-## Pulses and Supercritical Events
-The most dangerous effects of anomalies are seen during [color=#a4885c]pulses[/color] and [color=#a4885c]supercritical events[/color].
+## 脈衝與超臨界事件
+異常現象最危險的影響，通常出現在 [color=#a4885c]脈衝[/color] 和 [color=#a4885c]超臨界事件[/color] 期間。
 
-Pulses are semi-regular bursts of anomalous effects. They're moderately dangerous, scaling with both the severity and stability of an anomaly.
+脈衝是指半規律性的異常效應爆發。 它們的危險程度中等，其危險程度會隨著異常現象的嚴重程度和穩定性而增加。
 
-Supercritical events are only seen if an anomaly reaches 100% severity. If this happens, the anomaly will swell before disappearing into a catastrophic event. These should be avoided at all costs!
+只有當異常事件的嚴重程度達到 100% 時，才會出現超臨界事件。 若發生這種情況，該異常現象將會逐漸擴大，最終演變成一場災難性事件。 這些無論如何都應避免！
 
 </Document>

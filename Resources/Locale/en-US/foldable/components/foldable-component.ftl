@@ -1,16 +1,12 @@
 # Foldable
 
-foldable-fold-fail = You can't fold the {$object} here.
-foldable-unfold-fail = You can't unfold the {$object} here.
-
-foldable-deploy-fail = You can't deploy the {$object} here.
-fold-verb = Fold
-unfold-verb = Unfold
-
+foldable-fold-fail = 你無法在此處摺疊 { $object }。
+foldable-unfold-fail = 您無法在此處展開 { $object }。
+foldable-deploy-fail = 您無法在此處部署 { $object }。
+fold-verb = 摺疊
+unfold-verb = 展開
 fold-flip-verb = Flip
-
-fold-zip-verb = Zip up
-fold-unzip-verb = Unzip
-
-fold-lower-visor-verb = Lower visor
-fold-raise-visor-verb = Raise visor
+fold-zip-verb = 拉上拉鍊
+fold-unzip-verb = 解壓縮
+fold-lower-visor-verb = 下護目板
+fold-raise-visor-verb = 抬起護目鏡

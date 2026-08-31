@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseCartridge, BaseSecurityContraband ]
   id: BaseCartridgeCaselessRifle
-  name: cartridge (.25 caseless)
+  name: 彈匣（.25 無殼彈） | cartridge (.25 caseless)
   components:
   - type: Tag
     tags:
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseCartridgeCaselessRifle
   id: CartridgeCaselessRifle
-  name: cartridge (.25 caseless)
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Standard kinetic ammunition is common and useful in most situations.
+  name: 彈匣（.25 無殼彈） | cartridge (.25 caseless)
+  description: 一種採用無彈殼技術的小口徑彈藥，捨棄傳統黃銅彈殼，改用硬化推進劑。標準動能彈藥在大多數情況下都很常見且實用。 | A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Standard kinetic ammunition is common and useful in most situations.
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRifle
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseCartridgeCaselessRifle
   id: CartridgeCaselessRiflePractice
-  name: cartridge (.25 caseless practice)
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+  name: 子彈（.25 無殼練習彈） | cartridge (.25 caseless practice)
+  description: 這是一種採用無殼技術的小口徑彈藥，捨棄傳統的黃銅彈殼，改用硬化推進劑。練習彈會射出一顆石膏彈頭，雖然會帶來些許刺痛感，但除此之外並不會造成任何持久性傷害。 | A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRiflePractice

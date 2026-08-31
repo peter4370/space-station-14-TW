@@ -1,20 +1,18 @@
 ﻿cmd-jobwhitelist-job-does-not-exist = Job {$job} does not exist.
-cmd-jobwhitelist-player-not-found = Player {$player} not found.
-cmd-jobwhitelist-hint-player = [player]
-cmd-jobwhitelist-hint-job = [job]
-
-cmd-jobwhitelistadd-desc = Lets a player play a whitelisted job.
-cmd-jobwhitelistadd-help = Usage: jobwhitelistadd <username> <job>
-cmd-jobwhitelistadd-already-whitelisted = {$player} is already whitelisted to play as {$jobId} .({$jobName}).
-cmd-jobwhitelistadd-added = Added {$player} to the {$jobId} ({$jobName}) whitelist.
-
-cmd-jobwhitelistget-desc = Gets all the jobs that a player has been whitelisted for.
-cmd-jobwhitelistget-help = Usage: jobwhitelistget <username>
-cmd-jobwhitelistget-whitelisted-none = Player {$player} is not whitelisted for any jobs.
-cmd-jobwhitelistget-whitelisted-for = "Player {$player} is whitelisted for:
-{$jobs}"
-
-cmd-jobwhitelistremove-desc = Removes a player's ability to play a whitelisted job.
-cmd-jobwhitelistremove-help = Usage: jobwhitelistremove <username> <job>
-cmd-jobwhitelistremove-was-not-whitelisted = {$player} was not whitelisted to play as {$jobId} ({$jobName}).
-cmd-jobwhitelistremove-removed = Removed {$player} from the whitelist for {$jobId} ({$jobName}).
+cmd-jobwhitelist-player-not-found = 找不到玩家 { $player }。
+cmd-jobwhitelist-hint-player = [播放器]
+cmd-jobwhitelist-hint-job = [職缺]
+cmd-jobwhitelistadd-desc = 允許玩家執行白名單中的任務。
+cmd-jobwhitelistadd-help = 用法：jobwhitelistadd<username> <job>
+cmd-jobwhitelistadd-already-whitelisted = { $player } 已列入白名單，可使用 { $jobId } 的身分進行遊戲。({ $jobName })。
+cmd-jobwhitelistadd-added = 已將 { $player } 加入 { $jobId } ({ $jobName }) 的白名單中。
+cmd-jobwhitelistget-desc = 取得玩家已被列入白名單的所有職務。
+cmd-jobwhitelistget-help = 用法：jobwhitelistget<username>
+cmd-jobwhitelistget-whitelisted-none = 玩家 { $player } 未被列入任何任務的白名單。
+cmd-jobwhitelistget-whitelisted-for =
+    「玩家 { $player } 已被加入白名單，適用於：
+    { $jobs }」
+cmd-jobwhitelistremove-desc = 移除玩家執行白名單中任務的能力。
+cmd-jobwhitelistremove-help = 用法：jobwhitelistremove<username> <job>
+cmd-jobwhitelistremove-was-not-whitelisted = { $player } 未被列入白名單，無法以 { $jobId }（{ $jobName }）的身分進行遊戲。
+cmd-jobwhitelistremove-removed = 已從 { $jobId }（{ $jobName }）的白名單中移除 { $player }。

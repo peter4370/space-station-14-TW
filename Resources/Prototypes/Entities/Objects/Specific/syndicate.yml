@@ -1,10 +1,10 @@
 
 - type: entity
-  name: telecrystal
+  name: telecrystal | telecrystal
   parent: [BaseItem, BaseSyndicateContraband]
   id: Telecrystal
   suffix: 20 TC
-  description: It seems to be pulsing with suspiciously enticing energies.
+  description: 它似乎正散發著一種令人難以抗拒的、可疑的能量，彷彿在脈動一般。 | It seems to be pulsing with suspiciously enticing energies.
   components:
   - type: Sprite
     sprite: Objects/Specific/Syndicate/telecrystal.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
   id: BaseUplinkRadio
-  name: syndicate uplink
-  description: Suspiciously looking old radio...
+  name: 聯盟上行鏈路 | syndicate uplink
+  description: 這台看起來很可疑的舊收音機…… | Suspiciously looking old radio...
   suffix: Empty
   components:
   - type: Sprite

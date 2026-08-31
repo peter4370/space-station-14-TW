@@ -1,90 +1,90 @@
-book-text-demonomicon1 = How To Summon a Demon
-          - by J.G. Wizgerald
-
-          1. todo finish writing demon summoning guide
-
-book-text-demonomicon2 = How To Summon a Lemon
-          - by J.G. Wizgerald
-
-          1. todo finish writing lemon summoning guide
-          2. WAit. Typo. Oh shit. Sorry guys
-
-book-text-demonomicon3 = Cool Demon Names I Found
-      - by Ms. Mossrock
-
-      Abraxas
-      Nephilim
-      Baal
-      Leviathan
-      Gary
-      Moloch
-      Scylla
-      Phenex
-
-book-text-chemistry-insane = IGOR CHEMISTRY GUIDE TO CHEMISTRY
-
-      TITLE: GUIDE TO CHEMISTRY
-
-      ABSTRACT: GUIDE TO CHEMISTRY
-
-      SECTION: WISE WORDS OF IGOR CHEMISTRY
-
-      MY NUMBER ONE TIP. IS TO ALWAYS HAVE FUN. YOU NEVER KNOW WHEN IT'LL ALL END.
-      SO JUST KEEP AT IT!!
-
-      MY NUMBER TWO TIP. I JUST CAN'T STOP FUCKING GRINDING UP JUMPSUITS. MY "COLLEAGUES" (agents) KEEP YELLING AT ME
-      TO STOP AND THAT 'itll come out of our paychecks' BUT THE STUFF IS SO GOOD. I'M LIKE AN INTERIOR DECORATION GENIUS.
-      SAXOPHONES AND BATTERIES TAKE MY MIND OFF OF IT BUT I'M ALWAYS BACK TO THE JUMPSUITS. HOO WEE.
-
-      MY NUMBER THREE TIP. THANK YOU FOR READING!! IGOR CHEMISTRY
-
-      CONCLUSION: IGOR CHEMISTRY
-
-book-text-botanics = ** Applications of Botanical Specimens Found In Nanotrasen Territories **
-
-      Many plants, when ground, yield useful chemicals. S. (spessmens) papaver and S. aloe vera
-      are known for their basic healing properties.
-
-      S. lucidum, or lingzhi, is known for its potent ability to save those near death from toxins. Eating too much
-      is known to cause adverse effects.
-
-      S. amanita, a powerfully poisonous specimen (Rest In Peace Sir Alacaster), and S. galactica, a
-      seemingly ordinary antitoxin, appear to have some sort of relation to eachother.
-
-      Some research is being done on combinations of the medicinal plants discussed, and they may prove fruitful.
-
-      ----
-
-      - penned by James Alacaster and Golzuk Amaranth
-
-book-text-gnome = All Hail Our Gnome King
-
-      He who is the grand cartographer who placed our kind into the world of the Island!
-
-      He who loves those with the largest of Hats!
-
-      Struck down by the evildoers who cannot appreciate our kind!
-
-      Our revenge will be dealt in full! He will Rise once more! hee Hoo!
-
-book-text-fishing = When I grow up, I want to be one of the harvesters of the space sea!
-
-      I think before my days are done I want to catch the fabled space fish!
-
-      I'm like a little rat sailing the seas of cheese! The bastards come to end me but I am as sly as a cat and as lucky as they come!
-
-      Press the <L BUMPER> and <R TRIGGER> to activate the fishing minigame.
-
-      - Sgt. John Baker Aclopoly
-
-book-text-detective = CHAPTER 1: SMALL ADVENTURES IN A BIG STATION
-
-      This station is filled with crime and grime...
-
-      I was shooting hoops down on Bagel when I heard a cry and a laser shot. I walked under the table nearby to hide, but there wasn't a second shot.
-
-      Outside, the engineerin chief got blasted by two Syndies hooked up with some fierce contraband. There wasn't enough of him for an open casket funeral.
-
-      Things always go wild here.. I'll never look at clowns the same.
-
-      The question is.. Who did it?
+book-text-demonomicon1 =
+    《如何召喚惡魔》
+    — 作者：J.G. Wizgerald
+    
+    1. 待辦事項：完成撰寫惡魔召喚指南
+book-text-demonomicon2 =
+    如何召喚一顆檸檬
+    —— 作者：J.G. Wizgerald
+    
+    1. 待辦事項：完成撰寫檸檬召喚指南
+    2. 等等。打錯字了。哦，該死。抱歉啦各位
+book-text-demonomicon3 =
+    我找到的酷炫惡魔名字
+    —— 作者：Ms. Mossrock
+    
+    阿布拉克斯
+    尼菲林
+    巴力
+    利維坦
+    蓋瑞
+    摩洛克
+    斯庫拉
+    菲尼克斯
+book-text-chemistry-insane =
+    伊戈爾化學《化學指南》
+    
+    標題：《化學指南》
+    
+    摘要：《化學指南》
+    
+    專欄：伊戈爾化學的睿智箴言
+    
+    我的首要建議是：永遠保持樂趣。 你永遠不知道一切何時會結束。
+    所以就繼續堅持下去吧！！
+    
+    我的第二條建議。我就是停不下來，他媽的總在把連身衣磨得粉碎。 我的「同事」（特工）不斷對我大吼
+    叫我停下來，還說「這筆錢會從我們的薪水裡扣掉」，但這些東西實在太棒了。 我簡直是位室內裝飾天才。
+    薩克斯風和打鼓能讓我暫時忘卻這件事，但我總會又回到連身衣上。哇哦。
+    
+    我的第三個小訣竅。感謝閱讀！！ 伊戈爾化學
+    
+    結論：伊戈爾化學
+book-text-botanics = ** 納諾特森領土內發現的植物標本之應用 **
+    
+    許多植物經研磨後，可提煉出有用的化學物質。S. (spessmens) papaver 及 S. aloe vera
+    以其基本的療癒特性而聞名。
+    
+    S. lucidum（即靈芝）則以其強大的解毒能力著稱，能拯救瀕臨死亡的患者脫離毒素之害。 已知過量食用
+    會引起不良反應。
+    
+    極具毒性的S. amanita（願阿拉卡斯特爵士安息），以及
+    中看似普通的解毒劑S. galactica，兩者之間似乎存在某種關聯。
+    
+    目前正針對文中提及的藥用植物組合進行研究，這些研究或許會有所收穫。
+    
+    ----
+    
+    - 作者：詹姆斯·阿拉卡斯特與戈爾祖克·阿馬蘭斯
+book-text-gnome =
+    萬歲！我們的地精之王
+    
+    他是那位偉大的製圖師，將我們這類族群安置於「島嶼」的世界之中！
+    
+    他是那位最鍾愛戴著最大帽子之人的存在！
+    
+    卻遭那些不懂得欣賞我們這類族群的惡徒所擊倒！
+    
+    我們必將徹底報仇雪恨！他必將再度崛起！嘻咻！
+book-text-fishing =
+    等我長大後，我想成為太空之海的收割者之一！
+    
+    我想在生命結束之前，一定要捕到那傳說中的太空魚！
+    
+    我就像一隻在起司之海航行的小老鼠！那些混蛋來要置我於死地，但我狡猾如貓，運氣更是好到不行！
+    
+    按下<L BUMPER> 和<R TRIGGER> 即可啟動釣魚小遊戲。
+    
+    —— 約翰·貝克中士 Aclopoly
+book-text-detective =
+    第一章：大車站裡的小冒險
+    
+    這座車站充斥著罪惡與骯髒……
+    
+    我正在貝格爾街打籃球，突然聽到一聲尖叫和一聲雷射槍響。我躲進附近的桌子底下，但並沒有第二聲槍響。
+    
+    在外頭，工程總監被兩名攜帶強效違禁品的辛迪幫成員擊斃。他的遺體殘缺到連舉辦開放式棺木葬禮都不夠用。
+    
+    這裡總是亂成一團……我再也無法用同樣的眼光看待小丑了。
+    
+    問題是……究竟是誰幹的？

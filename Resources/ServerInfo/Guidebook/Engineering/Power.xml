@@ -1,8 +1,9 @@
+
 <Document>
-  # Power
-  Power is the lifeblood of the station.
-  Without it, the station will quickly fall into chaos.
-  Engineers are responsible for maintaining the station's power grid, ensuring that power is supplied, distributed, and all departments are satisfied.
+  # 電力
+  電力是電台的命脈。
+  若沒有它，該站將迅速陷入混亂。
+  工程師負責維護該站的電力網，確保電力供應與分配順暢，並滿足各部門的需求。
 
   <Box>
     <GuideEntityEmbed Entity="SingularityGenerator" Caption=""/>
@@ -13,23 +14,23 @@
     <GuideEntityEmbed Entity="APCBasic" Caption=""/>
   </Box>
 
-  There are many different aspects to Space Station 14's power system simulation, as well as Engineering's intended gameplay.
+  「太空站 14」的電力系統模擬，以及《工程學》所規劃的遊戲玩法，都涵蓋了許多不同的面向。
 
-  Some important information to keep in mind includes:
-  - Station [textlink="generators" link="Generators"] are tiered and follow a hierarchy. The lower the tier, the less they are sustainable, but the easier they are to setup. The higher the tier, the more sustainable they are, but the more complex they are to setup.
-  - Space Station 14 features [textlink="voltage networks" link="VoltageNetworks"], which distribute power across the station and are stepped down in voltage by machines, so they can be used by other machines.
-  - Power [textlink="generators" link="Generators"] have [textlink="ramping" link="Ramping"], which means they take time to match the grid's demand to their supply.
+  以下是一些需注意的重要資訊：
+  - 站點 [textlink="generators" link="Generators"] 分為不同層級，並遵循階層結構。 層級越低，其永續性就越低，但設定起來也越容易。 層級越高，其永續性就越強，但設定起來也越複雜。
+  - 空間站 14 配備了 [textlink="電壓網路" link="VoltageNetworks"]，這些網路負責將電力分配至空間站各處，並透過設備將電壓降壓，以便其他設備能夠使用。
+  - 發電設備 [textlink="發電機組" link="發電機組"] 具有 [textlink="調度" link="調度"] 的特性，這意味著它們需要時間才能使供電量與電網的需求相匹配。
 
-  ## Starting Out
-  At the start of the shift, the station is running off of purely [textlink="battery" link="PowerStorage"] power.
-  This will at most last 5-10 minutes, depending on the station's power draw.
+  ## 起步階段
+  在班次開始時，該電台完全依靠 [textlink="電池" link="PowerStorage"] 供電運作。
+  這最多會持續 5 至 10 分鐘，具體時間取決於該站點的耗電量。
 
-  To extend this, you can start up the station's [textlink="Antimatter Engine" link="AME"], or [textlink="AME." link="AME"]
-  This will extend the runtime of the station's batteries by a significant amount, giving you more time to setup the station's higher-tier [textlink="generators." link="Generators"]
-  You can extend this even further by setting up [textlink="solar panels" link="SolarPanels"], which generate power for free.
+  若要進一步擴充，您可以啟動該站點的 [textlink="反物質引擎" link="AME"]，或 [textlink="AME." link="AME"]
+  此舉將顯著延長基地電池的運作時間，讓你有更多時間來設置基地更高階的 [textlink="發電機" link="Generators"]
+  您還可透過架設 [textlink="太陽能板" link="SolarPanels"] 來進一步延長運作時間，這些設備能免費產生電力。
 
-  After setting up the [textlink="AME" link="AME"] and [textlink="Solars" link="SolarPanels"], you should be generating a decent amount of power.
+  設定好 [textlink="AME" link="AME"] 和 [textlink="Solars" link="SolarPanels"] 之後，您應該就能產生相當可觀的電力了。
 
-  Now that you've bought yourself time, you can focus on setting up higher-tier [textlink="generators" link="Generators"] like the [textlink="Singularity Engine" link="SingularityEngine"], which can provide power for the rest of the shift.
+  既然已經為自己爭取到時間，你便可以專注於架設更高階的 [textlink="發電機" link="發電機"]，例如 [textlink="奇點引擎" link="奇點引擎"]，它能為本班次剩餘的時間提供動力。
 
 </Document>

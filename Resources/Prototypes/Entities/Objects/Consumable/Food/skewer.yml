@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseItem
   id: FoodKebabSkewer
-  name: skewer
-  description: A thin rod of metal used to skewer just about anything and cook it.
+  name: 竹籤 | skewer
+  description: 一種細長的金屬棒，用來將幾乎任何東西串起來烹煮。 | A thin rod of metal used to skewer just about anything and cook it.
   components:
   - type: Item
     shape:

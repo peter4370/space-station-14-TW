@@ -1,9 +1,10 @@
-﻿<Document>
+﻿
+<Document>
   # Atmospherics Systems
-  Atmos has a wide variety of devices catered to moving, managing, and otherwise manipulating gas.
-  These devices often work together to maintain a safe, breathable atmosphere for the crew, or to achieve a common task.
+  Atmos 提供種類繁多的設備，專門用於輸送、管理及以其他方式處理氣體。
+  這些裝置通常會協同運作，以維持讓船員能夠安全呼吸的環境，或共同完成某項任務。
 
-  This section delves into the various systems that Atmos has at their disposal, how they interconnect, and how they are ideally used.
+  本節將深入探討 Atmos 所擁有的各項系統、它們之間的相互連結方式，以及如何最佳化運用這些系統。
 
 
   <Box>
@@ -16,10 +17,10 @@
     <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
   </Box>
   <Box>
-    ## Pipe Networks
+    ## 管網
   </Box>
   <Box>
-    [color=#999999][italic]Interconnected pipes with a common task — commonly called Pipenets[italic][/color]
+    [color=#999999][italic]相互連接且具有共同功能的管線——通常稱為「管網」[italic][/color]
   </Box>
 
   <Box>
@@ -27,10 +28,10 @@
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
   </Box>
   <Box>
-    ## Device Monitoring and Control
+    ## 設備監控與控制
   </Box>
   <Box>
-    [color=#999999][italic]Monitoring and control over devices that manage a local atmosphere[italic][/color]
+    [color=#999999][italic]對管理局部環境的裝置進行監測與控制[italic][/color]
   </Box>
 
   <Box>
@@ -38,10 +39,10 @@
     <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
   </Box>
   <Box>
-    ## Fire and Gas Control
+    ## 火災與氣體控制
   </Box>
   <Box>
-    [color=#999999][italic]Devices to control and prevent gas leaks and fires[italic][/color]
+    [color=#999999][italic]用於控制及預防瓦斯洩漏與火災的裝置[italic][/color]
   </Box>
 
   <Box>
@@ -49,10 +50,10 @@
     <GuideEntityEmbed Entity="AirCanister" Caption=""/>
   </Box>
   <Box>
-    ## Gas Mining and Storage
+    ## 天然氣開採與儲存
   </Box>
   <Box>
-    [color=#999999][italic] Devices to mine new gas for the station to use, and store it for later[italic][/color]
+    [color=#999999][italic]用於開採供站點使用的新氣體，並儲存起來以備日後使用的設備[italic][/color]
   </Box>
 
 </Document>

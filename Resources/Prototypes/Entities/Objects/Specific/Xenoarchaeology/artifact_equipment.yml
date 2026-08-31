@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructureDynamic, BasePaperLabelableVisualized, StructureHealthContainer ]
   id: CrateArtifactContainer
-  name: artifact container
-  description: Used to safely contain and move artifacts.
+  name: 遺物容器 | artifact container
+  description: 用於安全地存放及搬運文物。 | Used to safely contain and move artifacts.
   components:
     - type: Transform
       noRot: true
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ BaseStorageItem, StructureHealthContainerWeak ]
   id: HandheldArtifactContainer
-  name: handheld artifact container
-  description: A handheld case used to safely contain and move small artifacts.
+  name: 手持式文物容器 | handheld artifact container
+  description: 一種用於安全存放及搬運小型文物的手提箱。 | A handheld case used to safely contain and move small artifacts.
   components:
   - type: Sprite
     sprite: Objects/Storage/artifact_container.rsi

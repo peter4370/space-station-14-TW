@@ -1,0 +1,9 @@
+entity-category-name-debug = 除錯
+entity-category-desc-debug = 用於除錯與測試的實體原型。
+entity-category-suffix-debug = 除錯
+entity-category-name-spawner = 生成器
+entity-category-desc-spawner = 會生成其他實體的實體原型。
+entity-category-name-hide = 隱藏
+entity-category-desc-hide = 應從實體生成選單中隱藏的實體原型
+entity-category-name-fork = 分叉過濾
+entity-category-desc-fork = 此分支新增的實體原型。透過 CVar，您可以隱藏所有不屬於此類別的實體

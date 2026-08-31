@@ -1,8 +1,8 @@
 - type: entity
   parent: StructureHealthMachineWeak
   id: TwoWayLever
-  name: two way lever
-  description: A two way lever.
+  name: 雙向撥桿 | two way lever
+  description: 一個雙向撥桿。 | A two way lever.
   placement:
     mode: SnapgridCenter
   components:

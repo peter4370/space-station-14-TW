@@ -1,6 +1,7 @@
+
 <Document>
-# Drinks
-Knowing how to make a requested drink is important. Here are the different drinks in the game, including their recipes:
+# 飲品
+懂得如何調製客人點的飲品非常重要。 以下是遊戲中的各種飲品，包括其配方：
 
 <GuideReagentGroupEmbed Group="Drinks"/>
 </Document>

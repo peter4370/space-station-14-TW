@@ -56,7 +56,7 @@
 - type: entity
   id: DisposalHolder
   categories: [ HideSpawnMenu ]
-  name: disposal holder
+  name: 廢棄物收納架 | disposal holder
   components:
   - type: DisposalHolder
     traversalSpeed: 10
@@ -83,8 +83,8 @@
 - type: entity
   id: DisposalPipeBroken
   parent: DisposalPipeBase
-  name: broken disposal pipe
-  description: A BBP (big broken pipe).
+  name: 破損的廢水排放管 | broken disposal pipe
+  description: 一條 BBP（大型破裂水管）。 | A BBP (big broken pipe).
   components:
   - type: Sprite
     layers:
@@ -97,8 +97,8 @@
 - type: entity
   id: DisposalPipe
   parent: DisposalPipeBase
-  name: disposal pipe segment
-  description: A huge pipe segment used for constructing disposal systems.
+  name: 排放管段 | disposal pipe segment
+  description: 一段用於建造廢棄物處理系統的巨型管段。 | A huge pipe segment used for constructing disposal systems.
   components:
   - type: Sprite
     layers:
@@ -121,8 +121,8 @@
 - type: entity
   id: DisposalTagger
   parent: DisposalPipeBase
-  name: disposal pipe tagger
-  description: A pipe that tags entities for routing.
+  name: 廢水管道標記器 | disposal pipe tagger
+  description: 一個用於為實體標記路由資訊的管道。 | A pipe that tags entities for routing.
   components:
   - type: Sprite
     layers:
@@ -152,8 +152,8 @@
 - type: entity
   id: DisposalSignaller
   parent: DisposalPipeBase
-  name: disposal signaller
-  description: A pipe that emits a signal when in item goes through it.
+  name: 廢棄物處理信號員 | disposal signaller
+  description: 當物品通過這根管道時，管道會發出訊號。 | A pipe that emits a signal when in item goes through it.
   components:
   - type: Sprite
     layers:
@@ -185,8 +185,8 @@
 - type: entity
   id: DisposalTrunk
   parent: DisposalPipeBase
-  name: disposal trunk
-  description: A pipe trunk used as an entry point for disposal systems.
+  name: 廢棄物收納箱 | disposal trunk
+  description: 用作廢棄物處理系統入口的管道幹管。 | A pipe trunk used as an entry point for disposal systems.
   components:
   - type: Sprite
     layers:
@@ -215,8 +215,8 @@
 - type: entity
   id: DisposalRouter
   parent: DisposalPipeBase
-  name: disposal router
-  description: A three-way router. Entities with matching tags get routed to the side via configurable filters.
+  name: 廢棄路由器 | disposal router
+  description: 一個三向路由器。標籤相符的實體會透過可配置的篩選器被路由至側邊。 | A three-way router. Entities with matching tags get routed to the side via configurable filters.
   components:
   - type: Sprite
     layers:
@@ -256,7 +256,7 @@
 
 - type: entity
   id: DisposalRouterFlipped
-  description: A three-way router. Entities with matching tags get routed to the side.
+  description: 一個三向路由器。標籤相符的實體會被路由到一側。 | A three-way router. Entities with matching tags get routed to the side.
   parent: DisposalRouter
   suffix: flipped
   components:
@@ -291,8 +291,8 @@
 - type: entity
   id: DisposalJunction
   parent: DisposalPipeBase
-  name: disposal junction
-  description: A three-way junction. The arrow indicates where items exit.
+  name: 廢棄物處理樞紐 | disposal junction
+  description: 一個三岔路口。箭頭指示物品出口的位置。 | A three-way junction. The arrow indicates where items exit.
   components:
   - type: Sprite
     layers:
@@ -326,7 +326,7 @@
 
 - type: entity
   id: DisposalJunctionFlipped
-  description: A three-way junction. The arrow indicates where items exit.
+  description: 一個三岔路口。箭頭指示物品出口的位置。 | A three-way junction. The arrow indicates where items exit.
   parent: DisposalJunction
   suffix: flipped
   components:
@@ -362,8 +362,8 @@
 - type: entity
   id: DisposalYJunction
   parent: DisposalPipeBase
-  name: disposal y-junction
-  description: A three-way junction with another exit point.
+  name: 廢棄物 Y 型接頭 | disposal y-junction
+  description: 一個設有另一處出口的三岔路口。 | A three-way junction with another exit point.
   components:
   - type: Sprite
     layers:
@@ -395,8 +395,8 @@
 - type: entity
   id: DisposalXJunction
   parent: DisposalPipeBase
-  name: disposal x-junction
-  description: A four-way junction. The arrow indicates where items exit.
+  name: 廢棄物 X 型交匯處 | disposal x-junction
+  description: 一個四岔路口。箭頭標示物品的出口位置。 | A four-way junction. The arrow indicates where items exit.
   components:
   - type: Sprite
     layers:
@@ -430,8 +430,8 @@
 - type: entity
   id: DisposalBend
   parent: DisposalPipeBase
-  name: disposal bend
-  description: A tube bent at a 90 degree angle.
+  name: 排放彎管 | disposal bend
+  description: 一根彎曲成 90 度角的管子。 | A tube bent at a 90 degree angle.
   components:
   - type: Sprite
     layers:
@@ -462,8 +462,8 @@
 - type: entity
   parent: DisposalJunction
   id: DisposalSignalRouter
-  name: disposal signal router
-  description: A signal-controlled three-way router.
+  name: 廢棄訊號路由器 | disposal signal router
+  description: 一個由訊號控制的三向路由器。 | A signal-controlled three-way router.
   components:
   - type: Sprite
     layers:

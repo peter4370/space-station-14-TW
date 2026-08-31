@@ -1,113 +1,76 @@
-marking-TattooVoxNightlingHead-tattoo_nightling_head = Vox Head Tattoo (Nightling)
-marking-TattooVoxNightlingHead = Vox Head Tattoo (Nightling)
-
-marking-TattooVoxArrowHead-tattoo_arrow_head = Vox Head Tattoo (Arrow)
-marking-TattooVoxArrowHead = Vox Head Tattoo (Arrow)
-
-marking-VoxTattooEyeliner-eyeliner = Eyeliner
-marking-VoxTattooEyeliner = Eyeliner
-
-marking-VoxVisage-visage = Visage (Full)
-marking-VoxVisage = Visage (Full)
-
-marking-VoxVisageL-visage_l = Visage (Left)
-marking-VoxVisageL = Visage (Left)
-
-marking-VoxVisageR-visage_r = Visage (Right)
-marking-VoxVisageR = Visage (Right)
-
-marking-VoxCheek-cheekblush = Cheeks
-marking-VoxCheek = Cheeks
-
-marking-VoxBeak-beak = Beak (Pointed)
-marking-VoxBeak = Beak (Pointed)
-
-marking-VoxBeakSquareCere-beak_squarecere = Beak (Square Cere)
-marking-VoxBeakSquareCere = Beak (Square Cere)
-
-marking-VoxBeakHooked-beak_hooked = Beak (Hooked)
-marking-VoxBeakHooked = Beak (Hooked)
-
-marking-VoxBeakShaved-beak_shaved = Beak (Shaved)
-marking-VoxBeakShaved = Beak (Shaved)
-
-marking-VoxBeakCoverTip-beakcover_tip = Beak Tip
-marking-VoxBeakCoverTip = Beak Tip
-
-marking-VoxBeakCoverStripe-beakcover_stripe = Beak Stripe
-marking-VoxBeakCoverStripe = Beak Stripe
-
-marking-TattooVoxHeartLeftArm-heart_l_arm = Vox Left Arm Tattoo (Heart)
-marking-TattooVoxHeartLeftArm = Vox Left Arm Tattoo (Heart)
-
-marking-TattooVoxHeartRightArm-heart_r_arm = Vox Right Arm Tattoo (Heart)
-marking-TattooVoxHeartRightArm = Vox Right Arm Tattoo (Heart)
-
-marking-TattooVoxHiveChest-hive_s = Vox Chest Tattoo (Hive)
-marking-TattooVoxHiveChest = Vox Chest Tattoo (Hive)
-
-marking-TattooVoxNightlingChest-nightling_s = Vox Chest Tattoo (Nightling)
-marking-TattooVoxNightlingChest = Vox Chest Tattoo (Nightling)
-
-marking-TattooVoxNightbelt-nightbelt = Vox Stomach Tattoo (Nightling)
-marking-TattooVoxNightbelt = Vox Stomach Tattoo (Nightling)
-
-marking-TattooVoxChestV-night_v = Vox Chest Tattoo (V Shape)
-marking-TattooVoxChestV = Vox Chest Tattoo (V Shape)
-
-marking-TattooVoxUnderbelly-underbelly = Underbelly
-marking-TattooVoxUnderbelly = Underbelly
-
-marking-VoxScarEyeRight-vox_scar_eye_right = Right Eye Scar
-marking-VoxScarEyeRight = Eye Scar (Right)
-
-marking-VoxScarEyeLeft-vox_scar_eye_left = Left Eye Scar
-marking-VoxScarEyeLeft = Eye Scar (Left)
-
-marking-VoxScarTopSurgeryShort-vox_scar_top_surgery_short = Thoracotomy Scar
-marking-VoxScarTopSurgeryShort = Thoracotomy Scar
-
-marking-VoxScarTopSurgeryLong-vox_scar_top_surgery_long = Clamshell Scar
-marking-VoxScarTopSurgeryLong = Clamshell Scar
-
-marking-VoxScarChest-vox_scar_chest = Chest Scar
-marking-VoxScarChest = Chest Scar
-
-marking-VoxScarNeck-vox_scar_neck = Neck Scar
-marking-VoxScarNeck = Neck Scar
-
-marking-VoxScarChestBullets-vox_scar_chest_bullets = Bullet Holes Scar
-marking-VoxScarChestBullets = Chest Scar (Bullets)
-
-marking-VoxScarStomachBullets-vox_scar_stomach_bullets = Bullet Holes Scar
-marking-VoxScarStomachBullets = Stomach Scar (Bullets)
-
-marking-VoxScarFace1-vox_scar_face_1 = Face Scar
-marking-VoxScarFace1 = Face Scar (Large)
-
-marking-VoxScarFace2-vox_scar_face_2 = Face Scar
-marking-VoxScarFace2 = Face Scar (Small)
-
-marking-VoxScarEyeRightSmall-vox_scar_eye_right_small = Right Eye Scar (Small)
-marking-VoxScarEyeRightSmall = Small Eye Scar (Right)
-
-marking-VoxScarEyeLeftSmall-vox_scar_eye_left_small = Left Eye Scar (Small)
-marking-VoxScarEyeLeftSmall = Small Eye Scar (Left)
-
-marking-VoxTailShort-vox_tail_small = Vox Tail (Short)
-marking-VoxTailShort = Vox Tail (Short)
-
-marking-VoxTail-vox_tail = Vox Tail (Medium)
-marking-VoxTail = Vox Tail (Medium)
-
-marking-VoxTailBig-vox_tail_big = Vox Tail (Big)
-marking-VoxTailBig = Vox Tail (Big)
-
-marking-VoxTailSpikes-vox_tail_spikes = Vox Tail (Spiked)
-marking-VoxTailSpikes = Vox Tail (Spiked)
-
-marking-VoxTailDocked-vox_tail_docked = Vox Tail (Vestigial)
-marking-VoxTailDocked = Vox Tail (Vestigial)
-
-marking-VoxTailSplit-vox_tail_split = Vox Tail (Split)
-marking-VoxTailSplit = Vox Tail (Split)
+marking-TattooVoxNightlingHead-tattoo_nightling_head = Vox 頭部刺青（夜行鳥）
+marking-TattooVoxNightlingHead = Vox 頭部刺青（夜行鳥）
+marking-TattooVoxArrowHead-tattoo_arrow_head = Vox 頭部刺青（箭頭）
+marking-TattooVoxArrowHead = Vox 頭部刺青（箭頭）
+marking-VoxTattooEyeliner-eyeliner = 眼線筆
+marking-VoxTattooEyeliner = 眼線筆
+marking-VoxVisage-visage = 《Visage》（完整版）
+marking-VoxVisage = 《Visage》（完整版）
+marking-VoxVisageL-visage_l = Visage（左）
+marking-VoxVisageL = Visage（左）
+marking-VoxVisageR-visage_r = Visage（右）
+marking-VoxVisageR = Visage（右）
+marking-VoxCheek-cheekblush = 臉頰
+marking-VoxCheek = 臉頰
+marking-VoxBeak-beak = 喙（尖的）
+marking-VoxBeak = 喙（尖的）
+marking-VoxBeakSquareCere-beak_squarecere = 喙（方形喙胼）
+marking-VoxBeakSquareCere = 喙（方形蜡膜）
+marking-VoxBeakHooked-beak_hooked = 喙（鉤狀）
+marking-VoxBeakHooked = 喙（鉤狀）
+marking-VoxBeakShaved-beak_shaved = 喙（剃過）
+marking-VoxBeakShaved = 喙（剃過）
+marking-VoxBeakCoverTip-beakcover_tip = 喙尖
+marking-VoxBeakCoverTip = 喙尖
+marking-VoxBeakCoverStripe-beakcover_stripe = 喙紋
+marking-VoxBeakCoverStripe = 喙紋
+marking-TattooVoxHeartLeftArm-heart_l_arm = Vox 左臂刺青（心形）
+marking-TattooVoxHeartLeftArm = Vox 左臂刺青（心形）
+marking-TattooVoxHeartRightArm-heart_r_arm = Vox 右臂刺青（心形）
+marking-TattooVoxHeartRightArm = Vox 右臂刺青（心形）
+marking-TattooVoxHiveChest-hive_s = Vox 胸口刺青（Hive）
+marking-TattooVoxHiveChest = Vox 胸口刺青（Hive）
+marking-TattooVoxNightlingChest-nightling_s = Vox 胸口刺青（夜行者）
+marking-TattooVoxNightlingChest = Vox 胸口刺青（夜行者）
+marking-TattooVoxNightbelt-nightbelt = Vox 胃部刺青（夜行鳥）
+marking-TattooVoxNightbelt = Vox 胃部刺青（夜行鳥）
+marking-TattooVoxChestV-night_v = Vox 胸前刺青（V 形）
+marking-TattooVoxChestV = Vox 胸前刺青（V 形）
+marking-TattooVoxUnderbelly-underbelly = 《Underbelly》
+marking-TattooVoxUnderbelly = 《Underbelly》
+marking-VoxScarEyeRight-vox_scar_eye_right = 右眼疤痕
+marking-VoxScarEyeRight = 眼部疤痕（右眼）
+marking-VoxScarEyeLeft-vox_scar_eye_left = 左眼疤痕
+marking-VoxScarEyeLeft = 眼部疤痕（左眼）
+marking-VoxScarTopSurgeryShort-vox_scar_top_surgery_short = 胸腔切開術疤痕
+marking-VoxScarTopSurgeryShort = 胸腔切開術疤痕
+marking-VoxScarTopSurgeryLong-vox_scar_top_surgery_long = 蛤殼狀疤痕
+marking-VoxScarTopSurgeryLong = 蛤殼狀疤痕
+marking-VoxScarChest-vox_scar_chest = 胸部的疤痕
+marking-VoxScarChest = 胸部的疤痕
+marking-VoxScarNeck-vox_scar_neck = 頸部疤痕
+marking-VoxScarNeck = 頸部疤痕
+marking-VoxScarChestBullets-vox_scar_chest_bullets = 彈孔留下的傷疤
+marking-VoxScarChestBullets = 胸部疤痕（子彈）
+marking-VoxScarStomachBullets-vox_scar_stomach_bullets = 彈孔留下的傷疤
+marking-VoxScarStomachBullets = 腹部疤痕（子彈）
+marking-VoxScarFace1-vox_scar_face_1 = 臉部疤痕
+marking-VoxScarFace1 = 臉部疤痕（大）
+marking-VoxScarFace2-vox_scar_face_2 = 臉部疤痕
+marking-VoxScarFace2 = 臉部疤痕（小）
+marking-VoxScarEyeRightSmall-vox_scar_eye_right_small = 右眼疤痕（小）
+marking-VoxScarEyeRightSmall = 右眼小疤痕
+marking-VoxScarEyeLeftSmall-vox_scar_eye_left_small = 左眼疤痕（小）
+marking-VoxScarEyeLeftSmall = 左眼小疤痕
+marking-VoxTailShort-vox_tail_small = Vox Tail（短版）
+marking-VoxTailShort = Vox Tail（短版）
+marking-VoxTail-vox_tail = Vox Tail（中號）
+marking-VoxTail = Vox Tail（中號）
+marking-VoxTailBig-vox_tail_big = Vox Tail（大號）
+marking-VoxTailBig = Vox Tail（大號）
+marking-VoxTailSpikes-vox_tail_spikes = Vox Tail（帶刺）
+marking-VoxTailSpikes = Vox Tail（帶刺）
+marking-VoxTailDocked-vox_tail_docked = 聲帶尾（退化）
+marking-VoxTailDocked = 聲帶尾（退化）
+marking-VoxTailSplit-vox_tail_split = Vox Tail（合輯）
+marking-VoxTailSplit = Vox Tail（合輯）

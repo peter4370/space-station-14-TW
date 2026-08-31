@@ -1,21 +1,22 @@
-﻿<Document>
-  # Portable Scrubber
-  The portable scrubber is a portable machine that can be used to scrub the atmosphere in a room.
+﻿
+<Document>
+  # 便攜式淨化機
+  便攜式淨化機是一種可攜帶的設備，可用於淨化室內空氣。
   <Box>
     <GuideEntityEmbed Entity="PortableScrubber"/>
   </Box>
 
-  It is invaluable for quickly removing unwanted gasses from a room when regular [textlink="scrubbers" link="AirScrubber"] are working too slow, or when a [textlink="scrubber" link="AirScrubber"] is not present.
+  當一般的 [textlink="洗滌器" link="AirScrubber"] 運作速度過慢，或是現場沒有 [textlink="洗滌器" link="AirScrubber"] 時，這項裝置對於快速清除室內多餘氣體而言，具有無可取代的價值。
 
-  The portable scrubber requires [textlink="power" link="Power"] through a nearby [textlink="LV cable" link="VoltageNetworks"] to function.
+  這款便攜式洗滌機需透過附近的 [textlink="LV 電纜" link="VoltageNetworks"] 連接 [textlink="電源" link="Power"] 方能運作。
 
-  The portable scrubber automatically starts removing all non-breathable gasses from the room when it is bolted (wrenched) to the floor.
+  當這台便攜式淨化器以螺栓（或扳手）固定在地面上時，便會自動開始清除室內所有不可吸入的氣體。
 
-  It will stop scrubbing when unbolted (unwrenched) from the floor or when its internal volume is full. The scrubber has an internal capacity of [color=orange][protodata="PortableScrubber" comp="PortableScrubber" member="Volume"/] liters[/color].
+  當其從地板上鬆開螺栓（或卸下扳手）時，或當其內部空間已滿時，便會停止刷洗。 該洗滌器的內部容量為 [color=orange][protodata="PortableScrubber" comp="PortableScrubber" member="Volume"/] 公升[/color]。
 
-  ## Dumping Waste and Storage
-  The scrubber's internal volume can be emptied by anchoring (wrenching) onto a [textlink="connector" link="GasCanisters"].
+  ## 廢物傾倒與儲存
+  可透過將洗滌器固定（旋緊）至 [textlink="連接器" link="GasCanisters"] 來將其內部空間清空。
 
-  Stations commonly have a dedicated emptying point to quickly transfer the waste from the scrubber to the station's wastenet.
+  站點通常設有專用的傾倒點，以便將廢料從清洗機迅速轉移至站點的廢料收集網中。
 
 </Document>

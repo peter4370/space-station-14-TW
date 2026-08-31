@@ -1,15 +1,12 @@
-cmd-substepatmos-desc = Substeps the atmosphere simulation by a single atmostick for the provided grid entity. Implicitly pauses atmospherics simulation.
-cmd-substepatmos-help = Usage: {$command} <EntityUid>
-
-cmd-error-no-grid-provided-or-invalid-grid = You must either provide a grid entity or be standing on a grid to substep.
-cmd-error-couldnt-parse-entity = Entity provided could not be parsed or does not exist. Try standing on a grid you want to substep.
-cmd-error-no-gridatmosphere = Entity provided doesn't have a GridAtmosphereComponent.
-cmd-error-no-gastileoverlay = Entity provided doesn't have a GasTileOverlayComponent.
-cmd-error-no-mapgrid = Entity provided doesn't have a MapGridComponent.
-cmd-error-no-xform = Entity provided doesn't have a TransformComponent?
-cmd-error-no-valid-map = The grid provided is not on a valid map?
-
-cmd-substepatmos-info-implicitly-paused-simulation = Implicitly paused atmospherics simulation on {$grid}.
-cmd-substepatmos-info-substepped-grid = Substepped atmospherics simulation by one atmostick on {$grid}.
-
-cmd-substepatmos-completion-grid-substep = EntityUid of the grid you want to substep. Automatically uses the grid you're standing on if empty.
+cmd-substepatmos-desc = 針對所提供的網格實體，將大氣模擬細分為單一「atmostick」的子步驟。此操作會隱式地暫停大氣模擬。
+cmd-substepatmos-help = 用法：{ $command }<EntityUid>
+cmd-error-no-grid-provided-or-invalid-grid = 若要執行子步驟，您必須提供一個網格實體，或正站在某個網格上。
+cmd-error-couldnt-parse-entity = 無法解析所提供的實體，或該實體不存在。請試著站在您想進行子步運算的網格上。
+cmd-error-no-gridatmosphere = 所提供的實體沒有 GridAtmosphereComponent。
+cmd-error-no-gastileoverlay = 所提供的實體沒有 GasTileOverlayComponent。
+cmd-error-no-mapgrid = 所提供的實體沒有 MapGridComponent。
+cmd-error-no-xform = 提供的實體沒有 TransformComponent 嗎？
+cmd-error-no-valid-map = 提供的網格不在有效的地圖上嗎？
+cmd-substepatmos-info-implicitly-paused-simulation = 在 { $grid } 上，環境音效模擬已隱式暫停。
+cmd-substepatmos-info-substepped-grid = 由 one atmostick 在 { $grid } 上進行的分步大氣模擬。
+cmd-substepatmos-completion-grid-substep = 您要進行子步運算的網格之 EntityUid。若為空，則會自動使用您當前所處的網格。

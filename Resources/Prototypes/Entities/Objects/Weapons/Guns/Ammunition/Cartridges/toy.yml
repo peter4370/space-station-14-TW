@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseCartridge
   id: BaseCartridgeCap
-  name: cartridge (cap)
+  name: 墨盒（蓋） | cartridge (cap)
   components:
   - type: Tag
     tags:
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseCartridgeCap
   id: CartridgeCap
-  name: cap gun cartridge
-  description: A mock pistol cartridge that makes noise and smoke, but has no actual projectile.
+  name: 玩具槍子彈 | cap gun cartridge
+  description: 一種會發出聲響並產生煙霧，但並未裝有實際彈頭的模擬手槍子彈。 | A mock pistol cartridge that makes noise and smoke, but has no actual projectile.
   components:
   - type: CartridgeAmmo
     proto: BulletCap

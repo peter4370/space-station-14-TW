@@ -2,8 +2,8 @@
 - type: entity
   parent: [BaseStructureDynamic, StructureWheeled, StructureHealthContainer]
   id: MailCart
-  name: mail cart
-  description: Deliver packages with style and efficiency.
+  name: 郵件推車 | mail cart
+  description: 以時尚且高效的方式送達包裹。 | Deliver packages with style and efficiency.
   components:
   - type: Sprite
     noRot: true

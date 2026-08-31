@@ -1,15 +1,16 @@
+
 <Document>
-  # Moth People
+  # 飛蛾人
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceMoth" Caption=""/>
   </Box>
 
-  They can eat cotton, fabrics and clothing, but virtually none of the food that others would consider "edible". They prefer a somewhat lower temperature range than humans.
-  Their Insect Blood can't be metabolised from Iron like normal blood.
+  牠們可以吃棉花、布料和衣物，但幾乎不吃任何其他人會視為「可食用」的食物。 牠們偏好的溫度範圍比人類稍低一些。
+  他們的「昆蟲之血」無法像普通血液那樣將鐵質代謝出去。
 
-  Their wings give them better acceleration if there is no gravity on the station, but they still can't move without equipment when floating out in space.
+  如果在太空站內沒有重力，他們的翅膀能讓他們獲得更好的加速能力，但當他們漂浮在太空中時，若沒有裝備，仍無法移動。
 
-  They take [color=#1e90ff]50% less Cold damage[/color] but [color=#ffa500]100% more Heat damage, and catch on fire more easily[/color].
+  它們承受的 [color=#1e90ff]寒冰傷害減少 50%[/color]，但 [color=#ffa500]承受的熱傷害增加 100%，且更容易起火[/color]。
 
 </Document>

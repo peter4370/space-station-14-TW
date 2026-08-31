@@ -1,8 +1,8 @@
 - type: entity
   id: BodyBag
   parent: [ BaseDeployFoldable, BasePaperLabelableVisualized ]
-  name: body bag
-  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
+  name: 屍袋 | body bag
+  description: 一種專為存放及運送屍體而設計的塑膠袋，用以防止屍體腐爛。 | A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
   components:
   - type: Item
     size: Small
@@ -87,8 +87,8 @@
 
 - type: entity
   id: BodyBagFolded
-  name: body bag
-  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
+  name: 屍袋 | body bag
+  description: 一種專為存放及運送屍體而設計的塑膠袋，用以防止屍體腐爛。 | A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
   parent: BodyBag
   suffix: folded
   components:
@@ -102,8 +102,8 @@
 - type: entity
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: Ash
-  name: ash
-  description: This used to be something, but now it's not.
+  name: ash | ash
+  description: 這以前還算有點看頭，但現在已經不是了。 | This used to be something, but now it's not.
   components:
   - type: Item
     size: Tiny
@@ -130,8 +130,8 @@
 - type: entity
   parent: Ash
   id: Ectoplasm
-  name: ectoplasm
-  description: Much less deadly in this form.
+  name: 體外物質 | ectoplasm
+  description: 以這種形式出現時，致命性要低得多。 | Much less deadly in this form.
   components:
   - type: Sprite
     sprite: Mobs/Ghosts/revenant.rsi

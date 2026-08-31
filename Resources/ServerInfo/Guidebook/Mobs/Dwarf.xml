@@ -1,11 +1,12 @@
+
 <Document>
-  # Dwarves
+  # 矮人
 
   <Box>
     <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
   </Box>
 
-  Dwarves are similar to humans in most respect, but tolerate alcohol better and are healed by it.
+  矮人在大多數方面都與人類相似，但對酒精的耐受性較高，且飲酒能促進其康復。
 
 
 </Document>

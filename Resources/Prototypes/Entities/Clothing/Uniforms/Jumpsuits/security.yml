@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDetective
-  name: hard-worn suit
-  description: Someone who wears this means business.
+  name: 穿得破舊的西裝 | hard-worn suit
+  description: 穿這件衣服的人，可是認真的。 | Someone who wears this means business.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/detective.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDetectiveGrey
-  name: noir suit
-  description: A hard-boiled private investigator's grey suit, complete with tie clip.
+  name: 黑色西裝 | noir suit
+  description: 一位硬派私家偵探的灰色西裝，配有領帶夾。 | A hard-boiled private investigator's grey suit, complete with tie clip.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/detective_grey.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoS
-  name: head of security's jumpsuit
-  description: It's bright red and rather crisp, much like security's victims tend to be.
+  name: 安保主管的連身工作服 | head of security's jumpsuit
+  description: 它呈鮮紅色，質地相當爽脆，這點與安全人員的受害者通常的模樣頗為相似。 | It's bright red and rather crisp, much like security's victims tend to be.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/hos.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSAlt
-  name: head of security's turtleneck
-  description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+  name: 安保主管的高領衫 | head of security's turtleneck
+  description: 這是一件高領衫，只有那些足夠強悍且紀律嚴明、足以晉升為安全主管的人才會穿。 | It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/hos_alt.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSBlue
-  name: head of security's blue jumpsuit
-  description: A blue jumpsuit of Head of Security.
+  name: 安保主管的藍色連身工作服 | head of security's blue jumpsuit
+  description: 安全主管的一套藍色連身工作服。 | A blue jumpsuit of Head of Security.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/hos_blue.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSGrey
-  name: head of security's grey jumpsuit
-  description: A grey jumpsuit of Head of Security, which make him look somewhat like a passenger.
+  name: 安保主管的灰色連身工作服 | head of security's grey jumpsuit
+  description: 安全主管身穿一套灰色的連身工作服，這讓他看起來有點像乘客。 | A grey jumpsuit of Head of Security, which make him look somewhat like a passenger.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/hos_grey.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSParadeMale
-  name: head of security's parade uniform
-  description: A male head of security's luxury-wear, for special occasions.
+  name: 安全主管的閱兵禮服 | head of security's parade uniform
+  description: 一名男性安保主管在特殊場合穿著的奢華服飾。 | A male head of security's luxury-wear, for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/hos_parade.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBrigmedic
-  name: brigmedic jumpsuit
-  description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
+  name: 軍用醫療連身衣 | brigmedic jumpsuit
+  description: 這套制服是發放給已受過訓練且符合資格的人員。沒人在乎那場訓練只花了半天時間。 | This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/brigmedic.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPrisoner
-  name: prisoner jumpsuit
-  description: A jumpsuit used for prisoners. It has suit sensors automatically enabled at all times.
+  name: 囚犯連身服 | prisoner jumpsuit
+  description: 一套供囚犯穿著的連身衣。其內建的感測器會隨時自動啟用。 | A jumpsuit used for prisoners. It has suit sensors automatically enabled at all times.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Color/color.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSec
-  name: security jumpsuit
-  description: A jumpsuit made of strong material, providing robust protection.
+  name: 安全連身工作服 | security jumpsuit
+  description: 這款連身工作服採用堅韌材質製成，能提供強效防護。 | A jumpsuit made of strong material, providing robust protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/security.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecBlue
-  name: blue shirt and tie
-  description: I'm a little busy right now, Calhoun.
+  name: 藍色襯衫和領帶 | blue shirt and tie
+  description: 卡爾霍恩，我現在有點忙。 | I'm a little busy right now, Calhoun.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/security_blue.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSecGrey
-  name: grey security jumpsuit
-  description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+  name: 灰色防暴連身工作服 | grey security jumpsuit
+  description: 這是過去某個時期的戰術遺物，那時「納諾特拉森」尚未決定，將防護服染成紅色比清洗掉血跡更划算。 | A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/security_grey.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformSecurityTrooper
-  name: trooper uniform
-  description: A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
+  name: 騎警制服 | trooper uniform
+  description: 發給納諾特拉森突擊隊員的正式制服，通常會配有一輛車。 | A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/security_trooper.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitWarden
-  name: warden's uniform
-  description: A formal security suit for officers complete with Nanotrasen belt buckle.
+  name: 獄警制服 | warden's uniform
+  description: 一套配備 Nanotrasen 皮帶扣的正式警用制服。 | A formal security suit for officers complete with Nanotrasen belt buckle.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/warden.rsi
@@ -218,8 +218,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHosFormal
-  name: hos's formal suit
-  description: A suit for special occasions.
+  name: 霍斯的正式西裝 | hos's formal suit
+  description: 一套適合特殊場合的西裝。 | A suit for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/hosformal.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSeniorOfficer
-  name: senior officer jumpsuit
-  description: A sign of skill and prestige within the security department.
+  name: 高級警官連身制服 | senior officer jumpsuit
+  description: 這是保安部門內展現專業能力與聲望的象徵。 | A sign of skill and prestige within the security department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/senior_officer.rsi

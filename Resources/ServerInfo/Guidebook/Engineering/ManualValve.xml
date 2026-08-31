@@ -1,15 +1,16 @@
-﻿<Document>
-  # Manual Valve
-  The manual valve is as simple as it gets.
-  Allows or blocks the flow of gasses depending on if it's open or closed.
+﻿
+<Document>
+  # 手動閥門
+  這款手動閥門的設計簡約至極。
+  根據其開啟或關閉的狀態，允許或阻擋氣體的流動。
   <Box>
     <GuideEntityEmbed Entity="GasValve"/>
   </Box>
 
-  Gas can freely flow between both sides with no restrictions.
+  氣體可以在兩側之間自由流動，毫無阻礙。
 
-  Manual valves are used in a variety of applications, for example:
-  - Allowing or blocking the bypass of a recyclernet, to space waste gas directly
-  - Connecting or isolating heaters/coolers from the station's distro
+  手動閥門廣泛應用於各種場合，例如：
+  - 開啟或關閉回收網的旁通，以將廢氣直接排出
+  - 將加熱器／冷卻器連接至或與站內的配氣系統隔離
 
 </Document>

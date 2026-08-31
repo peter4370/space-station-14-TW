@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseBonfire
   id: Bonfire
-  name: bonfire
-  description: What can be better than a late evening under the sky with guitar and friends?
+  name: 篝火 | bonfire
+  description: 還有什麼比在深夜時分，在星空下與朋友們一起彈吉他更美好的呢？ | What can be better than a late evening under the sky with guitar and friends?
   components:
   - type: Sprite
     layers:
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseBonfire
   id: BonfireStake
-  name: bonfire with stake
-  description: A sinister bonfire with a stake for... ceremonial purposes. Best not to ask.
+  name: 篝火與火柱 | bonfire with stake
+  description: 一堆陰森的篝火，中間插著一根木樁……用來進行某種儀式。最好別問。 | A sinister bonfire with a stake for... ceremonial purposes. Best not to ask.
   components:
   - type: Sprite
     sprite: Structures/Decoration/bonfire_stake.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseBonfire
   id: LegionnaireBonfire
-  name: legionnaire bonfire
-  description: There, in the land of lava and ash, place to to cook marshmallow and potato.
+  name: 軍團士兵的篝火 | legionnaire bonfire
+  description: 在那裡，在熔岩與火山灰交織的土地上，正是烤棉花糖和馬鈴薯的好地方。 | There, in the land of lava and ash, place to to cook marshmallow and potato.
   components:
   - type: Sprite
     layers:

@@ -1,31 +1,32 @@
-book-text-gaming1 = Can't stay for the game.
-      Engineering want me to keep a close eye on the singularity SMESes.
-      Leaving this so you know what's up.
-      Sorry.
-       - Alexander
-
-book-text-gaming2 = Johny Clowe
-      Class: Druid
-      Alignment: Neutral Good
-      Str: 1,294,139
-      Dex: 4,102,103
-      Con: 9,522,913
-      Int: 528,491
-      Wis: 1
-      Cha: 1
-      Where's the age?
-      Why are those ability scores so ridiculous?
-      What even are you trying to do here, Leah? - Your Friendly DM
-
-book-text-gaming3 = THE GIANT SPACE FLY FROM SPACE
-      Session 1: They should have just learned what's going on with the world and the Giant Space Fly.
-      Session 2: They should know to ask the Wizard's Court about seismic distortions.
-      Session 3: On their way to underground lair.
-      Session 4: Just ran into the Architect Of Flies.
-      Oh dear goodness they just started randomly killing everybody
-
-book-text-gaming4 = Won't be able to come to the meet, chemist blew up the hospital again.
-      Fifth time this shift.
-      It's amazing.
-      But not in a good way.
-      Cheers, - Arielle
+book-text-gaming1 =
+    沒辦法留下來看比賽了。
+    工程部希望我密切關注奇點 SMES 的狀況。
+    留這則訊息給你們，讓你們知道狀況。
+    抱歉。
+     - Alexander
+book-text-gaming2 =
+    約尼·克洛
+    職業：德魯伊
+    陣營：中立善良
+    力量：1,294,139
+    敏捷：4,102,103
+    體質：9,522,913
+    智力：528,491
+    智慧：1
+    魅力：1
+    年齡在哪裡？
+    這些能力值怎麼會這麼荒謬？
+    莉亞，你到底想幹嘛啊？ —— 你的好朋友 DM
+book-text-gaming3 =
+    來自太空的巨型太空蒼蠅
+    第 1 場：他們本該弄清楚世界現狀以及巨型太空蒼蠅的來龍去脈。
+    第 2 場：他們應該知道要向巫師法庭詢問關於地震扭曲的狀況。
+    第 3 場：正前往地下巢穴的途中。
+    第 4 場：剛碰上「蒼蠅建築師」。
+    天啊，他們居然開始隨機屠殺所有人了
+book-text-gaming4 =
+    沒辦法去參加聚會了，化學家又把醫院炸了。
+    這班已經是第五次了。
+    真是不可思議。
+    但這可不是什麼好事。
+    祝好，- Arielle

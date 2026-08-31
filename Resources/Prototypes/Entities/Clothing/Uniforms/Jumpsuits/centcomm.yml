@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDeathSquad
-  name: death squad uniform
-  description: Advanced armored jumpsuit used by special forces in special operations.
+  name: 死亡小隊制服 | death squad uniform
+  description: 特種部隊在執行特種行動時所使用的先進防彈連身服。 | Advanced armored jumpsuit used by special forces in special operations.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/deathsquad.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomAgent
-  name: CentComm agent's jumpsuit
-  description: A suit worn by CentComm's legal team. Smells of burnt coffee.
+  name: CentComm 特工的連身工作服 | CentComm agent's jumpsuit
+  description: 一套由中央司令部法律團隊穿過的西裝。散發著燒焦咖啡的味道。 | A suit worn by CentComm's legal team. Smells of burnt coffee.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/centcom_agent.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomOfficial
-  name: CentComm official's jumpsuit
-  description: It's a jumpsuit worn by CentComm's officials.
+  name: 中央司令部官員的連身工作服 | CentComm official's jumpsuit
+  description: 這是中央司令部官員穿著的一套連身工作服。 | It's a jumpsuit worn by CentComm's officials.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/centcom_official.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomOfficer
-  name: CentComm officer's jumpsuit
-  description: It's a jumpsuit worn by CentComm Officers.
+  name: CentComm 軍官的連身工作服 | CentComm officer's jumpsuit
+  description: 這是中央司令部軍官穿著的連身工作服。 | It's a jumpsuit worn by CentComm Officers.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/centcom_officer.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomFormal
-  name: central command formal suit
-  description: A suit for special occasions.
+  name: 中央指揮部正式西裝 | central command formal suit
+  description: 一套適合特殊場合的西裝。 | A suit for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/centcomformal.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTChaplain
-  name: ERT chaplain uniform
-  description: A special suit made for Central Command's elite chaplain corps.
+  name: ERT 隨軍牧師制服 | ERT chaplain uniform
+  description: 專為中央司令部轄下精英軍牧團打造的特製制服。 | A special suit made for Central Command's elite chaplain corps.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/ert_chaplain.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTEngineer
-  name: ERT engineering uniform
-  description: A special suit made for the elite engineers under CentComm.
+  name: ERT 工程制服 | ERT engineering uniform
+  description: 一款專為中央司令部轄下精英工程師量身打造的特製防護服。 | A special suit made for the elite engineers under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/ert_engineer.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTJanitor
-  name: ERT janitorial uniform
-  description: A special suit made for the elite janitors under CentComm.
+  name: ERT 清潔人員制服 | ERT janitorial uniform
+  description: 專為中央司令部轄下精英清潔人員量身打造的特製制服。 | A special suit made for the elite janitors under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/ert_janitor.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTLeader
-  name: ERT leader uniform
-  description: A special suit made for the best of the elites under CentComm.
+  name: 緊急應變小組（ERT）隊長制服 | ERT leader uniform
+  description: 一款專為中央司令部（CentCom）轄下頂尖精英量身打造的特製戰服。 | A special suit made for the best of the elites under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/ert_leader.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTMedic
-  name: ERT medical uniform
-  description: A special suit made for the elite medics under CentComm.
+  name: ERT 醫療制服 | ERT medical uniform
+  description: 一款專為中央司令部轄下精英醫療人員量身打造的特製防護服。 | A special suit made for the elite medics under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/ert_medic.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTSecurity
-  name: ERT security uniform
-  description: A special suit made for the elite security under CentComm.
+  name: ERT 安全制服 | ERT security uniform
+  description: 一款專為中央司令部轄下精英安保部隊量身打造的特製防護服。 | A special suit made for the elite security under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Centcomm/ert_security.rsi

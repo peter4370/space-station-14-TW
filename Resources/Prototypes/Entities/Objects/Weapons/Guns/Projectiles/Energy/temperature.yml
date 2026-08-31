@@ -2,7 +2,7 @@
   parent: WatcherBolt
   id: BoltTempgunCold
   categories: [ HideSpawnMenu ]
-  name: freezing bolt
+  name: 防凍螺栓 | freezing bolt
   components:
   - type: Reflective
     reflective:
@@ -22,7 +22,7 @@
   parent: WatcherBoltMagmawing
   id: BoltTempgunHot
   categories: [ HideSpawnMenu ]
-  name: scorching bolt
+  name: 灼熱之鏢 | scorching bolt
   components:
   - type: Reflective
     reflective:

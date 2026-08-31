@@ -1,215 +1,177 @@
 # Errors
-loadout-group-species-restriction = This item is not available for your current species.
-
+loadout-group-species-restriction = 此項目不適用於您目前的物種。
 # Miscellaneous
-loadout-group-trinkets = Trinkets
-loadout-group-jobtrinkets = Job trinkets
-loadout-group-assistive-items = Assistive items
-loadout-group-glasses = Glasses
-loadout-group-backpack = Backpack
-loadout-group-instruments = Instruments
-loadout-group-survival-basic = Survival box
-loadout-group-survival-extended = Extended survival box
-loadout-group-survival-clown = Clown survival box
-loadout-group-survival-medical = Medical survival box
-loadout-group-survival-security = Security survival box
-loadout-group-survival-syndicate = Github is forcing me to write text that is literally twice-impossible for the player to ever see, send help
-loadout-group-survival-military = See line 14, no one will ever see this so :3
-loadout-group-breath-tool = Species-dependent breath tools
-loadout-group-tank-harness = Species-specific survival equipment
-loadout-group-EVA-tank = Species-specific gas tank
-loadout-group-vox-tank = Vox-specific gas tank
-loadout-group-pocket-tank-double = Species-specific double emergency tank in pocket
-loadout-group-survival-mime = Mime survival box
-
+loadout-group-trinkets = 小飾品
+loadout-group-jobtrinkets = 約伯的飾品
+loadout-group-assistive-items = 輔助用品
+loadout-group-glasses = 眼鏡
+loadout-group-backpack = 後背包
+loadout-group-instruments = 樂器
+loadout-group-survival-basic = 求生箱
+loadout-group-survival-extended = 擴充生存套件
+loadout-group-survival-clown = 小丑求生包
+loadout-group-survival-medical = 醫療急救箱
+loadout-group-survival-security = 安全求生包
+loadout-group-survival-syndicate = GitHub 硬要我寫下這段文字，這對玩家來說簡直是「雙重不可能」——請幫幫我
+loadout-group-survival-military = 請看第 14 行，反正沒人會看到這段，所以 :3
+loadout-group-breath-tool = 依物種而異的呼吸檢測工具
+loadout-group-tank-harness = 針對特定物種的生存裝備
+loadout-group-EVA-tank = 專用氣罐
+loadout-group-vox-tank = Vox 專用油箱
+loadout-group-pocket-tank-double = 專為該物種設計的雙緊急儲槽，置於口袋中
+loadout-group-survival-mime = 哑剧生存包
 # Command
-loadout-group-captain-head = Captain head
-loadout-group-captain-jumpsuit = Captain jumpsuit
-loadout-group-captain-neck = Captain neck
-loadout-group-captain-backpack = Captain backpack
-loadout-group-captain-outerclothing = Captain outer clothing
-
-loadout-group-hop-head = Head of Personnel head
-loadout-group-hop-jumpsuit = Head of Personnel jumpsuit
-loadout-group-hop-neck = Head of Personnel neck
-loadout-group-hop-backpack = Head of Personnel backpack
-loadout-group-hop-outerclothing = Head of Personnel outer clothing
-
+loadout-group-captain-head = 船長 頭部
+loadout-group-captain-jumpsuit = 船長連身衣
+loadout-group-captain-neck = 船長領
+loadout-group-captain-backpack = 船長後背包
+loadout-group-captain-outerclothing = Captain 外套
+loadout-group-hop-head = 人事主管 頭部
+loadout-group-hop-jumpsuit = 人事主管連身工作服
+loadout-group-hop-neck = 人事主管的頸部
+loadout-group-hop-backpack = 人事主管後背包
+loadout-group-hop-outerclothing = 人事主管的外套
 # Civilian
-loadout-group-passenger-jumpsuit = Passenger jumpsuit
-loadout-group-passenger-mask = Passenger mask
-loadout-group-passenger-gloves = Passenger gloves
-loadout-group-passenger-outerclothing = Passenger outer clothing
-loadout-group-passenger-shoes = Passenger shoes
-loadout-group-passenger-neck = Passenger neck
-
-loadout-group-bartender-head = Bartender head
-loadout-group-bartender-jumpsuit = Bartender jumpsuit
-loadout-group-bartender-outerclothing = Bartender outer clothing
-loadout-group-bartender-shaker = Bartender shaker
-
-loadout-group-chef-head = Chef head
-loadout-group-chef-mask = Chef mask
-loadout-group-chef-jumpsuit = Chef jumpsuit
-loadout-group-chef-outerclothing = Chef outer clothing
-
-loadout-group-librarian-jumpsuit = Librarian jumpsuit
-
-loadout-group-lawyer-jumpsuit = Lawyer jumpsuit
-loadout-group-lawyer-neck = Lawyer neck
-
-loadout-group-chaplain-head = Chaplain head
-loadout-group-chaplain-mask = Chaplain mask
-loadout-group-chaplain-jumpsuit = Chaplain jumpsuit
-loadout-group-chaplain-outerclothing = Chaplain outer clothing
-loadout-group-chaplain-neck = Chaplain neck
-loadout-group-chaplain-bible = Holy Book
-
-loadout-group-janitor-head = Janitor head
-loadout-group-janitor-jumpsuit = Janitor jumpsuit
-loadout-group-janitor-gloves = Janitor gloves
-loadout-group-janitor-outerclothing = Janitor outer clothing
-loadout-group-janitor-plunger = Janitor plunger
-
-loadout-group-botanist-head = Botanist head
-loadout-group-botanist-jumpsuit = Botanist jumpsuit
-loadout-group-botanist-backpack = Botanist backpack
-loadout-group-botanist-outerclothing = Botanist outer clothing
-
-loadout-group-clown-head = Clown head
-loadout-group-clown-jumpsuit = Clown jumpsuit
-loadout-group-clown-backpack = Clown backpack
-loadout-group-clown-outerclothing = Clown outer clothing
-loadout-group-clown-shoes = Clown shoes
-
-loadout-group-mime-head = Mime head
-loadout-group-mime-mask = Mime mask
-loadout-group-mime-jumpsuit = Mime jumpsuit
-loadout-group-mime-backpack = Mime backpack
-loadout-group-mime-outerclothing = Mime outer clothing
-loadout-group-mime-belt = Mime belt
-
-loadout-group-musician-jumpsuit = Musician jumpsuit
-loadout-group-musician-outerclothing = Musician outer clothing
-
+loadout-group-passenger-jumpsuit = 乘客連身衣
+loadout-group-passenger-mask = 乘客口罩
+loadout-group-passenger-gloves = 乘客手套
+loadout-group-passenger-outerclothing = 乘客的外套
+loadout-group-passenger-shoes = 乘客鞋
+loadout-group-passenger-neck = 乘客頸部
+loadout-group-bartender-head = 調酒師 頭部
+loadout-group-bartender-jumpsuit = 調酒師連身工作服
+loadout-group-bartender-outerclothing = 調酒師外套
+loadout-group-bartender-shaker = 調酒師用搖酒器
+loadout-group-chef-head = 主廚 頭部
+loadout-group-chef-mask = 主廚口罩
+loadout-group-chef-jumpsuit = 廚師連身工作服
+loadout-group-chef-outerclothing = 主廚外套
+loadout-group-librarian-jumpsuit = 圖書館員連身工作服
+loadout-group-lawyer-jumpsuit = 律師連身工作服
+loadout-group-lawyer-neck = 律師頸
+loadout-group-chaplain-head = 牧師 頭部
+loadout-group-chaplain-mask = 牧師面具
+loadout-group-chaplain-jumpsuit = 軍牧連身工作服
+loadout-group-chaplain-outerclothing = 軍牧的外套
+loadout-group-chaplain-neck = 查普林頸
+loadout-group-chaplain-bible = 聖經
+loadout-group-janitor-head = 清潔工 頭部
+loadout-group-janitor-jumpsuit = 清潔工連身工作服
+loadout-group-janitor-gloves = 清潔工手套
+loadout-group-janitor-outerclothing = 清潔工的外套
+loadout-group-janitor-plunger = 清潔工用的通馬桶器
+loadout-group-botanist-head = 植物學家 頭部
+loadout-group-botanist-jumpsuit = 植物學家連身褲
+loadout-group-botanist-backpack = 植物學家後背包
+loadout-group-botanist-outerclothing = Botanist 外套
+loadout-group-clown-head = 小丑 頭部
+loadout-group-clown-jumpsuit = 小丑連身衣
+loadout-group-clown-backpack = 小丑背包
+loadout-group-clown-outerclothing = 小丑外套
+loadout-group-clown-shoes = 小丑鞋
+loadout-group-mime-head = 默劇 頭部
+loadout-group-mime-mask = 默劇面具
+loadout-group-mime-jumpsuit = 默劇連身衣
+loadout-group-mime-backpack = Mime 後背包
+loadout-group-mime-outerclothing = Mime 外套
+loadout-group-mime-belt = Mime 皮帶
+loadout-group-musician-jumpsuit = 音樂家連身衣
+loadout-group-musician-outerclothing = 音樂家外套
 # Cargo
-loadout-group-quartermaster-head = Quartermaster head
-loadout-group-quartermaster-jumpsuit = Quartermaster jumpsuit
-loadout-group-quartermaster-neck = Quartermaster neck
-loadout-group-quartermaster-outerclothing = Quartermaster outer clothing
-loadout-group-quartermaster-shoes = Quartermaster shoes
-
-loadout-group-cargo-technician-head = Cargo Technician head
-loadout-group-cargo-technician-jumpsuit = Cargo Technician jumpsuit
-loadout-group-cargo-technician-backpack = Cargo Technician backpack
-loadout-group-cargo-technician-outerclothing = Cargo Technician outer clothing
-loadout-group-cargo-technician-shoes = Cargo Technician shoes
-loadout-group-cargo-technician-id = Cargo Technician ID
-
-loadout-group-salvage-specialist-backpack = Salvage Specialist backpack
-loadout-group-salvage-specialist-outerclothing = Salvage Specialist outer clothing
-loadout-group-salvage-specialist-shoes = Salvage Specialist shoes
-
+loadout-group-quartermaster-head = QM 頭部
+loadout-group-quartermaster-jumpsuit = 司務長連身工作服
+loadout-group-quartermaster-neck = 司務長頸部
+loadout-group-quartermaster-outerclothing = 軍需處外衣
+loadout-group-quartermaster-shoes = 司務長鞋
+loadout-group-cargo-technician-head = 貨運技術員 頭部
+loadout-group-cargo-technician-jumpsuit = 貨運技術員連身工作服
+loadout-group-cargo-technician-backpack = Cargo Technician 後背包
+loadout-group-cargo-technician-outerclothing = 貨運技術人員的外套
+loadout-group-cargo-technician-shoes = Cargo Technician 鞋款
+loadout-group-cargo-technician-id = 貨運技術人員編號
+loadout-group-salvage-specialist-backpack = 「打撈專家」後背包
+loadout-group-salvage-specialist-outerclothing = 「Salvage Specialist」外套
+loadout-group-salvage-specialist-shoes = Salvage Specialist 鞋款
 # Engineering
-loadout-group-chief-engineer-head = Chief Engineer head
-loadout-group-chief-engineer-jumpsuit = Chief Engineer jumpsuit
-loadout-group-chief-engineer-outerclothing = Chief Engineer outer clothing
-loadout-group-chief-engineer-neck = Chief Engineer neck
-loadout-group-chief-engineer-shoes = Chief Engineer shoes
-
-loadout-group-technical-assistant-jumpsuit = Technical Assistant jumpsuit
-
-loadout-group-station-engineer-head = Station Engineer head
-loadout-group-station-engineer-jumpsuit = Station Engineer jumpsuit
-loadout-group-station-engineer-backpack = Station Engineer backpack
-loadout-group-station-engineer-outerclothing = Station Engineer outer clothing
-loadout-group-station-engineer-shoes = Station Engineer shoes
-loadout-group-station-engineer-id = Station Engineer ID
-
-loadout-group-atmospheric-technician-jumpsuit = Atmospheric Technician jumpsuit
-loadout-group-atmospheric-technician-backpack = Atmospheric Technician backpack
-loadout-group-atmospheric-technician-outerclothing = Atmospheric Technician outer clothing
-loadout-group-atmospheric-technician-shoes = Atmospheric Technician shoes
-
+loadout-group-chief-engineer-head = 總工程師 頭部
+loadout-group-chief-engineer-jumpsuit = 總工程師連身工作服
+loadout-group-chief-engineer-outerclothing = 總工程師外套
+loadout-group-chief-engineer-neck = 總工程師的脖子
+loadout-group-chief-engineer-shoes = 首席工程師鞋
+loadout-group-technical-assistant-jumpsuit = 技術助理連身工作服
+loadout-group-station-engineer-head = 空間站工程師 頭部
+loadout-group-station-engineer-jumpsuit = 車站工程師連身工作服
+loadout-group-station-engineer-backpack = 站務工程師背包
+loadout-group-station-engineer-outerclothing = 站務工程師的外套
+loadout-group-station-engineer-shoes = 車站工程師鞋
+loadout-group-station-engineer-id = 站務工程師編號
+loadout-group-atmospheric-technician-jumpsuit = 大氣技術員連身工作服
+loadout-group-atmospheric-technician-backpack = 大氣技術員背包
+loadout-group-atmospheric-technician-outerclothing = 大氣技術員的外套
+loadout-group-atmospheric-technician-shoes = Atmospheric 技術人員鞋款
 # Science
-loadout-group-research-director-head = Research Director head
-loadout-group-research-director-neck = Research Director neck
-loadout-group-research-director-jumpsuit = Research Director jumpsuit
-loadout-group-research-director-outerclothing = Research Director outer clothing
-loadout-group-research-director-shoes = Research Director shoes
-
-loadout-group-scientist-head = Scientist head
-loadout-group-scientist-neck = Scientist neck
-loadout-group-scientist-jumpsuit = Scientist jumpsuit
-loadout-group-scientist-backpack = Scientist backpack
-loadout-group-scientist-outerclothing = Scientist outer clothing
-loadout-group-scientist-gloves = Scientist gloves
-loadout-group-scientist-shoes = Scientist shoes
-loadout-group-scientist-id = Scientist ID
-
-loadout-group-research-assistant-jumpsuit = Research Assistant jumpsuit
-
+loadout-group-research-director-head = 科學總監 頭部
+loadout-group-research-director-neck = 科學總監 頸部
+loadout-group-research-director-jumpsuit = 科學總監連身工作服
+loadout-group-research-director-outerclothing = 外套科學總監
+loadout-group-research-director-shoes = 科學總監 鞋履
+loadout-group-scientist-head = 科學家 頭部
+loadout-group-scientist-neck = 科學家頸
+loadout-group-scientist-jumpsuit = 科學家連身工作服
+loadout-group-scientist-backpack = 科學家背包
+loadout-group-scientist-outerclothing = 科學家外套
+loadout-group-scientist-gloves = 科學家手套
+loadout-group-scientist-shoes = 科學家鞋
+loadout-group-scientist-id = 科學家編號
+loadout-group-research-assistant-jumpsuit = 科學助理連身工作服
 # Security
-loadout-group-head-of-security-head = Head of Security head
-loadout-group-head-of-security-jumpsuit = Head of Security jumpsuit
-loadout-group-head-of-security-neck = Head of Security neck
-loadout-group-head-of-security-outerclothing = Head of Security outer clothing
-
-loadout-group-warden-head = Warden head
-loadout-group-warden-jumpsuit = Warden jumpsuit
-loadout-group-warden-outerclothing = Warden outer clothing
-
-loadout-group-security-head = Security head
-loadout-group-security-jumpsuit = Security jumpsuit
-loadout-group-security-backpack = Security backpack
-loadout-group-security-belt = Security belt
-loadout-group-security-outerclothing = Security outer clothing
-loadout-group-security-shoes = Security shoes
-loadout-group-security-id = Security ID
-
-loadout-group-detective-head = Detective head
-loadout-group-detective-neck = Detective neck
-loadout-group-detective-jumpsuit = Detective jumpsuit
-loadout-group-detective-outerclothing = Detective outer clothing
-
-loadout-group-security-cadet-jumpsuit = Security cadet jumpsuit
-loadout-group-security-star = Security Star
-
+loadout-group-head-of-security-head = 安保主管 頭部
+loadout-group-head-of-security-jumpsuit = 安保主管連身工作服
+loadout-group-head-of-security-neck = 安保主管 頭部
+loadout-group-head-of-security-outerclothing = 安保主管 外套
+loadout-group-warden-head = 典獄長
+loadout-group-warden-jumpsuit = 監獄長連身工作服
+loadout-group-warden-outerclothing = Warden 外套
+loadout-group-security-head = 保安 頭部
+loadout-group-security-jumpsuit = 保安連身工作服
+loadout-group-security-backpack = 保安背包
+loadout-group-security-belt = 安全帶
+loadout-group-security-outerclothing = 防護外衣
+loadout-group-security-shoes = 保安鞋
+loadout-group-security-id = 保安ID卡
+loadout-group-detective-head = 偵探  頭部
+loadout-group-detective-neck = 偵探頸
+loadout-group-detective-jumpsuit = 偵探連身工作服
+loadout-group-detective-outerclothing = 偵探外套
+loadout-group-security-cadet-jumpsuit = 保安實習生連身工作服
+loadout-group-security-star = 保安之星
 # Medical
-loadout-group-medical-mask = Medical mask
-
-loadout-group-chief-medical-officer-head = Chief Medical Officer head
-loadout-group-chief-medical-officer-jumpsuit = Chief Medical Officer jumpsuit
-loadout-group-chief-medical-officer-outerclothing = Chief Medical Officer outer clothing
-loadout-group-chief-medical-officer-shoes = Chief Medical Officer shoes
-loadout-group-chief-medical-officer-neck = Chief Medical Officer neck
-
-loadout-group-medical-doctor-head = Medical Doctor head
-loadout-group-medical-doctor-jumpsuit = Medical Doctor jumpsuit
-loadout-group-medical-doctor-outerclothing = Medical Doctor outer clothing
-loadout-group-medical-doctor-backpack = Medical Doctor backpack
-loadout-group-medical-doctor-shoes = Medical Doctor shoes
-loadout-group-medical-doctor-id = Medical Doctor ID
-
-loadout-group-medical-intern-jumpsuit = Medical intern jumpsuit
-
-loadout-group-chemist-jumpsuit = Chemist jumpsuit
-loadout-group-chemist-outerclothing = Chemist outer clothing
-loadout-group-chemist-backpack = Chemist backpack
-
-loadout-group-paramedic-head = Paramedic head
-loadout-group-paramedic-jumpsuit = Paramedic jumpsuit
-loadout-group-paramedic-outerclothing = Paramedic outer clothing
-loadout-group-paramedic-shoes = Paramedic shoes
-
+loadout-group-medical-mask = 醫用口罩
+loadout-group-chief-medical-officer-head = 首席  頭部
+loadout-group-chief-medical-officer-jumpsuit = 首席醫療官連身工作服
+loadout-group-chief-medical-officer-outerclothing = 首席醫療官 外套
+loadout-group-chief-medical-officer-shoes = 首席醫療官的鞋子
+loadout-group-chief-medical-officer-neck = 首席醫療官的頸部
+loadout-group-medical-doctor-head = 醫師  頭部
+loadout-group-medical-doctor-jumpsuit = 醫師連身工作服
+loadout-group-medical-doctor-outerclothing = 醫師外套
+loadout-group-medical-doctor-backpack = 醫師專用後背包
+loadout-group-medical-doctor-shoes = Medical Doctor 鞋款
+loadout-group-medical-doctor-id = 醫師ID卡
+loadout-group-medical-intern-jumpsuit = 醫科實習生連身工作服
+loadout-group-chemist-jumpsuit = 化學實驗室連身工作服
+loadout-group-chemist-outerclothing = 化學家外套
+loadout-group-chemist-backpack = 化學家背包
+loadout-group-paramedic-head = 救護隊 頭部
+loadout-group-paramedic-jumpsuit = 救護員連身工作服
+loadout-group-paramedic-outerclothing = 救護人員外衣
+loadout-group-paramedic-shoes = 救護員鞋
 # Wildcards
-loadout-group-reporter-jumpsuit = Reporter jumpsuit
-loadout-group-reporter-head = Reporter hat
-loadout-group-reporter-outerclothing = Reporter vest
-
-loadout-group-psychologist-jumpsuit = Psychologist jumpsuit
-
-loadout-group-tramdriver-jumpsuit = Tram driver jumpsuit
-loadout-group-tramdriver-outerclothing = Tram driver suit
-loadout-group-tramdriver-hat = Tram driver hat
-loadout-group-tramdriver-gloves = Tram driver gloves
+loadout-group-reporter-jumpsuit = 記者連身工作服
+loadout-group-reporter-head = 記者帽
+loadout-group-reporter-outerclothing = 記者背心
+loadout-group-psychologist-jumpsuit = 心理學家連身工作服
+loadout-group-tramdriver-jumpsuit = 電車司機連身工作服
+loadout-group-tramdriver-outerclothing = 電車司機的制服
+loadout-group-tramdriver-hat = 電車司機帽
+loadout-group-tramdriver-gloves = 電車司機手套

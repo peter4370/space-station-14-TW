@@ -1,46 +1,32 @@
 # Wearables
 
-uplink-black-jetpack-name = Black Jetpack
-uplink-black-jetpack-desc = A black jetpack. It allows you to fly around in space. Refills not included, use your fuel wisely.
-
-uplink-chest-rig-name = Chest Rig
-uplink-chest-rig-desc = Explosion-resistant tactical webbing used for holding traitor goods.
-
-uplink-chameleon-name = Chameleon Kit
-uplink-chameleon-desc = A backpack full of items that contain chameleon technology allowing you to disguise as pretty much anyone on the station, and more! Comes with a free Agent ID card! Don't forget that Mindshield implant if attempting to impersonate Security or Command.
-
-uplink-clothing-no-slips-shoes-name = No-slip Shoes
-uplink-clothing-no-slips-shoes-desc = Chameleon shoes that protect you from slips. Almost a must-buy for Nuclear Operatives. Don't want to lose that expensive gun you bought do you?
-
+uplink-black-jetpack-name = 黑色噴射背包
+uplink-black-jetpack-desc = 一個黑色的噴射背包。它能讓你在太空中自由翱翔。不附贈補充燃料，請謹慎使用燃料。
+uplink-chest-rig-name = 胸掛帶
+uplink-chest-rig-desc = 用於存放叛徒貨物的防爆戰術織帶。
+uplink-chameleon-name = 變色龍套組
+uplink-chameleon-desc = 一個裝滿搭載變色龍技術物品的背包，讓你幾乎能偽裝成空間站上的任何人，還有更多驚喜！還附贈一張免費的特工身分證！若想冒充安全人員或指揮官，別忘了植入「心智護盾」植入體。
+uplink-clothing-no-slips-shoes-name = 防滑鞋
+uplink-clothing-no-slips-shoes-desc = 這款變色龍鞋能防止你滑倒，對「核武特工」來說幾乎是必買單品。你總不希望弄丟那把花大錢買的槍吧？
 uplink-clothing-outer-vest-web-name = Web Vest
-uplink-clothing-outer-vest-web-desc = A synthetic armor vest. This one has added webbing and ballistic plates.
-
-uplink-clothing-outer-vest-web-elite-name = Energy Web Vest
-uplink-clothing-outer-vest-web-elite-desc = A synthetic armor vest. This one has added webbing with heat and radiation resistant fibers, with the trade-off of weaker ballistic protection.
-
-uplink-clothing-shoes-boots-mag-syndie-name = Blood-red Magboots
-uplink-clothing-shoes-boots-mag-syndie-desc = A pair of boots that when turned on prevent slipping and, in zero gravity, allow you to move normally, at the cost of a slight slowdown. Additionally, they have jetpack functionality and come fueled, but don't last for long.
-
-uplink-eva-syndie-name = Syndicate EVA Bundle
-uplink-eva-syndie-desc = A simple EVA suit that offers no protection other than what's needed to survive in space.
-
-uplink-hardsuit-carp-name = Carp Hardsuit
-uplink-hardsuit-carp-desc = Looks like an ordinary carp suit, except fully spaceproof and tricks space carp into thinking you are one of them.
-
-uplink-hardsuit-syndie-name = Syndicate Hardsuit
-uplink-hardsuit-syndie-desc = The Syndicate's well known armored blood red hardsuit, capable of space walks and bullet resistant.
-
-uplink-syndie-raid-name = Syndicate Raid Suit
-uplink-syndie-raid-desc = A very durable and reasonably flexible suit of blood-red armor, reinforced against all common forms of damage but not capable of space walks. Comes with a sick helmet.
-
-uplink-hardsuit-syndieelite-name = Syndicate Elite Hardsuit
-uplink-hardsuit-syndieelite-desc = A modified version of the blood-red hardsuit trading some ballistic protection for strong resistance to explosives, energy weapons and the most intense of atmospheric conditions. Used by the truly elite.
-
-uplink-clothing-outer-hardsuit-juggernaut-name = Cybersun Juggernaut Suit
-uplink-clothing-outer-hardsuit-juggernaut-desc = Hyper resilient armor made of materials tested in the Tau chromosphere facility. The only thing that's going to be slowing you down is this suit... and disablers.
-
-uplink-clothing-eyes-hud-syndicate-name = Syndicate Visor
-uplink-clothing-eyes-hud-syndicate-desc = The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
-
-uplink-backpack-syndicate-name = Syndicate backpack
-uplink-backpack-syndicate-desc = A lightweight expanded backpack with explosion proofing for holding various traitor goods.
+uplink-clothing-outer-vest-web-desc = 一件合成防彈背心。這款背心加裝了織帶和防彈板。
+uplink-clothing-outer-vest-web-elite-name = 能量網狀背心
+uplink-clothing-outer-vest-web-elite-desc = 一款合成防彈背心。這款背心加裝了採用耐熱及耐輻射纖維製成的織帶，但代價是其防彈性能較弱。
+uplink-clothing-shoes-boots-mag-syndie-name = 血紅色的魔靴
+uplink-clothing-shoes-boots-mag-syndie-desc = 這雙靴子一旦啟動，便能防止滑倒；在零重力環境下，雖會使移動速度略微減緩，但仍能讓你正常行動。此外，它們還具備噴射背包功能，並已預先加滿燃料，但燃料無法維持太久。
+uplink-eva-syndie-name = 《Syndicate》EVA 套裝
+uplink-eva-syndie-desc = 一款簡單的 EVA 太空服，除了在太空中生存所需的保護外，不提供任何其他防護。
+uplink-hardsuit-carp-name = 鯉魚硬甲
+uplink-hardsuit-carp-desc = 乍看之下就像一套普通的鯉魚裝，但它完全具備防太空功能，還能欺騙太空鯉魚，讓牠們以為你是牠們中的一員。
+uplink-hardsuit-syndie-name = 「辛迪加」重型戰甲
+uplink-hardsuit-syndie-desc = 「辛迪加」那套廣為人知的血紅色裝甲硬式戰甲，不僅能進行太空行走，還具備防彈能力。
+uplink-syndie-raid-name = 「辛迪加」突襲戰甲
+uplink-syndie-raid-desc = 一套極為耐用且具備適度靈活性的血紅色盔甲，能抵禦所有常見形式的傷害，但無法進行太空行走。附帶一頂超酷的頭盔。
+uplink-hardsuit-syndieelite-name = 「辛迪加」精英型強化裝甲
+uplink-hardsuit-syndieelite-desc = 這是血紅色重型機甲的改良版，犧牲部分防彈能力，換取對爆炸物、能量武器以及最極端大氣條件的強大抵抗力。僅供真正的菁英使用。
+uplink-clothing-outer-hardsuit-juggernaut-name = 「賽博桑」巨無霸戰甲
+uplink-clothing-outer-hardsuit-juggernaut-desc = 這款超強韌裝甲採用在陶族色球層設施中經過測試的材料製成。唯一能讓你放慢腳步的，只有這套裝甲……以及癱瘓裝置。
+uplink-clothing-eyes-hud-syndicate-name = 「辛迪加」護目鏡
+uplink-clothing-eyes-hud-syndicate-desc = 該組織的專業抬頭顯示器，旨在更有效地偵測人形生物並予以消滅。
+uplink-backpack-syndicate-name = Syndicate 後背包
+uplink-backpack-syndicate-desc = 一款輕量級、具防爆功能的擴充式背包，可用於裝載各種叛徒物品。

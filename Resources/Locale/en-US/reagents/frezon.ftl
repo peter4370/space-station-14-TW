@@ -1,2 +1,2 @@
 ﻿frezon-lungs-cold = Your lungs feel colder..
-frezon-euphoric = You feel chilly, but euphoric..
+frezon-euphoric = 你感到一陣寒意，卻又心潮澎湃……

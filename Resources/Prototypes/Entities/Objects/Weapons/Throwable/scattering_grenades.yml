@@ -12,8 +12,8 @@
 - type: entity
   parent: [FragileGrenadeBase, ScatteringGrenadeBase, TimerGrenadeBase, BaseSecurityContraband]
   id: ClusterBang
-  name: clusterbang
-  description: Can be used only with flashbangs. Explodes several times.
+  name: clusterbang | clusterbang
+  description: 僅可與閃光彈搭配使用。會連續爆炸數次。 | Can be used only with flashbangs. Explodes several times.
   components:
   - type: ScatteringGrenade
     whitelist:
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClusterBang
   id: ClusterBangFull
-  name: clusterbang
-  description: Launches three flashbangs after the timer runs out.
+  name: clusterbang | clusterbang
+  description: 計時器倒數結束後，會發射三枚閃光彈。 | Launches three flashbangs after the timer runs out.
   suffix: Full
   components:
   - type: Sprite
@@ -65,8 +65,8 @@
 - type: entity
   parent: [VolatileGrenadeBase, ScatteringGrenadeBase, TimerGrenadeBase, BaseSyndicateContraband]
   id: ClusterGrenade
-  name: clustergrenade
-  description: Why use one grenade when you can use three at once!
+  name: 集束手榴彈 | clustergrenade
+  description: 既然可以一次用三顆手榴彈，何必只用一顆呢！ | Why use one grenade when you can use three at once!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbomb.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ScatteringGrenadeBase, ImpactGrenadeBase, BaseSyndicateContraband]
   id: ClusterBananaPeel
-  name: cluster banana peel
-  description: Splits into 6 explosive banana peels after throwing, guaranteed fun!
+  name: 成簇的香蕉皮 | cluster banana peel
+  description: 拋出後會分裂成 6 片爆裂的香蕉皮，保證好玩！ | Splits into 6 explosive banana peels after throwing, guaranteed fun!
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: [SoapSyndie, ScatteringGrenadeBase, ImpactGrenadeBase, BaseSyndicateContraband]
   id: SlipocalypseClusterSoap
-  name: slipocalypse clustersoap
-  description: Spreads small pieces of syndicate soap over an area upon landing on the floor.
+  name: slipocalypse clustersoap | slipocalypse clustersoap
+  description: 落地時，會將少量綜合香皂碎塊灑散在地面上。 | Spreads small pieces of syndicate soap over an area upon landing on the floor.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/soap.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: [FragileGrenadeBase, ScatteringGrenadeBase, TimerGrenadeBase]
   id: GrenadeFoamDart
-  name: foam dart grenade
-  description: Releases a bothersome spray of foam darts that cause severe welching.
+  name: 泡沫飛鏢手榴彈 | foam dart grenade
+  description: 會釋放出一陣令人困擾的泡沫飛鏢，造成嚴重的嘔吐。 | Releases a bothersome spray of foam darts that cause severe welching.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_grenade.rsi

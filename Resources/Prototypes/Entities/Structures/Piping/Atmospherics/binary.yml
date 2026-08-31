@@ -32,8 +32,8 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasPressurePump, GasPressurePumpAlt1, GasPressurePumpAlt2 ]
-  name: gas pump
-  description: A pump that moves gas by pressure.
+  name: 加油機 | gas pump
+  description: 一種利用壓力輸送氣體的泵。 | A pump that moves gas by pressure.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -99,8 +99,8 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasVolumePump, GasVolumePumpAlt1, GasVolumePumpAlt2 ]
-  name: volumetric gas pump
-  description: A pump that moves gas by volume.
+  name: 容積式燃油泵 | volumetric gas pump
+  description: 一種以體積為單位輸送氣體的泵。 | A pump that moves gas by volume.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -175,8 +175,8 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasPressureRegulator, GasPressureRegulatorAlt1, GasPressureRegulatorAlt2 ]
-  name: inlet pressure regulator
-  description: A valve that releases gas when the inlet pressure exceeds a certain threshold.
+  name: 進氣壓力調節器 | inlet pressure regulator
+  description: 當進氣壓力超過某個閾值時，會釋放氣體的閥門。 | A valve that releases gas when the inlet pressure exceeds a certain threshold.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -239,8 +239,8 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasPassiveGate, GasPassiveGateAlt1, GasPassiveGateAlt2 ]
-  name: passive gate
-  description: A one-way air valve that does not require power.
+  name: 被動閘極 | passive gate
+  description: 一種無需電源的單向氣閥。 | A one-way air valve that does not require power.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -285,8 +285,8 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasValve, GasValveAlt1, GasValveAlt2 ]
-  name: manual valve
-  description: A pipe with a valve that can be used to disable the flow of gas through it.
+  name: 手動閥 | manual valve
+  description: 一條配有閥門的管子，可用於切斷通過該管子的氣體流動。 | A pipe with a valve that can be used to disable the flow of gas through it.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -350,8 +350,8 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ SignalControlledValve, SignalControlledValveAlt1, SignalControlledValveAlt2 ]
-  name: signal valve
-  description: A pipe with a valve that can be controlled with signals.
+  name: 信號閥 | signal valve
+  description: 一條配有閥門的管子，該閥門可透過訊號進行控制。 | A pipe with a valve that can be controlled with signals.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -426,8 +426,8 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasPort, GasPortAlt1, GasPortAlt2 ]
-  name: connector port
-  description: For connecting portable devices related to atmospherics control.
+  name: 連接埠 | connector port
+  description: 用於連接與大氣控制相關的攜帶式裝置。 | For connecting portable devices related to atmospherics control.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -472,8 +472,8 @@
   parent: GasVentPump
   id: !type:CreateVariants
     values: [ GasDualPortVentPump, GasDualPortVentPumpAlt1, GasDualPortVentPumpAlt2 ]
-  name: dual-port air vent
-  description: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning.
+  name: 雙口通風口 | dual-port air vent
+  description: 其上附有閥門和泵。共有兩個接口，一個是用於釋放空氣的進氣口，另一個則是進行虹吸操作時的出氣口。 | Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -537,8 +537,8 @@
   parent: [ BaseMachine, ConstructibleMachine, BaseConstructibleMachineDestructible ]
   id: !type:CreateVariants
     values: [ GasRecycler, GasRecyclerAlt1, GasRecyclerAlt2 ]
-  name: gas recycler
-  description: Recycles carbon dioxide and nitrous oxide. Heater and compressor not included.
+  name: 氣體回收器 | gas recycler
+  description: 可回收二氧化碳和一氧化二氮。不包含加熱器及壓縮機。 | Recycles carbon dioxide and nitrous oxide. Heater and compressor not included.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:
@@ -616,8 +616,8 @@
 - type: entity
   parent: GasBinaryBase
   id: HeatExchanger
-  name: radiator
-  description: Transfers heat between the pipe and its surroundings.
+  name: 散熱器 | radiator
+  description: 在管道與其周圍環境之間傳遞熱量。 | Transfers heat between the pipe and its surroundings.
   placement:
     mode: SnapgridCenter
   components:

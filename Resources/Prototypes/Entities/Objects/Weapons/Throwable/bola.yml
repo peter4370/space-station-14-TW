@@ -2,7 +2,7 @@
   abstract: true
   parent: [BaseItem, BaseSecurityContraband]
   id: BaseBola
-  name: bola
+  name: bola | bola
   components:
   - type: Item
     size: Normal
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseBola
   id: Bola
-  name: makeshift bola
-  description: A makeshift bola, cobbled together with some spare cuffs and metal. It doesn't look like it's going to stay together for very long.
+  name: 臨時製作的波拉 | makeshift bola
+  description: 一個用一些多餘的手銬和金屬片臨時拼湊而成的波拉。看起來似乎撐不了多久就會散架。 | A makeshift bola, cobbled together with some spare cuffs and metal. It doesn't look like it's going to stay together for very long.
   components:
   - type: Construction
     graph: Bola
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseBola
   id: SecurityBola
-  name: tactical bola
-  description: A bola, comprised of steel anchors linked together with a wire cable. Reliable and reusable.
+  name: 戰術用波拉 | tactical bola
+  description: 「A bola」由鋼製錨點透過鋼索相互連接而成。可靠且可重複使用。 | A bola, comprised of steel anchors linked together with a wire cable. Reliable and reusable.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Throwable/securitybola.rsi

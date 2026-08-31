@@ -1,23 +1,24 @@
-﻿<Document>
-  # Inlet Pressure Regulator
-  The Inlet Pressure Regulator is a passive device that allows gas to escape from a [textlink="pipenet" link="PipeNetworks"] when the pressure exceeds a certain threshold.
+﻿
+<Document>
+  # 進氣壓力調節器
+  進氣壓力調節器是一種被動式裝置，當壓力超過特定閾值時，可讓氣體從 [textlink="pipenet" link="PipeNetworks"] 中逸出。
 
   <Box>
     <GuideEntityEmbed Entity="GasPressureRegulator"/>
   </Box>
 
-  ## Operation
-  The valve will automatically [color=green]open[/color] when the pressure in the pipe exceeds the set threshold, allowing gas to escape to the connected output pipe.
+  ##
+  運作原理當管線內的壓力超過設定閾值時，閥門將自動 [color=green]開啟[/color]，使氣體逸出至連接的輸出管線。
 
-  The valve will [color=red]close[/color] again when the pressure drops below the set threshold.
+  當壓力降至設定閾值以下時，閥門將再次 [color=red]關閉[/color]。
 
-  The flow rate of the valve is limited to [color=orange][protodata="GasPressureRegulator" comp="GasPressureRegulator" member="MaxTransferRate"/] L/s[/color].
+  該閥門的流量上限為 [color=orange][protodata="GasPressureRegulator" comp="GasPressureRegulator" member="MaxTransferRate"/] L/s[/color]。
 
-  ## Example Uses
-  The valve is commonly used to prevent overpressure situations in gas systems, such as [textlink="TEG" link="TEG"] cooling loops and [textlink="pipes" link="Pipes"], which would cause a failure in the system (clogged [textlink="pumps" link="Pumps"]).
+  ## 應用範例
+  此閥門通常用於防止氣體系統中發生過壓情況，例如 [textlink="TEG" link="TEG"] 冷卻迴路及 [textlink="管線" link="管路"]，此類情況可能導致系統故障（例如 [textlink="泵浦" link="Pumps"] 堵塞）。
 
-  The valve can also be used to vent off ready-to-use, hot gas from a burn chamber.
-  For example, it may be undesirable to allow a burn chamber to drop below a specific pressure for a long time, as this may cause the gas to cool down too much and thin out, which would cause a flameout.
+  該閥門亦可用於將燃燒室中已準備好且高溫的氣體排放出去。
+  舉例來說，不應讓燃燒室的壓力長時間低於特定值，因為這可能會導致氣體過度冷卻而變得稀薄，進而造成火焰熄滅。
 
-  An inlet pressure regulator can be used to vent off excess gas, while keeping the pressure in the burn chamber above a certain threshold, which may help in sustaining a fire in the chamber.
+  進氣壓力調節器可用於將多餘的氣體排放出去，同時將燃燒室內的壓力維持在某個閾值以上，這有助於維持燃燒室內的火焰。
 </Document>

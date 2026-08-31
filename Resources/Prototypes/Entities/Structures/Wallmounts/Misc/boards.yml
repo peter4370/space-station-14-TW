@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseWallmountBoard
   id: NoticeBoard
-  name: notice board
-  description: Is there a job for a witcher?
+  name: 佈告欄 | notice board
+  description: 有適合「巫師」的工作嗎？ | Is there a job for a witcher?
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/noticeboard.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: [ BaseWallmountBoard, BasePaperLabelableVisualized ]
   id: PostBoard
-  name: post board
-  description: Apply paper directly to the boardhead.
+  name: 佈告欄 | post board
+  description: 將紙張直接貼在板頭上。 | Apply paper directly to the boardhead.
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/postboard.rsi

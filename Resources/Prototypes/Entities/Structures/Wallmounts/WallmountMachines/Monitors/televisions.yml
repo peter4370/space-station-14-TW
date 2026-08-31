@@ -2,8 +2,8 @@
   parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
   id: WallmountTelevision
   suffix: entertainment
-  name: television
-  description: Finally, some decent reception around here...
+  name: 電視 | television
+  description: 總算在這附近有像樣的訊號了…… | Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelevision
@@ -65,8 +65,8 @@
 - type: entity
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   id: WallmountTelevisionFrame
-  name: television frame
-  description: Finally, some decent reception around here...
+  name: 電視畫框 | television frame
+  description: 總算在這附近有像樣的訊號了…… | Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelevision

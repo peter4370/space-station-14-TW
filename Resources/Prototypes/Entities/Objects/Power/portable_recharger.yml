@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: PortableRecharger
-  name: portable recharger
-  description: High-tech recharger adapted for portability.
+  name: 便攜式充電器 | portable recharger
+  description: 專為便攜性設計的高科技充電器。 | High-tech recharger adapted for portability.
   components:
   - type: Item
     size: Huge

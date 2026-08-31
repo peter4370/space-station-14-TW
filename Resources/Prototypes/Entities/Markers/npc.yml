@@ -1,7 +1,7 @@
 - type: entity
   id: PathfindPoint
   parent: MarkerBase
-  name: pathfind point
+  name: 路徑尋找點 | pathfind point
   components:
   - type: NPCPathfindPoint
   - type: Sprite

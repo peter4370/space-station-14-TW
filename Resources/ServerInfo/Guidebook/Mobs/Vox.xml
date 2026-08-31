@@ -1,3 +1,4 @@
+
 <Document>
   # Vox
 
@@ -5,24 +6,24 @@
     <GuideEntityEmbed Entity="MobVox" Caption=""/>
   </Box>
 
-  [color=#ffa500]Warning! This species is not recommended for new players due to their fatal allergy to oxygen![/color]
+  [color=#ffa500]警告！由於此物種對氧氣有致命過敏反應，因此不建議新手玩家飼養！[/color]
 
-  Vox breathe nitrogen, and [color=#ffa500] oxygen is toxic to them.[/color]
-  Unfortunately, space stations tend to be full of oxygen,
-  so Vox must use an internal nitrogen supply at almost all times to avoid fatal exposure.
+  沃克斯以氮氣呼吸，而 [color=#ffa500]氧氣對牠們而言是有毒的。[/color]
+  遺憾的是，太空站通常充滿氧氣，
+  因此沃克斯幾乎必須時刻使用體內的氮氣供應，以避免因接觸氧氣而喪命。
 
-  Vox always spawn wearing working nitrogen internals equipment.
-  A spare breathing mask and an emergency nitrogen canister is provided in their survival box.
+  Vox 生成時總是配備著可正常運作的內部氮氣裝置。
+  他們的求生箱中備有一副備用呼吸面罩和一個緊急氮氣罐。
 
-  In addition to regular foods, Vox can also eat various snack packaging, banana peels, eggshells, and raw meat without any ill effects. They also like to drink welding fuel.
+  除了普通食物外，Vox 還能食用各種零食包裝、香蕉皮、蛋殼和生肉，且不會產生任何不良影響。他們也喜歡喝焊接燃料。
 
-  Vox [color=#1e90ff]slowly recover from low levels of poison damage[/color] on their own,
-  so long as they are careful not to exceed 20 poison damage.
-  This allows them to endure breathing station air for up to thirty seconds at a time without lasting damage,
-  letting them quickly eat, drink, take oral medication, and so on.
-  A thirty second oxygen exposure takes them two minutes to recover from.
-  If their health does not seem to improve within a minute of oxygen exposure, they should seek medical attention.
+  Vox [color=#1e90ff]能自行緩慢恢復輕微的中毒傷害[/color]，
+  只要謹慎確保中毒傷害不超過 20 點即可。
+  這使他們每次能承受呼吸站的空氣長達三十秒而不造成持久傷害，
+  讓他們能迅速進食、飲水、服用口服藥物等。
+  暴露於氧氣三十秒後，他們需要兩分鐘才能恢復。
+  若暴露於氧氣後一分鐘內健康狀況似乎沒有改善，他們應尋求醫療協助。
 
-  Vox deal Slash damage with their unarmed attack.
+  Vox 特惠：其徒手攻擊可造成斬擊傷害。
 
 </Document>

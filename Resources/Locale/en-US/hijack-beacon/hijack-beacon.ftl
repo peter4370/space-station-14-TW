@@ -1,16 +1,13 @@
-hijack-beacon-announcement-sender = Automated Trade Station
-hijack-beacon-announcement-activated = Attention! An Attempted Breach of the Automated Trade Station's firewall has been detected! Estimated {$time} seconds until firewall breach!
-hijack-beacon-announcement-deactivated = Firewall breach failed. Firewall integrity partially restored. Have a nice day!
-hijack-beacon-announcement-success = Successfully disengaged Automated Trade Station firewall. {$fine} spesos has been transferred from station funds to [%ERROR%]. Your trade station warranty is now void. This incident has been reported.
-
-hijack-beacon-examine-await-activate = The beacon is [color=green]ready to activate[/color].
-hijack-beacon-examine-await-cooldown = The beacon is [color=red]on cooldown[/color].
-hijack-beacon-examine-await-hijack-complete = The beacon is [color=red]spent[/color].
-
-hijack-beacon-popup-anchor = The beacon anchors itself into the ground!
-hijack-beacon-popup-unanchor = The beacon unanchors itself from the ground.
-
-hijack-beacon-verb-activate-text = Activate
-hijack-beacon-verb-activate-message = The beacon can only be armed on the Automated Trade Station, on an unoccupied tile.
-hijack-beacon-verb-deactivate-text = Deactivate
-hijack-beacon-verb-deactivate-message = The beacon isn't going to deactivate itself, you know.
+hijack-beacon-announcement-sender = 自動交易站
+hijack-beacon-announcement-activated = 注意！已偵測到有人企圖突破自動交易站的防火牆！預計還有 { $time } 秒將發生防火牆遭突破！
+hijack-beacon-announcement-deactivated = 突破防火牆的嘗試失敗。防火牆的完整性已部分恢復。祝您今天過得愉快！
+hijack-beacon-announcement-success = 已成功停用 Automated Trade Station 防火牆。{ $fine } spesos 已從交易站資金轉帳至 [%ERROR%]。您的交易站保固現已失效。此事件已通報。
+hijack-beacon-examine-await-activate = 該信標已[color=green]準備就緒，可啟動[/color]。
+hijack-beacon-examine-await-cooldown = 信標目前處於 [color=red]冷卻中[/color]。
+hijack-beacon-examine-await-hijack-complete = 信標已 [color=red]耗盡[/color]。
+hijack-beacon-popup-anchor = 這座信標會將自己錨定在地面上！
+hijack-beacon-popup-unanchor = 信標從地面自行脫錨。
+hijack-beacon-verb-activate-text = 啟用
+hijack-beacon-verb-activate-message = 信標只能在「自動交易站」上，且必須位於未被佔用的格子上，才能啟用。
+hijack-beacon-verb-deactivate-text = 停用
+hijack-beacon-verb-deactivate-message = 你知道的，那個信標不會自動關閉的。

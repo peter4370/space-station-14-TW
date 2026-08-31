@@ -1,40 +1,41 @@
-﻿<Document>
-  # Criminal Records
-  The criminal records console is accessible in every station's security department, it serves the purpose of tracking and managing the criminal history and status of anybody part of the crew manifest.
+﻿
+<Document>
+  # 犯罪紀錄
+  各站點的保安部門皆可存取犯罪紀錄控制台，其用途在於追蹤及管理機組人員名單中任何成員的犯罪歷史與現況。
 
   <Box>
   <GuideEntityEmbed Entity="ComputerCriminalRecords"/>
   </Box>
 
-  Anyone can open the console's UI, but only those with Security access can modify anything.
+  任何人都可以開啟主機的用戶介面，但只有具備「安全性」存取權限的使用者才能進行任何修改。
 
-  The UI is composed by the following elements:
-  - A search bar that has a filter next to it that lets you filter the crewmembers by their names, fingerprints or DNA.
+  使用者介面由以下元素組成：
+  - 一個搜尋欄，其旁設有篩選器，可讓您根據船員的姓名、指紋或 DNA 進行篩選。
 
-  - A list of all the crewmembers in the manifest, selecting one of the entries will make the criminal records of a crewmember appear. The list is filtered by the search bar so make sure it's empty if you want an overall overview!
+  - 這是乘客名單中所有機組人員的清單，選取其中一項，即可顯示該機組人員的犯罪紀錄。 此清單會根據搜尋欄的內容進行篩選，因此若您想獲得整體概覽，請務必確保搜尋欄為空！
 
-  - The criminal records themselves
+  - 犯罪紀錄本身
 
-  - The filter button below the crew list can be used to show only wanted, detained, or paroled crew.
-  In the record section you can:
-    - See security-related information about a crewmember like their name, fingerprints and DNA.
+  - 船員名單下方的篩選按鈕可用於僅顯示被通緝、被拘留或假釋的船員。
+  在「紀錄」區段中，您可以：
+    - 查看有關機組人員的安全相關資訊，例如姓名、指紋和 DNA。
 
-    - Change the security status between [color=gray]None[/color], [color=yellow]Wanted[/color] and [color=red]Detained[/color]. When setting it to Wanted you will be asked to write a reason.
+    - 在 [color=gray]無[/color]、[color=yellow]通緝中[/color] 及 [color=red]被拘留[/color] 之間切換安全狀態。 當您將其設定為「通緝」時，系統會要求您填寫理由。
 
-    - If they are wanted, you can see the reason given below the status dropdown.
+    - 若這些項目已被標記為「通緝」，您可以在狀態下拉選單下方看到所列出的原因。
 
-    - Once someone has been arrested, update their status on the console so everyone knows they no longer need to be captured.
+    - 一旦有人被逮捕，請在主控台更新其狀態，讓所有人知道已無需再將其逮捕。
 
-    - After they've done their time, release them and update their status to None so nobody thinks they are an escaped convict.
+    - 待他們服完刑期後，將其釋放，並將其狀態更新為「無」，以免有人誤以為他們是逃犯。
 
-    - Open the Crime History window to check or modify it.
+    - 開啟「犯罪紀錄」視窗，以查看或修改相關內容。
 
-  The Crime History window lists someone's crimes and can be modified in multiple ways:
-    - Automatically, just by setting someone's status to arrested. The reason will be added to "ARRESTED:" so it's easy to see the automated entries.
+  「犯罪歷史」視窗會列出某人的犯罪紀錄，並可透過多種方式進行修改：
+    - 自動修改：只需將該人的狀態設為「被逮捕」即可。 原因將被新增至「ARRESTED:」欄位中，以便輕鬆辨識自動生成的記錄。
 
-    - Adding a new line by clicking "Add" and writing something in the input box. When adding a record, remember to mention their crime and sentence, the console will automatically insert the shift's time so you don't need to!
+    - 點擊「新增」，並在輸入框中輸入內容，即可新增一行。 新增紀錄時，請記得註明其罪名與刑期，系統會自動填入當班時段，因此您無需手動輸入！
 
-    - Select a line of unwanted history and click "Delete" to remove it. Excellent for keeping records clean from the clown's stolen ID antics.
+    - 選取一筆不需要的歷史紀錄，然後按一下「刪除」以將其移除。 非常適合用來確保紀錄不受小丑盜用ID卡所搞的把戲影響。
 
-  Now you can be the desk jockey you've always wanted to be.
+  現在，你終於可以成為你一直夢寐以求的「辦公室上班族」了。
 </Document>

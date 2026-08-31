@@ -1,25 +1,26 @@
+
 <Document>
-  # Radioisotope Thermoelectric Generator (RTG)
+  # 放射性同位素熱電發電機（RTG）
 
   <Box>
-    <GuideEntityEmbed Entity="GeneratorRTG" Caption="RTG" />
+    <GuideEntityEmbed Entity="GeneratorRTG" Caption="RTG"/>
   </Box>
 
-  A Radioisotope Thermoelectric Generator (RTG) is a passive power source that generates power from the decay of radioactive isotopes.
+  放射性同位素熱電發電機（RTG）是一種被動式電源，透過放射性同位素的衰變來產生電力。
 
-  They require no maintenance and are a reliable source of power, making them ideal for powering essential systems that need to be online at all times, like Telecoms, the AI, or the Crew Monitoring Server.
+  這些設備無需維護，且是可靠的電源，因此非常適合為必須時刻保持在線的關鍵系統供電，例如電信系統、人工智慧或船員監控伺服器。
 
-  RTGs always generate [color=orange][protodata="GeneratorRTG" comp="PowerSupplier" member="MaxSupply" format="N0"/] W[/color] of power and must be connected to an [color=orange]HV power[/color] [textlink="network" link="VoltageNetworks"] to function.
+  放射性同位素發電機（RTG）始終產生 [color=orange][protodata="GeneratorRTG" comp="PowerSupplier" member="MaxSupply" format="N0"/] W[/color] 的電力，且必須連接至 [color=orange]高壓電力[/color] [textlink="網路" link="VoltageNetworks"] 才能運作。
 
-  However, they're only accessible through salvage finding one on an expedition. Should they bring some in, make sure to thank them!
+  然而，唯有透過在探險中尋獲殘骸，才能取得這些物品。 如果他們帶了一些來，請務必向他們道謝！
 
-  ## RTG Damage
+  ## RTG 損傷
   <Box>
-    <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="Damaged RTG" />
+    <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="損壞的放射性同位素發電裝置 (RTG)"/>
   </Box>
-  If RTGs take enough damage, they can become damaged RTGs.
-  Damaged RTGs behave just like regular ones, but they're [color=yellow]radioactive[/color].
+  如果 RTG 受到足夠的傷害，它們就會變成受損的 RTG。
+  受損的放射性同位素發電裝置（RTG）的運作方式與一般裝置完全相同，但它們具有[color=yellow]放射性[/color]。
 
-  That means they're more dangerous, but on the bright side, you can put radiation collectors next to them to turn that radiation into more power.
-  This is usually more worthwhile, considering the power is still free, so long as you can find a safe spot to put the RTG(s) in.
+  這意味著它們更危險，但好的一面是，你可以將輻射收集器放置在它們旁邊，將那些輻射轉化為更多的能量。
+  考慮到電力依然是免費的，只要你能找到一個安全的地方放置放射性同位素發電裝置（RTG），這通常會更划算。
 </Document>

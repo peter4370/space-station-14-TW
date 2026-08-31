@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: PlaqueAtmos
-  name: atmos plaque spawner
+  name: atmos 斑塊生成器 | atmos plaque spawner
   suffix: Spawner
   components:
   - type: Sprite
@@ -27,8 +27,8 @@
 - type: entity
   parent: BaseSign
   id: PlaqueAtmosFEA
-  name: FEA Atmospherics Division plaque
-  description: This plaque commemorates the fall of the Atmos FEA division. For all the charred, dizzy, and brittle men who have died in its hands.
+  name: FEA 大氣部門紀念牌匾 | FEA Atmospherics Division plaque
+  description: 這塊紀念牌旨在紀念 Atmos FEA 部門的覆滅。謹以此紀念所有在其手中喪生、渾身焦黑、神志恍惚且虛弱不堪的男子。 | This plaque commemorates the fall of the Atmos FEA division. For all the charred, dizzy, and brittle men who have died in its hands.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -37,23 +37,23 @@
 - type: entity
   parent: PlaqueAtmosFEA
   id: PlaqueAtmosLINDA
-  name: LINDA Atmospherics Division plaque
-  description: This plaque commemorates the fall of the Atmos LINDA division. For all the charred, dizzy, and brittle men who have died in its hands.
+  name: LINDA 大氣部門 紀念牌匾 | LINDA Atmospherics Division plaque
+  description: 這塊紀念牌旨在紀念「Atmos LINDA」師團的覆滅。謹以此紀念所有在該師團手中喪生、渾身焦黑、神智恍惚且虛弱不堪的士兵。 | This plaque commemorates the fall of the Atmos LINDA division. For all the charred, dizzy, and brittle men who have died in its hands.
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: PlaqueAtmosFEA
   id: PlaqueAtmosZAS
-  name: ZAS Atmospherics Division plaque
-  description: This plaque commemorates the fall of the Atmos ZAS division. For all the charred, dizzy, and brittle men who have died in its hands.
+  name: ZAS 大氣部門紀念牌匾 | ZAS Atmospherics Division plaque
+  description: 這塊紀念牌旨在紀念「Atmos ZAS」師團的覆滅。謹以此紀念所有在其手中喪生、渾身焦黑、暈眩不已且虛弱不堪的士兵。 | This plaque commemorates the fall of the Atmos ZAS division. For all the charred, dizzy, and brittle men who have died in its hands.
   categories: [ HideSpawnMenu ]
 
 # If you get the ZUM plaque it means your round will be blessed with good engineering luck.
 - type: entity
   parent: PlaqueAtmosFEA
   id: PlaqueAtmosZUM
-  name: ZUM Atmospherics Division plaque
-  description: This plaque commemorates the rise of the Atmos ZUM division. May they carry the torch that the Atmos ZAS, LINDA and FEA divisions left behind.
+  name: ZUM 大氣部門紀念牌 | ZUM Atmospherics Division plaque
+  description: 這塊紀念牌旨在紀念 Atmos ZUM 部門的崛起。願他們能繼承 Atmos ZAS、LINDA 及 FEA 部門所留下的火炬。 | This plaque commemorates the rise of the Atmos ZUM division. May they carry the torch that the Atmos ZAS, LINDA and FEA divisions left behind.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

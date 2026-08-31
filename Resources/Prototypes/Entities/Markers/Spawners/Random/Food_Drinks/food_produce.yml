@@ -1,7 +1,7 @@
 #Spawners
 - type: entity
   id: RandomProduce
-  name: random produce spawner
+  name: 隨機農產品生成器 | random produce spawner
   parent: MarkerBase
   placement:
     mode: AlignTileAny

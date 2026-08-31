@@ -1,2 +1,2 @@
-recipes-secret-door-name = secret door
-recipes-secret-door-desc = A secret door disguised as a wall. The perfect solution for hiding your shady dealings.
+recipes-secret-door-name = 隱藏門
+recipes-secret-door-desc = 一扇偽裝成牆壁的密門。這是隱藏你那些見不得人的勾當的完美解決方案。

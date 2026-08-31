@@ -1,28 +1,29 @@
-﻿<Document>
-  # Device Monitoring and Control
-  Given the station-wide nature of the atmospherics network, it is important to have a way to monitor and control devices from a central location.
+﻿
+<Document>
+  # 裝置監控與控制
+  鑑於大氣現象監測網路具有全站性的特點，因此必須有一種方法，能夠從中央位置對裝置進行監控與控制。
 
-  Using these systems, Atmospherics can monitor and control the atmosphere across the entire station.
+  透過這些系統，Atmospherics 能夠監測並控制整個站點的環境。
 
   <Box>
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
     <GuideEntityEmbed Entity="AirSensor" Caption=""/>
   </Box>
   <Box>
-    ## Air Alarms
+    ## 空氣警報器
   </Box>
   <Box>
-    [color=#999999][italic]Wide area monitoring and control over atmos devices[italic][/color]
+    [color=#999999][italic]對 atmos 裝置進行廣域監控[italic][/color]
   </Box>
 
   <Box>
     <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
   </Box>
   <Box>
-    ## Atmospheric Alerts Computer
+    ## 大氣警報電腦
   </Box>
   <Box>
-    [color=#999999][italic]Station-wide monitoring of air alarms[italic][/color]
+    [color=#999999][italic]全站空氣警報監測[italic][/color]
   </Box>
 
   <Box>
@@ -30,10 +31,10 @@
     <GuideEntityEmbed Entity="GasPipeSensor" Caption=""/>
   </Box>
   <Box>
-    ## Atmospheric Network Monitor
+    ## 大氣網路監測器
   </Box>
   <Box>
-    [color=#999999][italic]Monitoring of whole pipe networks[italic][/color]
+    [color=#999999][italic]整體管網監測[italic][/color]
   </Box>
 
 </Document>

@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponLightMachineGun
+  name: 基礎武器輕機槍 | BaseWeaponLightMachineGun
   parent: BaseItem
   id: BaseWeaponLightMachineGun
-  description: A rooty tooty point and shooty.
+  description: 一款超棒的隨拍相機。 | A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 雜誌 | Magazine
         startingItem: MagazineLightRifleBox
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -50,7 +50,7 @@
           tags:
             - MagazineLightRifleBox
       gun_chamber:
-        name: Chamber
+        name: 商會 | Chamber
         priority: 1
         whitelist:
           tags:
@@ -65,10 +65,10 @@
     delay: 1
 
 - type: entity
-  name: L6 SAW
+  name: L6 SAW | L6 SAW
   id: WeaponLightMachineGunL6
   parent: [BaseWeaponLightMachineGun, BaseSyndicateContraband]
-  description: Developed by Waffle Corp, the L6 Squad Automatic Weapon is a deadly light machine gun often used by the Gorlex Marauders. Although bulky and cumbersome, its heavy barrel and high ammo capacity make it perfect for suppressing combatants with a hail of bullets. Feeds from .30 ammo belts.
+  description: 由瓦夫爾公司（Waffle Corp）研發的 L6 小隊自動武器，是一款致命的輕機槍，常被戈萊克斯掠奪者（Gorlex Marauders）所使用。儘管體積龐大且笨重，但其厚重的槍管與大彈匣容量，使其能以密集的子彈雨完美壓制敵軍。採用 .30 口徑彈帶供彈。 | Developed by Waffle Corp, the L6 Squad Automatic Weapon is a deadly light machine gun often used by the Gorlex Marauders. Although bulky and cumbersome, its heavy barrel and high ammo capacity make it perfect for suppressing combatants with a hail of bullets. Feeds from .30 ammo belts.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
@@ -86,10 +86,10 @@
     price: 10000
 
 - type: entity
-  name: L6C ROW
+  name: L6C ROW | L6C ROW
   id: WeaponLightMachineGunL6C
   parent: BaseItem
-  description: A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 一款供機械人使用的 L6 SAW 機槍。透過內建的彈藥製造器，能即時製造 .30 口徑步槍彈藥，且該製造器會緩慢地自動充電。 | A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
     - type: Gun
       minAngle: 4

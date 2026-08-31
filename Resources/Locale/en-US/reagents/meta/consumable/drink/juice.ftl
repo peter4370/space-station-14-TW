@@ -1,47 +1,32 @@
-reagent-name-juice-apple = apple juice
-reagent-desc-juice-apple = It's a little piece of Eden.
-
-reagent-name-juice-banana = banana juice
-reagent-desc-juice-banana = The raw essence of a banana. HONK.
-
-reagent-name-juice-berry = berry juice
-reagent-desc-juice-berry = A delicious blend of several different kinds of berries.
-
-reagent-name-juice-blue-pumpkin = blue pumpkin juice
-reagent-desc-juice-blue-pumpkin = The juice of a blue pumpkin. Smells like pool water.
-
-reagent-name-juice-bungo = bungo juice
-reagent-desc-juice-bungo = The juice of a bungo fruit. Exotic!
-
-reagent-name-juice-berry-poison = poison berry juice
-reagent-desc-juice-berry-poison = A surprisingly tasty juice blended from various kinds of very deadly and toxic berries.
-
-reagent-name-juice-carrot = carrot juice
-reagent-desc-juice-carrot = It's like a carrot, but less crunchy.
-
-reagent-name-juice-grape = grape juice
-reagent-desc-juice-grape = Freshly squeezed juice from red grapes. Quite sweet.
-
-reagent-name-juice-lemon = lemon juice
-reagent-desc-juice-lemon = This juice is VERY sour.
-
-reagent-name-juice-lime = lime juice
-reagent-desc-juice-lime = The sweet-sour juice of limes.
-
-reagent-name-juice-orange = orange juice
-reagent-desc-juice-orange = Both delicious AND rich in Vitamin C. What more do you need?
-
-reagent-name-juice-pineapple = pineapple juice
-reagent-desc-juice-pineapple = The delicious juice of a pineapple.
-
-reagent-name-juice-potato = potato juice
-reagent-desc-juice-potato = Juice of the potato. Bleh.
-
-reagent-name-juice-tomato = tomato juice
-reagent-desc-juice-tomato = Tomatoes made into juice. What a waste of good tomatoes, huh?
-
-reagent-name-juice-watermelon = watermelon juice
-reagent-desc-juice-watermelon = The delicious juice of a watermelon.
-
-reagent-name-juice-cherry = cherry juice
-reagent-desc-juice-cherry = Tasty cherry juice, sweet and tangy.
+reagent-name-juice-apple = 蘋果汁 apple juice
+reagent-desc-juice-apple = 這簡直就是一片伊甸園。
+reagent-name-juice-banana = 香蕉汁 banana juice
+reagent-desc-juice-banana = 香蕉最純粹的本質。嗶——。
+reagent-name-juice-berry = 莓果汁 berry juice
+reagent-desc-juice-berry = 由數種不同莓果調配而成的美味混合果醬。
+reagent-name-juice-blue-pumpkin = 藍南瓜汁 blue pumpkin juice
+reagent-desc-juice-blue-pumpkin = 一顆藍南瓜的汁液。聞起來像泳池的水。
+reagent-name-juice-bungo = 文吾果汁 bungo juice
+reagent-desc-juice-bungo = 一種名為「文戈」的水果所榨出的果汁。真有異國風情！
+reagent-name-juice-berry-poison = 有毒漿果汁
+reagent-desc-juice-berry-poison = 一款由各種極其致命且有毒的漿果調製而成的果汁，味道出乎意料地美味。
+reagent-name-juice-carrot = 胡蘿蔔汁 carrot juice
+reagent-desc-juice-carrot = 它就像胡蘿蔔，但沒那麼脆。
+reagent-name-juice-grape = 葡萄汁 grape juice
+reagent-desc-juice-grape = 新鮮榨取的紅葡萄汁。相當甜。
+reagent-name-juice-lemon = 檸檬汁 lemon juice
+reagent-desc-juice-lemon = 這杯果汁非常酸。
+reagent-name-juice-lime = 萊姆汁 lime juice
+reagent-desc-juice-lime = 萊姆的酸甜汁液。
+reagent-name-juice-orange = 柳橙汁 orange juice
+reagent-desc-juice-orange = 既美味又富含維生素C。你還需要什麼呢？
+reagent-name-juice-pineapple = 鳳梨汁 pineapple juice
+reagent-desc-juice-pineapple = 菠蘿那美味的汁液。
+reagent-name-juice-potato = 馬鈴薯汁 potato juice
+reagent-desc-juice-potato = 馬鈴薯汁。噁。
+reagent-name-juice-tomato = 番茄汁 tomato juice
+reagent-desc-juice-tomato = 把番茄做成汁。這麼好的番茄就這樣浪費了，對吧？
+reagent-name-juice-watermelon = 西瓜汁 watermelon juice
+reagent-desc-juice-watermelon = 西瓜那美味的汁液。
+reagent-name-juice-cherry = 櫻桃汁 cherry juice
+reagent-desc-juice-cherry = 美味的櫻桃汁，甜中帶酸。

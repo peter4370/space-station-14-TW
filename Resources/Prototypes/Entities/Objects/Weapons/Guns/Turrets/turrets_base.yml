@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStructure
   id: BaseWeaponTurretIndestructible
-  name: turret
+  name: 炮塔 | turret
   components:
   - type: InteractionOutline
   - type: Actions
@@ -80,8 +80,8 @@
   abstract: true
   parent: BaseWeaponTurretIndestructible
   id: BaseWeaponBallisticTurretIndestructible
-  name: ballistic turret
-  description: A ballistic machine gun auto-turret.
+  name: 彈道炮塔 | ballistic turret
+  description: 一具彈道機槍自動轉塔。 | A ballistic machine gun auto-turret.
   components:
   - type: ContainerContainer
     containers:
@@ -106,8 +106,8 @@
   abstract: true
   parent: BaseWeaponTurretIndestructible
   id: BaseWeaponEnergyTurretIndestructible
-  name: laser turret
-  description: An auto-turret armed with a heavy laser. Its weapon will recharge while connected to an active power grid.
+  name: 雷射轉塔 | laser turret
+  description: 一具配備重型雷射的自動炮塔。只要連接至運作中的電力網，其武器便會自動充電。 | An auto-turret armed with a heavy laser. Its weapon will recharge while connected to an active power grid.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Turrets/sentry_turret.rsi

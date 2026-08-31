@@ -1,7 +1,7 @@
 - type: entity
   id: SolarPanelBasePhysSprite
   categories: [ HideSpawnMenu ]
-  name: solar panel
+  name: 太陽能板 | solar panel
   placement:
     mode: SnapgridCenter
   components:
@@ -57,8 +57,8 @@
 - type: entity
   parent: [ SolarPanelBasePhysSprite, StructureHealthMachine ]
   id: SolarPanelPlasma
-  name: solar panel plasma
-  description: A few sheets of plasma glass that generate electricity when hit by photons.
+  name: 太陽能板等離子體 | solar panel plasma
+  description: 幾片等離子玻璃，當光子撞擊時便會產生電力。 | A few sheets of plasma glass that generate electricity when hit by photons.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -93,8 +93,8 @@
 - type: entity
   parent: [ SolarPanelBasePhysSprite, StructureHealthMachineStrong ]
   id: SolarPanelUranium
-  name: solar panel uranium
-  description: A few sheets of uranium glass that generate electricity when hit by photons.
+  name: 太陽能板鈾 | solar panel uranium
+  description: 幾片鈾玻璃，當被光子擊中時便會產生電力。 | A few sheets of uranium glass that generate electricity when hit by photons.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -127,8 +127,8 @@
 - type: entity
   parent: [ SolarPanelBasePhysSprite, StructureHealthMachineWeak ]
   id: SolarPanel
-  name: solar panel
-  description: A few sheets of glass that generate electricity when hit by photons.
+  name: 太陽能板 | solar panel
+  description: 幾片玻璃，當被光子撞擊時便會產生電力。 | A few sheets of glass that generate electricity when hit by photons.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -158,8 +158,8 @@
 - type: entity
   parent: [ SolarPanelBasePhysSprite, StructureHealthMachineFlimsy ]
   id: SolarPanelBroken
-  name: solar panel
-  description: A broken solar panel.
+  name: 太陽能板 | solar panel
+  description: 一片損壞的太陽能板。 | A broken solar panel.
   suffix: Broken
   components:
   - type: Sprite
@@ -187,8 +187,8 @@
 - type: entity
   parent: [ SolarPanelBasePhysSprite, StructureHealthMachineFlimsy ]
   id: SolarPanelPlasmaBroken
-  name: plasma solar panel
-  description: A broken plasma solar panel.
+  name: 等離子太陽能板 | plasma solar panel
+  description: 一片損壞的等離子太陽能板。 | A broken plasma solar panel.
   suffix: Broken
   components:
   - type: Sprite
@@ -213,8 +213,8 @@
 - type: entity
   parent: [ SolarPanelBasePhysSprite, StructureHealthMachineFlimsy ]
   id: SolarPanelUraniumBroken
-  name: uranium solar panel
-  description: A broken uranium solar panel.
+  name: 鈾太陽能板 | uranium solar panel
+  description: 一片損壞的鈾太陽能板。 | A broken uranium solar panel.
   suffix: Broken
   components:
   - type: Sprite
@@ -239,8 +239,8 @@
 - type: entity
   parent: StructureHealthMachineFlimsy
   id: SolarAssembly
-  name: solar assembly
-  description: A solar assembly. Anchor to a wire to start building a solar panel.
+  name: 太陽能組件 | solar assembly
+  description: 一個太陽能組件。將其固定在電線上，即可開始組裝太陽能板。 | A solar assembly. Anchor to a wire to start building a solar panel.
   placement:
     mode: SnapgridCenter
   components:
@@ -288,8 +288,8 @@
 - type: entity
   parent: StructureHealthMachine
   id: SolarTracker
-  name: solar tracker
-  description: A solar tracker. Tracks the nearest star.
+  name: 太陽能追蹤器 | solar tracker
+  description: 一個太陽追蹤器。用來追蹤最近的那顆恆星。 | A solar tracker. Tracks the nearest star.
   placement:
     mode: SnapgridCenter
   components:

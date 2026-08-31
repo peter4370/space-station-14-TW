@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: hi-viz vest
-  description: A high-visibility vest used in work zones.
+  name: 高可見度背心 | hi-viz vest
+  description: 一種用於施工區域的高可見度背心。 | A high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: 背心 | vest
+  description: 一件外層具橡膠質感且防水的厚背心。 | A thick vest with a rubbery, water-resistant shell.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterVestTank
-  name: tank harness
-  description: A simple harness that can hold a gas tank.
+  name: 儲氣罐束帶 | tank harness
+  description: 一款能固定瓦斯罐的簡易束帶。 | A simple harness that can hold a gas tank.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/tankharness.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterVestPress
-  name: press vest
-  description: A cloth vest for the fearless reporter in the field. Go land an interview with that space dragon!
+  name: 記者背心 | press vest
+  description: 一款專為無畏的現場記者設計的布製背心。去向那隻太空龍爭取一次專訪吧！ | A cloth vest for the fearless reporter in the field. Go land an interview with that space dragon!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/pressvest.rsi

@@ -1,12 +1,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder, BaseXenoborgDestructible ]
   id: XenoborgEngi
-  name: engi xenoborg
+  name: 恩吉·克塞諾博格 | engi xenoborg
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other Xenoborgs.
+  description: 一種旨在自我複製的人機混合體。牠們熱衷於摘取大腦，將其植入嶄新的異種機器人軀體中，藉此擴充軍力。這隻似乎屬於工程型，因為牠配備了更多用於支援其他異種機器人的工具。 | A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other Xenoborgs.
   components:
   - type: BorgTransponder
-    name: engi xenoborg
+    name: 恩吉·克塞諾博格 | engi xenoborg
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_engi
@@ -58,18 +58,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgHeavy
-  name: heavy xenoborg
+  name: 重型異種博格 | heavy xenoborg
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
+  description: 一種旨在自我複製的人機混合體。牠們熱衷於摘取大腦，將其植入嶄新的異種機器人軀體中，藉此擴充軍力。此類體型配備重型雷射武器，並覆蓋著厚實的裝甲板。雖然牠們可能更為強悍，但其速度卻與其強壯體格相稱。 | A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
   components:
   - type: BorgTransponder
-    name: heavy xenoborg
+    name: 重型異種博格 | heavy xenoborg
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_heavy
@@ -151,18 +151,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder, BaseXenoborgDestructible ]
   id: XenoborgScout
-  name: scout xenoborg
+  name: 偵察型異種博格 | scout xenoborg
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
+  description: 一種旨在自我複製的人機混合體。牠們熱衷於摘取大腦，並將其植入嶄新的異種機器人軀體中，藉此擴充軍力。這是偵察型，其靈活的推進器使其能迅速穿梭於太空中。 | A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
   components:
   - type: BorgTransponder
-    name: scout xenoborg
+    name: 偵察型異種博格 | scout xenoborg
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_scout
@@ -206,18 +206,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder, BaseXenoborgDestructible ]
   id: XenoborgStealth
-  name: stealth xenoborg
+  name: 隱形外星機器人 | stealth xenoborg
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
+  description: 一種旨在自我複製的人機混合體。牠們熱衷於摘取大腦，將其植入嶄新的異種機器人軀體中，以此擴充軍力。這隻屬於隱形型。它的裝甲在光線下閃爍生輝，那種光澤是你在其他任何材質上都未曾見過的。 | A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
   components:
   - type: BorgTransponder
-    name: stealth xenoborg
+    name: 隱形外星機器人 | stealth xenoborg
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_stealth
@@ -260,7 +260,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 
@@ -283,7 +283,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -303,7 +303,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -323,7 +323,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -344,5 +344,5 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted

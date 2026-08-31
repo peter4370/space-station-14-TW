@@ -2,8 +2,8 @@
   abstract: true
   parent: ClothingNeckBase
   id: ClothingNeckTieBase
-  name: tie
-  description: A neosilk clip-on tie.
+  name: 平局 | tie
+  description: 一款新絲質夾扣式領帶。 | A neosilk clip-on tie.
   components:
   - type: Tag
     tags:
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingNeckTieBase
   id: ClothingNeckTieRed
-  name: red tie
-  description: A neosilk clip-on red tie.
+  name: 紅色領帶 | red tie
+  description: 一條新絲質的夾扣式紅色領帶。 | A neosilk clip-on red tie.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/redtie.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingNeckTieBase
   id: ClothingNeckTieDet
-  name: detective's tie
-  description: A loosely tied necktie, a perfect accessory for the over-worked detective.
+  name: 偵探領帶 | detective's tie
+  description: 一條鬆鬆繫著的領帶，正是這位過勞偵探的完美配飾。 | A loosely tied necktie, a perfect accessory for the over-worked detective.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/dettie.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingNeckTieBase
   id: ClothingNeckTieSci
-  name: scientist's tie
-  description: Why do we all have to wear these ridiculous ties?
+  name: 科學家的領帶 | scientist's tie
+  description: 為什麼我們都得繫這些荒謬的領帶呢？ | Why do we all have to wear these ridiculous ties?
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/scitie.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingNeckTieBase
   id: ClothingNeckTieSerious
-  name: serious tie
-  description: A perfectly tied tie to get you through the working day.
+  name: 嚴肅的平局 | serious tie
+  description: 一條打得恰到好處的領帶，助您輕鬆度過工作日。 | A perfectly tied tie to get you through the working day.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/serioustie.rsi

@@ -2,7 +2,7 @@
 - type: entity
   parent: StatusEffectBase
   id: StatusEffectClumsyAll
-  name: clumsy
+  name: 笨拙的 | clumsy
   components:
   - type: ClumsyCatchStatusEffect
     failDamage:

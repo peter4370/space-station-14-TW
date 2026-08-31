@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseFenceWood
-  name: wooden fence
-  description: Wooden piece of fencing. I hope there is babushka's garden behind it.
+  name: 木柵欄 | wooden fence
+  description: 一塊木製圍籬。希望圍籬後面有巴布什卡的花園。 | Wooden piece of fencing. I hope there is babushka's garden behind it.
   components:
   - type: MeleeSound
     soundGroups:
@@ -54,8 +54,8 @@
   abstract: true
   parent: [ BaseFenceWood, StructureHealthBarrierWeak ]
   id: BaseFenceWoodSmall
-  name: small wooden fence
-  description: Wooden piece of small fence. The best protection for the fencing of a private territory!
+  name: 一座小木柵欄 | small wooden fence
+  description: 一小段木製圍籬。是私人區域圍籬的最佳防護！ | Wooden piece of small fence. The best protection for the fencing of a private territory!
   components:
   - type: Destructible
     thresholds:
@@ -213,8 +213,8 @@
 - type: entity
   parent: BaseFenceWoodHigh
   id: FenceWoodHighGate
-  name: wooden fence gate
-  description: Do you have any idea what awaits you behind these gates? It can be either a toilet or a luxurious mansion. But you continue to love your emo boys.
+  name: 木製圍欄大門 | wooden fence gate
+  description: 你知道這些大門後面等著你的是什麼嗎？可能是廁所，也可能是豪華別墅。但你依然深愛著你的情緒化男孩們。 | Do you have any idea what awaits you behind these gates? It can be either a toilet or a luxurious mansion. But you continue to love your emo boys.
   components:
   - type: Sprite
     layers:
@@ -394,8 +394,8 @@
 - type: entity
   parent: BaseFenceWoodSmall
   id: FenceWoodSmallGate
-  name: wooden fence gate
-  description: Looking at this gate, a familiar image pops up in your head. Where's my piggy?
+  name: 木製圍欄大門 | wooden fence gate
+  description: 看著這扇大門，腦海中浮現出一幅熟悉的畫面。我的小豬去哪了？ | Looking at this gate, a familiar image pops up in your head. Where's my piggy?
   components:
   - type: Sprite
     layers:

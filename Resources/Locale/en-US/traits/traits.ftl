@@ -1,67 +1,45 @@
-trait-blindness-name = Blindness
-trait-blindness-desc = You are legally blind, and can't see clearly past a few meters in front of you.
-
-trait-poor-vision-name = Short-sighted
-trait-poor-vision-desc = Your eyes are not what they once were, you have difficulty seeing things far away without corrective glasses.
-
-trait-narcolepsy-name = Narcolepsy
-trait-narcolepsy-desc = You fall asleep randomly.
-
-trait-pacifist-name = Pacifist
-trait-pacifist-desc = You cannot attack or hurt any living beings.
-
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
-
-trait-lightweight-name = Lightweight drunk
-trait-lightweight-desc = Alcohol has a stronger effect on you.
-
-trait-monochromacy-name = Monochromacy
-trait-monochromacy-desc = You are fully colorblind, everything you perceive ranges from blacks to whites.
-
-trait-muted-name = Muted
-trait-muted-desc = You can't speak.
-
-trait-paracusia-name = Paracusia
-trait-paracusia-desc = You hear sounds that aren't really there.
-
-trait-unrevivable-name = Unrevivable
-trait-unrevivable-desc = You are unable to be revived by defibrillators.
-
-trait-accentless-name = Accentless
-trait-accentless-desc = You don't have the accent that your species would usually have.
-
-trait-frontal-lisp-name = Frontal lisp
-trait-frontal-lisp-desc = You thpeak with a lithp.
-
-trait-socialanxiety-name = Stutter
-trait-socialanxiety-desc = You speak with a stutter.
-
-trait-southern-name = Southern drawl
-trait-southern-desc = You have a different way of speakin'.
-
-trait-snoring-name = Snoring
-trait-snoring-desc = You will snore while sleeping.
-
-trait-liar-name = Pathological liar
-trait-liar-desc = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
-
-trait-german-name = German accent
-trait-german-desc = You seem to come from space Germany.
-
-trait-french-name = French accent
-trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
-
-trait-spanish-name = Spanish accent
-trait-spanish-desc = Hola señor, ¿dónde está la biblioteca?
-
-trait-scottish-name = Scottish accent
-trait-scottish-desc = Ye're speaking like ae proper Scot!
-
-trait-painnumbness-name = Numb
-trait-painnumbness-desc = You lack any sense of feeling pain, being unaware of how hurt you may be.
-
-trait-hemophilia-name = Hemophilia
-trait-hemophilia-desc = Your body fails to make blood clots.
-
-trait-impaired-mobility-name = Impaired Mobility
-trait-impaired-mobility-desc = You have difficulty moving without a mobility aid.
+trait-blindness-name = 《失明》
+trait-blindness-desc = 您屬於法定失明者，眼前幾公尺以外的景象都無法看清楚。
+trait-poor-vision-name = 目光短淺
+trait-poor-vision-desc = 您的視力已不如從前，若不戴矯正眼鏡，便難以看清遠處的事物。
+trait-narcolepsy-name = 發作性睡病
+trait-narcolepsy-desc = 你會不經意地睡著。
+trait-pacifist-name = 和平主義者
+trait-pacifist-desc = 你不可攻擊或傷害任何有情眾生。
+permanent-blindness-trait-examined = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神呆滯且目光渙散。看來 { SUBJECT($target) } 似乎無法清楚看見你，甚至可能根本看不見你。[color]
+trait-lightweight-name = 微醺
+trait-lightweight-desc = 酒精對你的影響更為強烈。
+trait-monochromacy-name = 單色視覺
+trait-monochromacy-desc = 你是完全色盲，你所感知的一切都僅限於黑與白之間。
+trait-muted-name = 靜音
+trait-muted-desc = 你不能說話。
+trait-paracusia-name = 聽覺幻覺
+trait-paracusia-desc = 你會聽到其實並不存在的聲音。
+trait-unrevivable-name = 無法復甦
+trait-unrevivable-desc = 您無法透過除顫器進行復甦。
+trait-accentless-name = 無口音的
+trait-accentless-desc = 你沒有你那個物種通常會有的口音.
+trait-frontal-lisp-name = 前部顱裂
+trait-frontal-lisp-desc = 你說話帶點口吃。
+trait-socialanxiety-name = 口吃
+trait-socialanxiety-desc = 你說話時會結巴。
+trait-southern-name = 南方口音
+trait-southern-desc = 你的說話方式跟別人不太一樣。
+trait-snoring-name = 打鼾
+trait-snoring-desc = 你睡覺時會打鼾。
+trait-liar-name = 病態說謊者
+trait-liar-desc = 你幾乎無法下定決心說出真相。有時候，你還是會說謊。
+trait-german-name = 德語口音
+trait-german-desc = 你似乎來自太空中的德國。
+trait-french-name = 法式口音
+trait-french-desc = 你的口音似乎帶有一種難以言喻的「je ne sais quoi」。
+trait-spanish-name = 西班牙口音
+trait-spanish-desc = 您好，先生，圖書館在哪裡？
+trait-scottish-name = 蘇格蘭口音
+trait-scottish-desc = 你這說話方式簡直像個地道的蘇格蘭人！
+trait-painnumbness-name = 麻木
+trait-painnumbness-desc = 你完全沒有痛覺，甚至不知道自己可能受了多大的傷。
+trait-hemophilia-name = 血友病
+trait-hemophilia-desc = 您的身體無法形成血塊。
+trait-impaired-mobility-name = 行動不便
+trait-impaired-mobility-desc = 若沒有行動輔具，您會難以行動。

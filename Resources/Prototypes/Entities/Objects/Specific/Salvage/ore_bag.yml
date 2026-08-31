@@ -1,8 +1,8 @@
 - type: entity
-  name: ore bag
+  name: 礦石袋 | ore bag
   id: OreBag
   parent: BaseStorageItem
-  description: A robust bag for salvage specialists and miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
+  description: 一款堅固耐用的背包，專為回收專家與礦工設計，用於搬運大量礦石。當繫在腰帶上時，會使附近的礦石磁化。 | A robust bag for salvage specialists and miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
   components:
   - type: MagnetPickup
   - type: Sprite
@@ -30,8 +30,8 @@
 - type: entity
   parent: OreBag
   id: BorgOreBag
-  name: integrated ore bag
-  description: A large ore bag built into the frame of a mining cyborg. Magnetises any nearby ores when held.
+  name: 一體式礦石袋 | integrated ore bag
+  description: 一個嵌入採礦機械人框架的大型礦石袋。拿在手中時，會使附近的礦石磁化。 | A large ore bag built into the frame of a mining cyborg. Magnetises any nearby ores when held.
   components:
     - type: MagnetPickup
       slotFlags: null

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
   id: BaseIntercom
-  name: intercom
-  description: An intercom. For when the station just needs to know something.
+  name: 對講機 | intercom
+  description: 對講機。當車站只是想確認某些事情時，便會派上用場。 | An intercom. For when the station just needs to know something.
   abstract: true
   components:
   - type: StationAiWhitelist
@@ -113,8 +113,8 @@
 - type: entity
   parent: [ BaseWallmountMetallic, StructureHealthMachineFlimsy ]
   id: IntercomAssembly
-  name: intercom assembly
-  description: An intercom. It doesn't seem very helpful right now.
+  name: 對講機組件 | intercom assembly
+  description: 對講機。現在看來似乎沒什麼用處。 | An intercom. It doesn't seem very helpful right now.
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -226,7 +226,7 @@
   id: IntercomCommand
   parent: BaseIntercomSecure
   suffix: Command
-  description: An intercom. It's been reinforced with metal.
+  description: 一臺對講機。它經過金屬加固。 | An intercom. It's been reinforced with metal.
   components:
   - type: ContainerFill
     containers:
@@ -279,7 +279,7 @@
   id: IntercomSecurity
   parent: BaseIntercomSecure
   suffix: Security
-  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
+  description: 一個對講機。它用安全頭盔上的金屬加固過，要打開它簡直難如登天。 | An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
   components:
   - type: ContainerFill
     containers:

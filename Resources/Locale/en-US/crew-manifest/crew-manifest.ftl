@@ -1,4 +1,4 @@
-crew-manifest-window-title = Crew Manifest
-crew-manifest-button-label = Crew Manifest
-crew-manifest-button-description = Show a list of your fellow crewmembers
-crew-manifest-no-valid-station = Invalid station, or empty manifest!
+crew-manifest-window-title = 船員名單
+crew-manifest-button-label = 船員名單
+crew-manifest-button-description = 顯示您的同組成員清單
+crew-manifest-no-valid-station = 站名無效，或載貨清單為空！

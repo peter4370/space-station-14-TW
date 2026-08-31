@@ -1,9 +1,10 @@
-﻿<Document>
-  # Gas Manipulation
-  Atmos has a wide variety of tools and equipment at their disposal for the manipulation of gasses throughout the station.
+﻿
+<Document>
+  # 氣體操控
+  Atmos 擁有各式各樣的工具與設備，可用於操控站內各處的氣體。
 
-  [bold]Warning: unanchoring (unwrenching) most devices containing gas will [color=red]leak gas[/color] into the atmosphere.[/bold]
-  You can safely unanchor [textlink="canisters" link="GasCanisters"], [textlink="portable scrubbers" link="PortableScrubber"], [textlink="condensers" link="GasCondensing"], and [textlink="thermomachines" link="Thermomachines"].
+  [bold]警告：鬆開（卸除）大多數含有氣體的裝置時，將會 [color=red]導致氣體洩漏[/color] 至大氣中。[/bold]
+  您可以安全地鬆開 [textlink="氣罐" link="GasCanisters"]、[textlink="便攜式淨化器" link="PortableScrubber"]、[textlink="冷凝器" link="GasCondensing"] 以及 [textlink="熱力機" link="Thermomachines"]。
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
@@ -13,10 +14,10 @@
     <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
   </Box>
   <Box>
-    ## Pipes
+    ## 管子
   </Box>
   <Box>
-    [color=#999999][italic]Distributing gasses from one place to another[italic][/color]
+    [color=#999999][italic]將氣體從一處輸送至另一處[italic][/color]
   </Box>
 
   <Box>
@@ -24,10 +25,10 @@
     <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
   </Box>
   <Box>
-    ## Pumps
+    ## 泵
   </Box>
   <Box>
-    [color=#999999][italic]Forcing the movement of gasses from one place to another[italic][/color]
+    [color=#999999][italic]迫使氣體從一處移動到另一處[italic][/color]
   </Box>
 
   <Box>
@@ -38,10 +39,10 @@
     <GuideEntityEmbed Entity="PortableScrubber" Caption=""/>
   </Box>
   <Box>
-    ## Atmosphere Input and Output
+    ## 氛圍的輸入與輸出
   </Box>
   <Box>
-    [color=#999999][italic]Inserting and extracting gasses from a present (or non-present) atmosphere[italic][/color]
+    [color=#999999][italic]向現有（或非現有）大氣中注入及抽出氣體[italic][/color]
   </Box>
 
   <Box>
@@ -52,10 +53,10 @@
     <GuideEntityEmbed Entity="GasPressureRegulator" Caption=""/>
   </Box>
   <Box>
-    ## Valves
+    ## 閥門
   </Box>
   <Box>
-    [color=#999999][italic]Controlling the flow of gas through pipes[italic][/color]
+    [color=#999999][italic]控制管道中的氣體流動[italic][/color]
   </Box>
 
   <Box>
@@ -63,10 +64,10 @@
     <GuideEntityEmbed Entity="GasFilter" Caption=""/>
   </Box>
   <Box>
-    ## Mixing and Filtering
+    ## 混音與濾波
   </Box>
   <Box>
-    [color=#999999][italic]Manipulating the composition of gas[italic][/color]
+    [color=#999999][italic]操控氣體的組成[italic][/color]
   </Box>
 
   <Box>
@@ -78,10 +79,10 @@
     <GuideEntityEmbed Entity="GasPort" Caption=""/>
   </Box>
   <Box>
-    ## Gas Canisters
+    ## 瓦斯罐
   </Box>
   <Box>
-    [color=#999999][italic]Storing and transporting gas for easy use by the crew[italic][/color]
+    [color=#999999][italic]儲存及運輸氣體，以便船員使用[italic][/color]
   </Box>
 
   <Box>
@@ -91,19 +92,19 @@
     <GuideEntityEmbed Entity="HeatExchanger" Caption=""/>
   </Box>
   <Box>
-    ## Thermomachines and Radiators
+    ## 熱機與散熱器
   </Box>
   <Box>
-    [color=#999999][italic]Manipulating the temperature of gasses in a pipenet or atmosphere[italic][/color]
+    [color=#999999][italic]控制管網或大氣中氣體的溫度[italic][/color]
   </Box>
 
   <Box>
     <GuideEntityEmbed Entity="BaseGasCondenser" Caption=""/>
   </Box>
   <Box>
-    ## Gas Condensing
+    ## 燃氣冷凝式
   </Box>
   <Box>
-    [color=#999999][italic]Condensing gasses for further use[italic][/color]
+    [color=#999999][italic]將氣體冷凝以供後續使用[italic][/color]
   </Box>
 </Document>

@@ -1,8 +1,8 @@
 - type: entity
   id: SmokingPipe
   parent: BaseSmokingPipe
-  name: pipe
-  description: Just like grandpappy used to smoke.
+  name: 管子 | pipe
+  description: 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Pipes/pipe.rsi
@@ -21,9 +21,9 @@
 - type: entity
   id: SmokingPipeFilledTobacco
   parent: SmokingPipe
-  name: pipe
+  name: 管子 | pipe
   suffix: Tobacco
-  description: Just like grandpappy used to smoke.
+  description: 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
   components:
   - type: ContainerContainer
     containers:
@@ -31,7 +31,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: smoking-pipe-slot-component-slot-name-bowl
+      name: 煙斗-插槽-元件-插槽名稱-煙斗碗 | smoking-pipe-slot-component-slot-name-bowl
       startingItem: GroundTobacco
       whitelist:
         tags:
@@ -44,9 +44,9 @@
 - type: entity
   id: SmokingPipeFilledCannabis
   parent: SmokingPipe
-  name: pipe
+  name: 管子 | pipe
   suffix: Cannabis
-  description: Just like grandpappy used to smoke.
+  description: 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
   components:
   - type: ContainerContainer
     containers:
@@ -54,7 +54,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: smoking-pipe-slot-component-slot-name-bowl
+      name: 煙斗-插槽-元件-插槽名稱-煙斗碗 | smoking-pipe-slot-component-slot-name-bowl
       startingItem: GroundCannabis
       whitelist:
         tags:
@@ -67,9 +67,9 @@
 - type: entity
   id: SmokingPipeFilledCannabisRainbow
   parent: SmokingPipe
-  name: pipe
+  name: 管子 | pipe
   suffix: Rainbow Cannabis
-  description: Just like grandpappy used to smoke.
+  description: 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
   components:
   - type: ContainerContainer
     containers:
@@ -77,7 +77,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: smoking-pipe-slot-component-slot-name-bowl
+      name: 煙斗-插槽-元件-插槽名稱-煙斗碗 | smoking-pipe-slot-component-slot-name-bowl
       startingItem: GroundCannabisRainbow
       whitelist:
         tags:

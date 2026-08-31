@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseItem, BaseGunWieldable ]
   id: BaseWeaponLauncher
-  name: BaseWeaponLauncher
-  description: A rooty tooty point and shooty.
+  name: 基礎武器發射器 | BaseWeaponLauncher
+  description: 一款超棒的隨拍相機。 | A rooty tooty point and shooty.
   components:
   - type: Sprite
   - type: ContainerContainer
@@ -33,8 +33,8 @@
 - type: entity
   parent: [ BaseWeaponLauncher, BaseSyndicateContraband ]
   id: WeaponLauncherChinaLake
-  name: china lake
-  description: PLOOP.
+  name: 中國湖 | china lake
+  description: 噗噗。 | PLOOP.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherHydra
-  name: hydra
-  description: PLOOP... FSSSSSS...
+  name: 九頭蛇 | hydra
+  description: 噗……嘶——…… | PLOOP... FSSSSSS...
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherRocket
-  name: RPG-7
-  description: A modified ancient rocket-propelled grenade launcher.
+  name: RPG-7 | RPG-7
+  description: 一款經過改裝的古早型火箭推進榴彈發射器。 | A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: [ BaseItem, BaseXenoborgContraband ]
   id: WeaponGuidedMissileLauncherXenoborg
-  name: XB GML-78 # Xenoborg Guided Missile Launcher 78
-  description: A guided missile launcher.
+  name: XB GML-78 # Xenoborg Guided Missile Launcher 78 | XB GML-78 # Xenoborg Guided Missile Launcher 78
+  description: 一枚導彈發射器。 | A guided missile launcher.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/xenoborg_guided_missile_launcher.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  name: multiple rocket launcher
-  description: A modified ancient rocket-propelled grenade launcher.
+  name: 多管火箭發射器 | multiple rocket launcher
+  description: 一款經過改裝的古早型火箭推進榴彈發射器。 | A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -219,8 +219,8 @@
 - type: entity
   parent: [ BaseItem, BaseXenoborgContraband ]
   id: WeaponRocketLauncherXenoborg
-  name: XB MRL-97-D # Xenoborg Multi Rocket Launcher 97 D (Demolition)
-  description: A alien rocket launcher fitted with special demolition rockets.
+  name: XB MRL-97-D # Xenoborg Multi Rocket Launcher 97 D (Demolition) | XB MRL-97-D # Xenoborg Multi Rocket Launcher 97 D (Demolition)
+  description: 一具配備特殊爆破火箭的外星火箭發射器。 | A alien rocket launcher fitted with special demolition rockets.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/xb_mlr.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  name: pirate cannon
-  description: Kaboom!
+  name: 海盜大砲 | pirate cannon
+  description: 砰！ | Kaboom!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -294,7 +294,7 @@
 - type: entity
   parent: BaseItem
   id: WeaponGrapplingGun
-  name: grappling gun
+  name: 抓鉤槍 | grappling gun
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/grappling_gun.rsi
@@ -333,9 +333,9 @@
 - type: entity
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
-  name: meteor launcher
+  name: 流星發射器 | meteor launcher
   suffix: Admeme
-  description: It fires large meteors.
+  description: 它會發射大型隕石。 | It fires large meteors.
   components:
   - type: BallisticAmmoProvider
     proto: MeteorMedium
@@ -343,9 +343,9 @@
 - type: entity
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
-  name: immovable rod launcher
+  name: 固定式彈桿發射器 | immovable rod launcher
   suffix: Admeme
-  description: It fires slow immovable rods.
+  description: 它會發射緩慢且無法移動的長棒。 | It fires slow immovable rods.
   components:
   - type: BallisticAmmoProvider
     proto: ImmovableRodSlow

@@ -2,8 +2,8 @@
   abstract: true
   parent: [ SolutionTank, SolutionHuge, DisposalUnitBase, SeatBase, StructureHealthFurnitureStrong ]
   id: BaseToilet
-  name: toilet
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  name: 廁所 | toilet
+  description: HT-451 是一款採用扭力旋轉原理的小型廢棄物處理機。這台看起來格外乾淨。 | The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   components:
   - type: Sprite
     sprite: Structures/Furniture/toilet.rsi
@@ -87,7 +87,7 @@
   - type: ToolOpenable
     openToolQualityNeeded: Prying
     closeToolQualityNeeded: Prying
-    name: secret-stash-toilet
+    name: 馬桶裡的秘密藏匿處 | secret-stash-toilet
   - type: Drain
     autoDrain: false
   - type: StaticPrice
@@ -133,8 +133,8 @@
 - type: entity
   parent: BaseToilet
   id: ConstructedToilet
-  name: toilet
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  name: 廁所 | toilet
+  description: HT-451 是一款採用扭力旋轉原理的小型廢棄物處理機。這台看起來格外乾淨。 | The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   suffix: Constructed, Unplungable
   components:
   - type: Construction
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseToilet
   id: ToiletEmpty
-  name: toilet
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  name: 廁所 | toilet
+  description: HT-451 是一款採用扭力旋轉原理的小型廢棄物處理機。這台看起來格外乾淨。 | The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   suffix: Empty
   components:
   - type: PlungerUse
@@ -195,8 +195,8 @@
 - type: entity
   parent: BaseToilet
   id: ToiletGoldenEmpty
-  name: golden toilet
-  description: The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
+  name: 金色馬桶 | golden toilet
+  description: HT-451G 是該裝置的金色版本。機身側面標示，其採用最純淨的水銀金製成，並配備真皮座椅。 | The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
   suffix: Empty
   components:
   - type: Sprite

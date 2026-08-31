@@ -9,7 +9,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomArtifactSpawner
-  name: random artifact spawner
+  name: 隨機文物生成器 | random artifact spawner
   components:
   - type: Sprite
     layers:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: RandomArtifactSpawner20
-  name: random artifact spawner [20]
+  name: 隨機文物生成器 [20] | random artifact spawner [20]
   parent: RandomArtifactSpawner
   components:
   - type: EntityTableSpawner

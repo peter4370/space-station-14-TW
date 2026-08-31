@@ -1,18 +1,19 @@
-﻿<Document>
-  # Atmospheric Upsets
-  Atmospheric upsets are deviations from the normal atmospheric conditions that should be maintained on the station.
+﻿
+<Document>
+  # 大氣異常
+  大氣異常是指偏離該站應維持的正常大氣狀況的情況。
 
-  These upsets can be caused by a variety of factors, such as [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], or other events that can quickly spread throughout the station and make the atmosphere uninhabitable for the crew.
+  這些突發狀況可能由多種因素引起，例如 [textlink="火災" link="火災"]、[textlink="空間" link="空間"]，或其他可能迅速蔓延至整個站體，並使站內環境變得不適合乘組人員居住的事件。
 
-  For reference, the normal atmospheric conditions on the station are 101.3 kPa of pressure and 293.15 K (20°C) of temperature.
-  The standard station mix is also 78% nitrogen, 22% oxygen.
+  供參考，該站點的標準大氣條件為氣壓 101.3 kPa，溫度 293.15 K（20°C）。
+  標準氣站混合氣的成分同樣為 78% 氮氣、22% 氧氣。
 
-  ## Damage Control
-  For all atmospheric emergencies, it's important to act quickly to prevent the spread of dangerous conditions, and to contain the spread as much as possible.
+  ## 損害控制
+  面對任何大氣緊急狀況，迅速採取行動以防止危險狀況蔓延，並盡可能遏制其擴散，至關重要。
 
-  Opening [textlink="firelocks" link="FireAndGasControl"] to the exposed area will often lead to you having to fix [italic]two[/italic] problems instead of one.
+  若將 [textlink="firelocks" link="FireAndGasControl"] 通往暴露區域的開口打開，往往會導致您必須解決 [italic]兩個[/italic] 問題，而非一個。
 
-  Be sure to use your [textlink="holofan projector" link="AtmosTools"] to prevent the spread of dangerous conditions between [textlink="firelock buffers" link="FireAndGasControl"].
+  請務必使用您的 [textlink="全息投影儀" link="AtmosTools"]，以防止危險狀況在 [textlink="防火隔間" link="FireAndGasControl"] 之間蔓延。
 
   <Box>
     <GuideEntityEmbed Entity="HolofanProjector"/>

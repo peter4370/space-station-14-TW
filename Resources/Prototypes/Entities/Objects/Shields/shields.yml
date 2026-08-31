@@ -1,8 +1,8 @@
 - type: entity
-  name: base shield
+  name: 基座護盾 | base shield
   parent: BaseItem
   id: BaseShield
-  description: A shield!
+  description: 一面盾牌！ | A shield!
   abstract: true
   components:
     - type: Sprite
@@ -54,10 +54,10 @@
             max: 2
 
 - type: entity
-  name: base repairable shield
+  name: 可維修式基座護罩 | base repairable shield
   parent: BaseShield
   id: BaseRepairableShield
-  description: A repairable shield!
+  description: 一個可以修復的護盾！ | A repairable shield!
   abstract: true
   components:
   - type: Repairable # Negative values represent healing
@@ -74,10 +74,10 @@
 #Security Shields
 
 - type: entity
-  name: riot shield
+  name: 防暴盾牌 | riot shield
   parent: [ BaseRepairableShield, BaseShieldDestructible, BaseSecurityContraband ]
   id: RiotShield
-  description: A large tower shield. Good for controlling crowds.
+  description: 一面大型塔盾。適合用來控制人群。 | A large tower shield. Good for controlling crowds.
   components:
     - type: StaticPrice
       price: 90
@@ -90,10 +90,10 @@
           Heat: 5
 
 - type: entity
-  name: laser shield
+  name: 雷射防護罩 | laser shield
   parent: [ BaseRepairableShield, BaseShieldDestructible, BaseSecurityContraband ]
   id: RiotLaserShield
-  description: A shield built for withstanding lasers, but not much else.
+  description: 這面護盾雖能抵禦雷射，但除此之外幾乎毫無用處。 | A shield built for withstanding lasers, but not much else.
   components:
     - type: Sprite
       state: riot_laser-icon
@@ -108,10 +108,10 @@
           Heat: 20
 
 - type: entity
-  name: ballistic shield
+  name: 防彈盾牌 | ballistic shield
   parent: [ BaseRepairableShield, BaseShieldDestructible, BaseSecurityContraband ]
   id: RiotBulletShield
-  description: A shield built for protecting against ballistics, but not much else.
+  description: 這面盾牌專為抵禦彈道攻擊而設計，但除此之外幾乎沒什麼用處。 | A shield built for protecting against ballistics, but not much else.
   components:
     - type: Sprite
       state: riot_bullet-icon
@@ -128,10 +128,10 @@
 #Craftable shields
 
 - type: entity
-  name: wooden buckler
+  name: 木製圓盾 | wooden buckler
   parent: BaseShield
   id: WoodenBuckler
-  description: A small round wooden makeshift shield.
+  description: 一個小巧圓形的木製臨時盾牌。 | A small round wooden makeshift shield.
   components:
     - type: Sprite
       state: buckler-icon
@@ -167,10 +167,10 @@
       price: 150
 
 - type: entity
-  name: cardboard shield
+  name: 紙板盾牌 | cardboard shield
   parent: BaseShield
   id: CardShield
-  description: A shield made of cardboard. Won't protect you from much.
+  description: 一面用紙板做的盾牌。沒什麼防禦作用。 | A shield made of cardboard. Won't protect you from much.
   components:
     - type: Sprite
       state: cardshield-icon
@@ -205,10 +205,10 @@
       price: 20
 
 - type: entity
-  name: makeshift shield
+  name: 臨時盾牌 | makeshift shield
   parent: BaseRepairableShield
   id: MakeshiftShield
-  description: A rundown looking shield, not good for much.
+  description: 一面看起來破舊不堪的盾牌，沒什麼用處。 | A rundown looking shield, not good for much.
   components:
     - type: Sprite
       state: makeshift-icon
@@ -235,10 +235,10 @@
               max: 2
 
 - type: entity
-  name: web shield
+  name: 網路防護盾 | web shield
   parent: BaseShield
   id: WebShield
-  description: A stringy shield. It's weak, and doesn't seem to do well against heat.
+  description: 一面纖維狀的盾牌。它很脆弱，而且似乎不太耐熱。 | A stringy shield. It's weak, and doesn't seem to do well against heat.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/web-shield.rsi
@@ -274,10 +274,10 @@
 #Magic/Cult Shields (give these to wizard for now)
 
 - type: entity
-  name: clockwork shield
+  name: 發條護盾 | clockwork shield
   parent: [ BaseRepairableShield, BaseShieldDestructible ]
   id: ClockworkShield
-  description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
+  description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba。 | Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
   components:
     - type: Sprite
       state: ratvarian-icon
@@ -286,10 +286,10 @@
       #Have it break into brass when clock cult is in
 
 - type: entity
-  name: mirror shield
+  name: 鏡面護盾 | mirror shield
   parent: [ BaseShield, BaseMagicalContraband ]
   id: MirrorShield
-  description: Eerily glows red... you hear the geometer whispering
+  description: 詭異地泛著紅光……你聽見幾何學家在低語 | Eerily glows red... you hear the geometer whispering
   components:
     - type: Sprite
       state: mirror-icon
@@ -328,10 +328,10 @@
               max: 5
 
 - type: entity
-  name: energy shield
+  name: 能量護盾 | energy shield
   parent: [BaseItem, BaseSyndicateContraband]
   id: EnergyShield
-  description: Exotic energy shield, when folded, can even fit in your pocket.
+  description: 這款奇特的能量護盾，摺疊後甚至能放進你的口袋裡。 | Exotic energy shield, when folded, can even fit in your pocket.
   components:
     - type: ItemToggleExaminableStatus
     - type: ItemToggle
@@ -420,10 +420,10 @@
       price: 350
 
 - type: entity
-  name: broken energy shield
+  name: 破損的能量護盾 | broken energy shield
   parent: BaseItem
   id: BrokenEnergyShield
-  description: Something inside is burned out, it is no longer functional.
+  description: 內部某個部件已燒壞，無法再運作。 | Something inside is burned out, it is no longer functional.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/e_shield.rsi
@@ -434,10 +434,10 @@
       heldPrefix: eshield
 
 - type: entity
-  name: telescopic shield
+  name: 伸縮式護盾 | telescopic shield
   parent: [ BaseRepairableShield, BaseShieldDestructible ]
   id: TelescopicShield
-  description: An advanced riot shield made of lightweight materials that collapses for easy storage.
+  description: 一款採用輕量化材料製成的先進防暴盾牌，可摺疊收納，便於存放。 | An advanced riot shield made of lightweight materials that collapses for easy storage.
   components:
     - type: ItemToggleExaminableStatus
       onText: item-toggle-examined-active

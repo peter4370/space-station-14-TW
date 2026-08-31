@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseStructure, StructureHealthFurnitureWeak ]
   id: BaseCrystalStalagmite
-  name: crystal
-  description: An outcrop of jagged crystals.
+  name: 水晶 | crystal
+  description: 一處由尖銳水晶構成的岩露。 | An outcrop of jagged crystals.
   components:
   - type: Sprite
     layers:

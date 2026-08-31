@@ -2,8 +2,8 @@
 - type: entity
   parent: StructureHealthDoorWeak
   id: AirlockAssembly
-  name: airlock assembly
-  description: It opens, it closes, and maybe crushes you.
+  name: 氣閘組件 | airlock assembly
+  description: 它會打開，會關上，說不定還會把你壓扁。 | It opens, it closes, and maybe crushes you.
   components:
   - type: Clickable
   - type: InteractionOutline

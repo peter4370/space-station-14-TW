@@ -1,8 +1,8 @@
 - type: entity
   id: CargoTelepad
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseConstructibleMachineDestructible ]
-  name: cargo telepad
-  description: Beam in the pizzas and dig in.
+  name: 貨物傳送台 | cargo telepad
+  description: 把披薩送上桌，開動吧。 | Beam in the pizzas and dig in.
   components:
   - type: InteractionOutline
   - type: Physics

@@ -1,150 +1,100 @@
-marking-GauzeLefteyePatch-gauze_lefteye_2 = Gauze eyepatch (Left)
-marking-GauzeLefteyePatch = Gauze eyepatch (Left)
-
-marking-GauzeLefteyePad-gauze_lefteye_1 = Gauze eyepad (Left)
-marking-GauzeLefteyePad = Gauze eyepad (Left)
-
-marking-GauzeRighteyePatch-gauze_righteye_2 = Gauze eyepatch (Right)
-marking-GauzeRighteyePatch = Gauze eyepatch (Right)
-
-marking-GauzeRighteyePad-gauze_righteye_1 = Gauze eyepad (Right)
-marking-GauzeRighteyePad = Gauze eyepad (Right)
-
-marking-GauzeShoulder-gauze_shoulder = Gauze Shoulder Sling
-marking-GauzeShoulder = Gauze Shoulder Sling
-
-marking-GauzeStomach-gauze_abdomen = Gauze Stomach Wrap
-marking-GauzeStomach = Gauze Stomach Wrap
-
-marking-GauzeUpperArmRight-gauze_upperarm_r = Gauze Forearm Wrap (Right)
-marking-GauzeUpperArmRight = Gauze Forearm Wrap (Right)
-
-marking-GauzeLowerArmRight-gauze_lowerarm_r = Gauze Wrist Wrap (Right)
-marking-GauzeLowerArmRight = Gauze Wrist Wrap (Right)
-
-marking-GauzeLeftArm-gauze_leftarm = Gauze Arm Wrap (Left)
-marking-GauzeLeftArm = Gauze Arm Wrap (Left)
-
-marking-GauzeLowerLegLeft-gauze_lowerleg_l = Gauze Ankle Wrap (Left)
-marking-GauzeLowerLegLeft = Gauze Ankle Wrap (Left)
-
-marking-GauzeBoxerWrapLeft-gauze_boxerwrap_l = Gauze Handwrap (Left)
-marking-GauzeBoxerWrapLeft = Gauze Handwrap (Left)
-
-marking-GauzeBoxerWrapRight-gauze_boxerwrap_r = Gauze Handwrap (Right)
-marking-GauzeBoxerWrapRight = Gauze Handwrap (Right)
-
-marking-GauzeUpperLegLeft-gauze_upperleg_l = Gauze Thigh Wrap (Left)
-marking-GauzeUpperLegLeft = Gauze Thigh Wrap (Left)
-
-marking-GauzeLowerLegRight-gauze_lowerleg_r = Gauze Ankle Wrap (Right)
-marking-GauzeLowerLegRight = Gauze Ankle Wrap (Right)
-
-marking-GauzeUpperLegRight-gauze_upperleg_r = Gauze Thigh Wrap (Right)
-marking-GauzeUpperLegRight = Gauze Thigh Wrap (Right)
-
-marking-GauzeBlindfold-gauze_blindfold = Gauze Blindfold
-marking-GauzeBlindfold = Gauze Blindfold
-
-marking-GauzeHead-gauze_head = Gauze Head Wrap
-marking-GauzeHead = Gauze Head Wrap
-
-marking-GauzeLizardBlindfold-gauze_lizard_blindfold = Gauze Blindfold
-marking-GauzeLizardBlindfold = Gauze Blindfold
-
-marking-GauzeLizardFootRight-gauze_lizard_foot_r = Gauze Foot Wrap (Right)
-marking-GauzeLizardFootRight = Gauze Foot Wrap (Right)
-
-marking-GauzeLizardFootLeft-gauze_lizard_foot_l = Gauze Foot Wrap (Left)
-marking-GauzeLizardFootLeft = Gauze Foot Wrap (Left)
-
-marking-GauzeLizardLefteyePatch-gauze_lizard_lefteye = Reptilian Gauze eyepatch (Left)
-marking-GauzeLizardLefteyePatch = Reptilian Gauze eyepatch (Left)
-
-marking-GauzeLizardRighteyePatch-gauze_lizard_righteye = Reptilian Gauze eyepatch (Right)
-marking-GauzeLizardRighteyePatch = Reptilian Gauze Eyepatch (Right)
-
-marking-GauzeMothStomach-gauze_moth_abdomen = Insectoid Stomach Wrap
-marking-GauzeMothStomach = Insectoid Stomach Wrap
-
-marking-GauzeMothShoulder-gauze_moth_shoulder = Insectoid Shoulder Sling
-marking-GauzeMothShoulder = Insectoid Shoulder Sling
-
-marking-GauzeMothBlindfold-gauze_moth_blindfold = Insectoid Blindfold
-marking-GauzeMothBlindfold = Insectoid Blindfold
-
-marking-GauzeMothLeftEyePatch-gauze_moth_lefteye_2 = Insectoid Gauze eyepatch (Left)
-marking-GauzeMothLeftEyePatch = Insectoid Gauze eyepatch (Left)
-
-marking-GauzeMothLeftEyePad-gauze_moth_lefteye_1 = Insectoid Gauze eyepad (Left)
-marking-GauzeMothLeftEyePad = Insectoid Gauze eyepad (Left)
-
-marking-GauzeMothRightEyePatch-gauze_moth_righteye_2 = Insectoid Gauze eyepatch (Right)
-marking-GauzeMothRightEyePatch = Insectoid Gauze eyepatch (Right)
-
-marking-GauzeMothRightEyePad-gauze_moth_righteye_1 = Insectoid Gauze eyepad (Right)
-marking-GauzeMothRightEyePad = Insectoid Gauze eyepad (Right)
-
-marking-GauzeMothUpperArmRight-gauze_moth_upperarm_r = Insectoid Gauze Forearm Wrap (Right)
-marking-GauzeMothUpperArmRight = Insectoid Gauze Forearm Wrap (Right)
-
-marking-GauzeMothUpperArmLeft-gauze_moth_upperarm_l = Insectoid Gauze Forearm Wrap (Left)
-marking-GauzeMothUpperArmLeft = Insectoid Gauze Forearm Wrap (Left)
-
-marking-GauzeMothUpperLegRight-gauze_moth_upperleg_r = Insectoid Gauze Thigh Wrap (Right)
-marking-GauzeMothUpperLegRight = Insectoid Gauze Thigh Wrap (Right)
-
-marking-GauzeMothUpperLegLeft-gauze_moth_upperleg_l = Insectoid Gauze Thigh Wrap (Left)
-marking-GauzeMothUpperLegLeft = Insectoid Gauze Thigh Wrap (Left)
-
-marking-GauzeMothLowerLegRight-gauze_moth_lowerleg_r = Insectoid Gauze Shin Wrap (Right)
-marking-GauzeMothLowerLegRight = Insectoid Gauze Shin Wrap (Right)
-
-marking-GauzeMothLowerLegLeft-gauze_moth_lowerleg_l = Insectoid Gauze Shin Wrap (Left)
-marking-GauzeMothLowerLegLeft = Insectoid Gauze Shin Wrap (Left)
-
-marking-GauzeVulpStomach-gauze_vulp_abdomen = Vulpkanin Gauze Stomach Wrap
-marking-GauzeVulpStomach = Vulpkanin Gauze Stomach Wrap
-
-marking-GauzeVulpBlindfold-gauze_vulp_blindfold = Vulpkanin Blindfold
-marking-GauzeVulpBlindfold = Vulpkanin Blindfold
-
-marking-GauzeVulpBoxerwrapLeft-gauze_vulp_boxerwrap_l = Vulpkanin Gauze Hand Wrap (Left)
-marking-GauzeVulpBoxerwrapLeft = Vulpkanin Gauze Hand Wrap (Left)
-
-marking-GauzeVulpBoxerwrapRight-gauze_vulp_boxerwrap_r = Vulpkanin Gauze Hand Wrap (Right)
-marking-GauzeVulpBoxerwrapRight = Vulpkanin Gauze Hand Wrap (Right)
-
-marking-GauzeVulpHead-gauze_vulp_head = Vulpkanin Gauze Head Wrap
-marking-GauzeVulpHead = Vulpkanin Gauze Head Wrap
-
-marking-GauzeVulpLeftArm-gauze_vulp_leftarm = Vulpkanin Gauze Arm Wrap (Left)
-marking-GauzeVulpLeftArm = Vulpkanin Gauze Arm Wrap (Left)
-
-marking-GauzeVulpLefteyePatch-gauze_vulp_lefteye_2 = Vulpkanin Gauze Eyepatch (Left)
-marking-GauzeVulpLefteyePatch = Vulpkanin Gauze Eyepatch (Left)
-
-marking-GauzeVulpLowerArmRight-gauze_vulp_lowerarm_r = Vulpkanin Gauze Wrist Wrap (Right)
-marking-GauzeVulpLowerArmRight = Vulpkanin Gauze Wrist Wrap (Right)
-
-marking-GauzeVulpLowerLegLeft-gauze_vulp_lowerleg_l = Vulpkanin Gauze Ankle Wrap (Left)
-marking-GauzeVulpLowerLegLeft = Vulpkanin Gauze Ankle Wrap (Left)
-
-marking-GauzeVulpLowerLegRight-gauze_vulp_lowerleg_r = Vulpkanin Gauze Ankle Wrap (Right)
-marking-GauzeVulpLowerLegRight = Vulpkanin Gauze Ankle Wrap (Right)
-
-marking-GauzeVulpRighteyePatch-gauze_vulp_righteye_2 = Vulpkanin Gauze Eyepatch (Right)
-marking-GauzeVulpRighteyePatch = Vulpkanin Gauze Eyepatch (Right)
-
-marking-GauzeVulpShoulder-gauze_vulp_shoulder = Vulpkanin Gauze Shoulder Sling
-marking-GauzeVulpShoulder = Vulpkanin Gauze Shoulder Sling
-
-marking-GauzeVulpUpperArmRight-gauze_vulp_upperarm_r = Vulpkanin Gauze Forearm Wrap (Right)
-marking-GauzeVulpUpperArmRight = Vulpkanin Gauze Forearm Wrap (Right)
-
-marking-GauzeVulpUpperLegLeft-gauze_vulp_upperleg_l = Vulpkanin Gauze Thigh Wrap (Left)
-marking-GauzeVulpUpperLegLeft = Vulpkanin Gauze Thigh Wrap (Left)
-
-marking-GauzeVulpUpperLegRight-gauze_vulp_upperleg_r = Vulpkanin Gauze Thigh Wrap (Right)
-marking-GauzeVulpUpperLegRight = Vulpkanin Gauze Thigh Wrap (Right)
-
+marking-GauzeLefteyePatch-gauze_lefteye_2 = 紗布眼罩（左）
+marking-GauzeLefteyePatch = 紗布眼罩（左）
+marking-GauzeLefteyePad-gauze_lefteye_1 = 紗布眼罩（左）
+marking-GauzeLefteyePad = 紗布眼罩（左）
+marking-GauzeRighteyePatch-gauze_righteye_2 = 紗布眼罩（右眼用）
+marking-GauzeRighteyePatch = 紗布眼罩（右眼用）
+marking-GauzeRighteyePad-gauze_righteye_1 = 紗布眼罩（右側）
+marking-GauzeRighteyePad = 紗布眼罩（右側）
+marking-GauzeShoulder-gauze_shoulder = 紗布式肩用吊帶
+marking-GauzeShoulder = 紗布式肩用吊帶
+marking-GauzeStomach-gauze_abdomen = 紗布腹部護帶
+marking-GauzeStomach = 紗布腹部護帶
+marking-GauzeUpperArmRight-gauze_upperarm_r = 紗布前臂護具（右側）
+marking-GauzeUpperArmRight = 紗布前臂護具（右側）
+marking-GauzeLowerArmRight-gauze_lowerarm_r = 紗布腕帶（右側）
+marking-GauzeLowerArmRight = 紗布腕帶（右側）
+marking-GauzeLeftArm-gauze_leftarm = 紗布手臂護具（左側）
+marking-GauzeLeftArm = 紗布手臂護具（左側）
+marking-GauzeLowerLegLeft-gauze_lowerleg_l = 紗布踝部繃帶（左腳用）
+marking-GauzeLowerLegLeft = 紗布踝部繃帶（左腳用）
+marking-GauzeBoxerWrapLeft-gauze_boxerwrap_l = 紗布拳套（左）
+marking-GauzeBoxerWrapLeft = 紗布拳套（左）
+marking-GauzeBoxerWrapRight-gauze_boxerwrap_r = 紗布拳套（右）
+marking-GauzeBoxerWrapRight = 紗布拳套（右）
+marking-GauzeUpperLegLeft-gauze_upperleg_l = 紗布大腿繃帶（左側）
+marking-GauzeUpperLegLeft = 紗布大腿繃帶（左側）
+marking-GauzeLowerLegRight-gauze_lowerleg_r = 紗布腳踝繃帶（右腳用）
+marking-GauzeLowerLegRight = 紗布腳踝繃帶（右腳用）
+marking-GauzeUpperLegRight-gauze_upperleg_r = 紗布大腿纏紮帶（右側）
+marking-GauzeUpperLegRight = 紗布大腿纏紮帶（右側）
+marking-GauzeBlindfold-gauze_blindfold = 紗布眼罩
+marking-GauzeBlindfold = 紗布眼罩
+marking-GauzeHead-gauze_head = 紗布頭巾
+marking-GauzeHead = 紗布頭巾
+marking-GauzeLizardBlindfold-gauze_lizard_blindfold = 紗布眼罩
+marking-GauzeLizardBlindfold = 紗布眼罩
+marking-GauzeLizardFootRight-gauze_lizard_foot_r = 紗布腳部纏紮帶（右腳用）
+marking-GauzeLizardFootRight = 紗布腳部纏紮帶（右腳用）
+marking-GauzeLizardFootLeft-gauze_lizard_foot_l = 紗布腳部纏紮帶（左腳）
+marking-GauzeLizardFootLeft = 紗布腳部纏紮帶（左腳）
+marking-GauzeLizardLefteyePatch-gauze_lizard_lefteye = 爬蟲類紗布眼罩（左）
+marking-GauzeLizardLefteyePatch = 爬蟲類紗布眼罩（左）
+marking-GauzeLizardRighteyePatch-gauze_lizard_righteye = 爬蟲類紗布眼罩（右眼）
+marking-GauzeLizardRighteyePatch = 爬蟲類紗布眼罩（右眼）
+marking-GauzeMothStomach-gauze_moth_abdomen = 昆蟲型胃部護套
+marking-GauzeMothStomach = 昆蟲型胃部護套
+marking-GauzeMothShoulder-gauze_moth_shoulder = 昆蟲型肩帶
+marking-GauzeMothShoulder = 昆蟲型肩帶
+marking-GauzeMothBlindfold-gauze_moth_blindfold = 昆蟲型眼罩
+marking-GauzeMothBlindfold = 昆蟲型眼罩
+marking-GauzeMothLeftEyePatch-gauze_moth_lefteye_2 = 昆蟲型紗布眼罩（左眼）
+marking-GauzeMothLeftEyePatch = 昆蟲型紗布眼罩（左眼）
+marking-GauzeMothLeftEyePad-gauze_moth_lefteye_1 = 昆蟲型紗布眼罩（左）
+marking-GauzeMothLeftEyePad = 昆蟲型紗布眼罩（左）
+marking-GauzeMothRightEyePatch-gauze_moth_righteye_2 = 昆蟲型紗布眼罩（右眼）
+marking-GauzeMothRightEyePatch = 昆蟲型紗布眼罩（右眼）
+marking-GauzeMothRightEyePad-gauze_moth_righteye_1 = 昆蟲型紗布眼罩（右）
+marking-GauzeMothRightEyePad = 昆蟲型紗布眼罩（右）
+marking-GauzeMothUpperArmRight-gauze_moth_upperarm_r = 昆蟲型紗布前臂繃帶（右）
+marking-GauzeMothUpperArmRight = 昆蟲型紗布前臂繃帶（右）
+marking-GauzeMothUpperArmLeft-gauze_moth_upperarm_l = 昆蟲型紗布前臂繃帶（左）
+marking-GauzeMothUpperArmLeft = 昆蟲型紗布前臂繃帶（左）
+marking-GauzeMothUpperLegRight-gauze_moth_upperleg_r = 昆蟲型紗布大腿繃帶（右側）
+marking-GauzeMothUpperLegRight = 昆蟲型紗布大腿繃帶（右側）
+marking-GauzeMothUpperLegLeft-gauze_moth_upperleg_l = 昆蟲型紗布大腿繃帶（左側）
+marking-GauzeMothUpperLegLeft = 昆蟲型紗布大腿繃帶（左側）
+marking-GauzeMothLowerLegRight-gauze_moth_lowerleg_r = 昆蟲型紗布小腿護具（右側）
+marking-GauzeMothLowerLegRight = 昆蟲型紗布小腿護具（右側）
+marking-GauzeMothLowerLegLeft-gauze_moth_lowerleg_l = 昆蟲型紗布小腿護具（左）
+marking-GauzeMothLowerLegLeft = 昆蟲型紗布小腿護具（左）
+marking-GauzeVulpStomach-gauze_vulp_abdomen = Vulpkanin 紗布胃部護帶
+marking-GauzeVulpStomach = Vulpkanin 紗布腹部護帶
+marking-GauzeVulpBlindfold-gauze_vulp_blindfold = Vulpkanin 眼罩
+marking-GauzeVulpBlindfold = Vulpkanin 眼罩
+marking-GauzeVulpBoxerwrapLeft-gauze_vulp_boxerwrap_l = Vulpkanin 紗布護手帶（左）
+marking-GauzeVulpBoxerwrapLeft = Vulpkanin 紗布護手帶（左）
+marking-GauzeVulpBoxerwrapRight-gauze_vulp_boxerwrap_r = Vulpkanin 紗布護手帶（右側）
+marking-GauzeVulpBoxerwrapRight = Vulpkanin 紗布護手帶（右）
+marking-GauzeVulpHead-gauze_vulp_head = Vulpkanin 紗布頭巾
+marking-GauzeVulpHead = Vulpkanin 紗布頭巾
+marking-GauzeVulpLeftArm-gauze_vulp_leftarm = Vulpkanin 紗布手臂護具（左臂）
+marking-GauzeVulpLeftArm = Vulpkanin 紗布手臂護具（左側）
+marking-GauzeVulpLefteyePatch-gauze_vulp_lefteye_2 = Vulpkanin 紗布眼罩（左眼用）
+marking-GauzeVulpLefteyePatch = Vulpkanin 紗布眼罩（左眼用）
+marking-GauzeVulpLowerArmRight-gauze_vulp_lowerarm_r = Vulpkanin 紗布腕帶（右）
+marking-GauzeVulpLowerArmRight = Vulpkanin 紗布手腕護具（右側）
+marking-GauzeVulpLowerLegLeft-gauze_vulp_lowerleg_l = Vulpkanin 紗布踝部護具（左腳）
+marking-GauzeVulpLowerLegLeft = Vulpkanin 紗布踝部繃帶（左腳）
+marking-GauzeVulpLowerLegRight-gauze_vulp_lowerleg_r = Vulpkanin 紗布腳踝護具（右腳）
+marking-GauzeVulpLowerLegRight = Vulpkanin 紗布踝部繃帶（右腳）
+marking-GauzeVulpRighteyePatch-gauze_vulp_righteye_2 = Vulpkanin 紗布眼罩（右眼）
+marking-GauzeVulpRighteyePatch = Vulpkanin 紗布眼罩（右眼用）
+marking-GauzeVulpShoulder-gauze_vulp_shoulder = Vulpkanin 紗布肩帶
+marking-GauzeVulpShoulder = Vulpkanin 紗布式肩帶
+marking-GauzeVulpUpperArmRight-gauze_vulp_upperarm_r = Vulpkanin 紗布前臂護具（右側）
+marking-GauzeVulpUpperArmRight = Vulpkanin 紗布前臂護具（右側）
+marking-GauzeVulpUpperLegLeft-gauze_vulp_upperleg_l = Vulpkanin 紗布大腿繃帶（左側）
+marking-GauzeVulpUpperLegLeft = Vulpkanin 紗布大腿繃帶（左側）
+marking-GauzeVulpUpperLegRight-gauze_vulp_upperleg_r = Vulpkanin 紗布大腿護具（右側）
+marking-GauzeVulpUpperLegRight = Vulpkanin 紗布大腿纏紮帶（右側）

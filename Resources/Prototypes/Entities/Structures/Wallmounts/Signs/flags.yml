@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseFlag
   id: BlankFlag
-  name: blank flag
-  description: Some piece of white cloth. Definitely not the flag of France.
+  name: 空白旗幟 | blank flag
+  description: 一塊白色的布。絕對不是法國國旗。 | Some piece of white cloth. Definitely not the flag of France.
   components:
   - type: Sprite
     state: blank_flag
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseFlag
   id: NTFlag
-  name: Nanotrasen flag
-  description: Glory to NT! Wait, they really made a flag for a corporation?
+  name: Nanotrasen 旗幟 | Nanotrasen flag
+  description: NT 萬歲！等等，他們居然真的為一家企業設計了旗幟？ | Glory to NT! Wait, they really made a flag for a corporation?
   components:
   - type: Sprite
     state: NT_flag
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseFlag
   id: SyndieFlag
-  name: syndicate flag
-  description: Smells bloody. Death to NT!
+  name: 集團旗幟 | syndicate flag
+  description: 聞起來血腥味濃。NT 去死吧！ | Smells bloody. Death to NT!
   components:
   - type: Sprite
     state: syndie_flag
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseFlag
   id: LGBTQFlag
-  name: LGBTQ flag
-  description: "\"Be gay do crime\" flag."
+  name: LGBTQ 旗幟 | LGBTQ flag
+  description: "「做個同志，犯點罪」旗幟。 | \"Be gay do crime\" flag."
   components:
   - type: Sprite
     state: lgbtq_flag
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseFlag
   id: PirateFlag
-  name: pirate flag
-  description: Raise the jolly roger, scallywags!
+  name: 海盜旗 | pirate flag
+  description: 豔紅旗升起來吧，一幫小混蛋！ | Raise the jolly roger, scallywags!
   components:
   - type: Sprite
     state: pirate_flag

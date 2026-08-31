@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseBoardEntity
   id: ChessBoard
-  name: chessboard
-  description: A chessboard. Pieces included!
+  name: 棋盤 | chessboard
+  description: 一個棋盤。附棋子！ | A chessboard. Pieces included!
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chessboard.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *ChessBoard
-  name: chessboard
+  name: 棋盤 | chessboard
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: WhiteKing
-  name: white king
+  name: 白方國王 | white king
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -37,7 +37,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: WhiteQueen
-  name: white queen
+  name: 白后 | white queen
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -46,7 +46,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: WhiteRook
-  name: white rook
+  name: 白車 | white rook
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -55,7 +55,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: WhiteBishop
-  name: white bishop
+  name: 白象 | white bishop
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -64,7 +64,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: WhiteKnight
-  name: white knight
+  name: 白騎士 | white knight
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: WhitePawn
-  name: white pawn
+  name: 白方兵 | white pawn
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -83,7 +83,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: BlackKing
-  name: black king
+  name: 黑方國王 | black king
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: BlackQueen
-  name: black queen
+  name: 黑后 | black queen
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: BlackRook
-  name: black rook
+  name: 黑車 | black rook
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: BlackBishop
-  name: black bishop
+  name: 黑象 | black bishop
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: BlackKnight
-  name: black knight
+  name: 黑騎士 | black knight
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi
@@ -128,7 +128,7 @@
 - type: entity
   parent: BaseTabletopPiece
   id: BlackPawn
-  name: black pawn
+  name: 黑兵 | black pawn
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chess_pieces.rsi

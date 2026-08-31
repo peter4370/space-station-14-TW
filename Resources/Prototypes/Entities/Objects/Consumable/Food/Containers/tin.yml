@@ -6,8 +6,8 @@
   abstract: true
   parent: [FoodBaseTrash, FoodOpenableBase]
   id: FoodTinBase
-  name: tin
-  description: A tin of something, sealed tight.
+  name: 錫 | tin
+  description: 一罐什麼東西，密封得嚴嚴實實。 | A tin of something, sealed tight.
   components:
   - type: Solution
     solution:
@@ -59,8 +59,8 @@
   abstract: true
   parent: BaseItem
   id: FoodTinBaseTrash
-  name: empty tin
-  description: An empty tin. Could get a bit of metal from this.
+  name: 空罐頭 | empty tin
+  description: 一個空鐵罐。從這兒或許能撿到一點金屬。 | An empty tin. Could get a bit of metal from this.
   components:
   - type: Sprite
     state: trash
@@ -82,8 +82,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinPeaches
-  name: tinned peaches
-  description: Just a nice can of ripe peaches swimming in their own juices.
+  name: 罐裝水蜜桃 | tinned peaches
+  description: 只是一罐美味的熟水蜜桃，浸泡在自己的果汁裡。 | Just a nice can of ripe peaches swimming in their own juices.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -103,7 +103,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinPeachesTrash
-  name: tinned peaches
+  name: 罐裝水蜜桃 | tinned peaches
   components:
   - type: Item
     storedOffset: 0,-3
@@ -114,7 +114,7 @@
 - type: entity
   parent: FoodTinPeaches
   id: FoodTinPeachesMaint
-  name: maintenance peaches
+  name: 養護水蜜桃 | maintenance peaches
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/maint_peaches.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinPeachesMaintTrash
-  name: maintenance peaches
+  name: 養護水蜜桃 | maintenance peaches
   components:
   - type: Item
     storedOffset: 0,-3
@@ -148,8 +148,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinBeans
-  name: tin of beans
-  description: Musical fruit in a slightly less musical container.
+  name: 一罐豆子 | tin of beans
+  description: 一顆充滿樂趣的水果，裝在一個稍顯平淡的容器裡。 | Musical fruit in a slightly less musical container.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -167,7 +167,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinBeansTrash
-  name: tin of beans
+  name: 一罐豆子 | tin of beans
   components:
   - type: Item
     storedOffset: 0,-3
@@ -179,8 +179,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinMRE
-  name: tinned meat
-  description: A standard issue tin of meat with a convenient pull tab.
+  name: 罐頭肉 | tinned meat
+  description: 一罐配有方便拉環的標準軍用肉罐頭。 | A standard issue tin of meat with a convenient pull tab.
   components:
   - type: Item
     size: Tiny
@@ -206,7 +206,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinMRETrash
-  name: tinned meat
+  name: 罐頭肉 | tinned meat
   components:
   - type: Item
     size: Tiny

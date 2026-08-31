@@ -1,38 +1,26 @@
-lobby-state-background-warden-title = Warden
-lobby-state-background-warden-artist = Solbusaur
-
-lobby-state-background-invisiblewall-title = Invisible Wall
-lobby-state-background-invisiblewall-artist = Vandersloot
-
-lobby-state-background-pharmacy-title = Pharmacy
-lobby-state-background-pharmacy-artist = Solbusaur
-
+lobby-state-background-warden-title = 典獄長
+lobby-state-background-warden-artist = 索爾布薩龍
+lobby-state-background-invisiblewall-title = 無形之牆
+lobby-state-background-invisiblewall-artist = 范德斯洛特
+lobby-state-background-pharmacy-title = 藥學
+lobby-state-background-pharmacy-artist = 索爾布薩龍
 lobby-state-background-SSXIV-title = SSXIV
-lobby-state-background-SSXIV-artist = Abyssal
-
-lobby-state-background-susstation-title = Susstation
+lobby-state-background-SSXIV-artist = 深淵
+lobby-state-background-susstation-title = 變電站
 lobby-state-background-susstation-artist = Alekshhh
-
-lobby-state-background-skellyvstherev-title = Skelly Versus The Rev
-lobby-state-background-skellyvstherev-artist = Hannah 'FairlySadPanda' Dawson
-
-lobby-state-background-doomed-title = Doomed
+lobby-state-background-skellyvstherev-title = 斯凱利對決牧師
+lobby-state-background-skellyvstherev-artist = 漢娜·「FairlySadPanda」·道森
+lobby-state-background-doomed-title = 注定失敗
 lobby-state-background-doomed-artist = brainfood1183
-
-lobby-state-background-blueprint-title = Blueprint
+lobby-state-background-blueprint-title = 藍圖
 lobby-state-background-blueprint-artist = data_redacted
-
 lobby-state-background-behonker-title = Behonker
 lobby-state-background-behonker-artist = InCrah
-
-lobby-state-background-terminalstation-title = Terminal Station
+lobby-state-background-terminalstation-title = 終點站
 lobby-state-background-terminalstation-artist = aserovich
-
-lobby-state-background-justaweekaway-title = Just a Week Away
+lobby-state-background-justaweekaway-title = 只剩一週了
 lobby-state-background-justaweekaway-artist = plantyfern
-
-lobby-state-background-janishootout-title = Jani Shootout
+lobby-state-background-janishootout-title = 賈尼的對決
 lobby-state-background-janishootout-artist = psychpsyo
-
-lobby-state-background-reclaimernuke-title = Reclaimer Nuke
+lobby-state-background-reclaimernuke-title = 回收者核彈
 lobby-state-background-reclaimernuke-artist = GetOutMarutak

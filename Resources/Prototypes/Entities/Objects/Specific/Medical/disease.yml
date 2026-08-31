@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DiseaseSwab
-  name: sterile swab
-  description: Used for taking and transferring samples. Sterile until open. Single use only.
+  name: 無菌棉籤 | sterile swab
+  description: 用於採集及轉移樣本。開封前保持無菌。僅限一次性使用。 | Used for taking and transferring samples. Sterile until open. Single use only.
   components:
   - type: Item
     size: Tiny
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseAmmoProvider # this is for cycling swabs out and not spawning 30 entities, trust
   id: BoxMouthSwab
-  name: sterile swab dispenser
-  description: Dispenses 30 sterile swabs, extremely useful for botany.
+  name: 無菌棉籤分配器 | sterile swab dispenser
+  description: 可取出 30 支無菌棉籤，對植物學研究極為實用。 | Dispenses 30 sterile swabs, extremely useful for botany.
   components:
   - type: Sprite
     layers:
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseItem
   id: Vaccine
-  name: vaccine
-  description: Prevents people who DON'T already have a disease from catching it.
+  name: 疫苗 | vaccine
+  description: 防止尚未罹患該疾病的人感染該疾病。 | Prevents people who DON'T already have a disease from catching it.
   components:
   - type: Item
     size: Tiny

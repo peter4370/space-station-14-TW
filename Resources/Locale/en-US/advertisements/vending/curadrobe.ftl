@@ -1,3 +1,3 @@
-advertisement-curadrobe-1 = Glasses for your eyes and literature for your soul, CuraDrobe has it all!
-advertisement-curadrobe-2 = Impress & enthrall your library guests with CuraDrobe's extended line of pens!
-advertisement-curadrobe-3 = Become the official owner of the library with this great selection of outfits!
+advertisement-curadrobe-1 = 眼鏡滋養雙眼，文學滋養心靈，CuraDrobe 應有盡有！
+advertisement-curadrobe-2 = 透過 CuraDrobe 豐富多樣的筆款系列，讓您的圖書館訪客驚艷不已、流連忘返！
+advertisement-curadrobe-3 = 穿上這套精心挑選的服裝，成為圖書館的正式主人吧！

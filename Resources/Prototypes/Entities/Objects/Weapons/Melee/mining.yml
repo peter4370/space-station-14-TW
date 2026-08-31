@@ -1,8 +1,8 @@
 - type: entity
-  name: pickaxe
+  name: 鎬 | pickaxe
   parent: BaseItem
   id: Pickaxe
-  description: Notched to perfection, for jamming it into rocks.
+  description: 切口精準無瑕，專為卡入岩石而設計。 | Notched to perfection, for jamming it into rocks.
   components:
   - type: Tag
     tags:
@@ -40,10 +40,10 @@
       Wood: 100
 
 - type: entity
-  name: mining drill
+  name: 採礦鑽機 | mining drill
   parent: BaseItem
   id: MiningDrill
-  description: Powerful tool used to quickly drill through rocks.
+  description: 一種用於快速鑽穿岩石的強力工具。 | Powerful tool used to quickly drill through rocks.
   components:
   - type: Item
     storedRotation: -90
@@ -66,10 +66,10 @@
         Structural: 6
 
 - type: entity
-  name: diamond tipped mining drill
+  name: 金剛石鑽頭 | diamond tipped mining drill
   parent: MiningDrill
   id: MiningDrillDiamond
-  description: A significantly more efficient mining drill tipped with diamond.
+  description: 一款效率顯著提升、鑲有鑽石的採礦鑽頭。 | A significantly more efficient mining drill tipped with diamond.
   components:
   - type: Sprite
     sprite: Objects/Tools/handdrilldiamond.rsi
@@ -84,8 +84,8 @@
   abstract: true
   parent: BaseItem
   id: BaseWeaponCrusher # Crusher? But I...
-  name: crusher
-  description: An early design of the proto-kinetic accelerator.
+  name: 破碎機 | crusher
+  description: 原型動能加速器的早期設計。 | An early design of the proto-kinetic accelerator.
   components:
   - type: Tool
     qualities:
@@ -167,8 +167,8 @@
 - type: entity
   parent: [ BaseKnife, BaseWeaponCrusher, BaseSecurityCargoContraband]
   id: WeaponCrusherDagger
-  name: crusher dagger
-  description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
+  name: 粉碎匕首 | crusher dagger
+  description: 一種原型動能粉碎機的縮小版。利用動能使刀片高速振動。 | A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_dagger.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: [ WeaponCrusher, BaseSecurityCargoContraband]
   id: WeaponCrusherGlaive
-  name: crusher glaive
-  description: An early design of the proto-kinetic accelerator, in glaive form. Provides better healing in exchange for less charged damage.
+  name: 粉碎長鎚 | crusher glaive
+  description: 原型動能加速器的早期設計，呈長矛形狀。能提供更佳的治療效果，但代價是帶電傷害較低。 | An early design of the proto-kinetic accelerator, in glaive form. Provides better healing in exchange for less charged damage.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_glaive.rsi

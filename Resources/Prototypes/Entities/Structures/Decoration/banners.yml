@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructureDynamic, StructureHealthFurnitureStrong ]
   id: BannerBase
-  name: base banner
-  description: It's the concept of a banner, you shouldn't be seeing this.
+  name: 底部橫幅 | base banner
+  description: 這是橫幅的概念，你原本不應該看到這個。 | It's the concept of a banner, you shouldn't be seeing this.
   abstract: true
   components:
   - type: Sprite
@@ -41,8 +41,8 @@
 - type: entity
   id: BannerNanotrasen
   parent: BannerBase
-  name: nanotrasen banner
-  description: A banner displaying the Nanotrasen logo. It looks rather cheap.
+  name: nanotrasen 橫幅 | nanotrasen banner
+  description: 一幅印有 Nanotrasen 標誌的橫幅。看起來頗為廉價。 | A banner displaying the Nanotrasen logo. It looks rather cheap.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -51,8 +51,8 @@
 - type: entity
   id: BannerCargo
   parent: BannerBase
-  name: cargo banner
-  description: A banner displaying the colors of the cargo department. Not. Cargonia.
+  name: 貨物橫幅 | cargo banner
+  description: 一幅展示貨運部門色彩的橫幅。不是。卡戈尼亞。 | A banner displaying the colors of the cargo department. Not. Cargonia.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -61,8 +61,8 @@
 - type: entity
   id: BannerEngineering
   parent: BannerBase
-  name: engineering banner
-  description: A banner displaying the colors of the engineering department. Scrungularty.
+  name: 工程橫幅 | engineering banner
+  description: 一面展示工程系代表色的橫幅。Scrungularty。 | A banner displaying the colors of the engineering department. Scrungularty.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -71,8 +71,8 @@
 - type: entity
   id: BannerMedical
   parent: BannerBase
-  name: medical banner
-  description: A banner displaying the colors of the medical department. How sterile.
+  name: 醫療橫幅 | medical banner
+  description: 一幅展示醫學院代表色的橫幅。多麼無菌啊。 | A banner displaying the colors of the medical department. How sterile.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -81,8 +81,8 @@
 - type: entity
   id: BannerRevolution
   parent: BannerBase
-  name: revolution banner
-  description: A banner displaying revolution. Viva!
+  name: 革命橫幅 | revolution banner
+  description: 一幅展現革命精神的橫幅。萬歲！ | A banner displaying revolution. Viva!
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -91,8 +91,8 @@
 - type: entity
   id: BannerSyndicate
   parent: BannerBase
-  name: syndicate banner
-  description: A banner from which, according to the syndicate, you should feel hatred for NT.
+  name: 集團橫幅 | syndicate banner
+  description: 根據該聯盟的說法，這是一幅應該讓你對 NT 產生憎恨的橫幅。 | A banner from which, according to the syndicate, you should feel hatred for NT.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -101,8 +101,8 @@
 - type: entity
   id: BannerScience
   parent: BannerBase
-  name: science banner
-  description: A banner displaying the colors of the science department. Where science has no bounds, and regulations are rarely followed.
+  name: 科學橫幅 | science banner
+  description: 一面展示科學系代表色的橫幅。這裡，科學無邊界，規章制度也鮮少被遵守。 | A banner displaying the colors of the science department. Where science has no bounds, and regulations are rarely followed.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -111,8 +111,8 @@
 - type: entity
   id: BannerSecurity
   parent: BannerBase
-  name: security banner
-  description: A banner displaying the colors of the security department. You're surprised it's not vandalised.
+  name: 安全橫幅 | security banner
+  description: 一面印有安全部門代表色的橫幅。你很驚訝它竟然沒有被破壞。 | A banner displaying the colors of the security department. You're surprised it's not vandalised.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -121,8 +121,8 @@
 - type: entity
   id: BannerBlue
   parent: BannerBase
-  name: blue banner
-  description: A banner displaying the color blue. Dabudidabudai.
+  name: 藍色橫幅 | blue banner
+  description: 一幅呈現藍色的橫幅。達布迪達布代。 | A banner displaying the color blue. Dabudidabudai.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -131,8 +131,8 @@
 - type: entity
   id: BannerRed
   parent: BannerBase
-  name: red banner
-  description: A banner displaying the color red. The edgy one.
+  name: 紅色橫幅 | red banner
+  description: 一幅呈現紅色的橫幅。那款風格前衛的。 | A banner displaying the color red. The edgy one.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -141,8 +141,8 @@
 - type: entity
   id: BannerYellow
   parent: BannerBase
-  name: yellow banner
-  description: A banner displaying the color yellow. Reminds you of ducks and lemon stands.
+  name: 黃色橫幅 | yellow banner
+  description: 一幅展示黃色的橫幅。讓人聯想到鴨子和檸檬攤。 | A banner displaying the color yellow. Reminds you of ducks and lemon stands.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -151,8 +151,8 @@
 - type: entity
   id: BannerGreen
   parent: BannerBase
-  name: green banner
-  description: A banner displaying the color green. Grass, leaves, guacamole.
+  name: 綠色橫幅 | green banner
+  description: 一幅展示綠色調的橫幅。草地、樹葉、酪梨醬。 | A banner displaying the color green. Grass, leaves, guacamole.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

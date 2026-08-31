@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseCartridge, BaseSecurityContraband ]
   id: BaseCartridgeMagnum
-  name: cartridge (.45 magnum)
+  name: 子彈（.45馬格南） | cartridge (.45 magnum)
   components:
   - type: Tag
     tags:
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnum
-  name: cartridge (.45 magnum)
-  description: Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
+  name: 子彈（.45馬格南） | cartridge (.45 magnum)
+  description: 大口徑馬格南子彈，主要用於轉輪手槍。標準動能彈藥在大多數情況下都很常見且實用。 | Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnum
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumPractice
-  name: cartridge (.45 magnum practice)
-  description: Heavy magnum cartridge mostly used by revolvers. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+  name: 子彈（.45馬格南練習彈） | cartridge (.45 magnum practice)
+  description: 一種主要用於左輪手槍的重型馬格南子彈。練習彈使用的是石膏彈頭，射中時會有些刺痛感，但除此之外不會造成任何持久性傷害。 | Heavy magnum cartridge mostly used by revolvers. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumPractice
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumIncendiary
-  name: cartridge (.45 magnum incendiary)
-  description: Heavy magnum cartridge mostly used by revolvers. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+  name: 子彈（.45馬格南燃燒彈） | cartridge (.45 magnum incendiary)
+  description: 一種主要用於左輪手槍的重型馬格南子彈。燃燒彈內含自燃化合物，能使目標起火燃燒。 | Heavy magnum cartridge mostly used by revolvers. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumIncendiary
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumAP
-  name: cartridge (.45 magnum armor-piercing)
-  description: Heavy magnum cartridge mostly used by revolvers. Armor-piercing ammunition is renowned for its ability to cut straight through body armor.
+  name: 子彈（.45馬格南穿甲彈） | cartridge (.45 magnum armor-piercing)
+  description: 這種重型馬格南子彈主要用於轉輪手槍。穿甲彈以其能直接貫穿防彈衣的能力而聞名。 | Heavy magnum cartridge mostly used by revolvers. Armor-piercing ammunition is renowned for its ability to cut straight through body armor.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumAP
@@ -77,8 +77,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumUranium
-  name: cartridge (.45 magnum uranium)
-  description: Heavy magnum cartridge mostly used by revolvers. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
+  name: 子彈（.45馬格南鈾彈） | cartridge (.45 magnum uranium)
+  description: 一種主要用於左輪手槍的重型馬格南子彈。鈾彈藥將子彈的鉛芯替換為裂變材料，使目標從內部受到輻射照射。 | Heavy magnum cartridge mostly used by revolvers. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumUranium

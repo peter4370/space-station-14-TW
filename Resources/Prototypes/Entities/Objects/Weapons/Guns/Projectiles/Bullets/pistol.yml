@@ -2,7 +2,7 @@
   parent: BaseBullet
   id: BulletPistol
   categories: [ HideSpawnMenu ]
-  name: bullet (.35 auto)
+  name: 子彈（.35 Auto） | bullet (.35 auto)
   components:
   - type: Projectile
     damage:
@@ -13,7 +13,7 @@
   parent: BaseBulletPractice
   id: BulletPistolPractice
   categories: [ HideSpawnMenu ]
-  name: bullet (.35 auto practice)
+  name: 子彈（.35自動式練習彈） | bullet (.35 auto practice)
   components:
   - type: Projectile
     damage:
@@ -24,7 +24,7 @@
   parent: BaseBulletIncendiary
   id: BulletPistolIncendiary
   categories: [ HideSpawnMenu ]
-  name: bullet (.35 auto incendiary)
+  name: 子彈（.35 自動燃燒彈） | bullet (.35 auto incendiary)
   components:
   - type: Projectile
     damage:
@@ -36,7 +36,7 @@
   parent: BaseBulletUranium
   id: BulletPistolUranium
   categories: [ HideSpawnMenu ]
-  name: bullet (.35 auto uranium)
+  name: 子彈（.35自動鈾彈） | bullet (.35 auto uranium)
   components:
   - type: Projectile
     damage:

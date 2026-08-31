@@ -1,7 +1,7 @@
 - type: entity
   id: BasaltOne
-  name: basalt
-  description: Rock.
+  name: 玄武岩 | basalt
+  description: 搖滾。 | Rock.
   placement:
     mode: SnapgridCenter
   components:

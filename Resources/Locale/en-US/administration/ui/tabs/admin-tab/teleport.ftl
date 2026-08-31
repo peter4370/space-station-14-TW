@@ -1,1 +1,1 @@
-admin-ui-teleport = Teleport
+admin-ui-teleport = 瞬間移動

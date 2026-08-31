@@ -1,5 +1,5 @@
 # Msg
-command-description-msg-subtle = Sends a combination of a popup and a message to the input entities. Behaves same as the Subtle Message admin verb. Outputs entities that successfuly received a message.
-command-description-msg-chat = Sends a chat message to the sessions of the input entities. Outputs entities that successfuly received a message.
-command-description-msg-popup = Displays a popup above the input entiites. Can specify to only be visible to the target.
-command-description-msg-tippy = Sends a Tippy to the sessions of the input entities. All parameters must be specified. Outputs entities that successfuly received a tippy.
+command-description-msg-subtle = 向輸入實體發送彈出視窗與訊息的組合。其運作方式與「Subtle Message」管理動詞相同。輸出成功接收訊息的實體。
+command-description-msg-chat = 向輸入實體的會話發送一則聊天訊息。輸出成功接收訊息的實體。
+command-description-msg-popup = 在輸入實體上方顯示一個彈出視窗。可設定僅讓目標對象可見。
+command-description-msg-tippy = 將 Tippy 傳送至輸入實體的執行階段。所有參數均須指定。輸出成功接收 Tippy 的實體。

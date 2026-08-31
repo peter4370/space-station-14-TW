@@ -1,359 +1,240 @@
-reagent-name-absinthe = absinthe
-reagent-desc-absinthe = A anise-flavoured spirit derived from botanicals.
-
+reagent-name-absinthe = 苦艾酒 absinthe
+reagent-desc-absinthe = 一種以植物為原料釀製、帶有茴香風味的烈酒。
 reagent-name-ale = ale
-reagent-desc-ale = A dark alchoholic beverage made by malted barley and yeast.
-
-reagent-name-beer = beer
-reagent-desc-beer = An alcoholic beverage made from malted grains, hops, yeast, and water.
-
-reagent-name-blue-curacao = blue Curaçao
-reagent-desc-blue-curacao = Exotically blue, fruity drink, distilled from oranges.
-
-reagent-name-cognac = cognac
-reagent-desc-cognac = A sweet and strongly alcoholic drink, twice distilled and left to mature for several years. Classy as fornication.
-
-reagent-name-dead-rum = deadrum
-reagent-desc-dead-rum = Distilled alcoholic drink made from saltwater.
-
-reagent-name-ethanol = ethanol
-reagent-desc-ethanol = A simple alcohol, makes you drunk if consumed, flammable.
-
-reagent-name-gin = gin
-reagent-desc-gin = A distilled alcoholic drink that derives its predominant flavour from juniper berries.
-
-reagent-name-coffeeliqueur = coffee liqueur
-reagent-desc-coffeeliqueur = Liquor flavoured with cold brewed coffee and spices.
-
-reagent-name-melon-liquor = melon liquor
-reagent-desc-melon-liquor = A relatively sweet and fruity 46 proof liquor.
-
-reagent-name-n-t-cahors = NeoTheology Cahors wine
-reagent-desc-n-t-cahors = Fortified dessert wine made from cabernet sauvignon, saperavi and other grapes.
-
-reagent-name-poison-wine = poison wine
-reagent-desc-poison-wine = Is this even wine? Toxic! Hallucinogenic! Probably consumed in boatloads by your superiors!
-
-reagent-name-rum = rum
-reagent-desc-rum = Distilled alcoholic drink made from sugarcane byproducts.
-
-reagent-name-sake = sake
-reagent-desc-sake = Alcoholic beverage made by fermenting rice that has been polished.
-
-reagent-name-tequila = tequila
-reagent-desc-tequila = A strong and mildly flavoured, mexican produced spirit.
-
-reagent-name-vermouth = vermouth
-reagent-desc-vermouth = Aromatized, fortified white wine flavored with various botanicals.
-
-reagent-name-vodka = vodka
-reagent-desc-vodka = Clear distilled alcoholic beverage that originates from Poland and Russia.
-
-reagent-name-whiskey = whiskey
-reagent-desc-whiskey = A type of distilled alcoholic beverage made from fermented grain mash.
-
-reagent-name-wine = wine
-reagent-desc-wine = A premium alcoholic beverage made from distilled grape juice.
-
-reagent-name-champagne = champagne
-reagent-desc-champagne = A premium sparkling wine
-
+reagent-desc-ale = 一種由麥芽和大麥釀造而成的深色酒精飲料。
+reagent-name-beer = 啤酒
+reagent-desc-beer = 一種由麥芽、啤酒花、酵母和水製成的酒精飲料。
+reagent-name-blue-curacao = 藍色庫拉索酒 blue Curaçao
+reagent-desc-blue-curacao = 一款色澤蔚藍、果香四溢的飲品，以橙子蒸餾而成。
+reagent-name-cognac = 干邑 cognac
+reagent-desc-cognac = 一種甜美且酒精度極高的飲品，經過兩次蒸餾，並陳釀數年。其高雅程度簡直堪比通姦。
+reagent-name-dead-rum = 死鼓 deadrum
+reagent-desc-dead-rum = 一種以鹽水為原料製成的蒸餾酒精飲料。
+reagent-name-ethanol = 乙醇 ethanol
+reagent-desc-ethanol = 一種簡單的酒精，飲用後會使人醉酒，且易燃。
+reagent-name-gin = 金酒 gin
+reagent-desc-gin = 一種蒸餾酒精飲料，其主要風味源自杜松子。
+reagent-name-coffeeliqueur = 咖啡利口酒 coffee liqueur
+reagent-desc-coffeeliqueur = 一款以冷萃咖啡和香料調製的烈酒。
+reagent-name-melon-liquor = 哈密瓜酒 melon liquor
+reagent-desc-melon-liquor = 一款甜度較高且果香濃郁、酒精度為 46 proof 的烈酒。
+reagent-name-n-t-cahors = 新神學 卡奧爾葡萄酒 NeoTheology Cahors wine
+reagent-desc-n-t-cahors = 一款以卡本內蘇維翁、薩佩拉維及其他葡萄釀造的強化甜酒。
+reagent-name-poison-wine = 毒酒 poison wine
+reagent-desc-poison-wine = 這還算得上是葡萄酒嗎？有毒！會致幻！你的上級們八成是整船整船地喝下去的吧！
+reagent-name-rum = 朗姆酒 rum
+reagent-desc-rum = 一種以甘蔗副產品為原料釀造的蒸餾酒。
+reagent-name-sake = 清酒 sake
+reagent-desc-sake = 一種以精米發酵製成的酒精飲料。
+reagent-name-tequila = 龍舌蘭酒 tequila
+reagent-desc-tequila = 一款酒體醇厚、風味溫和的墨西哥產烈酒。
+reagent-name-vermouth = 苦艾酒 vermouth
+reagent-desc-vermouth = 一款以各種植物原料調製風味的芳香型、加烈白葡萄酒。
+reagent-name-vodka = 伏特加
+reagent-desc-vodka = 一種源自波蘭和俄羅斯的透明蒸餾酒精飲料。
+reagent-name-whiskey = 威士忌 whiskey
+reagent-desc-whiskey = 一種以發酵穀物醪為原料釀製的蒸餾酒精飲料。
+reagent-name-wine = 葡萄酒
+reagent-desc-wine = 一款以蒸餾葡萄汁製成的頂級酒精飲料。
+reagent-name-champagne = 香檳 champagne
+reagent-desc-champagne = 一款頂級氣泡酒
 reagent-name-acid-spit = acidspit
-reagent-desc-acid-spit = A drink for the daring, can be deadly if incorrectly prepared!
-
-reagent-name-alien-brain-hemorrhage = alien brain hemorrhage
-reagent-desc-alien-brain-hemorrhage = You might want to get that checked out at Med.
-
-reagent-name-allies-cocktail = allies cocktail
-reagent-desc-allies-cocktail = A drink made from your allies, not as sweet as when made from your enemies.
-
-reagent-name-aloe = aloe
-reagent-desc-aloe = So very, very, very good.
-
+reagent-desc-acid-spit = 這是一款專為膽大者準備的飲品，若調製不當，恐有致命之虞！
+reagent-name-alien-brain-hemorrhage = 外星人大腦出血 alien brain hemorrhage
+reagent-desc-alien-brain-hemorrhage = 你或許該去 Med 那裡檢查一下。
+reagent-name-allies-cocktail = 盟友雞尾酒 allies cocktail
+reagent-desc-allies-cocktail = 這是一種用你的盟友製成的飲品，不如用你的敵人製成的那樣甜。
+reagent-name-aloe = 蘆薈
+reagent-desc-aloe = 真的、真的、真的太棒了。
 reagent-name-amasec = amasec
-reagent-desc-amasec = Official drink of the Gun Club!
-
-reagent-name-andalusia = Andalusia
-reagent-desc-andalusia = A nice, strangely named drink.
-
-reagent-name-antifreeze = antifreeze
-reagent-desc-antifreeze = Ultimate refreshment.
-
-reagent-name-atomic-bomb = Atomic Bomb
-reagent-desc-atomic-bomb = Nuclear proliferation never tasted so good.
-
+reagent-desc-amasec = 槍會的官方指定飲品！
+reagent-name-andalusia = 安達盧西亞 Andalusia
+reagent-desc-andalusia = 一款不錯、名字很奇特的飲料。
+reagent-name-antifreeze = 防凍液 antifreeze
+reagent-desc-antifreeze = 極致的清爽感受。
+reagent-name-atomic-bomb = 原子彈 Atomic Bomb
+reagent-desc-atomic-bomb = 核武擴散從未如此令人垂涎。
 reagent-name-b52 = B-52
-reagent-desc-b52 = Coffee, irish cream, and cognac. You will get bombed.
-
-reagent-name-blue-hawaiian = Blue Hawaiian
-reagent-desc-blue-hawaiian = Aloha! Does that mean hello or goodbye?
-
-reagent-name-bahama-mama = Bahama Mama
-reagent-desc-bahama-mama = Tropical cocktail.
-
-reagent-name-banana-honk = Banana Honk
-reagent-desc-banana-honk = A drink from Clown Heaven.
-
-reagent-name-barefoot = barefoot
-reagent-desc-barefoot = A cassis milkshake, made from cream, fruit juice, and vermouth wine.
-
-reagent-name-beepsky-smash = Beepsky smash
-reagent-desc-beepsky-smash = Deny drinking this and prepare for THE LAW.
-
-reagent-name-black-russian = Black Russian
-reagent-desc-black-russian = For the lactose-intolerant. Still as classy as a White Russian.
-
-reagent-name-bloody-mary = Bloody Mary
-reagent-desc-bloody-mary = A strange yet pleasurable mixture made of vodka, tomato, and lime juice.
-
-reagent-name-booger = booger
-reagent-desc-booger = Ewww...
-
-reagent-name-brave-bull = Brave Bull
-reagent-desc-brave-bull = It's just as effective as Dutch-Courage!
-
-reagent-name-bronx = Bronx
-reagent-desc-bronx = The orange-flavoured cousin of the Manhattan and Martini.
-
-reagent-name-coconut-rum = coconut rum
-reagent-desc-coconut-rum = Rum with coconut for that tropical feel.
-
-reagent-name-cosmopolitan = cosmopolitan
-reagent-desc-cosmopolitan = Even in the worst situations, nothing beats a fresh cosmopolitan.
-
-reagent-name-crush-depth = crush depth
-reagent-desc-crush-depth = A stygian drink, harkening back to the abyssopelagic. Dark and Cold, it serves as a reminder that the most ancient emotion is fear, and the strongest type of fear is that of the unknown.
-
-reagent-name-cuba-libre = Cuba libre
-reagent-desc-cuba-libre = Rum, mixed with cola. Viva la revolucion.
-
-reagent-name-dark-and-stormy = dark & stormy
-reagent-desc-dark-and-stormy = You can almost hear the thunder.
-
-reagent-name-demons-blood = Demon's Blood
-reagent-desc-demons-blood = AHHHH!!!!
-
-reagent-name-devils-kiss = Devil's Kiss
-reagent-desc-devils-kiss = Creepy time!
-
-reagent-name-doctors-delight = The Doctor's Delight
-reagent-desc-doctors-delight = A gulp a day keeps the MediBot away. That's probably for the best.
-
-reagent-name-driest-martini = driest martini
-reagent-desc-driest-martini = Only for the experienced. You think you see sand floating in the glass.
-
-reagent-name-eggnog = eggnog
-reagent-desc-eggnog = Not enough egg.
-
-reagent-name-electric-shark = electric shark
-reagent-desc-electric-shark = Fun Shark fact: Selachians make up 20% of Space Station 16’s Engineering staff!
-
-reagent-name-erika-surprise = Erika surprise
-reagent-desc-erika-surprise = The surprise is, it's green!
-
-reagent-name-gargle-blaster = Pan-Galactic Gargle Blaster
-reagent-desc-gargle-blaster = Whoah, this stuff looks volatile!
-
-reagent-name-gin-fizz = gin fizz
-reagent-desc-gin-fizz = Refreshingly lemony, deliciously dry.
-
-reagent-name-gin-tonic = gin and tonic
-reagent-desc-gin-tonic = An all time classic, mild cocktail.
-
-reagent-name-gildlager = Gildlager
-reagent-desc-gildlager = 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
-
-reagent-name-grog = grog
-reagent-desc-grog = Watered-down rum, pirate approved!
-
-reagent-name-hippies-delight = Hippie's Delight
-reagent-desc-hippies-delight = You just don't get it maaaan.
-
+reagent-desc-b52 = 咖啡、愛爾蘭奶油酒和干邑。你會喝到爛醉。
+reagent-name-blue-hawaiian = 藍色夏威夷 Blue Hawaiian
+reagent-desc-blue-hawaiian = 阿羅哈！這是指「你好」還是「再見」呢？
+reagent-name-bahama-mama = 巴哈馬媽媽 Bahama Mama
+reagent-desc-bahama-mama = 熱帶雞尾酒。
+reagent-name-banana-honk = 香蕉喇叭聲 Banana Honk
+reagent-desc-banana-honk = 來自「小丑天堂」的一杯飲品。
+reagent-name-barefoot = 赤腳 barefoot
+reagent-desc-barefoot = 一款由鮮奶油、果汁和苦艾酒調製而成的黑加侖奶昔。
+reagent-name-beepsky-smash = 比普斯基重擊 Beepsky smash
+reagent-desc-beepsky-smash = 若否認喝過這個，就做好面對法律的準備吧。
+reagent-name-black-russian = 黑俄羅斯 Black Russian
+reagent-desc-black-russian = 專為乳糖不耐症者設計。風味依然如「白俄羅斯」般典雅。
+reagent-name-bloody-mary = 血腥瑪麗 Bloody Mary
+reagent-desc-bloody-mary = 一種由伏特加、番茄汁和萊姆汁調製而成的奇特卻令人愉悅的混合飲品。
+reagent-name-booger = 鼻屎 booger
+reagent-desc-booger = 噁……
+reagent-name-brave-bull = 勇敢的公牛 Brave Bull
+reagent-desc-brave-bull = 這跟「酒壯膽」一樣有效！
+reagent-name-bronx = 布朗克斯 Bronx
+reagent-desc-bronx = 曼哈頓與馬丁尼的橘子風味表親。
+reagent-name-coconut-rum = 椰子朗姆酒 coconut rum
+reagent-desc-coconut-rum = 椰香蘭姆酒，帶給您濃濃的熱帶風情。
+reagent-name-cosmopolitan = 國際化 cosmopolitan
+reagent-desc-cosmopolitan = 即使在最糟糕的情況下，也沒什麼比一杯新鮮調製的柯斯莫波利坦更棒了。
+reagent-name-crush-depth = 壓實深度 crush depth
+reagent-desc-crush-depth = 一款來自冥界的飲品，令人聯想到深淵深海。它色澤深邃、寒意刺骨，提醒著人們：最古老的情感是恐懼，而最強烈的恐懼，莫過於對未知的恐懼。
+reagent-name-cuba-libre = 古巴自由 Cuba libre
+reagent-desc-cuba-libre = 蘭姆酒，加可樂。革命萬歲。
+reagent-name-dark-and-stormy = 黑暗與風暴 dark & stormy
+reagent-desc-dark-and-stormy = 你幾乎能聽見雷聲。
+reagent-name-demons-blood = 惡魔之血 Demon's Blood
+reagent-desc-demons-blood = 啊啊啊啊啊！！！！
+reagent-name-devils-kiss = 《惡魔之吻》 Devil's Kiss
+reagent-desc-devils-kiss = 毛骨悚然的時刻！
+reagent-name-doctors-delight = 《醫師之樂》 The Doctor's Delight
+reagent-desc-doctors-delight = 每天喝一口，就能讓「醫療機器人」遠離你。這樣大概是最好的了。
+reagent-name-driest-martini = 最乾的馬丁尼 driest martini
+reagent-desc-driest-martini = 僅限經驗豐富者。你會覺得玻璃杯裡有沙粒漂浮著。
+reagent-name-eggnog = 蛋酒 eggnog
+reagent-desc-eggnog = 雞蛋不夠。
+reagent-name-electric-shark = 電動鯊魚 electric shark
+reagent-desc-electric-shark = 關於鯊魚的趣聞：鯊形綱動物佔了「太空站16號」工程部門人員的20%！
+reagent-name-erika-surprise = 艾瑞卡的驚喜 Erika surprise
+reagent-desc-erika-surprise = 令人驚訝的是，它竟然是綠色的！
+reagent-name-gargle-blaster = 全銀河漱口爆破者 Pan-Galactic Gargle Blaster
+reagent-desc-gargle-blaster = 哇，這東西看起來好不穩定啊！
+reagent-name-gin-fizz = 金菲茲 gin fizz
+reagent-desc-gin-fizz = 檸檬香氣清新怡人，口感乾爽可口。
+reagent-name-gin-tonic = 琴酒通寧水 gin and tonic
+reagent-desc-gin-tonic = 一款歷久不衰的經典、口味溫和的雞尾酒。
+reagent-name-gildlager = 吉爾德拉格 Gildlager
+reagent-desc-gildlager = 100 proof 肉桂利口酒，專為春假期間愛喝酒的少女們打造。
+reagent-name-grog = 格羅格酒 grog
+reagent-desc-grog = 加水的蘭姆酒，海盜認證！
+reagent-name-hippies-delight = 嬉皮的歡樂 Hippie's Delight
+reagent-desc-hippies-delight = 你就是搞不懂啊，老兄。
 reagent-name-hooch = hooch
-reagent-desc-hooch = Either someone's failure at cocktail making or attempt in alchohol production. In any case, do you really want to drink that?
-
-reagent-name-iced-beer = iced beer
-reagent-desc-iced-beer = A beer which is so cold the air around it freezes.
-
-reagent-name-irish-slammer = Grenade Penguin
-reagent-desc-irish-slammer = What's black and white and red all over?
-
-reagent-name-irish-cream = Irish cream
-reagent-desc-irish-cream = Whiskey-imbued cream. What else could you expect from the Irish.
-
-reagent-name-irish-coffee = Irish coffee
-reagent-desc-irish-coffee = Coffee served with irish cream. Regular cream just isn't the same!
-
-reagent-name-jack-rose = Jack rose
-reagent-desc-jack-rose = Excessively Red.
-
-reagent-name-jungle-bird = jungle bird
-reagent-desc-jungle-bird = Despite the name, it’s not exceptionally popular among Voxes.
-
-reagent-name-kalimotxo = kalimotxo
-reagent-desc-kalimotxo = A high-class Cuba Libre, for the discerning alcoholic.
-
-reagent-name-tortuga = Tortuga
-reagent-desc-tortuga = Perfect for pirates who’ve been selected as the designated driver. Yarr!
-
-reagent-name-long-island-iced-tea = Long Island iced tea
-reagent-desc-long-island-iced-tea = The liquor cabinet, brought together in a delicious mix. Intended for middle-aged alcoholic women only.
-
-reagent-name-manhattan = Manhattan
-reagent-desc-manhattan = The Detective's undercover drink of choice. He never could stomach gin...
-
-reagent-name-manhattan-project = Manhattan Project
-reagent-desc-manhattan-project = A scientist's drink of choice, for pondering ways to blow up the ship.
-
-reagent-name-manly-dorf = Manly Dorf
-reagent-desc-manly-dorf = Beer and Ale, brought together in a delicious mix. Intended for stout dwarves only.
-
-reagent-name-margarita = margarita
-reagent-desc-margarita = On the rocks with salt on the rim. Arriba~!
-
-reagent-name-the-martinez = The Martinez
-reagent-desc-the-martinez = The edgerunner legend. Remembered by a drink, forgotten by a drunk.
-
-reagent-name-martini = classic martini
-reagent-desc-martini = Vermouth with Gin. Not quite how 007 enjoyed it, but still delicious.
-
-reagent-name-mead = mead
-reagent-desc-mead = A Viking's drink, though a cheap one.
-
-reagent-name-mojito = Mojito
-reagent-desc-mojito = If it's good enough for Spesscuba, it's good enough for you.
-
-reagent-name-monkey-business = monkey business
-reagent-desc-monkey-business = You’ve got to wonder how the monkeys feel about this drink.
-
-reagent-name-moonshine = moonshine
-reagent-desc-moonshine = Artisanal homemade liquor. What could go wrong?
-
-reagent-name-painkiller = painkiller
-reagent-desc-painkiller = A cure for what ails you.
-
-reagent-name-patron = Patrón
-reagent-desc-patron = Tequila with silver in it, a favorite of alcoholic women in the club scene.
-
-reagent-name-pina-colada = Piña Colada
-reagent-desc-pina-colada = For getting lost in the rain.
-
-reagent-name-radler = radler
-reagent-desc-radler = A simple but staple classic, straight out of Space-Germany.
-
-reagent-name-red-mead = red mead
-reagent-desc-red-mead = The true Viking's drink! Even though it has a strange red color.
-
-reagent-name-rewriter = Rewriter
-reagent-desc-rewriter = The secret of the sanctuary of the Librarian...
-
+reagent-desc-hooch = 要不是有人調製雞尾酒失敗，就是有人試圖釀酒。無論如何，你真的想喝那個嗎？
+reagent-name-iced-beer = 冰鎮啤酒 iced beer
+reagent-desc-iced-beer = 一款冰得連周圍的空氣都會結冰的啤酒。
+reagent-name-irish-slammer = 手榴彈企鵝 Grenade Penguin
+reagent-desc-irish-slammer = 有什麼東西是黑白相間，又通體呈紅色的？
+reagent-name-irish-cream = 愛爾蘭奶油 Irish cream
+reagent-desc-irish-cream = 浸滿威士忌的奶油。這不正是愛爾蘭人會做的事嗎？
+reagent-name-irish-coffee = 愛爾蘭咖啡 Irish coffee
+reagent-desc-irish-coffee = 這杯咖啡加了愛爾蘭奶油。普通鮮奶油可完全無法比擬！
+reagent-name-jack-rose = 傑克站了起來 Jack rose
+reagent-desc-jack-rose = 過於鮮紅。
+reagent-name-jungle-bird = 叢林鳥 jungle bird
+reagent-desc-jungle-bird = 儘管名稱如此，它在 Voxes 之間卻並不特別受歡迎。
+reagent-name-kalimotxo = 卡利莫喬 kalimotxo
+reagent-desc-kalimotxo = 一款頂級的古巴自由調酒，專為挑剔的酒客而設。
+reagent-name-tortuga = 托爾圖加 Tortuga
+reagent-desc-tortuga = 非常適合被指定為代駕的海盜。哇哈！
+reagent-name-long-island-iced-tea = 長島冰茶 Long Island iced tea
+reagent-desc-long-island-iced-tea = 這款酒櫃，匯集了各種美酒，調配出絕妙的風味。僅限中年酗酒女性專用。
+reagent-name-manhattan = 曼哈頓 Manhattan
+reagent-desc-manhattan = 這位偵探執行臥底任務時最愛喝的酒。他向來受不了琴酒……
+reagent-name-manhattan-project = 曼哈頓計畫 Manhattan Project
+reagent-desc-manhattan-project = 科學家最愛喝的飲料，用來思考該如何炸毀這艘船。
+reagent-name-manly-dorf = 曼利多夫 Manly Dorf
+reagent-desc-manly-dorf = 啤酒與艾爾，完美融合成這款美味的調飲。僅限體格壯碩的矮人享用。
+reagent-name-margarita = 瑪格麗特 margarita
+reagent-desc-margarita = 加冰塊，杯緣撒鹽。乾杯～！
+reagent-name-the-martinez = 《馬丁內斯》 The Martinez
+reagent-desc-the-martinez = 「邊緣行者」的傳奇。一杯酒讓人記起，一醉便讓人遺忘。
+reagent-name-martini = 經典馬丁尼 classic martini
+reagent-desc-martini = 苦艾酒佐琴酒。雖然和007的喝法略有不同，但依然十分美味。
+reagent-name-mead = 蜂蜜酒 mead
+reagent-desc-mead = 這雖是維京人的飲品，卻是種廉價的酒。
+reagent-name-mojito = 莫吉托 Mojito
+reagent-desc-mojito = 如果連 Spesscuba 都覺得夠好，那對你來說也夠好了。
+reagent-name-monkey-business = 鬼把戲 monkey business
+reagent-desc-monkey-business = 你難免會好奇，這些猴子對這杯飲料有什麼感想。
+reagent-name-moonshine = 私釀酒 moonshine
+reagent-desc-moonshine = 手工自釀酒。還能有什麼問題呢？
+reagent-name-painkiller = 止痛藥 painkiller
+reagent-desc-painkiller = 治癒您病痛的良方。
+reagent-name-patron = 帕特隆 Patrón
+reagent-desc-patron = 含有銀粒的龍舌蘭酒，是夜店圈中嗜酒女性的最愛。
+reagent-name-pina-colada = 皮娜科拉達 Piña Colada
+reagent-desc-pina-colada = 為了在雨中迷失方向。
+reagent-name-radler = 拉德勒 radler
+reagent-desc-radler = 一款簡單卻不可或缺的經典之作，直接來自「太空德國」。
+reagent-name-red-mead = 紅蜜酒 red mead
+reagent-desc-red-mead = 這才是真正的維京人飲品！儘管它呈現出一種奇特的紅色。
+reagent-name-rewriter = 改寫工具 Rewriter
+reagent-desc-rewriter = 「圖書館員」聖所的秘密……
 reagent-name-sbiten = sbiten
-reagent-desc-sbiten = A spicy Vodka! Might be a little hot for the little guys!
-
-reagent-name-screwdriver-cocktail = screwdriver
-reagent-desc-screwdriver-cocktail = Vodka, mixed with plain ol' orange juice. The result is surprisingly delicious.
-
-reagent-name-cogchamp = Cogchamp
-reagent-desc-cogchamp = Not even Ratvar's Four Generals could withstand this! Qevax Jryy!
-
-reagent-name-silencer = silencer
-reagent-desc-silencer = A drink from Mime Heaven.
-
+reagent-desc-sbiten = 一款辛辣的伏特加！對小孩子來說可能有點太嗆了！
+reagent-name-screwdriver-cocktail = 螺絲起子 screwdriver
+reagent-desc-screwdriver-cocktail = 伏特加，混入普通的柳橙汁。結果出乎意料地好喝。
+reagent-name-cogchamp = 科格尚普 Cogchamp
+reagent-desc-cogchamp = 就連拉特瓦爾的四大將軍也擋不住這招！克瓦克斯·傑瑞！
+reagent-name-silencer = 消音器 silencer
+reagent-desc-silencer = 來自「默劇天堂」的一杯飲品。
 reagent-name-singulo = singulo
-reagent-desc-singulo = A blue-space beverage!
-
-reagent-name-snow-white = Snow White
-reagent-desc-snow-white = A cold refreshment.
-
+reagent-desc-singulo = 一款「藍色空間」飲品！
+reagent-name-snow-white = 白雪公主 Snow White
+reagent-desc-snow-white = 一杯冰涼的飲品。
 reagent-name-sui-dream = sui dream
-reagent-desc-sui-dream = 'Comprised of: White soda, blue Curaçao, melon liquor.'
-
-reagent-name-syndicate-bomb = syndicate bomb
-reagent-desc-syndicate-bomb = Somebody set us up the bomb!
-
-reagent-name-tequila-sunrise = tequila sunrise
-reagent-desc-tequila-sunrise = Tequila and orange juice. Much like a Screwdriver, only Mexican.
-
-reagent-name-three-mile-island = Three Mile Island iced tea
-reagent-desc-three-mile-island = "Made for a woman, strong enough for a man."
-
-reagent-name-toxins-special = toxins special
-reagent-desc-toxins-special = This thing is ON FIRE! CALL THE DAMN SHUTTLE!
-
+reagent-desc-sui-dream = 「成分：白蘇打水、藍庫拉索酒、蜜瓜利口酒。」
+reagent-name-syndicate-bomb = 黑幫炸彈 yndicate bomb
+reagent-desc-syndicate-bomb = 有人在我們身上安了炸彈！
+reagent-name-tequila-sunrise = 龍舌蘭日出 tequila sunrise
+reagent-desc-tequila-sunrise = 龍舌蘭酒加柳橙汁。跟「螺絲起子」很像，只是墨西哥風格的。
+reagent-name-three-mile-island = 三哩島冰茶 Three Mile Island iced tea
+reagent-desc-three-mile-island = 「專為女性打造，卻強韌得足以滿足男性的需求。」
+reagent-name-toxins-special = 毒素特輯 toxins special
+reagent-desc-toxins-special = 這玩意兒簡直火熱到不行！快叫那該死的接駁車來！
 reagent-name-vampiro = vampiro
-reagent-desc-vampiro = Popular in Mexico and Transylvania.
-
-reagent-name-vodka-martini = vodka martini
-reagent-desc-vodka-martini = Vodka instead of Gin. Not quite how 007 enjoyed it, but still delicious.
-
-reagent-name-vodka-tonic = vodka tonic
-reagent-desc-vodka-tonic = For when a gin and tonic isn't russian enough.
-
-reagent-name-whiskey-cola = whiskey cola
-reagent-desc-whiskey-cola = Whiskey, mixed with cola. Surprisingly refreshing.
-
-reagent-name-whiskey-soda = whiskey soda
-reagent-desc-whiskey-soda = For the more refined griffon.
-
-reagent-name-white-gilgamesh = White Gilgamesh
-reagent-desc-white-gilgamesh = A sickening mixture of milk and beer. Makes you feel like you're made of wood.
-
-reagent-name-white-russian = White Russian
-reagent-desc-white-russian = That's just, like, your opinion, man...
-
-reagent-name-vodka-red-bool = vodka red bool
-reagent-desc-vodka-red-bool = Because heart failure and liver failure go hand in hand.
-
+reagent-desc-vampiro = 在墨西哥和特蘭西瓦尼亞很受歡迎。
+reagent-name-vodka-martini = 伏特加馬丁尼 vodka martini
+reagent-desc-vodka-martini = 用伏特加代替琴酒。雖然和007的喝法不太一樣，但依然很美味。
+reagent-name-vodka-tonic = 伏特加通寧水 vodka tonic
+reagent-desc-vodka-tonic = 當一杯琴酒通寧水還不夠「俄式」的時候。
+reagent-name-whiskey-cola = 威士忌可樂 whiskey cola
+reagent-desc-whiskey-cola = 威士忌，加了可樂。出乎意料地清爽。
+reagent-name-whiskey-soda = 威士忌蘇打 whiskey soda
+reagent-desc-whiskey-soda = 專為品味更精緻的格里芬而設計。
+reagent-name-white-gilgamesh = 白色吉爾伽美什 White Gilgamesh
+reagent-desc-white-gilgamesh = 一種令人作嘔的牛奶與啤酒混合物。喝了之後，感覺自己彷彿是由木頭做成的。
+reagent-name-white-russian = 白俄羅斯 White Russian
+reagent-desc-white-russian = 那只是，就像是，你的看法罷了，老兄……
+reagent-name-vodka-red-bool = 伏特加紅布爾 vodka red bool
+reagent-desc-vodka-red-bool = 因為心臟衰竭和肝衰竭往往相伴而生。
 reagent-name-xeno-basher = Xeno Basher
-reagent-desc-xeno-basher = The perfect drink before an expedition.
-
-reagent-name-irish-bool = Irish bool
-reagent-desc-irish-bool = Like a bool in a Ireland shop.
-
-reagent-name-budget-insuls = budget insuls
-reagent-desc-budget-insuls = A tider's preferred drink.
-
-reagent-name-watermelon-wakeup = watermelon wakeup
-reagent-desc-watermelon-wakeup = If you want to be awake, this will do it... Also sweet.
-
-reagent-name-rubberneck = rubberneck
-reagent-desc-rubberneck = A popular drink amongst those adhering to an all synthetic diet.
-
-reagent-name-caipirinha = caipirinha
-reagent-desc-caipirinha = The São Paulo special, straight from old Brazil.
-
-reagent-name-daiquiri = daiquiri
-reagent-desc-daiquiri = A classic rum cocktail which remains popular even in the cold reaches of space.
-
-reagent-name-death-in-the-afternoon = death in the afternoon
-reagent-desc-death-in-the-afternoon = "Pour one jigger absinthe into a Champagne glass. Add iced Champagne until it attains the proper opalescent milkiness. Drink three to five of these slowly." - Ernest Hemingway
-
-reagent-name-empress-75 = empress 75
-reagent-desc-empress-75 = A more refined take on the mimosa. Just the thing Marie Antoinette might've sipped on before the revolution.
-
-reagent-name-espresso-martini = espresso martini
-reagent-desc-espresso-martini = To wake you up and wind you down. Garnished with coffee beans and icy-cold.
-
-reagent-name-mayojito = mayojito
-reagent-desc-mayojito = An affront to god and man. Do not drink it.
-
+reagent-desc-xeno-basher = 這是展開探險前的完美飲品。
+reagent-name-irish-bool = 愛爾蘭布爾 Irish bool
+reagent-desc-irish-bool = 就像愛爾蘭商店裡的一瓶啤酒。
+reagent-name-budget-insuls = 底廉絕緣手套 budget insuls
+reagent-desc-budget-insuls = 整理員最愛的飲品。
+reagent-name-watermelon-wakeup = 西瓜醒神 watermelon wakeup
+reagent-desc-watermelon-wakeup = 如果你想保持清醒，這絕對有效……而且還很甜。
+reagent-name-rubberneck = 看熱鬧的人 rubberneck
+reagent-desc-rubberneck = 一種深受堅持全合成飲食者喜愛的飲品。
+reagent-name-caipirinha = 卡皮里尼亞 caipirinha
+reagent-desc-caipirinha = 聖保羅特製，直從舊時巴西而來。
+reagent-name-daiquiri = 代基里 daiquiri
+reagent-desc-daiquiri = 一款經典的蘭姆酒雞尾酒，即使在寒冷的太空深處依然廣受歡迎。
+reagent-name-death-in-the-afternoon = 午後之死 death in the afternoon
+reagent-desc-death-in-the-afternoon = 「將一量杯苦艾酒倒入香檳杯中。加入冰鎮香檳，直到呈現出恰到好處的乳白半透明色澤。慢慢喝上三到五杯。」——欧内斯特·海明威
+reagent-name-empress-75 = 女皇 75 empress 75
+reagent-desc-empress-75 = 一款更精緻的米莫莎調酒。這正是瑪麗·安托瓦內特在革命前可能會小酌的飲品。
+reagent-name-espresso-martini = 義式濃縮馬天尼 espresso martini
+reagent-desc-espresso-martini = 既能喚醒你，也能讓你放鬆。點綴著咖啡豆，冰涼爽口。
+reagent-name-mayojito = mayojito mayojito
+reagent-desc-mayojito = 這簡直是對神與人的冒犯。千萬別喝。
 reagent-name-mimeosa = mimeosa
-reagent-desc-mimeosa = It has an orange tang so sour you just can't describe it.
-
-reagent-name-mimosa = mimosa
-reagent-desc-mimosa = Perfect for a lively brunch out with the girls.
-
-reagent-name-moscow-mule = moscow mule
-reagent-desc-moscow-mule = A surpsingly strong and refreshing mixed drink, served in an iconic copper mug.
-
-reagent-name-the-sun-also-rises = the sun also rises
-reagent-desc-the-sun-also-rises = A strong cocktail mixed into a murky blend. A secret favorite of tortured authors.
-
-reagent-name-whiskey-sour = whiskey sour
-reagent-desc-whiskey-sour = What's the secret ingredient? Eggs. It's eggs.
-
-reagent-name-zombiecocktail = Zombie
-reagent-desc-zombiecocktail = It gets in your head. Your he-eyeh-ead.
-
-reagent-name-bacchus-blessing = bacchus's blessing
-reagent-desc-bacchus-blessing = You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
+reagent-desc-mimeosa = 它帶有一股橘子的酸味，那酸味實在難以形容。
+reagent-name-mimosa = 米莫莎 mimosa
+reagent-desc-mimosa = 非常適合和閨蜜們一起外出享用一頓熱鬧的早午餐。
+reagent-name-moscow-mule = 莫斯科騾子 moscow mule
+reagent-desc-moscow-mule = 一款出乎意料地醇厚且清爽的調酒，盛裝於經典的銅杯中。
+reagent-name-the-sun-also-rises = 《太陽也升起》 the sun also rises
+reagent-desc-the-sun-also-rises = 一款烈性雞尾酒，調製成混濁的混合液。這是備受煎熬的作家們心中不為人知的最愛。
+reagent-name-whiskey-sour = 威士忌酸酒 whiskey sour
+reagent-desc-whiskey-sour = 秘密食材是什麼？是雞蛋。就是雞蛋。
+reagent-name-zombiecocktail = 殭屍
+reagent-desc-zombiecocktail = 它會縈繞在你的腦海裡。你的「腦——海——」裡。
+reagent-name-bacchus-blessing = 巴克斯的祝福
+reagent-desc-bacchus-blessing = 你從未想過，一種液體竟然會如此令人作嘔。你確定嗎……？

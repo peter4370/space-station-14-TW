@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SprayPainter
-  name: spray painter
-  description: A spray painter for painting airlocks, pipes, and other items.
+  name: 噴漆工 | spray painter
+  description: 一名負責噴塗氣閘、管線及其他物品的噴漆工。 | A spray painter for painting airlocks, pipes, and other items.
   components:
   - type: Sprite
     sprite: Objects/Tools/spray_painter.rsi
@@ -49,8 +49,8 @@
 
 - type: entity
   parent: SprayPainter
-  name: experimental spray painter
-  description: An experimental recharging spray painter that can infinitely replicate compressed paint.
+  name: 實驗性噴漆師 | experimental spray painter
+  description: 一款實驗性的可重複充填噴漆機，能夠無限次複製壓縮塗料。 | An experimental recharging spray painter that can infinitely replicate compressed paint.
   id: SprayPainterBorg
   suffix: Borg
   components:
@@ -68,8 +68,8 @@
 - type: entity
   parent: BaseItem
   id: SprayPainterAmmo
-  name: compressed paint
-  description: A cartridge of highly compressed paint, commonly used in spray painters.
+  name: 壓縮油漆 | compressed paint
+  description: 一種裝有高度壓縮油漆的罐裝容器，常見於噴漆工具中。 | A cartridge of highly compressed paint, commonly used in spray painters.
   components:
   - type: SprayPainterAmmo
   - type: Sprite

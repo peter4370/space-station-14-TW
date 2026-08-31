@@ -1,8 +1,8 @@
 - type: entity
   id: MachineArtifactAnalyzer
   parent: [ BaseMachinePowered, SmallConstructibleMachine, BaseSmallConstructibleMachineDestructible ]
-  name: artifact analyzer
-  description: A platform capable of performing analysis on various types of artifacts.
+  name: 遺物分析儀 | artifact analyzer
+  description: 一個能夠對各類文物進行分析的平台。 | A platform capable of performing analysis on various types of artifacts.
   components:
   - type: Sprite
     noRot: true
@@ -90,8 +90,8 @@
 - type: entity
   id: MachineArtifactCrusher
   parent: [ ConstructibleMachine, BaseMachinePowered, BaseConstructibleMachineDestructible ]
-  name: artifact crusher
-  description: Best not to let your fingers get stuck...
+  name: 文物粉碎機 | artifact crusher
+  description: 最好別讓手指卡住…… | Best not to let your fingers get stuck...
   components:
   - type: ArtifactCrusher
     crushingWhitelist:
@@ -177,8 +177,8 @@
 - type: entity
   parent: MachineArtifactCrusher
   id: MachineArtifactCrusherXenoborg
-  name: body crusher
-  description: Best not to let your head get stuck...
+  name: 身體粉碎機 | body crusher
+  description: 最好別讓頭卡住…… | Best not to let your head get stuck...
   components:
   - type: Sprite
     sprite: Structures/Machines/body_crusher.rsi

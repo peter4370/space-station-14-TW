@@ -94,9 +94,9 @@
 # https://academo.org/demos/colour-temperature-relationship/
 - type: entity
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: 白熾燈泡 | incandescent light bulb
   id: LightBulb
-  description: A light bulb.
+  description: 一顆燈泡。 | A light bulb.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -112,9 +112,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: led light bulb
+  name: LED 燈泡 | led light bulb
   id: LedLightBulb
-  description: A power efficient light bulb.
+  description: 一款節能燈泡。 | A power efficient light bulb.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -132,9 +132,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: dim light bulb
+  name: 微弱的燈泡 | dim light bulb
   id: DimLightBulb
-  description: A dim light bulb for populating the darkness of maintenance.
+  description: 一盞微弱的燈泡，照亮維護工作的黑暗。 | A dim light bulb for populating the darkness of maintenance.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -150,9 +150,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: warm light bulb
+  name: 暖色燈泡 | warm light bulb
   id: WarmLightBulb
-  description: A warm light bulb for a more cozy atmosphere.
+  description: 一盞暖色燈泡，營造更溫馨的氛圍。 | A warm light bulb for a more cozy atmosphere.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -168,9 +168,9 @@
 
 - type: entity
   parent: LightBulb
-  name: old incandescent light bulb
+  name: 舊式白熾燈泡 | old incandescent light bulb
   id: LightBulbOld
-  description: An aging light bulb.
+  description: 一盞老舊的燈泡。 | An aging light bulb.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -182,10 +182,10 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: incandescent light bulb
+  name: 白熾燈泡 | incandescent light bulb
   id: LightBulbBroken
   suffix: Broken
-  description: A broken light bulb.
+  description: 一顆破碎的燈泡。 | A broken light bulb.
   components:
   - type: LightBulb
     startingState: Broken
@@ -193,9 +193,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: service light bulb
+  name: 服務用燈泡 | service light bulb
   id: ServiceLightBulb
-  description: A low-brightness green lightbulb used in janitorial service lights.
+  description: 一種用於清潔服務照明的低亮度綠色燈泡。 | A low-brightness green lightbulb used in janitorial service lights.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -214,9 +214,9 @@
 
 - type: entity
   parent: BaseLightTube
-  name: fluorescent light tube
+  name: 螢光燈管 | fluorescent light tube
   id: LightTube
-  description: A light fixture.
+  description: 一盞燈具。 | A light fixture.
   components:
   - type: LightBulb
     color: "#FFE4CE" # 5000K color temp
@@ -228,9 +228,9 @@
 
 - type: entity
   parent: LightTube
-  name: old fluorescent light tube
+  name: 舊螢光燈管 | old fluorescent light tube
   id: LightTubeOld
-  description: An aging light fixture.
+  description: 一盞老舊的燈具。 | An aging light fixture.
   components:
   - type: LightBulb
     color: "#FFDABB" # old fluorescents are yellower-4500K temp
@@ -242,18 +242,18 @@
 
 - type: entity
   parent: BaseLightTube
-  name: fluorescent light tube
+  name: 螢光燈管 | fluorescent light tube
   id: LightTubeBroken
   suffix: Broken
-  description: A broken light fixture.
+  description: 一個損壞的燈具。 | A broken light fixture.
   components:
   - type: LightBulb
     startingState: Broken
 
 - type: entity
   parent: BaseLightTube
-  name: led light tube
-  description: A high power high energy bulb.
+  name: LED 燈管 | led light tube
+  description: 一款高功率、高能量的燈泡。 | A high power high energy bulb.
   id: LedLightTube
   components:
   - type: LightBulb
@@ -267,8 +267,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: exterior light tube
-  description: A high power high energy bulb for the depths of space. May contain mercury.
+  name: 外部燈管 | exterior light tube
+  description: 一款專為深空設計的高功率、高能量燈泡。可能含有汞。 | A high power high energy bulb for the depths of space. May contain mercury.
   id: ExteriorLightTube
   components:
   - type: LightBulb
@@ -282,8 +282,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: sodium light tube
-  description: A high power high energy bulb for the depths of space. Salty.
+  name: 鈉燈管 | sodium light tube
+  description: 一款專為深空設計的高功率、高能量燈泡。真厲害。 | A high power high energy bulb for the depths of space. Salty.
   id: SodiumLightTube
   components:
   - type: LightBulb
@@ -297,8 +297,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: crystal light tube
-  description: A high power high energy bulb which has a small colored crystal inside.
+  name: 水晶燈管 | crystal light tube
+  description: 一款高功率、高能量的燈泡，內部嵌有一顆小型彩色水晶。 | A high power high energy bulb which has a small colored crystal inside.
   id: BaseLightTubeCrystal
   abstract: true
   components:
@@ -311,7 +311,7 @@
 
 - type: entity
   parent: BaseLightTubeCrystal
-  name: cyan crystal light tube
+  name: 青色水晶燈管 | cyan crystal light tube
   id: LightTubeCrystalCyan
   components:
   - type: LightBulb
@@ -327,7 +327,7 @@
 
 - type: entity
   parent: BaseLightTubeCrystal
-  name: blue crystal light tube
+  name: 藍色水晶燈管 | blue crystal light tube
   id: LightTubeCrystalBlue
   components:
   - type: LightBulb
@@ -343,7 +343,7 @@
 
 - type: entity
   parent: BaseLightTubeCrystal
-  name: yellow crystal light tube
+  name: 黃色水晶燈管 | yellow crystal light tube
   id: LightTubeCrystalYellow
   components:
   - type: LightBulb
@@ -359,7 +359,7 @@
 
 - type: entity
   parent: BaseLightTubeCrystal
-  name: pink crystal light tube
+  name: 粉紅色水晶燈管 | pink crystal light tube
   id: LightTubeCrystalPink
   components:
   - type: LightBulb
@@ -375,7 +375,7 @@
 
 - type: entity
   parent: BaseLightTubeCrystal
-  name: orange crystal light tube
+  name: 橘色水晶燈管 | orange crystal light tube
   id: LightTubeCrystalOrange
   components:
   - type: LightBulb
@@ -391,8 +391,8 @@
 
 - type: entity
   parent: BaseLightTubeCrystal
-  name: black crystal light tube
-  description: A high power high energy bulb which has a small colored crystal inside. It isn't very bright.
+  name: 黑色水晶燈管 | black crystal light tube
+  description: 一種高功率、高能量的燈泡，內部裝有一小顆彩色水晶。它的亮度並不怎麼高。 | A high power high energy bulb which has a small colored crystal inside. It isn't very bright.
   id: LightTubeCrystalBlack
   components:
   - type: LightBulb
@@ -410,7 +410,7 @@
 
 - type: entity
   parent: BaseLightTubeCrystal
-  name: red crystal light tube
+  name: 紅色水晶燈管 | red crystal light tube
   id: LightTubeCrystalRed
   components:
   - type: LightBulb
@@ -426,7 +426,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: green crystal light tube
+  name: 綠色水晶燈管 | green crystal light tube
   id: LightTubeCrystalGreen
   components:
   - type: LightBulb
@@ -446,8 +446,8 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: crystal light bulb
-  description: A high power high energy bulb which has a small colored crystal inside.
+  name: 水晶燈泡 | crystal light bulb
+  description: 一款高功率、高能量的燈泡，內部嵌有一顆小型彩色水晶。 | A high power high energy bulb which has a small colored crystal inside.
   id: BaseLightbulbCrystal
   abstract: true
   components:
@@ -462,7 +462,7 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: cyan crystal light bulb
+  name: 青色水晶燈泡 | cyan crystal light bulb
   id: LightBulbCrystalCyan
   components:
   - type: LightBulb
@@ -478,7 +478,7 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: blue crystal light bulb
+  name: 藍色水晶燈泡 | blue crystal light bulb
   id: LightBulbCrystalBlue
   components:
   - type: LightBulb
@@ -494,7 +494,7 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: yellow crystal light bulb
+  name: 黃色水晶燈泡 | yellow crystal light bulb
   id: LightBulbCrystalYellow
   components:
   - type: LightBulb
@@ -510,7 +510,7 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: pink crystal light bulb
+  name: 粉紅色水晶燈泡 | pink crystal light bulb
   id: LightBulbCrystalPink
   components:
   - type: LightBulb
@@ -526,7 +526,7 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: orange crystal light bulb
+  name: 橘色水晶燈泡 | orange crystal light bulb
   id: LightBulbCrystalOrange
   components:
   - type: LightBulb
@@ -542,8 +542,8 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: black crystal light bulb
-  description: A high power high energy bulb which has a small colored crystal inside. It isn't very bright.
+  name: 黑色水晶燈泡 | black crystal light bulb
+  description: 一種高功率、高能量的燈泡，內部裝有一小顆彩色水晶。它的亮度並不怎麼高。 | A high power high energy bulb which has a small colored crystal inside. It isn't very bright.
   id: LightBulbCrystalBlack
   components:
   - type: LightBulb
@@ -561,7 +561,7 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: red crystal light bulb
+  name: 紅色水晶燈泡 | red crystal light bulb
   id: LightBulbCrystalRed
   components:
   - type: LightBulb
@@ -577,7 +577,7 @@
 
 - type: entity
   parent: BaseLightbulbCrystal
-  name: green crystal light bulb
+  name: 綠色水晶燈泡 | green crystal light bulb
   id: LightBulbCrystalGreen
   components:
   - type: LightBulb

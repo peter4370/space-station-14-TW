@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseStructureDynamic, StructureHealthContainer ]
   id: OreBox
-  name: ore box
-  description: A large storage container for holding unprocessed ores.
+  name: 礦石箱 | ore box
+  description: 用於存放未經加工礦石的大型儲存容器。 | A large storage container for holding unprocessed ores.
   components:
   - type: StaticPrice
     price: 500
