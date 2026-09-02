@@ -1,5 +1,8 @@
 
 <Document>
-  # Reference Tables
-  This entry is made to contain information that you might have to come back to over and over again. Use as necessary.
+  # 參考表格
+  此條目旨在收錄您可能需要反覆查閱的資訊。 請視需要使用。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

@@ -16,7 +16,7 @@ lathe-reagent-dispense-no-container = 液體從 { THE($name) } 流到地板上�
 lathe-menu-result-reagent-display = { $reagent } ({ $amount }u)
 lathe-menu-material-display = { $material } ({ $amount })
 lathe-menu-tooltip-display = { $amount } 來自 { $material }
-lathe-menu-description-display = [斜體]{ $description }[/斜體]
+lathe-menu-description-display = [italic]{ $description }[/italic]
 lathe-menu-material-amount =
     { $amount ->
         [1] { NATURALFIXED($amount, 2) } { $unit }

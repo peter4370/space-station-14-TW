@@ -8,7 +8,7 @@
     <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
   </Box>
 
-  若雙手空著，可使用 [color=yellow][bold][keybind="Use"][/bold][/color] 來開啟氣閘；若雙手拿著東西，則可使用 [color=yellow][bold][keybind="ActivateItemInWorld"][/粗體][/color]（當雙手已滿時），或是直接與氣閘發生碰撞。
+  若雙手空著，可使用 [color=yellow][bold][keybind="Use"][/bold][/color] 來開啟氣閘；若雙手拿著東西，則可使用 [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color]（當雙手已滿時），或是直接與氣閘發生碰撞。
 
   只有當您持有具備正確存取權限等級的身份證時，氣閘才會開啟。
   ID卡必須拿在手上，或放在ID卡插槽內。
@@ -32,7 +32,7 @@
   氣閘亦可設定為緊急通行模式。 在此模式下，無論存取權限等級為何，任何人都可以開啟氣閘。 當這種情況發生時，氣閘門頂部會亮起閃爍的黃色燈光。
 
   ## 遙控
-  氣閘可透過空間站的人工智慧（AI）或使用「門遙控器」進行遙控。
+  氣閘可透過太空站的人工智慧（AI）或使用「門遙控器」進行遙控。
   <Box>
     <GuideEntityEmbed Entity="PlayerStationAiEmpty" Caption=""/>
   </Box>
@@ -49,7 +49,7 @@
     <GuideEntityEmbed Entity="DoorRemoteResearch" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]珍貴的門禁遙控器。 擁有無窮無盡的力量……[斜體][/顏色]
+    [color=#999999][italic]珍貴的門禁遙控器。 擁有無窮無盡的力量……[italic][/color]
   </Box>
 
 

@@ -1,9 +1,10 @@
+
 <Document>
-# Janitorial
+# 清潔工作
 
-You keep things clean, it's a rough job sometimes, but someone's gotta do it. This will walk you through the tools of the trade, and how they're used.
+你們負責維持環境整潔，這份工作有時很辛苦，但總得有人來做。 本文將帶您逐步了解這門手藝所需的工具，以及它們的用法。
 
-## Basic Equipment
+## 基本裝備
 <Box>
 <GuideEntityEmbed Entity="MopItem"/>
 <GuideEntityEmbed Entity="JanitorialTrolley"/>
@@ -18,40 +19,40 @@ You keep things clean, it's a rough job sometimes, but someone's gotta do it. Th
 <GuideEntityEmbed Entity="Mousetrap"/>
 </Box>
 
-## Additional Equipment
+## 附加設備
 <Box>
 <GuideEntityEmbed Entity="WetFloorSign"/>
-<GuideEntityEmbed Entity="Holoprojector" Caption="holosign projector"/>
+<GuideEntityEmbed Entity="Holoprojector" Caption="全息投影機"/>
 <GuideEntityEmbed Entity="LightReplacer"/>
 <GuideEntityEmbed Entity="WireBrush"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="AdvMopItem" Caption="Advanced mop, ask in R&D"/>
+<GuideEntityEmbed Entity="AdvMopItem" Caption="進階拖把，請向研發部門諮詢"/>
 </Box>
 
-## Fluid Acquisition and Disposal
+## 流體的取得與處置
 <Box>
 <GuideEntityEmbed Entity="WaterTankFull"/>
 <GuideEntityEmbed Entity="Sink"/>
 <GuideEntityEmbed Entity="FloorDrain"/>
 </Box>
 
-## Tidying up.
-Now, onto the (figurative) meat and potatoes. We're here to clean, right? Lets keep it simple. The main tools you'll be putting to use are the trusty mop, a trash bag, space cleaner, and one of the three different buckets.
+## 整理一下。
+現在，讓我們進入（比喻意義上的）正題。 我們是來打掃的，對吧？ 我們還是簡單點吧。 您將主要使用以下工具：那把可靠的拖把、一個垃圾袋、空間清潔劑，以及三種不同的水桶之一。
 
-Mopping: Fill your cart up with water, then, find some puddles! Wet your mop, and wipe them up, the resulting water puddle will dry after a short time. Don't forget the wet floor signs!
-- To drain your cart, drag it (with your cursor) onto a floor drain. This will dump all the fluids inside! Floor drains can usually be found somewhere in medical, the kitchen freezer, and of course, the janitor closet.
+拖地：先把水桶裝滿水，然後去找些水窪吧！ 將拖把弄濕，然後把水漬擦乾淨，這樣形成的水窪過一會兒就會乾了。 別忘了放「地面濕滑」的標誌！
+- 若要清空購物車，請將其（用游標）拖曳至地漏處。 這樣會將裡面的所有液體都倒出來！ 地漏通常會出現在醫療區、廚房冷凍櫃附近，當然還有清潔儲藏室裡。
 
-Trash: Place it in the bag directly, or hold it in your hand. Click -near- trash to scoop -all- nearby junk up, or click on each piece individually. Using the bag on a disposal will empty it.
-- Cargo might want some of your trash, it might be worthwhile to check in from time to time!
+垃圾：請直接放入袋中，或拿在手中。 點擊「垃圾桶附近」以將「所有」附近的垃圾一併撿起，或逐一點擊每件垃圾。 將垃圾袋套在垃圾桶上，即可將垃圾倒出。
+- Cargo 可能對你的垃圾感興趣，不妨偶爾去查看一下！
 
-Space Cleaner: This miracle spray can do two things, clean graffiti, and in a pinch, clean up puddles!
-- You might be able to get more of this from chemistry.
+Space Cleaner：這款神奇噴霧有雙重功效，既能清除塗鴉，在緊急情況下還能清理水窪！
+- 你或許能從化學中獲得更多這方面的知識。
 
-## Extra Duties
-A good janitor is always on the lookout for a bit more to do, and there are plenty of tools at your disposal. Keep an eye out for broken lights, help the chef take care of mice in the kitchen, and if you're feeling -really- generous, try to restock the vending machines and emergency closets around the station!
+## 額外職責
+一位優秀的清潔員總是會主動尋找更多工作來做，而您手邊也有許多工具可供運用。 請留意是否有燈泡損壞，協助主廚處理廚房裡的老鼠，如果覺得自己——真的——很慷慨的話，不妨試著為車站周邊的自動販賣機和應急儲物櫃補貨！
 
-##Additional Information:
+##補充資訊：
 <GuideReagentEmbed Reagent="SpaceCleaner"/>
 <GuideReagentEmbed Reagent="Ammonia"/>
 

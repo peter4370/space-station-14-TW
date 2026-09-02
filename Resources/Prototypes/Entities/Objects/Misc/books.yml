@@ -174,7 +174,7 @@
   id: BookEngineersHandbook
   parent: BaseGuidebook
   name: 工程師手冊 | engineer's handbook
-  description: 由 Nanotrasen 撰寫的一本關於工程學的手冊。 | A handbook about engineering written by Nanotrasen.
+  description: 由 Nanotrasen 撰寫的一本關於工程部的手冊。 | A handbook about engineering written by Nanotrasen.
   components:
   - type: Sprite
     layers:
@@ -235,7 +235,7 @@
 - type: entity
   id: BookHowToKeepStationClean
   parent: BaseGuidebook
-  name: 如何保持車站整潔 | how to keep station clean
+  name: 如何保持太空站整潔 | how to keep station clean
   description: 這本書非常乾淨。 | This book is very clean.
   components:
   - type: Sprite

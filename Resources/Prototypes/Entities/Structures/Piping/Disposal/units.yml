@@ -131,7 +131,7 @@
 - type: entity
   id: DisposalUnit
   parent: DisposalUnitBase
-  name: 處理裝置 | disposal unit
+  name: 廢棄物處理裝置 | disposal unit
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi

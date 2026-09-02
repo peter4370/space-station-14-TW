@@ -13,8 +13,8 @@
 
   電力監控電腦主要分為兩個部分：站點地圖與電力統計資料。
 
-  車站地圖顯示：
-  - 車站佈局圖，其中 [color=green]低[/color]、[color=yellow]中[/color] 及 [color=orange]高[/color] [textlink="電壓網路" link="VoltageNetworks"] 已被標示出來。
+  太空站地圖顯示：
+  - 太空站佈局圖，其中 [color=green]低[/color]、[color=yellow]中[/color] 及 [color=orange]高[/color] [textlink="電壓網路" link="VoltageNetworks"] 已被標示出來。
   - [textlink="所有 APC、SME 及變電站。" link="VoltageNetworks"]
   - 所有連接至該變電站的 [textlink="發電設施" link="發電機組"]（請注意，這些設施無需連接至電力網即可顯示）。
 
@@ -54,7 +54,7 @@
   - 輸出儲能，即目前正在放電的電池容量。
 
   請注意，此資訊僅適用於您所檢查的電壓網路。
-  一條 [color=green]低壓[/color] 電纜（通常僅供電給幾個房間）所顯示的統計數據，將與一條 [color=orange]高壓[/color] 電纜（供電範圍涵蓋整個車站）的統計數據不同。
+  一條 [color=green]低壓[/color] 電纜（通常僅供電給幾個房間）所顯示的統計數據，將與一條 [color=orange]高壓[/color] 電纜（供電範圍涵蓋整個太空站）的統計數據不同。
 
   這是一項值得記住的有用資訊，因為它能協助您釐清「這個房間有電，但那個房間卻沒電！」的原因。
 

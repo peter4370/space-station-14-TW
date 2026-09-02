@@ -14,7 +14,7 @@ pda-bound-user-interface-lock-uplink-title = 鎖定上行鏈路
 pda-bound-user-interface-lock-uplink-description = 防止任何人在未輸入代碼的情況下存取您的上行鏈路
 comp-pda-ui-menu-title = PDA
 comp-pda-ui-footer = 個人數位助理
-comp-pda-ui-station = 車站：[color=white]{ $station }[/color]
+comp-pda-ui-station = 太空站：[color=white]{ $station }[/color]
 comp-pda-ui-station-alert-level = 警報等級：[color={ $color }]{ $level }[/color]
 comp-pda-ui-station-alert-level-instructions = 說明：[color=white]{ $instructions }[/color]
 comp-pda-ui-station-time = 班次時長：[color=white]{ $time }[/color]

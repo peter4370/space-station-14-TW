@@ -14,7 +14,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommon
-  name: 共用加密金鑰 | common encryption key
+  name: 公頻加密金鑰 | common encryption key
   description: 任何人都可以使用的加密金鑰。 | An encryption key used by anyone.
   components:
   - type: EncryptionKey
@@ -209,7 +209,7 @@
   parent: [ EncryptionKey, BaseCivilianContraband ]
   id: EncryptionKeyService
   name: 服務加密金鑰 | service encryption key
-  description: 由服務人員使用的加密金鑰，其職責是確保車站人潮滿滿、旅客愉快且環境整潔。 | An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
+  description: 由服務人員使用的加密金鑰，其職責是確保太空站人潮滿滿、旅客愉快且環境整潔。 | An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
   components:
   - type: EncryptionKey
     channels:

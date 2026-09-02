@@ -14,13 +14,13 @@ head-rev-break-mindshield = 心智護盾植入體已被摧毀！
 ## Rev
 
 roles-antag-rev-name = 革命性的
-roles-antag-rev-objective = 你的目標是確保安全、服從革命領袖的命令，並透過消滅指揮部所有成員，協助他們接管車站。
+roles-antag-rev-objective = 你的目標是確保安全、服從革命領袖的命令，並透過消滅指揮部所有成員，協助他們接管太空站。
 rev-break-control = { $name } 已記起他們真正的效忠對象！
 rev-role-greeting =
     你是革命者。你的任務是保護革命領袖，並協助他們接管這座基地。
     革命者必須齊心協力，將「指揮部」的所有成員殺害、制服或轉化。
     革命萬歲！
-rev-briefing = 協助革命領袖們殺害、制伏或感化「指揮部」的所有成員，以接管這座空間站。
+rev-briefing = 協助革命領袖們殺害、制伏或感化「指揮部」的所有成員，以接管這座太空站。
 
 ## General
 

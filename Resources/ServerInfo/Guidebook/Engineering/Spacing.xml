@@ -1,24 +1,27 @@
 ﻿
 <Document>
-  # Spacing
-  Spacing is the most common form of atmospheric upset that can occur on the station.
+  # 間距
+  間距是該站最常見的大氣擾動形式。
 
-  While the damage that caused the spacing is often time-consuming to [textlink="fix" link="ExpandingRepairingStation"], the actual spacing problem can be quickly resolved by simply repressurizing the area.
+  雖然導致間隙形成的損壞通常需要耗費不少時間才能 [textlink="修復" link="ExpandingRepairingStation"]，但實際的間隙問題只需對該區域重新加壓，便能迅速解決。
 
-  Fixing spacing generally follows two simple steps:
+  修正間距通常只需遵循以下兩個簡單步驟：
 
-  1. Identify the area that has been spaced and [textlink="seal the hole." link="ExpandingRepairingStation"]
+  1. 找出已與太空隔離的區域，並 [textlink="封堵該孔洞。" link="ExpandingRepairingStation"]
 
-  - If you're having trouble finding the hole, you can carefully listen for the flow of air rushing by you, if air is currently leaking to space.
-  - Look for any holes underneath girders that may be hard to see.
+  —— 若您難以找到孔洞位置，可仔細聆聽是否有氣流從身旁呼嘯而過；若目前確實有空氣正洩漏至太空，便能藉此察覺。
+  - 檢查樑下方是否有任何不易察覺的孔洞。
 
-  2. Repressurize the area.
+  2. 讓該區域恢復加壓。
 
-  - [textlink="Air vents" link="AirVent"] enter pressure lockout in order not to lose more air to spacing, so you'll need to override the vents to repressurize the area. You can do this by setting the connected [textlink="air alarm" link="AirAlarms"] to fill, or by right-clicking on the vent and selecting 'Release pressure lock out' to manually override it temporarily.
+  - [textlink="通風口" link="AirVent"] 設定壓力鎖定，以免因間隙而造成更多空氣洩漏；因此，您需要強制開啟通風口以重新加壓該區域。 您可以透過將連接的 [textlink="空氣警報器" link="AirAlarms"] 設定為「填充」模式，或右鍵點擊通風口並選擇「解除壓力鎖定」，以暫時手動覆寫此設定。
 
-  ## Things to Avoid
-  - Keep in mind that while you have an infinite supply of [textlink="mined gas" link="GasMiningAndStorage"], it is not quick enough to fill up multiple rooms at once. Setting [textlink="air alarms" link="AirAlarms"] to fill first [italic]before[/italic] fixing the root problem will often lead to wasted time and gas.
+  ## 應避免的事項
+  - 請注意，雖然您擁有無限量的 [textlink="開採的氣體" link="GasMiningAndStorage"]，但其補充速度不足以同時填滿多個房間。 若先設定 [textlink="空氣警報器" link="AirAlarms"] 使氣壓先填滿 [italic]在[/italic] 解決根本問題之前，往往會導致時間與汽油的浪費。
 
-  - Leaving [textlink="air alarms" link="AirAlarms"] on the Fill mode unsupervised may lead to overpressuring a room, which can potentially harm crew if it gets out of hand.
+  - 若將 [textlink="空氣警報器" link="AirAlarms"] 維持在「填充模式」且無人監控，可能會導致房間內壓力過高，一旦失控，恐對機組人員造成傷害。
 
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

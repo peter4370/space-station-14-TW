@@ -10,7 +10,7 @@ emergency-shuttle-command-round-no = 無法延遲回合結束。
 
 ## Dock emergency shuttle
 
-cmd-dockemergencyshuttle-desc = 呼叫緊急接駁船，並將其與空間站對接……如果能辦到的話。
+cmd-dockemergencyshuttle-desc = 呼叫緊急接駁船，並將其與太空站對接……如果能辦到的話。
 cmd-dockemergencyshuttle-help = 用法：dockemergencyshuttle
 
 ## Launch emergency shuttle
@@ -21,8 +21,8 @@ cmd-launchemergencyshuttle-help = 用法：launchemergencyshuttle
 emergency-shuttle-left = 緊急接駁船已離開站台。預估 { $transitTime } 秒後，接駁船將抵達 CentComm。
 emergency-shuttle-launch-time = 緊急接駁船將於 { $consoleAccumulator } 秒後發射。
 emergency-shuttle-docked = 緊急接駁船已停靠在 { $direction } 站台，{ $location }。它將於 { $time } 秒後出發。{ $extended }
-emergency-shuttle-good-luck = 「緊急接駁車」無法找到車站。祝你好運。
-emergency-shuttle-nearby = 緊急接駁船無法找到有效的對接埠。它已透過空間跳躍抵達 { $direction } 空間站，該空間站位於 { $location }。它將於 { $time } 秒後離開。{ $extended }
+emergency-shuttle-good-luck = 「緊急接駁車」無法找到太空站。祝你好運。
+emergency-shuttle-nearby = 緊急接駁船無法找到有效的對接埠。它已透過空間跳躍抵達 { $direction } 太空站，該太空站位於 { $location }。它將於 { $time } 秒後離開。{ $extended }
 emergency-shuttle-extended = { " " }由於某些不可抗力因素，發射時間已延後。
 # Emergency shuttle console popup / announcement
 emergency-shuttle-console-no-early-launches = 「提前啟動」功能已停用

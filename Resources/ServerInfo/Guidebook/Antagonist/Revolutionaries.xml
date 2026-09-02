@@ -1,32 +1,33 @@
+
 <Document>
-  # Revolutionaries
+  # 革命者
 
   <Box>
-    [color=#999999][italic]"Viva la revolución!!"[/italic][/color]
+    [color=#999999][italic]「革命萬歲！！」[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="PosterContrabandRevolt" Caption=""/>
   </Box>
 
-  Revolutionaries are conversion antagonists sponsored by the [color=#ff0000]Syndicate[/color] who are tasked with taking control of the station. They have no fancy gimmicks or cheap tricks, they only have a cause and strength in numbers.
+  革命者是受 [color=#ff0000]辛迪加[/color] 資助的「轉化」敵對勢力，其任務是接管該空間站。 他們沒有花俏的花招或廉價的伎倆，只有一個信念，以及人多勢眾的力量。
 
-  ## Objectives
-  You must convert, cuff or kill all of the [textlink="Command staff" link="Command"] on station in no particular order.
+  ## 目標
+  您必須將駐紮在該站的所有 [textlink="指揮官" link="Command"] 予以轉化、戴上手銬或擊斃，順序不限。
 
-  Your objective is [bold]not to destroy the station[/bold], but [italic]to take it over[/italic], so try to minimize damage where possible.
+  你的目標是 [bold]不要摧毀該站[/bold]，而是 [italic]接管它[/italic]，因此請盡可能將損害降至最低。
 
-  [bold]The revolution will fail[/bold] if all of the [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] die, and all [color=red]Revolutionaries[/color] will de-convert if this happens.
+  如果所有 [bold] [color=#5e9cff]革命領袖[/color][/bold] 都陣亡，[bold]革命[/bold] 將會失敗，而一旦發生這種情況，所有 [color=red]革命者[/color] 都會放棄革命。
 
-  ## Headrevs & Conversion
-  [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] are chosen at the start of the shift and begin with a [color=cyan]flash[/color] and a pair of [color=cyan]sunglasses[/color].
+  ## 頭部革命者與轉化
+  [bold][color=#5e9cff]頭部革命者[/color][/bold] 會在輪班開始時被選中，並以 [color=cyan]閃光[/color] 和一副 [color=cyan]太陽眼鏡[/color] 登場。
 
   <Box>
     <GuideEntityEmbed Entity="Flash"/>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
   </Box>
 
-  You can convert crew members to your side by taking any [bold]flash[/bold] and attacking someone with it using [color=#ff0000]harm mode[/color].
-  However, [bold]you can't convert your target if they're wearing [color=cyan]flash protection[/color][/bold] such as sunglasses or a welding mask.
+  你可以透過取得任何 [bold]閃光[/bold]，並使用 [color=#ff0000]傷害模式[/color] 攻擊他人，來將船員拉攏到你這邊。
+  然而，[bold]若目標佩戴著 [color=cyan]防眩光裝備[/color][/bold]（例如太陽眼鏡或焊接面罩），你便無法使其皈依。
 
   <Box>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
@@ -34,20 +35,20 @@
     <GuideEntityEmbed Entity="ClothingHeadHatWelding"/>
   </Box>
 
-  Another obstacle in your way are those pesky [color=cyan]mindshield implanters[/color]. These will:
-  - Prevent the implanted person from being converted into a [color=red]Revolutionary[/color]
-  - De-convert Revolutionaries, and will make them no longer loyal to your cause
-  - [bold]Visibly be destroyed upon being implanted into a [color=#5e9cff]Head Revolutionary[/color][/bold], giving you away
-  - NOT protect against flash disorientation
+  你面前的另一項障礙，就是那些惱人的 [color=cyan]心智護盾植入者[/color]。 這些功能將：
+  - 防止被植入者轉變為 [color=red]革命者[/color]
+  - 使革命者脫離革命陣營，並使其不再忠於你的事業
+  - [bold]一旦被植入到 [color=#5e9cff]革命領袖[/color][/bold]時會當場被摧毀，從而暴露你的行蹤
+  - 無法抵禦閃光致迷
 
-  Assume all of [color=#cb0000]Security[/color] and [color=#1b67a5]Command[/color] are implanted with mindshields already, [bold]however they can be removed using an implant extractor, obtainable from the Medical department's MedFab.[/bold]
+  假設所有[color=#cb0000]安全[/color]與[color=#1b67a5]指揮[/color]人員均已植入心智防護罩，[bold]但可透過植入物萃取器移除，該裝置可從醫療部門的 MedFab 取得。[/bold]
 
   <Box>
     <GuideEntityEmbed Entity="MindShieldImplanter"/>
   </Box>
 
-  ## Revolutionary
-  A [color=red]Revolutionary[/color] is a crew member that has been converted by a [bold][color=#5e9cff]Head Revolutionary[/color][/bold].
+  ## 革命者
+  所謂 [color=red]革命者[/color]，是指已被 [bold][color=#5e9cff]革命領袖[/color][/bold] 感化的一名船員。
 
-  [bold][color=red]Revolutionaries[/color] can't convert people themselves,[/bold] but they're more than capable of doing dirty work and carrying out orders.
+  [bold][color=red]革命者[/color] 無法親自說服他人，[/bold]但他們完全有能力做骯髒的活計並執行命令。
 </Document>

@@ -50,7 +50,7 @@
 - type: entity
   id: ArrivalsShuttleTimer
   parent: Screen
-  name: 抵達螢幕 | arrivals screen
+  name: 抵港螢幕 | arrivals screen
   description: 顯示接駁車預計抵達時間。 | Displays time of arrivals shuttle ETA.
   components:
   - type: DeviceNetwork

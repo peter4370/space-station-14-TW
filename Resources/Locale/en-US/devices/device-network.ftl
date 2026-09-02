@@ -1,13 +1,13 @@
 # named frequencies
 device-frequency-prototype-name-atmos = 大氣裝置
-device-frequency-prototype-name-suit-sensors = 西裝感測器
-device-frequency-prototype-name-crew-monitor = 機組人員監控系統
+device-frequency-prototype-name-suit-sensors = 艙外服感測器
+device-frequency-prototype-name-crew-monitor = 船員監控系統
 device-frequency-prototype-name-lights = 智慧燈具
 device-frequency-prototype-name-mailing-units = 郵寄單位
 device-frequency-prototype-name-pdas = PDA
 device-frequency-prototype-name-fax = 傳真
 device-frequency-prototype-name-basic-device = 基本裝置
-device-frequency-prototype-name-cyborg-control = 機械人控制
+device-frequency-prototype-name-cyborg-control = 賽博格控制
 device-frequency-prototype-name-robotics-console = 機器人控制台
 device-frequency-prototype-name-turret = 哨兵砲塔
 device-frequency-prototype-name-turret-control = 哨兵砲塔控制

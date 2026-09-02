@@ -1,9 +1,9 @@
 station-event-ion-storm-start-announcement = 在站點附近偵測到離子風暴。請檢查所有由人工智慧控制的設備是否有異常。
 # Characters are randomly selected from the total list, meaning duplicates increase the odds that specific character is seen.
-ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={ $length } chars="!!@@###$$%^&*-_=+0011"/][/font]
+ion-storm-law-scrambled-number = [scramble rate=250 length={ $length } chars="!!@@###$$%^&*-_=+0011"/]
 ion-storm-you = 你
-ion-storm-the-station = 車站
-ion-storm-the-crew = 劇組
+ion-storm-the-station = 太空站
+ion-storm-the-crew = 船員
 ion-storm-the-job = THE { $job }
 ion-storm-clowns = 小丑
 ion-storm-heads = 各部門主管
@@ -13,8 +13,8 @@ ion-storm-adjective-things = { $adjective } 事物
 ion-storm-x-and-y = { $x } 且 { $y }
 # subjects can generally be threats or jobs or objects
 # thing is specified above it
-ion-storm-law-on-station = 該車站有 { ION-NUMBER-BASE($ion) } { ION-NUMBER-MOD($ion) } { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) }
-ion-storm-law-call-shuttle = 由於 { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) } 出現在車站，因此必須召回穿梭機
+ion-storm-law-on-station = 該太空站有 { ION-NUMBER-BASE($ion) } { ION-NUMBER-MOD($ion) } { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) }
+ion-storm-law-call-shuttle = 由於 { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) } 出現在太空站，因此必須召回穿梭機
 ion-storm-law-crew-are = { ION-WHO($ion) } 現為 { ION-NUMBER-BASE($ion) } { ION-NUMBER-MOD($ion) } { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) }
 ion-storm-law-subjects-harmful = { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) } 對船員有害
 ion-storm-law-must-harmful = 那些 { ION-MUST($ion) } 對船員有害的人

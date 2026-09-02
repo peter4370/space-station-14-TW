@@ -242,7 +242,7 @@
   id: SpectralLocatorUnpowered
   name: 光譜定位器 | spectral locator
   suffix: Always Powered
-  description: 看來是一台經過改裝的異常現象探測器。看起來非常古老。 | Appears to be a modified anomaly locator. Seems very old.
+  description: 看來是一台經過改裝的異常探測器。看起來非常古老。 | Appears to be a modified anomaly locator. Seems very old.
   components:
   - type: Sprite
     sprite: Objects/Fun/spectrallocator.rsi

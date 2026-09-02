@@ -49,7 +49,7 @@ construction-graph-tag-super-compact-ai-chip = 一款超小型人工智慧晶片
 # other
 construction-graph-tag-light-bulb = 燈泡
 construction-graph-tag-radio = 廣播
-construction-graph-tag-pipe = 瓦斯管
+construction-graph-tag-pipe = 氣體管
 construction-graph-tag-human-head = 人頭
 construction-graph-tag-bucket = 桶
 construction-graph-tag-borg-arm = 博格臂
@@ -93,7 +93,7 @@ construction-graph-tag-ripley-central-control-module = 里普利中央控制模�
 construction-graph-tag-ripley-peripherals-control-module = Ripley 周邊設備控制模組
 # structures
 construction-graph-tag-door-electronics-circuit-board = 車門電子電路板
-construction-graph-tag-firelock-electronics-circuit-board = Firelock 電子電路板
+construction-graph-tag-firelock-electronics-circuit-board = 防火閘電子電路板
 construction-graph-tag-conveyor-belt-assembly = 輸送帶總成
 construction-graph-tag-station-ai-core-electronics = 站用 AI 核心電子設備
 # tools
@@ -106,7 +106,7 @@ construction-graph-tag-mailing-unit-electronics = 郵寄裝置電子元件
 construction-graph-tag-intercom-electronics = 對講機電子設備
 construction-graph-tag-solar-assembly-parts = 太陽能組件零件
 construction-graph-tag-solar-tracker-electronics = 太陽能追蹤器電子元件
-construction-graph-tag-station-map-electronics = 車站地圖 電子產品
+construction-graph-tag-station-map-electronics = 太空站地圖 電子產品
 construction-graph-tag-signal-timer-electronics = 訊號計時器電子元件
 construction-graph-tag-screen-timer-electronics = 螢幕計時器電子元件
 construction-graph-tag-brig-timer-electronics = 囚室計時器電子元件

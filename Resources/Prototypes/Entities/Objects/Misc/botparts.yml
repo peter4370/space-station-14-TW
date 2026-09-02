@@ -36,7 +36,7 @@
 - type: entity
   id: LeftArmBorg
   parent: PartSilicon
-  name: 機械左臂 | cyborg left arm
+  name: 賽博格左臂 | cyborg left arm
   components:
   - type: Sprite
     state: borg_l_arm
@@ -51,7 +51,7 @@
 - type: entity
   id: RightArmBorg
   parent: PartSilicon
-  name: 機械右臂 | cyborg right arm
+  name: 賽博格右臂 | cyborg right arm
   components:
   - type: Sprite
     state: borg_r_arm
@@ -66,7 +66,7 @@
 - type: entity
   id: LeftLegBorg
   parent: PartSilicon
-  name: 機械左腿 | cyborg left leg
+  name: 賽博格左腿 | cyborg left leg
   components:
   - type: Sprite
     state: borg_l_leg
@@ -81,7 +81,7 @@
 - type: entity
   id: RightLegBorg
   parent: PartSilicon
-  name: 機械右腿 | cyborg right leg
+  name: 賽博格右腿 | cyborg right leg
   components:
   - type: Sprite
     state: borg_r_leg
@@ -96,7 +96,7 @@
 - type: entity
   id: LightHeadBorg
   parent: PartSilicon
-  name: 機械人頭部 | cyborg head
+  name: 賽博格頭部 | cyborg head
   components:
   - type: Sprite
     state: borg_head
@@ -110,7 +110,7 @@
 - type: entity
   id: TorsoBorg
   parent: PartSilicon
-  name: 機械人軀幹 | cyborg torso
+  name: 賽博格軀幹 | cyborg torso
   components:
   - type: Sprite
     state: borg_chest

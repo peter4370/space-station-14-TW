@@ -158,7 +158,7 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowRadar
-  name: 批量掃描器介面 | Mass Scanner Interface
+  name: 質量掃描器介面 | Mass Scanner Interface
   description: 檢視批次掃描器介面。 | View a Mass Scanner Interface.
   components:
   - type: Action

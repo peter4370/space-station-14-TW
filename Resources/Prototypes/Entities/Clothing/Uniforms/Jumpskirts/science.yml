@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtScientist
-  name: 科學家跳跳裙 | scientist jumpskirt
+  name: 科學家連身裙 | scientist jumpskirt
   description: 它由一種特殊纖維製成，能提升他人對穿戴者的智商印象，同時削弱其個人道德觀。上面印有標誌，表明穿戴者是一名科學家。 | It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
   components:
   - type: Sprite

@@ -143,7 +143,7 @@
 - type: entity
   parent: [ TableBase, StructureHealthFurniture ]
   id: Table
-  name: 表格 | table
+  name: 桌子 | table
   description: 一塊方形金屬片，立於四條金屬腳上。 | A square piece of metal standing on four metal legs.
   components:
   - type: Sprite
@@ -508,7 +508,7 @@
 - type: entity
   parent: [ TableBase, StructureHealthFurniture ]
   id: TableWeb
-  name: 網頁表格 | web table
+  name: 網格桌子 | web table
   description: 使用起來非常順滑，而且耐用程度超乎預期。 | Really smooth and surprisingly durable.
   components:
   - type: Damageable
@@ -544,7 +544,7 @@
 - type: entity
   parent: [ TableBase, StructureHealthFurniture ]
   id: TableXeno
-  name: xeno 表格 | xeno table
+  name: xeno桌子 | xeno table
   description: 我不會把銀器放上去。 | I wouldn't put the silverware on it.
   components:
   - type: Sprite
@@ -820,7 +820,7 @@
 - type: entity
   parent: [ TableBase, BaseStructureHealth ]
   id: TableDebug
-  name: 表格 | table
+  name: 桌子 | table
   description: 快穿上那些程式設計師襪子吧！！ | PUT ON THEM CODERSOCKS!!
   suffix: DEBUG
   components:

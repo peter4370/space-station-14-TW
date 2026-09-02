@@ -89,7 +89,7 @@
   name: L6C ROW | L6C ROW
   id: WeaponLightMachineGunL6C
   parent: BaseItem
-  description: 一款供機械人使用的 L6 SAW 機槍。透過內建的彈藥製造器，能即時製造 .30 口徑步槍彈藥，且該製造器會緩慢地自動充電。 | A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 一款供賽博格使用的 L6 SAW 機槍。透過內建的彈藥製造器，能即時製造 .30 口徑步槍彈藥，且該製造器會緩慢地自動充電。 | A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
     - type: Gun
       minAngle: 4

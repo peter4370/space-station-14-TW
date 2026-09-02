@@ -117,7 +117,7 @@
       spawnGas: Tritium
 
 - type: entity
-  name: frezon 氣體礦機 | frezon gas miner
+  name: Frezon 氣體礦機 | frezon gas miner
   parent: GasMinerBase
   id: GasMinerFrezon
   components:

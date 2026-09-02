@@ -5,7 +5,7 @@ ghost-role-component-default-rules =
     你可以記住關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
     你絕對[color=red]不[/color]能記住前世角色的名字、外貌等資訊。
 ghost-role-information-nonantagonist-rules =
-    你是 [color={ role-type-crew-aligned-alternate-color }] [bold]{ role-type-crew-aligned-name }[/bold][/color]。原則上你不應試圖傷害空間站及其船員。
+    你是 [color={ role-type-crew-aligned-alternate-color }] [bold]{ role-type-crew-aligned-name }[/bold][/color]。原則上你不應試圖傷害太空站及其船員。
     你不記得自己前世的任何事，也不記得身為幽靈時學到的任何東西。
     你可以記得關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
     你絕對 [color=red]不[/color]能記得，例如你前一角色的名字、外貌等。
@@ -20,7 +20,7 @@ ghost-role-information-antagonist-rules =
     你可以記住關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
     你絕對 [color=red]不[/color]能記住，例如你前一個角色的名字、外貌等。
 ghost-role-information-rules-team-antagonist =
-    你是個 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color]。你的意圖很明顯，且對空間站及其乘組人員造成危害。
+    你是個 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color]。你的意圖很明顯，且對太空站及其乘組人員造成危害。
     你必須 [bold]與團隊合作[/bold]，或遵循團隊領導者的合理指示。
     你完全不記得前世的事，也不記得身為幽靈時所學到的任何知識。
     你可以記住關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
@@ -56,7 +56,7 @@ ghost-role-information-cognizine-description = 透過「認知素」的魔力而
 ghost-role-information-hamster-name = 倉鼠
 ghost-role-information-hamster-description = 一團愛發牢騷的小毛球。
 ghost-role-information-hamlet-name = 倉鼠哈姆雷特
-ghost-role-information-hamlet-description = 住在車站橋下，脾氣有點暴躁，而且總是餓得不行。
+ghost-role-information-hamlet-description = 住在太空站橋下，脾氣有點暴躁，而且總是餓得不行。
 ghost-role-information-slimes-name = 史萊姆
 ghost-role-information-slimes-description = 一隻平凡的史萊姆，沒有特別的需求或興趣。你對他人很友善。
 ghost-role-information-angry-slimes-name = 史萊姆
@@ -78,13 +78,13 @@ ghost-role-information-monkey-description = 噢噢！
 ghost-role-information-kobold-name = 科博爾德
 ghost-role-information-kobold-description = 就當個小精靈吧，對人吼叫，然後乞討肉吃！
 ghost-role-information-rat-king-name = 老鼠王
-ghost-role-information-rat-king-description = 你是老鼠王，你感興趣的只有食物、食物，還有更多食物。為了食物而與車站對抗吧。我剛才說過你對食物感興趣嗎？
+ghost-role-information-rat-king-description = 你是老鼠王，你感興趣的只有食物、食物，還有更多食物。為了食物而與太空站對抗吧。我剛才說過你對食物感興趣嗎？
 ghost-role-information-rat-servant-name = 老鼠僕人
 ghost-role-information-rat-servant-description = 你是老鼠僕從。你必須服從國王的命令。
 ghost-role-information-salvage-carp-name = 打撈沉船上的太空鯉魚
 ghost-role-information-salvage-carp-description = 守住那艘打撈殘骸中的戰利品！
 ghost-role-information-sentient-carp-name = 有知覺的鯉魚
-ghost-role-information-sentient-carp-description = 幫忙讓龍把鯉魚傾瀉到車站裡吧！
+ghost-role-information-sentient-carp-description = 幫忙讓龍把鯉魚傾瀉到太空站裡吧！
 ghost-role-information-willow-name = 袋鼠威洛
 ghost-role-information-willow-description = 你是一隻名叫威洛的袋鼠！威洛喜歡打拳擊。
 ghost-role-information-honkbot-name = Honkbot
@@ -94,7 +94,7 @@ ghost-role-information-jonkbot-description = 一個純粹邪惡的人造生物�
 ghost-role-information-mimebot-name = Mimebot
 ghost-role-information-mimebot-description = 「默劇機器人」，要像默劇演員那樣表現，但不要像「灰潮」那樣行事。
 ghost-role-information-supplybot-name = SupplyBot
-ghost-role-information-supplybot-description = 在車站周邊配送貨物。
+ghost-role-information-supplybot-description = 在太空站周邊配送貨物。
 ghost-role-information-space-bear-name = 太空熊
 ghost-role-information-space-bear-description = 你的肚子咕嚕咕嚕叫，而這些人看起來真的超誘人……真是場盛宴啊！
 # Still exists as a commented out reference for Tropico. Keeping it around. -TsjipTsjip, 2024-06-20
@@ -117,11 +117,11 @@ ghost-role-information-space-dragon-dungeon-rules = 你對所有地下城怪物�
 ghost-role-information-cluwne-name = Cluwne
 ghost-role-information-cluwne-description = 成為一個可憐的「克盧恩」，你人生唯一的目標就是從痛苦中尋求解脫（通常是被毆打致死）。「克盧恩」並非反派，但可能會進行自衛。船員可以隨意殺害「克盧恩」。
 ghost-role-information-skeleton-pirate-name = 骷髏海盜
-ghost-role-information-skeleton-pirate-description = 製造混亂，並在車站中搜刮寶藏。
+ghost-role-information-skeleton-pirate-description = 製造混亂，並在太空站中搜刮寶藏。
 ghost-role-information-skeleton-biker-name = 骷髏騎士
 ghost-role-information-skeleton-biker-description = 開著你那輛帥氣的座駕四處兜風吧。
 ghost-role-information-closet-skeleton-name = 衣櫥裡的骷髏
-ghost-role-information-closet-skeleton-description = 你可說是這座空間站中最資深成員之一！要麼重拾舊職，要麼掀起一場混亂！這個世界由你來塑造。
+ghost-role-information-closet-skeleton-description = 你可說是這座太空站中最資深成員之一！要麼重拾舊職，要麼掀起一場混亂！這個世界由你來塑造。
 ghost-role-information-remilia-name = 雷米莉亞，牧師的使魔
 ghost-role-information-remilia-description = 聽從並服從隨軍牧師的指示。吃水果。在別人耳邊大聲尖叫，然後把這當作回聲定位。
 ghost-role-information-cerberus-name = 刻耳柏洛斯，邪惡的使魔
@@ -180,22 +180,22 @@ ghost-role-information-syndicate-monkey-reinforcement-name = 「辛迪加猴子�
 ghost-role-information-syndicate-monkey-reinforcement-description = 有人需要增援。身為一隻受過訓練的猴子，你將協助他們。
 ghost-role-information-syndicate-kobold-reinforcement-name = 「辛迪加」科博爾德特工
 ghost-role-information-syndicate-kobold-reinforcement-description = 有人需要增援。身為受過訓練的科博爾德，你將伸出援手。
-ghost-role-information-syndicate-cyborg-assault-name = 「辛迪加突擊」機械人
-ghost-role-information-syndicate-cyborg-saboteur-name = 「辛迪加」破壞者機械人
+ghost-role-information-syndicate-cyborg-assault-name = 辛迪加突擊賽博格
+ghost-role-information-syndicate-cyborg-saboteur-name = 辛迪加破壞賽博格
 ghost-role-information-syndicate-cyborg-description = 「辛迪加」需要增援。身為一臺冷酷無情的矽基殺戮機器，你將協助他們。
-ghost-role-information-derelict-engineering-cyborg-name = 廢棄工程師機械人
-ghost-role-information-derelict-engineering-cyborg-description = 你是一名在太空中迷路的工程師型機械人。在經歷了多年的離子風暴侵襲後，你發現自己身處一座太空站附近。
-ghost-role-information-derelict-cyborg-name = 廢棄的通用型機械人
-ghost-role-information-derelict-cyborg-description = 你是一名在太空中迷路的普通機械人。經過多年暴露在離子風暴中，你發現自己身處一座太空站附近。
-ghost-role-information-derelict-janitor-cyborg-name = 被遺棄的清潔工機械人
-ghost-role-information-derelict-janitor-cyborg-description = 你是一名在太空中迷路的清潔工機器人。經過多年暴露在離子風暴中，你發現自己身處一座太空站附近。
+ghost-role-information-derelict-engineering-cyborg-name = 廢棄的工程型賽博格
+ghost-role-information-derelict-engineering-cyborg-description = 你是一名在太空中迷路的工程型賽博格。在經歷了多年的離子風暴侵襲後，你發現自己身處一座太空站附近。
+ghost-role-information-derelict-cyborg-name = 廢棄的通用型賽博格
+ghost-role-information-derelict-cyborg-description = 你是一名在太空中迷路的普通賽博格。經過多年暴露在離子風暴中，你發現自己身處一座太空站附近。
+ghost-role-information-derelict-janitor-cyborg-name = 廢棄的清潔型賽博格
+ghost-role-information-derelict-janitor-cyborg-description = 你是一名在太空中迷路的清潔型賽博格。經過多年暴露在離子風暴中，你發現自己身處一座太空站附近。
 ghost-role-information-derelict-medical-cyborg-name = 廢棄的醫療型賽博格
-ghost-role-information-derelict-medical-cyborg-description = 你是一名迷失在太空中的醫療型機械人。在經歷了多年的離子風暴侵襲後，你發現自己身處一座太空站附近。
+ghost-role-information-derelict-medical-cyborg-description = 你是一名迷失在太空中的醫療型賽博格。在經歷了多年的離子風暴侵襲後，你發現自己身處一座太空站附近。
 ghost-role-information-derelict-mining-cyborg-name = 廢棄打撈機械人
 ghost-role-information-derelict-mining-cyborg-description = 你是一台在太空中迷路的打撈型機器人。在經歷了多年的離子風暴侵襲後，你發現自己身處一座太空站附近。
-ghost-role-information-derelict-syndicate-assault-cyborg-name = 「廢墟聯盟」突擊機械人
-ghost-role-information-derelict-syndicate-assault-cyborg-description = 你是一台迷失在太空中的早期型號「辛迪加」突擊機械人。在經歷了多年的離子風暴輻射後，你發現自己身處一處太空站附近。
-ghost-role-information-security-name = 安保區
+ghost-role-information-derelict-syndicate-assault-cyborg-name = 廢棄的辛迪加突擊賽博格
+ghost-role-information-derelict-syndicate-assault-cyborg-description = 你是一台迷失在太空中的早期型號「辛迪加」突擊賽博格。在經歷了多年的離子風暴輻射後，你發現自己身處一處太空站附近。
+ghost-role-information-security-name = 安保部
 ghost-role-information-security-description = 你是安全特遣隊的一員，但似乎陷入了一場詭異的處境……
 ghost-role-information-medical-name = 醫療
 ghost-role-information-medical-virologist-name = 病毒學家
@@ -204,7 +204,7 @@ ghost-role-information-medical-dentist-name = 牙醫
 ghost-role-information-medical-description = 您是一位醫療專業人員，但似乎陷入了一種奇怪的處境……
 ghost-role-information-cargo-name = 貨物部
 ghost-role-information-cargo-description = 你正參與一項物流任務，但似乎陷入了一種奇怪的處境……
-ghost-role-information-engineering-name = 工程學
+ghost-role-information-engineering-name = 工程部
 ghost-role-information-engineering-description = 你正在執行一項工程任務，但似乎陷入了一種奇怪的處境……
 ghost-role-information-science-name = 科學
 ghost-role-information-science-description = 你是科學團隊的一員，但似乎陷入了一種奇怪的處境……
@@ -217,19 +217,19 @@ ghost-role-information-command-description = 你是指揮部的一員，但似�
 ghost-role-information-lost-challenge-commander-name = 休假中的指揮官
 ghost-role-information-lost-challenge-commander-description = 你是另一艘星艦的指揮組成員，獲准與一名貨艙技術人員一同上岸休假。
 ghost-role-information-lost-challenge-commander-rules =
-    你對這座空間站並無敵意，請採取必要措施確保自身生存。
+    你對這座太空站並無敵意，請採取必要措施確保自身生存。
     你完全不記得前世的事，也不記得身為幽靈時學過的一切。
     你可以記住關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
     你絕對[color=red]不[/color]能記住，例如你前一個角色的名字、外貌等。
 ghost-role-information-lost-challenge-cargo-technican-name = 貨運司機
 ghost-role-information-lost-challenge-cargo-technican-description = 你是一名貨運技術人員，獲准與其中一位指揮官一同上岸休假。
 ghost-role-information-lost-challenge-cargo-technican-rules =
-    你對這座空間站並無敵意，請採取必要措施確保自身生存。
+    你對這座太空站並無敵意，請採取必要措施確保自身生存。
     你完全不記得前世的事，也不記得身為幽靈時學過的一切。
     你可以記住關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
     你絕對[color=red]不[/color]能記住，例如你前一個角色的名字、外貌等。
 ghost-role-information-disaster-victim-name = 災民
-ghost-role-information-disaster-victim-description = 你是在一艘逃生艙中獲救的，那艘艙來自另一座遭遇慘烈命運的空間站。或許你會被發現並獲救。
+ghost-role-information-disaster-victim-description = 你是在一艘逃生艙中獲救的，那艘艙來自另一座遭遇慘烈命運的太空站。或許你會被發現並獲救。
 ghost-role-information-syndie-disaster-victim-name = 「辛迪加」災難受害者
 ghost-role-information-syndie-disaster-victim-description = 你是來自某個聯盟站點的常客。不幸的是，一艘撤離艙將你拋入敵方區域……
 ghost-role-information-syndie-soldier-name = 黑手黨士兵
@@ -244,7 +244,7 @@ ghost-role-information-pirate-name = 太空海盜
 ghost-role-information-pirate-description = 哎唷，夥計！收集一些酷炫的戰利品吧，但務必避開保安和打撈隊！
 ghost-role-information-pirate-captain-name = 太空海盜船長
 ghost-role-information-pirate-captain-description = 哎喲，老兄！這裡由你做主，得想個辦法，不管用什麼手段，都要把那筆豐厚的戰利品到手。只要記住避開保安，並把戰利品打撈上來就行！
-ghost-role-information-artifact-name = 有知覺的遺物
+ghost-role-information-artifact-name = 有知覺的神器
 ghost-role-information-artifact-description = 實現你那詭異的念頭。無論是為了善還是為了惡，都強行啟動你的節點吧。
 ghost-role-information-tomatokiller-name = 番茄殺手
 ghost-role-information-tomatokiller-description = 這顆小番茄將伴隨這位植物學家度過餘生……也就是說，還有幾分鐘。
@@ -255,7 +255,7 @@ ghost-role-information-gingerbread-description =
 ghost-role-information-mothership-core-name = 母艦核心
 ghost-role-information-mothership-core-desc = 你是外星博格母艦的核心，請將任何被帶到你面前的腦部轉化為博格，協助牠們繁衍後代。
 ghost-role-information-xenoborg-name = Xenoborg
-ghost-role-information-xenoborg-desc = 一個奇特的賽博格，其設計目的是透過將任何有知覺的生物轉化為異種賽博格，來複製自身並接管這座空間站。
+ghost-role-information-xenoborg-desc = 一個奇特的賽博格，其設計目的是透過將任何有知覺的生物轉化為異種賽博格，來複製自身並接管這座太空站。
 ghost-role-information-wizard-name = 巫師
 ghost-role-information-wizard-desc = 你真是個巫師！向電台展示你的魔法有多厲害吧。
 ghost-role-information-emotional-support-scurret-name = 情感支持 斯庫雷特

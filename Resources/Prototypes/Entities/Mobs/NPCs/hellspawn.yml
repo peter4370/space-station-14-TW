@@ -13,8 +13,8 @@
   - type: GhostRole
     allowMovement: true
     makeSentient: true
-    name: 幽靈角色資訊－地獄之子－名稱 | ghost-role-information-hellspawn-name
-    description: 幽靈角色資訊－地獄之子－描述 | ghost-role-information-hellspawn-description
+    name: ghost-role-information-hellspawn-name | ghost-role-information-hellspawn-name
+    description: ghost-role-information-hellspawn-description | ghost-role-information-hellspawn-description
     rules: ghost-role-information-antagonist-rules
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist

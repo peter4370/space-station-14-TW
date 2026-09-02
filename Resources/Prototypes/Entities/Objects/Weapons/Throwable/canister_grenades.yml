@@ -86,7 +86,7 @@
 - type: entity
   parent: [ BaseEngineeringContraband, VolatileGrenadeBase, TimerGrenadeBase ] # Prevent inheriting DeleteOnTrigger from SmokeGrenade
   id: AirGrenade
-  name: 癱瘓手榴彈 | air grenade
+  name: 空氣手榴彈 | air grenade
   description: 一種特殊的固態化學手榴彈，用於將標準空氣迅速釋放至特定區域。可填滿多達 30 格！ | A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!
   components:
   - type: Sprite

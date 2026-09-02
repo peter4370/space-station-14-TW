@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabCmo
-  name: 首席醫療官的實驗室外套 | chief medical officer's lab coat
-  description: 專為首席醫療官量身訂製的藍色實驗袍，能提供更佳的防護，抵禦化學物質潑灑及輕微割傷。 | Custom made blue lab coat for the Chief Medical Officer, offers improved protection against chemical spills and minor cuts.
+  name: 醫務總管的實驗室外套 | chief medical officer's lab coat
+  description: 專為醫務總管量身訂製的藍色實驗袍，能提供更佳的防護，抵禦化學物質潑灑及輕微割傷。 | Custom made blue lab coat for the Chief Medical Officer, offers improved protection against chemical spills and minor cuts.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_cmo.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCmo]
   id: ClothingOuterCoatLabCmoOpened
-  name: 首席醫療官的實驗室外套 | chief medical officer's lab coat
+  name: 醫務總管的實驗室外套 | chief medical officer's lab coat
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase

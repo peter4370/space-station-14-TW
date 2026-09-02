@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStructure
   id: TableBase
-  name: 表格 | table
+  name: 桌子 | table
   description: 一塊方形金屬片，立於四條金屬腳上。 | A square piece of metal standing on four metal legs.
   components:
   - type: Animateable

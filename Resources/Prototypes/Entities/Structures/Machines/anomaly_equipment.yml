@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine, StructureHealthMachine ]
   id: MachineAnomalyVessel
-  name: 異常船隻 | anomaly vessel
-  description: 一個能夠利用異常現象的掃描結果，並將其轉化為研究資料的容器。 | A container able to harness a scan of an anomaly and turn it into research data.
+  name: 異常載體 | anomaly vessel
+  description: 一個能夠利用異常的掃描結果，並將其轉化為研究資料的容器。 | A container able to harness a scan of an anomaly and turn it into research data.
   components:
   - type: Sprite
     noRot: true
@@ -89,7 +89,7 @@
 - type: entity
   id: MachineAnomalyVesselExperimental
   parent: MachineAnomalyVessel
-  name: 實驗性異常船隻 | experimental anomaly vessel
+  name: 實驗性異常載體 | experimental anomaly vessel
   description: 一種先進的異常載體，雖能發揮更大的研究潛力，但代價是波動性增加，且會向環境中釋放低劑量的放射性衰變物質。 | An advanced anomaly vessel capable of greater research potential at the cost of increased volatility and low-level radioactive decay into the environment.
   components:
   - type: Sprite

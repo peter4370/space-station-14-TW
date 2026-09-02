@@ -1,84 +1,85 @@
+
 <Document>
-  # Space Ninja
-  
+  # 太空忍者
+
   <Box>
-    [color=#999999][italic]"Spider of the night, silent is my bite."[/italic][/color]
+    [color=#999999][italic]「夜之蜘蛛，我的叮咬悄無聲息。」[/italic][/color]
   </Box>
 
-  You are an elite mercenary that [color=#66FF00]The Spider Clan[/color] has sent to wreak all kinds of havoc on the station. You are equipped to keep it silent-but-deadly.
+  你是一名精英傭兵，由 [color=#66FF00]蜘蛛一族[/color] 派遣前來，在空間站內製造各種混亂。 你已做好準備，讓它保持「沉默卻致命」。
 
-  Whether you get bloody or stay out of trouble, your discipline has taught you that [italic]your objectives must be at least attempted[/italic]. For honor!
+  無論你是否受傷流血，或是成功避開麻煩，你的紀律都教會你：[italic]你必須至少嘗試達成你的目標[/italic]。 為了榮譽！
 
-  ## Standard Equipment
-  You begin implanted with a [color=cyan]death acidifier[/color], so if you are captured or KIA all your precious equipment is kept out of enemy hands.
+  ## 標準裝備
+  你一上陣便已植入 [color=cyan]死亡酸化器[/color]，因此若你被俘或陣亡，所有珍貴的裝備都將不會落入敵手。
 
-  Your bag is full of [bold]tools[/bold] and a [bold]survival box[/bold]. You also carry a [color=cyan]jetpack[/color] and a [color=cyan]pinpointer[/color] that will lead you to the station.
+  你的背包裡裝滿了 [bold]工具[/bold] 和一個 [bold]求生箱[/bold]。 你還隨身攜帶一個 [color=cyan]噴射背包[/color] 和一個 [color=cyan]精確定位器[/color]，它們將引導你前往該站。
 
   <Box>
     <GuideEntityEmbed Entity="JetpackBlack"/>
     <GuideEntityEmbed Entity="PinpointerStation"/>
   </Box>
-  
-  ## Your Suit
-  
-  <Box>
-    <GuideEntityEmbed Entity="ClothingEyesVisorNinja" Caption="your visor"/>
-    <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Caption="your suit"/>
-    <GuideEntityEmbed Entity="ClothingShoesSpaceNinja" Caption="your boots"/>
-  </Box>
 
-  Your single most important item is [color=cyan]your suit[/color], without it none of your abilities would work.
-  Your suit requires power to function, which is supplied by its [bold]internal battery[/bold]. It can be replaced, and [italic]high capacity batteries[/italic] mean a [italic]highly effective ninja[/italic].
-
-  [bold]You can recharge your internal battery directly[/bold] by using [color=cyan]your gloves[/color]. You can see the current charge by examining the suit or checking the nifty battery alert on your screen.
-
-  Your outfit also includes [color=cyan]special boots[/color] that keep you agile, upright and grounded without using energy. You've also got flash protection thanks to your [color=cyan]visor[/color].
-
-  ## Ninja Gloves
+  ## 您的西裝
 
   <Box>
-    <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="your gloves"/>
+    <GuideEntityEmbed Entity="ClothingEyesVisorNinja" Caption="您的遮陽板"/>
+    <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Caption="您的西裝"/>
+    <GuideEntityEmbed Entity="ClothingShoesSpaceNinja" Caption="你的靴子"/>
   </Box>
 
-  [color=#66FF00]These bad boys are your bread and butter.[/color] They are made from [bold]insulated nanomachines[/bold] to allow you to gracefully break into restricted areas without leaving behind fingerprints.
+  你最重要的裝備就是 [color=cyan]你的戰袍[/color]，沒有它，你的所有能力都將無法發揮。
+  這套裝甲需要電力才能運作，電力由其 [bold]內建電池[/bold] 供應。 它可以更換，而 [italic]大容量電池[/italic] 意味著 [italic]一位極其高效的忍者[/italic]。
 
-  You have an action to toggle gloves. When the gloves are turned on, they allow you to use [bold]special abilities[/bold], which are triggered by interacting with things with an empty hand and with combat mode disabled.
+  [bold]您可以直接使用 [color=cyan]手套[/color] 為內建電池充電[/bold]。 您可以透過查看牌面，或查看螢幕上那項方便的電量提示，來確認當前的電量。
 
-  Your glove abilities include:
-  - Emagging doors and airlocks.
-  - Draining power from [bold]transformers[/bold] such as APCs, substations, or SMESes (higher voltage transformers drain more efficiently).
-  - Applying an electrical shock to a mob, stunning and slightly damaging them.
-  - Tampering with [bold]station equipment[/bold] to complete [color=#66FF00]objectives[/color].
+  你的裝備中還包含一雙 [color=cyan]特殊靴子[/color]，能讓你在不消耗能量的情況下保持敏捷、挺直身姿並穩穩站立。 此外，多虧了您的 [color=cyan]遮陽板[/color]，您還享有防閃光保護。
 
-  ## Energy Katana
+  ## 忍者手套
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="你的手套"/>
+  </Box>
+
+  [color=#66FF00]這些小傢伙可是你的飯碗.[/color] 它們由 [bold]絕緣奈米機器人[/bold] 製成，讓你能不留指紋地優雅地闖入限制區域。
+
+  你有一個用來切換手套的動作。 當手套啟動時，便能讓你使用 [bold]特殊能力[/bold]，這些能力是在空手與物品互動，且戰鬥模式已關閉的情況下觸發的。
+
+  您的手套能力包括：
+  - 使門和氣閘失效。
+  - 從 [bold]變壓器[/bold]（例如 APC、變電站或 SMES）汲取電力（高電壓變壓器的汲取效率更高）。
+  - 對怪物施加電擊，使其暈眩並造成少量傷害。
+  - 篡改 [bold]站內設備[/bold] 以完成 [color=#66FF00]任務目標[/color]。
+
+  ## 能量刀
 
   <Box>
     <GuideEntityEmbed Entity="EnergyKatana"/>
   </Box>
 
-  [bold]You have sworn yourself to the sword and refuse to use firearms.[/bold] Luckily, you've got a pretty cool sword.
+  [bold]你已立誓效忠於劍，並拒絕使用槍械。[/bold] 幸好，你有一把相當酷炫的劍。
 
-  Your [color=cyan]energy katana[/color] hurts plenty and can be [bold]recalled at will[/bold] at the cost of suit power. The farther away it is from you, the more energy required to recall it.
+  你的 [color=cyan]能量刀[/color] 攻擊力極強，且能以消耗裝甲能量為代價，[bold]隨心所欲地召回[/bold]。 它離你越遠，要回想起來所需的能量就越多。
 
-  While in hand you may also [color=cyan]teleport[/color] to anywhere that you can see, [bold]including through windows[/bold]. The charges required to do this regenerate slowly, so keep a charge or two spare in case you need a quick getaway.
+  持有此道具時，你也可以 [color=cyan]瞬間移動[/color] 到任何你能看見的地方，[bold]包括穿過窗戶[/bold]。 執行此動作所需的電量恢復速度較慢，因此請預留一兩格電量，以備需要迅速脫身之需。
 
-  ## Spider Clan Charge
-  
+  ## 蜘蛛氏族衝鋒
+
   <Box>
     <GuideEntityEmbed Entity="SpiderCharge"/>
   </Box>
-  
-  This is a [color=cyan]modified C-4 explosive[/color] which can be found in your pocket. Creates a large explosion but [bold]must be armed in your target area[/bold] as it is one of your objectives.
 
-  It can't be activated manually, so simply plant it on a wall near your assigned target. Choose wisely, it can't be unstuck once planted.
+  這是一種 [color=cyan]經改良的 C-4 炸藥[/color]，可於你的口袋中找到。 會引發一場大規模爆炸，但[bold]必須在目標區域內引爆[/bold]，因為這是你的目標之一。
 
-  ## Objectives
+  它無法手動啟動，因此只需將它放置在指定目標附近的牆上即可。 請謹慎選擇，一旦種下就無法拔除了。
 
-  - Download \[9-13\] research nodes: Use your gloves on an R&D server with a number of unlocked technologies. You may have to unlock technologies yourself if there aren't enough to steal already.
-  - Doorjack \[15-40\] doors on the station: Use your gloves to emag a number of doors.
-  - Detonate the spider clan charge: Plant your spider clan charge at the specified location and watch it go boom!
-  - Call in a [textlink="threat" link="MinorAntagonists"]: Use your gloves on a communications console.
-  - Set everyone to wanted: Use your gloves on a criminal records console.
-  - Survive: Don't die.
+  ## 目標
+
+  - 下載 \[9-13\] 個研究節點：在具備多項已解鎖技術的 RnD 伺服器上使用您的手套。 如果現有的技術還不夠多，你可能得自己解鎖技術。
+  - 門鎖解除 \[15-40\] 站內門：戴上手套，對若干扇門進行電磁鎖解除。
+  - 引爆蜘蛛族炸彈：將蜘蛛族炸彈放置在指定位置，然後看著它轟然炸開吧！
+  - 呼叫 [textlink="威脅" link="次要反派角色"]: 用手套操作通訊控制台。
+  - 將所有人列為通緝對象：使用手套操作犯罪紀錄控制台。
+  - 生存：不要死。
 
 </Document>

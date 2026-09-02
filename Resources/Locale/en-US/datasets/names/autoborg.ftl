@@ -1,7 +1,7 @@
 names-autoborg-dataset-1 = Autoburger 助手
 names-autoborg-dataset-2 = 鮑伯
 names-autoborg-dataset-3 = 喬
-names-autoborg-dataset-4 = 叛變的機械人
+names-autoborg-dataset-4 = 叛變的賽博格
 names-autoborg-dataset-5 = 這是 MALF
 names-autoborg-dataset-6 = { "{ AINAME } Minion {###}" }
 names-autoborg-dataset-7 = .b 求救 EMAGGED

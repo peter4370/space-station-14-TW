@@ -12,13 +12,13 @@
     <GuideEntityEmbed Entity="MMIFilled" Caption=""/>
   </Box>
 
-  異種機器人（Xenoborgs）是一種旨在自我複製的人機混合體。 其運作方式是從活體生物或賽博格身上摘取具有意識的大腦，並將其交給母艦，由母艦將這些大腦植入空置的外星機器人體內。
+  異種賽博格（Xenoborgs）是一種旨在自我複製的人機混合體。 其運作方式是從活體生物或賽博格身上摘取具有意識的大腦，並將其交給母艦，由母艦將這些大腦植入空置的星種賽博格體內。
 
   ## 目標
 
   你的主要目標是殺死並摘取站內所有具有意識的大腦，並將其帶往母艦核心。 這些可以是真實的大腦，也可以是陽電子大腦。
 
-  使用異種機器人萃取器從空間站竊取能量，藉此生產異種機器人晶體，以製造更多異種機器人軀體。
+  使用異種賽博格萃取器從太空站竊取能量，藉此生產異種賽博格晶體，以製造更多異種賽博格軀體。
 
   不惜一切代價保護母艦。
 
@@ -66,13 +66,13 @@
     <GuideEntityEmbed Entity="XenoborgModuleAccessBreaker" Caption="access breaker xenoborg module"/>
   </Box>
 
-  [粗體]工程師 Xenoborg 起始時也擁有一些工程模組，例如：[/粗體]
+  [bold]工程師 Xenoborg 起始時也擁有一些工程模組，例如：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleAdvancedTool" Caption="advanced tool cyborg module"/>
     <GuideEntityEmbed Entity="XenoborgModuleConstruction" Caption="construction cyborg module"/>
   </Box>
 
-  [粗體]升級專屬模組：[/粗體]
+  [bold]升級專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleDoorControl" Caption="door control xenoborg module"/>
   </Box>
@@ -89,7 +89,7 @@
     <GuideEntityEmbed Entity="XenoborgModuleJammer" Caption="jammer xenoborg module"/>
   </Box>
 
-  [粗體]升級專屬模組：[/粗體]
+  [bold]升級專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleHeavyLaser" Caption="laser cannon xenoborg module"/>
   </Box>
@@ -106,7 +106,7 @@
     <GuideEntityEmbed Entity="XenoborgModuleSpaceMovement" Caption="space movement xenoborg module"/>
   </Box>
 
-  [粗體]升級專屬模組：[/粗體]
+  [bold]升級專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleEnergySword" Caption="energy sword xenoborg module"/>
   </Box>
@@ -115,7 +115,7 @@
   <Box>
     <GuideEntityEmbed Entity="XenoborgStealth" Caption=""/>
   </Box>
-  [粗體]隱形外星博格[/粗體] 並未配備內建武器，而是依靠使具備意識大腦的軀體失去行動能力並將其綁架。它們內建一種名為「催眠筆」的裝置，能再生一種睡眠試劑，藉此使具備意識大腦的軀體失去行動能力。 此外，它們還配備隱形裝置，使博格在有限時間內幾乎隱形。它們也擁有變色龍投影器，讓博格能偽裝成隨機物體。
+  [bold]隱形外星博格[/bold] 並未配備內建武器，而是依靠使具備意識大腦的軀體失去行動能力並將其綁架。它們內建一種名為「催眠筆」的裝置，能再生一種睡眠試劑，藉此使具備意識大腦的軀體失去行動能力。 此外，它們還配備隱形裝置，使博格在有限時間內幾乎隱形。它們也擁有變色龍投影器，讓博格能偽裝成隨機物體。
 
   [bold]初始專屬模組：[/bold]
   <Box>
@@ -126,7 +126,7 @@
     <GuideEntityEmbed Entity="XenoborgModuleCloakDevice" Caption="cloaking device xenoborg module"/>
   </Box>
 
-  [粗體]升級專屬模組：[/粗體]
+  [bold]升級專屬模組：[/bold]
   <Box>
     <GuideEntityEmbed Entity="XenoborgModuleSuperCloakDevice" Caption="invisibility device xenoborg module"/>
   </Box>
@@ -149,7 +149,7 @@
   [bold]注意！[/bold] 此舉將觸發「異常耗電裝置」警報！ 任何使用電力監測裝置的人都會察覺到異狀。
 
   ## 準備與戰術
-  在飛至空間站附近進行超光速飛行前，請確保已關閉敵我識別系統。
+  在飛至太空站附近進行超光速飛行前，請確保已關閉敵我識別系統。
 
   在發動攻擊前，異種博格應商討策略並決定優先攻擊哪些目標。
 

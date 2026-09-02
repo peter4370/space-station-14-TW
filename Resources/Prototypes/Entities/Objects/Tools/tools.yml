@@ -368,7 +368,7 @@
   id: RCDRecharging
   parent: RCD
   name: 實驗性 RCD | experimental RCD
-  description: 一種安裝於機械人身上的快速建造裝置，可透過內建的製造器即時生成壓縮物質。 | Cyborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
+  description: 一種安裝於賽博格身上的快速建造裝置，可透過內建的製造器即時生成壓縮物質。 | Cyborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
   suffix: AutoRecharge
   components:
   - type: LimitedCharges

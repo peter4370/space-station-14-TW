@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: BaseAnomaly
-  name: 異常現象 | anomaly
+  name: 異常 | anomaly
   description: 一個不可能存在的物體。你真的應該離它這麼近嗎？ | An impossible object. Should you be standing this close to it?
   components:
   - type: Anomaly

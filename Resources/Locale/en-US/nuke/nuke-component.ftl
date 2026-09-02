@@ -11,7 +11,7 @@ nuke-user-interface-title = 核裂變爆炸物
 nuke-user-interface-arm-button = ARM
 nuke-user-interface-disarm-button = 解除武裝
 nuke-user-interface-anchor-button = ANCHOR
-nuke-user-interface-eject-button = 彈出
+nuke-user-interface-eject-button = 排出
 
 ## Upper status
 

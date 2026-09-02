@@ -23,7 +23,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckMantleCMO
-  name: 首席醫療官的重任 | chief medical officer's mantle
+  name: 醫務總管的重任 | chief medical officer's mantle
   description: 對於一位曾待過足夠多醫療艙、因而深知「個人防護裝備（PPE）穿得越多，輪班結束後就越不需要去中央指揮部乾洗」的首席營銷官（CMO）來說。 | For a CMO that has been in enough medbays to know that more PPE means less central command dry cleaning visits when the shift is over.
   components:
   - type: Sprite

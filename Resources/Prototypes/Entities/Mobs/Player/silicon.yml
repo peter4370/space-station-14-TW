@@ -574,8 +574,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: 幽靈角色資訊——辛迪加——機械人襲擊——名稱 | ghost-role-information-syndicate-cyborg-assault-name
-      description: 幽靈角色資訊——辛迪加——賽博格——描述 | ghost-role-information-syndicate-cyborg-description
+      name: ghost-role-information-syndicate-cyborg-assault-name | ghost-role-information-syndicate-cyborg-assault-name
+      description: ghost-role-information-syndicate-cyborg-description | ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -608,8 +608,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: 幽靈角色資訊－辛迪加－機械人破壞者－姓名 | ghost-role-information-syndicate-cyborg-saboteur-name
-      description: 幽靈角色資訊——辛迪加——賽博格——描述 | ghost-role-information-syndicate-cyborg-description
+      name: ghost-role-information-syndicate-cyborg-saboteur-name | ghost-role-information-syndicate-cyborg-saboteur-name
+      description: ghost-role-information-syndicate-cyborg-description | ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -663,8 +663,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: 幽靈角色資訊－廢棄工程－賽博格－名稱 | ghost-role-information-derelict-engineering-cyborg-name
-    description: 幽靈角色資訊－廢棄工程－賽博格－描述 | ghost-role-information-derelict-engineering-cyborg-description
+    name: ghost-role-information-derelict-engineering-cyborg-name | ghost-role-information-derelict-engineering-cyborg-name
+    description: ghost-role-information-derelict-engineering-cyborg-description | ghost-role-information-derelict-engineering-cyborg-description
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -699,8 +699,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: 幽靈角色資訊－廢棄賽博格－名稱 | ghost-role-information-derelict-cyborg-name
-      description: 幽靈角色資訊－廢棄賽博格－描述 | ghost-role-information-derelict-cyborg-description
+      name: ghost-role-information-derelict-cyborg-name | ghost-role-information-derelict-cyborg-name
+      description: ghost-role-information-derelict-cyborg-description | ghost-role-information-derelict-cyborg-description
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -737,8 +737,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: 幽靈角色資訊－廢棄物管理員－機械人－名稱 | ghost-role-information-derelict-janitor-cyborg-name
-    description: 幽靈角色資訊－廢棄物管理員－賽博格－描述 | ghost-role-information-derelict-janitor-cyborg-description
+    name: ghost-role-information-derelict-janitor-cyborg-name | ghost-role-information-derelict-janitor-cyborg-name
+    description: ghost-role-information-derelict-janitor-cyborg-description | ghost-role-information-derelict-janitor-cyborg-description
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -776,8 +776,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: 幽靈角色資訊－廢棄醫療型機械人－名稱 | ghost-role-information-derelict-medical-cyborg-name
-    description: 幽靈角色資訊－廢棄醫療型賽博格－描述 | ghost-role-information-derelict-medical-cyborg-description
+    name: ghost-role-information-derelict-medical-cyborg-name | ghost-role-information-derelict-medical-cyborg-name
+    description: ghost-role-information-derelict-medical-cyborg-description | ghost-role-information-derelict-medical-cyborg-description
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -814,8 +814,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: 幽靈角色資訊－廢棄礦場－機械人－名稱 | ghost-role-information-derelict-mining-cyborg-name
-    description: 幽靈角色資訊－廢棄礦場－機械人－描述 | ghost-role-information-derelict-mining-cyborg-description
+    name: ghost-role-information-derelict-mining-cyborg-name | ghost-role-information-derelict-mining-cyborg-name
+    description: ghost-role-information-derelict-mining-cyborg-description | ghost-role-information-derelict-mining-cyborg-description
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -853,8 +853,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: 幽靈角色資訊-廢棄辛迪加-突襲-機械人-名稱 | ghost-role-information-derelict-syndicate-assault-cyborg-name
-    description: 幽靈角色資訊－廢棄集團襲擊－機械人－描述 | ghost-role-information-derelict-syndicate-assault-cyborg-description
+    name: ghost-role-information-derelict-syndicate-assault-cyborg-name | ghost-role-information-derelict-syndicate-assault-cyborg-name
+    description: ghost-role-information-derelict-syndicate-assault-cyborg-description | ghost-role-information-derelict-syndicate-assault-cyborg-description
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default

@@ -31,7 +31,7 @@
   parent: OreBag
   id: BorgOreBag
   name: 一體式礦石袋 | integrated ore bag
-  description: 一個嵌入採礦機械人框架的大型礦石袋。拿在手中時，會使附近的礦石磁化。 | A large ore bag built into the frame of a mining cyborg. Magnetises any nearby ores when held.
+  description: 一個嵌入採礦賽博格框架的大型礦石袋。拿在手中時，會使附近的礦石磁化。 | A large ore bag built into the frame of a mining cyborg. Magnetises any nearby ores when held.
   components:
     - type: MagnetPickup
       slotFlags: null

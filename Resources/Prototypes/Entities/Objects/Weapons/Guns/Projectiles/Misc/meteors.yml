@@ -49,7 +49,7 @@
   parent: BaseMeteor
   id: MeteorSpaceDust
   name: 太空塵埃 | space dust
-  description: 讓一個車站打個噴嚏。 | Makes a station sneeze.
+  description: 讓一個太空站打個噴嚏。 | Makes a station sneeze.
   components:
   - type: Sprite
     state: space_dust

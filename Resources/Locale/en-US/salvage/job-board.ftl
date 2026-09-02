@@ -2,9 +2,9 @@ salvage-job-rank-title-0 = [color=gray]拾荒者[/color]
 salvage-job-rank-title-1 = [color=white]Scrapper[/color]
 salvage-job-rank-title-2 = [color=yellow]專員[/color]
 salvage-job-rank-title-MAX = [color=gold]至尊回收者[/color]
-job-board-radio-announce = 打撈者等級提升至 [粗體]{ $rank }[/粗體]！可從「貨物」處購買新訂單。
+job-board-radio-announce = 打撈者等級提升至 [bold]{ $rank }[/bold]！可從「貨物」處購買新訂單。
 job-board-ui-window-title = 職缺公告板
-job-board-ui-label-rank = [粗體]排名：[/粗體]
+job-board-ui-label-rank = [bold]排名：[/bold]
 job-board-ui-label-items = 目標：[color=red]{ $item }[/color]
 job-board-label-text = [head=2]打撈任務貨運[/head]
     { "[italic]僅適用於官方的站外打撈貨運。[/italic]" }

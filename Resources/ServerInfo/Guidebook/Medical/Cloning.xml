@@ -7,13 +7,13 @@
 
 請注意：克隆功能並非總是可用，因此最好不要過度依賴它。
 <Box>
-<GuideEntityEmbed Entity="ComputerCloningConsole" Caption="複製控制台"/>
+<GuideEntityEmbed Entity="ComputerCloningConsole" Caption="克隆控制台"/>
 <GuideEntityEmbed Entity="MedicalScanner"/>
 <GuideEntityEmbed Entity="CloningPod"/>
 <GuideEntityEmbed Entity="NetworkConfigurator"/>
 </Box>
 ## 生物質
-創造克隆體需要生物質，而這過程可說相當駭人，因為它涉及有機物質的回收利用。 無論是沒有靈魂的船員、空間站的寵物，還是已經被「處理」掉的敵對生物，這些東西通常都能被回收利用。
+創造克隆體需要生物質，而這過程可說相當駭人，因為它涉及有機物質的回收利用。 無論是沒有靈魂的船員、太空站的寵物，還是已經被「處理」掉的敵對生物，這些東西通常都能被回收利用。
 
 將屍體拖曳至生物質回收機上（使用游標），系統便會將其粉碎成堆肥以供再利用。 如果是機組人員，通常的做法是在處理遺體前，先脫去其衣物並歸還所屬部門的裝備。
 <Box>

@@ -8,7 +8,7 @@
   parent: BasePlushieLizardJob
   id: PlushieLizardJobAtmospherictechnician
   name: 大氣技術員蜥蜴絨毛玩偶 | atmospheric technician lizard plushie
-  description: 一款可愛的毛絨玩具，造型酷似擔任大氣技術員的蜥蜴人。隱約散發著弗雷佐恩的氣味。 | An adorable stuffed toy that resembles a lizardperson as an atmospheric technician. Smells faintly of frezon.
+  description: 一款可愛的毛絨玩具，造型酷似擔任大氣技術員的蜥蜴人。隱約散發著 Frezon 的氣味。 | An adorable stuffed toy that resembles a lizardperson as an atmospheric technician. Smells faintly of frezon.
   components:
   - type: Sprite
     sprite: Objects/Fun/plushielizard_jobs/atmostech.rsi
@@ -207,7 +207,7 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChiefmedicalofficer
-  name: 首席醫療官蜥蜴絨毛玩偶 | chief medical officer lizard plushie
+  name: 醫務總管蜥蜴絨毛玩偶 | chief medical officer lizard plushie
   description: 一隻可愛的毛絨玩具，外型酷似擔任首席醫務官的蜥蜴人。這隻毛絨玩具的尾巴曾被剪下又縫回去，大概是為了練習手術吧。 | An adorable stuffed toy that resembles a lizardperson as the chief medical officer. The plushie's tail has been sewn off and on again, probably from practicing surgery.
   components:
   - type: Sprite
@@ -571,7 +571,7 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobResearchassistant
-  name: 研究助理蜥蜴絨毛玩偶 | research assistant lizard plushie
+  name: 科學助理蜥蜴絨毛玩偶 | research assistant lizard plushie
   description: 一隻可愛的絨毛玩偶，外型酷似擔任研究助理的蜥蜴人。身上隱約散發著燒焦紙張的氣味。 | An adorable stuffed toy that resembles a lizardperson as a research assistant. It smells faintly of burnt paper.
   components:
   - type: Sprite
@@ -591,7 +591,7 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobResearchdirector
-  name: 研究主任蜥蜴絨毛玩偶 | research director lizard plushie
+  name: 科學總監蜥蜴絨毛玩偶 | research director lizard plushie
   description: 一隻可愛的絨毛玩偶，造型酷似擔任研究主任的蜥蜴人。這隻絨毛玩偶上有幾處燒焦的痕跡。 | An adorable stuffed toy that resembles a lizardperson as the research director. There's a few burn marks on the plushie.
   components:
   - type: Sprite
@@ -711,8 +711,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobStationengineer
-  name: 車站工程師蜥蜴絨毛玩偶 | station engineer lizard plushie
-  description: 一隻可愛的絨毛玩偶，造型酷似擔任車站工程師的蜥蜴人。它的手上沾有油漬。 | An adorable stuffed toy that resembles a lizardperson as a station engineer. It has oil stains on its hands.
+  name: 太空站工程師蜥蜴絨毛玩偶 | station engineer lizard plushie
+  description: 一隻可愛的絨毛玩偶，造型酷似擔任太空站工程師的蜥蜴人。它的手上沾有油漬。 | An adorable stuffed toy that resembles a lizardperson as a station engineer. It has oil stains on its hands.
   components:
   - type: Sprite
     sprite: Objects/Fun/plushielizard_jobs/stationengi.rsi

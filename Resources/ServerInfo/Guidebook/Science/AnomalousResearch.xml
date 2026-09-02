@@ -11,16 +11,16 @@
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-掃描器、載具以及 A.P.E. 皆用於對異常現象進行封鎖與監測。
+掃描器、載體以及 A.P.E. 皆用於對異常現象進行封鎖與監測。
 
 <Box>
 <GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
 </Box>
 
-異常發生器可以消耗等離子體，在空間站的某處產生隨機異常。
+異常發生器可以消耗等離子體，在太空站的某處產生隨機異常。
 
 ## 異常現象
-異常現象是出現在空間站上的靜態物件。 無論它們位於何處，都無法移動，必須繞過它們來處理。
+異常現象是出現在太空站上的靜態物件。 無論它們位於何處，都無法移動，必須繞過它們來處理。
 
 <Box>
 <GuideEntityEmbed Entity="AnomalyPyroclastic"/>

@@ -27,5 +27,5 @@ gas-analyzer-window-molarity-percentage-text = { $gasName }: { $amount } 摩爾�
 gas-entry-info = { $gasName }: { $gasAmount } 摩爾
 # overrides for trinary devices to have saner names
 gas-analyzer-window-text-inlet = 進水口
-gas-analyzer-window-text-outlet = 特賣店
+gas-analyzer-window-text-outlet = 輸出
 gas-analyzer-window-text-filter = 篩選

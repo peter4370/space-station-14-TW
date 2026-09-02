@@ -18,7 +18,7 @@
 別忘了準備盛裝的容器喔！
 </Box>
 <Box>
-<GuideEntityEmbed Entity="DrinkGlass" Caption="玻璃"/>
+<GuideEntityEmbed Entity="DrinkGlass" Caption="玻璃杯"/>
 <GuideEntityEmbed Entity="DrinkGlassCoupeShaped"/>
 <GuideEntityEmbed Entity="DrinkShotGlass"/>
 <GuideEntityEmbed Entity="DrinkShaker"/>

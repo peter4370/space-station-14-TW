@@ -21,7 +21,7 @@ ingestion-cant-digest-other = { CAPITALIZE(SUBJECT($target)) } 無法處理 { TH
 ## Action Verbs, not to be confused with Verbs
 
 ingestion-verb-food = 吃
-ingestion-verb-drink = 飲品
+ingestion-verb-drink = 飲用
 
 # Edible Component
 
@@ -50,7 +50,7 @@ edible-noun-pill = 藥丸
 
 edible-verb-edible = 攝入
 edible-verb-food = 吃
-edible-verb-drink = 飲品
+edible-verb-drink = 飲用
 edible-verb-pill = 燕子
 
 ## Force feeding

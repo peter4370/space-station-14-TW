@@ -341,7 +341,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorYellow
   id: ClothingHandsGlovesColorYellowBudget
-  name: 平價保暖手套 | budget insulated gloves
+  name: 平價絕緣手套 | budget insulated gloves
   description: 這副手套是那款備受追捧的手套的廉價仿品——這事絕對不可能搞砸。 | These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
   components:
   - type: RandomInsulation

@@ -740,7 +740,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: CMOPDA
-  name: 首席醫療官 PDA | chief medical officer PDA
+  name: 醫務總管 PDA | chief medical officer PDA
   description: 異常光亮且無菌。 | Extraordinarily shiny and sterile.
   components:
   - type: Pda
@@ -1049,7 +1049,7 @@
   parent: BasePDA
   id: AtmosPDA
   name: atmos PDA | atmos PDA
-  description: 還是有血漿的味道。 | Still smells like plasma.
+  description: 還是有等離子體的味道。 | Still smells like plasma.
   components:
   - type: Pda
     id: AtmosIDCard

@@ -1,52 +1,53 @@
+
 <Document>
 
-# Microwave Recipes
+# 微波爐食譜
 
-This is the latest published version of NanoTrasen Central Command Kitchen de Cuisine's recipe collection for chefs upon NanoTrasen vessels to prepare.
+這是 NanoTrasen 中央指揮廚房（de Cuisine）最新發布的食譜集，供 NanoTrasen 艦船上的廚師們參考烹調。
 
-## Pizza Pies
+## 披薩餅
 <GuideMicrowaveGroupEmbed Group="Pizza"/>
 
-## Savory Cooking
+## 鹹味料理
 <GuideMicrowaveGroupEmbed Group="Savory"/>
 
-## Breads
+## 麵包
 <GuideMicrowaveGroupEmbed Group="Breads"/>
 
-## Breakfast Foods
+## 早餐食品
 <GuideMicrowaveGroupEmbed Group="Breakfast"/>
 
-## Moth Foods
+## 飛蛾的食物
 <GuideMicrowaveGroupEmbed Group="Moth"/>
 
-## Pastas & Noodles
+## 義大利麵與麵條
 <GuideMicrowaveGroupEmbed Group="Pasta"/>
 
-## Pastries & Desserts
+## 糕點與甜點
 <GuideMicrowaveGroupEmbed Group="Dessert"/>
 
-## Soups & Stews
+## 湯品與燉菜
 <GuideMicrowaveGroupEmbed Group="Soup"/>
 
-## Pies & Tarts
+## 派與塔
 <GuideMicrowaveGroupEmbed Group="Pie"/>
 
-## Bars & Cookies
+## 能量棒與餅乾
 <GuideMicrowaveGroupEmbed Group="BarsAndCookies"/>
 
-## Cakes
+## 蛋糕
 <GuideMicrowaveGroupEmbed Group="Cake"/>
 
-## Salads
+## 沙拉
 <GuideMicrowaveGroupEmbed Group="Salad"/>
 
-## Medicinal
+## 藥用
 <GuideMicrowaveGroupEmbed Group="Medicinal"/>
 
-## Other
+## 其他
 <GuideMicrowaveGroupEmbed Group="Other"/>
 
-## Secret
+## 秘密
 <GuideMicrowaveGroupEmbed Group="Secret"/>
 
 </Document>

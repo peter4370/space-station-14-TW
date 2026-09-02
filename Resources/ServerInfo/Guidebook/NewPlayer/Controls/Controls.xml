@@ -6,7 +6,7 @@
   <Box Orientation="Vertical"><CommandButton Text="ui-options-tab-controls" Command="options 2"/></Box>
 
   ## 介面
-  在左上角，您會看到所有 [粗體]選單按鈕[/粗體] 及其對應的快速鍵。
+  在左上角，您會看到所有 [bold]選單按鈕[/bold] 及其對應的快速鍵。
   來看看它們的功能，尤其是表情動作選單。
   值得注意的是，若管理員正試圖與您聯繫，[color=red]管理員協助[/color] ([italic]ahelp[/italic]) 選單按鈕將會顯示為 [color=red][bold]紅色[/bold][/color]。
 
@@ -15,10 +15,10 @@
   將游標懸停在這些項目上，即可了解其功能。
 
   它同時也是一個 [bold]快速動作欄[/bold] —— 按下鍵盤上對應的 [color=yellow][bold]數字鍵[/bold][/color] 即可執行這些動作。
-  您可以透過 [粗體]拖曳[/粗體] 一個圖示到另一個圖示上來重新排列它們，或者將圖示拖離以暫時移除。
+  您可以透過 [bold]拖曳[/bold] 一個圖示到另一個圖示上來重新排列它們，或者將圖示拖離以暫時移除。
 
   ### 狀態列
-  在右側聊天視窗下方，有一條 [粗體]狀態列[/粗體]，顯示你角色的狀態。
+  在右側聊天視窗下方，有一條 [bold]狀態列[/bold]，顯示你角色的狀態。
   與動作列一樣，將游標懸停在這些圖示上即可查看其含義。
 
   其中一些圖示也可以點擊。
@@ -28,8 +28,8 @@
 
   ### 物品欄
   在畫面底部，您會看到 [bold]物品欄[/bold]，其中包含所有與裝備和儲物相關的圖示，由左至右依序為：
-  - [color=cyan]服裝物品欄[/color]（左下角）— 透過 [color=yellow][粗體][keybind="OpenInventoryMenu"][/粗體][/cyan] — 包含眼睛、頭部、頸部、臉部、耳朵、身體、外部、手部及鞋類等槽位，
-  - [粗體]PDA[/粗體] 槽位 — 用於存放可使用的 PDA，內含ID卡和一支筆，
+  - [color=cyan]服裝物品欄[/color]（左下角）— 透過 [color=yellow][bold][keybind="OpenInventoryMenu"][/bold][/cyan] — 包含眼睛、頭部、頸部、臉部、耳朵、身體、外部、手部及鞋類等槽位，
+  - [bold]PDA[/bold] 槽位 — 用於存放可使用的 PDA，內含ID卡和一支筆，
   - [bold]腰帶[/bold] 插槽 — 用於工具腰帶和噴射背包，
   - [bold]背部[/bold] 插槽 — 通常用於掛包、背包和旅行袋，但也可存放中型至大型武器，以及全尺寸氣瓶。
   - [bold]手部[/bold] 槽位 — 您可以將其視為轉移槽位，
@@ -37,14 +37,14 @@
   - [bold]太空服儲存[/bold] 槽位 — 僅在穿著太空服、硬式太空服或護甲時方可使用。
   雖是為空氣儲氣罐和噴射背包設計，但也能裝載槍枝。
 
-  [斜體]注意：非人形物種的裝備槽配置可能略有不同。[/斜體]
+  [italic]注意：非人形物種的裝備槽配置可能略有不同。[/italic]
 
   ## 移動
   若要移動角色，請使用 [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color]。
 
   攜帶的物品和負重會影響你的移動速度，但你也可以長按 [color=yellow][bold][keybind="Walk"][/bold][/color] 來 [color=cyan]步行[/color]。
   這會降低你的速度，並有助於你在踏過香蕉皮或灑出的液體等濕滑障礙物時，避免[color=cyan]打滑[/color]和跌倒。
-  \n[斜體]注意：在控制選單中，步行功能可切換為 [粗體斜體]切換按鈕[/粗體斜體]。[/斜體]
+  \n[italic]注意：在控制選單中，步行功能可切換為 [bolditalic]切換按鈕[/bolditalic]。[/italic]
 
   ### 太空行走
   若你身處 [color=#EB2D3A]無重力環境[/color]，只要仍在任何結構物的觸及範圍內，你仍能移動——儘管摩擦力會減小。
@@ -52,17 +52,17 @@
   如果你完全偏離軌道，飄入 [color=#EB2D3A]太空[/color]，你就需要運用運動定律，例如透過 [bold]拋擲[/bold] 物體至相反方向來達成。
 
   ## 手部
-  你的角色雙手由 [粗體]手部插槽[/粗體] 表示，這些插槽位於螢幕底部的中央位置。
+  你的角色雙手由 [bold]手部插槽[/bold] 表示，這些插槽位於螢幕底部的中央位置。
   - 你的其中一隻手總是 [color=cyan]主動手[/color]。
   - 使用 [color=cyan]Swap[/color] 與 [color=yellow][bold][keybind="SwapHands"][/bold][/color] 來切換雙手，以控制哪一隻手處於活躍狀態。
   - 使用 [color=yellow][keybind="Use"][/keybind] 將物品 [color=cyan]拿取[/color] 至你當前空著的那隻手。
   - 使用 [color=yellow][bold][keybind="Use"][/bold][/color] 來將你當前手持的物品 [color=cyan]放置[/color] 到其他地方，或 [color=cyan]使用[/color] 該物品對某物或某人進行操作，具體取決於上下文。
   - 與外界互動時，請留意你的主要操作手，以免不小心使用手中持有的物品。
 
-  [粗體]無法透過拖放方式傳輸項目。[/粗體]
+  [bold]無法透過拖放方式傳輸項目。[/bold]
 
   ### 放下與投擲
-  使用 [color=yellow][粗體][keybind="Drop"][/粗體][/color] 將手持的物品 [color=cyan]放下[/color]（或放置）在伸手可及的範圍內。
+  使用 [color=yellow][bold][keybind="Drop"][/bold][/color] 將手持的物品 [color=cyan]放下[/color]（或放置）在伸手可及的範圍內。
   \n使用 [color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color] 將物品 [color=cyan]投擲[/color] 至游標所在位置。
 
   ### 拉動與推擠
@@ -94,12 +94,12 @@
   值得注意的是，在怪物身上按下 [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] 即可開啟 [color=cyan]剝取選單[/color]，讓你查看該怪物的裝備清單——藉此嘗試從牠身上取下或偷取物品。
 
   ### 手持互動
-  許多物品也具備 [color=cyan]手持互動[/color]，例如 [bold]開啟[/bold] 瓶子、[bold]揮舞[/bold] 雙手槍械及大型近戰武器（如棍棒、長矛、斧頭、拖把、霰彈槍、 等），[粗體]切換[/粗體]槍械，或[粗體]切換[/粗體]注射器在「注射」與「抽取」模式之間。
+  許多物品也具備 [color=cyan]手持互動[/color]，例如 [bold]開啟[/bold] 瓶子、[bold]握持[/bold] 雙手槍械及大型近戰武器（如棍棒、長矛、斧頭、拖把、霰彈槍、 等），[bold]切換[/bold]槍械，或[bold]切換[/bold]注射器在「注射」與「抽取」模式之間。
 
-  您只需點擊 [color=yellow][bold][keybind="Use"][/bold][/color] 或 [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color]，來對當前持有的手部執行互動；但仍建議您記住以下快捷鍵——[color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] 以及 [color=yellow][bold][keybind="AltActivateItemInHand"][/粗體][/顏色]，分別對應 [color=cyan]標準[/color] 與 [color=cyan]替代[/color] 的手持物品互動方式。
+  您只需點擊 [color=yellow][bold][keybind="Use"][/bold][/color] 或 [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color]，來對當前持有的手部執行互動；但仍建議您記住以下快捷鍵——[color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] 以及 [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color]，分別對應 [color=cyan]標準[/color] 與 [color=cyan]替代[/color] 的手持物品互動方式。
 
   ### 點擊並拖曳
-  您可透過將一個實體拖曳至另一個實體上，並搭配 [color=yellow][bold][keybind="Use"][/bold][/color] 來「使用」該實體。 （請勿與 [斜體]拉扯[/斜體] 混淆。）
+  您可透過將一個實體拖曳至另一個實體上，並搭配 [color=yellow][bold][keybind="Use"][/bold][/color] 來「使用」該實體。 （請勿與 [italic]拉扯[/italic] 混淆。）
 
   用途：
   - [color=cyan]將[/color]生物（玩家或NPC）安置或強行送入椅子、床、冷凍艙、處理裝置等處。
@@ -117,9 +117,9 @@
   主要互動方式包括：
   - [bolditalic]標準[/bolditalic] ([color=yellow][bold][keybind="Use"][/bold][/color]），
   - [italic]替代[/italic] ([color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color])、
-  - [bold]啟動[/bold] ([color=yellow][bold][keybind="ActivateItemInWorld"][/粗體][/顏色]),
-  - [粗體斜體]手持使用[/粗體斜體] ([color=yellow][粗體][keybind="ActivateItemInHand"][/粗體][/顏色])，
-  - [斜體]替代性手持使用[/斜體] ([color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/顏色])，
+  - [bold]啟動[/bold] ([color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color]),
+  - [bolditalic]手持使用[/bolditalic] ([color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color])，
+  - [italic]替代性手持使用[/italic] ([color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color])，
   - 點擊並拖曳。
 
   不用擔心必須將它們背下來——這些互動方式通常直觀且在各個實體類別間保持一致，而且您會發現，大多數實體只會使用一兩種互動方式。
@@ -127,7 +127,7 @@
   [bold]存放於容器中的物品仍可進行互動。[/bold]
 
   ## 情境選單
-  點擊任何互動式實體上的 [color=yellow][bold][keybind="UIRightClick"/][/粗體][/顏色] 點擊任何可互動的實體，即可開啟 [顏色=青色]快顯選單[/顏色]，其中會顯示您目前可執行的額外互動選項。
+  點擊任何互動式實體上的 [color=yellow][bold][keybind="UIRightClick"/][/bold][/color] 點擊任何可互動的實體，即可開啟 [color=cyan]快顯選單[/color]，其中會顯示您目前可執行的額外互動選項。
   右鍵選單可提供以下互動功能：
   - [bold]將當前持有的容器內所有內容[/bold] 轉移至另一個容器，
   - [bold]使用預設設定拆分物品堆疊[/bold]，
@@ -176,9 +176,9 @@
   將游標懸停在項目上，即可檢視已儲存的位置。[color=yellow][bold]懸停[/bold][/color]
 
   ## 攝影機
-  使用 [color=cyan]縮放[/color] 功能，透過 [color=yellow][bold][keybind="ZoomIn"][/bold][/color] 和 [color=yellow][bold][keybind="ZoomOut"][/粗體][/顏色] 來調整鏡頭的 [color=cyan]變焦[/color]，並使用 [color=yellow][bold][keybind="ResetZoom"][/bold][/顏色] 將變焦重設為預設狀態。
+  使用 [color=cyan]縮放[/color] 功能，透過 [color=yellow][bold][keybind="ZoomIn"][/bold][/color] 和 [color=yellow][bold][keybind="ZoomOut"][/bold][/color] 來調整鏡頭的 [color=cyan]變焦[/color]，並使用 [color=yellow][bold][keybind="ResetZoom"][/bold][/color] 將變焦重設為預設狀態。
   \n使用 [color=cyan]旋轉[/color] 鍵 [color=yellow][bold][keybind="CameraRotateLeft"][/bold][/color] 和 [color=yellow][bold][keybind="CameraRotateRight"][/bold][/color] 來旋轉，並使用 [color=yellow][bold][keybind="CameraReset"][/bold][/color] 重置。
-  \n[斜體]注意：地圖通常是設計成使用預設的相機旋轉角度來遊玩的。[/斜體]
+  \n[italic]注意：地圖通常是設計成使用預設的相機旋轉角度來遊玩的。[/italic]
 
   有關操作方式的更多詳細資訊，您可以參考 [color=cyan]Wiki[/color]。
 </Document>

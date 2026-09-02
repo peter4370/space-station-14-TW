@@ -29,11 +29,11 @@ comp-light-replacer-light-listing =
 
 # Bulbs
 comp-light-bulb-incandescent = 白熾燈
-comp-light-bulb-dim = 微光
+comp-light-bulb-dim = 暗光燈
 comp-light-bulb-warm = 溫暖的
 comp-light-bulb-service = 服務
 # Tubes
-comp-light-bulb-fluorescent = 螢光
+comp-light-bulb-fluorescent = 光管
 comp-light-bulb-exterior = 外觀
 comp-light-bulb-sodium = 鈉 sodium
 # Both

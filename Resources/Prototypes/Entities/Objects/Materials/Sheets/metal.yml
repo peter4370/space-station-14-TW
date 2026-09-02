@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseSheet
   id: SheetMetalBase
-  description: 一片金屬板，在車站中常被用於各種用途。 | A sheet of metal, used often on the station in various applications.
+  description: 一片金屬板，在太空站中常被用於各種用途。 | A sheet of metal, used often on the station in various applications.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi

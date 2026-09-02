@@ -34,7 +34,7 @@
 - [color=lightgreen]老化／枯萎[/color]：植物已成熟，即將死亡。 它仍然可以收穫，你也可以提取種子，但僅限於短暫的一段時間內。 取出種子，然後將其拔出／砍倒。
 - [color=lightgreen]死亡[/color]：該植物已採收，並停止生長。 應該把它拔掉／砍倒。 無法取出種子。
 
-## 去籽機
+## 取籽機
 <Box>
 <GuideEntityEmbed Entity="SeedExtractor"/>
 </Box>

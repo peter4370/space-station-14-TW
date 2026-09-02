@@ -13,7 +13,7 @@
     <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
   </Box>
 
-  管網遍布整個車站，用於輸送、排出或以其他方式移動站內的气體。
+  管網遍布整個太空站，用於輸送、排出或以其他方式移動站內的气體。
   很好的例子就是該站點的「Distro」或「Wastenet」，它們分別負責供應新鮮空氣並排出廢氣。
 
   ## 管網的運作原理

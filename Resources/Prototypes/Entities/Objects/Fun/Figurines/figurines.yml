@@ -128,7 +128,7 @@
   parent: BaseFigurine
   id: ToyFigurineCaptain
   name: 領袖人物 | captain figure
-  description: 一尊描繪民營「納諾特拉森」號船隻船長標準制服的雕像。 | A figurine depicting the standard outfit of a captain belonging to a civilian-sector Nanotrasen vessel.
+  description: 一尊描繪民營「Nanotrasen」號船隻船長標準制服的雕像。 | A figurine depicting the standard outfit of a captain belonging to a civilian-sector Nanotrasen vessel.
   components:
   - type: Sprite
     state: captain
@@ -172,7 +172,7 @@
   parent: BaseFigurine
   id: ToyFigurineSecurity
   name: 保安人員形象 | security officer figure
-  description: 一尊描繪安全人員手持電擊棒、準備保衛車站的小雕像。 | A figurine depicting a Security Officer holding a stunbaton, ready to defend the station.
+  description: 一尊描繪安全人員手持電擊棒、準備保衛太空站的小雕像。 | A figurine depicting a Security Officer holding a stunbaton, ready to defend the station.
   components:
   - type: Sprite
     state: security
@@ -194,7 +194,7 @@
   parent: BaseFigurine
   id: ToyFigurineCargoTech
   name: 貨運技術人員圖示 | cargo technican figure
-  description: 一尊描繪爬蟲類貨運技術員的小雕像。 | A figurine depicting a reptillian Cargo Technican.
+  description: 一尊描繪爬蟲人貨運技術員的小雕像。 | A figurine depicting a reptillian Cargo Technican.
   components:
   - type: Sprite
     state: cargotech
@@ -237,8 +237,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineEngineer
-  name: 車站工程師的形象 | station engineer figure
-  description: 一尊描繪車站工程師手持撬棍、準備就緒的小雕像。 | A figurine depicting a Station Engineer holding a crowbar at-ready.
+  name: 太空站工程師的形象 | station engineer figure
+  description: 一尊描繪太空站工程師手持撬棍、準備就緒的小雕像。 | A figurine depicting a Station Engineer holding a crowbar at-ready.
   components:
   - type: Sprite
     state: engineer
@@ -281,7 +281,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineChiefMedicalOfficer
-  name: 首席醫療官一職 | chief medical officer figure
+  name: 醫務總管一職 | chief medical officer figure
   description: 一尊刻畫醫學院院長威儀風範的小雕像。 | A figurine depicting the glorious head of the Medical department.
   components:
   - type: Sprite

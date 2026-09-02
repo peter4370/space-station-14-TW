@@ -1,7 +1,7 @@
 
 <Document>
   # 反物質引擎 (AME)
-  反物質引擎是空間站的短期支援發電機，能在有限時間內提供大量電力。
+  反物質引擎是太空站的短期支援發電機，能在有限時間內提供大量電力。
 
   它主要用於協助工程師啟動較大型的引擎，例如 [textlink="奇點引擎" link="SingularityEngine"] 或 [textlink="特斯拉引擎" link="TeslaEngine"]等較大型引擎，透過為站點的 [textlink="電池" link="PowerStorage"] 補充部分電力，以延長其運作時間。
 

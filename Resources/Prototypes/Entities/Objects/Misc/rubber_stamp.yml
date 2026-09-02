@@ -185,7 +185,7 @@
         color: "#e09e00"
 
 - type: entity
-  name: 首席醫療官的橡皮章 | chief medical officer's rubber stamp
+  name: 醫務總管的橡皮章 | chief medical officer's rubber stamp
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampCMO
   categories: [ DoNotMap ]

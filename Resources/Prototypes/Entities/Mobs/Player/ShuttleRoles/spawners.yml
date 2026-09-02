@@ -53,7 +53,7 @@
     - RandomHumanoidVisitorCE
 
 - type: entity
-  name: 訪問首席醫療官斯波納 | visiting chief medical officer spawner
+  name: 訪問醫務總管斯波納 | visiting chief medical officer spawner
   id: VisitorCMOSpawner
   parent: MarkerBase
   components:

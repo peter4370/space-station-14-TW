@@ -202,7 +202,7 @@
 - type: entity
   parent: [ BaseStructure, StructureHealthContainerStrong ]
   id: SuitStorageBase
-  name: 西裝收納櫃 | suit storage unit
+  name: 艙外服收納櫃 | suit storage unit
   description: 一款專為存放太空服而設計的精緻高科技儲存裝置。 | A fancy hi-tech storage unit made for storing space suits.
   components:
   - type: AccessReader

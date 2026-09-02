@@ -1,8 +1,8 @@
 tool-quality-anchoring-name = 錨定
 tool-quality-anchoring-tool-name = 扳手
-tool-quality-prying-name = 窺探
+tool-quality-prying-name = 撬
 tool-quality-prying-tool-name = 撬棍
-tool-quality-screwing-name = 螺紋加工
+tool-quality-screwing-name = 螺紋轉轉
 tool-quality-screwing-tool-name = 螺絲起子
 tool-quality-cutting-name = 切割
 tool-quality-cutting-tool-name = Wirecutter

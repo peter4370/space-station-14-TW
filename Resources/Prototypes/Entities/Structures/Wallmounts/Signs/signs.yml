@@ -149,7 +149,7 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalHop
-  name: 啤酒花標誌 | hop sign
+  name: HOP標誌 | hop sign
   description: 一塊指示牌，標示著人事主管辦公室的位置。 | A direction sign, pointing out which way Head of Personnel's office is.
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalMed
-  name: 醫學徵兆 | medical sign
+  name: 醫學部指示牌 | medical sign
   description: 一塊指示牌，標示出醫療部門的方向。 | A direction sign, pointing out which way the Medical department is.
   components:
   - type: Sprite

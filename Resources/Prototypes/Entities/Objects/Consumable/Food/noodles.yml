@@ -64,7 +64,7 @@
 - type: entity
   parent: [SolutionNormal, FoodNoodlesBase]
   id: FoodNoodlesCopy
-  name: 複製貼上 | copypasta
+  name: 複製文 | copypasta
   description: 你最好別試這個，總聽到大家說這有多糟糕…… | You probably shouldn't try this, you always hear people talking about how bad it is...
   components:
   - type: Item

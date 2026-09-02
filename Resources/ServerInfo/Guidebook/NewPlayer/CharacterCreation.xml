@@ -1,71 +1,74 @@
 
 <Document>
-# Important Character Creation Tips
-This is a guide for the parts of character creation that effect gameplay.
+# 角色創建的重要提示
+本指南針對角色創建中會影響遊戲玩法的各個環節。
 
-[textlink="For a guide on making cosmetic changes, click here." link="YourFirstCharacter"]
+[textlink="如需關於外觀調整的指南，請點擊此處。" link="YourFirstCharacter"]
 
-## Spawn Priority
-This affects where you spawn in upon joining the game after the round has already started.
+## 出生順序
+這會影響你在回合已經開始後加入遊戲時的出生位置。
 
-Choosing "Arrivals" will spawn you on a separate station where you wait for a shuttle to arrive to ship you to the main station.
+選擇「抵達」後，系統會將您傳送至另一座車站，您需在該處等待接駁車抵達，再由其載送您前往主車站。
 
-Choosing "Cryosleep" will have you wake up in a cryosleep chamber already on the station.
+選擇「冷凍睡眠」後，你將在空間站內的冷凍睡眠艙中醒來。
 
-Choosing "None" will either pick for you or choose the only spawn option available for the current station.
+若選擇「無」，系統將自動為您選擇，或選擇當前站點唯一可用的重生選項。
 
-This is a mostly arbitrary choice. You can safely leave this on "None" and you won't suffer any real inconveniences.
+這基本上是個隨意的選擇。 您可以放心將此選項保留為「無」，這樣並不會造成任何實際上的不便。
 
-## Jobs
-You can set your job preferences in the lobby. While these don't [color=#a4885c]guarantee[/color] your position, someone who wants the job will be [color=#a4885c]randomly[/color] selected at the start of the round.
-You are given a chance at being chosen for your high priority job first, then your medium priorities, then your low priorities.
-You also given an option to automatically be a passenger or to be sent back to the lobby if you don't get chosen for any of your preferred jobs.
+## 工作
+您可以在大廳中設定您的求職偏好。 雖然這些條件並不能 [color=#a4885c]保證[/color] 你能獲得這個職位，但在本輪開始時，系統會從有意應徵此職位的人中 [color=#a4885c]隨機[/color] 選出一名。
+您將有機會優先讓系統選中您的高優先級工作，接著是中優先級的工作，最後是低優先級的工作。
+此外，系統還會提供一個選項：若您未被選中擔任任何您偏好的職務，系統將自動將您設為乘客，或將您送回大廳。
 
-Some jobs are locked until you've played long enough as other entry level jobs.
+某些職業在您以其他入門級職業遊玩足夠長時間之前，是無法解鎖的。
 
-[textlink="For more infomation about jobs, click here." link="Jobs"]
+[textlink="如需更多關於職務的資訊，請點擊此處。" link="職務"]
 
-## Job Loadouts
-You may also choose [color=#a4885c]loadouts[/color] for each job. Loadouts are the clothing items and trinkets that you spawn with upon joining the game. Some loadout items are locked behind playtime restrictions.
-This may have various effects on gameplay, as some clothing items have [color=#a4885c]armor protection[/color] or [color=#a4885c]slow down your movement speed[/color]. This applies especially to Command and Security.
+## 職務裝備配置
+您也可以為每個職務選擇 [color=#a4885c]裝備配置[/color]。 裝備組合是指玩家加入遊戲時，隨身攜帶的服裝和飾品。 部分裝備項目受遊戲時間限制所限制。
+這可能會對遊戲玩法產生各種影響，因為某些服裝道具具有 [color=#a4885c]護甲防護[/color] 效果，或是會 [color=#a4885c]降低你的移動速度[/color]。 這一點尤其適用於「指揮與安全」方面。
 
-You may also choose what bag you spawn in with.
-[color=#a4885c]Backpacks[/color] are medium sized but can carry large items easier. [color=#a4885c]Satchels[/color] have more total space than backpacks but have trouble carrying large items. [color=#a4885c]Duffel bags[/color] are large but incur a movement penalty.
+您也可以選擇出生時攜帶哪個背包。
+[color=#a4885c]後背包[/color] 雖屬中型尺寸，但能更輕鬆地裝載大型物品。 [color=#a4885c]手提包[/color] 的總容量比背包大，但難以裝載大型物品。 [color=#a4885c]旅行袋[/color] 體積龐大，但會造成移動罰則。
 
-## Antags
-Turning on an [color=#a4885c]antagonist[/color] toggle will put you on the list of potentional antags at the start of the round. They do not guarantee your antagonist role, don't use this as an excuse to self-antag!
-Instead, like job priorities, a handful of players are chosen randomly from eligible players. If you are a command member or security officer, you cannot be chosen for an antag role.
+## 反派角色
+啟用 [color=#a4885c]反派角色[/color] 開關後，你將在回合開始時被列入潛在反派角色名單中。 這些並不能保證你會扮演反派角色，請不要以此作為自我反派的藉口！
+相反地，就像工作優先順序一樣，會從符合資格的球員中隨機選出少數幾名球員。 若您是指揮部成員或安全人員，則無法被選為反派角色。
 
-[textlink="For more information about antagonists, click here." link="Antagonists"]
+[textlink="如需更多關於反派角色的資訊，請點擊此處。" link="反派角色"]
 
-Joining multiple games or ghosting/disconnecting/commiting suicide upon not being chosen for an antag role is referred to as "antag-rolling" and it is against the rules.
-Plenty of people patiently wait for their turn to be antagonists, so [color=#a4885c]we kindly ask you to refrain from opting-in to an antagonist role if you aren't ready[/color].
+同時參加多場遊戲，或在未被選為反派角色時突然消失／斷線／自盡，此行為稱為「反派濫玩」，並違反規則。
+有許多人都在耐心等待輪到自己擔任反派角色，因此 [color=#a4885c]若您尚未準備好，懇請您不要選擇擔任反派角色[/color]。
 
-## Traits
-Speech traits alter your speech, sometimes to an extreme degree.
+## 特質
+言語特質會改變你的說話方式，有時甚至會產生極端的影響。
 
-They include:
-- Accentless (disables the accent of your selected species)
-- Cowboy accent (word replacement, partner)
-- Frontal lisp ("s" is replaced with "th")
-- Italian accent (Mamma-mia, word replacement)
-- Pathological liar (word replacement, changes words like "yes" to "no")
-- Pirate accent (Arrgh, word replacement)
-- Social anxiety (s-s-stutter)
-- Southern Drawl (replaces "-ing" with "-in'" and similar changes)
+其中包括：
+- 無口音（停用所選物種的口音）
+- 牛仔口音（詞彙替換，夥伴）
+- 前齒齒音（將「s」替換為「th」）
+- 義大利口音（Mamma-mia，詞彙替換）
+- 病態說謊者（詞彙替換，將「是」等詞改為「不」）
+- 海盜口音（「Arrgh」，詞彙替換）
+- 社交焦慮（結巴）
+- 南方拖音（將「-ing」替換為「-in'」及類似變化）
 
-You should be comfortable with talking normally or with a minor accent such as Social anxiety or Southern drawl before taking heavy accents like Italian or Cowboy.
+在嘗試義大利口音或牛仔口音等濃重口音之前，你應該先能自如地以正常口音說話，或僅帶有輕微口音（例如社交焦慮症口音或南方拖音）。
 
-There are also disabilty traits. Familiarize yourself with the game and the game's flow before taking one of these, as some may become difficult for beginners to deal with.
+此外還有一些與身心障礙相關的特徵。 在嘗試這些關卡之前，請先熟悉遊戲及其流程，因為其中某些關卡對初學者來說可能會較難應對。
 
-They include:
-- Blindness (severely limits your vision)
-- Lightweight drunk (you get drunk faster and you suffer more from the ill-effects of alcohol)
-- Muted (you cannot talk or whisper, but you can still communicate via emotes and pen and paper)
-- Narcolepsy (you randomly fall asleep at unpredictable and often inconvenient times)
-- Pacifist (you cannot hit, shoot, or throw sharp objects at people)
-- Paracusia (you sometimes hear noises that aren't real)
-- Short-sighted (somewhat limits your vision without prescription glasses)
-- Snoring (you make loud snoring sounds when asleep)
-- Unrevivable (you cannot be resuscitated when you meet your untimely demise)
+其中包括：
+- 失明（嚴重限制你的視力）
+- 易醉體質（你會更快醉酒，且更易受到酒精的負面影響）
+- 噤聲（你無法說話或低語，但仍可透過表情符號、紙筆進行溝通）
+- 嗜睡症 （會在無法預測且往往不合時宜的時刻隨機入睡）
+- 和平主義者（無法擊打、射擊或向他人投擲尖銳物體）
+- 聽覺幻覺（有時會聽到不真實的聲響）
+- 近視（若未配戴處方眼鏡，視力會受到一定程度的限制）
+- 打鼾（睡著時會發出響亮的鼾聲）
+- 無法復甦（若不幸猝死，將無法被救活）
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

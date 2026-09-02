@@ -12,4 +12,4 @@ objectives-objective-success = { $objective } | [color=green]成功！[/color] (
 objectives-objective-partial-success = { $objective } | [color=yellow]部分成功！[/color] ({ TOSTRING($progress, "P0") })
 objectives-objective-partial-failure = { $objective } | [color=orange]部分失敗！[/color] ({ TOSTRING($progress, "P0") })
 objectives-objective-fail = { $objective } | [color=red]失敗！[/color] ({ TOSTRING($progress, "P0") })
-objectives-in-custody = [粗體][顏色=紅色]| 已被拘留 | [/顏色][/粗體]
+objectives-in-custody = [bold][color=red]| 已被拘留 | [/color][/bold]

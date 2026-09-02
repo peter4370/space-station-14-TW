@@ -687,8 +687,8 @@
   name: 斯諾斯 | snoth
   components:
   - type: GhostRole
-    name: 幽靈角色資訊－斯諾斯－名稱 | ghost-role-information-snoth-name
-    description: 幽靈角色資訊－斯諾斯－描述 | ghost-role-information-snoth-description
+    name: ghost-role-information-snoth-name | ghost-role-information-snoth-name
+    description: ghost-role-information-snoth-description | ghost-role-information-snoth-description
     rules: ghost-role-information-freeagent-rules
   - type: Sprite
     layers:

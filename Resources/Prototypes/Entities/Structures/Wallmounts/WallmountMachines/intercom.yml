@@ -2,7 +2,7 @@
   parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
   id: BaseIntercom
   name: 對講機 | intercom
-  description: 對講機。當車站只是想確認某些事情時，便會派上用場。 | An intercom. For when the station just needs to know something.
+  description: 對講機。當太空站只是想確認某些事情時，便會派上用場。 | An intercom. For when the station just needs to know something.
   abstract: true
   components:
   - type: StationAiWhitelist

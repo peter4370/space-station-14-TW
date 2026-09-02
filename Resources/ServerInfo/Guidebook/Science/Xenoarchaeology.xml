@@ -2,25 +2,25 @@
 <Document>
   # 外星考古學
 
-  外星考古學是科學的一門分支，專注於研究外星 [bold]文物[/bold]。
+  外星考古學是科學的一門分支，專注於研究外星 [bold]神器[/bold]。
 
-  解開這些文物的秘密可獲得研究點數，並揭示出奇異、可能有用或危險的效果。
+  解開這些神器的秘密可獲得研究點數，並揭示出奇異、可能有用或危險的效果。
 
-  每回合開始時，科學部門的實驗室中通常會有一至兩件文物。 其他取得方式包括：
+  每回合開始時，科學部門的實驗室中通常會有一至兩件神器。 其他取得方式包括：
   - 從 [color=orange]貨運[/color] 訂購
   - 透過 [color=orange]打撈[/color] 發現
   - 由 [bold]碎片[/bold] 組裝而成
-  - 在特定空間站事件中出現
+  - 在特定太空站事件中出現
 
-  ## 文物
+  ## 神器
   <Box>
     <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
     <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
   </Box>
 
-  遺物包含以 [bold]層[/bold] 形式排列的 [bold]節點[/bold]。
+  神器包含以 [bold]層[/bold] 形式排列的 [bold]節點[/bold]。
   - 解鎖一個節點，將同時解鎖上層中與其相連的節點。
-  - 每個節點都有 [bold]觸發條件[/bold]，即必須在遺物附近執行特定動作才能解鎖該節點。
+  - 每個節點都有 [bold]觸發條件[/bold]，即必須在神器附近執行特定動作才能解鎖該節點。
   - 當節點被解鎖時，其 [bold]效果[/bold] 將會觸發，且該節點會變成 [bold][color=plum]活躍[/color][/bold] 狀態。
   - 每個節點皆有 [bold]耐久度[/bold]：即解鎖後可手動觸發的次數。
   - 層級較高的節點較難抵達，但能提供更多的 [bold]研究點數[/bold]。
@@ -32,21 +32,21 @@
     <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Analysis Console"/>
     <GuideEntityEmbed Entity="NodeScanner" Caption="Node Scanner"/>
   </Box>
-  - [bold]文物分析儀：[/bold] 用於掃描文物的固定式裝置，會將資料傳送至控制台。
+  - [bold]神器分析儀：[/bold] 用於掃描神器的固定式裝置，會將資料傳送至控制台。
   - [bold][textlink="分析控制台：" link="AnalysisConsole"][/bold] 用於顯示節點樹的固定式裝置。 必須透過多功能工具與分析器連結。
-  - [bold]節點掃描器：[/bold] 小型手持裝置，可顯示當前正在啟動的節點 ID，以及遺物是否已準備好觸發，讓科學家即使在遺物附近或遠處的實驗室內操作，無需直接接觸控制台，也能以最低限度所需的知識進行操作。
+  - [bold]節點掃描器：[/bold] 小型手持裝置，可顯示當前正在啟動的節點 ID，以及神器是否已準備好觸發，讓科學家即使在神器附近或遠處的實驗室內操作，無需直接接觸控制台，也能以最低限度所需的知識進行操作。
 
   <Box>
     <GuideEntityEmbed Entity="CrateArtifactContainer" Caption="Artifact Container"/>
     <GuideEntityEmbed Entity="HandheldArtifactContainer" Caption="Handheld Container"/>
   </Box>
-  - [粗體]文物容器：[/粗體] 安全地儲存與運輸文物，並防止節點被觸發。
+  - [bold]神器容器：[/bold] 安全地儲存與運輸神器，並防止節點被觸發。
   <Box>
     <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="Crusher"/>
   </Box>
-  - [粗體]神器粉碎機：[/粗體] 將神器粉碎成碎片。四片碎片可重組為一件新的神器。
+  - [bold]神器粉碎機：[/bold] 將神器粉碎成碎片。四片碎片可重組為一件新的神器。
   <Box>
     <GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
   </Box>
-  - [粗體]神器碎片：[/粗體] 被摧毀的神器殘片。透過製作選單，可將四片碎片重組為一件新的神器。
+  - [bold]神器碎片：[/bold] 被摧毀的神器殘片。透過製作選單，可將四片碎片重組為一件新的神器。
 </Document>

@@ -1,13 +1,14 @@
+
 <Document>
-  # Salvage
+  # 打撈
 
-  [color=cyan]Salvage[/color] is one of Cargo's key, but also most dangerous, sources of income. Salvage extracts money from [color=cyan]Space Debris[/color] and the enigmatic [color=cyan]Mining Asteroid[/color].
+  [color=cyan]打撈[/color] 是《Cargo》中既關鍵又最危險的收入來源之一。 「Salvage」從 [color=cyan]太空碎片[/color] 和神秘的 [color=cyan]採礦小行星[/color] 中獲取資金。
 
-  While the void of space is full of terrors, with proper preparation and coordination any Salvage Team can make a lot of money for Cargo.
+  儘管太空的虛無充滿了各種恐怖，但只要做好充分準備並協調得當，任何打撈隊都能為「貨運」賺取大筆金錢。
 
-  ## Preparations
+  ## 行前準備
 
-  Before leaving the station, ensure you are prepared with all the required equipment. Otherwise, you will likely die before seeing any profits!
+  離開車站前，請務必確認已備妥所有必要裝備。 否則，你很可能在看到任何利潤之前就死掉了！
 
   <Box>
     <GuideEntityEmbed Entity="SuitStorageSalv"/>
@@ -15,7 +16,7 @@
     <GuideEntityEmbed Entity="VendingMachineSalvage"/>
   </Box>
 
-  Everything needed before leaving the station is provided inside Salvage's starting room. While Science can research better weapons and equipment, it is best to be equipped with your starting gear rather than nothing.
+  離開站台前所需的一切物品，皆可在「Salvage」的起始房間內取得。 雖然「科學」可以研發更先進的武器和裝備，但與其一無所有，不如先配備起始裝備。
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSpatio"/>
@@ -23,29 +24,29 @@
     <GuideEntityEmbed Entity="VendingMachineTankDispenserEVA"/>
   </Box>
 
-  The most basic equipment you need is the EVA setup.
+  您最基本的裝備就是 EVA 套裝。
 
-  - [color=cyan]Spationaut Hardsuit[/color]: This keeps you alive in space. [italic]Remember to activate the helmet so you can breathe and turn on its built-in flashlight[/italic].
-  - [color=cyan]Magboots[/color]: These provide you with gravity when exploring space debris while also making you slip-proof.
-  - [color=cyan]Oxygen/Nitrogen[/color]: Depending on your species, you will need [color=cyan]Nitrogen[/color] (slimes & vox) or [color=cyan]Oxygen[/color] (every other species). The [color=cyan]Gas Tank Dispenser[/color] has all the tanks needed, so stock up.
+  - [color=cyan]太空人重型太空服[/color]：這能讓你在太空中存活下來。 [italic]請記得啟動頭盔，這樣才能呼吸，並開啟其內建的手電筒[/italic]。
+  - [color=cyan]重力靴[/color]：在探索太空碎片時，這雙靴子能為你提供重力，同時還能防止你滑倒。
+  - [color=cyan]氧氣／氮氣[/color]：視您的物種而定，您需要的是 [color=cyan]氮氣[/color]（史萊姆和沃克斯）或 [color=cyan]氧氣[/color]（其他所有物種）。 [color=cyan]氣罐自動販賣機[/color] 備有所有所需的氣罐，請盡情補貨。
 
   <Box>
     <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
   </Box>
 
-  All Salvage Specialists must be armed, in case they need to defend themselves from hostiles.
+  所有打撈專家都必須攜帶武器，以防需要對抗敵對勢力時進行自衛。
 
-  - [color=cyan]Proto-Kinetic Accelerator[/color]: This gun has infinite ammunition, allowing you to slowly mine and fly through space. Science can print upgrades to make it hit harder, shoot farther, and cycle faster.
+  - [color=cyan]原動能加速器[/color]：這把槍擁有無限彈藥，讓你能夠在太空中緩慢地開採並穿梭飛行。 透過3D列印技術，可以為這項科技進行升級，使其攻擊力更強、射程更遠，並加快循環速度。
 
   <Box>
     <GuideEntityEmbed Entity="Pickaxe"/>
     <GuideEntityEmbed Entity="OreBag"/>
   </Box>
 
-  While you can technically mine and gather ore with just a PKA and a Backpack, Salvagers start with more specialized gear for the task.
+  雖然從技術上來說，僅憑一把 PKA 和一個背包就能進行採礦和收集礦石，但「回收者」從一開始就配備了更專業的裝備來執行這項任務。
 
-  - [color=cyan]Pickaxe[/color]: This is required for mining at any reasonable speed when wielded. It also works as a handy melee weapon!
-  - [color=cyan]Ore Bag[/color]: When equipped in your belt slot, this magnetizes nearby ore and automatically picks it up for you.
+  - [color=cyan]鎬[/color]：持此武器時，是達到合理開採速度的必要道具。 它還能當作一把實用的近戰武器！
+  - [color=cyan]礦石袋[/color]：當裝備於腰帶槽位時，此道具會使附近的礦石磁化，並自動為你撿起。
 
   <Box>
     <GuideEntityEmbed Entity="FireExtinguisher"/>
@@ -54,12 +55,12 @@
     <GuideEntityEmbed Entity="ComputerRadar"/>
   </Box>
 
-  Although you can acquire more advanced forms of travel, you'll begin with more humble methods.
+  雖然你可以獲得更先進的旅行方式，但起初你將從較為簡樸的方式開始。
 
-  - [color=cyan]Fire Extinguisher[/color]: The poor man's Jetpack. While in space, you can use a Fire Extinguisher's knockback to propel yourself in the opposite direction. It can be refilled with any liquid.
-  - [color=cyan]Grappling Gun[/color]: A movement tool with infinite potential. It's fired like any other gun, and can be retracted by reloading. Once you hook onto something, click [color=yellow][bold][keybind="UseSecondary"][/bold][/color] to reel yourself in.
-  - [color=cyan]Salvage PDA[/color]: Your PDA spawns with the AstroNav GPS program installed, allowing you to use it as a GPS when held in hand. Be sure to note the station's coordinates before you head out!
-  - [color=cyan]Mass Scanner Computer[/color]: A computer console which provides a top-down view of the station and nearby entities in space. Use it to double-check the location and direction of debris or asteroids before you travel to them.
+  - [color=cyan]滅火器[/color]：窮人的噴射背包。 在太空中，你可以利用滅火器的擊退效果，將自己推向相反方向。 它可以裝入任何液體。
+  - [color=cyan]鉤爪槍[/color]：一款擁有無限潛力的移動工具。 它的射擊方式與其他槍枝無異，且可透過重新上膛將其收回。 一旦釣到東西，請點擊 [color=yellow][bold][keybind="UseSecondary"][/bold][/color] 將自己拉上岸。
+  - [color=cyan]回收型 PDA[/color]：您的 PDA 出廠時已預裝 AstroNav GPS 程式，讓您手持時即可將其作為 GPS 使用。 出發前請務必記下該站點的座標！
+  - [color=cyan]質量掃描器電腦[/color]：一款電腦控制台，可從俯視角度顯示太空站及附近太空物體的狀況。 在前往碎片或小行星之前，請利用它再次確認其位置與方向。
 
   <Box>
     <GuideEntityEmbed Entity="RadioHandheld"/>
@@ -67,27 +68,27 @@
     <GuideEntityEmbed Entity="ClothingBeltUtilityFilled"/>
   </Box>
 
-  Finally, there are also some helpful but not required equipment that is available to Salvage.
+  最後，還有一些對「Salvage」來說雖非必需但頗有幫助的裝備可供使用。
 
-  - [color=cyan]Handheld Radio[/color]: This lets you communicate with other Salvage Specialists even if regular radio communications are unavailable.
-  - [color=cyan]Global Positioning System[/color]: A spare GPS system, identical to the one pre-installed in your PDA. Useful as a backup option or as equipment from newly-hired Salvagers.
-  - [color=cyan]Utility Belt[/color]: This holds all the equipment you will need to loot machines and the like from Salvage Wrecks and the Mining Asteroid. Wear it anytime you aren't planning on mining.
+  - [color=cyan]手持無線電[/color]：即使無法使用一般無線電通訊，此裝置仍可讓您與其他打撈專家保持聯繫。
+  - [color=cyan]全球定位系統[/color]：一套備用 GPS 系統，與您的 PDA 中預先安裝的那套完全相同。 可作為備用方案，或作為新聘「打撈者」所配備的裝備。
+  - [color=cyan]多功能腰帶[/color]：此腰帶可收納你在「 salvage wrecks」和「採礦小行星」中掠奪機器等物所需的全部裝備。 只要你沒打算去採礦，隨時都可以穿它。
 
-  ## Salvage Magnet Pulls
+  ## 打撈磁鐵拉力
 
-  Once prepared, it is time to go and explore the stars.
+  準備就緒後，是時候出發探索星辰了。
 
   <Box>
     <GuideEntityEmbed Entity="SalvageMagnet"/>
   </Box>
 
-  The [color=cyan]Salvage Magnet[/color] is the machine that brings space debris into nearby space.
+  [color=cyan]打撈磁鐵[/color] 是一台能將太空垃圾帶到附近太空的機器。
 
-  The Salvage Magnet provides five offers: they will be a random mix of [color=cyan]Asteroids[/color], [color=cyan]Salvage Wrecks[/color], and [color=cyan]Space Debris[/color]. After choosing one of the offers, the selected chunk will be pulled in for the next [bold]6 minutes[/bold]. At the end of this time, any loot remaining on the pulled grid will disappear. If none of the offers look appealing to you, they refresh every [bold]3 minutes[/bold] if unclaimed.
+  「打撈磁鐵」提供五項選項：這些選項將是 [color=cyan]小行星[/color]、[color=cyan]打撈殘骸[/color] 以及 [color=cyan]太空碎片[/color] 的隨機組合。 選擇其中一項優惠後，所選的區塊將在接下來的 [bold]6 分鐘[/bold] 內被拉入。 在此時間結束時，被拉出的網格上剩餘的任何戰利品都會消失。 如果沒有任何優惠令您感興趣，這些優惠在無人領取的情況下，每 [bold]3 分鐘[/bold] 就會重新更新一次。
 
-  During the 6 minutes, fly to the pulled grid, extract all profit possible, and then fly back to the station.
+  在這 6 分鐘內，飛往標示的網格區域，盡可能獲取所有利潤，然後飛回基地。
 
-### Asteroids
+### 小行星
 
   <Box>
     <GuideEntityEmbed Entity="Pickaxe"/>
@@ -95,13 +96,13 @@
     <GuideEntityEmbed Entity="OreProcessor"/>
   </Box>
 
-  The Salvage Magnet provides information on the types of resources on an asteroid, which can help you decide which to prioritize based on the current needs of the station. This is a relatively safe option for mining as there are no hostile creatures on asteroids - though there are certainly still threats...
+  「打撈磁鐵」會提供小行星上資源類型的相關資訊，有助於您根據太空站的當前需求，決定該優先開採哪些資源。 這是一種相對安全的採礦方式，因為小行星上沒有敵對生物——儘管確實仍存在一些威脅……
 
-  All you need to do is fly around and mine the ore with your [color=cyan]Pickaxe[/color] and [color=cyan]Ore Bag[/color]. Once you have collected all the ore, you can refine it into materials through the [color=cyan]Ore Processor[/color].
+  你只需要四處飛翔，並使用你的 [color=cyan]鎬[/color] 和 [color=cyan]礦石袋[/color] 來開採礦石即可。 收集完所有礦石後，即可透過 [color=cyan]礦石處理器[/color] 將其提煉成材料。
 
-  Tread lightly - hidden in seemingly normal rock, chunks of [color=red]Gibtonite[/color] hide, ready to explode at the slightest disturbance.
+  請小心行走——在看似普通的岩石中，隱藏著大塊的 [color=red]吉布托尼特[/color]，稍有騷動便會爆炸。
 
-### Space Debris
+### 太空垃圾
 
   <Box>
     <GuideEntityEmbed Entity="Wrench"/>
@@ -109,13 +110,13 @@
     <GuideEntityEmbed Entity="Recycler"/>
   </Box>
 
-  [color=cyan]Space Debris[/color] is a versatile option, providing vital basic materials (such as steel, glass, etc.) in short supply at the start of the shift. Items and scrap are scattered across the debris, and must be collected. Consider dragging along one of the lockers or crates aboard the debris for easier storage.
+  [color=cyan]太空碎片[/color] 是一種用途廣泛的選擇，能提供在班次開始時供應短缺的重要基礎材料（例如鋼材、玻璃等）。 雜物和廢料散落在瓦礫之中，必須加以收集。 不妨考慮將碎片上的其中一個儲物櫃或板條箱拖上船，以便存放。
 
-  Debris is sprinkled with numerous threats. Bloodthirsty [color=red]Space Carp[/color] and [color=red]Sharkminnows[/color] infest them, eager to rush any Salvagers that come nearby. [color=red]Landmines[/color] are also rarely found aboard debris, capable of incapacitating the unwary explorer.
+  碎片中潛藏著無數威脅。 嗜血的 [color=red]太空鯉[/color] 和 [color=red]鯊魚小魚[/color] 在其中橫行，一有回收者靠近便會猛然撲向對方。 [color=red]地雷[/color] 也極少出現在殘骸上，卻足以讓疏於防備的探險者喪失行動能力。
 
-  Once you return from the Debris, place any scrap you found aboard the debris into your department's [color=cyan]Recycler[/color] to transform it into useful materials and give it to Cargo to distribute to the station. Should you find valuables aboard the Debris, like [color=yellow]Coins, Rings, and Watches,[/color] give them to Cargo so they can be sold at the [color=cyan]Automated Trade Station[/color] for profit.
+  從「殘骸」返回後，請將你在殘骸上找到的任何廢料放入你所屬部門的 [color=cyan]回收機[/color] 中，將其轉化為有用的材料，並交給貨運部門分發至空間站。 若你在「碎片號」上發現貴重物品，例如 [color=yellow]硬幣、戒指和手錶，[/color] 請將它們交給「貨運部」，以便他們能在 [color=cyan]自動貿易站[/color] 將其出售並獲利。
 
-  ### Salvage Wrecks
+  ### 打撈沉船
 
   <Box>
     <GuideEntityEmbed Entity="SurvivalKnife"/>
@@ -123,21 +124,21 @@
     <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
   </Box>
 
-  The Salvage Magnet provides information on the size of a Wreck. Salvage Wrecks vary wildly in both threat and value, but they often have more diverse threats than [color=cyan]Space Debris[/color]. Keep your distance from hostiles and shoot at them with the [color=cyan]Proto-Kinetic Accelerator[/color]. Look out for valuable loot and machinery, and use your [color=cyan]Appraisal Tool[/color] to check the value of different things.
+  「打撈磁鐵」可提供關於沉船尺寸的資訊。 打撈殘骸在威脅程度和價值方面差異極大，但其威脅類型通常比 [color=cyan]太空碎片[/color] 更加多元。 請與敵人保持距離，並使用 [color=cyan]原動能加速器[/color] 向他們開火。 留意有價值的戰利品和機械設備，並使用你的 [color=cyan]鑑定工具[/color] 來確認各種物品的價值。
 
-  ## Progression & Upgrades
+  ## 進度與升級
 
-  While your starting equipment is all you need to do your job at a basic level, advanced gear makes your work far easier, and gives you the equipment necessary to let you tackle the dreaded [color=red]Mining Asteroid[/color]
+  雖然起始裝備已足以讓你完成基礎層級的工作，但進階裝備能讓工作變得輕鬆許多，並提供你所需的裝備，讓你能夠應對令人聞風喪膽的 [color=red]採礦小行星[/color]
 
-  ### Salvage Job Board
+  ### 打撈任務板
 
   <Box>
     <GuideEntityEmbed Entity="ComputerSalvageJobBoard"/>
   </Box>
 
-  The [color=cyan]Salvage Job Board[/color] is a computer located in the Salvage Bay. It serves as Salvage's version of the [color=cyan]Cargo Bounty Computer[/color], allowing Salvagers to fulfill specific jobs with Salvage-specific materials in order to earn Spesos and unlock [color=yellow]Advanced Salvage Gear[/color].
+  [color=cyan]打撈工作佈告欄[/color] 是一台位於打撈區的電腦。 這是「打撈」系統中的 [color=cyan]貨物賞金電腦[/color]，讓打撈者能利用打撈專屬的材料完成特定任務，藉此賺取斯佩索並解鎖 [color=yellow]進階打撈裝備[/color]。
 
-  Once you gather the supplies necessary to complete a job, print out a [color=cyan]Salvage Job Shipment Label[/color] and attach it to the crate or locker containing the goods. You can use your [color=cyan]Appraisal Tool[/color] to double-check that it's ready for sale. The prepared bounty can then be brought to the [color=cyan]Automated Trade Station[/color] to earn Cargo Spesos and to unlock new Salvage-specific crates in the [color=cyan]Cargo Request Computer[/color].
+  當您備齊完成任務所需的物資後，請列印一份 [color=cyan]打撈任務貨運標籤[/color]，並將其貼在裝有貨物的木箱或儲物櫃上。 您可以使用您的 [color=cyan]估價工具[/color] 再次確認該物品是否已準備好出售。 準備好的賞金隨後可帶至 [color=cyan]自動交易站[/color]，以賺取貨運斯佩索，並在 [color=cyan]貨運請求電腦[/color] 中解鎖新的「打撈」專用貨箱。
 
   <Box>
     <GuideEntityEmbed Entity="Fulton1"/>
@@ -145,22 +146,22 @@
     <GuideEntityEmbed Entity="SeismicCharge"/>
   </Box>
 
-  Completing Salvage Jobs will upgrade your rank and unlock new equipment purchases in the [color=cyan]Cargo Request Computer[/color], including:
+  完成打撈任務將提升你的等級，並在 [color=cyan]貨物請求電腦[/color] 中解鎖新的裝備購買選項，包括：
 
-  - [color=cyan]Fultons[/color]: Once a Fulton has been linked to a Fulton Beacon, they can be attached to unanchored structures like crates or machines to teleport them back to the Beacon after a short wait. Exceptionally useful for moving both items and people.
-  - [color=cyan]Crusher Weapons[/color]: A series of upgraded melee options for Salvagers to purchase. The [color=red]Crusher Dagger[/color] is an upgrade to your Survival knife, swinging automatically and far faster than a regular knife. The [color=red]Crusher[/color] and upgraded [color=red]Crusher Glaive[/color] are gigantic polearms which can fire special projectiles when wielded. These projectiles do no damage on their own, but if a marked enemy is meleed quickly enough, you'll leech some of their life away to heal yourself. All Crusher weaponry comes with a built-in floodlamp.
-  - [color=cyan]Seismic Charges[/color]: Mining explosives intended to be used to break up asteroids or breach into dangerous wrecks. Remember that you can link them to a remote detonator or set them to start detonating when attached to a wall for safer demolition.
+  - [color=cyan]富爾頓裝置[/color]： 一旦富爾頓裝置與富爾頓信標建立連結，便可將其附著於未錨定的結構物（如貨箱或機器）上，稍候片刻後即可將其傳送回信標。 無論是搬運物品還是載運人員，都極為實用。
+  - [color=cyan]粉碎者武器[/color]：一系列供「回收者」購買的升級近戰武器選項。 [color=red]粉碎匕首[/color] 是你的生存刀的升級版，會自動揮砍，且速度遠比普通刀快得多。 [color=red]粉碎者[/color]及其升級版 [color=red]粉碎者長鎚[/color] 都是巨型長柄武器，揮動時能發射特殊投射物。 這些投射物本身不會造成傷害，但如果在標記敵人後迅速進行近戰攻擊，你將能吸取對方部分生命值來治癒自己。 所有「粉碎者」系列武器均配備內建泛光燈。
+  - [color=cyan]地震炸藥[/color]：專門用於粉碎小行星或闖入危險殘骸的採礦用炸藥。 請記住，您可以將它們連接到遠端引爆器，或設定為在接觸牆面時自動引爆，以確保爆破作業更安全。
 
-  ### Working with Science
+  ### 與科學共事
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineScientist"/>
     <GuideEntityEmbed Entity="ResearchDisk"/>
   </Box>
 
-  The [color=purple]Science Department[/color] is a crucial partner for Salvage. Science depends on Salvage for both basic materials (steel, plastic, glass) and advanced materials (silver, gold, plasma, and uranium), and Salvage relies on Science for the upgraded equipment that makes their work easier.
+  [color=purple]科學部[/color] 是 Salvage 的重要合作夥伴。 科學界既仰賴「打撈」提供基礎材料（鋼、塑膠、玻璃），也仰賴其提供先進材料（銀、金、等離子體和鈾）；而「打撈」則仰賴科學界提供能讓工作更輕鬆的升級設備。
 
-  Whenever possible, communicate with Science and try to prioritize their requests. While Science will need large quantities of basic materials, they rely entirely on you for their supply of [color=yellow]Gold, Silver and Uranium,[/color] all of which are required for your advanced gear. If you want Science to help you, you have to help them - and vice versa.
+  只要情況允許，請與科學部門保持溝通，並盡量優先處理他們的請求。 雖然科學領域需要大量基礎材料，但它們對[color=yellow]黃金、白銀和鈾[/color]的供應完全仰賴於您，而這些都是您製造先進裝備所必需的。 如果你希望科學能幫助你，你就必須幫助科學——反之亦然。
 
   <Box>
     <GuideEntityEmbed Entity="MiningDrill"/>
@@ -168,15 +169,15 @@
     <GuideEntityEmbed Entity="PKAUpgradeRange"/>
   </Box>
 
-  Science is the only source for a variety of extremely useful gear, including:
+  科學是獲得各式各樣極其實用裝備的唯一來源，包括：
 
-  - [color=cyan]Mining Gear[/color]: Science can provide you with [color=yellow]Mining Drills and Mineral Scanners[/color], which make mining faster and easier. They can also build you an [color=yellow]Industrial Ore Processor[/color], which processes ore into finished materials at a much better rate.
-  - [color=cyan]Handheld Mass Scanner[/color]: A pocket-portable Mass Scanner Computer. Though it requires a battery to use, it lets you view your position anywhere in space.
-  - [color=cyan]PKA Upgrades[/color]: You can upgrade your PKA with up to two unique upgrades from a pool of three: [color=red]Damage,[/color] [color=yellow]Fire Rate,[/color] and [color=green]Range[/color].
+  - [color=cyan]採礦裝備[/color]：科學能為你提供 [color=yellow]採礦鑽頭與礦物掃描器[/color]，讓採礦變得更快、更輕鬆。 他們還能為你建造一座 [color=yellow]工業礦石加工廠[/color]，其將礦石加工成成品的效率遠高於一般方式。
+  - [color=cyan]手持式質量掃描器[/color]：一款可放入口袋的便攜式質量掃描器電腦。 雖然使用時需要電池供電，但它能讓您在太空的任何位置查看自己的位置。
+  - [color=cyan]PKA 升級[/color]：你可以從以下三項選項中，為你的 PKA 選擇最多兩項獨特升級：[color=red]傷害、[/color] [color=yellow]射速、[/color] 以及 [color=green]射程[/color]。
 
-  ## The Mining Asteroid
+  ## 採礦小行星
 
-  Once you feel that you've mastered the Salvage Magnet, the distant [color=red]Mining Asteroid[/color] serves as the next step in a Salvager's journey. Reaching the Mining Asteroid generally requires a shuttle or jetpacks, and it should generally not be explored alone due to the exceptional dangers within.
+  當你覺得自己已經掌握了「打撈磁鐵」的使用技巧後，遠處的 [color=red]採礦小行星[/color] 便是打撈者旅程中的下一站。 要抵達採礦小行星，通常需要搭乘太空梭或使用噴射背包；由於內部存在極度危險，一般不應獨自前往探勘。
 
   <Box>
     <GuideEntityEmbed Entity="MobGoliath"/>
@@ -184,11 +185,11 @@
     <GuideEntityEmbed Entity="MobBasilisk"/>
   </Box>
 
-  The Mining Asteroid consists of two sections: the [color=cyan]Dungeon[/color], a randomly-generated structure filled with enemies and material loot, and the [color=cyan]Asteroid[/color], which contains vast deposits of mineral wealth dotted with pockets of loot and monsters.
+  「採礦小行星」由兩個部分組成：[color=cyan]地牢[/color]——一個隨機生成的結構，內有大量敵人和資源戰利品；以及[color=cyan]小行星[/color]——其中蘊藏著龐大的礦藏，並散佈著戰利品和怪物。
 
-  Beware of the monsters aboard the Mining Asteroid, as they stand head and shoulders above the threats present on Wrecks and Debris.
+  請小心「採礦小行星」上的怪物，因為它們的威脅程度遠遠超過「殘骸與碎片」上的那些。
 
-  - [color=cyan]Goliaths[/color]: Titanic beasts which can incapacitate targets with writhing tendrils, leaving them helpless against their massive claws and gnashing teeth. They're a pain to take down, but they can be butchered for valuable [color=cyan]Goliath Hide Plating,[/color] useful in both completing Salvage Jobs and upgrading your Spationaut Suit.
-  - [color=cyan]Hivelords[/color]: Fast moving and erratic anomalies. They prefer to keep their distance in combat, spewing out small [color=cyan]Hivelord Brood[/color] to swarm Salvagers. They're not especially tough, so ambush them quickly before they can summon a horde to drown you in. They can be butchered for the quick-rotting [color=cyan]Hivelord Cores,[/color] which are used to complete Salvage Jobs and can also be eaten raw for quick healing.
-  - [color=cyan]Basilisks[/color]: An ice-encrusted terror that lurks in the shadows. Basilisks can fire freezing energy bolts which damage and slow their targets, and will often use them to soften up a target before moving in for the kill. Once defeated, they can be butchered for invaluable [color=cyan]Diamond Ore[/color].
+  - [color=cyan]巨人[/color]：這類龐然巨獸能以蠕動的觸手使目標喪失行動能力，使其在面對牠們巨大的爪子和嘶咬的利齒時束手無策。 雖然牠們很難獵殺，但宰殺後可獲得珍貴的 [color=cyan]歌利亞皮甲，[/color] 無論是完成回收任務還是升級太空服，都十分實用。
+  - [color=cyan]蜂巢領主[/color]：移動迅速且行蹤詭譎的異常現象。 牠們在戰鬥中傾向保持距離，不斷吐出小型 [color=cyan]蜂巢之主後裔[/color]，以蜂群之勢圍攻「回收者」。 牠們的戰鬥力並不特別強，所以趁牠們還來不及召喚大批同夥將你淹沒之前，盡快對牠們發動伏擊吧。 可以將牠們宰殺，以取得會快速腐爛的 [color=cyan]蜂王核心，[/color] 這些核心可用於完成回收任務，也可以生吃以快速恢復生命值。
+  - [color=cyan]巴斯利斯克[/color]：潛伏在陰影中的、佈滿冰霜的恐怖生物。 巴希利斯克能射出冰凍能量光束，對目標造成傷害並使其減速，且常會先用此招式削弱目標，再趁機發動致命一擊。 一旦擊敗牠們，便可將其宰殺，以獲取極具價值的 [color=cyan]鑽石礦石[/color]。
 </Document>

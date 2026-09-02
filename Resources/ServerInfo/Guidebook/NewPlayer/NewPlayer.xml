@@ -1,43 +1,45 @@
 
 <Document>
-# Welcome to Space Station 14!
+# 歡迎來到第 14 號太空站！
 
-You've just begun your shift aboard a Nanotrasen space station.
-You and your fellow crewmates are tasked with working together, surviving, and having fun!
+你剛在納諾特拉森太空站開始了你的輪班。
+你和你的船員夥伴們的任務，就是齊心協力、生存下去，並享受樂趣！
 
-[bold]Make sure to follow all server rules.[/bold] You can ask questions or report rule breaks to the [color=#EB2D3A][bold]admin team[/bold][/color] by using the [bold]admin help menu[/bold]. ([italic]accessible by pressing [/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color])
+[粗體]請務必遵守所有伺服器規則。[/粗體] 您可透過 [粗體]管理員協助選單[/粗體] 向 [color=#EB2D3A][粗體]管理團隊[/粗體][/color] 提問或舉報違規行為。 ([italic]可透過按下 [/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color])
 
-More detailed guides about [italic]specific jobs[/italic] and [italic]mechanics[/italic] can be found [textlink="here." link="SS14"/]
+有關 [italic]特定職業[/italic] 與 [italic]遊戲機制[/italic] 的更詳細指南，可於 [textlink="此處" link="SS14"/]
 
-This guide can be reopened at any time using [color=yellow][bold][keybind="OpenGuidebook"][/bold][/color].
+查閱 您可隨時使用 [color=yellow][bold][keybind="OpenGuidebook"][/bold][/color] 重新開啟本指南。
 
-## Basic Controls
-The following are the controls you'll need for regular gameplay:
+## 基本操作
+以下是進行一般遊戲時所需的操作：
 
-- Run using [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color]. Hold down [color=yellow][bold][keybind="Walk"][/bold][/color] to walk
+- 使用 [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color] 進行移動。 長按 [color=yellow][bold][keybind="Walk"][/bold][/color] 來行走
 
-- Examine the world around you with [color=yellow][bold][keybind="ExamineEntity"][/bold][/color]
+- 使用 [color=yellow][bold][keybind="ExamineEntity"][/bold][/color] 來探索周遭的世界
 
-- Interact with the world using [color=yellow][bold][keybind="Use"][/bold][/color]
+- 使用 [color=yellow][bold][keybind="Use"][/bold][/color] 與世界互動
 
-- Hovering over an entity and pressing [color=yellow][bold][keybind="UseSecondary"][/bold][/color] shows the [italic]context menu[/italic], which contains additional interactions
+- 將游標懸停在實體上並按下 [color=yellow][bold][keybind="UseSecondary"][/bold][/color] 會顯示 [italic]情境選單[/italic]，其中包含其他互動選項
 
-- Swap hands using [color=yellow][bold][keybind="SwapHands"][/bold][/color] and activate the currently held item with [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color]
+- 使用 [color=yellow][bold][keybind="SwapHands"][/bold][/color] 切換持有的手，並透過 [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] 啟動當前持有的物品
 
-- Drop held items with [color=yellow][bold][keybind="Drop"][/bold][/color] or throw them using [color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color]
+- 使用 [color=yellow][bold][keybind="Drop"][/bold][/color] 將手持物品丟棄，或使用 [color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color] 將其投擲
 
-- Pull and release things with [color=yellow][bold][keybind="TryPullObject"][/bold][/color] and [color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color]
+- 使用 [color=yellow][bold][keybind="TryPullObject"][/bold][/color] 和 [color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color] 來拉取並釋放物品
 
-A more comprehensive list can be found on the [textlink="controls" link="Controls"] page.
+更完整的清單可參閱 [textlink="controls" link="Controls"] 頁面。
 
-## What is SS14?
-Space Station 14 is a multiplayer game about paranoia and chaos on a space station and a remake of the cult-classic Space Station 13.
+## 什麼是 SS14？
+《太空站 14》是一款以太空站上的偏執與混亂為主題的多人遊戲，同時也是 cult 經典遊戲《太空站 13》的重製版。
 
-Join dozens of other players on an intricately designed and simulated space station, immersing yourself in roleplay and dealing with threats along the way.
+與數十名其他玩家一同踏上這座設計精巧且模擬逼真的太空站，沉浸於角色扮演之中，並在旅途中應對各種威脅。
 
-SS14 is an [italic]open-source game[/italic] developed by people [bold]just like you![/bold]
-It receives [color=lime]daily updates[/color] and may at times be [color=#EB2D3A][bold]unstable.[/bold][/color]
+SS14 是一款由 [italic]像你一樣的人[/italic] 開發的 [bold]開源遊戲！[/bold]
+它會 [color=lime]每日更新[/color]，有時可能會 [color=#EB2D3A][bold]不穩定。[/粗體][/顏色]
 
-[italic]If you want to report bugs or help with development, join the discord and learn how to get started.[/italic]
-
+[斜體]若您想回報錯誤或協助開發，請加入 Discord 並了解如何開始參與。[/斜體]
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪掉這個漢堡翻譯就會出錯"/>
+    </Box>
 </Document>

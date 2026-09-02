@@ -205,7 +205,7 @@
   name: 一片蔬菜披薩 | slice of vegetable pizza
   parent: FoodPizzaSliceBase
   id: FoodPizzaVegetableSlice
-  description: 即使是最挑剔的車站工作人員，吃上一片就足夠滿足了。 | A slice of this is enough to satisfy even the pickiest station personnel.
+  description: 即使是最挑剔的太空站工作人員，吃上一片就足夠滿足了。 | A slice of this is enough to satisfy even the pickiest station personnel.
   components:
   - type: FlavorProfile
     flavors:

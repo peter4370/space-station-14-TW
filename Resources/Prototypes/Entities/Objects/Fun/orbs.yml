@@ -87,7 +87,7 @@
   parent: PonderingOrb
   id: PonderingOrbWizard
   name: 沉思之球 | pondering orb
-  description: 真沉重啊，老兄……真的好沉重。神奇地顯示出車站的攝影機網絡。 | Ponderous, man... Really ponderous. Magically shows the station's camera network.
+  description: 真沉重啊，老兄……真的好沉重。神奇地顯示出太空站的攝影機網絡。 | Ponderous, man... Really ponderous. Magically shows the station's camera network.
   suffix: Wizard
   components:
   - type: ActivatableUI

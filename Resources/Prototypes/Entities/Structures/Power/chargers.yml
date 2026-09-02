@@ -67,7 +67,7 @@
 - type: entity
   parent: BaseItemRecharger
   id: PowerCellRecharger
-  name: 手機充電器 | cell recharger
+  name: 電池充電器 | cell recharger
   description: 一款較舊型的充電器，可用於為電力電池充電。 | An older model recharger that can recharge power cells.
   components:
   - type: Sprite
@@ -235,8 +235,8 @@
 - type: entity
   parent: [ BaseRecharger, BaseConstructibleMachineDestructible ]
   id: BorgCharger
-  name: 機械人充電站 | cyborg recharging station
-  description: 一款適用於各類機器人及半機械人實體的固定式充電器。空間出乎意料地寬敞。 | A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+  name: 賽博格充電站 | cyborg recharging station
+  description: 一款適用於各類機器人及賽博格實體的固定式充電器。空間出乎意料地寬敞。 | A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
   components:
   - type: Sprite
     sprite: Structures/Power/borg_charger.rsi

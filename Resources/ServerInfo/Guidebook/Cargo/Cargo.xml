@@ -2,9 +2,9 @@
 <Document>
   # 貨運
 
-  補給部門，亦稱為 [color=cyan]貨運[/color]，負責為空間站提供必要的資源（例如燃料和原材料），以及生活娛樂資源（例如樂透彩券和絨毛玩偶）。
+  補給部門，亦稱為 [color=cyan]貨運[/color]，負責為太空站提供必要的資源（例如燃料和原材料），以及生活娛樂資源（例如樂透彩券和絨毛玩偶）。
 
-  他們透過多種方式籌集[color=cyan]斯佩索[/color]（該空間站的貨幣），例如領取懸賞金、販售各類物品以及回收資源，藉此能從空間站外購置各式各樣的裝備，以滿足任何船員的需求。 卡戈的職責就是滿足空間站其他人員的需求。
+  他們透過多種方式籌集[color=cyan]斯佩索[/color]（該太空站的貨幣），例如領取懸賞金、販售各類物品以及回收資源，藉此能從太空站外購置各式各樣的裝備，以滿足任何船員的需求。 卡戈的職責就是滿足太空站其他人員的需求。
 
   ## 人員
 
@@ -63,7 +63,7 @@
     <GuideEntityEmbed Entity="PaperCargoInvoice"/>
   </Box>
 
-  接著，為了領取訂單，必須將其從 [color=cyan]貿易站[/color] 運回車站。
+  接著，為了領取訂單，必須將其從 [color=cyan]貿易站[/color] 運回太空站。
 
   在交易站內的 [color=cyan]貨物購買托盤[/color] 上，有一個裝有該訂單的貨箱。 將它裝載到穿梭機上，然後飛回來。
 
@@ -81,11 +81,11 @@
 
   與電腦互動後，應會從太空梭中出現一個導覽視圖。 以下是駕駛穿梭機往返貿易站的操作步驟：
 
-  - 首先，切換至 [color=yellow]「DOCK」[/color] 畫面，並將穿梭機與空間站之間的任何氣閘 [color=yellow]解除對接[/color]。
-  - 現在，太空梭已與母船分離，您可以駕駛它了。 [斜體]請記住，你正在太空中飛行，且動量是守恆的[/斜體]。
+  - 首先，切換至 [color=yellow]「DOCK」[/color] 畫面，並將穿梭機與太空站之間的任何氣閘 [color=yellow]解除對接[/color]。
+  - 現在，太空梭已與母船分離，您可以駕駛它了。 [italic]請記住，你正在太空中飛行，且動量是守恆的[/italic]。
   - 控制鍵分別為 [color=yellow][keybind="ShuttleStrafeUp"][/color] 和 [color=yellow][keybind="ShuttleStrafeDown"][/color]，用於向上和向下側移，[color=yellow][keybind="ShuttleStrafeLeft"][/color] 及 [color=yellow][keybind="ShuttleStrafeRight"][/color] 分別用於左右側移，以及 [color=yellow][keybind="ShuttleRotateLeft"][/color] 和 [color=yellow][keybind="ShuttleRotateRight"][/color] 分別用於向左和向右轉向。 要煞車，請按下 [color=yellow][keybind="ShuttleBrake"][/color]。
   - 接著駕駛太空梭前往 [color=cyan]貿易站[/color]。
   - 抵達後，[color=yellow]對接[/color]至氣閘，就大功告成了。
 
-  [textlink="了解賞金機制，這是讓您在空間站獲利最大化的方法之一。" link="CargoBounties"]
+  [textlink="了解賞金機制，這是讓您在太空站獲利最大化的方法之一。" link="CargoBounties"]
 </Document>

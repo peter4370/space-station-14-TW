@@ -12,7 +12,7 @@ cloning-console-window-no-scanner-detected-label = 將基因掃描器與多功�
 cloning-console-window-no-clone-pod-detected-label = 將克隆艙與多功能工具或網路設定器連接。
 cloning-console-window-scanner-far-label = 基因掃描器距離太遠
 cloning-console-window-clone-pod-far-label = 克隆艙位置過遠
-cloning-console-eject-body-button = 彈出人體
+cloning-console-eject-body-button = 排出人體
 cloning-console-neural-interface-label = 神經介面：
 cloning-console-no-mind-activity-text = 神經介面：[color=red]無活動[/color]
 cloning-console-mind-present-text = 神經介面：[color=green]偵測到意識[/color]

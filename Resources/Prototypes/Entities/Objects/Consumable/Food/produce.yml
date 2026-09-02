@@ -713,7 +713,7 @@
       Taco: Lemoon
 
 - type: entity
-  name: 石灰 | lime
+  name: 萊姆 | lime
   parent: FoodLemon
   id: FoodLime
   description: 可治癒「太空壞血病」，讓你能像太空海盜一樣行事。 | Cures Space Scurvy, allows you to act like a Space Pirate.

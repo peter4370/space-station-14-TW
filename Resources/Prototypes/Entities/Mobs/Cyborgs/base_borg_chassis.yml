@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseMob, StripableInventoryBase]
   id: BaseBorgChassisNotIonStormable
-  name: 半機械人 | cyborg
+  name: 賽博格 | cyborg
   description: 一種協助站內活動的人機混合體。牠們非常喜歡被人一再要求宣讀自身的法規。 | A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
   save: false
   abstract: true

@@ -2,9 +2,9 @@
 department-Civilian-description = 照顧船員的基本生理與心理需求。
 department-Command-description = 管理團隊，並確保他們高效地工作。
 department-CentralCommand-description = 管理團隊，並確保他們高效地工作。
-department-Engineering-description = 負責車站的維護與修繕工作。
+department-Engineering-description = 負責太空站的維護與修繕工作。
 department-Medical-description = 確保全體船員保持健康。
 department-Security-description = 保護警局並維持治安。
 department-Science-description = 針對該站進行新技術的研究與開發。
 department-Silicon-description = 遵守您已安裝的法律集所載的條款。
-department-Specific-description = 並非所有車站都設有這些職位。
+department-Specific-description = 並非所有太空站都設有這些職位。

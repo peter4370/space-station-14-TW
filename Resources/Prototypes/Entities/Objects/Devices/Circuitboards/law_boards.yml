@@ -70,7 +70,7 @@
 - type: entity
   id: StationEfficiencyCircuitBoard
   parent: BaseSiliconLawboard
-  name: 法律委員會（車站效率） | law board (Station Efficiency)
+  name: 法律委員會（太空站效率） | law board (Station Efficiency)
   description: 一塊載有「站點效率」法則集的電子電路板。 | An electronics board containing the Station Efficiency lawset.
   components:
   - type: SiliconLawProvider

@@ -2,7 +2,7 @@ device-pda-slot-component-slot-name-cartridge = 墨盒
 default-program-name = 程式表
 notekeeper-program-name = 筆記本
 nano-task-program-name = NanoTask
-news-read-program-name = 車站新聞
+news-read-program-name = 太空站新聞
 crew-manifest-program-name = 船員名單
 crew-manifest-cartridge-loading = 載入中⋯⋯
 crew-manifest-cartridge-loading-failed = 無法載入船員名單！
@@ -59,11 +59,11 @@ nano-task-ui-description-placeholder = 獲得某件重要的東西
 nano-task-ui-requester-label = 申請人：
 nano-task-ui-requester-placeholder = 約翰·納諾特拉森
 nano-task-ui-item-title = 編輯任務
-nano-task-printed-description = [粗體]說明[/粗體]：{ $description }
-nano-task-printed-requester = [粗體]請求者[/粗體]：{ $requester }
+nano-task-printed-description = [bold]說明[/bold]：{ $description }
+nano-task-printed-requester = [bold]請求者[/bold]：{ $requester }
 nano-task-printed-high-priority = [bold]優先級[/bold]: [color=red]高[/color]
-nano-task-printed-medium-priority = [粗體]優先級[/粗體]：中等
-nano-task-printed-low-priority = [粗體]優先級[/粗體]：低
+nano-task-printed-medium-priority = [bold]優先級[/bold]：中等
+nano-task-printed-low-priority = [bold]優先級[/bold]：低
 # Wanted list cartridge
 wanted-list-program-name = 通緝名單
 wanted-list-label-no-records = 沒關係，牛仔

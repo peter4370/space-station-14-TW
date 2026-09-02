@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: GasPipeSansLayersIndestructible
-  name: 瓦斯管 | gas pipe
+  name: 氣體管 | gas pipe
   description: 可儲存氣體。 | Holds gas.
   placement:
     mode: SnapgridCenter
@@ -345,7 +345,7 @@
   parent: GasPipeBase
   id: GasPipeManifold
   name: 燃氣管路匯流排 | gas pipe manifold
-  description: 可將不同配置的瓦斯管相互連接。 | Allows gas pipes of different configurations to be connected together.
+  description: 可將不同配置的氣體管相互連接。 | Allows gas pipes of different configurations to be connected together.
   placement:
     mode: SnapgridCenter
   components:

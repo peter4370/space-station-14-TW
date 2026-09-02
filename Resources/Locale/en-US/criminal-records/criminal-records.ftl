@@ -1,5 +1,5 @@
 criminal-records-console-window-title = 犯罪紀錄電腦系統
-criminal-records-console-records-list-title = 機組人員
+criminal-records-console-records-list-title = 船員
 criminal-records-console-select-record-info = 請選擇一筆記錄。
 criminal-records-console-no-records = 未找到任何記錄！
 criminal-records-console-no-record-found = 未找到所選人員的紀錄。

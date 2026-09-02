@@ -14,7 +14,7 @@ suit-sensor-description-cords = 配戴者的健康狀況與位置會回報至監
 
 ## Popups
 
-suit-sensor-mode-state = 西裝感測器：{ $mode }
+suit-sensor-mode-state = 艙外服感測器：{ $mode }
 
 ## Components
 

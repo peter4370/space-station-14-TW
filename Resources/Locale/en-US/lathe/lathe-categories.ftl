@@ -1,7 +1,7 @@
 # Generic
 lathe-category-circuitry = 電路
 lathe-category-clothing = 服裝
-lathe-category-lights = 燈光
+lathe-category-lights = 燈
 lathe-category-machines = 機器
 lathe-category-parts = 零件
 lathe-category-tools = 工具
@@ -12,11 +12,11 @@ lathe-category-chemicals = 化學品
 lathe-category-materials = 材料
 # Circuit imprinter
 lathe-category-computers = 電腦
-lathe-category-engineering = 工程學
+lathe-category-engineering = 工程部
 lathe-category-general = 概述
 lathe-category-medical = 醫療
 lathe-category-research = 研究
-lathe-category-security = 安保區
+lathe-category-security = 安保
 lathe-category-service = 服務
 lathe-category-supply = 供應
 # Cutter

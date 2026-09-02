@@ -283,7 +283,7 @@
 - type: entity
   id: SpawnPointBorg
   parent: SpawnPointJobBase
-  name: 半機械人 | cyborg
+  name: 賽博格 | cyborg
   components:
   - type: SpawnPoint
     job_id: Borg
@@ -338,7 +338,7 @@
 - type: entity
   id: SpawnPointStationEngineer
   parent: SpawnPointJobBase
-  name: 車站工程師 | stationengineer
+  name: 太空站工程師 | stationengineer
   components:
   - type: SpawnPoint
     job_id: StationEngineer
@@ -364,7 +364,7 @@
 - type: entity
   id: SpawnPointChiefMedicalOfficer
   parent: SpawnPointJobBase
-  name: 首席醫療官 | chiefmedicalofficer
+  name: 醫務總管 | chiefmedicalofficer
   components:
   - type: SpawnPoint
     job_id: ChiefMedicalOfficer

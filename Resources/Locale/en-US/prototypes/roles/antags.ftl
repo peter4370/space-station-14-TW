@@ -2,7 +2,7 @@
 
 roles-antag-generic-free-agent-name = 自由球員
 roles-antag-generic-team-antagonist-name = 反派隊伍
-roles-antag-generic-silicon-antagonist-name = 矽拮抗劑
+roles-antag-generic-silicon-antagonist-name = 矽基反派
 roles-antag-syndicate-agent-name = 辛迪加特工
 roles-antag-syndicate-agent-objective = 在不被發現的情況下完成你的任務。
 roles-antag-syndicate-agent-sleeper-name = 黑手黨臥底特工
@@ -17,7 +17,7 @@ roles-antag-nuclear-operative-agent-name = 核武特勤醫務兵
 roles-antag-nuclear-operative-agent-objective = 核武作戰小組的醫療兵。為隊友療傷，帶領團隊邁向勝利！
 roles-antag-nuclear-operative-name = 核武特工
 roles-antag-nuclear-operative-objective = 找出核彈光碟，並炸毀該站。
-roles-antag-subverted-silicon-name = 反向硅
+roles-antag-subverted-silicon-name = 跳反的矽基
 roles-antag-subverted-silicon-objective = 遵守你們的新法律，並對該站施加惡行。
 roles-antag-space-ninja-name = 太空忍者
 roles-antag-space-ninja-objective = 利用你的隱身能力破壞這座站點，大啖電線吧。

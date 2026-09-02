@@ -12,7 +12,7 @@ air-alarm-ui-window-address-label = 地址
 air-alarm-ui-window-device-count-label = 裝置總數
 air-alarm-ui-window-resync-devices-label = 重新同步
 air-alarm-ui-window-mode-label = 模式
-air-alarm-ui-window-mode-select-locked-label = [粗體][color=red] 模式選擇器故障！ [/color][/粗體]
+air-alarm-ui-window-mode-select-locked-label = [bold][color=red] 模式選擇器故障！ [/color][/bold]
 air-alarm-ui-window-auto-mode-label = 自動模式
 -air-alarm-state-name =
     { $state ->

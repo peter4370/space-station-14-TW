@@ -4,8 +4,8 @@ ui-disposal-unit-title = { CAPITALIZE($name) }
 ui-disposal-unit-label-state = 狀態：
 ui-disposal-unit-label-pressure = 壓力：
 ui-disposal-unit-label-status = 準備好了
-ui-disposal-unit-button-flush = 沖水
-ui-disposal-unit-button-eject = 彈出內容
+ui-disposal-unit-button-flush = 沖走內物
+ui-disposal-unit-button-eject = 排出內物
 ui-disposal-unit-button-power = 電力
 
 ## Verbs

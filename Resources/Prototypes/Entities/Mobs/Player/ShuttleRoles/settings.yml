@@ -564,8 +564,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰指揮官名稱 | ghost-role-information-lost-challenge-commander-name
-      description: 幽靈角色資訊遺失挑戰指揮官說明 | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -585,8 +585,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰指揮官名稱 | ghost-role-information-lost-challenge-commander-name
-      description: 幽靈角色資訊遺失挑戰指揮官說明 | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -606,8 +606,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰指揮官名稱 | ghost-role-information-lost-challenge-commander-name
-      description: 幽靈角色資訊遺失挑戰指揮官說明 | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -627,8 +627,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰指揮官名稱 | ghost-role-information-lost-challenge-commander-name
-      description: 幽靈角色資訊遺失挑戰指揮官說明 | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -648,8 +648,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰指揮官名稱 | ghost-role-information-lost-challenge-commander-name
-      description: 幽靈角色資訊遺失挑戰指揮官說明 | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -669,8 +669,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰指揮官名稱 | ghost-role-information-lost-challenge-commander-name
-      description: 幽靈角色資訊遺失挑戰指揮官說明 | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -690,8 +690,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰指揮官名稱 | ghost-role-information-lost-challenge-commander-name
-      description: 幽靈角色資訊遺失挑戰指揮官說明 | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -715,7 +715,7 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 幽靈角色資訊遺失挑戰：貨運技術員名稱 | ghost-role-information-lost-challenge-cargo-technican-name
+      name: ghost-role-information-lost-challenge-cargo-technican-name | ghost-role-information-lost-challenge-cargo-technican-name
       description: ghost-角色資訊-迷失挑戰-貨運技術員-描述 | ghost-role-information-lost-challenge-cargo-technican-description
       rules: ghost-role-information-lost-disaster-challenge-cargo-technican-rules
       raffle:
@@ -809,8 +809,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: 幽靈角色資訊－海盜名稱 | ghost-role-information-pirate-name
-      description: 幽靈角色資訊－海盜－描述 | ghost-role-information-pirate-description
+      name: ghost-role-information-pirate-name | ghost-role-information-pirate-name
+      description: ghost-role-information-pirate-description | ghost-role-information-pirate-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -828,8 +828,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: 幽靈角色資訊－海盜船長－名字 | ghost-role-information-pirate-captain-name
-      description: 幽靈角色資訊－海盜船長－描述 | ghost-role-information-pirate-captain-description
+      name: ghost-role-information-pirate-captain-name | ghost-role-information-pirate-captain-name
+      description: ghost-role-information-pirate-captain-description | ghost-role-information-pirate-captain-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -846,8 +846,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: 幽靈角色資訊－黑市商人－姓名 | ghost-role-information-blackmarketeer-name
-      description: 幽靈角色資訊－黑市商人－描述 | ghost-role-information-blackmarketeer-description
+      name: ghost-role-information-blackmarketeer-name | ghost-role-information-blackmarketeer-name
+      description: ghost-role-information-blackmarketeer-description | ghost-role-information-blackmarketeer-description
       rules: ghost-role-information-freeagent-rules
       mindRoles:
       - MindRoleGhostRoleFreeAgent

@@ -5,5 +5,5 @@ entity-category-name-roles = 心智角色
 entity-category-name-mapping = 製圖
 entity-category-name-donotmap = 請勿建立對應
 entity-category-name-status-effects = 狀態效果
-entity-category-name-xeno-artifact-effects = 外星遺物效果
+entity-category-name-xeno-artifact-effects = 外星神器效果
 entity-category-suffix-donotmap = 請勿建立對應

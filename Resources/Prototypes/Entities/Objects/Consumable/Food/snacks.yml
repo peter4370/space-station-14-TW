@@ -551,7 +551,7 @@
   categories: [ HideSpawnMenu ]
   parent: [SolutionFood, SolutionVeryTiny, BaseItem]
   id: FoodPacketTrash
-  description: 這簡直是胡說八道。 | This is rubbish.
+  description: 這是垃圾。 | This is rubbish.
   abstract: true
   components:
   - type: Sprite

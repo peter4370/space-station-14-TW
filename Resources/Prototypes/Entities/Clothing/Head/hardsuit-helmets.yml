@@ -219,7 +219,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitEngineeringWhite
   name: 總工程師的硬質裝甲頭盔 | chief engineer's hardsuit helmet
-  description: 專為該空間站首席工程師打造的特殊硬式太空服頭盔。 | Special hardsuit helmet, made for the chief engineer of the station.
+  description: 專為該太空站首席工程師打造的特殊硬式太空服頭盔。 | Special hardsuit helmet, made for the chief engineer of the station.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering-white.rsi
@@ -240,7 +240,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitMedical
-  name: 首席醫療官的硬質裝甲頭盔 | chief medical officer's hardsuit helmet
+  name: 醫務總管的硬質裝甲頭盔 | chief medical officer's hardsuit helmet
   description: 一款輕量級醫療用硬式頭盔，不會限制頭部活動。 | Lightweight medical hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: Sprite

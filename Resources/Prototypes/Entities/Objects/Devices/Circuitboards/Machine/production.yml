@@ -212,7 +212,7 @@
 - type: entity
   id: UniformPrinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 統一印表機機板 | uniform printer machine board
+  name: 制服印表機機板 | uniform printer machine board
   components:
   - type: MachineBoard
     prototype: UniformPrinter
@@ -259,8 +259,8 @@
 - type: entity
   id: ArtifactAnalyzerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 人工製品分析儀主機板 | artifact analyzer machine board
-  description: 用於文物分析儀的機械印刷電路板。 | A machine printed circuit board for an artifact analyzer.
+  name: 神器分析儀主機板 | artifact analyzer machine board
+  description: 用於神器分析儀的機械印刷電路板。 | A machine printed circuit board for an artifact analyzer.
   components:
     - type: Sprite
       state: science
@@ -273,8 +273,8 @@
 - type: entity
   id: ArtifactCrusherMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 文物粉碎機專區 | artifact crusher machine board
-  description: 用於文物粉碎機的機械印刷電路板。 | A machine printed circuit board for an artifact crusher.
+  name: 神器粉碎機主機板 | artifact crusher machine board
+  description: 用於神器粉碎機的機械印刷電路板。 | A machine printed circuit board for an artifact crusher.
   components:
   - type: Sprite
     state: science
@@ -303,8 +303,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselCircuitboard
-  name: 異常 船舶 機器 舷板 | anomaly vessel machine board
-  description: 一款用於異常容器的機械印刷電路板。 | A machine printed circuit board for an anomaly vessel.
+  name: 異常載體機器板 | anomaly vessel machine board
+  description: 一款用於異常載體的機械印刷電路板。 | A machine printed circuit board for an anomaly vessel.
   components:
     - type: Sprite
       state: science
@@ -318,8 +318,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselExperimentalCircuitboard
-  name: 實驗性異常載具機板 | experimental anomaly vessel machine board
-  description: 一款用於實驗性異常容器機製印刷電路板。 | A machine printed circuit board for an experimental anomaly vessel.
+  name: 實驗性異常載體機板 | experimental anomaly vessel machine board
+  description: 一款用於實驗性異常載體的機製印刷電路板。 | A machine printed circuit board for an experimental anomaly vessel.
   components:
   - type: Sprite
     state: science
@@ -665,8 +665,8 @@
 - type: entity
   id: CellRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: 手機充電機主板 | cell recharger machine board
-  description: 一款用於手機充電器的機械式印刷電路板。 | A machine printed circuit board for a cell recharger.
+  name: 電池充電機主板 | cell recharger machine board
+  description: 一款用於電池充電器的機械式印刷電路板。 | A machine printed circuit board for a cell recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -708,7 +708,7 @@
 - type: entity
   id: BorgChargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: 半機械人充電站機板 | cyborg recharging station machine board
+  name: 賽博格充電站機板 | cyborg recharging station machine board
   description: 一款用於機器人充電站的機械式印刷電路板。 | A machine printed circuit board for a robot recharging station.
   components:
     - type: Sprite

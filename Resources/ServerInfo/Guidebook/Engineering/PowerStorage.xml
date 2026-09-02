@@ -47,5 +47,5 @@
   進階 SMES 可儲存 [color=orange][protodata="SMESAdvanced" comp="Battery" member="MaxCharge" format="N0"/] J[/color] 的能量，並能輸出最大 [color=orange][protodata="SMESAdvanced" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] 的功率。
 
   請記住，這些並非解決電力短缺的萬靈丹，而且它們也無法儲存無限的能量。
-  如果沒有電源提供部分支援，車站的負載會迅速耗盡這些電池的電量。
+  如果沒有電源提供部分支援，太空站的負載會迅速耗盡這些電池的電量。
 </Document>

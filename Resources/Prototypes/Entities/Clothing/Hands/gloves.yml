@@ -368,7 +368,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesFingerlessInsulated
-  name: 無指保暖手套 | fingerless insulated gloves
+  name: 無指絕緣手套 | fingerless insulated gloves
   description: 絕緣手套具有抗衝擊性，或者說，至少以前是這樣。 | Insulated gloves resistant to shocks, or at least they used to.
   components:
   - type: Sprite
@@ -482,7 +482,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesJanitor
-  name: 指節鐵環 | rubber gloves
+  name: 橡膠手套 | rubber gloves
   description: 冷鍛塑鋼指節套，讓你的拳頭擊打時更具威力。 | High-quality rubber gloves, squeaky to do some cleaning!
   components:
   - type: Sprite

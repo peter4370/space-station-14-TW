@@ -1,7 +1,7 @@
 
 <Document>
   # 大氣系統
-  大氣系統是負責維護空間站大氣環境，並確保其對乘組人員而言既安全又適於呼吸的工程分部門。
+  大氣系統是負責維護太空站大氣環境，並確保其對乘組人員而言既安全又適於呼吸的工程分部門。
 
   Atmospherics 由大氣技術人員負責營運，並由總工程師監督。
 
@@ -10,7 +10,7 @@
     <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
   </Box>
   <Box>
-    [color=#999999][斜體][斜體][/color]
+    [color=#999999][italic][italic][/color]
   </Box>
 
   ## 職責

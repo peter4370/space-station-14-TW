@@ -31,7 +31,7 @@
   id: ClothingHeadHatHoodBioCmo
   name: 生物安全櫃 | bio hood
   suffix: CMO
-  description: 一款專為首席醫療官設計的先進頭罩，可保護頭部和面部免受生物污染物侵害。 | An advanced hood for chief medical officers that protects the head and face from biological contaminants.
+  description: 一款專為醫務總管設計的先進頭罩，可保護頭部和面部免受生物污染物侵害。 | An advanced hood for chief medical officers that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -344,7 +344,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCMO
   categories: [ HideSpawnMenu ]
-  name: 首席醫療官的冬季大衣兜帽 | chief medical officer's winter coat hood
+  name: 醫務總管的冬季大衣兜帽 | chief medical officer's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi

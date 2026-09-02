@@ -14,7 +14,7 @@ bounty-console-description-label = [color=gray]{ $description }[/color]
 bounty-console-id-label = ID#{ $id }
 bounty-console-flavor-left = 這些獵物來自當地不擇手段的經銷商。
 bounty-console-flavor-right = v1.4
-bounty-manifest-header = [字體大小=14][粗體]官方貨物賞金清單[/粗體] (編號：{ $id })[/字體]
+bounty-manifest-header = [font size=14][bold]官方貨物賞金清單[/bold] (編號：{ $id })[/font]
 bounty-manifest-list-start = 貨物清單：
 bounty-console-tab-available-label = 有貨
 bounty-console-tab-history-label = 歷史

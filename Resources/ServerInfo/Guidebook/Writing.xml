@@ -1,23 +1,27 @@
 
 <Document>
-# Writing
+# 書寫
 
-Using a pen, you can write on paper or in books. Nanotrasen provides everyone with a spare pen in their PDA.
+您可以使用鋼筆在紙張或書本上書寫。Nanotrasen 為每位使用者在 PDA 中提供一支備用鋼筆。
 
-## Formatting
+## 格式設定
 
-You can use the following sigils:
+您可以使用以下符號：
 
-- [color=tan]\[color=color\]\[\/color\][/color] — to change the color of the text
-- [color=tan]\[head=n\]\[\/head\][/color] — where [italic]n[/italic] is the heading level (1 – 3)
-- [color=tan]\[bullet\/\][/color] — to insert a bullet point (useful for lists)
-- [color=tan][bold]\[bold\]\[\/bold\][/bold][/color], [color=tan][italic]\[italic\]\[\/italic\][/italic][/color] — for emphasis
+- [color=tan]\[color=color\]\[\/color\][/color] — 用於變更文字顏色
+- [color=tan]\[head=n\]\[\/head\][/color] — 其中 [italic]n[/italic] 代表標題層級（1 – 3）
+- [color=tan]\[bullet\/\][/color] — 用以插入項目符號（適用於清單）
+- [color=tan][bold]\[bold\]\[\/bold\][/bold][/color]，[color=tan][italic]\[italic\]\[\/italic\][/italic][/color] — 用於強調
 
-You can combine [bold][italic]bold and italic[/italic][/bold] tags, or use the shortcut [color=tan][bolditalic]\[bolditalic\][/bolditalic][/color].
+您可以組合使用 [bold][italic]粗體和斜體[/italic][/bold] 標籤，或使用快捷方式 [color=tan][bolditalic]\[bolditalic\][/bolditalic][/color]。
 
-Color supports either hexadecimal or most HTML color names. For example:
+顏色支援十六進位數或大多數 HTML 顏色名稱。 例如：
 
 - [color=#ff0000]\[color=#ff0000\]\[\/color\][/color]
 - [color=red]\[color=red\]\[\/color\][/color]
+
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪掉這個漢堡翻譯就會出錯"/>
+    </Box>
 
 </Document>

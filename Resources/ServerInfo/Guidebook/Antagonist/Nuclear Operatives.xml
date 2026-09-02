@@ -1,83 +1,84 @@
+
 <Document>
-  # Nuclear Operatives
+  # 核武特工
 
   <Box>
-    [color=#999999][italic]"OPERATIVES STANDBY. YOUR OBJECTIVES ARE SIMPLE.[/italic][/color]
+    [color=#999999][italic]「特工待命。 你的目標很簡單。[italic][/color]
   </Box>
   <Box>
-    [color=#999999][italic]DELIVER THE PAYLOAD AND GET OUT BEFORE THE PAYLOAD DETONATES. BEGIN MISSION."[/italic][/color]
+    [color=#999999][italic]在有效載荷引爆前，將其送達並撤離。 「開始任務。」[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="PosterContrabandEnlistGorlex" Caption=""/>
   </Box>
 
-  You've just been chosen to be a nuclear operative for the [color=#ff0000]Syndicate[/color]. You have one goal, to blow up one of Nanotrasen's finest vessels with a nuclear fission explosive.
+  你剛被選中，成為 [color=#ff0000]辛迪加[/color] 的核武特工。 你的目標只有一個，就是用核裂變炸藥炸毀納諾特拉森最頂尖的艦艇之一。
 
-  ## Operatives
-  Your team will be made up of several different roles, which are:
-  - [bold]Operatives[/bold], standard soldiers who can take up the grunt work.
-  - The [bold]Corpsman[/bold] who works with reagents to make medicines or chemical weapons.
-  - The [bold]Commander[/bold] who draws up the plan and leads the team.
+  ## 特工
+  你的團隊將由幾個不同角色組成，分別是：
+  - [bold]特工[/bold]，負責執行基層任務的普通士兵。
+  - 那位[bold]醫務兵[/bold]，負責使用試劑來製造藥物或化學武器。
+  - 負責擬定計畫並帶領團隊的 [bold]指揮官[/bold]。
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie"/>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieMedic" Caption="corpsman's hardsuit"/>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieCommander" Caption="commander's hardsuit"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieMedic" Caption="醫務兵的強化裝甲服"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieCommander" Caption="指揮官的機甲"/>
   </Box>
 
-  If you have been selected as the Corpsman or Commander but don't feel ready, one of your teammates can take over your responsibilities.
+  若您已被選為醫務兵或指揮官，但覺得自己尚未準備好，您的隊友中可由一人接手您的職責。
 
-  ## The Disk
+  ## 磁碟
 
-  Each operative starts with a [color=cyan]pinpointer[/color], which you should turn on and keep with you at all times. It will always point to the [color=cyan]nuclear authentication disk.[/color]
-  The disk belongs to the [color=yellow]Captain[/color], who will almost always have it on them. Follow the direction of the arrow on the pinpointer to the disk, and [italic]do whatever it takes to get it[/italic].
+  每位參與者一開始都會獲得一個 [color=cyan]定位器[/color]，請務必將其開啟，並隨時隨身攜帶。 它將始終指向 [color=cyan]核武認證磁碟[/color]。
+  該磁碟屬於 [color=yellow]船長[/color]，他幾乎總是隨身攜帶。 依照定位器上箭頭指向的方向找到那枚圓盤，並[italic]不惜一切代價將其取回[/italic]。
 
   <Box>
     <GuideEntityEmbed Entity="PinpointerNuclear"/>
     <GuideEntityEmbed Entity="NukeDisk"/>
   </Box>
 
-  ## Preparation
-  Each member in your squad has been given an [color=cyan]uplink[/color] to purchase everything you will need for the mission, similar to [textlink="traitors." link="Traitors"]
+  ## 準備工作
+  你的小隊中每位成員都已獲得一個 [color=cyan]上行連結[/color]，用以購買執行任務所需的一切物品，這與 [textlink="traitors." link="Traitors"]類似
 
   <Box>
-    <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="your uplink"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="您的上行鏈路"/>
   </Box>
 
-  You can purchase the same kinds of gear traitors can, but you have higher quality gear available to you and more telecrystals to spend.
+  你可以購買與叛徒相同的裝備，但你能獲得更高品質的裝備，且擁有更多的傳送水晶可供使用。
   <Box>
-    <GuideEntityEmbed Entity="WeaponLightMachineGunL6" Caption="Weaponry"/>
-    <GuideEntityEmbed Entity="MagazineLightRifleBox" State="icon" Caption="Ammo"/>
-    <GuideEntityEmbed Entity="C4" Caption="Explosives"/>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitJuggernaut" Caption="Wearables"/>
-    <GuideEntityEmbed Entity="Stimpack" Caption="Chemicals"/>
+    <GuideEntityEmbed Entity="WeaponLightMachineGunL6" Caption="武器裝備"/>
+    <GuideEntityEmbed Entity="MagazineLightRifleBox" State="icon" Caption="彈藥"/>
+    <GuideEntityEmbed Entity="C4" Caption="爆炸物"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitJuggernaut" Caption="穿戴式裝置"/>
+    <GuideEntityEmbed Entity="Stimpack" Caption="化學品"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Deception"/>
-    <GuideEntityEmbed Entity="Emag" Caption="Disruption"/>
-    <GuideEntityEmbed Entity="MacroBombImplanter" Caption="Implants"/>
-    <GuideEntityEmbed Entity="BorgChassisSyndicateAssault" Caption="Allies"/>
-    <GuideEntityEmbed Entity="ClothingEyesGlassesOutlawGlasses" Caption="Pointless"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="欺騙"/>
+    <GuideEntityEmbed Entity="Emag" Caption="顛覆"/>
+    <GuideEntityEmbed Entity="MacroBombImplanter" Caption="植體"/>
+    <GuideEntityEmbed Entity="BorgChassisSyndicateAssault" Caption="盟友"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesOutlawGlasses" Caption="毫無意義"/>
   </Box>
 
-  You'll also have to choose if you want to [color=red]declare war[/color] or not. Doing so grants your team [bold]40 extra telecrystals each[/bold].
-  However, the crew will immediately know of your existence and will have plenty of time to prepare for your arrival.
+  你還必須決定是否要 [color=red]宣戰[/color]。 這樣一來，你的隊伍將可獲得 [bold]每人額外 40 個傳送水晶[/bold]。
+  然而，船員們會立刻察覺你的存在，並有充裕的時間為你的到來做準備。
 
-  The [bold]Commander[/bold] is the only person who can declare war. Make your choice quick, [italic]this is a limited-time offer![/italic]
+  只有[bold]指揮官[/bold]才有權宣戰。 請盡快做出選擇，[italic]這是限時優惠！[/italic]
   <Box>
     <GuideEntityEmbed Entity="NukeOpsDeclarationOfWar"/>
   </Box>
 
-  ## Getting to the Station
-  You've got the plan, you've got the gear. Now, execute.
+  ## 前往車站
+  計畫已定，裝備齊全。 現在，開始執行吧。
 
-  Go with your other operatives to your [color=cyan]shuttle[/color].
-  Onboard, you'll find a folder with the [color=cyan]nuclear authentication code[/color].
-  Memorize the code, then [bold]check to see if the nuke ID matches the nuke on your shuttle.[/bold] If it doesn't, you'll be arming the station's nuke instead.
+  和其他特工一同前往你們的 [color=cyan]太空梭[/color]。
+  在機上，您會發現一個內含 [color=cyan]核武認證代碼[/color] 的文件夾。
+  記下代碼，然後 [bold]確認這枚核彈的識別碼是否與你太空梭上的核彈相符。[/bold] 如果不符，你將誤觸發太空站的核彈。
 
-  The shuttle is equipped with an [color=cyan]IFF Computer[/color]. It allows you to hide from other ships and mass scanners when [italic]Show IFF[/italic] is toggled off.
+  這架太空梭配備了一台 [color=cyan]識別友敵電腦[/color]。 當 [italic]顯示 IFF[/italic] 功能關閉時，此功能可讓您躲避其他船隻及大規模掃描器的偵測。
 
-  When everyone is ready, FTL to the station and fly to it using the [color=cyan]jetpacks[/color] on the shuttle. Don't forget the code, your pinpointers, and the nuke if you're taking it.
+  當大家都準備就緒後，請使用 FTL 傳送至該站，並利用接駁船上的 [color=cyan]噴射背包[/color] 飛往該處。 別忘了帶上密碼、定位器，還有核彈（如果你要帶的話）。
 
   <Box>
     <GuideEntityEmbed Entity="BoxFolderNuclearCodes"/>
@@ -85,41 +86,41 @@
     <GuideEntityEmbed Entity="JetpackBlack"/>
   </Box>
 
-  ## The Nuke & Arming Procedure
-  You've made it this far.  Finish the job.
+  ## 核彈與裝填程序
+  你已經走到這一步了。  把這件事辦到最後。
 
-  - Obtain the [bold]nuclear authentication disk[/bold] and insert it into the nuke.
-  - Type in the [bold]nuclear authentication code[/bold] and press "[bold]E[/bold]" on the keypad to Enter.
-  - [bold]Anchor[/bold] the nuke on solid floor inside the station.
-  - [bold]To begin the detonation sequence, press [color=#EB2D3A]ARM[/color][/bold]. After 300 seconds, the nuke will explode.
-  - [bold]Defend the nuke from NT employees and cyborgs[/bold], even if it's at the cost of your lives! The mission requirements [italic]do not include your return[/italic].
+  - 取得 [bold]核武認證光碟[/bold]，並將其插入核武裝置中。
+  - 輸入 [bold]核認證碼[/bold]，並在鍵盤上按下 "[bold]E[/bold]" 鍵以確認。
+  - [bold]將核彈[/bold]固定在站內堅實的地面上。
+  - [bold]要開始引爆程序，請按下 [color=#EB2D3A]ARM[/color][/bold]。 300 秒後，核彈將會爆炸。
+  - [bold]無論代價多大，哪怕要犧牲性命，也要保住核彈，不讓 NT 員工和機械人奪走[/bold]！ 任務要求 [italic]並不包含你的歸程[/italic]。
 
-  It takes 30 seconds to [bold]disarm[/bold] the nuke. Re-arming it is possible, but the chance of mission success drops if you allow the countdown to be interrupted.
-  Should the nuke be re-armed, the timer will continue from where it left off.
+  需要 30 秒才能 [bold]解除[/bold] 這枚核彈的引爆裝置。 雖然可以重新裝彈，但若讓倒數計時被中斷，任務成功的機率就會下降。
+  若核彈被重新裝填，計時器將從中斷處繼續計時。
 
   <Box>
-    <GuideEntityEmbed Entity="NuclearBomb" Caption="The Nuclear Fission Explosive"/>
+    <GuideEntityEmbed Entity="NuclearBomb" Caption="核裂變炸藥"/>
   </Box>
 
-  ## Winning Conditions
+  ## 獲勝條件
 
-  The [color=#00ff00]victor[/color] of the round is announced on the round end screen, as well as the scale of their victory.
+  該回合的 [color=#00ff00]勝者[/color] 及其勝出幅度，將於回合結束畫面中公布。
 
-  [bold][color=red]Syndicate Major Victory![/color][/bold]
-  - The nuke detonates on the station.
-  - The crew escapes on evac, but the nuke is still armed.
-  - The nuke is armed and delivered to Central Command on the evac shuttle.
+  [bold][color=red]辛迪加取得重大勝利！[/color][/bold]
+  - 核彈在空間站上引爆。
+  - 船員們搭乘疏散艙逃離，但核彈仍處於待發狀態。
+  - 該核彈已裝填，並透過撤離穿梭機運送至中央司令部。
 
-  [bold][color=red]Syndicate Minor Victory[/color][/bold]
-  - At least one operative survives, and the crew escapes, leaving the disk behind.
+  [bold][color=red]「辛迪加」小勝[/color][/bold]
+  - 至少有一名特工倖存，船員成功脫逃，並將光碟遺留在現場。
 
-  [bold][color=#999999]Neutral Victory[/color][/bold]
-  - The nuke detonates off the station.
+  [bold][color=#999999]中立勝利[/color][/bold]
+  - 核彈在太空站外引爆。
 
-  [bold][color=green]Crew Minor Victory[/color][/bold]
-  - The crew escapes on evac with the disk and some operatives die.
+  [bold][color=green]船員小勝[/color][/bold]
+  - 船員帶著光碟成功撤離，但部分特工犧牲。
 
-  [bold][color=green]Crew Major Victory![/color][/bold]
-  - All operatives die.
-  - The crew blow up the nuclear operative outpost with the nuke.
+  [bold][color=green]船員大獲全勝！[/color][/bold]
+  - 所有特工皆陣亡。
+  - 船員們用核彈炸毀了那座核武行動前哨站。
 </Document>

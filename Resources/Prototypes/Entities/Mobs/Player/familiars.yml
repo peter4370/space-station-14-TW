@@ -8,8 +8,8 @@
     makeSentient: true
     allowMovement: true
     allowSpeech: true
-    name: 幽靈角色資訊——雷米莉亞之名 | ghost-role-information-remilia-name
-    description: 幽靈角色資訊 - 雷米莉亞 - 描述 | ghost-role-information-remilia-description
+    name: ghost-role-information-remilia-name | ghost-role-information-remilia-name
+    description: ghost-role-information-remilia-description | ghost-role-information-remilia-description
     rules: ghost-role-information-familiar-rules
     mindRoles:
     - MindRoleGhostRoleFamiliar

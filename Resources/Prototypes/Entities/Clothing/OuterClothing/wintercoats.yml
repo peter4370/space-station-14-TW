@@ -233,7 +233,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterCMO
-  name: 首席醫療官的冬衣 | chief medical officer's winter coat
+  name: 醫務總管的冬衣 | chief medical officer's winter coat
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi

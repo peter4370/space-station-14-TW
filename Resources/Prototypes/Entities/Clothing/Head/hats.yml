@@ -1029,7 +1029,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatBeretCmo
-  name: 首席醫療官的貝雷帽 | chief medical officer's beret
+  name: 醫務總管的貝雷帽 | chief medical officer's beret
   description: 一頂前端綴有十字架的綠松石色貝雷帽。光是看到它，便能讓你心平氣和，並讓你確信自己終將痊癒。 | A turquoise beret with a cross on the front. The sight of it calms you down and makes it clear that you will be cured.
   components:
   - type: Sprite

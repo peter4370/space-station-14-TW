@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtVirology
-  name: 病毒學跳裙 | virology jumpskirt
+  name: 病毒學連身裙 | virology jumpskirt
   description: 它採用一種特殊纖維製成，能提供針對生物危害的特殊防護。上面還繡有病毒學家級別的肩章。 | It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
   components:
   - type: Sprite
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtCMO
-  name: 首席醫療官的跳跳裙 | chief medical officer's jumpskirt
-  description: 這是一款由具備擔任首席醫療官資歷者所穿著的連身裙式防護服。它能提供輕微的生物防護。 | It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 首席醫療官的連身裙 | chief medical officer's jumpskirt
+  description: 這是一款由具備擔任醫務總管資歷者所穿著的連身裙式防護服。它能提供輕微的生物防護。 | It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Medical/cmo.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtCMOTurtle
-  name: 首席醫療官的高領連身裙 | chief medical officer's turtleneck jumpskirt
-  description: 這是一件由具備擔任首席醫療官資歷的人士所穿的高領衫。它能提供輕微的生物防護。 | It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 醫務總管的高領連身裙 | chief medical officer's turtleneck jumpskirt
+  description: 這是一件由具備擔任醫務總管資歷的人士所穿的高領衫。它能提供輕微的生物防護。 | It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Medical/cmo_turtle.rsi
@@ -56,7 +56,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMedicalDoctor
-  name: 醫師跳裙 | medical doctor jumpskirt
+  name: 醫師連身裙 | medical doctor jumpskirt
   description: 它由一種特殊纖維製成，能提供輕微的生物危害防護。胸前繡有十字標誌，表示穿著者是受過訓練的醫護人員。 | It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
   components:
   - type: Sprite
@@ -67,7 +67,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtParamedic
-  name: 救護員跳裙 | paramedic jumpskirt
+  name: 救護員連身裙 | paramedic jumpskirt
   description: 上面標有「＋」，這應該是好事吧？ | It's got a plus on it, that's a good thing right?
   components:
   - type: Sprite

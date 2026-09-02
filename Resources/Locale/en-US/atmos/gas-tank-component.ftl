@@ -14,7 +14,7 @@ control-verb-open-control-panel-text = 開啟「控制台」
 
 ## UI
 
-gas-tank-window-internals-toggle-button = 切換
+gas-tank-window-internals-toggle-button = 開關
 gas-tank-window-output-pressure-label = 輸出壓力
 gas-tank-window-tank-pressure-text = 壓力：{ $tankPressure } kPA
 gas-tank-window-internal-text = 內部結構：{ $status }

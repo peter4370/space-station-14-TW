@@ -262,7 +262,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetService
   name: 服務用耳機 | service headset
-  description: 服務人員所使用的耳機，其職責是確保車站人潮滿溢、乘客愉快且環境整潔。 | Headset used by the service staff, tasked with keeping the station full, happy and clean.
+  description: 服務人員所使用的耳機，其職責是確保太空站人潮滿溢、乘客愉快且環境整潔。 | Headset used by the service staff, tasked with keeping the station full, happy and clean.
   components:
   - type: ContainerFill
     containers:

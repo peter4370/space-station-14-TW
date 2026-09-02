@@ -19,5 +19,5 @@ blockgame-menu-label-highscores = 最高分
 blockgame-menu-button-back = 返回
 blockgame-menu-label-next = 下一頁
 blockgame-menu-label-hold = 暫停
-blockgame-menu-text-station = 車站
+blockgame-menu-text-station = 太空站
 blockgame-menu-text-nanotrasen = Nanotrasen

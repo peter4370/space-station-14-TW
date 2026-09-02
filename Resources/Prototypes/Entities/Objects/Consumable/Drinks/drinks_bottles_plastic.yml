@@ -346,7 +346,7 @@
   parent: CustomDrinkJugFilled
   id: DrinkEnergyDrinkJug
   name: 紅色布爾水壺 | Red Bool jug
-  description: 一壺「Red Bool」，其中的咖啡因含量足以讓整個車站的人都暈倒。 | A jug of Red Bool, with enough caffeine to kill a whole station.
+  description: 一壺「Red Bool」，其中的咖啡因含量足以讓整個太空站的人都暈倒。 | A jug of Red Bool, with enough caffeine to kill a whole station.
   components:
   - type: Solution
     solution:

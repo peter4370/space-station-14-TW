@@ -1,8 +1,8 @@
-station-map-window-title = 車站地圖
+station-map-window-title = 太空站地圖
 station-map-user-interface-flavor-left = 別驚慌
 station-map-user-interface-flavor-right = v1.42
 station-map-filter-placeholder = 依名稱搜尋
-station-map-unknown-station = 未知車站
+station-map-unknown-station = 未知太空站
 nav-beacon-window-title = 站台信標
 nav-beacon-toggle-visible = 可見
 nav-beacon-toggle-invisible = 無形

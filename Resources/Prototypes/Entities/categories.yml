@@ -35,5 +35,5 @@
 
 - type: entityCategory
   id: XenoArtifactEffects
-  name: 實體類別名稱-異界遺物-效果 | entity-category-name-xeno-artifact-effects
+  name: 實體-類別-名稱-異族神器-效果 | entity-category-name-xeno-artifact-effects
   hideSpawnMenu: true

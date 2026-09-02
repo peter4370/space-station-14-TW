@@ -132,7 +132,7 @@
 - type: entity
   parent: PinpointerBase
   name: 定位器 | station pinpointer
-  description: 一款手持式定位裝置，可指引使用者前往附近任何車站的方向。 | A handheld tracking device that leads to the direction of any nearby station.
+  description: 一款手持式定位裝置，可指引使用者前往附近任何太空站的方向。 | A handheld tracking device that leads to the direction of any nearby station.
   id: PinpointerStation
   suffix: Station
   components:

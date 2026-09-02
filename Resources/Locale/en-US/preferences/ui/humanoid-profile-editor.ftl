@@ -44,7 +44,7 @@ humanoid-profile-editor-preference-duffelbag = 旅行袋
 humanoid-profile-editor-guidebook-button-tooltip = 點擊查看更多資訊
 # Spawn priority
 humanoid-profile-editor-preference-spawn-priority-none = 無
-humanoid-profile-editor-preference-spawn-priority-arrivals = 抵達班次
+humanoid-profile-editor-preference-spawn-priority-arrivals = 抵港班次
 humanoid-profile-editor-preference-spawn-priority-cryosleep = 冷凍睡眠
 humanoid-profile-editor-jobs-amount-in-department-tooltip = { $departmentName } 部門的職缺
 humanoid-profile-editor-department-jobs-label = { $departmentName } 職缺

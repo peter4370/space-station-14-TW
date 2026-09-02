@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CyborgEndoskeleton
-  name: 機械生化內骨骼 | cyborg endoskeleton
+  name: 賽博格內骨骼 | cyborg endoskeleton
   description: 這是打造賽博格的骨架。比預期的要不那麼駭人得多。 | A frame that cyborgs are built on. Significantly less spooky than expected.
   components:
   - type: Clickable

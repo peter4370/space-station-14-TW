@@ -281,7 +281,7 @@
   parent: BaseMech
   id: MechVim
   name: Vim | Vim
-  description: 由 Nanotrasen 研發的一款微型外骨骼裝，旨在讓空間站裡那些無可取代的寵物多活一陣子。 | A miniature exosuit from Nanotrasen, developed to let the irreplaceable station pets live a little longer.
+  description: 由 Nanotrasen 研發的一款微型外骨骼裝，旨在讓太空站裡那些無可取代的寵物多活一陣子。 | A miniature exosuit from Nanotrasen, developed to let the irreplaceable station pets live a little longer.
   components:
   - type: Sprite
     drawdepth: Mobs

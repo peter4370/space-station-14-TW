@@ -851,7 +851,7 @@
   name: 發霉的麵包片 | moldy bread slice
   parent: FoodBreadSliceBase
   id: FoodBreadMoldySlice
-  description: 光是為了爭論這東西是否還能吃，就讓整個車站都陷入了混亂。 | Entire stations have been ripped apart over arguing whether this is still good to eat.
+  description: 光是為了爭論這東西是否還能吃，就讓整個太空站都陷入了混亂。 | Entire stations have been ripped apart over arguing whether this is still good to eat.
   components:
   - type: Sprite
     layers:

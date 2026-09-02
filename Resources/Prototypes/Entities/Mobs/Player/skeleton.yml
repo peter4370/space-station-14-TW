@@ -4,8 +4,8 @@
   id: MobSkeletonPirate
   components:
   - type: GhostRole
-    name: 幽靈角色資訊－骷髏海盜－名字 | ghost-role-information-skeleton-pirate-name
-    description: 幽靈角色資訊－骷髏海盜－描述 | ghost-role-information-skeleton-pirate-description
+    name: ghost-role-information-skeleton-pirate-name | ghost-role-information-skeleton-pirate-name
+    description: ghost-role-information-skeleton-pirate-description | ghost-role-information-skeleton-pirate-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -23,8 +23,8 @@
   id: MobSkeletonBiker
   components:
   - type: GhostRole
-    name: 幽靈角色資訊模板－機車騎士－姓名 | ghost-role-information-skeleton-biker-name
-    description: 幽靈角色資訊－骨架機車騎士－描述 | ghost-role-information-skeleton-biker-description
+    name: ghost-role-information-skeleton-biker-name | ghost-role-information-skeleton-biker-name
+    description: ghost-role-information-skeleton-biker-description | ghost-role-information-skeleton-biker-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent

@@ -15,8 +15,8 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: 幽靈角色資訊空間之龍之名 | ghost-role-information-space-dragon-name
-    description: 幽靈角色資訊－空間龍－描述 | ghost-role-information-space-dragon-description
+    name: ghost-role-information-space-dragon-name | ghost-role-information-space-dragon-name
+    description: ghost-role-information-space-dragon-description | ghost-role-information-space-dragon-description
     rules: ghost-role-information-space-dragon-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -193,7 +193,7 @@
   suffix: Dungeon
   components:
   - type: GhostRole
-    description: 幽靈角色資訊－空間龍－地城描述 | ghost-role-information-space-dragon-dungeon-description
+    description: ghost-role-information-space-dragon-dungeon-description | ghost-role-information-space-dragon-dungeon-description
     rules: ghost-role-information-space-dragon-dungeon-rules
     raffle:
       settings: default

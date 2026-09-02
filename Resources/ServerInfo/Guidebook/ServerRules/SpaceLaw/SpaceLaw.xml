@@ -1,79 +1,82 @@
 ﻿
 <Document>
-  # Space Law
-  On Space Station 14, stations operate under abbreviated space law. All crew, passengers, and visitors aboard the station are expected to follow these laws.
+  # 太空法
+  在第 14 號太空站上，各站點的運作皆遵循簡化版太空法。 空間站上的所有機組人員、乘客及訪客均須遵守這些法律。
 
-  Foreign invaders, such as nuclear operatives, ninjas, and pirates, are not protected under space law. Traitors are not foreign invaders, so they are usually protected by space law.
+  外來入侵者，例如核武特工、忍者及海盜，不受太空法保護。 叛徒並非外來侵略者，因此通常受太空法保護。
 
-  Space Law is not the server rules, but some rules reference Space Law and require it to be followed by certain people or to some degree.
+  太空法並非伺服器規則，但某些規則會援引太空法，並要求特定人士在某種程度上遵守該法。
 
-  ## Treatment of Prisoners
-  Prisoners still have certain rights that must be upheld by law enforcement:
-  - Prisoners must be granted adequate medical care.
-  - Prisoners must be allowed access to basic communications equipment (headsets or radios) so long as they are not abused.
-  - Prisoners must be granted clothing, food, water, shelter, and safety. If the brig is no longer safe, confinement must be established in another location.
-  - Prisoners must be given access to legal counsel during an interrogation if requested and available.
-  - Prisoners must be given their shift-mandated PDA after confinement has finished, unless there is solid proof of PDA tampering. In case of tampering, the PDA is to be secured and replaced with a new unit.
-  - Prisoners must be granted freedom of movement, and should not be restrained with handcuffs or other devices after incarceration unless there is an undue risk to life and limb. Similarly, any prisoners held for Permanent Confinement should be kept in the communal brig rather than in a solitary cell, unless they pose a risk to life and limb.
+  ## 囚犯的待遇
+  囚犯仍享有某些權利，執法機關必須予以保障：
+  - 必須向囚犯提供適當的醫療照護。
+  - 只要未遭濫用，必須允許囚犯使用基本的通訊設備（耳機或無線電）。
+  - 必須向囚犯提供衣物、食物、飲水、住所及安全保障。 若禁閉室不再安全，則必須在其他地點安排禁閉。
+  - 囚犯在接受訊問期間，若提出要求且有律師可供諮詢，必須獲准與律師會面。
+  - 囚犯在羈押結束後，必須獲發當班規定的個人數位助理（PDA），除非有確鑿證據顯示該PDA曾遭篡改。 若發現有篡改跡象，應將該 PDA 妥善保管，並更換為新機。
+  - 囚犯必須享有行動自由，且在收監後不應被手銬或其他裝置拘束，除非存在對生命及肢體造成過度的風險。 同樣地，任何被判處永久監禁的囚犯，應被關押在集體監禁室，而非單人牢房，除非他們對他人生命或肢體安全構成威脅。
 
-## Contraband
-  Contraband is a broad category of items that are illegal to possess or use without proper authorization. While there are no charges associated with carrying contraband, it is still prohibited. There are three general tiers of contraband, and they are governed by the following regulations:
+## 違禁品
+  違禁品是指一類廣泛的物品，未經適當授權而持有或使用該類物品屬違法行為。 雖然攜帶違禁品不會被起訴，但此行為仍屬違法。 違禁品大致分為三個等級，並受以下規定管制：
 
-  - Minor Contraband: Any contraband which is restricted to a department other than Command or Security is minor contraband unless otherwise specified. The Captain or Head of Security may authorize individual use of minor contraband, and other department heads may authorize its use restricted to their assigned department.
-  - Major Contraband: Any contraband which is restricted to the Command or Security department is major unless otherwise specified. The Head of Security may authorize the use of contraband that is particularly restricted to Security; the Captain may authorize the use of any major contraband.
-  - Highly Illegal Contraband: Highly illegal contraband includes Syndicate contraband and magical contraband. Without explicit authorization from Central Command, highly illegal contraband may only be used in the event of dire, immediate emergencies, and only to prevent death or gross bodily harm. Once the emergency is dealt with, the contraband should be stored in a secure location.
+  - 輕微違禁品：除非另有規定，凡僅限於指揮部或安全部以外之部門管轄的違禁品，均屬輕微違禁品。 船長或安全主管可授權個人使用輕微違禁品，而其他部門主管則可授權在其所屬部門內有限度地使用此類物品。
+  - 重大違禁品：除非另有規定，否則任何僅限由指揮部或安全部門處理的違禁品均屬重大違禁品。 安全部門主管可授權使用僅限安全部門使用的特定違禁品；船長可授權使用任何主要違禁品。
+  - 高度非法的違禁品：高度非法的違禁品包括「黑手黨」違禁品與魔法違禁品。 若未經中央指揮部明確授權，極度違法的走私物品僅可在面臨嚴峻且迫在眉睫的緊急情況時使用，且僅限於防止死亡或嚴重身體傷害。 處理完緊急狀況後，應將違禁品存放在安全的地方。
 
-  Security is obligated to seize contraband through routine searches or when processing criminals in the brig, but may prioritize other duties over confiscation if they see fit. With regards to contraband usage, Security is expected to follow the same regulations as everyone else. Confiscated contraband should be transferred to the Security department for secure storage or permanently disposed of. Collaborating with Cargo to sell confiscated contraband is highly encouraged, as it generally fetches a high value.
+  安保人員有義務透過例行搜查或在拘留所處理罪犯時沒收違禁品，但若認為合適，可優先處理其他職務而非沒收違禁品。 關於違禁品的使用，安全部門應遵循與其他人相同的規定。 查獲的違禁品應移交安全部門進行安全保管，或予以永久處置。 我們極力鼓勵與「Cargo」合作販售沒收的走私貨物，因為這類貨物通常能賣出高價。
 
-  ## Search and Seizure
-  A personnel search is the inspection and seizure of a crewmember's possessions. If any contraband is found during a search, the officer should confiscate the restricted items. Non-restricted items may be seized by Security if they were used to facilitate a crime. After the search is conducted, all legal items are to be returned to the person. A crewmate may legally decline any search conducted without probable cause or a warrant while the alert level is green. Random searches without probable cause or a warrant are permitted at any other alert level.
+  ## 搜查與扣押
+  人身搜查是指對船員隨身物品進行檢查與扣押。 若在搜查過程中發現任何違禁品，執法人員應沒收該等受管制物品。 若非受限制物品被用於協助犯案，安全人員得予以扣押。 搜查結束後，所有合法物品均應歸還當事人。 在警戒等級為綠色時，船員有權依法拒絕任何未基於合理理由或未持搜查令而進行的搜查。 在任何其他警戒等級下，均允許進行無合理依據或無搜查令的隨機搜查。
 
-  A departmental search is the sweep of an entire area or department for contraband. It is recommended that the officers be extremely thorough, checking all lockers, crates, and doors. These can only be done with permission or, ideally, a warrant signed by the department head or the highest-ranking member of the command staff, usually the Captain.
+  「部門搜查」是指對整個區域或部門進行全面搜查，以查獲違禁品。 建議執勤人員務必極為仔細，檢查所有儲物櫃、箱子及門。 這些行動必須獲得許可，或更理想的情況下，須持有由部門主管或指揮部最高階成員（通常為上尉）簽署的搜查令，方可執行。
 
-  ## Implantation
-  Any prisoner in custody can be subjected to implantation or implant extraction procedures, so long as it's within reason. The process of adding or removing an implant should not prolong the detainee's sentence; you cannot hold them longer to perform the procedure unless stated otherwise. A former inmate may be requested to undergo implantation/extraction at a later time; if the circumstances during their confinement warrant it, they must comply. The following have been listed out with special circumstances; anything not in this list can still be applied, given the proper legal context. A prisoner can still receive implantation/extraction procedures without meeting the circumstances if they give their clear consent.
+  ## 植入
+  任何在押囚犯均可接受植入或取出植入物的程序，只要該程序在合理範圍內即可。 植入或移除植入物的程序不應延長被拘留者的刑期；除非另有規定，否則不得以進行該程序為由延長其羈押時間。 前受刑人可能會被要求於日後接受植入／摘除手術；若其服刑期間的情況有此必要，則必須遵從。 以下列舉了若干特殊情況；若符合適當的法律背景，未列入此清單的情形仍可適用。 囚犯即使不符合相關條件，只要給予明確同意，仍可接受植入／移除手術。
 
-  [color=#a4885c]Tracking Implants:[/color] Trackers can be applied to any suspect that has been convicted of a violent crime (the red crimes with a V suffix).
+  [color=#a4885c]追蹤植入裝置：[/color] 追蹤裝置可安裝於任何曾因暴力犯罪（即名稱後綴為「V」的紅色罪行）而被定罪的嫌疑人身上。
 
-  [color=#a4885c]Mind Shields:[/color] Mind Shields can be administered to any suspect charged with a crime if there is reasonable and articulable suspicion to believe they committed the crime while under mind control. If there is undeniable proof of ongoing mind control on the station, such as a successful deconversion, all the following statements apply:
+  [color=#a4885c]心智防護罩：[/color] 若有合理且可具體說明的懷疑，認為任何被指控犯下罪行的嫌疑人是在受到心智控制的情況下犯下該罪行，即可對其施加心智防護罩。 若存在確鑿證據，證明該空間站內正持續進行精神控制（例如成功解除洗腦），則以下所有陳述均適用：
 
-  - Crew can be required to be shielded and may be forcibly implanted if they refuse.
-  - If a suspect refuses to cooperate or the implant fails to function, they can be charged with Refusal of Mental Shielding.
-  - Unlike standard implantation, you may indefinitely extend the duration of a prisoner's sentence until you finish issuing Mind Shields, so long as active attempts are made to procure implants and complete the implantation procedure.
+  - 可要求船員接受屏蔽處理；若其拒絕，則可能被強制植入裝置。
+  - 若嫌疑人拒絕配合，或植入裝置無法運作，則可被控以「拒絕精神屏蔽」罪。
+  - 與標準植入程序不同，只要您積極設法取得植入裝置並完成植入程序，便可無限期延長囚犯的刑期，直至您完成「心智屏障」的發放為止。
 
-  Usage of contraband implanters is a detainable offense, but it's not reasonable to detain someone solely for having an unidentified implant inside them.
+  使用違禁植入器屬於可被拘留的罪行，但僅因體內有未經識別的植入物而將某人拘留，並不合理。
 
-  ## Implant Removal
-  Any prisoner in custody can be subjected to implant extraction for a specific implant if there is reasonable suspicion that they have it implanted. Detainees may not be forced or coerced into performing implant extraction on themselves against their will.
+  ## 植入物移除
+  若有合理理由懷疑任何在押囚犯體內植入了特定植入物，即可對其進行該植入物的移除。 不得強迫或脅迫被羈押者違背其意願，自行進行植體摘除手術。
 
-  ## Sentencing
-  From a server rules perspective, security officers are only responsible for ensuring that they place sentences over 15 minutes only where space law would allow Permanent Confinement. Informing the Warden is highly recommended, even for timed sentences. As long as those requirements are met, security officers not giving inappropriate sentence lengths is considered an in-character issue rather than a rule issue.
+  ## 判刑
+  從伺服器規則的角度來看，安全人員僅需確保將超過 15 分鐘的刑期，僅判處於太空法允許實施「永久監禁」的情況下。 強烈建議向監獄長通報此事，即使是服定刑期的囚犯亦然。 只要符合這些要求，安全人員未判處不當的刑期，便被視為角色設定上的問題，而非規則上的問題。
 
-  The Captain, Head of Security, and Warden are responsible, within reason, for ensuring that security officers issue appropriate sentences that comply with Space Law. If they are aware of an inappropriate sentence, including an excessively long one, and there is no urgent threat or danger to prioritize, they must work to correct it. Unreasonable failures, as determined by game admins, of the Captain, HOS, or Warden to ensure space law is followed will be considered a rule issue, not an in-character issue.
+  船長、安全主管及監獄長有責任在合理範圍內，確保安全人員所作出的處分符合《太空法》。 若他們察覺到某個不恰當的句子（包括過於冗長的句子），且沒有需要優先處理的迫切威脅或危險，則必須設法予以修正。 經遊戲管理員判定，隊長、HOS 或監獄長在確保遵守太空法方面出現不合理的失職行為，將被視為規則問題，而非角色扮演問題。
 
-  Use common sense and humanity when issuing punishments. You should not always seek the most severe punishment you can; you don't always have to give the maximum time or look to demote someone. Prisoners cooperating and on good behavior should have their sentences reduced. Always take severity into account and charge only what is needed for someone to learn their lesson.
+  在施加懲罰時，應秉持常識與人道精神。 你不應總是尋求最嚴厲的懲處；也不必總是判處最高刑期，或設法將某人降職。 配合調查且表現良好的囚犯應獲減刑。 務必將事態的嚴重性納入考量，並僅收取足以讓當事人吸取教訓的費用。
 
-  [color=#a4885c]Maximum Allowable Sentences:[/color] When sentencing a criminal, only the most severe crime should be considered for their maximum allowable sentence. If you charge someone with two or more different crimes, you should pick the highest crime that matches the case and use that to determine the sentence. Note that repeat offenders can still be charged with the tacked-on repeated crime charge.
+  [color=#a4885c]最高可判刑期：[/color] 在對犯罪人量刑時，應僅以最嚴重的罪行作為計算最高可判刑期的依據。 若對某人提出兩項或更多不同罪名的指控，應選擇與本案最符合且罪名最重者，並據此決定量刑。 請注意，累犯仍可能被追加起訴「重複犯罪」的罪名。
 
-  - Example: A suspect has committed a 2-01 (Grand Theft) and a 3-04 (Kidnapping). The maximum allowable sentence time would be 10 minutes because 3-04 is the more severe crime.
-  - Example 2: A suspect commits a 4-00 (Breach of Custody) and a 4-04 (Attempted Murder). Those crimes are equally severe; the maximum allowable sentence is 15 minutes.
-  - Example 3: A suspect committed a 4-04 (Attempted Murder) previously during the shift, and has done so again, committing a 2-03 (Secure Trespass) in the process. The maximum allowable sentence is 18 minutes. 15 base for the 4-04, and 3 additional for being a repeat offender.
+  - 範例：一名嫌疑人犯下 2-01（重大竊盜）及 3-04（綁架）罪行。 由於第3-04條所涉罪行較為嚴重，因此最高可判處的刑期為10分鐘。
+  - 範例 2：一名嫌疑人犯下 4-00（逃脫羈押）及 4-04（謀殺未遂）罪行。 這些罪行同樣嚴重；最高可判處的刑期為 15 分鐘。
+  - 範例 3：一名嫌犯在當班期間曾犯下 4-04（謀殺未遂）罪行，如今再次犯案，並在過程中犯下 2-03（闖入受保護區域）罪行。 最高允許的判決時間為 18 分鐘。 4-04 案的基礎刑期為 15 個月，另因屬累犯，加刑 3 個月。
 
-  Remember, context matters greatly, and maximum sentences should be reserved for the worst offenders.
+  請記住，情境至關重要，最高刑期應保留給最惡劣的犯罪者。
 
-  [color=#a4885c]Repeat Offenders:[/color] A repeated crime occurs when someone is released after committing a crime and then commits the same crime again during the same shift. Repeated crimes can be charged with tacked-on time; first repeat: 3:00, second repeat: 6:00, third repeat: Permanent Confinement. It should be noted that each tacked-on time is directly linked to one charge, and that in the instance of multiple crimes being committed, you should use the longer time for the maximum allowable sentence. For example, if someone does their second repeat of Assault and one count of Kidnapping, their maximum allowable sentence would be 11 minutes. 5 from the Moderate crime of Assault, plus 6 from the second repeat.
+  [color=#a4885c]再犯者：[/color] 所謂「再犯」，是指某人犯下罪行獲釋後，在同一班次期間再次犯下相同罪行。 重複犯罪可被處以附加刑期；首次重犯：3:00，第二次重犯：6:00，第三次重犯：永久監禁。 須注意的是，每一項附加刑期均直接對應一項指控；若涉及多項罪行，應採用較長之刑期作為最高可判刑期。 舉例來說，若某人犯下第二次「襲擊」罪及一次「綁架」罪，其最高可判刑期為 11 分鐘。 因「襲擊」這項中等嚴重罪行判處 5 年，加上因第二次累犯判處 6 年。
 
-  [color=#a4885c]Accessory, Attempting, and Intention:[/color] If someone intentionally, knowingly, and substantially assists someone in enacting a crime, they can be charged with the relevant crimes, such as an engineer giving someone tools, who says they are going to break into an area. The same applies to a clear and substantial attempt to commit a crime, or a person who shows clear intent to act out a crime, such as a syndicate nuclear operative arming a nuke but getting arrested before it goes off, they can still be charged with station-wide destruction.
-  ## Normal Punishments
-  - [color=#a4885c]Warning:[/color] For minor crimes, fix the issue, then warn the person not to attempt the crime again. If they still proceed to do it at a later date, sentencing may be preferable.
-  - [color=#a4885c]Confinement:[/color] The typical punishment, being confined in a cell for a temporary amount of time according to the crimes.
-  - [color=#a4885c]Demotion:[/color] Entails removing all departmental gear they have on their person and revoking the involved department access from their ID. This requires the Captain's or the involved department head's approval. Demotions should only be issued if the person poses a threat to their own department or is in a position where they have/can abuse their job's gear to commit further crimes.
+  [color=#a4885c]從犯、企圖與意圖：[/color] 若某人出於故意且明知情狀，並實質協助他人實施犯罪，則可能被控以相關罪名；例如，一名工程師將工具提供給聲稱要闖入某處的人。 同樣地，若有人明顯且實質地企圖犯下罪行，或展現出明顯的犯罪意圖——例如某犯罪集團的核武行動人員已為核彈裝填彈頭，卻在爆炸前被逮捕——仍可被控以「摧毀整個基地」的罪名。
+  ## 一般處罰
+  - [color=#a4885c]警告：[/color] 對於輕微犯罪，應先解決問題，然後警告當事人不得再犯。 如果他們日後仍執意這麼做，判刑或許是較佳的選擇。
+  - [color=#a4885c]監禁：[/color] 最常見的刑罰，即根據罪行輕重，將犯人暫時關押於牢房中。
+  - [color=#a4885c]降級：[/color] 包括沒收其身上所有部門配發的裝備，並撤銷其身分證上相關部門的進出權限。 此舉須經船長或相關部門主管核准。 只有當該人員對所屬部門構成威脅，或身處可濫用職務所賦予的設備以犯下更多罪行的位置時，才應予以降職處分。
 
-  ## Major Punishments
-  - [color=#a4885c]Permanent Confinement:[/color] Being held in the permanent brig for the entire duration of the shift. A person is eligible for Permanent Confinement if their timed sentence would exceed 15 minutes. Any person subject to this punishment is required to be transported in cuffs to CentComm at the end of the shift. A permanent prisoner cannot be deprived of anything covered by the section "Treatment of Prisoners".
-  - [color=#a4885c]Execution:[/color] A humane way of dealing with extremely unruly crewmates. Within reason, a prisoner who has been given the death sentence may pick how they wish to be killed. Common methods are firing line, lethal injection, exile, and high voltage electrocution. Another alternate method of "execution" is the process of placing a staff member's brain into a borg, which is allowed so long as it is lawful. Execution can only be issued with the Captain's or acting Captain's approval; if the HoS is acting Captain or there is no acting captain, all heads of staff are to hold a vote on the matter.
-  - [color=#a4885c]DNR:[/color] A DNR (do not resuscitate) order is an alternative to execution that may be placed on criminals subject to certain conditions. The criminal must be dead before the order is placed, and available Security and/or Medical resources (including personnel) must be in use for other purposes, such as a mass-casualty scenario. The criminal must be eligible for execution, and the DNR must be authorized following the same procedure as an execution.
+  ## 主要懲處
+  - [color=#a4885c]永久監禁：[/color] 在整個班次期間被關押於永久禁閉室。 若某人所判處的定時刑期將超過15分鐘，則該人符合「永久監禁」的資格。 任何受此處罰者，均須於輪班結束時戴上手銬，被押送至中央司令部。 終身監禁的囚犯不得被剝奪「囚犯待遇」一節所涵蓋的任何權利。
+  - [color=#a4885c]處決：[/color] 處理極度難以管教的船員時，一種人道的方式。 在合理範圍內，被判處死刑的囚犯可以選擇自己希望以何種方式被處決。 常見的處決方式包括行刑隊、致命注射、流放以及高壓電刑。 另一種「處決」的替代方法，是將工作人員的大腦植入博格體內，只要此舉符合法律規定，即被允許。 執行令必須經由船長或代理船長批准方可頒布；若部門主管兼任代理船長，或無代理船長時，所有部門主管須就此事項進行表決。
+  - [color=#a4885c]DNR：[/color] DNR（不實施復甦）命令是一種替代死刑的處置方式，在符合特定條件的情況下，可對罪犯適用。 在下達指令之前，該罪犯必須已經死亡，且現有的安全及／或醫療資源（包括人員）必須正被用於其他用途，例如處理大量傷亡事件。 該罪犯必須符合死刑執行資格，且「不執行死刑」（DNR）的決定必須依照與執行死刑相同的程序獲得授權。
 
-  ## Crime Listing
-  - [textlink="Crime Listing" link="SpaceLawCrimeList"]
+  ## 犯罪清單
+  - [textlink="犯罪清單" link="SpaceLawCrimeList"]
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

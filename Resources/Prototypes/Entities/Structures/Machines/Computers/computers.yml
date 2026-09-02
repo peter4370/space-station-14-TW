@@ -399,8 +399,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
-  name: 車站紀錄電腦 | station records computer
-  description: 這可用於查閱車站紀錄。 | This can be used to check station records.
+  name: 太空站紀錄電腦 | station records computer
+  description: 這可用於查閱太空站紀錄。 | This can be used to check station records.
   components:
   - type: GeneralStationRecordConsole
   - type: UserInterface
@@ -465,7 +465,7 @@
   parent: BaseComputerAiAccess
   id: ComputerStationTeleportersControl
   name: 站點傳送器控制台 | station teleporters control console
-  description: 用於監控空間站的傳送系統運作。 | Used to monitor station teleport system operations.
+  description: 用於監控太空站的傳送系統運作。 | Used to monitor station teleport system operations.
   components:
   - type: Sprite
     layers:
@@ -614,7 +614,7 @@
   parent: BaseComputerAiAccess
   id: ComputerAnalysisConsole
   name: 分析主控台 | analysis console
-  description: 一台用於與文物分析儀進行介面連接的電腦。 | A computer used to interface with the artifact analyzer.
+  description: 一台用於與神器分析儀進行介面連接的電腦。 | A computer used to interface with the artifact analyzer.
   components:
   - type: Sprite
     layers:
@@ -666,7 +666,7 @@
   parent: BaseComputerAiAccess
   id: ComputerId
   name: ID卡電腦 | ID card computer
-  description: 用於編程 Nanotrasen 員工ID卡的終端機，以便進入車站的部分區域。 | Terminal for programming Nanotrasen employee ID cards to access parts of the station.
+  description: 用於編程 Nanotrasen 員工ID卡的終端機，以便進入太空站的部分區域。 | Terminal for programming Nanotrasen employee ID cards to access parts of the station.
   components:
   - type: IdCardConsole
     privilegedIdSlot:
@@ -817,7 +817,7 @@
   parent: ComputerComms
   id: WizardComputerComms
   name: 巫師通訊電腦 | wizard communications computer
-  description: 一台能神奇地將你的話語投射至車站的電腦。若利用這台電腦進行廣播，將會讓車站察覺到你的存在。 | A computer capable of magically projecting your speech to the station. Using this to make an announcement will alert the station to your presence.
+  description: 一台能神奇地將你的話語投射至太空站的電腦。若利用這台電腦進行廣播，將會讓太空站察覺到你的存在。 | A computer capable of magically projecting your speech to the station. Using this to make an announcement will alert the station to your presence.
   components:
   - type: Sprite
     layers:
@@ -920,7 +920,7 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRadar
-  name: 批量掃描電腦 | mass scanner computer
+  name: 質量掃描電腦 | mass scanner computer
   description: 一台用於偵測附近物體，並根據其位置與質量進行顯示的電腦。 | A computer for detecting nearby bodies, displaying them by position and mass.
   components:
   - type: Sprite
@@ -1604,7 +1604,7 @@
   parent: BaseComputerAiAccess
   id: ComputerRoboticsControl
   name: 機器人控制台 | robotics control console
-  description: 用於遠端監控該站點的機械人。 | Used to remotely monitor the station's cyborgs.
+  description: 用於遠端監控該站點的賽博格。 | Used to remotely monitor the station's cyborgs.
   components:
   - type: Sprite
     layers:
@@ -1696,7 +1696,7 @@
   id: StationAiUploadComputer
   parent: BaseComputer
   name: AI 上傳控制台 | AI upload console
-  description: 用於更新空間站人工智慧的運作法則。 | Used to update the laws of the station AI.
+  description: 用於更新太空站人工智慧的運作法則。 | Used to update the laws of the station AI.
   components:
   - type: Sprite
     layers:

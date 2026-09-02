@@ -3,7 +3,7 @@
   id: BaseStationBeacon
   name: 站點信標 | station beacon
   suffix: Not teleport point, Ninja bombing target blacklist
-  description: 一種可將資訊傳輸至車站地圖的小型裝置。可進行設定。 | A small device that transmits information to station maps. Can be configured.
+  description: 一種可將資訊傳輸至太空站地圖的小型裝置。可進行設定。 | A small device that transmits information to station maps. Can be configured.
   placement:
     mode: SnapgridCenter
   components:
@@ -108,8 +108,8 @@
 - type: entity
   parent: BaseItem
   id: StationBeaconPart
-  name: 車站信標平裝盒 | station beacon flatpack
-  description: 用於建造車站信標的組裝式套件。 | A flatpack used for constructing a station beacon.
+  name: 太空站信標平裝盒 | station beacon flatpack
+  description: 用於建造太空站信標的組裝式套件。 | A flatpack used for constructing a station beacon.
   components:
   - type: Item
     size: Small

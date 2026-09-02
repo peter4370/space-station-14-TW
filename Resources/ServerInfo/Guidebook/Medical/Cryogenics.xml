@@ -42,7 +42,7 @@
 
 ## 補充資訊：
 
-加油機的標準壓力為 100.325 kPa。 Cryoxadone 在低於 170K 的溫度下即可發揮作用，但為了加快冷凍速度，通常會將冷凍櫃設定為 100K。
+氣體泵的標準壓力為 100.325 kPa。 Cryoxadone 在低於 170K 的溫度下即可發揮作用，但為了加快冷凍速度，通常會將冷凍櫃設定為 100K。
 
 <GuideReagentEmbed Reagent="Aloxadone"/>
 <GuideReagentEmbed Reagent="Arcryox"/>

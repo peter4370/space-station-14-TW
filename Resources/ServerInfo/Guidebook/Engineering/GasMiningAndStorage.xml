@@ -17,7 +17,7 @@
   您可以透過使用 [color=yellow][bold][keybind="ExamineEntity"][/bold][/color] 來檢視這些氣體採礦者，以獲取更多相關資訊。
   不妨仔細檢視上述的氣體礦工。
 
-  瓦斯礦工分為不同等級，其中較大型的機型其高壓截止值比小型機型更高。
+  氣體礦工分為不同等級，其中較大型的機型其高壓截止值比小型機型更高。
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
@@ -25,7 +25,7 @@
     <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 千帕"/>
   </Box>
 
-  若瓦斯開採設備與站體的連接曾一度鬆脫，可使用普通扳手重新固定。
+  若氣體開採設備與站體的連接曾一度鬆脫，可使用普通扳手重新固定。
 
   ## 氣體儲存
   氣體儲存槽用於儲存氣體開採商所生產的氣體，並將其供應給其他製程使用。 它們出現在《Atmospherics》中。

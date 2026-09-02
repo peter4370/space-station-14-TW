@@ -56,15 +56,15 @@ alerts-vow-broken-name = 誓言被背棄
 alerts-vow-broken-desc = 你違背了對全體米梅斯所立的誓言。雖然你還能說話和寫字，但你的能力已消失，至少整整 5 分鐘！！！點擊此處嘗試重新宣誓。
 alerts-pulled-name = 已撤下
 alerts-pulled-desc = 你正被拉扯。移動身體以掙脫。
-alerts-pulling-name = 拉扯
+alerts-pulling-name = 拖動
 alerts-pulling-desc = 你在做什麼？點擊警示訊息以停止。
 alerts-bleed-name = [color=red]滲色[/color]
 alerts-bleed-desc = 你正在[color=red]流血[/color]。
 alerts-pacified-name = [color=green]平息[/color]
 alerts-pacified-desc = 你已平靜下來；你將無法傷害任何生物。
-alerts-suit-power-name = 西裝的力量
+alerts-suit-power-name = 艙外服電量
 alerts-suit-power-desc = 你的太空忍者戰衣擁有多少威力？
-alerts-magboots-name = Magboots
+alerts-magboots-name = 磁力靴
 alerts-magboots-desc = 你對氣流免疫，但移動速度會稍微變慢。
 alerts-revenant-essence-name = 精髓
 alerts-revenant-essence-desc = 靈魂之力。它能維持你的生命，並用於施展能力。它會隨著時間緩慢地恢復。
@@ -74,7 +74,7 @@ alerts-rooted-name = 扎根
 alerts-rooted-desc = 你與地面緊密相連。你無法滑動，但會吸收腳下的液體。
 alerts-stealthy-name = 扒竊
 alerts-stealthy-desc = 無論你當下是否正在行竊。點擊以切換。
-alerts-prying-name = 窺探
+alerts-prying-name = 撬
 alerts-prying-desc = 你可以透過替代互動方式，天生就能撬開門。
 alerts-changeling-chemicals-name = 化學品
 alerts-changeling-chemicals-desc = 儲存在我們腺體內的化學物質。我們仰賴它們來發揮許多身體機能。這些物質會隨著時間逐漸再生。

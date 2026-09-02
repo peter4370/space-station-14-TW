@@ -32,8 +32,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitCMO
-  name: 首席醫療官的連身工作服 | chief medical officer's jumpsuit
-  description: 這是一套由具備擔任首席醫療官資歷的人員所穿著的連身工作服，能提供基本的生物防護。 | It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 醫務總管的連身工作服 | chief medical officer's jumpsuit
+  description: 這是一套由具備擔任醫務總管資歷的人員所穿著的連身工作服，能提供基本的生物防護。 | It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/cmo.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCMOTurtle
-  name: 首席醫療官的高領連身工作服 | chief medical officer's turtleneck jumpsuit
-  description: 這是一件由具備擔任首席醫療官資歷的人士所穿的高領衫。它能提供輕微的生物防護。 | It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 醫務總管的高領連身工作服 | chief medical officer's turtleneck jumpsuit
+  description: 這是一件由具備擔任醫務總管資歷的人士所穿的高領衫。它能提供輕微的生物防護。 | It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Medical/cmo_turtle.rsi

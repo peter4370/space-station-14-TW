@@ -1,4 +1,4 @@
-ninja-no-power = 西裝內建電池電量不足！
+ninja-no-power = 艙外服內建電池電量不足！
 ninja-revealed = 你的真面目已經被揭穿了！
 ninja-suit-cooldown = 這套裝甲需要時間才能從上一次的攻擊中恢復過來。
 ninja-cell-downgrade = 這套戰甲只會接受性能優於現行款的新型動力電池！

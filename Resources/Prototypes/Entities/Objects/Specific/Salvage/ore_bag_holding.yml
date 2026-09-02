@@ -19,7 +19,7 @@
   parent: OreBagOfHolding
   id: BorgOreBagOfHolding
   name: 整合型礦石收納袋 | integrated ore bag of holding
-  description: 一個嵌入富礦型採礦機械人框架中的超大礦石袋。持有時會將附近的所有礦石磁化。 | A very large ore bag built into the frame of a rich mining cyborg. Magnetises any nearby ores when held.
+  description: 一個嵌入富礦型採礦賽博格框架中的超大礦石袋。持有時會將附近的所有礦石磁化。 | A very large ore bag built into the frame of a rich mining cyborg. Magnetises any nearby ores when held.
   components:
     - type: MagnetPickup
       slotFlags: null

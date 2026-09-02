@@ -7,7 +7,7 @@ guidebook-microwave-cook-time =
        *[other] [bold]{ $time }[/bold] seconds
     }
 guidebook-microwave-reagent-color-display = [color={ $color }]■[/color]
-guidebook-microwave-reagent-name-display = [粗體]{ $reagent }[/粗體]
+guidebook-microwave-reagent-name-display = [bold]{ $reagent }[/bold]
 guidebook-microwave-reagent-quantity-display = × { $amount }u
-guidebook-microwave-solid-name-display = [粗體]{ $ingredient }[/粗體]
+guidebook-microwave-solid-name-display = [bold]{ $ingredient }[/bold]
 guidebook-microwave-solid-quantity-display = × { $amount }

@@ -1,192 +1,195 @@
 
 <Document>
-# Glossary
+# 詞彙表
 
-This page contains most slang terms you might encounter on the station and throughout the community !
+此頁面收錄了您在電台及整個社群中可能會遇到的多數俚語！
 
-# In-Character Slang
+# 角色口語
 
-These are terms you might encounter in-game.
+這些是你在遊戲中可能會遇到的詞彙。
 
 ## AOS
-Arrest on sight.
+一見即捕。
 
 ## AA
-All Access, or an ID which has every access on the station. The captain is the only person who will have this kind of access under normal circumstances.
+全權存取權限，或具備該電台所有存取權限的身分證。 在正常情況下，只有船長才有這類權限。
 
 ## Atmos
-Short for Atmospherics.
+是「Atmospherics」的縮寫。
 
 ## Atmosian
-A term for Atmospheric Technicians, or generally anyone who spends most of their time or is particularly skilled with Atmospherics.
+指大氣技術人員，或泛指那些大部分時間都從事大氣相關工作，或在大氣領域特別擅長的人士。
 
-## Bolted
-An airlock that will never change states. It will stay permanently open or permanently closed until it is unbolted. Closed and bolted airlocks have solid red lights.
+## 鎖定狀態的 `
+` 一個永遠不會改變狀態的氣鎖。 在卸下螺栓之前，它將保持永久開啟或永久關閉的狀態。 已關閉並上鎖的氣閘會亮起穩定的紅色燈光。
 
-## Borg
-Short for cyborgs, player-controlled robots.
+## 博格
+為「賽博格」（cyborgs）的簡稱，指由玩家操控的機器人。
 
 ## Braindead
-Refers to a user who has disconnected from the game. Disconnected users may still reconnect to the server and assume control of their character again.
+指已從遊戲中斷線的玩家。 已斷線的玩家仍可重新連線至伺服器，並再次掌控自己的角色。
 
-## Brig
-The main area of the security department. This is where prisoners are brought and held for their punishment. The Warden is in charge of the brig's smooth operation.
+## 布里格
+安全部門的主要區域。 這裡就是囚犯被帶到並關押以接受懲罰的地方。 監獄長負責確保監獄牢房的順利運作。
 
 ## Cap
-Short for Captain.
+是「Captain」的縮寫。
 
 ## Cargonia
-Reference to cargo declaring independence. Against the rules.
+指貨物宣告獨立。 違反規定。
 
 ## CE
-Short for Chief Engineer, the head of the Engineering Department.
+即首席工程師（Chief Engineer）的縮寫，指工程部門的負責人。
 
-## CentComm/Central Command
-An administrative agency which oversees the Nanotrasen space station you inhabit.
+## CentComm／中央司令部
+一個負責管理你所居住的納諾特拉森太空站的行政機構。
 
 ## CMO
-Short for Chief Medical Officer, the head of the Medical Department.
+即首席醫療官（Chief Medical Officer）的縮寫，指醫療部門的負責人。
 
-## Crit/Critical
-Refers to the health state at which you fall unconscious and unable to move. While in critical, your health slowly decays until you die, unless you happen to get outside assistance.
+## 危急/危急狀態
+指你失去意識且無法動彈的健康狀態。 處於危急狀態時，你的生命值會逐漸下降，直到死亡為止，除非你剛好獲得外界的協助。
 
 ## Emag
-  Refers to the Syndicate cryptographic sequencer. "Emagged" usually refers to airlocks or lockers that are bolted open, but also any other device hacked into by an Emag.
+  指 Syndicate 加密序列器。 「Emagged」通常指被用螺栓撬開的氣鎖或儲物櫃，但也泛指任何被 Emag 破解的裝置。
 
-## Emergency Access/EA
-  An airlock that can be opened by anyone, even without access or an ID at all. Airlocks that are set to emergency access have blinking yellow lights.
+## 緊急通道／EA
+  一個任何人都能開啟的氣閘，即使完全沒有通行權限或身分證件亦可開啟。 設定為緊急通道的氣鎖會亮起閃爍的黃色燈光。
 
 ## ERT
-An Emergency Response Team. These may be dispatched by Central Command for a number of purposes.
+一支緊急應變小組。 中央指揮部可能會基於多種目的派遣這些部隊。
 
 ## Flukie
-A portmanteau of "Fluke" and "Nukie" used to (usually derogatorily) refer to a team of Nuclear Operatives who fail their objective. May also appear as "Fluke Ops".
+由「Fluke」和「Nukie」組合而成的複合詞，用來（通常帶有貶義）指稱未能達成任務目標的核特工小隊。 也可能以「Fluke Ops」之名出現。
 
-## God(s)
-An IC term representing a Server Administrator. CentComm is also sometimes used in this manner.
+## 神（God(s)）
+這是 IC 術語，指代伺服器管理員。 CentComm 有時也會以這種方式使用。
 
-## Greytide/Greyshirt/Tider/Assistant
-Typically utilized to refer to a Passenger due to the color of their standard uniform, though this may be used to negatively refer to other crew members (not only passengers) who act unruly or commit various minor crimes.
+## 灰潮/灰衫/潮人/助理
+通常因標準制服的顏色而用來指稱「乘客」，但此稱謂也可能被用來貶低那些行為失序或犯下各種輕微罪行的其他船員（不僅限於乘客）。
 
 ## HoP
-Short for Head of Personnel, head of the Service Department. Can also refer to the HoP's office, where IDs are given or changed.
+即「人事主管」（Head of Personnel）的簡稱，為服務部門的負責人。 亦可洽詢 HoP 辦公室，該處負責核發或變更身分證件。
 
 ## HoS
-Short for Head of Security, head of the Security Department.
+即「安全主管」（Head of Security）的簡稱，指安全部門的負責人。
 
 ## Insuls
-Short for Insulated Gloves. These are the yellow gloves most often worn by Engineers. They are offer complete protection from getting electrocuted from shocked things. Vastily more effective than their budget variety.
+即「Insulated Gloves」（隔熱手套）的縮寫。 這些是工程師最常戴的黃色手套。 它們能提供全面保護，防止因接觸帶電物體而遭電擊。 比其平價款式有效得多。
 
 ## Jani
-Short for Janitor.
+是「Janitor」（清潔工）的簡稱。
 
 ## KOS
-Kill on sight. Someone has commited such a serious crime that they are deemed not even worth arresting.
+一見即殺。 有人犯下了如此嚴重的罪行，以至於甚至被認為不值得逮捕。
 
 ## Mats
-Materials. Usually steel, plastic, plasteel, glass, silver and gold.
+材料。 通常為鋼、塑膠、塑鋼、玻璃、銀和金。
 
 ## Nanotrasen/NT
-Nanotrasen is the company which owns the space station you inhabit.
+Nanotrasen 是您所居住的太空站的所有者。
 
 ## Newkie
-A portmanteau of "New" and "Nukie" used to refer to an inexperienced player in the role of a Nuclear Operative.
+由「New」和「Nukie」組合而成的複合詞，用來指稱擔任「核武特工」角色但經驗不足的玩家。
 
 ## Nukie
-A slang/shorthand term of a Nuclear Operative. May sometimes also appear as "Nuke Op".
+「核武特工」的俚語／簡稱。 有時也可能被稱為「Nuke Op」。
 
-## Perma
-Short for Permanent Brig. This is for the most serious crime and means that a prisoner will never be released. Most stations have a dedicated, separate area of security for the permanent brig.
+## 終身監禁（Perma）
+即「終身監禁」（Permanent Brig）的簡稱。此刑罰適用於最嚴重的罪行，意指囚犯將永遠不會獲釋。 大多數車站都設有專用且獨立的安檢區，用作常設拘留所。
 
 ## QM
-Short for Quartermaster, the head of the Cargo department.
+即「Quartermaster」的縮寫，指貨運部門的負責人。
 
 ## RD
-Short for Research Director, the head of the Science Department.
+即「研究總監」（Research Director）的縮寫，指科學部門的負責人。
 
-## Robust
-A word used to describe someone who is particularly adept in combat, or endured through a tough fight.
+## 強悍的
+用於形容在戰鬥中特別嫻熟，或是在艱苦戰鬥中堅持下來的人。
 
 ## Salv
-Short for Salvage tech.
+「Salvage tech」的簡稱。
 
 ## Sci
-Short for Science.
+是「Science」的縮寫。
 
 ## Sec
-Short for Security.
+是「Security」的縮寫。
 
 ## Secoff
-Short for Security Officer.
+即「保安員」的縮寫。
 
-## Shift
-In-Character way to refer to rounds.
+## 調整
+中，以角色視角提及「回合」的方式。
 
 ## Singulo
-A shortening of the Singularity Engine. A Singulo can create infinite power for the station but is very dangerous.
+「奇點引擎」（Singularity Engine）的簡稱。 一個「辛古洛」雖然能為基地提供無盡的能量，但卻非常危險。
 
 ## Singuloose
-A Singularity that has grown too much and breached its containment. It will rip through the station causing massive damage.
+一顆過度膨脹並突破封鎖的奇點。 它將橫掃車站，造成巨大破壞。
 
-## Spacing
-An event which causes an area to lose air pressure, i.e. a hull breach.
+## 間距
+導致某區域氣壓下降的事件，即船體破裂。
 
 ## Spess
-An intentional mis-spelling of "Space", sometimes used as a portmanteau of "space" and "mess". May also appear in words such as "Spessmen".
+這是對「Space」一詞的故意錯拼，有時用作「space」與「mess」的合成詞。 也可能出現在「Spessmen」等單詞中。
 
 ## SSD
-Short for Sudden Sleep Disorder or Space Sleep Disorder. This is an in-character way to refer to a player who has disconnected and is no longer responding.
+即「突發性睡眠障礙」（Sudden Sleep Disorder）或「太空睡眠障礙」（Space Sleep Disorder）的縮寫。 這是一種符合角色設定的方式，用來指稱已斷線且不再回應的玩家。
 
 ## Syndie/Syndi/Syndicate
-A catch-all reference to anyone employed by the Syndicate. This ranges from (suspected) Syndicate Agents to Nuclear Operatives.
+泛指所有受僱於「Syndicate」的人員。 其範圍從（疑似）辛迪加特工到核武特工不等。
 
 ## TC
-A telecrystal, which is a currency used by Syndicate Agents to purchase restricted contraband such as weapons and other illegal equipment.
+電晶幣（Telecrystal），是「辛迪加」特工用來購買受限制的違禁品（例如武器及其他非法裝備）的貨幣。
 
 ## Wardenloose
-A joke term referencing a Singuloose. A wardenloose is when the Warden is seen outside of the brig.
+一個指稱 Singuloose 的玩笑術語。 所謂「看守脫逃」，是指看到看守出現在禁閉室之外。
 
-## Xenoarchaeology
-Study of artifacts, usually performed by science.
+## 異星考古學
+對文物進行的研究，通常由科學界進行。
 
-# Out-Of-Character Slang
+# 角色外俚語
 
-These are terms you should only be using in OOC chat or outside the game.
+這些詞彙僅應在角色外聊天（OOC）或遊戲外使用。
 
 ## Admeme
-An event hosted or caused by an admin.
+由管理員主辦或引發的事件。
 
-## AHelp/Admin Help
-A relay used to report rulebreaking behavior or other issues to administrators.
+## AHelp/管理員說明
+一個用於向管理員回報違規行為或其他問題的中繼管道。
 
 ## Antag
-Short for Antagonists, which are specifically picked individuals designed to drive the round into chaos.
+即「Antagonists」（反派）的簡稱，指那些經特別挑選、旨在將該回合推向混亂的玩家。
 
 ## Bwoink
-The noise made when an admin-help is received. Pray this isn't a ban.
+收到「admin-help」通知時發出的聲音。 但願這不是封號。
 
-## Ick Ock
-A phrase usually shouted in OOC when somebody reveals IC current round information, or "in-character, out-of-character".
+## 伊克·奧克（Ick Ock）
+當有人在 OOC 時透露 IC 本回合資訊時，通常會大喊這句話；其中「IC」意指「角色內」，「OOC」則意指「角色外」。
 
 ## LOOC/OOC
-Local out-of-character and (global) out-of-character respectively. They are text channels that allow players to talk to other players outside of roleplay. LOOC is enabled during rounds, while OOC is typically only on after the round ends.
+分別指「局部角色外」和「（全球）角色外」。 這些是文字頻道，讓玩家能在角色扮演之外與其他玩家交談。 在回合進行期間，LOOC 處於啟用狀態；而 OOC 通常僅在回合結束後才會啟用。
 
 ## LRP
-Low Roleplay. Servers marked LRP typically have relaxed roleplaying rules.
+低度角色扮演。 標示為 LRP 的伺服器通常有較為寬鬆的角色扮演規則。
 
-## MRP
-Medium Roleplay. Servers marked MRP usually have a decent basis of roleplaying rules and generally require players to act as their character would realistically in a given situation. Less leeway is afforded to behavior such as openly defying Security or your boss.
+## MRP《
+》中型角色扮演。 標示為 MRP 的伺服器通常具備完善的角色扮演規則基礎，並一般要求玩家在特定情境下，以角色會採取的合理方式行事。 對於公開違抗保安人員或上司等行為，所給予的容錯空間較小。
 
 ## HRP
-High Roleplay. Servers marked HRP generally have extensive rules on what is and is not constituted while playing a character. You are generally required to act as your character would, have a character backstory, and follow protocol on the station. Some HRP servers may create their own lore or settings to further facilitate the type of server they wish to host.
+高沉浸式角色扮演。 標示為 HRP 的伺服器，通常對於扮演角色時哪些行為算數、哪些不算數，都有詳盡的規定。 一般來說，您必須按照角色的性格行事、為角色設定背景故事，並遵守空間站的相關規定。 某些 HRP 伺服器可能會創建自己的背景故事或設定，以進一步促進其希望營運的伺服器類型。
 
-## Self-Antag
-A term for a player who engages in antagonist-like activity without actually being an antagonist. This encompasses a wide variety of behavior, but is typically used to describe annoying behavior or actions which are greatly detrimental to other players for no purpose. Self-antagonism is a bannable offense. Sometimes used in IC. DO NOT DO THIS.
+## 自發性反派（Self-Antag）
+指那些雖未實際擔任反派角色，卻從事類似反派行為的玩家。 這涵蓋了多種多樣的行為，但通常用來描述那些令人厭煩，且毫無意義卻對其他玩家造成極大損害的行為或舉動。 自我對立是會被封號的行為。 有時用於積體電路中。 請千萬不要這樣做。
 
-## Upstream
-The baseline version of the game. Any changes to Upstream will "flow" down to all other forks of the game. All official Wizard's Den servers work off of Upstream.
+## 上游
+遊戲的基準版本。 對 Upstream 所做的任何變更，都會「流傳」到該遊戲的所有其他分支中。 所有「巫師之巢」的官方伺服器皆運行於 Upstream 之上。
 
 ## Validhunter
-A player who hunts down "valids", as in people that are valid to kill, even though this person isn't security.
+指專門獵殺「有效目標」（即有資格被殺害的人）的玩家，儘管此人並非安全人員。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 
 </Document>

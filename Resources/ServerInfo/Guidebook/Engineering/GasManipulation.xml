@@ -64,7 +64,7 @@
     <GuideEntityEmbed Entity="GasFilter" Caption=""/>
   </Box>
   <Box>
-    ## 混音與濾波
+    ## 混合與過濾
   </Box>
   <Box>
     [color=#999999][italic]操控氣體的組成[italic][/color]
@@ -79,7 +79,7 @@
     <GuideEntityEmbed Entity="GasPort" Caption=""/>
   </Box>
   <Box>
-    ## 瓦斯罐
+    ## 氣體罐
   </Box>
   <Box>
     [color=#999999][italic]儲存及運輸氣體，以便船員使用[italic][/color]

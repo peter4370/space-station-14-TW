@@ -1,46 +1,49 @@
 
 <Document>
-# Jobs
+# 職缺
 
-SS14 has a large number of jobs, divided into seven major departments:
+SS14 設有大量職缺，分為七大部門：
 
-## Service
-[color=#9fed58]Service[/color] is a diverse department that includes the head of personnel and other jobs who exist to serve the station.
+## 服務
+[color=#9fed58]服務[/color] 是一個多元化的部門，包含人事主管及其他負責為電台提供服務的職位。
 
-It primarily functions as folks who entertain, clean, and serve the rest of the crew, with the exception of passengers who have no particular job beyond getting lost in maintenance.
+他們的主要職責是娛樂、打掃並服務其他船員，唯獨那些除了在維修區裡迷路之外沒有其他特定工作的乘客除外。
 
-## Cargo
-[color=#b18644]Cargo[/color] consists of the cargo technicians, salvage specialists, and the quartermaster. As a department, it responsible resource distribution and trade, capable of buying and selling things on the galactic market.
+## 貨運組
+[color=#b18644]貨運組[/color] 由貨運技術人員、打撈專家及軍需官組成。 作為一個部門，它負責資源分配與貿易，能夠在銀河市場上進行買賣。
 
-For the most part, this means they scrounge around the station and assorted wrecks to find materials to sell and redistribute, and purchase materials other departments request.
+總體而言，這意味著他們會在車站及各類事故現場四處搜尋，以尋找可出售及重新分配的材料，並採購其他部門所要求的材料。
 
-## Medical
-[color=#5b97bc]Medical[/color] consists of the medical interns, chemists, medical doctors, and the chief medical officer. As a department it is responsible for taking care of the crew, treat and/or clone the wounded and dead, treat disease, and prevent everyone from dying a horrible, bloody death in a closet somewhere.
+## 醫療部門
+[color=#5b97bc]醫療部門[/color] 由實習醫師、藥劑師、醫師及首席醫療官組成。 作為一個部門，其職責在於照顧船員、治療及／或克隆傷者與死者、治療疾病，並防止所有人某天在某個壁櫥裡慘死於血腥的慘烈之死。
 
-Medical is one of the more well-equipped departments, with the ability to locate injured crew using the crew monitor, a nigh infinite supply of chems should chemistry be on-par, and the ability to rapidly diagnose and vaccinate contagious diseases.
+醫療部門是裝備較為完善的部門之一，不僅能透過「船員監測系統」定位受傷的船員，若化學技能達標，還能獲得近乎無限的化學藥劑供應，並具備快速診斷傳染病及施打疫苗的能力。
 
-## Science
-[color=#c96dbf]Science[/color] consists of research assistants, scientists, and the research director. As a department it is responsible for researching technologies and artifacts, upgrading machines, and printing new and useful devices.
+## 科學
+[color=#c96dbf]科學[/color] 由研究助理、科學家及研究主任組成。 該部門負責研究各項技術與實物、升級機器，以及列印嶄新且實用的裝置。
 
-Scientists should seek out new artifacts to study, as well as solicit departments to help upgrade their machines.
+科學家應積極尋找新的文物進行研究，同時也應向各部門尋求協助，以升級其設備。
 
-## Engineering
-[color=#f39f27]Engineering[/color] consists of technical assistants, station engineers, atmospheric technicians, and the chief engineer. As a department it is responsible for keeping the station powered, its structure intact and its air supply working.
+## 工程部
+[color=#f39f27]工程部[/color] 由技術助理、站務工程師、大氣技術員及總工程師組成。 該部門負責確保車站的電力供應、建築結構完好無損，以及供氣系統正常運作。
 
-Engineering is readily equipped to go safely into space, and as such they should always attempt to repair uninhabitable parts of the station.
+工程團隊已具備安全進入太空的條件，因此他們應始終嘗試修復太空站中無法居住的部分。
 
-## Security
-[color=#cb0000]Security[/color] consists of the security cadets, lawyers, detective, security officers, warden, and the head of security. As a department it is responsible for dealing with troublemakers and non-humanoid threats like giant rats and carp.
+## 安全部門
+[color=#cb0000]安全部門[/color] 由安全見習生、律師、偵探、安全人員、監獄長以及安全部門主管組成。 該部門負責處理搗亂分子，以及巨鼠和鯉魚這類非人形威脅。
 
-As a result of this, and the need to walk a fine line, security sometimes is overwhelmed by angry crew (don't kill the clown), and it is important for its members to try and stay on their best behavior.
+正因如此，加上必須在微妙的平衡中行事，安保人員有時會被憤怒的船員壓得喘不過氣（別殺小丑），因此安保人員務必盡力保持最佳的行為表現。
 
-## Command
-[color=#1b67a5]Command[/color] consists of every department head. It is responsible for keeping the station and its departments running efficiently.
+## 指揮部
+[color=#1b67a5]指揮部[/color] 由各部門主管組成。 該部門負責確保該站及其各部門能有效率地運作。
 
-Command members should always be relatively competent in their respective departments and attempt to delegate responsibility and direct work.
+指揮部成員應始終在各自部門具備相當的專業能力，並應設法將責任委派給下屬並指導工作。
 
-# Getting Your Job Changed
-The [color=#9fed58]Head of Personnel[/color] is the person in charge of changing ID accesses and handing out encryption keys. Head over to their office and let them know what job you'd like to work instead.
+# 變更職務
+[color=#9fed58]人事主管[/color] 負責變更 ID 存取權限及發放加密金鑰。 去他們的辦公室，告訴他們你希望改做哪份工作。
 
-Often, they'll want you to go get a paper [color=#a4885c]stamped[/color] by a department head. Don't sweat it, just find them and hand them the paper.
+通常，他們會要你去找部門主管為某份文件[color=#a4885c]蓋章[/color]。 別大驚小怪，只要找到他們，把那張紙交給他們就好。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

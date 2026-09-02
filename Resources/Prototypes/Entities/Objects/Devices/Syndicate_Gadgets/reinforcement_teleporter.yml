@@ -23,8 +23,8 @@
   description: 立刻請一位來歷可疑的合買代理前來！ | Call in a syndicate agent of questionable quality, instantly!
   components:
   - type: GhostRole
-    name: 幽靈角色資訊－集團－強化－間諜名稱 | ghost-role-information-syndicate-reinforcement-spy-name
-    description: 幽靈角色資訊－辛迪加－強化－間諜－描述 | ghost-role-information-syndicate-reinforcement-spy-description
+    name: ghost-role-information-syndicate-reinforcement-spy-name | ghost-role-information-syndicate-reinforcement-spy-name
+    description: ghost-role-information-syndicate-reinforcement-spy-description | ghost-role-information-syndicate-reinforcement-spy-description
     rules: ghost-role-information-syndicate-reinforcement-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -43,7 +43,7 @@
   components:
   - type: GhostRole
     name: ghost-role-information-nukeop-reinforcement-name | ghost-role-information-nukeop-reinforcement-name
-    description: 幽靈角色資訊－核武操作員－增援－描述 | ghost-role-information-nukeop-reinforcement-description
+    description: ghost-role-information-nukeop-reinforcement-description | ghost-role-information-nukeop-reinforcement-description
     rules: ghost-role-information-nukeop-reinforcement-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -59,7 +59,7 @@
   description: 召喚一位由您親自挑選、經過特別訓練的祖先前來協助您。 | Calls in a specially trained ancestor of your choosing to assist you.
   components:
   - type: GhostRole
-    name: 幽靈角色資訊集團猴子強化名稱 | ghost-role-information-syndicate-monkey-reinforcement-name
+    name: ghost-role-information-syndicate-monkey-reinforcement-name | ghost-role-information-syndicate-monkey-reinforcement-name
     description: ghost-角色資訊-辛迪加-猴子-強化-描述 | ghost-role-information-syndicate-monkey-reinforcement-description
     rules: ghost-role-information-syndicate-reinforcement-rules
     mindRoles:
@@ -103,13 +103,13 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink
-  name: 犯罪集團 襲擊 機械人 增援 無線電 | syndicate assault cyborg reinforcement radio
-  description: 立刻調派一名武裝精良的突擊機械人！ | Call in a well armed assault cyborg, instantly!
+  name: 辛迪加 突擊 賽博格 增援 無線電 | syndicate assault cyborg reinforcement radio
+  description: 立刻調派一名武裝精良的突擊賽博格！ | Call in a well armed assault cyborg, instantly!
   suffix: NukeOps
   components:
     - type: GhostRole
-      name: 幽靈角色資訊——辛迪加——機械人襲擊——名稱 | ghost-role-information-syndicate-cyborg-assault-name
-      description: 幽靈角色資訊——辛迪加——賽博格——描述 | ghost-role-information-syndicate-cyborg-description
+      name: ghost-role-information-syndicate-cyborg-assault-name | ghost-role-information-syndicate-cyborg-assault-name
+      description: ghost-role-information-syndicate-cyborg-description | ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
       mindRoles:
       - MindRoleGhostRoleSilicon

@@ -415,13 +415,13 @@
   parent: EnergySword
   id: CyborgEnergySword
   suffix: For Borgs
-  description: 一把極其轟鳴且危險的劍，其光束由純淨、高濃度的等離子體構成。專為辛迪加的機械人設計。 | A very loud & dangerous sword with a beam made of pure, concentrated plasma. Specially designed for syndicate cyborgs.
+  description: 一把極其轟鳴且危險的劍，其光束由純淨、高濃度的等離子體構成。專為辛迪加賽博格設計。 | A very loud & dangerous sword with a beam made of pure, concentrated plasma. Specially designed for syndicate cyborgs.
 
 - type: entity
   parent: EnergySwordDouble
   id: CyborgEnergySwordDouble # why is this invalid if ID is BorgEnergySwordDouble
   suffix: One-Handed, For Borgs
-  description: 「辛迪加指揮部」的實習生們認為，能量劍上僅有一把刀刃還不夠。此款專為辛迪加機械人設計。 | Syndicate Command Interns thought that having one blade on the energy sword was not enough. Specially designed for syndicate cyborgs.
+  description: 「辛迪加指揮部」的實習生們認為，能量劍上僅有一把刀刃還不夠。此款專為辛迪加賽博格設計。 | Syndicate Command Interns thought that having one blade on the energy sword was not enough. Specially designed for syndicate cyborgs.
   components: # could add energy-draining like the L6C
   - type: Wieldable
     freeHandsRequired: 0 # because borg has no off-hand to wield with.  Without this, it will be unable to activate the esword

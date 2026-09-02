@@ -51,7 +51,7 @@
 
 - type: entity
   id: RandomAnomalyInjectorSpawner
-  name: 隨機異常體生成器 | random anomaly injector spawner
+  name: 隨機異常注入器生成器 | random anomaly injector spawner
   parent: MarkerBase
   components:
   - type: Sprite

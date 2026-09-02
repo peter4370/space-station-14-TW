@@ -354,6 +354,6 @@ flavor-complex-bee = 難以置信
 flavor-complex-sax = 像爵士樂一樣
 flavor-complex-bottledlightning = 宛如將閃電封入瓶中
 flavor-complex-punishment = 像懲罰一樣
-flavor-complex-artifact-glue = 宛如破碎的文物
+flavor-complex-artifact-glue = 宛如破碎的神器
 flavor-weh = 就像「weh」一樣
 flavor-hew = 像休一樣

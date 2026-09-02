@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseShutter
-  name: 快門 | shutter
-  description: 光是想到這扇百葉窗後面可能藏著什麼，就讓人不寒而慄。 | One shudders to think about what might be behind this shutter.
+  name: 捲簾門 | shutter
+  description: 光是想到這扇捲簾鐵門後面可能藏著什麼，就讓人不寒而慄。 | One shudders to think about what might be behind this shutter.
   placement:
     mode: SnapgridCenter
   components:

@@ -50,7 +50,7 @@ figurines-ce-5 = TESLOOSE！
 figurines-ce-6 = 又停電了。
 figurines-atmostech-1 = 我將 Plasma 安裝到發行版中。
 figurines-atmostech-2 = 我會在焚化爐裡把你燒掉。
-figurines-atmostech-3 = 弗雷宗……
+figurines-atmostech-3 = Frezon……
 figurines-atmostech-4 = 氚……
 figurines-atmostech-5 = 榮耀歸於阿特莫西亞！
 figurines-atmostech-6 = Distro？那是「disposal」（處置）的縮寫。
@@ -104,8 +104,8 @@ figurines-scientist-1 = 那些炸彈肯定是別人製造的！
 figurines-scientist-2 = 他要求被「博格化」！
 figurines-scientist-3 = Carp 在 sci！
 figurines-scientist-4 = sci 發生爆炸！
-figurines-scientist-5 = 有人發現異常現象嗎？
-figurines-scientist-6 = 那個異常現象爆炸了！
+figurines-scientist-5 = 有人發現異常嗎？
+figurines-scientist-6 = 那個異常爆炸了！
 
 # Security
 
@@ -303,9 +303,9 @@ figurines-rat-servant-4 = 哎，我正在這邊走呢！
 figurines-rat-servant-5 = 你先搞到那筆錢，我們再談。
 figurines-space-dragon-1 = 魚會吞噬這個站。
 figurines-space-dragon-2 = Dragon de——其實，算了。
-figurines-space-dragon-3 = 《Crew》這部作品非常精彩。
+figurines-space-dragon-3 = 船員真好吃。
 figurines-space-dragon-4 = 你別想做壽司。
-figurines-space-dragon-5 = 這座車站容不下我們兩個人。
+figurines-space-dragon-5 = 這座太空站容不下我們兩個人。
 figurines-skeleton-1 = 哎喲！哎喲！
 figurines-skeleton-2 = 唉，那個置物櫃真是太狹窄了！
 figurines-skeleton-3 = 你接下來會過得很慘。

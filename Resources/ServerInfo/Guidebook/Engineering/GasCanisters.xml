@@ -1,6 +1,6 @@
 
 <Document>
-  # 瓦斯罐
+  # 氣體罐
   <Box>
     <GuideEntityEmbed Entity="AirCanister"/>
     <GuideEntityEmbed Entity="OxygenCanister"/>
@@ -20,7 +20,7 @@
 
   若在未連接手持式氣瓶的情況下開啟氣罐的釋放閥，氣體將以調節器設定的壓力釋放到大氣中。
 
-  [粗體]在彈出手持式氣罐之前，請務必先關閉釋放閥！[/粗體]
+  [bold]在彈出手持式氣罐之前，請務必先關閉釋放閥！[/bold]
 
   ## 連接埠
   氣體罐及 [textlink="便攜式淨化器" link="PortableScrubber"] 可透過將裝置鎖定（擰緊）在連接埠上方，連接至 [textlink="管網" link="PipeNetworks"]。

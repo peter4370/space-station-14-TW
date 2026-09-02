@@ -110,7 +110,7 @@
   parent: HolofanProjector
   id: HolofanProjectorBorg
   name: 整合式全息風扇 | integrated holofan
-  description: 可防止白癡在大氣緊急狀況下對船員造成更多傷害。直接安裝於工程型機械人身上，並會隨時間自動充電。 | Stops idiots from causing more crew harm during atmospheric emergencies. Installed directly into an engineering cyborg, it recharges over time.
+  description: 可防止白癡在大氣緊急狀況下對船員造成更多傷害。直接安裝於工程型賽博格身上，並會隨時間自動充電。 | Stops idiots from causing more crew harm during atmospheric emergencies. Installed directly into an engineering cyborg, it recharges over time.
   components:
   - type: ItemSlots
     slots:

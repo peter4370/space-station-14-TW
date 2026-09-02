@@ -11,7 +11,7 @@ SS14 的每一輪都是一個 [bold]獨立的輪班[/bold]，發生在眾多不�
 您可以在這裡取用飲品、與其他玩家交談，並等待穿梭車載您前往站點。
 
 牆上的螢幕會顯示接駁車的預計抵達時間。
-接駁車抵達時，只需走上去即可被送往空間站。
+接駁車抵達時，只需走上去即可被送往太空站。
 
 請務必待在航站樓內，切勿站在接駁車降落區。 [color=#EB2D3A][bold]您可能會被飛入的穿梭機撞到[/bold][/color]
 
@@ -25,11 +25,11 @@ SS14 的每一輪都是一個 [bold]獨立的輪班[/bold]，發生在眾多不�
   <GuideEntityEmbed Entity="SignBridge" Caption="Marker Signs"/>
 </Box>
 
-[color=cyan]車站地圖[/color] 讓您掌握整個車站的概況，並以彩色標記標示各項設施的位置。
+[color=cyan]太空站地圖[/color] 讓您掌握整個太空站的概況，並以彩色標記標示各項設施的位置。
 牆上的一般 [color=cyan]標誌[/color] 則可引導您前往不同部門。
 
 ## 離開站區
-輪班結束時 [color=gray]（除非發生 [color=red][bold]核災難[/bold][/color）[/color]），您將搭乘 [color=lime]疏散穿梭車[/color] 離開站區。
+輪班結束時 [color=gray]（除非發生 [color=red][bold]核災難[/bold][/color]）[/color]），您將搭乘 [color=lime]疏散穿梭車[/color] 離開站區。
 當接駁車被召喚時，站內會播放廣播通知全體人員，並預告其 [color=cyan]將於 10 分鐘後抵達。[/color]
 接駁車抵達後，你需要前往該處、登車，並在前往 [bold]中央指揮部[/bold] 的途中確保自身安全。
 

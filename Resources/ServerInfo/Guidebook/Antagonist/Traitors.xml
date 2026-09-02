@@ -1,109 +1,110 @@
+
 <Document>
-  # Traitors
+  # 叛徒
 
   <Box>
-    [color=#999999][italic]"WHISKEY. ECHO. WHISKEY. LIMA. ALPHA. DELTA. AGENT, YOU HAVE BEEN ACTIVATED."[/italic][/color]
+    [color=#999999][italic]「威士忌。 ECHO。 威士忌。 利馬。 ALPHA。 DELTA。 「特工，你已被啟動。」[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="PosterContrabandSyndicateRecruitment" Caption=""/>
   </Box>
-  Traitors are antagonists employed by the [color=#ff0000]Syndicate.[/color] You are a sleeper agent who has access to various tools and weapons through your [bold]uplink[/bold].
-  You also receive [bold]codewords[/bold] to identify other agents, and a coordinated team of traitors can have [italic]brutal results.[/italic]
+  叛徒是受僱於 [color=#ff0000]辛迪加[/color] 的反派角色。身為一名臥底特工，你可以透過 [bold]上行鏈路[/bold] 取得各式各樣的工具與武器。
+  你還會收到用來識別其他特工的 [bold]暗語[/bold]，而一個行動協調的叛徒團隊可能會造成 [italic]慘烈的後果[/italic]。[/italic]
 
-  Anyone besides [textlink="department heads" link="Command"] or members of [textlink="Security" link="Security"] can be a traitor.
+  除了 [textlink="部門主管" link="指揮部"] 或 [textlink="安全" link="安全部"] 的成員之外，任何人都可能是叛徒。
 
-  ## Uplink & Activation
-  The [color=cyan]uplink[/color] is your most important tool as a traitor. You can exchange the 20 [color=red]telecrystals[/color] (TC) you start with for items that will help you with your objectives.
+  ## 上行通訊與啟用
+  身為叛徒，[color=cyan]上行通訊[/color] 是你最重要的工具。 你可以將起始時獲得的 20 個 [color=red]電晶[/color]（TC）兌換成有助於達成目標的物品。
 
-  By pressing [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color], you'll see your personal uplink code. To activate your uplink, set your PDA's ringtone to the code. This can be used with [bold]any PDA, and by anyone[/bold], so be wary of sharing it!
-  Pressing [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color] also lets you view your objectives and the codewords.
+  按下 [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color]，即可查看您的個人上傳代碼。 要啟用您的上行鏈路，請將您的 PDA 鈴聲設定為該密碼。 這項功能可與 [bold]任何 PDA 搭配使用，且任何人都能使用[/bold]，因此請謹慎分享！
+  按下 [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color] 也能讓你查看任務目標和代號。
 
-  If you do not have a PDA when you are activated, an [color=cyan]uplink implant[/color] is provided [bold]for the full [color=red]TC[/color] price of the implant.[/bold]
-  It can be accessed from your hotbar.
+  若您在被徵召時未持有 PDA，將提供一個 [color=cyan]上行植入體[/color]，[bold]費用為該植入體的全額 [color=red]TC[/color] 價格。[/bold]
+  您可透過熱鍵欄存取此功能。
   <Box>
     <GuideEntityEmbed Entity="PassengerPDA" Caption="PDA"/>
     <GuideEntityEmbed Entity="Telecrystal" Caption="Telecrystals"/>
-    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Uplink Implant"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="上行植入裝置"/>
   </Box>
 
-  [bold]Make sure to close your PDA uplink to prevent anyone else from seeing it.[/bold] You don't want [color=#cb0000]Security[/color] to notice you have it and confiscate it from you!
+  [bold]請務必關閉您的 PDA 上行連線，以免被他人看見。[/bold] 您可不想讓 [color=#cb0000]安全部門[/color] 發現您持有該裝置並將其沒收！
 
-  Implanted uplinks are not normally accessible to other people, so they do not have any security measures. They can, however, be removed from you with an empty implanter.
+  植入式的上行鏈路通常無法被其他人存取，因此並未採取任何安全措施。 不過，使用空的植入器即可將其從您體內取出。
 
   <Box>
-    <GuideEntityEmbed Entity="WeaponPistolCobra" Caption="Weaponry"/>
-    <GuideEntityEmbed Entity="MagazineBoxLightRifle" State="icon" Caption="Ammo"/>
-    <GuideEntityEmbed Entity="C4" Caption="Explosives"/>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie" Caption="Wearables"/>
-    <GuideEntityEmbed Entity="Stimpack" Caption="Chemicals"/>
+    <GuideEntityEmbed Entity="WeaponPistolCobra" Caption="武器"/>
+    <GuideEntityEmbed Entity="MagazineBoxLightRifle" State="icon" Caption="彈藥"/>
+    <GuideEntityEmbed Entity="C4" Caption="爆炸物"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie" Caption="穿戴式裝置"/>
+    <GuideEntityEmbed Entity="Stimpack" Caption="化學品"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Deception"/>
-    <GuideEntityEmbed Entity="Emag" Caption="Disruption"/>
-    <GuideEntityEmbed Entity="StorageImplanter" Caption="Implants"/>
-    <GuideEntityEmbed Entity="MobMonkeySyndicateAgentNukeops" Caption="Allies"/>
-    <GuideEntityEmbed Entity="ClothingEyesGlassesOutlawGlasses" Caption="Pointless"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="欺騙"/>
+    <GuideEntityEmbed Entity="Emag" Caption="顛覆"/>
+    <GuideEntityEmbed Entity="StorageImplanter" Caption="植入物"/>
+    <GuideEntityEmbed Entity="MobMonkeySyndicateAgentNukeops" Caption="盟友"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesOutlawGlasses" Caption="毫無意義"/>
   </Box>
 
-  The purchases that you make should be to help you with your objectives. Some gear may not be of use to you, and you'll have to choose between being sneaky or going loud.
+  您所進行的購買行為，應有助於達成您的目標。 某些裝備對你來說可能派不上用場，而你必須在「悄無聲息」與「大張旗鼓」之間做出選擇。
 
-  ## Coordination
-  Codewords are words or phrases that every traitor will know. They provide a discreet way to identify or establish contact with a fellow traitor, which can be useful if your objectives include [italic][color=cyan]helping them with their objectives.[/color][/italic]
+  ## 協調
+  密語是指每個叛徒都會知道的詞語或短語。 它們提供了一種低調的方式，用以識別或與其他叛徒建立聯繫，若你的目標包含[italic][color=cyan]協助他們達成目標，這將非常有用。[/color][/italic]
 
-  When you find some friends, [bold]you can withdraw [color=red]telecrystals[/color] from your uplink to give to them.[/bold] They can put these in their own uplink to spend for themselves.
+  當你找到一些夥伴時，[bold]你可以從自己的上行鏈路中提取 [color=red]電晶體[/color] 並給予他們。[/bold] 他們可以將這些電晶體存入自己的上行鏈路，供自己使用。
 
-  Some offers available on your uplink require more than 20 TC to purchase, so if you want them you'll have to share.
+  您當前層級中的一些優惠，購買所需 TC 超過 20，因此若您想獲得這些優惠，就必須與他人分享。
 
-  ## Assassination
-  One of your objectives may be to [italic][color=cyan]kill or maroon a crewmember.[/color][/italic]
+  ## 暗殺
+  你的目標之一可能是 [italic][color=cyan]殺害或將一名船員放逐。[/color][/italic]
 
-  You can [color=cyan]maroon[/color] your target by [bold]preventing them from reaching CentComm[/bold] via the evacuation shuttle or an escape pod.
+  你可以透過 [bold]阻止目標搭乘疏散穿梭機或逃生艙抵達中央指揮部[/bold]，來 [color=cyan]將其遺棄[/color]。
 
-  If you can't maroon your target or they're too important to leave alive, you'll have to get your hands dirty and [color=cyan]murder[/color] them. Make sure your target is not alive when the [bold]evacuation shuttle gets to CentComm,[/bold] and don't let them be resuscitated.
+  如果你無法將目標孤立，或者對方身分過於重要而不能放過，你就得親自動手，[color=cyan]殺害[/color]他們。 請確保當 [bold]疏散穿梭機抵達 CentComm 時[/bold]，你的目標已無生命跡象，且切勿讓其被復甦。
 
-  Remember, the Syndicate want only your targets dead. [color=red]Try to avoid mass murder or major damage to the station,[/color] as the more innocent lives you take, the more of a liability you become.
+  請記住，辛迪加只想要你的目標死掉。 [color=red]請盡量避免大規模殺人或對空間站造成重大損害，[/color] 因為你奪走的無辜生命越多，就越會成為一個負擔。
 
-  ## Evasion & Self-Termination
-  Your objectives may require you to [italic][color=cyan]make it to CentComm without being killed or captured.[/color][/italic] Don't let [color=#cb0000]Security[/color] stop you, complete your other objectives and [bold]come back alive.[/bold]
+  ## 躲避與自毀
+  你的任務目標可能要求你 [italic][color=cyan]在不被殺害或俘虜的情況下抵達 CentComm。[/color][/italic] 不要讓 [color=#cb0000]安全部隊[/color] 阻擋你的去路，完成其他任務目標並 [bold]活著回來。[/bold]
 
-  Alternatively, your objectives may require you to [italic][color=cyan]die a glorious death.[/color][/italic] [bold]Make sure you don't come back from the dead,[/bold] or else you may wake up in cuffs.
+  或者，你的任務目標可能要求你 [italic][color=cyan]英勇就義。[color=cyan][/color][/italic] [bold]務必確保自己不會死而復生，[/bold] 否則你可能會戴著手銬醒來。
 
-  ## Appropriation
-  More often than not, you'll have to [italic][color=cyan]steal a possession of a department head.[/color][/italic]
+  ## 挪用
+  大多數情況下，你將不得不 [italic][color=cyan]竊取某位部門主管的財物。[/color][/italic]
 
-  The target may be in their office, or on their person. It may become necessary to kill whoever is carrying it, if you cannot pickpocket them.
+  目標物品可能就在他們的辦公室裡，也可能就在他們身上。 如果你無法從對方身上行竊，可能就必須殺死攜帶該物品的人。
 
-  Some of the things you may be tasked with include:
-  - Stealing the [color=yellow]Captain[/color]'s [bold]ID Card[/bold], [bold]antique laser pistol[/bold], [bold]jetpack[/bold], or [bold]nuclear authentication disk[/bold].
+  你可能被指派執行的一些任務包括：
+  - 偷走 [color=yellow]船長[/color] 的 [bold]身分證[/bold]、[bold]古董雷射手槍[/bold]、[bold]噴射背包[/bold] 或 [bold]核武認證光碟[/bold]。
   <Box>
     <GuideEntityEmbed Entity="CaptainIDCard" Caption=""/>
     <GuideEntityEmbed Entity="WeaponAntiqueLaser" Caption=""/>
     <GuideEntityEmbed Entity="JetpackCaptainFilled" Caption=""/>
     <GuideEntityEmbed Entity="NukeDisk" Caption=""/>
   </Box>
-  - Stealing the [color=#5b97bc]Chief Medical Officer[/color]'s [bold]hypospray[/bold] or [bold]handheld crew monitor[/bold].
+  - 偷走 [color=#5b97bc]首席醫務官[/color] 的 [bold]注射筆[/bold] 或 [bold]手持式船員監測器[/bold]。
   <Box>
     <GuideEntityEmbed Entity="Hypospray" Caption=""/>
     <GuideEntityEmbed Entity="HandheldCrewMonitorEmpty" Caption=""/>
   </Box>
-  - Stealing the [color=#c96dbf]Research Director[/color]'s [bold]experimental hardsuit[/bold] or [bold]hand teleporter[/bold].
+  - 竊取 [color=#c96dbf]研究主任[/color] 的 [bold]實驗型重型戰甲[/bold] 或 [bold]手部傳送器[/bold]。
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitRd" Caption=""/>
     <GuideEntityEmbed Entity="HandTeleporter" Caption=""/>
   </Box>
-  - Stealing the [color=#cb0000]Head of Security[/color]'s [bold]energy magnum[/bold].
+  - 偷走 [color=#cb0000]安全主管[/color] 的 [bold]能量馬格南[/bold]。
   <Box>
     <GuideEntityEmbed Entity="WeaponEnergyMagnum" Caption=""/>
   </Box>
-  - Stealing the [color=#f39f27]Chief Engineer[/color]'s [bold]advanced magboots[/bold].
+  - 偷走 [color=#f39f27]總工程師[/color] 的 [bold]先進磁力靴[/bold]。
   <Box>
     <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption=""/>
   </Box>
-  - Stealing the [color=#b18644]Quartermaster[/color]'s [bold]requisition digi-board[/bold].
+  - 偷走[color=#b18644]軍需官[/color]的[bold]調度數位看板[/bold]。
   <Box>
     <GuideEntityEmbed Entity="BoxFolderQmClipboard" Caption=""/>
   </Box>
-  - Butchering Ian, the [color=#9fed58]Head of Personnel[/color]'s dog, and obtaining the [bold]corgi meat[/bold].
+  - 宰殺 [color=#9fed58]人事部主管[/color] 伊恩的狗，並取得 [bold]柯基肉[/bold]。
   <Box>
     <GuideEntityEmbed Entity="MobCorgiIan" Caption=""/>
     <GuideEntityEmbed Entity="FoodMeatCorgi" Caption=""/>

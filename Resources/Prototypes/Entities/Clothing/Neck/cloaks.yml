@@ -35,7 +35,7 @@
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCe
   name: 首席工程師的斗篷 | chief engineer's cloak
-  description: 一件飾有淺藍色紋樣的深綠色斗篷，頒發給那些證明自己已精通精確工程學藝術的人士。 | A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
+  description: 一件飾有淺藍色紋樣的深綠色斗篷，頒發給那些證明自己已精通精確工程部藝術的人士。 | A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/ce.rsi
@@ -79,7 +79,7 @@
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHop
   name: 人事主管的斗篷 | head of personnel's cloak
-  description: 一件藍色斗篷，肩部飾有紅色鑲邊，並綴有金色鈕扣，證明你是空間站內任何氣閘的守門人。 | A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
+  description: 一件藍色斗篷，肩部飾有紅色鑲邊，並綴有金色鈕扣，證明你是太空站內任何氣閘的守門人。 | A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/hop.rsi

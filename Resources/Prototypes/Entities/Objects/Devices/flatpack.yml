@@ -324,8 +324,8 @@
 - type: entity
   parent: BaseFlatpack
   id: MachineAnomalyVesselFlatpack
-  name: 異常容器扁平包裝盒 | anomaly vessel flatpack
-  description: 用於建造異常載具的組裝套件。 | A flatpack used for constructing an anomaly vessel.
+  name: 異常載體扁平包裝盒 | anomaly vessel flatpack
+  description: 用於建造異常載體的組裝套件。 | A flatpack used for constructing an anomaly vessel.
   components:
   - type: Flatpack
     entity: MachineAnomalyVessel

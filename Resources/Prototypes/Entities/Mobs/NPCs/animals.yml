@@ -445,7 +445,7 @@
   parent: BaseCockroach
   id: MobCockroach
   name: 蟑螂 | cockroach
-  description: 這個車站裡到處都是蟲子。 | This station is just crawling with bugs.
+  description: 這個太空站裡到處都是蟲子。 | This station is just crawling with bugs.
   components:
   - type: Sprite
     sprite: Mobs/Animals/cockroach.rsi
@@ -509,7 +509,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: 幽靈角色資訊－蟑螂－名稱 | ghost-role-information-mothroach-name
+    name: ghost-role-information-mothroach-name | ghost-role-information-mothroach-name
     description: ghost-role-information-蟑螂-描述 | ghost-role-information-mothroach-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
@@ -1621,7 +1621,7 @@
   name: 遺傳祖先 | genetic ancestor
   id: MobBaseAncestor
   parent: [BaseMobAnimal, SimpleMobBase, StripableInventoryBase, BaseMobDestructible]
-  description: 某種……呃……生物的遺傳學上的直立行走祖先。沒錯，空間站裡肯定有某種生物，是從這東西演化而來的。 | The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the station that descended from whatever this is.
+  description: 某種……呃……生物的遺傳學上的直立行走祖先。沒錯，太空站裡肯定有某種生物，是從這東西演化而來的。 | The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the station that descended from whatever this is.
   abstract: true
   components:
   - type: CombatMode
@@ -1907,8 +1907,8 @@
   - type: GhostRole
     prob: 0.05
     makeSentient: true
-    name: 幽靈角色資訊－哥布林－名稱 | ghost-role-information-kobold-name
-    description: 幽靈角色資訊－哥布林－描述 | ghost-role-information-kobold-description
+    name: ghost-role-information-kobold-name | ghost-role-information-kobold-name
+    description: ghost-role-information-kobold-description | ghost-role-information-kobold-description
     rules: ghost-role-information-nonantagonist-rules
 
 - type: entity
@@ -2815,8 +2815,8 @@
       task: SimpleHostileCompound
   - type: GhostRole
     makeSentient: true
-    name: 幽靈角色資訊－巨型蜘蛛－名稱 | ghost-role-information-giant-spider-name
-    description: 幽靈角色資訊－巨型蜘蛛－描述 | ghost-role-information-giant-spider-description
+    name: ghost-role-information-giant-spider-name | ghost-role-information-giant-spider-name
+    description: ghost-role-information-giant-spider-description | ghost-role-information-giant-spider-description
     rules: ghost-role-information-giant-spider-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -3678,7 +3678,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: 幽靈角色資訊－倉鼠名稱 | ghost-role-information-hamster-name
+    name: ghost-role-information-hamster-name | ghost-role-information-hamster-name
     description: ghost-role-information-hamster-description | ghost-role-information-hamster-description
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable

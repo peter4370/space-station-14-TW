@@ -10,5 +10,5 @@ reagent-name-nitrogen = 氮 nitrogen
 reagent-desc-nitrogen = 一種無色、無味且不具反應性的氣體。極為穩定。
 reagent-name-nitrous-oxide = 一氧化二氮 nitrous oxide
 reagent-desc-nitrous-oxide = 你知道嗎？當你累的時候，總覺得什麼事都特別好笑？嗯……
-reagent-name-frezon = frezon
+reagent-name-frezon = Frezon
 reagent-desc-frezon = 一種極其有效的冷卻劑……同時也具有致幻作用。

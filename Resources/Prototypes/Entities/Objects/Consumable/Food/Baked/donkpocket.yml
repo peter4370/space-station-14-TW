@@ -120,7 +120,7 @@
   name: 暖呼呼的照燒口袋 | teriyaki-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketTeriyaki
-  description: 這款經典車站小吃，融入了東亞風情。 | An East Asian take on the classic stationside snack.
+  description: 這款經典太空站小吃，融入了東亞風情。 | An East Asian take on the classic stationside snack.
   components:
   - type: FlavorProfile
     flavors:
@@ -134,7 +134,7 @@
   name: 披薩口袋 | warm teriyaki-pocket
   parent: [SolutionFoodDonkpocketWarm, FoodDonkpocketTeriyaki]
   id: FoodDonkpocketTeriyakiWarm
-  description: 這款經典車站小吃融入了東亞風情，現在熱氣騰騰、溫熱可口。 | An East Asian take on the classic stationside snack, now steamy and warm.
+  description: 這款經典太空站小吃融入了東亞風情，現在熱氣騰騰、溫熱可口。 | An East Asian take on the classic stationside snack, now steamy and warm.
   components:
   - type: FlavorProfile
     flavors:

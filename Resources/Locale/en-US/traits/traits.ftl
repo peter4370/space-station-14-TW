@@ -1,6 +1,6 @@
 trait-blindness-name = 《失明》
 trait-blindness-desc = 您屬於法定失明者，眼前幾公尺以外的景象都無法看清楚。
-trait-poor-vision-name = 目光短淺
+trait-poor-vision-name = 近視
 trait-poor-vision-desc = 您的視力已不如從前，若不戴矯正眼鏡，便難以看清遠處的事物。
 trait-narcolepsy-name = 發作性睡病
 trait-narcolepsy-desc = 你會不經意地睡著。

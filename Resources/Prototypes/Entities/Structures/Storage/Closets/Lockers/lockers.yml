@@ -280,7 +280,7 @@
 - type: entity
   id: LockerChiefMedicalOfficer
   parent: LockerBase
-  name: 首席醫療官的儲物櫃 | chief medical officer's locker
+  name: 醫務總管的儲物櫃 | chief medical officer's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals

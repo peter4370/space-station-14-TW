@@ -2,7 +2,7 @@
   id: MachineFlatpacker
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseConstructibleMachineDestructible ]
   name: Flatpacker 1001 | Flatpacker 1001
-  description: 一種用於加速車站各處機械施工的工業機械。 | An industrial machine used for expediting machine construction across the station.
+  description: 一種用於加速太空站各處機械施工的工業機械。 | An industrial machine used for expediting machine construction across the station.
   components:
   - type: Sprite
     sprite: Structures/Machines/flatpacker.rsi

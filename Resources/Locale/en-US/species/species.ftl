@@ -2,7 +2,7 @@
 
 species-name-human = 人類
 species-name-dwarf = 矮人
-species-name-reptilian = 爬蟲類
+species-name-reptilian = 爬蟲人
 species-name-slime = 黏液人
 species-name-diona = 迪奧娜
 species-name-arachnid = 蛛形綱

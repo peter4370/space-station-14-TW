@@ -91,7 +91,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackEngineering
   name: 工程背包 | engineering backpack
-  description: 這是一款專為應對車站生活的日常繁忙而設計的耐用背包。 | It's a tough backpack for the daily grind of station life.
+  description: 這是一款專為應對太空站生活的日常繁忙而設計的耐用背包。 | It's a tough backpack for the daily grind of station life.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/engineering.rsi

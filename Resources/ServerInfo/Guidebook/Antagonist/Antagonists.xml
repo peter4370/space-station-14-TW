@@ -1,20 +1,23 @@
 
 <Document>
-  # Antagonists
-  Antagonists are the driving force of every shift.
-  They are the catalysts for chaos, conflict and mystery in Space Station 14 that also serve to provide a challenge to Nanotrasen and its [color=#cb0000]Security[/color] force.
-  You can expect them to act in violation of Space Law and they're often tasked with objectives that include theft, subterfuge and murder.
+  # 反派角色
+  反派角色是每一場變革的推動力。
+  他們是「第14號太空站」中混亂、衝突與謎團的催化劑，同時也對納諾特雷森及其 [color=#cb0000]安全[/color] 部隊構成了挑戰。
+  你可以預期他們會違反太空法行事，而且他們經常被指派執行包含竊盜、詭計和謀殺在內的任務。
 
-  These bad actors are more often than not employed or backed by the [color=#ff0000]Syndicate[/color], a rival organization to Nanotrasen that wants nothing more than to see it burn.
+  這些惡意行為者多半受僱於或受到 [color=#ff0000]辛迪加[/color] 的支持，該組織是納諾特森的競爭對手，其唯一目標就是眼睜睜看著納諾特森走向滅亡。
 
-  ## Various Antagonists
-  Antagonists can take many forms, like:
-  - [textlink="Traitors" link="Traitors"] amongst the crew who must assassinate, steal and deceive.
-  - [textlink="Thieves" link="Thieves"] driven by kleptomania, determined to get their fix using their special tools.
-  - [textlink="Revolutionaries" link="Revolutionaries"] who are intent on taking control of the station from the inside.
-  - [textlink="Nuclear operatives" link="Nuclear Operatives"], with the goal of infiltrating and destroying the station.
-  - [textlink="Changelings" link="Changelings"], hungry beasts determinted to devour everyone from the shadows.
-  - [textlink="Space Ninjas" link="SpaceNinja"], masters of espionage and sabotage with special gear.
-  - [textlink="Zombies" link="Zombies"] that crave the flesh of every crew member and creature on board.
-  - [textlink="Various non-humanoid creatures" link="MinorAntagonists"] that generally attack anything that moves.
+  ## 各類反派角色
+  反派角色可以有許多形式，例如：
+  - [textlink="叛徒" link="叛徒"] 船員中的叛徒，他們必須進行暗殺、偷竊和欺騙。
+  - [textlink="竊賊" link="竊賊"] 受偷竊癖驅使，決心利用他們的特殊工具來滿足竊盜癮。
+  - [textlink="革命者" link="革命者"] 他們意圖從內部奪取該站控制權。
+  - [textlink="核武特工" link="核武特工"], 目標是滲透並摧毀該站。
+  - [textlink="變形者" link="變形者"], 一群飢餓的野獸，決心從陰影中將所有人吞噬殆盡。
+  - [textlink="太空忍者" link="SpaceNinja"], 擅長使用特殊裝備進行間諜活動與破壞行動的高手。
+  - [textlink="殭屍" link="殭屍"] 它們貪婪地渴望船上每一位船員和生物的血肉。
+  - [textlink="各種非人形生物" link="次要反派"] 通常會攻擊任何會動的東西。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

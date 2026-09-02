@@ -5,7 +5,7 @@ hijack-beacon-announcement-success = 已成功停用 Automated Trade Station 防
 hijack-beacon-examine-await-activate = 該信標已[color=green]準備就緒，可啟動[/color]。
 hijack-beacon-examine-await-cooldown = 信標目前處於 [color=red]冷卻中[/color]。
 hijack-beacon-examine-await-hijack-complete = 信標已 [color=red]耗盡[/color]。
-hijack-beacon-popup-anchor = 這座信標會將自己錨定在地面上！
+hijack-beacon-popup-anchor = 這座信標會將自己固定在地面上！
 hijack-beacon-popup-unanchor = 信標從地面自行脫錨。
 hijack-beacon-verb-activate-text = 啟用
 hijack-beacon-verb-activate-message = 信標只能在「自動交易站」上，且必須位於未被佔用的格子上，才能啟用。

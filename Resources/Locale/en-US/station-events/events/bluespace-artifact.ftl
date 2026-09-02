@@ -4,5 +4,5 @@ bluespace-artifact-sighting-2 = 維修隧道內傳出奇怪的聲響
 bluespace-artifact-sighting-3 = 超凡脫俗的建築
 bluespace-artifact-sighting-4 = 難以理解的外星物體
 bluespace-artifact-sighting-5 = 出現在陌生地點的陌生物體
-bluespace-artifact-sighting-6 = 未知的外星遺物
+bluespace-artifact-sighting-6 = 未知的外星神器
 bluespace-artifact-sighting-7 = 伴隨著怪異聲響的光芒爆發

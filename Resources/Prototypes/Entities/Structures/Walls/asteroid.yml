@@ -256,7 +256,7 @@
   abstract: true
   id: BaseVeinArtifactFragment
   suffix: Artifact Fragment
-  description: 一條蘊藏著奇異文物的大礦脈。 | A vein rich with strange artifacts.
+  description: 一條蘊藏著奇異神器的大礦脈。 | A vein rich with strange artifacts.
   components:
   - type: OreVein
     oreChance: 1.0
@@ -271,7 +271,7 @@
   abstract: true
   id: BaseVeinRandom
   suffix: 33% Random Ores
-  description: 一條蘊藏著奇異文物的大礦脈。 | A vein rich with strange artifacts.
+  description: 一條蘊藏著奇異神器的大礦脈。 | A vein rich with strange artifacts.
   components:
   - type: OreVein
     oreChance: 0.33

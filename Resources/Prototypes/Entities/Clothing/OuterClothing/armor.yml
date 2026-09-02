@@ -286,7 +286,7 @@
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterArmorRiot
   name: 防暴裝備 | riot suit
-  description: 一套採用半柔性聚碳酸酯製成的防彈衣，內襯厚實填充物，可抵禦近身攻擊。非常適合用於對付車站周邊的滋事者。 | A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+  description: 一套採用半柔性聚碳酸酯製成的防彈衣，內襯厚實填充物，可抵禦近身攻擊。非常適合用於對付太空站周邊的滋事者。 | A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi
@@ -451,7 +451,7 @@
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorPodWars
   name: 「鐵甲二號」裝甲 | ironclad II armor
-  description: 一套經改裝的「鐵甲 II」裝甲，是「艙體戰爭」的遺物。 | A repurposed suit of ironclad II armor, a relic of the pod wars.
+  description: 一套經改裝的「鐵甲 II」裝甲，是「艙體戰爭」的神器。 | A repurposed suit of ironclad II armor, a relic of the pod wars.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/podwars_armor.rsi

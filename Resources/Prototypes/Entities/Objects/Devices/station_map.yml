@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseItem, BaseItemDestructible ]
   id: BaseHandheldStationMap
-  name: 車站地圖 | station map
+  name: 太空站地圖 | station map
   description: 顯示當前電台的資訊。 | Displays a readout of the current station.
   abstract: true
   components:

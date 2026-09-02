@@ -517,7 +517,7 @@
   parent: [ ClothingHeadHelmetArmoredBase, BaseMinorContraband ]
   id: ClothingHeadHelmetPodWars
   name: 「鐵甲 II」頭盔 | ironclad II helmet
-  description: 一頂「鐵甲二型」頭盔，是艙體戰爭的遺物。 | An ironclad II helmet, a relic of the pod wars.
+  description: 一頂「鐵甲二型」頭盔，是艙體戰爭的神器。 | An ironclad II helmet, a relic of the pod wars.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/podwars_helmet.rsi

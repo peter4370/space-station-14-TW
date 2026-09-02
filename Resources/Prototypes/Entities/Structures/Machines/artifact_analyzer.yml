@@ -1,8 +1,8 @@
 - type: entity
   id: MachineArtifactAnalyzer
   parent: [ BaseMachinePowered, SmallConstructibleMachine, BaseSmallConstructibleMachineDestructible ]
-  name: 遺物分析儀 | artifact analyzer
-  description: 一個能夠對各類文物進行分析的平台。 | A platform capable of performing analysis on various types of artifacts.
+  name: 神器分析儀 | artifact analyzer
+  description: 一個能夠對各類神器進行分析的平台。 | A platform capable of performing analysis on various types of artifacts.
   components:
   - type: Sprite
     noRot: true
@@ -90,7 +90,7 @@
 - type: entity
   id: MachineArtifactCrusher
   parent: [ ConstructibleMachine, BaseMachinePowered, BaseConstructibleMachineDestructible ]
-  name: 文物粉碎機 | artifact crusher
+  name: 神器粉碎機 | artifact crusher
   description: 最好別讓手指卡住…… | Best not to let your fingers get stuck...
   components:
   - type: ArtifactCrusher

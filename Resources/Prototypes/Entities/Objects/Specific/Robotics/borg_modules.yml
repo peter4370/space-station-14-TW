@@ -456,8 +456,8 @@
 - type: entity
   id: BorgModulePrying
   parent: [ BaseBorgModule ]
-  name: 探測模組 | prying module
-  description: 一種通用型機械人模組，可讓該單位撬開門。 | A universal cyborg module which allows the unit to pry open doors.
+  name: 撬撬模組 | prying module
+  description: 一種通用型賽博格模組，可讓該單位撬開門。 | A universal cyborg module which allows the unit to pry open doors.
   components:
   - type: Sprite
     layers:
@@ -473,8 +473,8 @@
 - type: entity
   id: BorgModuleCable
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: 纜線機械人模組 | cable cyborg module
-  description: 一種通用型機械人模組，可讓該裝置安裝及操作電氣系統。 | A universal cyborg module which allows the unit to install and manipulate electrical systems.
+  name: 纜線賽博格模組 | cable cyborg module
+  description: 一種通用型賽博格模組，可讓該裝置安裝及操作電氣系統。 | A universal cyborg module which allows the unit to install and manipulate electrical systems.
   components:
   - type: Sprite
     layers:
@@ -512,8 +512,8 @@
 - type: entity
   id: BorgModuleArtistry
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: 藝術家型賽博格模組 | artistry cyborg module
-  description: 當車站燃燒之際，一個手作模組！ | A module for arts & crafts whilst the station burns!
+  name: 藝術型賽博格模組 | artistry cyborg module
+  description: 當太空站燃燒之際，一個手作模組！ | A module for arts & crafts whilst the station burns!
   components:
   - type: Sprite
     layers:
@@ -529,8 +529,8 @@
 - type: entity
   id: BorgModuleFireExtinguisher
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: 推進器機械人模組 | thruster cyborg module
-  description: NT 指派了一支團隊為半機械人單位設計噴射背包，但由於資金耗盡，最後只做出了一個更大的滅火器。不過，它確實配備了內建的 GPS 和質量掃描器！ | NT assigned a team to design a jetpack for cyborg units, but they ran out of funding and just made a bigger fire extinguisher. It comes with a integrated GPS and mass scanner though!
+  name: 推進器賽博格模組 | thruster cyborg module
+  description: NT 指派了一支團隊為賽博格單位設計噴射背包，但由於資金耗盡，最後只做出了一個更大的滅火器。不過，它確實配備了內建的 GPS 和質量掃描器！ | NT assigned a team to design a jetpack for cyborg units, but they ran out of funding and just made a bigger fire extinguisher. It comes with a integrated GPS and mass scanner though!
   components:
   - type: Sprite
     layers:
@@ -548,7 +548,7 @@
 - type: entity
   id: BorgModuleTool
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: 工具機械人模組 | tool cyborg module
+  name: 工具賽博格模組 | tool cyborg module
   components:
   - type: Sprite
     layers:
@@ -568,7 +568,7 @@
 - type: entity
   id: BorgModuleInflatable
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: 充氣式機械人模組 | inflatable cyborg module
+  name: 充氣式賽博格模組 | inflatable cyborg module
   components:
   - type: Sprite
     layers:
@@ -599,7 +599,7 @@
 - type: entity
   id: BorgModuleAppraisal
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: 評估機械人模組 | appraisal cyborg module
+  name: 估價用賽博格模組 | appraisal cyborg module
   components:
   - type: Sprite
     layers:
@@ -619,7 +619,7 @@
 - type: entity
   id: BorgModuleMining
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: 採礦機械人模組 | mining cyborg module
+  name: 採礦用賽博格模組 | mining cyborg module
   components:
   - type: Sprite
     layers:
@@ -637,8 +637,8 @@
 - type: entity
   id: BorgModuleAdvancedMining
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: 進階採礦機械人模組 | advanced mining cyborg module
-  description: 配備先進採礦設備的高階貨運模組。研究顯示，它能將半機械人的生產力提升 150%。 | Advanced cargo module containing advanced mining equipment. Studies show it advances productivity of a cyborg by 150%.
+  name: 進階採礦用賽博格模組 | advanced mining cyborg module
+  description: 配備先進採礦設備的高階貨運模組。研究顯示，它能將賽博格的生產力提升 150%。 | Advanced cargo module containing advanced mining equipment. Studies show it advances productivity of a cyborg by 150%.
   components:
   - type: Sprite
     layers:
@@ -675,7 +675,7 @@
 - type: entity
   id: BorgModuleAdvancedTool
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: 先進工具機械人模組 | advanced tool cyborg module
+  name: 先進工具賽博格模組 | advanced tool cyborg module
   description: 包含尖端工具的高階工程模組。 | Advanced engineering module containing cutting-edge tools.
   components:
   - type: Sprite
@@ -703,7 +703,7 @@
 - type: entity
   id: BorgModuleConstruction
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: 建築用機械人模組 | construction cyborg module
+  name: 建築用賽博格模組 | construction cyborg module
   components:
   - type: Sprite
     layers:
@@ -774,7 +774,7 @@
 - type: entity
   id: BorgModuleRCD
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: 工程用機械人模組 | engineering cyborg module
+  name: 工程用賽博格模組 | engineering cyborg module
   components:
   - type: Sprite
     layers:
@@ -819,7 +819,7 @@
 - type: entity
   id: BorgModuleCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: 清潔機械人模組 | cleaning cyborg module
+  name: 清潔用賽博格模組 | cleaning cyborg module
   components:
   - type: Sprite
     layers:
@@ -838,7 +838,7 @@
 - type: entity
   id: BorgModuleAdvancedCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: 進階清潔機器人模組 | advanced cleaning cyborg module
+  name: 進階清潔賽博格模組 | advanced cleaning cyborg module
   description: 進階清潔模組，裡面包含……嗯……進階的清潔設備。你還期待什麼呢？ | Advanced janitorial module containing, well... advanced janitor equipment. What were you expecting?
   components:
   - type: Sprite
@@ -866,7 +866,7 @@
 - type: entity
   id: BorgModuleDiagnosis # todo: reuse when med refractor is finished
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: 診斷機械人模組 | diagnosis cyborg module
+  name: 診斷用賽博格模組 | diagnosis cyborg module
   components:
   - type: Sprite
     layers:
@@ -882,7 +882,7 @@
 - type: entity
   id: BorgModuleTopicals
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: 急救機械人模組 | first aid cyborg module
+  name: 急救用賽博格模組 | first aid cyborg module
   components:
   - type: Sprite
     layers:
@@ -919,7 +919,7 @@
 - type: entity
   id: BorgModuleRescue
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: 救援機械人模組 | rescue cyborg module
+  name: 救援用賽博格模組 | rescue cyborg module
   components:
   - type: Sprite
     layers:
@@ -938,7 +938,7 @@
 - type: entity
   id: BorgModuleChemical
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: 化學半機械人模組 | chemical cyborg module
+  name: 化學用賽博格模組 | chemical cyborg module
   components:
   - type: Sprite
     layers:
@@ -988,7 +988,7 @@
 - type: entity
   id: BorgModuleAdvancedTopical
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: 進階急救機械人模組 | advanced first aid cyborg module
+  name: 進階急救賽博格模組 | advanced first aid cyborg module
   description: 一款先進的醫療模組，內含備受追捧的「低壓注射器」的賽博格改裝版。現在，你的賽博格能以更快的速度，向危害船員的對象注射氯醛水合物了！ | Advanced medical module containing the cyborg adaptation of the highly coveted hypospray. Now your cyborgs can inject crew-harmers with chloral hydrate even faster!
   components:
   - type: Sprite
@@ -1028,7 +1028,7 @@
 - type: entity
   id: BorgModuleArtifact
   parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
-  name: 遺物機械人模組 | artifact cyborg module
+  name: 神器賽博格模組 | artifact cyborg module
   components:
   - type: Sprite
     layers:
@@ -1054,7 +1054,7 @@
 - type: entity
   id: BorgModuleAnomaly
   parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
-  name: 異常機械人模組 | anomaly cyborg module
+  name: 異常賽博格模組 | anomaly cyborg module
   components:
   - type: Sprite
     layers:
@@ -1085,7 +1085,7 @@
 - type: entity
   id: BorgModuleService
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: 服務型機械人模組 | service cyborg module
+  name: 服務型賽博格模組 | service cyborg module
   components:
   - type: Sprite
     layers:
@@ -1170,7 +1170,7 @@
 - type: entity
   id: BorgModuleGardening
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: 園藝機械人模組 | gardening cyborg module
+  name: 園藝賽博格模組 | gardening cyborg module
   components:
   - type: Sprite
     layers:
@@ -1205,7 +1205,7 @@
 - type: entity
   id: BorgModuleClowning
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: 滑稽機器人模組 | clowning cyborg module
+  name: 小丑賽博格模組 | clowning cyborg module
   components:
   - type: Sprite
     layers:
@@ -1222,8 +1222,8 @@
 - type: entity
   id: BorgModuleAdvancedClowning
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: 進階小丑機器人模組 | advanced clowning cyborg module
-  description: 專為最傻氣的機械人設計的高階服務模組！內建烤箱，可隨時間自動烘烤派餅；另附全息剝皮投影機與按鈕式喇叭。 | Advanced service module for only the silliest cyborgs! Comes with a built-in oven that bakes pies automatically over time, a holopeel projector, and a push horn.
+  name: 進階小丑賽博格模組 | advanced clowning cyborg module
+  description: 專為最傻氣的賽博格設計的進階服務模組！內建烤箱，可隨時間自動烘烤派餅；另附全息剝皮投影機與按鈕式喇叭。 | Advanced service module for only the silliest cyborgs! Comes with a built-in oven that bakes pies automatically over time, a holopeel projector, and a push horn.
   components:
   - type: Sprite
     layers:
@@ -1243,7 +1243,7 @@
 - type: entity
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ]
   id: BorgModuleSyndicateWeapon
-  name: 武器機械人模組 | weapon cyborg module
+  name: 武器用賽博格模組 | weapon cyborg module
   components:
   - type: Sprite
     layers:
@@ -1298,7 +1298,7 @@
 - type: entity
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ]
   id: BorgModuleEsword
-  name: 能量劍機械人模組 | energy sword cyborg module
+  name: 能量劍賽博格模組 | energy sword cyborg module
   description: 一款附帶能量劍的武器模組。 | A weapons module that comes with an energy sword.
   components:
   - type: Sprite
@@ -1315,7 +1315,7 @@
 - type: entity
   id: BorgModuleDoubleEsword
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: 雙能量劍機械人模組 | double energy sword cyborg module
+  name: 雙能量劍賽博格模組 | double energy sword cyborg module
   description: 一款配備雙能量劍的武器模組。 | A weapons module that comes with a double energy sword.
   components:
   - type: Sprite
@@ -1332,7 +1332,7 @@
 - type: entity
   parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule, BaseSyndicateContraband ]
   id: BorgModuleL6C
-  name: L6C ROW 機械人模組 | L6C ROW cyborg module
+  name: L6C ROW 賽博格模組 | L6C ROW cyborg module
   description: L6C 隨附的一款武器模組。 | A weapons module that comes with a L6C.
   components:
   - type: Sprite
@@ -1349,7 +1349,7 @@
 - type: entity
   parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule, BaseSyndicateContraband ]
   id: BorgModuleC20r
-  name: C-20r ROW 機械人模組 | C-20r ROW cyborg module
+  name: C-20r ROW 賽博格模組 | C-20r ROW cyborg module
   description: 一款配備連發式 C-20r 的武器模組。 | A weapons module that comes with a burst-fire C-20r.
   components:
   - type: Sprite
@@ -1366,7 +1366,7 @@
 - type: entity
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ]
   id: BorgModuleMartyr
-  name: 殉道者機械人模組 | martyr cyborg module
+  name: 殉道者賽博格模組 | martyr cyborg module
   description: "這是一個附帶爆炸物的模組，你大概不希望自己動手處理。 | A module that comes with an explosive you probably don't want to handle yourself."
   components:
     - type: Sprite

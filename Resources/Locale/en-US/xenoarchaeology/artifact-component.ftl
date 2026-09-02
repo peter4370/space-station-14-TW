@@ -12,14 +12,14 @@ artifact-unlock-state-end-failure = 它在減速後，平穩地停了下來。
 ### Activation
 
 artifact-activation-fail = 什麼事都沒發生……
-artifact-activation-artifexium = 液體滲入文物孔隙之中……
+artifact-activation-artifexium = 液體滲入神器孔隙之中……
 
 ### Misc.
 
 artifact-examine-trigger-desc = [color=gray][italic]你是不是在想我？[/italic][/color]
-artifact-node-class-1 = [color=#ff2bb1]Hylic[/color]
-artifact-node-class-2 = [color=#ff8b2b]通靈者[/color]
-artifact-node-class-3 = [color=#a9ff38]氣動[/color]
-artifact-node-class-4 = [color=#2bfff8]阿克隆[/color]
-artifact-node-class-5 = [color=#7883ff]Luminary[/color]
-artifact-node-class-6 = [color=#be78ff]造物主[/color]
+artifact-node-class-1 = [color=#ff2bb1]物質的[/color]
+artifact-node-class-2 = [color=#ff8b2b]心靈的[/color]
+artifact-node-class-3 = [color=#a9ff38]氣動的[/color]
+artifact-node-class-4 = [color=#2bfff8]支配的[/color]
+artifact-node-class-5 = [color=#7883ff]發光的[/color]
+artifact-node-class-6 = [color=#be78ff]造物的[/color]

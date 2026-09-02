@@ -24,4 +24,4 @@
   name: 內建 GPS | integrated GPS
   parent: HandheldGPSBasic
   id: BorgHandheldGPSBasic
-  description: 一款用於半機械人單元的微型全球定位系統。 | A miniaturized Global Positioning System for use in cyborg units.
+  description: 一款用於賽博格單元的微型全球定位系統。 | A miniaturized Global Positioning System for use in cyborg units.

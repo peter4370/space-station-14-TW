@@ -49,7 +49,7 @@
   parent: PosterBase
   id: PosterContrabandAtmosiaDeclarationIndependence
   name: "《阿特莫西亞獨立宣言》 | Atmosia Declaration of Independence"
-  description: "一場失敗起義的遺物。 | A relic of a failed rebellion."
+  description: "一場失敗起義的神器。 | A relic of a failed rebellion."
   components:
   - type: Sprite
     state: poster2_contraband
@@ -58,7 +58,7 @@
   parent: PosterBase
   id: PosterContrabandFunPolice
   name: "樂趣警察 | Fun Police"
-  description: "一張譴責該車站保安部隊的海報。 | A poster condemning the station's security forces."
+  description: "一張譴責該太空站保安部隊的海報。 | A poster condemning the station's security forces."
   components:
   - type: Sprite
     state: poster3_contraband
@@ -618,7 +618,7 @@
   parent: PosterBase
   id: PosterLegitHereForYourSafety
   name: "為您的安全著想 | Here For Your Safety"
-  description: "一張歌頌該車站保安部隊的海報。 | A poster glorifying the station's security force."
+  description: "一張歌頌該太空站保安部隊的海報。 | A poster glorifying the station's security force."
   components:
   - type: Sprite
     state: poster1_legit
@@ -807,7 +807,7 @@
   parent: PosterBase
   id: PosterLegitReportCrimes
   name: "舉報犯罪 | Report Crimes"
-  description: "一張海報，呼籲民眾若發現犯罪或煽動行為，應立即向車站保全人員舉報。 | A poster encouraging the swift reporting of crime or seditious behavior to station security."
+  description: "一張海報，呼籲民眾若發現犯罪或煽動行為，應立即向太空站保全人員舉報。 | A poster encouraging the swift reporting of crime or seditious behavior to station security."
   components:
   - type: Sprite
     state: poster22_legit
@@ -906,7 +906,7 @@
   parent: PosterBase
   id: PosterLegitTheOwl
   name: "貓頭鷹 | The Owl"
-  description: "貓頭鷹會盡力保護這座車站。你會嗎？ | The Owl would do his best to protect the station. Will you?"
+  description: "貓頭鷹會盡力保護這座太空站。你會嗎？ | The Owl would do his best to protect the station. Will you?"
   components:
   - type: Sprite
     state: poster33_legit
@@ -942,7 +942,7 @@
   parent: PosterBase
   id: PosterLegitThereIsNoGasGiant
   name: "沒有氣態巨行星 | There Is No Gas Giant"
-  description: "Nanotrasen 已向所有車站發放了像這樣的海報，提醒各站注意關於「氣態巨行星」的傳言純屬虛構。 | Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false."
+  description: "Nanotrasen 已向所有太空站發放了像這樣的海報，提醒各站注意關於「氣態巨行星」的傳言純屬虛構。 | Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false."
   components:
   - type: Sprite
     state: poster37_legit
@@ -1124,7 +1124,7 @@
   parent: PosterBase
   id: PosterMapBagel
   name: "貝果地圖 | Bagel Map"
-  description: "貝格爾車站的地圖。 | A map of Bagel Station."
+  description: "貝格爾太空站的地圖。 | A map of Bagel Station."
   components:
   - type: Sprite
     state: bagelmap
@@ -1178,7 +1178,7 @@
   parent: PosterBase
   id: PosterMapSaltern
   name: "薩爾特恩地圖 | Saltern Map"
-  description: "薩爾特恩車站的地圖。 | A map of Saltern Station."
+  description: "薩爾特恩太空站的地圖。 | A map of Saltern Station."
   components:
   - type: Sprite
     state: salternmap
@@ -1186,8 +1186,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapSplit
-  name: "斯普利特車站地圖 | Split Station Map"
-  description: "斯普利特車站的地圖。 | A map of Split Station."
+  name: "斯普利特太空站地圖 | Split Station Map"
+  description: "斯普利特太空站的地圖。 | A map of Split Station."
   components:
   - type: Sprite
     state: splitmap

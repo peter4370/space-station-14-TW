@@ -1,6 +1,6 @@
 - type: entity
   id: PlasmaWindow
-  name: 等離子視窗 | plasma window
+  name: 等離子窗 | plasma window
   parent: [BaseDeltaPressurePlasma, BaseWindowStructure, BaseRCDResistant, StructureHealthBarrier]
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 - type: entity
   id: PlasmaWindowDirectional
   parent: [BaseDeltaPressurePlasmaQuarter, BaseWindowStructureDirectional, BaseRCDResistant, StructureHealthBarrierWeak]
-  name: 定向等離子體視窗 | directional plasma window
+  name: 定向等離子體窗 | directional plasma window
   description: 別把那裡的玻璃弄髒了。 | Don't smudge up the glass down there.
   components:
   - type: Sprite

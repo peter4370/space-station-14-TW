@@ -11,5 +11,5 @@ war-declarator-boost-possible = 能夠宣戰
 war-declarator-boost-impossible = 無法宣戰
 war-declarator-boost-declared = 宣戰了！穿梭機可能無法運作……
 war-declarator-boost-timer = 剩餘時間：{ $time } 分鐘。
-war-declarator-default-message = 一個黑手黨的邊緣派系宣稱將使用核武器徹底摧毀這座空間站，並挑釁船員試圖阻止他們。
+war-declarator-default-message = 一個黑手黨的邊緣派系宣稱將使用核武器徹底摧毀這座太空站，並挑釁船員試圖阻止他們。
 war-declarator-message-placeholder = 請在此撰寫一份客製化的宣戰聲明……

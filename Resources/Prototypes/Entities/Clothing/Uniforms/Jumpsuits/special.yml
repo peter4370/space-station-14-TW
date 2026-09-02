@@ -97,7 +97,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitSyndieFormal
-  name: 黑幫正式西裝 | syndicate formal suit
+  name: 辛特加幫正式西裝 | syndicate formal suit
   description: "該組織的制服設計優雅，穿著這身制服去搞些骯髒把戲，實在有些可惜。 | The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
   components:
   - type: Sprite

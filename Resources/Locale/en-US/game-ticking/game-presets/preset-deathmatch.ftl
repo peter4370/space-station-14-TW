@@ -1,7 +1,7 @@
 death-match-title = 死亡對決
 death-match-description = 殺光所有會動的東西！不接受一般性的角色扮演。率先累積到 31 分的玩家獲勝！
-death-match-name-player = [粗體]{ $name }[/粗體] ([斜體]{ $username }[/斜體])
-death-match-name-npc = [粗體]{ $name }[/粗體]
+death-match-name-player = [bold]{ $name }[/bold] ([italic]{ $username }[/italic])
+death-match-name-npc = [bold]{ $name }[/bold]
 death-match-assist = { $primary }，由 { $secondary } 協助，
 death-match-kill-callout-0 = { CAPITALIZE($killer) } 謀殺了 { $victim }！
 death-match-kill-callout-1 = { CAPITALIZE($killer) } 已移除 { $victim }！

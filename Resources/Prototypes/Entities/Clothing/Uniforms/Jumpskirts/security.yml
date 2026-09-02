@@ -194,7 +194,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSecGrey
   name: 灰色防彈連身裙 | grey security jumpskirt
-  description: 這是過去某個時期的戰術遺物，那時「納諾特拉森」尚未決定，將防護服染成紅色比清洗掉血跡更划算。 | A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+  description: 這是過去某個時期的戰術神器，那時「納諾特拉森」尚未決定，將防護服染成紅色比清洗掉血跡更划算。 | A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/security_grey.rsi

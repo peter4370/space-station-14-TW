@@ -45,7 +45,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorEngineer
-  name: 資深工程師 跳跳裙 | senior engineer jumpskirt
+  name: 資深工程師連身裙 | senior engineer jumpskirt
   description: 工程部門內展現技術實力與聲望的象徵。 | A sign of skill and prestige within the engineering department.
   components:
   - type: Sprite

@@ -109,7 +109,7 @@
   name: echis | echis
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: WeaponPistolEchis
-  description: 一款以「Viper」手槍為基礎的機械人搭載武器系統。透過內建的製造器即時生成彈藥，並能緩慢地自行充電。 | A cyborg-mounted weapon system based on the Viper pistol. Creates ammunition on the fly from an internal fabricator, which slowly self-charges.
+  description: 一款以「Viper」手槍為基礎的賽博格搭載武器系統。透過內建的製造器即時生成彈藥，並能緩慢地自行充電。 | A cyborg-mounted weapon system based on the Viper pistol. Creates ammunition on the fly from an internal fabricator, which slowly self-charges.
   components:
   - type: Gun
     fireRate: 6

@@ -67,7 +67,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtLibrarian
-  name: 圖書館員跳跳裙 | librarian jumpskirt
+  name: 圖書館員連身裙 | librarian jumpskirt
   description: 一件舒適的綠色毛衣，非常適合一位圖書策展人。 | A cosy green jumper fit for a curator of books.
   components:
   - type: Sprite

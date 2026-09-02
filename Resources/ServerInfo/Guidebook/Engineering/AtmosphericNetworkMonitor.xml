@@ -12,7 +12,7 @@
   ## 已列出的管網
   「大氣管網監測器」會顯示該站所有受監測的 [textlink="管網" link="PipeNetworks"] 清單。
 
-  每個網路皆依據監測該網路的「瓦斯管線感測器」的名稱與顏色，以不同顏色標示並命名。
+  每個網路皆依據監測該網路的「氣體管線感測器」的名稱與顏色，以不同顏色標示並命名。
   若要變更網路的名稱或顏色，您可以使用標籤筆重新命名，或使用噴漆筆變更顏色。
 
   點擊某個網路後，系統將顯示該網路的詳細資訊，並在站點地圖上標示出該網路的位置。
@@ -22,26 +22,26 @@
 
   ## 站點地圖
   「大氣網路監測器」會在站點地圖上顯示所有 [textlink="管線網路" link="PipeNetworks"] 的位置，以及任何基於管線的裝置。
-  請注意，管線網絡無需連接「瓦斯管線感測器」，即可在地圖上顯示。
+  請注意，管線網絡無需連接「氣體管線感測器」，即可在地圖上顯示。
 
   這些裝置在地圖上的顏色是根據其在站點上的顏色而定，這有助於辨識不同的 [textlink="管網" link="PipeNetworks"]，以及與其相連的裝置。
 
   管線型裝置會根據其功能，在地圖圖例中進行分組：
-  - [bold]管線開口[/bold] 是一種將管線網絡與車站大氣相連的裝置。 請參考 [textlink="通風口" link="AirVents"], [textlink="被動式通風口" link="PassiveVent"] 以及 [textlink="空氣注入器" link="AirInjector"]。
+  - [bold]管線開口[/bold] 是一種將管線網絡與太空站大氣相連的裝置。 請參考 [textlink="通風口" link="AirVents"], [textlink="被動式通風口" link="PassiveVent"] 以及 [textlink="空氣注入器" link="AirInjector"]。
   - [bold]空氣淨化器[/bold] 其實就是 [textlink="空氣淨化器" link="AirScrubber"]。
   - [bold]流量調節器[/bold] 是一種用於控制氣體在管網中流動的裝置。 請參考 [textlink="燃氣泵" link="Pumps"]、[textlink="燃氣閥" link="Valves"] 以及 [textlink="燃氣混合器／過濾器" link="MixingAndFiltering"]。 裝置上的箭頭標示氣流方向。 這通常也決定了管網在何處進行分隔或分支。
-  - [粗體]恆溫調節器[/粗體] 是指任何能對管網中氣體溫度進行調節的裝置。 試想 [textlink="熱機" link="熱機"]、[textlink="散熱器" link="散熱器"]，甚至醫療用冷凍艙。
+  - [bold]恆溫調節器[/bold] 是指任何能對管網中氣體溫度進行調節的裝置。 試想 [textlink="熱機" link="熱機"]、[textlink="散熱器" link="散熱器"]，甚至醫療用冷凍艙。
 
-  ## 瓦斯管線感測器
+  ## 氣體管線感測器
   大氣網路監測系統透過瓦斯管線感測器，收集有關 [textlink="管線網路" link="PipeNetworks"] 的資料。
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeSensor"/>
   </Box>
 
-  預設情況下，該站點的所有主要 [textlink="管線網絡" link="PipeNetworks"] 均應配備瓦斯管線感測器。 例如 Distro 和 Waste 網路。
+  預設情況下，該站點的所有主要 [textlink="管線網絡" link="PipeNetworks"] 均應配備氣體管線感測器。 例如 Distro 和 Waste 網路。
 
-  若您希望監測新的網路，可以組裝一個瓦斯管線感測器，它便會自動顯示在「大氣網路監測器」上。
+  若您希望監測新的網路，可以組裝一個氣體管線感測器，它便會自動顯示在「大氣網路監測器」上。
   請務必將感測器安裝在您想要監控的管線系統上。
   [textlink="管線網路" link="PipeNetworks"] 很容易因一個簡單的燃氣泵或閥門而分隔開來，這可能會導致感測器將資料傳送至完全不同的網路。
 

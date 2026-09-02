@@ -11,7 +11,7 @@
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="HoP"/>
     <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="HoS"/>
-    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="首席行銷長"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="首席醫療官"/>
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>

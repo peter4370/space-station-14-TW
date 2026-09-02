@@ -11,7 +11,7 @@ job-description-cargotech = 遞送郵件、管理採購單、駕駛貨運穿梭�
 job-description-salvagespec = 使用打撈磁鐵吸引小行星與太空碎片，將礦石和廢料加工成可用材料，尋找珍貴的戰利品，並在途中擊退危險的太空生物。
 # Engineering
 job-description-atmostech = 確保太空站擁有可呼吸的空氣、維持熱電發電機的運作，並為太空站合成惰性氣體。
-job-description-engineer = 維持空間站的供電系統正常運作，修復空間站的損壞處，並進行翻新與擴建工程。
+job-description-engineer = 維持太空站的供電系統正常運作，修復太空站的損壞處，並進行翻新與擴建工程。
 job-description-technical-assistant = 學習維持基地供電及修復結構性損壞的基本知識。
 # Medical
 job-description-chemist = 合成藥物、植物原料以及該站所需的任何其他化學品。
@@ -21,7 +21,7 @@ job-description-paramedic = 救出重傷的船員，確認其狀況穩定後，�
 job-description-psychologist = 為機組人員提供情緒支持與諮商。
 # Science
 job-description-research-assistant = 學習科學研究與技術開發的基礎知識。
-job-description-scientist = 研究外星遺物與超自然異常現象，為太空站的船員研發尖端裝備。打造並升級機械人，使其能在太空站內執行各項任務。
+job-description-scientist = 研究外星神器與超自然異常現象，為太空站的船員研發尖端裝備。打造並升級賽博格，使其能在太空站內執行各項任務。
 # Security
 job-description-cadet = 學習犯罪調查與逮捕罪犯的基礎知識。
 job-description-detective = 利用法醫工具調查犯罪現場，以確保將罪犯緝拿歸案。
@@ -29,7 +29,7 @@ job-description-security = 維護法律、逮捕罪犯，並確保警局不會�
 job-description-warden = 負責看守安全部門、管理武器庫，並確保所有囚犯均被正確起訴，且在服刑期間未發生任何意外。
 # Service
 job-description-bartender = 負責供應飲品，並維持酒吧的熱鬧氣氛。
-job-description-botanist = 為空間站種植新鮮食材、藥用草本植物及其他植物性物資。
+job-description-botanist = 為太空站種植新鮮食材、藥用草本植物及其他植物性物資。
 job-description-chaplain = 宣揚你們宗教的美好教義，舉行禮拜和葬禮，並藉著你們的聖經施行神蹟。
 job-description-chef = 負責為船員準備餐點、處理並處置死亡的動物，並協助維持酒吧的熱鬧氣氛。
 job-description-clown = 用滑稽喜劇和拙劣的笑話逗樂船員，並與默劇演員進行輕鬆的較勁。
@@ -38,13 +38,13 @@ job-description-lawyer = 確保犯罪者能獲得法律代理並接受公正的�
 job-description-librarian = 保持圖書館井然有序。為船員們提供教育性讀物、娛樂性故事以及桌上遊戲。
 job-description-mime = 透過無聲的行為藝術表演逗樂劇組成員，並與小丑進行輕鬆的較勁。
 job-description-musician = 用你獨特的音樂才華為船員們帶來歡樂。
-job-description-passenger = 請盡情享受在空間站上的時光，毫無負擔！
+job-description-passenger = 請盡情享受在太空站上的時光，毫無負擔！
 job-description-reporter = 透過無線攝影機和新聞快報，向該站的機組人員提供資訊並帶來娛樂。
 job-description-serviceworker = 協助酒吧及廚房為船員提供餐飲。
 job-description-tram-driver = 開車繞著電車行駛，從一個站到另一個站。
 # Silicon
 job-description-borg = 利用您的機器人底盤來執行各式各樣的專門任務。
-job-description-station-ai = 在核心區的安全環境中，遠端操控空間站的攝影機、氣閘、無線電及其他電子設備。
+job-description-station-ai = 在核心區的安全環境中，遠端操控太空站的攝影機、氣閘、無線電及其他電子設備。
 # Misc.
 job-description-centcommoff = 擔任與納諾特雷森艦隊中最新、最先進太空站之間的聯絡人。
 job-description-ertchaplain = 請確保該站的工作人員已接受臨終聖事。
@@ -53,4 +53,4 @@ job-description-ertjanitor = 請確保工作站已徹底清潔並消毒。
 job-description-ertleader = 領導緊急應變小組，以保護並維護 Nanotrasen 的資產。
 job-description-ertmedic = 請確保該站的工作人員能獲得傷勢治療。
 job-description-ertsecurity = 確保消除對該站點的任何威脅。
-job-description-visitor = 祝您在車站度過愉快的時光！
+job-description-visitor = 祝您在太空站度過愉快的時光！

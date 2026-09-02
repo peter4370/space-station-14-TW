@@ -1,16 +1,16 @@
 
 <Document>
   # 賽博格
-  賽博格是人機混合體，由科學領域的 [textlink="robotics"  link="機器人學"] 部門專門打造，用以執行空間站內的各項任務。 受嚴格遵守的 [color=cyan]矽法則[/color] 所約束，牠們無條件地服侍船員。 [斜體](大多數時候。)[斜體]
+  賽博格是人機混合體，由科學領域的 [textlink="robotics"  link="機器人學"] 部門專門打造，用以執行太空站內的各項任務。 受嚴格遵守的 [color=cyan]矽法則[/color] 所約束，牠們無條件地服侍船員。 [italic](大多數時候。)[italic]
 
   ## 基本元件
   <Box>
-    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="機械人內骨骼"/>
+    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="賽博格內骨骼"/>
     <GuideEntityEmbed Entity="ExosuitFabricator" Caption="外骨骼服製造機"/>
   </Box>
-  所有機械人都是以內骨骼為基礎打造的，該內骨骼可透過 [color=#a4885c]外骨骼製造機[/color] 製成。 後續的組裝步驟可透過 [color=#a4885c]檢視[/color] 內骨骼來進行。 一旦組裝完成，便可透過模組或改良型電源組，解鎖諸如新增工具及延長電池續航力等進一步升級功能。
+  所有賽博格都是以內骨骼為基礎打造的，該內骨骼可透過 [color=#a4885c]外骨骼製造機[/color] 製成。 後續的組裝步驟可透過 [color=#a4885c]檢視[/color] 內骨骼來進行。 一旦組裝完成，便可透過模組或改良型電源組，解鎖諸如新增工具及延長電池續航力等進一步升級功能。
 
-  新製造的機械人需要一個能夠與電子軀體進行介接的 [color=#a4885c]大腦[/color]。 主要有兩種類型，無論機箱是否退役、更換，或因其他原因發生非預定拆解，這兩種類型皆能獨立運作。
+  新製造的賽博格需要一個能夠與電子軀體進行介接的 [color=#a4885c]大腦[/color]。 主要有兩種類型，無論機箱是否退役、更換，或因其他原因發生非預定拆解，這兩種類型皆能獨立運作。
   - [color=#a4885c]人機介面[/color]（簡稱 MMI）是一種能夠促進生物大腦與電子元件之間溝通的裝置，使遭遇重大職場事故的人士，即使在身體消亡後許久，仍能繼續為其團隊效力。
   - [color=#a4885c]正電子腦[/color] 是一種完全人工製造的大腦，能夠進行自發性神經活動。 合成神經元解碼所需的時間可能差異極大，但它們使我們得以製造賽博格，而無需從船員體內摘除大腦。
   <Box>
@@ -19,37 +19,37 @@
   </Box>
   這兩種大腦皆可製造，無需進行任何額外研究。
 
-  ## 機械人類型
-  機械人一經製造，便需針對太空站內的特定任務，對其機體進行專門化調整。 這決定了系統初始啟動時會使用哪些模組、可安裝哪些額外模組，以及系統可存取的 [color=#a4885c]部門無線電頻道[/color]。 所有機械人皆可收聽 [color=#D381C9]科學[/color] 及 [color=green]全站[/color] 廣播頻道。 所有類型的賽博格皆擁有 [color=#a4885c]全權存取權限[/color]。
+  ## 賽博格類型
+  賽博格一經製造，便需針對太空站內的特定任務，對其機體進行專門化調整。 這決定了系統初始啟動時會使用哪些模組、可安裝哪些額外模組，以及系統可存取的 [color=#a4885c]部門無線電頻道[/color]。 所有賽博格皆可收聽 [color=#D381C9]科學[/color] 及 [color=green]全站[/color] 廣播頻道。 所有類型的賽博格皆擁有 [color=#a4885c]全權存取權限[/color]。
   <Box>
     <GuideEntityEmbed Entity="BorgChassisGeneric" Caption="通用"/>
-    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="工程學"/>
+    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="工程部"/>
     <GuideEntityEmbed Entity="BorgChassisMining" Caption="打撈部"/>
     <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="清潔工"/>
-    <GuideEntityEmbed Entity="BorgChassisService" Caption="服務"/>
-    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="醫療"/>
+    <GuideEntityEmbed Entity="BorgChassisService" Caption="服務部"/>
+    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="醫療部"/>
   </Box>
   <Box>
-    [斜體]各類賽博格的例子[/斜體]
+    [italic]各類賽博格的例子[/italic]
   </Box>
-  一旦賽博格機體經過專用化改造，便無法再進行變更。 若要更換車型，必須打造一具新的底盤。 若需要，可將主機板、電源供應器以及任何模組 [斜體](若其與新機殼相容)[/斜體] 從舊機殼移轉過來。
+  一旦賽博格機體經過專用化改造，便無法再進行變更。 若要更換車型，必須打造一具新的底盤。 若需要，可將主機板、電源供應器以及任何模組 [italic](若其與新機殼相容)[/italic] 從舊機殼移轉過來。
 
   ## 模組
   <Box>
-    <GuideEntityEmbed Entity="BorgModuleTool" Caption="工具機械人模組"/>
+    <GuideEntityEmbed Entity="BorgModuleTool" Caption="工具賽博格模組"/>
   </Box>
-  機械人沒有手，因此無法像其他大多數玩家那樣撿起物品。 相反地，他們的設備是由各種 [color=#a4885c]模組[/color] 所提供的。 每種機械人最初都配備一套專屬的模組，但可透過升級方式追加其他模組。 這些附加模組可在 [color=#a4885c]Exosuit Fabricator[/color] 上列印。
+  賽博格沒有手，因此無法像其他大多數玩家那樣撿起物品。 相反地，他們的設備是由各種 [color=#a4885c]模組[/color] 所提供的。 每種賽博格最初都配備一套專屬的模組，但可透過升級方式追加其他模組。 這些附加模組可在 [color=#a4885c]Exosuit Fabricator[/color] 上列印。
 
-  [color=#a4885c]通用[/color] 模組能提升多功能性。 它們可安裝於任何機殼中，並提供諸如撬棍、GPS 等實用工具，以及與纜線互動的能力。 [粗體]這款通用型機械人機身最多可安裝五個額外模組。[/粗體]
+  [color=#a4885c]通用[/color] 模組能提升多功能性。 它們可安裝於任何機殼中，並提供諸如撬棍、GPS 等實用工具，以及與纜線互動的能力。 [bold]這款通用型賽博格機身最多可安裝五個額外模組。[/bold]
   <Box>
     <GuideEntityEmbed Entity="BorgModuleCable" Caption="電纜"/>
     <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="滅火器"/>
   </Box>
   <Box>
-    [斜體]通用模組的範例[/斜體]
+    [italic]通用模組的範例[/italic]
   </Box>
 
-  若需更具體的功能，可選用 [color=#a4885c]專用[/color] 模組，這些模組能提供掃描異常狀況、搭建隔牆、復活船員，或是清理太空潤滑劑洩漏等能力。 這些模組的配色通常與其所屬的部門 [斜體](或職業)[/斜體] 採用相同的色盤。 這些模組 [斜體](但 [color=#D381C9]科學[/color] 模組除外，該類模組可安裝於任何機殼上)[/斜體] 只能安裝在其對應的博格機殼中。 [粗體]專用的博格底盤（包括工程、清潔、服務、醫療及採礦底盤）最多可加裝三個模組。[/粗體]
+  若需更具體的功能，可選用 [color=#a4885c]專用[/color] 模組，這些模組能提供掃描異常狀況、搭建隔牆、復活船員，或是清理太空潤滑劑洩漏等能力。 這些模組的配色通常與其所屬的部門 [italic](或職業)[/italic] 採用相同的色盤。 這些模組 [italic](但 [color=#D381C9]科學[/color] 模組除外，該類模組可安裝於任何機殼上)[/italic] 只能安裝在其對應的博格機殼中。 [bold]專用的博格底盤（包括工程、清潔、服務、醫療及採礦底盤）最多可加裝三個模組。[/bold]
   <Box>
     <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="異常現象"/>
     <GuideEntityEmbed Entity="BorgModuleRCD" Caption="RCD"/>
@@ -59,7 +59,7 @@
     <GuideEntityEmbed Entity="BorgModuleChemical" Caption="化學"/>
   </Box>
   <Box>
-    [斜體]專業模組的例子。 請注意外殼與電路板的顏色。
+    [italic]專業模組的例子。 請注意外殼與電路板的顏色。
   </Box>
   透過科學家所研究出的新[textlink="技術"  link="技術"]，可取得具備進階或創新功能的額外模組。
 </Document>

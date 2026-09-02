@@ -2,9 +2,9 @@
 <Document>
   # 奇點引擎／特斯拉引擎
 
-  奇點引擎／特斯拉引擎 能為整個班次提供 [color=#a4885c]無限動力[/color]，使其成為空間站的一項寶貴資產。
+  奇點引擎／特斯拉引擎 能為整個班次提供 [color=#a4885c]無限動力[/color]，使其成為太空站的一項寶貴資產。
 
-  它同樣能輕而易舉地 [color=red]摧毀整個車站[/color]，且必須經過仔細的準備與監控，才能防止發生 [bold]失控[/bold] 的情況。
+  它同樣能輕而易舉地 [color=red]摧毀整個太空站[/color]，且必須經過仔細的準備與監控，才能防止發生 [bold]失控[/bold] 的情況。
 
   # 設定流程
   這兩款引擎的基本設定步驟相同，但子系統與需求各不相同。
@@ -55,7 +55,7 @@
 
   這些發射器連接至中壓電纜，只要有電源且處於開啟狀態，便會發射雷射。
 
-  建議使用 [color=#a4885c]鎖定發射器[/color] 並搭配 [color=yellow][bold][keybind="AltActivateItemInWorld"][/粗體][/color]，以防止任何闖入的惡棍僅僅透過關閉力場，就使奇點或特斯拉裝置失效。
+  建議使用 [color=#a4885c]鎖定發射器[/color] 並搭配 [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color]，以防止任何闖入的惡棍僅僅透過關閉力場，就使奇點或特斯拉裝置失效。
 
   ## 粒子加速器
   粒子加速器（PA）是一種由多個模組組成的結構，能從其發射器中發射出經加速的粒子。
@@ -80,7 +80,7 @@
     <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
   </Box>
 
-  有些車站已經安裝了尚未完工的廣播系統。
+  有些太空站已經安裝了尚未完工的廣播系統。
   要完成這項工作，首先請確認 PA 電源箱下方已有中壓電纜，將所有部件固定好，然後在每個部件上接上一條低壓電纜。
 
   <Box>

@@ -1,21 +1,24 @@
 ﻿
 <Document>
-  # Ramping
-  Contrary to what one might expect from a video game electrical simulation, power is not instantly provided upon request.
+  # 功率漸增
+  與人們對電玩遊戲中電氣模擬的預期相反，電力並不會在請求後立即供應。
 
-  Generators and batteries take time to ramp up to match the draw imposed on them, which leads to brownouts when there are large changes in current draw all at once; for example, when batteries run out.
+  發電機和電池需要時間逐步提升輸出功率以匹配其所承受的負載，因此當電流負載發生劇烈變化時（例如電池電量耗盡時），便會導致電壓下降。
 
-  Observe the following example:
-  - Say you have a generator that outputs 100 kW of power.
-  - If you have a device that draws 50 kW of power, the generator will output 50 kW of power to match the grid's demand to its supply.
-  - If you then turn on a device that draws another 50 kW of power, the generator will take time to ramp up to 100 kW of power. It will not provide this power instantly.
-  - During this time, devices will not receive the power they need, and the grid will experience a temporary brownout.
-  - After some seconds have passed, the generator will have ramped up to 100 kW of power, and the brownout will end. All devices are now satisfied with the power they are receiving.
+  請參閱以下範例：
+  - 假設您有一台發電量為 100 千瓦的發電機。
+  - 若您有台耗電量為 50 千瓦的設備，發電機將輸出 50 千瓦的電力，以使電網的供電量與需求量相匹配。
+  - 若此時再開啟一臺耗電量為 50 kW 的設備，發電機將需要一段時間才能將輸出功率提升至 100 kW。 它不會立即提供這項能力。
+  - 在此期間，設備將無法獲得所需的電力，電力網將出現暫時性的電壓下降。
+  - 幾秒鐘後，發電機的功率將逐步提升至 100 千瓦，屆時電壓下降的情況便會結束。 所有裝置目前都已獲得足夠的電力供應。
 
-  During a shift, this is most commonly observed when a generator runs out of fuel and suddenly stops producing power.
-  Suddenly the grid is hit with a large deficit of power (as supply has fallen below demand), and all devices will experience a brownout until SMESes or other generators can ramp up to match the new demand.
+  在值班期間，這種情況最常發生在發電機燃油耗盡並突然停止發電時。
+  突然間，電網面臨嚴重的電力短缺（因供電量已低於需求量），所有設備將出現電壓下降的狀況，直到微型發電系統（SMES）或其他發電機組能提升發電量以滿足新的需求為止。
 
-  This can also happen when a large power consuming device or department is reconnected to the grid.
-  The sudden increase in power draw will cause a brownout until the generators can ramp up to match the new demand.
+  當某個耗電量大的設備或部門重新連接到電網時，也可能會發生這種情況。
+  電力消耗的突然增加將導致電壓下降，直到發電機能逐步提升產能以滿足新的需求為止。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 
 </Document>

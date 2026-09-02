@@ -18,7 +18,7 @@
     <GuideEntityEmbed Entity="WeldingFuelTank"/>
   </Box>
 
-  J.R.P.A.C.M.A.N. 可在車站各處的維護竖井中找到，當發生供電問題時，非常適合由工作人員自行架設。
+  J.R.P.A.C.M.A.N. 可在太空站各處的維護竖井中找到，當發生供電問題時，非常適合由工作人員自行架設。
   其輸出功率最高可達 [color=orange][protodata="PortableGeneratorJrPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] W[/color]，足以供應一至兩間房間的電力，這在醫療部門的醫務室或化學實驗室等場所，可謂極為寶貴。
 
   安裝過程非常簡單：只需用扳手將其固定在 [color=green]LV[/color] 電源線上方，加點焊接燃料，然後啟動即可。

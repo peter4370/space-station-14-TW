@@ -441,7 +441,7 @@ entity-effect-guidebook-artifact-unlock =
         [1] Helps
        *[other] help
     } unlock an alien artifact.
-entity-effect-guidebook-artifact-durability-restore = 恢復活躍外星遺物節點中的 { $restored } 耐久度。
+entity-effect-guidebook-artifact-durability-restore = 恢復活躍外星神器節點中的 { $restored } 耐久度。
 entity-effect-guidebook-plant-attribute =
     { $chance ->
         [1] 調整

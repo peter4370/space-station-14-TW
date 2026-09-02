@@ -1,45 +1,46 @@
-<Document>
-# Science
-[color=#c96dbf]Science[/color], often called Research and Development, is a job consisting of generating research points to unlock new technologies and using said technologies to produce new items at lathes to help out the station.
 
-## Personnel
-[color=#c96dbf]Science[/color]'s staff is made up of Research Assistants and Scientists. [color=#c96dbf]Science[/color] is run by the Research Director.
+<Document>
+# 科學
+[color=#c96dbf]科學[/color]，通常稱為「研究與開發」，是一項工作，內容包括產生研究點數以解鎖新技術，並運用這些技術在車床上生產新物品，藉此協助太空站運作。
+
+## 人員
+[color=#c96dbf]《Science》[/color] 的團隊由研究助理和科學家組成。 [color=#c96dbf]《Science》[/color] 由研究總監負責營運。
 
   <Box>
-   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientist"/>
+   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="科學家"/>
    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
   </Box>
 
-## Technologies
+## 技術
   <Box>
     <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
     <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
   </Box>
-The most important thing inside your department is the R&D server, which stores unlocked technologies, and the R&D computer, which allows you to unlock [color=#a4885c]technologies[/color].
+在你的部門內，最重要的就是研發伺服器——它用來儲存已解鎖的技術——以及研發電腦，它能讓你解鎖 [color=#a4885c]技術[/color]。
 
-Each technology costs [color=#a4885c]Research Points[/color] and unlocks recipes at lathes. Some technologies will also have prerequisites you have to unlock before you can research them.
+每項技術都需要消耗 [color=#a4885c]研究點數[/color]，並能在車床上解鎖配方。 某些技術還設有先決條件，必須先解鎖這些條件，才能進行相關研究。
 
-[textlink="Click here to see a list of technologies." link="Technologies"].
+[textlink="點擊此處查看技術清單。" link="技術"].
 
-## Disciplines
-Technologies are spread over 4 different Disciplines:
+## 學科領域
+技術涵蓋 4 個不同的學科領域：
   <Box>
-    <GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
-    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
-    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Civil Services"/>
-    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Arsenal"/>
+    <GuideEntityEmbed Entity="Wrench" Caption="工業"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="實驗性"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="公務員體系"/>
+    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="阿森納"/>
   </Box>
 
-<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Use your nearest R&D console to take note of which kind of research is locked behind each Discipline tree.
+<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> 請使用您附近的 RnD 控制台，查看各學科樹背後鎖定的是哪種研究。
 
-## Tiers
-Each Discipline tree has up to 3 tiers of technologies. At the start the only tier that is open and available for you is tier 1.
+## 等級
+每個學科樹最多包含 3 個等級的技術。 一開始，唯一對您開放且可用的等級是第 1 級。
 
-In order to progress further, you have to research up to [color=brown]75%[/color] of the current tier to move to the next one. So in order to unlock T2 researches you need to research 75% of T1.
+若要繼續推進，您必須將當前層級的研究進度提升至 [color=brown]75%[/color]，才能晉升至下一層級。 因此，若要解鎖 T2 研究項目，您必須將 T1 研究進度達到 75%。
 
-Now [color=green]Tier 3[/color] is where it gets interesting. If you research a T3 tech, you [color=brown]lock out[/color] T3 techs from other Discipline trees. That is, unless you can find some other way around it... you should probably ask your [color=purple]Research Director[/color].
+現在到了 [color=green]第 3 級[/color]，事情才開始變得有趣。 若你研究某項 T3 技術，你將 [color=brown]鎖定[/color] 其他專精樹中的 T3 技術。 也就是說，除非你能找到其他解決方法……否則最好還是詢問你的 [color=purple]研究主任[/color]。
 
-## Lathes
+## 車床
   <Box>
     <GuideEntityEmbed Entity="Protolathe"/>
     <GuideEntityEmbed Entity="CircuitImprinter"/>
@@ -49,6 +50,6 @@ Now [color=green]Tier 3[/color] is where it gets interesting. If you research a 
     <GuideEntityEmbed Entity="MedicalTechFab"/>
     <GuideEntityEmbed Entity="SecurityTechFab"/>
   </Box>
-At a lathe, you can choose a server to allow it print whatever recipes you have unlocked. Recipes require various materials (steel, glass, plastic, gold, plasma) which can be acquired at Cargo or Salvage.
+在車床前，你可以選擇一台伺服器，讓它列印你已解鎖的任何配方。 食譜需要各種材料（鋼、玻璃、塑膠、黃金、等離子），這些材料可透過「貨運」或「打撈」取得。
 
 </Document>

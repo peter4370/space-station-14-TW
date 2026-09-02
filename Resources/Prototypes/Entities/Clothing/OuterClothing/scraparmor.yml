@@ -54,7 +54,7 @@
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseMajorContraband]
   id: ClothingOuterArmorScrap
   name: 廢棄盔甲 | scrap armor
-  description: 一名騎兵閃閃發光的板甲。站住，否則你死定了。 | A tider's gleaming plate mail. Bail up, or you're a dead man.
+  description: 一名tider閃閃發光的板甲。站住，否則你死定了。 | A tider's gleaming plate mail. Bail up, or you're a dead man.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi

@@ -126,7 +126,7 @@
   id: BorgSprayBottle
   name: 內部噴射嘴 | internal spray jet
   suffix: Filled
-  description: 一種用於噴灑試劑的加壓容器，直接安裝在清潔機器人上。通常裝有太空清潔劑，用於處理那些惱人的潑灑物。 | A pressurized vessel for spraying reagents, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
+  description: 一種用於噴灑試劑的加壓載體，直接安裝在清潔型賽博格上。通常裝有太空清潔劑，用於處理那些惱人的潑灑物。 | A pressurized vessel for spraying reagents, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
   components:
   - type: Solution
     solution:
@@ -139,7 +139,7 @@
   id: BorgMegaSprayBottle
   name: adv. 內部噴射嘴 | adv. internal spray jet
   suffix: Filled
-  description: 這是整合式噴霧瓶的升級版，可直接安裝於清潔機器人上。此款噴霧瓶能利用空氣中的濕氣製造空間清潔劑。 | An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
+  description: 這是整合式噴霧瓶的升級版，可直接安裝於清潔型賽博格上。此款噴霧瓶能利用空氣中的濕氣製造空間清潔劑。 | An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
   components:
   - type: Solution
     solution:

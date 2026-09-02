@@ -380,7 +380,7 @@
   parent: Dropper
   id: BorgDropper
   name: 液壓移液管 | hydraulic pipette
-  description: 專為半機械人設計的尖端液壓滴管。 | State-of-the-art hydraulic dropper built for cyborgs.
+  description: 專為賽博格設計的尖端液壓滴管。 | State-of-the-art hydraulic dropper built for cyborgs.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/dropper.rsi
