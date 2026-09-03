@@ -48,7 +48,7 @@
       task: SimpleHumanoidHostileCompound
 
 - type: entity
-  name: 黑幫小嘍囉 | syndicate footsoldier
+  name: 辛迪加小嘍囉 | syndicate footsoldier
   parent: MobHuman
   id: MobSyndicateFootsoldier
   components:

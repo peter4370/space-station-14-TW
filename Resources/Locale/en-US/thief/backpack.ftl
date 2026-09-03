@@ -29,7 +29,7 @@ thief-backpack-category-chemistry-description =
     你已達到體能巔峰……當然，這多虧了一點小幫手。
     內含：儲存植入器、DNA 擾亂器植入器、
     麻黃鹼瓶、注射器、空搖搖杯，以及歐米茄香皂
-thief-backpack-category-syndie-name = Syndie Kit
+thief-backpack-category-syndie-name = 辛迪加套組
 thief-backpack-category-syndie-description =
     是來自被否認的過去的小玩意，還是從某位粗心大意的特工那裡偷來的？
     你已經發現了一些關聯。威士忌、迴聲……

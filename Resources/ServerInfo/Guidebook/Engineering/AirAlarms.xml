@@ -11,7 +11,7 @@
 
   房間的牆上通常會安裝一個「Air Alarm」，以便快速控制該房間內的多台設備。
 
-  您可以在 [textlink="連結" link="網路"] 指南中查看如何將裝置進行連結。
+  您可以在 [textlink="連結" link="Networking"] 指南中查看如何將裝置進行連結。
 
   ## 使用者介面
   操作空氣警報器時，會彈出一個包含 3 個區段的選單：
@@ -40,7 +40,7 @@
   這些閾值可視需要進行調整或停用。
   例如，若您監測的空間本身溫度較低（例如冷凍庫）或較高（例如燃燒室），您可以調整溫度閾值，使其符合預期值。
 
-  此外，也可組裝一個空氣感測器，並[textlink="linked" link="網路連線"]至空氣警報器。
+  此外，也可組裝一個空氣感測器，並[textlink="linked" link="Networking"]至空氣警報器。
 
   <Box>
     <GuideEntityEmbed Entity="AirSensor"/>
@@ -62,5 +62,5 @@
 
   可透過切換空氣警報選單底部區塊中的「自動」核取方塊，來停用此功能。
 
-  有關如何修正 [textlink="spacing" link="間距"] 和 [textlink="fires" link="火災"] 的相關提示，請參閱相關指南。
+  有關如何修正 [textlink="spacing" link="Spacing"] 和 [textlink="fires" link="Fires"] 的相關提示，請參閱相關指南。
 </Document>

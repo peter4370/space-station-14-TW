@@ -1280,7 +1280,7 @@
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ]
   id: BorgModuleOperative
   name: 作戰型賽博格模組 | operative cyborg module
-  description: 一套包含撬棍、Emag、Access Breaker 以及 Syndicate 定位器的模組。 | A module that comes with a crowbar, an Emag, an Access Breaker and a syndicate pinpointer.
+  description: 一套包含撬棍、Emag、Access Breaker 以及 辛迪加 定位器的模組。 | A module that comes with a crowbar, an Emag, an Access Breaker and a syndicate pinpointer.
   components:
     - type: Sprite
       layers:

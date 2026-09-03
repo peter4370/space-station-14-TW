@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseStructureDynamic, BasePaperLabelableVisualized ]
   id: BaseCrate
-  name: 木箱 | crate
+  name: 貨箱 | crate
   description: 一個用來裝物品的大容器。 | A large container for items.
   components:
   - type: Animateable

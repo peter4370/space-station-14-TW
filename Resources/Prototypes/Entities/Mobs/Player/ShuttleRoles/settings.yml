@@ -87,7 +87,7 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: 職務名稱-qm | job-name-qm
+      name: job-name-qm | job-name-qm
       description: ghost-role-information-command-description | ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorQM, VisitorQMAlt ]
@@ -165,7 +165,7 @@
   parent: VisitorCargonian
   components:
     - type: GhostRole
-      name: 職位名稱-cargotech | job-name-cargotech
+      name: job-name-cargotech | job-name-cargotech
     - type: Loadout
       prototypes: [ VisitorCargoTech, VisitorCargoTechAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -716,7 +716,7 @@
   components:
     - type: GhostRole
       name: ghost-role-information-lost-challenge-cargo-technican-name | ghost-role-information-lost-challenge-cargo-technican-name
-      description: ghost-角色資訊-迷失挑戰-貨運技術員-描述 | ghost-role-information-lost-challenge-cargo-technican-description
+      description: ghost-role-information-lost-challenge-cargo-technican-description | ghost-role-information-lost-challenge-cargo-technican-description
       rules: ghost-role-information-lost-disaster-challenge-cargo-technican-rules
       raffle:
         settings: short

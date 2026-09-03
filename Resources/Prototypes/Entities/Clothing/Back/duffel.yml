@@ -147,7 +147,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCargo
-  name: 貨運旅行袋 | cargo duffel bag
+  name: 貨運部 旅行袋 | cargo duffel bag
   description: 一個大型旅行袋，用來偷取貨物中的珍貴戰利品。 | A large duffel bag for stealing cargo's precious loot.
   components:
     - type: Sprite

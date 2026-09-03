@@ -27,15 +27,15 @@
 
   舉例來說，控制壓力為 500 kPa 的氣動閥，當輸出壓力達到 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 或更低時，並會在輸出壓力為 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 或更高時，則會關閉。
 
-  閥門的控制壓力由管路連接決定，因此可透過 [textlink="泵" link="泵"] 或其他壓力控制來源進行即時調整。
+  閥門的控制壓力由管路連接決定，因此可透過 [textlink="泵" link="Pumps"] 或其他壓力控制來源進行即時調整。
 
   ## 與泵的區別
 
   氣動閥與[textlink="泵" link="Pumps"]不同，後者是透過做功來驅動氣體流動。
-  氣動閥是一種被動裝置，它利用輸入氣體的較高壓力來驅動氣體流動，因此有時其填充體積的速度甚至比 [textlink="泵" link="泵"] 還要快。
+  氣動閥是一種被動裝置，它利用輸入氣體的較高壓力來驅動氣體流動，因此有時其填充體積的速度甚至比 [textlink="泵" link="Pumps"] 還要快。
 
-  舉例來說，控制壓力為 500 kPa 的氣動閥，其填充容積的速度會比壓力 [textlink="泵" link="泵"] 設定為 500 kPa 時更快。
-  然而，[textlink="泵" link="泵"] 將能更精確地維持該空間內的壓力。
+  舉例來說，控制壓力為 500 kPa 的氣動閥，其填充容積的速度會比壓力 [textlink="泵" link="Pumps"] 設定為 500 kPa 時更快。
+  然而，[textlink="泵" link="Pumps"] 將能更精確地維持該空間內的壓力。
 
   氣動閥可應用於多種場合，例如：
   - 根據控制輸入，自動將燃燒室中的氣體排出

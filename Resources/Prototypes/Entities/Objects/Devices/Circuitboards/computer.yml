@@ -89,7 +89,7 @@
   parent: BaseComputerCircuitboard
   id: CargoRequestComputerCircuitboard
   name: 貨運申請電腦主板 | cargo request computer board
-  description: 用於貨物請求電腦的電腦印刷電路板。 | A computer printed circuit board for a cargo request computer.
+  description: 用於貨運請求電腦的電腦印刷電路板。 | A computer printed circuit board for a cargo request computer.
   components:
     - type: Sprite
       state: cpu_supply
@@ -180,7 +180,7 @@
   parent: BaseComputerCircuitboard
   id: CargoSaleComputerCircuitboard
   name: 貨運銷售電腦主機板 | cargo sale computer board
-  description: 用於貨物銷售電腦的電腦印刷電路板。 | A computer printed circuit board for a cargo sale computer.
+  description: 用於貨運銷售電腦的電腦印刷電路板。 | A computer printed circuit board for a cargo sale computer.
   components:
     - type: Sprite
       state: cpu_supply
@@ -190,8 +190,8 @@
 - type: entity
   id: CargoBountyComputerCircuitboard
   parent: BaseComputerCircuitboard
-  name: 貨物賞金電腦主板 | cargo bounty computer board
-  description: 用於貨物獎勵計算機的電腦印刷電路板。 | A computer printed circuit board for a cargo bounty computer.
+  name: 貨運懸賞電腦主板 | cargo bounty computer board
+  description: 用於貨運懸賞電腦的印刷電路板。 | A computer printed circuit board for a cargo bounty computer.
   components:
   - type: Sprite
     state: cpu_supply
@@ -370,7 +370,7 @@
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: SyndicateCommsComputerCircuitboard
   name: 辛迪加通訊電腦委員會 | syndicate communications computer board
-  description: 用於財團通訊控制台的電腦印刷電路板。 | A computer printed circuit board for a syndicate communications console.
+  description: 用於辛迪加通訊控制台的電腦印刷電路板。 | A computer printed circuit board for a syndicate communications console.
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -496,7 +496,7 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: ComputerIFFSyndicateCircuitboard
-  name: syndicate IFF 控制台主板 | syndicate IFF console board
+  name: 辛迪加 IFF 控制台主板 | syndicate IFF console board
   description: 可讓您控制此艦艇的敵我識別（IFF）及隱形特性。 | Allows you to control the IFF and stealth characteristics of this vessel.
   components:
   - type: Sprite

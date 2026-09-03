@@ -19,7 +19,7 @@
   以下是一些需注意的重要資訊：
   - 站點 [textlink="generators" link="Generators"] 分為不同層級，並遵循階層結構。 層級越低，其永續性就越低，但設定起來也越容易。 層級越高，其永續性就越強，但設定起來也越複雜。
   - 太空站 14 配備了 [textlink="電壓網路" link="VoltageNetworks"]，這些網路負責將電力分配至太空站各處，並透過設備將電壓降壓，以便其他設備能夠使用。
-  - 發電設備 [textlink="發電機組" link="發電機組"] 具有 [textlink="調度" link="調度"] 的特性，這意味著它們需要時間才能使供電量與電網的需求相匹配。
+  - 發電設備 [textlink="發電機組" link="Generators"] 具有 [textlink="調度" link="Ramping] 的特性，這意味著它們需要時間才能使供電量與電網的需求相匹配。
 
   ## 起步階段
   在班次開始時，該電台完全依靠 [textlink="電池" link="PowerStorage"] 供電運作。
@@ -31,6 +31,6 @@
 
   設定好 [textlink="AME" link="AME"] 和 [textlink="Solars" link="SolarPanels"] 之後，您應該就能產生相當可觀的電力了。
 
-  既然已經為自己爭取到時間，你便可以專注於架設更高階的 [textlink="發電機" link="發電機"]，例如 [textlink="奇點引擎" link="奇點引擎"]，它能為本班次剩餘的時間提供動力。
+  既然已經為自己爭取到時間，你便可以專注於架設更高階的 [textlink="發電機" link="Generators"]，例如 [textlink="奇點引擎" link="SingularityEngine"]，它能為本班次剩餘的時間提供動力。
 
 </Document>

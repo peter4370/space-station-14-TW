@@ -22,7 +22,7 @@
 - type: entity
   parent: [SolutionTank, SolutionGinormous, Clothing, ClothingSlotBase]
   id: ClothingBackpackWaterTank
-  name: 背包水袋 | backpack water tank
+  name: 背包水罐 | backpack water tank
   description: 可容納大量液體。可為手持的噴嘴供液，側面設有用於放置該噴嘴的插槽。 | Holds a large amount of fluids. Supplies to spray nozzles in your hands, and has a slot on the side for said spray nozzles.
   components:
   - type: Tag

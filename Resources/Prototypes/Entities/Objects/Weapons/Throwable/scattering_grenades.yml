@@ -123,7 +123,7 @@
   parent: [SoapSyndie, ScatteringGrenadeBase, ImpactGrenadeBase, BaseSyndicateContraband]
   id: SlipocalypseClusterSoap
   name: slipocalypse clustersoap | slipocalypse clustersoap
-  description: 落地時，會將少量綜合香皂碎塊灑散在地面上。 | Spreads small pieces of syndicate soap over an area upon landing on the floor.
+  description: 落地時，會將少量辛迪加肥皂碎塊灑散在地面上。 | Spreads small pieces of syndicate soap over an area upon landing on the floor.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/soap.rsi

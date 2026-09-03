@@ -40,7 +40,7 @@
 - type: entity
   parent: BaseBalloon
   id: BalloonNT
-  name: 納米特拉森氣球 | nanotrasen balloon
+  name: NanoTrasen 氣球 | nanotrasen balloon
   description: 專為對「辛迪加」特工造成最大心理傷害而設計。 | Specially designed to inflict maximum psychological damage to Syndicate operatives.
   components:
   - type: Sprite

@@ -13,7 +13,7 @@
   id: ClosetWallEmergency
   name: 緊急壁櫃 | emergency wall closet
   parent: BaseWallCloset
-  description: 這是用來存放緊急用呼吸面罩和氧氣瓶的儲物櫃。 | It's a storage unit for emergency breath masks and O2 tanks.
+  description: 這是用來存放緊急用呼吸面罩和氧氣罐的儲物櫃。 | It's a storage unit for emergency breath masks and O2 tanks.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: emergency
@@ -165,7 +165,7 @@
 - type: entity
   parent: BaseWallLocker
   id: LockerWallEvacRepair
-  name: 緊急接駁車、緊急壁櫃 | emergency shuttle emergency wall locker
+  name: 緊急穿梭機、緊急壁櫃 | emergency shuttle emergency wall locker
   description: 一路上盡是緊急狀況。 | It's emergencies all the way down.
   components:
   - type: EntityStorageVisuals

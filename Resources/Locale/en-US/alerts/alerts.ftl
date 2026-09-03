@@ -38,10 +38,10 @@ alerts-battery-name = 電池
 alerts-battery-desc = 如果你的能量耗盡，你就無法使用你的能力。
 alerts-no-battery-name = 無電池
 alerts-no-battery-desc = 你沒有電池，因此無法充電或使用你的能力。
-alerts-internals-name = 切換內部結構
-alerts-internals-desc = 開啟或關閉汽油箱內部組件。
-alerts-piloting-name = 試飛穿梭機
-alerts-piloting-desc = 您正在駕駛一艘太空梭。請點擊警示訊息以停止。
+alerts-internals-name = 開關內部結構
+alerts-internals-desc = 開啟或關閉氣罐內部組件。
+alerts-piloting-name = 駕駛穿梭機
+alerts-piloting-desc = 您正在駕駛一艘穿梭機。請點擊警示訊息以停止。
 alerts-hunger-name = [color=yellow]有點餓[/color]
 alerts-hunger-desc = 現在來點東西吃應該不錯。
 alerts-stamina-name = 耐力

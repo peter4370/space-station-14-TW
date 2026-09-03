@@ -64,7 +64,7 @@
 
   [color=Yellow]中壓[/color]電力由變電站提供，這些大型設備負責將來自[color=Orange]高壓[/color]電網的電力轉換為[color=Yellow]中壓[/color]。
 
-  此外，針對空間狹小的場所（例如穿梭車），這些變電站亦有壁掛式變體。
+  此外，針對空間狹小的場所（例如穿梭機），這些變電站亦有壁掛式變體。
   <Box HorizontalAlignment="Stretch">
     <Box>
       <GuideEntityEmbed Entity="SubstationBasic"/>
@@ -86,7 +86,7 @@
     <GuideEntityEmbed Entity="SubstationBasic"/>
   </Box>
 
-  ## 觸電傷害
+  ## 電擊傷害
   若你觸碰到帶電的電纜，將會受到傷害。 你所承受的傷害值取決於觸電電纜的電壓。
 
   [color=green]低電壓[/color]電纜造成的傷害較 [color=Yellow]中電壓[/color]電纜少，而 [color=Orange]高電壓[/color]電纜造成的傷害又比中電壓電纜更多。

@@ -193,7 +193,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineCargoTech
-  name: 貨運技術人員圖示 | cargo technican figure
+  name: 貨運技術員圖示 | cargo technican figure
   description: 一尊描繪爬蟲人貨運技術員的小雕像。 | A figurine depicting a reptillian Cargo Technican.
   components:
   - type: Sprite
@@ -391,7 +391,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukie
-  name: 犯罪集團的核心人物 | syndicate operative figure
+  name: 辛迪加的核心人物 | syndicate operative figure
   description: 一尊描繪身穿血紅色重型機甲的人偶，其樣式類似於核武行動小組成員所穿的裝備。 | A figurine depicting someone in a blood-red hardsuit, similar to what someone on a nuclear operative team might wear.
   components:
   - type: Sprite
@@ -402,7 +402,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukieElite
-  name: 精英組織的關鍵人物 | elite syndicate operative figure
+  name: 辛迪加的精英核心人物 | elite syndicate operative figure
   description: 一尊描繪某人身著血紅色精銳硬質機甲的小雕像，其樣式類似於核武行動小組成員所穿戴的裝備。 | A figurine depicting someone in an elite blood-red hardsuit, similar to what someone on a nuclear operative team might wear.
   components:
   - type: Sprite
@@ -413,7 +413,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukieCommander
-  name: 犯罪集團行動指揮官人偶 | syndicate operative commander figure
+  name: 辛迪加行動指揮官人偶 | syndicate operative commander figure
   description: 一尊雕像，描繪了一位身穿強化型血紅色重型機甲的人物，其裝甲外觀類似於核武行動小組指揮官可能穿著的裝備。 | A figurine depicting someone in a beefed-up blood-red hardsuit, similar to what the commander of a nuclear operative team might wear.
   components:
   - type: Sprite
@@ -424,8 +424,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineFootsoldier
-  name: 黑幫小嘍囉形象 | syndicate footsoldier figure
-  description: 一尊展現黑幫小嘍囉裝束的小雕像。 | A figurine depicting the outfit of a syndicate footsoldier.
+  name: 辛迪加小嘍囉形象 | syndicate footsoldier figure
+  description: 一尊展現辛迪加小嘍囉裝束的小雕像。 | A figurine depicting the outfit of a syndicate footsoldier.
   components:
   - type: Sprite
     state: footsoldier

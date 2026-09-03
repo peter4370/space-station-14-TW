@@ -1,7 +1,7 @@
 - type: entity
   id: AirAlarmElectronics
   parent: BaseElectronics
-  name: 航空警報電子系統 | air alarm electronics
+  name: 空氣警報電子系統 | air alarm electronics
   description: 用於空氣警報器的電子電路板。 | An electronics board used in air alarms.
   components:
   - type: Sprite

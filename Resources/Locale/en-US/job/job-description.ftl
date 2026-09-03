@@ -46,7 +46,7 @@ job-description-tram-driver = 開車繞著電車行駛，從一個站到另一�
 job-description-borg = 利用您的機器人底盤來執行各式各樣的專門任務。
 job-description-station-ai = 在核心區的安全環境中，遠端操控太空站的攝影機、氣閘、無線電及其他電子設備。
 # Misc.
-job-description-centcommoff = 擔任與納諾特雷森艦隊中最新、最先進太空站之間的聯絡人。
+job-description-centcommoff = 擔任與 NanoTrasen 艦隊中最新、最先進太空站之間的聯絡人。
 job-description-ertchaplain = 請確保該站的工作人員已接受臨終聖事。
 job-description-ertengineer = 請確保工作站有電力供應且空氣清新。
 job-description-ertjanitor = 請確保工作站已徹底清潔並消毒。

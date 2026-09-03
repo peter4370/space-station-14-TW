@@ -187,8 +187,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
-  name: 太空梭輔助動力單元 | shuttle APU
-  description: 一臺用於太空梭的輔助動力單元——6千瓦。 | An auxiliary power unit for a shuttle - 6kW.
+  name: 穿梭機輔助動力單元 | shuttle APU
+  description: 一臺用於穿梭機的輔助動力單元——6千瓦。 | An auxiliary power unit for a shuttle - 6kW.
   suffix: APU, 6kW
   components:
   - type: PowerSupplier
@@ -211,8 +211,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPULV
-  name: 太空梭 LV 輔助動力單元 | shuttle LV APU
-  description: 一款用於太空梭的先進輔助動力單元。 | An advanced auxiliary power unit for a shuttle.
+  name: 穿梭機 LV 輔助動力單元 | shuttle LV APU
+  description: 一款用於穿梭機的先進輔助動力單元。 | An advanced auxiliary power unit for a shuttle.
   components:
   - type: NodeContainer
     examinable: true

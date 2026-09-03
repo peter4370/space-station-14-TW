@@ -64,8 +64,8 @@
 - type: entity
   parent: BaseTarget
   id: TargetSyndicate
-  name: 集團目標 | syndicate target
-  description: 一個射擊靶。這個靶是黑手黨的探員。 | A shooting target. This one is a syndicate agent.
+  name: 辛迪加目標 | syndicate target
+  description: 一個射擊靶。這個靶是辛迪加的探員。 | A shooting target. This one is a syndicate agent.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi

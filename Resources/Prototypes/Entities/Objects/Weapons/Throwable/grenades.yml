@@ -428,8 +428,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: 「trickybomb」組織 | syndicate trickybomb
-  description: 由犯罪集團製造的爆炸物，用來製造極佳的混淆視聽效果。 | A syndicate-manufactured explosive used to make an excellent distraction.
+  name: 辛迪加「trickybomb」 | syndicate trickybomb
+  description: 由辛迪加製造的爆炸物，用來製造極佳的混淆視聽效果。 | A syndicate-manufactured explosive used to make an excellent distraction.
   parent: [GrenadeDummy, BaseSyndicateContraband]
   id: SyndieTrickyBomb
   components:

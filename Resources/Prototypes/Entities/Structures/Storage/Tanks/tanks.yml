@@ -3,8 +3,8 @@
 - type: entity
   id: WeldingFuelTank
   parent: [StorageTank, StructureWheeled]
-  name: 油箱 | fuel tank
-  description: 一個燃料箱。它用於儲存大量燃料。 | A fuel tank. It's used to store high amounts of fuel.
+  name: 燃料罐 | fuel tank
+  description: 一個燃料罐。它用於儲存大量燃料。 | A fuel tank. It's used to store high amounts of fuel.
   suffix: Empty
   components:
   - type: StaticPrice
@@ -48,7 +48,7 @@
 - type: entity
   parent: [StorageTankBig, WeldingFuelTank] # StorageTankBig must come first, or else the desnity won't get inherited.
   id: WeldingFuelTankHighCapacity
-  name: 水箱 | high-capacity fuel tank
+  name: 水罐 | high-capacity fuel tank
   description: 一個水箱。它用於儲存大量的水。 | A highly pressurized fuel tank made to hold gargantuan amounts of welding fuel.
   suffix: Full
   components:
@@ -112,7 +112,7 @@
 - type: entity
   parent: [SolutionHuge, StorageTank]
   id: WaterCooler
-  name: 大容量水箱 | water cooler
+  name: 大容量水罐 | water cooler
   description: 一個專為儲存龐大水量而設計的高壓水箱。 | Seems like a good place to stand and waste time. It has a stock of paper cups on the side.
   components:
   - type: Sprite

@@ -53,7 +53,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazinePistolDebug
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -62,7 +62,7 @@
           tags:
             - MagazineDebug
       gun_chamber:
-        name: 商會 | Chamber
+        name: 膛內 | Chamber
         startingItem: CartridgeDebug
         priority: 1
         whitelist:

@@ -174,7 +174,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSecGrey
   name: 灰色防暴連身工作服 | grey security jumpsuit
-  description: 這是過去某個時期的戰術神器，那時「納諾特拉森」尚未決定，將防護服染成紅色比清洗掉血跡更划算。 | A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+  description: 這是過去某個時期的戰術神器，那時 NanoTrasen 尚未決定，將防護服染成紅色比清洗掉血跡更划算。 | A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/security_grey.rsi
@@ -185,7 +185,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformSecurityTrooper
   name: 騎警制服 | trooper uniform
-  description: 發給納諾特拉森突擊隊員的正式制服，通常會配有一輛車。 | A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
+  description: 發給 NanoTrasen 突擊隊員的正式制服，通常會配有一輛車。 | A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuits/Security/security_trooper.rsi

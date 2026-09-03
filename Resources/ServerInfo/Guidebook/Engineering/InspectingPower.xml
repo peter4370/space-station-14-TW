@@ -16,10 +16,10 @@
   太空站地圖顯示：
   - 太空站佈局圖，其中 [color=green]低[/color]、[color=yellow]中[/color] 及 [color=orange]高[/color] [textlink="電壓網路" link="VoltageNetworks"] 已被標示出來。
   - [textlink="所有 APC、SME 及變電站。" link="VoltageNetworks"]
-  - 所有連接至該變電站的 [textlink="發電設施" link="發電機組"]（請注意，這些設施無需連接至電力網即可顯示）。
+  - 所有連接至該變電站的 [textlink="發電設施" link="Generators"]（請注意，這些設施無需連接至電力網即可顯示）。
 
   電力統計數據顯示：
-  - [textlink="generator" link="發電機"] 的總輸出量，即發電機目前為滿足電網需求所產生的電力。
+  - [textlink="generator" link="Generators"] 的總輸出量，即發電機目前為滿足電網需求所產生的電力。
   - [textlink="電池" link="PowerStorage"]的總使用量，即從電池中汲取的電力總量。 完全由發電機供電的電網，其電池使用量將較低。
   - 總網路負載，即該電台所請求的電力總量。
 

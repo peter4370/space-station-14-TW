@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesBlindfold
-  name: 蒙眼 | blindfold
+  name: 眼罩 | blindfold
   description: 瞎子領瞎子。 | The bind leading the blind.
   components:
   - type: Sprite

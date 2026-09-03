@@ -40,7 +40,7 @@ book-text-chemistry-insane =
     我的第三個小訣竅。感謝閱讀！！ 伊戈爾化學
     
     結論：伊戈爾化學
-book-text-botanics = ** 納諾特森領土內發現的植物標本之應用 **
+book-text-botanics = ** NanoTrasen 內發現的植物標本之應用 **
     
     許多植物經研磨後，可提煉出有用的化學物質。S. (spessmens) papaver 及 S. aloe vera
     以其基本的療癒特性而聞名。

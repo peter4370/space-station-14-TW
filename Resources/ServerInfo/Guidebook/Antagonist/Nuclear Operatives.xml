@@ -12,7 +12,7 @@
     <GuideEntityEmbed Entity="PosterContrabandEnlistGorlex" Caption=""/>
   </Box>
 
-  你剛被選中，成為 [color=#ff0000]辛迪加[/color] 的核武特工。 你的目標只有一個，就是用核裂變炸藥炸毀納諾特拉森最頂尖的艦艇之一。
+  你剛被選中，成為 [color=#ff0000]辛迪加[/color] 的核武特工。 你的目標只有一個，就是用核裂變炸藥炸毀 NanoTrasen 最頂尖的艦艇之一。
 
   ## 特工
   你的團隊將由幾個不同角色組成，分別是：
@@ -72,13 +72,13 @@
   ## 前往車站
   計畫已定，裝備齊全。 現在，開始執行吧。
 
-  和其他特工一同前往你們的 [color=cyan]太空梭[/color]。
+  和其他特工一同前往你們的 [color=cyan]穿梭機[/color]。
   在機上，您會發現一個內含 [color=cyan]核武認證代碼[/color] 的文件夾。
-  記下代碼，然後 [bold]確認這枚核彈的識別碼是否與你太空梭上的核彈相符。[/bold] 如果不符，你將誤觸發太空站的核彈。
+  記下代碼，然後 [bold]確認這枚核彈的識別碼是否與你穿梭機上的核彈相符。[/bold] 如果不符，你將誤觸發穿梭機的核彈。
 
-  這架太空梭配備了一台 [color=cyan]識別友敵電腦[/color]。 當 [italic]顯示 IFF[/italic] 功能關閉時，此功能可讓您躲避其他船隻及大規模掃描器的偵測。
+  這架穿梭機配備了一台 [color=cyan]識別友敵電腦[/color]。 當 [italic]顯示 IFF[/italic] 功能關閉時，此功能可讓您躲避其他船隻及大規模掃描器的偵測。
 
-  當大家都準備就緒後，請使用 FTL 傳送至該站，並利用接駁船上的 [color=cyan]噴射背包[/color] 飛往該處。 別忘了帶上密碼、定位器，還有核彈（如果你要帶的話）。
+  當大家都準備就緒後，請使用FTL旅行至該站，並利用穿梭機上的 [color=cyan]噴射背包[/color] 飛往該處。 別忘了帶上密碼、定位器，還有核彈（如果你要帶的話）。
 
   <Box>
     <GuideEntityEmbed Entity="BoxFolderNuclearCodes"/>

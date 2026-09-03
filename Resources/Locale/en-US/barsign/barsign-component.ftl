@@ -118,7 +118,7 @@ barsign-prototype-description-emprah = 無論是狂熱分子、異端分子，�
 ## Spacebucks
 
 barsign-prototype-name-spacebucks = Spacebucks
-barsign-prototype-description-spacebucks = 你根本無法擺脫他們，即使在太空中也是如此，即使我們後來改稱他們為「spesos」也一樣。
+barsign-prototype-description-spacebucks = 你根本無法擺脫他們，即使在太空中也是如此，即使我們後來改稱他們為「斯佩索」也一樣。
 
 ## Maltroach
 
@@ -128,7 +128,7 @@ barsign-prototype-description-maltroach = 吱吱！
 ## Whiskey Echoes
 
 barsign-prototype-name-whiskeyechoes = 威士忌的迴響
-barsign-prototype-description-whiskeyechoes = 這是一家專為精英人士設立的酒吧——等等，這其實是納諾特拉森站。為什麼資料庫裡會有這個標誌？
+barsign-prototype-description-whiskeyechoes = 這是一家專為精英人士設立的酒吧——等等，這其實是 NanoTrasen 站。為什麼資料庫裡會有這個標誌？
 
 ## EmpBarSign
 

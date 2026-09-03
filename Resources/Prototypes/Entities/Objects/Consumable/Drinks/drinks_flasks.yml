@@ -30,8 +30,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkShinyFlask
-  name: 閃亮的燒瓶 | shiny flask
-  description: 一個閃亮的金屬燒瓶。上面似乎刻著一個希臘符號。 | A shiny metal flask. It appears to have a Greek symbol inscribed on it.
+  name: 閃亮的水壺 | shiny flask
+  description: 一個閃亮的金屬水壺。上面似乎刻著一個希臘符號。 | A shiny metal flask. It appears to have a Greek symbol inscribed on it.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shinyflask.rsi
@@ -40,7 +40,7 @@
   parent: FlaskBase
   id: DrinkMREFlask
   suffix: Full
-  name: MRE 飯盒 | MRE flask
+  name: MRE 水壺 | MRE flask
   description: 一只舊軍用水壺，裝滿了專為士兵準備的頂級飲品。 | An old military flask, filled with the finest contents for soldiers.
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 - type: entity
   parent: FlaskBase
   id: DrinkDetFlask
-  name: 檢查員的燒瓶 | inspector's flask
+  name: 檢查員的水壺 | inspector's flask
   description: 一個纏有皮帶並綴有金色徽章的金屬酒壺，屬於那位督察。 | A metal flask with a leather band and golden badge belonging to the inspector.
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskBar
-  name: 燒瓶 | flask
+  name: 水壺 | flask
   description: 一款可重複使用的金屬水壺。比直接從瓶子裡喝更顯格調。 | A reusable metal flask. Classier than drinking straight from a bottle.
   components:
     - type: Sprite

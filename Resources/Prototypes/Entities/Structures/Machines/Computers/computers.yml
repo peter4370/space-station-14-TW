@@ -90,8 +90,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerEmergencyShuttle
-  name: 緊急接駁控制台 | emergency shuttle console
-  description: 負責處理太空梭提前發射的授權事宜。 | Handles authorization to early launch the shuttle.
+  name: 緊急穿梭機控制台 | emergency shuttle console
+  description: 負責處理穿梭機提前發射的授權事宜。 | Handles authorization to early launch the shuttle.
   components:
   - type: AccessReader
     access:
@@ -114,7 +114,7 @@
   parent: BaseComputer
   id: BaseComputerShuttle
   name: 穿梭機控制台 | shuttle console
-  description: 曾擔任太空梭飛行員。 | Used to pilot a shuttle.
+  description: 曾擔任穿梭機飛行員。 | Used to pilot a shuttle.
   abstract: true
   components:
   - type: ShuttleConsole
@@ -155,7 +155,7 @@
   parent: BaseComputerShuttle
   id: ComputerShuttle
   name: 穿梭機控制台 | shuttle console
-  description: 曾擔任太空梭飛行員。 | Used to pilot a shuttle.
+  description: 曾擔任穿梭機飛行員。 | Used to pilot a shuttle.
   components:
   - type: Sprite
     layers:
@@ -176,7 +176,7 @@
   parent: BaseComputerShuttle
   id: ComputerShuttleSyndie
   name: 辛迪加穿梭機控制台 | syndicate shuttle console
-  description: 曾擔任一個財團穿梭機的機師。 | Used to pilot a syndicate shuttle.
+  description: 曾擔任辛迪加穿梭機的機師。 | Used to pilot a syndicate shuttle.
   components:
   - type: Sprite
     layers:
@@ -743,7 +743,7 @@
   parent: BaseComputerAiAccess
   id: ComputerComms
   name: 通訊電腦 | communications computer
-  description: 這台電腦用來透過鍵盤發布全站廣播、設定適當的警報等級，以及呼叫緊急接駁車。 | A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  description: 這台電腦用來透過鍵盤發布全站廣播、設定適當的警報等級，以及呼叫緊急穿梭機。 | A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
   - type: Sprite
     layers:
@@ -782,7 +782,7 @@
 - type: entity
   parent: ComputerComms
   id: SyndicateComputerComms
-  name: 集團通訊電腦 | syndicate communications computer
+  name: 辛迪加通訊電腦 | syndicate communications computer
   description: 一台能夠遠端入侵該站通訊系統的電腦。若利用此電腦發布廣播，將會讓該站察覺到你的存在。 | A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
   components:
   - type: Sprite
@@ -1174,7 +1174,7 @@
 - type: entity
   id: ComputerCargoBounty
   parent: BaseComputerAiAccess
-  name: 貨物賞金計算機 | cargo bounty computer
+  name: 貨運懸賞電腦 | cargo bounty computer
   description: 用於管理目前有效的懸賞。 | Used to manage currently active bounties.
   components:
   - type: Sprite
@@ -1479,7 +1479,7 @@
 - type: entity
   id: ComputerPalletConsole
   parent: BaseComputerAiAccess
-  name: 貨物銷售電腦 | cargo sale computer
+  name: 貨運銷售電腦 | cargo sale computer
   description: 用於銷售裝載於貨運托盤上的商品。 | Used to sell goods loaded onto cargo pallets.
   components:
   - type: Sprite
@@ -1828,7 +1828,7 @@
 - type: entity
   parent: BaseComputer
   id: ComputerNukieDelivery
-  name: 聯盟配送電腦 | syndicate delivery computer
+  name: 辛迪加配送電腦 | syndicate delivery computer
   description: "一款能為特定核能運作設備進行「藍空間」操作的電腦。 \n該電路板已整合至機架中，若拆解則無法回收。 | A computer that can bluespace in certain equipment for Nuclear Operations. \nThe circuitboard is integrated into the frame and can't be recovered if deconstructed."
   components:
   - type: Sprite

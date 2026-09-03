@@ -7,9 +7,9 @@
     <GuideEntityEmbed Entity="GasPassiveVent"/>
   </Box>
   氣體可在被動式通風口與其所連接的大氣之間自由流動。
-  被動式通風口運作時無需 [textlink="電源" link="電源"]。
+  被動式通風口運作時無需 [textlink="電源" link="Power"]。
 
-  此通風口通常設於該站點的 [textlink="天然氣儲存槽" link="GasMiningAndStorage"] 內，並連接至該站點的廢氣排放系統。
+  此通風口通常設於該站點的 [textlink="氣體儲存槽" link="GasMiningAndStorage"] 內，並連接至該站點的廢氣排放系統。
   這是一種簡單且可靠的方法，可用於從氣體採集器中抽出氣體，或將不需要的氣體安全地排放至外太空。
 
   可使用任何焊接工具將被動式通風口焊接封死，使其無法運作。

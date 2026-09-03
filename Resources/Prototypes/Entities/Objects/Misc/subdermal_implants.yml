@@ -374,7 +374,7 @@
   parent: BaseSubdermalImplant
   id: MindShieldImplant
   name: 心靈屏障植入物 | mindshield implant
-  description: 這枚植入物將確保對納諾特拉森的忠誠，並防止精神控制裝置的運作。 | This implant will ensure loyalty to Nanotrasen and prevent mind control devices.
+  description: 這枚植入物將確保對 NanoTrasen 的忠誠，並防止精神控制裝置的運作。 | This implant will ensure loyalty to Nanotrasen and prevent mind control devices.
   categories: [ HideSpawnMenu ]
   components:
    - type: SubdermalImplant

@@ -54,8 +54,8 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterVestTank
-  name: 儲氣罐束帶 | tank harness
-  description: 一款能固定瓦斯罐的簡易束帶。 | A simple harness that can hold a gas tank.
+  name: 儲罐束帶 | tank harness
+  description: 一款能固定氣體罐的簡易束帶。 | A simple harness that can hold a gas tank.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/tankharness.rsi

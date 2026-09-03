@@ -299,7 +299,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCargo
   categories: [ HideSpawnMenu ]
-  name: Cargo 冬季外套連帽款 | cargo winter coat hood
+  name: 貨運部冬季外套連帽款 | cargo winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcargo.rsi

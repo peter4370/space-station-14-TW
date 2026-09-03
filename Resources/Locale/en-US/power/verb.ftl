@@ -1,2 +1,2 @@
 # debug verb for allowing devices to work without requiring power.
-verb-debug-toggle-need-power = 切換電源
+verb-debug-toggle-need-power = 開關電源

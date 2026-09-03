@@ -26,11 +26,11 @@ emergency-shuttle-nearby = 緊急接駁船無法找到有效的對接埠。它�
 emergency-shuttle-extended = { " " }由於某些不可抗力因素，發射時間已延後。
 # Emergency shuttle console popup / announcement
 emergency-shuttle-console-no-early-launches = 「提前啟動」功能已停用
-emergency-shuttle-console-auth-left = { $remaining } 需取得相關授權，方能於太空梭提早發射前進行操作。
+emergency-shuttle-console-auth-left = { $remaining } 需取得相關授權，方能於穿梭機提早發射前進行操作。
 emergency-shuttle-console-auth-revoked = 撤銷早期發射授權，需取得 { $remaining } 授權。
 emergency-shuttle-console-denied = 存取遭拒
 # UI
-emergency-shuttle-console-window-title = 緊急接駁控制台
+emergency-shuttle-console-window-title = 緊急穿梭機控制
 emergency-shuttle-ui-engines = 引擎：
 emergency-shuttle-ui-idle = 閒置
 emergency-shuttle-ui-repeal-all = 全部廢除

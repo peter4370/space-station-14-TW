@@ -326,7 +326,7 @@
 - type: entity
   id: Biofabricator
   parent: BaseLathe
-  name: Biocube 製造機 | biocube fabricator
+  name: 生物方塊製造機 | biocube fabricator
   description: 利用生物質生產動物飼料塊。 | Produces animal cubes using biomass.
   components:
   - type: Sprite

@@ -15,8 +15,8 @@ station-ai-ghost-role-description = 以這名時刻保持警覺的人工智慧�
 # Radial actions
 ai-open = 待處理事項
 ai-close = 關閉操作
-bolt-close = 關閉螺栓
-bolt-open = 開膛
+bolt-close = 關閉膛室
+bolt-open = 上膛
 emergency-access-on = 啟用緊急存取
 emergency-access-off = 停用緊急存取
 electrify-door-on = 啟用過充功能

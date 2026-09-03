@@ -15,7 +15,7 @@
   該閥門的流量上限為 [color=orange][protodata="GasPressureRegulator" comp="GasPressureRegulator" member="MaxTransferRate"/] L/s[/color]。
 
   ## 應用範例
-  此閥門通常用於防止氣體系統中發生過壓情況，例如 [textlink="TEG" link="TEG"] 冷卻迴路及 [textlink="管線" link="管路"]，此類情況可能導致系統故障（例如 [textlink="泵浦" link="Pumps"] 堵塞）。
+  此閥門通常用於防止氣體系統中發生過壓情況，例如 [textlink="TEG" link="TEG"] 冷卻迴路及 [textlink="管線" link="Pipes"]，此類情況可能導致系統故障（例如 [textlink="泵浦" link="Pumps"] 堵塞）。
 
   該閥門亦可用於將燃燒室中已準備好且高溫的氣體排放出去。
   舉例來說，不應讓燃燒室的壓力長時間低於特定值，因為這可能會導致氣體過度冷卻而變得稀薄，進而造成火焰熄滅。

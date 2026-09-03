@@ -66,8 +66,8 @@
 - type: entity
   id: BiofabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: Biocube 製造機主板 | biocube fabricator machine board
-  description: 用於生物立方體製造機的機械印刷電路板。 | A machine printed circuit board for a biocube fabricator.
+  name: 生物方塊製造機主板 | biocube fabricator machine board
+  description: 用於生物方塊製造機的機械印刷電路板。 | A machine printed circuit board for a biocube fabricator.
   components:
   - type: Sprite
     state: service

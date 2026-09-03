@@ -6,9 +6,9 @@ pai-system-role-name = 個人人工智慧
 pai-system-role-description =
     成為某人的電子夥伴吧！
     （*不*包含回憶。）
-pai-system-role-name-syndicate = Syndicate 個人人工智慧
+pai-system-role-name-syndicate = 辛迪加個人人工智慧
 pai-system-role-description-syndicate =
-    成為某人的「Syndicate」夥伴吧！
+    成為某人的「辛迪加」夥伴吧！
     （回憶 *不* 包含在內。）
 pai-system-role-name-potato = 馬鈴薯人工智慧
 pai-system-role-description-potato = 這原本是給孩子玩的玩具。而現在，你卻住在裡面了。

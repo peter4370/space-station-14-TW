@@ -32,7 +32,7 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasPressurePump, GasPressurePumpAlt1, GasPressurePumpAlt2 ]
-  name: 加油機 | gas pump
+  name: 氣體泵 | gas pump
   description: 一種利用壓力輸送氣體的泵。 | A pump that moves gas by pressure.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
@@ -239,7 +239,7 @@
   parent: GasBinaryBase
   id: !type:CreateVariants
     values: [ GasPassiveGate, GasPassiveGateAlt1, GasPassiveGateAlt2 ]
-  name: 被動閘極 | passive gate
+  name: 被動閥 | passive gate
   description: 一種無需電源的單向氣閥。 | A one-way air valve that does not require power.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]

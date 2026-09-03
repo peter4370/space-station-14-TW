@@ -60,5 +60,5 @@ reagent-name-hemorrhinol = hemorrhinol
 reagent-desc-hemorrhinol = 一種會對血管造成嚴重損害，並導致急速出血的毒素。
 reagent-name-hivarol = hivarol
 reagent-desc-hivarol = 一種會攻擊體內特定類型細胞的毒素，會破壞群體意識的溝通，若該毒素存在，將引發劇烈疼痛。
-reagent-name-phosphoric-acid = 磷酸
+reagent-name-phosphoric-acid = 磷酸 phosphoric acid
 reagent-desc-phosphoric-acid = 一種常用于農業的酸性化學物質。請避免接觸眼睛。

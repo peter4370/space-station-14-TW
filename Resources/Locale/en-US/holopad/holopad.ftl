@@ -81,13 +81,13 @@ holopad-medical-front = 醫療部 - 前台
 holopad-medical-breakroom = 醫療部 - 休息室
 holopad-medical-clinic = 醫療部 - 診所
 # Cargo
-holopad-cargo-front = 貨艙 - 前部
-holopad-cargo-bay = 貨物部 - 貨艙
-holopad-cargo-salvage-bay = 貨物部 - 打撈港
-holopad-cargo-breakroom = 貨物部 - 休息室
-holopad-cargo-ats = 貨運 - ATS
-holopad-cargo-shuttle = 貨運 - 穿梭航班
-holopad-cargo-mailroom = 貨物部 - 郵件室
+holopad-cargo-front = 貨運部 - 前部
+holopad-cargo-bay = 貨運部 - 貨艙灣
+holopad-cargo-salvage-bay = 貨運部 - 打撈灣
+holopad-cargo-breakroom = 貨運部 - 休息室
+holopad-cargo-ats = 貨運部 - ATS
+holopad-cargo-shuttle = 貨運部 - 穿梭航班
+holopad-cargo-mailroom = 貨運部 - 郵件室
 # Engineering
 holopad-engineering-atmos-front = Atmos - 正面
 holopad-engineering-atmos-main = Atmos - 主頁
@@ -119,7 +119,7 @@ holopad-security-arrivals-checkpoint = 安保部 - 抵港檢查站
 holopad-service-janitor = 服務區 - 清潔工
 holopad-service-bar = 服務區 - 酒吧
 holopad-service-kitchen = 服務區 - 廚房
-holopad-service-botany = 服務區 - 植物區
+holopad-service-botany = 服務區 - 植物部
 holopad-service-chapel = 服務區 - 教堂
 holopad-service-library = 服務區 - 圖書館
 holopad-service-newsroom = 服務區 - 新聞中心
@@ -139,6 +139,6 @@ holopad-ai-entrance = AI - 入口
 holopad-ai-chute = AI - 滑槽
 # Long Range
 holopad-station-bridge = 太空站 - 艦橋
-holopad-station-cargo-bay = 太空站 - 貨艙區
+holopad-station-cargo-bay = 太空站 - 貨艙灣
 # CentComm
 holopad-centcomm-evac = CentComm - 疏散接駁車

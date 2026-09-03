@@ -45,7 +45,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskGoldenCursed
-  name: 金色面具 | golden mask
+  name: 黃金面具 | golden mask
   description: 這些面具過去曾用於詭異的啞劇中，但自從有位演員在舞台上發瘋後，便再也沒人使用它們了。你會發誓，當你轉頭不看時，那張臉會扭曲變形。 | Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.
   components:
   - type: Sprite

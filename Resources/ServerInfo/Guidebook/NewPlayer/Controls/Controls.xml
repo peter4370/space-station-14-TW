@@ -83,7 +83,7 @@
   標準的互動方式包括：點擊 [bold]表格[/bold] 將手持物品放置其中、以空手 [bold]使用[/bold] 環境中的物件，以及最常見的——使用手持物品與生物及其他物品進行互動。
 
   在某些情況下，您可以一邊持有所有物品，一邊點擊機器來直接 [color=cyan]交換物品[/color]。
-  例如，在手持一個量杯的同時，點擊另一台存放著另一個量杯的機器。 這方法同樣適用於空氣儲氣罐和氣瓶。
+  例如，在手持一個量杯的同時，點擊另一台存放著另一個量杯的機器。 這方法同樣適用於空氣儲氣罐和儲存桶。
 
   某些物品具有 [color=cyan]替代互動方式[/color] — 請使用 [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color] 來 [bold]鎖上[/bold] 儲物櫃、[bold]彈出[/bold] 其他物品中的子項目（例如電池）等。
 
@@ -166,7 +166,7 @@
 
   - [color=yellow][bold][keybind="SmartEquipBackpack"][/bold][/color] 自動裝備背包中的最後一個槽位。
   - [color=yellow][bold][keybind="SmartEquipBelt"][/bold][/color] 自動為腰帶槽裝備道具。
-  - [color=yellow][bold][keybind="SmartEquipPocket1"][/bold][/color]、[color=yellow][bold][keybind="SmartEquipPocket2"][/bold][/color] 以及 [color=yellow][bold][keybind="SmartEquipSuitStorage"][/bold][/color] 分別為左口袋、右口袋和西裝收納槽啟用智慧裝備功能。
+  - [color=yellow][bold][keybind="SmartEquipPocket1"][/bold][/color]、[color=yellow][bold][keybind="SmartEquipPocket2"][/bold][/color] 以及 [color=yellow][bold][keybind="SmartEquipSuitStorage"][/bold][/color] 分別為左口袋、右口袋和衣裝收納槽啟用智慧裝備功能。
 
   ### 整理背包中的物品
   透過 [color=cyan]重新排列[/color] 並使用 [color=yellow][bold][keybind="MoveStoredItem"][/bold][/color] 拖曳物品來重新排列。

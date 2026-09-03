@@ -32,7 +32,7 @@
     stackType: FloorTileStackShuttleBlue
 
 - type: entity
-  name: 橘色穿梭車地板 | orange shuttle floor
+  name: 橘色穿梭機地板 | orange shuttle floor
   parent: FloorTileItemBase
   id: FloorTileItemShuttleOrange
   components:
@@ -48,7 +48,7 @@
     stackType: FloorTileStackShuttleOrange
 
 - type: entity
-  name: 紫色穿梭車地板 | purple shuttle floor
+  name: 紫色穿梭機地板 | purple shuttle floor
   parent: FloorTileItemBase
   id: FloorTileItemShuttlePurple
   components:
@@ -80,7 +80,7 @@
     stackType: FloorTileStackShuttleRed
 
 - type: entity
-  name: 灰色梭織地毯 | grey shuttle floor
+  name: 灰色穿梭機地板 | grey shuttle floor
   parent: FloorTileItemBase
   id: FloorTileItemShuttleGrey
   components:
@@ -96,7 +96,7 @@
     stackType: FloorTileStackShuttleGrey
 
 - type: entity
-  name: 黑色梭形地板 | black shuttle floor
+  name: 黑色穿梭機地板 | black shuttle floor
   parent: FloorTileItemBase
   id: FloorTileItemShuttleBlack
   components:

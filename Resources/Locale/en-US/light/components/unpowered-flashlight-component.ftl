@@ -1,2 +1,2 @@
 # ToggleFlashlightVerb
-toggle-flashlight-verb-get-data-text = 切換手電筒
+toggle-flashlight-verb-get-data-text = 開關手電筒

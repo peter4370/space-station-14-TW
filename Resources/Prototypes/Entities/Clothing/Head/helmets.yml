@@ -405,7 +405,7 @@
   parent: [ BaseCentcommContraband, ClothingHeadHelmetArmoredBase ]
   id: ClothingHeadHelmetERTLeader
   name: ERT 領隊頭盔 | ERT leader helmet
-  description: 這是由納諾特拉森緊急應變小組組長所佩戴的「大氣環境用頭盔」，飾有藍色亮點。 | An in-atmosphere helmet worn by the leader of a Nanotrasen Emergency Response Team. Has blue highlights.
+  description: 這是由 NanoTrasen 緊急應變小組組長所佩戴的「大氣環境用頭盔」，飾有藍色亮點。 | An in-atmosphere helmet worn by the leader of a Nanotrasen Emergency Response Team. Has blue highlights.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ert_leader.rsi
@@ -420,7 +420,7 @@
   parent: ClothingHeadHelmetERTLeader
   id: ClothingHeadHelmetERTSecurity
   name: ERT 安全頭盔 | ERT security helmet
-  description: 這是納諾特雷森緊急應變小組安保人員所佩戴的氣壓式頭盔。頭盔上帶有紅色裝飾。 | An in-atmosphere helmet worn by security members of the Nanotrasen Emergency Response Team. Has red highlights.
+  description: 這是 NanoTrasen 緊急應變小組安保人員所佩戴的氣壓式頭盔。頭盔上帶有紅色裝飾。 | An in-atmosphere helmet worn by security members of the Nanotrasen Emergency Response Team. Has red highlights.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ert_security.rsi
@@ -435,7 +435,7 @@
   parent: ClothingHeadHelmetERTLeader
   id: ClothingHeadHelmetERTMedic
   name: ERT 醫療人員頭盔 | ERT medic helmet
-  description: 這是「納諾特森緊急應變小組」醫療人員所配戴的常壓頭盔，帶有白色亮點。 | An in-atmosphere helmet worn by medical members of the Nanotrasen Emergency Response Team. Has white highlights.
+  description: 這是 NanoTrasen 緊急應變小組醫療人員所配戴的常壓頭盔，帶有白色亮點。 | An in-atmosphere helmet worn by medical members of the Nanotrasen Emergency Response Team. Has white highlights.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ert_medic.rsi
@@ -450,7 +450,7 @@
   parent: ClothingHeadHelmetERTLeader
   id: ClothingHeadHelmetERTEngineer
   name: ERT 工程師安全帽 | ERT engineer helmet
-  description: 這是一款由納諾特森緊急應變小組工程人員佩戴的大氣環境用頭盔，配有橘色點綴。 | An in-atmosphere helmet worn by engineering members of the Nanotrasen Emergency Response Team. Has orange highlights.
+  description: 這是一款由 NanoTrasen 緊急應變小組工程人員佩戴的大氣環境用頭盔，配有橘色點綴。 | An in-atmosphere helmet worn by engineering members of the Nanotrasen Emergency Response Team. Has orange highlights.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ert_engineer.rsi
@@ -465,7 +465,7 @@
   parent: ClothingHeadHelmetERTLeader
   id: ClothingHeadHelmetERTJanitor
   name: ERT 清潔工安全帽 | ERT janitor helmet
-  description: 這是「奈米特森」緊急應變小組清潔人員所配戴的氣內式頭盔，飾有深紫色點綴。 | An in-atmosphere helmet worn by janitorial members of the Nanotrasen Emergency Response Team. Has dark purple highlights.
+  description: 這是 NanoTrasen 緊急應變小組清潔人員所配戴的氣內式頭盔，飾有深紫色點綴。 | An in-atmosphere helmet worn by janitorial members of the Nanotrasen Emergency Response Team. Has dark purple highlights.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
@@ -478,7 +478,7 @@
 - type: entity
   parent: [ BaseSyndicateContraband, ClothingHeadHelmetBase ]
   id: ClothingHeadHelmetRaid
-  name: 「辛迪加」突襲頭盔 | syndicate raid helmet
+  name: 辛迪加突襲頭盔 | syndicate raid helmet
   description: 一款搭配「黑手黨突襲服」使用的裝甲頭盔。非常時尚。 | An armored helmet for use with the syndicate raid suit. Very stylish.
   components:
   - type: Sprite

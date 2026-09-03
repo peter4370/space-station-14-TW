@@ -13,7 +13,7 @@
   可使用任何焊接工具對洗滌塔進行焊接，使其停止運作。
 
   ## 設定選項
-  當 [textlink="連結" link="網路連線"] 至 [textlink="空氣警報" link="AirAlarms"] 時，空氣淨化器將具備更多功能。
+  當 [textlink="連結" link="Networking"] 至 [textlink="空氣警報" link="AirAlarms"] 時，空氣淨化器將具備更多功能。
 
   可在「氣體過濾器」下拉式選單中設定需進行洗滌的目標氣體。 請注意，若您變更 [textlink="air alarm" link="AirAlarms"] 模式，此設定將會重置。
 

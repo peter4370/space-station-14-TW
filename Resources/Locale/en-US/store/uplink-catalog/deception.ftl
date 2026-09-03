@@ -1,7 +1,7 @@
 # Deception
 
 uplink-syndicate-id-card-name = 辛迪加身分證
-uplink-syndicate-id-card-desc = 一張「Syndicate」身分證，具備「Syndicate」通行權限。單獨使用時可能派不上用場，但與重新設定過的門搭配使用效果極佳。不具備複製通行權限的功能。
+uplink-syndicate-id-card-desc = 一張辛迪加身分證，具備辛迪加通行權限。單獨使用時可能派不上用場，但與重新設定過的門搭配使用效果極佳。不具備複製通行權限的功能。
 uplink-agent-id-card-name = 經紀人身份證
 uplink-agent-id-card-desc = 一張經過修改的ID卡，能夠複製其他卡片的通行權限，並可隨意變更其姓名及職稱。
 uplink-stealth-box-name = 隱形盒
@@ -17,12 +17,12 @@ uplink-cyberpen-desc = Cybersun Legal 使用的鑽頭筆。可用於修改蓋章
 uplink-decoy-disk-name = 誘餌核盤
 uplink-decoy-disk-desc = 一片印有透鏡式圖案的塑膠片，設計成類似核武認證盤的樣貌。
 uplink-bribe-name = 遊說套裝
-uplink-bribe-desc = 三萬張無標記的斯佩索，用於法律地位可疑的投資。隨附黑手黨加密金鑰、絕緣戰鬥手套及防眩光太陽眼鏡。是真鈔還是假鈔？兩者皆是。
-uplink-exploding-syndicate-bomb-fake-name = 「誘餌聯盟」炸彈
-uplink-exploding-syndicate-bomb-fake-desc = 一枚精心製作、外觀與真彈一模一樣的訓練用炸彈。各方面都與黑幫炸彈相似，但僅會引發微小的爆炸。
+uplink-bribe-desc = 三萬張無標記的斯佩索，用於法律地位可疑的投資。隨附辛迪加加密金鑰、絕緣戰鬥手套及防眩光太陽眼鏡。是真鈔還是假鈔？兩者皆是。
+uplink-exploding-syndicate-bomb-fake-name = 誘餌辛迪加炸彈
+uplink-exploding-syndicate-bomb-fake-desc = 一枚精心製作、外觀與真彈一模一樣的訓練用炸彈。各方面都與辛迪加炸彈相似，但僅會引發微小的爆炸。
 uplink-travel-camera-name = 旅遊相機
 uplink-travel-camera-desc = 用你的攝影技巧和那支既方便又合法的相機閃光燈，讓大家驚豔不已。這會讓你看起來像個觀光客。
 uplink-smuggler-satchel-name = 走私者的背包
 uplink-smuggler-satchel-desc = 一個方便攜帶、看起來可疑的肩包。厚度剛剛好，可以塞進地磚底下。
 uplink-weighted-coin-name = 加重硬幣
-uplink-weighted-coin-desc = 一枚總會落在「反」面的特殊硬幣，其設計外觀仿照納諾特拉森站內常見的「正反」硬幣。
+uplink-weighted-coin-desc = 一枚總會落在「反」面的特殊硬幣，其設計外觀仿照 NanoTrasen 站內常見的「正反」硬幣。

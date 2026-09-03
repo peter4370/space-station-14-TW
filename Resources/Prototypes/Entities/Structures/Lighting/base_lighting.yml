@@ -76,7 +76,7 @@
 - type: entity
   parent: [ BaseWallLight, BaseLightHousingDestructible ]
   id: AlwaysPoweredWallLight
-  name: 光 | light
+  name: 燈 | light
   suffix: Always powered
   description: "一盞始終通電的燈。 | An always powered light."
   components:
@@ -104,7 +104,7 @@
 - type: entity
   parent: AlwaysPoweredWallLight
   id: PoweredlightEmpty
-  name: 光 | light
+  name: 燈 | light
   suffix: Empty
   description: "一種照明裝置。當裝上燈管時，會從電源汲取電力並發出光線。 | A light fixture. Draws power and produces light when equipped with a light tube."
   components:

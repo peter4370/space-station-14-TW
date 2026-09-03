@@ -29,7 +29,7 @@
   id: ClosetEmergency
   name: 緊急儲物櫃 | emergency closet
   parent: ClosetSteelBase
-  description: 這是用來存放緊急用呼吸面罩和氧氣瓶的儲物櫃。 | It's a storage unit for emergency breath masks and O2 tanks.
+  description: 這是用來存放緊急用呼吸面罩和氧氣罐的儲物櫃。 | It's a storage unit for emergency breath masks and O2 tanks.
   components:
   - type: Appearance
   - type: EntityStorageVisuals

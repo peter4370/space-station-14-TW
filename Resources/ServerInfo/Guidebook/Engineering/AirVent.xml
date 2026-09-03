@@ -34,7 +34,7 @@
   它們洩漏的氣體量取決於其所連接的管網當前的壓力。
 
   ## 設定選項
-  當 [textlink="連結" link="網路連線"] 至 [textlink="空氣警報" link="AirAlarms"] 時，通風口將具備更多功能。
+  當 [textlink="連結" link="Networking"] 至 [textlink="空氣警報" link="AirAlarms"] 時，通風口將具備更多功能。
 
   通風口有兩種「通風方向」選項：排氣與虹吸。
   - 所謂「排放」，指的只是將連接到管線系統中的氣體釋放到大氣中。

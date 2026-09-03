@@ -90,7 +90,7 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: shiv | shiv
+  name: 自製小刀 | shiv
   id: ScalpelShiv
   parent: Scalpel
   description: 一塊尖銳的玻璃，邊緣經過打磨，並用膠帶纏繞作為握柄。 # Could become a decent tool or weapon with right tool mods. | A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.

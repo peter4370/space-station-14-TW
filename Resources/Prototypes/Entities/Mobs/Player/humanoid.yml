@@ -594,7 +594,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerSyndicateAgent
-  name: 財團代理人 | syndicate agent
+  name: 辛迪加特工 | syndicate agent
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi

@@ -159,7 +159,7 @@
   parent: BaseSoap
   id: SoapletSyndie
   name: soaplet | soaplet
-  description: 一塊小小的黑幫肥皂劇。 | A tiny piece of syndicate soap.
+  description: 一塊小小的辛迪加肥皂。 | A tiny piece of syndicate soap.
   categories: [ HideSpawnMenu ]
   components:
   - type: Solution

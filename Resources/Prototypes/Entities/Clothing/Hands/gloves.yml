@@ -525,7 +525,7 @@
 - type: entity
   parent: [ClothingHandsKnuckleDusters, BaseMinorContraband] #Craftable version of base knuckledusters
   id: ClothingHandsKnuckleDustersBrass
-  name: QM 的金色指節套 | brass knuckle dusters
+  name: 司務長的黃金指節套 | brass knuckle dusters
   description: "融合了塑鋼材質的24K金，並鐫刻有Nanotrasen標誌。這正是司務長威力的真正象徵。 | Brass knuckle dusters, just like how they used to make em and still hit just as hard."
   components:
   - type: Sprite
@@ -544,7 +544,7 @@
 - type: entity
   parent: [ClothingHandsBase, BaseGrandTheftContraband]
   id: ClothingHandsKnuckleDustersQM
-  name: 黑幫鐵指環 | QM's golden knuckle dusters
+  name: 辛迪加鐵指虎 | QM's golden knuckle dusters
   description: "印有血紅色「S」標誌的「Plastitanium」指節銅環。真正的男人會用這些把人打死。 | 24karat gold infused with plasteel and branded with the Nanotrasen logo. A true symbol of the Quartermaster's might."
   components:
   - type: Sprite

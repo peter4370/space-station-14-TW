@@ -31,7 +31,7 @@ comms-console-announcement-unknown-sender = 未知
 # Comms console variant titles
 comms-console-announcement-title-station = 通訊主控台
 comms-console-announcement-title-centcom = 中央司令部
-comms-console-announcement-title-nukie = 「辛迪加」核武特工
+comms-console-announcement-title-nukie = 辛迪加核武特工
 comms-console-announcement-title-station-ai = Station AI
 comms-console-announcement-title-wizard = 巫師
 # Flavor text for alert levels

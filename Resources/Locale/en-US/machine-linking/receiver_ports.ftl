@@ -1,6 +1,6 @@
 signal-port-name-autoclose = 自動關閉
 signal-port-description-autoclose = 切換裝置是否應自動關閉。
-signal-port-name-toggle = 切換
+signal-port-name-toggle = 開關
 signal-port-description-toggle = 切換裝置的狀態。
 signal-port-name-on-receiver = 開啟
 signal-port-description-on-receiver = 開啟裝置。
@@ -23,7 +23,7 @@ signal-port-description-timer = 啟動裝置的計時器倒數。
 signal-port-name-order-sender = 訂單寄件人
 signal-port-description-order-sender = 貨運控制台訂單發送者
 signal-port-name-order-receiver = 訂單收件人
-signal-port-description-order-receiver = 貨艙控制台訂單接收器
+signal-port-description-order-receiver = 貨運控制台訂單接收器
 signal-port-name-pressurize = 加壓
 signal-port-description-pressurize = 使裝置開始釋放空氣，直到達到某個目標壓力為止。
 signal-port-name-depressurize = 減壓

@@ -230,7 +230,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSuitMonkey
-  name: 西裝 | monkey suit
+  name: 猴子裝 | monkey suit
   description: 一套看起來像靈長類動物的西裝。 | A suit that looks like a primate.
   components:
   - type: Sprite

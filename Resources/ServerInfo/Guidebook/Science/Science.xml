@@ -20,15 +20,15 @@
 
 每項技術都需要消耗 [color=#a4885c]研究點數[/color]，並能在車床上解鎖配方。 某些技術還設有先決條件，必須先解鎖這些條件，才能進行相關研究。
 
-[textlink="點擊此處查看技術清單。" link="技術"].
+[textlink="點擊此處查看技術清單。" link="Technologies"]。
 
 ## 學科領域
 技術涵蓋 4 個不同的學科領域：
   <Box>
     <GuideEntityEmbed Entity="Wrench" Caption="工業"/>
     <GuideEntityEmbed Entity="WeaponTetherGun" Caption="實驗性"/>
-    <GuideEntityEmbed Entity="ComputerTelevision" Caption="公務員體系"/>
-    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="阿森納"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="公共服務"/>
+    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="軍火"/>
   </Box>
 
 <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> 請使用您附近的 RnD 控制台，查看各學科樹背後鎖定的是哪種研究。

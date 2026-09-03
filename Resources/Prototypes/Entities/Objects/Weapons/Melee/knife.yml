@@ -256,7 +256,7 @@
     sprite: Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
-  name: shiv | shiv
+  name: 自製小刀 | shiv
   parent: [BaseKnife, BaseMinorContraband]
   id: Shiv
   description: 一件由布條和玻璃碎片製成的粗陋武器。 | A crude weapon fashioned from a piece of cloth and a glass shard.
@@ -297,7 +297,7 @@
         friction: 0.2
 
 - type: entity
-  name: 加固型匕首 | reinforced shiv
+  name: 加固的自製小刀 | reinforced shiv
   parent: Shiv
   id: ReinforcedShiv
   description: 一種由一塊布和一片強化玻璃碎片製成的粗糙武器。 | A crude weapon fashioned from a piece of cloth and a reinforced glass shard.
@@ -316,7 +316,7 @@
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
-  name: 等離子匕首 | plasma shiv
+  name: 等離子小刀 | plasma shiv
   parent: Shiv
   id: PlasmaShiv
   description: 一種用一塊布和一塊等離子玻璃碎片製成的粗糙武器。 | A crude weapon fashioned from a piece of cloth and a plasma glass shard.
@@ -335,7 +335,7 @@
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
-  name: 鈾製短劍 | uranium shiv
+  name: 鈾製小刀 | uranium shiv
   parent: Shiv
   id: UraniumShiv
   description: 一種用布片和鈾玻璃碎片製成的粗糙武器。這違反了《日內瓦公約》！ | A crude weapon fashioned from a piece of cloth and a uranium glass shard. Violates the geneva convention!

@@ -100,13 +100,13 @@ construction-graph-tag-station-ai-core-electronics = 站用 AI 核心電子設�
 construction-graph-tag-multitool = 多功能工具
 construction-graph-tag-health-analyzer = 健康分析儀
 # utils
-construction-graph-tag-air-alarm-electronics = 航空警報電子系統
+construction-graph-tag-air-alarm-electronics = 空氣警報電子系統
 construction-graph-tag-fire-alarm-electronics = 火災警報電子裝置
 construction-graph-tag-mailing-unit-electronics = 郵寄裝置電子元件
 construction-graph-tag-intercom-electronics = 對講機電子設備
 construction-graph-tag-solar-assembly-parts = 太陽能組件零件
 construction-graph-tag-solar-tracker-electronics = 太陽能追蹤器電子元件
-construction-graph-tag-station-map-electronics = 太空站地圖 電子產品
+construction-graph-tag-station-map-electronics = 太空站地圖 電子零件
 construction-graph-tag-signal-timer-electronics = 訊號計時器電子元件
 construction-graph-tag-screen-timer-electronics = 螢幕計時器電子元件
 construction-graph-tag-brig-timer-electronics = 囚室計時器電子元件
@@ -128,7 +128,7 @@ construction-graph-tag-yellow-crystal-shard = 黃色水晶碎片
 construction-graph-tag-black-crystal-shard = 黑色水晶碎片
 # unknown
 construction-graph-tag-weapon-pistol-chimp-upgrade-kit = 手槍 CHIMP 升級套件
-construction-graph-tag-torch = 火炬
+construction-graph-tag-torch = 火把
 # atmos
 construction-graph-tag-fire-extinguisher = 滅火器
 construction-graph-tag-fire-helmet = 消防頭盔

@@ -51,8 +51,8 @@
 - type: entity
   id: BannerCargo
   parent: BannerBase
-  name: 貨物橫幅 | cargo banner
-  description: 一幅展示貨運部門色彩的橫幅。不是。卡戈尼亞。 | A banner displaying the colors of the cargo department. Not. Cargonia.
+  name: 貨運橫幅 | cargo banner
+  description: 一幅展示貨運部門色彩的橫幅。並非。貨運國。 | A banner displaying the colors of the cargo department. Not. Cargonia.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -91,8 +91,8 @@
 - type: entity
   id: BannerSyndicate
   parent: BannerBase
-  name: 集團橫幅 | syndicate banner
-  description: 根據該聯盟的說法，這是一幅應該讓你對 NT 產生憎恨的橫幅。 | A banner from which, according to the syndicate, you should feel hatred for NT.
+  name: 辛迪加橫幅 | syndicate banner
+  description: 根據該辛迪加的說法，這是一幅應該讓你對 NT 產生憎恨的橫幅。 | A banner from which, according to the syndicate, you should feel hatred for NT.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

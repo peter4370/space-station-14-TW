@@ -218,7 +218,7 @@
   parent: BaseScrap
   id: ScrapCanister2
   name: 氣罐閥 | canister valve
-  description: 一個來自瓦斯罐的閥門。 | A valve from a gas canister.
+  description: 一個來自氣體罐的閥門。 | A valve from a gas canister.
   components:
   - type: Sprite
     layers:
@@ -494,7 +494,7 @@
   parent: BaseScrapLarge
   id: ScrapGeneratorPlasmaLeaking
   name: 洩漏的 P.A.C.M.A.N. 發電機 | leaking P.A.C.M.A.N. generator
-  description: 一台外觀老舊的 P.A.C.M.A.N. 發電機，其等離子儲槽開始滲漏。 | An old looking P.A.C.M.A.N. generator whos plasma tanks started leaking.
+  description: 一台外觀老舊的 P.A.C.M.A.N. 發電機，其等離子儲罐開始滲漏。 | An old looking P.A.C.M.A.N. generator whos plasma tanks started leaking.
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi
@@ -594,8 +594,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapGeneratorFuelTank
-  name: 油箱 | fuel tank
-  description: 一個來自 S.U.P.E.R.P.A.C.M.A.N. 型發電機的燃料箱。儀表顯示燃料所剩無幾。 | A fuel tank from a S.U.P.E.R.P.A.C.M.A.N. type generator. The gauge indicates its got a little fuel left.
+  name: 燃料罐 | fuel tank
+  description: 一個來自 S.U.P.E.R.P.A.C.M.A.N. 型發電機的燃料罐。儀表顯示燃料所剩無幾。 | A fuel tank from a S.U.P.E.R.P.A.C.M.A.N. type generator. The gauge indicates its got a little fuel left.
   components:
   - type: Sprite
     sprite: Objects/Materials/Scrap/generator.rsi

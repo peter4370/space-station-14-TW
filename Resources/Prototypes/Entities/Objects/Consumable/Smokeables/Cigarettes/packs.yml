@@ -158,7 +158,7 @@
 - type: entity
   id: CigPackBlue
   parent: CigPackBase
-  name: AcmeCo 封包 | AcmeCo packet
+  name: AcmeCo 煙盒 | AcmeCo packet
   description: 給那些不知為何想要創下「患癌腫瘤數量最多」這項紀錄的人。 | For those who somehow want to obtain the record for the most amount of cancerous tumors.
   components:
   - type: Sprite

@@ -2,7 +2,7 @@
   id: CameraBug
   parent: [ BaseItem, BaseSyndicateContraband ]
   name: 相機錯誤 | camera bug
-  description: 一種非法組織所研發的裝置，可讓您駭入該電台的攝影機網路。 | An illegal syndicate device that allows you to hack into the station's camera network.
+  description: 一種辛迪加所研發的裝置，可讓您駭入該電台的攝影機網路。 | An illegal syndicate device that allows you to hack into the station's camera network.
   components:
   - type: Sprite
     sprite: Objects/Devices/camera_bug.rsi

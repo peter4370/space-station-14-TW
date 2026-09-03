@@ -1,7 +1,7 @@
 ﻿
 <Document>
-  # 天然氣開採與儲存
-  天然氣通常會被長期使用。 無論這些氣體是因 [textlink="space" link="間距"] 而流失，還是被用於燃燒室，該站都必須能夠產生更多氣體，以彌補流失的部分。
+  # 氣體開採與儲存
+  氣體通常會被長期使用。 無論這些氣體是因 [textlink="space" link="Spacing"] 而流失，還是被用於燃燒室，該站都必須能夠產生更多氣體，以彌補流失的部分。
   此外，還需要以安全且有效率的方式儲存這種氣體。
 
   ## 燃料採集者
@@ -17,7 +17,7 @@
   您可以透過使用 [color=yellow][bold][keybind="ExamineEntity"][/bold][/color] 來檢視這些氣體採礦者，以獲取更多相關資訊。
   不妨仔細檢視上述的氣體礦工。
 
-  氣體礦工分為不同等級，其中較大型的機型其高壓截止值比小型機型更高。
+  氣體開採機分為不同等級，其中較大型的機型其高壓截止值比小型機型更高。
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
@@ -53,15 +53,15 @@
   </Box>
 
   <Box>
-    [color=#999999][italic]小型氣體儲存槽的範例[italic][/color]
+    [color=#999999][italic]小型氣體儲存罐的範例[italic][/color]
   </Box>
 
-  各種氣體處理流程會將氣體注入氣體儲存槽，並從中抽出氣體。
+  各種氣體處理流程會將氣體注入氣體儲存罐，並從中抽出氣體。
   例如：
-  - 若儲氣罐尚有餘裕，氣體開採機便會向儲氣罐輸送新鮮氣體。
-  - 「Recyclernet」將回收的氣體注入氣體儲存槽中以供再利用。
-  - 像「氣體分配網」和「燃燒室」這類裝置，能將氣體從氣體儲存槽中排出。
+  - 若氣體儲存罐尚有餘裕，氣體開採機便會向儲氣罐輸送新鮮氣體。
+  - 「Recyclernet」將回收的氣體注入氣體儲存罐中以供再利用。
+  - 像「氣體分配網」和「燃燒室」這類裝置，能將氣體從氣體儲存罐中排出。
 
-  氣體儲存槽的設計，使其能夠透過 [textlink="氣體分析儀" link="AtmosTools"] 進行測量。
-  由於流出通風口屬於 [textlink="被動式通風口" link="PassiveVent"]， 您可以使用 [textlink="氣體分析儀" link="AtmosTools"] 來測量 [textlink="泵" link="Pumps"] 進氣口的氣體成分，該進氣口是從氣體儲存槽中抽取氣體的。
+  氣體儲存罐的設計，使其能夠透過 [textlink="氣體分析儀" link="AtmosTools"] 進行測量。
+  由於流出通風口屬於 [textlink="被動式通風口" link="PassiveVent"]， 您可以使用 [textlink="氣體分析儀" link="AtmosTools"] 來測量 [textlink="泵" link="Pumps"] 進氣口的氣體成分，該進氣口是從氣體儲存罐中抽取氣體的。
 </Document>

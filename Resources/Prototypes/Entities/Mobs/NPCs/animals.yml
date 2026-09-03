@@ -1963,7 +1963,7 @@
     - type: GuidebookControlsTest
 
 - type: entity
-  name: 滑鼠 | mouse
+  name: 老鼠 | mouse
   parent: [SimpleMobBase, BaseMobAnimal, SolutionVermin, BaseSlicingRefinable, MobNightVision]
   id: MobMouse
   description: 吱吱！ | Squeak!
@@ -2144,7 +2144,7 @@
   suffix: Dead
   save: false
   id: MobMouseDead
-  name: 滑鼠 | mouse
+  name: 老鼠 | mouse
   description: 吱吱！ | Squeak!
   components:
   - type: Damageable

@@ -37,7 +37,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -47,7 +47,7 @@
             - MagazinePistolSubMachineGun
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: 商會 | Chamber
+        name: 膛內 | Chamber
         priority: 1
         whitelist:
           tags:
@@ -201,7 +201,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: 雜誌 | Magazine
+          name: 彈匣 | Magazine
           startingItem: MagazinePistolSubMachineGun
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -211,7 +211,7 @@
               - MagazinePistolSubMachineGun
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
-          name: 商會 | Chamber
+          name: 膛內 | Chamber
           priority: 1
           whitelist:
             tags:
@@ -262,7 +262,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazinePistolSubMachineGunTopMounted
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -272,7 +272,7 @@
             - MagazinePistolSubMachineGunTopMounted
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: 商會 | Chamber
+        name: 膛內 | Chamber
         priority: 1
         whitelist:
           tags:

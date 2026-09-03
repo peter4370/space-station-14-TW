@@ -117,7 +117,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterCargo
-  name: Cargo 冬季靴 | cargo winter boots
+  name: 貨運部 冬季靴 | cargo winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootscargo.rsi

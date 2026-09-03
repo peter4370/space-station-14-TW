@@ -2,7 +2,7 @@
   abstract: true
   parent: [BaseDeltaPressureGlass, BaseStructure]
   id: BaseWindowStructure
-  name: 視窗 | window
+  name: 窗戶 | window
   description: 別把那裡的玻璃弄髒了。 | Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter

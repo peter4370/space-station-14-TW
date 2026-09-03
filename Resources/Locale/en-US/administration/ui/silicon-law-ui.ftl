@@ -1,5 +1,5 @@
 ﻿silicon-law-ui-verb = Manage Laws
-silicon-law-ui-title = 管理員編輯：矽谷法則
+silicon-law-ui-title = 管理員編輯：矽基法則
 silicon-law-ui-new-law = 新法律
 silicon-law-ui-save = 儲存變更
 silicon-law-ui-plus-one = +1

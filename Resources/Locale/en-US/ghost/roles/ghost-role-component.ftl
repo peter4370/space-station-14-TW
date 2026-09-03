@@ -35,7 +35,7 @@ ghost-role-information-silicon-rules =
     你不記得前世的任何事，也不記得身為幽靈時學到的任何事物。
     你可以記得關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
     你絕對 [color=red]不[/color]能記得，例如你前一角色的名字、外貌等。
-ghost-role-information-mouse-name = 滑鼠
+ghost-role-information-mouse-name = 老鼠
 ghost-role-information-mouse-description = 一隻飢餓又調皮的小老鼠。
 ghost-role-information-cancer-mouse-name = 癌症小鼠
 ghost-role-information-cancer-mouse-description = 一隻遭受輻射的小鼠，散播你的災厄，並尋找食物吧。
@@ -142,20 +142,20 @@ ghost-role-information-cburn-agent-name = CBURN 代理程式
 ghost-role-information-cburn-agent-description = 一名受過高度訓練的中央司令部特工，能夠應對各種威脅。
 ghost-role-information-centcom-official-name = CentComm 官方
 ghost-role-information-centcom-official-description = 執行與 CentComm 相關的職務，例如巡查站內、為各部門主管撰寫績效評估，以及管理傳真機。
-ghost-role-information-nukeop-rules = 你是一名 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color]，與其他所有核武特工並肩行動。無法保證秘密組織的特工會協助你。
+ghost-role-information-nukeop-rules = 你是一名 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color]，與其他所有核武特工並肩行動。無法保證辛迪加的特工會協助你。
 ghost-role-information-loneop-name = 獨行特工
 ghost-role-information-loneop-description = 你是一名孤身一人的核武特工。摧毀這座基地！
-ghost-role-information-loneop-rules = 你是 [color={ role-type-team-antagonist-color }][bold]{ role-type-solo-antagonist-name }[/bold][/color]。秘密組織的特工未必會幫助你。
+ghost-role-information-loneop-rules = 你是 [color={ role-type-team-antagonist-color }][bold]{ role-type-solo-antagonist-name }[/bold][/color]。辛迪加的特工未必會幫助你。
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = 你是反派，會給那些不追隨「喇叭媽媽」的人帶來死亡與喇叭聲。
 ghost-role-information-hellspawn-name = 地獄之子
 ghost-role-information-hellspawn-description = 讓那些不追隨偉大之神納爾·西的人死去。
 ghost-role-information-Death-Squad-name = 死亡小隊成員
-ghost-role-information-Death-Squad-description = 納諾特森（Nanotrasen）的頂尖內部事務探員之一。等待中央指揮部（CentComm）或相關官員的指示。
+ghost-role-information-Death-Squad-description = Nanotrasen的頂尖內部事務探員之一。等待中央指揮部或相關官員的指示。
 ghost-role-information-Death-Squad-rules = 你必須服從上級下達的命令，你實際上就是他們的 [color={ role-type-familiar-color }][bold]{ role-type-familiar-name }[/bold][/color]。
 ghost-role-information-SyndiCat-name = SyndiCat
 ghost-role-information-SyndiCat-description = 你是核武特工手下那隻攜帶微型炸彈、受過訓練的忠實寵物。為主人效命至死！
-ghost-role-information-SyndiCat-rules = 你與召喚你的代理人之間存在著 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] 的關係。
+ghost-role-information-SyndiCat-rules = 你與召喚你的特工之間存在著 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] 的關係。
 ghost-role-information-Cak-name = Cak
 ghost-role-information-Cak-description = 你是主廚最寵愛的孩子。你簡直就是一隻活生生的蛋糕貓。
 ghost-role-information-BreadDog-name = BreadDog
@@ -164,14 +164,14 @@ ghost-role-information-space-ninja-name = 太空忍者
 ghost-role-information-space-ninja-description = 運用潛行與欺騙手段，破壞該站。
 ghost-role-information-paradox-clone-name = 《Paradox》克隆版
 ghost-role-information-paradox-clone-description = 一場離奇的時空異常將你傳送到了另一個現實！現在，你必須找到你的分身，並將其殺死並取而代之。
-ghost-role-information-syndicate-reinforcement-name = 辛迪加代理人
-ghost-role-information-syndicate-reinforcement-description = 有人需要增援。你——這個犯罪集團能找到的第一個人——將協助他們。
-ghost-role-information-syndicate-reinforcement-rules = 你與召喚你的代理人之間存在著 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] 的關係。
+ghost-role-information-syndicate-reinforcement-name = 辛迪加特工
+ghost-role-information-syndicate-reinforcement-description = 有人需要增援。你——辛迪加能找到的第一個人——將協助他們。
+ghost-role-information-syndicate-reinforcement-rules = 你與召喚你的特工之間存在著 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] 的關係。
 ghost-role-information-syndicate-reinforcement-medic-name = 「辛迪加」醫護人員
 ghost-role-information-syndicate-reinforcement-medic-description = 有人需要增援。你的任務是確保那位打電話給你的特工能活下來。
-ghost-role-information-syndicate-reinforcement-spy-name = 黑手黨間諜
+ghost-role-information-syndicate-reinforcement-spy-name = 辛迪加間諜
 ghost-role-information-syndicate-reinforcement-spy-description = 有人需要增援。你的專長是間諜活動，切勿暴露行蹤。
-ghost-role-information-syndicate-reinforcement-thief-name = 黑幫竊賊
+ghost-role-information-syndicate-reinforcement-thief-name = 辛迪加竊賊
 ghost-role-information-syndicate-reinforcement-thief-description = 有人需要支援。你的任務是潛入現場，為你的特工取回某樣貴重物品。
 ghost-role-information-nukeop-reinforcement-name = 核武特工
 ghost-role-information-nukeop-reinforcement-description = 核武特工需要增援。身為預備役特工的你，將協助他們。
@@ -202,7 +202,7 @@ ghost-role-information-medical-virologist-name = 病毒學家
 ghost-role-information-medical-geneticist-name = 遺傳學家
 ghost-role-information-medical-dentist-name = 牙醫
 ghost-role-information-medical-description = 您是一位醫療專業人員，但似乎陷入了一種奇怪的處境……
-ghost-role-information-cargo-name = 貨物部
+ghost-role-information-cargo-name = 貨運部
 ghost-role-information-cargo-description = 你正參與一項物流任務，但似乎陷入了一種奇怪的處境……
 ghost-role-information-engineering-name = 工程部
 ghost-role-information-engineering-description = 你正在執行一項工程任務，但似乎陷入了一種奇怪的處境……
@@ -222,7 +222,7 @@ ghost-role-information-lost-challenge-commander-rules =
     你可以記住關於遊戲的一般知識，例如如何烹飪、如何使用物品等。
     你絕對[color=red]不[/color]能記住，例如你前一個角色的名字、外貌等。
 ghost-role-information-lost-challenge-cargo-technican-name = 貨運司機
-ghost-role-information-lost-challenge-cargo-technican-description = 你是一名貨運技術人員，獲准與其中一位指揮官一同上岸休假。
+ghost-role-information-lost-challenge-cargo-technican-description = 你是一名貨運技術員，獲准與其中一位指揮官一同上岸休假。
 ghost-role-information-lost-challenge-cargo-technican-rules =
     你對這座太空站並無敵意，請採取必要措施確保自身生存。
     你完全不記得前世的事，也不記得身為幽靈時學過的一切。
@@ -231,8 +231,8 @@ ghost-role-information-lost-challenge-cargo-technican-rules =
 ghost-role-information-disaster-victim-name = 災民
 ghost-role-information-disaster-victim-description = 你是在一艘逃生艙中獲救的，那艘艙來自另一座遭遇慘烈命運的太空站。或許你會被發現並獲救。
 ghost-role-information-syndie-disaster-victim-name = 「辛迪加」災難受害者
-ghost-role-information-syndie-disaster-victim-description = 你是來自某個聯盟站點的常客。不幸的是，一艘撤離艙將你拋入敵方區域……
-ghost-role-information-syndie-soldier-name = 黑手黨士兵
+ghost-role-information-syndie-disaster-victim-description = 你是來自某個辛迪加站點的常客。不幸的是，一艘撤離艙將你拋入敵方區域……
+ghost-role-information-syndie-soldier-name = 辛迪加士兵
 ghost-role-information-syndie-soldier-description = 你是「辛迪加」的一名士兵。
 ghost-role-information-syndie-soldier-teamlead-name = 辛迪加團隊負責人
 ghost-role-information-syndie-soldier-teamlead-description = 你是「辛迪加」特務行動小組的火力小組組長。

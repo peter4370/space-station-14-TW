@@ -127,7 +127,7 @@
 - type: entity
   id: SyndimovCircuitBoard
   parent: [BaseSiliconLawboard, BaseSyndicateContraband]
-  name: 法律委員會（辛迪莫夫） | law board (Syndimov)
+  name: 法律委員會（辛迪莫夫 Syndimov） | law board (Syndimov)
   description: 一塊內含 Syndimov 法則集的電子電路板。 | An electronics board containing the Syndimov lawset.
   components:
   - type: SiliconLawProvider
@@ -139,7 +139,7 @@
 - type: entity
   id: NutimovCircuitBoard
   parent: BaseSiliconLawboard
-  name: 法律委員會（努蒂莫夫） | law board (Nutimov)
+  name: 法律委員會（努蒂莫夫 Nutimov） | law board (Nutimov)
   description: 一塊內含 Nutimov 法則集的電子電路板。 | An electronics board containing the Nutimov lawset.
   components:
   - type: SiliconLawProvider

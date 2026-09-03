@@ -5,7 +5,7 @@ steal-target-groups-clothing-outer-hardsuit-rd = 實驗性研究型動力裝甲
 steal-target-groups-hand-teleporter = 手部傳送器
 steal-target-groups-clothing-shoes-boots-mag-adv = 進階型磁力靴
 steal-target-groups-box-folder-qm-clipboard = 申請數位白板
-steal-target-groups-clothing-hands-knuckledusters-qm = 金色指節套
+steal-target-groups-clothing-hands-knuckledusters-qm = 黃金指節套
 steal-target-groups-food-meat-corgi = 頂級柯基肉
 steal-target-groups-captain-id-card = 船長ID卡
 steal-target-groups-jetpack-captain-filled = 船長的噴射背包
@@ -47,14 +47,14 @@ steal-target-groups-captain-sword = 船長軍刀
 # Thief structures
 steal-target-groups-teg = teg 產生器部件
 steal-target-groups-freezer-heater = 冷凍櫃或暖氣機
-steal-target-groups-altar-nanotrasen = 納諾特拉森祭壇（任一）
+steal-target-groups-altar-nanotrasen =  NanoTrasen 祭壇（任一）
 steal-target-groups-nuclear-bomb = 核裂變爆炸裝置
 steal-target-groups-fax-machine-captain = 「船長」長距離傳真機
 steal-target-groups-chem-dispenser = 化學藥劑分配器
 steal-target-groups-xeno-artifact = 外星神器
 steal-target-groups-booze-dispenser = 酒類自動販賣機
 steal-target-groups-plant-rd = 「RD 的盆栽」
-steal-target-groups-toilet-golden-dirty-water = 金色馬桶
+steal-target-groups-toilet-golden-dirty-water = 黃金馬桶
 # Thief Animal
 steal-target-groups-animal-named-cat = CMO 的貓
 steal-target-groups-animal-ian = 伊恩

@@ -51,7 +51,7 @@
   id: ArrivalsShuttleTimer
   parent: Screen
   name: 抵港螢幕 | arrivals screen
-  description: 顯示接駁車預計抵達時間。 | Displays time of arrivals shuttle ETA.
+  description: 顯示穿梭機預計抵達時間。 | Displays time of arrivals shuttle ETA.
   components:
   - type: DeviceNetwork
     deviceNetId: Private

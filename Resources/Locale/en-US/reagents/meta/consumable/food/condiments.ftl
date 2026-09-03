@@ -1,4 +1,4 @@
-reagent-name-astrotame = Astrotame
+reagent-name-astrotame = 阿星巴甜
 reagent-desc-astrotame = 擁有千種糖的甜味，卻不含任何熱量。
 reagent-name-bbq-sauce = 燒烤醬
 reagent-desc-bbq-sauce = 不包含濕紙巾。

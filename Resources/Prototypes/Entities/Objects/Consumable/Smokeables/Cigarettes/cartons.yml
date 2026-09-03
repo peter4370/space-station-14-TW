@@ -46,7 +46,7 @@
 - type: entity
   id: CigCartonBlue
   parent: CigCartonGreen
-  name: AcmeCo 紙箱 | AcmeCo carton
+  name: AcmeCo 紙盒 | AcmeCo carton
   description: 一盒，內含 6 包 AcmeCo. 產品。 | A carton containing 6 packets of AcmeCo.
   components:
   - type: Sprite

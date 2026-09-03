@@ -1,6 +1,6 @@
 ﻿### Loc for the pneumatic cannon.
 
-pneumatic-cannon-component-itemslot-name = 油箱
+pneumatic-cannon-component-itemslot-name = 氣罐
 
 ## Shown when trying to fire, but no gas
 

@@ -9,7 +9,7 @@
     <GuideEntityEmbed Entity="GasPassiveGate"/>
     <GuideEntityEmbed Entity="GasPressureRegulator"/>
   </Box>
-  並非所有閥門都需要 [textlink="電源" link="電源"] 才能運作。
+  並非所有閥門都需要 [textlink="電源" link="Power"] 才能運作。
 
   閥門看似簡單，卻能實現各式各樣的複雜管路系統，包括：
   - 響應空氣警報或邏輯閘輸出訊號的信號閥

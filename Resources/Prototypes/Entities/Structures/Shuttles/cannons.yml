@@ -72,7 +72,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -130,7 +130,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -230,7 +230,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         priority: 2
         whitelist:
           tags:

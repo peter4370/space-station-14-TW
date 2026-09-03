@@ -107,7 +107,7 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobCargotechnician
-  name: 貨運技術員蜥蜴絨毛玩偶 | cargo technician lizard plushie
+  name: 貨運技術員蜥蜴人絨毛玩偶 | cargo technician lizard plushie
   description: 一隻可愛的毛絨玩具，外形酷似擔任貨運技術員的蜥蜴人。它的鱗片上沾著一些泡棉顆粒碎屑。 | An adorable stuffed toy that resembles a lizardperson as a cargo technician. Crumbs of packing peanuts are stuck to its scales.
   components:
   - type: Sprite

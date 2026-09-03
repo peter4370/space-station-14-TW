@@ -6,6 +6,6 @@ admin-ui-atmos-grid = 網格
 admin-ui-atmos-grid-current = 當前
 admin-ui-atmos-tile-x = TileX
 admin-ui-atmos-tile-y = TileY
-admin-ui-atmos-gas = 瓦斯
+admin-ui-atmos-gas = 氣體
 admin-ui-atmos-gas-amount = 金額
 admin-ui-atmos-temperature = 溫度

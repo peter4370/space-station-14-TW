@@ -51,7 +51,7 @@
 - type: entity
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
   id: BaseUplinkRadio
-  name: 聯盟上行鏈路 | syndicate uplink
+  name: 辛迪加上行鏈路 | syndicate uplink
   description: 這台看起來很可疑的舊收音機…… | Suspiciously looking old radio...
   suffix: Empty
   components:

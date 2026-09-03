@@ -27,6 +27,6 @@ atmos-alerts-window-invalid-state = 已停用
 atmos-alerts-window-no-active-alerts = [font size=16][color=white]無有效警報 -[/color] [color={ $color }]情況正常[/color][/font]
 atmos-alerts-window-no-data-available = 無資料可用
 atmos-alerts-window-alerts-being-silenced = 靜音提醒...
-atmos-alerts-window-toggle-overlays = 切換鬧鐘顯示
+atmos-alerts-window-toggle-overlays = 警報顯示
 atmos-alerts-window-flavor-left = 請聯絡大氣技術人員以獲取協助
 atmos-alerts-window-flavor-right = v1.8

@@ -3,7 +3,7 @@
 
 # Bound Interface
 
-gas-canister-bound-user-interface-title = 瓦斯罐
+gas-canister-bound-user-interface-title = 氣體罐
 # Popup
 gas-canister-popup-denied = 存取遭拒
 

@@ -16,7 +16,7 @@
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
     <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
-    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="QM"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="司務長"/>
   </Box>
 
 ## 擔當領導職責

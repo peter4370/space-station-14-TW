@@ -87,7 +87,7 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketAstrotame
-  name: Astrotame | Astrotame
+  name: 阿星巴甜 | Astrotame
   description: 擁有千種糖的甜味，卻不含任何熱量。 | The sweetness of a thousand sugars but none of the calories.
   components:
   - type: Solution
@@ -517,7 +517,7 @@
   parent: [SolutionVeryTiny, BaseFoodCondiment] # TODO: This should not inherit TrashOnSolutionEmpty, SpaceGarbage and the price of 0
   id: BaseFoodShaker
   abstract: true
-  name: 空的搖盅 | empty shaker
+  name: 空的搖酒器 | empty shaker
   description: 一種用於儲存和分裝香料的調味料罐。 | A shaker used to store and dispense spices.
   components:
   - type: Item

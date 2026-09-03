@@ -112,7 +112,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCargo
-  name: Cargo 冬季大衣 | cargo winter coat
+  name: 貨運部 冬季大衣 | cargo winter coat
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi

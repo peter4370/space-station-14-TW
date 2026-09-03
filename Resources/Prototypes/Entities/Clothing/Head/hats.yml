@@ -71,7 +71,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatSecurityTrooper
   name: 騎警帽 | trooper hat
-  description: 這是納諾特拉森突擊隊的戰地帽。據說還應該附帶一個收納盒…… | A campaign hat for the Nanotrasen Troopers. It's supposed to come with a case, too...
+  description: 這是 NanoTrasen 突擊隊的戰地帽。據說還應該附帶一個收納盒…… | A campaign hat for the Nanotrasen Troopers. It's supposed to come with a case, too...
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/security_trooper_hat.rsi
@@ -1413,7 +1413,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyBountyHunter
-  name: 賞金獵人牛仔帽 | bounty hunter cowboy hat
+  name: 懸賞獵人 牛仔帽 | bounty hunter cowboy hat
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi

@@ -3,7 +3,7 @@
   id: WardrobeBase
   parent: ClosetSteelBase
   abstract: true
-  description: 這是用來存放標準配備的納諾特拉森制服的儲物櫃。 | It's a storage unit for standard-issue Nanotrasen attire.
+  description: 這是用來存放標準配備的 NanoTrasen 制服的儲物櫃。 | It's a storage unit for standard-issue Nanotrasen attire.
 
 # Colored
 
@@ -169,7 +169,7 @@
   id: WardrobeChapel
   parent: WardrobeBlack
   name: 軍牧的衣櫥 | chaplain's wardrobe
-  description: 這是用來存放經納諾特拉森（Nanotrasen）核准之宗教服飾的儲物間。 | It's a storage unit for Nanotrasen-approved religious attire.
+  description: 這是用來存放經 NanoTrasen 核准之宗教服飾的儲物間。 | It's a storage unit for Nanotrasen-approved religious attire.
 
 - type: entity
   id: ClosetLegal

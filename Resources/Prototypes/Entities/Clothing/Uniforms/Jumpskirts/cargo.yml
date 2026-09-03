@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargo
-  name: Cargo Tech 跳躍式短裙 | cargo tech jumpskirt
+  name: 貨運部技術 跳躍式短裙 | cargo tech jumpskirt
   description: 一款結實耐用的跳傘裙，發放給貨運部門的成員。 | A sturdy jumpskirt, issued to members of the Cargo department.
   components:
   - type: Sprite

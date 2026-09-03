@@ -1,6 +1,6 @@
 stamp-component-stamped-name-default = 一位非常重要的人物
 stamp-component-stamped-name-detective = 偵探
-stamp-component-stamped-name-mime = 默劇
+stamp-component-stamped-name-mime = 默劇演員
 stamp-component-stamped-name-captain = 船長
 stamp-component-stamped-name-centcom = CentComm
 stamp-component-stamped-name-chaplain = 軍牧

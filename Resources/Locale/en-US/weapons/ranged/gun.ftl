@@ -26,10 +26,10 @@ gun-battery-examine = 它的電量足以射擊 [color={ $color }]{ $count }[/col
 # CartridgeAmmoProvider
 gun-chamber-bolt-ammo = 槍枝未上膛
 gun-chamber-bolt = 該螺栓的顏色是 [color={ $color }]{ $bolt }[/color]。
-gun-chamber-bolt-closed = 閉鎖狀態
-gun-chamber-bolt-opened = 開鎖狀態
-gun-chamber-bolt-close = 關閉螺栓
-gun-chamber-bolt-open = 開膛
+gun-chamber-bolt-closed = 已清空
+gun-chamber-bolt-opened = 已上膛
+gun-chamber-bolt-close = 清空膛室
+gun-chamber-bolt-open = 上膛
 gun-chamber-bolt-closed-state = 開啟
 gun-chamber-bolt-open-state = 已關閉
 gun-chamber-rack = 機架

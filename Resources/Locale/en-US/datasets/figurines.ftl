@@ -11,25 +11,25 @@ figurines-captain-8 = 身居高位確實不易。
 
 # Cargo
 
-figurines-qm-1 = 是誰偷了那輛穿梭車？
+figurines-qm-1 = 是誰偷了那輛穿梭機？
 figurines-qm-2 = 等等，我的數位白板去哪了？
 figurines-qm-3 = 那批槍枝的運送，我可沒批准！
 figurines-qm-4 = 給我的小丑夥伴一個玩具箱！
 figurines-qm-5 = 是時候賭一把了！
-figurines-qm-6 = 卡戈尼亞萬歲！
+figurines-qm-6 = 貨運國萬歲！
 figurines-qm-7 = 我們的錢都去哪兒了？
 figurines-qm-8 = 99% 的賭徒都在即將大贏之前就收手了！
 figurines-cargotech-1 = DRAGON 登上 ATS！
 figurines-cargotech-2 = 我把電台賣掉了！
-figurines-cargotech-3 = 腦力獎金？我根本沒有腦子。
+figurines-cargotech-3 = 大腦懸賞？我根本沒有腦子。
 figurines-cargotech-4 = 你的價值是 3000 斯佩索。恭喜。
-figurines-cargotech-5 = 蔬菜豐收？反正沒人吃那些。
-figurines-cargotech-6 = 我們要脫離了！！萬歲，卡戈尼亞！！
+figurines-cargotech-5 = 蔬菜懸賞？反正沒人吃那些。
+figurines-cargotech-6 = 我們要脫離了！！萬歲，貨運國！！
 figurines-cargotech-7 = 在 Cargo 舉辦的披薩派對！
 figurines-cargotech-8 = 郵件源源不絕……
 figurines-cargotech-9 = 沒有什麼能阻擋郵件！
 figurines-cargotech-10 = 小丑面具的懸賞？好吧，我先找把武器來……
-figurines-cargotech-11 = 雷射賞金？如果我們改寄練習用雷射，應該沒人會發現吧？
+figurines-cargotech-11 = 雷射懸賞？如果我們改寄練習用雷射，應該沒人會發現吧？
 figurines-salvage-1 = 大型動物？這簡直輕鬆到不行。
 figurines-salvage-2 = 我們迷路了。有人帶了 GPS 嗎？
 figurines-salvage-3 = 有人有氧氣嗎？
@@ -95,7 +95,7 @@ figurines-paramedic-5 = 小丑的房間裡有14具屍體。
 # Science
 
 figurines-rd-1 = 把所有博格人都炸飛！
-figurines-rd-2 = 第三級的阿森納？才不會呢。
+figurines-rd-2 = 第三級的軍火？才不會呢。
 figurines-rd-3 = 呃……我的動力裝甲到底放哪兒了呢……？
 figurines-rd-4 = 現在你已經開始用「傳送門」來思考了！
 figurines-rd-5 = 那塊蛋糕是騙人的！
@@ -259,8 +259,8 @@ figurines-AI-7 = { law-nutimov-4 }
 figurines-footsoldier-1 = 我是一個邪惡的小男孩。每天都越來越不像小男孩，卻越來越邪惡。
 figurines-footsoldier-2 = 你會選擇誰？他們還是我們？我們還是他們？
 figurines-footsoldier-3 = 榮耀歸於辛迪加！
-figurines-footsoldier-4 = 打倒納諾特森！
-figurines-footsoldier-5 = 我寧死也不願加入納諾特森。
+figurines-footsoldier-4 = 打倒 NanoTrasen ！
+figurines-footsoldier-5 = 我寧死也不願加入 NanoTrasen 。
 figurines-holoclown-1 = 我正在幫我哥哥。
 figurines-holoclown-2 = 警官，您好！
 figurines-holoclown-3 = 你說誰是藍色？

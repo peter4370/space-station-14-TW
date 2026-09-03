@@ -41,7 +41,7 @@ lathe-category-robotics = 機器人學
 # Security TechFab
 lathe-category-ammo = 彈藥
 lathe-category-boxes = 盒子
-lathe-category-magazines = 雜誌
+lathe-category-magazines = 彈匣
 # Uniform
 lathe-category-bedsheets = 床單
 lathe-category-carpets = 地毯

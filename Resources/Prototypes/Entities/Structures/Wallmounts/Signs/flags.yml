@@ -29,7 +29,7 @@
 - type: entity
   parent: BaseFlag
   id: SyndieFlag
-  name: 集團旗幟 | syndicate flag
+  name: 辛迪加旗幟 | syndicate flag
   description: 聞起來血腥味濃。NT 去死吧！ | Smells bloody. Death to NT!
   components:
   - type: Sprite

@@ -2,7 +2,7 @@
 <Document>
   # 打撈
 
-  [color=cyan]打撈[/color] 是《Cargo》中既關鍵又最危險的收入來源之一。 「Salvage」從 [color=cyan]太空碎片[/color] 和神秘的 [color=cyan]採礦小行星[/color] 中獲取資金。
+  [color=cyan]打撈[/color] 是貨運部中既關鍵又最危險的收入來源之一。 「Salvage」從 [color=cyan]太空碎片[/color] 和神秘的 [color=cyan]採礦小行星[/color] 中獲取資金。
 
   儘管太空的虛無充滿了各種恐怖，但只要做好充分準備並協調得當，任何打撈隊都能為「貨運」賺取大筆金錢。
 
@@ -124,7 +124,7 @@
     <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
   </Box>
 
-  「打撈磁鐵」可提供關於沉船尺寸的資訊。 打撈殘骸在威脅程度和價值方面差異極大，但其威脅類型通常比 [color=cyan]太空碎片[/color] 更加多元。 請與敵人保持距離，並使用 [color=cyan]原動能加速器[/color] 向他們開火。 留意有價值的戰利品和機械設備，並使用你的 [color=cyan]鑑定工具[/color] 來確認各種物品的價值。
+  「打撈磁鐵」可提供關於沉船尺寸的資訊。 打撈殘骸在威脅程度和價值方面差異極大，但其威脅類型通常比 [color=cyan]太空碎片[/color] 更加多元。 請與敵人保持距離，並使用 [color=cyan]原動能加速器[/color] 向他們開火。 留意有價值的戰利品和機械設備，並使用你的 [color=cyan]評估工具[/color] 來確認各種物品的價值。
 
   ## 進度與升級
 
@@ -136,9 +136,9 @@
     <GuideEntityEmbed Entity="ComputerSalvageJobBoard"/>
   </Box>
 
-  [color=cyan]打撈工作佈告欄[/color] 是一台位於打撈區的電腦。 這是「打撈」系統中的 [color=cyan]貨物賞金電腦[/color]，讓打撈者能利用打撈專屬的材料完成特定任務，藉此賺取斯佩索並解鎖 [color=yellow]進階打撈裝備[/color]。
+  [color=cyan]打撈工作佈告欄[/color] 是一台位於打撈灣的電腦。 這是「打撈」系統中的 [color=cyan]貨物懸賞電腦[/color]，讓打撈者能利用打撈專屬的材料完成特定任務，藉此賺取斯佩索並解鎖 [color=yellow]進階打撈裝備[/color]。
 
-  當您備齊完成任務所需的物資後，請列印一份 [color=cyan]打撈任務貨運標籤[/color]，並將其貼在裝有貨物的木箱或儲物櫃上。 您可以使用您的 [color=cyan]估價工具[/color] 再次確認該物品是否已準備好出售。 準備好的賞金隨後可帶至 [color=cyan]自動交易站[/color]，以賺取貨運斯佩索，並在 [color=cyan]貨運請求電腦[/color] 中解鎖新的「打撈」專用貨箱。
+  當您備齊完成任務所需的物資後，請列印一份 [color=cyan]打撈任務貨運標籤[/color]，並將其貼在裝有貨物的貨箱或儲物櫃上。 您可以使用您的 [color=cyan]評估工具[/color] 再次確認該物品是否已準備好出售。 準備好的懸賞隨後可帶至 [color=cyan]自動交易站[/color]，以賺取貨運斯佩索，並在 [color=cyan]貨運請求電腦[/color] 中解鎖新的「打撈」專用貨箱。
 
   <Box>
     <GuideEntityEmbed Entity="Fulton1"/>
@@ -177,7 +177,7 @@
 
   ## 採礦小行星
 
-  當你覺得自己已經掌握了「打撈磁鐵」的使用技巧後，遠處的 [color=red]採礦小行星[/color] 便是打撈者旅程中的下一站。 要抵達採礦小行星，通常需要搭乘太空梭或使用噴射背包；由於內部存在極度危險，一般不應獨自前往探勘。
+  當你覺得自己已經掌握了「打撈磁鐵」的使用技巧後，遠處的 [color=red]採礦小行星[/color] 便是打撈者旅程中的下一站。 要抵達採礦小行星，通常需要搭乘穿梭機或使用噴射背包；由於內部存在極度危險，一般不應獨自前往探勘。
 
   <Box>
     <GuideEntityEmbed Entity="MobGoliath"/>

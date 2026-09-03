@@ -2,7 +2,7 @@
   id: WeaponSprayNozzle
   parent: BaseItem
   name: 噴嘴 | spray nozzle
-  description: 一款高壓噴嘴，搭配背負式水箱使用。 | A high-powered spray nozzle used in conjunction with a backpack-mounted water tank.
+  description: 一款高壓噴嘴，搭配背負式水罐使用。 | A high-powered spray nozzle used in conjunction with a backpack-mounted water tank.
   components:
   - type: Tag
     tags:

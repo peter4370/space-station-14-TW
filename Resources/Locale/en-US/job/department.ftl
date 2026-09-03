@@ -1,4 +1,4 @@
-department-Cargo = 貨物部
+department-Cargo = 貨運部
 department-Civilian = 平民
 department-Command = 指揮部
 department-CentralCommand = 中央司令部

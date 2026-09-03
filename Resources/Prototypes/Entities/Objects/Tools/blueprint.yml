@@ -46,7 +46,7 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintDoubleEmergencyTank
-  name: 雙緊急儲槽設計圖 | double emergency tank blueprint
+  name: 雙緊急儲罐設計圖 | double emergency tank blueprint
   description: 一份包含雙緊急儲罐示意圖的藍圖。可將其放入自動車床中。 | A blueprint with a schematic of a double emergency tank. It can be inserted into an autolathe.
   components:
   - type: Blueprint

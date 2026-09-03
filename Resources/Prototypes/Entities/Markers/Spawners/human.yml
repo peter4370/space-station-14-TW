@@ -1,5 +1,5 @@
 - type: entity
-  name: 黑幫基層成員生成器 | syndicate footsoldier spawner
+  name: 辛迪加基層成員生成器 | syndicate footsoldier spawner
   id: SpawnMobSyndicateFootSoldier
   parent: MarkerBase
   components:

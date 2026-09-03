@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseElectronics
   id: StationMapCircuitboard
-  name: 太空站地圖 電子產品 | station map electronics
+  name: 太空站地圖 電子零件 | station map electronics
   description: 用於太空站地圖的電子電路板。 | An electronics board used in station maps.
   components:
   - type: Item

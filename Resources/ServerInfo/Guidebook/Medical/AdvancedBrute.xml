@@ -1,9 +1,9 @@
 
 <Document>
 
-  # 特殊「蠻力」化學物質
+  # 特殊「外傷」化學物質
 
-  Nanotrasen 最頂尖的科學家們又合成了三種更特殊的「蠻力」化學物質！ 每種都能治療特定類型的傷害。
+  Nanotrasen 最頂尖的科學家們又合成了三種更特殊的「外傷」化學物質！ 每種都能治療特定類型的傷害。
 
   <GuideReagentEmbed Reagent="Bruizine"/>
   <GuideReagentEmbed Reagent="Puncturase"/>
@@ -11,7 +11,7 @@
 
   # Razorium
 
-  使用上述特殊強效化學品時，請 [color=red]謹慎行事[/color]。 若將其與另一種粗糙的化學物質混合，所產生的混合物將會形成一種名為「拉佐里姆」的危險化學物質！
+  使用上述特殊外傷化學品時，請 [color=red]謹慎行事[/color]。 若將其與另一種粗糙的化學物質混合，所產生的混合物將會形成一種名為「拉佐里姆」的危險化學物質！
   <GuideReagentEmbed Reagent="Razorium"/>
   為避免這種情況，請確保患者已完全代謝完一種藥物後，再給予另一種藥物。 請密切留意他們的健康狀況變化速度。
 

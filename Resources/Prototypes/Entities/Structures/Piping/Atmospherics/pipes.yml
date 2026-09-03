@@ -323,7 +323,7 @@
   id: GasPipeBroken
   parent: [ GasPipeSansLayersIndestructible, BaseGasPipeLayers, StructureHealthFurniture ]
   name: 破裂的管道 | broken pipe
-  description: 它以前是用來儲存天然氣的。 | It used to hold gas.
+  description: 它以前是用來儲存氣體的。 | It used to hold gas.
   components:
   - type: Sprite
     layers:

@@ -23,4 +23,4 @@ teleporter-name-medical = 醫療
 teleporter-name-engineering = 工程部
 teleporter-name-security = 安保部
 teleporter-name-science = 科學
-teleporter-name-cargo = 貨物部
+teleporter-name-cargo = 貨運部

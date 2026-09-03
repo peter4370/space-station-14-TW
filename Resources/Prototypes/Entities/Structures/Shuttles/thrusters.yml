@@ -2,7 +2,7 @@
   id: BaseThruster
   parent: BaseStructureDynamic
   name: 推進器 | thruster
-  description: 一種能讓太空梭移動的推進器。 | A thruster that allows a shuttle to move.
+  description: 一種能讓穿梭機移動的推進器。 | A thruster that allows a shuttle to move.
   abstract: true
   placement:
     mode: SnapgridCenter

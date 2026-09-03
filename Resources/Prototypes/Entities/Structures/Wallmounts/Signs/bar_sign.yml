@@ -263,7 +263,7 @@
   parent: BaseBarSign
   id: BarSignSpacebucks
   name: Spacebucks | Spacebucks
-  description: 你根本無法擺脫他們，即使在太空中也是如此，即使我們後來改稱他們為「spesos」也一樣。 | You can't get away from them, even in space, and even after we started calling them 'spesos' instead.
+  description: 你根本無法擺脫他們，即使在太空中也是如此，即使我們後來改稱他們為「斯佩索」也一樣。 | You can't get away from them, even in space, and even after we started calling them 'spesos' instead.
   components:
   - type: BarSign
     current: Spacebucks
@@ -281,7 +281,7 @@
   parent: BaseBarSign
   id: BarSignWhiskeyEchoes
   name: 威士忌的迴響 | Whiskey Echoes
-  description: 這是一家專為精英人士設立的酒吧——等等，這其實是納諾特拉森站。為什麼資料庫裡會有這個標誌？ | An elite bar for elite oper-wait, this is a Nanotrasen station. Why's this sign in the database?
+  description: 這是一家專為精英人士設立的酒吧——等等，這其實是 NanoTrasen 站。為什麼資料庫裡會有這個標誌？ | An elite bar for elite oper-wait, this is a Nanotrasen station. Why's this sign in the database?
   components:
   - type: BarSign
     current: WhiskeyEchoes

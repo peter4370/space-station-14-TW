@@ -64,12 +64,12 @@ delivery-spam-2 = 選擇 Nanotrasen 的理由！
         
         { "[bold]第三點[/bold]" }
         他們的標誌簡直糟透了！ 他們還以為自己的標誌很酷！噢，快看我，我超酷的！噢，那條蛇的形狀也像個「S」！多有創意啊！我三歲大的兒子都能畫出更好的標誌！
-delivery-spam-3 = 選擇 The Syndicate 的理由！
+delivery-spam-3 = 選擇 辛迪加 的理由！
     .desc = 《辛迪加》的一則廣告。
     .content =
         { -delivery-header-syndicate }
         
-        { "[head=2]納諾特拉森無能的三大原因[/head]" }
+        { "[head=2] NanoTrasen 無能的三大原因[/head]" }
         
         { "[bold]第一點[/bold]" }
         他們的槍枝爛透了！甚至連狙擊步槍都沒有！ 他們的安保部隊在大多數情況下甚至無法攜帶重型武器！
@@ -126,7 +126,7 @@ delivery-spam-7 = 快派增援！
     .desc = 一份來自……另一條時間線的官方公告？
     .content =
         { -delivery-header-nanotrasen-alternate-timeline }
-        { "[head=2]這是來自納諾特拉森第 15 號太空站 [color=red]首席安全官[/color] 的官方通知。[/head]" }
+        { "[head=2]這是來自 NanoTrasen 第 15 號太空站 [color=red]首席安全官[/color] 的官方通知。[/head]" }
         
         致收到此信的任何人：我是里格爾中士，職務為首席安全官。我們需要立即的協助。
         

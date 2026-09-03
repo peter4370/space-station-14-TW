@@ -183,7 +183,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackCargo
-  name: 貨運後背包 | cargo backpack
+  name: 貨運部 後背包 | cargo backpack
   description: 一款堅固耐用的背包，專門用來偷取貨物的戰利品。 | A robust backpack for stealing cargo's loot.
   components:
     - type: Sprite

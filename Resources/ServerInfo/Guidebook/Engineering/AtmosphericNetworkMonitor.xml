@@ -30,7 +30,7 @@
   - [bold]管線開口[/bold] 是一種將管線網絡與太空站大氣相連的裝置。 請參考 [textlink="通風口" link="AirVents"], [textlink="被動式通風口" link="PassiveVent"] 以及 [textlink="空氣注入器" link="AirInjector"]。
   - [bold]空氣淨化器[/bold] 其實就是 [textlink="空氣淨化器" link="AirScrubber"]。
   - [bold]流量調節器[/bold] 是一種用於控制氣體在管網中流動的裝置。 請參考 [textlink="燃氣泵" link="Pumps"]、[textlink="燃氣閥" link="Valves"] 以及 [textlink="燃氣混合器／過濾器" link="MixingAndFiltering"]。 裝置上的箭頭標示氣流方向。 這通常也決定了管網在何處進行分隔或分支。
-  - [bold]恆溫調節器[/bold] 是指任何能對管網中氣體溫度進行調節的裝置。 試想 [textlink="熱機" link="熱機"]、[textlink="散熱器" link="散熱器"]，甚至醫療用冷凍艙。
+  - [bold]恆溫調節器[/bold] 是指任何能對管網中氣體溫度進行調節的裝置。 試想 [textlink="熱機" link="Thermomachines"]、[textlink="散熱器" link="Radiators"]，甚至醫療用冷凍艙。
 
   ## 氣體管線感測器
   大氣網路監測系統透過瓦斯管線感測器，收集有關 [textlink="管線網路" link="PipeNetworks"] 的資料。

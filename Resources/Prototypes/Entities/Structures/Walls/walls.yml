@@ -561,7 +561,7 @@
 - type: entity
   parent: [ WallDiagonalBase, StructureHealthWallStrong ]
   id: WallShuttleDiagonal
-  name: 穿梭牆 | shuttle wall
+  name: 穿梭機 | shuttle wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -612,7 +612,7 @@
 - type: entity
   parent: [ BaseWall, StructureHealthWallStrong ]
   id: WallShuttle
-  name: 穿梭牆 | shuttle wall
+  name: 穿梭機 | shuttle wall
   components:
   - type: Damageable
     damageModifierSet: PlasteelStaticMod

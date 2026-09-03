@@ -1,5 +1,5 @@
 - type: entity
-  name: 火炬 | torch
+  name: 火把 | torch
   parent: BaseItem
   id: Torch
   description: 一支用木頭製成的火把。 | A torch fashioned from some wood.

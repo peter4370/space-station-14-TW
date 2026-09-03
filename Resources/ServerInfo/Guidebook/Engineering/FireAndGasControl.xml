@@ -1,7 +1,7 @@
 ﻿
 <Document>
   # 火災與氣體控制
-  遺憾的是，[textlink="火災" link="火災"], [textlink="間距" link="間距"] 以及其他 [textlink="大氣異常" link="大氣異常"] 在該站時有發生。
+  遺憾的是，[textlink="火災" link="Fires"], [textlink="間距" link="Spacing"] 以及其他 [textlink="大氣異常" link="AtmosphericUpsets"] 在該站時有發生。
   這些異常狀況可能會迅速蔓延至整個太空站，使站內環境變得不適合乘組人員居住。
 
   <Box>
@@ -37,7 +37,7 @@
 
   ## 連接至空氣警報器與火災警報器
   防火閘可連接至 [textlink="空氣警報器" link="AirAlarms"] 及火災警報器，以便接收何時應放下鎖具的指示。
-  防火閘採用 [textlink="清單系統" link="網路連線"]，您可以透過多功能工具或網路設定程式來連接這些裝置。
+  防火閘採用 [textlink="清單系統" link="Networking"]，您可以透過多功能工具或網路設定程式來連接這些裝置。
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
@@ -66,7 +66,7 @@
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  配備感測器的裝置可與[textlink="linked" link="網路連線"]連接，當感測器偵測到的溫度達到其感測器所定義的[color=red]危險[/color]溫度閾值時，便會觸發火災警報。
+  配備感測器的裝置可與[textlink="linked" link="Networking"]連接，當感測器偵測到的溫度達到其感測器所定義的[color=red]危險[/color]溫度閾值時，便會觸發火災警報。
 
   當火災警報觸發時，所有已連接的防火閘將被強制切換至 [color=red]危險[/color] 警示狀態，並自動解鎖。
 

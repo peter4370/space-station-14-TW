@@ -195,7 +195,7 @@
 - type: entity
   parent: BaseToilet
   id: ToiletGoldenEmpty
-  name: 金色馬桶 | golden toilet
+  name: 黃金馬桶 | golden toilet
   description: HT-451G 是該裝置的金色版本。機身側面標示，其採用最純淨的水銀金製成，並配備真皮座椅。 | The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
   suffix: Empty
   components:

@@ -10,11 +10,11 @@ stat-cargo-price = 價格
 stat-melee-values = 近戰武器傷害
 stat-melee-id = ID
 stat-melee-base-damage = 基礎傷害
-stat-melee-wield-damage = 造成傷害
+stat-melee-wield-damage = 握持傷害
 stat-melee-attack-rate = 攻擊率
 stat-melee-dps = DPS
 stat-melee-structural-damage = 結構損壞
-stat-melee-structural-wield-damage = 武器造成的結構性傷害
+stat-melee-structural-wield-damage = 握持傷害(結構)
 # Lathe
 stat-lathe-values = 車床售價
 stat-lathe-id = ID

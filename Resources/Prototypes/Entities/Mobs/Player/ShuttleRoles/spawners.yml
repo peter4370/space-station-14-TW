@@ -203,7 +203,7 @@
 # Cargo
 
 - type: entity
-  name: 卡戈尼亞訪客生成器 | cargonian visitor spawner
+  name: 貨運國民訪客生成器 | cargonian visitor spawner
   id: VisitingCargonianSpawner
   parent: MarkerBase
   components:
@@ -221,7 +221,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: 訪客貨運技術人員生成器 | visiting cargo technician spawner
+  name: 訪客貨運技術員生成器 | visiting cargo technician spawner
   id: VisitorCargoTechnicianSpawner
   parent: MarkerBase
   components:
@@ -943,7 +943,7 @@
 ### Syndicate & Hostiles
 
 - type: entity
-  name: 集團團隊領導者生成器 | syndicate team leader spawner
+  name: 辛迪加隊伍領導者生成器 | syndicate team leader spawner
   id: SyndieSoldierTeamLeaderSpawner
   parent: MarkerBase
   components:
@@ -957,7 +957,7 @@
     - RandomHumanoidSyndieSoldierTeamLeader
 
 - type: entity
-  name: 黑手黨士兵生成器 | syndicate soldier spawner
+  name: 辛迪加士兵生成器 | syndicate soldier spawner
   id: SyndieSoldierSpawner
   parent: MarkerBase
   components:

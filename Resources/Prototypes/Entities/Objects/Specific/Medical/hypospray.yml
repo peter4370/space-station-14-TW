@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseHypoInjector # I plan to resize medipens to 1x2 eventually:tm:
   id: ChemicalMedipen
-  name: 化學型 Medipen | chemical medipen
-  description: 一支單劑量、不可重複填充的 Medipen。 | A single-dose, non-refillable medipen.
+  name: 化學型醫療筆 | chemical medipen
+  description: 一支單劑量、不可重複填充的醫療筆。 | A single-dose, non-refillable medipen.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: EmergencyMedipen
-  name: 緊急用 Medipen | emergency medipen
-  description: 一種單劑量、不可重複填充的「Medipen」注射筆，內含腎上腺素和氨甲環酸，用於暫時穩定危重患者的狀況，並為其爭取時間以接受適當的醫療處置。請注意避免過量使用。 | A single-dose, non-refillable medipen containing epinephrine and tranexamic acid, used to temporarily stabilize patients in critical condition and buy time for them to recieve proper medical treatment. Beware of overdose.
+  name: 緊急用醫療筆 | emergency medipen
+  description: 一種單劑量、不可重複填充的醫療筆，內含腎上腺素和氨甲環酸，用於暫時穩定危重患者的狀況，並為其爭取時間以接受適當的醫療處置。請注意避免過量使用。 | A single-dose, non-refillable medipen containing epinephrine and tranexamic acid, used to temporarily stabilize patients in critical condition and buy time for them to recieve proper medical treatment. Beware of overdose.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -259,7 +259,7 @@
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
   name: 毒藥poison自動注射器 | poison auto-injector
-  description: 一種單劑量、不可重複填充的 Medipen，內含 Ultravasculine 和腎上腺素，用於快速且輕鬆地治療毒素中毒。 | A single-dose, non-refillable medipen containing ultravasculine and epinephrine, used to quickly and easily treat toxin poisoning.
+  description: 一種單劑量、不可重複填充的醫療筆，內含 Ultravasculine 和腎上腺素，用於快速且輕鬆地治療毒素中毒。 | A single-dose, non-refillable medipen containing ultravasculine and epinephrine, used to quickly and easily treat toxin poisoning.
   components:
   - type: Item
     inhandVisuals:
@@ -293,8 +293,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: BruteAutoInjector
-  name: brute 自動注射器 | brute auto-injector
-  description: 一種含有比卡里定和氨甲環酸的單劑量、不可重複填充式「Medipen」，用於快速且輕鬆地治療簡單的物理性創傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing bicaridine and tranexamic acid, used to quickly and easily treat simple physical injuries. Commonly used as a combat medicine.
+  name: 外傷自動注射器 | brute auto-injector
+  description: 一種含有比卡里定和氨甲環酸的單劑量、不可重複填充式醫療筆，用於快速且輕鬆地治療簡單的物理性創傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing bicaridine and tranexamic acid, used to quickly and easily treat simple physical injuries. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -329,7 +329,7 @@
   parent: ChemicalMedipen
   id: BurnAutoInjector
   name: 燒傷(burn)自動注射器 | burn auto-injector
-  description: 一種單劑量、不可重複填充的「Medipen」，內含德馬林（Dermaline）和萊波拉津（Leporazine），用於快速且輕鬆地治療非化學性燒傷。通常作為戰地醫療用品使用。 | A single-dose, non-refillable medipen containing dermaline and leporazine, used to quickly and easily treat non-chemical burns. Commonly used as a combat medicine.
+  description: 一種單劑量、不可重複填充的醫療筆，內含德馬林（Dermaline）和萊波拉津（Leporazine），用於快速且輕鬆地治療非化學性燒傷。通常作為戰地醫療用品使用。 | A single-dose, non-refillable medipen containing dermaline and leporazine, used to quickly and easily treat non-chemical burns. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -364,7 +364,7 @@
   parent: ChemicalMedipen
   id: RadAutoInjector
   name: rad 自動注射器 | rad auto-injector
-  description: 一種單劑量、不可重複填充的「Medipen」注射筆，內含阿利特拉津和比卡里丁，用於快速且輕鬆地治療輻射中毒。 | A single-dose, non-refillable medipen containing arithrazine and bicaridine, used to quickly and easily treat radiation poisoning.
+  description: 一種單劑量、不可重複填充的醫療筆，內含阿利特拉津和比卡里丁，用於快速且輕鬆地治療輻射中毒。 | A single-dose, non-refillable medipen containing arithrazine and bicaridine, used to quickly and easily treat radiation poisoning.
   components:
   - type: Item
     inhandVisuals:
@@ -399,7 +399,7 @@
   parent: ChemicalMedipen
   id: PunctAutoInjector
   name: Puncturase 自動注射器 | puncturase auto-injector
-  description: 一種單劑量、不可補充的 Medipen，內含穿刺酶和氨甲環酸，用於快速且輕鬆地治療穿刺傷口。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing puncturase and tranexamic acid, used to quickly and easily treat puncture wounds. Commonly used as a combat medicine.
+  description: 一種單劑量、不可補充的醫療筆，內含穿刺酶和氨甲環酸，用於快速且輕鬆地治療穿刺傷口。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing puncturase and tranexamic acid, used to quickly and easily treat puncture wounds. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -436,7 +436,7 @@
   parent: ChemicalMedipen
   id: PyraAutoInjector
   name: 吡嗪(pyrazine)自動注射器 | pyrazine auto-injector
-  description: 一種單劑量、不可重複填充的 Medipen，內含吡嗪和德拉林，用於快速且輕鬆地治療熱燒傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing pyrazine and dermaline, used to quickly and easily treat thermal burns. Commonly used as a combat medicine.
+  description: 一種單劑量、不可重複填充的醫療筆，內含吡嗪和德拉林，用於快速且輕鬆地治療熱燒傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing pyrazine and dermaline, used to quickly and easily treat thermal burns. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -470,8 +470,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: AirlossAutoInjector
-  name: airloss 自動注射器 | airloss auto-injector
-  description: 一款單劑量、不可補充的 Medipen，內含生理食鹽水與 Dexalin Plus，用於快速且輕鬆地治療失血及窒息。 | A single-dose, non-refillable medipen containing saline and dexalin plus, used to quickly and easily treat blood loss and asphyxiation.
+  name: 窒息自動注射器 | airloss auto-injector
+  description: 一款單劑量、不可補充的醫療筆，內含生理食鹽水與 Dexalin Plus，用於快速且輕鬆地治療失血及窒息。 | A single-dose, non-refillable medipen containing saline and dexalin plus, used to quickly and easily treat blood loss and asphyxiation.
   components:
   - type: Item
     inhandVisuals:
@@ -505,8 +505,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: SpaceMedipen
-  name: space medipen | space medipen
-  description: 一種單劑量、不可重複填充的「Medipen」，內含巴羅津和萊波拉津，用於保護暴露在外的皮膚免受太空環境的致命影響。 | A single-dose, non-refillable medipen containing barozine and leporazine, used to protect exposed flesh from the deadly effects of space.
+  name: 太空醫療筆 | space medipen
+  description: 一種單劑量、不可重複填充的醫療筆，內含巴羅津和萊波拉津，用於保護暴露在外的皮膚免受太空環境的致命影響。 | A single-dose, non-refillable medipen containing barozine and leporazine, used to protect exposed flesh from the deadly effects of space.
   components:
   - type: Item
     inhandVisuals:
@@ -620,7 +620,7 @@
   parent: SyndicateMedipen
   id: CombatMedipen
   name: 戰鬥醫用筆 | combat medipen
-  description: 一支單劑量、不可重複填充的「梅迪彭」，內含可治療多數類型損傷的化學混合物。 | A single-dose, non-refillable medipen containing a chemical cocktail that treats most forms of damage.
+  description: 一支單劑量、不可重複填充的醫療筆，內含可治療多數類型損傷的化學混合物。 | A single-dose, non-refillable medipen containing a chemical cocktail that treats most forms of damage.
   components:
   - type: Item
     inhandVisuals:
@@ -700,7 +700,7 @@
   parent: [ SolutionHyposprayTiny, ChemicalMedipen ]
   id: WehMedipenTiny
   name: weh 自動注射器 | weh auto-injector
-  description: 一支不可重複填充的 Medipen，內含一劑 weh。 | A non-refillable medipen containing a dose of weh.
+  description: 一支不可重複填充的醫療筆，內含一劑 weh。 | A non-refillable medipen containing a dose of weh.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -723,7 +723,7 @@
   categories: [ DoNotMap ]
   name: weh 自動注射器 | weh auto-injector
   suffix: DO NOT MAP
-  description: 一支不可重複填充的 Medipen，內含多劑量的 weh。 | A non-refillable medipen containing multiple doses of weh.
+  description: 一支不可重複填充的醫療筆，內含多劑量的 weh。 | A non-refillable medipen containing multiple doses of weh.
   components:
   - type: Solution
     solution:

@@ -205,7 +205,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMouse
-  name: 滑鼠生成器 | Mouse Spawner
+  name: 老鼠生成器 | Mouse Spawner
   components:
   - type: Sprite
     layers:

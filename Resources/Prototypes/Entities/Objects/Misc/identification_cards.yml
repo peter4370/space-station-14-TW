@@ -824,7 +824,7 @@
 - type: entity
   parent: IDCardStandard
   id: CargoIDCard
-  name: 貨物識別卡 | cargo ID card
+  name: 貨運識別卡 | cargo ID card
   components:
   - type: Sprite
     layers:
@@ -1015,7 +1015,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSyndicateContraband ]
   id: SyndicateIDCard
-  name: 工會會員證 | syndicate ID card
+  name: 辛迪加身份證 | syndicate ID card
   components:
   - type: Sprite
     layers:
@@ -1039,7 +1039,7 @@
 - type: entity
   parent: [ SyndicateIDCard, BaseSyndicateContraband ]
   id: SyndiOperativeIDCard
-  name: 犯罪集團成員身分證 | syndicate operative ID card
+  name: 辛迪加操作員身分證 | syndicate operative ID card
   components:
   - type: Sprite
     layers:
@@ -1058,7 +1058,7 @@
 - type: entity
   parent: [ SyndiOperativeIDCard, BaseSyndicateContraband ]
   id: SyndiCorpsmanIDCard
-  name: 工會醫務員身分證 | syndicate corpsman ID card
+  name: 辛迪加醫務員身分證 | syndicate corpsman ID card
   components:
   - type: Sprite
     layers:
@@ -1076,7 +1076,7 @@
 - type: entity
   parent: [ SyndiOperativeIDCard, BaseSyndicateContraband ]
   id: SyndiCommanderIDCard
-  name: 集團指揮官身分證 | syndicate commander ID card
+  name: 辛迪加指揮官身分證 | syndicate commander ID card
   components:
   - type: Sprite
     layers:

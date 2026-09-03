@@ -52,7 +52,7 @@
 
 - type: entity
   id: CargoPalletSell
-  name: 貨物銷售托盤 | cargo selling pallet
+  name: 貨運銷售托盤 | cargo selling pallet
   description: 標示出可供販售的有效商品。採用塑鈦合金製成，以遏止煩人的破壞者。 | Designates valid items to sell. Made of plastitanium to discourage pesky vandals.
   parent: BaseCargoPallet
   components:
@@ -69,7 +69,7 @@
 
 - type: entity
   id: CargoPalletBuy
-  name: 貨物採購托盤 | cargo buying pallet
+  name: 貨運採購托盤 | cargo buying pallet
   description: 指定商品購買後將顯示的位置。採用塑鈦合金製成，以防範煩人的破壞者。 | Designates where orders will appear when purchased. Made of plastitanium to discourage pesky vandals.
   parent: BaseCargoPallet
   components:

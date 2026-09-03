@@ -2,7 +2,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanSyndicateAgentBase
-  name: 財團代理人 | syndicate agent
+  name: 辛迪加特工 | syndicate agent
   suffix: Human, Base
   components:
   - type: RandomHumanoidAppearance
@@ -22,7 +22,7 @@
 - type: entity
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgent
-  name: 財團代理人 | syndicate agent
+  name: 辛迪加特工 | syndicate agent
   suffix: Human, Traitor
   components:
   # make the player a traitor once its taken
@@ -32,7 +32,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentMedic
-  name: 黑幫醫護人員 | syndicate medic
+  name: 辛迪加醫護人員 | syndicate medic
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementMedic]
@@ -41,7 +41,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentSpy
-  name: 黑幫間諜 | syndicate spy
+  name: 辛迪加間諜 | syndicate spy
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementSpy]
@@ -50,7 +50,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentThief
-  name: 犯罪集團竊賊 | syndicate thief
+  name: 辛迪加竊賊 | syndicate thief
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementThief]

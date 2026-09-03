@@ -178,7 +178,7 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCargo
-  name: 貨物訂購介面 | Cargo Ordering Interface
+  name: 貨運訂購介面 | Cargo Ordering Interface
   description: 檢視貨運訂單介面。 | View a Cargo Ordering Interface.
   components:
   - type: InstantAction

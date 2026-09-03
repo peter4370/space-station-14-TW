@@ -333,7 +333,7 @@
   id: BookAILawCompendium
   parent: BaseGuidebook
   name: 哎呀，機器人 | My, Robot
-  description: 一本詳盡列出矽膠可能出錯的所有情況的辭典。作者：艾薩克・克魯西莫夫。 | A dictionary of all the ways silicons can go wrong. By Isaac Crewsimov.
+  description: 一本詳盡列出矽基體可能出錯的所有情況的辭典。作者：艾薩克・克魯西莫夫。 | A dictionary of all the ways silicons can go wrong. By Isaac Crewsimov.
   components:
   - type: Sprite
     layers:

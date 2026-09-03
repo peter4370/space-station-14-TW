@@ -181,7 +181,7 @@
         color: "#e6e6fa"
 
 - type: entity
-  name: 貨物發票 | cargo invoice
+  name: 貨運發票 | cargo invoice
   parent: Paper
   id: PaperCargoInvoice
   description: '一個官僚單位。 | A single unit of bureaucracy.'
@@ -259,8 +259,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: 懸賞清單 | bounty manifest
-  description: 一張標示該木箱內含懸賞目標的紙標籤。出售貼有此標籤的木箱即可完成該懸賞任務。 | A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
+  name: 懸賞貨單 | bounty manifest
+  description: 一張標示該貨箱內含懸賞目標的紙標籤。出售貼有此標籤的貨箱即可完成該懸賞任務。 | A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
   components:
   - type: Sprite
     layers:
@@ -309,7 +309,7 @@
   id: PaperSalvageJobLabel
   parent: PaperCargoInvoice
   name: 救回貨件運送標籤 | salvage job shipment label
-  description: 一張標示該木箱內裝有用於完成打撈任務貨物的紙質標籤。出售附有此標籤的木箱即可完成該任務。 | A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
+  description: 一張標示該貨箱內裝有用於完成打撈任務貨物的紙質標籤。出售附有此標籤的貨箱即可完成該任務。 | A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
   components:
   - type: Sprite
     layers:
@@ -413,7 +413,7 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: 犯罪集團的暗語 | syndicate codeword
+  name: 辛迪加的暗語 | syndicate codeword
   description: 一個可能用於聯繫「辛迪加」的洩露代號。 | A leaked codeword to possibly get in touch with the Syndicate.
   categories: [ DoNotMap ]
   components:

@@ -9,14 +9,14 @@
 
   ## 各類反派角色
   反派角色可以有許多形式，例如：
-  - [textlink="叛徒" link="叛徒"] 船員中的叛徒，他們必須進行暗殺、偷竊和欺騙。
-  - [textlink="竊賊" link="竊賊"] 受偷竊癖驅使，決心利用他們的特殊工具來滿足竊盜癮。
-  - [textlink="革命者" link="革命者"] 他們意圖從內部奪取該站控制權。
-  - [textlink="核武特工" link="核武特工"], 目標是滲透並摧毀該站。
-  - [textlink="變形者" link="變形者"], 一群飢餓的野獸，決心從陰影中將所有人吞噬殆盡。
+  - [textlink="叛徒" link="Traitors"] 船員中的叛徒，他們必須進行暗殺、偷竊和欺騙。
+  - [textlink="竊賊" link="Thieves"] 受偷竊癖驅使，決心利用他們的特殊工具來滿足竊盜癮。
+  - [textlink="革命者" link="Revolutionaries"] 他們意圖從內部奪取該站控制權。
+  - [textlink="核武特工" link="Nuclear Operatives"], 目標是滲透並摧毀該站。
+  - [textlink="變形者" link="Changelings"], 一群飢餓的野獸，決心從陰影中將所有人吞噬殆盡。
   - [textlink="太空忍者" link="SpaceNinja"], 擅長使用特殊裝備進行間諜活動與破壞行動的高手。
-  - [textlink="殭屍" link="殭屍"] 它們貪婪地渴望船上每一位船員和生物的血肉。
-  - [textlink="各種非人形生物" link="次要反派"] 通常會攻擊任何會動的東西。
+  - [textlink="殭屍" link="Zombies"] 它們貪婪地渴望船上每一位船員和生物的血肉。
+  - [textlink="各種非人形生物" link="MinorAntagonists"] 通常會攻擊任何會動的東西。
     <Box>
     <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
     </Box>

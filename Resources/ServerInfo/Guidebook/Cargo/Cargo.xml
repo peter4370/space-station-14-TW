@@ -4,23 +4,23 @@
 
   補給部門，亦稱為 [color=cyan]貨運[/color]，負責為太空站提供必要的資源（例如燃料和原材料），以及生活娛樂資源（例如樂透彩券和絨毛玩偶）。
 
-  他們透過多種方式籌集[color=cyan]斯佩索[/color]（該太空站的貨幣），例如領取懸賞金、販售各類物品以及回收資源，藉此能從太空站外購置各式各樣的裝備，以滿足任何船員的需求。 卡戈的職責就是滿足太空站其他人員的需求。
+  他們透過多種方式籌集[color=cyan]斯佩索[/color]（該太空站的貨幣），例如領取懸賞金、販售各類物品以及回收資源，藉此能從太空站外購置各式各樣的裝備，以滿足任何船員的需求。 貨運部的職責就是滿足太空站其他人員的需求。
 
   ## 人員
 
-  「卡戈號」的成員由 [color=cyan]貨運技術員[/color] 和 [color=cyan]打撈專家[/color] 組成，並由 [color=cyan]司務長[/color] 率領。
+  貨運部的成員由 [color=cyan]貨運技術員[/color] 和 [color=cyan]打撈專家[/color] 組成，並由 [color=cyan]司務長[/color] 率領。
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="Cargo Tech"/>
     <GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="打撈部"/>
-    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="QM"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="司務長"/>
   </Box>
 
   ## 賺錢
 
   任何貨運部門面臨的主要困境，就是資金不足。
 
-  Cargo 透過在 [color=cyan]貿易站[/color] 販售商品來賺取利潤。 如透過 [color=cyan]鑑定工具[/color] 所見，站內幾乎所有物品都具有經濟價值，可以出售。 當您將其作為 [textlink="bounty" link="CargoBounties"] 的一部分出售時，該價值還會進一步提升。
+  貨運部透過在 [color=cyan]貿易站[/color] 販售商品來賺取利潤。 如透過 [color=cyan]評估工具[/color] 所見，站內幾乎所有物品都具有經濟價值，可以出售。 當您將其作為 [textlink="懸賞" link="CargoBounties"] 的一部分出售時，該價值還會進一步提升。
 
   <Box>
     <GuideEntityEmbed Entity="AppraisalTool"/>
@@ -28,9 +28,9 @@
     <GuideEntityEmbed Entity="CrateGenericSteel"/>
   </Box>
 
-  一旦發現有價值的物品，請將其帶到 [color=cyan]貨艙[/color]。 如果物品能放進 [color=cyan]貨箱[/color] 裡，請找一個空貨箱，將這些物品放進去。
+  一旦發現有價值的物品，請將其帶到 [color=cyan]貨艙灣[/color]。 如果物品能放進 [color=cyan]貨箱[/color] 裡，請找一個空貨箱，將這些物品放進去。
 
-  如果 [color=cyan]貨運穿梭機[/color] 不在場，你可以將所有想要出售的物品放上 [color=cyan]貨運托盤[/color]。 一旦太空梭與太空站對接完成，你就將貨箱以及其他待售物品全數裝載上太空梭。
+  如果 [color=cyan]貨運穿梭機[/color] 不在場，你可以將所有想要出售的物品放上 [color=cyan]貨運托盤[/color]。 一旦穿梭機與太空站對接完成，你就將貨箱以及其他待售物品全數裝載上太空梭。
 
   <Box>
     <GuideEntityEmbed Entity="ComputerPalletConsole"/>
@@ -38,11 +38,11 @@
     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
   </Box>
 
-  將貨物裝載至太空梭後，駕駛它飛往貿易站。 請將可出售的物品移至綠色的 [color=cyan]貨物銷售托盤[/color] 上，然後前往 [color=cyan]貨物銷售電腦[/color]，並點擊 [italic]「出售」[/italic]。
+  將貨物裝載至穿梭機後，駕駛它飛往貿易站。 請將可出售的物品移至綠色的 [color=cyan]貨物銷售托盤[/color] 上，然後前往 [color=cyan]貨物銷售電腦[/color]，並點擊 [italic]「出售」[/italic]。
 
   現在，你可以將這些斯佩索帶回站內，並存入 [color=cyan]貨物請求電腦[/color] 中。
 
-  您也可以透過完成 [textlink="bounties" link="CargoBounties"] 或販售來自 [textlink="salvage" link="Salvage"] 的珍貴物品來賺取更多金錢。
+  您也可以透過完成 [textlink="懸賞" link="CargoBounties"] 或販售來自 [textlink="打撈" link="Salvage"] 的珍貴物品來賺取更多金錢。
 
   ## 訂購
 
@@ -50,9 +50,9 @@
     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
   </Box>
 
-  每筆訂單都始於一台 [color=cyan]貨運申請電腦[/color]。 首先，下單的前提是 Cargo 必須擁有足夠的 spesos。 如果 Cargo 沒錢，那就想辦法弄點來。
+  每筆訂單都始於一台 [color=cyan]貨運申請電腦[/color]。 首先，下單的前提是貨運部必須擁有足夠的斯佩索。 如果貨運部沒錢，那就想辦法弄點來。
 
-  此外，是否接受任何特定請求，完全由 Cargo 自行決定。 如果 Cargo 的預算吃緊，他們可以自由拒絕那些並非當下必要的請求。
+  此外，是否接受任何特定請求，完全由貨運部自行決定。 如果貨運部的預算吃緊，他們可以自由拒絕那些並非當下必要的請求。
 
   若要下單，請點擊所需物品的名稱、填寫收件人資訊、輸入該物品的適當用途，然後在訂單上按下「核准」。
 
@@ -69,23 +69,23 @@
 
   一旦貨物抵達貨運碼頭，您即可閱讀其上的 [color=cyan]貨運發票[/color] 標籤，以查明預定收件人。 最後，將它交給他們。
 
-  ## 試行「
+  ## 駕駛
 
-  」 訂單會透過環繞軌道的 [color=cyan]貿易站[/color] 送達該站，並由 [color=cyan]貨運穿梭機[/color] 運送至主站。 太空梭無法自動飛行，因此必須由機上飛行員駕駛，或是透過遠端操控。
+ 訂單會透過環繞軌道的 [color=cyan]貿易站[/color] 送達該站，並由 [color=cyan]貨運穿梭機[/color] 運送至主站。 穿梭機無法自動飛行，因此必須由機上飛行員駕駛，或是透過遠端操控。
 
   <Box>
     <GuideEntityEmbed Entity="ComputerShuttleCargo"/>
   </Box>
 
-  要駕駛這艘穿梭機，你必須先找到 [color=cyan]貨運穿梭機控制台[/color]。 一個在貨艙內，另一個則在貨運穿梭機內。
+  要駕駛這艘穿梭機，你必須先找到 [color=cyan]貨運穿梭機控制台[/color]。 一個在貨艙灣內，另一個則在貨運穿梭機內。
 
-  與電腦互動後，應會從太空梭中出現一個導覽視圖。 以下是駕駛穿梭機往返貿易站的操作步驟：
+  與電腦互動後，應會從穿梭機中出現一個導覽視圖。 以下是駕駛穿梭機往返貿易站的操作步驟：
 
   - 首先，切換至 [color=yellow]「DOCK」[/color] 畫面，並將穿梭機與太空站之間的任何氣閘 [color=yellow]解除對接[/color]。
-  - 現在，太空梭已與母船分離，您可以駕駛它了。 [italic]請記住，你正在太空中飛行，且動量是守恆的[/italic]。
+  - 現在，穿梭機已與母船分離，您可以駕駛它了。 [italic]請記住，你正在太空中飛行，且動量是守恆的[/italic]。
   - 控制鍵分別為 [color=yellow][keybind="ShuttleStrafeUp"][/color] 和 [color=yellow][keybind="ShuttleStrafeDown"][/color]，用於向上和向下側移，[color=yellow][keybind="ShuttleStrafeLeft"][/color] 及 [color=yellow][keybind="ShuttleStrafeRight"][/color] 分別用於左右側移，以及 [color=yellow][keybind="ShuttleRotateLeft"][/color] 和 [color=yellow][keybind="ShuttleRotateRight"][/color] 分別用於向左和向右轉向。 要煞車，請按下 [color=yellow][keybind="ShuttleBrake"][/color]。
-  - 接著駕駛太空梭前往 [color=cyan]貿易站[/color]。
+  - 接著駕駛穿梭機前往 [color=cyan]貿易站[/color]。
   - 抵達後，[color=yellow]對接[/color]至氣閘，就大功告成了。
 
-  [textlink="了解賞金機制，這是讓您在太空站獲利最大化的方法之一。" link="CargoBounties"]
+  [textlink="了解懸賞機制，這是讓您在太空站獲利最大化的方法之一。" link="CargoBounties"]
 </Document>

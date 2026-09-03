@@ -171,7 +171,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: 《核武行動》蠻力型醫療包生成器 | nuke ops brute medkit spawner
+  name: 核武特工外傷醫療包生成器 | nuke ops brute medkit spawner
   id: NukeOpsMedkitBruteSpawner
   parent: MarkerBase
   components:

@@ -1095,7 +1095,7 @@
 - type: entity
   parent: [ BasePDA, BaseSyndicateContraband ]
   id: SyndiPDA
-  name: syndicate PDA | syndicate PDA
+  name: 辛迪加 PDA | syndicate PDA
   description: 好啦，該當個有貢獻的一員了——噢，太酷了，我竟然是個壞蛋，該去殺人了！ | Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
   components:
   - type: Pda
@@ -1119,7 +1119,7 @@
 - type: entity
   parent: [ SyndiPDA, BaseSyndicateContraband ]
   id: SyndiOperativePDA
-  name: 犯罪集團特工的PDA | syndicate operative PDA
+  name: 辛迪加特工的PDA | syndicate operative PDA
   description: NT 去死吧！ | Death to NT!
   components:
   - type: Pda
@@ -1158,7 +1158,7 @@
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
   id: SyndiCommanderPDA
-  name: 集團指揮官 PDA | syndicate commander PDA
+  name: 辛迪加指揮官 PDA | syndicate commander PDA
   description: 那我們算什麼啊，是某種「核武小隊」嗎？ | So what are we, some kind of Nukie squad?
   components:
   - type: Pda
@@ -1533,7 +1533,7 @@
   parent: BasePDA
   id: SeniorCourierPDA
   name: 資深快遞員用 PDA | senior courier PDA
-  description: 聞起來像郵票和太空梭燃料的味道。 | Smells like postage stamps and shuttle fuel.
+  description: 聞起來像郵票和穿梭機燃料的味道。 | Smells like postage stamps and shuttle fuel.
   components:
   - type: Pda
     id: SeniorCourierIDCard

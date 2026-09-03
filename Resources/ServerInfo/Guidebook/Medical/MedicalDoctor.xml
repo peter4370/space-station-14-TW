@@ -21,11 +21,11 @@
 
 重要提醒：大多數藥物都有過量劑量，若超過此劑量將對您的病患造成傷害。 化學物質以藥丸形式攝取時，代謝也需要時間；若想讓藥效迅速發揮，請使用注射器。
 
-- 鈍傷：比卡里丁（Bicaridine）或瘀傷敷料包
+- 外傷：比卡里丁（Bicaridine）或瘀傷醫療包
 - 燒傷：德馬林（Dermaline）或藥膏
-- 毒素（Poison）：迪洛文（Dylovene）
-- 毒素（Radiation）：海羅納林（Hyronalin）或阿瑞特拉津（Arithrazine）
-- 失血： 德克薩林（Dexaline）或伊納普羅瓦林（Inaprovaline）
+- 中毒（毒性）：迪洛文（Dylovene）
+- 中毒（輻射）：海羅納林（Hyronalin）或阿瑞特拉津（Arithrazine）
+- 窒息： 德克薩林（Dexaline）或伊納普羅瓦林（Inaprovaline）
 - 失血：德克薩林（Dexaline）（檢查患者，若面色蒼白，則仍需輸血或補充鐵質。）
 - 出血：氨甲環酸與紗布（若伴有燒傷，也可透過燒灼止血。）
 
@@ -33,10 +33,10 @@
 
 <Box>
 <GuideEntityEmbed Entity="MedkitFilled"/>
-<GuideEntityEmbed Entity="MedkitBruteFilled" Caption="暴力破解工具包"/>
-<GuideEntityEmbed Entity="MedkitRadiationFilled" Caption="輻射應急套件"/>
+<GuideEntityEmbed Entity="MedkitBruteFilled" Caption="外傷急救包"/>
+<GuideEntityEmbed Entity="MedkitRadiationFilled" Caption="輻射急救包"/>
 <GuideEntityEmbed Entity="MedkitBurnFilled" Caption="燒傷急救包"/>
-<GuideEntityEmbed Entity="MedkitToxinFilled" Caption="毒素檢測套組"/>
+<GuideEntityEmbed Entity="MedkitToxinFilled" Caption="毒素急救包"/>
 </Box>
 
 <Box>

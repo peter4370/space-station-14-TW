@@ -75,7 +75,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSyndicateRecruitment
-  name: "「辛迪加」招募 | Syndicate Recruitment"
+  name: "辛迪加招募 | Syndicate Recruitment"
   description: "探索銀河系！粉碎腐敗的跨國企業！立即加入！ | See the galaxy! Shatter corrupt megacorporations! Join today!"
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
   parent: PosterBase
   id: PosterContrabandHackingGuide
   name: "駭客指南 | Hacking Guide"
-  description: "這張海報詳細說明了常見的納諾特拉森氣閘的內部運作原理。可惜的是，這張海報看來已經過時了。 | This poster details the internal workings of the common Nanotrasen airlock. Sadly, it appears out of date."
+  description: "這張海報詳細說明了常見的 NanoTrasen 氣閘的內部運作原理。可惜的是，這張海報看來已經過時了。 | This poster details the internal workings of the common Nanotrasen airlock. Sadly, it appears out of date."
   components:
   - type: Sprite
     state: poster10_contraband
@@ -130,7 +130,7 @@
   parent: PosterBase
   id: PosterContrabandRIPBadger
   name: "安息吧，獾 | RIP Badger"
-  description: "這張煽動性海報提及了納諾特森（Nanotrasen）對一座滿是獾的太空站所實施的種族滅絕。 | This seditious poster references Nanotrasen's genocide of a space station full of badgers."
+  description: "這張煽動性海報提及了 NanoTrasen 對一座滿是獾的太空站所實施的種族滅絕。 | This seditious poster references Nanotrasen's genocide of a space station full of badgers."
   components:
   - type: Sprite
     state: poster11_contraband
@@ -175,7 +175,7 @@
   parent: PosterBase
   id: PosterContrabandPower
   name: "電力 | Power"
-  description: "一張將權力中心定位在納諾特拉森（Nanotrasen）之外的海報。 | A poster that positions the seat of power outside Nanotrasen."
+  description: "一張將權力中心定位在 NanoTrasen 之外的海報。 | A poster that positions the seat of power outside Nanotrasen."
   components:
   - type: Sprite
     state: poster16_contraband
@@ -238,7 +238,7 @@
   parent: PosterBase
   id: PosterContrabandRebelsUnite
   name: "反抗軍團結起來 | Rebels Unite"
-  description: "一張呼籲觀眾反抗納諾特拉森的海報。 | A poster urging the viewer to rebel against Nanotrasen."
+  description: "一張呼籲觀眾反抗 NanoTrasen 的海報。 | A poster urging the viewer to rebel against Nanotrasen."
   components:
   - type: Sprite
     state: poster23_contraband
@@ -282,8 +282,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSyndicatePistol
-  name: "黑手黨手槍 | Syndicate Pistol"
-  description: "一張宣傳「聯邦手槍」的海報，宣稱其「他媽的超有格調」。海報上佈滿了褪色的幫派標記。 | A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags."
+  name: "辛迪加手槍 | Syndicate Pistol"
+  description: "一張宣傳「辛迪加手槍」的海報，宣稱其「他媽的超有格調」。海報上佈滿了褪色的幫派標記。 | A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags."
   components:
   - type: Sprite
     state: poster28_contraband
@@ -435,7 +435,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandFreeSyndicateEncryptionKey
-  name: "免費 Syndicate 加密金鑰 | Free Syndicate Encryption Key"
+  name: "免費辛迪加加密金鑰 | Free Syndicate Encryption Key"
   description: "一張關於叛徒乞求更多的好處的海報。 | A poster about traitors begging for more."
   components:
   - type: Sprite
@@ -444,8 +444,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandBountyHunters
-  name: "賞金獵人 | Bounty Hunters"
-  description: "一張宣傳賞金獵人服務的海報。「聽說你有麻煩了。」 | A poster advertising bounty hunting services. \"I hear you got a problem.\""
+  name: "懸賞獵人 | Bounty Hunters"
+  description: "一張宣傳懸賞獵人服務的海報。「聽說你有麻煩了。」 | A poster advertising bounty hunting services. \"I hear you got a problem.\""
   components:
   - type: Sprite
     state: poster47_contraband
@@ -454,7 +454,7 @@
   parent: PosterBase
   id: PosterContrabandTheBigGasTruth
   name: "關於氣態巨行星的真相 | The Big Gas Giant Truth"
-  description: "愛國者們，別輕信海報上的一切。中央指揮部的那些蜥蜴們，誰都不願回答這個簡單的問題：中央指揮部，那名天然氣礦工究竟是在哪裡開採的？ | Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOMM?"
+  description: "愛國者們，別輕信海報上的一切。中央指揮部的那些蜥蜴們，誰都不願回答這個簡單的問題：中央指揮部，氣體開採器究竟是在採哪來的器？ | Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOMM?"
   components:
   - type: Sprite
     state: poster48_contraband
@@ -915,7 +915,7 @@
   parent: PosterBase
   id: PosterLegitNoERP
   name: "沒有 ERP | No ERP"
-  description: "這張海報提醒船員，在納諾特拉森（Nanotrasen）的各站點內，情色內容與色情作品均屬禁止。 | This poster reminds the crew that Eroticism and Pornography are banned on Nanotrasen stations."
+  description: "這張海報提醒船員，在 NanoTrasen 的各站點內，情色內容與色情作品均屬禁止。 | This poster reminds the crew that Eroticism and Pornography are banned on Nanotrasen stations."
   components:
   - type: Sprite
     state: poster34_legit

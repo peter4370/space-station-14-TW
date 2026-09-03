@@ -404,8 +404,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockTankDispenser
-  name: 儲槽式加油機補貨箱 | tank dispenser restock box
-  description: 可用於更換加油機內的氣罐。請小心操作。 | Capable of replacing tanks in a gas tank dispenser. Handle with care.
+  name: 儲罐分配器補貨箱 | tank dispenser restock box
+  description: 可用於更換儲罐分配器內的氣罐。請小心操作。 | Capable of replacing tanks in a gas tank dispenser. Handle with care.
   components:
   - type: VendingMachineRestock
     canRestock:

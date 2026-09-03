@@ -1,6 +1,6 @@
-power-radiation-collector-gas-tank-missing = 等離子槽目前為 [color=darkred]空[/color]。
+power-radiation-collector-gas-tank-missing = 等離子罐目前為 [color=darkred]空[/color]。
 power-radiation-collector-gas-tank-present =
-    等離子體儲槽目前處於 [color=darkgreen]已滿[/color] 狀態，儲槽指示器顯示 [color={ $fullness ->
+    等離子儲罐目前處於 [color=darkgreen]已滿[/color] 狀態，儲槽指示器顯示 [color={ $fullness ->
        *[0] 紅色]空
         [1] 紅色]低
         [2] 黃色]半滿

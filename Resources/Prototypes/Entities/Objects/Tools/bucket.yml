@@ -43,7 +43,7 @@
 - type: entity
   parent: [SolutionHuge, Bucket]
   id: BorgBucket
-  name: 內部水箱 | internal tank
+  name: 內部儲罐 | internal tank
   description: 一名清潔型賽博格的內部儲水槽，容量足以容納整桶拖把水。 | The internal reservoir of a custodial cyborg, capable of holding a entire mop bucket worth of water.
   components:
   - type: SolutionTransfer

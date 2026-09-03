@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseFoam
   id: TearGasSmoke
-  name: 催淚瓦斯 tear gas | tear gas
+  name: 催淚氣體 tear gas | tear gas
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -305,7 +305,7 @@
   parent: BaseSign
   id: SignArrivals
   name: 抵達指示牌 | arrivals sign
-  description: 一塊標示抵達接駁車停靠位置的標誌。 | A sign indicating where the Arrivals shuttle will dock.
+  description: 一塊標示抵達穿梭機停靠位置的標誌。 | A sign indicating where the Arrivals shuttle will dock.
   components:
   - type: Sprite
     state: arrivals
@@ -438,8 +438,8 @@
 - type: entity
   parent: BaseSign
   id: SignCargo
-  name: 貨物標誌 | cargo sign
-  description: 一個標示貨艙區域的標誌。 | A sign indicating the cargo area.
+  name: 貨運部標誌 | cargo sign
+  description: 一個標示貨運部區域的標誌。 | A sign indicating the cargo area.
   components:
   - type: Sprite
     state: cargo
@@ -800,7 +800,7 @@
   parent: BaseSign
   id: SignCans
   name: 氣罐標誌 | canisters sign
-  description: 一塊標示著瓦斯罐吉祥現身的標誌。 | A sign indicating the auspicious presence of gas canisters.
+  description: 一塊標示著氣體罐吉祥現身的標誌。 | A sign indicating the auspicious presence of gas canisters.
   components:
   - type: Sprite
     state: cans
@@ -817,7 +817,7 @@
   parent: BaseSign
   id: SignShipDock
   name: 疏散標誌 | evac sign
-  description: 一塊標示疏散接駁車（可能）抵達地點的標誌。 | A sign indicating the where the evac shuttle will (likely) arrive.
+  description: 一塊標示撤離穿梭機（可能）抵達地點的標誌。 | A sign indicating the where the evac shuttle will (likely) arrive.
   components:
   - type: Sprite
     state: dock
@@ -1016,7 +1016,7 @@
   parent: BaseSign
   id: SignZomlab
   name: 殭屍實驗室標誌 | zombie lab sign
-  description: 這是已停擺的「納諾特拉森」研究計畫所留下的最後殘骸，該計畫旨在駕馭羅梅羅爾的力量。真不知道那計畫最後結果如何…… | The final remains of a shut-down Nanotrasen research project that aimed to harness the powers of Romerol. I wonder how that went...
+  description: 這是已停擺的 NanoTrasen 研究計畫所留下的最後殘骸，該計畫旨在駕馭羅梅羅爾的力量。真不知道那計畫最後結果如何…… | The final remains of a shut-down Nanotrasen research project that aimed to harness the powers of Romerol. I wonder how that went...
   components:
   - type: Sprite
     state: zomlab
@@ -1279,8 +1279,8 @@
 - type: entity
   parent: BaseSign
   id: SignPlaque
-  name: 金色牌匾 | golden plaque
-  description: 一塊極具聲望的金色牌匾。 | A prestigious golden plaque.
+  name: 黃金牌匾 | golden plaque
+  description: 一塊極具聲望的黃金牌匾。 | A prestigious golden plaque.
   components:
   - type: Sprite
     state: goldenplaque

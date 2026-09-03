@@ -11,7 +11,7 @@ injector-toggle-verb-text = 切換注入器模式
 ## Entity
 
 injector-component-inject-mode-name = 注入
-injector-component-draw-mode-name = 平手
+injector-component-draw-mode-name = 抽取
 injector-component-dynamic-mode-name = 動態
 injector-component-mode-changed-text = 現在 { $mode }
 injector-component-transfer-success-message = 您將 { $amount }u 轉移至 { THE($target) }。
@@ -27,8 +27,8 @@ injector-component-target-already-full-message = { CAPITALIZE(THE($target)) } �
 injector-component-target-already-full-message-self = 你已經吃飽了！
 injector-component-target-is-empty-message = { CAPITALIZE(THE($target)) } 為空！
 injector-component-target-is-empty-message-self = 您沒有任何內容！
-injector-component-cannot-toggle-draw-message = 太滿了，畫不出來！
-injector-component-cannot-toggle-inject-message = 不需要注射！
+injector-component-cannot-toggle-draw-message = 太滿了，抽不出來！
+injector-component-cannot-toggle-inject-message = 沒有東西能被注射！
 injector-component-cannot-toggle-dynamic-message = 無法切換動態模式！
 injector-component-empty-message = { CAPITALIZE(THE($injector)) } 為空！
 injector-component-blocked-user = 防護裝備阻礙了您的注射！

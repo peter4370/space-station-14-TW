@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitCargo
-  name: Cargo Tech 連身工作服 | cargo tech jumpsuit
+  name: 貨運部技術 連身工作服 | cargo tech jumpsuit
   description: 一款堅固耐用的連身工作服，發放給貨運部門的成員。 | A sturdy jumpsuit, issued to members of the Cargo department.
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 ## UI
 
 cloning-console-window-title = 克隆主控台
-cloning-console-window-clone-button-text = 複製
+cloning-console-window-clone-button-text = 克隆
 cloning-console-window-scanner-id = ID：[color=white]{ $scannerOccupantName }[/color]
 cloning-console-window-pod-id = ID：[color=white]{ $podOccupantName }[/color]
 cloning-console-window-no-patient-data-text = 沒有病患資料。

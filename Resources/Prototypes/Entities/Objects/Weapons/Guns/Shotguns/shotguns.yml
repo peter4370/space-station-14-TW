@@ -86,7 +86,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazineShotgun
         priority: 2
         whitelist:

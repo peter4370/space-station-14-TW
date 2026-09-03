@@ -78,7 +78,7 @@
     - FoodPacketCheesieTrash
 
 - type: entity
-  name: 晶片 | chips
+  name: 洋芋片 | chips
   parent: FoodSnackBase
   id: FoodSnackChips
   description: 瑞克指揮官的「天啊，這薯片」。 | Commander Riker's What-The-Crisps.
@@ -632,7 +632,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketChipsTrash
-  name: 晶片 | chips
+  name: 洋芋片 | chips
   components:
   - type: Sprite
     state: chips-trash
@@ -734,7 +734,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketSemkiTrash
-  name: semki 封包 | semki packet
+  name: semki 包 | semki packet
   components:
   - type: Sprite
     state: semki-trash

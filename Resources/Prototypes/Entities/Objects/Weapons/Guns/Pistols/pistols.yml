@@ -40,7 +40,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazinePistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -51,7 +51,7 @@
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: 商會 | Chamber
+        name: 膛內 | Chamber
         priority: 1
         whitelist:
           tags:
@@ -82,7 +82,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazinePistolHighCapacity
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -93,7 +93,7 @@
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: 商會 | Chamber
+        name: 膛內 | Chamber
         priority: 1
         whitelist:
           tags:
@@ -169,7 +169,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazinePistolCaselessRifle
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -179,7 +179,7 @@
             - MagazinePistolCaselessRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: 商會 | Chamber
+        name: 膛內 | Chamber
         priority: 1
         whitelist:
           tags:
@@ -245,7 +245,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 雜誌 | Magazine
+        name: 彈匣 | Magazine
         startingItem: MagazineMagnum
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -255,7 +255,7 @@
             - MagazineMagnum
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: 商會 | Chamber
+        name: 膛內 | Chamber
         priority: 1
         whitelist:
           tags:

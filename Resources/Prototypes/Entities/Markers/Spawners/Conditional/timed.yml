@@ -38,7 +38,7 @@
       maximumEntitiesSpawned: 4
 
 - type: entity
-  name: 滑鼠定時生成器 | Mouse Timed Spawner
+  name: 老鼠定時生成器 | Mouse Timed Spawner
   id: MouseTimedSpawner
   parent: MarkerBase
   components:

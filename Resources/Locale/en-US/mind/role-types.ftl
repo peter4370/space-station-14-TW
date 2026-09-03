@@ -4,7 +4,7 @@ role-type-team-antagonist-name = 反派隊伍
 role-type-free-agent-name = 自由球員
 role-type-familiar-name = 熟悉
 role-type-silicon-name = 矽基體
-role-type-silicon-antagonist-name = 改性矽
+role-type-silicon-antagonist-name = 被策反的矽基
 role-type-update-message = 您的角色是 [color = { $color }]{ $role }[/color]
 # If you change a color here, you might want to also change it in role_types.yml
 role-type-crew-aligned-color = #eeeeee

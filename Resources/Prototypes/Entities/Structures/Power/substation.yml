@@ -136,7 +136,7 @@
   id: BaseSubstationWall
   categories: [ HideSpawnMenu ]
   name: 壁掛式變電站 | wallmount substation
-  description: 一座專為緊湊型穿梭車及狹小空間設計的變電站。 | A substation designed for compact shuttles and spaces.
+  description: 一座專為緊湊型穿梭機及狹小空間設計的變電站。 | A substation designed for compact shuttles and spaces.
   placement:
     mode: SnapgridCenter
   components:

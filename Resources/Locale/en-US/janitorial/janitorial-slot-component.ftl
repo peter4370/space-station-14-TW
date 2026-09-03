@@ -3,7 +3,7 @@ mop-bucket-slot-component-slot-name-item = Item
 mop-bucket-slot-component-eject-verb = 外帶
 # janitorial trolley
 janitorial-trolley-slot-component-slot-name-plunger = 活塞
-janitorial-trolley-slot-component-slot-name-goldenplunger = 金色活塞
+janitorial-trolley-slot-component-slot-name-goldenplunger = 黃金活塞
 janitorial-trolley-slot-component-slot-name-sign = 標誌
 janitorial-trolley-slot-component-slot-name-lightreplacer = 換燈器
 janitorial-trolley-slot-component-slot-name-spray = 噴霧

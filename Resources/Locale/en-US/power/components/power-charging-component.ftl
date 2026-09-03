@@ -2,7 +2,7 @@
 
 power-charge-window-status = 狀態：
 power-charge-window-power = 功率：
-power-charge-window-eta = 預計抵達時間：
+power-charge-window-eta = 預計時間：
 power-charge-window-charge = 指控：
 
 ## UI statuses

@@ -19,7 +19,7 @@ ghost-target-window-warp-to-most-followed-tooltip = 瞬間移動至追蹤人數�
 ghost-target-window-warp-to-random-followed-tooltip = 傳送至隨機一名被跟隨的玩家
 ghost-target-window-warp-to-random-tooltip = 傳送至隨機玩家
 ghost-roles-window-title = 幽靈角色
-ghost-roles-window-available-button = 有貨 ({ $rolesCount })
+ghost-roles-window-available-button = 有空位 ({ $rolesCount })
 ghost-roles-window-join-raffle-button = 參加抽獎活動
 ghost-roles-window-raffle-in-progress-button =
     Join raffle ({ $time } left, { $players ->

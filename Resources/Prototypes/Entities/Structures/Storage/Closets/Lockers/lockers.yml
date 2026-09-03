@@ -161,7 +161,7 @@
 - type: entity
   parent: LockerBase
   id: LockerEvacRepair
-  name: 緊急接駁車　緊急置物櫃 | emergency shuttle emergency locker
+  name: 緊急穿梭機　緊急置物櫃 | emergency shuttle emergency locker
   description: 一路上盡是緊急狀況。 | It's emergencies all the way down.
   components:
   - type: Appearance

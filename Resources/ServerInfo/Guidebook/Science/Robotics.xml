@@ -8,7 +8,7 @@
 <GuideEntityEmbed Entity="ExosuitFabricator" Caption="外骨骼服製造機"/>
 </Box>
   [color=#a4885c]外骨骼裝甲製造機[/color] 是您用來列印創作所需大部分零件的地方，例如：
-  - [textlink="Cyborg" link="賽博格"] 四肢
+  - [textlink="賽博格" link="Cyborgs"] 四肢
   - 機甲零件與裝備
   - 接近感測器
 
@@ -40,7 +40,7 @@
 </Box>
   [color=#a4885c]機甲[/color] 是巨型的金屬巨獸，其設計旨在執行各型號所對應的各種功能。 這些裝置由玩家操控，並需使用動力電池才能運作。
 
-  每台機甲的打造都需要一套獨一無二的肢體與零件。 這些部件可於「外骨骼服製造機」中製造，與其他任何零件無異，唯獨所需的 [color=#a4885c]電路板[/color] 需在 [color=#a4885c]電路板壓印機[/color] 製作，該設備通常可於 [textlink="science" link="科學"] 部門中找到。
+  每台機甲的打造都需要一套獨一無二的肢體與零件。 這些部件可於「外骨骼服製造機」中製造，與其他任何零件無異，唯獨所需的 [color=#a4885c]電路板[/color] 需在 [color=#a4885c]電路板壓印機[/color] 製作，該設備通常可於 [textlink="科學" link="Science"] 部門中找到。
 <Box>
 <GuideEntityEmbed Entity="RipleyCentralElectronics" Caption="Ripley 中央控制模組"/>
 </Box>

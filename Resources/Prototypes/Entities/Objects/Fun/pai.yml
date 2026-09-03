@@ -111,7 +111,7 @@
 - type: entity
   parent: [ PersonalAI, BaseSyndicateContraband]
   id: SyndicatePersonalAI
-  name: Syndicate 個人 AI 裝置 | syndicate personal ai device
+  name: 辛迪加 個人 AI 裝置 | syndicate personal ai device
   description: 那位和你在一起很開心的「辛迪加」夥伴！ | Your Syndicate pal who's fun to be with!
   components:
   - type: Sprite

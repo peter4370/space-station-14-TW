@@ -2,7 +2,7 @@
 - type: entity
   id: APCElectronics
   parent: BaseElectronics
-  name: APC 電子產品 | APC electronics
+  name: APC 電子零件 | APC electronics
   description: APC 製造所使用的電路。 | Circuit used in APC construction.
   components:
     - type: ApcElectronics

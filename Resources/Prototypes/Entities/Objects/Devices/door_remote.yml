@@ -160,7 +160,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCargo
-  name: 後車廂門遙控器 | cargo door remote
+  name: 貨運部門遙控器 | cargo door remote
   components:
   - type: Sprite
     layers:

@@ -139,7 +139,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MouseCube
-  name: 滑鼠方塊 | mouse cube
+  name: 老鼠方塊 | mouse cube
   components:
   - type: Rehydratable
     possibleSpawns:

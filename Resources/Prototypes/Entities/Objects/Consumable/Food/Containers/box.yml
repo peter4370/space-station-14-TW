@@ -552,7 +552,7 @@
   parent: HappyHonkNukie
   id: HappyHonkNukieSnacks
   suffix: Toy Unsafe, Snacks
-  name: syndicate 零食盒 | syndicate snack box
+  name: 辛迪加 零食盒 | syndicate snack box
   components:
   - type: Storage
     grid:

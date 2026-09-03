@@ -88,7 +88,7 @@
 - type: entity
   parent: AltarBaseWood
   id: AltarNanotrasen
-  name: 納諾特拉森祭壇 | nanotrasen altar
+  name: NanoTrasen 祭壇 | nanotrasen altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi

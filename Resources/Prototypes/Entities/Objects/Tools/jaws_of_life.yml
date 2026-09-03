@@ -69,7 +69,7 @@
       collection: MetalThud
 
 - type: entity
-  name: 「死亡之顎」犯罪集團 | syndicate jaws of death
+  name: 「死亡之顎」辛迪加 | syndicate jaws of death
   parent: [ JawsOfLife, BaseSyndicateContraband]
   id: SyndicateJawsOfLife
   description: 可用於闖入受保護區域及其他不法活動。 | Useful for breaking into secure areas and other nefarious activities.

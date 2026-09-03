@@ -1,7 +1,7 @@
 ﻿
 <Document>
   # 管線網路
-  管線網路——通常稱為 Pipenets——是一系列相互連接的 [textlink="管線" link="管線"]，通常具有共同的任務。
+  管線網路——通常稱為 Pipenets——是一系列相互連接的 [textlink="管線" link="Pipes"]，通常具有共同的任務。
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
@@ -21,13 +21,13 @@
   使用 [textlink="泵" link="Pumps"] 將氣體強制注入或抽離，將會影響整個管路系統，而不僅僅是其連接的管路。
 
   Pipenets 僅能透過具備中斷流量功能之裝置，或特定裝置來進行分離。
-  舉例來說，一個 [textlink="壓力泵" link="泵"] 除非通電且有氣體可泵送，否則不會讓氣體通過。
+  舉例來說，一個 [textlink="壓力泵" link="Pumps"] 除非通電且有氣體可泵送，否則不會讓氣體通過。
 
   以下是一些用於分離管路網路的設備範例：
   - [textlink="壓力泵與容積式泵" link="Pumps"]
   - [textlink="氣體混合器與過濾器" link="MixingAndFiltering"]
-  - [textlink="所有閥門" link="閥門"]
-  - [textlink="散熱器" link="散熱器"]
+  - [textlink="所有閥門" link="Valves"]
+  - [textlink="散熱器" link="Radiators"]
 
   下圖展示了一個管路網被 [textlink="泵浦" link="Pumps"] 分割成兩個獨立管路網的範例：
 

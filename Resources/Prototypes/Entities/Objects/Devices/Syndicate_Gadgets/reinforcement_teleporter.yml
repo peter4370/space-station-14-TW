@@ -3,7 +3,7 @@
   abstract: true
   id: ReinforcementRadio
   name: 辛迪加強化無線電 | syndicate reinforcement radio
-  description: 立刻找一位來路不明的合夥代理人！僅提供基本設備。 | Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
+  description: 立刻找一位來路不明的合夥特工！僅提供基本設備。 | Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -20,7 +20,7 @@
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicate
   name: 辛迪加強化無線電 | syndicate reinforcement radio
-  description: 立刻請一位來歷可疑的合買代理前來！ | Call in a syndicate agent of questionable quality, instantly!
+  description: 立刻請一位來歷可疑的辛迪加特工前來！ | Call in a syndicate agent of questionable quality, instantly!
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-reinforcement-spy-name | ghost-role-information-syndicate-reinforcement-spy-name

@@ -23,7 +23,7 @@ store-caregory-spellbook-utility = 實用咒語
 store-caregory-spellbook-equipment = 法師裝備
 store-caregory-spellbook-events = 事件法術
 # Nukie Delivery
-store-category-nukie-delivery = 優惠
+store-category-nukie-delivery = 可選內容
 # Changeling
 store-category-combat = 戰鬥
 store-category-utility = 實用性

@@ -7,7 +7,7 @@
   </Box>
   它主要用於將氣體壓入高壓室，例如該站點的 [textlink="氣體儲存室" link="GasMiningAndStorage"] 或燃燒室。
 
-  空氣注入器運作時無需 [textlink="電源" link="電源"]。
+  空氣注入器運作時無需 [textlink="電源" link="Power"]。
 
   氣體注入器會將氣體注入其所處的氣體環境中，直到該氣體環境的壓力達到 [color=orange][protodata="GasOutletInjector" comp="GasOutletInjector" member="MaxPressure"/] kPa[/color] 為止。
 

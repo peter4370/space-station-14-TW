@@ -1,7 +1,7 @@
 cargo-gifts-event-announcement = 恭喜！{ $sender } 已決定將 { $description } 運送至 { $dest } 站。請留意您下一次的貨運。
 cargo-gift-default-description = 一籃禮物
 cargo-gift-default-sender = NanoTrasen
-cargo-gift-default-dest = 貨運部
+cargo-gift-default-dest = 貨運部門。
 cargo-gift-dest-bar = bar
 cargo-gift-dest-eng = 工程部
 cargo-gift-dest-supp = 貨運部
@@ -9,7 +9,7 @@ cargo-gift-dest-janitor = 服務部
 cargo-gift-dest-med = 醫療部
 cargo-gift-dest-sec = 保安部
 cargo-gift-pizza-small = 一場小型披薩派對
-cargo-gift-pizza-large = 一場盛大的披薩派對
+cargo-gift-pizza-large = 一場盛大披薩派對
 cargo-gift-eng = 維修材料
 cargo-gift-vending = 自動販賣機的補貨
 cargo-gift-cleaning = 清潔設備

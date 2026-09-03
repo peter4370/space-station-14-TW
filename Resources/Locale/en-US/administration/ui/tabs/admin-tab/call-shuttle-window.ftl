@@ -1,1 +1,1 @@
-admin-shuttle-title = (重新)呼叫接駁車
+admin-shuttle-title = (重新)呼叫穿梭機

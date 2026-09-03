@@ -2,8 +2,8 @@
 
 door-remote-toggle-eletrify-text = 切換過充功能
 door-remote-open-close-text = 開啟與關閉門
-door-remote-toggle-bolt-text = 切換螺栓
-door-remote-emergency-access-text = 切換「緊急存取」功能
+door-remote-toggle-bolt-text = 啟動螺栓
+door-remote-emergency-access-text = 開關緊急通行
 door-remote-invalid-text = 無效
 door-remote-mode-label = 模式：[color=white]{ $modeString }[/color]
 

@@ -2,7 +2,7 @@
   parent: [ClothingEyesBase, BaseChameleon]
   id: ClothingEyesChameleon
   name: 太陽眼鏡 | sun glasses
-  description: 無論對安全還是卡戈尼亞而言都十分有用。 | Useful both for security and cargonia.
+  description: 無論對安保人員還是貨運國而言都十分有用。 | Useful both for security and cargonia.
   suffix: Chameleon
   components:
     - type: FlashImmunity

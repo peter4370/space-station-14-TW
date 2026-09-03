@@ -66,7 +66,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorQM
-  name: 瀏覽 QM 幽靈角色 | visiting QM ghost role
+  name: 瀏覽 司務長 幽靈角色 | visiting QM ghost role
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -525,7 +525,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimQM
   parent: RandomHumanoidChallengeVictimCaptain
-  name: 災民 QM 幽靈角色 | disaster victim QM ghost role
+  name: 災民 司務長 幽靈角色 | disaster victim QM ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -560,7 +560,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieSoldierTeamLeader
-  name: 辛迪加團隊領隊（幽靈角色） | syndicate team leader ghost role
+  name: 辛迪加團隊領隊幽靈角色 | syndicate team leader ghost role
   components:
     - type: Sprite
       sprite: Structures/Decoration/banner.rsi
@@ -570,7 +570,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieSoldier
-  name: 黑幫士兵的「幽靈」角色 | syndicate soldier ghost role
+  name: 辛迪加士兵的幽靈角色 | syndicate soldier ghost role
   components:
     - type: Sprite
       sprite: Structures/Decoration/banner.rsi

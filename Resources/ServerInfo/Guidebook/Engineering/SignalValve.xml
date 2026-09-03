@@ -1,14 +1,14 @@
 ﻿
 <Document>
   # 訊號閥
-  訊號閥是一種可透過 [textlink="訊號" link="網路連線"] 進行控制的閥門
+  訊號閥是一種可透過 [textlink="訊號" link="Networking"] 進行控制的閥門
   <Box>
     <GuideEntityEmbed Entity="SignalControlledValve"/>
   </Box>
 
   信號閥與手動閥相似。 氣體可在兩個方向上無阻礙地流動，且可手動操作。
 
-  信號閥具有 3 個 [textlink="signal" link="網路"] 輸入端，可用於開啟、關閉或切換閥門。
+  信號閥具有 3 個 [textlink="signal" link="Networking"] 輸入端，可用於開啟、關閉或切換閥門。
 
   信號閥可應用於多種場合，例如：
   - 在危險區域或人員無法進入的區域遠端控制閥門

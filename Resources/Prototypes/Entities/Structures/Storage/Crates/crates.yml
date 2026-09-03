@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateGenericSteel
-  name: 木箱 | crate
+  name: 貨箱 | crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/generic.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateEngineering
-  name: 工程用木箱 | engineering crate
+  name: 工程用貨箱 | engineering crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/engineering.rsi
@@ -454,7 +454,7 @@
   id: CrateBaseLockBox
   parent: CrateBaseSecure
   name: 保險箱 | lock box
-  description: "一個安全的保險箱。出售所得將全數撥回該部門。請記住：貨運公司總是會抽成。 | A secure lock box. Funds from its sale will be distributed back to the department. Just remember: Cargo always takes a cut."
+  description: "一個安全的保險箱。出售所得將全數撥回該部門。請記住：貨運部總是會抽成。 | A secure lock box. Funds from its sale will be distributed back to the department. Just remember: Cargo always takes a cut."
   abstract: true
   components:
   - type: Sprite
@@ -802,7 +802,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSyndicate
-  name: syndicate 貨箱 | syndicate crate
+  name: 辛迪加 貨箱 | syndicate crate
   description: 一個深色鋼製箱子，表面纏有紅色緞帶，正面壓印著字母 S。 | A dark steel crate with red bands and a letter S embossed on the front.
   components:
   - type: Icon

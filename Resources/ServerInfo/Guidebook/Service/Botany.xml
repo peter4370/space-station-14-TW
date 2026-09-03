@@ -1,6 +1,6 @@
 
 <Document>
-# 植物學
+# 植物部
 身為一名植物學家，你的任務是種植足夠的食物，以免主廚不得不尋找「替代來源」。 種大量的小麥，等膩了之後，就種大麻吧。 製作大麻果昔，並在飲品中加入蕁麻提味。 只要繼續種植植物，你一定會做得很好！
 
 ## 開始您的班次
@@ -79,7 +79,7 @@
 ## 化學物質
 某些化學物質對植物具有特殊影響。
 
-[textlink="點擊此處查看所有植物化學物質。" link="植物化學物質"]
+[textlink="點擊此處查看所有植物化學物質。" link="Botanical"]
 
 <GuideReagentEmbed Reagent="Dylovene"/>
 <GuideReagentEmbed Reagent="Cryoxadone"/>

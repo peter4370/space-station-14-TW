@@ -118,7 +118,7 @@
   name: 可疑的工具箱 | suspicious toolbox
   parent: [ToolboxBase, BaseSyndicateContraband]
   id: ToolboxSyndicate
-  description: 一個看起來陰森可怖的工具箱，裡面裝滿了黑幫組織的頂級工具。 | A sinister looking toolbox filled with elite syndicate tools.
+  description: 一個看起來陰森可怖的工具箱，裡面裝滿了辛迪加的頂級工具。 | A sinister looking toolbox filled with elite syndicate tools.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi

@@ -251,7 +251,7 @@
 - type: entity
   id: BedsheetQM
   parent: BedsheetBase
-  name: QM 的床單 | QM's bedsheet
+  name: 司務長的床單 | QM's bedsheet
   components:
   - type: Sprite
     state: sheetqm
@@ -308,7 +308,7 @@
   id: BedsheetSyndie
   parent: [ BedsheetBase, BaseSyndicateContraband ]
   name: 辛迪加床單 | syndicate bedsheet
-  description: 它印有黑手黨的徽章，並散發出一股邪惡的氣息。 | It has a syndicate emblem and it has an aura of evil.
+  description: 它印有辛迪加的徽章，並散發出一股邪惡的氣息。 | It has a syndicate emblem and it has an aura of evil.
   components:
   - type: Sprite
     state: sheetsyndie

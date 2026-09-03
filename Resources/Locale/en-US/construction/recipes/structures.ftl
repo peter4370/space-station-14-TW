@@ -1,4 +1,4 @@
-construction-recipe-diagonal-shuttle-wall = 穿梭牆（對角線）
+construction-recipe-diagonal-shuttle-wall = 穿梭機（對角線）
 construction-window-diagonal = 窗戶（對角線）
 construction-recipe-reinforced-window-diagonal = 加固窗（對角線）
 construction-recipe-clockwork-window-diagonal = 發條式窗戶（對角線）
@@ -22,6 +22,6 @@ construction-recipe-fence-wood-t-junction-small = 小木柵欄 T 型路口
 construction-recipe-fence-wood-gate-small = 小型木製柵欄門
 construction-recipe-pinion-airlock = 發條式氣閘
 construction-recipe-pinion-airlock-glass = 玻璃製發條式氣閘
-construction-recipe-airlock-glass-shuttle = 玻璃梭式氣鎖
+construction-recipe-airlock-glass-shuttle = 玻璃穿梭機氣閘
 construction-recipe-plastic-flaps-clear = 塑膠擋板（透明）
 construction-recipe-plastic-flaps-opaque = 塑膠擋板（不透明）

@@ -1240,7 +1240,7 @@
     dockLegendCategory: Arrivals
 
 - type: entity
-  name: 貨艙氣閘 | cargo airlock
+  name: 貨運部氣閘 | cargo airlock
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleCargo
   suffix: External, Cargo, Glass, Docking

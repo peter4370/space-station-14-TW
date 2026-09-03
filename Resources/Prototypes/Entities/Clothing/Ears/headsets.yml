@@ -38,7 +38,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCargo
-  name: Cargo 耳機 | cargo headset
+  name: 貨運部 耳機 | cargo headset
   description: 供應鏈員工使用的耳機。 | A headset used by supply employees.
   components:
   - type: ContainerFill
@@ -65,7 +65,7 @@
 - type: entity
   parent: [ClothingHeadsetCargo, BaseCommandContraband]
   id: ClothingHeadsetQM
-  name: qm 耳機 | qm headset
+  name: 司務長 耳機 | qm headset
   description: 司務長使用的耳機。 | A headset used by the quartermaster.
   components:
   - type: ContainerFill
@@ -79,7 +79,7 @@
   parent: [ ClothingHeadset, BaseCentcommContraband ]
   id: ClothingHeadsetCentCom
   name: CentComm 耳機 | CentComm headset
-  description: 一款由納諾特拉森高層使用的頭戴式裝置。 | A headset used by the upper echelons of Nanotrasen.
+  description: 一款由 NanoTrasen 高層使用的頭戴式裝置。 | A headset used by the upper echelons of Nanotrasen.
   components:
   - type: ContainerFill
     containers:

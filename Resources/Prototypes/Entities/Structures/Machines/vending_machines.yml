@@ -419,7 +419,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineWinter
-  name: WinterDrobe | WinterDrobe
+  name: 冬天Drobe | WinterDrobe
   description: 享受寒冷的最佳去處！ | The best place to enjoy the cold!
   components:
   - type: VendingMachine
@@ -1452,8 +1452,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineHydrobe
-  name: HyDrobe | HyDrobe
-  description: 一台名字很吸引人的機器。它販售與植物學相關的服飾和裝備。 | A machine with a catchy name. It dispenses botany related clothing and gear.
+  name: 水培Drobe | HyDrobe
+  description: 一台名字很吸引人的機器。它販售與植物部相關的服飾和裝備。 | A machine with a catchy name. It dispenses botany related clothing and gear.
   components:
   - type: VendingMachine
     pack: HyDrobeInventory
@@ -1481,7 +1481,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineLawDrobe
-  name: LawDrobe | LawDrobe
+  name: 法律Drobe | LawDrobe
   description: 異議！這座衣櫥不僅體現法治精神……還提供律師服…… | Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
   components:
   - type: VendingMachine
@@ -1506,7 +1506,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSecDrobe
-  name: SecDrobe | SecDrobe
+  name: 保安Drobe | SecDrobe
   description: 一台販售安全防護裝備及相關服飾的自動販賣機！ | A vending machine for security and security-related clothing!
   components:
   - type: VendingMachine
@@ -1535,7 +1535,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingBarDrobe
-  name: BarDrobe | BarDrobe
+  name: 酒吧Drobe | BarDrobe
   description: 一家時尚的供應商，提供最時尚的酒吧服飾！ | A stylish vendor to dispense the most stylish bar clothing!
   components:
   - type: VendingMachine
@@ -1586,8 +1586,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCargoDrobe
-  name: CargoDrobe | CargoDrobe
-  description: 一台極為先進的自動販賣機，可免費購買與貨運相關的服裝。 | A highly advanced vending machine for buying cargo related clothing for free.
+  name: 貨運Drobe | CargoDrobe
+  description: 一台極為先進的自動販賣機，可免費購買與貨運部相關的服裝。 | A highly advanced vending machine for buying cargo related clothing for free.
   components:
   - type: VendingMachine
     pack: CargoDrobeInventory
@@ -1615,7 +1615,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMediDrobe
-  name: MediDrobe | MediDrobe
+  name: 醫療Drobe | MediDrobe
   description: 據傳有一台自動販賣機，能夠提供醫護人員所需的衣物。 | A vending machine rumoured to be capable of dispensing clothing for medical personnel.
   components:
   - type: VendingMachine
@@ -1640,7 +1640,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChemDrobe
-  name: ChemDrobe | ChemDrobe
+  name: 化學Drobe | ChemDrobe
   description: 一台販售化學相關服飾的自動販賣機。 | A vending machine for dispensing chemistry related clothing.
   components:
   - type: VendingMachine
@@ -1666,7 +1666,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCuraDrobe
-  name: CuraDrobe | CuraDrobe
+  name: 館長Drobe | CuraDrobe
   description: 一家庫存量少、僅能向策展人和圖書館員販售服飾的供應商。 | A lowstock vendor only capable of vending clothing for curators and librarians.
   components:
   - type: VendingMachine
@@ -1691,7 +1691,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineAtmosDrobe
-  name: AtmosDrobe | AtmosDrobe
+  name: 大氣Drobe | AtmosDrobe
   description: 這台鮮為人知的自動販賣機，專門販售「大氣技術員」所需的服裝——這也是一個同樣鮮為人知的職業。 | This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
   components:
   - type: VendingMachine
@@ -1721,7 +1721,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineEngiDrobe
-  name: EngiDrobe | EngiDrobe
+  name: 工程Drobe | EngiDrobe
   description: 一台以販售工業級服裝而聞名的自動販賣機。 | A vending machine renowned for vending industrial grade clothing.
   components:
   - type: VendingMachine
@@ -1751,7 +1751,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChefDrobe
-  name: ChefDrobe | ChefDrobe
+  name: 廚師Drobe | ChefDrobe
   description: 這台自動販賣機雖然不會販售肉類，但絕對會販售與廚師相關的服飾。 | This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
   components:
   - type: VendingMachine
@@ -1776,7 +1776,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDetDrobe
-  name: DetDrobe | DetDrobe
+  name: 偵探Drobe | DetDrobe
   description: 一台能滿足您所有偵探需求的機器——只要您需要衣服的話。 | A machine for all your detective needs, as long as you need clothes.
   components:
   - type: VendingMachine
@@ -1801,7 +1801,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineJaniDrobe
-  name: JaniDrobe | JaniDrobe
+  name: 清潔Drobe | JaniDrobe
   description: 一台能自動清潔、並可為清潔人員提供工作服的自動販賣機。 | A self cleaning vending machine capable of dispensing clothing for janitors.
   components:
   - type: VendingMachine
@@ -1830,7 +1830,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSciDrobe
-  name: SciDrobe | SciDrobe
+  name: 科學Drobe | SciDrobe
   description: 一台簡便的自動販賣機，專門提供剪裁合身的科學服裝。獲得「太空古巴人」的認可。 | A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
   components:
   - type: VendingMachine
@@ -1855,8 +1855,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSyndieDrobe
-  name: SyndieDrobe | SyndieDrobe
-  description: 這台由組織編碼的衣櫥機，內含適用於各類行動的精英裝備。 | Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
+  name: 辛迪加Drobe | SyndieDrobe
+  description: 這台由辛迪加編碼的衣櫥機，內含適用於各類行動的精英裝備。 | Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
   components:
   - type: VendingMachine
     pack: SyndieDrobeInventory
@@ -1884,7 +1884,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineRoboDrobe
-  name: RoboDrobe | RoboDrobe
+  name: 機器Drobe | RoboDrobe
   description: 一款專門販售服飾的自動販賣機，其設計僅為機器人學家所知。 | A vending machine designed to dispense clothing known only to roboticists.
   components:
   - type: VendingMachine
@@ -1909,7 +1909,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineGeneDrobe
-  name: GeneDrobe | GeneDrobe
+  name: 基因Drobe | GeneDrobe
   description: 一台用於分發與遺傳學相關服裝的機器。 | A machine for dispensing clothing related to genetics.
   components:
   - type: VendingMachine
@@ -1935,7 +1935,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineViroDrobe
-  name: ViroDrobe | ViroDrobe
+  name: 病毒Drobe | ViroDrobe
   description: 一台用於分發病毒學相關防護服的未經消毒之機器。 | An unsterilized machine for dispending virology related clothing.
   components:
   - type: VendingMachine
@@ -1961,7 +1961,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCentDrobe
-  name: CentDrobe | CentDrobe
+  name: 中央Drobe | CentDrobe
   description: 一台獨一無二的自動販賣機，滿足您所有「centcomm」美學需求！ | A one-of-a-kind vending machine for all your centcomm aesthetic needs!
   components:
   - type: VendingMachine
@@ -2054,7 +2054,7 @@
   parent: BaseVendingMachine
   id: VendingMachineTankDispenserEVA
   suffix: EVA [O2, N2]
-  name: 燃油箱加油機 | gas tank dispenser
+  name: 氣罐發放器 | gas tank dispenser
   description: 一家銷售氣罐的供應商。 | A vendor for dispensing gas tanks.
   components:
   - type: VendingMachine
@@ -2067,8 +2067,8 @@
   parent: BaseVendingMachine
   id: VendingMachineTankDispenserEngineering
   suffix: ENG [O2, Plasma]
-  name: 燃油箱加油機 | gas tank dispenser
-  description: 一輛用於配送瓦斯罐的貨車。這輛車塗裝採用工程風格。 | A vendor for dispensing gas tanks. This one has an engineering livery.
+  name: 氣罐發放器 | gas tank dispenser
+  description: 一輛用於配送氣體罐的貨車。這輛車塗裝採用工程風格。 | A vendor for dispensing gas tanks. This one has an engineering livery.
   components:
   - type: VendingMachine
     pack: TankDispenserEngineeringInventory
