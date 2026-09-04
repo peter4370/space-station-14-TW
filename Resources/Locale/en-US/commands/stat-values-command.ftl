@@ -25,6 +25,6 @@ stat-item-values = 商品尺寸
 stat-item-id = ID
 stat-item-price = 尺寸
 # Draw Rate
-stat-drawrate-values = APC 抽獎率
+stat-drawrate-values = APC 耗電
 stat-drawrate-id = ID
-stat-drawrate-rate = 抽取率 (W)
+stat-drawrate-rate = 耗電 (W)

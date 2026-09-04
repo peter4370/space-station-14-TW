@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: StationAnchorBase
   abstract: true
-  name: 電視台主播 | station anchor
+  name: 太空站錨點 | station anchor
   description: 防止電台移動。 | Prevents stations from moving.
   suffix: On
   placement:

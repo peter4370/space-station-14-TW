@@ -3,12 +3,12 @@
 
 ## Title
 
-ui-transfer-amount-title = 變更轉帳金額
+ui-transfer-amount-title = 變更轉移量
 
 ## Text for the button to apply changes
 
-ui-transfer-amount-apply = 設定金額
+ui-transfer-amount-apply = 設定轉移量
 
 ## Placeholder text for the amount line edit
 
-ui-transfer-amount-line-edit-placeholder = 金額
+ui-transfer-amount-line-edit-placeholder = 轉移量

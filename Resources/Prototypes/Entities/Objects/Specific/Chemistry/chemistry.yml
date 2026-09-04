@@ -619,7 +619,7 @@
       maxVol: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   id: PillCanister
   parent: BaseStorageItem
   description: 最多可容納 10 顆藥丸。 | Holds up to 10 pills.

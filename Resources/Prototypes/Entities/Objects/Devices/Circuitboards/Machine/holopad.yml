@@ -2,7 +2,7 @@
   id: HolopadMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: 全息平板主機板 | holopad machine board
-  description: 一款用於全息平板的機械印刷電路板。 | A machine printed circuit board for a holopad.
+  description: 一款用於全息平板的主機印刷電路板。 | A machine printed circuit board for a holopad.
   components:
     - type: MachineBoard
       prototype: Holopad

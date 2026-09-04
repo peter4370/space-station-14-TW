@@ -413,7 +413,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterDexalin
   suffix: Dexalin 20u, 7
@@ -445,7 +445,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterDylovene
   suffix: Dylovene 20u, 5
@@ -477,7 +477,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterHyronalin
   suffix: Hyronalin 20u, 5
@@ -509,7 +509,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterPotassiumIodide
   suffix: Potassium iodide 20u, 5
@@ -559,7 +559,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterIron
   suffix: Iron 20u, 5
@@ -573,7 +573,7 @@
         amount: 5
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterCopper
   suffix: Copper 20u, 5
@@ -605,7 +605,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterKelotane
   suffix: Kelotane 20u, 5
@@ -637,7 +637,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterDermaline
   suffix: Dermaline 20u, 5
@@ -680,7 +680,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterTricordrazine
   suffix: Tricordrazine 20u, 5
@@ -694,7 +694,7 @@
         amount: 5
 
 -  type: entity
-   name: 藥丸罐 | pill canister
+   name: 藥丸容器 | pill canister
    parent: PillCanister
    id: PillCanisterAmbuzol
    suffix: Ambuzol 15u, 2
@@ -726,7 +726,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterBicaridine
   suffix: Bicaridine 20u, 5
@@ -758,7 +758,7 @@
         Quantity: 20
 
 - type: entity
-  name: 藥丸罐 | pill canister
+  name: 藥丸容器 | pill canister
   parent: PillCanister
   id: PillCanisterCharcoal
   suffix: Charcoal 20u, 3

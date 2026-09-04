@@ -1,6 +1,6 @@
 
 <Document>
-  # 氣體罐
+  # 氣體容器
   <Box>
     <GuideEntityEmbed Entity="AirCanister"/>
     <GuideEntityEmbed Entity="OxygenCanister"/>

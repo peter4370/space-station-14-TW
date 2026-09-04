@@ -3,8 +3,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-400c「斯瓦林機槍」機槍底板 | LSE-400c "Svalinn machine gun" machine board
-  description: 一款適用於 LSE-400c「Svalinn 機槍」的機製印刷電路板。 | A machine printed circuit board for an LSE-400c "Svalinn machine gun".
+  name: LSE-400c「斯瓦林機槍」主機板 | LSE-400c "Svalinn machine gun" machine board
+  description: 一款適用於 LSE-400c「Svalinn 機槍」的主機印刷電路板。 | A machine printed circuit board for an LSE-400c "Svalinn machine gun".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -20,8 +20,8 @@
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-1200c「Perforator」機器主板 | LSE-1200c "Perforator" machine board
-  description: 一款適用於 LSE-1200c「打孔機」的機製印刷電路板。 | A machine printed circuit board for an LSE-1200c "Perforator".
+  name: LSE-1200c「Perforator」主機板 | LSE-1200c "Perforator" machine board
+  description: 一款適用於 LSE-1200c「打孔機」的主機印刷電路板。 | A machine printed circuit board for an LSE-1200c "Perforator".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -37,8 +37,8 @@
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-320g「Friendship」機板 | EXP-320g "Friendship" machine board
-  description: 適用於 EXP-320g「Friendship」的機製印刷電路板。 | A machine printed circuit board for an EXP-320g "Friendship".
+  name: EXP-320g「Friendship」主機板 | EXP-320g "Friendship" machine board
+  description: 適用於 EXP-320g「Friendship」的主機印刷電路板。 | A machine printed circuit board for an EXP-320g "Friendship".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -54,8 +54,8 @@
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-2100g「Duster」機板 | EXP-2100g "Duster" machine board
-  description: 適用於 EXP-2100g「Duster」的機製印刷電路板。 | A machine printed circuit board for an EXP-2100g "Duster".
+  name: EXP-2100g「Duster」主機板 | EXP-2100g "Duster" machine board
+  description: 適用於 EXP-2100g「Duster」的主機印刷電路板。 | A machine printed circuit board for an EXP-2100g "Duster".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -72,8 +72,8 @@
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
-  name: PTK-800「物質解體器」主機電路板 | PTK-800 "Matter Dematerializer" machine board
-  description: 一款用於 PTK-800「物質去物質化器」的機製印刷電路板。 | A machine printed circuit board for an PTK-800 "Matter Dematerializer".
+  name: PTK-800「物質解體器」主機板 | PTK-800 "Matter Dematerializer" machine board
+  description: 一款用於 PTK-800「物質去物質化器」的主機印刷電路板。 | A machine printed circuit board for an PTK-800 "Matter Dematerializer".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:

@@ -202,8 +202,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCanister1
-  name: 罐體手柄 | canister handle
-  description: 這對固定罐體很有幫助。現在你只需要實際的罐體部分了。 | Helpful for holding a canister. Now you just need the actual canister part.
+  name: 容器手柄 | canister handle
+  description: 這對固定容器很有幫助。現在你只需要實際的容器部分了。 | Helpful for holding a canister. Now you just need the actual canister part.
   components:
   - type: Sprite
     layers:
@@ -217,8 +217,8 @@
 - type: entity
   parent: BaseScrap
   id: ScrapCanister2
-  name: 氣罐閥 | canister valve
-  description: 一個來自氣體罐的閥門。 | A valve from a gas canister.
+  name: 容器閥 | canister valve
+  description: 一個來自氣體容器的閥門。 | A valve from a gas canister.
   components:
   - type: Sprite
     layers:

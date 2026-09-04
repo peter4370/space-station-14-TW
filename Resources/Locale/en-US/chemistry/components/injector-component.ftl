@@ -19,7 +19,7 @@ injector-component-transfer-success-message-self = 你將 { $amount }u 轉移到
 injector-component-inject-success-message = 你將 { $amount }u 注入 { THE($target) }！
 injector-component-inject-success-message-self = 你將 { $amount }u 注射到自己體內！
 injector-component-draw-success-message = 你從 { THE($target) } 中抽取 { $amount }u。
-injector-component-draw-success-message-self = 你從自己那裡抽一張 { $amount }u。
+injector-component-draw-success-message-self = 你從自己那裡抽取 { $amount }u。
 
 ## Fail Messages
 
@@ -37,15 +37,15 @@ injector-component-cannot-transfer-message = 您無法轉入 { THE($target) }！
 injector-component-cannot-transfer-message-self = 你無法轉入自己身上！
 injector-component-cannot-inject-message = 您無法對 { THE($target) } 進行注入！
 injector-component-cannot-inject-message-self = 你不能自己給自己注射！
-injector-component-cannot-draw-message = 您無法從 { THE($target) } 中擷取資料！
-injector-component-cannot-draw-message-self = 你無法從自己身上汲取靈感！
+injector-component-cannot-draw-message = 您無法從 { THE($target) } 中抽取！
+injector-component-cannot-draw-message-self = 你無法從自己身上抽取！
 injector-component-ignore-mobs = 此注入器僅能與容器進行互動！
 
 ## mob-inject doafter messages
 
 injector-component-needle-injecting-user = 你開始進行注射。
 injector-component-needle-injecting-target = { CAPITALIZE(THE($user)) } 正試圖向你注射一針！
-injector-component-needle-drawing-user = 你開始畫那根針。
+injector-component-needle-drawing-user = 你開始用針抽取。
 injector-component-needle-drawing-target = { CAPITALIZE(THE($user)) } 正試圖用一根針從你身上抽血！
 injector-component-spray-injecting-user = 您開始準備噴嘴。
 injector-component-spray-injecting-target = { CAPITALIZE(THE($user)) } 正試圖將一個噴嘴對準你！

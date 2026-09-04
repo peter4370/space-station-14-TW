@@ -429,8 +429,8 @@
 - type: entity
   parent: BaseSign
   id: SignCanisters
-  name: 氣罐標誌 | canisters sign
-  description: 一塊警告觀看者注意加壓罐的標誌。 | A sign warning the viewer about pressurised canisters.
+  name: 容器標誌 | canisters sign
+  description: 一塊警告觀看者注意加壓容器的標誌。 | A sign warning the viewer about pressurised canisters.
   components:
   - type: Sprite
     state: canisters
@@ -799,8 +799,8 @@
 - type: entity
   parent: BaseSign
   id: SignCans
-  name: 氣罐標誌 | canisters sign
-  description: 一塊標示著氣體罐吉祥現身的標誌。 | A sign indicating the auspicious presence of gas canisters.
+  name: 容器標誌 | canisters sign
+  description: 一塊標示著氣體容器吉祥現身的標誌。 | A sign indicating the auspicious presence of gas canisters.
   components:
   - type: Sprite
     state: cans

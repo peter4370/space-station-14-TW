@@ -380,7 +380,7 @@
       prob: 0.75
 
 - type: entity
-  name: 打撈罐生成器 | Salvage Canister Spawner
+  name: 打撈容器生成器 | Salvage Canister Spawner
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:

@@ -2,7 +2,7 @@
   id: MachineParticleAcceleratorEndCapCircuitboard
   parent: BaseMachineCircuitboard
   name: PA 端蓋板 | PA end cap board
-  description: 用於粒子加速器端蓋的機板。 | A machine board for a particle accelerator end cap.
+  description: 用於粒子加速器端蓋的主機板。 | A machine board for a particle accelerator end cap.
   components:
     - type: Sprite
       state: engineering
@@ -16,7 +16,7 @@
   id: MachineParticleAcceleratorFuelChamberCircuitboard
   parent: BaseMachineCircuitboard
   name: PA 燃料室電路板 | PA fuel chamber board
-  description: 用於粒子加速器燃料室的機板。 | A machine board for a particle accelerator fuel chamber.
+  description: 用於粒子加速器燃料室的主機板。 | A machine board for a particle accelerator fuel chamber.
   components:
     - type: Sprite
       state: engineering
@@ -34,7 +34,7 @@
   id: MachineParticleAcceleratorPowerBoxCircuitboard
   parent: BaseMachineCircuitboard
   name: PA 電源盒電路板 | PA power box board
-  description: 用於粒子加速器電源箱的機板。 | A machine board for a particle accelerator power box.
+  description: 用於粒子加速器電源箱的主機板。 | A machine board for a particle accelerator power box.
   components:
     - type: Sprite
       state: engineering
@@ -50,7 +50,7 @@
   id: MachineParticleAcceleratorEmitterStarboardCircuitboard
   parent: BaseMachineCircuitboard
   name: PA 右舷發射器電路板 | PA starboard emitter board
-  description: 一塊用於粒子加速器左側發射器的機板。 | A machine board for a particle accelerator left emitter.
+  description: 用於粒子加速器左側發射器的主機板。 | A machine board for a particle accelerator left emitter.
   components:
     - type: Sprite
       state: engineering
@@ -64,7 +64,7 @@
   id: MachineParticleAcceleratorEmitterForeCircuitboard
   parent: BaseMachineCircuitboard
   name: PA 前端發射器電路板 | PA fore emitter board
-  description: 用於粒子加速器中心發射器的機板。 | A machine board for a particle accelerator center emitter.
+  description: 用於粒子加速器中心發射器的主機板。 | A machine board for a particle accelerator center emitter.
   components:
     - type: Sprite
       state: engineering
@@ -78,7 +78,7 @@
   id: MachineParticleAcceleratorEmitterPortCircuitboard
   parent: BaseMachineCircuitboard
   name: PA 端口發射極電路板 | PA port emitter board
-  description: 一塊用於粒子加速器右側發射器的機板。 | A machine board for a particle accelerator right emitter.
+  description: 用於粒子加速器右側發射器的主機板。 | A machine board for a particle accelerator right emitter.
   components:
     - type: Sprite
       state: engineering

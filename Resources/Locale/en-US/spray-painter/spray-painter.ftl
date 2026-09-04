@@ -34,7 +34,7 @@ spray-painter-color-white = 白色
 spray-painter-color-black = 黑色
 # Categories (tabs)
 spray-painter-tab-category-airlocks = 氣閘
-spray-painter-tab-category-canisters = 罐子
+spray-painter-tab-category-canisters = 容器
 spray-painter-tab-category-crates = 貨箱
 spray-painter-tab-category-lockers = 置物櫃
 spray-painter-tab-category-pipes = 管子

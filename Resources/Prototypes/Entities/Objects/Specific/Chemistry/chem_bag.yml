@@ -2,7 +2,7 @@
   name: 化學實驗袋 | chemistry bag
   id: ChemBag
   parent: BaseStorageItem
-  description: 一款用於存放化學用品的袋子，例如藥丸、藥丸罐、瓶子及注射器。 | A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+  description: 一款用於存放化學用品的袋子，例如藥丸、藥丸容器、瓶子及注射器。 | A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/chem_bag.rsi

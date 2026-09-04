@@ -10,11 +10,11 @@ implanter-component-implant-already = { CAPITALIZE(THE({ $target })) } 已經包
 
 ## UI
 
-implanter-set-draw-verb = 設定植體抽圖
-implanter-set-draw-window = 設定植體抽圖
+implanter-set-draw-verb = 取出植體
+implanter-set-draw-window = 取出植體
 implanter-set-draw-info = 請選擇此植入物取出器應取出的植入物類型：
 implanter-set-draw-type = 植體類型：
-implanter-draw-text = 抽取
+implanter-draw-text = 取出
 implanter-inject-text = 注入
 implanter-empty-text = 空白
 implanter-label-inject = [color=green]{ $implantName }[/color]

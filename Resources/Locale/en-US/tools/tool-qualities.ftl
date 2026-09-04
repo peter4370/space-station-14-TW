@@ -1,5 +1,5 @@
-tool-quality-anchoring-name = 錨定
-tool-quality-anchoring-tool-name = 扳手
+tool-quality-anchoring-name = 固定
+tool-quality-anchoring-tool-name = 旋緊
 tool-quality-prying-name = 撬
 tool-quality-prying-tool-name = 撬棍
 tool-quality-screwing-name = 螺紋轉轉

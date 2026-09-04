@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: AutolatheMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 自動車床機板 | autolathe machine board
-  description: 用於自動車床的機械印刷電路板。 | A machine printed circuit board for an autolathe.
+  name: 自動車床主機板 | autolathe machine board
+  description: 用於自動車床的主機印刷電路板。 | A machine printed circuit board for an autolathe.
   components:
     - type: MachineBoard
       prototype: Autolathe
@@ -13,8 +13,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AutolatheHyperConvectionMachineCircuitboard
-  name: 超對流自動車床機板 | hyper convection autolathe machine board
-  description: 一款用於超對流自動車床的機械式印刷電路板。 | A machine printed circuit board for a hyper convection autolathe.
+  name: 超對流自動車床主機板 | hyper convection autolathe machine board
+  description: 一款用於超對流自動車床的主機印刷電路板。 | A machine printed circuit board for a hyper convection autolathe.
   components:
   - type: MachineBoard
     prototype: AutolatheHyperConvection
@@ -29,8 +29,8 @@
 - type: entity
   id: ProtolatheMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: Protolathe 機台主板 | protolathe machine board
-  description: 一款用於原型車床的機械印刷電路板。 | A machine printed circuit board for a protolathe.
+  name: 原型車床主機板 | protolathe machine board
+  description: 一款用於原型車床的主機印刷電路板。 | A machine printed circuit board for a protolathe.
   components:
   - type: Sprite
     state: science
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ProtolatheHyperConvectionMachineCircuitboard
-  name: 超對流原型車床機板 | hyper convection protolathe machine board
-  description: 一款用於超對流原型車床的機械印刷電路板。 | A machine printed circuit board for a hyper convection protolathe.
+  name: 超對流原型車床主機板 | hyper convection protolathe machine board
+  description: 一款用於超對流原型車床的主機印刷電路板。 | A machine printed circuit board for a hyper convection protolathe.
   components:
   - type: Sprite
     state: science
@@ -66,8 +66,8 @@
 - type: entity
   id: BiofabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 生物方塊製造機主板 | biocube fabricator machine board
-  description: 用於生物方塊製造機的機械印刷電路板。 | A machine printed circuit board for a biocube fabricator.
+  name: 生物方塊製造機主機板 | biocube fabricator machine board
+  description: 用於生物方塊製造機的主機印刷電路板。 | A machine printed circuit board for a biocube fabricator.
   components:
   - type: Sprite
     state: service
@@ -80,8 +80,8 @@
 - type: entity
   id: SecurityTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: 安全技術製造機電板 | security techfab machine board
-  description: 一款用於安全科技製造廠的機製印刷電路板。 | A machine printed circuit board for a security techfab.
+  name: 安全技術製造機主機板 | security techfab machine board
+  description: 一款用於安全科技製造廠的主機印刷電路板。 | A machine printed circuit board for a security techfab.
   components:
     - type: Sprite
       state: security
@@ -98,7 +98,7 @@
   id: AmmoTechFabCircuitboard
   parent: BaseMachineCircuitboard
   name: ammo techfab 電路板 | ammo techfab circuit board
-  description: 一款用於彈藥技術製造廠的機製印刷電路板。 | A machine printed circuit board for an ammo techfab.
+  description: 一款用於彈藥技術製造廠的主機印刷電路板。 | A machine printed circuit board for an ammo techfab.
   components:
     - type: Sprite
       state: security
@@ -110,8 +110,8 @@
 - type: entity
   id: MedicalTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: 醫療用科技製造機主板 | medical techfab machine board
-  description: 一款用於醫療科技製造廠的機械印刷電路板。 | A machine printed circuit board for a medical techfab.
+  name: 醫療用科技製造機主機板 | medical techfab machine board
+  description: 一款用於醫療科技製造廠的主機印刷電路板。 | A machine printed circuit board for a medical techfab.
   components:
     - type: Sprite
       state: medical
@@ -129,7 +129,7 @@
 - type: entity
   id: CircuitImprinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 電路板壓印機機板 | circuit imprinter machine board
+  name: 電路板壓印機主機板 | circuit imprinter machine board
   components:
   - type: Sprite
     state: science
@@ -145,8 +145,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: CircuitImprinterHyperConvectionMachineCircuitboard
-  name: 超對流電路印製機電路板 | hyper convection circuit imprinter machine board
-  description: 一種用於超對流電路印製機的機械式印刷電路板。 | A machine printed circuit board for a hyper convection circuit imprinter.
+  name: 超對流電路印製機主機板 | hyper convection circuit imprinter machine board
+  description: 一種用於超對流電路印製機的主機印刷電路板。 | A machine printed circuit board for a hyper convection circuit imprinter.
   components:
   - type: Sprite
     state: science
@@ -165,7 +165,7 @@
 - type: entity
   id: ExosuitFabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 外骨骼服製造機主板 | exosuit fabricator machine board
+  name: 外骨骼服製造機主機板 | exosuit fabricator machine board
   components:
   - type: Sprite
     state: science
@@ -183,7 +183,7 @@
   id: ResearchAndDevelopmentServerMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: 研發伺服器主機板 | R&D server machine board
-  description: 用於研發伺服器的機製印刷電路板。 | A machine printed circuit board for the R&D server.
+  description: 用於研發伺服器的主機印刷電路板。 | A machine printed circuit board for the R&D server.
   components:
   - type: Sprite
     state: science
@@ -195,8 +195,8 @@
 - type: entity
   id: BiogeneratorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 生物發電機主板 | biogenerator machine board
-  description: 一種用於生物發電器的機械式印刷電路板。 | A machine printed circuit board for a biogenerator.
+  name: 生物發電機主機板 | biogenerator machine board
+  description: 一種用於生物發電器的主機印刷電路板。 | A machine printed circuit board for a biogenerator.
   components:
   - type: Sprite
     state: service
@@ -212,7 +212,7 @@
 - type: entity
   id: UniformPrinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 制服印表機機板 | uniform printer machine board
+  name: 制服印表機主機板 | uniform printer machine board
   components:
   - type: MachineBoard
     prototype: UniformPrinter
@@ -222,7 +222,7 @@
 - type: entity
   id: VaccinatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 疫苗接種機主板 | vaccinator machine board
+  name: 疫苗接種機主機板 | vaccinator machine board
   components:
   - type: Sprite
     state: medical
@@ -239,7 +239,7 @@
 - type: entity
   id: DiagnoserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 診斷機主板 | diagnoser machine board
+  name: 診斷機主機板 | diagnoser machine board
   components:
   - type: Sprite
     state: medical
@@ -260,7 +260,7 @@
   id: ArtifactAnalyzerMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: 神器分析儀主機板 | artifact analyzer machine board
-  description: 用於神器分析儀的機械印刷電路板。 | A machine printed circuit board for an artifact analyzer.
+  description: 用於神器分析儀的主機印刷電路板。 | A machine printed circuit board for an artifact analyzer.
   components:
     - type: Sprite
       state: science
@@ -274,7 +274,7 @@
   id: ArtifactCrusherMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: 神器粉碎機主機板 | artifact crusher machine board
-  description: 用於神器粉碎機的機械印刷電路板。 | A machine printed circuit board for an artifact crusher.
+  description: 用於神器粉碎機的主機印刷電路板。 | A machine printed circuit board for an artifact crusher.
   components:
   - type: Sprite
     state: science
@@ -288,8 +288,8 @@
 - type: entity
   id: StationTeleporterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 傳送器機板 | teleporter machine board
-  description: 一款用於「藍色空間」傳送器的機械印刷電路板。 | A machine printed circuit board for a bluespace teleporter.
+  name: 傳送器主機板 | teleporter machine board
+  description: 一款用於「藍色空間」傳送器的主機印刷電路板。 | A machine printed circuit board for a bluespace teleporter.
   components:
   - type: Sprite
     state: science
@@ -303,8 +303,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselCircuitboard
-  name: 異常載體機器板 | anomaly vessel machine board
-  description: 一款用於異常載體的機械印刷電路板。 | A machine printed circuit board for an anomaly vessel.
+  name: 異常載體主機板 | anomaly vessel machine board
+  description: 一款用於異常載體的主機印刷電路板。 | A machine printed circuit board for an anomaly vessel.
   components:
     - type: Sprite
       state: science
@@ -318,8 +318,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselExperimentalCircuitboard
-  name: 實驗性異常載體機板 | experimental anomaly vessel machine board
-  description: 一款用於實驗性異常載體的機製印刷電路板。 | A machine printed circuit board for an experimental anomaly vessel.
+  name: 實驗性異常載體主機板 | experimental anomaly vessel machine board
+  description: 一款用於實驗性異常載體的主機印刷電路板。 | A machine printed circuit board for an experimental anomaly vessel.
   components:
   - type: Sprite
     state: science
@@ -334,8 +334,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalySynchronizerCircuitboard
-  name: 異常同步器機板 | anomaly synchronizer machine board
-  description: 用於異常同步器的機器印刷電路板。 | A machine printed circuit board for an anomaly synchronizer.
+  name: 異常同步器主機板 | anomaly synchronizer machine board
+  description: 用於異常同步器的主機印刷電路板。 | A machine printed circuit board for an anomaly synchronizer.
   components:
     - type: Sprite
       state: science
@@ -349,8 +349,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: APECircuitboard
-  name: A.P.E. 機板 | A.P.E. machine board
-  description: 一款適用於 A.P.E. 的機製印刷電路板。 | A machine printed circuit board for an A.P.E.
+  name: A.P.E. 主機板 | A.P.E. machine board
+  description: 用於 A.P.E. 的主機印刷電路板。 | A machine printed circuit board for an A.P.E.
   components:
     - type: Sprite
       state: science
@@ -364,7 +364,7 @@
 - type: entity
   id: ThermomachineFreezerMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: 冷凍機熱機控制板 | freezer thermomachine machine board
+  name: 冷凍器熱機主機板 | freezer thermomachine machine board
   description: 看來你可以用螺絲起子來更換電路板類型。 | Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
@@ -382,7 +382,7 @@
 - type: entity
   id: ThermomachineHeaterMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: 加熱器熱機主板 | heater thermomachine machine board
+  name: 加熱器熱機主機板 | heater thermomachine machine board
   description: 看來你可以用螺絲起子來更換電路板類型。 | Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
@@ -400,7 +400,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: HellfireFreezerMachineCircuitBoard
-  name: Hellfire 冷凍機主板 | hellfire freezer machine board
+  name: Hellfire 冷凍器主機板 | hellfire freezer machine board
   description: 看來你可以用螺絲起子來更換電路板類型。 | Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
@@ -418,7 +418,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: HellfireHeaterMachineCircuitBoard
-  name: Hellfire 加熱器主板 | hellfire heater machine board
+  name: Hellfire 加熱器主機板 | hellfire heater machine board
   description: 看來你可以用螺絲起子來更換電路板類型。 | Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
@@ -436,8 +436,8 @@
 - type: entity
   id: CondenserMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: 冷凝器機板 | condenser machine board
-  description: 用於電容器的一塊機械式印刷電路板。 | A machine printed circuit board for a condenser.
+  name: 冷凝器主機板 | condenser machine board
+  description: 用於電容器的一塊主機印刷電路板。 | A machine printed circuit board for a condenser.
   components:
   - type: Sprite
     state: engineering
@@ -450,8 +450,8 @@
 - type: entity
   id: PortableScrubberMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: 便攜式吸氣機控制板 | portable scrubber machine board
-  description: 一款用於便攜式清洗機的機器製造印刷電路板。 | A machine printed circuit board for a portable scrubber.
+  name: 便攜式吸氣機主機板 | portable scrubber machine board
+  description: 一款用於便攜式清洗機的主機印刷電路板。 | A machine printed circuit board for a portable scrubber.
   components:
   - type: Sprite
     state: engineering
@@ -465,8 +465,8 @@
 - type: entity
   id: SpaceHeaterMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: 電暖器主板 | space heater machine board
-  description: 一款用於空間加熱器的機械式印刷電路板。 | A machine printed circuit board for a space heater.
+  name: 空間電暖器主機板 | space heater machine board
+  description: 一款用於空間加熱器的主機印刷電路板。 | A machine printed circuit board for a space heater.
   components:
   - type: Sprite
     state: engineering
@@ -479,8 +479,8 @@
 - type: entity
   id: CloningPodMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 克隆艙機板 | cloning pod machine board
-  description: 用於克隆艙的機械印刷電路板。 | A machine printed circuit board for a cloning pod.
+  name: 克隆艙主機板 | cloning pod machine board
+  description: 用於克隆艙的主機印刷電路板。 | A machine printed circuit board for a cloning pod.
   components:
     - type: Sprite
       state: medical
@@ -495,7 +495,7 @@
   id: MedicalScannerMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: 醫療掃描器主機板 | medical scanner machine board
-  description: 一款用於醫療掃描器的機械式印刷電路板。 | A machine printed circuit board for a medical scanner.
+  description: 一款用於醫療掃描器的主機印刷電路板。 | A machine printed circuit board for a medical scanner.
   components:
     - type: Sprite
       state: medical
@@ -510,7 +510,7 @@
   id: CrewMonitoringServerMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: 機組人員監控伺服器主機板 | crew monitoring server machine board
-  description: 用於機組人員監控伺服器的機械製造印刷電路板。 | A machine printed circuit board for a crew monitoring server.
+  description: 用於機組人員監控伺服器的主機印刷電路板。 | A machine printed circuit board for a crew monitoring server.
   components:
     - type: MachineBoard
       prototype: CrewMonitoringServer
@@ -521,8 +521,8 @@
 - type: entity
   id: CryoPodMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 低溫艙機電控制板 | cryo pod machine board
-  description: 用於低溫艙的機械式印刷電路板。 | A machine printed circuit board for a cryo pod.
+  name: 低溫艙主機板 | cryo pod machine board
+  description: 用於低溫艙的主機印刷電路板。 | A machine printed circuit board for a cryo pod.
   components:
     - type: Sprite
       state: medical
@@ -535,8 +535,8 @@
 - type: entity
   id: ChemMasterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: ChemMaster 4000 機台控制板 | ChemMaster 4000 machine board
-  description: 一款適用於 ChemMaster 4000 的機器印刷電路板。 | A machine printed circuit board for a ChemMaster 4000.
+  name: ChemMaster 4000 主機板 | ChemMaster 4000 machine board
+  description: 一款適用於 ChemMaster 4000 的主機印刷電路板。 | A machine printed circuit board for a ChemMaster 4000.
   components:
     - type: Sprite
       state: medical
@@ -554,8 +554,8 @@
 - type: entity
   id: ChemDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 化學藥劑分配機電路板 | chem dispenser machine board
-  description: 用於化學藥劑分配器的機械印刷電路板。 | A machine printed circuit board for a chem dispenser.
+  name: 化學藥劑分配機主機板 | chem dispenser machine board
+  description: 用於化學藥劑分配器的主機印刷電路板。 | A machine printed circuit board for a chem dispenser.
   components:
     - type: Sprite
       state: medical
@@ -573,8 +573,8 @@
 - type: entity
   id: BiomassReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 生物質回收機控制板 | biomass reclaimer machine board
-  description: 用於生物質回收機的機械式印刷電路板。 | A machine printed circuit board for a biomass reclaimer.
+  name: 生物質回收機主機板 | biomass reclaimer machine board
+  description: 用於生物質回收機的主機印刷電路板。 | A machine printed circuit board for a biomass reclaimer.
   components:
   - type: Sprite
     state: medical
@@ -592,8 +592,8 @@
 - type: entity
   id: HydroponicsTrayMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 水耕栽培器電路板 | hydroponics tray machine board
-  description: 用於水耕栽培托盤的機械製造印刷電路板。 | A machine printed circuit board for a hydroponics tray.
+  name: 水耕栽培器主機板 | hydroponics tray machine board
+  description: 用於水耕栽培托盤的主機印刷電路板。 | A machine printed circuit board for a hydroponics tray.
   components:
     - type: Sprite
       state: service
@@ -611,8 +611,8 @@
 - type: entity
   id: SeedExtractorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 種子提取機機板 | seed extractor machine board
-  description: 一種用於種子分離機的機械印刷電路板。 | A machine printed circuit board for a seed extractor.
+  name: 種子提取機主機板 | seed extractor machine board
+  description: 一種用於種子分離機的主機印刷電路板。 | A machine printed circuit board for a seed extractor.
   components:
     - type: Sprite
       state: service
@@ -627,8 +627,8 @@
 - type: entity
   id: SMESMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: SMES 機板 | SMES machine board
-  description: 一款用於 SMES 的機製印刷電路板。 | A machine printed circuit board for a SMES.
+  name: SMES 主機板 | SMES machine board
+  description: 一款用於 SMES 的主機印刷電路板。 | A machine printed circuit board for a SMES.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -646,8 +646,8 @@
 - type: entity
   id: SMESAdvancedMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 進階 SMES 機板 | advanced SMES machine board
-  description: 一款用於先進 SMES 的機製印刷電路板。 | A machine printed circuit board for an Advanced SMES.
+  name: 進階 SMES 主機板 | advanced SMES machine board
+  description: 一款用於先進 SMES 的主機印刷電路板。 | A machine printed circuit board for an Advanced SMES.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -665,8 +665,8 @@
 - type: entity
   id: CellRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: 電池充電機主板 | cell recharger machine board
-  description: 一款用於電池充電器的機械式印刷電路板。 | A machine printed circuit board for a cell recharger.
+  name: 電池充電機主機板 | cell recharger machine board
+  description: 一款用於電池充電器的主機印刷電路板。 | A machine printed circuit board for a cell recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -686,8 +686,8 @@
 - type: entity
   id: PowerCageRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: 籠式充電機控制板 | cage recharger machine board
-  description: 一款用於能源箱充電器的機製印刷電路板。 | A machine printed circuit board for a energy cage recharger.
+  name: 籠式充電機主機板 | cage recharger machine board
+  description: 一款用於能源箱充電器的主機印刷電路板。 | A machine printed circuit board for a energy cage recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -708,8 +708,8 @@
 - type: entity
   id: BorgChargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: 賽博格充電站機板 | cyborg recharging station machine board
-  description: 一款用於機器人充電站的機械式印刷電路板。 | A machine printed circuit board for a robot recharging station.
+  name: 賽博格充電站主機板 | cyborg recharging station machine board
+  description: 一款用於機器人充電站的主機印刷電路板。 | A machine printed circuit board for a robot recharging station.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -729,8 +729,8 @@
 - type: entity
   id: WeaponCapacitorRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: 充電器機板 | recharger machine board
-  description: 一款用於充電器的機製印刷電路板。 | A machine printed circuit board for a recharger.
+  name: 充電器主機板 | recharger machine board
+  description: 一款用於充電器的主機印刷電路板。 | A machine printed circuit board for a recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -750,8 +750,8 @@
 - type: entity
   id: TurboItemRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: 渦輪增壓器機板 | turbo recharger machine board
-  description: 用於渦輪增壓器的機械印刷電路板。 | A machine printed circuit board for a turbo recharger.
+  name: 渦輪增壓器主機板 | turbo recharger machine board
+  description: 用於渦輪增壓器的主機印刷電路板。 | A machine printed circuit board for a turbo recharger.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -769,8 +769,8 @@
 - type: entity
   id: SubstationMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 變電站機電控制盤 | substation machine board
-  description: 用於變電站的機製印刷電路板。 | A machine printed circuit board for a substation.
+  name: 變電站主機板 | substation machine board
+  description: 用於變電站的主機印刷電路板。 | A machine printed circuit board for a substation.
   components:
     - type: MachineBoard
       prototype: SubstationBasicEmpty
@@ -828,7 +828,7 @@
 - type: entity
   id: PortableGeneratorPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: P.A.C.M.A.N. 型便攜式發電機主板 | P.A.C.M.A.N.-type portable generator machine board
+  name: P.A.C.M.A.N. 型便攜式發電機主機板 | P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -848,7 +848,7 @@
 - type: entity
   id: ThrusterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 推進器機板 | thruster machine board
+  name: 推進器主機板 | thruster machine board
   components:
   - type: Sprite
     state: supply
@@ -861,7 +861,7 @@
 - type: entity
   id: GyroscopeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 陀螺儀機板 | gyroscope machine board
+  name: 陀螺儀主機板 | gyroscope machine board
   components:
   - type: Sprite
     state: supply
@@ -874,7 +874,7 @@
 - type: entity
   id: PortableGeneratorSuperPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: S.U.P.E.R.P.A.C.M.A.N. 型便攜式發電機電路板 | S.U.P.E.R.P.A.C.M.A.N.-type portable generator machine board
+  name: S.U.P.E.R.P.A.C.M.A.N. 型便攜式發電機主機板 | S.U.P.E.R.P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -894,7 +894,7 @@
 - type: entity
   id: PortableGeneratorJrPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: J.R.P.A.C.M.A.N. 型便攜式發電機機板 | J.R.P.A.C.M.A.N.-type portable generator machine board
+  name: J.R.P.A.C.M.A.N. 型便攜式發電機主機板 | J.R.P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -914,8 +914,8 @@
 - type: entity
   id: ReagentGrinderMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 試劑研磨機控制板 | reagent grinder machine board
-  description: 一款用於試劑研磨機的機械式印刷電路板。 | A machine printed circuit board for a reagent grinder.
+  name: 試劑研磨機主機板 | reagent grinder machine board
+  description: 一款用於試劑研磨機的主機印刷電路板。 | A machine printed circuit board for a reagent grinder.
   components:
     - type: MachineBoard
       prototype: KitchenReagentGrinder
@@ -929,8 +929,8 @@
 - type: entity
   id: HotplateMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 電熱板機板 | hotplate machine board
-  description: 一款用於電熱板的機器製造印刷電路板。 | A machine printed circuit board for a hotplate.
+  name: 電熱板主機板 | hotplate machine board
+  description: 一款用於電熱板的主機印刷電路板。 | A machine printed circuit board for a hotplate.
   components:
   - type: Sprite
     state: medical
@@ -943,8 +943,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ElectricGrillMachineCircuitboard
-  name: 電烤架控制板 | electric grill machine board
-  description: 一款用於電烤架的機製印刷電路板。 | A machine printed circuit board for an electric grill.
+  name: 電烤架主機板 | electric grill machine board
+  description: 一款用於電烤架的主機印刷電路板。 | A machine printed circuit board for an electric grill.
   components:
   - type: Sprite
     state: service
@@ -958,7 +958,7 @@
 - type: entity
   id: StasisBedMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 靜脈引流床機板 | stasis bed machine board
+  name: 靜脈引流床主機板 | stasis bed machine board
   components:
     - type: Sprite
       state: medical
@@ -972,8 +972,8 @@
 - type: entity
   id: ElectrolysisUnitMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 電解單元機板 | electrolysis unit machine board
-  description: 用於電解裝置的機械式印刷電路板。 | A machine printed circuit board for an electrolysis unit.
+  name: 電解單元主機板 | electrolysis unit machine board
+  description: 用於電解裝置的主機印刷電路板。 | A machine printed circuit board for an electrolysis unit.
   components:
   - type: Sprite
     state: medical
@@ -986,8 +986,8 @@
 - type: entity
   id: CentrifugeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 離心機控制板 | centrifuge machine board
-  description: 用於離心機的機械式印刷電路板。 | A machine printed circuit board for a centrifuge.
+  name: 離心機主機板 | centrifuge machine board
+  description: 用於離心機的主機印刷電路板。 | A machine printed circuit board for a centrifuge.
   components:
   - type: Sprite
     state: medical
@@ -1000,7 +1000,7 @@
 - type: entity
   id: MaterialSiloMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 物料筒倉機器控制板 | material silo machine board
+  name: 物料筒倉機器主機板 | material silo machine board
   components:
   - type: Sprite
     state: supply
@@ -1013,7 +1013,7 @@
 - type: entity
   id: OreProcessorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 礦機主板 | ore processor machine board
+  name: 礦石處理機主機板 | ore processor machine board
   components:
     - type: Sprite
       state: supply
@@ -1026,7 +1026,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: OreProcessorIndustrialMachineCircuitboard
-  name: 工業用礦石處理機主板 | industrial ore processor machine board
+  name: 工業用礦石處理機主機板 | industrial ore processor machine board
   components:
   - type: Sprite
     state: supply
@@ -1039,7 +1039,7 @@
 - type: entity
   id: SheetifierMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: sheet-meister 2000 機台控制板 | sheet-meister 2000 machine board
+  name: sheet-meister 2000 主機板 | sheet-meister 2000 machine board
   components:
   - type: MachineBoard
     prototype: Sheetifier
@@ -1049,7 +1049,7 @@
 - type: entity
   id: MicrowaveMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 微波爐主板 | microwave machine board
+  name: 微波爐主機板 | microwave machine board
   components:
     - type: Sprite
       state: service
@@ -1066,7 +1066,7 @@
 - type: entity
   id: SyndicateMicrowaveMachineCircuitboard
   parent: [ BaseMachineCircuitboard, BaseSyndicateContraband ]
-  name: donk co. 微波爐機板 | donk co. microwave machine board
+  name: donk co. 微波爐主機板 | donk co. microwave machine board
   components:
     - type: Sprite
       state: service
@@ -1080,7 +1080,7 @@
 - type: entity
   id: FatExtractorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 脂質萃取機控制板 | lipid extractor machine board
+  name: 脂質萃取機主機板 | lipid extractor machine board
   components:
     - type: Sprite
       state: service
@@ -1097,7 +1097,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: FlatpackerMachineCircuitboard
-  name: Flatpacker 1001 機器主板 | Flatpacker 1001 machine board
+  name: Flatpacker 1001 主機板 | Flatpacker 1001 machine board
   components:
   - type: MachineBoard
     prototype: MachineFlatpacker
@@ -1108,7 +1108,7 @@
 - type: entity
   id: EmitterCircuitboard
   parent: BaseMachineCircuitboard
-  name: 發射器機板 | emitter machine board
+  name: 發射器主機板 | emitter machine board
   components:
     - type: Sprite
       state: engineering
@@ -1124,7 +1124,7 @@
   id: SurveillanceCameraRouterCircuitboard
   parent: BaseMachineCircuitboard
   name: 監視攝影機路由器電路板 | surveillance camera router board
-  description: 一款用於監控攝影機路由器的機製印刷電路板。 | A machine printed circuit board for a surveillance camera router.
+  description: 一款用於監控攝影機路由器的主機印刷電路板。 | A machine printed circuit board for a surveillance camera router.
   components:
   - type: Sprite
     state: security
@@ -1137,7 +1137,7 @@
   id: SurveillanceCameraWirelessRouterCircuitboard
   parent: BaseMachineCircuitboard
   name: 監視攝影機無線路由器電路板 | surveillance camera wireless router board
-  description: 一款用於監控攝影機無線路由器的機製印刷電路板。 | A machine printed circuit board for a surveillance camera wireless router.
+  description: 一款用於監控攝影機無線路由器的主機印刷電路板。 | A machine printed circuit board for a surveillance camera wireless router.
   components:
   - type: Sprite
     state: service
@@ -1151,7 +1151,7 @@
   parent: BaseMachineCircuitboard
   id: SurveillanceCameraWirelessRouterXenoborgCircuitboard
   name: xenoborg 攝影機無線路由器 | xenoborg camera wireless router
-  description: 一款用於 Xenoborg 相機無線路由器的機製印刷電路板。 | A machine printed circuit board for a xenoborg camera wireless router.
+  description: 一款用於 Xenoborg 相機無線路由器的主機印刷電路板。 | A machine printed circuit board for a xenoborg camera wireless router.
   components:
   - type: Sprite
     state: generic
@@ -1165,7 +1165,7 @@
   id: SurveillanceWirelessCameraMovableCircuitboard
   parent: BaseMachineCircuitboard
   name: 可移動式無線攝影機板 | movable wireless camera board
-  description: 一款適用於可移動無線攝影機的機械式印刷電路板。 | A machine printed circuit board for a movable wireless camera.
+  description: 一款適用於可移動無線攝影機的主機印刷電路板。 | A machine printed circuit board for a movable wireless camera.
   components:
   - type: Sprite
     state: service
@@ -1179,7 +1179,7 @@
   id: SurveillanceWirelessCameraAnchoredCircuitboard
   parent: BaseMachineCircuitboard
   name: 無線攝影機電路板 | wireless camera board
-  description: 一款用於無線攝影機的機製印刷電路板。 | A machine printed circuit board for a wireless camera.
+  description: 一款用於無線攝影機的主機印刷電路板。 | A machine printed circuit board for a wireless camera.
   components:
   - type: Sprite
     state: service
@@ -1207,8 +1207,8 @@
 - type: entity
   id: BoozeDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 酒類自動販賣機控制板 | booze dispenser machine board
-  description: 一款用於酒類自動販賣機的機械式印刷電路板。 | A machine printed circuit board for a booze dispenser.
+  name: 酒類自動販賣機主機板 | booze dispenser machine board
+  description: 一款用於酒類自動販賣機的主機印刷電路板。 | A machine printed circuit board for a booze dispenser.
   components:
     - type: Sprite
       state: service
@@ -1224,8 +1224,8 @@
 - type: entity
   id: CargoTelepadMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 貨物傳送平台機板 | cargo telepad machine board
-  description: 用於貨運傳送台的機製印刷電路板。 | A machine printed circuit board for a cargo telepad.
+  name: 貨物傳送平台主機板 | cargo telepad machine board
+  description: 用於貨運傳送台的主機印刷電路板。 | A machine printed circuit board for a cargo telepad.
   components:
     - type: Sprite
       state: supply
@@ -1238,8 +1238,8 @@
 - type: entity
   id: MailTeleporterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 郵件傳送器機板 | mail teleporter machine board
-  description: 一款用於郵件傳送器的機械式印刷電路板。 | A machine printed circuit board for a mail teleporter.
+  name: 郵件傳送器主機板 | mail teleporter machine board
+  description: 一款用於郵件傳送器的主機印刷電路板。 | A machine printed circuit board for a mail teleporter.
   components:
   - type: Sprite
     state: supply
@@ -1252,8 +1252,8 @@
 - type: entity
   id: SodaDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: 蘇打水機控制板 | soda dispenser machine board
-  description: 一款用於汽水機的機械式印刷電路板。 | A machine printed circuit board for a soda dispenser.
+  name: 蘇打水機主機板 | soda dispenser machine board
+  description: 一款用於汽水機的主機印刷電路板。 | A machine printed circuit board for a soda dispenser.
   components:
     - type: Sprite
       state: service
@@ -1270,7 +1270,7 @@
   id: TelecomServerCircuitboard
   parent: BaseMachineCircuitboard
   name: 電信伺服器主機板 | telecommunication server machine board
-  description: 一款用於電信伺服器的機用印刷電路板。 | A machine printed circuit board for an telecommunication server.
+  description: 一款用於電信伺服器的主機印刷電路板。 | A machine printed circuit board for an telecommunication server.
   components:
   - type: Sprite
     state: engineering
@@ -1283,8 +1283,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: SalvageMagnetMachineCircuitboard
-  name: 回收磁鐵機電路板 | salvage magnet machine board
-  description: 一款用於打撈磁鐵的機製印刷電路板。 | A machine printed circuit board for a salvage magnet.
+  name: 回收磁鐵機主機板 | salvage magnet machine board
+  description: 一款用於打撈磁鐵的主機印刷電路板。 | A machine printed circuit board for a salvage magnet.
   components:
   - type: Sprite
     state: supply
@@ -1299,8 +1299,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: MiniGravityGeneratorCircuitboard
-  name: 迷你重力發生器機板 | mini gravity generator machine board
-  description: 一款用於微型重力發生器的機械製造印刷電路板。 | A machine printed circuit board for a mini gravity generator.
+  name: 迷你重力發生器主機板 | mini gravity generator machine board
+  description: 一款用於微型重力發生器的主機印刷電路板。 | A machine printed circuit board for a mini gravity generator.
   components:
   - type: Sprite
     state: supply
@@ -1315,8 +1315,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: StationAnchorCircuitboard
-  name: 站點錨定機板 | station anchor machine board
-  description: 用於電台主播的機械製造印刷電路板。 | A machine printed circuit board for a station anchor.
+  name: 站點錨定主機板 | station anchor machine board
+  description: 用於電台主播的主機印刷電路板。 | A machine printed circuit board for a station anchor.
   components:
   - type: MachineBoard
     prototype: StationAnchor
@@ -1330,7 +1330,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ReagentGrinderIndustrialMachineCircuitboard
-  name: 工業用試劑研磨機控制板 | industrial reagent grinder machine board
+  name: 工業用試劑研磨機主機板 | industrial reagent grinder machine board
   components:
   - type: MachineBoard
     prototype: ReagentGrinderIndustrial
@@ -1341,8 +1341,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: JukeboxCircuitBoard
-  name: 點唱機主板 | jukebox machine board
-  description: 一款用於點唱機的機製印刷電路板。 | A machine printed circuit board for a jukebox.
+  name: 點唱機主機板 | jukebox machine board
+  description: 一款用於點唱機的主機印刷電路板。 | A machine printed circuit board for a jukebox.
   components:
   - type: Sprite
     state: service
@@ -1357,7 +1357,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: CutterMachineCircuitboard
-  name: 裁切機控制板 | cutter machine board
+  name: 裁切機主機板 | cutter machine board
   components:
   - type: MachineBoard
     prototype: CutterMachine
@@ -1370,7 +1370,7 @@
   parent: BaseMachineCircuitboard
   id: SmartFridgeCircuitboard
   name: SmartFridge 主機板 | SmartFridge machine board
-  description: 一款用於 SmartFridge 的機製印刷電路板。 | A machine printed circuit board for a SmartFridge.
+  description: 一款用於 SmartFridge 的主機印刷電路板。 | A machine printed circuit board for a SmartFridge.
   components:
   - type: Sprite
     state: service

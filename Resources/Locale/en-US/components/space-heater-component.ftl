@@ -11,4 +11,4 @@ comp-space-heater-ui-Low-power-consumption = 低
 comp-space-heater-ui-Medium-power-consumption = 中
 comp-space-heater-ui-High-power-consumption = 高
 comp-space-heater-device-name = 電暖器
-comp-space-heater-unanchored = { $device } 未設定錨點。
+comp-space-heater-unanchored = { $device } 未被固定。
