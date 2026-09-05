@@ -89,7 +89,7 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: 猴子魔方盒 | monkey cube box
+  name: 猴子方塊盒 | monkey cube box
   suffix: Syndicate
   id: SyndicateSpongeBox
   description: Drymate 品牌的猴子方塊。只要加水即可！ | Drymate brand monkey cubes. Just add water!

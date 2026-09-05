@@ -21,7 +21,7 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: 職稱-船長 | job-name-captain
+      name: job-name-captain | job-name-captain
       description: ghost-role-information-command-description | ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCaptain, VisitorCaptainAlt ]
@@ -32,7 +32,7 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: 職位名稱-ce | job-name-ce
+      name: job-name-ce | job-name-ce
       description: ghost-role-information-command-description | ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCE, VisitorCEAlt ]
@@ -43,7 +43,7 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: 職位名稱-首席行銷官 | job-name-cmo
+      name: job-name-cmo | job-name-cmo
       description: ghost-role-information-command-description | ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCMO, VisitorCMOAlt ]
@@ -54,7 +54,7 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: 工作名稱-hop | job-name-hop
+      name: job-name-hop | job-name-hop
       description: ghost-role-information-command-description | ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorHOP, VisitorHOPAlt ]
@@ -65,7 +65,7 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: 工作名稱-hos | job-name-hos
+      name: job-name-hos | job-name-hos
       description: ghost-role-information-command-description | ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorHOS, VisitorHOSAlt ]
@@ -76,7 +76,7 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: 工作名稱-rd | job-name-rd
+      name: job-name-rd | job-name-rd
       description: ghost-role-information-command-description | ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorRD, VisitorRDAlt ]
@@ -102,7 +102,7 @@
   components:
     - type: GhostRole
       name: ghost-role-information-security-name | ghost-role-information-security-name
-      description: ghost-角色-資訊-安全-描述 | ghost-role-information-security-description
+      description: ghost-role-information-security-description | ghost-role-information-security-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
@@ -112,7 +112,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: 職稱-見習生 | job-name-cadet
+      name: job-name-cadet | job-name-cadet
     - type: Loadout
       prototypes: [ VisitorSecurityCadet, VisitorSecurityCadetAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -122,7 +122,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: 職務名稱-安全 | job-name-security
+      name: job-name-security | job-name-security
     - type: Loadout
       prototypes: [ VisitorSecurityOfficer, VisitorSecurityOfficerAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -132,7 +132,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: 職稱：偵探 | job-name-detective
+      name: job-name-detective | job-name-detective
     - type: Loadout
       prototypes: [ VisitorDetective, VisitorDetectiveAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -142,7 +142,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: 職務名稱-監護人 | job-name-warden
+      name: job-name-warden | job-name-warden
     - type: Loadout
       prototypes: [ VisitorWarden, VisitorWardenAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -175,7 +175,7 @@
   parent: VisitorCargonian
   components:
     - type: GhostRole
-      name: 職務名稱-打撈規格 | job-name-salvagespec
+      name: job-name-salvagespec | job-name-salvagespec
     - type: Loadout
       prototypes: [ VisitorSalvageSpecialist, VisitorSalvageSpecialistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -188,7 +188,7 @@
   components:
     - type: GhostRole
       name: ghost-role-information-engineering-name | ghost-role-information-engineering-name
-      description: ghost-角色-資訊-工程-描述 | ghost-role-information-engineering-description
+      description: ghost-role-information-engineering-description | ghost-role-information-engineering-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -198,7 +198,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: 職位名稱-atmostech | job-name-atmostech
+      name: job-name-atmostech | job-name-atmostech
     - type: Loadout
       prototypes: [ VisitorAtmosTech, VisitorAtmosTechAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -208,7 +208,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: 職稱-技術助理 | job-name-technical-assistant
+      name: job-name-technical-assistant | job-name-technical-assistant
     - type: Loadout
       prototypes: [ VisitorTechnicalAssistant, VisitorTechnicalAssistantAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -218,7 +218,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: 職稱-工程師 | job-name-engineer
+      name: job-name-engineer | job-name-engineer
     - type: Loadout
       prototypes: [ VisitorEngineer, VisitorEngineerAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -241,7 +241,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: 職位名稱-實習生 | job-name-intern
+      name: job-name-intern | job-name-intern
     - type: Loadout
       prototypes: [ VisitorMedicalIntern, VisitorMedicalInternAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -251,7 +251,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: 職稱：醫師 | job-name-doctor
+      name: job-name-doctor | job-name-doctor
     - type: Loadout
       prototypes: [ VisitorMedicalDoctor, VisitorMedicalDoctorAlt , VisitorScrubsPurple, VisitorScrubsGreen, VisitorScrubsBlue]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -261,7 +261,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: 職稱：急救員 | job-name-paramedic
+      name: job-name-paramedic | job-name-paramedic
     - type: Loadout
       prototypes: [ VisitorParamedic, VisitorParamedicAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -291,7 +291,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: 職稱：心理學家 | job-name-psychologist
+      name: job-name-psychologist | job-name-psychologist
     - type: Loadout
       prototypes: [ VisitorPsychologist, VisitorPsychologistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -301,7 +301,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: 職稱：化學師 | job-name-chemist
+      name: job-name-chemist | job-name-chemist
     - type: Loadout
       prototypes: [ VisitorChemist, VisitorChemistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -334,7 +334,7 @@
   parent: VisitorScience
   components:
     - type: GhostRole
-      name: 職稱-科學助理 | job-name-research-assistant
+      name: job-name-research-assistant | job-name-research-assistant
     - type: Loadout
       prototypes: [ VisitorResearchAssistant, VisitorResearchAssistantAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -344,7 +344,7 @@
   parent: VisitorScience
   components:
     - type: GhostRole
-      name: 職稱：科學家 | job-name-scientist
+      name: job-name-scientist | job-name-scientist
     - type: Loadout
       prototypes: [ VisitorScientist, VisitorScientistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -367,7 +367,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：調酒師 | job-name-bartender
+      name: job-name-bartender | job-name-bartender
     - type: Loadout
       prototypes: [ VisitorBartender, VisitorBartenderAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -377,7 +377,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：植物學家 | job-name-botanist
+      name: job-name-botanist | job-name-botanist
     - type: Loadout
       prototypes: [ VisitorBotanist, VisitorBotanistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -387,7 +387,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱-拳擊手 | job-name-boxer
+      name: job-name-boxer | job-name-boxer
     - type: Loadout
       prototypes: [ VisitorBoxer, VisitorBoxerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -398,7 +398,7 @@
   components:
     - type: BibleUser
     - type: GhostRole
-      name: 職稱-牧師 | job-name-chaplain
+      name: job-name-chaplain | job-name-chaplain
     - type: Loadout
       prototypes: [ VisitorChaplain, VisitorChaplainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -408,7 +408,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱-主廚 | job-name-chef
+      name: job-name-chef | job-name-chef
     - type: Loadout
       prototypes: [ VisitorChef, VisitorChefAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -419,7 +419,7 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: 工作名稱：小丑 | job-name-clown
+      name: job-name-clown | job-name-clown
     - type: Loadout
       prototypes: [ VisitorClown ]
       roleLoadout: [ RoleSurvivalClown ]
@@ -432,7 +432,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱-清潔工 | job-name-janitor
+      name: job-name-janitor | job-name-janitor
     - type: Loadout
       prototypes: [ VisitorJanitor, VisitorJanitorAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -442,7 +442,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：律師 | job-name-lawyer
+      name: job-name-lawyer | job-name-lawyer
     - type: Loadout
       prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -452,8 +452,8 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: ghost-角色資訊-平民-中央司令部-律師-姓名 | ghost-role-information-civilian-centcom-lawyer-name
-      description: ghost-角色資訊-平民-中央司令部-律師-職務描述 | ghost-role-information-civilian-centcom-lawyer-description
+      name: ghost-role-information-civilian-centcom-lawyer-name | ghost-role-information-civilian-centcom-lawyer-name
+      description: ghost-role-information-civilian-centcom-lawyer-description | ghost-role-information-civilian-centcom-lawyer-description
     - type: Loadout
       prototypes: [ VisitorLawyerCentcom ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -463,7 +463,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：圖書館員 | job-name-librarian
+      name: job-name-librarian | job-name-librarian
     - type: Loadout
       prototypes: [ VisitorLibrarian, VisitorLibrarianAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -473,7 +473,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：音樂家 | job-name-musician
+      name: job-name-musician | job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI, VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -483,7 +483,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：音樂家 | job-name-musician
+      name: job-name-musician | job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -493,7 +493,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：音樂家 | job-name-musician
+      name: job-name-musician | job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -504,7 +504,7 @@
   components:
     - type: MimePowers
     - type: GhostRole
-      name: 工作名稱-MIME | job-name-mime
+      name: job-name-mime | job-name-mime
     - type: Loadout
       prototypes: [ VisitorMime, VisitorMimeAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -514,7 +514,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 職稱：記者 | job-name-reporter
+      name: job-name-reporter | job-name-reporter
     - type: Loadout
       prototypes: [ VisitorReporter, VisitorReporterAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -524,7 +524,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 工作名稱-Service Worker | job-name-serviceworker
+      name: job-name-serviceworker | job-name-serviceworker
     - type: Loadout
       prototypes: [ VisitorServiceWorker, VisitorServiceWorkerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -534,7 +534,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 工作名稱-ZooKeeper | job-name-zookeeper
+      name: job-name-zookeeper | job-name-zookeeper
     - type: Loadout
       prototypes: [ VisitorZookeeper, VisitorZookeeperAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -751,8 +751,8 @@
       - Syndicate
     - type: NukeOperative
     - type: GhostRole
-      name: ghost-角色資訊-Syndie-士兵-團隊領導人-姓名 | ghost-role-information-syndie-soldier-teamlead-name
-      description: ghost-角色資訊-Syndie-士兵-團隊領隊-描述 | ghost-role-information-syndie-soldier-teamlead-description
+      name: ghost-role-information-syndie-soldier-teamlead-name | ghost-role-information-syndie-soldier-teamlead-name
+      description: ghost-role-information-syndie-soldier-teamlead-description | ghost-role-information-syndie-soldier-teamlead-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -772,7 +772,7 @@
     - type: NukeOperative
     - type: GhostRole
       name: ghost-role-information-syndie-soldier-name | ghost-role-information-syndie-soldier-name
-      description: ghost-角色資訊-Syndie-士兵-描述 | ghost-role-information-syndie-soldier-description
+      description: ghost-role-information-syndie-soldier-description | ghost-role-information-syndie-soldier-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -790,8 +790,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: ghost-角色資訊-Syndie-災難受害者-姓名 | ghost-role-information-syndie-disaster-victim-name
-      description: ghost-角色資訊-Syndie-災難受害者-描述 | ghost-role-information-syndie-disaster-victim-description
+      name: ghost-role-information-syndie-disaster-victim-name | ghost-role-information-syndie-disaster-victim-name
+      description: ghost-role-information-syndie-disaster-victim-description | ghost-role-information-syndie-disaster-victim-description
       rules: ghost-role-information-freeagent-rules
       mindRoles:
       - MindRoleGhostRoleFreeAgent

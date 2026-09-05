@@ -52,7 +52,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: 煙斗-插槽-元件-插槽名稱-煙斗碗 | smoking-pipe-slot-component-slot-name-bowl
+      name: smoking-pipe-slot-component-slot-name-bowl | smoking-pipe-slot-component-slot-name-bowl
       whitelist:
         tags:
           - Smokable

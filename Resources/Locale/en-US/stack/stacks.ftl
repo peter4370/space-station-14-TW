@@ -1,7 +1,7 @@
 stack-steel = 鋼
-stack-bananium = bananium
+stack-bananium = 香蕉礦
 stack-glass = 玻璃
-stack-plasteel = plasteel
+stack-plasteel = 塑鋼
 stack-brass = 黃銅
 stack-plastic = 塑膠
 stack-silver = 銀
@@ -123,13 +123,13 @@ stack-rolling-paper =
        *[other] papers
     }
 stack-fulton = 富爾頓
-stack-credit = speso
+stack-credit = 斯佩索
 stack-plasma = 等離子體
 stack-biomass = 生物質
-stack-pyrotton = pyrotton
-stack-sharkminnow-tooth = 鯊魚小魚牙齒
+stack-pyrotton = 熾焰棉
+stack-sharkminnow-tooth = 太空黑鯊牙
 stack-goliath-hide = 歌利亞的皮
-stack-telecrystal = telecrystal
+stack-telecrystal = 電晶幣
 stack-gold-ore = 金礦石
 stack-rough-diamond = 原鑽
 stack-iron-ore = 鐵礦石
@@ -145,7 +145,7 @@ stack-inflatable-door = 充氣門
 stack-ointment = 藥膏
 stack-aloe-cream = 蘆薈乳霜
 stack-gauze = 紗布
-stack-brutepack = brutepack
+stack-brutepack = 外傷急救包
 stack-bloodpack = 血袋
 stack-medicated-suture = 藥用縫合線
 stack-regenerative-mesh = 再生網格

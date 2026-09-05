@@ -152,7 +152,7 @@
 # Spawnable scurrets have a random name and colour.
 
 - type: entity
-  name: ghost-角色資訊-情緒支持-Scurret-姓名 | scurret
+  name: ghost-role-information-emotional-support-scurret-name | scurret
   description: ghost-role-information-emotional-support-scurret-description | Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnolds's Pizza's "loyal workforce".
   id: MobScurret
   parent: MobBaseScurret

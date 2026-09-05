@@ -16,7 +16,7 @@
     context: human
   - type: MMI
     brainSlot:
-      name: 正電子-大腦-插槽-元件-插槽名稱-大腦 | positronic-brain-slot-component-slot-name-brain
+      name: positronic-brain-slot-component-slot-name-brain | positronic-brain-slot-component-slot-name-brain
       whitelist:
         components:
         - Brain
@@ -60,7 +60,7 @@
   components:
   - type: MMI
     brainSlot:
-      name: 正電子-大腦-插槽-元件-插槽名稱-大腦 | positronic-brain-slot-component-slot-name-brain
+      name: positronic-brain-slot-component-slot-name-brain | positronic-brain-slot-component-slot-name-brain
       startingItem: OrganHumanBrain
       whitelist:
         components:

@@ -198,7 +198,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobBananiumCrab
-  description: 一隻由香蕉製成的礦蟹。 | An ore crab made from bananium.
+  description: 一隻由香蕉礦製成的礦蟹。 | An ore crab made from bananium.
   suffix: Bananium
   components:
   - type: Sprite

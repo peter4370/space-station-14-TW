@@ -205,7 +205,7 @@
         Slash: 6
 
 - type: entity
-  name: sharkminnow | sharkminnow
+  name: 太空黑鯊 | sharkminnow
   parent: [ BaseMobBloodsucker, BaseMobCarp, BaseSlicingRefinable ]
   id: MobShark
   description: 一頭來自無盡宇宙黑暗中的危險鯊魚，嗜血成性。 | A dangerous shark from the blackness of endless space, who loves to drink blood.

@@ -111,7 +111,7 @@
   parent: MegaSprayBottle
   id: MegaSprayBottleSpaceCleaner
   suffix: Space Cleaner
-  description: BLAM! 品牌無泡沫空間清潔劑，現推出更大包裝，專為清理那些巨大的血灘而設計！ | BLAM!-brand non-foaming space cleaner, now in a bigger package for those huge blood puddles!
+  description: BLAM! 品牌無泡沫太空清潔劑，現推出更大包裝，專為清理那些巨大的血灘而設計！ | BLAM!-brand non-foaming space cleaner, now in a bigger package for those huge blood puddles!
   components:
   - type: Solution
     solution:
@@ -139,7 +139,7 @@
   id: BorgMegaSprayBottle
   name: adv. 內部噴射嘴 | adv. internal spray jet
   suffix: Filled
-  description: 這是整合式噴霧瓶的升級版，可直接安裝於清潔型賽博格上。此款噴霧瓶能利用空氣中的濕氣製造空間清潔劑。 | An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
+  description: 這是整合式噴霧瓶的升級版，可直接安裝於清潔型賽博格上。此款噴霧瓶能利用空氣中的濕氣製造太空清潔劑。 | An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
   components:
   - type: Solution
     solution:

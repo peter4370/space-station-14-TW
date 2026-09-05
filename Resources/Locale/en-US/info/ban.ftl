@@ -5,7 +5,7 @@ cmd-ban-player = 找不到該名稱的玩家。
 cmd-ban-invalid-minutes = { $minutes } 不是有效的分鐘數！
 cmd-ban-invalid-severity = { $severity } 不是有效的嚴重性等級！
 cmd-ban-invalid-arguments = 參數數量不正確
-cmd-ban-hint = <姓名／使用者 ID>
+cmd-ban-hint = <name/user ID>
 cmd-ban-hint-reason = <reason>
 cmd-ban-hint-duration = [時長]
 cmd-ban-hint-severity = [嚴重程度]
@@ -24,7 +24,7 @@ cmd-banpanel-player-err = 找不到指定的播放器
 cmd-banlist-desc = 列出使用者的有效封禁清單。
 cmd-banlist-help = 用法：禁用清單<name or user ID>
 cmd-banlist-empty = 未找到針對 { $user } 的有效封禁
-cmd-banlist-hint = <姓名／使用者 ID>
+cmd-banlist-hint = <name/user ID>
 cmd-ban_exemption_update-desc = 針對某位球員的某種禁令設定豁免。
 cmd-ban_exemption_update-help =
     用法：ban_exemption_update<player> <flag> [<flag> [...]]

@@ -132,7 +132,7 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetPlasteel
-  name: plasteel | plasteel
+  name: 塑鋼 | plasteel
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -166,7 +166,7 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel10
-  name: plasteel | plasteel
+  name: 塑鋼 | plasteel
   suffix: 10
   components:
   - type: Sprite
@@ -178,7 +178,7 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel1
-  name: plasteel | plasteel
+  name: 塑鋼 | plasteel
   suffix: Single
   components:
   - type: Sprite

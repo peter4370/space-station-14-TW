@@ -1086,7 +1086,7 @@
     prob: 1
     name: ghost-role-information-Cak-name | ghost-role-information-Cak-name
     allowMovement: true
-    description: ghost-role-information-Cak-描述 | ghost-role-information-Cak-description
+    description: ghost-role-information-Cak-description | ghost-role-information-Cak-description
     rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: short

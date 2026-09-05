@@ -415,7 +415,7 @@
 - type: entity
   parent: [SolutionCompositeSmallStackable, MaterialBase, FoodBase]
   id: MaterialPyrotton
-  name: pyrotton | pyrotton
+  name: 熾焰棉 | pyrotton
   suffix: Full
   components:
   - type: Stack
@@ -460,7 +460,7 @@
 - type: entity
   parent: [ MaterialBase, FoodBase ]
   id: MaterialBananium
-  name: bananium | bananium
+  name: 香蕉礦 | bananium
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -613,7 +613,7 @@
 - type: entity
   parent: [ MaterialBase, BaseKnife ]
   id: MaterialToothSharkminnow
-  name: 鯊魚小魚牙齒 | sharkminnow tooth
+  name: 太空黑鯊牙齒 | sharkminnow tooth
   description: 看起來很鋒利。鋒利到足以戳瞎別人的眼睛。老天，這東西真大。 | Looks sharp. Sharp enough to poke someone's eye out. Holy fuck it's big.
   suffix: Full
   components:

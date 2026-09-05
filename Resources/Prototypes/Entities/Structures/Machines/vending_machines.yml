@@ -758,7 +758,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDinnerware
-  name: Plasteel 主廚餐具供應商 | Plasteel Chef's Dinnerware Vendor
+  name: 塑鋼廚師餐具供應商 | Plasteel Chef's Dinnerware Vendor
   description: 一家廚房及餐飲設備供應商。 | A kitchen and restaurant equipment vendor.
   components:
   - type: VendingMachine

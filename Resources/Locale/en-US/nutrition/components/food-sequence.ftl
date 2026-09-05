@@ -124,7 +124,7 @@ food-sequence-burger-content-world-pea = 和平
 
 food-sequence-cotton-burger-gen = { $content }漢堡
 food-sequence-cotton-burger-content-cotton-bol = 棉
-food-sequence-cotton-burger-content-pyrotton-bol = pyro
+food-sequence-cotton-burger-content-pyrotton-bol = 熾焰棉
 food-sequence-cotton-burger-content-plushie-throngler = throngle
 food-sequence-cotton-burger-content-plushie-ghost = 詭異的
 food-sequence-cotton-burger-content-plushie-revenant = 更詭異

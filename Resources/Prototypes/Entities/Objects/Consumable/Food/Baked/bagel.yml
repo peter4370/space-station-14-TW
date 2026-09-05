@@ -30,7 +30,7 @@
   parent: FoodBagelBase
   id: FoodBagelPoppy
   name: 罌粟籽貝果 | poppy seed bagel
-  description: 一個美味的貝果，表面撒上了浸泡過比卡里丁(bicaridine)的罌粟籽。 | A delicious bagel topped with bicaridine-infused poppy seeds.
+  description: 一個美味的貝果，表面撒上了浸泡過比別靠腰丁bicaridine的罌粟籽。 | A delicious bagel topped with bicaridine-infused poppy seeds.
   components:
   - type: FlavorProfile
     flavors:

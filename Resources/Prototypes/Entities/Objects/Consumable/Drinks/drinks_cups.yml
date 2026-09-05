@@ -192,7 +192,7 @@
   parent: DrinkBaseMug
   id: DrinkMugRainbow
   name: 彩虹馬克杯 | rainbow mug
-  description: 一個彩虹馬克杯。它的顏色幾乎和焊工的閃光一樣刺眼。 | A rainbow mug. The colors are almost as blinding as a welder.
+  description: 一個彩虹馬克杯。它的顏色幾乎和焊槍的閃光一樣刺眼。 | A rainbow mug. The colors are almost as blinding as a welder.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_rainbow.rsi

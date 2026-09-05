@@ -199,10 +199,10 @@
             max: 2
 
 - type: entity
-  name: 鯊魚小魚牙矛 | sharkminnow tooth spear
+  name: 太空黑鯊牙矛 | sharkminnow tooth spear
   parent: Spear
   id: SpearSharkMinnow
-  description: 一支以鯊魚鯽魚牙齒作為矛尖的長矛。 | A spear with a sharkminnow tooth as a tip.
+  description: 一支以太空黑鯊牙齒作為矛尖的長矛。 | A spear with a sharkminnow tooth as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/sharkminnow_spear.rsi

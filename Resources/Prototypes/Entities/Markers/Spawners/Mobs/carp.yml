@@ -43,7 +43,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobShark
-  name: 太空鯊魚小魚產卵器 | Space Sharkminnow Spawner
+  name: 太空太空黑鯊生成器 | Space Sharkminnow Spawner
   components:
   - type: Sprite
     layers:

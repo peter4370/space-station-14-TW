@@ -510,7 +510,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobShark
-  name: Salvage Sharkminnow 產卵器 | Salvage Sharkminnow Spawner
+  name: 打撈太空黑鯊生成器 | Salvage Sharkminnow Spawner
   components:
   - type: Sprite
     layers:

@@ -152,8 +152,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDinnerware
-  name: Plasteel 廚師補充裝禮盒 | Plasteel Chef's restock box
-  description: 在這間廚房裡，食材絕不會是生食！先將食材放入「Plasteel Chef」的補貨槽中，即可開始。 | It's never raw in this kitchen! Drop into the restock slot on the Plasteel Chef to begin.
+  name: 塑鋼廚師補充盒 | Plasteel Chef's restock box
+  description: 在這間廚房裡，食材絕不會是生食！先將食材放入「塑鋼廚師」的補貨槽中，即可開始。 | It's never raw in this kitchen! Drop into the restock slot on the Plasteel Chef to begin.
   components:
   - type: VendingMachineRestock
     canRestock:

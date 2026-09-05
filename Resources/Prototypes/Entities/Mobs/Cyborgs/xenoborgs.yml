@@ -58,7 +58,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 - type: entity
@@ -151,7 +151,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 - type: entity
@@ -206,7 +206,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 - type: entity
@@ -260,7 +260,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
 
 
@@ -283,7 +283,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -303,7 +303,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -323,7 +323,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -344,5 +344,5 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         startingItem: PowerCellHighPrinted

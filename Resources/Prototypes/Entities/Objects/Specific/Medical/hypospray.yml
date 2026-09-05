@@ -294,7 +294,7 @@
   parent: ChemicalMedipen
   id: BruteAutoInjector
   name: 外傷自動注射器 | brute auto-injector
-  description: 一種含有比卡里定和氨甲環酸的單劑量、不可重複填充式醫療筆，用於快速且輕鬆地治療簡單的物理性創傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing bicaridine and tranexamic acid, used to quickly and easily treat simple physical injuries. Commonly used as a combat medicine.
+  description: 一種含有別靠腰丁和氨甲環酸的單劑量、不可重複填充式醫療筆，用於快速且輕鬆地治療簡單的物理性創傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing bicaridine and tranexamic acid, used to quickly and easily treat simple physical injuries. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -329,7 +329,7 @@
   parent: ChemicalMedipen
   id: BurnAutoInjector
   name: 燒傷(burn)自動注射器 | burn auto-injector
-  description: 一種單劑量、不可重複填充的醫療筆，內含德馬林（Dermaline）和萊波拉津（Leporazine），用於快速且輕鬆地治療非化學性燒傷。通常作為戰地醫療用品使用。 | A single-dose, non-refillable medipen containing dermaline and leporazine, used to quickly and easily treat non-chemical burns. Commonly used as a combat medicine.
+  description: 一種單劑量、不可重複填充的醫療筆，內含灼勿念（Dermaline）和立可回暖（leporazine），用於快速且輕鬆地治療非化學性燒傷。通常作為戰地醫療用品使用。 | A single-dose, non-refillable medipen containing dermaline and leporazine, used to quickly and easily treat non-chemical burns. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -364,7 +364,7 @@
   parent: ChemicalMedipen
   id: RadAutoInjector
   name: rad 自動注射器 | rad auto-injector
-  description: 一種單劑量、不可重複填充的醫療筆，內含阿利特拉津和比卡里丁，用於快速且輕鬆地治療輻射中毒。 | A single-dose, non-refillable medipen containing arithrazine and bicaridine, used to quickly and easily treat radiation poisoning.
+  description: 一種單劑量、不可重複填充的醫療筆，內含壓移輻平（Arithrazine）和別靠腰丁（Bicaridine），用於快速且輕鬆地治療輻射中毒。 | A single-dose, non-refillable medipen containing arithrazine and bicaridine, used to quickly and easily treat radiation poisoning.
   components:
   - type: Item
     inhandVisuals:
@@ -398,8 +398,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: PunctAutoInjector
-  name: Puncturase 自動注射器 | puncturase auto-injector
-  description: 一種單劑量、不可補充的醫療筆，內含穿刺酶和氨甲環酸，用於快速且輕鬆地治療穿刺傷口。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing puncturase and tranexamic acid, used to quickly and easily treat puncture wounds. Commonly used as a combat medicine.
+  name: 穿刺酶 puncturase 自動注射器 | puncturase auto-injector
+  description: 一種單劑量、不可補充的醫療筆，內含穿刺酶（puncturase）和氨甲環酸（ tranexamic），用於快速且輕鬆地治療穿刺傷口。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing puncturase and tranexamic acid, used to quickly and easily treat puncture wounds. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -436,7 +436,7 @@
   parent: ChemicalMedipen
   id: PyraAutoInjector
   name: 吡嗪(pyrazine)自動注射器 | pyrazine auto-injector
-  description: 一種單劑量、不可重複填充的醫療筆，內含吡嗪和德拉林，用於快速且輕鬆地治療熱燒傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing pyrazine and dermaline, used to quickly and easily treat thermal burns. Commonly used as a combat medicine.
+  description: 一種單劑量、不可重複填充的醫療筆，內含吡嗪和灼勿念（Dermaline），用於快速且輕鬆地治療熱燒傷。通常作為戰地急救藥品使用。 | A single-dose, non-refillable medipen containing pyrazine and dermaline, used to quickly and easily treat thermal burns. Commonly used as a combat medicine.
   components:
   - type: Item
     inhandVisuals:
@@ -471,7 +471,7 @@
   parent: ChemicalMedipen
   id: AirlossAutoInjector
   name: 窒息自動注射器 | airloss auto-injector
-  description: 一款單劑量、不可補充的醫療筆，內含生理食鹽水與 Dexalin Plus，用於快速且輕鬆地治療失血及窒息。 | A single-dose, non-refillable medipen containing saline and dexalin plus, used to quickly and easily treat blood loss and asphyxiation.
+  description: 一款單劑量、不可補充的醫療筆，內含生理食鹽水（saline）與窒去寧+（dexalin plus） ，用於快速且輕鬆地治療失血及窒息。 | A single-dose, non-refillable medipen containing saline and dexalin plus, used to quickly and easily treat blood loss and asphyxiation.
   components:
   - type: Item
     inhandVisuals:
@@ -506,7 +506,7 @@
   parent: ChemicalMedipen
   id: SpaceMedipen
   name: 太空醫療筆 | space medipen
-  description: 一種單劑量、不可重複填充的醫療筆，內含巴羅津和萊波拉津，用於保護暴露在外的皮膚免受太空環境的致命影響。 | A single-dose, non-refillable medipen containing barozine and leporazine, used to protect exposed flesh from the deadly effects of space.
+  description: 一種單劑量、不可重複填充的醫療筆，內含barozine和立可回暖（leporazine），用於保護暴露在外的皮膚免受太空環境的致命影響。 | A single-dose, non-refillable medipen containing barozine and leporazine, used to protect exposed flesh from the deadly effects of space.
   components:
   - type: Item
     inhandVisuals:

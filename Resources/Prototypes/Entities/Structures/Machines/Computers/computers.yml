@@ -1859,6 +1859,6 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    name: 商店預設名稱-nukie-配送 | store-preset-name-nukie-delivery
+    name: store-preset-name-nukie-delivery | store-preset-name-nukie-delivery
     categories:
     - NukieDelivery

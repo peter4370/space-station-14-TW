@@ -372,7 +372,7 @@
   - type: ItemSlots
     slots:
       pen_slot:
-        name: 剪貼簿-插槽-元件-插槽名稱-筆 | clipboard-slot-component-slot-name-pen
+        name: clipboard-slot-component-slot-name-pen | clipboard-slot-component-slot-name-pen
         whitelist:
           tags:
           - Write
@@ -504,7 +504,7 @@
   - type: ItemSlots
     slots:
       pen_slot:
-        name: 剪貼簿-插槽-元件-插槽名稱-筆 | clipboard-slot-component-slot-name-pen
+        name: clipboard-slot-component-slot-name-pen | clipboard-slot-component-slot-name-pen
         whitelist:
           tags:
           - Write

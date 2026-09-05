@@ -23,7 +23,7 @@ thief-backpack-category-tools-description =
     那是什麼聲音？是少許 C4 在敲他們的門。
     沒有任何障礙能阻擋你！
     套裝內容包含：兩枚 C4、多功能工具、遙控信號器、救生鉗、
-    先進焊接機、工程護目鏡及隔熱手套。
+    先進焊槍、工程護目鏡及隔熱手套。
 thief-backpack-category-chemistry-name = 解剖套組
 thief-backpack-category-chemistry-description =
     你已達到體能巔峰……當然，這多虧了一點小幫手。

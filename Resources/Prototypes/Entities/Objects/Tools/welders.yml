@@ -124,7 +124,7 @@
   name: 工業用焊接工具 | industrial welding tool
   parent: [SolutionToolWelderIndsutrial, BaseWelder]
   id: WelderIndustrial
-  description: "一款工業用焊機，其燃料容量超過原有機型的兩倍。 | An industrial welder with over double the fuel capacity."
+  description: "一款工業用焊槍，其燃料容量超過原有機型的兩倍。 | An industrial welder with over double the fuel capacity."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrial.rsi
@@ -147,7 +147,7 @@
   name: 先進的工業焊接工具 | advanced industrial welding tool
   parent: WelderIndustrial
   id: WelderIndustrialAdvanced
-  description: "一款先進的工業用焊機，其燃料容量超過原有機型的兩倍，且火焰溫度更高。 | An advanced industrial welder with over double the fuel capacity and hotter flame."
+  description: "一款先進的工業用焊槍，其燃料容量超過原有機型的兩倍，且火焰溫度更高。 | An advanced industrial welder with over double the fuel capacity and hotter flame."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrialadv.rsi
@@ -160,7 +160,7 @@
   name: 實驗性焊接工具 | experimental welding tool
   parent: [SolutionToolWelderExperimental, BaseWelder]
   id: WelderExperimental
-  description: "一款能夠自行產生燃料且對眼睛傷害較小的實驗性焊接機。 | An experimental welder capable of self-fuel generation and less harmful to the eyes."
+  description: "一款能夠自行產生燃料且對眼睛傷害較小的實驗性焊槍。 | An experimental welder capable of self-fuel generation and less harmful to the eyes."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_experimental.rsi
@@ -195,7 +195,7 @@
   name: 緊急焊接工具 | emergency welding tool
   parent: [SolutionToolWelderMiniEmergency, BaseWelder]
   id: WelderMini
-  description: "一種用於緊急情況的微型焊機。 | A miniature welder used during emergencies."
+  description: "一種用於緊急情況的微型焊槍。 | A miniature welder used during emergencies."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_mini.rsi
@@ -238,7 +238,7 @@
   parent: [ Welder, BaseXenoborgContraband ]
   id: RefuelingWelder
   name: 加料焊接工具 | refueling welding tool
-  description: "一臺焊接速度較慢，但能隨時間推移自行補充燃料的焊接機。 | A slow welder that can refuel itself over time."
+  description: "一臺焊接速度較慢，但能隨時間推移自行補充燃料的焊槍。 | A slow welder that can refuel itself over time."
   components:
   - type: Tool
     speedModifier: 0.5

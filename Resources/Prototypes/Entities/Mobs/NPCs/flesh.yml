@@ -168,7 +168,7 @@
 - type: entity
   parent: BaseMobFlesh
   id: MobAbomination
-  name: 可憎之事 | abomination
+  name: 可憎之物 | abomination
   description: 一個被遺棄的克隆體，始終飽受痛苦折磨，並尋求報復。 | A rejected clone, in constant pain and seeking revenge.
   components:
   - type: Sprite

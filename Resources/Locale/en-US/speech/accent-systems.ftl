@@ -1,1 +1,1 @@
-skeleton-suffix = 哎喲！哎喲！
+skeleton-suffix = 喀喀！

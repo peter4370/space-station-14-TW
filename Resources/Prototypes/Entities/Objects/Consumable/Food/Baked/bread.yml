@@ -942,7 +942,7 @@
     prob: 1
     name: ghost-role-information-BreadDog-name | ghost-role-information-BreadDog-name
     allowMovement: true
-    description: ghost-role-information-BreadDog-描述 | ghost-role-information-BreadDog-description
+    description: ghost-role-information-BreadDog-description | ghost-role-information-BreadDog-description
     rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: short

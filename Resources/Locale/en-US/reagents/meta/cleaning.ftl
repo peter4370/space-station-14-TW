@@ -1,6 +1,6 @@
 reagent-name-bleach = 漂白劑
 reagent-desc-bleach = 一款強力清潔劑，清潔磁磚的效果比「Space Cleaner」更佳。若誤食，毒性極強。
-reagent-name-space-cleaner = 太空清潔機 space cleaner
+reagent-name-space-cleaner = 太空清潔劑 space cleaner
 reagent-desc-space-cleaner = 這款產品幾乎能清潔任何物品上可能沾染污垢的幾乎所有表面。清潔人員很可能會對補充裝感到滿意。
 reagent-name-soap = 肥皂 soap
 reagent-desc-soap = 換作是我，我可不會用這個來漱口。

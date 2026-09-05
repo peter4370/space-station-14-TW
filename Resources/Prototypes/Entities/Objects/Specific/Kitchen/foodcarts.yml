@@ -85,7 +85,7 @@
     - type: ItemSlots
       slots:
         coldsauce_slot:
-          name: 食物攤位-插槽-元件-插槽名稱-冷醬 | foodcart-slot-component-slot-name-coldsauce
+          name: foodcart-slot-component-slot-name-coldsauce | foodcart-slot-component-slot-name-coldsauce
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:

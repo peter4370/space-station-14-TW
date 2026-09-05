@@ -398,7 +398,7 @@
   parent: AltarBase
   id: AltarBananium
   name: honkmother 祭壇 | honkmother altar
-  description: 一座獻給「honkmother」的「bananium」祭壇。 | A bananium altar dedicated to the honkmother.
+  description: 一座獻給「honkmother」的「香蕉礦」祭壇。 | A bananium altar dedicated to the honkmother.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Cults/bananium.rsi

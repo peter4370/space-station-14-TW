@@ -142,7 +142,7 @@
   - type: ItemSlots
     slots:
       key_slot:
-        name: 車輛-槽位-元件-槽位名稱-金鑰 | vehicle-slot-component-slot-name-keys
+        name: vehicle-slot-component-slot-name-keys | vehicle-slot-component-slot-name-keys
         whitelist:
           tags:
           - JanicartKeys
@@ -151,7 +151,7 @@
           params:
             volume: -3
       trashbag_slot:
-        name: 清潔推車-插槽-組件-插槽名稱-垃圾袋 | janitorial-trolley-slot-component-slot-name-trashbag
+        name: janitorial-trolley-slot-component-slot-name-trashbag | janitorial-trolley-slot-component-slot-name-trashbag
         whitelist:
           tags:
           - TrashBag

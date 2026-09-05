@@ -82,7 +82,7 @@
     uiKey: enum.PdaUiKey.Key
     cartridgeSlot:
       priority: -1
-      name: 裝置-PDA-插槽-元件-插槽名稱-卡匣 | device-pda-slot-component-slot-name-cartridge
+      name: device-pda-slot-component-slot-name-cartridge | device-pda-slot-component-slot-name-cartridge
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Machines/id_insert.ogg
       whitelist:

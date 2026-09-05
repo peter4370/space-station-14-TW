@@ -53,7 +53,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: [ BaseWeaponGravityGun, PowerCellSlotMediumItem ]
@@ -89,7 +89,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
 
 # Admeme
 - type: entity

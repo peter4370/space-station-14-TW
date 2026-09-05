@@ -41,7 +41,7 @@
   name: 衣櫥裡的骷髏 | closet skeleton
   components:
   - type: GhostRole
-    name: ghost-角色資訊-衣櫥-骨架名稱 | ghost-role-information-closet-skeleton-name
+    name: ghost-role-information-closet-skeleton-name | ghost-role-information-closet-skeleton-name
     description: ghost-role-information-closet-skeleton-description | ghost-role-information-closet-skeleton-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:

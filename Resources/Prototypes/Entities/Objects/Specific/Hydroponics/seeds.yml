@@ -701,7 +701,7 @@
 
 - type: entity
   parent: SeedBase
-  name: 一包皮羅頓種子 | packet of pyrotton seeds
+  name: 一包熾焰棉種子 | packet of pyrotton seeds
   id: PyrottonSeeds
   components:
     - type: Seed

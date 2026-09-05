@@ -1,9 +1,9 @@
 # Components
-spray-painter-ammo-on-examine = 它含有 { $charges } 個電荷。
+spray-painter-ammo-on-examine = 它含有 { $charges } 充能。
 spray-painter-ammo-after-interact-full = 噴漆機已經裝滿了！
 spray-painter-ammo-after-interact-refilled = 請為噴漆罐補充漆料。
 spray-painter-interact-no-charges = 剩下的油漆不夠了。
-spray-painter-interact-nothing-to-remove = 沒有需要移除的內容！
+spray-painter-interact-nothing-to-remove = 沒有需要移除的對象！
 spray-painter-interact-no-color-pick = 實在找不到適合的顏色啊！
 spray-painter-interact-color-picked = 從「{ $id }」中選取顏色。
 spray-painter-on-examined-painted-message = 看來是剛粉刷過。
@@ -14,7 +14,7 @@ spray-painter-item-status-add = [color=green]新增[/color]
 spray-painter-item-status-remove = [color=red]移除[/color]
 spray-painter-item-status-off = [color=gray]關閉[/color]
 # UI
-spray-painter-window-title = 噴漆工
+spray-painter-window-title = 噴漆工具
 spray-painter-selected-style = 已選取的樣式：
 spray-painter-selected-decals = 選定的貼紙：
 spray-painter-use-custom-color = 使用自訂顏色

@@ -1,1 +1,1 @@
-wire-speech-pulse = { CAPITALIZE(THE($name)) } 會發出嗡嗡聲
+wire-speech-pulse = { CAPITALIZE(THE($name)) } 發出嗡嗡聲

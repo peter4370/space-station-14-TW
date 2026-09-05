@@ -131,7 +131,7 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketCornoil
-  name: 玉米油 | corn oil
+  name: 玉米油 corn oil | corn oil
   description: 玉米油。一種用於烹飪的美味食用油。以玉米為原料製成。 | Corn oil. A delicious oil used in cooking. Made from corn.
   components:
   - type: Solution

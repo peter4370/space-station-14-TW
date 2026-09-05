@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: RecorderInstrument
-  name: 錄音機 | recorder
+  name: 直笛 | recorder
   description: 採用時尚塑膠材質，有多種顏色可供選擇！ | Comes in various colors of fashionable plastic!
   components:
   - type: Instrument

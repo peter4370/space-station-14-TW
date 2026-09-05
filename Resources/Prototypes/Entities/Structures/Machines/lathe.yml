@@ -558,7 +558,7 @@
   - type: ItemSlots
     slots:
       beaker_slot:
-        name: 車床-組件-輸出-插槽-燒杯-名稱 | lathe-component-output-slot-beaker-name
+        name: lathe-component-output-slot-beaker-name | lathe-component-output-slot-beaker-name
         whitelist:
           components:
           - FitsInDispenser

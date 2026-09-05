@@ -60,7 +60,7 @@
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-monkey-reinforcement-name | ghost-role-information-syndicate-monkey-reinforcement-name
-    description: ghost-角色資訊-辛迪加-猴子-強化-描述 | ghost-role-information-syndicate-monkey-reinforcement-description
+    description: ghost-role-information-syndicate-monkey-reinforcement-description | ghost-role-information-syndicate-monkey-reinforcement-description
     rules: ghost-role-information-syndicate-reinforcement-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist

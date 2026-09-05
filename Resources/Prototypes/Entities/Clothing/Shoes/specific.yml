@@ -73,7 +73,7 @@
   parent: ClothingShoesClownBase
   id: ClothingShoesBling
   name: 閃亮小丑鞋 | bling clown shoes
-  description: 採用精煉的香蕉金屬製成，並以新鮮香蕉皮的果肉拋光。這些飾品展現出耀眼奪目的風采。 | Made of refined bananium and shined with the pulp of a fresh banana peel. These make a flashy statement.
+  description: 採用精煉的香蕉礦製成，並以新鮮香蕉皮的果肉拋光。這些飾品展現出耀眼奪目的風采。 | Made of refined bananium and shined with the pulp of a fresh banana peel. These make a flashy statement.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/bling.rsi

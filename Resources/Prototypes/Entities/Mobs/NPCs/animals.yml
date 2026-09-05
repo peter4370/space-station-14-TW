@@ -510,7 +510,7 @@
     allowSpeech: true
     allowMovement: true
     name: ghost-role-information-mothroach-name | ghost-role-information-mothroach-name
-    description: ghost-role-information-蟑螂-描述 | ghost-role-information-mothroach-description
+    description: ghost-role-information-mothroach-description | ghost-role-information-mothroach-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -2218,8 +2218,8 @@
   id: MobMouseCancer
   components:
   - type: GhostRole
-    name: ghost-role-information-癌症-小鼠-名稱 | ghost-role-information-cancer-mouse-name
-    description: ghost-role-information-癌症小鼠-描述 | ghost-role-information-cancer-mouse-description
+    name: ghost-role-information-cancer-mouse-name | ghost-role-information-cancer-mouse-name
+    description: ghost-role-information-cancer-mouse-description | ghost-role-information-cancer-mouse-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent

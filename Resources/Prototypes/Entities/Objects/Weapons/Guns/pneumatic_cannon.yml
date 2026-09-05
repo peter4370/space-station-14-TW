@@ -48,7 +48,7 @@
   - type: ItemSlots
     slots:
       gas_tank:
-        name: 氣動砲-組件-項目-插槽名稱 | pneumatic-cannon-component-itemslot-name
+        name: pneumatic-cannon-component-itemslot-name | pneumatic-cannon-component-itemslot-name
         whitelist:
           components:
           - GasTank

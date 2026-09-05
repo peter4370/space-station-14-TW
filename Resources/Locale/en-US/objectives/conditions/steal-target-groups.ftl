@@ -47,7 +47,7 @@ steal-target-groups-captain-sword = 船長軍刀
 # Thief structures
 steal-target-groups-teg = teg 產生器部件
 steal-target-groups-freezer-heater = 冷凍櫃或暖氣機
-steal-target-groups-altar-nanotrasen =  NanoTrasen 祭壇（任一）
+steal-target-groups-altar-nanotrasen = nanotrasen 祭壇（任一）
 steal-target-groups-nuclear-bomb = 核裂變爆炸裝置
 steal-target-groups-fax-machine-captain = 「船長」長距離傳真機
 steal-target-groups-chem-dispenser = 化學藥劑分配器

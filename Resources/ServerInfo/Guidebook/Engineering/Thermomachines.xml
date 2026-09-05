@@ -38,7 +38,9 @@
   ## Pipenet 熱機（冷凍機與加熱器）
   Pipenet 熱機是功能更強大的固定式溫度控制裝置，可用於在 [textlink="pipenet." link="PipeNetworks"]
 
-  中的氣體進行加熱或冷卻    <Box>
+  中的氣體進行加熱或冷卻
+
+  <Box>
     <GuideEntityEmbed Entity="GasThermoMachineHeater"/>
     <GuideEntityEmbed Entity="GasThermoMachineFreezer"/>
   </Box>

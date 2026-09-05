@@ -37,7 +37,7 @@ edible-slurp-other = 啜啜。
 edible-swallow = You swallow { THE($food) }.{ -edible-satiated(satiated: $satiated, verb: "swallow") }
 edible-gulp = 咕嚕。 { $flavors }
 edible-gulp-other = 咕嚕。
-edible-has-used-storage = 您無法對存放有項目的 { $verb } { THE($food) } 執行此操作。
+edible-has-used-storage = 你不能 { $verb } { THE($food) } ，裡面存放著物品。
 
 ## Nouns
 

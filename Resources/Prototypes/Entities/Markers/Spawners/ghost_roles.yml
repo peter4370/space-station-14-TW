@@ -128,7 +128,7 @@
   id: SpawnPointNukeopsCommander
   components:
   - type: GhostRole
-    name: 角色-反派-核武作戰指揮官-姓名 | roles-antag-nuclear-operative-commander-name
+    name: roles-antag-nuclear-operative-commander-name | roles-antag-nuclear-operative-commander-name
     description: 角色-反派-核武行動指揮官-目標 | roles-antag-nuclear-operative-commander-objective
     rules: ghost-role-information-rules-default-team-antagonist
     mindRoles:
@@ -140,7 +140,7 @@
   id: SpawnPointNukeopsMedic
   components:
   - type: GhostRole
-    name: 角色-反派-核武特工-代號 | roles-antag-nuclear-operative-agent-name
+    name: roles-antag-nuclear-operative-agent-name | roles-antag-nuclear-operative-agent-name
     description: 角色-反派-核武特工-目標 | roles-antag-nuclear-operative-agent-objective
     rules: ghost-role-information-rules-default-team-antagonist
     mindRoles:
@@ -152,7 +152,7 @@
   id: SpawnPointNukeopsOperative
   components:
   - type: GhostRole
-    name: 角色-反派-核武特工-姓名 | roles-antag-nuclear-operative-name
+    name: roles-antag-nuclear-operative-name | roles-antag-nuclear-operative-name
     description: 角色-反派-核武特工-目標 | roles-antag-nuclear-operative-objective
     rules: ghost-role-information-rules-default-team-antagonist
     mindRoles:
@@ -164,7 +164,7 @@
   id: SpawnPointGhostDragon
   components:
   - type: GhostRole
-    name: 幽靈角色資訊空間之龍之名 | ghost-role-information-space-dragon-name
+    name: ghost-role-information-space-dragon-name | ghost-role-information-space-dragon-name
     description: ghost-role-information-space-dragon-description | ghost-role-information-space-dragon-description
     rules: ghost-role-information-space-dragon-rules
     mindRoles:

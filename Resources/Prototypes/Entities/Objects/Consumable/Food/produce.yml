@@ -524,7 +524,7 @@
 - type: entity
   parent: TrashBananaPeel
   id: TrashBananiumPeel
-  name: 香蕉皮 | bananium peel
+  name: 香蕉礦石皮 | bananium peel
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -2589,7 +2589,7 @@
       CottonBurger: CottonBol
 
 - type: entity
-  name: 皮羅頓棉鈴 | pyrotton boll
+  name: 熾焰棉鈴 | pyrotton boll
   description: 這大概會讓你著火。 | This will probably set you on fire.
   id: PyrottonBol
   parent: [FoodProduceBase, BaseSlicingRefinableFood]

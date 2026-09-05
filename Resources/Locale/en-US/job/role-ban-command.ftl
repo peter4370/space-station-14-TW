@@ -1,7 +1,7 @@
 ﻿### Localization for role ban command
 
 cmd-roleban-desc = 將一名玩家從某個角色中移除
-cmd-roleban-help = 用法：roleban<name or user ID> <job> <reason> [禁言時間（以分鐘為單位），若未指定或指定為 0，則表示永久禁言]
+cmd-roleban-help = Usage: roleban <name or user ID> <job> <reason> [duration in minutes, leave out or 0 for permanent ban]
 
 ## Completion result hints
 

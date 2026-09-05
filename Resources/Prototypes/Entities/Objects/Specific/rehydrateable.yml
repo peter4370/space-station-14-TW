@@ -103,7 +103,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: CowCube
-  name: 牛形方塊 | cow cube
+  name: 牛方塊 | cow cube
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -187,7 +187,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: AbominationCube
-  name: 可憎之立方體 | abomination cube
+  name: 可憎之物方塊 | abomination cube
   description: 只要加點血就行！ | Just add blood!
   components:
   - type: Reactive

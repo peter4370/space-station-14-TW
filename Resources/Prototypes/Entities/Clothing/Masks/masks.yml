@@ -343,7 +343,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskMuzzle
-  name: 槍口 | muzzle
+  name: 口枷 | muzzle
   description: 為了讓那個可怕的噪音停止。 | To stop that awful noise.
   components:
   - type: Item

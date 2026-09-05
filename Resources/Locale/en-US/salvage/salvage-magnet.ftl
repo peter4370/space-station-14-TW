@@ -17,7 +17,7 @@ salvage-magnet-resources =
         [OrePlasma] 等離子體
         [OreUranium] 鈾
         [OreArtifactFragment] 神器碎片
-        [OreBananium] 巴納尼姆
+        [OreBananium] 香蕉礦石
        *[other] { $resource }
     }
 salvage-magnet-resources-count =

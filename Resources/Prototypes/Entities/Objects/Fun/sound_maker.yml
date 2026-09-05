@@ -118,8 +118,8 @@
 - type: entity
   parent: BikeHorn
   id: BananiumHorn
-  name: 香蕉角 | bananium horn
-  description: 一款由香蕉木製成的氣喇叭。 | An air horn made from bananium.
+  name: 香蕉礦石角 | bananium horn
+  description: 一款由香蕉礦石製成的氣喇叭。 | An air horn made from bananium.
   components:
   - type: Sprite
     sprite: Objects/Fun/bananiumhorn.rsi

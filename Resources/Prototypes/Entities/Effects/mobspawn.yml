@@ -90,7 +90,7 @@
 - type: entity
   id: MobSpawnCrabBananium
   parent: MobSpawnCrabQuartz
-  name: 生物生成器 bananiumcrab | mobspawner bananiumcrab
+  name: 生物生成器 香蕉礦蟹 | mobspawner bananiumcrab
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite

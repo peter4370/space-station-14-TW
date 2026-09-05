@@ -92,7 +92,7 @@
     slots:
       charger_slot:
         ejectOnInteract: true
-        name: 電源模組插槽-元件插槽-名稱-預設值 | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
         whitelist:
           tags:
           - PowerCell

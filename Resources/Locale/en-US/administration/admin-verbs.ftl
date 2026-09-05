@@ -44,7 +44,7 @@ admin-verbs-locate-cargo-shuttle = 尋找貨運穿梭機
 admin-verbs-halt-movement = 停止移動
 admin-verbs-unpause-map = 恢復地圖顯示
 admin-verbs-pause-map = 暫停地圖
-admin-verbs-snap-joints = 卡扣接頭
+admin-verbs-snap-joints = 折斷大麻煙卷
 admin-verbs-make-minigun = 製作迷你加特林機槍
 admin-verbs-set-bullet-amount = 設定子彈數量
 # Toggles verbs

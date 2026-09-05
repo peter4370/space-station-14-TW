@@ -2,7 +2,7 @@ game-ticker-restart-round = 重新開始回合...
 game-ticker-start-round = 本回合即將開始……
 game-ticker-start-round-cannot-start-game-mode-fallback = 無法啟動 {$failedGameMode} 模式！ 預設為 {$fallbackMode}...
 game-ticker-start-round-cannot-start-game-mode-restart = 無法啟動 {$failedGameMode} 模式！ 重新開始一輪……
-game-ticker-start-round-invalid-map = 所選地圖 {$map} 不符合遊戲模式 {$mode}  的資格。 遊戲模式可能無法如預期般運作……
+game-ticker-start-round-invalid-map = 所選地圖 {$map} 不符合遊戲模式 {$mode} 的資格。 遊戲模式可能無法如預期般運作……
 game-ticker-unknown-role = 未知
 game-ticker-delay-start = 回合開始已延遲 {$seconds} 秒。
 game-ticker-pause-start = 回合開始已暫停。
@@ -34,14 +34,14 @@ player-first-join-message = 玩家 {$name} 首次加入。
 player-leave-message = Player {$name} left.
 
 latejoin-arrival-announcement = {$character} ({$job}) 已抵達太空站！
-latejoin-arrival-announcement-special =  《 {$job} {$character} 》  即將登場！
+latejoin-arrival-announcement-special =《 {$job} {$character} 》 即將登場！
 latejoin-arrival-sender = 太空站
 latejoin-arrivals-direction = 一輛接駁車將於稍後抵達，載送您前往您的太空站。
 latejoin-arrivals-direction-time = 接駁車將載您前往太空站，預計抵達時間為 {$time}。
 latejoin-arrivals-dumped-from-shuttle = 一股神秘的力量阻止你搭乘抵達班車離開。
 latejoin-arrivals-teleport-to-spawn = 一股神秘力量將你從抵達接駁船上傳送出去。 祝您值班平安順利！
 
-preset-not-enough-ready-players = 無法啟動 {$presetName}。 需要 {$minimumPlayers} 名玩家，但我們目前有 {$readyPlayersCount}  名。
+preset-not-enough-ready-players = 無法啟動 {$presetName}。 需要 {$minimumPlayers} 名玩家，但我們目前有 {$readyPlayersCount} 名。
 preset-no-one-ready = 無法啟動 {$presetName}。 沒有任何球員準備就緒。
 
 game-run-level-PreRoundLobby = 回合前等候室

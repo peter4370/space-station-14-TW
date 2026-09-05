@@ -1,39 +1,39 @@
 - type: entityCategory
   id: Actions
-  name: 實體類別名稱動作 | entity-category-name-actions
+  name: entity-category-name-actions | entity-category-name-actions
   hideSpawnMenu: true
 
 - type: entityCategory
   id: GameRules
-  name: 實體類別名稱-遊戲規則 | entity-category-name-game-rules
+  name: entity-category-name-game-rules | entity-category-name-game-rules
   hideSpawnMenu: true
 
 - type: entityCategory
   id: Objectives
-  name: 實體類別名稱與目標 | entity-category-name-objectives
+  name: entity-category-name-objectives | entity-category-name-objectives
   hideSpawnMenu: true
 
 - type: entityCategory
   id: Roles
-  name: 實體類別名稱角色 | entity-category-name-roles
+  name: entity-category-name-roles | entity-category-name-roles
   hideSpawnMenu: true
 
 # markers, atmos fixing, etc
 - type: entityCategory
   id: Mapping
-  name: 實體-類別-名稱-對應 | entity-category-name-mapping
+  name: entity-category-name-mapping | entity-category-name-mapping
 
 - type: entityCategory
   id: DoNotMap
-  name: 實體類別名稱-勿映射 | entity-category-name-donotmap
+  name: entity-category-name-donotmap | entity-category-name-donotmap
   suffix: entity-category-suffix-donotmap
 
 - type: entityCategory
   id: StatusEffects
-  name: 實體-類別-名稱-狀態-效果 | entity-category-name-status-effects
+  name: entity-category-name-status-effects | entity-category-name-status-effects
   hideSpawnMenu: true
 
 - type: entityCategory
   id: XenoArtifactEffects
-  name: 實體-類別-名稱-異族神器-效果 | entity-category-name-xeno-artifact-effects
+  name: entity-category-name-xeno-artifact-effects | entity-category-name-xeno-artifact-effects
   hideSpawnMenu: true
