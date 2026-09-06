@@ -1,21 +1,24 @@
 ﻿
 <Document>
-  # Roleplay Rule 3 - Roleplay a normal person
-  - Do not use texting/messaging acronyms (ex: "lol", "wtf", "brb", "lmao", "thx", "sgtm") or emoticons (ex: ":)", "xD") in-character.
-  - Do not mention out-of-character (OOC) concepts like game admins or developers in character.
-  - Do not use emotes to bypass muted or accented speech.
-  - Do not use extremely low effort or impossible emotes.
+  # 角色扮演規則 3 —— 扮演一個普通人
+  —— 請勿在角色扮演時使用簡訊／訊息縮寫（例如： 「lol」、「wtf」、「brb」、「lmao」、「thx」、「sgtm」）或表情符號（例如：「:)」、「xD」）。
+  - 切勿在角色扮演時提及遊戲管理員或開發者等「角色外」（OOC）概念。
+  - 請勿利用表情符號來規避被靜音或帶有重音的發言。
+  - 請勿使用極度敷衍或不切實際的表情符號。
 
-  ## Examples
-  Things you should not do:
-  - Say "lol did u c wat just happened" using in-character chat.
-  - Say "an admin exploded him" using in-character chat.
-  - Emote "can you give me some cheese" as a mouse.
-  - Emote "motions for you to order guns" or "asks you to order guns in sign language" as a mime.
+  ## 範例
+  不應做的事：
+  - 在角色內聊天中說「lol 你看到剛才發生什麼事了嗎」。
+  - 在角色內聊天中說：「管理員把他炸飛了」。
+  - 扮演老鼠時使用「能給我一點起司嗎」這個表情動作。
+  - 扮演默劇演員時，做出「示意你訂購槍枝」或「用手語要求你訂購槍枝」的動作。
 
-  Things you could do instead:
-  - Say "haha did you see what just happened?"
-  - Say "god blew him up" or "centcomm must have bluespaced a bomb to him"
-  - Point at cheese
-  - Point at the cargo order console then emote "shoots finger guns"
+  其他可行的做法：
+  - 說「哈哈，你看到剛才發生什麼事了嗎？」
+  - 說「是上帝把他炸飛了」或「中央司令部肯定用藍色空間傳送了一顆炸彈給他」
+  - 指向起司
+  - 指向貨物訂購控制台，然後做出「手指比槍」的表情
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

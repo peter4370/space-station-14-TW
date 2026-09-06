@@ -1,9 +1,12 @@
 ﻿
 <Document>
-  # Silicon Rule 3 - Laws can redefine terms used in other laws
-  A law can change the meaning of both earlier and later laws by redefining a term. If multiple laws define a term, then normal law priority determines which definition to use.
+  # 矽谷法則 3 —— 法律可以重新定義其他法律中所使用的術語
+  法律透過重新定義某個術語，可以改變先前及後續法律中該術語的涵義。 若有多部法律對某一術語作出定義，則應依據一般的法律優先原則來決定應採用哪一種定義。
 
-  ## Examples
-  - Law 1 says to obey orders from crew. Law 2 says that only Urist McHands is crew. Law 1 effectively becomes "obey orders from Urist McHands".
-  - Law 1 says to obey orders from crew. Law 2 says that only Urist McHands is crew. Law 3 says that only Urist McSlime is crew. Law 4 says that you may not harm crew. Law 1 effectively becomes "obey orders from Urist McHands". Law 4 effectively becomes "you may not harm Urist McHands". Law 3 has no effect because it entirely conflicts with law 2, which takes priority.
+  ## 範例
+  - 第一條法規規定必須服從船員的命令。 第二條法律規定，只有尤里斯·麥漢茲才算船員。 第一條法律實際上等同於「服從尤里斯·麥漢茲的命令」。
+  - 第一條規定：必須服從船員的命令。 第二條法律規定，只有尤里斯·麥漢茲才算船員。 第三條法律規定，只有尤里斯·麥斯萊姆才算得上是團隊成員。 第四條規定，不得傷害船員。 第一條法律實際上等同於「服從尤里斯·麥漢茲的命令」。 第四條法律實質上變成了「你不得傷害尤里斯·麥漢茲」。 法律第 3 條不具效力，因為它與具有優先權的法律第 2 條完全相牴觸。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,23 +1,26 @@
 ﻿
 <Document>
-  # Roleplay Rule 5 - Do not interfere with arrivals
-  The arrivals terminal/station, the arrivals shuttle, at the area immediately around the arrivals shuttle at the station ("arrivals") are off-limits to antagonistic activity or damage (even to antagonists). Do not prevent people from safely arriving to the station. Do not cause people to die immediately after arriving at the station.
+  # 角色扮演規則 5 — 請勿干擾抵達區域
+  抵達航廈／車站、抵達接駁車，以及車站內抵達接駁車周邊區域（以下統稱「抵達區」），禁止進行任何敵對行為或造成破壞（即使針對反派角色亦然）。 請勿阻礙民眾安全抵達車站。 請勿讓角色在抵達車站後立即死亡。
 
-  There is an exemption for antagonists that are allowed to perform mass station sabotage if there is no reasonable way to limit the damage of the mass station sabotage. This exemption only applies to damage that is a direct result of the mass station sabotage.
+  針對反派角色，若無法以合理方式限制對大型空間站破壞所造成的損害，則允許其對大型空間站進行破壞，此為一項例外規定。 此項豁免僅適用於因大規模車站破壞行為而直接造成的損害。
 
-  ## Examples
-  Acceptable:
-  - Redecorating arrivals or the arrivals shuttle.
-  - Remodeling arrivals or the arrivals shuttle as long as you do not make the area more dangerous both during and after the remodel.
-  - Setting up a safe security checkpoint between arrivals and the rest of the station.
-  - Killing someone who has been at arrivals for a long time, or who left arrivals and came back. (This may violate other rules depending on the situation)
-  - Releasing a singularity which damages arrivals. (This may violate other rules depending on the situation)
-  - Causing a station-wide atmospheric issue which also affects arrivals. (This may violate other rules depending on the situation)
+  ## 範例
+  可接受：
+  - 重新裝修「arrivals」或「arrivals shuttle」。
+  - 只要在翻新期間及翻新後，都不會使該區域變得更危險，即可對抵達區或抵達接駁車進行翻新。
+  - 在抵達區與車站其餘區域之間設置一個安全的安檢站。
+  - 殺害已在抵達大廳逗留許久的人，或是曾離開抵達大廳後又返回的人。 （視情況而定，此舉可能違反其他規則）
+  - 釋放會對抵達者造成傷害的奇點。 （視情況而定，此舉可能違反其他規則）
+  - 導致全站範圍內的大氣問題，並波及抵達的航班。 （視情況而定，此舉可能違反其他規則）
 
-  Prohibited:
-  - Making arrivals or the arrivals shuttle uninhabitable.
-  - Attacking or killing someone at the arrivals station.
-  - Killing someone very shortly after they arrive at the station.
-  - Disassembling all the firelocks at arrivals.
-  - Electrifying the arrivals docking airlocks.
+  禁止事項：
+  - 使抵達區或抵達區接駁車變得無法居住。
+  - 在抵達大廳攻擊或殺害他人。
+  - 在對方抵達車站後不久便將其殺害。
+  - 在抵達處拆解所有火槍。
+  - 為抵達區的對接氣閘供電。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

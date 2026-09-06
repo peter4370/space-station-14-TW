@@ -1,12 +1,15 @@
 ﻿
 <Document>
-  # Ban Types
+  # 封禁類型
 
-  Bans can be appealed at forum.ss14.io in the ban appeals section.
+  若對封禁處分有異議，可至 forum.ss14.io 的「封禁申訴」專區提出申訴。
 
-  ## Role Ban
-  Also called a "job ban", this ban prevents your character from joining or late-joining a round as one or more jobs or roles. These are often used in response to problematic behavior in particular departments or address gross inexperience in important roles such as heads of staff. These bans do not mechanically prevent you from switching to the role during a round or acting as that role, but doing so is considered ban evasion.
+  ## 角色禁令
+  此禁令亦稱為「職業禁令」，會阻止您的角色以一種或多種職業或角色身分加入或延遲加入一輪遊戲。 這些措施通常用於應對特定部門出現的問題行為，或解決重要職位（例如人事主管）上嚴重缺乏經驗的問題。 這些禁令並不會機械性地阻止你在回合中切換至該角色或扮演該角色，但如此做將被視為規避禁令。
 
-  ## Game Ban
-  Also called a "server ban", this ban prevents you from connecting to all Wizard's Den servers.
+  ## 遊戲封禁
+  此封禁亦稱為「伺服器封禁」，會阻止您連線至所有 Wizard's Den 伺服器。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,31 +1,34 @@
 ﻿
 <Document>
-  # Roleplay Rule 15 - Command and Security must follow Space Law
-  All non-antagonist command and security roles must obey [textlink="Space Law" link="SpaceLaw"]. This includes non-antagonists who are promoted to or gain a position during the round in any way. This also includes non-antagonists who are acting as a security role.
+  # 角色扮演規則第 15 條 — 指揮與安全人員必須遵守《太空法》
+  所有非反派陣營的指揮與安全角色均須遵守 [textlink="太空法" link="SpaceLaw"]。這包括在本回合中以任何方式獲晉升或取得職位的非反派角色。 這也包括擔任安全職務的非反派角色。
 
-  Space Law violations should be prioritized based on severity and the current situation.
+  違反《太空法》的行為應根據嚴重程度及當前狀況進行優先處理。
 
-  This prohibits use of syndicate items outside extreme emergencies, including uplinks by command and security. This also prohibits the preparing of syndicate items for an emergency.
+  除極度緊急情況外，禁止使用黑手黨物品，包括指揮部與安全部發送的上行鏈路。此規定亦禁止為應對緊急情況而預先準備黑手黨物品。
 
-  ## Examples
-  Acceptable:
-  - After a war announcement, a security officer ignores crewmembers carrying contraband so that they can focus on preparing to defend the station.
-  - A security officer disarms someone attacking them with an energy sword, then uses the sword to kill the attacker.
+  ## 範例
+  可接受：
+  - 戰爭宣告後，一名安全官員對攜帶違禁品的船員視而不見，以便專注於準備防衛空間站。
+  - 一名安全官員解除一名持能量劍攻擊其之人的武裝，隨後使用該劍殺死攻擊者。
 
-  Prohibited:
-  - A security officer carries around an energy sword in case of an emergency.
+  禁止：
+  - 安全官隨身攜帶能量劍以備不時之需。
 
-  Roles that are included:
-  - A security officer
-  - The Captain
-  - The Chief Engineer
-  - A passenger promoted to "bounty hunter"
-  - A mime promoted to "security mime"
+  包含的角色：
+  - 安全官
+  - 船長
+  - 首席工程師
+  - 晉升為「賞金獵人」的乘客
+  - 晉升為「安全默劇演員」的默劇演員
 
-  Roles that are not included:
-  - A passenger
-  - The clown
-  - An antagonist in any role
-  - A cyborg
-  - A passenger who is helping to fight off nuclear operatives
+  未包含的角色：
+  - 一名乘客
+  - 小丑
+  - 任何角色的反派角色
+  - 機械人
+  - 一名協助擊退核武特工的乘客
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

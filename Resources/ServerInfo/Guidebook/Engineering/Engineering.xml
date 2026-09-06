@@ -9,7 +9,7 @@
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineEngineer" Caption="工程師"/>
-    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
+    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="大氣人"/>
     <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
   </Box>
 

@@ -1,6 +1,9 @@
 
 <Document>
-  # Core Rule 2 - Don't be a dick
-- Don't do anything with the goal of negatively affecting other players. Not everyone is going to enjoy every round. Killing someone is allowed in certain situations even though it might negatively affect them, but no one should be doing anything for the purpose of harming someone else's experience.
-- Do not interact negatively with SSD/AFK players. Interactions to complete antagonist objectives or duties like security searches/arrests are always permitted.
+  # 核心規則 2 — 別當混蛋
+— 不要出於對其他玩家造成負面影響的目的而採取任何行動。 並非每個人都會喜歡每一輪。 在某些情況下，儘管殺人可能會對他人造成負面影響，但仍是被允許的；然而，任何人都不應出於破壞他人體驗的目的而採取任何行動。
+- 請勿與 SSD／AFK 玩家發生負面互動。 為完成反派目標或執行如安全搜查／逮捕等職責而進行的互動，始終是被允許的。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,19 +1,22 @@
 ﻿
 <Document>
-  # Core Rule 5 - Do not use out of game methods to communicate with other players
-  This is a zero tolerance rule.
+  # 核心規則 5 — 請勿使用遊戲外的管道與其他玩家溝通
+  此為零容忍規則。
 
-  Do not utilize any external means of communication to talk to other players who are connected to the same server, or who were connected to the same server during the current round. This is referred to as "metacomming" and includes any means of communication including text, voice, images, and video. This includes applications such as Discord, Steam, and other platforms, along with in-person communication.
+  請勿使用任何外部通訊方式，與目前連線至同一伺服器的其他玩家，或在本輪遊戲期間曾連線至同一伺服器的其他玩家進行交談。 這被稱為「元通訊」，涵蓋任何通訊方式，包括文字、語音、圖片及影片。 這包括 Discord、Steam 等應用程式及其他平台，以及面對面的溝通。
 
-  Even if information is not being shared or abused, it may still be considered a violation of this rule. Due to the difficulty of determining if information is being shared, it will almost always be presumed that people who message another player they are in a round with, or who are in a voice call with another player during a round are sharing round information. Due to the difficulty of determining if users are abusing information that they are sharing, it will almost always be presumed that the information is being abused.
+  即使資訊並未被分享或濫用，仍可能被視為違反此規定。 由於難以判定是否正在分享資訊，因此幾乎總是會推定：向同場對戰的玩家傳送訊息，或在對戰期間與其他玩家進行語音通話的玩家，皆屬分享對戰資訊之列。 由於難以判斷使用者是否濫用其分享的資訊，因此幾乎總是會推定該資訊正遭濫用。
 
-  The only exemption to this rule is when [color=#a4885c]all[/color] players are in the server lobby.
+  這項規則的唯一例外，是當 [color=#a4885c]所有[/color] 玩家都在伺服器大廳時。
 
-  ## Teaching new players
-  Teaching players is not exempt from this rule. If you want to teach a new player, it is recommended to either watch a stream of them playing the game while not playing yourself, or communicate with them using only in-game methods of communication.
+  ## 指導新玩家
+  指導玩家也不例外。 若想指導新玩家，建議要麼在不親自遊玩的情況下觀看他們的直播，要麼僅透過遊戲內的通訊方式與他們交流。
 
-  ## Streaming
-  Public livestreams are not exempt from this rule, but have different liability. Using information from a public live stream of the game (stream sniping) is a violation of this rule. Watching a public live stream of the game while connected to the same server is a violation of this rule. Allowing people watching a public live stream to share information about the current round, for example through the stream's chat, is a violation of this rule. Using that information is also a violation of this rule. Sharing information about the current round with a streamer is a violation of this rule if that information was obtained from any source but the stream. The stream's moderators are expected to enforce this on the streaming platform in addition to any in-game enforcement done by game admins.
+  ## 串流
+  公開直播雖不豁免於此規則，但其責任歸屬有所不同。 利用該場比賽的公開直播資訊（直播截取）屬於違反本規則的行為。 在連線至同一伺服器的情況下觀看該遊戲的公開直播，即屬違反此規定。 允許觀看公開直播的觀眾分享關於當前回合的資訊（例如透過直播的聊天室），即屬違反此規定。 使用該資訊亦屬違反本規則。 若與直播主分享關於當前回合的資訊，而該資訊並非來自該場直播，則此舉即屬違反本規則。 除了遊戲管理員在遊戲內執行的規範外，直播頻道的版主也應在直播平台上執行此項規定。
 
-  Public livestreaming by itself is not a violation of the rule as long as the stream is sufficiently moderated. Streamers are encouraged, but not required, to use a stream delay.
+  只要直播內容經過充分管理，公開直播本身並不構成規則違規。 鼓勵直播主使用直播延遲功能，但並非強制要求。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

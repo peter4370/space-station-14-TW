@@ -56,7 +56,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorRD
-  name: 擔任 RD 客座幽靈角色 | visiting RD ghost role
+  name: 擔任 RD 幽靈角色 | visiting RD ghost role
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi

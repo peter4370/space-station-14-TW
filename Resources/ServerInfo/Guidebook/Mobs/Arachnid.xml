@@ -1,6 +1,6 @@
 
 <Document>
-  # 蛛形綱
+  # 蛛形人
 
   <Box>
     <GuideEntityEmbed Entity="MobArachnid" Caption=""/>
@@ -20,7 +20,7 @@
     <GuideEntityEmbed Entity="WallWeb" Caption=""/>
   </Box>
 
-  蛛形綱動物能製造蛛絲，但代價是會變得更加飢餓。 他們（且唯有他們）能將一綑綑蛛絲製成各式物品，從衣物、盾牌到整面牆壁皆可。
+  蛛形人能製造蛛絲，但代價是會變得更加飢餓。 他們（且唯有他們）能將一綑綑蛛絲製成各式物品，從衣物、盾牌到整面牆壁皆可。
 
 
 </Document>

@@ -1021,8 +1021,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAtmosian
-  name: atmosian 絨毛玩偶 | atmosian plushie
-  description: 一隻可愛的毛絨玩具，外型酷似一位勇敢的阿特莫斯人。可惜的是，他無法幫你解決那些減壓問題。 | An adorable stuffed toy that resembles a brave atmosian. Unfortunately, he won't fix those depressurizations for you.
+  name: 大氣人絨毛玩偶 | atmosian plushie
+  description: 一隻可愛的毛絨玩具，外型酷似一位勇敢的大氣人。可惜的是，他無法幫你解決那些減壓問題。 | An adorable stuffed toy that resembles a brave atmosian. Unfortunately, he won't fix those depressurizations for you.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/atmosian.rsi

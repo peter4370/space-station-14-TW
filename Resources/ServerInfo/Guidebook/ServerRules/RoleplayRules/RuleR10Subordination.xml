@@ -1,27 +1,30 @@
 ﻿
 <Document>
-  # Roleplay Rule 10 - Listen to your team leader
-  Captains lead all departments and other members of command. Department heads lead members of their department. Certain antagonist teams have team leaders, like nuclear operative commanders or head revolutionaries. You are not required to perfectly follow orders given to you by your leaders, but you should generally allow your leaders to lead and not interfere with their ability to. You can choose to ignore unreasonable orders, including ones which are will result in your death unless you are an antagonist with an objective that requires you to die.
+  # 角色扮演規則 10 —— 聽從隊長的指示
+  隊長負責領導各部門及其他指揮層成員。 部門主管負責領導其部門的成員。 某些反派組織設有團隊領袖，例如核武行動指揮官或革命領袖。 你無須完全遵從領導者下達的指令，但總體而言，你應讓領導者發揮領導作用，並避免干擾其領導能力。 你可以選擇無視不合理的命令，包括那些會導致你死亡的命令——除非你是反派角色，且你的目標要求你必須死。
 
-  Team antagonists have to listen to the leader of their antagonist team. Team antagonists do not have to listen to any other leaders, including leaders of other antagonist teams. Solo antagonists do not have to listen to any leaders at all.
+  反派隊伍的成員必須聽從其反派隊伍隊長的指示。 反派團隊的成員無須聽從任何其他領導者的指示，包括其他反派團隊的領導者。 單打獨鬥的反派根本無需聽從任何領導者的指示。
 
-  ## Examples
-  Acceptable:
-  - A traitor ignores orders from a nuclear operative commander.
-  - An antagonist ignores orders from the captain.
-  - An engineer tells the Chief Engineer that they don't think it's a good idea to setup the singularity, but does so anyway when ordered to.
-  - An engineer tells the Chief Engineer that they don't know how to setup the singularity correctly, so refuses orders to, but accepts an offer to be taught how.
-  - An atmospheric technician refuses an order from the captain that would create an atmospheric hazard on the station.
-  - A doctor refuses an order from the Chief Engineer about who to give medical treatment to first.
-  - A revolutionary refuses a suicide mission from a head revolutionary.
-  - The Chief Engineer doesn't follow an order from the captain to setup backup power because there is an unrelated engineering emergency that the Chief Engineer needs to prioritize.
-  - The captain orders command to give the nuclear authentication disk to nuclear operatives, so command arrests the captain and picks a new captain.
-  - The research director orders scientists to say "Long live Nanotrasen!" every time they enter the bar. The scientists say they will, but don't follow the order.
+  ## 範例
+  符合規範：
+  - 一名叛徒無視核武作戰指揮官的命令。
+  - 一名反派角色無視船長的命令。
+  - 一名工程師告訴總工程師，他認為建立奇點並非明智之舉，但接到命令後仍照辦了。
+  - 一名工程師告訴總工程師，他們不知道該如何正確設定奇點，因此拒絕執行相關命令，但接受了對方教導的提議。
+  - 一名大氣技術員拒絕了船長的一項命令，因為該命令會對空間站造成大氣危害。
+  - 一名醫生拒絕了總工程師關於應優先為誰提供醫療救治的命令。
+  - 一名革命者拒絕了革命領袖下達的自殺任務。
+  - 首席工程師並未遵從船長關於啟動備用電源的命令，因為當時發生了一起與此無關的工程緊急狀況，首席工程師必須優先處理該狀況。
+  - 船長下令指揮部將核武認證磁碟交給核武操作員，於是指揮部逮捕了船長，並選出了新船長。
+  - 研究總監下令，科學家每次走進酒吧時都必須高喊「納諾特拉森萬歲！」。 科學家們說他們會這麼做，但並未遵照指示行事。
 
-  Prohibited:
-  - A nuclear operative ignores an order from the commander operative because they don't like the plan.
-  - The Chief Engineer refuses an order from the captain to setup backup power because the Chief Engineer doesn't think backup power is necessary.
-  - An engineer refuses an order from the Chief Engineer to setup the singularity because they prefer a different power source.
-  - An engineer refuses to perform a task because they don't know how to do it, and refuses to be taught for no reason.
-  - A head revolutionary orders revolutionaries to blend in and not do anything illegal until they are told to reveal themselves. Instead, revolutionaries collect weapons and attack security.
+  禁止行為：
+  - 核武特工因不認同計畫內容，而無視指揮官特工下達的命令。
+  - 首席工程師拒絕了船長關於啟動備用電源的命令，因為他認為沒有必要啟動備用電源。
+  - 一名工程師拒絕了首席工程師關於設置奇點的命令，因為他們更傾向於使用另一種動力來源。
+  - 一名工程師因為不知道該如何執行某項任務而拒絕執行，卻又毫無理由地拒絕接受指導。
+  - 一位革命領袖下令革命者們要融入人群，在接到指令公開身份之前，切勿從事任何違法行為。 相反地，革命者們收集武器並攻擊安全部隊。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

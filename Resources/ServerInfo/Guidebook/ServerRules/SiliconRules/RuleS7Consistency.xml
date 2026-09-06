@@ -1,7 +1,10 @@
 ﻿
 <Document>
-  # Silicon Rule 7 - You must remain consistent with your interpretation of laws
-  If there is a part of your laws that are up for interpretation, then you must stay consistent with how you interpret that part of your laws for as long as you play that same character during that round.
+  # 矽谷規則 7 —— 你對法規的詮釋必須保持一致
+  若法規中有任何部分存在詮釋空間，那麼在該回合中，只要你繼續扮演同一位角色，就必須始終如一地維持對該部分法規的詮釋方式。
 
-  A change in your laws can affect how something is interpreted if that change is relevant.
+  若法規的變更與該事項相關，則該變更可能會影響其詮釋方式。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

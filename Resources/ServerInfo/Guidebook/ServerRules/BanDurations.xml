@@ -1,18 +1,22 @@
 ﻿
 <Document>
-  # Ban Durations
+  # 封禁期限
 
-  Bans can be appealed at forum.ss14.io in the ban appeals section.
+  若對封禁處分有異議，可至 forum.ss14.io 的「封禁申訴」專區提出申訴。
 
-  ## Temporary
-  Temporary bans will be lifted automatically after a certain amount of time. If they are a game ban, they will tell you how much time is remaining when you try to connect.
+  ## 暫時性
+  暫時性封禁將在經過一段時間後自動解除。 如果是遊戲封禁，當你嘗試連線時，系統會告知你還剩多少時間。
 
-  ## Indefinite
-  These bans will only be removed on a successful appeal on the forums. Any ban which doesn't tell you when it expires and doesn't specify otherwise can be presumed to be an indefinite ban.
+  ## 無限期
+  這些封禁措施僅會在論壇上成功提出申訴後才會解除。 任何未註明有效期限且未作其他特別規定的禁令，均可推定為無限期禁令。
 
-  ## Voucher
-  This is an indefinite ban which may only be appealed both with a successful appeal and which require a voucher of good behavior from the administrative team of a well-known or at least decently active SS13/SS14 server in order for the appeal to be considered. Voucher bans typically cannot be appealed for at least six months after being issued. Without a voucher, a player can only attempt to appeal a voucher ban once, and only if the ban was inappropriately placed. Voucher bans are typically only placed as a result of an unsuccessful appeal of an indefinite game ban by players with a history of bans and of causing issues.
+  ## 行為良好證明書
+  這是無限期封禁，僅能透過成功提出上訴來解除；且須提交由知名或至少相當活躍的 SS13/SS14 伺服器管理團隊所核發的「行為良好證明書」，上訴才得以被考慮。 通常在禁用通知發出後，至少六個月內不得就此提出上訴。 若未持有憑證，玩家僅能針對憑證禁令提出一次申訴，且僅限於該禁令係不當施加之情況。 通常只有當曾有被禁賽紀錄且經常製造麻煩的玩家，針對無限期禁賽處分提出上訴未果時，才會被處以代幣禁用處分。
 
-  ## Permanent
-  This is a ban that is only appealable if the ban was inappropriately placed, including if the ban should not have been permanent. If the result of the appeal is that the ban was appropriately placed, the ban may not be appealed again and will not be lifted. These bans are extremely rare, but are applied to players who continually cause problems even after a voucher ban or users who have completely unacceptable behavior may be permanently removed.
+  ## 永久禁言
+  此類禁言僅在禁言處置不當的情況下方可提出上訴，包括原應不應被處以永久禁言的情況。 若上訴結果認定該禁令已適當頒布，則不得再次對該禁令提出上訴，且該禁令亦不會被撤銷。 這類封禁情況極為罕見，但會針對那些即使在收到代碼封禁後仍持續製造麻煩的玩家，或是行為完全無法接受的用戶，後者可能會遭到永久移除。
+
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,16 +1,19 @@
 ﻿
 <Document>
-  # Core Rule 6 - Do not attempt to evade bans
-  This is a zero tolerance rule.
+  # 核心規則 6 — 切勿試圖規避禁令
+  此為零容忍規則。
 
-  Almost all bans may be appealed on our forums at forum.ss14.io in the ban appeals section. This is generally the only acceptable way to contact the administration team to discuss your ban and revise it if it is inappropriate, including if it is mistakenly applied.
+  幾乎所有封禁處分皆可於我們的論壇 forum.ss14.io 的「封禁申訴」專區提出申訴。 這通常是聯繫管理團隊以討論您的封禁處分，並在處分不當（包括因誤判而施加的情況）時予以修正的唯一可接受方式。
 
-  Any attempt to circumvent or bypass a game ban will result in a voucher ban. Attempting to evade role bans by gaining access to or working in the capacity of a job you are banned from will result in a game ban. These bans are applied even if the evasion attempt is unsuccessful.
+  任何企圖規避或繞過遊戲封禁的行為，都將導致禮券被封禁。 若試圖透過取得被禁止的職務權限，或以該職務身分工作來規避角色禁令，將導致遊戲帳號遭封禁。 即使規避行為未成功，這些禁令仍會適用。
 
-  ## Exceptions
-  There are no exemptions for evading or attempting to evade game bans. Antagonists who impersonate or take over a role which they are banned from to aid in their goals are not considered to be evading their role ban.
+  ## 例外情況
+  對於規避或企圖規避遊戲禁令，不存在任何豁免情況。 反派角色若為達成自身目標，而冒充或接管其遭禁用的角色，不被視為規避角色禁令。
 
-  ## Additional Information
-  - [textlink="Ban Types" link="BanTypes"]
-  - [textlink="Ban Durations" link="BanDurations"]
+  ## 補充資訊
+  - [textlink="封禁類型" link="BanTypes"]
+  - [textlink="封禁期限" link="BanDurations"]
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

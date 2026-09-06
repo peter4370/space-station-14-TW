@@ -22,7 +22,7 @@ comms-console-broadcast-tab-title = 螢幕
 comms-console-char-limit = { $count }/{ $max }
 # Popup
 comms-console-permission-denied = 權限遭拒絕
-comms-console-shuttle-unavailable = 接駁車目前暫停服務
+comms-console-shuttle-unavailable = 穿梭機目前暫停服務
 comms-console-message-too-long = 訊息過長
 comms-console-message-cannot-send = 通訊服務暫時中斷
 # Placeholder values

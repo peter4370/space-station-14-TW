@@ -45,7 +45,7 @@ holopad-general-disposals = 一般 - 廢棄
 holopad-general-eva = 一般 - EVA儲存間
 holopad-general-lounge = 一般 - 休息室
 holopad-general-arcade = 一般 - 街機
-holopad-general-evac = 一般 - 疏散
+holopad-general-evac = 一般 - 撤離
 holopad-general-arrivals = 一般 - 抵港區
 # Command
 holopad-command-bridge = 指揮部 - 艦橋
@@ -113,7 +113,7 @@ holopad-security-lawyer = 安保部 - 律師
 holopad-security-armory = 安保部 - 軍械庫
 holopad-security-locker-room = 安保部 - 更衣室
 holopad-security-brig-med = 安保部 - 監獄醫療部
-holopad-security-evac-checkpoint = 安保部 - 疏散檢查站
+holopad-security-evac-checkpoint = 安保部 - 撤離檢查站
 holopad-security-arrivals-checkpoint = 安保部 - 抵港檢查站
 # Service
 holopad-service-janitor = 服務區 - 清潔工
@@ -141,4 +141,4 @@ holopad-ai-chute = AI - 滑槽
 holopad-station-bridge = 太空站 - 艦橋
 holopad-station-cargo-bay = 太空站 - 貨艙灣
 # CentComm
-holopad-centcomm-evac = CentComm - 疏散接駁車
+holopad-centcomm-evac = CentComm - 撤離穿梭機

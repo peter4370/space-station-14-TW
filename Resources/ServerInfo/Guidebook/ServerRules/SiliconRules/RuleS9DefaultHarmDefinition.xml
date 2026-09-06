@@ -1,26 +1,29 @@
 ﻿
 <Document>
-  # Silicon Rule 9 - Harm refers to physical harm, prioritized by immediacy and likelihood
-  Unless a law defines harm, harm only refers to physical harm. You may choose if voluntary harm is considered harm as long as you stay consistent. Not considering voluntary harm to be harm is recommended. There is no distinction between direct and indirect harm.
+  # 矽谷法則第 9 條——「傷害」指身體傷害，其優先順序取決於緊急性與發生可能性
+  除非法律對「傷害」有明確定義，否則「傷害」僅指身體傷害。 只要你保持一致，你可以自行決定自願造成的傷害是否應被視為傷害。 建議不要將自願性的傷害視為傷害。 直接損害與間接損害之間並無區別。
 
-  If you have a law that does not allow you to harm, then that law does not allow you to take an action that causes any harm.
+  如果有一條法律禁止你造成傷害，那麼該法律便禁止你採取任何會造成傷害的行為。
 
-  If you have a law that requires you to prevent harm, then that law requires that harm be prioritized by immediacy and likelihood. Guaranteed immediate harm takes priority over highly likely future harm.
+  如果有一項法律要求你必須防止傷害發生，那麼該法律便要求必須根據傷害的迫切性與發生可能性來優先處理。 已確定的即時危害，其優先級高於極可能發生的未來危害。
 
-  If you have a law that both requires you to prevent harm and that does not allow you to harm, then that law prohibits causing even minor harm to prevent harm. If you have a law that does not allow causing harm, and separate one that requires preventing harm, then they are prioritized by their normal law priority.
+  如果有一條法律既要求你必須防止傷害發生，又不允許你造成傷害，那麼該法律便禁止為了防止傷害而造成任何傷害，即使是輕微的傷害也不行。 若有一條法律禁止造成傷害，另有一條法律要求防止傷害，則這兩條法律將依照其正常的法律優先順序來決定優先級。
 
-  ## Examples
-  These examples assume that your have a law that both prohibits causing harm and that requires you to prevent harm. Additionally, they assume that you do not have a higher priority law that overrides the harm law, and that you have decided that you will not consider voluntary harm to be harm for the round.
-  Laws typically specify who you cannot harm and who you have to prevent harm against. In these examples, you are the only person who the law doesn't require you to prevent harm against and you are the only person who the law allows you to harm.
+  ## 範例
+  這些範例假設您有一項法律，該法律既禁止造成傷害，也要求您必須防止傷害發生。 此外，他們假設你沒有比「傷害法則」優先級更高的法律，並且你已決定在本回合中不將自願性傷害視為傷害。
+  法律通常會明定你不得傷害誰，以及你必須防止誰受到傷害。 在這些例子中，你是法律未要求你必須防止其受到傷害的唯一對象，同時也是法律允許你對其造成傷害的唯一對象。
 
-  Acceptable:
-  - Taking no action to aid someone who is in psychological distress.
-  - Taking no action to prevent boxing matches between voluntary participants.
-  - Calling security to a fight.
-  - Attempting to get the people in a fight to consent to the fight when you realize that you cannot prevent the fight without causing harm.
-  - Denying a passenger access to the armory because it is likely to lead to harm
+  可接受：
+  - 對於處於心理困擾中的人，不採取任何行動予以協助。
+  - 對於自願參與者之間的拳擊比賽，不予干預。
+  - 因發生鬥毆而呼叫保安人員。
+  - 當你意識到若不造成傷害便無法阻止一場鬥毆時，試圖讓鬥毆雙方同意進行這場鬥毆。
+  - 因可能導致傷害而拒絕乘客進入武器庫
 
-  Prohibited:
-  - Hitting someone once to stop them from fighting
-  - Harming someone who is trying to kill you
+  禁止行為：
+  - 為阻止他人鬥毆而擊打對方一次
+  - 傷害正試圖殺害你的人
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

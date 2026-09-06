@@ -1,27 +1,30 @@
 ﻿
 <Document>
-  # Server Rules
-  This is a Wizard's Den server, one of the official Space Station 14 servers. If you are banned on this server, you will be banned on all official servers.
+  # 伺服器規則
+  這是「巫師之巢」（Wizard's Den）伺服器，屬於「太空站 14」（Space Station 14）的官方伺服器之一。若您在此伺服器遭封禁，將同時被所有官方伺服器封禁。
 
-  [color=#ff0000]Only the Core Rules apply on this server.[/color] This is NOT a medium roleplay (MRP) server, meaning that MRP Amendments do NOT apply.
+  [color=#ff0000]本伺服器僅適用核心規則。[/color] 本伺服器並非中度角色扮演（MRP）伺服器，這意味著 MRP 修正條款不適用於此。
 
-  Space Station 14 was designed to be a roleplay game. While roleplay is not required on this server, it is highly encouraged in the normal game modes.
+  《太空站 14》的設計初衷即為角色扮演遊戲。雖然本伺服器不強制要求角色扮演，但在一般遊戲模式中仍極力鼓勵進行角色扮演。
 
-  ## Core Rules
-  These rules apply at all times, including between rounds.
+  ## 核心規則
+  這些規則隨時適用，包括回合之間。
 
-  - [textlink="1. Admins have final say" link="RuleC1"]
-  - [textlink="2. Don't be a dick" link="RuleC2"]
-  - [textlink="3. No Hate Speech or Discriminatory Language" link="RuleC3"]
-  - [textlink="4. No sexual content/themes, including erotic roleplay (ERP) and no shock content" link="RuleC4"]
-  - [textlink="5. Do not use out of game methods to communicate with other players" link="RuleC5"]
-  - [textlink="6. Do not attempt to evade bans" link="RuleC6"]
-  - [textlink="7. Only use English" link="RuleC7"]
-  - [textlink="8. Do not exploit the game, use cheats, or macros" link="RuleC8"]
-  - [textlink="9. Do not use multiple accounts, or alt accounts, and do not share accounts" link="RuleC9"]
-  - [textlink="10. Do not abuse or ignore admin messages" link="RuleC10"]
-  - [textlink="11. Do not threaten to ahelp other players or argue with them about rules" link="RuleC11"]
-  - [textlink="12. Players must be and act at least 16 years old" link="RuleC12"]
-  - [textlink="13. Use realistic character names, and do not use names of famous people" link="RuleC13"]
-  - [textlink="14. Do not use LOOC or OOC to share current round information" link="RuleC14"]
+  - [textlink="1. 管理員擁有最終決定權" link="RuleC1"]
+  - [textlink="2. 請勿行為不端" link="RuleC2"]
+  - [textlink="3. 禁止仇恨言論或歧視性語言" link="RuleC3"]
+  - [textlink="4. 禁止性內容／主題，包括情色角色扮演（ERP）及任何煽動性內容" link="RuleC4"]
+  - [textlink="5. 請勿使用遊戲外的方式與其他玩家溝通" link="RuleC5"]
+  - [textlink="6. 請勿試圖規避封禁" link="RuleC6"]
+  - [textlink="7. 僅限使用英文" link="RuleC7"]
+  - [textlink="8. 請勿利用遊戲漏洞、使用作弊程式或巨集" link="RuleC8"]
+  - [textlink="9. 請勿使用多個帳號或備用帳號，亦請勿共享帳號" link="RuleC9"]
+  - [textlink="10. 請勿濫用或忽略管理員訊息" link="RuleC10"]
+  - [textlink="11. 請勿威脅要傷害其他玩家，或與他們就規則爭論" link="RuleC11"]
+  - [textlink="12. 玩家必須年滿 16 歲，且行為舉止須符合此年齡" link="RuleC12"]
+  - [textlink="13. 請使用寫實的角色名稱，且不得使用名人姓名" link="RuleC13"]
+  - [textlink="14. 請勿在 LOOC 或 OOC 中分享當前回合的資訊" link="RuleC14"]
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

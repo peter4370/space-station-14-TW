@@ -14,7 +14,7 @@ salvage-expedition-difficulty-Hazardous = 危險
 salvage-expedition-difficulty-Extreme = 超難
 salvage-expedition-difficulty-players = 推薦的打撈人數：
 # Runner
-salvage-expedition-not-all-present = 並非所有打撈人員都在穿梭機上！
+salvage-expedition-not-all-present = 有打撈人員還沒上機！
 salvage-expedition-announcement-countdown-minutes = { $duration } 分鐘即可完成這趟探險。
 salvage-expedition-announcement-countdown-seconds = 距離完成這趟探險還剩 { $duration } 秒。
 salvage-expedition-announcement-dungeon = 「地牢」位於 { $direction }。

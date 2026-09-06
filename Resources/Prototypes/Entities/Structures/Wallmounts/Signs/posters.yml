@@ -48,7 +48,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandAtmosiaDeclarationIndependence
-  name: "《阿特莫西亞獨立宣言》 | Atmosia Declaration of Independence"
+  name: "《大氣國獨立宣言》 | Atmosia Declaration of Independence"
   description: "一場失敗起義的神器。 | A relic of a failed rebellion."
   components:
   - type: Sprite

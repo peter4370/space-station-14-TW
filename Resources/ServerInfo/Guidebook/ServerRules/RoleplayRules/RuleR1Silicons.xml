@@ -1,5 +1,8 @@
 ﻿
 <Document>
-  # Roleplay Rule 1 - Silicons must follow Silicon Rules
-  You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, the Silicon Rules override all Roleplay Rules if there is any conflict. Silicon Rules do not override Core Rules.
+  # 角色扮演規則 1 — 矽基角色必須遵守《矽基規則》
+  只有當遊戲明確且明確地告訴你你是矽基角色時，你才算是矽基角色。 對於扮演「矽族」角色的玩家而言，若發生衝突，則「矽族規則」優先於所有「角色扮演規則」。 「矽規則」不得凌駕於「核心規則」之上。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

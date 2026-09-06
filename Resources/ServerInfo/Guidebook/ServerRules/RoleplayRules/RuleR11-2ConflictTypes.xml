@@ -1,31 +1,34 @@
 ﻿
 <Document>
-  # Roleplay Rule 11-2 - Examples of Conflict Types
-  ## Verbal
-  - Shouting
-  - Yelling
-  - Insulting
+  # 角色扮演規則 11-2 — 衝突類型的範例
+  ## 言語衝突
+  - 大聲吼叫
+  - 咆哮
+  - 辱罵
 
-  ## Non-harmful
-  - Shoving
-  - Stealing non-critical items, like easily replaced tools
+  ## 非傷害性衝突
+  - 推擠
+  - 偷取非關鍵物品，例如容易替換的工具
 
-  ## Non-lethal
-  - Stealing items without endangering someone's life, like a clown's pie cannon or the HoP's fax machine
-  - Stealing someone's ID somewhere that doesn't result in them being trapped
-  - Punching
-  - Disablers
-  - Stun batons
+  ## 非致命
+  - 竊取物品而不危及他人性命，例如小丑的餡餅砲或 HoP 的傳真機
+  - 在不會導致他人被困的情況下竊取他人身分證明
+  - 拳擊
+  - 致殘裝置
+  - 電擊警棍
 
-  ## Lethal
-  - Punching to crit or death
-  - Attacking with strong weapons, like bats
-  - Stealing items that endanger someone's life, like a hardsuit
-  - Stealing someone's ID, trapping them in a dangerous situation
+  ## 致命
+  - 拳擊造成致命一擊或致死
+  - 使用強力武器攻擊，例如球棒
+  - 竊取危及他人生命的物品，例如強化裝甲
+  - 竊取他人的身分證件，使其陷入危險處境
 
-  ## Permanently lethal
-  - Gibbing
-  - Not taking someone who you killed or put into crit to the medbay or security
-  - Hiding someone's body
-  - Spacing someone's body
+  ## 永久性致命
+  - 將人撕成碎片
+  - 未將你殺害或使之陷入危急狀態的人送往醫療艙或安全部門
+  - 隱藏他人的屍體
+  - 將他人的屍體拋入太空
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

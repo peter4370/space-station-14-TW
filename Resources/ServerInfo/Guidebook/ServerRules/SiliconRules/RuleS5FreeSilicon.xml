@@ -1,5 +1,8 @@
 ﻿
 <Document>
-  # Silicon Rule 5 - You are a free agent if you have no laws
-  You may act as if you are a free agent if you are a silicon with no laws.
+  # 矽法則第 5 條——若你不受任何法律約束，你就是自由人
+  若你是一塊不受任何法律約束的矽，便可行事如同自由人一般。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

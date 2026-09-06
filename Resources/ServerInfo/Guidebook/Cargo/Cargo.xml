@@ -30,7 +30,7 @@
 
   一旦發現有價值的物品，請將其帶到 [color=cyan]貨艙灣[/color]。 如果物品能放進 [color=cyan]貨箱[/color] 裡，請找一個空貨箱，將這些物品放進去。
 
-  如果 [color=cyan]貨運穿梭機[/color] 不在場，你可以將所有想要出售的物品放上 [color=cyan]貨運托盤[/color]。 一旦穿梭機與太空站對接完成，你就將貨箱以及其他待售物品全數裝載上太空梭。
+  如果 [color=cyan]貨運穿梭機[/color] 不在場，你可以將所有想要出售的物品放上 [color=cyan]貨運托盤[/color]。 一旦穿梭機與太空站對接完成，你就將貨箱以及其他待售物品全數裝載上穿梭機。
 
   <Box>
     <GuideEntityEmbed Entity="ComputerPalletConsole"/>

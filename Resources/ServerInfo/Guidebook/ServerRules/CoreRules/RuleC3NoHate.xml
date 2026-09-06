@@ -1,22 +1,25 @@
 ﻿
 <Document>
-  # Core Rule 3 - No Hate Speech or Discriminatory Language
-  This is a zero tolerance rule.
+  # 核心規則 3 — 禁止仇恨言論或歧視性語言
+  這是項零容忍規則。
 
-  This rule prohibits all the following:
-  - Hate Speech
-  - Slurs (including variations of slurs, racial, sexual, disability-related, or language closely tied to real-life slurs)
-  - Bigotry
-  - Racism (including Speciesism, which would be demeaning other players based on their in-game race)
-  - Sexism
+  本規則禁止以下所有行為：
+  - 仇恨言論
+  - 侮辱性言論（包括侮辱性詞彙的變體、涉及種族、性別、身心障礙的侮辱性言論，或與現實生活中的侮辱性言論密切相關的用語）
+  - 偏執
+  - 種族主義（包括物種主義，即基於其他玩家的遊戲內種族而貶低對方）
+  - 性別歧視
 
-  ## Examples
-  Allowed:
-  - Telling someone that you are gay.
+  ## 範例
+  允許：
+  - 告訴某人你是同性戀者。
 
-  Prohibited:
-  - Calling someone gay in a context where gay is used as an insult or negative attribute.
-  - Using a racial slur or variant in a positive context.
-  - Using the word "retard" in any context.
-  - Using the word "clanker" in any context.
+  禁止：
+  - 在「gay」一詞被用作侮辱或負面特徵的語境下，稱呼他人為「gay」。
+  - 在正面語境中使用種族歧視用語或其變體。
+  - 在任何情況下使用「retard」一詞。
+  - 在任何語境下使用「clanker」一詞。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

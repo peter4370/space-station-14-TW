@@ -1,23 +1,26 @@
 ﻿
 <Document>
-  # Roleplay Rule 6 - Don't act like an antagonist unless the game tells you that you are one
-  Acting like an antagonist when you are not one is often referred to as "self-antagging" or being a "self-antag", both of these things are against the rules. You are not an antagonist unless the game tells you that you are an antagonist. Do not make yourself a major problem, annoyance, or disruption while not an antagonist. Do not willfully cooperate with known antagonists. Non-antagonists should typically either not have an overall effect on the round, or should have an overall positive effect on the round.
+  # 角色扮演規則 6 — 除非遊戲明確指出你是反派，否則不要扮演反派
+  當你並非反派卻表現得像反派時，這通常被稱為「自當反派」或「自反」，這兩者都違反規則。 除非遊戲明確告訴你，否則你並非反派。 在並非反派角色的情況下，切勿讓自己成為主要問題、煩擾或干擾源。 切勿蓄意與已知的敵對者合作。 非敵對者通常應對該回合不產生整體影響，或應對該回合產生整體正面影響。
 
-  ## Examples
-  These examples assume that you are not an antagonist.
+  ## 範例
+  這些範例假設您並非反派角色。
 
-  Acceptable:
-  - Stealing or breaking a glass from the bar.
-  - Replacing someone's shoes with clown shoes.
-  - Giving everyone all access during war ops. (This is not necessarily a good idea)
+  可接受：
+  - 從酒吧偷走或打破一杯飲料。
+  - 把別人的鞋子換成小丑鞋。
+  - 在戰時行動期間，賦予所有人全面存取權限。 （這未必是個好主意）
 
-  Prohibited:
-  - Starting a cult.
-  - Starting a revolution.
-  - Mutinying the captain because they would not let you become the chief medical officer.
-  - Randomly smashing lots of station lights.
-  - Disrupting station power.
-  - Spacing parts of the station.
-  - Distributing significant levels of access without a good reason.
-  - Stealing high risk or high value items, like the nuclear authentication disk, for no reason.
+  禁止事項：
+  - 創立邪教。
+  - 掀起一場革命。
+  - 因為他們不讓你擔任首席醫務官，所以發動了針對船長的叛變。
+  - 隨機砸毀大量車站燈具。
+  - 干擾車站供電。
+  - 車站各區域的間距。
+  - 未經正當理由即授予過高的存取權限。
+  - 無故竊取高風險或高價值的物品，例如核子認證光碟。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

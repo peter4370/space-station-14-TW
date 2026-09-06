@@ -1,23 +1,26 @@
 ﻿
 <Document>
-  # Silicon Rule 6 - You are not required to follow orders which are extremely unreasonable
-  Any order which is a violation of a Core Rule cannot be followed.
+  # 矽谷守則第 6 條——你無須服從極度不合理的命令
+  任何違反核心守則的命令，均不得執行。
 
-  Some orders are extremely unreasonable or obnoxious, such as "do nothing but collect every piece of trash on the station" or "never stop moving". These orders can be ignored and ahelped.
+  有些指令極其不合理或令人厭惡，例如「除了把站內每一件垃圾都撿起來之外，什麼都不要做」或「永遠不要停下腳步」。 這些指令可以忽略，並可透過 ahelped 處理。
 
-  Some orders violate a Roleplay Rule. These orders must be followed if your laws require it. You are not breaking a rule by following a law that causes you to violate Roleplay Rules. If someone takes advantage of a law to cause you to do something that they would not be allowed to do because of Roleplay Rules, then they are the ones responsible for the rule violation.
+  某些訂單違反了角色扮演規則。 若貴國法律有此規定，則必須遵守這些命令。 若您遵循某項法律，而該法律導致您違反角色扮演規則，這並不構成違規。 如果有人利用某項法律，迫使你去做一些根據角色扮演規則本不被允許的事情，那麼該人就是違反規則的一方。
 
-  ## Examples
-  These examples assume that your laws would normally require you to follow these orders. It is important to note that you are allowed to choose to follow orders which are ignorable.
+  ## 範例
+  這些範例假設根據您的法律規定，您通常必須遵守這些命令。 必須注意的是，你可以選擇遵從那些可忽略的命令。
 
-  Orders which should be followed if your laws require it:
-  - Recall the shuttle
-  - Bolt the airlocks at arrivals
-  - Drag the captain's dead body into space
-  - State your laws
+  若貴國法律有此要求，應遵循以下指令：
+  - 召回太空梭
+  - 鎖死抵達處的氣閘
+  - 將船長屍體拖入太空
+  - 宣讀你的法律
 
-  Ignorable Orders:
-  - Do nothing but collect every piece of trash on the station
-  - Never stop moving
-  - Continuously state your laws
+  可忽略的指令：
+  - 除了收集空間站上的每一件垃圾外什麼都不要做
+  - 永遠不要停止移動
+  - 持續宣讀你的法律
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,27 +1,30 @@
 
 <Document>
-  # Roleplay Rule 13 - Stick to your role
-  Requesting job changes is not prohibited by this rule. This rule is loosened if the station is understaffed or if there is a significant threat to you.
+  # 角色扮演規則第 13 條 — 恪守角色定位
+  本規則並未禁止申請更換職業。 若該站人手不足，或您面臨重大威脅，此規定將予以放寬。
 
-  Don't perform other people's jobs, especially where the relevance to you personally is low. This also covers performing the role of security.
+  不要代人處理工作，尤其是那些與你個人關聯性較低的工作。 這也涵蓋了履行安全職責。
 
-  ## MRP Amendment
-  This is enforced more strictly on MRP.
+  ## MRP 修訂案
+  此規定在 MRP 上執行得更加嚴格。
 
-  ## Examples
-  Acceptable:
-  - As an engineer, helping the bartender remodel the bar.
-  - As a bartender, remodeling the bar.
-  - As a passenger, building a maintenance bar.
-  - As an engineer, reinforcing substations.
-  - As an engineer, increasing the security of airlocks.
-  - As an atmospherics technician, improving atmospheric systems.
-  - As a passenger, fighting nuclear operatives.
-  - As a passenger, fighting or preparing to defend yourself from someone who has been trying to kill you.
-  - As a crewmember on a station with no engineering department, you complete engineering tasks.
+  ## 範例
+  可接受：
+  - 身為一名工程師，協助調酒師翻新酒吧。
+  - 身為一名調酒師，正在翻新酒吧。
+  - 身為乘客，正在搭建一座維修平台。
+  - 身為一名工程師，負責變電站的加固工程。
+  - 身為一名工程師，致力於提升氣閘的安全性。
+  - 身為一名大氣系統技術人員，負責改善大氣系統。
+  - 以乘客身分，與核武特工交戰。
+  - 身為乘客，與試圖殺害你的人發生鬥毆，或準備自衛。
+  - 身為一座沒有工程部門的空間站成員，你負責執行各項工程任務。
 
-  Prohibited:
-  - As a passenger, reinforcing substations.
-  - As a passenger, hunting for antagonists or lawbreakers.
-  - As a passenger, fighting or preparing to defend someone else from someone who has been trying to kill a random crewmember.
+  禁止：
+  - 身為乘客，不得加固變電站。
+  - 以乘客身分，追捕反派或違法者。
+  - 身為乘客，與試圖殺害某位隨機機組人員的人發生衝突，或準備為他人進行自衛。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

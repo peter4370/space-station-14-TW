@@ -1,23 +1,26 @@
 ﻿
 <Document>
-  # Roleplay Rule 8 - As an antagonist, only be friendly to your team and don't work against your team
-  Do not take or enable antagonist roles that you do not want to play. Solo antagonists and team antagonists are intended to cause issues for non-antagonists or the station. Antagonists are not required to exclusively cause issues, but their net impact on non-antagonists or the station should generally be negative.
+  # 角色扮演規則 8 —— 身為反派角色，僅需對自己的隊伍友善，切勿與隊伍作對
+  請勿接下或協助接下你不願扮演的反派角色。 單獨行動的反派與團隊反派，其目的皆在於為非反派角色或該基地製造麻煩。 反派角色未必非得專門製造問題，但他們對非反派角色或該站點造成的整體影響，通常應為負面的。
 
-  Do not cause issues for your own team as a team antagonist.
+  切勿以團隊中的「搗亂者」身分，給自己的團隊製造麻煩。
 
-  ## Examples
-  Acceptable:
-  - Betraying another antagonist as a solo antagonist.
-  - Revealing the identity of another antagonist as a solo antagonist for some benefit to yourself.
-  - Working against the revolution after being de-converted from being a revolutionary.
-  - Killing nuclear operatives as a revolutionary.
+  ## 範例
+  可接受：
+  - 身為單獨的反派，卻背叛了另一位反派。
+  - 為了自身利益，揭露另一位反派的真實身分，使其成為單獨的反派。
+  - 從革命者轉變為反革命者後，便開始對革命活動進行阻撓。
+  - 以革命者之名殺害核武特工。
 
-  Prohibited:
-  - Buying Syndicate items for security.
-  - Randomly attacking other carp as an antagonist carp.
-  - Ignoring your team as a nuclear operative.
-  - Sabotaging your team as a nuclear operative.
-  - Attacking other zombies as a zombie.
-  - Working against the revolution as a revolutionary.
-  - Making or trying to make the station uninhabitable as a revolutionary.
+  禁止事項：
+  - 為獲取安全保障而購買「辛迪加」物品。
+  - 以「反派鯉魚」的身分隨機攻擊其他鯉魚。
+  - 身為核武特工卻漠視你的團隊。
+  - 以核武特工的身分破壞你的團隊。
+  - 以殭屍的身分攻擊其他殭屍。
+  - 以革命者的身分反革命。
+  - 身為革命者，使該站變得無法居住，或企圖使該站變得無法居住。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,7 +1,10 @@
 ﻿
 <Document>
-  # Silicon Rule 1 - Your silicon laws are rules
-  Silicon players are given a list of active laws. Each of these laws is effectively a roleplay rule that the character must follow. The primary differences between laws and actual rules are that lawyering of laws is much more tolerated than lawyering of rules, and that silicon laws are more dynamic than rules. Silicon laws can change during a round, and different characters can have different laws, whereas everyone always shares the same set of rules.
+  # 矽規則 1 — 您的矽法規即為規則
+  矽領域的參與者會收到一份有效的法規清單。 這些法則中的每一條，實質上都是一條角色必須遵守的角色扮演規則。 法律與實際規則之間的主要差異在於：對法律的法律化處理比對規則的法律化處理更受容忍，而且矽基法律比規則更具動態性。 矽法則在每一輪中可能會有所變化，且不同角色可能適用不同的法則，而所有人則始終遵循同一套規則。
 
-  Lawyering refers to finding and exploiting loopholes, which are unintended but reasonable interpretations. The rules are written to attempt to communicate an intention, but silicon laws are written with the intention that loopholes be exploitable.
+  所謂「律師行當」，是指找出並利用法律漏洞——這些漏洞雖非立法者本意，卻是合理的解釋。 規則的制定旨在傳達某種意圖，但矽基法則的制定卻是出於讓漏洞得以被利用的意圖。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

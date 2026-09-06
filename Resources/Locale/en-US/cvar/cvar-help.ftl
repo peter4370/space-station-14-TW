@@ -2,8 +2,8 @@
 changecvar-full-debug_test_cvar = 這只是個簡單的測試 cvar，没有任何作用。
 changecvar-simple-events_enabled = 控制遊戲是否應執行站點事件。
 changecvar-full-events_enabled = 控制遊戲是否應執行站點事件。
-changecvar-simple-shuttle_auto_call_time = 回合開始後，經過一段時間便會自動呼叫穿梭車。
-changecvar-full-shuttle_auto_call_time = 從回合開始後，經過多少分鐘（以分鐘為單位）會自動呼叫穿梭車。設定為零可停用此功能。
+changecvar-simple-shuttle_auto_call_time = 回合開始後，經過一段時間便會自動呼叫穿梭機。
+changecvar-full-shuttle_auto_call_time = 從回合開始後，經過多少分鐘（以分鐘為單位）會自動呼叫穿梭機。設定為零可停用此功能。
 changecvar-simple-playtest_all_damage_modifier = 所有造成的傷害之倍率。
 changecvar-full-playtest_all_damage_modifier = 所有造成的傷害之倍率。
 changecvar-simple-playtest_all_heal_modifier = 所有治療量的倍率。

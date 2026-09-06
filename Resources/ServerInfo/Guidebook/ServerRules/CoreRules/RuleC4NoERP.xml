@@ -1,24 +1,27 @@
 ﻿
 <Document>
-  # Core Rule 4 - No sexual content/themes, including erotic roleplay (ERP) and no shock content
-  This is a zero tolerance rule.
+  # 核心規則 4 — 禁止任何性內容／主題，包括情色角色扮演（ERP），亦禁止任何煽動性內容
+  此為零容忍規則。
 
-  Erotic Roleplay (commonly abbreviated as "ERP") and sexual content is not allowed. This includes direct and indirect mentions of sexual behavior or actions. Slight leeway is given to insults, but this rule is otherwise strictly enforced.
+  禁止進行情色角色扮演（通常簡稱為「ERP」）及發布性內容。 這包括對性行為或性舉動的直接及間接提及。 對於侮辱性言論會給予些許寬容，但除此之外，此規則將嚴格執行。
 
-  In-game romantic relationships should not become the focus of the game for you and anyone else involved.
+  遊戲中的浪漫關係，不應成為你或任何其他參與者的遊戲重點。
 
-  Things that appear to be intended to or are likely to disturb players out of character are considered shock content and are not allowed.
+  任何看似意圖或可能使玩家脫離角色狀態的內容，均被視為衝擊性內容，且不被允許。
 
-  ## Examples
-  Allowed:
-  - Telling someone that they are being a dickhead.
-  - Telling someone that you are going to kill the captain, as long as it is clear that you mean it in character.
+  ## 範例
+  允許的用法：
+  - 告訴某人他現在像個混蛋。
+  - 告訴某人你要殺死船長，只要明確表示這是你以角色身分所說的話。
 
-  Prohibited:
-  - Emoting sexual acts.
-  - Erotica content.
-  - Erotic or sexual memes.
-  - Memes which contain sexual content.
-  - Dedicating significant portions of rounds to romantic relationships, dating, or similar things.
-  - Emoting defecation or related acts.
+  禁止：
+  - 描繪性行為。
+  - 情色內容。
+  - 情色或性暗示的迷因。
+  - 含有性內容的迷因。
+  - 將每輪的大部分時間用於探討浪漫關係、約會或類似話題。
+  - 模仿排便或相關行為。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

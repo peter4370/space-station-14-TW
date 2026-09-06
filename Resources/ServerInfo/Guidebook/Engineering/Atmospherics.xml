@@ -6,7 +6,7 @@
   Atmospherics 由大氣技術人員負責營運，並由總工程師監督。
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
+    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="大氣人"/>
     <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
   </Box>
   <Box>

@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalEvac
-  name: 疏散標誌 | evac sign
-  description: 一塊指示牌，標示疏散方向。 | A direction sign, pointing out which way evac is.
+  name: 撤離標誌 | evac sign
+  description: 一塊指示牌，標示撤離方向。 | A direction sign, pointing out which way evac is.
   components:
   - type: Sprite
     layers:
@@ -816,7 +816,7 @@
 - type: entity
   parent: BaseSign
   id: SignShipDock
-  name: 疏散標誌 | evac sign
+  name: 撤離標誌 | evac sign
   description: 一塊標示撤離穿梭機（可能）抵達地點的標誌。 | A sign indicating the where the evac shuttle will (likely) arrive.
   components:
   - type: Sprite

@@ -99,7 +99,7 @@ ghost-role-information-space-bear-name = 太空熊
 ghost-role-information-space-bear-description = 你的肚子咕嚕咕嚕叫，而這些人看起來真的超誘人……真是場盛宴啊！
 # Still exists as a commented out reference for Tropico. Keeping it around. -TsjipTsjip, 2024-06-20
 ghost-role-information-tropico-name = 《Tropico》
-ghost-role-information-tropico-description = 阿特莫西亞的崇高夥伴，也是其最堅定的捍衛者。萬歲！
+ghost-role-information-tropico-description = 大氣國的崇高夥伴，也是其最堅定的捍衛者。萬歲！
 ghost-role-information-guardian-name = 《衛報》
 ghost-role-information-guardian-description = 聽從主人的指示。不要刻意承受傷害。狠狠地揍人。
 ghost-role-information-holoparasite-name = 全寄生蟲

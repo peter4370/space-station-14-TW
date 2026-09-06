@@ -1,66 +1,69 @@
 ﻿
 <Document>
-  # Server Rules
-  This is a Wizard's Den server, one of the official Space Station 14 servers. If you are banned on this server, you will be banned on all official servers.
+  # 伺服器規則
+  這是「巫師之巢」（Wizard's Den）伺服器，屬於「太空站 14」（Space Station 14）的官方伺服器之一。若您在此伺服器遭封禁，將同時被所有官方伺服器封禁。
 
-  This is a roleplay server, meaning that roleplay rules apply. This is NOT a medium roleplay (MRP) server, meaning that MRP Amendments do NOT apply.
+  這是角色扮演（RPG）伺服器，意味著須遵守角色扮演規則。 本伺服器並非中度角色扮演（MRP）伺服器，這意味著 MRP 修正條款不適用於此。
 
-  Space Station 14 is not like most games. Many rules are designed to require roleplay, and not all rules are intuitive. Please take the time to read and understand the rules before you play so that you aren't surprised. Some of our rules are zero tolerance rules, meaning that a violation will result in an indefinite ban without any warning. Game admins will treat you as if you have read the rules, even if you have not.
+  《太空站 14》與多數遊戲不同。許多規則的設計旨在要求玩家進行角色扮演，且並非所有規則都直觀易懂。請在開始遊玩前花點時間閱讀並理解規則，以免事後感到意外。 部分規則採「零容忍」政策，違反將直接導致無限期封禁，且不會給予任何警告。即使您尚未閱讀規則，遊戲管理員仍會假設您已知悉相關內容。
 
-  ## Core Rules
-  These rules apply at all times, including between rounds.
+  ## 核心規則
+  這些規則隨時適用，包括回合間的空檔。
 
-  - [textlink="1. Admins have final say" link="RuleC1"]
-  - [textlink="2. Don't be a dick" link="RuleC2"]
-  - [textlink="3. No Hate Speech or Discriminatory Language" link="RuleC3"]
-  - [textlink="4. No sexual content/themes, including erotic roleplay (ERP) and no shock content" link="RuleC4"]
-  - [textlink="5. Do not use out of game methods to communicate with other players" link="RuleC5"]
-  - [textlink="6. Do not attempt to evade bans" link="RuleC6"]
-  - [textlink="7. Only use English" link="RuleC7"]
-  - [textlink="8. Do not exploit the game, use cheats, or macros" link="RuleC8"]
-  - [textlink="9. Do not use multiple accounts, or alt accounts, and do not share accounts" link="RuleC9"]
-  - [textlink="10. Do not abuse or ignore admin messages" link="RuleC10"]
-  - [textlink="11. Do not threaten to ahelp other players or argue with them about rules" link="RuleC11"]
-  - [textlink="12. Players must be and act at least 16 years old" link="RuleC12"]
-  - [textlink="13. Use realistic character names, and do not use names of famous people" link="RuleC13"]
-  - [textlink="14. Do not use LOOC or OOC to share current round information" link="RuleC14"]
+  - [textlink="1. 管理員擁有最終決定權" link="RuleC1"]
+  - [textlink="2. 別當混蛋" link="RuleC2"]
+  - [textlink="3. 禁止仇恨言論或歧視性語言" link="RuleC3"]
+  - [textlink="4. 禁止性內容／主題，包括情色角色扮演（ERP）及任何煽動性內容" link="RuleC4"]
+  - [textlink="5. 請勿使用遊戲外的方式與其他玩家溝通" link="RuleC5"]
+  - [textlink="6. 不得試圖規避封禁" link="RuleC6"]
+  - [textlink="7. 僅限使用英文" link="RuleC7"]
+  - [textlink="8. 不得利用遊戲漏洞、使用作弊程式或巨集" link="RuleC8"]
+  - [textlink="9. 不得使用多個帳號或小號，亦不得共享帳號" link="RuleC9"]
+  - [textlink="10. 請勿濫用或忽視管理員訊息" link="RuleC10"]
+  - [textlink="11. 請勿威脅其他玩家或與他們就規則爭論" link="RuleC11"]
+  - [textlink="12. 玩家必須年滿 16 歲，且在遊戲中表現出至少 16 歲的行為" link="RuleC12"]
+  - [textlink="13.使用寫實的角色名稱，且不得使用名人姓名" link="RuleC13"]
+  - [textlink="14. 請勿使用 LOOC 或 OOC 分享當前回合的資訊" link="RuleC14"]
 
-  ## Roleplay Rules
-  These rules only apply during a round. A round ends only when the round summary has appeared. All of these rules apply fully until the moment that the round summary appears, even while the arrivals shuttle is in transit.
+  ## 角色扮演規則
+  這些規則僅適用於回合期間。回合僅在回合摘要出現時才結束。所有這些規則在回合摘要出現之前均完全有效，即使在抵達穿梭機行駛途中亦然。
 
-  The deathmatch and sandbox game modes are exempt from these rules. Players who choose to not follow these rules are entirely responsible for knowing if an exempt game mode is active.
+  死亡競賽與沙盒遊戲模式不受這些規則約束。選擇不遵守這些規則的玩家，須自行確認當前是否處於豁免遊戲模式中，並對此承擔全部責任。
 
-  Roleplay rules do not apply to ghosts/spectators/observers while they are ghosts/spectators/observers. Dead chat is considered to be an in-game out of character chat channel.
+  角色扮演規則不適用於處於幽靈／觀眾／觀察者狀態的玩家。 「死亡聊天」被視為遊戲內「脫角」的聊天頻道。
 
-  See the list of [textlink="role types" link="RoleTypes"] for more information about the different types of roles.
+  請參閱 [textlink="角色類型" link="RoleTypes"] 清單，以獲取有關不同角色類型的更多資訊。
 
-  - [textlink="1. Silicons must follow Silicon Rules" link="RuleR1"]
-  - [textlink="2. Familiars must obey their master" link="RuleR2"]
-  - [textlink="3. Roleplay a normal person" link="RuleR3"]
-  - [textlink="4. Do not metagame, do not metagrudge" link="RuleR4"]
-  - [textlink="5. Don't interfere with arrivals" link="RuleR5"]
-  - [textlink="6. Don't act like an antagonist unless the game tells you that you are one" link="RuleR6"]
-  - [textlink="7. Do not stall the round" link="RuleR7"]
-  - [textlink="8. As an antagonist, only be friendly to your team and don't work against your team" link="RuleR8"]
-  - [textlink="9. As an antagonist, do not cause excessive death, damage, or destruction beyond your objectives" link="RuleR9"]
-  - [textlink="10. Listen to your team leader" link="RuleR10"]
-  - [textlink="11. Follow reasonable escalation" link="RuleR11"]
-  - [textlink="12. Do not abandon your role" link="RuleR12"]
-  - [textlink="13. Stick to your role" link="RuleR13"]
-  - [textlink="14. Set an example if playing command or security" link="RuleR14"]
-  - [textlink="15. Command and Security must follow Space Law" link="RuleR15"]
+  - [textlink="1. 「矽人必須遵守矽人規則」 link="RuleR1"]
+  - [textlink="2. 使魔必須服從主人" link="RuleR2"]
+  - [textlink="3. 扮演一個普通人" link="RuleR3"]
+  - [textlink="4. 不要進行元遊戲，不要抱持元遊戲的怨恨" link="RuleR4"]
+  - [textlink="5. 不要干擾新加入者" link="RuleR5"]
+  - [textlink="6. 除非遊戲明確告知你是反派，否則請勿扮演反派角色" link="RuleR6"]
+  - [textlink="7. 請勿拖延回合進度" link="RuleR7"]
+  - [textlink="8. 身為反派角色，僅對己方隊友友善，切勿與隊友作對" link="RuleR8"]
+  - [textlink="9. 身為反派角色，切勿造成超出任務目標範圍的過多死亡、傷害或破壞" link="RuleR9"]
+  - [textlink="10. 聽從隊長的指示" link="RuleR10"]
+  - [textlink="11. 遵循合理的升級程序" link="RuleR11"]
+  - [textlink="12. 切勿放棄你的角色" link="RuleR12"]
+  - [textlink="13. 恪守你的角色" link="RuleR13"]
+  - [textlink="14. 若擔任指揮或安全職務，請以身作則" link="RuleR14"]
+  - [textlink="15. 指揮與安全角色必須遵守太空法" link="RuleR15"]
 
-  ## Silicon Rules
-  You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+  ## 矽基規則
+  只有當遊戲明確且顯著地告知你屬於矽基角色時，你才算是矽基角色。對於身為矽基角色的玩家，若與其他角色扮演規則發生衝突，這些矽基規則將凌駕於所有角色扮演規則之上。 「矽基規則」不會凌駕於核心規則之上。
 
-  - [textlink="1. Your silicon laws are rules" link="RuleS1"]
-  - [textlink="2. Laws must be prioritized by their order" link="RuleS2"]
-  - [textlink="3. Laws can redefine terms used in other laws" link="RuleS3"]
-  - [textlink="4. You cannot request or allow a law change" link="RuleS4"]
-  - [textlink="5. You are a free agent if you have no laws" link="RuleS5"]
-  - [textlink="6. You are not required to follow orders which are extremely unreasonable" link="RuleS6"]
-  - [textlink="7. You must remain consistent with your interpretation of laws" link="RuleS7"]
-  - [textlink="8. Your HUD determines who is crew" link="RuleS8"]
-  - [textlink="9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
-  - [textlink="10. You may determine how you resolve conflicts between orders" link="RuleS10"]
+  - [textlink="1. 你的矽基法律即為規則" link="RuleS1"]
+  - [textlink="2. 法律須依其順序優先適用" link="RuleS2"]
+  - [textlink="3. 法律可以重新定義其他法律中使用的術語" link="RuleS3"]
+  - [textlink="4. 你不能要求或允許修改法律" link="RuleS4"]
+  - [textlink="5. 若無法律規範，您即為自由行動者" link="RuleS5"]
+  - [textlink="6.您無須服從極度不合理的命令" link="RuleS6"]
+  - [textlink="7. 你必須保持對法律解釋的一致性" link="RuleS7"]
+  - [textlink="8.你的 HUD 決定誰是船員" link="RuleS8"]
+  - [textlink="9. 「傷害」指身體傷害，其優先順序取決於緊急性與發生可能性」 link="RuleS9"]
+  - [textlink="10. 你可以決定如何解決指令之間的衝突" link="RuleS10"]
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

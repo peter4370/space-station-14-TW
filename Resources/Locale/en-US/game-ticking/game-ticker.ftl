@@ -36,8 +36,8 @@ player-leave-message = Player {$name} left.
 latejoin-arrival-announcement = {$character} ({$job}) 已抵達太空站！
 latejoin-arrival-announcement-special =《 {$job} {$character} 》 即將登場！
 latejoin-arrival-sender = 太空站
-latejoin-arrivals-direction = 一輛接駁車將於稍後抵達，載送您前往您的太空站。
-latejoin-arrivals-direction-time = 接駁車將載您前往太空站，預計抵達時間為 {$time}。
+latejoin-arrivals-direction = 一輛穿梭機將於稍後抵達，載送您前往您的太空站。
+latejoin-arrivals-direction-time = 穿梭機將載您前往太空站，預計抵達時間為 {$time}。
 latejoin-arrivals-dumped-from-shuttle = 一股神秘的力量阻止你搭乘抵達班車離開。
 latejoin-arrivals-teleport-to-spawn = 一股神秘力量將你從抵達接駁船上傳送出去。 祝您值班平安順利！
 

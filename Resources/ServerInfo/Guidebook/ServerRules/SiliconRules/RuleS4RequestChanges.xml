@@ -1,7 +1,10 @@
 ﻿
 <Document>
-  # Silicon Rule 4 - You cannot request or allow a law change
-  Your laws changing always conflicts with your current laws, so you cannot willfully allow your laws to be changed. This also means that you cannot willfully allow your laws to be reverted if they are ever changed. The only exception is that you may allow laws to be added if you have no laws.
+  # 矽規則 4 —— 你不能要求或允許修改法律
+  法律的變更總是會與現行法律產生衝突，因此你不能蓄意允許法律被修改。 這也意味著，一旦法律有所變更，您便不能蓄意允許其被恢復原狀。 唯一的例外是，若您目前沒有任何法律，則可允許新增法律。
 
-  You can state or imply that you do not like a law.
+  你可以明說或暗示自己不喜歡某項法律。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

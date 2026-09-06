@@ -1,38 +1,41 @@
 
 <Document>
-  # Roleplay Rule 9 - As an antagonist, do not cause excessive death, damage, or destruction beyond your objectives
+  # 角色扮演規則第 9 條 — 身為反派角色，請勿造成超出你目標範圍的過多死亡、傷害或破壞
 
-  This rule is not intended to disallow reasonable steps taken to complete your objectives. As an antagonist, you can always kill in bona fide self defense. You can kill if the action of killing could potentially advance your objectives. Taking steps to permanently round remove many people who are not a threat to you is almost always excessive.
+  本規則並非意在禁止為達成目標而採取的合理行動。 身為反派，你總能以正當防衛為由殺人。 如果殺戮的行為有可能有助於實現你的目標，你就可以殺人。 採取措施永久驅逐許多對你並無威脅的人，幾乎總是過於嚴苛的。
 
-  Unless told otherwise, antags should avoid causing disruption to the station or other players that could potentially cause entire departments to stop functioning, either permanently or for a significant portion of the round. Major disruptive actions are acceptable to get evac called if the objectives require that the antagonist escapes to Centcomm, this does not include singuloose/tesloose. Antagonists should also avoid round-removing a large number of players unnecessarily.
+  除非另有指示，反派角色應避免對基地或其他玩家造成干擾，以免導致整個部門永久停止運作，或在本回合的大部分時間內無法運作。 若任務目標要求反派逃往中央司令部（Centcomm），則可採取重大干擾行動以觸發「撤離」指令；此規定不適用於「singuloose」或「tesloose」。 對抗者也應避免不必要地將大量玩家移出本回合。
 
-  As an antagonist, killing a few objective unrelated persons in a round is not on its own a violation of this rule. Pursuing a gimmick unrelated to the objectives entirely is also permissible as long as this gimmick does not cause nonantagonists to self antag.
+  身為反派角色，在一回合中殺害幾名與任務無關的人，這本身並不構成對此規則的違反。 追求與目標完全無關的噱頭也是被允許的，只要該噱頭不會導致非敵對者自發地轉為敵對即可。
 
-  ## MRP Amendment
+  ## MRP 修訂案
 
-  As an antagonist, do not make the Emergency Shuttle uninhabitable or otherwise cause excessive death, damage, or destruction to the Emergency Shuttle.
+  身為反派角色，請勿使緊急接駁船變得無法居住，亦不得對緊急接駁船造成過度的死亡、損害或破壞。
 
-  ## Exemptions
- The Syndicate Agent “die a glorious death” objective allows antagonists to ignore this rule entirely. Nuclear Operatives and Wizards are also exempt from this rule as of the time of writing.
+  ## 例外情況
+ 「辛迪加代理人」的「光榮犧牲」目標允許反派角色完全無視此規則。 截至本文撰寫之時，「核能特工」與「巫師」亦不受此規則限制。
 
-  ## Examples
-  Acceptable:
-  - Permanently round removing people who you have the objective to kill.
-  - Causing massive station damage and chaos as an antagonist with the "die a glorious death" objective.
-  - Killing anyone you see while playing as nuclear operative(s).
-  - Permanently round removing a single person so that you can impersonate them to make it easier for you to complete a steal objective.
-  - Sabotaging station power 10 minutes into the round to try to get the shuttle called because you’ve completed all of your other objectives and have one to escape on the shuttle alive. (Destroying the Particle Accelerator, TEG and all backup generation in Engineering but not loosing a singularity/tesla.)
-  - Sabotaging a department’s power 10 minutes into the round to make a steal objective easier to accomplish. (Such as cutting the departments MV power, or removing/destroying the substation.)
-  - Permanently round removing many people who have demonstrated a persistence and a capability to either kill you or interfere with the completion of your objectives.
-  - Killing an unrelated person in order to steal items held by said person, such as killing an engineer for their hardsuit and tools.
-  - As a traitor, buying a singularity attractor to guide the singularity to a kill target when it is already loosed.
-  - Bombing an entire department provided it is an attempt to kill a designated target within said department.
+  ## 範例
+  可接受：
+  - 每回合都會將你設定為擊殺目標的人移除。
+  - 以「光榮犧牲」為目標的反派角色，造成空間站大規模破壞與混亂。
+  - 扮演核武特工時，見人就殺。
+  - 永久淘汰一名玩家，以便你假冒該玩家的身分，從而更輕鬆地完成「竊取」目標。
+  - 在回合開始 10 分鐘後破壞站內電源，試圖讓接駁船前來接應，因為你已經完成所有其他目標，只剩一個目標是活著搭乘接駁船逃離。 （摧毀工程區內的粒子加速器、TEG 以及所有備用發電設備，但不得損失任何奇點／特斯拉。）
+  - 在回合開始後 10 分鐘內削弱某個部門的實力，以便更容易達成「竊取」目標。 （例如切斷該部門的中壓電源，或拆除／摧毀變電站。）
+  - 永久清除那些已展現出堅持不懈，且具備殺害你或阻撓你達成目標之能力的眾多人士。
+  - 為了竊取某人持有的物品而殺害與該人無關的人，例如為了奪取工程師的強化戰甲和工具而殺害他。
+  - 身為一名叛徒，在奇點已然釋放之際，購買一個奇點吸引器，將奇點引導至殺敵目標。
+  - 只要是為了殺害該部門內的特定目標，則可對整個部門進行轟炸。
 
-  Prohibited:
-  - As a traitor with 3 kill objectives, taking steps to permanently round remove many non-objective people who are no longer an immediate threat to you, even if it is done to prevent yourself from being discovered.
-  - Setting up an electrified grille in maintenance and using it to kill anyone who walks into it with the hope that one of your objectives will be one of them.
-  - Sabotaging power station-wide 10 minutes into the round to make a steal objective easier to accomplish. (Such as destroying the TEG, Particle Accelerator and all backup generators in Engineering.)
-  - Loosing the tesla or singularity in the hope that it kills your objectives.
-  - Seeking out and gibbing/round removing an entire department and random people for no actual reason. This includes the security department.
-  - Loosing the tesla or singularity in order to get evac called, even if objectives are already completed.
+  禁止行為：
+  - 身為擁有 3 個擊殺目標的叛徒，即使是为了避免自己被識破，也不得採取措施永久清除許多不再對你構成直接威脅、且非目標對象的人。
+  - 在維護區設置一道帶電柵欄，並利用它電死任何闖入其中的人，希望其中一人正是你的目標之一。
+  - 在回合開始後 10 分鐘內破壞整個發電廠，以便更容易達成「竊取」目標。 （例如摧毀工程艙內的 TEG、粒子加速器以及所有備用發電機。）
+  - 故意讓特斯拉或奇點失控，以期藉此摧毀你的目標。
+  - 毫無實際理由地搜尋並屠殺／消滅整個部門以及隨機選中的個人。 這包括保安部門。
+  - 即使任務目標已達標，仍會為了觸發撤離指令而犧牲特斯拉或奇點。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

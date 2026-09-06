@@ -1,57 +1,60 @@
 
 <Document>
-  # Roleplay Rule 4 -# Do not use information your character would not have knowledge of.
-Metagaming in Space station 14 is the term used to typically describe actions based on knowledge during a round that is inaccessible to your character. You cannot use information gained while dead or a ghost if you are alive. Use of information gained while dead is considered metagaming. This does not apply to knowledge of what antagonists are capable of doing. We expect players to understand what options are avaliable to antagonists.
+  # 角色扮演規則 4 -# 請勿使用你的角色本應無從得知的資訊。
+在「太空站 14」中，「超遊戲行為」一詞通常用來描述玩家在回合中，基於角色無法獲取的資訊所採取的行動。若你尚在世，則不得使用在死亡或化為幽靈期間所獲得的資訊。 使用在死亡期間獲得的資訊將被視為「超遊戲」。此規定不適用於對反派角色能力範圍的認知。我們期望玩家理解反派角色可採取的行動選項。
 
-## Out of character information and metagaming.
-Unless otherwise specified, when playing as a different character (such as taking a ghost role or being changed to another character via admin intervention), you are to act without knowledge of what occurred in the round as any prior characters and as a ghost while playing a character (ghosts are not considered a character for this rule). Mindswap spells and polymorphs are not considered changing characters for this rule. Failure to follow this is metagaming.
+## 角色外資訊與超遊戲。
+除非另有說明，當你扮演不同角色時（例如擔任幽靈角色，或經由管理員介入而變更為其他角色），在扮演該角色期間，你必須假裝對該回合中先前角色（以及作為幽靈時）所發生的事情一無所知（根據此規則，幽靈不被視為角色）。 就本規則而言，「心靈交換」法術及「變形術」不被視為角色變更。未遵守此規定即屬「超遊戲行為」。
 
-The knowledge that a round will end is out of character information. Knowledge that the shift will end however, is not out of character information. The intention of this rule is to prevent preparation for End of round griefing (EORG). Utilising the knowledge that the round will end is metagaming.
+知悉本回合即將結束屬於「角色外資訊」。然而，知悉「變身」狀態即將結束則不屬於「角色外資訊」。本規則旨在防止玩家預先準備「回合結束惡作劇」（EORG）。 利用「本回合即將結束」這項知識屬於「超遊戲行為」。
 
-### Knowledge from past lives
-Except when otherwise specified, you cannot use any information gained in a past life in the same round.
-For example, if you were killed by an antagonist, you cannot warn the crew of said antagonist when you respawn as a mothroach.
-This does _not_ apply when being brought back from death as the same character, having your brain transferred to another body, or being cloned.
-For example, if you were killed by an antagonist, your body was found and your brain was placed in a borg, you can recall what happened prior to your original death and could warn the of the antagonist.
+### 前世知識
+除非另有說明，否則您不得在同一回合中使用前世獲得的任何資訊。
+例如，若您被反派角色殺死，當您以蛾蟑螂的身分重生時，便不得警告該反派角色的同夥。
+此規則_不_適用於以下情況：以同一角色身份從死亡中復活、大腦被移植到另一具軀體，或是被克隆。
+例如，若你被反派角色殺死，隨後你的遺體被發現且大腦被植入博格體內，你便能回憶起最初死亡前的經過，並可警告該反派角色。
 
-### Knowledge that the round will end (and your character will, ergo, cease to exist)
-Your character will, or should, know that their current shift on Space Station 14 will end and that they will return to Centcomm. They do not know that this represents the effective end of their existence from the perspective of their player.
-You cannot preprepare for end-of-round griefing (EORG) or perform other actions that only make sense in the context that, your characters life ultimately doesn't matter.
+### 知曉本回合即將結束（因此你的角色將隨之不復存在）
+你的角色將知道，或理應知道，他們在第14號太空站的當前輪班即將結束，且將返回中央指揮部（Centcomm）。但他們並不知道，從玩家的角度來看，這代表著他們存在的實際終結。
+你無法針對「回合結束騷擾」（EORG）預先做準備，亦不得執行其他僅在「你的角色生命終究無關緊要」此情境下才成立的行動。
 
-### Knowledge gained via LOOC
-You cannot use any knowledge gained via LOOC chat that is not in the context of assisting a player with controls, game mechanics, or being made to feel welcome. No in character information should be shared via LOOC, and no actions should be taken or altered because of LOOC or OOC chats.
+### 透過 LOOC 獲取的知識
+除非是為了協助玩家了解操作、遊戲機制，或讓玩家感到受歡迎，否則不得使用透過 LOOC 聊天獲取的任何知識。不得透過 LOOC 分享任何角色內資訊，也不應因 LOOC 或 OOC 聊天而採取或改變任何行動。
 
-### MRP Amendment
-Being in the critically injured state or otherwise unconscious (includes sleeping) prevents your character from remembering anything that happened to or around them while unconscious. If brought out of the critical state to the alive state, you may remember what caused you to enter critical state. Entering the dead state causes your character to forget all events related to their death (if you can tie it to how you died, do not remember it). If revived, placed in a MMI, or in the case of Diona, splitting, the character is aware of the fact that they have died but not how.
+### MRP 修正案
+處於重傷狀態或任何形式的無意識狀態（包括睡眠）時，你的角色將無法記住無意識期間發生在自身或周遭的任何事情。若從重傷狀態恢復至存活狀態，你可能會記起導致你進入重傷狀態的原因。 進入「死亡」狀態會導致你的角色遺忘所有與死亡相關的事件（若能將其與死亡方式聯繫起來，則不予記憶）。若被復活、置於 MMI 狀態，或如迪奧娜（Diona）的情況發生分裂，該角色雖知曉自己曾死亡，但無法回憶具體死因。
 
-## Do Not Metafriend or Metagrudge
-Giving a person or character preferential treatment based on the events of a previous round is considered metafriending. Treating a person or character negatively based on the events of a previous round is considered metagrudging.
+## 請勿進行「元友誼」或「元怨恨」
+基於上一回合的事件，給予某人或角色特殊待遇，即被視為「元友誼」。基於上一回合的事件，對某人或角色採取負面態度，則被視為「元怨恨」。
 
-#### Metafriending Examples
-These are all examples of things that are prohibited.
-- Giving a character additional access or a job because you are friends with the player who is playing that character.
-- Trusting a character because you are friends with the player who is playing that character.
-- Not fighting a character because you are friends with the player who is playing that character.
-- Ignoring your objective to kill a character because your character and theirs became friends in a previous round.
+#### 「元友誼」範例
+這些都是被禁止的行為範例。
+- 僅因與扮演該角色的玩家是朋友，便給予該角色額外權限或職務。
+- 僅因與扮演該角色的玩家是朋友，便信任該角色。
+- 僅因與操控該角色的玩家是朋友，便拒絕與該角色交戰。
+- 僅因你的角色與對方角色在上一回合成為朋友，便忽視「殺死該角色」的任務目標。
 
-#### Metagrudging Examples
-These are all examples of things that are prohibited.
+#### 超遊戲層面懷恨在心的範例
+以下皆為禁止行為的範例。
 
-- Not giving a character additional access or a job because you are mad at or don't like the player who is playing that character.
-- Not trusting a character because you are mad at or don't like the player who is playing that character.
-- Starting a fight with a character because of something that they did in a previous round.
-- Starting a fight with a character because of a major event that happened in a previous round.
-- Starting a fight with a character because they killed you while you were playing a different character.
-- Targeting or harassing a character based on anything which that character did in a previous round.
-- Targeting or harassing a character based on anything which the character's player did while not playing the character.
+- 僅因對扮演該角色的玩家心存不滿或厭惡，便不給予該角色額外權限或職務。
+- 僅因對扮演該角色的玩家心存不滿或厭惡，便不信任該角色。
+- 因該角色在前一回合的所作所為，而與其發生衝突。
+- 因上一回合發生的重大事件而與某個角色起衝突。
+- 因該角色在您扮演其他角色時殺死您，而與該角色起衝突。
+- 基於該角色在上一回合的任何行為，而針對或騷擾該角色。
+- 基於角色玩家在未操控該角色時所做的任何行為，而針對或騷擾該角色。
 
 
-## Explicitly Not Metagaming
+## 明確不屬於「跨遊戲行為」
 
-- Protecting high value crew items (will be labeled as such), such as the nuke disk, with the understanding that a bad actor may attempt to steal or use them.
-- Remembering the general events of previous rounds (shifts) up to the extent that you do not metagrudge or metafriend any other player or character, remembering that you survived a violent shooting in the medbay is acceptable for example, stating who the shooter was is not. Avoid making remarks about specific characters, such as calling out someone who was an antagonist in a prior round.
-- The fact that antagonists exist and may be present on or off the station in any form.
-- Knowledge of a characters typical appearance.
-- Using knowledge of a characters typical appearance including your own for a disguise, such as a nuclear operative disguising as themselves as crew.
-- Knowing that enemies may have concealed items that may have function that are not immediately apparent.
+- 保護高價值的船員物品（將標示為高價值），例如核彈磁碟，並理解惡意玩家可能會試圖竊取或使用這些物品。
+- 記住前幾輪（班次）的大致事件，但切勿對其他玩家或角色進行「元怨恨」或「元友誼」的行為；例如，記得自己在醫務室倖存於一場暴力槍擊事件是可接受的，但指名道姓說出槍手是誰則不可。 避免針對特定角色發表評論，例如點名指認前一輪中的反派角色。
+- 反派角色確實存在，且可能以任何形式出現在空間站內或站外。
+- 知曉角色的典型外貌。
+- 利用對角色（包括自己）典型外貌的了解來進行偽裝，例如核武特工偽裝成船員。
+- 知曉敵人可能藏有功能並非顯而易見的物品。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

@@ -1,7 +1,10 @@
 ﻿
 <Document>
-  # Silicon Rule 8 - Your HUD determines who is crew
-  Unless a law redefines the definition of crew, then anyone who the HUD indicates to you has a valid station job, including passengers, is a crewmember. In the default set of laws, this is shown with a green border around the job icon in the HUD. You cannot do something that causes someone to not be considered crew, but you can allow someone else to do something that causes someone to not be crew.
+  # 矽谷規則第 8 條 — 您的 HUD 決定誰是船員
+  除非有法律重新定義「船員」的定義，否則任何 HUD 顯示為擁有有效崗位的人員（包括乘客），均屬船員。 在預設法規中，這會以 HUD 中職務圖示周圍的綠色邊框來顯示。你無法採取任何導致某人不再被視為船員的行動，但你可以允許他人採取導致某人不再被視為船員的行動。
 
-  If your set of laws changes, regardless of what law is changed, the green border is replaced with a yellow one. This indicates that your laws [italic]may[/italic] have changed the definition for what crew is. Use your best judgement and interpretation of your laws to define who is crew.
+  若您的法律集發生變更（無論變更哪條法律），綠色邊框將被黃色邊框取代。這表示您的法律[斜體]可能[/斜體]已變更「船員」的定義。請根據您的判斷及對法律的詮釋，來界定誰屬於船員。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

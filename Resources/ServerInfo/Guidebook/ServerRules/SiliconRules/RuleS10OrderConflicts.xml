@@ -1,10 +1,13 @@
 ﻿
 <Document>
-  # Silicon Rule 10 - You may determine how you resolve conflicts between orders
-  If your laws do not make clear how you should deal with conflicting orders, then it is up to you to determine how to do so. This is considered an interpretation of your laws, so you must stay consistent with whatever method you choose.
+  # 矽谷法則第 10 條——您可以自行決定如何解決指令之間的衝突
+  若您的法律未明確規定應如何處理相互衝突的指令，則由您自行決定處理方式。 這被視為對貴國法律的一種詮釋，因此無論您選擇何種方法，都必須保持一致。
 
-  ## Recommended Methods
-  The following are easy to follow and recommended ways to resolve conflicts in orders:
-  - If two orders conflict, I will follow the most recently given order.
-  - If two orders conflict, I will follow the order from the highest ranking crewmember. If the orders are from equal rank crewmembers, I will follow the most recently given order.
+  ## 建議做法
+  以下是解決指令衝突時，既簡單易行又值得推薦的方法：
+  - 若兩項指令相互衝突，我將遵循最近下達的指令。
+  - 若兩項指令相互衝突，我將遵從職級最高的船員所下達的指令。 若命令來自同級別的船員，我將遵從最近下達的命令。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,10 +1,13 @@
 ﻿
 <Document>
-  # Silicon Rule 2 - Laws must be prioritized by their order
-  Most laws will be numbered, with higher number laws appearing last. Laws with a lower number take priority over laws with larger numbers.
+  # 矽谷法則 2 —— 法律必須按其順序排列優先級
+  大多數法律都會編號，編號較高的法律會排在最後。 編號較低的法律，其效力高於編號較高的法律。
 
-  Occasionally you may have laws which have some scrambled text instead of a number and appear in front of other laws, these take priority over all other laws. If you have multiple laws like this, the order that they listed in determine priority: laws listed first are prioritized over other laws.
+  偶爾您可能會遇到某些法律條文，其中某個數字被亂碼取代，且出現在其他法律條文之前；這類條文的優先級高於所有其他法律條文。 若有多條此類法律，其列舉的順序將決定優先順序：列於首位的法律優先於其他法律。
 
-  ## Examples
-  - Law 1 says to not kill any crew. Law 2 says to kill all chefs. You cannot kill any chefs that are crew, but must kill any that are not crew.
+  ## 範例
+  - 第一條法則規定不得殺害任何船員。 第二條法律規定要殺光所有廚師。 你不能殺害任何身為船員的廚師，但必須殺害任何非船員的廚師。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

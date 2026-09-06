@@ -1,16 +1,19 @@
 ﻿
 <Document>
-  # Silicon Rules
-  You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+  # 矽規則
+  只有當遊戲明確且直白地告訴你「你是矽」時，你才算是矽。 對於扮演「矽人」的玩家而言，若發生任何衝突，這些「矽人規則」將優先於所有角色扮演規則。 「矽規則」不會凌駕於核心規則之上。
 
-  - [textlink="1. Your silicon laws are rules" link="RuleS1"]
-  - [textlink="2. Laws must be prioritized by their order" link="RuleS2"]
-  - [textlink="3. Laws can redefine terms used in other laws" link="RuleS3"]
-  - [textlink="4. You cannot request or allow a law change" link="RuleS4"]
-  - [textlink="5. You are a free agent if you have no laws" link="RuleS5"]
-  - [textlink="6. You are not required to follow orders which are extremely unreasonable" link="RuleS6"]
-  - [textlink="7. You must remain consistent with your interpretation of laws" link="RuleS7"]
-  - [textlink="8. Your HUD determines who is crew" link="RuleS8"]
-  - [textlink="9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
-  - [textlink="10. You may determine how you resolve conflicts between orders" link="RuleS10"]
+  - [textlink="1. 「你的矽法則是規則」link="RuleS1"]
+  - [textlink="2. 「法律必須依其順序予以優先適用」link="RuleS2"]
+  - [textlink="3. 「法律可以重新定義其他法律中所使用的術語」link="RuleS3"]
+  - [textlink="4. 「您無法要求或允許修改法規」link="RuleS4"]
+  - [textlink="5. 「若無法律，你便是自由人」link="RuleS5"]
+  - [textlink="6. 「您無須服從極其不合理的命令」link="RuleS6"]
+  - [textlink="7. 「您必須在法律解釋上保持一致」link="RuleS7"]
+  - [textlink="8. 「您的 HUD 決定誰是船員」link="RuleS8"]
+  - [textlink="9. 「傷害」指身體傷害，其優先順序取決於緊急性與發生可能性" link="RuleS9"]
+  - [textlink="10. 「您可以決定如何解決訂單之間的衝突」[link="RuleS10"]
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

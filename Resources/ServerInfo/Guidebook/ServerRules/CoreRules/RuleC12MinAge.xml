@@ -1,7 +1,10 @@
 ﻿
 <Document>
-  # Core Rule 12 - Players must be and act at least 16 years old
-  All players must be at least 16 years old. Additionally, all players must act at least as mature as a 16 year old. Admins may ban someone who they believe is acting less mature than a 16 year old, even if the player is known to be significantly older than 16 years old.
+  # 核心規則 12 — 玩家必須年滿 16 歲，且其行為須符合該年齡層
+  所有玩家必須年滿 16 歲。 此外，所有玩家的行為必須至少達到 16 歲青少年的成熟程度。 管理員有權封禁任何他們認為行為表現不如 16 歲青少年成熟的人，即使該玩家實際年齡已明顯超過 16 歲。
 
-  Anyone who connects to the servers is a player, even if they don't actually play in a round.
+  任何連線至伺服器的人都算作玩家，即使他們實際上並未參與該局遊戲。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,6 +1,9 @@
 
 <Document>
-  # Server Rules
+  # 伺服器規則
 
-  This server has not written any rules yet. Please listen to the staff.
+  此伺服器尚未制定任何規則。 請聽從工作人員的指示。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,77 +1,80 @@
 
 <Document>
-  # Core Rule 13 - Use realistic character names, and do not use names of famous people
-  - No names of people or characters from the real world
-  - No titles/honorifics
-  - Must follow all other rules (no slurs/sexual names/etc)
-  - Usernames, objects, random characters, very "low effort" names, "meta" names, or otherwise implausible names cannot be used as names. See examples below.
-  - Admin rulings on IC names are final and disputes should be done through the forums, not by refusing to comply with an admin
+  # 核心規則 13 - 請使用符合現實的角色名稱，且不得使用名人姓名
+  - 不得使用現實世界中的人名或角色名稱
+  - 不得使用頭銜／敬稱
+  - 必須遵守所有其他規則（不得使用侮辱性詞彙／帶有性暗示的名稱／等）
+  - 使用者名稱、物品名稱、隨機字元、極度「敷衍」的名稱、「元敘事」名稱，或其他不合常理的名稱，均不得用作角色名稱。 請參閱以下範例。
+  - 管理員對 IC 名稱的裁決為最終決定，如有爭議應透過論壇提出，而非透過拒絕遵守管理員的指示來解決
 
-  Jobs that have a custom name option in the loadout (e.g. clowns, mimes, cyborgs, etc) are exempt from the prohibition on titles/honorifics, and have loosened restrictions on low effort and implausible names.
+  裝備配置中設有自訂名稱選項的職業（例如小丑、默劇演員、機械人、 等）不受頭銜／尊稱禁令的限制，且對於低投入及不合常理的名稱，其限制亦已放寬。
 
-  ## Clarification on "Meta" Names
-  Meta names are ones which attempt to take advantage of some game mechanic or game design choice. "Urist McHands" is a meta name because it is the default name used for admin spawned humans. "Operator Whiskey" is a meta name because it follows the naming pattern of nuclear operatives. This rule is not intended to prevent things like nuclear operatives using a fake ID with names that appear to be nuclear operative names if they decide that they want to do that.
+  ## 關於「Meta」名稱的說明
+  「Meta」名稱是指那些試圖利用某種遊戲機制或遊戲設計選擇的名稱。 「Urist McHands」是一個元名稱，因為這是管理員生成的人類角色所使用的預設名稱。 「代號威士忌」是一個元名稱，因為它遵循了核武特工的命名模式。 這項規定並非旨在阻止核武特工等人士，若他們決定這麼做，便使用姓名看似核武特工的假身分證件。
 
-  ## Conventions and Examples
-  [color=#994444]Bad[/color] cannot be used by any species. [color=#449944]Acceptable[/color] names can be used by any species.
+  ## 規範與範例
+  [color=#994444]Bad[/color] 不能被任何物種使用。 [color=#449944]可接受的[/color]名稱可供任何物種使用。
 
-  Humans typically use the Firstname Lastname convention.
-  - [color=#449944]Acceptable:[/color] Tom Fisher
-  - [color=#449944]Acceptable:[/color] Spacey Chapman
-  - [color=#994444]Bad:[/color] Dr. Tom Fisher
-  - [color=#994444]Bad:[/color] Walter White
-  - [color=#994444]Bad:[/color] George Washington
-  - [color=#994444]Bad:[/color] Joe Biden
-  - [color=#994444]Bad:[/color] Ben Dover
-  - [color=#994444]Bad:[/color] Mike Hunt
+  人類通常採用「名 姓」的命名慣例。
+  - [color=#449944]可接受：[/color] 湯姆·費雪
+  - [color=#449944]可接受：[/color] 史派西·查普曼
+  - [color=#994444]差：[/color] 湯姆·費雪博士
+  - [color=#994444]差：[/color] 華特·懷特
+  - [color=#994444]差：[/color] 喬治·華盛頓
+  - [color=#994444]差：[/color] 喬·拜登
+  - [color=#994444]差：[/color] 本·多佛
+  - [color=#994444]差：[/color] 麥克·亨特
 
-  Dwarfs typically use the human convention in a viking theme.
-  - [color=#449944]Acceptable:[/color] Ingrid Firebreath
-  - [color=#449944]Acceptable:[/color] Erik Lightningclaw
+  矮人通常在維京主題中採用人類的慣例。
+  - [color=#449944]可接受：[/color] 英格麗德·火息
+  - [color=#449944]可接受：[/color] 埃里克·閃電爪
 
-  Lizards typically use the Verb-article-Noun convention.
-  - [color=#449944]Acceptable:[/color] Cleans-the-Airlocks
-  - [color=#994444]Bad:[/color] Bans-the-Admins
+  蜥蜴族通常遵循「動詞-冠詞-名詞」的語序規範。
+  - [color=#449944]可接受：[/color] 《清理氣閘》
+  - [color=#994444]不好：[/color] 《封禁管理員》
 
-  Slimes typically have names that are onomatopoeia. A last name is optional.
-  - [color=#449944]Acceptable:[/color] Foolp Suub
-  - [color=#449944]Acceptable:[/color] Foolp
-  - [color=#994444]Bad:[/color] Slime
+  史萊姆的名字通常是擬聲詞。 姓氏為非必填項目。
+  - [color=#449944]可接受：[/color] Foolp Suub
+  - [color=#449944]可接受：[/color] Foolp
+  - [color=#994444]不可接受：[/color] Slime
 
-  Diona typically have calm, nature themed, Noun of Noun style names.
-  - [color=#449944]Acceptable:[/color] Petal of Tranquility
-  - [color=#449944]Acceptable:[/color] Garden of Relaxation
-  - [color=#994444]Bad:[/color] Tree but Alive
+  迪奧娜（Diona）的名字通常以自然為主題，風格為「名詞＋名詞」，且帶有沉穩的氛圍。
+  - [color=#449944]可接受：[/color] 寧靜之花瓣
+  - [color=#449944]可接受：[/color] 放鬆花園
+  - [color=#994444]不可接受：[/color] 樹但活著
 
-  Mothmen typically use latin sounding names, or light themed names.
-  - [color=#449944]Acceptable:[/color] Socrates Temnora
-  - [color=#449944]Acceptable:[/color] Sierra Lightseeker
-  - [color=#449944]Acceptable:[/color] James Nightflitter
+  飛蛾人通常使用聽起來像拉丁文的名稱，或是以光為主題的名稱。
+  - [color=#449944]可接受：[/color] 蘇格拉底·特姆諾拉
+  - [color=#449944]可接受：[/color] 塞拉·萊特西克
+  - [color=#449944]可接受：[/color] 詹姆斯·奈特弗利特
 
-  Arachnids typically use latin sounding names.
-  - [color=#449944]Acceptable:[/color] Argyroneta Reticulatus
-  - [color=#449944]Acceptable:[/color] Loxosceles Domesticus
-  - [color=#994444]Bad:[/color] Spider-Man
+  蛛形綱生物通常使用聽起來像拉丁文的名稱。
+  - [color=#449944]可接受：[/color] 網紋銀蛛（Argyroneta Reticulatus）
+  - [color=#449944]可接受：[/color] 家屋角蛛（Loxosceles Domesticus）
+  - [color=#994444]不可接受：[/color] 蜘蛛人
 
-  Vox typically use a single name made of random syllables, often with repeating patterns.
-  Names should not be excessively long or be so repetitive/convoluted as to be unreadable.
+  沃克斯（Vox）通常使用由隨機音節組成的單一名稱，其中常包含重複的模式。
+  名稱不應過長，也不應過於重複或迂迴曲折以致難以辨識。
 
-  - [color=#449944]Acceptable:[/color] Hirixashahre
-  - [color=#449944]Acceptable:[/color] Xapikrikrik
-  - [color=#994444]Bad:[/color] Chipikirchitchitchitbecretretrer
-  - [color=#994444]Bad:[/color] Trololol
+  - [color=#449944]可接受：[/color] Hirixashahre
+  - [color=#449944]可接受：[/color] Xapikrikrik
+  - [color=#994444]不合規：[/color] Chipikirchitchitchitbecretretrer
+  - [color=#994444]不合規：[/color] Trololol
 
-  Usernames, objects, random characters, very "low effort" names, "meta" names, or otherwise implausible names are not permitted.
-  - [color=#994444]Bad:[/color] XxRobustxX
-  - [color=#994444]Bad:[/color] SDpksSodjdfk
-  - [color=#994444]Bad:[/color] Lkdsoisgoieun
-  - [color=#994444]Bad:[/color] F4ith H3arth
-  - [color=#994444]Bad:[/color] Greytide
-  - [color=#994444]Bad:[/color] Passenger
-  - [color=#994444]Bad:[/color] Urist McHands
-  - [color=#994444]Bad:[/color] Admin
-  - [color=#994444]Bad:[/color] Game-Master
-  - [color=#994444]Bad:[/color] Joe Mamma
-  - [color=#994444]Bad:[/color] Middle-Aged Man
-  - [color=#994444]Bad:[/color] Operative Whiskey
+  禁止使用使用者名稱、物品名稱、隨機字元、極度「敷衍」的名稱、「元」名稱，或其他不合常理的名稱。
+  - [color=#994444]錯誤：[/color] XxRobustxX
+  - [color=#994444]錯誤：[/color] SDpksSodjdfk
+  - [color=#994444]不良：[/color] Lkdsoisgoieun
+  - [color=#994444]不良：[/color] F4ith H3arth
+  - [color=#994444]錯誤：[/color] Greytide
+  - [color=#994444]錯誤：[/color] Passenger
+  - [color=#994444]錯誤：[/color] Urist McHands
+  - [color=#994444]差：[/color] 管理員
+  - [color=#994444]差：[/color] 遊戲主持人
+  - [color=#994444]差：[/color] 喬·馬瑪
+  - [color=#994444]差：[/color] Middle-Aged Man
+  - [color=#994444]差：[/color] Operative Whiskey
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

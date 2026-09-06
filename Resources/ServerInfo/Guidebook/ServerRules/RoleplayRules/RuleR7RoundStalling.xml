@@ -1,17 +1,20 @@
 ﻿
 <Document>
-  # Roleplay Rule 7 - Do not stall the round
-  Rounds are intended to end eventually. Don't hold a round hostage by preventing it from coming to a natural end. If a majority of players in a round want the round to end, don't prevent it from ending. Recalling the shuttle or preventing it from being called can contribute to round stalling, but is not always round stalling. Leaving the station with the nuclear authentication disk while nuclear operatives are trying to get it is almost always considered round stalling. Leaving the station on the evacuation shuttle is not round stalling.
+  # 角色扮演規則 7 — 請勿拖延回合
+  回合終究會結束。 不要透過阻止一局自然結束，而將該局當作人質。 如果某輪中多數玩家希望該輪結束，請不要阻止它結束。 召回穿梭機或阻止其被召回，可能會導致回合停滯，但並不一定就是回合停滯。 在核武特工試圖奪取核武認證光碟之際，帶著該光碟離開車站，幾乎總是被視為拖延戰術。 搭乘疏散接駁車離開車站，並不算拖延時間。
 
-  Recalling the shuttle before a round reaches 45 minutes can not be considered round stalling unless a significant amount of the crew is dead, or a significant amount of the station is damaged or destroyed. Once these conditions are met, whether recalling the shuttle is considered round stalling or not can be highly dependent on the specific situation.
+  在回合時間未達 45 分鐘前召回太空梭，除非有相當數量的船員陣亡，或太空站有相當程度的損毀或被摧毀，否則不得視為拖延回合。 一旦滿足這些條件，將太空梭召回是否被視為「環形滯空」一事，在很大程度上將取決於具體情況。
 
-  ## Examples
-  Acceptable:
-  - Recalling a shuttle that was called 30 minutes into a round because people were bored.
-  - Recalling a shuttle that was called because nuclear operatives declared war.
-  - The crew decides to try to have a shift go as long as possible. The station is in good condition and a majority of all crew are alive. An automatic shuttle call 4 hours into the round is recalled.
+  ## 範例
+  可接受：
+  - 召回一架在回合開始 30 分鐘後因玩家感到無聊而被召回的穿梭機。
+  - 因核武特工宣戰而召回一架太空梭。
+  - 船員們決定試著讓這班次盡可能地延長。 該站狀況良好，且絕大多數的乘組人員都還活著。 在該輪開始後 4 小時發出的自動接駁呼叫被撤回。
 
-  Prohibited:
-  - Trying to keep nuclear operatives from getting the nuclear authentication disk by flying around in space with it or hiding with it off station.
-  - Recalling the shuttle while the station is in complete disarray and 90% of the crew are dead.
+  禁止：
+  - 試圖透過在太空中攜帶核認證磁碟四處飛行，或將其藏匿於站外，來阻止核特工取得該磁碟。
+  - 在太空站陷入一片混亂、90%的機組人員已罹難之際，召回太空梭。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

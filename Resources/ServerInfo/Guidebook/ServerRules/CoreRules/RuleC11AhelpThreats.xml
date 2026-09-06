@@ -1,21 +1,24 @@
 ﻿
 <Document>
-  # Core Rule 11 - Do not threaten to ahelp other players or argue with them about rules
-  This rule covers out-of-character (OOC) and in-character (IC) actions. Don't threaten to ahelp a player, don't tell them you are ahelping them, and don't tell them you did ahelp them. You can argue in character about Space Law, but do not argue about whether something is or is not against the rules. If you think someone is breaking a rule, ahelp them. If you don't think someone is breaking a rule, don't ahelp them. Either way, the best thing that you can do after is to continue in-character.
+  # 核心規則 11 — 不得威脅其他玩家，亦不得與他們就規則爭論
+  本規則涵蓋角色外（OOC）及角色內（IC）的行為。 不要威脅要對某位玩家使用「ahelp」，不要告訴他們你正在對他們使用「ahelp」，也不要告訴他們你已經對他們使用過「ahelp」。 你可以以角色身分就《太空法》進行辯論，但請勿爭論某件事是否違反規則。 如果你認為有人違反了規則，請幫助他。 如果你認為某人並未違反規則，就不要干涉他們。 無論如何，事後你能做的最好事情，就是繼續維持角色形象。
 
-  ## Example Scenario 1
-  You are a security officer and think someone who is causing a ton of problems for security is not an antag and is breaking the rules by doing so.
+  ## 範例情境 1
+  你是名安全人員，認為某位給安保工作帶來極大困擾的人並非敵對分子，而是透過此舉違反了規定。
 
-  [color=#a4885c]Good:[/color] Since you think they are breaking a rule, you ahelp them when you're able to. You continue in-character by arresting them for the crimes that they committed.
+  [color=#a4885c]優點：[/color] 既然你認為他們違反了規則，只要有能力，你就會伸出援手。 你繼續維持角色設定，以他們所犯下的罪行為由將他們逮捕。
 
-  [color=#a4885c]Bad:[/color] You decide not to ahelp them. You kill them and tell them "you're lucky I didn't report you to the admins".
+  [color=#a4885c]錯誤：[/color] 你決定不幫助他們。 你把他們殺了，然後對他們說：「你們還算走運，我沒向管理員舉報你們。」
 
-  [color=#a4885c]Bad:[/color] Since you think they are breaking a rule, you ahelp them when you're able to. You arrest them for the crimes that they committed and tell them "I ahelped you so enjoy your ban".
+  [color=#a4885c]不當：[/color] 既然你認為他們違反了規則，那麼在你能力所及的情況下，就該幫助他們。 你因他們犯下的罪行而逮捕他們，並對他們說：「我幫了你，所以好好享受你的禁令吧。」
 
-  ## Example Scenario 2
-  A mouse is using emotes to bypass speech restrictions.
+  ## 範例情境 2
+  一隻滑鼠正利用表情動作來規避語音限制。
 
-  [color=#a4885c]Good:[/color] You ahelp them then respond in-character by acting like you can't understand what the mouse is doing.
+  [color=#a4885c]好：[/color] 你先幫忙，然後以角色身份回應，裝作不明白那隻老鼠在做什麼。
 
-  [color=#a4885c]Bad:[/color] You use in character chat to tell the mouse that it is breaking a rule.
+  [color=#a4885c]不當做法：[/color] 你在角色聊天頻道中告知「老鼠」牠正在違反規則。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

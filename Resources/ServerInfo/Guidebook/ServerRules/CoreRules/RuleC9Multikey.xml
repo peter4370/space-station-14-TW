@@ -1,8 +1,11 @@
 ﻿
 <Document>
-  # Core Rule 9 - Do not use multiple accounts, or alt accounts, and do not share accounts
-  Use of multiple accounts is referred to as "multikey". the rule applies even if the accounts are not used at the same time, including if the old account is abandoned. All accounts may be banned if this rule is violated. You are responsible for everything done on and with your account. You are just as responsible for actions taken by other people using your account as you would be had you taken the actions themselves.
+  # 核心規則 9 — 請勿使用多個帳號或副帳號，亦請勿共享帳號
+  使用多個帳號的行為被稱為「multikey」。 即使這些帳戶並非同時使用，包括舊帳戶已被棄用之情況，此規則依然適用。 若違反此規定，所有帳號均可能遭到封禁。 您須對您帳戶上及透過該帳戶進行的所有行為負責。 對於其他使用者透過您的帳戶所採取的行動，您須承擔與親自採取該行動時同等的責任。
 
-  ## Switching to a new account
-  If you lose access to an account, you must contact game admins on the forums notifying admins before using a new account to connect to the servers. Your message to game admins must include the username of your old account. Creating a new account while your current account is banned will be considered ban evasion.
+  ## 切換至新帳號
+  若您無法存取原帳號，必須先在論壇上聯絡遊戲管理員並通知他們，才能使用新帳號連線至伺服器。 您發送給遊戲管理員的訊息必須包含您舊帳號的用戶名稱。 若您的現有帳號已被封禁，此時建立新帳號將被視為規避封禁。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

@@ -1,6 +1,6 @@
 names-operation-prefix-dataset-1 = 古代
 names-operation-prefix-dataset-2 = 生氣
-names-operation-prefix-dataset-3 = 蛛形綱
+names-operation-prefix-dataset-3 = 蛛形人
 names-operation-prefix-dataset-4 = Atomic
 names-operation-prefix-dataset-5 = 仁慈
 names-operation-prefix-dataset-6 = 黑色

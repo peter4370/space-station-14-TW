@@ -1,25 +1,28 @@
 
 <Document>
-  # Do not Powergame
+  # 請勿進行「權力遊戲」
 
-  You must have an In-Character justification for your actions. The Research Director does not need a gun when the station is code-green. The Head of Security does not need All Access at shift start when no threat is identified.
+  你的行為必須有符合角色設定的合理依據。 當基地處於「綠色警戒」狀態時，研究主任無需攜帶槍枝。 若在班次開始時未發現任何威脅，安全主管無需具備「全面存取權限」。
 
-  ## Examples
+  ## 範例
 
- Acceptable:
- - Command carrying non-lethals when there is a plausible threat
- - Command carrying lethals when there is a confirmed threat
- - Command carrying (non-)lethals they start with in their rooms at any time
- - Captain hiding the spare ID in a properly secure location
- - Increasing security (such as bolting doors, adding walls, etc) during Red or Blue alert
- - Several minutes into the round, Captain promotes Warden to HoS because there isn’t one on station
- - General situations where a character is reacting to information during a round in a way that makes logical sense
+ 可接受：
+ - 當存在合理威脅時，指揮部攜帶非致命性武器
+ - 當威脅已獲確認時，指揮部攜帶致命性武器
+ - 指揮部在任何時間攜帶其房間內原本備有的（非）致命性武器
+ - 隊長將備用身分證件藏於妥善加固的安全地點
+ - 在紅色或藍色警戒期間加強安保措施 （例如上鎖、增設隔牆等）
+ - 回合開始數分鐘後，隊長因站內無人擔任，遂擢升監獄長為站長
+ - 角色在回合中根據資訊做出合乎邏輯反應的一般情境
 
-  Not Acceptable:
-  - Roundstart Captain granting all heads AA
-  - Roundstart HoP takes Ian to ATS because “He’s a high profile target”
-  - Creating duplicates of high-value or unique items to hand off to others
-  - Bolting doors to areas to increase their security before a threat is confirmed that makes that security inefficient
-  - Setting the alert level to Blue or Red when the situation does not have a need for the severity implied (this includes maintaining these levels far past when said threats have been confirmed as no longer in play)
-  - General situations where a character is preemptively preparing for situations that have yet to happen in ways that logically do not make sense
+  不被接受：
+  - 回合開始時，隊長授予所有頭目 AA 權限
+  - 回合開始時，HoP 將伊恩帶往 ATS，因為 「他是高知名度目標」
+  - 複製高價值或獨特物品以轉交他人
+  - 在確認威脅前就將區域門鎖死以加強安全，而該威脅最終被證實使此安全措施變得無效
+  - 在情況並無需達到所暗示的嚴重程度時，將警戒等級設為藍色或紅色 （這包括在確認相關威脅已不復存在後，仍將警報等級維持在該級別過久）
+  - 角色以在邏輯上不合常理的方式，預先為尚未發生的情況做準備的一般情境
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

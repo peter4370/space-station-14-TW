@@ -1,30 +1,33 @@
 ﻿
 <Document>
-  # Core Rule 10 - Do not abuse or ignore admin messages
-  Admin help, or "ahelp", is the system used by admins to communicate with specific players in the game. Only use admin help for things requiring admin attention. If you ignore messages admins send to you via ahelp, or disconnect during an ahelp, you may be banned. If you urgently need to leave during an ahelp, you may do so but will likely need to continue the ahelp on the forums. Do not admin check, be hostile/aggressive, request events, or spam. IC methods of contacting admins, like prayers, faxes, red phones, and banana phones, should be used when there is not an issue.
+  # 核心規則 10 - 請勿濫用或忽視管理員訊息
+  管理員協助（或簡稱「ahelp」）是管理員用來與遊戲中特定玩家溝通的系統。 請僅在需要管理員處理的事項上，才尋求管理員協助。 若您忽略管理員透過 ahelp 傳送給您的訊息，或在 ahelp 進行期間中斷連線，您可能會遭到封禁。 若您在提供 ahelp 期間有急事必須離開，您可以離開，但很可能需要繼續在論壇上提供 ahelp。 請勿進行管理員查核、表現出敵意或攻擊性、要求舉辦活動，或發送垃圾訊息。 當沒有問題時，應使用 IC 聯繫管理員的方法，例如祈禱、傳真、紅色電話和香蕉電話。
 
-  Admins are not always online, but all ahelps are automatically relayed to Discord. For various reasons, admins might not respond to an ahelp even if they've handled it. A lack of response does not necessarily mean that an ahelp was ignored.
+  管理員未必總是線上，但所有求助訊息都會自動轉發至 Discord。 基於各種原因，即使管理員已經處理了 ahelp 請求，他們也可能不會做出回應。 沒有收到回覆，並不一定表示該則 ahelp 請求被忽略了。
 
-  ## Should I ahelp X?
-  You can ahelp anytime you genuinely think a player is breaking a rule. Not all ahelps end up being for something that an admin needs to intervene in, but that's ok; admins would rather have people occasionally report things that turn out to not be an issue than miss reports for actual issues because someone was unsure, or get those reports late because someone waited until the end of the round to be more sure.
+  ## 我該協助 X 嗎？
+  只要您真心認為某位玩家違反了規則，隨時都可以提出協助。 並非所有協助請求最終都會演變成需要管理員介入處理的情況，但這沒關係；管理員寧可偶爾收到後來證實並非問題的通報，也不願因為有人不確定而錯過實際問題的通報，或是因為有人為了更確定而等到本輪結束才提出通報，導致通報延遲。
 
-  The most common reason players give for not ahelping issues is that they don't want to waste admin time, but it only takes a few seconds for an admin to check if someone is an antagonist. If you are ahelping too many things, an admin will let you know. If you're not being told to stop reporting something or to report less things, then you can safely assume that you aren't causing any issues.
+  玩家不協助解決問題時最常提出的理由，是他們不想浪費管理員的時間，但管理員只需幾秒鐘就能確認某人是否為反派。 如果你同時協助處理太多事項，管理員會通知你。 如果沒有人要求你停止回報某件事，或是要求你減少回報的項目，那麼你可以放心假設自己並沒有造成任何問題。
 
-  # What should I include in an ahelp?
-  At a minimum, admins need to know what the issue is to be able to address an ahelp. Don't send ahelp messages with no information about what your question or the issue is. Messages like "hello" are often considered admin checking.
+  # ahelp 檔案中應包含哪些內容？
+  管理員至少需要了解問題的具體內容，才能處理 ahelp 請求。 請勿發送未附上問題或狀況相關資訊的求助訊息。 像「你好」這樣的訊息，通常被視為管理員的確認。
 
-  If you can, an ideal ahelp message includes what the issue is along with who is causing it and their character's name if possible.
+  如果可以的話，理想的 ahelp 訊息應包含問題內容、問題的肇因者，以及（若可行）該角色的名稱。
 
-  # Examples
-  Appropriate uses of ahelp:
-  - reporting people who you think are violating rules,
-  - asking questions about rules,
-  - asking for a temporary exemption from a rule, and
-  - requesting a minor gimmick, like a TC trade or item spawn.
+  # 範例
+  ahelp 的適當用途：
+  - 舉報您認為違反規則的人員，
+  - 詢問規則相關問題，
+  - 申請暫時豁免某項規則，以及
+  - 申請輕微的特殊安排，例如 TC 交易或物品生成。
 
-  Inappropriate uses of ahelp:
-  - checking if an admin is online, including sending messages without any information about the issue like "hello" or incomprehensible messages,
-  - being hostile or aggressive,
-  - requesting events, and
-  - spamming messages about the same issue.
+  ahelp 的不當使用方式：
+  - 查詢管理員是否在線，包括在未提供任何問題資訊的情況下發送訊息，例如「你好」或難以理解的訊息；
+  - 表現出敵意或攻擊性；
+  - 要求舉辦活動；以及
+  - 就同一問題發送大量重複訊息。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡圖示，否則翻譯會出錯"/>
+    </Box>
 </Document>

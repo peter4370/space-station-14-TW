@@ -1,71 +1,74 @@
 ﻿
 <Document>
-  # Roleplay Rule 11 - Follow reasonable escalation
-  Antagonists are fully exempt from escalation rules. Non-antagonists who are in a conflict with antagonists are not exempt. Escalation should typically follow steps or a pattern of conflict types similar to:
-  - Verbal
-  - Non-harmful
-  - Non-lethal
-  - Lethal
-  - Permanently lethal
+  # 角色扮演規則第 11 條 — 遵循合理的衝突升級原則
+  反派角色完全不受衝突升級規則的限制。 與反派角色發生衝突的非反派角色則不適用此豁免。衝突升級通常應遵循類似以下步驟或模式：
+  - 言語衝突
+  - 非傷害性衝突
+  - 非致命衝突
+  - 致命衝突
+  - 永久性致命衝突
 
-  All new conflicts should start at the first step. A player should not escalate a conflict across steps without some escalation from the other party involved in the conflict. Players can skip steps to match the level of escalation that the other person is at, but should almost always not skip steps other than that. Players who attempt to deescalate conflicts will be given more leniency in escalating if the other party continues to escalate despite the attempt at de-escalation. You do not have to try to deescalate conflicts, but someone who watches you over the entire round, or over multiple rounds, should not feel that your goal is generally to escalate conflicts.
+  所有新衝突均應從第一步開始。 玩家不應在未經衝突另一方有所升級的情況下，將衝突跨越步驟升級。玩家可以跳過步驟以配合對方當前的升級程度，但除此情況外，幾乎不應跳過任何步驟。 若玩家嘗試緩和衝突，而對方在該嘗試下仍持續升級衝突，則該玩家在升級衝突時將獲得更多寬容空間。你無須刻意嘗試緩和衝突，但若有人在整輪或多輪中觀察你的行為，不應覺得你的目標是普遍地升級衝突。
 
-  Conflicts or escalation can be indirect. When someone steals someone else's ID, the theft is a direct part of the conflict, but if the victim becomes trapped as a result of not having their ID to open a door, that is also considered part of the conflict and escalation. Do not randomly steal IDs from people.
+  衝突或升級可以是間接的。當有人竊取他人的 ID 時，竊取行為是衝突的直接部分；但若受害者因沒有 ID 而無法開門而被困住，這也被視為衝突與升級的一部分。 請勿隨意竊取他人的身分證。
 
-  Escalation does not have to be directed at a specific player to enter them into a conflict. Nuclear operatives who are trying to destroy the station are considered to be at the permanently lethal level of conflict with all crew on the station. Someone who kills a station pet has started some degree of conflict with all crewmembers. Someone who kills a mouse that a chef was caring for has started some degree of conflict with that chef.
+  衝突升級未必需要針對特定玩家，即可將其捲入衝突之中。試圖摧毀空間站的核武特工，被視為與空間站內所有船員處於永久性致命衝突狀態。 殺害空間站寵物的人，已與所有船員產生某種程度的衝突；殺害主廚所照料的老鼠的人，則已與該主廚產生某種程度的衝突。
 
-  You will be considered to be violating this rule if you escalate a conflict based on a poor or unreasonable assumption.
+  若您基於錯誤或不合理的假設而升級衝突，將被視為違反此規則。
 
-  Conflicts should almost never reach the "permanently lethal" stage. Conflicts should only reach this stage if the other party brought it to the stage, or if the same conflict escalated to the lethal stage multiple times in the round.
+  衝突幾乎不應達到「永久致命」的階段。衝突僅在以下情況下才應達到此階段：若由對方將衝突推向該階段，或同一場衝突在該回合中多次升級至致命階段。
 
-  If a party in the conflict goes into crit or dies, the party responsible should take them to get treatment or to security. For the conflict, this should be considered saving someone from dying and should deescalate the conflict. If the conflict is deescalated in this way, both parties need to re-escalate to lethal for the conflict to return to that stage. If the conflict is not deescalated in this way, then only the party who defeated the other would need to re-escalate for the conflict to return to the lethal stage.
+  若衝突中的一方陷入危急狀態或死亡，應由負責的一方將其送醫治療或移交安全人員。就衝突而言，此舉應被視為拯救他人免於死亡，並應使衝突降級。 若衝突以此方式降級，雙方均需重新將衝突升級至致命階段，衝突才會回到該階段。若衝突未以此方式降級，則僅需擊敗對方的當事方重新升級，衝突才會回到致命階段。
 
-  Security can immediately escalate to non-lethal force if it is necessary to arrest someone.
+  若需逮捕某人，安保人員可立即升級至非致命武力。
 
-  People using or brandishing Syndicate items can typically be presumed to have lethal intent. Someone with lethal intent can typically be immediately escalated against at a lethal level, a notable exception is if you have the tools to safely detain them.
+  使用或展示「辛迪加」物品的人，通常可被推定具有致命意圖。 對於懷有致命意圖者，通常可立即以致命級別升級對其採取行動，但若您擁有能安全拘留該人的工具，則屬顯著例外。
 
-  ## Escalation Involving Animals
-  See [textlink="Escalation Involving Animals" link="RuleR11-1"].
+  ## 涉及動物的升級
+  請參閱 [textlink="涉及動物的升級" link="RuleR11-1"]。
 
-  ## Exemptions
-  Escalation rules aren't enforced against non-players, but players will be held responsible for rule violations even if they don't realize that a character or animal was controlled by another player. Characters who are disconnected are still considered players. Characters who have purple text upon being examined saying "recovery is impossible" are considered non-players.
+  ## 豁免
+  升級規則不適用於非玩家角色，但即使玩家未察覺某個角色或動物是由另一名玩家操控的，仍須為違反規則的行為負責。 斷線的角色仍被視為玩家。當檢視角色時，若出現紫色文字顯示「無法恢復」，則該角色被視為非玩家。
 
-  ## MRP Amendment
-  Escalation rules are enforced even against non-players.
+  ## MRP 修正案
+  升級規則即使對非玩家也同樣適用。
 
-  ## Examples of Conflict Types
-  See [textlink="Examples of Conflict Types" link="RuleR11-2"].
+  ## 衝突類型的範例
+  請參閱 [textlink="衝突類型的範例" link="RuleR11-2"]。
 
-  ## Example Scenarios
-  These examples assume that you are not an antagonist.
+  ## 情境範例
+  這些範例假設你並非反派角色。
 
-  Acceptable:
-  - A player starts punching you, so you start punching back until they stop. If they go into crit, you stop attacking them and take them to security or to get medical attention.
-  - You make fun of a clown, who then throws a pie at you and steals your shoes. You slip the clown and steal their mask.
-  - You are a security officer and tell someone to stop, so you can question them. They run away, so you use your disabler to stun and cuff them.
-  - You are a security officer and see someone wearing a syndicate hardsuit, so you shoot them to crit, cuff them, then take them to security.
-  - You are a crewmember and see a nuclear operative, so you kill them.
-  - An unauthorized person enters a high risk area of the station, like the armory or atmospherics, so you attack them until they leave.
-  - Minorly inconveniencing someone for your own benefit.
-  - As an antagonist, killing someone who got in your way.
-  - As an antagonist, killing someone who didn't give you what you want.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and does not take them to medbay or security. The bartender immediately tries to crit the chef next time they run into each other.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and does not take them to medbay or security. The chef insults the bartender next time they see them.
-  - A cargo technician gets a cargo bounty for a brain. After receiving a body from Medical with the purple examine text reading "Any recovery is impossible.", the cargo technician proceeds to permanently destroy the body to get the brain out.
+  可接受的行為：
+  - 某位玩家開始毆打你，於是你也開始還手，直到對方停止為止。若對方陷入危急狀態，你應停止攻擊，並將其帶往安全人員處或送醫救治。
+  - 你取笑一名小丑，結果對方朝你扔了一塊派，並偷走了你的鞋子。 你溜過小丑身旁，並偷走了他的面具。
+  - 身為安全人員，你命令某人停下以便盤問。對方逃跑，於是你使用失能器將其擊暈並戴上手銬。
+  - 身為安全人員，你發現有人穿著黑手黨的強化戰甲，於是朝對方開槍造成致命一擊，將其銬住，然後帶往安全部門。
+  - 身為船員，你發現一名核武特工，於是將其擊斃。
+  - 有人未經授權闖入空間站的高風險區域（例如軍械庫或大氣處理區），於是你攻擊對方直到其離開。
+  - 為了自身利益而給他人造成輕微不便。
+  - 身為反派角色，殺死擋路的人。
+  - 身為反派，殺死沒有滿足你要求的人。
+  - 一名廚師與一名調酒師透過適當的衝突升級，使矛盾升級至致命程度。廚師對調酒師造成致命一擊，且未將其送往醫療室或交由安全部門處理。 調酒師在下次與主廚碰面時，立即試圖對其造成致命一擊。
+  - 一名主廚與一名調酒師透過適當的衝突升級，使衝突達到致命程度。主廚對調酒師造成致命一擊，但未將其送往醫務室或保安處。主廚在下次見到調酒師時，對其出言侮辱。
+  - 一名貨運技術員因一顆大腦獲得貨運懸賞。在從醫務室收到一具屍體，且其紫色檢視文字顯示「任何復原皆不可能」後，該貨運技術員隨即永久摧毀屍體以取出大腦。
 
-  Prohibited:
-  - A player starts punching you, so you gib them.
-  - A clown throws a pie at you and steals your shoes, so you stab them to crit with a screwdriver.
-  - You are a security officer and tell someone to stop, so you can question them. They run away so you use a truncheon to beat them to crit.
-  - An authorized person who you unreasonably or carelessly think is unauthorized enters a high risk area of the station, like the armory or atmospherics, so you attack them until they leave.
-  - An unauthorized person enters a low risk area of the station, like cargo, and you start attacking them with no other escalation.
-  - Slipping security all round because they are security.
-  - Blocking the head of personnel in their office using walls because they didn't give you what you asked for.
-  - Hiding someone's body because they punched you earlier in the round.
-  - Harassing the bar or bartender by frequently coming in to break their glasses or furniture.
-  - Randomly picking fights with people.
-  - Stealing an ID from a disconnected player as a non-antagonist.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and does not take them to medbay or security. The chef immediately tries to crit the bartender next time they run into each other.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and takes them to the medbay or security. The bartender immediately tries to crit the chef next time they run into each other.
-  - A cargo technician gets a cargo bounty for a brain. After finding a dead passenger in a hallway, without the body's examine text reading "Any recovery is impossible.", the cargo technician proceeds to permanently destroy the body to get the brain out.
+  禁止：
+  - 一名玩家開始毆打你，於是你將其斬成碎片。
+  - 一名小丑朝你扔派並偷走你的鞋子，於是你用螺絲起子刺中他們並造成致命一擊。
+  - 身為安全人員，你命令某人停下以便盤問。對方逃跑，於是你用警棍毆打他們並造成致命一擊。
+  - 某位經授權的人員進入了空間站的高風險區域（例如軍械庫或大氣控制室），而你卻因無端或疏忽地誤以為對方未經授權，於是對其攻擊直至對方離開。
+  - 某位未經授權的人員進入了空間站的低風險區域（例如貨艙），而你便開始攻擊對方，且未採取任何其他升級措施。
+  - 因為對方是安保人員，所以整局遊戲中都能繞過安保。
+  - 因為人事主管沒有滿足你的要求，便用牆壁將其困在辦公室裡。
+  - 因為對方在本回合稍早曾揍過你，所以藏匿其屍體。
+  - 頻繁闖入酒吧或騷擾調酒師，打碎他們的酒杯或家具。
+  - 隨機與人挑起爭端。
+  - 身為非敵對角色，竊取一名已斷線玩家的身份證。
+  - 一名主廚與調酒師透過適當的衝突升級，使矛盾達到致命程度。 主廚對調酒師造成致命一擊，但未將其送往醫務室或交由安全部門處理。主廚會在下次與調酒師碰面時，立即試圖對其造成致命一擊。
+  - 一名主廚與一名調酒師透過適當的衝突升級，使衝突達到致命程度。主廚對調酒師造成致命一擊，並將其送往醫務室或交由安全部門處理。 調酒師在下次與主廚碰面時，會立即試圖對主廚造成致命一擊。
+  - 一名貨運技術員因一顆大腦而獲得貨運懸賞。在走廊發現一名死者後，若屍體的檢查提示文字未顯示「無法進行任何搶救」，該貨運技術員便會永久銷毀屍體以取出大腦。
+    <Box>
+    <GuideEntityEmbed Entity="FoodBurgerPlain" Caption="刪除這個漢堡，翻譯就會出錯"/>
+    </Box>
 </Document>

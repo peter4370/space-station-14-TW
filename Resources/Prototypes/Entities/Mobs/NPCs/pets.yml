@@ -923,7 +923,7 @@
   parent: [ BaseUniquePet, MobCrab ]
   id: MobCrabAtmos
   name: 《Tropico》 | Tropico
-  description: 阿托西亞高貴而堅毅的捍衛者。萬歲！ | The noble and stalwart defender of Atmosia. Viva!
+  description: 大氣國高貴而堅毅的捍衛者。萬歲！ | The noble and stalwart defender of Atmosia. Viva!
   components:
 #  - type: GhostRole
 #    prob: 1
