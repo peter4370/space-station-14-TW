@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtChemistry
-  name: 化學跳舞裙 | chemistry jumpskirt
+  name: 化學家連身裙 | chemistry jumpskirt
   description: 這條連身裙上有幾處奇怪的污漬。嗯。 | There's some odd stains on this jumpskirt. Hm.
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGenetics
-  name: 遺傳學跳躍裙 | genetics jumpskirt
+  name: 遺傳學連身裙 | genetics jumpskirt
   description: 它由一種特殊纖維製成，能提供針對生物危害的特殊防護。上面繡有遺傳學家級別的肩章。 | It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
   components:
   - type: Sprite
@@ -78,7 +78,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorPhysician
-  name: 資深醫師的跳躍裙 | senior physician jumpskirt
+  name: 資深醫師的連身裙 | senior physician jumpskirt
   description: 這是醫學界中展現專業能力與聲望的象徵。 | A sign of skill and prestige within the medical department.
   components:
   - type: Sprite

@@ -136,7 +136,7 @@
 - type: entity
   id: CigPackGreen
   parent: CigPackBase
-  name: 斯佩斯曼菸草小包 | Spessman's Smokes packet
+  name: Spessman's Smokes 煙盒 | Spessman's Smokes packet
   description: 包裝上的標籤寫著：「緩慢地死去，難道不是一種改變嗎？」 | A label on the packaging reads, Wouldn't a slow death make a change?
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 - type: entity
   id: CigPackRed
   parent: CigPackBase
-  name: DromedaryCo 包裹 | DromedaryCo packet
+  name: DromedaryCo 煙盒 | DromedaryCo packet
   description: 「太空香菸」是最受歡迎的品牌，同時也是「太空奧運」的贊助商。 | The most popular brand of Space Cigarettes, sponsors of the Space Olympics.
   components:
   - type: Sprite
@@ -169,8 +169,8 @@
 - type: entity
   id: CigPackBlack
   parent: CigPackBase
-  name: 《遊牧民族》資料包 | Nomads packet
-  description: Nomads 超強版，專為你那些格外艱難的日子而生。 | Nomads's extra strong, for when your life is more extra hard.
+  name: Nomads 煙盒 | Nomads packet
+  description: Nomads 的超強版，專為你那些格外艱難的日子而生。 | Nomads's extra strong, for when your life is more extra hard.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/black.rsi
@@ -180,7 +180,7 @@
 - type: entity
   id: CigPackSyndicate
   parent: [CigPackBase, BaseSyndicateContraband]
-  name: Interdyne 草本茶包 | Interdyne herbals packet
+  name: Interdyne 藥草煙盒 | Interdyne herbals packet
   description: 專為精英集團特工打造的頂級香菸。內含藥劑，當您需要的不僅是平復神經時，它能派上用場。 | Elite cigarettes for elite syndicate agents. Infused with medicine for when you need to do more than calm your nerves.
   components:
   - type: Sprite
@@ -196,9 +196,9 @@
 - type: entity
   id: CigPackMixed
   parent: CigPackMixedBase
-  name: 丹的濕透香菸 | Dan's soaked smokes
+  name: Dan 的濕透香菸 | Dan's soaked smokes
   suffix: Mixed
-  description: 丹與 NT 化學部門合作，處理了多餘的化學品，祝您愉快。 | Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+  description: Dan 與 NT 化學部門合作，處理了多餘的化學品，祝您愉快。 | Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi

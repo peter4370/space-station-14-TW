@@ -113,7 +113,7 @@
     count: 1
 
 - type: entity
-  name: 瘀傷敷料包 bruise pack | bruise pack
+  name: 外傷敷料包 bruise pack | bruise pack
   description: 一款專為治療鈍性創傷而設計的治療用凝膠包及繃帶。 | A therapeutic gel pack and bandages designed to treat blunt-force trauma.
   parent: BaseHealingItem
   id: Brutepack

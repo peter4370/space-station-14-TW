@@ -9,7 +9,7 @@ reagent-dispenser-bound-user-interface-title = 試劑分配器
 
 ## UI
 
-reagent-dispenser-window-amount-to-dispense-label = 金額
+reagent-dispenser-window-amount-to-dispense-label = 轉移量
 reagent-dispenser-window-clear-button = 清除
 reagent-dispenser-window-eject-button = 排出
 reagent-dispenser-window-eject-container-button = ⏏

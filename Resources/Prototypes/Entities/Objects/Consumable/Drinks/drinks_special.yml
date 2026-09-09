@@ -1,7 +1,7 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase, DrinkVisualsFillOverlay]
   id: DrinkShotGlass
-  name: shot glass | shot glass
+  name: 一口杯 | shot glass
   description: 非常適合氣急敗壞地重重拍在桌上。 | Perfect for slamming down onto the table angrily.
   components:
   - type: Solution

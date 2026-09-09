@@ -56,7 +56,7 @@
 - type: entity
   parent: BaseDelivery
   id: PackageDelivery
-  name: 套件 | package
+  name: 包裹 | package
   components:
   - type: Sprite
     sprite: Objects/Specific/Cargo/mail_large.rsi

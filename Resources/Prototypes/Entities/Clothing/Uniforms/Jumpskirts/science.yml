@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRoboticist
-  name: 機器人專家跳躍裙 | roboticist jumpskirt
+  name: 機器人專家連身裙 | roboticist jumpskirt
   description: 這是一款修身款的黑色工作服，縫線經過加固處理；非常適合從事工業工作。 | It's a slimming black with reinforced seams; great for industrial work.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorResearcher
-  name: 資深科學家 jumpskirt | senior researcher jumpskirt
+  name: 資深科學家連身裙 | senior researcher jumpskirt
   description: 這是科學系內展現專業能力與聲望的象徵。 | A sign of skill and prestige within the science department.
   components:
   - type: Sprite

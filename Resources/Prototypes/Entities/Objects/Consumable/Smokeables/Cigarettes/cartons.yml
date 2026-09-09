@@ -63,7 +63,7 @@
 - type: entity
   id: CigCartonBlack
   parent: CigCartonGreen
-  name: 《遊牧民族》紙盒 | Nomads carton
+  name: Nomads 紙盒 | Nomads carton
   description: 一盒，內含 6 包 Nomads。 | A carton containing 6 packets of Nomads.
   components:
   - type: Sprite
@@ -80,8 +80,8 @@
 - type: entity
   id: CigCartonMixed
   parent: CigCartonGreen
-  name: 丹的濕透香菸 | Dan's soaked smokes
-  description: 一盒內含 3 包丹氏浸漬菸草。 | A carton containg 3 packets of Dan's soaked smokes.
+  name: Dan 的濕透香菸 | Dan's soaked smokes
+  description: 一盒內含 3 包 Dan 的濕透香菸。 | A carton containg 3 packets of Dan's soaked smokes.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/mixed.rsi

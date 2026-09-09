@@ -59,7 +59,7 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: 變體魔方盒 | variant cube box
+  name: 生物方塊盒 | variant cube box
   id: VariantCubeBox
   description: 既有小妖魔方塊，也有猴子方塊。只要加點水就行！ | Both kobold cubes and monkey cubes. Just add water!
   components:

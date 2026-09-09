@@ -1,7 +1,7 @@
 - type: entity
   parent: [UnsensoredClothingUniformSkirtBase, BaseSyndicateContraband]
   id: ClothingUniformJumpskirtOperative
-  name: 作戰式跳傘裙 | operative jumpskirt
+  name: 作戰式連身裙 | operative jumpskirt
   description: 專為在深空執行戰術行動的精英組織特工設計的制服。 | Uniform for elite syndicate operatives performing tactical operations in deep space.
   components:
   - type: Sprite
@@ -14,7 +14,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtTacticool
-  name: 戰術風跳躍裙 | tacticool jumpskirt
+  name: 戰術風連身裙 | tacticool jumpskirt
   description: 專為在深空執行「戰術絕緣手套竊盜」任務、表現平平的實境扮演者（LARPer）所設計的制服。 | Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSlicingRefinable]
   id: ClothingUniformJumpskirtWeb
-  name: 網眼跳舞裙 | web jumpskirt
+  name: 網眼連身裙 | web jumpskirt
   description: 這清楚地表明，你與蛛網合而為一。 | Makes it clear that you are one with the webs.
   components:
   - type: Sprite

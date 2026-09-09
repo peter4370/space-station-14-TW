@@ -23,7 +23,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtHoS
-  name: 安保主管的連體裙 | head of security's jumpskirt
+  name: 安保主管的連身裙 | head of security's jumpskirt
   description: 它呈鮮紅色，質地相當爽脆，這點與安全人員的受害者通常的模樣頗為相似。 | It's bright red and rather crisp, much like security's victims tend to be.
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBrigmedic
-  name: 軍醫跳躍裙 | brigmedic jumpskirt
+  name: 軍醫連身裙 | brigmedic jumpskirt
   description: 這套制服是發放給已受過訓練且符合資格的人員。沒人在乎那場訓練只花了半天時間。 | This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
   components:
   - type: Sprite
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPrisoner
-  name: 囚犯式短裙 | prisoner jumpskirt
-  description: 一款供囚犯使用的跳躍裙。其服裝感測器會隨時自動啟用。 | A jumpskirt used for prisoners. It has suit sensors automatically enabled at all times.
+  name: 囚犯式連身裙 | prisoner jumpskirt
+  description: 一款供囚犯使用的連身裙。其服裝感測器會隨時自動啟用。 | A jumpskirt used for prisoners. It has suit sensors automatically enabled at all times.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Color/color.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSec
-  name: 安全跳躍裙 | security jumpskirt
-  description: 一款採用堅韌材質製成的跳躍裙，能提供強效的防護。 | A jumpskirt made of strong material, providing robust protection.
+  name: 保安連身裙 | security jumpskirt
+  description: 一款採用堅韌材質製成的連身裙，能提供強效的防護。 | A jumpskirt made of strong material, providing robust protection.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Security/security.rsi
@@ -182,7 +182,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSeniorOfficer
-  name: 高級軍官跳躍裙 | senior officer jumpskirt
+  name: 高級軍官連身裙 | senior officer jumpskirt
   description: 這是保安部門內展現專業能力與聲望的象徵。 | A sign of skill and prestige within the security department.
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSecGrey
-  name: 灰色防彈連身裙 | grey security jumpskirt
+  name: 灰色保安連身裙 | grey security jumpskirt
   description: 這是過去某個時期的戰術神器，那時 NanoTrasen 尚未決定，將防護服染成紅色比清洗掉血跡更划算。 | A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
   components:
   - type: Sprite

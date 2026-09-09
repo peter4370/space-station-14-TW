@@ -7,7 +7,7 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, SolutionTiny, DrinkBaseCup, DrinkVisualsFillOverlay]
   id: DrinkGlass
-  name: 變質玻璃 | metamorphic glass
+  name: 變形變色杯 | metamorphic glass
   description: 一款能自動變形，根據杯中飲品自動調整成最適合形狀的變形玻璃杯。杯底有被磨掉的專利號碼。 | A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
   components:
   - type: Item

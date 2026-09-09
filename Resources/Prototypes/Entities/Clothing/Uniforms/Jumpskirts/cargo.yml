@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargo
-  name: 貨運部技術 跳躍式短裙 | cargo tech jumpskirt
-  description: 一款結實耐用的跳傘裙，發放給貨運部門的成員。 | A sturdy jumpskirt, issued to members of the Cargo department.
+  name: 貨運部技術員連身裙 | cargo tech jumpskirt
+  description: 一款結實耐用的連身裙，發放給貨運部門的成員。 | A sturdy jumpskirt, issued to members of the Cargo department.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/Cargo/cargotech.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtQM
-  name: 司務長的跳傘裙 | quartermaster's jumpskirt
+  name: 司務長的連身裙 | quartermaster's jumpskirt
   description: '棕色能為您做些什麼？ | What can brown do for you?'
   components:
   - type: Sprite

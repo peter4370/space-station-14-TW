@@ -273,7 +273,7 @@
 - type: entity
   parent: VendingMachineBooze
   id: VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost
-  name: 瘀傷生成機 Bruise-O-Mat | Bruise-O-Mat
+  name: 外傷生成機 Bruise-O-Mat | Bruise-O-Mat
   description: 一台經過翻新的「Booze-O-Mat」，用於提振特工士氣。其中一側可見一具血紅色的重型機甲壓印，另一側的漆面則似乎已剝落。 | A refurbished Booze-O-Mat for boosting operative morale. An imprint of a blood-red hardsuit is visible on one side, and the paint seems ashed off on the other side.
   components:
   - type: VendingMachine
