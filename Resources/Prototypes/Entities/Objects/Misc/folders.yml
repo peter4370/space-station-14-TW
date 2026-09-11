@@ -321,7 +321,7 @@
   parent: BoxFolderBaseEmpty
   id: BoxFolderCentComEmpty
   categories: [ DoNotMap ]
-  name: CentComm 資料夾 | CentComm folder
+  name: 中央司令部 資料夾 | CentComm folder
   description: 中央司令部那堆可悲的小秘密！ | CentComm's miserable little pile of secrets!
   components:
   - type: Sprite
@@ -452,7 +452,7 @@
 - type: entity
   parent: BoxFolderClipboardEmpty
   id: BoxFolderCentComClipboardEmpty
-  name: CentComm 剪貼簿 | CentComm clipboard
+  name: 中央司令部 剪貼簿 | CentComm clipboard
   description: 一款覆有綠色天鵝絨的豪華剪貼板。常可見中央司令部（CentCom）官員攜帶，但鮮少見其實際使用。 | A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
   components:
   - type: Sprite

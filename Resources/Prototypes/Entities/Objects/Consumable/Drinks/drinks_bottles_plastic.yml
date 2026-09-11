@@ -82,7 +82,7 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkColaBottleFull
-  name: 太空可樂瓶 | Space Cola bottle
+  name: 太空可樂 瓶 | Space Cola bottle
   description: 可樂。在太空中！ | Cola. In spaaace!
   components:
   - type: Solution
@@ -98,7 +98,7 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkSpaceMountainWindBottleFull
-  name: 太空太陽風瓶 | Space Solar Wind bottle
+  name: 太空太陽風 瓶 | Space Solar Wind bottle
   description: 就像太陽風一樣，直衝而過，穿透你的身心。 | Blows right through you like a solar wind.
   components:
   - type: Solution
@@ -114,7 +114,7 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkSpaceUpBottleFull
-  name: Space-Up 水瓶 | Space-Up bottle
+  name: Space-Up 瓶 | Space-Up bottle
   description: 嚐起來就像是嘴裡發生了船體破裂一樣。 | Tastes like a hull breach in your mouth.
   components:
   - type: Solution
@@ -130,7 +130,7 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkSodaWaterBottleFull
-  name: 蘇打水瓶 | soda water bottle
+  name: 蘇打水 瓶 | soda water bottle
   description: 就像水一樣，但充滿怒氣！ | Like water, but angry!
   components:
   - type: Solution
@@ -146,7 +146,7 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkTonicWaterBottleFull
-  name: 通寧水瓶 | tonic water bottle
+  name: 通寧水 瓶 | tonic water bottle
   description: 就像蘇打水，但或許更兇猛一點？通常更甜。 | Like soda water, but angrier maybe? Often sweeter.
   components:
   - type: Solution
@@ -180,7 +180,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkLemonLimeJug
-  name: Smite 巨壺 | Smite jug
+  name: Smite 壺 | Smite jug
   description: 雙重柑橘風味。 | A dual citrus sensation.
   components:
   - type: Solution
@@ -195,7 +195,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkMeadJug
-  name: 蜂蜜酒壺 | mead jug
+  name: 蜂蜜酒 壺 | mead jug
   description: 把蜂蜜酒存放在塑膠壺裡，簡直是犯罪。 | Storing mead in a plastic jug should be a crime.
   components:
   - type: Solution
@@ -225,7 +225,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkCoconutWaterJug
-  name: 椰子水壺 | coconut water jug
+  name: 椰子水 壺 | coconut water jug
   description: 椰子的精華就在內裡。 | It's on the inside of the coconut that counts.
   components:
   - type: Solution
@@ -240,7 +240,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkCoffeeJug
-  name: 咖啡壺 | coffee jug
+  name: 咖啡 壺 | coffee jug
   description: 醒神果汁，熱飲款。 | Wake up juice, of the heated kind.
   components:
   - type: Solution
@@ -270,7 +270,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkGreenTeaJug
-  name: 綠茶壺 | green tea jug
+  name: 綠茶 壺 | green tea jug
   description: 這就像茶一樣……但它是綠色的！非常適合舒緩胃部不適。 | It's like tea... but green! great for settling the stomach.
   components:
   - type: Solution
@@ -285,7 +285,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkIcedTeaJug
-  name: 冰茶壺 | iced tea jug
+  name: 冰茶 壺 | iced tea jug
   description: 當普通的茶對你來說太燙的時候。嗚嗚。 | For when the regular tea is too hot for you. Boohoo.
   components:
   - type: Solution
@@ -300,7 +300,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkDrGibbJug
-  name: 吉布博士的壺 | Dr. Gibb jug
+  name: 吉布博士 壺 | Dr. Gibb jug
   description: 42 種不同口味……全都在一個壺裡！ | 42 different flavours... in a jug!
   components:
   - type: Solution
@@ -315,7 +315,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkRootBeerJug
-  name: 根啤酒壺 | root beer jug
+  name: 根啤酒 壺 | root beer jug
   description: 這杯飲料總讓澳洲人忍俊不禁。 | This drink makes Australians giggle.
   components:
   - type: Solution
@@ -330,7 +330,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkWaterMelonJuiceJug
-  name: 西瓜汁壺 | watermelon juice jug
+  name: 西瓜汁 壺 | watermelon juice jug
   description: 可能含有剩餘的種子。 | May include leftover seeds.
   components:
   - type: Solution
@@ -345,7 +345,7 @@
 - type: entity
   parent: CustomDrinkJugFilled
   id: DrinkEnergyDrinkJug
-  name: 紅色布爾水壺 | Red Bool jug
+  name: Red Bool 壺 | Red Bool jug
   description: 一壺「Red Bool」，其中的咖啡因含量足以讓整個太空站的人都暈倒。 | A jug of Red Bool, with enough caffeine to kill a whole station.
   components:
   - type: Solution

@@ -12,7 +12,7 @@
     <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
   </Box>
 
-  氣體開採業者持續生產室溫下的氣體，並將其排入外露的大氣中。 它們運作時無需電源，除非達到預設的 [bold]截止壓力[/bold]，否則永遠不會停止運作。
+  氣體開采機持續生產室溫下的氣體，並將其排入外露的大氣中。 它們運作時無需電源，除非達到預設的 [bold]截止壓力[/bold]，否則永遠不會停止運作。
 
   您可以透過使用 [color=yellow][bold][keybind="ExamineEntity"][/bold][/color] 來檢視這些氣體採礦者，以獲取更多相關資訊。
   不妨仔細檢視上述的氣體礦工。

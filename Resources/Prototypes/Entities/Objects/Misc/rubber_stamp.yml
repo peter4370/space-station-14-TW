@@ -70,7 +70,7 @@
         color: "#3681bb"
 
 - type: entity
-  name: CentComm 橡皮章 | CentComm rubber stamp
+  name: 中央司令部 橡皮章 | CentComm rubber stamp
   parent: RubberStampBase
   id: RubberStampCentcom
   categories: [ DoNotMap ]

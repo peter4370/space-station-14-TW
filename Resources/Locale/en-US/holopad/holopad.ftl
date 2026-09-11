@@ -141,4 +141,4 @@ holopad-ai-chute = AI - 滑槽
 holopad-station-bridge = 太空站 - 艦橋
 holopad-station-cargo-bay = 太空站 - 貨艙灣
 # CentComm
-holopad-centcomm-evac = CentComm - 撤離穿梭機
+holopad-centcomm-evac = 中央司令部 - 撤離穿梭機

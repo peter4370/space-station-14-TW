@@ -78,7 +78,7 @@
 - type: entity
   parent: [ ClothingHeadset, BaseCentcommContraband ]
   id: ClothingHeadsetCentCom
-  name: CentComm 耳機 | CentComm headset
+  name: 中央司令部 耳機 | CentComm headset
   description: 一款由 NanoTrasen 高層使用的頭戴式裝置。 | A headset used by the upper echelons of Nanotrasen.
   components:
   - type: ContainerFill

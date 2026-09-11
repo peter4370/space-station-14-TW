@@ -91,7 +91,7 @@
 - type: entity
   parent: [ ClothingMaskGasAtmos, BaseCentcommContraband ]
   id: ClothingMaskGasCentcom
-  name: CentComm 防毒面具 | CentComm gas mask
+  name: 中央司令部 防毒面具 | CentComm gas mask
   description: 噢，金色和綠色。真別緻！這應該能讓你在辦公室裡坐著時感到舒心。 | Oooh, gold and green. Fancy! This should help as you sit in your office.
   components:
   - type: Sprite

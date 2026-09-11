@@ -148,7 +148,7 @@
 
 - type: entity
   parent: SeedBase
-  name: 一包橘子籽 | packet of orange seeds
+  name: 一包柳橙籽 | packet of orange seeds
   id: OrangeSeeds
   components:
     - type: Seed
@@ -158,7 +158,7 @@
 
 - type: entity
   parent: SeedBase
-  name: 一包來自異維度的橘子種子 | packet of extradimensional orange seeds
+  name: 一包來自異維度的柳橙種子 | packet of extradimensional orange seeds
   description: "多邊形種子。 | Polygonal seeds."
   id: ExtradimensionalOrangeSeeds
   components:

@@ -79,7 +79,7 @@
 # Popsicle
 
 - type: entity
-  name: 橘子霜淇淋 | orange creamsicle
+  name: 柳橙霜淇淋 | orange creamsicle
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleOrange
   description: 一款經典的橘味奶油冰棒。一份充滿陽光氣息的冰涼點心。 | A classic orange creamsicle. A sunny frozen treat.

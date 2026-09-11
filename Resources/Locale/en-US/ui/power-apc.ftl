@@ -2,7 +2,7 @@ apc-menu-title = APC
 apc-menu-breaker-label = 主斷路器
 apc-menu-power-label = 載入
 apc-menu-external-label = 艙外電源
-apc-menu-charge-label = { $percent } 已收費
+apc-menu-charge-label = { $percent } 電量
 
 # For the power state label
 

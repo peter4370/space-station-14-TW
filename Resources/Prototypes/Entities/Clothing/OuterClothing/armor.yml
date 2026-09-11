@@ -133,7 +133,7 @@
 - type: entity
   parent: [ClothingOuterArmorBaseCarapace, BaseCentcommContraband]
   id: ClothingOuterArmorCentcommCarapace
-  name: centcomm 甲殼 | centcomm carapace
+  name: 中央司令部 甲殼 | centcomm carapace
   description: 一款既能提供防護，又能確保最大行動自由與靈活性的防彈胸甲。僅配發給中央指揮部官員及特工。 | An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to centcomm officials and agents.
   components:
   - type: Sprite

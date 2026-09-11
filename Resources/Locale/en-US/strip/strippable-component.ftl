@@ -13,7 +13,7 @@ strippable-component-alert-owner-insert-hand = { CAPITALIZE(THE($user)) } 將 { 
 # generic warning for when a user interacts with your equipped items.
 strippable-component-alert-owner-interact = { CAPITALIZE(THE($user)) } 正在胡亂處理你的 { $item }！
 # StripVerb
-strip-verb-get-data-text = 條狀物
+strip-verb-get-data-text = 脫下
 strip-all-verb-get-data-text = 清除所有內容
 
 ## UI

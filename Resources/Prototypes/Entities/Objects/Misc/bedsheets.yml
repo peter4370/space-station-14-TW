@@ -83,7 +83,7 @@
 - type: entity
   id: BedsheetCentcom
   parent: BedsheetBase
-  name: CentComm 床單 | CentComm bedsheet
+  name: 中央司令部 床單 | CentComm bedsheet
   description: 採用先進的奈米紗線編織而成，既保暖又極具裝飾性，是所有官員的必備單品。 | Woven with advanced nanothread for warmth as well as being very decorated, essential for all officials.
   components:
   - type: Sprite

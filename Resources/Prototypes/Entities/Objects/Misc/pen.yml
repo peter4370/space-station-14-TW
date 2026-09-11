@@ -107,7 +107,7 @@
     price: 500
 
 - type: entity
-  name: CentComm 鋼筆 | CentComm pen
+  name: 中央司令部 鋼筆 | CentComm pen
   parent: [BaseAdvancedPen, BaseCentcommContraband]
   id: PenCentcom
   description: 為了跟上「賽博太陽」官僚體系的「勢力」，NT 依照其企業風格，製作了一支仿製的賽博筆。 | In an attempt to keep up with the "power" of the cybersun bureaucracy, NT made a replica of cyber pen, in their corporate style.

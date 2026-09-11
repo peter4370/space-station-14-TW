@@ -29,7 +29,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCentCom
-  name: CentComm 包耳式耳機 | CentComm over-ear headset
+  name: 中央司令部 包耳式耳機 | CentComm over-ear headset
   components:
   - type: ContainerFill
     containers:

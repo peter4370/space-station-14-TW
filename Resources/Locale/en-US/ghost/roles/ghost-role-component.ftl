@@ -140,8 +140,8 @@ ghost-role-information-ert-medical-name = ERT Medical
 ghost-role-information-ert-medical-description = 協助醫療團隊解決該站所面臨的問題。
 ghost-role-information-cburn-agent-name = CBURN 代理程式
 ghost-role-information-cburn-agent-description = 一名受過高度訓練的中央司令部特工，能夠應對各種威脅。
-ghost-role-information-centcom-official-name = CentComm 官方
-ghost-role-information-centcom-official-description = 執行與 CentComm 相關的職務，例如巡查站內、為各部門主管撰寫績效評估，以及管理傳真機。
+ghost-role-information-centcom-official-name = 中央司令部 官方
+ghost-role-information-centcom-official-description = 執行與 中央司令部 相關的職務，例如巡查站內、為各部門主管撰寫績效評估，以及管理傳真機。
 ghost-role-information-nukeop-rules = 你是一名 [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color]，與其他所有核武特工並肩行動。無法保證辛迪加的特工會協助你。
 ghost-role-information-loneop-name = 獨行特工
 ghost-role-information-loneop-description = 你是一名孤身一人的核武特工。摧毀這座基地！

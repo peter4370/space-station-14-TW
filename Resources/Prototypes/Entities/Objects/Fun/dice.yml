@@ -80,7 +80,7 @@
 - type: entity
   parent: BaseDice
   id: d6Dice
-  name: d6 | d6
+  name: 六面骰 | d6
   description: 一個六面骰。簡單實用。 | A die with six sides. Basic and serviceable.
   components:
   - type: Dice

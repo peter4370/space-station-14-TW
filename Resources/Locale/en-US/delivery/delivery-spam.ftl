@@ -117,11 +117,10 @@ delivery-spam-6 = 來自 NANOTRASN 的公告！！
         
         尊敬的先生、女士，或其他微不足道的電台人員
         
-        若您不希望本電台在
-        { "[head=2][italic]我們偉大而光榮的 [color=blue]Nanotransen[[/color][/head]" }
-        那麼，您必須在 5 [color=blue]nT[/color] 標準工作班次內，安排將三組 [color=blue]Nt[/color] 標準堆疊的 [color=blue]nt[/color] 標準金錠，送往貴站的外貿輸出埠。
+        若您不希望本電台被{ "[head=2][italic]我們偉大而光榮的 [color=blue] Nanotransen [/color][/head]" }宣布為虧本
+        那麼，您必須在 5 [color=blue]Nt[/color]  標準工作班次內，安排將三組 [color=blue]nt[/color] 標準堆疊的 [color=blue]nT[/color] 標準金錠，送往貴站的外貿輸出港。
         
-        { "[head=2][color=red]若無視此命令，將面臨 [color=green]CENTCO[/color] 的報復！！！！[/head][/color]" }
+        { "[head=2][color=red]若無視此命令，將面臨[color=green]中央司令部[/color]的報復！！！！[/head][/color]" }
 delivery-spam-7 = 快派增援！
     .desc = 一份來自……另一條時間線的官方公告？
     .content =

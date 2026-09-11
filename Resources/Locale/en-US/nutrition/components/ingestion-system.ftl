@@ -51,7 +51,7 @@ edible-noun-pill = 藥丸
 edible-verb-edible = 攝入
 edible-verb-food = 吃
 edible-verb-drink = 飲用
-edible-verb-pill = 燕子
+edible-verb-pill = 吞下
 
 ## Force feeding
 

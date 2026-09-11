@@ -12,7 +12,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomAgent
-  name: CentComm 特工的連身工作服 | CentComm agent's jumpsuit
+  name: 中央司令部 特工的連身工作服 | CentComm agent's jumpsuit
   description: 一套由中央司令部法律團隊穿過的西裝。散發著燒焦咖啡的味道。 | A suit worn by CentComm's legal team. Smells of burnt coffee.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomOfficer
-  name: CentComm 軍官的連身工作服 | CentComm officer's jumpsuit
+  name: 中央司令部 軍官的連身工作服 | CentComm officer's jumpsuit
   description: 這是中央司令部軍官穿著的連身工作服。 | It's a jumpsuit worn by CentComm Officers.
   components:
   - type: Sprite

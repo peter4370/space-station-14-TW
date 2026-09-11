@@ -825,7 +825,7 @@
 - type: entity
   parent: BaseSign
   id: SignSpace
-  name: 空格符號 | space sign
+  name: 宇宙符號 | space sign
   description: 一塊告示牌，警告前方區域除了寒冷、空曠的空間之外別無他物。 | A sign warning that the area ahead is nothing but cold, empty space.
   components:
   - type: Sprite

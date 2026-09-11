@@ -306,7 +306,7 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseCentcommContraband ]
   id: ClothingHeadHatCentcom
-  name: CentComm 品牌帽子 | CentComm brand hat
+  name: 中央司令部 品牌帽子 | CentComm brand hat
   description: 當上國王的上司，感覺真不錯。 | Feels good being the king's boss.
   components:
   - type: Sprite
@@ -1198,7 +1198,7 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseCentcommContraband ]
   id: ClothingHeadHatCentcomcap
-  name: CentComm 帽 | CentComm cap
+  name: 中央司令部 帽 | CentComm cap
   description: 中央司令部官員所佩戴的一頂華麗且時尚的帽子。彰顯了由哪位上尉掌舵。 | An extravagant, stylish cap worn by CentComm officials. Shows the Captain who's in charge.
   components:
   - type: Sprite

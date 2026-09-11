@@ -326,7 +326,7 @@
   parent: BasePlushie
   id: PlushieLizard #Weh!
   name: 蜥蜴絨毛玩偶 | lizard plushie
-  description: 一款形似蜥蜴人的可愛絨毛玩偶。由 CentComm 製作，作為對抗職場物種歧視的象徵性舉措。「就像擁抱這隻絨毛玩偶一樣，張開雙臂歡迎你的新同事吧！」 | An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  description: 一款形似蜥蜴人的可愛絨毛玩偶。由 中央司令部 製作，作為對抗職場物種歧視的象徵性舉措。「就像擁抱這隻絨毛玩偶一樣，張開雙臂歡迎你的新同事吧！」 | An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/lizard.rsi
@@ -476,7 +476,7 @@
   parent: PlushieLizard
   id: PlushieSpaceLizard #ᵂᵉʰ!
   name: 太空蜥蜴絨毛玩偶 | space lizard plushie
-  description: 一款可愛的絨毛玩偶，外形酷似身穿 EVA 太空服的蜥蜴人。由 CentComm 製作，作為在太空環境中對抗物種歧視的象徵性舉措。「請像擁抱這隻絨毛玩偶一樣，張開雙臂歡迎你的新同事吧！」 | An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  description: 一款可愛的絨毛玩偶，外形酷似身穿 EVA 太空服的蜥蜴人。由 中央司令部 製作，作為在太空環境中對抗物種歧視的象徵性舉措。「請像擁抱這隻絨毛玩偶一樣，張開雙臂歡迎你的新同事吧！」 | An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/lizard.rsi

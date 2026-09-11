@@ -321,7 +321,7 @@
 
 - type: entity
   id: RadioImplanterCentcomm
-  name: centcomm 無線電植入器 | centcomm radio implanter
+  name: 中央司令部 無線電植入器 | centcomm radio implanter
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -329,7 +329,7 @@
 
 - type: entity
   id: DeathRattleImplanterCentcomm
-  name: centcomm 死亡呻吟植入器 | centcomm death rattle implanter
+  name: 中央司令部 死亡呻吟植入器 | centcomm death rattle implanter
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter

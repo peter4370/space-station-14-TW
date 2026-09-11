@@ -158,7 +158,7 @@
 - type: entity
   parent: [ ClothingOuterWinterCoatToggleable, BaseCentcommContraband ]
   id: ClothingOuterWinterCentcom
-  name: CentComm 冬季大衣 | CentComm winter coat
+  name: 中央司令部 冬季大衣 | CentComm winter coat
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi

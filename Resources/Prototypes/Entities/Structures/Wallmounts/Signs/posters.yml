@@ -707,7 +707,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitStateLaws
-  name: "各州法律 | State Laws"
+  name: "陳述法律 | State Laws"
   description: "一張指示賽博格闡述其法律的海報。 | A poster instructing cyborgs to state their laws."
   components:
   - type: Sprite

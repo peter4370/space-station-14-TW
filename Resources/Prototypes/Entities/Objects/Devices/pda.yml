@@ -192,7 +192,7 @@
 - type: entity
   parent: BasePDA
   id: TechnicalAssistantPDA
-  name: PDA 技術助理 | technical assistant PDA
+  name: 技術助理 PDA | technical assistant PDA
   description: 為什麼不是黃色的呢？ | Why isn't it yellow?
   components:
   - type: Pda
@@ -233,7 +233,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityCadetPDA
-  name: 保安見習生掌上型裝置 (PDA) | security cadet PDA
+  name: 保安見習生 PDA | security cadet PDA
   description: 為什麼不是紅色的？ | Why isn't it red?
   components:
   - type: Pda
@@ -387,7 +387,7 @@
 - type: entity
   parent: BasePDA
   id: MimePDA
-  name: mime PDA | mime PDA
+  name: 默劇演員 PDA | mime PDA
   description: 令人意外的是，它並沒有靜音。 | Suprisingly not on mute.
   components:
   - type: Pda
@@ -442,7 +442,7 @@
     - TraitStatusEffectMuted
 
 - type: entity
-  name: 軍牧 PDA | chaplain PDA
+  name: 牧師 PDA | chaplain PDA
   parent: BasePDA
   id: ChaplainPDA
   description: 上帝所揀選的PDA。 | God's chosen PDA.
@@ -501,7 +501,7 @@
 - type: entity
   parent: BasePDA
   id: CargoPDA
-  name: 貨運PDA | cargo PDA
+  name: 貨運部 PDA | cargo PDA
   description: 專為負責訂購披薩的男士們設計的PDA。 | PDA for the guys that order the pizzas.
   components:
   - type: Pda
@@ -519,7 +519,7 @@
 - type: entity
   parent: BasePDA
   id: SalvagePDA
-  name: PDA 資料復原 | salvage PDA
+  name: 打撈部 PDA | salvage PDA
   description: 聞起來像灰燼。 | Smells like ash.
   components:
   - type: Pda
@@ -547,7 +547,7 @@
 - type: entity
   parent: BasePDA
   id: BartenderPDA
-  name: 調酒師的公開示愛 | bartender PDA
+  name: 調酒師 PDA | bartender PDA
   description: 聞起來像啤酒。 | Smells like beer.
   components:
   - type: Pda
@@ -565,7 +565,7 @@
 - type: entity
   parent: BaseWidePDA
   id: LibrarianPDA
-  name: 圖書館員用 PDA | librarian PDA
+  name: 圖書館員 PDA | librarian PDA
   description: 聞起來像書的味道。 | Smells like books.
   components:
   - type: Pda
@@ -600,7 +600,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: LawyerPDA
-  name: 律師用PDA | lawyer PDA
+  name: 律師 PDA | lawyer PDA
   description: 讓律師招攬來歷可疑的客戶。 | For lawyers to poach dubious clients.
   components:
   - type: Pda
@@ -635,7 +635,7 @@
 - type: entity
   parent: BasePDA
   id: JanitorPDA
-  name: 清潔工的PDA | janitor PDA
+  name: 清潔工 PDA | janitor PDA
   description: 聞起來像漂白水。 | Smells like bleach.
   components:
   - type: Pda
@@ -721,7 +721,7 @@
 - type: entity
   parent: BasePDA
   id: EngineerPDA
-  name: 工程師用 PDA | engineer PDA
+  name: 工程師 PDA | engineer PDA
   description: 堅固耐用，且帶有歲月痕跡。 | Rugged and well-worn.
   components:
   - type: Pda
@@ -760,7 +760,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalPDA
-  name: 醫療用PDA | medical PDA
+  name: 醫療部 PDA | medical PDA
   description: 光亮且無菌。 | Shiny and sterile.
   components:
   - type: Pda
@@ -793,7 +793,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ParamedicPDA
-  name: 急救員用掌上型裝置 | paramedic PDA
+  name: 護理員 PDA | paramedic PDA
   description: 光亮且無菌。 | Shiny and sterile.
   components:
   - type: Pda
@@ -812,7 +812,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ChemistryPDA
-  name: 化學 PDA | chemistry PDA
+  name: 化學部 PDA | chemistry PDA
   description: 上面零星有幾處變色的斑點。 | It has a few discolored blotches here and there.
   components:
   - type: Pda
@@ -831,7 +831,7 @@
 - type: entity
   parent: BasePDA
   id: RnDPDA
-  name: PDA 科學總監 | research director PDA
+  name: 科學總監 PDA | research director PDA
   description: 它看起來出乎意料地普通。 | It appears surprisingly ordinary.
   components:
   - type: Pda
@@ -851,7 +851,7 @@
 - type: entity
   parent: BasePDA
   id: SciencePDA
-  name: 科學型PDA | science PDA
+  name: 科學部 PDA | science PDA
   description: 上面覆蓋著一種不明的黏稠物質。 | It's covered with an unknown gooey substance.
   components:
   - type: Pda
@@ -918,7 +918,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityPDA
-  name: 安全型PDA | security PDA
+  name: 安全部 PDA | security PDA
   description: 紅色是用來掩蓋乘客血液留下的污漬。 | Red to hide the stains of passenger blood.
   components:
   - type: Pda
@@ -936,7 +936,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: CentcomPDA
-  name: CentComm PDA | CentComm PDA
+  name: 中央司令部 PDA | CentComm PDA
   description: 淡綠色標誌，象徵官僚主義的滯緩。 | Light green sign of walking bureaucracy.
   components:
   - type: Pda
@@ -1014,7 +1014,7 @@
 - type: entity
   parent: BasePDA
   id: MusicianPDA
-  name: 音樂人專用PDA | musician PDA
+  name: 音樂人 PDA | musician PDA
   description: 這會讓你充滿靈感。 | It fills you with inspiration.
   components:
   - type: Pda
@@ -1048,7 +1048,7 @@
 - type: entity
   parent: BasePDA
   id: AtmosPDA
-  name: atmos PDA | atmos PDA
+  name: 大氣部 PDA | atmos PDA
   description: 還是有等離子體的味道。 | Still smells like plasma.
   components:
   - type: Pda
@@ -1119,7 +1119,7 @@
 - type: entity
   parent: [ SyndiPDA, BaseSyndicateContraband ]
   id: SyndiOperativePDA
-  name: 辛迪加特工的PDA | syndicate operative PDA
+  name: 辛迪加特工 PDA | syndicate operative PDA
   description: NT 去死吧！ | Death to NT!
   components:
   - type: Pda
@@ -1207,7 +1207,7 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTChaplainPDA
-  name: ERT 隨軍牧師 PDA | ERT Chaplain PDA
+  name: ERT 牧師 PDA | ERT Chaplain PDA
   suffix: Chaplain
   description: 紅色象徵火力，這真是天賜之福。 | Red for firepower, it's blessed.
   components:
@@ -1237,7 +1237,7 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTMedicPDA
-  name: ERT 醫療人員掌上型電腦 | ERT Medic PDA
+  name: ERT 軍醫 PDA | ERT Medic PDA
   suffix: Medic
   description: 紅色象徵火力，它閃閃發亮且毫無生氣。 | Red for firepower, it's shiny and sterile.
   components:
@@ -1247,7 +1247,7 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTSecurityPDA
-  name: ERT Security 掌上型裝置 | ERT Security PDA
+  name: ERT 安保 PDA | ERT Security PDA
   suffix: Security
   description: 紅色代表火力，側面刻有刻度標記。 | Red for firepower, it has tally marks etched on the side.
   components:
@@ -1289,7 +1289,7 @@
 - type: entity
   parent: BasePDA
   id: TramDriverPDA
-  name: 電車司機的PDA | tram driver PDA
+  name: 電車司機 PDA | tram driver PDA
   description: 一位嚴謹的駕駛員總是會準時抵達。 | A serious driver will always arrive on time.
   components:
   - type: Pda
@@ -1350,7 +1350,7 @@
 - type: entity
   parent: BasePDA
   id: BoxerPDA
-  name: Boxer PDA | boxer PDA
+  name: 拳擊手 PDA | boxer PDA
   description: 如蝴蝶般翩然飛舞，如蜜蜂般嗡嗡作響。 | Float like a butterfly, ringtone like a bee.
   components:
   - type: Pda
@@ -1369,7 +1369,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: DetectivePDA
-  name: 偵探用PDA | detective PDA
+  name: 偵探 PDA | detective PDA
   description: 聞起來像要下雨了……雨水正從屋頂傾瀉而下…… | Smells like rain... pouring down the rooftops...
   components:
   - type: Pda
@@ -1397,7 +1397,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: BrigmedicPDA
-  name: brigmedic 掌上型裝置 | brigmedic PDA
+  name: 安保部醫護 PDA | brigmedic PDA
   description: 不知道螢幕上顯示的是誰的心跳呢？希望它不要停止…… | I wonder whose pulse is on the screen? I hope it doesn't stop...
   components:
   - type: Pda
@@ -1454,7 +1454,7 @@
 - type: entity
   parent: BasePDA
   id: SeniorEngineerPDA
-  name: 資深工程師（PDA） | senior engineer PDA
+  name: 資深工程師 PDA | senior engineer PDA
   description: 看來已經被拆解並重新組裝過好幾次了。 | Seems to have been taken apart and put back together several times.
   components:
   - type: Pda
@@ -1473,7 +1473,7 @@
 - type: entity
   parent: BasePDA
   id: SeniorResearcherPDA
-  name: PDA 資深科學家 | senior researcher PDA
+  name: 資深科學家 PDA | senior researcher PDA
   description: 看來它彷彿歷經了多年的化學灼傷和爆炸。 | Looks like it's been through years of chemical burns and explosions.
   components:
   - type: Pda
@@ -1513,7 +1513,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SeniorOfficerPDA
-  name: 高級官員的PDA | senior officer PDA
+  name: 高級官員 PDA | senior officer PDA
   description: 雖然被打得遍體鱗傷、支離破碎，但勉強還能用。 | Beaten, battered and broken, but just barely useable.
   components:
   - type: Pda
@@ -1532,7 +1532,7 @@
 - type: entity
   parent: BasePDA
   id: SeniorCourierPDA
-  name: 資深快遞員用 PDA | senior courier PDA
+  name: 資深快遞員 PDA | senior courier PDA
   description: 聞起來像郵票和穿梭機燃料的味道。 | Smells like postage stamps and shuttle fuel.
   components:
   - type: Pda
@@ -1567,7 +1567,7 @@
 - type: entity
   parent: [ BaseMajorContraband, SyndiPDA ]
   id: PiratePDA
-  name: 海盜版 PDA | pirate PDA
+  name: 海盜 PDA | pirate PDA
   description: 哇嗚！ | Yargh!
   components:
   - type: Pda
@@ -1622,7 +1622,7 @@
 - type: entity
   parent: BaseWidePDA
   id: WizardPDA
-  name: Wizard PDA | wizard PDA
+  name: 巫師 PDA | wizard PDA
   description: 你能聽見從那裡傳來陣陣微弱的低語聲。 | You hear faint whispers coming from it.
   components:
   - type: Pda

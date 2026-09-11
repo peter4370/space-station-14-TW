@@ -788,7 +788,7 @@
       Taco: Orange
 
 - type: entity
-  name: 跨維度的橘子 | extradimensional orange
+  name: 跨維度的柳橙 | extradimensional orange
   parent: FoodProduceBase
   id: FoodExtradimensionalOrange
   description: 這件事實在讓人難以理解。 | You can hardly wrap your head around this thing.

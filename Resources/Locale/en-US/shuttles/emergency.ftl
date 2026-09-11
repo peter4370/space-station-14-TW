@@ -18,7 +18,7 @@ cmd-dockemergencyshuttle-help = 用法：dockemergencyshuttle
 cmd-launchemergencyshuttle-desc = 若情況允許，Early 會盡快發射緊急接駁船。
 cmd-launchemergencyshuttle-help = 用法：launchemergencyshuttle
 # Emergency shuttle
-emergency-shuttle-left = 緊急接駁船已離開站台。預估 { $transitTime } 秒後，接駁船將抵達 CentComm。
+emergency-shuttle-left = 緊急接駁船已離開站台。預估 { $transitTime } 秒後，接駁船將抵達 中央司令部。
 emergency-shuttle-launch-time = 緊急接駁船將於 { $consoleAccumulator } 秒後發射。
 emergency-shuttle-docked = 緊急接駁船已停靠在 { $direction } 站台，{ $location }。它將於 { $time } 秒後出發。{ $extended }
 emergency-shuttle-good-luck = 「緊急穿梭機」無法找到太空站。祝你好運。

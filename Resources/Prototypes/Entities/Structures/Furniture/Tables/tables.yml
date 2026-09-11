@@ -5,8 +5,8 @@
   parent: [ BaseStructure, StructureHealthFurnitureWeak ]
   id: TableFrame
   # BaseStructure and not BaseTable, since these shouldn't be climbable/placeable.
-  name: 桌架 | table frame
-  description: 構成桌架的金屬部件。 | Pieces of metal that make the frame of a table.
+  name: 桌子框架 | table frame
+  description: 構成桌子框架的金屬部件。 | Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -99,7 +99,7 @@
   parent: [ BaseStructure, StructureHealthFurnitureWeak ]
   id: CounterMetalFrame
   name: 金屬檯面框架 | metal counter frame
-  description: 構成桌架的金屬部件。 | Pieces of metal that make the frame of a table.
+  description: 構成桌子框架的金屬部件。 | Pieces of metal that make the frame of a table.
   components:
   - type: SpriteFade
   - type: Sprite
@@ -258,7 +258,7 @@
   parent: [ TableBase, StructureHealthFurnitureWeak ]
   id: TableCard
   name: 紙板桌 | cardboard table
-  description: 將紙板片包裹在金屬桌架上。 | Cardboard sheets wrapped around a metal table frame.
+  description: 將紙板片包裹在金屬桌框架上。 | Cardboard sheets wrapped around a metal table frame.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/card.rsi

@@ -387,7 +387,7 @@
   parent: BaseSubdermalImplant
   id: RadioImplantCentcomm
   name: 無線電植入裝置 | radio implant
-  description: 此植入裝置可讓使用者無需頭戴式耳機即可接通 Centcomm 頻道。僅限 Centcomm 員工使用。 | This implant grants access to the Centcomm channel without a headset. Only authorized for Centcomm employees.
+  description: 此植入裝置可讓使用者無需頭戴式耳機即可接通 中央司令部 頻道。僅限 中央司令部 員工使用。 | This implant grants access to the Centcomm channel without a headset. Only authorized for Centcomm employees.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
