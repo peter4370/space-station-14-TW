@@ -1,612 +1,410 @@
-marking-HumanHairAfro = Afro
-marking-HumanHairAfro-afro = Afro
-
-marking-HumanHairAfro2 = Afro 2
-marking-HumanHairAfro2-afro2 = Afro 2
-
-marking-HumanHairBigafro = Afro (Large)
-marking-HumanHairBigafro-bigafro = Afro (Large)
-
-marking-HumanHairAntenna = Ahoge
-marking-HumanHairAntenna-antenna = Ahoge
-
-marking-HumanHairBaby = Baby
-marking-HumanHairBaby-baby = Baby
-
-marking-HumanHairBalding = Balding Hair
-marking-HumanHairBalding-e = Balding Hair
-
-marking-HumanHairBedhead = Bedhead
-marking-HumanHairBedhead-bedhead = Bedhead
-
-marking-HumanHairBedheadv2 = Bedhead 2
-marking-HumanHairBedheadv2-bedheadv2 = Bedhead 2
-
-marking-HumanHairBedheadv3 = Bedhead 3
-marking-HumanHairBedheadv3-bedheadv3 = Bedhead 3
-
-marking-HumanHairLongBedhead = Long Bedhead
-marking-HumanHairLongBedhead-long_bedhead = Long Bedhead
-
-marking-HumanHairLongBedhead2 = Long Bedhead 2
-marking-HumanHairLongBedhead2-long_bedhead2 = Long Bedhead 2
-
-marking-HumanHairFloorlengthBedhead = Floorlength Bedhead
-marking-HumanHairFloorlengthBedhead-floorlength_bedhead = Floorlength Bedhead
-
-marking-HumanHairBeehive = Beehive
-marking-HumanHairBeehive-beehive = Beehive
-
-marking-HumanHairBeehivev2 = Beehive 2
-marking-HumanHairBeehivev2-beehivev2 = Beehive 2
-
-marking-HumanHairBob = Bob Hair
-marking-HumanHairBob-bob = Bob Hair
-
-marking-HumanHairBob2 = Bob Hair 2
-marking-HumanHairBob2-bob2 = Bob Hair 2
-
-marking-HumanHairBobcut = Bob Hair 3
-marking-HumanHairBobcut-bob3 = Bob Hair 3
-
-marking-HumanHairBob4 = Bob Hair 4
-marking-HumanHairBob4-bob4 = Bob Hair 4
-
-marking-HumanHairBob5 = Bob Hair 5
-marking-HumanHairBob5-bob5 = Bob Hair 5
-
+marking-HumanHairAfro = 非洲風
+marking-HumanHairAfro-afro = 非洲風
+marking-HumanHairAfro2 = 《Afro 2》
+marking-HumanHairAfro2-afro2 = 《Afro 2》
+marking-HumanHairBigafro = 非洲風（大號）
+marking-HumanHairBigafro-bigafro = 非洲風（大號）
+marking-HumanHairAntenna = 阿霍格
+marking-HumanHairAntenna-antenna = 阿霍格
+marking-HumanHairBaby = 寶寶
+marking-HumanHairBaby-baby = 寶寶
+marking-HumanHairBalding = 脫髮
+marking-HumanHairBalding-e = 脫髮
+marking-HumanHairBedhead = 亂髮
+marking-HumanHairBedhead-bedhead = 亂髮
+marking-HumanHairBedheadv2 = 《Bedhead 2》
+marking-HumanHairBedheadv2-bedheadv2 = 《Bedhead 2》
+marking-HumanHairBedheadv3 = 《Bedhead 3》
+marking-HumanHairBedheadv3-bedheadv3 = 《Bedhead 3》
+marking-HumanHairLongBedhead = 長床頭
+marking-HumanHairLongBedhead-long_bedhead = 長床頭
+marking-HumanHairLongBedhead2 = 《長床頭 2》
+marking-HumanHairLongBedhead2-long_bedhead2 = 《長床頭 2》
+marking-HumanHairFloorlengthBedhead = 及地床頭板
+marking-HumanHairFloorlengthBedhead-floorlength_bedhead = 及地床頭板
+marking-HumanHairBeehive = 蜂巢
+marking-HumanHairBeehive-beehive = 蜂巢
+marking-HumanHairBeehivev2 = 蜂巢 2
+marking-HumanHairBeehivev2-beehivev2 = 蜂巢 2
+marking-HumanHairBob = 鮑伯·海爾
+marking-HumanHairBob-bob = 鮑伯·海爾
+marking-HumanHairBob2 = 鮑伯的頭髮 2
+marking-HumanHairBob2-bob2 = 鮑伯的頭髮 2
+marking-HumanHairBobcut = 鮑伯的頭髮 3
+marking-HumanHairBobcut-bob3 = 鮑伯的頭髮 3
+marking-HumanHairBob4 = 鮑伯的頭髮 4
+marking-HumanHairBob4-bob4 = 鮑伯的頭髮 4
+marking-HumanHairBob5 = 鮑伯·海爾 5
+marking-HumanHairBob5-bob5 = 鮑伯·海爾 5
 marking-HumanHairBobcurl = Bobcurl
 marking-HumanHairBobcurl-bobcurl = Bobcurl
-
-marking-HumanHairBoddicker = Boddicker
-marking-HumanHairBoddicker-boddicker = Boddicker
-
-marking-HumanHairBowlcut = Bowlcut
-marking-HumanHairBowlcut-bowlcut = Bowlcut
-
-marking-HumanHairBowlcut2 = Bowlcut 2
-marking-HumanHairBowlcut2-bowlcut2 = Bowlcut 2
-
-marking-HumanHairBraid = Braid (Floorlength)
-marking-HumanHairBraid-braid = Braid (Floorlength)
-
-marking-HumanHairBraided = Braided
-marking-HumanHairBraided-braided = Braided
-
-marking-HumanHairBraidfront = Braided Front
-marking-HumanHairBraidfront-braidfront = Braided Front
-
-marking-HumanHairBraid2 = Braid (High)
-marking-HumanHairBraid2-braid2 = Braid (High)
-
-marking-HumanHairHbraid = Braid (Low)
-marking-HumanHairHbraid-hbraid = Braid (Low)
-
-marking-HumanHairShortbraid = Braid (Short)
-marking-HumanHairShortbraid-shortbraid = Braid (Short)
-
-marking-HumanHairBraidtail = Braided Tail
-marking-HumanHairBraidtail-braidtail = Braided Tail
-
-marking-HumanHairBun = Bun Head
-marking-HumanHairBun-bun = Bun Head
-
-marking-HumanHairBunhead2 = Bun Head 2
-marking-HumanHairBunhead2-bunhead2 = Bun Head 2
-
-marking-HumanHairBun3 = Bun Head 3
-marking-HumanHairBun3-bunhead3 = Bun Head 3
-
-marking-HumanHairLargebun = Bun (Large)
-marking-HumanHairLargebun-largebun = Bun (Large)
-
-marking-HumanHairManbun = Bun (Manbun)
-marking-HumanHairManbun-manbun = Bun (Manbun)
-
-marking-HumanHairTightbun = Bun (Tight)
-marking-HumanHairTightbun-tightbun = Bun (Tight)
-
-marking-HumanHairBusiness = Business Hair
-marking-HumanHairBusiness-business = Business Hair
-
-marking-HumanHairBusiness2 = Business Hair 2
-marking-HumanHairBusiness2-business2 = Business Hair 2
-
-marking-HumanHairBusiness3 = Business Hair 3
-marking-HumanHairBusiness3-business3 = Business Hair 3
-
-marking-HumanHairBusiness4 = Business Hair 4
-marking-HumanHairBusiness4-business4 = Business Hair 4
-
-marking-HumanHairBuzzcut = Buzzcut
-marking-HumanHairBuzzcut-buzzcut = Buzzcut
-
-marking-HumanHairCia = CIA
-marking-HumanHairCia-cia = CIA
-
-marking-HumanHairClassicAfro = Classic Afro
-marking-HumanHairClassicAfro-classicafro = Classic Afro
-
-marking-HumanHairClassicBigAfro = Classic Big Afro
-marking-HumanHairClassicBigAfro-classicbigafro = Classic Big Afro
-
-marking-HumanHairClassicBusiness = Classic Business Hair
-marking-HumanHairClassicBusiness-classicbusiness = Classic Business Hair
-
-marking-HumanHairClassicCia = Classic CIA
-marking-HumanHairClassicCia-classiccia = Classic CIA
-
-marking-HumanHairClassicCornrows2 = Classic Cornrows 2
-marking-HumanHairClassicCornrows2-classiccornrows2 = Classic Cornrows 2
-
-marking-HumanHairClassicFloorlengthBedhead = Classic Floorlength Bedhead
-marking-HumanHairClassicFloorlengthBedhead-classicfloorlength_bedhead = Classic Floorlength Bedhead
-
-marking-HumanHairClassicLong2 = Classic Long Hair 2
-marking-HumanHairClassicLong2-classiclong2 = Classic Long Hair 2
-
-marking-HumanHairClassicLong3 = Classic Long Hair 3
-marking-HumanHairClassicLong3-classiclong3 = Classic Long Hair 3
-
-marking-HumanHairClassicModern = Classic Modern
-marking-HumanHairClassicModern-classicmodern = Classic Modern
-
-marking-HumanHairClassicMulder = Classic Mulder
-marking-HumanHairClassicMulder-classicmulder = Classic Mulder
-
-marking-HumanHairClassicWisp = Classic Wisp
-marking-HumanHairClassicWisp-classicwisp = Classic Wisp
-
-marking-HumanHairCoffeehouse = Coffee House
-marking-HumanHairCoffeehouse-coffeehouse = Coffee House
-
-marking-HumanHairCombover = Combover
-marking-HumanHairCombover-combover = Combover
-
-marking-HumanHairCornrows = Cornrows
-marking-HumanHairCornrows-cornrows = Cornrows
-
-marking-HumanHairCornrows2 = Cornrows 2
-marking-HumanHairCornrows2-cornrows2 = Cornrows 2
-
-marking-HumanHairCornrowbun = Cornrow Bun
-marking-HumanHairCornrowbun-cornrowbun = Cornrow Bun
-
-marking-HumanHairCornrowbraid = Cornrow Braid
-marking-HumanHairCornrowbraid-cornrowbraid = Cornrow Braid
-
-marking-HumanHairCornrowtail = Cornrow Tail
-marking-HumanHairCornrowtail-cornrowtail = Cornrow Tail
-
-marking-HumanHairCrewcut = Crewcut
-marking-HumanHairCrewcut-crewcut = Crewcut
-
-marking-HumanHairCrewcut2 = Crewcut 2
-marking-HumanHairCrewcut2-crewcut2 = Crewcut 2
-
-marking-HumanHairCube = Cube
-marking-HumanHairCube-cube = Cube
-
-marking-HumanHairCurls = Curls
-marking-HumanHairCurls-curls = Curls
-
-marking-HumanHairC = Cut Hair
-marking-HumanHairC-c = Cut Hair
-
-marking-HumanHairDandypompadour = Dandy Pompadour
-marking-HumanHairDandypompadour-dandypompadour = Dandy Pompadour
-
-marking-HumanHairDevilock = Devil Lock
-marking-HumanHairDevilock-devilock = Devil Lock
-
-marking-HumanHairDoublebun = Double Bun
-marking-HumanHairDoublebun-doublebun = Double Bun
-
-marking-HumanHairDoublebunLong = Double Bun Long
-marking-HumanHairDoublebunLong-doublebun_long = Double Bun Long
-
-marking-HumanHairDreads = Dreadlocks
-marking-HumanHairDreads-dreads = Dreadlocks
-
+marking-HumanHairBoddicker = 博迪克
+marking-HumanHairBoddicker-boddicker = 博迪克
+marking-HumanHairBowlcut = 碗型髮型
+marking-HumanHairBowlcut-bowlcut = 碗型髮型
+marking-HumanHairBowlcut2 = 平頭髮型 2
+marking-HumanHairBowlcut2-bowlcut2 = 平頭髮型 2
+marking-HumanHairBraid = 編織款（及地長款）
+marking-HumanHairBraid-braid = 編織款（及地長款）
+marking-HumanHairBraided = 編織的
+marking-HumanHairBraided-braided = 編織的
+marking-HumanHairBraidfront = 編織前襟
+marking-HumanHairBraidfront-braidfront = 編織前襟
+marking-HumanHairBraid2 = 辮子（高）
+marking-HumanHairBraid2-braid2 = 辮子（高）
+marking-HumanHairHbraid = 辮子（低）
+marking-HumanHairHbraid-hbraid = 辮子（低）
+marking-HumanHairShortbraid = 《Braid》（短篇）
+marking-HumanHairShortbraid-shortbraid = 《Braid》（短篇）
+marking-HumanHairBraidtail = 編織尾巴
+marking-HumanHairBraidtail-braidtail = 編織尾巴
+marking-HumanHairBun = 包頭
+marking-HumanHairBun-bun = 包頭
+marking-HumanHairBunhead2 = 「包頭 2」
+marking-HumanHairBunhead2-bunhead2 = 「包頭 2」
+marking-HumanHairBun3 = 「包頭 3」
+marking-HumanHairBun3-bunhead3 = 「包頭 3」
+marking-HumanHairLargebun = 麵包（大號）
+marking-HumanHairLargebun-largebun = 麵包（大號）
+marking-HumanHairManbun = 髮髻（男式髮髻）
+marking-HumanHairManbun-manbun = 髮髻（男式髮髻）
+marking-HumanHairTightbun = 包子（緊實）
+marking-HumanHairTightbun-tightbun = 包子（緊實）
+marking-HumanHairBusiness = 商務髮型
+marking-HumanHairBusiness-business = 商務髮型
+marking-HumanHairBusiness2 = 商務髮型 2
+marking-HumanHairBusiness2-business2 = 商務髮型 2
+marking-HumanHairBusiness3 = 商務髮型 3
+marking-HumanHairBusiness3-business3 = 商務髮型 3
+marking-HumanHairBusiness4 = 商務髮型 4
+marking-HumanHairBusiness4-business4 = 商務髮型 4
+marking-HumanHairBuzzcut = 平頭
+marking-HumanHairBuzzcut-buzzcut = 平頭
+marking-HumanHairCia = 中情局
+marking-HumanHairCia-cia = 中情局
+marking-HumanHairClassicAfro = 經典非洲式髮型
+marking-HumanHairClassicAfro-classicafro = 經典非洲式髮型
+marking-HumanHairClassicBigAfro = 經典大爆炸頭
+marking-HumanHairClassicBigAfro-classicbigafro = 經典大爆炸頭
+marking-HumanHairClassicBusiness = 經典商務髮型
+marking-HumanHairClassicBusiness-classicbusiness = 經典商務髮型
+marking-HumanHairClassicCia = 經典的中情局
+marking-HumanHairClassicCia-classiccia = 經典的中情局
+marking-HumanHairClassicCornrows2 = 經典玉米辮 2
+marking-HumanHairClassicCornrows2-classiccornrows2 = 經典玉米辮 2
+marking-HumanHairClassicFloorlengthBedhead = 經典及地床頭板
+marking-HumanHairClassicFloorlengthBedhead-classicfloorlength_bedhead = 經典及地床頭板
+marking-HumanHairClassicLong2 = 經典長髮 2
+marking-HumanHairClassicLong2-classiclong2 = 經典長髮 2
+marking-HumanHairClassicLong3 = 經典長髮 3
+marking-HumanHairClassicLong3-classiclong3 = 經典長髮 3
+marking-HumanHairClassicModern = 經典現代
+marking-HumanHairClassicModern-classicmodern = 經典現代
+marking-HumanHairClassicMulder = 經典的穆德
+marking-HumanHairClassicMulder-classicmulder = 經典的穆德
+marking-HumanHairClassicWisp = 經典 Wisp
+marking-HumanHairClassicWisp-classicwisp = 經典 Wisp
+marking-HumanHairCoffeehouse = 咖啡館
+marking-HumanHairCoffeehouse-coffeehouse = 咖啡館
+marking-HumanHairCombover = 掩蓋禿頭的髮型
+marking-HumanHairCombover-combover = 掩蓋禿頭的髮型
+marking-HumanHairCornrows = 玉米辮
+marking-HumanHairCornrows-cornrows = 玉米辮
+marking-HumanHairCornrows2 = 玉米辮 2
+marking-HumanHairCornrows2-cornrows2 = 玉米辮 2
+marking-HumanHairCornrowbun = 玉米辮髮髻
+marking-HumanHairCornrowbun-cornrowbun = 玉米辮髮髻
+marking-HumanHairCornrowbraid = 玉米辮
+marking-HumanHairCornrowbraid-cornrowbraid = 玉米辮
+marking-HumanHairCornrowtail = 玉米辮尾
+marking-HumanHairCornrowtail-cornrowtail = 玉米辮尾
+marking-HumanHairCrewcut = 平頭
+marking-HumanHairCrewcut-crewcut = 平頭
+marking-HumanHairCrewcut2 = 平頭 2
+marking-HumanHairCrewcut2-crewcut2 = 平頭 2
+marking-HumanHairCube = 立方體
+marking-HumanHairCube-cube = 立方體
+marking-HumanHairCurls = 捲髮
+marking-HumanHairCurls-curls = 捲髮
+marking-HumanHairC = 理髮
+marking-HumanHairC-c = 理髮
+marking-HumanHairDandypompadour = 花花公子龐帕杜
+marking-HumanHairDandypompadour-dandypompadour = 花花公子龐帕杜
+marking-HumanHairDevilock = 惡魔之鎖
+marking-HumanHairDevilock-devilock = 惡魔之鎖
+marking-HumanHairDoublebun = 雙丸子頭
+marking-HumanHairDoublebun-doublebun = 雙丸子頭
+marking-HumanHairDoublebunLong = 雙髒龍
+marking-HumanHairDoublebunLong-doublebun_long = 雙髒龍
+marking-HumanHairDreads = 辮髮
+marking-HumanHairDreads-dreads = 辮髮
 marking-HumanHairDrillruru = Drillruru
 marking-HumanHairDrillruru-drillruru = Drillruru
-
-marking-HumanHairDrillhairextended = Drill Hair (Extended)
-marking-HumanHairDrillhairextended-drillhairextended = Drill Hair (Extended)
-
+marking-HumanHairDrillhairextended = 鑽頭髮（加長版）
+marking-HumanHairDrillhairextended-drillhairextended = 鑽頭髮（加長版）
 marking-HumanHairEmo = Emo
 marking-HumanHairEmo-emo = Emo
-
-marking-HumanHairEmofringe = Emo Fringe
-marking-HumanHairEmofringe-emofringe = Emo Fringe
-
-marking-HumanHairNofade = Fade (None)
-marking-HumanHairNofade-nofade = Fade (None)
-
-marking-HumanHairHighfade = Fade (High)
-marking-HumanHairHighfade-highfade = Fade (High)
-
-marking-HumanHairMedfade = Fade (Medium)
-marking-HumanHairMedfade-medfade = Fade (Medium)
-
-marking-HumanHairLowfade = Fade (Low)
-marking-HumanHairLowfade-lowfade = Fade (Low)
-
-marking-HumanHairBaldfade = Fade (Bald)
-marking-HumanHairBaldfade-baldfade = Fade (Bald)
-
-marking-HumanHairFeather = Feather
-marking-HumanHairFeather-feather = Feather
-
-marking-HumanHairFather = Father
-marking-HumanHairFather-father = Father
-
-marking-HumanHairSargeant = Flat Top
-marking-HumanHairSargeant-sargeant = Flat Top
-
+marking-HumanHairEmofringe = 情緒流瀏海
+marking-HumanHairEmofringe-emofringe = 情緒流瀏海
+marking-HumanHairNofade = 淡出（無）
+marking-HumanHairNofade-nofade = 淡出（無）
+marking-HumanHairHighfade = 淡入淡出（高）
+marking-HumanHairHighfade-highfade = 淡入淡出（高）
+marking-HumanHairMedfade = 淡入淡出（中）
+marking-HumanHairMedfade-medfade = 淡入淡出（中）
+marking-HumanHairLowfade = 淡出（低）
+marking-HumanHairLowfade-lowfade = 淡出（低）
+marking-HumanHairBaldfade = 漸禿（禿頭）
+marking-HumanHairBaldfade-baldfade = 漸禿（禿頭）
+marking-HumanHairFeather = 羽毛
+marking-HumanHairFeather-feather = 羽毛
+marking-HumanHairFather = 父親
+marking-HumanHairFather-father = 父親
+marking-HumanHairSargeant = 平頂
+marking-HumanHairSargeant-sargeant = 平頂
 marking-HumanHairFlair = Flair
 marking-HumanHairFlair-flair = Flair
-
-marking-HumanHairBigflattop = Flat Top (Big)
-marking-HumanHairBigflattop-bigflattop = Flat Top (Big)
-
+marking-HumanHairBigflattop = 平頂（大號）
+marking-HumanHairBigflattop-bigflattop = 平頂（大號）
 marking-HumanHairFlow = Flow Hair
 marking-HumanHairFlow-f = Flow Hair
-
-marking-HumanHairGelled = Gelled Back
-marking-HumanHairGelled-gelled = Gelled Back
-
-marking-HumanHairGentle = Gentle
-marking-HumanHairGentle-gentle = Gentle
-
-marking-HumanHairHalfbang = Half-banged Hair
-marking-HumanHairHalfbang-halfbang = Half-banged Hair
-
-marking-HumanHairHalfbang2 = Half-banged Hair 2
-marking-HumanHairHalfbang2-halfbang2 = Half-banged Hair 2
-
-marking-HumanHairHalfshaved = Half-shaved
-marking-HumanHairHalfshaved-halfshaved = Half-shaved
-
-marking-HumanHairHedgehog = Hedgehog Hair
-marking-HumanHairHedgehog-hedgehog = Hedgehog Hair
-
-marking-HumanHairHimecut = Hime Cut
-marking-HumanHairHimecut-himecut = Hime Cut
-
-marking-HumanHairHimecut2 = Hime Cut 2
-marking-HumanHairHimecut2-himecut2 = Hime Cut 2
-
-marking-HumanHairShorthime = Hime Cut (Short)
-marking-HumanHairShorthime-shorthime = Hime Cut (Short)
-
-marking-HumanHairHimeup = Hime Updo
-marking-HumanHairHimeup-himeup = Hime Updo
-
+marking-HumanHairGelled = 凝膠造型後梳髮型
+marking-HumanHairGelled-gelled = 凝膠造型後梳髮型
+marking-HumanHairGentle = 溫和的
+marking-HumanHairGentle-gentle = 溫和的
+marking-HumanHairHalfbang = 半側瀏海
+marking-HumanHairHalfbang-halfbang = 半側瀏海
+marking-HumanHairHalfbang2 = 半側瀏海 2
+marking-HumanHairHalfbang2-halfbang2 = 半側瀏海 2
+marking-HumanHairHalfshaved = 半剃
+marking-HumanHairHalfshaved-halfshaved = 半剃
+marking-HumanHairHedgehog = 刺蝟髮型
+marking-HumanHairHedgehog-hedgehog = 刺蝟髮型
+marking-HumanHairHimecut = 公主剪
+marking-HumanHairHimecut-himecut = 公主剪
+marking-HumanHairHimecut2 = 公主剪髮 2
+marking-HumanHairHimecut2-himecut2 = 公主剪髮 2
+marking-HumanHairShorthime = 公主頭（短髮）
+marking-HumanHairShorthime-shorthime = 公主頭（短髮）
+marking-HumanHairHimeup = 公主風盤髮
+marking-HumanHairHimeup-himeup = 公主風盤髮
 marking-HumanHairHitop = Hitop
 marking-HumanHairHitop-hitop = Hitop
-
-marking-HumanHairJade = Jade
-marking-HumanHairJade-jade = Jade
-
+marking-HumanHairJade = 翡翠
+marking-HumanHairJade-jade = 翡翠
 marking-HumanHairJensen = Jensen Hair
 marking-HumanHairJensen-jensen = Jensen Hair
-
-marking-HumanHairJoestar = Joestar
-marking-HumanHairJoestar-joestar = Joestar
-
-marking-HumanHairKeanu = Keanu Hair
-marking-HumanHairKeanu-keanu = Keanu Hair
-
-marking-HumanHairKusanagi = Kusanagi Hair
-marking-HumanHairKusanagi-kusanagi = Kusanagi Hair
-
-marking-HumanHairLongBow = Long Bow
-marking-HumanHairLongBow-longbow = Long Bow
-
-marking-HumanHairLong = Long Hair 1
-marking-HumanHairLong-long = Long Hair 1
-
-marking-HumanHairLong2 = Long Hair 2
-marking-HumanHairLong2-long2 = Long Hair 2
-
-marking-HumanHairLong3 = Long Hair 3
-marking-HumanHairLong3-long3 = Long Hair 3
-
-marking-HumanHairLongWithBundles = Long With Bundles
-marking-HumanHairLongWithBundles-longbundled = Long With Bundles
-
-marking-HumanHairLongovereye = Long Over Eye
-marking-HumanHairLongovereye-longovereye = Primary
-marking-HumanHairLongovereye-longovereye_highlight = Highlight
-
-marking-HumanHairLbangs = Long Bangs
-marking-HumanHairLbangs-lbangs = Long Bangs
-
-marking-HumanHairLongemo = Long Emo
-marking-HumanHairLongemo-longemo = Long Emo
-
-marking-HumanHairLongfringe = Long Fringe
-marking-HumanHairLongfringe-longfringe = Long Fringe
-
-marking-HumanHairLongsidepart = Long Side Part
-marking-HumanHairLongsidepart-longsidepart = Long Side Part
-
-marking-HumanHairMegaeyebrows = Mega Eyebrows
-marking-HumanHairMegaeyebrows-megaeyebrows = Mega Eyebrows
-
-marking-HumanHairMessy = Messy
-marking-HumanHairMessy-messy = Messy
-
-marking-HumanHairModern = Modern
-marking-HumanHairModern-modern = Modern
-
-marking-HumanHairMohawk = Mohawk
-marking-HumanHairMohawk-d = Mohawk
-
+marking-HumanHairJoestar = 喬斯達
+marking-HumanHairJoestar-joestar = 喬斯達
+marking-HumanHairKeanu = 基努的髮型
+marking-HumanHairKeanu-keanu = 基努的髮型
+marking-HumanHairKusanagi = 草薙髮型
+marking-HumanHairKusanagi-kusanagi = 草薙髮型
+marking-HumanHairLongBow = 長弓
+marking-HumanHairLongBow-longbow = 長弓
+marking-HumanHairLong = 長髮 1
+marking-HumanHairLong-long = 長髮 1
+marking-HumanHairLong2 = 長髮 2
+marking-HumanHairLong2-long2 = 長髮 2
+marking-HumanHairLong3 = 長髮 3
+marking-HumanHairLong3-long3 = 長髮 3
+marking-HumanHairLongWithBundles = 長條搭配束狀
+marking-HumanHairLongWithBundles-longbundled = 長條搭配束狀
+marking-HumanHairLongovereye = 長款覆眼式
+marking-HumanHairLongovereye-longovereye = 小學
+marking-HumanHairLongovereye-longovereye_highlight = 重點標示
+marking-HumanHairLbangs = 長瀏海
+marking-HumanHairLbangs-lbangs = 長瀏海
+marking-HumanHairLongemo = 長篇情緒文
+marking-HumanHairLongemo-longemo = 長篇情緒文
+marking-HumanHairLongfringe = 長瀏海
+marking-HumanHairLongfringe-longfringe = 長瀏海
+marking-HumanHairLongsidepart = 長側分
+marking-HumanHairLongsidepart-longsidepart = 長側分
+marking-HumanHairMegaeyebrows = 超濃眉
+marking-HumanHairMegaeyebrows-megaeyebrows = 超濃眉
+marking-HumanHairMessy = 亂糟糟的
+marking-HumanHairMessy-messy = 亂糟糟的
+marking-HumanHairModern = 現代
+marking-HumanHairModern-modern = 現代
+marking-HumanHairMohawk = 莫霍克族
+marking-HumanHairMohawk-d = 莫霍克族
 marking-HumanHairNitori = Nitori
 marking-HumanHairNitori-nitori = Nitori
-
-marking-HumanHairReversemohawk = Mohawk (Reverse)
-marking-HumanHairReversemohawk-reversemohawk = Mohawk (Reverse)
-
-marking-HumanHairUnshavenMohawk = Mohawk (Unshaven)
-marking-HumanHairUnshavenMohawk-unshaven_mohawk = Mohawk (Unshaven)
-
-marking-HumanHairMulder = Mulder
-marking-HumanHairMulder-mulder = Mulder
-
-marking-HumanHairOdango = Odango
-marking-HumanHairOdango-odango = Odango
-
-marking-HumanHairOmbre = Ombre
-marking-HumanHairOmbre-ombre = Ombre
-
-marking-HumanHairOneshoulder = One Shoulder
-marking-HumanHairOneshoulder-oneshoulder = One Shoulder
-
-marking-HumanHairShortovereye = Over Eye
-marking-HumanHairShortovereye-shortovereye = Over Eye
-
-marking-HumanHairOxton = Oxton
-marking-HumanHairOxton-oxton = Oxton
-
-marking-HumanHairParted = Parted
-marking-HumanHairParted-parted = Parted
-
-marking-HumanHairPart = Parted (Side)
-marking-HumanHairPart-part = Parted (Side)
-
-marking-HumanHairKagami = Pigtails
-marking-HumanHairKagami-kagami = Pigtails
-
-marking-HumanHairPigtails = Pigtails 2
-marking-HumanHairPigtails-pigtails2 = Pigtails 2
-
-marking-HumanHairPigtails2 = Pigtails 3
-marking-HumanHairPigtails2-pigtails3 = Pigtails 3
-
-marking-HumanHairPixie = Pixie Cut
-marking-HumanHairPixie-pixie = Pixie Cut
-
-marking-HumanHairPompadour = Pompadour
-marking-HumanHairPompadour-pompadour = Pompadour
-
-marking-HumanHairBigpompadour = Pompadour (Big)
-marking-HumanHairBigpompadour- = Pompadour (Big)
-
-marking-HumanHairPonytail = Ponytail
-marking-HumanHairPonytail-bigpompadour = Ponytail
-
-marking-HumanHairPonytail2 = Ponytail 2
-marking-HumanHairPonytail2-ponytail2 = Ponytail 2
-
-marking-HumanHairPonytail3 = Ponytail 3
-marking-HumanHairPonytail3-ponytail3 = Ponytail 3
-
-marking-HumanHairPonytail4 = Ponytail 4
-marking-HumanHairPonytail4-ponytail4 = Ponytail 4
-
-marking-HumanHairPonytail5 = Ponytail 5
-marking-HumanHairPonytail5-ponytail5 = Ponytail 5
-
-marking-HumanHairPonytail6 = Ponytail 6
-marking-HumanHairPonytail6-ponytail6 = Ponytail 6
-
-marking-HumanHairPonytail7 = Ponytail 7
-marking-HumanHairPonytail7-ponytail7 = Ponytail 7
-
-marking-HumanHairHighponytail = Ponytail (High)
-marking-HumanHairHighponytail-highponytail = Ponytail (High)
-
-marking-HumanHairStail = Ponytail (Short)
-marking-HumanHairStail-stail = Ponytail (Short)
-
-marking-HumanHairLongstraightponytail = Ponytail (Long)
-marking-HumanHairLongstraightponytail-longstraightponytail = Ponytail (Long)
-
-marking-HumanHairCountry = Ponytail (Country)
-marking-HumanHairCountry-country = Ponytail (Country)
-
-marking-HumanHairFringetail = Ponytail (Fringe)
-marking-HumanHairFringetail-fringetail = Ponytail (Fringe)
-
-marking-HumanHairSidetail = Ponytail (Side)
-marking-HumanHairSidetail-sidetail = Ponytail (Side)
-
-marking-HumanHairSidetail2 = Ponytail (Side) 2
-marking-HumanHairSidetail2-sidetail2 = Ponytail (Side) 2
-
-marking-HumanHairSidetail3 = Ponytail (Side) 3
-marking-HumanHairSidetail3-sidetail3 = Ponytail (Side) 3
-
-marking-HumanHairSidetail4 = Ponytail (Side) 4
-marking-HumanHairSidetail4-sidetail4 = Ponytail (Side) 4
-
-marking-HumanHairSpikyponytail = Ponytail (Spiky)
-marking-HumanHairSpikyponytail-spikyponytail = Ponytail (Spiky)
-
-marking-HumanHairPoofy = Poofy
-marking-HumanHairPoofy-poofy = Poofy
-
-marking-HumanHairPulato = Pulato
-marking-HumanHairPulato-pulato = Pulato
-
+marking-HumanHairReversemohawk = 莫霍克（反面）
+marking-HumanHairReversemohawk-reversemohawk = 莫霍克（反面）
+marking-HumanHairUnshavenMohawk = 莫霍克髮型（未剃）
+marking-HumanHairUnshavenMohawk-unshaven_mohawk = 莫霍克髮型（未剃）
+marking-HumanHairMulder = 穆德
+marking-HumanHairMulder-mulder = 穆德
+marking-HumanHairOdango = 奧丹戈
+marking-HumanHairOdango-odango = 奧丹戈
+marking-HumanHairOmbre = 漸層
+marking-HumanHairOmbre-ombre = 漸層
+marking-HumanHairOneshoulder = 單肩
+marking-HumanHairOneshoulder-oneshoulder = 單肩
+marking-HumanHairShortovereye = 眼上
+marking-HumanHairShortovereye-shortovereye = 眼上
+marking-HumanHairOxton = 奧克斯頓
+marking-HumanHairOxton-oxton = 奧克斯頓
+marking-HumanHairParted = 分離
+marking-HumanHairParted-parted = 分離
+marking-HumanHairPart = 分邊（側分）
+marking-HumanHairPart-part = 分邊（側分）
+marking-HumanHairKagami = 麻花辮
+marking-HumanHairKagami-kagami = 麻花辮
+marking-HumanHairPigtails = 辮子 2
+marking-HumanHairPigtails-pigtails2 = 辮子 2
+marking-HumanHairPigtails2 = 辮子 3
+marking-HumanHairPigtails2-pigtails3 = 辮子 3
+marking-HumanHairPixie = 精靈短髮
+marking-HumanHairPixie-pixie = 精靈短髮
+marking-HumanHairPompadour = 龐巴杜
+marking-HumanHairPompadour-pompadour = 龐巴杜
+marking-HumanHairBigpompadour = 龐巴杜（大號）
+marking-HumanHairBigpompadour- = 龐巴杜（大號）
+marking-HumanHairPonytail = 馬尾辮
+marking-HumanHairPonytail-bigpompadour = 馬尾辮
+marking-HumanHairPonytail2 = 馬尾辮 2
+marking-HumanHairPonytail2-ponytail2 = 馬尾辮 2
+marking-HumanHairPonytail3 = 馬尾辮 3
+marking-HumanHairPonytail3-ponytail3 = 馬尾辮 3
+marking-HumanHairPonytail4 = 馬尾辮 4
+marking-HumanHairPonytail4-ponytail4 = 馬尾辮 4
+marking-HumanHairPonytail5 = 馬尾辮 5
+marking-HumanHairPonytail5-ponytail5 = 馬尾辮 5
+marking-HumanHairPonytail6 = 馬尾 6
+marking-HumanHairPonytail6-ponytail6 = 馬尾 6
+marking-HumanHairPonytail7 = 馬尾辮 7
+marking-HumanHairPonytail7-ponytail7 = 馬尾辮 7
+marking-HumanHairHighponytail = 高馬尾
+marking-HumanHairHighponytail-highponytail = 高馬尾
+marking-HumanHairStail = 馬尾（短款）
+marking-HumanHairStail-stail = 馬尾（短款）
+marking-HumanHairLongstraightponytail = 馬尾（長髮）
+marking-HumanHairLongstraightponytail-longstraightponytail = 馬尾（長髮）
+marking-HumanHairCountry = 馬尾辮（鄉村）
+marking-HumanHairCountry-country = 馬尾辮（鄉村）
+marking-HumanHairFringetail = 馬尾（瀏海）
+marking-HumanHairFringetail-fringetail = 馬尾（瀏海）
+marking-HumanHairSidetail = 馬尾（側梳）
+marking-HumanHairSidetail-sidetail = 馬尾（側梳）
+marking-HumanHairSidetail2 = 馬尾（側邊）2
+marking-HumanHairSidetail2-sidetail2 = 馬尾（側邊）2
+marking-HumanHairSidetail3 = 馬尾（側梳）3
+marking-HumanHairSidetail3-sidetail3 = 馬尾（側梳）3
+marking-HumanHairSidetail4 = 馬尾（側梳）4
+marking-HumanHairSidetail4-sidetail4 = 馬尾（側梳）4
+marking-HumanHairSpikyponytail = 馬尾（刺蝟頭）
+marking-HumanHairSpikyponytail-spikyponytail = 馬尾（刺蝟頭）
+marking-HumanHairPoofy = 蓬蓬的
+marking-HumanHairPoofy-poofy = 蓬蓬的
+marking-HumanHairPulato = 普拉托
+marking-HumanHairPulato-pulato = 普拉托
 marking-HumanHairQuiff = Quiff
 marking-HumanHairQuiff-quiff = Quiff
-
-marking-HumanHairRonin = Ronin
-marking-HumanHairRonin-ronin = Ronin
-
-marking-HumanHairShaped = Shaped
-marking-HumanHairShaped-shaped = Shaped
-
-marking-HumanHairShaved = Shaved
-marking-HumanHairShaved-shaved = Shaved
-
-marking-HumanHairShavedpart = Shaved Part
-marking-HumanHairShavedpart-shavedpart = Shaved Part
-
-marking-HumanHairShortbangs = Short Bangs
-marking-HumanHairShortbangs-shortbangs = Short Bangs
-
-marking-HumanHairA = Short Hair
-marking-HumanHairA-a = Short Hair
-
-marking-HumanHairShorthair2 = Short Hair 2
-marking-HumanHairShorthair2-shorthair2 = Short Hair 2
-
-marking-HumanHairShorthair3 = Short Hair 3
-marking-HumanHairShorthair3-shorthair3 = Short Hair 3
-
-marking-HumanHairD = Short Hair 4
-marking-HumanHairD-d = Short Hair 4
-
-marking-HumanHairE = Short Hair 5
-marking-HumanHairE-e = Short Hair 5
-
-marking-HumanHairF = Short Hair 6
-marking-HumanHairF-f = Short Hair 6
-
-marking-HumanHairShorthairg = Short Hair 7
-marking-HumanHairShorthairg-shorthairg = Short Hair 7
-
-marking-HumanHair80s = Short Hair 80s
-marking-HumanHair80s-80s = Short Hair 80s
-
-marking-HumanHairRosa = Short Hair Rosa
-marking-HumanHairRosa-rosa = Short Hair Rosa
-
-marking-HumanHairB = Shoulder-length Hair
-marking-HumanHairB-b = Shoulder-length Hair
-
-marking-HumanHairBAlt = Shoulder-length Hair (Over eye)
-marking-HumanHairBAlt-b_alt = Shoulder-length Hair (Over eye)
-
-marking-HumanHairSidecut = Sidecut
-marking-HumanHairSidecut-sidecut = Sidecut
-
-marking-HumanHairSkinhead = Skinhead
-marking-HumanHairSkinhead-skinhead = Skinhead
-
-marking-HumanHairProtagonist = Slightly Long Hair
-marking-HumanHairProtagonist-protagonist = Slightly Long Hair
-
-marking-HumanHairSpikey = Spiky
-marking-HumanHairSpikey-spikey = Spiky
-
-marking-HumanHairSpiky = Spiky 2
-marking-HumanHairSpiky-spiky = Spiky 2
-
+marking-HumanHairRonin = 浪人
+marking-HumanHairRonin-ronin = 浪人
+marking-HumanHairShaped = 成形
+marking-HumanHairShaped-shaped = 成形
+marking-HumanHairShaved = 剃光了
+marking-HumanHairShaved-shaved = 剃光了
+marking-HumanHairShavedpart = 剃光處
+marking-HumanHairShavedpart-shavedpart = 剃光處
+marking-HumanHairShortbangs = 短瀏海
+marking-HumanHairShortbangs-shortbangs = 短瀏海
+marking-HumanHairA = 短髮
+marking-HumanHairA-a = 短髮
+marking-HumanHairShorthair2 = 短髮 2
+marking-HumanHairShorthair2-shorthair2 = 短髮 2
+marking-HumanHairShorthair3 = 短髮 3
+marking-HumanHairShorthair3-shorthair3 = 短髮 3
+marking-HumanHairD = 短髮 4
+marking-HumanHairD-d = 短髮 4
+marking-HumanHairE = 短髮 5
+marking-HumanHairE-e = 短髮 5
+marking-HumanHairF = 短髮 6
+marking-HumanHairF-f = 短髮 6
+marking-HumanHairShorthairg = 短髮 7
+marking-HumanHairShorthairg-shorthairg = 短髮 7
+marking-HumanHair80s = 80年代的短髮
+marking-HumanHair80s-80s = 80年代的短髮
+marking-HumanHairRosa = 短髮蘿莎
+marking-HumanHairRosa-rosa = 短髮蘿莎
+marking-HumanHairB = 及肩長髮
+marking-HumanHairB-b = 及肩長髮
+marking-HumanHairBAlt = 及肩長髮（遮住眼睛）
+marking-HumanHairBAlt-b_alt = 及肩長髮（遮住眼睛）
+marking-HumanHairSidecut = 側切
+marking-HumanHairSidecut-sidecut = 側切
+marking-HumanHairSkinhead = 光頭黨
+marking-HumanHairSkinhead-skinhead = 光頭黨
+marking-HumanHairProtagonist = 略長的頭髮
+marking-HumanHairProtagonist-protagonist = 略長的頭髮
+marking-HumanHairSpikey = 刺刺的
+marking-HumanHairSpikey-spikey = 刺刺的
+marking-HumanHairSpiky = 《Spiky 2》
+marking-HumanHairSpiky-spiky = 《Spiky 2》
 marking-HumanHairSpiky2 = Spiky 3
 marking-HumanHairSpiky2-spiky2 = Spiky 3
-
-marking-HumanHairSpookyLong = Spooky Long
-marking-HumanHairSpookyLong-spookylong = Spooky Long
-
-marking-HumanHairSwept = Swept Back Hair
-marking-HumanHairSwept-swept = Swept Back Hair
-
-marking-HumanHairSwept2 = Swept Back Hair 2
-marking-HumanHairSwept2-swept2 = Swept Back Hair 2
-
-marking-HumanHairTailed = Tailed
-marking-HumanHairTailed-tailed = Tailed
-
-marking-HumanHairThinning = Thinning
-marking-HumanHairThinning-thinning = Thinning
-
-marking-HumanHairThinningfront = Thinning (Front)
-marking-HumanHairThinningfront-thinningfront = Thinning (Front)
-
-marking-HumanHairThinningrear = Thinning (Rear)
-marking-HumanHairThinningrear-thinningrear = Thinning (Rear)
-
-marking-HumanHairTopknot = Topknot
-marking-HumanHairTopknot-topknot = Topknot
-
-marking-HumanHairTressshoulder = Tress Shoulder
-marking-HumanHairTressshoulder-tressshoulder = Tress Shoulder
-
-marking-HumanHairTrimmed = Trimmed
-marking-HumanHairTrimmed-trimmed = Trimmed
-
-marking-HumanHairTrimflat = Trim Flat
-marking-HumanHairTrimflat-trimflat = Trim Flat
-
-marking-HumanHairTwintail = Twintails
-marking-HumanHairTwintail-twintail = Twintails
-
-marking-HumanHairTwoStrands = Two Strands
-marking-HumanHairTwoStrands-twostrands = Two Strands
-
-marking-HumanHairUndercut = Undercut
-marking-HumanHairUndercut-undercut = Undercut
-
-marking-HumanHairUndercutleft = Undercut Left
-marking-HumanHairUndercutleft-undercutleft = Undercut Left
-
-marking-HumanHairUndercutright = Undercut Right
-marking-HumanHairUndercutright-undercutright = Undercut Right
-
-marking-HumanHairUneven = Uneven
-marking-HumanHairUneven-uneven = Uneven
-
-marking-HumanHairUnkept = Unkept
-marking-HumanHairUnkept-unkept = Unkept
-
-marking-HumanHairUpdo = Updo
-marking-HumanHairUpdo-updo = Updo
-
-marking-HumanHairVlong = Very Long Hair
-marking-HumanHairVlong-vlong = Very Long Hair
-
-marking-HumanHairLongest = Very Long Hair 2
-marking-HumanHairLongest-longest = Very Long Hair 2
-
-marking-HumanHairLongest2 = Very Long Over Eye
-marking-HumanHairLongest2-longest2 = Primary
-marking-HumanHairLongest2-longovereye_highlight = Highlight
-
-marking-HumanHairVeryshortovereyealternate = Very Short (Over Eye)
-marking-HumanHairVeryshortovereyealternate- = Very Short (Over Eye)
-
-marking-HumanHairVlongfringe = Very Long with Fringe
-marking-HumanHairVlongfringe-vlongfringe = Very Long with Fringe
-
+marking-HumanHairSpookyLong = 斯普基·朗
+marking-HumanHairSpookyLong-spookylong = 斯普基·朗
+marking-HumanHairSwept = 向後梳的髮型
+marking-HumanHairSwept-swept = 向後梳的髮型
+marking-HumanHairSwept2 = 向後梳的髮型 2
+marking-HumanHairSwept2-swept2 = 向後梳的髮型 2
+marking-HumanHairTailed = 帶尾的
+marking-HumanHairTailed-tailed = 帶尾的
+marking-HumanHairThinning = 疏枝
+marking-HumanHairThinning-thinning = 疏枝
+marking-HumanHairThinningfront = 疏剪（前側）
+marking-HumanHairThinningfront-thinningfront = 疏剪（前側）
+marking-HumanHairThinningrear = 疏剪（後側）
+marking-HumanHairThinningrear-thinningrear = 疏剪（後側）
+marking-HumanHairTopknot = 頂髻
+marking-HumanHairTopknot-topknot = 頂髻
+marking-HumanHairTressshoulder = 特雷斯·肖爾德
+marking-HumanHairTressshoulder-tressshoulder = 特雷斯·肖爾德
+marking-HumanHairTrimmed = 已修剪
+marking-HumanHairTrimmed-trimmed = 已修剪
+marking-HumanHairTrimflat = 修整至平整
+marking-HumanHairTrimflat-trimflat = 修整至平整
+marking-HumanHairTwintail = 雙馬尾
+marking-HumanHairTwintail-twintail = 雙馬尾
+marking-HumanHairTwoStrands = 兩條線
+marking-HumanHairTwoStrands-twostrands = 兩條線
+marking-HumanHairUndercut = 內切
+marking-HumanHairUndercut-undercut = 內切
+marking-HumanHairUndercutleft = 左下切
+marking-HumanHairUndercutleft-undercutleft = 左下切
+marking-HumanHairUndercutright = 右側下切
+marking-HumanHairUndercutright-undercutright = 右側下切
+marking-HumanHairUneven = 不均勻
+marking-HumanHairUneven-uneven = 不均勻
+marking-HumanHairUnkept = 未整理
+marking-HumanHairUnkept-unkept = 未整理
+marking-HumanHairUpdo = 盤髮
+marking-HumanHairUpdo-updo = 盤髮
+marking-HumanHairVlong = 非常長的頭髮
+marking-HumanHairVlong-vlong = 非常長的頭髮
+marking-HumanHairLongest = 超長髮 2
+marking-HumanHairLongest-longest = 超長髮 2
+marking-HumanHairLongest2 = 超長眼頭款
+marking-HumanHairLongest2-longest2 = 小學
+marking-HumanHairLongest2-longovereye_highlight = 重點標示
+marking-HumanHairVeryshortovereyealternate = 極短款（覆眼式）
+marking-HumanHairVeryshortovereyealternate- = 極短款（覆眼式）
+marking-HumanHairVlongfringe = 超長款，帶流蘇
+marking-HumanHairVlongfringe-vlongfringe = 超長款，帶流蘇
 marking-HumanHairVolaju = Volaju
 marking-HumanHairVolaju-volaju = Volaju
-
 marking-HumanHairWisp = Wisp
 marking-HumanHairWisp-wisp = Wisp
-
-marking-HumanHairLongWithBangs = Long With Bangs
-marking-HumanHairLongWithBangs-longwithbangs = Long With Bangs
-
-marking-HumanHairOverEyePigtail = Pigtail (Over Eye)
-marking-HumanHairOverEyePigtail-overeyepigtail = Pigtail (Over Eye)
-
-marking-HumanHairTerminal = Terminal
-marking-HumanHairTerminal-terminal = Primary
-marking-HumanHairTerminal-terminal_highlight = Highlight
-marking-HumanHairTerminal-terminal_headband = Headband
+marking-HumanHairLongWithBangs = 長髮配瀏海
+marking-HumanHairLongWithBangs-longwithbangs = 長髮配瀏海
+marking-HumanHairOverEyePigtail = 辮子（遮眼式）
+marking-HumanHairOverEyePigtail-overeyepigtail = 辮子（遮眼式）
+marking-HumanHairTerminal = 終端機
+marking-HumanHairTerminal-terminal = 小學
+marking-HumanHairTerminal-terminal_highlight = 重點標示
+marking-HumanHairTerminal-terminal_headband = 頭帶

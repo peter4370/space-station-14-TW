@@ -1,2 +1,2 @@
-event-log-webhook-title = Event Logged
-event-log-webhook-footer = server: { $serverName }, round: { $roundId }
+event-log-webhook-title = 事件已記錄
+event-log-webhook-footer = 伺服器：{ $serverName }, 輪播：{ $roundId }

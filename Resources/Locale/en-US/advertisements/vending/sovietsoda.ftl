@@ -1,9 +1,9 @@
 ﻿advertisement-sovietsoda-1 = For comrade and country.
-advertisement-sovietsoda-2 = Have you fulfilled your nutrition quota today?
-advertisement-sovietsoda-3 = Very nice!
-advertisement-sovietsoda-4 = We are simple people, for this is all we eat.
-advertisement-sovietsoda-5 = If there is a person, there is a problem. If there is no person, then there is no problem.
-advertisement-sovietsoda-6 = If its good enough for daily life, it's good enough for us!
-thankyou-sovietsoda-1 = Enjoy, comrade!
-thankyou-sovietsoda-2 = Now get back to work.
-thankyou-sovietsoda-3 = This is all you're getting.
+advertisement-sovietsoda-2 = 你今天攝取的營養量夠了嗎？
+advertisement-sovietsoda-3 = 真棒！
+advertisement-sovietsoda-4 = 我們是樸實的人，因為這便是我們唯一的食物。
+advertisement-sovietsoda-5 = 若有人，便有問題；若無人，便無問題。
+advertisement-sovietsoda-6 = 如果它足以應付日常生活，那對我們來說就足夠了！
+thankyou-sovietsoda-1 = 請盡情享受吧，同志！
+thankyou-sovietsoda-2 = 現在回去工作吧。
+thankyou-sovietsoda-3 = 你只能得到這些了。

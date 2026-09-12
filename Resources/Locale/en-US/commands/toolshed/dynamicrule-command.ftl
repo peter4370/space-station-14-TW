@@ -1,16 +1,8 @@
-command-description-dynamicrule-list =
-    Lists all currently active dynamic rules, usually this is just one.
-command-description-dynamicrule-get =
-    Gets the currently active dynamic rule.
-command-description-dynamicrule-budget =
-    Gets the current budget of the piped dynamic rule(s).
-command-description-dynamicrule-adjust =
-    Adjusts the budget of the piped dynamic rule(s) by the specified amount.
-command-description-dynamicrule-set =
-    Sets the budget of the piped dynamic rule(s) to the specified amount.
-command-description-dynamicrule-dryrun =
-    Returns a list of rules that could be activated if the rule ran at this moment with all current context. This is not a complete list of every single rule that could be run, just a sample of the current valid ones.
-command-description-dynamicrule-executenow =
-    Executes the piped dynamic rule as if it had reached its regular update time.
-command-description-dynamicrule-rules =
-    Gets a list of all the rules spawned by the piped dynamic rule.
+command-description-dynamicrule-list = 列出所有目前有效的動態規則，通常只有一則。
+command-description-dynamicrule-get = 取得目前有效的動態規則。
+command-description-dynamicrule-budget = 取得透過管道傳遞的動態規則的當前預算。
+command-description-dynamicrule-adjust = 將串接動態規則的預算調整為指定金額。
+command-description-dynamicrule-set = 將串接的動態規則的預算設定為指定金額。
+command-description-dynamicrule-dryrun = 回傳一組規則清單，這些規則若在當前時刻以所有當前上下文執行，便可能被觸發。這並非所有可能執行的規則之完整清單，僅為當前有效規則的樣本。
+command-description-dynamicrule-executenow = 執行該管線式動態規則，就如同該規則已達到其例行更新時間一般。
+command-description-dynamicrule-rules = 取得由管道化動態規則所產生之所有規則的清單。

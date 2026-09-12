@@ -1,11 +1,9 @@
-item-recall-marked-name = Recall {CAPITALIZE($item)}
-item-recall-marked-description = Recall {THE($item)} back into your hand.
-
-item-recall-item-marked = You draw a magical sigil on {THE($item)}.
-item-recall-item-already-marked = {CAPITALIZE(THE($item))} is already marked!
-item-recall-item-mark-empty = You must be holding an item!
-item-recall-item-summon-self = {CAPITALIZE(THE($item))} appears in your hand!
-item-recall-item-summon-others = {CAPITALIZE(THE($item))} appears in {THE($name)}'s hand!
-item-recall-item-disappear = {CAPITALIZE(THE($item))} disappears!
-item-recall-item-unmark = You feel your connection with {THE($item)} sever.
-
+item-recall-marked-name = Recall { CAPITALIZE($item) }
+item-recall-marked-description = 將 { THE($item) } 收回至你的手牌中。
+item-recall-item-marked = 你在 { THE($item) } 上畫了一個魔法符文。
+item-recall-item-already-marked = { CAPITALIZE(THE($item)) } 已標記！
+item-recall-item-mark-empty = 你一定拿著某樣東西！
+item-recall-item-summon-self = { CAPITALIZE(THE($item)) } 出現在你的手中！
+item-recall-item-summon-others = { CAPITALIZE(THE($item)) } 出現在 { THE($name) } 的手中！
+item-recall-item-disappear = { CAPITALIZE(THE($item)) } 消失了！
+item-recall-item-unmark = 你感覺自己與 { THE($item) } 的連結已中斷。

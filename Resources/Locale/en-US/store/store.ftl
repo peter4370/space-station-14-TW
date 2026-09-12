@@ -1,20 +1,17 @@
-store-ui-default-title = Store
-store-ui-default-withdraw-text = Withdraw
-store-ui-refund-text = Refund
-store-ui-balance-display = {$currency}: {$amount}
-store-ui-price-display = {$amount} {$currency}
-store-ui-discount-display-with-currency =  {$amount} off on {$currency}
-store-ui-discount-display =  ({$amount} off!)
-store-ui-traitor-flavor = Copyright (C) NT -30643
-store-ui-traitor-warning = Operatives must lock their uplinks after use to avoid detection.
-
-store-withdraw-button-ui = Withdraw {$currency}
-store-ui-button-out-of-stock = {""} (Out of Stock)
-store-not-account-owner = This {$store} is not bound to you!
-
-store-preset-name-uplink = Uplink
-store-preset-name-spellbook = Spellbook
-store-preset-name-nukie-delivery = NukeOps Bluespace Delivery
+store-ui-default-title = 商店
+store-ui-default-withdraw-text = 提領
+store-ui-refund-text = 退款
+store-ui-balance-display = { $currency }: { $amount }
+store-ui-price-display = { $amount } { $currency }
+store-ui-discount-display-with-currency = { $amount } 關閉 { $currency }
+store-ui-discount-display = ({ $amount } 關閉！）
+store-ui-traitor-flavor = 版權所有 (C) NT -30643
+store-ui-traitor-warning = 特工在使用後必須鎖定其上行鏈路，以避免被偵測。
+store-withdraw-button-ui = 提款 { $currency }
+store-ui-button-out-of-stock = { "" } (缺貨)
+store-not-account-owner = 這個 { $store } 並未與您綁定！
+store-preset-name-uplink = 上行鏈路
+store-preset-name-spellbook = 法術書
+store-preset-name-nukie-delivery = NukeOps Bluespace 交付
 store-preset-name-changeling = DNA Store
-
-store-listing-locked = Locked
+store-listing-locked = 已鎖定

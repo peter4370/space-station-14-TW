@@ -1,3 +1,3 @@
 # ToiletLidClosed
-construction-examine-condition-toilet-lid-closed = Use a [color=yellow]crowbar[/color] to close the lid.
-construction-step-condition-toilet-lid-closed = Make sure the toilet lid is closed.
+construction-examine-condition-toilet-lid-closed = 請使用 [color=yellow]撬棍[/color] 來關上蓋子。
+construction-step-condition-toilet-lid-closed = 請確保馬桶蓋已關好。

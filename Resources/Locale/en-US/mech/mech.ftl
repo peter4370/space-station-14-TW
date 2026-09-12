@@ -1,17 +1,12 @@
-mech-equipment-begin-install = Installing {THE($item)}...
-mech-equipment-finish-install = Finished installing {THE($item)}
-
-mech-equipment-select-popup = {$item} selected
-mech-equipment-select-none-popup = Nothing selected
-
-mech-ui-open-verb = Open control panel
-
-mech-menu-title = mech control panel
-
-mech-integrity-display = Integrity: {$amount}%
-mech-energy-display = Energy: {$amount}%
-mech-energy-missing = Energy: MISSING
-mech-slot-display = Open Slots: {$amount}
-
-mech-construction-guide-string = All mech parts must be attached to the harness.
-mech-construction-guide-string-vim = Two borg legs and an EVA helmet must be attached to the harness.
+mech-equipment-begin-install = 正在安裝 { THE($item) }...
+mech-equipment-finish-install = 已完成安裝 { THE($item) }
+mech-equipment-select-popup = { $item } 已選中
+mech-equipment-select-none-popup = 未選取任何項目
+mech-ui-open-verb = 開啟控制台
+mech-menu-title = 機甲控制面板
+mech-integrity-display = 誠信：{ $amount }%
+mech-energy-display = 能量：{ $amount }%
+mech-energy-missing = 能源：缺失
+mech-slot-display = 尚有空位：{ $amount }
+mech-construction-guide-string = 所有機械零件都必須安裝在線束上。
+mech-construction-guide-string-vim = 必須將兩條博格腿和一頂 EVA 頭盔固定在安全帶上。

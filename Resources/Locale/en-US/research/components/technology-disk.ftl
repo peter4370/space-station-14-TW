@@ -1,12 +1,11 @@
-tech-disk-inserted = You insert the disk, adding a new recipe to the server.
-tech-disk-examine-none = The label is blank.
-tech-disk-examine = The label has a small dot matrix printed image depicting a [bold]{$result}[/bold].
-tech-disk-examine-more = There are more images printed, but they're too small to discern.
-tech-disk-examine-desc = [color=lightGray]A disk for the R&D server containing a [bold]Tier {$tier} {$branch}[/bold] branch research technology.[/color]
-tech-disk-examine-desc-unknown = [color=lightGray]A disk for the R&D server containing research technology.[/color]
-tech-disk-name-format = {$baseName} ({$technology})
-
-tech-disk-ui-name = technology disk terminal
-tech-disk-ui-total-label = There are {$amount} points on the selected server
-tech-disk-ui-cost-label = Each disk costs {$amount} points to print
-tech-disk-ui-print-button = Print Disk
+tech-disk-inserted = 您插入光碟，並在伺服器上新增一道食譜。
+tech-disk-examine-none = 標籤是空白的。
+tech-disk-examine = 標籤上印有一幅小型的點陣圖，描繪了一個 [bold]{ $result }[/bold]。
+tech-disk-examine-more = 雖然還有其他印出的圖像，但它們太小了，無法看清。
+tech-disk-examine-desc = [color=lightGray]一張供研發伺服器使用的磁碟，其中包含 [bold]第 { $tier } { $branch }[/bold] 分支的研究技術。[/color]
+tech-disk-examine-desc-unknown = [color=lightGray]一張存有研究技術的研發伺服器專用光碟。[/color]
+tech-disk-name-format = { $baseName } ({ $technology })
+tech-disk-ui-name = 科技磁碟終端機
+tech-disk-ui-total-label = 所選伺服器上有 { $amount } 個點
+tech-disk-ui-cost-label = 每張光碟的列印費用為 { $amount } 點
+tech-disk-ui-print-button = 列印磁碟

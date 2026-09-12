@@ -1,6 +1,0 @@
-ninja-gloves-on = 手套中迸發出強大的力量！
-ninja-gloves-off = 手套正在關機……
-ninja-gloves-not-wearing-suit = 你沒穿忍者服
-ninja-gloves-examine-on = 所有功能均已啟用。
-ninja-gloves-examine-off = 無聊的老舊手套……
-ninja-doorjack-success = 手套在 { THE($target) } 中擊中了某物。

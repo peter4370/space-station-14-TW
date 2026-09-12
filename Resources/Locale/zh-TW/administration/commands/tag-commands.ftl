@@ -1,9 +1,0 @@
-﻿addtag-command-description = Adds a tag to a given entity
-addtag-command-help = 用法：addtag<entity uid> <tag>
-addtag-command-success = 已將 { $tag } 新增至 { $target }。
-addtag-command-fail = 無法將 { $tag } 新增至 { $target }。
-removetag-command-description = 從指定的實體中移除一個標籤
-removetag-command-help = 用法：removetag<entity uid> <tag>
-removetag-command-success = 已從 { $target } 中移除 { $tag }。
-removetag-command-fail = 無法從 { $target } 中移除 { $tag }。
-tag-command-arg-tag = Tag

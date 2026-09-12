@@ -1,2 +1,2 @@
-sheath-insert-verb = Sheathe
-sheath-eject-verb = Unsheathe
+sheath-insert-verb = 刀鞘
+sheath-eject-verb = 出鞘

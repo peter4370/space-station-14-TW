@@ -1,9 +1,9 @@
 # Clothing speed examine
-clothing-speed-examinable-verb-text = Clothing
-clothing-speed-examinable-verb-message = Examine the clothing speed values.
-clothing-speed-increase-equal-examine = This increases your speed by [color=yellow]{$walkSpeed}%[/color].
-clothing-speed-decrease-equal-examine = This decreases your speed by [color=yellow]{$walkSpeed}%[/color].
-clothing-speed-increase-run-examine = This increases your running speed by [color=yellow]{$runSpeed}%[/color].
-clothing-speed-decrease-run-examine = This decreases your running speed by [color=yellow]{$runSpeed}%[/color].
-clothing-speed-increase-walk-examine = This increases your walking speed by [color=yellow]{$walkSpeed}%[/color].
-clothing-speed-decrease-walk-examine = This decreases your walking speed by [color=yellow]{$walkSpeed}%[/color].
+clothing-speed-examinable-verb-text = 服裝
+clothing-speed-examinable-verb-message = 檢查服裝的速度數值。
+clothing-speed-increase-equal-examine = 這會使你的速度提升 [color=yellow]{ $walkSpeed }%[/color]。
+clothing-speed-decrease-equal-examine = 這會使你的速度降低 [color=yellow]{ $walkSpeed }%[/color]。
+clothing-speed-increase-run-examine = 這會使你的奔跑速度提升 [color=yellow]{ $runSpeed }%[/color]。
+clothing-speed-decrease-run-examine = 這會使你的奔跑速度降低 [color=yellow]{ $runSpeed }%[/color]。
+clothing-speed-increase-walk-examine = 這會使你的步行速度提高 [color=yellow]{ $walkSpeed }%[/color]。
+clothing-speed-decrease-walk-examine = 這會使你的步行速度降低 [color=yellow]{ $walkSpeed }%[/color]。

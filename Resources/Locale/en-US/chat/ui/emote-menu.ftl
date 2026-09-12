@@ -1,3 +1,3 @@
-emote-menu-category-general = General
-emote-menu-category-vocal = Vocal
-emote-menu-category-hands = Hands
+emote-menu-category-general = 概述
+emote-menu-category-vocal = 主唱
+emote-menu-category-hands = 雙手

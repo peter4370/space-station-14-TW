@@ -1,2 +1,2 @@
-parrot-verb-clear-memory = Clear parrot memory
-parrot-popup-memory-cleared = Parrot memory cleared
+parrot-verb-clear-memory = 清除鸚鵡的記憶
+parrot-popup-memory-cleared = 鸚鵡記憶已清除

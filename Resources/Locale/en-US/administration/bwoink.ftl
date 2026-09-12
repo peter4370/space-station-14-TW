@@ -1,37 +1,29 @@
-bwoink-user-title = Admin Message
-bwoink-admin-title = Admin Help
-
-bwoink-system-starmute-message-no-other-users = *System: Nobody is available to receive your message. Try pinging Game Admins on Discord.
-
+bwoink-user-title = 管理員訊息
+bwoink-admin-title = 管理員協助
+bwoink-system-starmute-message-no-other-users = *系統：目前無人可接收您的訊息。請嘗試在 Discord 上向遊戲管理員發送 ping 訊息。
 bwoink-system-messages-being-relayed-to-discord =
-    All messages are relayed to game administrators via Discord.
-    Issues may be handled without a response.
-
+    所有訊息都會透過 Discord 轉發給遊戲管理員。
+    遇到問題時，系統可能會在不另行回覆的情況下進行處理。
 bwoink-system-introductory-message =
-    Please describe the issue that you have encountered in detail. Assume that the game administrator who is resolving the problem does not have first-hand knowledge of what has occurred.
-    Please do not ask for special events or punishments for other players.
-    Any bugs and other related issues should be reported through Discord or Github.
-    Misuse of this message system may result in disciplinary action.
-
-bwoink-system-typing-indicator = {$players} {$count ->
-[one] is
-*[other] are
-} typing...
-
-admin-ahelp-admin-only = Admin Only
-admin-ahelp-admin-only-tooltip = If checked, then the message won't be visible for the player,
-    but will be visible for other admins and still will be Discord relayed.
-
-admin-bwoink-play-sound = Bwoink?
-
-bwoink-title-none-selected = None selected
-
-bwoink-system-rate-limited = System: you are sending messages too quickly.
-bwoink-system-player-disconnecting = has disconnected.
-bwoink-system-player-reconnecting = has reconnected.
-bwoink-system-player-banned = has been banned for: {$banReason}
-
-bwoink-message-admin-only = (Admin Only)
+    請詳細描述您所遇到的問題。請假設負責處理此問題的遊戲管理員並未直接親歷事件經過。
+    請勿要求舉辦特別活動或對其他玩家施加懲處。
+    任何錯誤及其他相關問題，應透過 Discord 或 Github 回報。
+    濫用此訊息系統可能導致紀律處分。
+bwoink-system-typing-indicator =
+    { $players } { $count ->
+        [one] 是
+       *[other] 是
+    } 正在輸入中...
+admin-ahelp-admin-only = 僅限管理員
+admin-ahelp-admin-only-tooltip =
+    若勾選此選項，該訊息將不會顯示給該玩家（
+    ），但其他管理員仍可看見，且該訊息仍會透過 Discord 轉發。
+admin-bwoink-play-sound = 噗嗶？
+bwoink-title-none-selected = 未選取任何項目
+bwoink-system-rate-limited = 系統：您發送訊息的速度過快。
+bwoink-system-player-disconnecting = 已斷線。
+bwoink-system-player-reconnecting = 已重新連線。
+bwoink-system-player-banned = 因以下原因遭封禁：{ $banReason }
+bwoink-message-admin-only = （僅限管理員）
 bwoink-message-silent = (S)
-
 bwoink-message-name-link = (?)

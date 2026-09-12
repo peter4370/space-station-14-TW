@@ -1,23 +1,8 @@
-command-description-body-insert =
-    Inserts the given organ into the body.
-
-command-description-body-organs =
-    Returns all organs contained within the body.
-
-command-description-organ-parent =
-    Returns the parent of the organ.
-
-command-description-organ-children =
-    Returns the children of the organ.
-
-command-description-organ-detach =
-    (DEBUG ONLY) Detaches an organ from its current body into a detached body.
-
-command-description-organ-attach =
-    Attaches an organ to another organ.
-
-command-description-organ-is =
-    Returns if an organ is the given type.
-
-command-description-organ-of_type =
-    Filters to organs of the given type.
+command-description-body-insert = 將指定的器官植入體內。
+command-description-body-organs = 回傳體內所有器官。
+command-description-organ-parent = 回傳該樂器的父級物件。
+command-description-organ-children = 回傳該樂器的子元素。
+command-description-organ-detach = （僅供除錯用）將某個器官從其當前的軀體中分離，並轉移至一個分離後的軀體中。
+command-description-organ-attach = 將一個器官與另一個器官連接起來。
+command-description-organ-is = 若某個器官屬於指定類型，則返回真。
+command-description-organ-of_type = 篩選指定類型的器官。

@@ -1,9 +1,0 @@
-﻿advertisement-nutrimax-1 = We like plants!
-advertisement-nutrimax-2 = 你不想要一點嗎？
-advertisement-nutrimax-3 = 史上最會種植物的人。
-advertisement-nutrimax-4 = 我們喜歡大型植物。
-advertisement-nutrimax-5 = 鬆軟的土壤……
-advertisement-nutrimax-6 = 現在已包含水桶！
-advertisement-nutrimax-7 = 植物越大越好！
-thankyou-nutrimax-1 = 快來種植吧！
-thankyou-nutrimax-2 = 來玩玩泥巴吧！

@@ -1,2 +1,2 @@
-cmd-admin-logs-hint = Username
-cmd-admin-logs-wrong-target = Unable to find user '{$user}'.
+cmd-admin-logs-hint = 使用者名稱
+cmd-admin-logs-wrong-target = 無法找到使用者「{ $user }」。

@@ -1,16 +1,11 @@
-selectable-lock-verb-category-name = Add lock
-
-selectable-lock-no-lock-verb = No lock
-selectable-lock-no-lock-popup = No lock has been added to {THE($target)}.
-
-selectable-lock-voice-verb = Voice Lock
-selectable-lock-voice-popup = A voice lock has been added to {THE($target)}.
-
-selectable-lock-tool-prying-verb = Tool Lock (Crowbar)
-selectable-lock-tool-prying-popup = A prying tool lock has been added to {THE($target)}.
-
-selectable-lock-tool-screwing-verb = Tool Lock (Screwdriver)
-selectable-lock-tool-screwing-popup = A screwing tool lock has been added to {THE($target)}.
-
-selectable-lock-tool-cutting-verb = Tool Lock (Wirecutter)
-selectable-lock-tool-cutting-popup = A cutting tool lock has been added to {THE($target)}.
+selectable-lock-verb-category-name = 新增鎖定
+selectable-lock-no-lock-verb = 無鎖
+selectable-lock-no-lock-popup = 尚未對 { THE($target) } 加上任何鎖定。
+selectable-lock-voice-verb = 語音鎖定
+selectable-lock-voice-popup = 已為 { THE($target) } 新增語音鎖定功能。
+selectable-lock-tool-prying-verb = 工具鎖（撬棍）
+selectable-lock-tool-prying-popup = 已在 { THE($target) } 中新增了一項撬鎖工具。
+selectable-lock-tool-screwing-verb = 工具鎖定裝置（螺絲起子）
+selectable-lock-tool-screwing-popup = 已在 { THE($target) } 中新增了一項螺絲起子鎖定功能。
+selectable-lock-tool-cutting-verb = 工具鎖 (Wirecutter)
+selectable-lock-tool-cutting-popup = 已在 { THE($target) } 中新增切削工具鎖定功能。

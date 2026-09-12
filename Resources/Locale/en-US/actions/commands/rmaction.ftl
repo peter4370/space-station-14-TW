@@ -1,12 +1,9 @@
 # rmaction
-cmd-rmaction-desc = Removes an action from an entity.
-cmd-rmaction-help = rmaction <EntityUid> <ActionUid>
-
-cmd-rmaction-invalid-args = Expected exactly 2 arguments.
-cmd-rmaction-actions-not-found = Target entity cannot use actions.
-cmd-rmaction-not-an-action = Target entity is not an action.
-
+cmd-rmaction-desc = 從實體中移除一個動作。
+cmd-rmaction-help = rmaction<EntityUid> <ActionUid>
+cmd-rmaction-invalid-args = 預期有正好 2 個參數。
+cmd-rmaction-actions-not-found = 目標實體無法執行動作。
+cmd-rmaction-not-an-action = 目標實體並非一個動詞。
 cmd-rmaction-player-completion = <EntityUid>
 cmd-rmaction-action-completion = <ActionUid>
-
-cmd-rmaction-action-info = {$action}
+cmd-rmaction-action-info = { $action }

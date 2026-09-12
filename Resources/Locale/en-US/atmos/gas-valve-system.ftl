@@ -1,5 +1,6 @@
 # Examine Text
-gas-valve-system-examined = The valve is [color={$statusColor}]{$open ->
-    [true]  open
-   *[false] closed
-}[/color].
+gas-valve-system-examined =
+    該閥門的狀態為 [color={ $statusColor }]{ $open ->
+        [true] 開啟
+       *[false] 關閉
+    }[/color]。

@@ -1,3 +1,3 @@
-cmd-zoom-desc = Sets the zoom of the main eye. Optionally also changes the eye's PVS range.
-cmd-zoom-help = zoom ( <scale> | <X-scale> <Y-scale> [bool])
-cmd-zoom-error = scale has to be greater than 0
+cmd-zoom-desc = 設定主視窗的縮放比例。若需調整，亦可變更視窗的 PVS 範圍。
+cmd-zoom-help = zoom (<scale> |<X-scale> <Y-scale> [bool])
+cmd-zoom-error = scale 必須大於 0

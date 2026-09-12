@@ -1,5 +1,5 @@
 # APC
-construction-examine-condition-apc-open = First, screw open the APC.
-construction-examine-condition-apc-close = First, screw shut the APC.
-construction-step-condition-apc-open = The APC electronics panel must be screwed open.
-construction-step-condition-apc-close = The APC electronics panel must be screwed shut.
+construction-examine-condition-apc-open = 首先，將 APC 旋開。
+construction-examine-condition-apc-close = 首先，將 APC 旋緊。
+construction-step-condition-apc-open = 必須用螺絲將 APC 電子面板拆開。
+construction-step-condition-apc-close = APC 電子面板必須用螺絲鎖緊。

@@ -1,4 +1,4 @@
-handheld-radio-component-on-use = The radio is now {$radioState}.
-handheld-radio-component-on-state = on
-handheld-radio-component-off-state = off
-handheld-radio-component-channel-set = Channel set to {$channel}
+handheld-radio-component-on-use = 收音機現在是 { $radioState }。
+handheld-radio-component-on-state = 開啟
+handheld-radio-component-off-state = 關閉
+handheld-radio-component-channel-set = 頻道設定為 { $channel }

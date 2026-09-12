@@ -1,43 +1,45 @@
 ### Voting system related console commands
 
+
 ## 'createvote' command
 
-cmd-createvote-desc = Creates a vote
-cmd-createvote-help = Usage: createvote <'restart'|'preset'|'map'>
-cmd-createvote-cannot-call-vote-now = You can't call a vote right now!
-cmd-createvote-invalid-vote-type = Invalid vote type
+cmd-createvote-desc = 建立一項投票
+cmd-createvote-help = 用法：createvote<'restart'|'preset'|'map'>
+cmd-createvote-cannot-call-vote-now = 現在還不能進行表決！
+cmd-createvote-invalid-vote-type = 投票類型無效
 cmd-createvote-arg-vote-type = <vote type>
 
 ## 'customvote' command
 
-cmd-customvote-desc = Creates a custom vote
-cmd-customvote-help = Usage: customvote <title> <option1> <option2> [option3...]
-cmd-customvote-on-finished-tie = The vote '{$title}' has finished: tie between {$ties}!
-cmd-customvote-on-finished-win = The vote '{$title}' has finished: {$winner} wins!
+cmd-customvote-desc = 建立自訂投票
+cmd-customvote-help = 用法：customvote<title> <option1> <option2> [option3...]
+cmd-customvote-on-finished-tie = 「{ $title }」的投票已結束：{ $ties } 之間票數並列！
+cmd-customvote-on-finished-win = 「{ $title }」的投票已結束：「{ $winner }」獲勝！
 cmd-customvote-arg-title = <title>
 cmd-customvote-arg-option-n = <option{ $n }>
 
 ## 'vote' command
 
-cmd-vote-desc = Votes on an active vote
-cmd-vote-help = vote <voteId> <option>
-cmd-vote-cannot-call-vote-now = You can't call a vote right now!
-cmd-vote-on-execute-error-must-be-player = Must be a player
-cmd-vote-on-execute-error-invalid-vote-id = Invalid vote ID
-cmd-vote-on-execute-error-invalid-vote-options = Invalid vote options
-cmd-vote-on-execute-error-invalid-vote = Invalid vote
-cmd-vote-on-execute-error-invalid-option = Invalid option
+cmd-vote-desc = 針對一項正在進行的投票所投的票
+cmd-vote-help = 投票<voteId> <option>
+cmd-vote-cannot-call-vote-now = 現在還不能進行表決！
+cmd-vote-on-execute-error-must-be-player = 肯定是個玩家
+cmd-vote-on-execute-error-invalid-vote-id = 投票 ID 無效
+cmd-vote-on-execute-error-invalid-vote-options = 無效的投票選項
+cmd-vote-on-execute-error-invalid-vote = 無效票
+cmd-vote-on-execute-error-invalid-option = 選項無效
 
 ## 'listvotes' command
 
-cmd-listvotes-desc = Lists currently active votes
-cmd-listvotes-help = Usage: listvotes
+cmd-listvotes-desc = 列出目前有效的投票
+cmd-listvotes-help = 用法：listvotes
 
 ## 'cancelvote' command
 
-cmd-cancelvote-desc = Cancels an active vote
-cmd-cancelvote-help = Usage: cancelvote <id>
-                      You can get the ID from the listvotes command.
-cmd-cancelvote-error-invalid-vote-id = Invalid vote ID
-cmd-cancelvote-error-missing-vote-id = Missing ID
+cmd-cancelvote-desc = 取消一項正在進行的投票
+cmd-cancelvote-help =
+    用法：cancelvote<id>
+    您可透過 listvotes 指令取得該投票的 ID。
+cmd-cancelvote-error-invalid-vote-id = 投票 ID 無效
+cmd-cancelvote-error-missing-vote-id = 缺少ID卡號碼
 cmd-cancelvote-arg-id = <id>

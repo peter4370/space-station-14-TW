@@ -1,18 +1,18 @@
-wires-component-ui-on-receive-message-no-hands = You have no hands.
-wires-component-ui-on-receive-message-cannot-reach = You can't reach there!
-wires-component-ui-on-receive-message-need-wirecutters = You need to hold a wirecutter in your hand!
-wires-component-ui-on-receive-message-need-multitool = You need to hold a multitool in your hand!
-wires-component-ui-on-receive-message-cannot-pulse-cut-wire = You can't pulse a wire that's been cut!
-wires-component-ui-on-receive-message-cannot-cut-cut-wire = You can't cut a wire that's been cut!
-wires-component-ui-on-receive-message-cannot-mend-uncut-wire = You can't mend a wire that's been mended!
+wires-component-ui-on-receive-message-no-hands = 你沒有手。
+wires-component-ui-on-receive-message-cannot-reach = 你夠不到那裡！
+wires-component-ui-on-receive-message-need-wirecutters = 你得手持一把線剪才行！
+wires-component-ui-on-receive-message-need-multitool = 你手裡一定要拿著一把多功能工具！
+wires-component-ui-on-receive-message-cannot-pulse-cut-wire = 已經被剪斷的電線是無法進行脈衝操作的！
+wires-component-ui-on-receive-message-cannot-cut-cut-wire = 已經被剪斷的電線，是無法再剪斷的！
+wires-component-ui-on-receive-message-cannot-mend-uncut-wire = 已經修過一次的電線，是修不好的！
 
 ## UI
 
-wires-menu-name-label = Wires
+wires-menu-name-label = 電線
 wires-menu-dead-beef-text = DEAD-BEEF
 wires-menu-help-popup =
-    Click on the gold contacts with a multitool in hand to pulse their wire.
-    Click on the wires with a pair of wirecutters in hand to cut/mend them.
-
-    The lights at the top show the state of the machine, messing with wires will probably do stuff to them.
-    Wire layouts are different each round, but consistent between machines of the same type.
+    手持多功能工具點擊金色接點，以對其電線進行脈衝操作。
+    手持剪線鉗點擊電線，以進行剪斷／接合操作。
+    
+    頂部的指示燈顯示機台的狀態，隨意操作電線可能會對其造成影響。
+    每輪的電線佈局各不相同，但同類型機器之間的佈局保持一致。

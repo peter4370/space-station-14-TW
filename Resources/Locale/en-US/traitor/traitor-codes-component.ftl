@@ -1,3 +1,3 @@
-traitor-codes-message-singular = syndicate codeword:
-traitor-codes-message-plural = syndicate codewords:
-traitor-codes-none = no known codewords
+traitor-codes-message-singular = 組織代號：
+traitor-codes-message-plural = 集團代號：
+traitor-codes-none = 沒有已知的編碼詞

@@ -1,47 +1,46 @@
 ## Traitor
 
-traitor-round-end-codewords = The codewords were: [color=White]{$codewords}[/color]
-traitor-round-end-agent-name = traitor
-
-objective-issuer-syndicate = [color=crimson]The Syndicate[/color]
-objective-issuer-unknown = [color=white]Unknown[/color]
+traitor-round-end-codewords = 密碼詞如下：[color=White]{ $codewords }[/color]
+traitor-round-end-agent-name = 叛徒
+objective-issuer-syndicate = [color=crimson]「辛迪加」[/color]
+objective-issuer-unknown = [color=white]未知[/color]
 
 # Shown at the end of a round of Traitor
 
-traitor-title = Traitor
-traitor-description = There are traitors among us...
-traitor-not-enough-ready-players = Not enough players readied up for the game! There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start Traitor.
-traitor-no-one-ready = No players readied up! Can't start Traitor.
+traitor-title = 叛徒
+traitor-description = 我們當中藏有叛徒……
+traitor-not-enough-ready-players = 準備好參戰的玩家人數不足！在所需的 { $minimumPlayers } 名玩家中，僅有 { $readyPlayersCount } 名已做好準備。無法開始「叛徒」模式。
+traitor-no-one-ready = 沒有玩家準備就緒！無法開始「叛徒」模式。
 
 ## TraitorDeathMatch
-traitor-death-match-title = Traitor Deathmatch
-traitor-death-match-description = Everyone's a traitor. Everyone wants each other dead.
-traitor-death-match-station-is-too-unsafe-announcement = The station is too unsafe to continue. You have one minute.
-traitor-death-match-end-round-description-first-line = The PDAs recovered afterwards...
-traitor-death-match-end-round-description-entry = {$originalName}'s PDA, with {$tcBalance} TC
+
+traitor-death-match-title = 叛徒死亡對決
+traitor-death-match-description = 每個人都是叛徒。每個人都想讓對方死。
+traitor-death-match-station-is-too-unsafe-announcement = 這個站點太不安全，無法繼續待下去。你只剩一分鐘。
+traitor-death-match-end-round-description-first-line = 事後找回的PDA……
+traitor-death-match-end-round-description-entry = { $originalName } 的 PDA，搭配 { $tcBalance } TC
 
 ## TraitorRole
 
 # TraitorRole
 traitor-role-greeting =
-    You are an agent sent by [color = darkred]The Syndicate[/color] on behalf of {$corporation}.
-    Your objectives and codewords are listed in the character menu. Use your uplink to buy the tools you'll need for this mission.
-    Death to Nanotrasen!
+    你是由 [color = darkred]辛迪加[/color] 派來代表 { $corporation } 的特工。
+    你的任務目標與代號列於角色選單中。請使用你的上行連結購買執行這項任務所需的裝備。
+    納諾特拉森必亡！
 traitor-role-codewords =
-    The codewords are: [color = lightgray]
-    {$codewords}.[/color]
-    Codewords can be used in regular conversation to identify yourself discreetly to other syndicate agents.
-    Listen for them, and keep them secret.
+    密碼詞如下：[color = lightgray]
+    { $codewords }.[/color]
+    密碼詞可在日常對話中使用，用以向其他組織特工低調地表明身分。
+    請留心聆聽這些詞語，並務必保密。
 traitor-role-uplink-code =
-    Set your ringtone to the notes [color = lightgray]{$code}[/color] to lock or unlock your uplink.
-    Remember to lock it after, or the station's crew might find it!
+    將您的來電鈴聲設定為樂譜 [color = lightgray]{ $code }[/color]，藉此鎖定或解鎖您的上行鏈路。
+    請記得事後將其鎖定，否則站內工作人員可能會發現它！
 traitor-role-uplink-implant =
-    Your uplink implant has been activated, access it from your hotbar.
-    The uplink is secure unless someone removes it from your body.
-
+    您的上行鏈路植入裝置已啟用，請透過快速欄存取。
+    除非有人將其從您體內取出，否則上行鏈路是安全的。
 # don't need all the flavour text for character menu
 traitor-role-codewords-short =
-    The codewords are:
-    {$codewords}.
-traitor-role-uplink-code-short = Your uplink code is {$code}. Set it as your PDA ringtone to access your uplink.
-traitor-role-uplink-implant-short = Your uplink was implanted. Access it from the action menu.
+    密碼詞如下：
+    { $codewords }。
+traitor-role-uplink-code-short = 您的上傳代碼是 { $code }。請將其設定為您的 PDA 鈴聲，即可存取您的上傳服務。
+traitor-role-uplink-implant-short = 您的上行連結已安裝。請從動作選單中開啟它。

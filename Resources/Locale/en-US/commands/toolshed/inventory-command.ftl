@@ -1,22 +1,11 @@
-command-description-inventory-getflags =
-    Gets all entities in slots on the piped inventory entity matching a certain slot flag.
-command-description-inventory-getnamed =
-    Gets all entities in slots on the piped inventory entity matching a certain slot name.
-command-description-inventory-forceput =
-    Puts a given entity on the first piped entity that has a slot matching the given flag, deleting any item previously in that slot.
-command-description-inventory-forcespawn =
-    Spawns a given prototype on the first piped entity that has a slot matching the given flag, deleting any item previously in that slot.
-command-description-inventory-put =
-    Puts a given entity on the first piped entity that has a slot matching the given flag, unequiping any item previously in that slot.
-command-description-inventory-spawn =
-    Spawns a given prototype on the first piped entity that has a slot matching the given flag, unequiping any item previously in that slot.
-command-description-inventory-tryput =
-    Tries to put a given entity on the first piped entity that has a slot matching the given flag, failing if any item is in currently in that slot.
-command-description-inventory-tryspawn =
-    Tries to spawn a given prototype on the first piped entity that has a slot matching the given flag, failing if any item is in currently in that slot.
-command-description-inventory-ensure =
-    Puts a given entity on the first piped entity that has a slot matching the given flag if none exists, passing through the UID of whatever is in the slot by the end.
-command-description-inventory-ensurespawn =
-    Spawns a given prototype on the first piped entity that has a slot matching the given flag if none exists, passing through the UID of whatever is in the slot by the end.
-command-description-inventory-contents =
-    Gets the entities in the inventory slots of the piped entities and passes them along.
+command-description-inventory-getflags = 取得管道化物品欄實體中，符合特定槽位標記的所有實體。
+command-description-inventory-getnamed = 取得管道化物品欄實體中，與特定槽位名稱相符的所有實體。
+command-description-inventory-forceput = 將指定實體放置於第一個具有與該標誌相符的槽位的管線實體上，並刪除該槽位中先前存在的任何項目。
+command-description-inventory-forcespawn = 在第一個具有與指定標記相符的插槽的管道傳遞實體上生成指定的原型，並刪除該插槽中先前存在的任何項目。
+command-description-inventory-put = 將指定實體放置於第一個具備與該標記相符的插槽的管線實體上，並移除該插槽中先前裝備的任何物品。
+command-description-inventory-spawn = 在第一個具備與指定標誌相符的插槽，且透過管道傳入的實體上，生成指定的原型，並卸下該插槽中先前裝備的任何物品。
+command-description-inventory-tryput = 嘗試將指定的實體放置於第一個具有與該標記相符的插槽的管道實體上；若該插槽中目前已有任何項目，則操作失敗。
+command-description-inventory-tryspawn = 嘗試在第一個具有與指定標記相符的插槽的管道實體上生成指定的原型；若該插槽中目前已有任何項目，則操作失敗。
+command-description-inventory-ensure = 若不存在符合條件的實體，則將指定實體置於第一個具有與該旗標相符的槽位的管線實體上；若該槽位已有內容，則保留該內容的 UID。
+command-description-inventory-ensurespawn = 若不存在，則在第一個具有與指定標誌相符的插槽的管道傳遞實體上生成指定的原型；若已存在，則將該插槽中最終所含內容的 UID 傳遞過去。
+command-description-inventory-contents = 取得管道實體的背包格位中的實體，並將其傳遞出去。

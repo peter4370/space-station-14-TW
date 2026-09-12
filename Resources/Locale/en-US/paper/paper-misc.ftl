@@ -1,72 +1,73 @@
-book-text-plasma-trap = Heheheheh, no way in hell they're going to get at our stash NOW, is there?
-      I rigged the area where our stuff's at to be a toasty thousand K.
-      You know how to drain it when we need it out.
-       - J.
-
-book-text-holoparasite-info = Thanks for choosing our holoparasite package!
-      At cybersun, we pride ourselves on cutting-edge military and industrial technology, and greatly appreciate your contribution to our establishment!
-      Guardians are helpful and intelligent beings which nest within your body, completely immune to common hazards such as pressure, temperature and even bullets!
-      You have purchased the holoparasite package, which contains a holoparasite activator, an instruction booklet, and our softcap merchandise.
-      Instructions for use:
-      1. Activate the holoparasite injector (preferably in a secluded area).
-      2. Wait for the tingling and/or painful metaphysical sensation.
-      3. Check your holoparasite for the ability to communicate and cooperate, and capacity to understand your orders.
-      4. Use your recall-manifest ability to summon or recall the holoparasite back into your body.
-      5. Keep the holoparasite within a short distance from yourself, otherwise it will be recalled by force!
-      WARNING: Guardians are metaphysical beings, but draw from your HEALTH in order to exist. Direct damage done to guardians will be partially transferred to you!
-      Cybersun inc. is not responsible for complete annihilation following the misuse of Holoparasite technology.
-
-book-text-ame-scribbles = I don't know if you're trained already, so I hope this'll help.
-      AME controller needs LV power and an HV wire to output to. Check the area with a crowbar if you aren't sure.
-      There should be an empty room next to where you found this, that room's wired for the AME.
-      You can put an AME anywhere if you can get the wires to it, though.
-      3x3 grid of AME parts, multitool them to unpack. Be careful not to 'trap' anything.
-      AME controller adjacent horizontally or vertically (not diagonally) to any point.
-      With only 1 core (what a 3x3 grid will get you), don't turn it up above 2.
-      The golden rule is 2 injection for every 1 core. You can go lower to save fuel.
-      Higher will burn the engine out and eventually make it explode. Don't.
-      Don't forget to refuel it, it tends to stop at the worst possible time.
-
-book-text-agrichemkit-manual = Thank you for choosing the safe-for-all-ages NanoTrasen Agri-Chem is Fun! chemistry kit, the best learning-adjacent toy of 2468! Be prepared to discover all about the biggest innovations in agriculture since people buried fish with their corn seeds.
-
-      Contents:
-      5 handily labeled 30u bottles, 1 each of nitrogen, phosphorus, hydrogen, potassium, and ethanol
-      2 Safe-T-Fun(TM) sized 5u vials, 1 each of chlorine and radium
-      1 30u empty bottle, ready for your experiments.
-
-      First Experiment: EZ Nutrient
-      To create EZ Nutrient, a fertilizer densely packed with nutrients required for healthy plants, mix equal parts nitrogen, phosphorus, and potassium. To make a full bottle, thats 10u of each.
-      A little bottle of EZ Nutrient replaces a big stack of produce you'd otherwise compost to keep your plants growing strong. And crops you compost are crops you didn't make a profit on, so keep that EZ Nutrient flowing.
-
-      Second Experiment: Ammonia and Diethylamine
-      Mix 3 parts hydrogen to 1 part nitrogen and microwave for 30 seconds to make ammonia. It's a healthy, nutritious treat for your crops that aren't at their best.
-      But if you want to impress the judges at your local NanoTrasen-sponsored County Fair, you'll need to add an equal amount of ethanol to your ammonia.
-      This will mix into Diethylamine, a miracle fertilizer that can make plants grow faster AND live longer! Keep the crops you love with you longer thanks to Diethylamine.
-
-      Third Experiment: Unstable Mutagen
-      When you're ready to show everyone you're the greatest botanist on the station, you'll need to mix up some unstable mutagen and hope for the best. Despite the scary name, unstable mutagen is entirely safe when applied to plants, but do not drink the appealingly green chemical yourself.
-
-      Mix equal parts radium, phosphorus, and chlorine together to get a bright green batch of unstable mutagen, the safe and fun way to get the most of your farm. The 15u this kit lets you make could be your introduction to agrichemical stardom!
-      Unstable mutagen can have a wide variety of effects on plant life, including drastic changes to all sorts of growth parameters, produce full of helpful pharmaceuticals, plants that glow in the dark, or creating entirely new species.
-
-      Each individual plant responds to unstable mutagen differently, so you may want to use small doses on multiple crops and try to crossbreed the best traits from each of those. Applying multiple doses to one plant can stack multiple changes and make it harder to single out desirable traits.
-      Unstable mutagen is entirely safe when used as a fertilizer, and NanoTrasen takes no responsibility for dead crops, excessive water bills, newly sentient plants asking existential questions, or flora-strangled farmhands that may coincidentally occur while using it.
-      Do not drink unstable mutagen. Wash your hands thoroughly after handling. Wash your eyes if you have looked at unstable mutagen for over 30 minutes in a 24 hour period. Store in a dark room between 293–295K. Do not use on corporate holidays. If you begin hearing voices telling you to drink unstable mutagen, please contact your doctor, head of personnel, or exorcist.
-
-book-text-combat-bakery-kit = Thank you for choosing our combat bakery kit!
-      Enclosed are two (2) CyberSun patented Throwing Croissants, and one (1) patent-pending Baguette Sword.
-      The included Donk Co. microwave board can construct a microwave capable of baking more weapons.
-      Just like the baked weapons, be sure to eat this note after use. Good luck, agent.
-
-      Baguette Sword Recipe:
-      Dough x 1
-      Salt 5u
-      Pepper 5u
-      Metal Rod x 1
-      Cook Time: 15 seconds
-
-      Throwing Croissant Recipe:
-      Raw Croissant x 1
-      Butter Slice x 1
-      Glass Shard x 1
-      Cook Time: 5 seconds
+book-text-plasma-trap =
+    嘿嘿嘿嘿，他們現在絕對沒辦法動到我們的藏貨，對吧？
+    我已經把放東西的那個區域弄成暖呼呼的1000 K了。
+    需要拿出來時，你知道怎麼把那裡清空的。
+     - J.
+book-text-holoparasite-info =
+    感謝您選擇我們的全息寄生體套裝！
+    在 Cybersun，我們以擁有最尖端的軍事與工業技術為榮，並衷心感謝您對我們創立所作的貢獻！
+    守護者是棲息於您體內、樂於助人且聰明的生物，完全不受壓力、溫度甚至子彈等常見危害的影響！
+    您已購買全息寄生體套裝，內含全息寄生體啟動器、說明手冊以及我們的軟膠周邊商品。
+    使用說明：
+    1. 啟動全息寄生體注射器（建議在僻靜處進行）。
+    2. 等待出現刺痛感及／或痛苦的形而上感官體驗。
+    3. 確認您的全息寄生體是否具備溝通與合作能力，以及理解您指令的能力。
+    4. 運用您的「召回顯化」能力，將全息寄生體召喚或召回至您的體內。
+    5. 請將全息寄生體保持在離您不遠的距離內，否則它將被強制召回！
+    警告：守護者雖是超自然存在，但需消耗您的「生命值」才能存活。守護者遭受的直接傷害將部分轉移至您身上！
+    Cybersun inc. 對於因誤用全息寄生體技術而導致的徹底毀滅概不負責。
+book-text-ame-scribbles =
+    我不確定你是否已經受過相關訓練，希望這能幫上忙。
+    AME 控制器需要低壓電源，並需連接一條高壓線才能輸出。 若不確定，請用撬棍檢查該區域。
+    你發現這個的地方旁邊應該有一間空房間，那間房間已為 AME 預先佈線。
+    不過，只要能將電線接通，你其實可以將 AME 放置在任何地方。
+    3x3 格的 AME 零件陣列，使用多功能工具拆解它們。 請小心不要「困住」任何東西。
+    AME 控制器需與任何點水平或垂直（而非對角線）相鄰。
+    若僅有 1 個核心（3x3 方格可提供的數量），請勿將輸出調高至 2 以上。
+    金科玉律是每 1 個核心對應 2 個噴射點。 若要節省燃料，可將數值調低。
+    若數值過高，會燒毀引擎，最終導致引擎爆炸。請勿如此操作。
+    別忘了為其加油，它往往會在最糟糕的時刻熄火。
+book-text-agrichemkit-manual =
+    感謝您選擇這款適合所有年齡層的 NanoTrasen「農業化學真有趣！」化學實驗套組，這是 2468 年最棒的寓教於樂玩具！請做好準備，探索自從人們將魚與玉米種子一同埋入土中以來，農業領域最重大的創新成果。
+    
+    內容物：
+    5 支標示清晰、容量為 30u 的瓶子，分別裝有氮、磷、氫、鉀及乙醇各 1 瓶
+    2 支 Safe-T-Fun™ 規格的 5u 小瓶，分別裝有氯和鐳各 1 瓶
+    1 支 30u 的空瓶，供您進行實驗使用
+    
+    第一個實驗：EZ Nutrient
+    要製作 EZ Nutrient——一種富含植物健康所需營養素的肥料——請將氮、磷和鉀以等量混合。若要調製一整瓶，每種成分各需 10u。
+    一小瓶 EZ Nutrient 就能取代一大堆原本會被用來堆肥的農產品，讓您的植物持續茁壯成長。而那些被用來堆肥的作物，正是您未能從中獲利的作物，因此請讓 EZ Nutrient 持續供應。
+    
+    第二項實驗：氨與二乙胺
+    將 3 份氫氣與 1 份氮氣混合，並用微波爐加熱 30 秒，即可製成氨。這是給狀態欠佳的作物的一種健康、營養的滋補品。
+    但若你想在當地由 NanoTrasen 贊助的縣級博覽會上讓評審們驚艷，就需要在氨中加入等量的乙醇。
+    如此一來便會混合成二乙胺——一種能讓植物生長更快且壽命更長的奇蹟肥料！多虧了二乙胺，你能讓心愛的作物陪伴你更久。
+    
+    第三項實驗：不穩定致突變劑
+    當你準備向所有人證明自己是站上最偉大的植物學家時，你需要調配一些不穩定致突變劑，並祈禱一切順利。儘管名稱聽起來令人害怕，但不穩定致突變劑用於植物時完全安全，但請千萬不要自己飲用這種色澤誘人的綠色化學物質。
+    
+    將鐳、磷和氯以等量混合，即可製成一罐鮮綠色的「不穩定突變劑」——這是讓你的農場發揮最大效益，既安全又有趣的方法。這套組讓你能製作的 15u 份量，或許就是你邁向農業化學界巨星之路的起點！
+    不穩定致突變劑對植物生命可能產生多種多樣的效果，包括徹底改變各類生長參數、產出富含有益藥用成分的農產品、培育出能在黑暗中發光的植物，甚至創造出全新的物種。
+    
+    每株植物對不穩定致突變劑的反應各不相同，因此建議您對多種作物使用小劑量，並嘗試將各自的最佳性狀進行雜交。若對單一植物施用多劑量，可能會疊加多種變化，使您更難篩選出理想的性狀。
+    不穩定致突變劑用作肥料時完全安全，而 NanoTrasen 對於使用過程中可能偶然發生的作物死亡、水費過高、新獲得意識的植物提出存在主義問題，或是被植物絞死的農工等情況，概不負責。
+    切勿飲用不穩定致突變劑。接觸後請徹底洗手。 若您在 24 小時內凝視不穩定致突變劑超過 30 分鐘，請立即沖洗眼睛。請存放在溫度介於 293–295K 之間的暗室中。請勿於公司假日使用。若您開始聽到聲音指示您飲用不穩定致突變劑，請聯繫您的醫生、人事主管或驅魔師。
+book-text-combat-bakery-kit =
+    感謝您選購我們的戰鬥烘焙套組！
+    隨附兩（2）個 CyberSun 專利「投擲可頌」，以及一（1）把專利申請中的「法棍劍」。
+    隨附的 Donk Co. 微波爐專用板，可組裝成一台能烘烤更多武器的微波爐。
+    就像這些烘焙武器一樣，使用後請務必將這張說明卡吃掉。 祝你好運，特工。
+    
+    法棍劍食譜：
+    麵糰 x 1
+    鹽 5u
+    胡椒 5u
+    金屬棒 x 1
+    烹飪時間：15 秒
+    
+    投擲可頌食譜：
+    生可頌 x 1
+    奶油片 x 1
+    玻璃碎片 x 1
+    烹飪時間：5 秒

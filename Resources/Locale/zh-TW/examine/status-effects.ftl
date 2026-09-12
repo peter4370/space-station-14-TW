@@ -1,5 +1,0 @@
-status-effect-examine-adrenaline = [color=red]{ POSS-ADJ($target) } 的身體每個部位都顯得緊繃而警覺。[/color]
-status-effect-examine-drunk = [color=brown]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 喝醉了……[/color]
-status-effect-examine-seeing-rainbow = [color=lightgreen]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 瞥向那些並不存在的東西。[/color]
-status-effect-examine-stunned = [color=yellow]{ CAPITALIZE(POSS-ADJ($target)) } 那具屍體看起來精疲力竭，動彈不得。[/color]
-status-effect-examine-temporary-blindness = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神變得恍惚。{ CAPITALIZE(SUBJECT($target)) } 似乎看不太清楚了。[/color]

@@ -1,13 +1,12 @@
-cable-multitool-system-internal-error-no-power-node = Your multitool reads, "INTERNAL ERROR: NOT A POWER CABLE".
-cable-multitool-system-internal-error-missing-component = Your multitool reads, "INTERNAL ERROR: CABLE ABNORMAL".
-cable-multitool-system-verb-name = Power
-cable-multitool-system-verb-tooltip = Use a multitool to examine power statistics.
-
-cable-multitool-system-statistics = Your multitool shows a list of statistics:
-                                    Current Supply: { POWERWATTS($supplyc) }
-                                    From Batteries: { POWERWATTS($supplyb) }
-                                    Theoretical Supply: { POWERWATTS($supplym) }
-                                    Ideal Consumption: { POWERWATTS($consumption) }
-                                    Input Storage: { POWERJOULES($storagec) } / { POWERJOULES($storagem) } ({ TOSTRING($storager, "P1") })
-                                    Output Storage: { POWERJOULES($storageoc) } / { POWERJOULES($storageom) } ({ TOSTRING($storageor, "P1") })
-
+cable-multitool-system-internal-error-no-power-node = 您的多功能工具顯示：「內部錯誤：非電源線」。
+cable-multitool-system-internal-error-missing-component = 您的多功能工具顯示：「內部錯誤：纜線異常」。
+cable-multitool-system-verb-name = 電力
+cable-multitool-system-verb-tooltip = 使用多功能工具來檢視電源統計資料。
+cable-multitool-system-statistics =
+    您的多功能工具顯示了一系列統計數據：
+    當前供電：{ POWERWATTS($supplyc) }
+    來自電池：{ POWERWATTS($supplyb) }
+    理論供電：{ POWERWATTS($supplym) }
+    理想耗電量：{ POWERWATTS($consumption) }
+    輸入儲存量：{ POWERJOULES($storagec) } / { POWERJOULES($storagem) } ({ TOSTRING($storager, "P1") })
+    輸出儲存：{ POWERJOULES($storageoc) } / { POWERJOULES($storageom) } ({ TOSTRING($storageor, "P1") })

@@ -1,10 +1,11 @@
-ore-silo-ui-title = Material Silo
-ore-silo-ui-label-clients = Machines
-ore-silo-ui-label-mats = Materials
-ore-silo-ui-itemlist-entry = {$linked ->
-    [true] {"[Linked] "}
-    *[False] {""}
-} {$name} ({$beacon}) {$inRange ->
-    [true] {""}
-    *[false] (Out of Range)
-}
+ore-silo-ui-title = 物料筒倉
+ore-silo-ui-label-clients = 機器
+ore-silo-ui-label-mats = 材料
+ore-silo-ui-itemlist-entry =
+    { $linked ->
+        [true] { "[已連結] " }
+       *[False] { "" }
+    } { $name } ({ $beacon }) { $inRange ->
+        [true] { "" }
+       *[false] (超出範圍)
+    }

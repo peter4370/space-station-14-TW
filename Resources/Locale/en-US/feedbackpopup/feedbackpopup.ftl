@@ -1,28 +1,25 @@
-feedbackpopup-window-name = Request for feedback
-
-feedbackpopup-control-button-text = Open Link
-
-feedbackpopup-control-total-surveys = {$num ->
-    [one] {$num} entry
-   *[other] {$num} entries
-}
-feedbackpopup-control-no-entries= No entries
-feedbackpopup-control-ui-footer = Let us know what you think!
-
+feedbackpopup-window-name = 徵求意見
+feedbackpopup-control-button-text = 開啟連結
+feedbackpopup-control-total-surveys =
+    { $num ->
+        [one] { $num } entry
+       *[other] { $num } entries
+    }
+feedbackpopup-control-no-entries = 沒有條目
+feedbackpopup-control-ui-footer = 請告訴我們您的想法！
 # Command strings
-command-description-openfeedbackpopup = Opens the feedback popup window.
-command-description-feedback-show = Opens the feedback popup window for the given sessions.
-command-description-feedback-add = Adds a feedback popup prototype to the given clients and opens the popup window if the client didn't already have the prototype listed.
-command-description-feedback-remove = Removes a feedback popup prototype from the given clients.
-
-feedbackpopup-give-command-name = givefeedbackpopup
-feedbackpopup-show-command-name = showfeedbackpopup
-cmd-givefeedbackpopup-desc = Gives the targeted player a feedback popup.
-cmd-givefeedbackpopup-help = Usage: givefeedbackpopup <playerUid> <prototypeId>
-cmd-showfeedbackpopup-desc = Open the feedback popup window.
-cmd-showfeedbackpopup-help = Usage: showfeedbackpopup
-feedbackpopup-command-error-invalid-proto = Invalid feedback popup prototype.
-feedbackpopup-command-error-popup-send-fail = Failed to send popup! There probably isn't a mind attached to the given entity.
-feedbackpopup-command-success = Sent popup!
+command-description-openfeedbackpopup = 開啟回饋彈出視窗。
+command-description-feedback-show = 開啟指定工作階段的回饋彈出視窗。
+command-description-feedback-add = 為指定的客戶端新增一個回饋彈出視窗原型，並在該客戶端尚未列出此原型時開啟彈出視窗。
+command-description-feedback-remove = 從指定的客戶端移除一個回饋彈出視窗原型。
+feedbackpopup-give-command-name = 給出回饋彈出視窗
+feedbackpopup-show-command-name = 顯示回饋彈出視窗
+cmd-givefeedbackpopup-desc = 向目標玩家顯示一個反饋彈出視窗。
+cmd-givefeedbackpopup-help = 用法：givefeedbackpopup<playerUid> <prototypeId>
+cmd-showfeedbackpopup-desc = 開啟回饋彈出視窗。
+cmd-showfeedbackpopup-help = 用法：showfeedbackpopup
+feedbackpopup-command-error-invalid-proto = 無效的回饋彈出視窗原型。
+feedbackpopup-command-error-popup-send-fail = 無法發送彈出視窗！該實體可能沒有對應的意識。
+feedbackpopup-command-success = 已發送彈出視窗！
 feedbackpopup-command-hint-playerUid = <playerUid>
 feedbackpopup-command-hint-protoId = <prototypeId>

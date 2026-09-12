@@ -1,35 +1,35 @@
-lobby-state-paused = Paused
-lobby-state-soon = Round starting soon
-lobby-state-right-now-question = Right Now?
-lobby-state-right-now-confirmation = Right Now
-lobby-state-round-start-countdown-text = Round starts In: {$timeLeft}
-lobby-state-ready-button-join-state = Join
-lobby-state-ready-button-ready-up-state = Ready Up
-lobby-state-player-status-not-ready = Not Ready
-lobby-state-player-status-ready = Ready
-lobby-state-player-status-observer = Observer
-lobby-state-player-status-round-not-started = The round hasn't started yet
+lobby-state-paused = 暫停
+lobby-state-soon = 本輪即將開始
+lobby-state-right-now-question = 現在嗎？
+lobby-state-right-now-confirmation = 此刻
+lobby-state-round-start-countdown-text = 回合開始於：{ $timeLeft }
+lobby-state-ready-button-join-state = 加入
+lobby-state-ready-button-ready-up-state = 準備就緒
+lobby-state-player-status-not-ready = 尚未準備好
+lobby-state-player-status-ready = 準備好了
+lobby-state-player-status-observer = 觀察家
+lobby-state-player-status-round-not-started = 這輪比賽還沒有開始
 lobby-state-player-status-round-time =
-    The round time is: {$hours} {$hours ->
-    [1]hour
-    *[other]hours
-    } and {$minutes} {$minutes ->
-    [1]minute
-    *[other]minutes
+    The round time is: { $hours } { $hours ->
+        [1] hour
+       *[other] hours
+    } and { $minutes } { $minutes ->
+        [1] minute
+       *[other] minutes
     }
-lobby-state-song-text = Playing: [color=white]{$songTitle}[/color] by [color=white]{$songArtist}[/color]
-lobby-state-song-no-song-text = No lobby song playing.
-lobby-state-song-unknown-title = [color=dimgray]Unknown title[/color]
-lobby-state-song-unknown-artist = [color=dimgray]Unknown artist[/color]
-lobby-state-background-text = Menu art: [color=white]{$backgroundTitle}[/color] by [color=white]{$backgroundArtist}[/color]
-lobby-state-background-no-background-text = No menu art loaded.
-lobby-state-background-unknown-title = [color=dimgray]Unknown title[/color]
-lobby-state-background-unknown-artist = [color=dimgray]Unknown artist[/color]
+lobby-state-song-text = 正在播放：[color=white]{ $songTitle }[/color]，由 [color=white]{ $songArtist }[/color] 演唱
+lobby-state-song-no-song-text = 大廳裡沒有播放背景音樂。
+lobby-state-song-unknown-title = [color=dimgray]標題不詳[/color]
+lobby-state-song-unknown-artist = [color=dimgray]作者不詳[/color]
+lobby-state-background-text = 選單插圖：[color=white]{ $backgroundTitle }[/color] 作者：[color=white]{ $backgroundArtist }[/color]
+lobby-state-background-no-background-text = 未載入選單圖片。
+lobby-state-background-unknown-title = [color=dimgray]標題不詳[/color]
+lobby-state-background-unknown-artist = [color=dimgray]作者不詳[/color]
 lobby-state-playtime-comment-normal =
-    You've spent {$hours} {$hours ->
-    [1]hour
-    *[other]hours
+    You've spent { $hours } { $hours ->
+        [1] hour
+       *[other] hours
     } ingame today. Remember to take breaks!
-lobby-state-playtime-comment-concerning = You've played for {$hours} hours today. Please take a break.
-lobby-state-playtime-comment-grasstouchless = {$hours} hours. Consider logging off to attend to your needs.
-lobby-state-playtime-comment-selfdestructive = {$hours} hours. Really?
+lobby-state-playtime-comment-concerning = 你今天已經玩了 { $hours } 小時。請稍作休息。
+lobby-state-playtime-comment-grasstouchless = { $hours } 小時。建議您登出系統，以便處理您的事務。
+lobby-state-playtime-comment-selfdestructive = { $hours } 小時。真的嗎？

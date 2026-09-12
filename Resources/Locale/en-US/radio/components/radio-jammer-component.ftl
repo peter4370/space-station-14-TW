@@ -1,16 +1,12 @@
-radio-jammer-component-on-use = The jammer is now {$state}.
-radio-jammer-component-on-state = on
-radio-jammer-component-off-state = off
-
-radio-jammer-component-examine-on-state = The light is currently [color=darkgreen]on[/color].
-radio-jammer-component-examine-off-state = The light is currently [color=darkred]off[/color].
-
-radio-jammer-component-setting-high = High
-radio-jammer-component-setting-medium = Medium
-radio-jammer-component-setting-low = Low
-
-radio-jammer-component-set-message-high = The jammer is now operating at high power.
-radio-jammer-component-set-message-medium = The jammer is now operating at medium power.
-radio-jammer-component-set-message-low = The jammer is now operating at low power.
-
-radio-jammer-component-switch-setting = The power level switch is set to "[color=yellow]{$powerLevel}[/color]".
+radio-jammer-component-on-use = 干擾器的網址現為 { $state }。
+radio-jammer-component-on-state = 開啟
+radio-jammer-component-off-state = 關閉
+radio-jammer-component-examine-on-state = 目前指示燈處於 [color=darkgreen]亮起[/color] 狀態。
+radio-jammer-component-examine-off-state = 目前燈光處於 [color=darkred]關閉[/color] 狀態。
+radio-jammer-component-setting-high = 高
+radio-jammer-component-setting-medium = 中
+radio-jammer-component-setting-low = 低
+radio-jammer-component-set-message-high = 干擾器目前正以高功率運作。
+radio-jammer-component-set-message-medium = 干擾器目前正以中等功率運作。
+radio-jammer-component-set-message-low = 干擾器目前正以低功率運作。
+radio-jammer-component-switch-setting = 功率等級開關設定為「[color=yellow]{ $powerLevel }[/color]」。

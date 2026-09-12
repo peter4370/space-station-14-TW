@@ -1,18 +1,15 @@
-bible-heal-success-self = You hit {THE($target)} with {THE($bible)}, and their wounds close in a flash of holy light!
-bible-heal-success-others = {CAPITALIZE(THE($user))} hits {THE($target)} with {THE($bible)}, and their wounds close in a flash of holy light!
-bible-heal-success-none-self = You hit {THE($target)} with {THE($bible)}, but they have no wounds you can heal!
-bible-heal-success-none-others = {CAPITALIZE(THE($user))} hits {THE($target)} with {THE($bible)}!
-
-bible-heal-fail-self = You hit {THE($target)} with {THE($bible)}, and it lands with a sad thwack, dazing {OBJECT($target)}!
-bible-heal-fail-others = {CAPITALIZE(THE($user))} hits {THE($target)} with {THE($bible)}, and it lands with a sad thack, dazing {OBJECT($target)}!
-bible-sizzle = The book sizzles in your hands!
-
-bible-summon-verb = Summon familiar
-bible-summon-verb-desc = Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
-bible-summon-requested = Your familiar will arrive once a willing soul comes forth.
-bible-summon-respawn-ready = {CAPITALIZE(THE($book))} surges with ethereal power. {CAPITALIZE(POSS-ADJ($book))} resident is home again.
-
-necro-heal-success-self = You hit {THE($target)} with {THE($bible)}, and {POSS-ADJ($target)} flesh warps as it melts!
-necro-heal-success-others = {CAPITALIZE(THE($user))} hits {THE($target)} with {THE($bible)}, and {POSS-ADJ($target)} flesh warps as it melts!
-necro-heal-fail-self = You hit {THE($target)} with {THE($bible)}, and it lands with a sad thwack, failing to smite {OBJECT($target)}.
-necro-heal-fail-others = {CAPITALIZE(THE($user))} hits {THE($target)} with {THE($bible)}, and it lands with a sad thack, failing to smite {OBJECT($target)}.
+bible-heal-success-self = 你用 { THE($target) } 擊中 { THE($bible) }，他們的傷口在聖光一閃之間便癒合了！
+bible-heal-success-others = { CAPITALIZE(THE($user)) } 擊中 { THE($target) }，並施展 { THE($bible) }，他們的傷口在聖光一閃之間便癒合了！
+bible-heal-success-none-self = 你用 { THE($target) } 攻擊了 { THE($bible) }，但他們身上沒有你能治癒的傷口！
+bible-heal-success-none-others = { CAPITALIZE(THE($user)) } 擊中 { THE($target) }，並造成 { THE($bible) } 的傷害！
+bible-heal-fail-self = 你用 { THE($target) } 擊中 { THE($bible) }，它發出淒慘的「啪」的一聲落地，並使 { OBJECT($target) } 陷入暈眩狀態！
+bible-heal-fail-others = { CAPITALIZE(THE($user)) } 用 { THE($target) } 擊中 { THE($bible) }，並發出淒涼的「啪」聲落地，使 { OBJECT($target) } 陷入暈眩！
+bible-sizzle = 這本書在你手中熱力四射！
+bible-summon-verb = 召喚使魔
+bible-summon-verb-desc = 召喚一隻能協助你的使魔；當靈魂入體後，它便會獲得類人智慧。
+bible-summon-requested = 一旦有願意投身的人出現，你的使魔就會現身。
+bible-summon-respawn-ready = { CAPITALIZE(THE($book)) } 迸發著超凡的力量。{ CAPITALIZE(POSS-ADJ($book)) } 的居民又回到了家。
+necro-heal-success-self = 你用 { THE($target) } 擊中 { THE($bible) }，而 { POSS-ADJ($target) } 的肉體在融化時扭曲變形！
+necro-heal-success-others = { CAPITALIZE(THE($user)) } 擊中 { THE($target) }，並伴隨 { THE($bible) }，而 { POSS-ADJ($target) } 的肉體在融化時扭曲變形！
+necro-heal-fail-self = 你用 { THE($target) } 擊中 { THE($bible) }，那東西以一聲淒兇的「啪」聲落地，未能擊倒 { OBJECT($target) }。
+necro-heal-fail-others = { CAPITALIZE(THE($user)) } 揮出 { THE($target) }，並以 { THE($bible) } 擊中目標，卻只發出了一聲淒涼的「啪」聲，未能擊敗 { OBJECT($target) }。

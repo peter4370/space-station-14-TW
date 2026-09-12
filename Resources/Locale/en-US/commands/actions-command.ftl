@@ -1,7 +1,6 @@
-cmd-loadacts-desc = Loads action toolbar assignments from a user-file.
-cmd-loadacts-help = Usage: {$command} <user resource path>
-cmd-loadacts-error = Failed to load action assignments
-
-cmd-loadmapacts-desc = Loads the mapping preset action toolbar assignments.
-cmd-loadmapacts-help = Usage: {$command} <user resource path>
-cmd-loadmapacts-error = Failed to load action assignments
+cmd-loadacts-desc = 從使用者檔案中載入動作工具列的指派設定。
+cmd-loadacts-help = 用法：{ $command }<user resource path>
+cmd-loadacts-error = 無法載入動作指派
+cmd-loadmapacts-desc = 載入映射預設的動作工具列指派設定。
+cmd-loadmapacts-help = 用法：{ $command }<user resource path>
+cmd-loadmapacts-error = 無法載入動作指派

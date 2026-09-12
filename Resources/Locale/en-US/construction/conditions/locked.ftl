@@ -1,5 +1,5 @@
 # Locked
-construction-examine-condition-unlock = First, [color=limegreen]unlock[/color] it.
-construction-examine-condition-lock = First, [color=red]lock[/color] it.
-construction-step-condition-unlock = It must be unlocked.
-construction-step-condition-lock = It must be locked.
+construction-examine-condition-unlock = 首先，[color=limegreen]解鎖[/color]它。
+construction-examine-condition-lock = 首先，[color=red]鎖定[/color]它。
+construction-step-condition-unlock = 它必須被解鎖。
+construction-step-condition-lock = 它必須上鎖。

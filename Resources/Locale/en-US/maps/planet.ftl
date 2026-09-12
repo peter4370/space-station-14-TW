@@ -1,6 +1,6 @@
-cmd-planet-desc = Converts the supplied map into a planet with some specific biome.
-cmd-planet-help = {$command} <mapid> <biome>.
-cmd-planet-args = Requires 2 args only.
-cmd-planet-map = Unable to parse {$map} as an existing map.
-cmd-planet-map-prototype = Unable to index {$prototype} as an existing biome template prototype.
-cmd-planet-success = Set map {$mapId} to Planet. NOTE! You will need to load the map (either onto a new map or by restarting the game) for atmospherics to work.
+cmd-planet-desc = 將提供的地圖轉換為擁有特定生態區的行星。
+cmd-planet-help = { $command }<mapid> <biome> 。
+cmd-planet-args = 僅需 2 個參數。
+cmd-planet-map = 無法將 { $map } 解析為現有的映射。
+cmd-planet-map-prototype = 無法將 { $prototype } 索引為現有的生物群系範本原型。
+cmd-planet-success = 將地圖 { $mapId } 設定為「Planet」。注意！您必須載入該地圖（無論是載入至新地圖，或是重新啟動遊戲），大氣效果才會生效。

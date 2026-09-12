@@ -1,13 +1,11 @@
-custom-vote-webhook-name = Custom Vote Held
-custom-vote-webhook-footer = server: { $serverName }, round: { $roundId } { $runLevel }
-custom-vote-webhook-cancelled = **Vote cancelled**
-custom-vote-webhook-option-pending = TBD
-custom-vote-webhook-option-cancelled = N/A
-
-votekick-webhook-name = Votekick Held
-votekick-webhook-description = Initiator: { $initiator }; Target: { $target }
-votekick-webhook-cancelled-admin-online = **Vote cancelled due to admins online**
-votekick-webhook-cancelled-admin-target = **Vote cancelled due to target being admin**
-votekick-webhook-cancelled-antag-target = **Vote cancelled due to target being antag**
-
-votekick-ban-reason = "Votekick: {$reason}"
+custom-vote-webhook-name = 舉行了特別投票
+custom-vote-webhook-footer = 伺服器：{ $serverName }, 輪播：{ $roundId } { $runLevel }
+custom-vote-webhook-cancelled = **投票已取消**
+custom-vote-webhook-option-pending = 待定
+custom-vote-webhook-option-cancelled = 不適用
+votekick-webhook-name = 「Votekick」活動已舉行
+votekick-webhook-description = 發起者：{ $initiator }; 目標：{ $target }
+votekick-webhook-cancelled-admin-online = **因管理員在線，投票已取消**
+votekick-webhook-cancelled-admin-target = **因目標為管理員，故取消投票**
+votekick-webhook-cancelled-antag-target = **因目標為敵對方，故取消投票**
+votekick-ban-reason = "Votekick：{ $reason }"

@@ -1,2 +1,2 @@
 ﻿cmd-me-desc = Perform an action.
-cmd-me-help = Usage: me <text>
+cmd-me-help = 用法：我<text>

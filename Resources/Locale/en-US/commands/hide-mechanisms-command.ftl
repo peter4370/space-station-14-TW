@@ -1,2 +1,2 @@
-cmd-hidemechanisms-desc = Reverts the effects of showmechanisms command.
-cmd-hidemechanisms-help = Usage: hidemechanisms
+cmd-hidemechanisms-desc = 撤銷「showmechanisms」指令所產生的效果。
+cmd-hidemechanisms-help = 用法：hidemechanisms

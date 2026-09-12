@@ -1,2 +1,1 @@
-command-description-addaccesslog =
-    Adds an access log to this entity. Do note that this bypasses the log's default limit and pause check.
+command-description-addaccesslog = 為此實體新增存取日誌。請注意，此操作會繞過日誌的預設限制及暫停檢查。

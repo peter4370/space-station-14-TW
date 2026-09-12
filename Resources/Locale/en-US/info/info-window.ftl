@@ -1,19 +1,20 @@
 ### Info Window
 
+
 ## General stuff
-ui-info-title = Information
-ui-info-tab-rules = Server Rules
-ui-info-tab-tutorial = Tutorial
+
+ui-info-title = 資訊
+ui-info-tab-rules = 伺服器規則
+ui-info-tab-tutorial = 教學指南
 
 ## Tutorial tab
-ui-info-text-controls = You can review and rebind SS14s controls in the
 
-ui-info-header-intro = Introduction
-ui-info-header-controls = Controls
-ui-info-header-gameplay = Gameplay
-ui-info-header-sandbox = Sandbox Spawner
-ui-info-subheader-entityoptions = Entity spawn panel options:
-ui-info-subheader-gridoptions = Grid aligned options:
-ui-info-header-feedback = Feedback
-
-ui-info-button-controls = Options Menu
+ui-info-text-controls = 您可以在
+ui-info-header-intro = 引言
+ui-info-header-controls = 控制項
+ui-info-header-gameplay = 遊戲玩法
+ui-info-header-sandbox = 沙盒生成器
+ui-info-subheader-entityoptions = 實體生成面板選項：
+ui-info-subheader-gridoptions = 與電網同步的選項：
+ui-info-header-feedback = 回饋
+ui-info-button-controls = 選單

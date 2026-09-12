@@ -1,7 +1,7 @@
-play-global-sound-command-description = Plays a global sound for a specific player or for every connected player if no players are specified.
-play-global-sound-command-help = playglobalsound <path> [volume] [user 1] ... [user n]
-play-global-sound-command-player-not-found = Player "{$username}" not found.
-play-global-sound-command-volume-parse = Invalid volume of {$volume} specified.
+play-global-sound-command-description = 針對特定玩家播放全域音效；若未指定玩家，則針對所有已連線的玩家播放。
+play-global-sound-command-help = playglobalsound<path> [音量] [使用者 1] ... [使用者 n]
+play-global-sound-command-player-not-found = 找不到玩家「{ $username }」。
+play-global-sound-command-volume-parse = 指定的 { $volume } 卷不合法。
 play-global-sound-command-arg-path = <path>
-play-global-sound-command-arg-volume = [volume]
-play-global-sound-command-arg-usern = [user {$user}]
+play-global-sound-command-arg-volume = [卷]
+play-global-sound-command-arg-usern = [user { $user }]

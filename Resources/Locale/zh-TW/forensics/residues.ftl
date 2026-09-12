@@ -1,9 +1,0 @@
-forensic-residue = { LOC($adjective) } 殘差
-forensic-residue-colored = { LOC($adjective) } { LOC($color) } 殘差
-residue-unknown = 未知
-residue-slippery = 濕滑的
-residue-green = 綠色
-residue-blue = 藍色
-residue-red = 紅色
-residue-grey = 灰色
-residue-brown = 棕色

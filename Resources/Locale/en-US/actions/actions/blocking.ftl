@@ -1,9 +1,6 @@
 ﻿action-popup-blocking-user = You raise your {$shield}!
-action-popup-blocking-disabling-user = You lower your {$shield}!
-
-action-popup-blocking-other = {CAPITALIZE(THE($blockerName))} raises {POSS-ADJ($blockerName)} {$shield}!
-action-popup-blocking-disabling-other = {CAPITALIZE(THE($blockerName))} lowers {POSS-ADJ($blockerName)} {$shield}!
-
-action-popup-blocking-user-cant-block = You tried to raise your shield, but it was no use.
-action-popup-blocking-user-too-close = There's no room here to block. Try moving a bit!
-
+action-popup-blocking-disabling-user = 你把你的 { $shield } 放下來！
+action-popup-blocking-other = { CAPITALIZE(THE($blockerName)) } 引發 { POSS-ADJ($blockerName) } { $shield }!
+action-popup-blocking-disabling-other = { CAPITALIZE(THE($blockerName)) } 將 { POSS-ADJ($blockerName) } 轉為小寫 { $shield }!
+action-popup-blocking-user-cant-block = 你試圖舉起盾牌，但毫無用處。
+action-popup-blocking-user-too-close = 這裡沒空間可以擋路。試著往旁邊挪一挪吧！

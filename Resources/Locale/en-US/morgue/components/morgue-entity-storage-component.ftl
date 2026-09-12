@@ -1,4 +1,4 @@
-morgue-entity-storage-component-on-examine-details-body-has-soul = The content light is [color=green]green[/color], this body might still be saved!
-morgue-entity-storage-component-on-examine-details-body-has-no-soul = The content light is [color=red]red[/color], there's a dead body in here! Oh wait...
-morgue-entity-storage-component-on-examine-details-has-contents = The content light is [color=yellow]yellow[/color], there's something in here.
-morgue-entity-storage-component-on-examine-details-empty = The content light is off, there's nothing in here.
+morgue-entity-storage-component-on-examine-details-body-has-soul = 內容指示燈是 [color=green]綠色[/color]，這具軀體或許還有救！
+morgue-entity-storage-component-on-examine-details-body-has-no-soul = 內容指示燈是 [color=red]紅色[/color]，裡面有具屍體！噢，等等……
+morgue-entity-storage-component-on-examine-details-has-contents = 內容指示燈是 [color=yellow]黃色[/color]，裡面有東西。
+morgue-entity-storage-component-on-examine-details-empty = 內容指示燈已熄滅，裡面什麼都沒有。

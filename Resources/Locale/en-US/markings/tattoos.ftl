@@ -1,68 +1,46 @@
-marking-TattooHiveChest-tattoo_hive_chest = Back Tattoo (Hive)
-marking-TattooHiveChest = Back Tattoo (Hive)
-
-marking-TattooNightlingChest-tattoo_nightling = Chest Tattoo (nightling)
-marking-TattooNightlingChest = Chest Tattoo (Nightling)
-
-marking-TattooSilverburghLeftLeg-tattoo_silverburgh_l_leg = Left Leg Tattoo (Silverburg)
-marking-TattooSilverburghLeftLeg = Left Leg Tattoo (Silverburg)
-
-marking-TattooSilverburghRightLeg-tattoo_silverburgh_r_leg = Right Leg Tattoo (Silverburg)
-marking-TattooSilverburghRightLeg = Right Leg Tattoo (Silverburg)
-
-marking-TattooCampbellLeftArm-tattoo_campbell_l_arm = Left Arm Tattoo (Campbelle)
-marking-TattooCampbellLeftArm = Left Arm Tattoo (Campbelle)
-
-marking-TattooCampbellRightArm-tattoo_campbell_r_arm = Right Arm Tattoo (Campbelle)
-marking-TattooCampbellRightArm = Right Arm Tattoo (Campbelle)
-
-marking-TattooCampbellLeftLeg-tattoo_campbell_l_leg = Left Leg Tattoo (Campbelle)
-marking-TattooCampbellLeftLeg = Left Leg Tattoo (Campbelle)
-
-marking-TattooCampbellRightLeg-tattoo_campbell_r_leg = Right Leg Tattoo (Campbelle)
-marking-TattooCampbellRightLeg = Right Leg Tattoo (Campbelle)
-
-marking-TattooEyeRight-tattoo_eye_r = Right Eye
-marking-TattooEyeRight = Right Eye
-
-marking-TattooEyeLeft-tattoo_eye_l = Left Eye
-marking-TattooEyeLeft = Left Eye
-
-marking-TattooEyeMothRight-tattoo_eye_moth_r = Right Eye
-marking-TattooEyeMothRight = Right Eye
-
-marking-TattooEyeMothLeft-tattoo_eye_moth_l = Left Eye
-marking-TattooEyeMothLeft = Left Eye
-
-marking-TattooEyeVulpkaninRight-tattoo_eye_vulpkanin_r = Right Eye
-marking-TattooEyeVulpkaninRight = Right Eye
-
-marking-TattooEyeVulpkaninLeft-tattoo_eye_vulpkanin_l = Left Eye
-marking-TattooEyeVulpkaninLeft = Left Eye
-
-marking-TattooEyeVoxRight-tattoo_eye_vox_r = Right Eye
-marking-TattooEyeVoxRight = Right Eye
-
-marking-TattooEyeVoxLeft-tattoo_eye_vox_l = Left Eye
-marking-TattooEyeVoxLeft = Left Eye
-
-marking-TattooEyeshadowUpper-tattoo_eyeshadow_upper = Eyeshadow (Upper)
-marking-TattooEyeshadowUpper = Eyeshadow (Upper)
-
-marking-TattooEyeshadowLower-tattoo_eyeshadow_lower = Eyeshadow (Lower)
-marking-TattooEyeshadowLower = Eyeshadow (Lower)
-
-marking-TattooEyeshadowLowerReptilian-tattoo_eyeshadow_lower_reptilian = Eyeshadow (Lower)
-marking-TattooEyeshadowLowerReptilian = Eyeshadow (Lower)
-
-marking-TattooEyeshadowVoxSmall-tattoo_eyeshadow_small = Eyeshadow (Small)
-marking-TattooEyeshadowVoxSmall = Eyeshadow (Small)
-
-marking-TattooEyeshadowVoxMedium-tattoo_eyeshadow_medium = Eyeshadow (Medium)
-marking-TattooEyeshadowVoxMedium = Eyeshadow (Medium)
-
-marking-TattooEyeshadowVoxLarge-tattoo_eyeshadow_Large = Eyeshadow (Large)
-marking-TattooEyeshadowVoxLarge = Eyeshadow (Large)
-
-marking-TattooVoxTailRing-tattoo_vox_tail_ring = Tail Ring
-marking-TattooVoxTailRing = Tail Ring
+marking-TattooHiveChest-tattoo_hive_chest = 背部刺青（蜂巢）
+marking-TattooHiveChest = 背部刺青（蜂巢）
+marking-TattooNightlingChest-tattoo_nightling = 胸口刺青（夜行鳥）
+marking-TattooNightlingChest = 胸口刺青（夜行鳥）
+marking-TattooSilverburghLeftLeg-tattoo_silverburgh_l_leg = 左腿刺青（西爾弗伯格）
+marking-TattooSilverburghLeftLeg = 左腿刺青（西爾弗伯格）
+marking-TattooSilverburghRightLeg-tattoo_silverburgh_r_leg = 右腿刺青（西爾伯格）
+marking-TattooSilverburghRightLeg = 右腿刺青（西爾伯格）
+marking-TattooCampbellLeftArm-tattoo_campbell_l_arm = 左臂刺青（坎貝爾）
+marking-TattooCampbellLeftArm = 左臂刺青（坎貝爾）
+marking-TattooCampbellRightArm-tattoo_campbell_r_arm = 右臂刺青（坎貝爾）
+marking-TattooCampbellRightArm = 右臂刺青（坎貝爾）
+marking-TattooCampbellLeftLeg-tattoo_campbell_l_leg = 左腿刺青（坎貝爾）
+marking-TattooCampbellLeftLeg = 左腿刺青（坎貝爾）
+marking-TattooCampbellRightLeg-tattoo_campbell_r_leg = 右腿刺青（坎貝爾）
+marking-TattooCampbellRightLeg = 右腿刺青（坎貝爾）
+marking-TattooEyeRight-tattoo_eye_r = 右眼
+marking-TattooEyeRight = 右眼
+marking-TattooEyeLeft-tattoo_eye_l = 左眼
+marking-TattooEyeLeft = 左眼
+marking-TattooEyeMothRight-tattoo_eye_moth_r = 右眼
+marking-TattooEyeMothRight = 右眼
+marking-TattooEyeMothLeft-tattoo_eye_moth_l = 左眼
+marking-TattooEyeMothLeft = 左眼
+marking-TattooEyeVulpkaninRight-tattoo_eye_vulpkanin_r = 右眼
+marking-TattooEyeVulpkaninRight = 右眼
+marking-TattooEyeVulpkaninLeft-tattoo_eye_vulpkanin_l = 左眼
+marking-TattooEyeVulpkaninLeft = 左眼
+marking-TattooEyeVoxRight-tattoo_eye_vox_r = 右眼
+marking-TattooEyeVoxRight = 右眼
+marking-TattooEyeVoxLeft-tattoo_eye_vox_l = 左眼
+marking-TattooEyeVoxLeft = 左眼
+marking-TattooEyeshadowUpper-tattoo_eyeshadow_upper = 眼影（上眼瞼）
+marking-TattooEyeshadowUpper = 眼影（上眼瞼）
+marking-TattooEyeshadowLower-tattoo_eyeshadow_lower = 眼影（下眼瞼）
+marking-TattooEyeshadowLower = 眼影（下眼瞼）
+marking-TattooEyeshadowLowerReptilian-tattoo_eyeshadow_lower_reptilian = 眼影（下眼瞼）
+marking-TattooEyeshadowLowerReptilian = 眼影（下眼瞼）
+marking-TattooEyeshadowVoxSmall-tattoo_eyeshadow_small = 眼影（小號）
+marking-TattooEyeshadowVoxSmall = 眼影（小號）
+marking-TattooEyeshadowVoxMedium-tattoo_eyeshadow_medium = 眼影（中色號）
+marking-TattooEyeshadowVoxMedium = 眼影（中色號）
+marking-TattooEyeshadowVoxLarge-tattoo_eyeshadow_Large = 眼影（大號）
+marking-TattooEyeshadowVoxLarge = 眼影（大號）
+marking-TattooVoxTailRing-tattoo_vox_tail_ring = 尾環
+marking-TattooVoxTailRing = 尾環

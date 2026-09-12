@@ -1,10 +1,9 @@
-solar-control-window-title = Solar Control Console
-solar-control-window-output-power = Output Power:
+solar-control-window-title = 太陽能控制主控台
+solar-control-window-output-power = 輸出功率：
 solar-control-window-watts = W
-solar-control-window-sun-angle = Sun Angle:
+solar-control-window-sun-angle = 日照角度：
 solar-control-window-degrees = °
-solar-control-window-panel-angle = Panel Angle:
-solar-control-window-panel-angular-velocity = Panel Angular Velocity:
-solar-control-window-degrees-per-minute = °/min.
-solar-control-window-press-enter-to-confirm = Press Enter to confirm.
-
+solar-control-window-panel-angle = 面板角度：
+solar-control-window-panel-angular-velocity = 面板角速度：
+solar-control-window-degrees-per-minute = °/分鐘。
+solar-control-window-press-enter-to-confirm = 按下 Enter 鍵以確認。

@@ -1,16 +1,14 @@
 ﻿player-tab-player-count = Players: { $count }
-player-tab-username = Username
-player-tab-character = Character
-player-tab-job = Job
-player-tab-roletype = Role Type
-player-tab-playtime = Playtime
-player-tab-show-disconnected = Show Disconnected
-player-tab-overlay = Overlay
-player-tab-entry-tooltip = Playtime is displayed in days:hours:minutes.
-player-tab-filter-line-edit-placeholder = Filter
-player-tab-is-antag-yes = YES
-player-tab-is-antag-no = NO
-
-player-tab-character-name-antag-symbol = {$symbol} {$name}
-
+player-tab-username = 使用者名稱
+player-tab-character = 角色
+player-tab-job = 工作
+player-tab-roletype = 角色類型
+player-tab-playtime = 遊戲時間
+player-tab-show-disconnected = 顯示已斷線
+player-tab-overlay = 疊加層
+player-tab-entry-tooltip = 遊玩時間以「天:小時:分鐘」格式顯示。
+player-tab-filter-line-edit-placeholder = 篩選
+player-tab-is-antag-yes = 是
+player-tab-is-antag-no = 不
+player-tab-character-name-antag-symbol = { $symbol } { $name }
 player-tab-antag-prefix = 🗡

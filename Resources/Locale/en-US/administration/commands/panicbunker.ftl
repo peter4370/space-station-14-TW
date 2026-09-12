@@ -1,34 +1,28 @@
-cmd-panicbunker-desc = Toggles the panic bunker, which enables stricter restrictions on who's allowed to join the server.
-cmd-panicbunker-help = Usage: panicbunker
-panicbunker-command-enabled = Panic bunker has been enabled.
-panicbunker-command-disabled = Panic bunker has been disabled.
-
-cmd-panicbunker_disable_with_admins-desc = Toggles whether or not the panic bunker will disable when an admin connects.
-cmd-panicbunker_disable_with_admins-help = Usage: panicbunker_disable_with_admins
-panicbunker-command-disable-with-admins-enabled = The panic bunker will automatically disable with admins online.
-panicbunker-command-disable-with-admins-disabled = The panic bunker will not automatically disable with admins online.
-
-cmd-panicbunker_enable_without_admins-desc = Toggles whether or not the panic bunker will enable when the last admin disconnects.
-cmd-panicbunker_enable_without_admins-help = Usage: panicbunker_enable_without_admins
-panicbunker-command-enable-without-admins-enabled = The panic bunker will automatically enable without admins online.
-panicbunker-command-enable-without-admins-disabled = The panic bunker will not automatically enable without admins online.
-
-cmd-panicbunker_count_deadminned_admins-desc = Toggles whether or not to count deadminned admins when automatically enabling and disabling the panic bunker.
-cmd-panicbunker_count_deadminned_admins-help = Usage: panicbunker_count_deadminned_admins
-panicbunker-command-count-deadminned-admins-enabled = The panic bunker will count deadminned admins when made to automatically enable and disable.
-panicbunker-command-count-deadminned-admins-disabled = The panic bunker will not count deadminned admins when made to automatically enable and disable.
-
-cmd-panicbunker_show_reason-desc = Toggles whether or not to show connecting clients the reason why the panic bunker blocked them from joining.
-cmd-panicbunker_show_reason-help = Usage: panicbunker_show_reason
-panicbunker-command-show-reason-enabled = The panic bunker will now show a reason to users it blocks from connecting.
-panicbunker-command-show-reason-disabled = The panic bunker will no longer show a reason to users it blocks from connecting.
-
-cmd-panicbunker_min_account_age-desc = Gets or sets the minimum account age in minutes that an account must have to be allowed to connect with the panic bunker enabled.
-cmd-panicbunker_min_account_age-help = Usage: panicbunker_min_account_age <minutes>
-panicbunker-command-min-account-age-is = The minimum account age for the panic bunker is {$minutes} minutes.
-panicbunker-command-min-account-age-set = Set the minimum account age for the panic bunker to {$minutes} minutes.
-
-cmd-panicbunker_min_overall_minutes-desc = Gets or sets the minimum overall playtime in minutes that an account must have to be allowed to connect with the panic bunker enabled.
-cmd-panicbunker_min_overall_minutes-help = Usage: panicbunker_min_overall_minutes <minutes>
-panicbunker-command-min-overall-minutes-is = The minimum overall playtime for the panic bunker is {$minutes} minutes.
-panicbunker-command-min-overall-minutes-set = Set the minimum overall playtime for the panic bunker to {$minutes} minutes.
+cmd-panicbunker-desc = 啟用或停用「緊急避難所」模式，此模式會對可加入伺服器的使用者實施更嚴格的限制。
+cmd-panicbunker-help = 用法：panicbunker
+panicbunker-command-enabled = 「恐慌避難所」功能已啟用。
+panicbunker-command-disabled = 「恐慌避難所」已停用。
+cmd-panicbunker_disable_with_admins-desc = 切換當管理員連線時，是否停用緊急避難所的功能。
+cmd-panicbunker_disable_with_admins-help = 用法：panicbunker_disable_with_admins
+panicbunker-command-disable-with-admins-enabled = 當管理員在線時，緊急避難所將自動停用。
+panicbunker-command-disable-with-admins-disabled = 當管理員在線時，恐慌避難所不會自動停用。
+cmd-panicbunker_enable_without_admins-desc = 切換當最後一位管理員斷線時，緊急避難所是否會啟用。
+cmd-panicbunker_enable_without_admins-help = 用法：panicbunker_enable_without_admins
+panicbunker-command-enable-without-admins-enabled = 若無管理員在線，緊急避難所將自動啟用。
+panicbunker-command-enable-without-admins-disabled = 若無管理員在線，緊急避難所將不會自動啟用。
+cmd-panicbunker_count_deadminned_admins-desc = 用於切換在自動啟用與停用「恐慌掩體」時，是否將已被「deadmin」處理的管理員納入計數。
+cmd-panicbunker_count_deadminned_admins-help = 用法：panicbunker_count_deadminned_admins
+panicbunker-command-count-deadminned-admins-enabled = 當「恐慌掩體」被設定為自動啟用與停用時，它會將被「死礦」的系統管理員納入統計。
+panicbunker-command-count-deadminned-admins-disabled = 當設定為自動啟用與停用時，恐慌避難所不會將遭「deadmin」處理的管理員納入計算。
+cmd-panicbunker_show_reason-desc = 切換是否向連線的用戶顯示「緊急避難所」阻止其加入的原因。
+cmd-panicbunker_show_reason-help = 用法：panicbunker_show_reason
+panicbunker-command-show-reason-enabled = 「恐慌掩體」現在會向被阻擋連線的使用者顯示阻擋原因。
+panicbunker-command-show-reason-disabled = 「恐慌避難所」將不再向被其阻擋連線的使用者顯示阻擋原因。
+cmd-panicbunker_min_account_age-desc = 取得或設定帳戶必須具備的最低使用天數（以分鐘為單位），該帳戶方能於啟用「緊急避難所」功能時進行連線。
+cmd-panicbunker_min_account_age-help = 用法：panicbunker_min_account_age<minutes>
+panicbunker-command-min-account-age-is = 「恐慌避難所」的帳戶最低使用天數為 { $minutes } 分鐘。
+panicbunker-command-min-account-age-set = 將「緊急避難所」的帳戶最低使用天數設定為 { $minutes } 分鐘。
+cmd-panicbunker_min_overall_minutes-desc = 取得或設定帳戶在啟用「緊急避難所」功能時，必須具備的最低總遊玩時間（以分鐘為單位），方可進行連線。
+cmd-panicbunker_min_overall_minutes-help = 用法：panicbunker_min_overall_minutes<minutes>
+panicbunker-command-min-overall-minutes-is = 「恐慌掩體」的最低總遊玩時間為 { $minutes } 分鐘。
+panicbunker-command-min-overall-minutes-set = 將「恐慌掩體」的最低總遊玩時間設定為 { $minutes } 分鐘。

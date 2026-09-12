@@ -1,6 +1,6 @@
-cmd-setafkconfirmationsound-desc = Sets the sound played by the AFK confirmation window.
-cmd-setafkconfirmationsound-help = Usage: setafkconfirmationsound <respath>
-cmd-setafkconfirmationsound-invalid-arguments = Expected exactly one resource path argument.
-cmd-setafkconfirmationsound-not-rooted = Resource path must start with /.
-cmd-setafkconfirmationsound-success = AFK confirmation sound set to {$path}.
-cmd-setafkconfirmationsound-hint = Sound resource path
+cmd-setafkconfirmationsound-desc = 設定「離線確認視窗」所播放的聲音。
+cmd-setafkconfirmationsound-help = 用法：setafkconfirmationsound<respath>
+cmd-setafkconfirmationsound-invalid-arguments = 預期有且僅有一個資源路徑參數。
+cmd-setafkconfirmationsound-not-rooted = 資源路徑必須以 / 開頭。
+cmd-setafkconfirmationsound-success = AFK 確認音效設定為 { $path }。
+cmd-setafkconfirmationsound-hint = 音效資源路徑

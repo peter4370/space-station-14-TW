@@ -1,3 +1,3 @@
-fresium-effect-freeze-insides = You feel your insides freezing up!
-fresium-effect-frozen = Your legs have completely frozen up!
-fresium-effect-slow = Your legs buckle and struggle to move!
+fresium-effect-freeze-insides = 你感覺內心彷彿結冰了一般！
+fresium-effect-frozen = 你的雙腿已經完全凍僵了！
+fresium-effect-slow = 雙腿發軟，動也動不了！
