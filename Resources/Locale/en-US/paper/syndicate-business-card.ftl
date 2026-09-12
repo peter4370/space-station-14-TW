@@ -1,1 +1,2 @@
-syndicate-business-card-base = { "           " } 這不是針對你個人，純粹是生意上的事
+syndicate-business-card-base = {"           "} It's nothing personal, it's just business
+

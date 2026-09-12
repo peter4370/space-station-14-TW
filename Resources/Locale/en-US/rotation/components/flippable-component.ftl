@@ -1,4 +1,5 @@
 # FlippableComponent
-flippable-component-try-flip-is-stuck = 卡住了。
+flippable-component-try-flip-is-stuck = It's stuck.
+
 # FlippableVerb
 flippable-verb-get-data-text = Flip

@@ -1,1 +1,2 @@
-command-description-runverbas = 以指定使用者身分，對輸入實體執行該動詞。
+command-description-runverbas =
+    Runs a verb over the input entities with the given user.

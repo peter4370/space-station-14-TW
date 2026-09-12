@@ -1,6 +1,7 @@
 # Types
-satiation-type-hunger = 飢餓
-satiation-type-thirst = 口渴
-satiation-type-chemicals = 化學品
+satiation-type-hunger = hunger
+satiation-type-thirst = thirst
+satiation-type-chemicals = chemicals
+
 # Other
-satiation-not-enough-hunger = 你太餓了！
+satiation-not-enough-hunger = You are too hungry!

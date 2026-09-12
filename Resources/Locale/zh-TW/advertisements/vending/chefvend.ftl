@@ -1,0 +1,13 @@
+﻿advertisement-chefvend-1 = At least sixty percent of our eggs un-broken, guranteed!
+advertisement-chefvend-2 = 米飯、米飯，寶貝。
+advertisement-chefvend-3 = 抹點奶油上去吧！
+advertisement-chefvend-4 = 你夠格嗎？我們夠格。
+advertisement-chefvend-5 = 嗯，肉。
+advertisement-chefvend-6 = 善用麵粉的力量。
+advertisement-chefvend-7 = 用我們這款舉世聞名、屢獲殊榮的燒烤醬，向您的顧客展示誰才是這附近最棒的主廚。
+advertisement-chefvend-8 = 我特別喜歡生吃雞蛋。
+advertisement-chefvend-9 = 來享用些經典的生雞蛋吧！
+thankyou-chefvend-1 = 是時候下廚了！
+thankyou-chefvend-2 = 感謝您對我們優質食材的信賴！
+thankyou-chefvend-3 = 這應該能滿足他們的渴望！
+thankyou-chefvend-4 = 快去做那些漢堡吧！

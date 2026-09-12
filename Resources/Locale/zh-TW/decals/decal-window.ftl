@@ -1,0 +1,9 @@
+﻿decal-placer-window-title = Decal Placer
+decal-placer-window-use-color = 自訂顏色
+decal-placer-window-rotation = 旋轉
+decal-placer-window-zindex = 繪製深度
+decal-placer-window-enable-auto = 使用自動設定
+decal-placer-window-enable-snap = 對齊至磁磚
+decal-placer-window-enable-cleanable = 可清潔
+decal-placer-window-palette = 調色盤
+palette-color-picker-window-title = 調色盤

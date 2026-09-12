@@ -1,0 +1,9 @@
+server-info-rules-button = 規則
+server-info-guidebook-button = 指南手冊
+server-info-discord-button = Discord
+server-info-website-button = 網站
+server-info-wiki-button = 維基
+server-info-forum-button = 論壇
+server-info-telegram-button = Telegram
+server-info-report-button = 回報錯誤
+server-info-credits-button = 製作人員名單

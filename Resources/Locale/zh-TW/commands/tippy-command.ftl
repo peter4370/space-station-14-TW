@@ -1,0 +1,11 @@
+cmd-tippy-desc = 以小丑「提皮」的身份廣播一則訊息。
+cmd-tippy-help = tippy<user | all> <message> [實體原型 | null] [說話時間] [滑動時間] [搖搖晃晃間隔]
+cmd-tippy-auto-1 = <user | all>
+cmd-tippy-auto-2 = 訊息
+cmd-tippy-auto-3 = 實體原型
+cmd-tippy-auto-4 = 通話時間（以秒為單位）
+cmd-tippy-auto-5 = 投影片顯示時間（以秒為單位）
+cmd-tippy-auto-6 = 搖擺間隔，單位為秒
+cmd-tippy-error-no-user = 找不到該使用者。
+cmd-tippy-error-no-prototype = 找不到原型：{ $proto }
+cmd-tip-desc = 產生一個隨機的遊戲提示。

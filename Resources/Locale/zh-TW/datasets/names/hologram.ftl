@@ -1,0 +1,14 @@
+names-hologram-dataset-1 = 阿波羅
+names-hologram-dataset-2 = 資料
+names-hologram-dataset-3 = GLIMMER
+names-hologram-dataset-4 = 埃爾·羅伊
+names-hologram-dataset-5 = 赫菲斯托斯
+names-hologram-dataset-6 = 全息人工智慧
+names-hologram-dataset-7 = 全息好友
+names-hologram-dataset-8 = 全息圖
+names-hologram-dataset-9 = 奧德修斯
+names-hologram-dataset-10 = 珀耳塞福涅
+names-hologram-dataset-11 = 佩特拉
+names-hologram-dataset-12 = 處理器
+names-hologram-dataset-13 = 普羅米修斯
+names-hologram-dataset-14 = 忒修斯

@@ -1,2 +1,2 @@
 ﻿cmd-toggledecals-desc = Toggles decal overlay.
-cmd-toggledecals-help = 用法：toggledecals
+cmd-toggledecals-help = Usage: toggledecals

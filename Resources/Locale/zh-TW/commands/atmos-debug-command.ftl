@@ -1,0 +1,14 @@
+cmd-atvrange-desc = 設定 atmos 的除錯範圍（以兩個浮點數表示，起始值 [red] 和結束值 [blue]）
+cmd-atvrange-help = 用法：{ $command }<start> <end>
+cmd-atvrange-error-start = 浮點數錯誤 START
+cmd-atvrange-error-end = 浮點數錯誤 END
+cmd-atvrange-error-zero = 比例值不能為零，否則會在 AtmosDebugOverlay 中引發除以零的錯誤。
+cmd-atvmode-desc = 設定 atmos 除錯模式。此操作將自動重置比例。
+cmd-atvmode-help = Usage: { $command } <TotalMoles/GasMoles/Temperature> [<gas ID (for GasMoles)>]
+cmd-atvmode-error-invalid = 無效模式
+cmd-atvmode-error-target-gas = 此模式下必須提供靶氣。
+cmd-atvmode-error-out-of-range = 氣體識別碼無法解析或超出範圍。
+cmd-atvmode-error-info = 此模式無需提供其他資訊。
+cmd-atvcbm-desc = 從紅、綠、藍轉為灰階
+cmd-atvcbm-help = 用法：{ $command } <true/false>
+cmd-atvcbm-error = 無效的標誌

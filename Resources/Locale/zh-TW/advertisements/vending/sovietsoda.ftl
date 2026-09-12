@@ -1,0 +1,9 @@
+﻿advertisement-sovietsoda-1 = For comrade and country.
+advertisement-sovietsoda-2 = 你今天攝取的營養量夠了嗎？
+advertisement-sovietsoda-3 = 真棒！
+advertisement-sovietsoda-4 = 我們是樸實的人，因為這便是我們唯一的食物。
+advertisement-sovietsoda-5 = 若有人，便有問題；若無人，便無問題。
+advertisement-sovietsoda-6 = 如果它足以應付日常生活，那對我們來說就足夠了！
+thankyou-sovietsoda-1 = 請盡情享受吧，同志！
+thankyou-sovietsoda-2 = 現在回去工作吧。
+thankyou-sovietsoda-3 = 你只能得到這些了。

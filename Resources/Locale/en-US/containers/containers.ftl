@@ -1,6 +1,5 @@
-container-verb-text-enter = 輸入
-container-verb-text-empty = 空白
+container-verb-text-enter = Enter
+container-verb-text-empty = Empty
 
 ## missed
-
-container-thrown-missed = 沒進！
+container-thrown-missed = Missed!

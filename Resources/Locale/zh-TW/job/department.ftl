@@ -1,0 +1,11 @@
+department-Cargo = 貨運部
+department-Civilian = 平民
+department-Command = 指揮部
+department-CentralCommand = 中央司令部
+department-Engineering = 工程部
+department-Medical = 醫療部
+department-Security = 安保部
+department-Science = 科學部
+department-Silicon = 矽基部
+department-Specific = 站內特設
+department-Unknown = 未知

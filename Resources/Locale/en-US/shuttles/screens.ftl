@@ -1,2 +1,2 @@
-screens-text = 文字
-screens-color = 顏色
+screens-text = text
+screens-color = color

@@ -1,1 +1,1 @@
-chameleon-outfit-sus-name = 蘇斯
+chameleon-outfit-sus-name = Sus

@@ -1,0 +1,11 @@
+﻿entity-effect-status-effect-Stun = stunning
+entity-effect-status-effect-KnockedDown = 擊倒
+entity-effect-status-effect-Jitter = 顫動
+entity-effect-status-effect-SeeingRainbows = 幻覺
+entity-effect-status-effect-Stutter = 口吃
+entity-effect-status-effect-ForcedSleep = 失去意識
+entity-effect-status-effect-Drunk = 酗酒
+entity-effect-status-effect-Pacified = 戰鬥與平定
+entity-effect-status-effect-StaminaModifier = 調整後的耐力
+entity-effect-status-effect-RadiationProtection = 輻射防護
+entity-effect-status-effect-Drowsiness = 嗜睡

@@ -1,1 +1,2 @@
-command-description-unpolymorph = 撤銷變形效果。
+command-description-unpolymorph =
+    Reverts a polymorph.

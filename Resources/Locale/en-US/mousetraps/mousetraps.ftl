@@ -1,2 +1,2 @@
-mousetrap-on-activate = 捕鼠夾被觸發了。
-mousetrap-on-deactivate = 捕鼠夾已被停用。
+mousetrap-on-activate = The mousetrap was activated.
+mousetrap-on-deactivate = The mousetrap was deactivated.

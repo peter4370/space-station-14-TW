@@ -1,1 +1,1 @@
-pipe-painter-no-color-selected = (未選取顏色)
+pipe-painter-no-color-selected = (No color selected)

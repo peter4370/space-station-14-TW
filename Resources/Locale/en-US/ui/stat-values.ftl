@@ -1,1 +1,1 @@
-stat-values-ui-title = 近戰屬性
+stat-values-ui-title = Melee stats

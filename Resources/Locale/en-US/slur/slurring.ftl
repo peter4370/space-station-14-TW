@@ -1,2 +1,2 @@
 ﻿slur-accent-confused = ...huuuhhh...
-slur-accent-burp = *嗝*。
+slur-accent-burp = *BURP*.

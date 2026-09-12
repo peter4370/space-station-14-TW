@@ -1,1 +1,1 @@
-reflect-shot = 已反映！
+reflect-shot = Reflected!

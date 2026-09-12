@@ -1,2 +1,2 @@
 ﻿verb-follow-text = Follow
-verb-follow-me-text = 追蹤
+verb-follow-me-text = Make follow

@@ -1,0 +1,9 @@
+cmd-nutrition-satiation-need = { $satiation } 飽足需求
+cmd-setsatiation-desc = 設定您的飽足感需求。
+cmd-setsatiation-help = 將您指定的飽足感需求設定為指定的閾值。
+cmd-nutrition-setsatiation-prototype-error = 無效的飽和值 \"{ $satiation-proto-id }\"
+cmd-nutrition-setsatiation-no-matching-key-error = 無法識別的金鑰 \"{ $key }\"，對應於飽和度 \"{ $satiation-proto-id }\"
+cmd-nutrition-setsatiation-hint-key = 飽足感值關鍵
+cmd-nutrition-setsatiation-hint-max-value = 最大值
+cmd-unsatiate-desc = 會讓你對飽足感的渴望變得迫切。
+cmd-unsatiate-help = 將指定的飽足需求設定為「極度飢餓」的閾值。此設定會影響指定的飽足類型；若未指定類型，則影響所有類型。

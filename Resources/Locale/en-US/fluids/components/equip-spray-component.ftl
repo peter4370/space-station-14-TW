@@ -1,1 +1,1 @@
-equip-spray-verb-press = 新聞
+equip-spray-verb-press = Press

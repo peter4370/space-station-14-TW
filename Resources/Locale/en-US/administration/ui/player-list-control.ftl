@@ -1,1 +1,1 @@
-player-list-filter = 篩選
+player-list-filter = Filter

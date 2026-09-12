@@ -1,0 +1,15 @@
+﻿advertisement-cigs-1 = Space cigs taste good like a cigarette should.
+advertisement-cigs-2 = 我寧可使用工具箱，也不願切換。
+advertisement-cigs-3 = 有煙！
+advertisement-cigs-4 = 別相信那些報導——今天就來抽菸吧！
+advertisement-cigs-5 = 對你來說應該還不錯吧！
+advertisement-cigs-6 = 別相信那些科學家！
+advertisement-cigs-7 = 這對你有好處！
+advertisement-cigs-8 = 別放棄，多買點吧！
+advertisement-cigs-9 = 尼古丁天堂。
+advertisement-cigs-10 = 自2150年以來最棒的香菸。
+advertisement-cigs-11 = 屢獲殊榮的香菸。
+advertisement-cigs-12 = 來這裡紓解一下工作壓力！
+thankyou-cigs-1 = 既然已經拿到手了，那就抽吧！
+thankyou-cigs-2 = 你應該不會後悔的！
+thankyou-cigs-3 = 你轉眼間就會上癮！

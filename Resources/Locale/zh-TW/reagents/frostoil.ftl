@@ -1,0 +1,3 @@
+﻿### Messages that pop up when metabolizing Frost Oil.
+
+frost-oil-effect-light-cold = 你感覺喉嚨裡有一股輕微的寒意……

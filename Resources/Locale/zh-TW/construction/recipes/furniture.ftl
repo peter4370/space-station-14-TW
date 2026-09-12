@@ -1,0 +1,12 @@
+construction-recipe-red-comf-bench = 舒適長椅（紅色）
+construction-recipe-blue-comf-bench = 舒適長椅（藍色）
+construction-recipe-table-fancy-black = 精緻餐桌（黑色）
+construction-recipe-table-fancy-blue = 精緻桌子（藍色）
+construction-recipe-table-fancy-sky-blue = 花式桌（天藍色）
+construction-recipe-table-fancy-cyan = 花式表格（青色）
+construction-recipe-table-fancy-green = 精緻餐桌（綠色）
+construction-recipe-table-fancy-orange = 精緻餐桌（橘色）
+construction-recipe-table-fancy-purple = 精緻桌子（紫色）
+construction-recipe-table-fancy-pink = 精緻桌子（粉紅色）
+construction-recipe-table-fancy-red = 精緻餐桌（紅色）
+construction-recipe-table-fancy-white = 精緻餐桌（白色）

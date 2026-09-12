@@ -1,0 +1,10 @@
+﻿advertisement-ammo-1 = Liberation Station: Your one-stop shop for all things second amendment!
+advertisement-ammo-2 = 今天就當個愛國者，拿起槍吧！
+advertisement-ammo-3 = 高品質武器，價格實惠！
+advertisement-ammo-4 = 寧死也不當共產黨！
+advertisement-ammo-5 = 像太空人一樣輕盈飄浮，像子彈一樣銳利刺穿！
+advertisement-ammo-6 = 今天就來表達你對《第二修正案》的支持吧！
+advertisement-ammo-7 = 槍支不會殺人，但你卻可以！
+advertisement-ammo-8 = 既然有槍，誰還需要承擔責任呢？
+advertisement-ammo-9 = 殺人真好玩！
+advertisement-ammo-10 = 去把他們全都打翻吧！

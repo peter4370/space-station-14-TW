@@ -1,1 +1,1 @@
-pointing-verb-get-data-text = 指向
+pointing-verb-get-data-text = Point at

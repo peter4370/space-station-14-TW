@@ -1,1 +1,1 @@
-storage-component-transfer-verb = 轉移內容
+storage-component-transfer-verb = Transfer contents

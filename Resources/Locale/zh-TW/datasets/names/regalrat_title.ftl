@@ -1,0 +1,17 @@
+names-regal-rat-title-dataset-1 = 國王
+names-regal-rat-title-dataset-2 = 勳爵
+names-regal-rat-title-dataset-3 = 王子
+names-regal-rat-title-dataset-4 = 皇帝
+names-regal-rat-title-dataset-5 = Supreme
+names-regal-rat-title-dataset-6 = 《Overlord》
+names-regal-rat-title-dataset-7 = 大師
+names-regal-rat-title-dataset-8 = 《幕府將軍》
+names-regal-rat-title-dataset-9 = 博雅爾
+names-regal-rat-title-dataset-10 = 沙皇
+names-regal-rat-title-dataset-11 = 粉絲 #vs
+names-regal-rat-title-dataset-12 = 樂享者
+names-regal-rat-title-dataset-13 = 總裁
+names-regal-rat-title-dataset-14 = 市長
+names-regal-rat-title-dataset-15 = 老闆
+names-regal-rat-title-dataset-16 = 先知
+names-regal-rat-title-dataset-17 = 起司

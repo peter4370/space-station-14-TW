@@ -1,0 +1,10 @@
+cmd-setjobpriority-desc = 為連線中的玩家設定所選角色的職業偏好。
+cmd-setjobpriority-help = 用法：setjobpriority<player> <job> <high|medium|low|never>
+cmd-setjobpriority-player-not-found = 玩家 { $player } 目前未連線。
+cmd-setjobpriority-job-not-found = 工作 { $job } 不存在。
+cmd-setjobpriority-invalid-priority = { $priority } 並非有效的工作優先級。請使用 high、medium、low 或 never。
+cmd-setjobpriority-preferences-not-loaded = { $player } 的偏好設定尚未載入。
+cmd-setjobpriority-success = 將 { $player } 的 { $job } 偏好設定為 { $priority }。
+cmd-setjobpriority-hint-player = [播放器]
+cmd-setjobpriority-hint-job = [職缺]
+cmd-setjobpriority-hint-priority = [高|中|低|從未]

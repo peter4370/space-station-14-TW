@@ -1,0 +1,13 @@
+comp-storage-no-item-size = 不適用
+comp-storage-cant-insert = 無法插入。
+comp-storage-too-big = 太大了！
+comp-storage-insufficient-capacity = 沒位置了！
+comp-storage-invalid-container = 這個不能放那裡！
+comp-storage-anchored-failure = 無法插入已固定的東西。
+comp-storage-cant-drop = 你絕不能放手 { THE($entity) }！
+comp-storage-window-title = 儲存項目
+comp-storage-window-weight = { $weight }/{ $maxWeight }, 最大大小：{ $size }
+comp-storage-window-slots = 插槽：{ $itemCount }/{ $maxCount }，最大尺寸：{ $size }
+comp-storage-window-dummy = 假人
+comp-storage-verb-open-storage = 開放式儲物空間
+comp-storage-verb-close-storage = 關閉儲存空間
