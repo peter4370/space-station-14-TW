@@ -535,7 +535,7 @@
 - type: entity
   id: Biogenerator
   parent: BaseLathe
-  name: 生物發電裝置 | biogenerator
+  name: 生物生成器 | biogenerator
   description: 將植物轉化為生物質，可用於製作實用物品。 | Converts plants into biomass, which can be used to construct useful items.
   components:
   - type: Sprite
