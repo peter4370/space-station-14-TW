@@ -1,0 +1,16 @@
+ent-SalvageHumanCorpseSpawner = 屍體生成器 | Human Corpse Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-RandomServiceCorpseSpawner = 隨機服務屍體生成器 | Random Service Corpse Spawner
+    .desc = { ent-SalvageHumanCorpseSpawner.desc }
+ent-RandomEngineerCorpseSpawner = 隨機工程師屍體生成器 | Random Engineer Corpse Spawner
+    .desc = { ent-SalvageHumanCorpseSpawner.desc }
+ent-RandomCargoCorpseSpawner = 隨機貨物屍體生成器 | Random Cargo Corpse Spawner
+    .desc = { ent-SalvageHumanCorpseSpawner.desc }
+ent-RandomMedicCorpseSpawner = 隨機醫護人員屍體生成器 | Random Medic Corpse Spawner
+    .desc = { ent-SalvageHumanCorpseSpawner.desc }
+ent-RandomScienceCorpseSpawner = 隨機科學屍體生成器 | Random Science Corpse Spawner
+    .desc = { ent-SalvageHumanCorpseSpawner.desc }
+ent-RandomSecurityCorpseSpawner = 隨機安全屍體生成器 | Random Security Corpse Spawner
+    .desc = { ent-SalvageHumanCorpseSpawner.desc }
+ent-RandomCommandCorpseSpawner = 隨機指令屍體生成器 | Random Command Corpse Spawner
+    .desc = { ent-SalvageHumanCorpseSpawner.desc }

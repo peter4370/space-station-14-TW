@@ -1,0 +1,14 @@
+ent-BaseLamp = 燈籠 | lantern
+    .desc = { ent-BaseItem.desc }
+ent-Lamp = 燈 | lamp
+    .desc = 一種發光裝置。 | A light emitting device.
+ent-LampBanana = 香蕉燈 | banana lamp
+    .desc = 一種形狀像香蕉的發光裝置。 | A light emitting device, shaped like a banana.
+ent-LampGold = 桌燈 | desk lamp
+    .desc = 一款擺在桌上會非常好看的光發射裝置。 | A light emitting device that would look great on a desk.
+ent-LampInterrogator = 審訊燈 | interrogator lamp
+    .desc = 專為「壞警察」設計的超亮手電筒。 | Ultra-bright lamp for the bad cop.
+ent-Floodlight = 泛光燈 | floodlight
+    .desc = 一根裝有強勁燈具的燈桿。 | A pole with powerful mounted lights on it.
+ent-FloodlightBroken = 損壞的泛光燈 | broken floodlight
+    .desc = 一根裝有強勁照明燈的燈桿。它已經損壞了。 | A pole with powerful mounted lights on it. It's broken.

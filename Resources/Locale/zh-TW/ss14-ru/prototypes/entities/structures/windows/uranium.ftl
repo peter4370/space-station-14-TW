@@ -1,0 +1,10 @@
+ent-UraniumWindow = 鈾窗 | uranium window
+    .desc = { ent-BaseWindowStructure.desc }
+ent-UraniumWindowDirectional = 定向鈾窗 | directional uranium window
+    .desc = { ent-BaseWindowStructureDirectional.desc }
+ent-UraniumWindowDirectionalCorner = { ent-UraniumWindowDirectional }
+    .desc = { ent-UraniumWindowDirectional.desc }
+    .suffix = Corner
+ent-UraniumWindowDiagonal = { ent-UraniumWindow }
+    .desc = { ent-UraniumWindow.desc }
+    .suffix = diagonal

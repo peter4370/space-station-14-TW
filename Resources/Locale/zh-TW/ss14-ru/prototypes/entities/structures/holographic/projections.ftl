@@ -1,0 +1,14 @@
+ent-BaseHoloSign = { "" }
+    .desc = { "" }
+ent-HolosignWetFloor = 「地面濕滑」標誌 | wet floor sign
+    .desc = 那些字詞閃爍不定，彷彿毫無意義。 | The words flicker as if they mean nothing.
+ent-HoloFan = holofan | holofan
+    .desc = 一道由堅硬光線構成的屏障，能阻擋空氣，但無法阻擋其他任何東西。 | A barrier of hard light that blocks air, but nothing else.
+ent-HoloPeel = holopeel | holopeel
+    .desc = 一片由滑溜溜的硬光構成的香蕉皮，請小心腳下！ | A banana peel made of slippery hard light, watch your step!
+ent-HolosignSecurity = 全息屏障 | holographic barrier
+    .desc = 一道能阻擋移動的堅硬光牆，但強度相當薄弱。 | A barrier of hard light that blocks movement, but pretty weak.
+ent-XenoborgDeflectorField = 偏轉場 | deflector field
+    .desc = 一種由相互交錯的力場構成的能量矩陣，能偏轉飛彈。威力強大，但持續時間短暫。 | An energy matrix, comprised of interlocking fields that deflect projectiles. Powerful, but short-lived.
+ent-HolosignForcefield = 全息力場 | holographic force field
+    .desc = 一個強大的時空封鎖場，任何東西都無法穿透，就連特斯拉或奇點也不例外。 | A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.

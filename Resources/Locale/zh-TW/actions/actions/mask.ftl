@@ -1,0 +1,12 @@
+action-mask-pull-up-popup-message = 你打開 { $mask }。
+action-mask-pull-down-popup-message = 你拉下你的 { $mask }。
+verb-name-mask-pull-up = 將口罩拉高
+verb-description-mask-pull-up = 把他們的口罩拉起來。
+verb-name-mask-pull-down = 將面罩往下拉
+verb-description-mask-pull-down = 扯下他們的面具。
+verb-mask-pull-up-popup-message = { CAPITALIZE(THE($puller)) } 正帶動你的 { $mask } 上升！
+verb-mask-pull-down-popup-message = { CAPITALIZE(THE($puller)) } 正在拖累你的 { $mask }！
+verb-mask-pulled-up-popup-message = 您將 { THE($wearer) } 的 { $mask } 上傳了。
+verb-mask-pulled-down-popup-message = 您將 { THE($wearer) } 的 { $mask } 拉下了。
+verb-mask-other-pulled-up-popup-message = { CAPITALIZE(THE($puller)) } 調高了你的 { $mask } 分數。
+verb-mask-other-pulled-down-popup-message = { CAPITALIZE(THE($puller)) } 拉下了你的 { $mask }。

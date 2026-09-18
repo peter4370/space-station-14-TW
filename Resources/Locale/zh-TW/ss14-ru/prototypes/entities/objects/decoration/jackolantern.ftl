@@ -1,0 +1,16 @@
+ent-CarvedPumpkin = 雕刻南瓜 | carved pumpkin
+    .desc = 一種傳統的詭異裝飾。 | A traditional spooky decoration.
+ent-PumpkinLantern = 南瓜燈 | jack o' lantern
+    .desc = 一個雕刻過的南瓜，散發著詭異的光芒。 | A carved pumpkin, emitting an eerie glow.
+ent-CarvedPumpkinSmall = { ent-CarvedPumpkin }
+    .desc = { ent-CarvedPumpkin.desc }
+    .suffix = Small
+ent-CarvedPumpkinLarge = { ent-CarvedPumpkin }
+    .desc = { ent-CarvedPumpkin.desc }
+    .suffix = Large
+ent-PumpkinLanternSmall = { ent-PumpkinLantern }
+    .desc = { ent-PumpkinLantern.desc }
+    .suffix = Small
+ent-PumpkinLanternLarge = { ent-PumpkinLantern }
+    .desc = { ent-PumpkinLantern.desc }
+    .suffix = Large

@@ -1,0 +1,10 @@
+ent-BaseShowcaseRobot = 安全機器人展示會 | security robot showcase
+    .desc = 一具舊式安保機器人的非功能性複製品。 | A non-functional replica of an old security robot.
+ent-ShowcaseRobot = 安全機器人展示會 | security robot showcase
+    .desc = 一具舊式安保機器人的非功能性複製品。 | A non-functional replica of an old security robot.
+ent-ShowcaseRobotWhite = 白色機器人展示櫃 | white robot showcase
+    .desc = 一具無法運作的舊式機器人複製品。 | A non-functional replica of an old robot.
+ent-ShowcaseRobotAntique = 貨運機器人展示 | cargo robot showcase
+    .desc = 一具舊式貨運機器人的非功能性複製品。 | A non-functional replica of an old cargo robot.
+ent-ShowcaseRobotMarauder = 「掠奪者」特輯 | marauder showcase
+    .desc = 一尊塗成綠色的掠奪者模型，無法運作。 | A non-functional replica of a marauder, painted green.

@@ -1,0 +1,13 @@
+ent-BaseSportsBall = { "" }
+    .desc = { "" }
+ent-Basketball = 籃球 | basketball
+    .desc = 法院在哪裡啊？ | Where dah courts at?
+ent-Football = 足球 | football
+    .desc = 又名「手蛋」。 | Otherwise known as a handegg.
+ent-TennisBall = 網球 | tennis ball
+    .desc = 一個充滿無盡背叛的模糊光球。 | A fuzzy orb of endless betrayal.
+ent-BeachBall = 沙灘球 | beach ball
+    .desc = 這款簡約的沙灘球是 Nanotrasen 最受歡迎的產品之一。「為什麼我們要製作沙灘球？因為我們做得到！（TM）」——Nanotrasen | The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen
+ent-EvilBeachBall = { ent-BeachBall }
+    .desc = 有人用不可擦除的墨水在這顆沙灘球的側面上畫了「>:3c」。 | Someone's drawn ">:3c" on the side of this beach ball in indelible ink.
+    .suffix = EVIL/ADMEME

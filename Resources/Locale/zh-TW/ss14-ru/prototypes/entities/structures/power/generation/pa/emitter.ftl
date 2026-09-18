@@ -1,0 +1,15 @@
+ent-ParticleAcceleratorEmitterPort = PA 端口封裝發射極 | PA port containment emitter
+    .desc = 這會釋放出α粒子，最好別站在這邊。 | This launchs the Alpha particles, might not want to stand near this end.
+ent-ParticleAcceleratorEmitterFore = PA 前端封裝發射器 | PA fore containment emitter
+    .desc = 這會釋放出α粒子，最好別站在這邊。 | This launchs the Alpha particles, might not want to stand near this end.
+ent-ParticleAcceleratorEmitterStarboard = PA 右舷封裝輻射器 | PA starboard containment emitter
+    .desc = 這會釋放出α粒子，最好別站在這邊。 | This launchs the Alpha particles, might not want to stand near this end.
+ent-ParticleAcceleratorEmitterPortUnfinished = PA 端口封裝發射極 | PA port containment emitter
+    .desc = 這會釋放出α粒子，最好別站在這邊。看起來還沒完工。 | This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
+    .suffix = Unfinished, Port
+ent-ParticleAcceleratorEmitterForeUnfinished = PA 前端封裝發射器 | PA fore containment emitter
+    .desc = 這會釋放出α粒子，最好別站在這邊。看起來還沒完工。 | This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
+    .suffix = Unfinished, Fore
+ent-ParticleAcceleratorEmitterStarboardUnfinished = PA 右舷封裝輻射器 | PA starboard containment emitter
+    .desc = 這會釋放出α粒子，最好別站在這邊。看起來還沒完工。 | This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
+    .suffix = Unfinished, Starboard

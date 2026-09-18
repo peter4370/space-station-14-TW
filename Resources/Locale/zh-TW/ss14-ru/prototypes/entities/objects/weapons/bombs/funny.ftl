@@ -1,0 +1,13 @@
+ent-HotPotato = 燙手山芋 | hot potato
+    .desc = 一旦啟動，你就無法丟棄這顆計時炸彈——把它扔給別人來救自己一命吧！別燙傷手喔！ | Once activated, you can't drop this time bomb - hit someone else with it to save yourself! Don't burn your hands!
+ent-HotPotatoEffect = { "" }
+    .desc = { "" }
+ent-TrashBananaPeelExplosive = { ent-TrashBananaPeel }
+    .desc = { ent-TrashBananaPeel.desc }
+    .suffix = Explosive
+ent-TrashBananaPeelExplosiveUnarmed = banana | banana
+    .desc = 這根香蕉有某種不同尋常之處。 | There's something unusual about this banana.
+    .suffix = Unarmed
+ent-SnapPopExplosive = { ent-SnapPop }
+    .desc = { ent-SnapPop.desc }
+    .suffix = explosive

@@ -1,0 +1,14 @@
+ent-BaseLightning = 閃電 | lightning
+    .desc = { "" }
+ent-Lightning = 閃電 | lightning
+    .desc = { ent-BaseLightning.desc }
+ent-LightningRevenant = 詭異的閃電 | spooky lightning
+    .desc = { ent-BaseLightning.desc }
+ent-ChargedLightning = 帶電的閃電 | charged lightning
+    .desc = { ent-BaseLightning.desc }
+ent-Spark = 閃電 | lightning
+    .desc = { ent-BaseLightning.desc }
+ent-SuperchargedLightning = 超充能閃電 | supercharged lightning
+    .desc = { ent-ChargedLightning.desc }
+ent-HyperchargedLightning = 超強閃電 | hypercharged lightning
+    .desc = { ent-ChargedLightning.desc }

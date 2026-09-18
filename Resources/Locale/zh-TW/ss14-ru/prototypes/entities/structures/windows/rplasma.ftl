@@ -1,0 +1,10 @@
+ent-ReinforcedPlasmaWindow = 強化等離子窗 | reinforced plasma window
+    .desc = { ent-BaseWindowStructure.desc }
+ent-PlasmaReinforcedWindowDirectional = 定向強化等離子窗 | directional reinforced plasma window
+    .desc = { ent-BaseWindowStructureDirectional.desc }
+ent-PlasmaReinforcedWindowDirectionalCorner = { ent-PlasmaReinforcedWindowDirectional }
+    .desc = { ent-PlasmaReinforcedWindowDirectional.desc }
+    .suffix = Corner
+ent-ReinforcedPlasmaWindowDiagonal = { ent-ReinforcedPlasmaWindow }
+    .desc = { ent-ReinforcedPlasmaWindow.desc }
+    .suffix = diagonal

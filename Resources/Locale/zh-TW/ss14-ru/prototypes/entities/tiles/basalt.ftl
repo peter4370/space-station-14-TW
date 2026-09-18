@@ -1,0 +1,13 @@
+ent-BasaltOne = 玄武岩 | basalt
+    .desc = 搖滾。 | Rock.
+ent-BasaltTwo = { ent-BasaltOne }
+    .desc = { ent-BasaltOne.desc }
+ent-BasaltThree = { ent-BasaltOne }
+    .desc = { ent-BasaltOne.desc }
+ent-BasaltFour = { ent-BasaltOne }
+    .desc = { ent-BasaltOne.desc }
+ent-BasaltFive = { ent-BasaltOne }
+    .desc = { ent-BasaltOne.desc }
+ent-BasaltRandom = { ent-BasaltOne }
+    .desc = { ent-BasaltOne.desc }
+    .suffix = Random

@@ -1,0 +1,12 @@
+ent-CheckerBoard = 棋盤格 | checkerboard
+    .desc = 一個跳棋盤。附棋子！ | A checkerboard. Pieces included!
+ent-CheckerBoardTabletop = 棋盤格 | checkerboard
+    .desc = { ent-BaseBoardTabletop.desc }
+ent-CheckerPieceWhite = 白色棋子 | white checker piece
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerCrownWhite = 白色棋盤格王冠 | white checker crown
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerPieceBlack = 黑色棋子 | black checker piece
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerCrownBlack = 黑色棋盤格紋皇冠 | black checker crown
+    .desc = { ent-BaseTabletopPiece.desc }

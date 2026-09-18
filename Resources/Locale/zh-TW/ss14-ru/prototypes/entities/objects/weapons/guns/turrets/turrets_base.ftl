@@ -1,0 +1,14 @@
+ent-BaseWeaponTurretIndestructible = 炮塔 | turret
+    .desc = { ent-BaseStructure.desc }
+ent-BaseTurretDestructible = { ent-StructureHealthMachineStrong }
+    .desc = { ent-StructureHealthMachineStrong.desc }
+ent-BaseWeaponTurret = { ent-BaseWeaponTurretIndestructible }
+    .desc = { ent-BaseWeaponTurretIndestructible.desc }
+ent-BaseWeaponBallisticTurretIndestructible = 彈道炮塔 | ballistic turret
+    .desc = 一具彈道機槍自動轉塔。 | A ballistic machine gun auto-turret.
+ent-BaseWeaponBallisticTurret = { ent-BaseWeaponBallisticTurretIndestructible }
+    .desc = { ent-BaseWeaponBallisticTurretIndestructible.desc }
+ent-BaseWeaponEnergyTurretIndestructible = 雷射轉塔 | laser turret
+    .desc = 一具配備重型雷射的自動炮塔。只要連接至運作中的電力網，其武器便會自動充電。 | An auto-turret armed with a heavy laser. Its weapon will recharge while connected to an active power grid.
+ent-BaseWeaponEnergyTurret = { ent-BaseWeaponEnergyTurretIndestructible }
+    .desc = { ent-BaseWeaponEnergyTurretIndestructible.desc }

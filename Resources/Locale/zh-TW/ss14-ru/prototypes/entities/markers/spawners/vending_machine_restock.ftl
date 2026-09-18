@@ -1,0 +1,9 @@
+ent-SpawnVendingMachineRestockFoodDrink = 自動販賣機補貨 | Vending Machine Restock
+    .desc = { ent-MarkerBase.desc }
+    .suffix = food or drink
+ent-SpawnVendingMachineRestockFood = 自動販賣機補貨 | Vending Machine Restock
+    .desc = { ent-MarkerBase.desc }
+    .suffix = food
+ent-SpawnVendingMachineRestockDrink = 自動販賣機補貨 | Vending Machine Restock
+    .desc = { ent-MarkerBase.desc }
+    .suffix = drink

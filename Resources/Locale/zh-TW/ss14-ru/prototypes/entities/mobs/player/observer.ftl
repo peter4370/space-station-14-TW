@@ -1,0 +1,16 @@
+ent-Incorporeal = { "" }
+    .desc = 沒有實體的怪物 | Mobs without physical bodies
+ent-MobObserverBase = 觀察家 | observer
+    .desc = 嗚哇！ | Boo!
+ent-MobObserver = { ent-MobObserverBase }
+    .desc = { ent-MobObserverBase.desc }
+ent-ActionGhostBoo = 嗚哇！ | Boo!
+    .desc = 因為無聊而嚇唬你的船員吧！ | Scare your crew members because of boredom!
+ent-ActionToggleLighting = 切換照明 | Toggle Lighting
+    .desc = 切換光源渲染模式，以便更清楚地觀察暗部區域。 | Toggle light rendering to better observe dark areas.
+ent-ActionToggleFov = 切換視野 | Toggle FoV
+    .desc = 切換視野，以便查看玩家所見的畫面。 | Toggles field-of-view in order to see what players see.
+ent-ActionToggleGhosts = 切換幽靈模式 | Toggle Ghosts
+    .desc = 切換其他幽靈的顯示狀態。 | Toggle the visibility of other ghosts.
+ent-ActionToggleGhostHearing = 切換「幽靈聽覺」功能 | Toggle Ghost Hearing
+    .desc = 在「聆聽所有訊息」與「僅聆聽廣播及附近訊息」之間切換。 | Toggle between hearing all messages and hearing only radio & nearby messages.

@@ -1,0 +1,12 @@
+ent-StationAnchorBase = 太空站錨點 | station anchor
+    .desc = 防止電台移動。 | Prevents stations from moving.
+    .suffix = True
+ent-StationAnchorIndestructible = { ent-StationAnchorBase }
+    .desc = { ent-StationAnchorBase.desc }
+    .suffix = Indestructible, Unpowered
+ent-StationAnchor = { ent-StationAnchorBase }
+    .desc = { ent-StationAnchorBase.desc }
+    .suffix = { ent-StationAnchorBase.suffix }
+ent-StationAnchorOff = { ent-StationAnchor }
+    .desc = { ent-StationAnchor.desc }
+    .suffix = False

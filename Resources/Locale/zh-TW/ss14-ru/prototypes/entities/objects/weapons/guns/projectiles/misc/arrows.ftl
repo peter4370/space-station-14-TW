@@ -1,0 +1,14 @@
+ent-BaseArrow = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-ArrowRegular = 箭頭 | arrow
+    .desc = 你能感受到草原的力量在自己體內湧動。 | You can feel the power of the steppe within you.
+ent-ArrowImprovised = 玻璃碎片箭 | glass shard arrow
+    .desc = 「灰衫族」最喜愛的投擲物。 | The greyshirt's preferred projectile.
+ent-ArrowImprovisedPlasma = 等離子玻璃碎片箭 | plasma glass shard arrow
+    .desc = 「灰衫」最愛的彈藥。如今殺傷力更強！ | The greyshirt's preferred projectile. Now with extra lethality!
+ent-ArrowImprovisedUranium = 鈾玻璃碎片箭頭 | uranium glass shard arrow
+    .desc = 灰衫黨最愛使用的投射物。現在還增加了輻射效果！ | The greyshirt's preferred projectile. Now with added radiation!
+ent-ArrowImprovisedCarp = 鯉魚牙箭 | carp tooth arrow
+    .desc = 打撈者的首選箭矢。用敵人親人的利齒來擊殺他們。 | The salvager's preferred arrow. Kill your enemies with the teeth of their families.
+ent-ArrowCard = 紙板箭頭 | cardboard arrow
+    .desc = 小心點，你會戳瞎別人的眼睛喔！ | Careful, you'll poke an eye out!

@@ -1,0 +1,12 @@
+ent-ClothingOuterHardsuitEVA = EVA 防護服 | EVA suit
+    .desc = 一款輕量級太空服，具備保護穿著者免受太空真空環境侵害的基本能力。 | A lightweight space suit with the basic ability to protect the wearer from the vacuum of space.
+ent-ClothingOuterEVASuitSyndicate = 辛迪加 EVA 戰衣 | syndicate EVA suit
+    .desc = 背面貼有標籤，上面寫著：「這絕對不是敵對企業的財產，真的！」 | Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'
+ent-ClothingOuterSuitEmergency = 緊急壓力服 | emergency pressure suit
+    .desc = 這套笨重且未經隔熱處理的壓力服，顯然並非為在太空中長時間使用而設計，儘管 NanoTrasen 聲稱它符合公司規定。 | This bulky, uninsulated pressure suit was clearly not meant for extended use in outer space, despite NanoTrasen's claims that it passes corporate regulations.
+ent-ClothingOuterHardsuitEVAPrisoner = 囚犯壓力服 | prisoner pressure suit
+    .desc = 一款專為囚犯設計的緊急壓力服。雖然它未經全面認證，無法在太空中長時間使用，但有些獄警卻將其缺乏隔熱功能視為一項特點。 | An emergency pressure suit meant for prisoners. It's not fully rated for extended use in outer space, but some wardens consider the lack of thermal insulation a feature.
+ent-ClothingOuterHardsuitAncientEVA = NTSRA 無效訴訟
+    .desc = 一款由中央司令部（CentCom）轄下NTSRA分部設計的古早款太空服。其工藝極為精湛，活動靈活性甚至優於多數現代太空服。 | An ancient space suit, designed by the NTSRA branch of CentComm. It is very finely crafted, allowing for greater mobility than most modern space suits.
+ent-ClothingOuterHardsuitVoidParamed = paramedic void suit
+    .desc = A void suit made for paramedics.

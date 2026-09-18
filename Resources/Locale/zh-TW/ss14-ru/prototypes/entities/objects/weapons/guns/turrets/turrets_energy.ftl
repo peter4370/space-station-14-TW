@@ -1,0 +1,11 @@
+ent-WeaponEnergyTurretStationBase = 哨兵砲塔 | sentry turret
+    .desc = 一種專為防止未經授權人員進入敏感區域而設計的高科技自主武器系統。 | A high-tech autonomous weapons system designed to keep unauthorized personnel out of sensitive areas.
+ent-WeaponEnergyTurretAI = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = AI, Silicon
+ent-WeaponEnergyTurretSecurity = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = Security
+ent-WeaponEnergyTurretCommand = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = Command

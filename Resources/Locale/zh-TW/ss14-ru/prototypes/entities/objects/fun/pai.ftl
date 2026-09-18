@@ -1,0 +1,16 @@
+ent-PersonalAI = 個人人工智慧裝置 | personal ai device
+    .desc = 你那位相處起來很有趣的電子夥伴！ | Your electronic pal who's fun to be with!
+ent-SyndicatePersonalAI = 辛迪加 個人 AI 裝置 | syndicate personal ai device
+    .desc = 那位和你在一起很開心的「辛迪加」夥伴！ | Your Syndicate pal who's fun to be with!
+ent-GoldenPersonalAI = 金色個人 AI 裝置 | golden personal ai device
+    .desc = 這位電子夥伴，與他相處總是充滿樂趣！特別黃金版！ | Your electronic pal who's fun to be with! Special golden edition!
+ent-PotatoAI = 馬鈴薯人工智慧 | potato artificial intelligence
+    .desc = 這只是一顆馬鈴薯。是你強迫它獲得了意識，你這怪物。 | It's a potato. You forced it to be sentient, you monster.
+ent-ActionPAIOpenShop = 軟體目錄 | Software Catalog
+    .desc = 安裝新軟體以協助您的業主。 | Install new software to assist your owner.
+ent-ActionPAIMassScanner = 質量掃描器 | Mass Scanner
+    .desc = 檢視批次掃描器介面。 | View a mass scanner interface.
+ent-ActionPAIPlayMidi = 播放 MIDI | Play MIDI
+    .desc = 開啟您的便攜式 MIDI 介面，讓您的主人感到舒心。 | Open your portable MIDI interface to soothe your owner.
+ent-ActionPAIOpenMap = 開啟地圖 | Open Map
+    .desc = 開啟地圖介面，並引導您的主人。 | Open your map interface and guide your owner.

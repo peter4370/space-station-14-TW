@@ -1,0 +1,13 @@
+ent-SprayPainter = 噴漆工 | spray painter
+    .desc = 一名負責噴塗氣閘、管線及其他物品的噴漆工。 | A spray painter for painting airlocks, pipes, and other items.
+ent-SprayPainterRecharging = { ent-SprayPainter }
+    .desc = { ent-SprayPainter.desc }
+    .suffix = Admeme
+ent-SprayPainterBorg = 實驗性噴漆師 | experimental spray painter
+    .desc = 一款實驗性的可重複充填噴漆機，能夠無限次複製壓縮塗料。 | An experimental recharging spray painter that can infinitely replicate compressed paint.
+    .suffix = Borg
+ent-SprayPainterEmpty = { ent-SprayPainter }
+    .desc = { ent-SprayPainter.desc }
+    .suffix = Empty
+ent-SprayPainterAmmo = 壓縮油漆 | compressed paint
+    .desc = 一種裝有高度壓縮油漆的罐裝容器，常見於噴漆工具中。 | A cartridge of highly compressed paint, commonly used in spray painters.

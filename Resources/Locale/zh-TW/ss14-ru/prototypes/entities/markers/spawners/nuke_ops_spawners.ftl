@@ -1,0 +1,12 @@
+ent-NukeOpsLootSpawner = 《核子戰爭》作戰戰利品生成器 | nuke ops loot spawner
+    .desc = { ent-MarkerBase.desc }
+ent-NukeOpsWeaponSpawner = 核武作戰武器生成器 | nuke ops weapon spawner
+    .desc = { ent-MarkerBase.desc }
+ent-NukeOpsMedkitBruteSpawner = 核武特工外傷醫療包生成器 | nuke ops brute medkit spawner
+    .desc = { ent-MarkerBase.desc }
+ent-NukeOpsMedkitSpawner = 《Nuke Ops》通用醫療包生成器 | nuke ops general medkit spawner
+    .desc = { ent-MarkerBase.desc }
+ent-NukeOpsGrenadeSpawner = 《核武行動》手榴彈生成器 | nuke ops grenade spawner
+    .desc = { ent-MarkerBase.desc }
+ent-NukeOpsAmmoSpawner = 核武作戰彈藥生成器 | nuke ops ammo spawner
+    .desc = { ent-MarkerBase.desc }

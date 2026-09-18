@@ -1,0 +1,16 @@
+ent-ProximitySensor = 接近感測器 | proximity sensor
+    .desc = 能感知附近的事物。 | Senses things in close proximity.
+ent-PartSilicon = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-LeftArmBorg = 賽博格左臂 | cyborg left arm
+    .desc = { ent-PartSilicon.desc }
+ent-RightArmBorg = 賽博格右臂 | cyborg right arm
+    .desc = { ent-PartSilicon.desc }
+ent-LeftLegBorg = 賽博格左腿 | cyborg left leg
+    .desc = { ent-PartSilicon.desc }
+ent-RightLegBorg = 賽博格右腿 | cyborg right leg
+    .desc = { ent-PartSilicon.desc }
+ent-LightHeadBorg = 賽博格頭部 | cyborg head
+    .desc = { ent-PartSilicon.desc }
+ent-TorsoBorg = 賽博格軀幹 | cyborg torso
+    .desc = { ent-PartSilicon.desc }

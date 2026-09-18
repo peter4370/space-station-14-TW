@@ -1,0 +1,10 @@
+ent-BulletMagnum = 子彈（.45馬格南） | bullet (.45 magnum)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletMagnumPractice = 子彈（.45馬格南練習彈） | bullet (.45 magnum practice)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-BulletMagnumIncendiary = 子彈（.45馬格南燃燒彈） | bullet (.45 magnum incendiary)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-BulletMagnumAP = 子彈（.45馬格南穿甲彈） | bullet (.45 magnum armor-piercing)
+    .desc = { ent-BaseBulletAP.desc }
+ent-BulletMagnumUranium = 子彈（.45馬格南鈾製） | bullet (.45 magnum uranium)
+    .desc = { ent-BaseBulletUranium.desc }

@@ -1,0 +1,10 @@
+ent-Cigar = 雪茄 | cigar
+    .desc = 一捲棕色的菸草，還有……嗯，你也不太確定是什麼。 | A brown roll of tobacco and... well, you're not quite sure.
+ent-CigarSpent = { ent-Cigar }
+    .desc = { ent-Cigar.desc }
+    .suffix = spent
+ent-CigarGold = 頂級哈瓦那雪茄 | premium Havanian cigar
+    .desc = 一款只適合頂尖中的頂尖人士的雪茄。 | A cigar fit for only the best of the best.
+ent-CigarGoldSpent = { ent-CigarGold }
+    .desc = { ent-CigarGold.desc }
+    .suffix = spent

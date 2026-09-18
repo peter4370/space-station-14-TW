@@ -1,0 +1,14 @@
+ent-ClothingUniformJumpsuitChiefEngineer = 總工程師的工作服 | chief engineer's jumpsuit
+    .desc = 這是一套高可見度連身工作服，專門頒發給那些瘋狂到足以晉升為首席工程師的工程師。 | It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer.
+ent-ClothingUniformJumpsuitChiefEngineerTurtle = 總工程師的高領毛衣 | chief engineer's turtleneck
+    .desc = 一款專為工程部門工作環境設計的黃色高領衫。 | A yellow turtleneck designed specifically for work in conditions of the engineering department.
+ent-ClothingUniformJumpsuitEngineering = 工程連身工作服 | engineering jumpsuit
+    .desc = 如果這套防護服不導電的話，說不定工程師們真的會好好做他們該做的事。 | If this suit was non-conductive, maybe engineers would actually do their damn job.
+ent-ClothingUniformJumpsuitEngineeringHazard = 防護連身衣 | hazard jumpsuit
+    .desc = 採用略帶粗獷感的溫暖橘色織造而成。讓周遭的人知道，在工作上你可是認真的。 | Woven in a grungy, warm orange. Lets others around you know that you really mean business when it comes to work.
+ent-ClothingUniformJumpsuitAtmos = 大氣技術人員連身工作服 | atmospheric technician jumpsuit
+    .desc = 我正在上班。我不能離開工作崗位。工作就是我的呼吸。我正在檢測空氣品質。 | I am at work. I can't leave work. Work is breathing. I am testing air quality.
+ent-ClothingUniformJumpsuitAtmosCasual = 大氣技術人員的休閒連身工作服 | atmospheric technician's casual jumpsuit
+    .desc = 既然你的工作這麼輕鬆，不如放鬆一下吧。 | Might as well relax with a job as easy as yours.
+ent-ClothingUniformJumpsuitSeniorEngineer = 資深工程師連身工作服 | senior engineer jumpsuit
+    .desc = 工程部門內展現技術實力與聲望的象徵。 | A sign of skill and prestige within the engineering department.

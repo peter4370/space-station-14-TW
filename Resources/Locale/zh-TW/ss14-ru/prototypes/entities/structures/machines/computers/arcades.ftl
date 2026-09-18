@@ -1,0 +1,9 @@
+ent-ArcadeBase = 街機 | arcade
+    .desc = 一台街機機台。 | An arcade cabinet.
+ent-SpaceVillainArcade = 太空反派街機遊戲 | space villain arcade
+    .desc = { ent-ArcadeBase.desc }
+ent-SpaceVillainArcadeFilled = { ent-SpaceVillainArcade }
+    .desc = { ent-SpaceVillainArcade.desc }
+    .suffix = Filled
+ent-BlockGameArcade = NT 積木遊戲 | NT block game
+    .desc = 一台裝有這款莫名熟悉遊戲的街機機台。 | An arcade cabinet with a strangely familiar game.

@@ -1,0 +1,10 @@
+ent-SmokeGrenade = 煙霧彈 | smoke grenade
+    .desc = 一種戰術手榴彈，使用時會釋放出一大團持續時間較長的煙霧。 | A tactical grenade that releases a large, long-lasting cloud of smoke when used.
+ent-CleanerGrenade = cleanade | cleanade
+    .desc = 專為清潔人員設計的手榴彈，能釋放出大量太空清潔泡沫。 | Special grenade for janitors, releasing large cloud of space cleaner foam.
+ent-TearGasGrenade = 催淚氣體手榴彈 | tear gas grenade
+    .desc = 一枚鎮暴用催淚氣體手榴彈。會引起刺激感、疼痛，並讓你淚流不止。 | A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
+ent-MetalFoamGrenade = 金屬泡沫手榴彈 | metal foam grenade
+    .desc = 一種用於以特殊快乾金屬泡沫修補船體破洞的緊急工具。效果幾乎和真正的地板一樣好！ | An emergency tool used for patching hull breaches with special quick-set metal foam. Almost as good as real floors!
+ent-AirGrenade = 空氣手榴彈 | air grenade
+    .desc = 一種特殊的固態化學手榴彈，用於將標準空氣迅速釋放至特定區域。可填滿多達 30 格！ | A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!

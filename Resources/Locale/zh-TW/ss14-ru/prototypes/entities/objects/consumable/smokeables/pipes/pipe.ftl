@@ -1,0 +1,11 @@
+ent-SmokingPipe = 管子 | pipe
+    .desc = 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
+ent-SmokingPipeFilledTobacco = 管子 | pipe
+    .desc = 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
+    .suffix = Tobacco
+ent-SmokingPipeFilledCannabis = 管子 | pipe
+    .desc = 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
+    .suffix = Cannabis
+ent-SmokingPipeFilledCannabisRainbow = 管子 | pipe
+    .desc = 就像爺爺以前抽菸那樣。 | Just like grandpappy used to smoke.
+    .suffix = Rainbow Cannabis

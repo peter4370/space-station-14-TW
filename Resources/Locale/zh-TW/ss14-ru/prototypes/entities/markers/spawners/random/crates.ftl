@@ -1,0 +1,12 @@
+ent-CrateEmptySpawner = 空箱子生成器 | Empty Crate Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-CrateFilledSpawner = 裝滿的貨箱生成器 | Filled Crate Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Low Value
+ent-LootSpawnerRandomCrateEngineering = 隨機工程箱生成器 | random engineering crate spawner
+    .desc = { ent-MarkerBase.desc }
+ent-LootSpawnerRandomCrateSecurity = 隨機安全箱生成器 | random security crate spawner
+    .desc = { ent-MarkerBase.desc }
+ent-LootSpawnerRandomLockbox = 隨機寶箱生成器 | random lockbox spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = 90%

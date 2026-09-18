@@ -1,0 +1,16 @@
+ent-PackPaperRolling = 一包捲菸紙 | pack of rolling paper
+    .desc = 一包薄紙片，用來製作細緻的菸草製品。 | A pack of thin pieces of paper used to make fine smokeables.
+ent-PackPaperRollingFilters = 一包附濾嘴的捲菸紙 | pack of rolling paper with filters
+    .desc = 一包濾嘴和薄紙片，用來製作細緻的可吸煙物。 | A pack of filters and thin pieces of paper used to make fine smokeables.
+ent-PaperRolling = 捲菸紙 | rolling paper
+    .desc = 一種薄紙，用來製作高品質的煙草製品。 | A thin piece of paper used to make fine smokeables.
+    .suffix = Full
+ent-PaperRolling1 = { ent-PaperRolling }
+    .desc = { ent-PaperRolling.desc }
+    .suffix = Single
+ent-CigaretteFilter = 香菸濾嘴 | cigarette filter
+    .desc = 一條堅挺的紙條，用作手工香菸的濾嘴。 | A strip of firm paper used as a filter for handmade cigarettes.
+    .suffix = Full
+ent-CigaretteFilter1 = { ent-CigaretteFilter }
+    .desc = { ent-CigaretteFilter.desc }
+    .suffix = Single

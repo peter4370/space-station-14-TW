@@ -1,0 +1,10 @@
+ent-BulletLaser = 雷射螺栓 | laser bolt
+    .desc = { ent-BaseBullet.desc }
+ent-BulletLaserSpread = 大範圍的雷射轟炸 | wide laser barrage
+    .desc = { ent-BulletLaser.desc }
+ent-BulletLaserSpreadNarrow = 致命的雷射連射 | lethal laser barrage
+    .desc = { ent-BulletLaser.desc }
+ent-BulletLaserMagnum = Magnum 雷射螺栓 | magnum laser bolt
+    .desc = { ent-BulletLaser.desc }
+ent-BulletLaserWindowPiercingMagnum = Magnum 穿窗子彈 | magnum window-piercing bolt
+    .desc = { ent-BulletLaser.desc }

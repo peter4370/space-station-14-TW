@@ -1,0 +1,15 @@
+ent-BaseFenceMetal = 鏈環圍籬 | chain link fence
+    .desc = 一塊用來圍起某處、恐怕非常重要之物的金屬圍欄。 | A metal piece of fencing cordoning off something likely very important.
+ent-FenceMetalBroken = 斷裂的鏈式圍籬 | broken chain link fence
+    .desc = 有人對一個無生命物體大發雷霆。 | Someone got real mad at an inanimate object.
+ent-FenceMetalStraight = { ent-BaseFenceMetal }
+    .desc = { ent-BaseFenceMetal.desc }
+    .suffix = Straight
+ent-FenceMetalCorner = { ent-BaseFenceMetal }
+    .desc = { ent-BaseFenceMetal.desc }
+    .suffix = Corner
+ent-FenceMetalEnd = { ent-BaseFenceMetal }
+    .desc = { ent-BaseFenceMetal.desc }
+    .suffix = End
+ent-FenceMetalGate = 鏈式圍籬大門 | chain link fence gate
+    .desc = 你可以走門，而不必翻越——當然，這只適用於懦夫。 | You could use the door instead of vaulting over--if you're a COWARD, that is.

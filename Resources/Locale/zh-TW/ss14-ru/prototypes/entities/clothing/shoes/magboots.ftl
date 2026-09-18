@@ -1,0 +1,16 @@
+ent-ClothingShoesBootsMagBase = magboots | magboots
+    .desc = 磁力靴，通常在太空行走期間使用，以確保使用者能安全地固定在太空船上。 | Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+ent-ClothingShoesBootsMag = { ent-ClothingShoesBootsMagBase }
+    .desc = { ent-ClothingShoesBootsMagBase.desc }
+ent-ClothingShoesBootsMagAdv = 進階型磁力靴 | advanced magboots
+    .desc = 最先進的磁力靴，穿著時不會拖慢穿著者腳步。 | State-of-the-art magnetic boots that do not slow down their wearer.
+ent-ClothingShoesBootsMagSci = { ent-ClothingShoesBootsMagBase }
+    .desc = { ent-ClothingShoesBootsMagBase.desc }
+ent-ClothingShoesBootsMagBlinding = 擁有驚人速度的魔靴 | magboots of blinding speed
+    .desc = 像你這樣迷人的女孩穿上這些，肯定會格外迷人。 | These would look fetching on a fetcher like you.
+ent-ClothingShoesBootsMagSyndie = 血紅色的魔靴 | blood-red magboots
+    .desc = 這款靴子是根據 ERT 磁力靴逆向工程開發而來，具備強大的磁吸力與內建推進器，可容納 0.75 公升的氣體。 | Reverse-engineered from ERT magboots, they have a heavy magnetic pull and integrated thrusters. It can hold 0.75 L of gas.
+ent-ClothingShoesBootsMagERT = ERT 防水靴 | ERT magboots
+    .desc = 這是 Nanotrasen 緊急應變小組所使用的升級版磁力靴，具備強大的磁吸力，並內建推進器。其氣體容量為 0.75 公升。 | Upgraded magnetic boots utilized by Nanotrasen's Emergency Response Teams, they have a heavy magnetic pull and integrated thrusters. It can hold 0.75 L of gas.
+ent-ActionToggleMagboots = 切換 Magboots | Toggle Magboots
+    .desc = 切換磁力靴的開啟與關閉狀態。 | Toggles the magboots on and off.

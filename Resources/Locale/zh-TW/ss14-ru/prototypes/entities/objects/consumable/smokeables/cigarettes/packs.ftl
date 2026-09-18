@@ -1,0 +1,17 @@
+ent-CigPackBase = 香菸包 | cigarette pack
+    .desc = { ent-BaseStorageItem.desc }
+ent-CigPackMixedBase = 浸濕的香菸包 | soaked cigarette pack
+    .desc = { ent-BaseStorageItem.desc }
+ent-CigPackGreen = Spessman's Smokes 煙盒 | Spessman's Smokes packet
+    .desc = 包裝上的標籤寫著：「緩慢地死去，難道不是一種改變嗎？」 | A label on the packaging reads, Wouldn't a slow death make a change?
+ent-CigPackRed = DromedaryCo 煙盒 | DromedaryCo packet
+    .desc = 「太空香菸」是最受歡迎的品牌，同時也是「太空奧運」的贊助商。 | The most popular brand of Space Cigarettes, sponsors of the Space Olympics.
+ent-CigPackBlue = AcmeCo 煙盒 | AcmeCo packet
+    .desc = 給那些不知為何想要創下「患癌腫瘤數量最多」這項紀錄的人。 | For those who somehow want to obtain the record for the most amount of cancerous tumors.
+ent-CigPackBlack = Nomads 煙盒 | Nomads packet
+    .desc = Nomads 的超強版，專為你那些格外艱難的日子而生。 | Nomads's extra strong, for when your life is more extra hard.
+ent-CigPackSyndicate = Interdyne 藥草煙盒 | Interdyne herbals packet
+    .desc = 專為精英集團特工打造的頂級香菸。內含藥劑，當您需要的不僅是平復神經時，它能派上用場。 | Elite cigarettes for elite syndicate agents. Infused with medicine for when you need to do more than calm your nerves.
+ent-CigPackMixed = Dan 的濕透香菸 | Dan's soaked smokes
+    .desc = Dan 與 NT 化學部門合作，處理了多餘的化學品，祝您愉快。 | Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+    .suffix = Mixed

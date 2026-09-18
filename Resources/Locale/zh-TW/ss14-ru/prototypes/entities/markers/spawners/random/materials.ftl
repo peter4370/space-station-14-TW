@@ -1,0 +1,15 @@
+ent-LootSpawnerMaterials = 材料生成器 | materials spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Construction Materials
+ent-LootSpawnerMaterialsSupplementary = 材料生成器 | materials spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Supplementary Materials
+ent-LootSpawnerMaterialsHighValueConstruction = 高價值材料生成器 | high-value materials spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Construction Materials
+ent-LootSpawnerMaterialsHighValue = 高價值材料生成器 | high-value materials spawner
+    .desc = { ent-MarkerBase.desc }
+ent-LootSpawnerMaterialsSurplus = 剩餘材料生成器 | surplus materials spawner
+    .desc = { ent-MarkerBase.desc }
+ent-LootSpawnerCableCoil = 纜線線圈生成器 | cable coil spawner
+    .desc = { ent-MarkerBase.desc }

@@ -1,0 +1,11 @@
+ent-PortableScrubber = 便攜式吸氣機 | portable scrubber
+    .desc = 它能徹底清潔，而且攜帶方便！ | It scrubs, portably!
+ent-SpaceHeater = 電暖器 | space heater
+    .desc = 一種能改變局部溫度的 Bluespace 技術裝置。通常被稱為「空間加熱器」。 | A bluespace technology device that alters local temperature. Commonly referred to as a "Space Heater".
+    .suffix = Unanchored
+ent-SpaceHeaterAnchored = { ent-SpaceHeater }
+    .desc = { ent-SpaceHeater.desc }
+    .suffix = Anchored
+ent-SpaceHeaterEnabled = { ent-SpaceHeaterAnchored }
+    .desc = { ent-SpaceHeaterAnchored.desc }
+    .suffix = Anchored, Enabled

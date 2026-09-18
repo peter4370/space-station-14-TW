@@ -1,0 +1,11 @@
+ent-Stunbaton = 電擊棒 | stun baton
+    .desc = 一種用於使人喪失行動能力的電擊棒。若以此主動傷害他人，則被視為有失體統。 | A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+ent-Truncheon = 警棍 | truncheon
+    .desc = 一根堅硬、鑲有鋼釘的警棍，旨在傷害他人。 | A rigid, steel-studded baton, meant to harm.
+ent-Flash = flash | flash
+    .desc = 一款附有觸發裝置的超亮閃光燈，能使受害者暫時目眩並喪失視力。一旦燒壞便無法使用。 | An ultrabright flashbulb with a trigger, which causes the victim to be dazed and lose their eyesight for a moment. Useless when burnt out.
+ent-SciFlash = flash | flash
+    .desc = { ent-Flash.desc }
+    .suffix = 2 charges
+ent-PortableFlasher = 便攜式閃光燈 | portable flasher
+    .desc = 一款配備接近感應觸發器的超亮閃光燈，可用於將特定區域設定為僅限安保人員進入。 | An ultrabright flashbulb with a proximity trigger, useful for making an area security-only.

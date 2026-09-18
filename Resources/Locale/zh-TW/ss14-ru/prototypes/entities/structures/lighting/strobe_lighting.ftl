@@ -1,0 +1,15 @@
+ent-AlwaysPoweredStrobeLight = 閃光燈 | strobe
+    .desc = 咦？！抱歉，我只聽到「嗚——嗚——嗚——嗚——」！ | UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!
+    .suffix = Always powered
+ent-PoweredStrobeLightEmpty = 閃光燈 | strobe
+    .desc = 咦？！抱歉，我只聽到「嗚——嗚——嗚——嗚——」！ | UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!
+    .suffix = Empty
+ent-PoweredStrobeLightPolice = { ent-PoweredStrobeLightEmpty }
+    .desc = { ent-PoweredStrobeLightEmpty.desc }
+    .suffix = Empty, police
+ent-PoweredStrobeLightSiren = { ent-PoweredStrobeLightEmpty }
+    .desc = { ent-PoweredStrobeLightEmpty.desc }
+    .suffix = Empty, siren
+ent-PoweredStrobeLightEpsilon = { ent-PoweredStrobeLightEmpty }
+    .desc = { ent-PoweredStrobeLightEmpty.desc }
+    .suffix = Empty, epsilon

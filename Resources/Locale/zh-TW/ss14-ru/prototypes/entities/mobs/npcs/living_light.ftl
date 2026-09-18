@@ -1,0 +1,17 @@
+ent-MobLivingLight = 光芒四射的人 | luminous person
+    .desc = 一道耀眼奪目的純光身影，彷彿虛無縹緲。 | A blinding figure of pure light, seemingly intangible.
+ent-MobLuminousPerson = { ent-MobLivingLight }
+    .desc = { ent-MobLivingLight.desc }
+ent-MobLuminousObject = 發光物體 | luminous object
+    .desc = 一個微小的發光物體，其光芒會導致皮膚灼傷。 | A small glowing object that causes burns on the skin with its glow.
+ent-MobLuminousEntity = 發光實體 | luminous entity
+    .desc = 那是一道令人目眩的半透明存在，那雙明亮的眼睛看起來既危險又灼人。 | A blinding translucent entity, the bright eye seems dangerous and scalding.
+ent-MobLuminousPersonSalvage = { ent-MobLuminousPerson }
+    .desc = { ent-MobLuminousPerson.desc }
+    .suffix = Salvage Ruleset
+ent-MobLuminousObjectSalvage = { ent-MobLuminousObject }
+    .desc = { ent-MobLuminousObject.desc }
+    .suffix = Salvage Ruleset
+ent-MobLuminousEntitySalvage = { ent-MobLuminousEntity }
+    .desc = { ent-MobLuminousEntity.desc }
+    .suffix = Salvage Ruleset

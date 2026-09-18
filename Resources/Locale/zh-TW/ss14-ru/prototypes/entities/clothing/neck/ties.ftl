@@ -1,0 +1,10 @@
+ent-ClothingNeckTieBase = 平局 | tie
+    .desc = 一款新絲質夾扣式領帶。 | A neosilk clip-on tie.
+ent-ClothingNeckTieRed = 紅色領帶 | red tie
+    .desc = 一條新絲質的夾扣式紅色領帶。 | A neosilk clip-on red tie.
+ent-ClothingNeckTieDet = 偵探領帶 | detective's tie
+    .desc = 一條鬆鬆繫著的領帶，正是這位過勞偵探的完美配飾。 | A loosely tied necktie, a perfect accessory for the over-worked detective.
+ent-ClothingNeckTieSci = 科學家的領帶 | scientist's tie
+    .desc = 為什麼我們都得繫這些荒謬的領帶呢？ | Why do we all have to wear these ridiculous ties?
+ent-ClothingNeckTieSerious = 嚴肅的平局 | serious tie
+    .desc = 一條打得恰到好處的領帶，助您輕鬆度過工作日。 | A perfectly tied tie to get you through the working day.

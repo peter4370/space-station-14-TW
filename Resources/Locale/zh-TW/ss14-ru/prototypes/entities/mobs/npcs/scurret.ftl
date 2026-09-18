@@ -1,0 +1,11 @@
+ent-MobBaseScurret = scurret | scurret
+    .desc = { ent-MobBaseAncestor.desc }
+    .suffix = { ent-MobBaseAncestor.suffix }
+ent-MobScurret = ghost-role-information-emotional-support-scurret-name | scurret
+    .desc = ghost-role-information-emotional-support-scurret-description | Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnolds's Pizza's "loyal workforce".
+    .suffix = { ent-MobBaseScurret.suffix }
+ent-MobBaseEmotionalSupportScurret = 情感支持 斯庫雷特 | Emotional Support Scurret
+    .desc = { "" }
+ent-MobEmotionalSupportScurret = Emotional Support Scurret
+    .desc = Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnold's Pizza's "loyal workforce". This one is here as a temp.
+    .suffix = { ent-MobScurret.suffix }

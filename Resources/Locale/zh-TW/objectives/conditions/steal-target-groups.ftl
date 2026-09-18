@@ -1,0 +1,66 @@
+# Traitor single items
+steal-target-groups-hypospray = 低壓噴霧器
+steal-target-groups-handheld-crew-monitor = 手持式工作團隊監控器
+steal-target-groups-clothing-outer-hardsuit-rd = 實驗性研究型動力裝甲
+steal-target-groups-hand-teleporter = 手部傳送器
+steal-target-groups-clothing-shoes-boots-mag-adv = 進階型磁力靴
+steal-target-groups-box-folder-qm-clipboard = 申請數位白板
+steal-target-groups-clothing-hands-knuckledusters-qm = 黃金指節套
+steal-target-groups-food-meat-corgi = 頂級柯基肉
+steal-target-groups-captain-id-card = 船長ID卡
+steal-target-groups-jetpack-captain-filled = 船長的噴射背包
+steal-target-groups-weapon-antique-laser = 古董雷射手槍
+steal-target-groups-nuke-disk = 核認證磁碟
+steal-target-groups-weapon-energy-magnum = 能量馬格南
+# Thief Collection
+steal-target-groups-figurines = 小雕像
+steal-target-groups-heads-cloaks = 頭罩
+steal-target-groups-heads-bedsheets = 頭部的床單
+steal-target-groups-stamps = 郵票
+steal-target-groups-door-remotes = 車門遙控器
+steal-target-groups-encryption-keys = 加密金鑰
+steal-target-groups-technology-disks = 科技專欄
+steal-target-groups-mail = 電子郵件
+steal-target-groups-id-cards = ID卡
+steal-target-groups-officer-handguns = 保安人員的手槍
+steal-target-groups-lamps = LAMP
+steal-target-groups-huds = HUD
+# Thief single item
+steal-target-groups-forensic-scanner = 鑑識掃描器
+steal-target-groups-flippo-engraved-lighter = 偵探的 Flippo 鐫刻打火機
+steal-target-groups-ammo-tech-fab-circuitboard = ammo techfab 電路板
+steal-target-groups-clothing-head-hat-warden = 監獄長帽
+steal-target-groups-clothing-outer-hardsuit-void-paramed = 救護員真空服
+steal-target-groups-medical-tech-fab-circuitboard = 醫療用科技製造機主機板
+steal-target-groups-clothing-headset-alt-medical = 醫務總管的包耳式耳機
+steal-target-groups-research-and-development-server-machine-circuitboard = 研發伺服器主機板
+steal-target-groups-fire-axe = 消防斧
+steal-target-groups-ame-part-flatpack = AME 平裝盒
+steal-target-groups-salvage-expeditions-computer-circuitboard = 打撈探險電腦主板
+steal-target-groups-cargo-shuttle-console-circuitboard = 貨運穿梭機控制台面板
+steal-target-groups-bible = 聖經
+steal-target-groups-clothing-neck-goldmedal = 團隊合作金牌
+steal-target-groups-clothing-neck-clownmedal = 小丑勳章
+steal-target-groups-wanted-list-cartridge = 尋求清單：墨匣
+steal-target-groups-belt-ce = 總工程師的工具腰帶
+steal-target-groups-captain-sword = 船長軍刀
+# Thief structures
+steal-target-groups-teg = teg 產生器部件
+steal-target-groups-freezer-heater = 冷凍櫃或暖氣機
+steal-target-groups-altar-nanotrasen = nanotrasen 祭壇（任一）
+steal-target-groups-nuclear-bomb = 核裂變爆炸裝置
+steal-target-groups-fax-machine-captain = 「船長」長距離傳真機
+steal-target-groups-chem-dispenser = 化學藥劑分配器
+steal-target-groups-xeno-artifact = 外星神器
+steal-target-groups-booze-dispenser = 酒類自動販賣機
+steal-target-groups-plant-rd = 「RD 的盆栽」
+steal-target-groups-toilet-golden-dirty-water = 黃金馬桶
+# Thief Animal
+steal-target-groups-animal-named-cat = CMO 的貓
+steal-target-groups-animal-ian = 伊恩
+steal-target-groups-animal-mc-griff = 麥格里夫
+steal-target-groups-animal-walter = 華特
+steal-target-groups-animal-morty = 莫蒂
+steal-target-groups-animal-renault = 雷諾
+steal-target-groups-animal-shiva = 濕婆
+steal-target-groups-animal-tropico = 《Tropico》

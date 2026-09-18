@@ -1,0 +1,16 @@
+ent-SpeechStatusEffectBase = { ent-MobStatusEffectDebuff }
+    .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectStutter = 口吃 | stutter
+    .desc = { ent-SpeechStatusEffectBase.desc }
+ent-StatusEffectSlurred = 口齒不清的 | slurred
+    .desc = { ent-SpeechStatusEffectBase.desc }
+ent-StatusEffectScrambled = 亂碼 | scrambled
+    .desc = { ent-SpeechStatusEffectBase.desc }
+ent-StatusEffectOwO = owoaccent | owoaccent
+    .desc = { ent-SpeechStatusEffectBase.desc }
+ent-StatusEffectAllCaps = allcapsaccent | allcapsaccent
+    .desc = { ent-SpeechStatusEffectBase.desc }
+ent-StatusEffectRatvarianLanguage = 鼠變體語言模式 | ratvarian language patterns
+    .desc = { ent-SpeechStatusEffectBase.desc }
+ent-StatusEffectBark = barkaccent | barkaccent
+    .desc = { ent-SpeechStatusEffectBase.desc }

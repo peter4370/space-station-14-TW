@@ -1,0 +1,12 @@
+ent-BaseCrowbar = 撬棍 | crowbar
+    .desc = 一種多功能工具，可用於執行多種任務，例如撬門或擊退跨維度入侵者。 | A multipurpose tool used for many tasks, such as prying doors or bludgeoning interdimensional invaders.
+ent-Crowbar = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarRed = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarGreen = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarOrange = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarYellow = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }

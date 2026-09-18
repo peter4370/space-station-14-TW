@@ -1,0 +1,16 @@
+ent-ClothingUniformJumpskirtChemistry = 化學家連身裙 | chemistry jumpskirt
+    .desc = 這條連身裙上有幾處奇怪的污漬。嗯。 | There's some odd stains on this jumpskirt. Hm.
+ent-ClothingUniformJumpskirtVirology = 病毒學連身裙 | virology jumpskirt
+    .desc = 它採用一種特殊纖維製成，能提供針對生物危害的特殊防護。上面還繡有病毒學家級別的肩章。 | It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+ent-ClothingUniformJumpskirtGenetics = 遺傳學連身裙 | genetics jumpskirt
+    .desc = 它由一種特殊纖維製成，能提供針對生物危害的特殊防護。上面繡有遺傳學家級別的肩章。 | It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
+ent-ClothingUniformJumpskirtCMO = 首席醫療官的連身裙 | chief medical officer's jumpskirt
+    .desc = 這是一款由具備擔任醫務總管資歷者所穿著的連身裙式防護服。它能提供輕微的生物防護。 | It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+ent-ClothingUniformJumpskirtCMOTurtle = 醫務總管的高領連身裙 | chief medical officer's turtleneck jumpskirt
+    .desc = 這是一件由具備擔任醫務總管資歷的人士所穿的高領衫。它能提供輕微的生物防護。 | It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+ent-ClothingUniformJumpskirtMedicalDoctor = 醫師連身裙 | medical doctor jumpskirt
+    .desc = 它由一種特殊纖維製成，能提供輕微的生物危害防護。胸前繡有十字標誌，表示穿著者是受過訓練的醫護人員。 | It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+ent-ClothingUniformJumpskirtParamedic = 救護員連身裙 | paramedic jumpskirt
+    .desc = 上面標有「＋」，這應該是好事吧？ | It's got a plus on it, that's a good thing right?
+ent-ClothingUniformJumpskirtSeniorPhysician = 資深醫師的連身裙 | senior physician jumpskirt
+    .desc = 這是醫學界中展現專業能力與聲望的象徵。 | A sign of skill and prestige within the medical department.

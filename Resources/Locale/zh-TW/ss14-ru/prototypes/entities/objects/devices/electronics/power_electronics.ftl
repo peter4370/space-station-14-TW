@@ -1,0 +1,15 @@
+ent-APCElectronics = APC 電子零件 | APC electronics
+    .desc = APC 製造所使用的電路。 | Circuit used in APC construction.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountSubstationElectronics = 壁掛式變電站電子設備 | wallmount substation electronics
+    .desc = 用於建造壁掛式變電站的電路。 | Circuit used to construct a wallmount substation.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountGeneratorElectronics = 壁掛式發電機電子元件 | wallmount generator electronics
+    .desc = 用於組裝壁掛式發電器的電路。 | Circuit used to construct a wallmount generator.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountGeneratorAPUElectronics = 壁掛式輔助動力單元（APU）電子設備 | wallmount APU electronics
+    .desc = 用於組裝壁掛式 APU 的電路。 | Circuit used to construct a wallmount APU.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-SolarTrackerElectronics = 太陽能追蹤器電子元件 | solar tracker electronics
+    .desc = 用於追蹤最近恆星的先進電路板。 | Advanced circuit board used to track the nearest star.
+    .suffix = { ent-BaseElectronics.suffix }

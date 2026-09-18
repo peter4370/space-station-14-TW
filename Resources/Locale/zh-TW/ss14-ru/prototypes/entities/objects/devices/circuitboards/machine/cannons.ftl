@@ -1,0 +1,15 @@
+ent-ShuttleGunSvalinnMachineGunCircuitboard = LSE-400c「斯瓦林機槍」主機板 | LSE-400c "Svalinn machine gun" machine board
+    .desc = 一款適用於 LSE-400c「Svalinn 機槍」的主機印刷電路板。 | A machine printed circuit board for an LSE-400c "Svalinn machine gun".
+    .suffix = DO NOT MAP, Machine Board
+ent-ShuttleGunPerforatorCircuitboard = LSE-1200c「Perforator」主機板 | LSE-1200c "Perforator" machine board
+    .desc = 一款適用於 LSE-1200c「打孔機」的主機印刷電路板。 | A machine printed circuit board for an LSE-1200c "Perforator".
+    .suffix = DO NOT MAP, Machine Board
+ent-ShuttleGunFriendshipCircuitboard = EXP-320g「Friendship」主機板 | EXP-320g "Friendship" machine board
+    .desc = 適用於 EXP-320g「Friendship」的主機印刷電路板。 | A machine printed circuit board for an EXP-320g "Friendship".
+    .suffix = DO NOT MAP, Machine Board
+ent-ShuttleGunDusterCircuitboard = EXP-2100g「Duster」主機板 | EXP-2100g "Duster" machine board
+    .desc = 適用於 EXP-2100g「Duster」的主機印刷電路板。 | A machine printed circuit board for an EXP-2100g "Duster".
+    .suffix = DO NOT MAP, Machine Board
+ent-ShuttleGunKineticCircuitboard = PTK-800「物質解體器」主機板 | PTK-800 "Matter Dematerializer" machine board
+    .desc = 一款用於 PTK-800「物質去物質化器」的主機印刷電路板。 | A machine printed circuit board for an PTK-800 "Matter Dematerializer".
+    .suffix = DO NOT MAP, Machine Board

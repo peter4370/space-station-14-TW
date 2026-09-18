@@ -1,0 +1,13 @@
+ent-WeaponEnergyTurretControlPanelFrame = 哨兵砲塔控制面板組件 | sentry turret control panel assembly
+    .desc = 一個哨兵砲塔控制面板的不完整壁掛式組件。 | An incomplete wall-mounted assembly for a sentry turret control panel.
+ent-WeaponEnergyTurretStationControlPanelBase = 哨兵砲塔控制面板 | sentry turret control panel
+    .desc = 一款壁掛式介面，用於遠端設定已連線哨兵炮塔的運作參數。 | A wall-mounted interface for remotely configuring the operational parameters of linked sentry turrets.
+ent-WeaponEnergyTurretAIControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
+    .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
+    .suffix = AI, Silicon
+ent-WeaponEnergyTurretSecurityControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
+    .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
+    .suffix = Security
+ent-WeaponEnergyTurretCommandControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
+    .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
+    .suffix = Command

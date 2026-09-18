@@ -1,0 +1,15 @@
+ent-BaseSpeedLoaderMagnum = 快速裝彈器（.45馬格南） | speed loader (.45 magnum)
+    .desc = { ent-BaseItem.desc }
+ent-SpeedLoaderMagnum = 快速裝彈器（.45馬格南） | speed loader (.45 magnum)
+    .desc = 本產品設計用於將多達六發 .45 馬格南子彈快速裝入空的左輪手槍中。適用於儲存通用動能彈藥。 | Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold general-purpose kinetic ammunition.
+ent-SpeedLoaderMagnumEmpty = 快速裝彈器（任何型號的 .45 馬格南） | speed loader (.45 magnum any)
+    .desc = 專為將最多六發 .45 馬格南子彈快速裝入空轉輪手槍而設計。 | Designed to quickly load up to six rounds of .45 magnum into an empty revolver.
+    .suffix = empty
+ent-SpeedLoaderMagnumIncendiary = 快速裝彈器（.45馬格南燃燒彈） | speed loader (.45 magnum incendiary)
+    .desc = 專為將最多六發 .45 馬格南子彈快速裝入空轉輪手槍而設計。旨在裝載自燃式燃燒彈。 | Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold self-igniting incendiary ammunition.
+ent-SpeedLoaderMagnumPractice = 快速裝彈器（.45馬格南練習用） | speed loader (.45 magnum practice)
+    .desc = 本產品設計用於將最多六發 .45 馬格南子彈快速裝入空的左輪手槍中。僅供裝填無害的練習彈藥使用。 | Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold harmless practice ammunition.
+ent-SpeedLoaderMagnumAP = 快速裝彈器（.45馬格南穿甲彈） | speed loader (.45 magnum armor-piercing)
+    .desc = 專為將最多六發 .45 馬格南子彈快速裝填至空轉輪手槍而設計。旨在裝載專用的穿甲彈。 | Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold specialized armor-piercing ammunition.
+ent-SpeedLoaderMagnumUranium = 快速裝彈器（.45馬格南鈾彈） | speed loader (.45 magnum uranium)
+    .desc = 專為將多達六發 .45 馬格南子彈快速裝入空轉輪手槍而設計。旨在容納特殊鈾芯彈藥。 | Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold exotic uranium-core ammunition.

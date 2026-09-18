@@ -1,0 +1,15 @@
+ent-LootSpawnerSecurityBasic = 安全戰利品生成器 | security loot spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Gear, Simple
+ent-LootSpawnerSecurity = 安全戰利品生成器 | security loot spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Gear, Better
+ent-LootSpawnerArmory = 軍械庫戰利品生成器 | armory loot spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Guns, Armor
+ent-LootSpawnerArmoryGunsOnly = 軍械庫戰利品生成器 | armory loot spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Guns
+ent-LootSpawnerArmoryArmorOnly = 軍械庫戰利品生成器 | armory loot spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Armor

@@ -1,0 +1,14 @@
+ent-BaseKeyedInstrument = { ent-BaseHandheldInstrument }
+    .desc = { ent-BaseHandheldInstrument.desc }
+ent-SynthesizerInstrument = 合成器 | synthesizer
+    .desc = { ent-BaseKeyedInstrument.desc }
+ent-SuperSynthesizerInstrument = 超級合成器 | super synthesizer
+    .desc = 自 2020 年起，用東方系列 MIDI 音樂轟炸貧民窟。 | Blasting the ghetto with Touhou MIDIs since 2020.
+    .suffix = Admin
+ent-SuperSynthesizerNoLimitInstrument = { ent-SuperSynthesizerInstrument }
+    .desc = { ent-SuperSynthesizerInstrument.desc }
+    .suffix = NoLimits Admin
+ent-AccordionInstrument = 手風琴 | accordion
+    .desc = { ent-BaseKeyedInstrument.desc }
+ent-KalimbaInstrument = 卡林巴琴 | kalimba
+    .desc = 鋼琴的魅力，盡在您的拇指之間。 | The power of a piano right at your thumbs.

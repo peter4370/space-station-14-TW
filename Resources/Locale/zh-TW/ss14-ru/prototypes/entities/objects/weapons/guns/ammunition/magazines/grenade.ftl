@@ -1,0 +1,14 @@
+ent-BaseMagazineGrenade = 手榴彈彈匣 | grenade cartridge
+    .desc = { ent-BaseItem.desc }
+ent-MagazineGrenadeEmpty = 手榴彈彈匣 | grenade cartridge
+    .desc = { ent-BaseMagazineGrenade.desc }
+ent-MagazineGrenadeFrag = 破片手榴彈彈匣 | frag grenade cartridge
+    .desc = { ent-BaseMagazineGrenade.desc }
+ent-MagazineGrenadeEMP = 電磁脈衝手榴彈彈匣 | EMP grenade cartridge
+    .desc = { ent-BaseMagazineGrenade.desc }
+ent-MagazineGrenadeFlash = 閃光手榴彈彈匣 | flash grenade cartridge
+    .desc = { ent-BaseMagazineGrenade.desc }
+ent-MagazineGrenadeBlast = 爆破手榴彈彈匣 | blast grenade cartridge
+    .desc = { ent-BaseMagazineGrenade.desc }
+ent-MagazineGrenadeBaton = 警棍手榴彈彈匣 | baton grenade cartridge
+    .desc = { ent-BaseMagazineGrenade.desc }

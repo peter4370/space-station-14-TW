@@ -1,0 +1,10 @@
+ent-MopBucket = 拖把桶 | mop bucket
+    .desc = 盛載著水，以及清潔工的淚水。 | Holds water and the tears of the janitor.
+ent-MopBucketFull = 拖把桶 | mop bucket
+    .desc = { ent-MopBucket.desc }
+    .suffix = full
+ent-MopBucketCubeWrapped = 立方體拖把桶 | mop bucket cube
+    .desc = 拆開包裝，即可獲得一個拖把桶方塊。 | Unwrap this to get a mop bucket cube.
+    .suffix = { ent-BaseWrappedCube.suffix }
+ent-JanitorialTrolley = 清潔推車 | janitorial trolley
+    .desc = 這就是衛生工作的始與終。 | This is the alpha and omega of sanitation.

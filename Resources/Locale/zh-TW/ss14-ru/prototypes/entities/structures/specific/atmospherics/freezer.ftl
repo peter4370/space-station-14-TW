@@ -1,0 +1,13 @@
+ent-AirSensorFreezerBase = { ent-AirSensorBase }
+    .desc = { ent-AirSensorBase.desc }
+    .suffix = Freezer Atmosphere
+ent-AirSensorFreezer = { ent-AirSensor }
+    .desc = { ent-AirSensor.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }
+ent-{'values': ['GasVentPumpFreezer', 'GasVentPumpFreezerAlt1', 'GasVentPumpFreezerAlt2']} = { ent-{'sequences': [['AirSensorFreezerBase', 'GasVentPump'], ['AirSensorFreezerBase', 'GasVentPumpAlt1'], ['AirSensorFreezerBase', 'GasVentPumpAlt2']]} }
+    .desc = { ent-{'sequences': [['AirSensorFreezerBase', 'GasVentPump'], ['AirSensorFreezerBase', 'GasVentPumpAlt1'], ['AirSensorFreezerBase', 'GasVentPumpAlt2']]}.desc }
+ent-{'values': ['GasVentScrubberFreezer', 'GasVentScrubberFreezerAlt1', 'GasVentScrubberFreezerAlt2']} = { ent-{'sequences': [['AirSensorFreezerBase', 'GasVentScrubber'], ['AirSensorFreezerBase', 'GasVentScrubberAlt1'], ['AirSensorFreezerBase', 'GasVentScrubberAlt2']]} }
+    .desc = { ent-{'sequences': [['AirSensorFreezerBase', 'GasVentScrubber'], ['AirSensorFreezerBase', 'GasVentScrubberAlt1'], ['AirSensorFreezerBase', 'GasVentScrubberAlt2']]}.desc }
+ent-AirAlarmFreezer = { ent-AirAlarm }
+    .desc = { ent-AirAlarm.desc }
+    .suffix = Freezer Atmosphere, auto mode disabled

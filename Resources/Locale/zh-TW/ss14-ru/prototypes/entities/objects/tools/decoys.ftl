@@ -1,0 +1,12 @@
+ent-BaseDecoy = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-BalloonOperative = 手術用氣球 | operative balloon
+    .desc = 仔細一看，這位「辛迪加」的特工其實是個氣球。 | Upon closer inspection, this Syndicate operative is actually a balloon.
+ent-BalloonAgent = 醫務兵氣球 | corpsman balloon
+    .desc = 仔細一看，這個「辛迪加」的醫護兵其實是個氣球。 | Upon closer inspection, this Syndicate corpsman is actually a balloon.
+ent-BalloonElite = 精英特工氣球 | elite operative balloon
+    .desc = 仔細一看，這名「辛迪加」的精英特工其實是個氣球。 | Upon closer inspection, this Syndicate elite operative is actually a balloon.
+ent-BalloonJuggernaut = 巨無霸氣球 | juggernaut balloon
+    .desc = 仔細一看，這台「辛迪加」的巨無霸機器，其實只是一個氣球。 | Upon closer inspection, this Syndicate juggernaut is actually a balloon.
+ent-BalloonCommander = 指揮氣球 | commander balloon
+    .desc = 仔細一看，這位「辛迪加」指揮官其實是個氣球。 | Upon closer inspection, this Syndicate commander is actually a balloon.

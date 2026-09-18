@@ -1,0 +1,9 @@
+ent-BaseCrate = 貨箱 | crate
+    .desc = 一個用來裝物品的大容器。 | A large container for items.
+ent-CrateGeneric = { ent-BaseCrate }
+    .desc = { ent-BaseCrate.desc }
+ent-CrateBaseWeldable = { ent-CrateGeneric }
+    .desc = { ent-CrateGeneric.desc }
+ent-CrateBaseSecure = { ent-CrateBaseWeldable }
+    .desc = { ent-CrateBaseWeldable.desc }
+    .suffix = Secure

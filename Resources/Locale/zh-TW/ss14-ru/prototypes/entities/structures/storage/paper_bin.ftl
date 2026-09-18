@@ -1,0 +1,12 @@
+ent-PaperBin = 紙籮 | paper bin
+    .desc = 這座無盡的堆疊底部，究竟隱藏著什麼秘密？ | What secrets lie at the bottom of its endless stack?
+    .suffix = Empty
+ent-PaperBin5 = { ent-PaperBin }
+    .desc = { ent-PaperBin.desc }
+    .suffix = 5
+ent-PaperBin10 = { ent-PaperBin }
+    .desc = { ent-PaperBin.desc }
+    .suffix = 10
+ent-PaperBin20 = { ent-PaperBin }
+    .desc = { ent-PaperBin.desc }
+    .suffix = 20

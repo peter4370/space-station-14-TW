@@ -1,0 +1,16 @@
+ent-ClothingHeadBase = { ent-SolutionFood }
+    .desc = { ent-SolutionFood.desc }
+ent-ClothingHeadBaseButcherable = { ent-ClothingHeadBase }
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadLightBase = 配備燈光的基礎頭盔 | base helmet with light
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadEVAHelmetBase = 基礎太空頭盔 | base space helmet
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHardsuitBase = 基礎型硬質裝甲頭盔 | base hardsuit helmet
+    .desc = { ent-TemperatureProtection.desc }
+ent-ClothingHeadHardsuitInsulatedBase = { ent-ClothingHeadHardsuitBase }
+    .desc = { ent-TemperatureProtection.desc }
+ent-ClothingHeadSuitWithLightBase = 配備燈光的基本型硬式戰甲頭盔 | base hardsuit helmet with light
+    .desc = { "" }
+ent-ClothingHeadHatHoodWinterBase = 基礎款冬季大衣連帽款 | base winter coat hood
+    .desc = 一款專為保暖頭部而設計的兜帽。 | A hood, made to keep your head warm.

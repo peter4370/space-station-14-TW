@@ -1,0 +1,12 @@
+ent-WeaponEnergyTurretStationMachineCircuitboardBase = 哨兵砲塔機電主機板 | sentry turret machine board
+    .desc = 一款用於哨兵砲塔的主機印刷電路板。 | A machine printed circuit board for a sentry turret.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-WeaponEnergyTurretAIMachineCircuitboard = { ent-WeaponEnergyTurretStationMachineCircuitboardBase }
+    .desc = { ent-WeaponEnergyTurretStationMachineCircuitboardBase.desc }
+    .suffix = AI, Silicon
+ent-WeaponEnergyTurretSecurityMachineCircuitboard = { ent-WeaponEnergyTurretStationMachineCircuitboardBase }
+    .desc = { ent-WeaponEnergyTurretStationMachineCircuitboardBase.desc }
+    .suffix = Security
+ent-WeaponEnergyTurretCommandMachineCircuitboard = { ent-WeaponEnergyTurretStationMachineCircuitboardBase }
+    .desc = { ent-WeaponEnergyTurretStationMachineCircuitboardBase.desc }
+    .suffix = Command

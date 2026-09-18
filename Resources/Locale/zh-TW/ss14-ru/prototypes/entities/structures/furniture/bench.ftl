@@ -1,0 +1,11 @@
+ent-BenchComfy = 舒適的長椅 | comfortable bench
+    .desc = 一張椅背極其舒適的長椅。 | A bench with an extremely comfortable backrest.
+ent-BenchColorfulComfy = { ent-BenchComfy }
+    .desc = 一張椅背極其舒適的長椅。 | A bench with an extremely comfortable backrest.
+    .suffix = Solo. Colorful
+ent-BenchRedComfy = { ent-BenchComfy }
+    .desc = { ent-BenchComfy.desc }
+    .suffix = Solo. Red
+ent-BenchBlueComfy = { ent-BenchComfy }
+    .desc = { ent-BenchComfy.desc }
+    .suffix = Solo. Blue

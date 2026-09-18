@@ -1,0 +1,15 @@
+ent-SinkEmpty = 水槽 | sink
+    .desc = 水龍頭已擰緊至最大扭力，但據悉仍會滴水。 | The faucets have been tightened to the maximum possible torque but are still known to drip.
+    .suffix = Empty
+ent-Sink = { ent-SinkEmpty }
+    .desc = { ent-SinkEmpty.desc }
+    .suffix = Water
+ent-SinkWide = 寬型水槽 | wide sink
+    .desc = { ent-Sink.desc }
+    .suffix = { ent-Sink.suffix }
+ent-SinkStemless = 水槽 | sink
+    .desc = { ent-SinkEmpty.desc }
+    .suffix = { ent-SinkEmpty.suffix }
+ent-SinkStemlessWater = 水槽 | sink
+    .desc = { ent-SinkStemless.desc }
+    .suffix = Water

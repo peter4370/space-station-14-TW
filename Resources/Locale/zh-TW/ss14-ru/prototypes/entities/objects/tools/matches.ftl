@@ -1,0 +1,13 @@
+ent-SmallboxItem = { ent-BaseStorageItem }
+    .desc = { ent-BaseStorageItem.desc }
+ent-Matchstick = 火柴棒 | match stick
+    .desc = 一根簡單的火柴，用來點燃優質的煙草製品。 | A simple match stick, used for lighting fine smokables.
+ent-MatchstickSpent = { ent-Matchstick }
+    .desc = { ent-Matchstick.desc }
+    .suffix = spent
+ent-Matchbox = 火柴盒 | match box
+    .desc = 一盒「差一點但還差一點點」等離子特級火柴。 | A small box of Almost But Not Quite Plasma Premium Matches.
+ent-GorlexMatchbox = Gorlex 火柴盒 | Gorlex match box
+    .desc = 一款仿照戈雷克斯掠奪者裝備設計的氣動火柴盒。內含 24 根火柴。 | A pneumatic match box styled after the Gorlex Marauders' equipment. Contains 24 matches.
+ent-GorlexMatchstick = 火柴棒 | match stick
+    .desc = 一款軍用級火柴，可用於點燃高品質菸草製品，亦適用於非戰鬥人員。 | A military grade match stick, used for lighting fine smokables and noncombatants alike.

@@ -1,0 +1,9 @@
+ent-RandomCableHVSpawner = 高壓電力纜線生成器 | HV power cable spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = 50%
+ent-RandomCableMVSpawner = MV 電力纜線生成器 | MV power cable spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = 50%
+ent-RandomCableApcExtensionSpawner = LV 電力電纜生成器 | LV power cable spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = 50%

@@ -1,0 +1,9 @@
+ent-LightReplacer = 換燈器 | light replacer
+    .desc = 一款利用磁鐵，可輕鬆更換損壞燈泡的產品。只需將更多燈泡放入更換器中即可補充。 | An item which uses magnets to easily replace broken lights. Refill by adding more lights into the replacer.
+ent-LightReplacerFilled = { ent-LightReplacer }
+    .desc = { ent-LightReplacer.desc }
+    .suffix = Filled
+ent-EjectTubes = { "" }
+    .desc = { "" }
+ent-EjectBulbs = { "" }
+    .desc = { "" }

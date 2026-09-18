@@ -1,0 +1,13 @@
+ent-BaseMagazineBoxRifle = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxRifleBig = 彈藥箱（.20 步槍） | ammunition box (.20 rifle)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+    .suffix = Big
+ent-MagazineBoxRifle = 彈藥箱（.20 步槍） | ammunition box (.20 rifle)
+    .desc = 一盒裝有.20口徑步槍子彈的紙箱。原定用於存放通用動能彈藥。 | A cardboard box of .20 rifle rounds. Intended to hold general-purpose kinetic ammunition.
+ent-MagazineBoxRiflePractice = 彈藥箱（.20口徑步槍練習用） | ammunition box (.20 rifle practice)
+    .desc = 一個裝有.20口徑步槍子彈的紙箱。原本是用來裝無害的練習彈藥的。 | A cardboard box of .20 rifle rounds. Intended to hold harmless practice ammunition.
+ent-MagazineBoxRifleIncendiary = 彈藥箱（.20口徑步槍燃燒彈） | ammunition box (.20 rifle incendiary)
+    .desc = 一盒裝有 .20 口徑步槍子彈的紙箱。原定用於裝載自燃式燃燒彈。 | A cardboard box of .20 rifle rounds. Intended to hold self-igniting incendiary ammunition.
+ent-MagazineBoxRifleUranium = 彈藥箱（.20口徑步槍鈾彈） | ammunition box (.20 rifle uranium)
+    .desc = 一盒裝有.20口徑步槍子彈的紙箱。原本是用來裝載特殊鈾芯彈藥的。 | A cardboard box of .20 rifle rounds. Intended to hold exotic uranium-core ammunition.

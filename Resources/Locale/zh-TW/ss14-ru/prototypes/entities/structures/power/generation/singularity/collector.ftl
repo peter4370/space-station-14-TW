@@ -1,0 +1,9 @@
+ent-RadiationCollector = 輻射收集器 | radiation collector
+    .desc = 一種能收集輻射並將其轉化為動力的機器。運作時需要等離子體氣體。 | A machine that collects radiation and turns it into power. Requires plasma gas to function.
+    .suffix = Empty tank
+ent-RadiationCollectorNoTank = { ent-RadiationCollector }
+    .desc = { ent-RadiationCollector.desc }
+    .suffix = No tank
+ent-RadiationCollectorFullTank = { ent-RadiationCollector }
+    .desc = { ent-RadiationCollector.desc }
+    .suffix = Filled tank

@@ -1,0 +1,17 @@
+ent-AtmosFixBlockerMarker = Atmos Fix 真空標記筆 | Atmos Fix Vacuum Marker
+    .desc = 真空，T20C | Vacuum, T20C
+ent-AtmosFixOxygenMarker = Atmos Fix 氧氣標記劑 | Atmos Fix Oxygen Marker
+    .desc = 氧氣 @ 氣體開採壓力，T20C | Oxygen @ gas miner pressure, T20C
+ent-AtmosFixNitrogenMarker = Atmos 固定氮標記劑 | Atmos Fix Nitrogen Marker
+    .desc = 氮氣 @ 氣體採礦器壓力，T20C | Nitrogen @ gas miner pressure, T20C
+ent-AtmosFixPlasmaMarker = Atmos Fix 等離子標記機 | Atmos Fix Plasma Marker
+    .desc = 等離子體 @ 氣體開採壓力，T20C | Plasma @ gas miner pressure, T20C
+ent-AtmosFixInstantPlasmaFireMarker = Atmos Fix 瞬間點火等離子火炬 | Atmos Fix Instant Plasmafire Marker
+    .desc = 瞬間等離子火焰 | INSTANT PLASMAFIRE
+ent-AtmosFixFreezerMarker = Atmos Fix 冷凍庫專用標記筆 | Atmos Fix Freezer Marker
+    .desc = 將氣溫設定為 235K，讓冷凍櫃在設定時留有少許調整空間。 | Change air temp to 235K, for freezer with a bit of wiggle room to get set up.
+ent-AtmosFixVoxMarker = { ent-AtmosFixNitrogenMarker }
+    .desc = 氮氣 @ 101 kPa，20°C | Nitrogen @ 101 kPa, 20C
+    .suffix = Vox Atmosphere
+ent-AtmosFixAirMarker = Atmos Fix 空氣標記筆 | Atmos Fix Air Marker
+    .desc = 氧氣（21%）與氮氣（79%），在氣體礦工壓力下，T20C | Oxygen (21%) and nitrogen (79%) @ gas miner pressure, T20C

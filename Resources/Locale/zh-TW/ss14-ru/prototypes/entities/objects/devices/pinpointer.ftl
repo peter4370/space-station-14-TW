@@ -1,0 +1,17 @@
+ent-PinpointerBase = 精準定位器 | pinpointer
+    .desc = 一款手持式追蹤裝置。雖然此類裝置通常功能更為強大，但這款已設定為鎖定特定訊號。請保持直立，以維持精準度。 | A handheld tracking device. While typically far more capable, this one has been configured to lock onto certain signals. Keep upright to retain accuracy.
+ent-PinpointerNuclear = 精準定位器 | pinpointer
+    .desc = { ent-PinpointerBase.desc }
+ent-PinpointerSyndicateNuclear = 辛迪加定位器 | syndicate pinpointer
+    .desc = 專為核武行動任務所製造，快把那片光碟拿來！ | Produced specifically for nuclear operative missions, get that disk!
+ent-PinpointerUniversal = 萬用定位器 | universal pinpointer
+    .desc = 一款手持式追蹤裝置，在關機狀態下仍能鎖定任何實體目標。請保持直立以維持精準度。 | A handheld tracking device that locks onto any physical entity while off. Keep upright to retain accuracy.
+ent-PinpointerStation = 定位器 | station pinpointer
+    .desc = 一款手持式定位裝置，可指引使用者前往附近任何太空站的方向。 | A handheld tracking device that leads to the direction of any nearby station.
+    .suffix = Station
+ent-PinpointerMothership = 核心定位器 | core pinpointer
+    .desc = 一款可指引前往母艦核心方向的手持追蹤裝置。 | A handheld tracking device that leads to the direction of the Mothership core.
+ent-PinpointerMothershipPiece = 核心型定位器的部件 | piece of core pinpointer
+    .desc = 這是核心式定位器的其中一個零件。你需要四個這樣的零件才能將它修好。 | A piece of a core pinpointer. You need four pieces to repair it.
+ent-PinpointerMothershipRepaired = 已修復的核心式定位器 | repaired core pinpointer
+    .desc = 一款能指引前往母艦核心方向的手持追蹤裝置。這台裝置已顯得有些破舊。 | A handheld tracking device that leads to the direction of the Mothership core. This one has seen better days.

@@ -1,0 +1,10 @@
+ent-RandomWoodenSupport = 木製支撐生成器 | wooden support spawner
+    .desc = { ent-MarkerBase.desc }
+ent-RandomWoodenWall = 木製牆面生成器 | wooden wall spawner
+    .desc = { ent-MarkerBase.desc }
+ent-RandomStalagmiteOrCrystal = 石筍或水晶生成器 | stalagmite or crystal spawner
+    .desc = { ent-MarkerBase.desc }
+ent-RandomBrownStalagmite = 褐色石筍產卵魚 | brown stalagmite spawner
+    .desc = { ent-MarkerBase.desc }
+ent-RandomGreyStalagmite = 灰色石筍產卵者 | grey stalagmite spawner
+    .desc = { ent-MarkerBase.desc }

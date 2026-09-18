@@ -1,0 +1,14 @@
+ent-IngotBase = { ent-MaterialBase }
+    .desc = 一塊鑄有 Nanotrasen 標誌的重金屬錠。 | A heavy metal ingot stamped with the Nanotrasen logo.
+ent-IngotGold = 金條 | gold bar
+    .desc = { ent-IngotBase.desc }
+    .suffix = Full
+ent-IngotGold1 = 金條 | gold bar
+    .desc = { ent-IngotGold.desc }
+    .suffix = Single
+ent-IngotSilver = 銀條 | silver bar
+    .desc = { ent-IngotBase.desc }
+    .suffix = Full
+ent-IngotSilver1 = 銀條 | silver bar
+    .desc = { ent-IngotSilver.desc }
+    .suffix = Single

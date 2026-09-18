@@ -1,0 +1,10 @@
+ent-ReinforcedWindow = 強化玻璃窗 | reinforced window
+    .desc = { ent-BaseWindowStructure.desc }
+ent-WindowReinforcedDirectional = 定向強化窗 | directional reinforced window
+    .desc = { ent-BaseWindowStructureDirectional.desc }
+ent-WindowReinforcedDirectionalCorner = { ent-WindowReinforcedDirectional }
+    .desc = { ent-WindowReinforcedDirectional.desc }
+    .suffix = Corner
+ent-ReinforcedWindowDiagonal = { ent-ReinforcedWindow }
+    .desc = { ent-ReinforcedWindow.desc }
+    .suffix = diagonal

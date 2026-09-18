@@ -1,0 +1,14 @@
+ent-BaseDefibrillator = 除顫器 | defibrillator
+    .desc = CLEAR！ZZZZAT——！ | CLEAR! Zzzzat!
+ent-Defibrillator = { ent-BaseDefibrillator }
+    .desc = { ent-BaseDefibrillator.desc }
+ent-DefibrillatorEmpty = { ent-Defibrillator }
+    .desc = { ent-Defibrillator.desc }
+    .suffix = Empty
+ent-DefibrillatorOneHandedUnpowered = { ent-BaseDefibrillator }
+    .desc = { ent-BaseDefibrillator.desc }
+    .suffix = One-Handed, Always Powered
+ent-DefibrillatorCompact = 小型除顫器 | compact defibrillator
+    .desc = 現在推出迷你裝！ | Now in fun size!
+ent-DefibrillatorSyndicate = Interdyne 除顫器 | interdyne defibrillator
+    .desc = 同時也能作為自衛武器，用以對抗有犯下戰爭罪傾向的潮汐者。 | Doubles as a self-defense weapon against war-crime inclined tiders.

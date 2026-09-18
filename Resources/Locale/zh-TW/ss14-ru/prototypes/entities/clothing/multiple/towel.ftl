@@ -1,0 +1,10 @@
+ent-BaseTowel = 基礎毛巾 | base towel
+    .desc = 如果你想在這兒生存下去，就得知道你的毛巾放哪裡。 | If you want to survive out here, you gotta know where your towel is.
+ent-TowelColorWhite = 白色毛巾 | white towel
+    .desc = { ent-BaseTowel.desc }
+ent-TowelColorNT = NanoTrasen 品牌毛巾 | NanoTrasen brand towel
+    .desc = { ent-BaseTowel.desc }
+ent-TowelColorCentcom = 中央司令部毛巾 | centcom towel
+    .desc = { ent-BaseTowel.desc }
+ent-TowelColorSyndicate = 辛迪加毛巾 | syndicate towel
+    .desc = { ent-BaseTowel.desc }

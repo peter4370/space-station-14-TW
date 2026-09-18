@@ -1,0 +1,14 @@
+ent-BasePercussionInstrument = { ent-BaseHandheldInstrument }
+    .desc = { ent-BaseHandheldInstrument.desc }
+ent-GlockenspielInstrument = 鋼片琴 | glockenspiel
+    .desc = { ent-BasePercussionInstrument.desc }
+ent-MusicBoxInstrument = 音樂盒 | music box
+    .desc = 玩這款遊戲會讓你感到自己遠離了那些可怕的機械人偶。 | Playing this makes you feel safe from scary animatronics.
+ent-XylophoneInstrument = 木琴 | xylophone
+    .desc = 彩虹色的鋼片琴。 | Rainbow colored glockenspiel.
+ent-MicrophoneInstrument = 麥克風 | microphone
+    .desc = 非常適合盡情高歌。 | Perfect for singing your heart out.
+ent-WoodblockInstrument = 木版畫 | woodblock
+    .desc = 如果你反覆聽這首歌夠久，它就會不自覺地縈繞在你的腦海中。 | If you listen to this enough it'll start driving itself into your mind.
+ent-ReverseCymbalsInstrument = 反向鈸 | reverse cymbals
+    .desc = 我覺得你搞反了吧？ | I think you have it the wrong way around?

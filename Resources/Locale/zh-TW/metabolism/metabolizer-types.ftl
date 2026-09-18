@@ -1,0 +1,12 @@
+metabolizer-type-animal = 動物
+metabolizer-type-bloodsucker = 吸血鬼
+metabolizer-type-dragon = 龍
+metabolizer-type-human = 人類
+metabolizer-type-slime = 史萊姆
+metabolizer-type-vox = Vox
+metabolizer-type-rat = 老鼠
+metabolizer-type-plant = 工廠
+metabolizer-type-dwarf = 矮人
+metabolizer-type-moth = 飛蛾
+metabolizer-type-arachnid = 蛛形綱
+metabolizer-type-changeling = 《換子疑雲》

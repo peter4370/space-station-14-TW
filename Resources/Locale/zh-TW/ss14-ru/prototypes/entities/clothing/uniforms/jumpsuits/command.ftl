@@ -1,0 +1,10 @@
+ent-ClothingUniformJumpsuitCaptain = 船長連身工作服 | captain's jumpsuit
+    .desc = 這是一件藍色連身工作服，上面有些金色標記，標示著「上尉」的軍銜。 | It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
+ent-ClothingUniformJumpsuitHoP = 人事主管的連身工作服 | head of personnel's jumpsuit
+    .desc = 相當平淡無奇，也不惹人厭。簡直是從宇宙中消失的絕佳選擇。 | Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+ent-ClothingUniformJumpsuitCommandGeneric = 指揮連身服 | command jumpsuit
+    .desc = 一套通用款的「Command」色連身工作服，未隸屬於任何特定部門。 | A generic Command-colored jumpsuit not associated with any particular department.
+ent-ClothingUniformJumpsuitNanotrasen = nanotrasen 連身衣 | nanotrasen jumpsuit
+    .desc = 一套莊重的藍色連身工作服，用以代表 NanoTrasen。 | A stately blue jumpsuit to represent NanoTrasen.
+ent-ClothingUniformJumpsuitCapFormal = 船長的正式西裝 | captain's formal suit
+    .desc = 一套適合特殊場合的西裝。 | A suit for special occasions.

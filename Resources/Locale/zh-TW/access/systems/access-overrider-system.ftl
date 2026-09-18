@@ -1,0 +1,9 @@
+access-overrider-window-privileged-id = 具特權的識別碼：
+access-overrider-window-eject-button = 彈出
+access-overrider-window-insert-button = 插入
+access-overrider-window-target-label = 已連接的裝置：
+access-overrider-window-no-target = 沒有已連接的裝置
+access-overrider-window-missing-privileges = 此裝置的存取權限無法進行變更。所輸入的 ID 缺少以下權限：
+access-overrider-window-missing-privileges-no-id = 無法變更對此裝置的存取權限。缺少以下權限：
+access-overrider-cannot-modify-access = 您沒有足夠的權限來修改此裝置！
+access-overrider-out-of-range = 連線裝置距離過遠

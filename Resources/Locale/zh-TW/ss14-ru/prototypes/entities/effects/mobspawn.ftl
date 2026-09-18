@@ -1,0 +1,16 @@
+ent-MobSpawnCrabQuartz = 生物生成器 石英蟹 | mobspawner quartzcrab
+    .desc = { "" }
+ent-MobSpawnCrabIron = 生物生成器 鐵蟹 | mobspawner ironcrab
+    .desc = { ent-MobSpawnCrabQuartz.desc }
+ent-MobSpawnCrabCoal = mobspawner 煤蟹 | mobspawner coalcrab
+    .desc = { ent-MobSpawnCrabQuartz.desc }
+ent-MobSpawnCrabSilver = 怪物生成器 銀蟹 | mobspawner silvercrab
+    .desc = { ent-MobSpawnCrabQuartz.desc }
+ent-MobSpawnCrabGold = 生物生成器 金色螃蟹 | mobspawner goldcrab
+    .desc = { ent-MobSpawnCrabQuartz.desc }
+ent-MobSpawnCrabUranium = 怪物生成器 鈾蟹 | mobspawner uraniumcrab
+    .desc = { ent-MobSpawnCrabQuartz.desc }
+ent-MobSpawnCrabBananium = 生物生成器 香蕉礦蟹 | mobspawner bananiumcrab
+    .desc = { ent-MobSpawnCrabQuartz.desc }
+ent-EffectAnomalyFloraBulb = { "" }
+    .desc = { "" }

@@ -1,0 +1,11 @@
+ent-FaxMachineBase = 長距離傳真機 | long range fax machine
+    .desc = Bluespace 技術在官僚體制中的應用。 | Bluespace technologies on the application of bureaucracy.
+ent-FaxMachineCentcom = 中央司令部 長距離傳真機 | CentComm long range fax machine
+    .desc = { ent-FaxMachineBase.desc }
+    .suffix = CentCom
+ent-FaxMachineSyndie = 辛迪加長距離傳真機 | syndicate long range fax machine
+    .desc = { ent-FaxMachineBase.desc }
+    .suffix = Syndicate
+ent-FaxMachineCaptain = 「船長」長距離傳真機 | captain long range fax machine
+    .desc = { ent-FaxMachineBase.desc }
+    .suffix = NukeCodes

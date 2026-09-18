@@ -1,0 +1,10 @@
+ent-SpawnMobMedibot = medibot 生成器 | medibot spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobCleanBot = cleanbot 生成器 | cleanbot spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobFireBot = 火怪生成器 | firebot spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobSupplyBot = supplybot 生成器 | supplybot spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobHonkBot = honkbot 生成器 | honkbot spawner
+    .desc = { ent-MarkerBase.desc }

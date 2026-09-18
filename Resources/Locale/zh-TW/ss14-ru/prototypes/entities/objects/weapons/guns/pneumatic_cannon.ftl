@@ -1,0 +1,15 @@
+ent-WeaponImprovisedPneumaticCannon = 自製氣動砲 | improvised pneumatic cannon
+    .desc = 僅憑一根管子、幾條束線帶和一門氣動砲就臨時改裝而成。若氣罐氣量不足，則無法接收。 | Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+ent-LauncherCreamPie = 派炮 | pie cannon
+    .desc = 為獲得最佳效果，請加入奶油派。 | Load cream pie for optimal results.
+    .suffix = Empty
+ent-BorgLauncherCreamPie = 實驗性派炮 | experimental pie cannon
+    .desc = 直接將一大份鮮奶油送給船員們！會隨著時間自動烘烤派。 | Deliver a generous portion of cream directly to the crew! Automatically bakes pies over time.
+ent-LauncherSyringe = 注射槍 | syringe gun
+    .desc = 裝滿摻毒的注射器，享受極致的樂趣。 | Load full of poisoned syringes for optimal fun.
+ent-WeaponImprovisedPneumaticCannonGun = { ent-WeaponImprovisedPneumaticCannon }
+    .desc = { ent-WeaponImprovisedPneumaticCannon.desc }
+    .suffix = Gun
+ent-WeaponImprovisedPneumaticCannonAdmeme = { ent-WeaponImprovisedPneumaticCannonGun }
+    .desc = { ent-WeaponImprovisedPneumaticCannonGun.desc }
+    .suffix = Admeme

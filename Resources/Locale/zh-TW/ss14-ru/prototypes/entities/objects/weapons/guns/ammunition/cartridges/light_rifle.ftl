@@ -1,0 +1,10 @@
+ent-BaseCartridgeLightRifle = 子彈（.30 步槍） | cartridge (.30 rifle)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeLightRifle = 子彈（.30 步槍） | cartridge (.30 rifle)
+    .desc = 一種經典的中口徑彈藥，廣泛應用於許多戰鬥步槍和輕機槍。標準動能彈藥在大多數情況下都很常見且實用。 | A classic intermediate cartridge used by many combat rifles and LMGs. Standard kinetic ammunition is common and useful in most situations.
+ent-CartridgeLightRiflePractice = 子彈（.30 步槍練習用） | cartridge (.30 rifle practice)
+    .desc = 一種經典的中口徑彈藥，廣泛應用於許多戰鬥步槍和輕機槍。練習彈所發射的粉筆彈頭雖會帶來些許刺痛感，但除此之外不會造成任何持久性傷害。 | A classic intermediate cartridge used by many combat rifles and LMGs. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+ent-CartridgeLightRifleIncendiary = 子彈（.30 步槍燃燒彈） | cartridge (.30 rifle incendiary)
+    .desc = 一種經典的中口徑彈藥，廣泛應用於許多作戰步槍和輕機槍。燃燒彈內含自燃化合物，能使目標起火燃燒。 | A classic intermediate cartridge used by many combat rifles and LMGs. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+ent-CartridgeLightRifleUranium = 子彈（.30 步槍鈾彈） | cartridge (.30 rifle uranium)
+    .desc = 一種經典的中口徑彈藥，廣泛應用於許多戰鬥步槍和輕機槍。鈾彈藥將子彈的鉛芯替換為裂變材料，使目標從內部受到輻射照射。 | A classic intermediate cartridge used by many combat rifles and LMGs. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.

@@ -1,0 +1,6 @@
+ent-WindoorAssembly = 風門組件 | windoor assembly
+    .desc = 它可以打開，也可以關上，而且還能透視！ | It opens, it closes, and you can see through it!
+ent-WindoorAssemblyPlasma = 等離子風窗組件 | plasma windoor assembly
+    .desc = 它可以打開，可以關上，而且還能透視！這個看起來是紫——不，是粉紅色的。等等…… | It opens, it closes, and you can see through it! This one looks purp-, no, pink. Wait...
+ent-WindoorAssemblyUranium = 鈾風窗組件 | uranium windoor assembly
+    .desc = 它可以打開，可以關上，而且還能透視！這個看起來是種病態的綠色…… | It opens, it closes, and you can see through it! This one looks sickly green...

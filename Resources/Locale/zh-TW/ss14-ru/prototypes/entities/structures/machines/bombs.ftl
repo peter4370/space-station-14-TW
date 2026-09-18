@@ -1,0 +1,12 @@
+ent-BaseHardBomb = hardbomb | hardbomb
+    .desc = 只要繼續說話，就不會有人發火。 | Just keep talking and nobody will explode.
+ent-TrainingBomb = 訓練炸彈 | training bomb
+    .desc = 《傻瓜式炸彈製作指南》，不附說明書。 | A bomb for dummies, manual not included.
+ent-SyndicateBomb = 辛迪加炸彈 | syndicate bomb
+    .desc = 這是一款專為「辛迪加」成員與特工量身打造的炸彈。貨真價實，無需再進行訓練，馬上上手吧！ | A bomb for Syndicate operatives and agents alike. The real deal, no more training, get to it!
+ent-SyndicateBombFake = { ent-SyndicateBomb }
+    .desc = { ent-SyndicateBomb.desc }
+    .suffix = fake
+ent-DebugHardBomb = 除錯炸彈 | debug bomb
+    .desc = 天啊，這下要炸了。 | Holy shit this is gonna explode.
+    .suffix = DEBUG

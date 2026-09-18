@@ -1,0 +1,17 @@
+ent-CoreSubstation = { "" }
+    .desc = { "" }
+ent-BaseSubstation = 變電站 | substation
+    .desc = 可降低輸入的電壓。 | Reduces the voltage of electricity put into it.
+ent-BaseSubstationWall = 壁掛式變電站 | wallmount substation
+    .desc = 一座專為緊湊型穿梭機及狹小空間設計的變電站。 | A substation designed for compact shuttles and spaces.
+ent-SubstationBasic = { ent-BaseSubstation }
+    .desc = { ent-BaseSubstation.desc }
+    .suffix = Basic, 2.5MJ
+ent-SubstationBasicEmpty = { ent-SubstationBasic }
+    .desc = { ent-SubstationBasic.desc }
+    .suffix = Empty
+ent-SubstationWallBasic = { ent-BaseSubstationWall }
+    .desc = { ent-BaseSubstationWall.desc }
+    .suffix = Basic, 2MJ
+ent-BaseSubstationWallFrame = 壁掛式變電站框架 | wallmount substation frame
+    .desc = 一座供施工用的變電站框架。 | A substation frame for construction.

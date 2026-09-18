@@ -1,0 +1,16 @@
+ent-MineralScannerUnpowered = 礦物掃描儀 | mineral scanner
+    .desc = 一種用於檢測周圍岩石中是否有有用礦物的掃描器。必須握在手中或放在口袋裡才能運作。 | A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work.
+    .suffix = Always Powered
+ent-MineralScanner = { ent-MineralScannerUnpowered }
+    .desc = { ent-MineralScannerUnpowered.desc }
+ent-MineralScannerEmpty = { ent-MineralScanner }
+    .desc = { ent-MineralScanner.desc }
+    .suffix = Empty
+ent-AdvancedMineralScannerUnpowered = 先進礦物掃描儀 | advanced mineral scanner
+    .desc = 一款用於檢測周圍岩石中是否有有用礦物的掃描器。必須握在手中或放入口袋中才能運作。這款掃描器的偵測範圍較廣。 | A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work. This one has an extended range.
+    .suffix = Always Powered
+ent-AdvancedMineralScanner = { ent-AdvancedMineralScannerUnpowered }
+    .desc = { ent-AdvancedMineralScannerUnpowered.desc }
+ent-AdvancedMineralScannerEmpty = { ent-AdvancedMineralScanner }
+    .desc = { ent-AdvancedMineralScanner.desc }
+    .suffix = Empty

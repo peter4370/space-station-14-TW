@@ -1,0 +1,12 @@
+plant-hoe-component-already-seeded-popup = 請從 { $name } 中移除雜草。
+plant-hoe-component-remove-weeds-others-popup = { $otherName } 開始拔除雜草。
+plant-hoe-component-no-weeds-popup = 這塊地完全沒有雜草！根本不需要除草。
+plant-shovel-component-remove-plant-popup = 請將植物從 { $name } 中移出。
+plant-shovel-component-remove-plant-others-popup = { $name } 會移除該植物。
+plant-shovel-component-no-plant-popup = 沒有植物需要移除。
+plant-sample-component-early-sample-popup = 這株植物還沒有長到足以取樣的地步。
+plant-sample-component-already-sampled-popup = 該廠已進行取樣。
+plant-sample-component-take-sample-popup = 您可從 { $seedName } 處取得範例。
+plant-sample-component-dead-plant-popup = 這株植物已經死了。
+plant-produce-component-compost-popup = 您將 { $usingItem } 轉化為 { $owner }。
+plant-produce-component-compost-others-popup = { $user } 將 { $usingItem } 轉化為 { $owner }。

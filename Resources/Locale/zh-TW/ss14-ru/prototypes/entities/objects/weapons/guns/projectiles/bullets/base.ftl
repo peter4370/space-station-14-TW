@@ -1,0 +1,12 @@
+ent-BaseBullet = BaseBullet | BaseBullet
+    .desc = 如果你能看到這段文字，你八成已經死了！ | If you can see this you're probably dead!
+ent-BaseBulletTrigger = 基本子彈扳機 | base bullet trigger
+    .desc = { ent-BaseBullet.desc }
+ent-BaseBulletPractice = 基礎子彈練習 | base bullet practice
+    .desc = { ent-BaseBullet.desc }
+ent-BaseBulletIncendiary = 底座式燃燒彈 | base bullet incendiary
+    .desc = { ent-BaseBullet.desc }
+ent-BaseBulletAP = 基本子彈　穿甲彈 | base bullet armor-piercing
+    .desc = { ent-BaseBullet.desc }
+ent-BaseBulletUranium = 鈾基彈頭 | base bullet uranium
+    .desc = { ent-BaseBullet.desc }

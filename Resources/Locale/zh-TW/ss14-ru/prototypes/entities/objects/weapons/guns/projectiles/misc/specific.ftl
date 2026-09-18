@@ -1,0 +1,10 @@
+ent-BulletAcid = 酸液噴濺 | acid spit
+    .desc = { ent-BaseBullet.desc }
+ent-BulletWaterShot = 水 | water
+    .desc = { ent-SolutionVapor.desc }
+ent-BulletHivebot = hivebot 簡報 | hivebot bullet
+    .desc = { ent-BaseBullet.desc }
+ent-GrapplingHook = 鉤爪 | grappling hook
+    .desc = { "" }
+ent-StickyHandPalm = 黏手掌 | sticky hand palm
+    .desc = { ent-GrapplingHook.desc }

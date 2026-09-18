@@ -1,0 +1,13 @@
+ent-ShadowBasaltOne = 影石 | shadowstone
+    .desc = 現實中發光的裂痕。應該沒問題吧。 | Glowing cracks in reality. It's probably fine.
+ent-ShadowBasaltTwo = { ent-ShadowBasaltOne }
+    .desc = { ent-ShadowBasaltOne.desc }
+ent-ShadowBasaltThree = { ent-ShadowBasaltOne }
+    .desc = { ent-ShadowBasaltOne.desc }
+ent-ShadowBasaltFour = { ent-ShadowBasaltOne }
+    .desc = { ent-ShadowBasaltOne.desc }
+ent-ShadowBasaltFive = { ent-ShadowBasaltOne }
+    .desc = { ent-ShadowBasaltOne.desc }
+ent-ShadowBasaltRandom = { ent-ShadowBasaltOne }
+    .desc = { ent-ShadowBasaltOne.desc }
+    .suffix = Random

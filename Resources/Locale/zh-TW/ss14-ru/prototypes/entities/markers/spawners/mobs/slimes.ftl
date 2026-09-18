@@ -1,0 +1,12 @@
+ent-SpawnMobAdultSlimesBlue = 藍色史萊姆生成器 | Slimes Spawner Blue
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesBlueAngry = 藍色憤怒史萊姆生成器 | Slimes Spawner Blue Angry
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesGreen = 綠色史萊姆生成器 | Slimes Spawner Green
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesGreenAngry = 史萊姆生成器 綠色 憤怒 | Slimes Spawner Green Angry
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesYellow = 黃色史萊姆生成器 | Slimes Spawner Yellow
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesYellowAngry = 史萊姆生成器 黃色 憤怒 | Slimes Spawner Yellow Angry
+    .desc = { ent-MarkerBase.desc }

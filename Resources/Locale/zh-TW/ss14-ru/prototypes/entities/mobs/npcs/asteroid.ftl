@@ -1,0 +1,24 @@
+ent-BaseMobAsteroid = { ent-BaseMob }
+    .desc = { ent-BaseMob.desc }
+ent-MobGoliath = 歌利亞 | goliath
+    .desc = 這是一頭龐然巨獸，會利用長長的觸手纏住獵物，無論在任何情況下，都不建議對其構成威脅。 | A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
+ent-ActionGoliathTentacle = [color=red]觸手重擊[/color] | [color=red]Tentacle Slam[/color]
+    .desc = 運用你的觸手抓住並眩暈一名目標玩家！ | Use your tentacles to grab and stun a target player!
+ent-GoliathTentacle = 觸手 | tentacle
+    .desc = { "" }
+ent-BaseEffectGoliathTentacleSpawn = 觸手 | tentacle
+    .desc = { "" }
+ent-EffectGoliathTentacleSpawn = 觸手 | tentacle
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-EffectGoliathTentacleRetract = { ent-BaseEffectGoliathTentacleSpawn }
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-MobHivelord = 蜂王 | hivelord
+    .desc = 這是一種名副其實的外星生物，由一團未知的有機物質構成，狀態不斷變化。攻擊時，其部分會分裂出來，並與主體協同發動攻擊。 | A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
+ent-MobHivelordBrood = 蜂王族群 | hivelord brood
+    .desc = 原初蜂王的一段殘骸，正跟隨其原體集結。單憑這一點並不足以構成威脅，但…… | A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
+ent-FoodHivelordRemains = 蜂王仍存 | hivelord remains
+    .desc = 蜂王僅存的這部分，看來正是讓牠能將自身碎片剝離卻毫髮無傷的關鍵……若不盡快使用，其自癒能力很快就會失效。盡量別去想你正在吃的是什麼。 | All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think about what you're eating.
+ent-FoodHivelordRemainsInert = 惰性蜂王殘骸 | inert hivelord remains
+    .desc = 這便是蜂王僅存的遺骸……如今，一切確實已然喪失。 | All that remains of a hivelord... Now all is truly lost.
+ent-MobBasilisk = 巴斯利斯克 | basilisk
+    .desc = 一種領地意識極強的野獸，全身覆蓋著能吸收能量的厚實外殼。它的凝視會讓受害者從內而外凍結。 | A territorial beast, covered in a thick shell that absorbs energy. Its stare causes victims to freeze from the inside.

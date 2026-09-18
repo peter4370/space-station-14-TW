@@ -1,0 +1,14 @@
+ent-BaseGenericTabletopPiece = { ent-BaseTabletopPiece }
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-RedTabletopPiece = 紅色部件 | red piece
+    .desc = { ent-BaseGenericTabletopPiece.desc }
+ent-GreenTabletopPiece = 綠色部件 | green piece
+    .desc = { ent-BaseGenericTabletopPiece.desc }
+ent-YellowTabletopPiece = 黃色塊 | yellow piece
+    .desc = { ent-BaseGenericTabletopPiece.desc }
+ent-BlueTabletopPiece = 藍色部件 | blue piece
+    .desc = { ent-BaseGenericTabletopPiece.desc }
+ent-WhiteTabletopPiece = 白色棋子 | white piece
+    .desc = { ent-BaseGenericTabletopPiece.desc }
+ent-BlackTabletopPiece = 黑色棋子 | black piece
+    .desc = { ent-BaseGenericTabletopPiece.desc }

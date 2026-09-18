@@ -1,0 +1,10 @@
+ent-BaseDeskBell = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-EmptyDeskBell = 未完成的課桌鈴 | unfinished desk bell
+    .desc = 一個空蕩蕩的鐘，缺少了發聲裝置。 | An empty bell missing its noise maker.
+ent-DeskBell = 課桌鈴 | desk bell
+    .desc = 這是任何客服工作的基石。你總會忍不住想按響它。 | The cornerstone of any customer service job. You feel an unending urge to ring it.
+ent-DeskBuzzer = 桌面蜂鳴器 | desk buzzer
+    .desc = 一款先進的客戶服務工具。你總會忍不住想按一下它。 | An advanced customer service tool. You feel an unending urge to buzz it.
+ent-DeskHorn = 桌面喇叭 | desk horn
+    .desc = 這是任何小丑表演的基石。你總會感到一股無止盡的衝動，想按響它。 | The cornerstone of any clown business. You feel an unending urge to honk it.

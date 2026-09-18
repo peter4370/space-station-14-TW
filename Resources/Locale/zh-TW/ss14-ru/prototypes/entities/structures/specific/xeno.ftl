@@ -1,0 +1,10 @@
+ent-XenoWardingTower = 外星防禦塔 | xeno warding tower
+    .desc = { ent-BaseStatue.desc }
+ent-CarpStatue = 鯉魚雕像 | carp statue
+    .desc = 這座雕像刻畫了其中一條勇敢的鯉魚——正是憑藉牠們的勇氣，我們才得以走到今天。雕像甚至用牠們的真牙製作而成！ | A statue of one of the brave carp that got us where we are today. Made with real teeth!
+ent-CarpStatueEmpty = { ent-CarpStatue }
+    .desc = 一塊貴金屬，即將化身為一尊璀璨的鯉魚雕像。 | A lump of precious metals, soon to be a brilliant carp statue.
+    .suffix = Empty
+ent-CarpStatueEyes = { ent-CarpStatue }
+    .desc = 這是一尊雕像，紀念那些讓我們走到今天這一步的勇敢鯉魚之一。這條鯉魚需要去看牙醫了…… | A statue of one of the brave carp that got us where we are today. This one needs a dentist...
+    .suffix = Eyes

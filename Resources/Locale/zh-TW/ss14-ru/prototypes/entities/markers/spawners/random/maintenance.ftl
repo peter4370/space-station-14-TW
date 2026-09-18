@@ -1,0 +1,15 @@
+ent-MaintenanceFluffSpawner = Maint 戰利品生成器 | Maint Loot Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Fluff+Clothes
+ent-MaintenanceToolSpawner = Maint 戰利品生成器 | Maint Loot Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Tools+Cells+Mats
+ent-MaintenanceWeaponSpawner = Maint 戰利品生成器 | Maint Loot Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Scrap+Weapons
+ent-MaintenancePlantSpawner = Maint 戰利品生成器 | Maint Loot Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Plants
+ent-MaintenanceInsulsSpawner = Maint 戰利品生成器 | Maint Loot Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Insuls, safe

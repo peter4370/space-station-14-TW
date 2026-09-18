@@ -1,0 +1,12 @@
+ent-HydroponicsToolMiniHoe = 迷你鋤頭 | mini hoe
+    .desc = 它用來除草或搔背。 | It's used for removing weeds or scratching your back.
+ent-HydroponicsToolClippers = 修枝剪 | plant clippers
+    .desc = 一種用於從植物中採集樣本的工具。 | A tool used to take samples from plants.
+ent-HydroponicsToolScythe = 鐮刀 | scythe
+    .desc = 這件工具配備了一把鋒利且彎曲的刀刃，握柄則採用長型纖維金屬材質，讓您能輕鬆收穫親手播下的種子。 | A sharp and curved blade on a long fibremetal handle, this tool makes it easy to reap what you sow.
+ent-HydroponicsToolHatchet = 斧頭 | hatchet
+    .desc = 一把鋒利無比的斧頭，配有短小的纖維金屬斧柄。它擁有悠久的劈砍歷史，但如今主要用於劈柴。 | A very sharp axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.
+ent-HydroponicsToolSpade = 鏟子 | spade
+    .desc = 一種用於挖掘和搬運泥土的小型工具。 | A small tool for digging and moving dirt.
+ent-PlantBag = 植物袋 | plant bag
+    .desc = 一款專為植物學家設計的袋子，方便他們搬運大量採集的植物標本。 | A bag for botanists to easily move their huge harvests.

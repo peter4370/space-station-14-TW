@@ -1,0 +1,11 @@
+ent-EnergyGate = 能量閘門 | energy gate
+    .desc = 一款先進的閘門，允許單向通行並防止尾隨進入。 | An advanced gate that permits one-way access and prevents tailgating.
+ent-EnergyGateGenpopEnter = { ent-EnergyGate }
+    .desc = { ent-EnergyGate.desc }
+    .suffix = Genpop Enter
+ent-EnergyGateGenpopLeave = { ent-EnergyGate }
+    .desc = { ent-EnergyGate.desc }
+    .suffix = Genpop Leave
+ent-EnergyGateAirtight = 氣密式能量閘門 | airtight energy gate
+    .desc = { ent-EnergyGate.desc }
+    .suffix = Airtight

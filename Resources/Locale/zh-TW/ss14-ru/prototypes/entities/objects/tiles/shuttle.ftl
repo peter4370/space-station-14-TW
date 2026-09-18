@@ -1,0 +1,14 @@
+ent-FloorTileItemShuttleWhite = 白色梭形地板 | white shuttle floor
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemShuttleBlue = 藍色穿梭機地板 | blue shuttle floor
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemShuttleOrange = 橘色穿梭機地板 | orange shuttle floor
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemShuttlePurple = 紫色穿梭機地板 | purple shuttle floor
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemShuttleRed = 紅色穿梭機地板 | red shuttle floor
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemShuttleGrey = 灰色穿梭機地板 | grey shuttle floor
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemShuttleBlack = 黑色穿梭機地板 | black shuttle floor
+    .desc = { ent-FloorTileItemBase.desc }

@@ -1,0 +1,15 @@
+ent-SignalButtonExt1 = 外部按鈕 1 | exterior button 1
+    .desc = { ent-SignalButton.desc }
+    .suffix = Autolink, Ext1
+ent-SignalButtonExt2 = 外部按鈕 2 | exterior button 2
+    .desc = { ent-SignalButton.desc }
+    .suffix = Autolink, Ext2
+ent-SignalButtonExt3 = 外部按鈕 3 | exterior button 3
+    .desc = { ent-SignalButton.desc }
+    .suffix = Autolink, Ext3
+ent-SignalButtonBridge = Bridge Windows 按鈕 | bridge windows button
+    .desc = { ent-SignalButton.desc }
+    .suffix = Autolink, Bridge
+ent-SignalButtonWindows = 外部窗戶按鈕 | exterior windows button
+    .desc = { ent-SignalButton.desc }
+    .suffix = Autolink, Windows

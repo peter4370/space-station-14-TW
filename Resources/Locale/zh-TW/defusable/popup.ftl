@@ -1,0 +1,9 @@
+defusable-popup-begun = { CAPITALIZE(THE($name)) } 發出嗶聲，隨即啟動；它的燈亮了！
+defusable-popup-defuse = { CAPITALIZE(THE($name)) } 最後響起一聲嗶聲，隨後燈光永遠熄滅了。
+defusable-popup-boom = { CAPITALIZE(THE($name)) } 隨著體內炸彈爆炸而咆哮！
+defusable-popup-fried = { CAPITALIZE(THE($name)) } 會觸發火花，但未能啟動倒數計時。
+defusable-popup-cant-anchor = { CAPITALIZE(THE($name)) } 似乎是被牢牢釘在地面上了！
+defusable-popup-wire-bolt-pulse = 螺栓在原地空轉了一會兒。
+defusable-popup-wire-proceed-pulse = { CAPITALIZE(THE($name)) } 發出不祥的嗡嗡聲！
+defusable-popup-wire-proceed-cut = { THE($name) } 上的數位顯示屏熄滅。
+defusable-popup-wire-chirp = { CAPITALIZE(THE($name)) } 啾啾地叫著。

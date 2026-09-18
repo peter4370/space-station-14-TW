@@ -1,0 +1,10 @@
+ent-BaseMagazineBoxPistol = 彈藥箱（.35自動手槍） | ammunition box (.35 auto)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxPistol = 彈藥箱（.35自動手槍） | ammunition box (.35 auto)
+    .desc = 一個裝有 .35 自動手槍子彈的紙箱。原定用於盛裝通用動能彈藥。 | A cardboard box of .35 auto rounds. Intended to hold general-purpose kinetic ammunition.
+ent-MagazineBoxPistolPractice = 彈藥箱（.35自動手槍練習用） | ammunition box (.35 auto practice)
+    .desc = 一個裝有.35自動手槍子彈的紙箱。原意是存放無害的練習彈藥。 | A cardboard box of .35 auto rounds. Intended to hold harmless practice ammunition.
+ent-MagazineBoxPistolIncendiary = 彈藥箱（.35 自動式燃燒彈） | ammunition box (.35 auto incendiary)
+    .desc = 一盒 .35 自動手槍子彈的紙盒。原定用於裝載自燃式燃燒彈。 | A cardboard box of .35 auto rounds. Intended to hold self-igniting incendiary ammunition.
+ent-MagazineBoxPistolUranium = 彈藥箱（.35自動手槍鈾彈） | ammunition box (.35 auto uranium)
+    .desc = 一個裝有.35自動手槍子彈的紙箱。原本是用來裝載特殊鈾芯彈藥的。 | A cardboard box of .35 auto rounds. Intended to hold exotic uranium-core ammunition.

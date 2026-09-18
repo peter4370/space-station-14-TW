@@ -1,0 +1,11 @@
+ent-ShotGunCabinet = 霰彈槍櫃 | shotgun cabinet
+    .desc = 上面有一張小標籤，寫著「僅限緊急情況使用」，並附有霰彈槍的安全使用說明。說得好像真會這樣似的。 | There is a small label that reads "For Emergency use only" along with details for safe use of the shotgun. As if.
+ent-ShotGunCabinetOpen = { ent-ShotGunCabinet }
+    .desc = { ent-ShotGunCabinet.desc }
+    .suffix = Open
+ent-ShotGunCabinetFilled = { ent-ShotGunCabinet }
+    .desc = { ent-ShotGunCabinet.desc }
+    .suffix = Filled
+ent-ShotGunCabinetFilledOpen = { ent-ShotGunCabinetFilled }
+    .desc = { ent-ShotGunCabinetFilled.desc }
+    .suffix = Filled, Open

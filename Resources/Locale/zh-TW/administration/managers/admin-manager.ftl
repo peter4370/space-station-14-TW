@@ -1,0 +1,13 @@
+admin-manager-self-de-admin-message = { $exAdminName } 已自行解除管理員身分。
+admin-manager-self-re-admin-message = { $newAdminName } 重新任命了自己。
+admin-manager-became-normal-player-message = 您現在是一名普通玩家。
+admin-manager-became-admin-message = 您現在已是管理員。
+admin-manager-no-longer-admin-message = 您已不再是管理員。
+admin-manager-admin-permissions-updated-message = 您的管理員權限已更新。
+admin-manager-admin-logout-message = 管理員登出：{ $name }
+admin-manager-admin-login-message = 管理員登入：{ $name }
+admin-manager-admin-data-host-title = 主持人
+admin-manager-stealthed-message = 您現在已成為隱藏管理員。
+admin-manager-unstealthed-message = 你不再隱藏了。
+admin-manager-self-enable-stealth = { $stealthAdminName } 目前已隱藏。
+admin-manager-self-disable-stealth = { $exStealthAdminName } 已不再被隱藏。

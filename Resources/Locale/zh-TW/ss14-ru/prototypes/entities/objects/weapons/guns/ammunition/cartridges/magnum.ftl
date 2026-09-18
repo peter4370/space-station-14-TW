@@ -1,0 +1,12 @@
+ent-BaseCartridgeMagnum = 子彈（.45馬格南） | cartridge (.45 magnum)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeMagnum = 子彈（.45馬格南） | cartridge (.45 magnum)
+    .desc = 大口徑馬格南子彈，主要用於轉輪手槍。標準動能彈藥在大多數情況下都很常見且實用。 | Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
+ent-CartridgeMagnumPractice = 子彈（.45馬格南練習彈） | cartridge (.45 magnum practice)
+    .desc = 一種主要用於左輪手槍的重型馬格南子彈。練習彈使用的是石膏彈頭，射中時會有些刺痛感，但除此之外不會造成任何持久性傷害。 | Heavy magnum cartridge mostly used by revolvers. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+ent-CartridgeMagnumIncendiary = 子彈（.45馬格南燃燒彈） | cartridge (.45 magnum incendiary)
+    .desc = 一種主要用於左輪手槍的重型馬格南子彈。燃燒彈內含自燃化合物，能使目標起火燃燒。 | Heavy magnum cartridge mostly used by revolvers. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+ent-CartridgeMagnumAP = 子彈（.45馬格南穿甲彈） | cartridge (.45 magnum armor-piercing)
+    .desc = 這種重型馬格南子彈主要用於轉輪手槍。穿甲彈以其能直接貫穿防彈衣的能力而聞名。 | Heavy magnum cartridge mostly used by revolvers. Armor-piercing ammunition is renowned for its ability to cut straight through body armor.
+ent-CartridgeMagnumUranium = 子彈（.45馬格南鈾彈） | cartridge (.45 magnum uranium)
+    .desc = 一種主要用於左輪手槍的重型馬格南子彈。鈾彈藥將子彈的鉛芯替換為裂變材料，使目標從內部受到輻射照射。 | Heavy magnum cartridge mostly used by revolvers. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.

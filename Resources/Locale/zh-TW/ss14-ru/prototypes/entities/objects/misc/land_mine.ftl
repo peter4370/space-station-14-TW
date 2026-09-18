@@ -1,0 +1,17 @@
+ent-BaseLandMine = { ent-StructureHealthMachineFlimsy }
+    .desc = { ent-StructureHealthMachineFlimsy.desc }
+ent-LandMineKickUnarmed = 踢我的 | kick mine
+    .desc = { ent-BaseLandMine.desc }
+ent-LandMineKick = { ent-LandMineKickUnarmed }
+    .desc = { ent-LandMineKickUnarmed.desc }
+    .suffix = armed
+ent-LandMineModularUnarmed = 模組化礦場 | modular mine
+    .desc = 這傢伙說不定藏著各種危險。又或者，只是一支自行車喇叭。 | This bad boy could be packing any number of dangers. Or a bike horn.
+ent-LandMineModular = { ent-LandMineModularUnarmed }
+    .desc = { ent-LandMineModularUnarmed.desc }
+    .suffix = armed
+ent-LandMineExplosiveUnarmed = 爆炸性地雷 | explosive mine
+    .desc = { ent-BaseLandMine.desc }
+ent-LandMineExplosive = { ent-LandMineExplosiveUnarmed }
+    .desc = { ent-LandMineExplosiveUnarmed.desc }
+    .suffix = armed

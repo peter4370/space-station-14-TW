@@ -1,0 +1,10 @@
+ent-ClosetBase = 衣櫥 | closet
+    .desc = 一間標準配備的 Nanotrasen 儲藏室。 | A standard-issue Nanotrasen storage unit.
+ent-ClosetSteelBase = { ent-ClosetBase }
+    .desc = { ent-ClosetBase.desc }
+ent-BaseWallCloset = 壁櫃 | wall closet
+    .desc = 一款標準配備的 Nanotrasen 儲物櫃，現已安裝在牆上。 | A standard-issue Nanotrasen storage unit, now on walls.
+ent-BaseWallLocker = { ent-BaseWallCloset }
+    .desc = { ent-BaseWallCloset.desc }
+ent-SuitStorageBase = 艙外服收納櫃 | suit storage unit
+    .desc = 一款專為存放太空服而設計的精緻高科技儲存裝置。 | A fancy hi-tech storage unit made for storing space suits.

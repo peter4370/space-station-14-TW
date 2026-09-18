@@ -1,0 +1,15 @@
+ent-MobWatcherBase = 觀察者 | watcher
+    .desc = 感覺就像它正穿透你的身體直視著你。 | It's like it's staring right through you.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-MobWatcherLavaland = { ent-MobWatcherBase }
+    .desc = { ent-MobWatcherBase.desc }
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherIcewing = 冰翼觀察者 | icewing watcher
+    .desc = { ent-MobWatcherBase.desc }
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherMagmawing = 岩漿之翼守望者 | magmawing watcher
+    .desc = { ent-MobWatcherBase.desc }
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherPride = 驕傲觀察者 | pride watcher
+    .desc = 這種罕見的亞種僅在六月出現。 | This rare subspecies only appears in June.
+    .suffix = Admeme

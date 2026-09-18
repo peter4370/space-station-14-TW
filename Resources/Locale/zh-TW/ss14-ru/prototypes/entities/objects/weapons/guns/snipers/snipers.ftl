@@ -1,0 +1,13 @@
+ent-BaseWeaponSniper = 基礎武器：狙擊槍 | BaseWeaponSniper
+    .desc = 一款超棒的隨拍相機。 | A rooty tooty point and shooty.
+ent-WeaponSniperMosin = 卡達謝夫-莫辛 | Kardashev-Mosin
+    .desc = 卡達謝夫-莫辛步槍堪稱真正的歷史遺珍，自670年前問世以來，幾乎參與過每一場武裝衝突。無論是用於狩獵、狙擊，還是無休止的壕溝戰，這支步槍的栓動式設計幾乎與原始設計完全相同。可裝填10發.30口徑步槍子彈。 | A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of .30 rifle.
+ent-WeaponSniperHristov = 赫里斯托夫 | Hristov
+    .desc = 當你絕對、務必得在安全距離外，讓某人為自己的人生抉擇感到後悔時。使用 .60 口徑反器材彈藥。 | For when you absolutely, positively need to make someone regret their life choices from a safe distance. Uses .60 anti-materiel ammo.
+ent-Musket = 火槍 | musket
+    .desc = 這東西早在你出生之前就該被收進博物館了。使用.60口徑的反器材彈藥。 | This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
+ent-WeaponPistolFlintlock = 燧發手槍 | flintlock pistol
+    .desc = 海盜的夥伴。哇噠！使用 .45 馬格南子彈。 | A pirate's companion. Yarrr! Uses .45 magnum ammo.
+ent-WeaponPistolFlintlockEmpty = { ent-WeaponPistolFlintlock }
+    .desc = { ent-WeaponPistolFlintlock.desc }
+    .suffix = Empty

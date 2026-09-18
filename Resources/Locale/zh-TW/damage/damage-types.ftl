@@ -1,0 +1,14 @@
+damage-type-asphyxiation = 窒息
+damage-type-bloodloss = 失血
+damage-type-blunt = 鈍擊
+damage-type-cellular = 細胞
+damage-type-caustic = 腐蝕
+damage-type-cold = 寒冷
+damage-type-heat = 高溫
+damage-type-piercing = 穿刺
+damage-type-poison = 毒性
+damage-type-radiation = 輻射
+damage-type-shock = 電擊
+damage-type-slash = 切割
+damage-type-structural = 結構
+damage-type-holy = 神聖

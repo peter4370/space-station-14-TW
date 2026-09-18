@@ -1,0 +1,10 @@
+ent-MobGuardianBase = GuardianBase | GuardianBase
+    .desc = 《衛報》 | guardian
+ent-MobHoloparasiteGuardian = 全寄生蟲 | Holoparasite
+    .desc = 一陣令人著迷的硬光圖案漩渦，交織出一個奇妙卻又莫名熟悉的面容。它巍然佇立，透過與主人的生命產生共鳴來維持自身的存在。 | A mesmerising whirl of hard-light patterns weaves a marvelous, yet oddly familiar visage. It stands proud, tuning into its owner's life to sustain itself.
+ent-MobIfritGuardian = 伊弗利特 | Ifrit
+    .desc = 一個墮落的精靈，被從「菲特拉」中強行剝離，只為滿足巫師的卑微需求。它邪惡地佇立著，窺探著主人的生活以維持自身存續。 | A corrupted jinn, ripped from fitra to serve the wizard's petty needs. It stands wicked, tuning into its owner's life to sustain itself.
+ent-MobHoloClownGuardian = HoloClown | HoloClown
+    .desc = 一陣令人著迷的硬光圖案漩渦，交織出一個來歷成謎的藍色小丑。 | A mesmerising whirl of hard-light patterns weaves a blue colored clown of dubious origin.
+ent-ActionToggleGuardian = 切換守護者 | Toggle Guardian
+    .desc = 要麼顯現守護者，要麼將其召回體內 | Either manifests the guardian or recalls it back into your body
