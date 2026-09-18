@@ -1,0 +1,10 @@
+ent-PlasmaWindow = plasma window
+    .desc = { ent-BaseWindowStructure.desc }
+ent-PlasmaWindowDirectional = directional plasma window
+    .desc = Don't smudge up the glass down there.
+ent-PlasmaWindowDirectionalCorner = { ent-PlasmaWindowDirectional }
+    .desc = { ent-PlasmaWindowDirectional.desc }
+    .suffix = Corner
+ent-PlasmaWindowDiagonal = { ent-PlasmaWindow }
+    .desc = { ent-PlasmaWindow.desc }
+    .suffix = diagonal

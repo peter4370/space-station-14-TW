@@ -1,0 +1,15 @@
+ent-SinkEmpty = sink
+    .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
+    .suffix = Empty
+ent-Sink = { ent-SinkEmpty }
+    .desc = { ent-SinkEmpty.desc }
+    .suffix = Water
+ent-SinkWide = wide sink
+    .desc = { ent-Sink.desc }
+    .suffix = { ent-Sink.suffix }
+ent-SinkStemless = sink
+    .desc = { ent-SinkEmpty.desc }
+    .suffix = { ent-SinkEmpty.suffix }
+ent-SinkStemlessWater = sink
+    .desc = { ent-SinkStemless.desc }
+    .suffix = Water
