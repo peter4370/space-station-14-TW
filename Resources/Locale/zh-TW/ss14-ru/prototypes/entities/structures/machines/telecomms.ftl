@@ -1,5 +1,5 @@
 ent-TelecomServer = 電信伺服器 | telecommunication server
-    .desc = 在通電並載入加密金鑰後，即可進行無線電耳機通訊。 | When powered and filled with encryption keys it allows radio headset communication.
+    .desc = When powered and filled with encryption keys it allows radio headset communication.
 ent-TelecomServerFilled = { ent-TelecomServer }
     .desc = { ent-TelecomServer.desc }
     .suffix = Filled All

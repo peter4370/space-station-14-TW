@@ -1,13 +1,17 @@
 anomaly-component-contact-damage = 這股異常會灼傷你的皮膚！
+
 anomaly-vessel-component-anomaly-assigned = 已將異常收錄於該載體。
 anomaly-vessel-component-not-assigned = 這載體未收錄任何異常。嘗試用掃描器點擊它。
 anomaly-vessel-component-assigned = 這載體已有收錄一個異常。
+
 anomaly-particles-delta = Delta δ 粒子
 anomaly-particles-epsilon = Epsilon ε 粒子
 anomaly-particles-zeta = Zeta ζ 粒子
 anomaly-particles-omega = Omega ω 粒子
 anomaly-particles-sigma = Sigma σ 粒子
+
 anomaly-scanner-component-scan-complete = 掃描完成！
+
 anomaly-scanner-ui-title = 異常掃描器
 anomaly-scanner-no-anomaly = 目前未偵測到任何異常。
 anomaly-scanner-severity-percentage = 當前嚴重程度：[color=gray]{ $percent }[/color]
@@ -29,10 +33,10 @@ anomaly-scanner-particle-containment-unknown = - [color=goldenrod]封裝類型�
 anomaly-scanner-particle-transformation-unknown = - [color=#6b75fa]轉換類型：[/color] [color=red]錯誤[/color]
 anomaly-scanner-pulse-timer = 距離下一次脈衝的時間：[color=gray]{ $time }[/color]
 anomaly-scanner-doafter-examine = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } [color=plum]掃描異常[/color].
+
 anomaly-gorilla-core-slot-name = 異常核心
 anomaly-gorilla-charge-none = 它的內部並沒有 [bold]異常核心[/bold]。
-anomaly-gorilla-charge-limit =
-    It has [color={ $count ->
+anomaly-gorilla-charge-limit = It has [color={ $count ->
         [3] green
         [2] yellow
         [1] orange
@@ -43,6 +47,7 @@ anomaly-gorilla-charge-limit =
        *[other] charges
     }[/color] remaining.
 anomaly-gorilla-charge-infinite = 它擁有 [color=gold]無限的電荷[/color]。[italic]至少目前是這樣……[/italic]
+
 anomaly-sync-connected = 「異常」已成功附加
 anomaly-sync-disconnected = 與該異常的連線已中斷！
 anomaly-sync-no-anomaly = 射程內無異常。
@@ -52,6 +57,7 @@ anomaly-sync-connect-verb-text = 附加異常
 anomaly-sync-connect-verb-message = 將附近的異常與 { THE($machine) } 關聯起來。
 anomaly-sync-disconnect-verb-text = 分離異常
 anomaly-sync-disconnect-verb-message = 將已連接的異常從 { THE($machine) } 中移除。
+
 anomaly-generator-ui-title = 異常產生器
 anomaly-generator-fuel-display = 燃料:
 anomaly-generator-cooldown = 冷卻時間：[color=gray]{ $time }[/color]
@@ -59,20 +65,24 @@ anomaly-generator-no-cooldown = 冷卻時間：[color=gray]已完成[/color]
 anomaly-generator-yes-fire = 狀態：[color=forestgreen]已準備就緒[/color]
 anomaly-generator-no-fire = 狀態：[color=crimson]尚未準備就緒[/color]
 anomaly-generator-generate = 產生異常
-anomaly-generator-charges =
-    { $charges ->
+anomaly-generator-charges = { $charges ->
         [one] { $charges } 收費
        *[other] { $charges } 收費
     }
 anomaly-generator-announcement = 已產生一項異常！
+
 anomaly-command-pulse = 對目標異常發射脈衝
 anomaly-command-supercritical = 使目標異常進入超臨界狀態
+
 # Flavor text on the footer
 anomaly-generator-flavor-left = 異常現象可能會在操作員體內生成。
 anomaly-generator-flavor-right = v1.1
+
 anomaly-behavior-unknown = { "[" }color=red]錯誤。無法讀取。[/color]
+
 anomaly-behavior-title = 行為偏差分析：
 anomaly-behavior-point = { "[" }color=gold]「異常」產生 { $mod }% 的分數[/color]
+
 anomaly-behavior-safe = { "[" }color=forestgreen]該異常現象極為穩定。脈動現象極為罕見。[/color]
 anomaly-behavior-slow = { "[" }color=forestgreen]脈動的頻率要低得多。[/color]
 anomaly-behavior-light = { "[" }color=forestgreen]脈動功率顯著降低。[/color]

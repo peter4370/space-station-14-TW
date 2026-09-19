@@ -1,7 +1,7 @@
 ent-PlasmaWindow = 等離子窗 | plasma window
     .desc = { ent-BaseWindowStructure.desc }
 ent-PlasmaWindowDirectional = 定向等離子體窗 | directional plasma window
-    .desc = 別把那裡的玻璃弄髒了。 | Don't smudge up the glass down there.
+    .desc = Don't smudge up the glass down there.
 ent-PlasmaWindowDirectionalCorner = { ent-PlasmaWindowDirectional }
     .desc = { ent-PlasmaWindowDirectional.desc }
     .suffix = Corner

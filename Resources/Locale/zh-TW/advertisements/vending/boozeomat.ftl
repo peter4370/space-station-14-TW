@@ -20,3 +20,4 @@ advertisement-boozeomat-19 = 為進步乾杯！
 thankyou-boozeomat-1 = 請適量飲酒！
 thankyou-boozeomat-2 = 請不負責任地飲酒！
 thankyou-boozeomat-3 = 請盡情享用您的飲品！
+

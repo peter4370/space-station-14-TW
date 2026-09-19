@@ -3,6 +3,7 @@ examinable-satiation-component-examine-hunger-okay = { CAPITALIZE(SUBJECT($entit
 examinable-satiation-component-examine-hunger-concerned = { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "look", "looks") } 飢餓。
 examinable-satiation-component-examine-hunger-desperate = { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "look", "looks") } 飢餓！
 examinable-satiation-component-examine-hunger-none = { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "seem", "seems") } 以免感到飢餓。
+
 examinable-satiation-component-examine-thirst-full = { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "look", "looks") } 水分充足！
 examinable-satiation-component-examine-thirst-okay = { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "look", "looks") } quenched.
 examinable-satiation-component-examine-thirst-concerned = { CAPITALIZE(SUBJECT($entity)) } { CONJUGATE-BASIC($entity, "look", "looks") } 口渴。

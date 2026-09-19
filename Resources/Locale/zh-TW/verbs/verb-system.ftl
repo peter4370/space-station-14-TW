@@ -1,7 +1,10 @@
 verb-system-null-server-response = 該實體不在檢視範圍內。您不應看到此訊息。
+
+
 # if verbs have a range of targets (e.g., multiple ejectables) you can
 # usually just use Entity.Name. But it is a bit odd when targeting yourself
 verb-self-target-pronoun = 你自己
+
 
 # verb categories & common verbs. These appear across multiple systems, so they may as well go here.
 
@@ -27,6 +30,7 @@ verb-categories-fax = 設定目的地
 verb-categories-power-level = 功率
 verb-categories-adjust = 調整
 verb-categories-select-target = 設定目標
+
 verb-common-toggle-light = 開關燈
 verb-common-close = 關閉
 verb-common-open = 開啟

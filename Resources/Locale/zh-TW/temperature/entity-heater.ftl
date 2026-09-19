@@ -6,8 +6,8 @@
         [high] high
        *[other] unknown
     }
-entity-heater-examined =
-    It is set to { $setting ->
+
+entity-heater-examined = It is set to { $setting ->
         [off] { "[" }color=gray]{ -entity-heater-setting-name(setting: "off") }[/color]
         [low] { "[" }color=yellow]{ -entity-heater-setting-name(setting: "low") }[/color]
         [medium] { "[" }color=orange]{ -entity-heater-setting-name(setting: "medium") }[/color]

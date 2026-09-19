@@ -7,3 +7,4 @@ solar-control-window-panel-angle = 面板角度：
 solar-control-window-panel-angular-velocity = 面板角速度：
 solar-control-window-degrees-per-minute = °/分鐘。
 solar-control-window-press-enter-to-confirm = 按下 Enter 鍵以確認。
+

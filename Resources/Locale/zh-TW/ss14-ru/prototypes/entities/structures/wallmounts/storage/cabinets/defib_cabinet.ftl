@@ -1,5 +1,5 @@
 ent-DefibrillatorCabinet = 除顫器櫃 | defibrillator cabinet
-    .desc = 一款專為存放除顫器而設計的小型壁掛式櫃子。 | A small wall mounted cabinet designed to hold a defibrillator.
+    .desc = A small wall mounted cabinet designed to hold a defibrillator.
 ent-DefibrillatorCabinetOpen = { ent-DefibrillatorCabinet }
     .desc = { ent-DefibrillatorCabinet.desc }
     .suffix = Open

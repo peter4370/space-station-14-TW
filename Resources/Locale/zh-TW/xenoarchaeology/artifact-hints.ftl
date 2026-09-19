@@ -41,6 +41,7 @@ artifact-trigger-hint-plasma = 氣態等離子體
 artifact-trigger-hint-land = 主動減速
 artifact-trigger-hint-examine = 查看
 artifact-trigger-hint-medical = 治療用化學物質
+
 xenoarch-trigger-tip-music = 和諧的聲波振動
 xenoarch-trigger-tip-heat = 高溫
 xenoarch-trigger-tip-cold = 低溫
@@ -81,7 +82,6 @@ xenoarch-trigger-tip-stamina-damage = 有機之疲勞
 xenoarch-trigger-tip-laser = 高強度光子衝擊
 
 ### Description hints
-
 xenoarch-trigger-examine-wrenching = 有個鬆動的零件在打轉。
 xenoarch-trigger-examine-prying = 有一塊面板正從表面凸起。
 xenoarch-trigger-examine-screwing = 有一處凸起的部分，上面還有一處小凹槽。
@@ -89,6 +89,5 @@ xenoarch-trigger-examine-pulsing = 一枚裸露的二極體從這件神器表面
 xenoarch-trigger-examine-timer = 表面布滿了刻痕和刮痕……勉強能辨認出一個數字：[italic]{ $time }[/italic]
 
 ### Effects hints
-
 xenoarch-effect-puddle = 會產生一灘試劑：{ $reagent }
 xenoarch-effect-foam = 會產生一灘泡沫：{ $reagent }

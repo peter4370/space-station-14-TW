@@ -1,12 +1,12 @@
 ent-BaseMagazineBoxMagnum = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-MagazineBoxMagnum = 彈藥箱（.45馬格南） | ammunition box (.45 magnum)
-    .desc = 一盒裝有.45馬格南子彈的紙箱。原設計用於盛裝通用動能彈藥。 | A cardboard box of .45 magnum rounds. Intended to hold general-purpose kinetic ammunition.
+    .desc = A cardboard box of .45 magnum rounds. Intended to hold general-purpose kinetic ammunition.
 ent-MagazineBoxMagnumPractice = 彈藥箱（.45馬格南練習彈） | ammunition box (.45 magnum practice)
-    .desc = 一個裝有.45馬格南子彈的紙箱。原意是用來裝無害的練習彈藥。 | A cardboard box of .45 magnum rounds. Intended to hold harmless practice ammunition.
+    .desc = A cardboard box of .45 magnum rounds. Intended to hold harmless practice ammunition.
 ent-MagazineBoxMagnumIncendiary = 彈藥箱（.45馬格南燃燒彈） | ammunition box (.45 magnum incendiary)
-    .desc = 一盒 .45 馬格南子彈的紙箱。原本是為了裝載自燃式燃燒彈而設計的。 | A cardboard box of .45 magnum rounds. Intended to hold self-igniting incendiary ammunition.
+    .desc = A cardboard box of .45 magnum rounds. Intended to hold self-igniting incendiary ammunition.
 ent-MagazineBoxMagnumUranium = 彈藥箱（.45馬格南鈾彈） | ammunition box (.45 magnum uranium)
-    .desc = 一盒 .45 馬格南子彈的紙箱。原本是用來裝載特殊鈾芯彈藥的。 | A cardboard box of .45 magnum rounds. Intended to hold exotic uranium-core ammunition.
+    .desc = A cardboard box of .45 magnum rounds. Intended to hold exotic uranium-core ammunition.
 ent-MagazineBoxMagnumAP = 彈藥箱（.45 馬格南穿甲彈） | ammunition box (.45 magnum armor-piercing)
-    .desc = 一盒 .45 馬格南子彈的紙箱。原本是用來裝載專用的穿甲彈藥。 | A cardboard box of .45 magnum rounds. Intended to hold specialized armor-piercing ammunition.
+    .desc = A cardboard box of .45 magnum rounds. Intended to hold specialized armor-piercing ammunition.

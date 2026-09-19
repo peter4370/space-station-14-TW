@@ -1,5 +1,5 @@
 ent-ChessBoard = 棋盤 | chessboard
-    .desc = 一個棋盤。附棋子！ | A chessboard. Pieces included!
+    .desc = A chessboard. Pieces included!
 ent-ChessBoardTabletop = 棋盤 | chessboard
     .desc = { ent-BaseBoardTabletop.desc }
 ent-WhiteKing = 白方國王 | white king

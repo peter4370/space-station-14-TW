@@ -1,5 +1,5 @@
 ent-BaseSMES = SMES | SMES
-    .desc = 一款高容量的超導磁能儲存（SMES）裝置。 | A high-capacity superconducting magnetic energy storage (SMES) unit.
+    .desc = A high-capacity superconducting magnetic energy storage (SMES) unit.
 ent-SMESBasic = { ent-BaseSMES }
     .desc = { ent-BaseSMES.desc }
     .suffix = Basic, 8MJ
@@ -7,7 +7,7 @@ ent-SMESBasicEmpty = { ent-SMESBasic }
     .desc = { ent-SMESBasic.desc }
     .suffix = Empty
 ent-SMESAdvanced = 進階 SMES | advanced SMES
-    .desc = 一款容量更大的超導磁能儲存（SMES）裝置。 | An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
+    .desc = An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
     .suffix = Advanced, 16MJ
 ent-SMESAdvancedEmpty = { ent-SMESAdvanced }
     .desc = { ent-SMESAdvanced.desc }

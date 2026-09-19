@@ -1,5 +1,5 @@
 ent-BaseFirelock = 防火閘 | firelock
-    .desc = 使用撬棍。 | Apply crowbar.
+    .desc = Apply crowbar.
 ent-Firelock = { ent-BaseFirelock }
     .desc = { ent-BaseFirelock.desc }
 ent-FirelockGlass = 玻璃防火閘 | glass firelock

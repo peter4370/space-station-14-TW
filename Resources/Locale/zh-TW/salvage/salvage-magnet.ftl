@@ -3,10 +3,11 @@ salvage-system-announcement-spawn-debris-disintegrated = 碎片在軌道轉移�
 salvage-system-announcement-spawn-no-debris-available = 打撈磁鐵未能打撈起任何殘骸。
 salvage-system-announcement-arrived = 已回收一塊可利用的殘骸。預估保留時間：{ $timeLeft } 秒。
 salvage-asteroid-name = 小行星
+
 salvage-magnet-window-title = 打撈磁鐵
 salvage-expedition-window-progression = 進展
-salvage-magnet-resources =
-    { $resource ->
+
+salvage-magnet-resources = { $resource ->
         [OreIron] 鐵
         [OreCoal] 煤炭
         [OreQuartz] 石英
@@ -20,8 +21,8 @@ salvage-magnet-resources =
         [OreBananium] 香蕉礦石
        *[other] { $resource }
     }
-salvage-magnet-resources-count =
-    { $count ->
+
+salvage-magnet-resources-count = { $count ->
         [1] (Poor)
         [2] (Moderate)
         [3] (Moderate)
@@ -29,13 +30,16 @@ salvage-magnet-resources-count =
         [5] (Rich)
        *[other] (Extraordinary)
     }
+
 # Debris
 salvage-magnet-debris-ChunkDebris = 太空垃圾
+
 # Asteroids
 dungeon-config-proto-BlobAsteroid = 小行星團
 dungeon-config-proto-ClusterAsteroid = 小行星群
 dungeon-config-proto-SpindlyAsteroid = 小行星螺旋
 dungeon-config-proto-SwissCheeseAsteroid = 小行星碎片
+
 # Wrecks
 salvage-map-wreck = 打撈沉船
 salvage-map-wreck-desc-size = 尺寸：

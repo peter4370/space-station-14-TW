@@ -1,5 +1,4 @@
 ## UI
-
 cloning-console-window-title = 克隆主控台
 cloning-console-window-clone-button-text = 克隆
 cloning-console-window-scanner-id = ID：[color=white]{ $scannerOccupantName }[/color]
@@ -25,6 +24,7 @@ cloning-console-component-msg-already-cloning = 尚未就緒：Pod 網路衝突
 cloning-console-component-msg-incomplete = 尚未準備就緒：正在進行克隆
 cloning-console-component-msg-no-cloner = 尚未就緒：未偵測到複製器
 cloning-console-component-msg-no-mind = 尚未準備就緒：未偵測到任何靈魂活動
+
 cloning-console-chat-error = 錯誤：生物質不足。克隆這具軀體需要 { $units } 單位的生物質。
 cloning-console-uncloneable-trait-error = 錯誤：由於身體組成異常，無法進行克隆。
 cloning-console-cellular-warning = 警告：GENEFSCK 信賴度分數為 { $percent }%。克隆可能產生意想不到的結果。

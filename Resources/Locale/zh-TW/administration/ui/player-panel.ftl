@@ -8,6 +8,7 @@ player-panel-playtime = 總播放時間：{ $days }d:{ $hours }h:{ $minutes }m
 player-panel-shared-connections = 共用連結：{ $sharedConnections }
 player-panel-trust-score = 信任分數：{ TOSTRING($trustScore, "P0") }
 player-panel-account-creation = 帳戶建立日期：{ TOSTRING($date, "yyyy-MM-dd") }
+
 player-panel-copy-username = 複製
 player-panel-show-notes = 註釋
 player-panel-show-bans = 顯示禁令

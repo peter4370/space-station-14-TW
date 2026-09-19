@@ -13,6 +13,8 @@ surveillance-camera-monitor-ui-legend-active = 有效
 surveillance-camera-monitor-ui-legend-inactive = 已停用
 surveillance-camera-monitor-ui-legend-selected = 已選取
 surveillance-camera-monitor-ui-legend-invalid = 無效
+
 surveillance-camera-setup = 設定
 surveillance-camera-setup-ui-set = 設定
+
 wire-name-camera-map = 地圖

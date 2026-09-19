@@ -1,3 +1,3 @@
 ent-MobMimic = 模仿 | mimic
-    .desc = 出乎意料。
+    .desc = Surprise.
     .suffix = { ent-SimpleMobBase.suffix }

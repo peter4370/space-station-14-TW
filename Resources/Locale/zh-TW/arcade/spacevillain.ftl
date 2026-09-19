@@ -7,5 +7,6 @@ spacevillain-menu-button-attack = 攻擊
 spacevillain-menu-button-heal = 治療
 spacevillain-menu-button-recharge = 充能
 spacevillain-menu-button-new-game = 新遊戲
+
 -spacevillain-health = HP
 -spacevillain-magic = MP

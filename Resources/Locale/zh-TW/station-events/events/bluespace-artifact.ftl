@@ -1,4 +1,5 @@
 bluespace-artifact-event-announcement = 我們的偵測數據顯示，有一個外星來源的物體正在接近。請通知 { $sighting } 的研究團隊。
+
 bluespace-artifact-sighting-1 = 刺眼的光閃
 bluespace-artifact-sighting-2 = 維修隧道內傳出奇怪的聲響
 bluespace-artifact-sighting-3 = 超凡脫俗的建築

@@ -6,5 +6,6 @@ admin-announce-button = 公告
 admin-announce-type-station = 太空站
 admin-announce-type-server = 伺服器
 admin-announce-keep-open = 保持開放
+
 cmd-announceui-desc = 開啟公告介面。
 cmd-announceui-help = 用法：announceui

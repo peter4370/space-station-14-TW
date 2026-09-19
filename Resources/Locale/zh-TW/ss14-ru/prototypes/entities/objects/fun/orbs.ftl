@@ -1,11 +1,11 @@
 ent-SingularityToy = singuloth 品牌玩具 | singuloth-brand toy
-    .desc = 由一家殘忍的跨國企業集團大量生產！ | Mass-produced by a sadistic corporate conglomerate!
+    .desc = Mass-produced by a sadistic corporate conglomerate!
 ent-TeslaToy = 泰迪·特斯拉 | Teddy Tesla
-    .desc = 偉大工程師尼古拉·特斯拉最喜愛的玩具。 | The favorite toy of the great engineer Nikola Tesla.
+    .desc = The favorite toy of the great engineer Nikola Tesla.
 ent-PonderingOrb = 沉思之球 | pondering orb
-    .desc = 真沉重啊，老兄……真的好沉重。 | Ponderous, man... Really ponderous.
+    .desc = Ponderous, man... Really ponderous.
 ent-PonderingOrbWizard = 沉思之球 | pondering orb
-    .desc = 真沉重啊，老兄……真的好沉重。神奇地顯示出太空站的攝影機網絡。 | Ponderous, man... Really ponderous. Magically shows the station's camera network.
+    .desc = Ponderous, man... Really ponderous. Magically shows the station's camera network.
     .suffix = Wizard
 ent-Magic9Ball = 魔術 9 號球 | magic 9 ball
-    .desc = 源源不絕的智慧之源……現在還附有揚聲器！ | An endless source of wisdom... Now with a speaker included!
+    .desc = An endless source of wisdom... Now with a speaker included!

@@ -1,3 +1,4 @@
+
 # Cargo pallet sale console
 cargo-pallet-console-menu-title = 貨物銷售控制台
 cargo-pallet-menu-appraisal-label = 估計價值：{ " " }

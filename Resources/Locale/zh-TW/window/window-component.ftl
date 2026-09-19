@@ -12,3 +12,4 @@ comp-window-damaged-6 = { "[" }color=red]它已經裂得非常嚴重，瀕臨碎
 
 # Shown when knocking on a window
 comp-window-knock = { "*" }咚咚*
+

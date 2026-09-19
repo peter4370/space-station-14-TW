@@ -1,10 +1,10 @@
 ent-ClothingUniformJumpsuitCargo = 貨運部技術 連身工作服 | cargo tech jumpsuit
-    .desc = 一款堅固耐用的連身工作服，發放給貨運部門的成員。 | A sturdy jumpsuit, issued to members of the Cargo department.
+    .desc = A sturdy jumpsuit, issued to members of the Cargo department.
 ent-ClothingUniformJumpsuitSalvageSpecialist = 打撈專家的連身工作服 | salvage specialist's jumpsuit
-    .desc = 這是一件剪裁俐落的連身工作服，配有一套結實耐穿的工裝褲。它非常髒。 | It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+    .desc = It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
 ent-ClothingUniformJumpsuitQM = 司務長連身工作服 | quartermaster's jumpsuit
-    .desc = 棕色能為您做些什麼？ | What can brown do for you?
+    .desc = What can brown do for you?
 ent-ClothingUniformJumpsuitQMTurtleneck = 軍需官的高領毛衣 | quartermasters's turtleneck
-    .desc = 一款剪裁利落的高領衫，專為供應鏈中嚴苛的工作環境而設計。 | A sharp turtleneck made for the hardy work environment of supply.
+    .desc = A sharp turtleneck made for the hardy work environment of supply.
 ent-ClothingUniformJumpsuitQMFormal = 軍需官的正式西裝 | quartermasters's formal suit
-    .desc = 靈感源自歷史上軍隊的司務長，這套服裝是出席正式場合的完美選擇。 | Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
+    .desc = Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.

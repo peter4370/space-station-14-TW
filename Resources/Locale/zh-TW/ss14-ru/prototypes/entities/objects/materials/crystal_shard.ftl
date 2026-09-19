@@ -1,7 +1,7 @@
 ent-ShardCrystalBase = 水晶碎片 | crystal shard
-    .desc = 一小塊水晶。 | A small piece of crystal.
+    .desc = A small piece of crystal.
 ent-ShardCrystalCyan = 青色水晶碎片 | cyan crystal shard
-    .desc = 一小塊水晶。 | A small piece of crystal.
+    .desc = A small piece of crystal.
 ent-ShardCrystalBlue = 藍色水晶碎片 | blue crystal shard
     .desc = { ent-ShardCrystalBase.desc }
 ent-ShardCrystalYellow = 黃色水晶碎片 | yellow crystal shard

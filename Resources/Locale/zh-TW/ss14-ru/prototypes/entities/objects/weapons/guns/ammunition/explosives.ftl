@@ -1,7 +1,7 @@
 ent-CartridgeRocket = PG-7VL 手榴彈 | PG-7VL grenade
-    .desc = 一款專為 RPG-7 火箭筒設計的 1.5 型彈頭。呈管狀。 | A 1.5 warhead designed for the RPG-7 launcher. Has tubular shape.
+    .desc = A 1.5 warhead designed for the RPG-7 launcher. Has tubular shape.
 ent-CartridgeRocketSlow = PG-7VL 手榴彈「蝸牛火箭」 | PG-7VL grenade "Snail-Rocket"
-    .desc = 一款專為 RPG-7 火箭筒設計的 1.5 型彈頭。其飛行速度異常緩慢。 | A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
+    .desc = A 1.5 warhead designed for the RPG-7 launcher. It's unusually slow.
 ent-BaseGrenade = 基礎手榴彈 | base grenade
     .desc = { ent-BaseItem.desc }
 ent-GrenadeBaton = 警棍型手榴彈 | baton grenade

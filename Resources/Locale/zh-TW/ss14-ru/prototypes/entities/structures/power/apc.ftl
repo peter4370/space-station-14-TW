@@ -1,7 +1,7 @@
 ent-BaseAPC = APC | APC
-    .desc = 該區域電力系統的控制終端。 | A control terminal for the area's electrical systems.
+    .desc = A control terminal for the area's electrical systems.
 ent-APCFrame = APC 機箱 | APC frame
-    .desc = 該區域電氣系統的控制終端，未配備電子元件。 | A control terminal for the area's electrical systems, lacking the electronics.
+    .desc = A control terminal for the area's electrical systems, lacking the electronics.
 ent-APCConstructed = { ent-BaseAPC }
     .desc = { ent-BaseAPC.desc }
     .suffix = Open

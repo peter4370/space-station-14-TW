@@ -1,10 +1,10 @@
 ent-BlankHandyFlag = 空白手持旗幟 | blank handheld flag
-    .desc = 一根棍子上纏著一塊白布。 | Some piece of white cloth wound on a stick.
+    .desc = Some piece of white cloth wound on a stick.
 ent-NTHandyFlag = Nanotrasen 手持旗幟 | Nanotrasen handheld flag
-    .desc = NT 萬歲！等等，他們真的為一家企業製作了一面手持旗幟嗎？ | Glory to NT! Wait, they really made a handheld flag for a corporation?
+    .desc = Glory to NT! Wait, they really made a handheld flag for a corporation?
 ent-SyndieHandyFlag = 辛迪加手持旗幟 | syndicate handheld flag
-    .desc = 獻給真正叛逆的愛國者。NT 去死！ | For truly rebellious patriots. Death to NT!
+    .desc = For truly rebellious patriots. Death to NT!
 ent-LGBTQHandyFlag = LGBTQ 手持旗幟 | LGBTQ handheld flag
-    .desc = 這面「當同志就犯罪」的實用旗幟。 | The be gay do crime handy flag.
+    .desc = The be gay do crime handy flag.
 ent-PirateHandyFlag = 海盜手持旗幟 | pirate handheld flag
-    .desc = 將它握在手中，讓這些鯉魚知道你可不是開玩笑的。 | Holding it in your hands, show these carp that you're not kidding.
+    .desc = Holding it in your hands, show these carp that you're not kidding.

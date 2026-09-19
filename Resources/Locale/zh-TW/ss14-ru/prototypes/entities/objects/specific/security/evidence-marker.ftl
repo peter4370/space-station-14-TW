@@ -1,5 +1,5 @@
 ent-EvidenceMarker = 證據標記 | evidence marker
-    .desc = 一支帶有編號的黃色標記筆，可用於標示犯罪現場的證據。 | A numbered yellow marker, useful for labeling evidence on a crime scene.
+    .desc = A numbered yellow marker, useful for labeling evidence on a crime scene.
 ent-EvidenceMarkerOne = { ent-EvidenceMarker }
     .desc = { ent-EvidenceMarker.desc }
 ent-EvidenceMarkerTwo = { ent-EvidenceMarker }
@@ -19,4 +19,4 @@ ent-EvidenceMarkerEight = { ent-EvidenceMarker }
 ent-EvidenceMarkerNine = { ent-EvidenceMarker }
     .desc = { ent-EvidenceMarker.desc }
 ent-BoxEvidenceMarkers = 證物標記盒 | evidence marker box
-    .desc = 一組帶有編號的黃色標記筆，可用於標記犯罪現場的證據。 | A pack of numbered yellow markers, useful for labeling evidence on a crime scene.
+    .desc = A pack of numbered yellow markers, useful for labeling evidence on a crime scene.

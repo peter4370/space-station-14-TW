@@ -1,2 +1,2 @@
 ent-Gohei = gohei | gohei
-    .desc = 一根木棍，末端繫有白色流蘇。原本由神社の巫女用來淨化物品。如今則被太空站裡的御宅族所使用。 | A wooden stick with white streamers at the end. Originally used by shrine maidens to purify things. Now used by the station's weeaboos.
+    .desc = A wooden stick with white streamers at the end. Originally used by shrine maidens to purify things. Now used by the station's weeaboos.

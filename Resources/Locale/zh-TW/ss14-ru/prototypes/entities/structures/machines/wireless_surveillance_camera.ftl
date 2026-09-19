@@ -1,5 +1,5 @@
 ent-SurveillanceWirelessCameraBase = 無線攝影機 | wireless camera
-    .desc = 一台攝影機。它正在監視你。算是吧。 | A camera. It's watching you. Kinda.
+    .desc = A camera. It's watching you. Kinda.
 ent-SurveillanceWirelessCameraAnchoredBase = { ent-SurveillanceWirelessCameraBase }
     .desc = { ent-SurveillanceWirelessCameraBase.desc }
     .suffix = Anchored

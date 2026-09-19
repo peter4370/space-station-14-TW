@@ -2,12 +2,11 @@
 instrument-component-finger-cramps-light-message = 你的手指開始有點抽筋了！
 instrument-component-finger-cramps-serious-message = 你的手指真的抽筋了！
 instrument-component-finger-cramps-max-message = 彈琴彈到手指都抽筋了！
-instruments-component-menu-no-midi-support =
-    您的系統目前不支援 MIDI 功能
-    。
-    若您使用的是 Linux 系統，可能需要安裝
-    FluidSynth 或 FluidSynth 的開發套件
-    。
+instruments-component-menu-no-midi-support = 您的系統目前不支援 MIDI 功能
+                                             。
+                                             若您使用的是 Linux 系統，可能需要安裝
+                                             FluidSynth 或 FluidSynth 的開發套件
+                                             。
 instruments-component-menu-play-tab-title = 播放
 instruments-component-menu-config-tab-title = 設定
 instruments-component-menu-midi-source-button = MIDI 來源
@@ -29,9 +28,8 @@ instruments-component-menu-files-rename-dialog-title = 重新命名檔案
 instruments-component-menu-files-rename-dialog-prompt = 新名稱
 instruments-component-menu-files-filter = 篩選...
 instruments-component-menu-files-error = 操作因發生意外錯誤而失敗。
-instruments-component-menu-input-notice-label =
-    將 MIDI 裝置連接至您的電腦
-    ，並播放一些音樂。
+instruments-component-menu-input-notice-label = 將 MIDI 裝置連接至您的電腦
+                                                ，並播放一些音樂。
 instruments-component-band-title-label = 樂團
 instruments-component-band-refresh = 重新整理
 instruments-component-channels-menu = MIDI 通道選擇
@@ -49,8 +47,11 @@ instruments-component-midi-file-collection-open-dir-button = 開啟資料夾
 instruments-component-midi-file-collection-reload-button = 重新載入系列
 instruments-component-midi-file-collection-delete-all-button = 「Clear」系列
 instruments-component-menu-midi-min-volume-slider-label = MIDI 輸入最小音量
+
+
 # SwappableInstrumentComponent
 swappable-instrument-component-style-set = 樣式設定為「{ $style }」
+
 instruments-component-menu-midi-channel-acoustic-grand-piano = 原聲三角鋼琴
 instruments-component-menu-midi-channel-bright-acoustic-piano = 明亮的原聲鋼琴
 instruments-component-menu-midi-channel-electric-grand-piano = 電子三角鋼琴

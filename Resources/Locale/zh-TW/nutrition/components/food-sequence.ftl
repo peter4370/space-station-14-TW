@@ -81,6 +81,7 @@ food-sequence-content-anomaly-berry = 異常莓
 # BURGERS
 
 food-sequence-burger-gen = { $content }漢堡
+
 food-sequence-burger-content-raw-meat = 生
 food-sequence-burger-content-meat = 肉感
 food-sequence-burger-content-carp = 果
@@ -123,6 +124,7 @@ food-sequence-burger-content-world-pea = 和平
 # COTTON BURGERS
 
 food-sequence-cotton-burger-gen = { $content }漢堡
+
 food-sequence-cotton-burger-content-cotton-bol = 棉
 food-sequence-cotton-burger-content-pyrotton-bol = 炎
 food-sequence-cotton-burger-content-plushie-throngler = 絨毛

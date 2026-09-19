@@ -1,5 +1,5 @@
 ent-ParticleAcceleratorFuelChamber = PA 燃料室 | PA fuel chamber
-    .desc = 正式名稱為「EM 加速艙」。此處正是將α粒子加速至極高速度的地方。 | Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds.
+    .desc = Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds.
 ent-ParticleAcceleratorFuelChamberUnfinished = PA 燃料室 | PA fuel chamber
-    .desc = 正式名稱為「EM 加速室」。這裡是將α粒子加速至極高速度的地方。看起來似乎尚未完工。 | Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds. It looks unfinished.
+    .desc = Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds. It looks unfinished.
     .suffix = Unfinished

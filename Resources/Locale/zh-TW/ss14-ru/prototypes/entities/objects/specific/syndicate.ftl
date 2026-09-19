@@ -1,5 +1,5 @@
 ent-Telecrystal = telecrystal | telecrystal
-    .desc = 它似乎正散發著一種令人難以抗拒的、可疑的能量，彷彿在脈動一般。 | It seems to be pulsing with suspiciously enticing energies.
+    .desc = It seems to be pulsing with suspiciously enticing energies.
     .suffix = 20 TC
 ent-Telecrystal1 = { ent-Telecrystal }
     .desc = { ent-Telecrystal.desc }
@@ -11,7 +11,7 @@ ent-Telecrystal10 = { ent-Telecrystal }
     .desc = { ent-Telecrystal.desc }
     .suffix = 10 TC
 ent-BaseUplinkRadio = 辛迪加上行鏈路 | syndicate uplink
-    .desc = 這台看起來很可疑的舊收音機…… | Suspiciously looking old radio...
+    .desc = Suspiciously looking old radio...
     .suffix = Empty
 ent-BaseUplinkRadio20TC = { ent-BaseUplinkRadio }
     .desc = { ent-BaseUplinkRadio.desc }

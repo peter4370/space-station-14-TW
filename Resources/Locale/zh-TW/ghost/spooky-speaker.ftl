@@ -12,6 +12,7 @@ spooky-speaker-generic-11 = 唉
 spooky-speaker-generic-12 = 凡人啊，戰慄吧！
 spooky-speaker-generic-13 = 4444444444
 spooky-speaker-generic-14 = ……我找到你了……
+
 spooky-speaker-recycler-1 = 我飢餓
 spooky-speaker-recycler-2 = 還要！再給我更多！
 spooky-speaker-recycler-3 = 餵我吧

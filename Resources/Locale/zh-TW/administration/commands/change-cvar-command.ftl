@@ -7,7 +7,9 @@ cmd-changecvar-help = Usage: changecvar <cvar | ? | search> <value>
 cmd-changecvar-available-cvars = 列出可用的 cvars：
 cmd-changecvar-no-cvars = 未找到您有權變更的 cvars。
 cmd-changecvar-success = CVar { $cvar } 已從 "{ $old }" 變更為 "{ $value }"。
+
 cmd-changecvar-search-no-arguments = 您必須指定搜尋詞。
 cmd-changecvar-search-no-matches = 未找到與搜尋詞相符的 cvars。
 cmd-changecvar-search-matches = 找到 { $count } 個與搜尋詞相符的 cvars：
+
 cmd-changecvar-arg-name = <name | ? | search>

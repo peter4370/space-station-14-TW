@@ -1,6 +1,8 @@
 npc-debug-overlay-window-title = NPC 除錯
+
 npc-debug-overlay-window-section-npc-label = NPC
 npc-debug-overlay-window-section-pathfinder-label = 探路者
+
 npc-debug-overlay-window-show-htn-tree-checkbox = Thonk
 npc-debug-overlay-window-path-breadcrumbs-checkbox = 導覽路徑
 npc-debug-overlay-window-path-polygons-checkbox = 多邊形

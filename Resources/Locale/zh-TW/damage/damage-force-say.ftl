@@ -1,5 +1,6 @@
 damage-force-say-message-wrap = { $message }-{ $suffix }
 damage-force-say-message-wrap-no-suffix = { $message }-
+
 damage-force-say-1 = 噁！
 damage-force-say-2 = GLORF！
 damage-force-say-3 = 哎唷！
@@ -7,7 +8,9 @@ damage-force-say-4 = 啊——！
 damage-force-say-5 = 哎喲！
 damage-force-say-6 = 嗚哇！
 damage-force-say-7 = HRNK！
+
 damage-force-say-sleep-1 = zzz...
+
 damage-force-say-numb-1 = 哦——
 damage-force-say-numb-2 = 嗚——
 damage-force-say-numb-3 = 噢——

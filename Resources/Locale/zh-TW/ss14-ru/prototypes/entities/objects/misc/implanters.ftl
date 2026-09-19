@@ -1,16 +1,15 @@
 ent-BaseImplanter = 植入器 | implanter
     .desc = { ent-BaseItem.desc }
 ent-Implanter = 植體拔除器 | implant extractor
-    .desc = 一款專為移除特定皮下植入物而設計的雙用途注射器。植入物一旦被取出，即可存放於注射器內，並可再次植入。
-        警告：操作失誤（例如選取不存在的植入物類型）將對操作者造成嚴重的遺傳創傷。 | A dual-purpose syringe designed for the removal of specific subdermal implants. Once an implant is extracted, it is stored within and can be re-administered.
+    .desc = A dual-purpose syringe designed for the removal of specific subdermal implants. Once an implant is extracted, it is stored within and can be re-administered.
         WARNING: Operator error, such as selecting a non-present implant type, causes severe genetic trauma to the operator.
 ent-ImplanterAdmeme = { ent-Implanter }
     .desc = { ent-Implanter.desc }
     .suffix = Admeme
 ent-BaseImplantOnlyImplanter = { ent-Implanter }
-    .desc = 一款專為皮下植入物注射而設計的一次性注射器。 | A disposable syringe exclusively designed for the injection of subdermal implants.
+    .desc = A disposable syringe exclusively designed for the injection of subdermal implants.
 ent-BaseImplantOnlyImplanterSyndi = 辛迪加植入者 | syndicate implanter
-    .desc = 一款專為皮下植入物注射而設計的輕巧拋棄式注射器。使用後請務必用肥皂徹底清洗，以去除殘留的 DNA！ | A compact disposable syringe exclusively designed for the injection of subdermal implants. Make sure to scrub it with soap to remove residual DNA after use!
+    .desc = A compact disposable syringe exclusively designed for the injection of subdermal implants. Make sure to scrub it with soap to remove residual DNA after use!
 ent-SadTromboneImplanter = 悲傷的長號植入者 | sad trombone implanter
     .desc = { ent-BaseImplantOnlyImplanter.desc }
 ent-LightImplanter = 光植入器 | light implanter

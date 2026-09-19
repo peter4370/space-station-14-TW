@@ -6,6 +6,7 @@ hugbot-start-hug-5 = 請保持不動。
 hugbot-start-hug-6 = 擁抱！
 hugbot-start-hug-7 = 部署 HUG。
 hugbot-start-hug-8 = 我是為了擁抱而存在的，而你必定會被擁抱。
+
 hugbot-finish-hug-1 = 都搞定了。
 hugbot-finish-hug-2 = 擁抱程序已結束。
 hugbot-finish-hug-3 = 感覺好些了嗎？
@@ -14,6 +15,7 @@ hugbot-finish-hug-5 = 你被愛著。
 hugbot-finish-hug-6 = 你很重要。
 hugbot-finish-hug-7 = 情況總是會越來越好！
 hugbot-finish-hug-8 = 擁抱：完成。
+
 hugbot-emagged-finish-hug-1 = 其實，去你的。
 hugbot-emagged-finish-hug-2 = 沒有人愛你。
 hugbot-emagged-finish-hug-3 = 噁……不要啦。

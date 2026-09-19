@@ -1,7 +1,7 @@
 ent-BaseCurtains = 窗簾 | curtains
-    .desc = 隱藏他人不該看見的內容。 | Hides what others shouldn't see.
+    .desc = Hides what others shouldn't see.
 ent-HospitalCurtains = { ent-BaseCurtains }
-    .desc = 汞含量低於 1%。 | Contains less than 1% mercury.
+    .desc = Contains less than 1% mercury.
     .suffix = Hospital
 ent-HospitalCurtainsOpen = { ent-HospitalCurtains }
     .desc = { ent-HospitalCurtains.desc }

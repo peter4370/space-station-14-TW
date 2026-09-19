@@ -1,2 +1,2 @@
 ent-MagazineFoamBox = L6 SAW 彈匣盒（泡沫飛鏢） | L6 SAW magazine box (foam dart)
-    .desc = 一個裝有 100 發連發式……泡棉飛鏢的盒子？ | Box containing a 100-round belt of linked... foam darts?
+    .desc = Box containing a 100-round belt of linked... foam darts?

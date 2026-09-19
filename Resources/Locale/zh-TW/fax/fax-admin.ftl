@@ -1,6 +1,7 @@
 # Command
 cmd-faxui-desc = 開啟管理視窗以傳送傳真
 cmd-faxui-help = 用法：faxui
+
 # Window
 admin-fax-title = 管理員傳真管理員
 admin-fax-fax = 傳真：

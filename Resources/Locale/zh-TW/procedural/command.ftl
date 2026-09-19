@@ -7,13 +7,16 @@ cmd-dungen-config = 找不到地城設定檔。
 cmd-dungen-pos = 無法解析位置。
 cmd-dungen-seed = 無法解析種子。
 cmd-dungen-start = 使用種子 { $seed } 生成地城
+
 cmd-dungen-hint-map = 地圖編號
 cmd-dungen-hint-config = 地城設定
 cmd-dungen-hint-posx = 職位 X
 cmd-dungen-hint-posy = Y 位置
 cmd-dungen-hint-seed = { "[" }種子]
+
 cmd-dungen_preset_vis-desc = 產生地城預設值的網格式預覽。
 cmd-dungen_preset_vis-help = dungen_preset_vis <mapid> <preset>
+
 cmd-dungen_pack_vis-success = 成功
 cmd-dungen_pack_vis-desc = 產生地城包的網格式預覽。
 cmd-dungen_pack_vis-help = dungen_pack_vis <mapid> <pack>

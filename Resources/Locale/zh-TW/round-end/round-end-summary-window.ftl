@@ -14,3 +14,4 @@ round-end-summary-window-player-manifest-tab-sort-player = 玩家
 round-end-summary-window-player-manifest-tab-sort-player-type-antag = 反派
 round-end-summary-window-player-manifest-tab-sort-player-type-crew = 船員
 round-end-summary-window-player-manifest-tab-sort-player-type-observer = 觀察家
+

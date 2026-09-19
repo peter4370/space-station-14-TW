@@ -1,5 +1,5 @@
-ent-{'values': ['GasPipeSensor', 'GasPipeSensorAlt1', 'GasPipeSensorAlt2']} = 氣體管線感測器 | gas pipe sensor
-    .desc = 關於附件所列管網中氣體狀況的報告。 | Reports on the status of the gas in the attached pipe network.
+ent-{'values': ['GasPipeSensor', 'GasPipeSensorAlt1', 'GasPipeSensorAlt2']} = gas pipe sensor
+    .desc = Reports on the status of the gas in the attached pipe network.
 ent-{'values': ['GasPipeSensorDistribution', 'GasPipeSensorDistributionAlt1', 'GasPipeSensorDistributionAlt2']} = { ent-{'values': ['GasPipeSensor', 'GasPipeSensorAlt1', 'GasPipeSensorAlt2']} }
     .desc = { ent-{'values': ['GasPipeSensor', 'GasPipeSensorAlt1', 'GasPipeSensorAlt2']}.desc }
     .suffix = Distribution

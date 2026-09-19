@@ -1,10 +1,10 @@
 ent-BaseBrassInstrument = { ent-BaseHandheldInstrument }
     .desc = { ent-BaseHandheldInstrument.desc }
 ent-TrumpetInstrument = 小號 | trumpet
-    .desc = 爵士樂手和自以為是的中學生最愛的樂器。 | The favorite instrument of jazz musicians and egotistical middle schoolers.
+    .desc = The favorite instrument of jazz musicians and egotistical middle schoolers.
 ent-TromboneInstrument = 長號 | trombone
-    .desc = 人人都喜愛的滑閥式銅管樂器。 | Everyone's favorite sliding brass instrument.
+    .desc = Everyone's favorite sliding brass instrument.
 ent-FrenchHornInstrument = 法國號 | french horn
-    .desc = 既然拿著它時需要用手捂住，這或許能從中窺見其聲音的某些特徵。 | The fact that holding it involves using your hand to muffle it may suggest something about its sound.
+    .desc = The fact that holding it involves using your hand to muffle it may suggest something about its sound.
 ent-EuphoniumInstrument = 上低音號 | euphonium
-    .desc = 嬰兒大號？還是上低音號？不管是什麼，這堆管子看起來真是既酷又亂七八糟。 | A baby tuba? A Baritone? Whatever it is, it's a pretty cool mess of pipes.
+    .desc = A baby tuba? A Baritone? Whatever it is, it's a pretty cool mess of pipes.

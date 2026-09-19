@@ -1,5 +1,5 @@
 ent-GasMinerBase = 氣體開採器 | gas miner
-    .desc = 從下方的（還是上方的？）氣態巨行星中開採出的氣體，會透過這個巨大的通風口流出來。 | Gases mined from the gas giant below (above?) flow out through this massive vent.
+    .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.
 ent-GasMinerOxygen = O2 氣體開採器 | O2 gas miner
     .desc = { ent-GasMinerBase.desc }
     .suffix = Shuttle, 300kPa

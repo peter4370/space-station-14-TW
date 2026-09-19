@@ -1,9 +1,9 @@
 ent-Windoor = windoor | windoor
-    .desc = 那是一扇窗戶和一扇推拉門。哇！ | It's a window and a sliding door. Wow!
+    .desc = It's a window and a sliding door. Wow!
 ent-WindoorPlasma = 等離子風窗 | plasma windoor
-    .desc = 這既是一扇粉紅色的窗戶，*又*是一扇推拉門。太棒了！ | It's a pink window *and* a sliding door. Amazing!
+    .desc = It's a pink window *and* a sliding door. Amazing!
 ent-WindoorUranium = 鈾風窗 | uranium windoor
-    .desc = 那是一扇窗戶和一扇推拉門。咦？哦，而且是綠色的！ | It's a window and a sliding door. Huh? Oh, and it's green!
+    .desc = It's a window and a sliding door. Huh? Oh, and it's green!
 ent-WindoorArmoryLocked = { ent-Windoor }
     .desc = { ent-Windoor.desc }
     .suffix = Armory, Locked

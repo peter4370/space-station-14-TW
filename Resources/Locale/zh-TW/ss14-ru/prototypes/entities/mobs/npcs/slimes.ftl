@@ -1,8 +1,8 @@
 ent-BaseMobAdultSlimes = 基礎史萊姆 | basic slime
-    .desc = 這看起來簡直就像果凍一樣。不知道味道如何呢？ | It looks so much like jelly. I wonder what it tastes like?
+    .desc = It looks so much like jelly. I wonder what it tastes like?
     .suffix = { ent-SimpleMobBase.suffix }
 ent-MobAdultSlimes = 基礎史萊姆 | basic slime
-    .desc = 這看起來簡直就像果凍一樣。不知道味道如何呢？ | It looks so much like jelly. I wonder what it tastes like?
+    .desc = It looks so much like jelly. I wonder what it tastes like?
     .suffix = { ent-BaseMobAdultSlimes.suffix }
 ent-MobAdultSlimesBlue = 藍色黏液 | blue slime
     .desc = { ent-MobAdultSlimes.desc }

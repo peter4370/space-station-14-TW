@@ -93,16 +93,19 @@ guide-entry-defusal = 大型炸彈拆除
 guide-entry-criminal-records = 犯罪紀錄
 guide-entry-command = 指揮部
 guide-entry-service = 服務
+
 guide-entry-newplayer = 初次造訪？就從這裡開始吧！
 guide-entry-charactercreation = 角色創作
 guide-entry-species = 物種
 guide-entry-yourfirstcharacter = 你的第一個角色
 guide-entry-controls = 控制項
 guide-entry-radio = 廣播與演講
+
 guide-entry-references = 表格與參考文獻
 guide-entry-chemicals = 化學品
 guide-entry-drinks = 飲品
 guide-entry-foodrecipes = 食譜
+
 guide-entry-elements = 元素
 guide-entry-medicine = 醫療部
 guide-entry-narcotics = 麻醉品
@@ -113,6 +116,7 @@ guide-entry-biological = 生物學
 guide-entry-botanical = 植物學
 guide-entry-special = 特別
 guide-entry-others = 其他
+
 guide-entry-pizza-recipes = 披薩
 guide-entry-savory-recipes = 鹹味食品
 guide-entry-bread-recipes = 麵包
@@ -129,6 +133,7 @@ guide-entry-medicinal-recipes = 藥用
 guide-entry-other-recipes = 其他
 guide-entry-secret-recipes = 秘密
 guide-entry-lawsets = 矽基法典
+
 guide-entry-antagonists = 反派
 guide-entry-nuclear-operatives = 核武特工
 guide-entry-traitors = 叛徒
@@ -140,6 +145,7 @@ guide-entry-thieves = 小偷
 guide-entry-wizard = 巫師
 guide-entry-xenoborgs = 異星博格
 guide-entry-changelings = 換子
+
 guide-entry-rules = 伺服器規則
 guide-entry-rules-core-only = 僅核心規則集
 guide-entry-rules-lrp = 標準規則集
@@ -198,5 +204,6 @@ guide-entry-rules-sl-restricted-gear = 受限裝備
 guide-entry-rules-sl-restricted-weapons = 受管制武器
 guide-entry-rules-ban-types = 封禁類型
 guide-entry-rules-ban-durations = 禁令期限
+
 guide-entry-writing = 寫作
 guide-entry-glossary = 術語表

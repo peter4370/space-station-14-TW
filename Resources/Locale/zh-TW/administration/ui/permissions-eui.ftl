@@ -1,5 +1,6 @@
 permissions-eui-do-not-have-required-flags-to-edit-admin-tooltip = 您沒有編輯此管理員所需的權限。
 permissions-eui-do-not-have-required-flags-to-edit-rank-tooltip = 您沒有編輯此等級所需的權限。
+
 permissions-eui-menu-title = 權限面板
 permissions-eui-menu-add-admin-button = 新增管理員
 permissions-eui-menu-add-admin-rank-button = 新增「管理員」權限
@@ -20,5 +21,6 @@ permissions-eui-edit-admin-rank-button = 編輯
 permissions-eui-edit-admin-rank-window-title = 編輯管理員職級
 permissions-eui-edit-admin-window-save-button = 儲存
 permissions-eui-edit-admin-window-remove-flag-button = 移除
+
 cmd-permissions-desc = 開啟管理員權限面板。
 cmd-permissions-help = 用法：權限

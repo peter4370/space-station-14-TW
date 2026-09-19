@@ -1,5 +1,5 @@
 ent-PottedPlantBase = 盆栽植物 | potted plant
-    .desc = 一盆小巧的自然景致。 | A little bit of nature contained in a pot.
+    .desc = A little bit of nature contained in a pot.
 ent-PottedPlant0 = { ent-PottedPlantBase }
     .desc = { ent-PottedPlantBase.desc }
 ent-PottedPlant1 = { ent-PottedPlantBase }
@@ -19,9 +19,9 @@ ent-PottedPlant7 = { ent-PottedPlantBase }
 ent-PottedPlant8 = { ent-PottedPlantBase }
     .desc = { ent-PottedPlantBase.desc }
 ent-PottedPlantBioluminscent = 會發光的盆栽植物 | bioluminescent potted plant
-    .desc = 它會發光！ | It produces light!
+    .desc = It produces light!
 ent-PottedPlant10 = { ent-PottedPlantBase }
-    .desc = 一盆中蘊藏著的一抹自然之美。 | A pretty piece of nature contained in a pot.
+    .desc = A pretty piece of nature contained in a pot.
 ent-PottedPlant11 = { ent-PottedPlantBase }
     .desc = { ent-PottedPlantBase.desc }
 ent-PottedPlant12 = { ent-PottedPlantBase }
@@ -51,13 +51,12 @@ ent-PottedPlant23 = { ent-PottedPlantBase }
 ent-PottedPlant24 = { ent-PottedPlantBase }
     .desc = { ent-PottedPlantBase.desc }
 ent-PottedPlantRD = RD 的盆栽 | RD's potted plant
-    .desc = 這是植物園工作人員送的一份禮物，是在研究主任調職後贈送的。上面掛著一張標籤，寫著：「大家要常回來喔，聽見沒？」
-        看起來不太健康…… | A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says "Y'all come back now, y'hear?"
+    .desc = A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says "Y'all come back now, y'hear?"
         It doesn't look very healthy...
 ent-PottedPlant26 = { ent-PottedPlantBase }
-    .desc = 是只有我這樣覺得，還是它真的在閃爍？ | Is it just me, or is it blinking?
+    .desc = Is it just me, or is it blinking?
 ent-PottedPlant27 = 塑膠盆栽 | plastic potted plant
-    .desc = 一棵假的、看起來很廉價的塑膠聖誕樹。非常適合那些只要一碰就會把植物都弄死的人。 | A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch.
+    .desc = A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch.
 ent-PottedPlant28 = { ent-PottedPlant27 }
     .desc = { ent-PottedPlant27.desc }
 ent-PottedPlant29 = { ent-PottedPlant27 }

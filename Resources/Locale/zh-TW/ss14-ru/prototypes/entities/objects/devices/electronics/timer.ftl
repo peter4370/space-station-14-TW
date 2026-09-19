@@ -1,5 +1,5 @@
 ent-SignalTimerElectronics = 訊號計時器電子元件 | signal timer electronics
-    .desc = 一款用於計時器電路中的電子電路板。看起來似乎可以用螺絲起子更換電路板類型。 | An electronics board used in timer circuitry. Looks like you could use a screwdriver to change the board type.
+    .desc = An electronics board used in timer circuitry. Looks like you could use a screwdriver to change the board type.
     .suffix = { ent-BaseElectronics.suffix }
 ent-ScreenTimerElectronics = 螢幕計時器電子元件 | screen timer electronics
     .desc = { ent-SignalTimerElectronics.desc }

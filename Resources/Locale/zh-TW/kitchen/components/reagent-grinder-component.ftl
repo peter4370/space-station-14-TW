@@ -3,6 +3,7 @@
 reagent-grinder-bound-user-interface-instant-button = 即時
 reagent-grinder-bound-user-interface-cook-time-label = 烹飪時間
 reagent-grinder-component-cannot-put-entity-message = 這絕對不能放進試劑研磨機裡！
+
 grinder-menu-title = 多功能研磨機 3000
 grinder-menu-grind-button = 研磨
 grinder-menu-juice-button = 果汁

@@ -1,5 +1,4 @@
 ## UI
-
 door-remote-toggle-eletrify-text = 切換過充功能
 door-remote-open-close-text = 開啟與關閉門
 door-remote-toggle-bolt-text = 啟動螺栓
@@ -14,3 +13,4 @@ door-remote-switch-state-toggle-bolts = 您切換遙控器以切換鎖栓
 door-remote-switch-state-toggle-emergency-access = 您切換遙控器以啟用緊急存取功能
 door-remote-no-power = 這扇門沒有電源
 door-remote-denied = 存取遭拒
+

@@ -1,2 +1,2 @@
 ent-RadiationPulse = 閃爍的異常 | shimmering anomaly
-    .desc = 看著這個異常現象，會讓人感到一種怪異的感覺，彷彿有什麼東西在頂著你的眼睛。 | Looking at this anomaly makes you feel strange, like something is pushing at your eyes.
+    .desc = Looking at this anomaly makes you feel strange, like something is pushing at your eyes.

@@ -14,5 +14,5 @@ ent-WeaponTurretAllHostile = { ent-BaseWeaponBallisticTurret }
     .desc = { ent-BaseWeaponBallisticTurret.desc }
     .suffix = All hostile
 ent-WeaponTurretXeno = 外星炮塔 | xeno turret
-    .desc = 可發射 9 毫米酸彈。 | Shoots 9mm acid projectiles.
+    .desc = Shoots 9mm acid projectiles.
     .suffix = Xeno

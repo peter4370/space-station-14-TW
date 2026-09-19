@@ -1,10 +1,11 @@
-shared-solution-container-component-on-examine-main-text =
-    It contains { INDEFINITE($desc) } [color={ $color }]{ $colorName } { $desc }[/color] { $chemCount ->
+shared-solution-container-component-on-examine-main-text = It contains { INDEFINITE($desc) } [color={ $color }]{ $colorName } { $desc }[/color] { $chemCount ->
         [1] chemical.
        *[other] mixture of chemicals.
     }
+
 examinable-solution-has-recognizable-chemicals = 您可以在解中辨識出 { $recognizedString }。
 examinable-solution-recognized = { "[" }color={ $color }]{ $chemical }[/color]
+
 examinable-solution-on-examine-volume = The contained solution is { $fillLevel ->
     [exact] holding [color=white]{ $current }/{ $max }u[/color].
    *[other] [bold]{ -solution-vague-fill-level(fillLevel: $fillLevel) }[/bold].
@@ -15,8 +16,7 @@ examinable-solution-on-examine-volume-no-max = The contained solution is { $fill
    *[other] [bold]{ -solution-vague-fill-level(fillLevel: $fillLevel) }[/bold].
 }
 
-examinable-solution-on-examine-volume-puddle =
-    水窪的狀態是 { $fillLevel ->
+examinable-solution-on-examine-volume-puddle = 水窪的狀態是 { $fillLevel ->
         [exact] { "[" }color=white]{ $current }u[/color]。
         [full] 巨大且溢出！
         [mostlyfull] 巨大且溢出！
@@ -25,6 +25,7 @@ examinable-solution-on-examine-volume-puddle =
        *[mostlyempty] 匯聚成一處。
         [empty] 形成多個小水窪。
     }
+
 -solution-vague-fill-level =
     { $fillLevel ->
         [full] { "[" }color=white]滿[/color]

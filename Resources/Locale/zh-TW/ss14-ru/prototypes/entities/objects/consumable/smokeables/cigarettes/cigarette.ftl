@@ -1,7 +1,7 @@
 ent-Cigarette = 香菸 | cigarette
-    .desc = 一捲菸草和尼古丁。 | A roll of tobacco and nicotine.
+    .desc = A roll of tobacco and nicotine.
 ent-SoakedCigarette = 香菸 | cigarette
-    .desc = 一捲浸泡過某些化學物質的菸草和尼古丁。 | A roll of tobacco and nicotine soaked in some chemical.
+    .desc = A roll of tobacco and nicotine soaked in some chemical.
     .suffix = Soaked
 ent-CigaretteSpent = { ent-Cigarette }
     .desc = { ent-Cigarette.desc }

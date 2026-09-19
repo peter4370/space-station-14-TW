@@ -1,10 +1,10 @@
 ent-HoloparasiteInjector = 全息寄生體注射器 | holoparasite injector
-    .desc = 一件由手持裝置組成的複雜藝術品，讓使用者能夠寄宿一名全息寄生守護者。 | A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+    .desc = A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
 ent-HoloClownInjector = 全息小丑注射器 | holoclown injector
-    .desc = 一件由手持機械組成的複雜藝術品，讓使用者能夠收養一名全息小丑守護者。 | A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
+    .desc = A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
 ent-GuardianDeck = 守護者牌組 | guardian deck
-    .desc = 一副守護者塔羅牌，能夠將一位個人守護者與你的身體綁定。 | A deck of guardian tarot cards, capable of binding a personal guardian to your body.
+    .desc = A deck of guardian tarot cards, capable of binding a personal guardian to your body.
 ent-BoxHoloparasite = 全息寄生盒 | holoparasite box
-    .desc = 一個裝有全息寄生蟲注射器的盒子。 | A box containing a holoparasite injector.
+    .desc = A box containing a holoparasite injector.
 ent-BoxHoloclown = 全息小丑盒 | holoclown box
-    .desc = 一個裝有全息小丑注射器的盒子。 | A box containing a holoclown injector.
+    .desc = A box containing a holoclown injector.

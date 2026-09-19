@@ -7,6 +7,7 @@ character-setup-gui-create-new-character-button = 建立新插槽...
 character-setup-gui-create-new-character-button-tooltip = 最多允許 { $maxCharacters } 個字元。
 character-setup-gui-character-picker-button-delete-button = 刪除
 character-setup-gui-character-picker-button-confirm-delete-button = 確認
+
 character-setup-gui-save-panel-title = 未儲存的角色變更
 character-setup-gui-save-panel-save = 儲存
 character-setup-gui-save-panel-nosave = 不要儲存

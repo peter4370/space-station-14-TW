@@ -1,5 +1,5 @@
 ent-FaxMachineBase = 長距離傳真機 | long range fax machine
-    .desc = Bluespace 技術在官僚體制中的應用。 | Bluespace technologies on the application of bureaucracy.
+    .desc = Bluespace technologies on the application of bureaucracy.
 ent-FaxMachineCentcom = 中央司令部 長距離傳真機 | CentComm long range fax machine
     .desc = { ent-FaxMachineBase.desc }
     .suffix = CentCom

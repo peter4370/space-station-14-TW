@@ -1,13 +1,13 @@
 ent-BaseCartridgePistol = 子彈（.35 Auto） | cartridge (.35 auto)
     .desc = { ent-BaseCartridge.desc }
 ent-CartridgePistol = 子彈（.35 Auto） | cartridge (.35 auto)
-    .desc = 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。標準動能彈藥十分常見，且在大多數情況下都相當實用。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Standard kinetic ammunition is common and useful in most situations.
+    .desc = Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Standard kinetic ammunition is common and useful in most situations.
 ent-CartridgePistolPractice = 子彈（.35 Auto 練習彈） | cartridge (.35 auto practice)
-    .desc = 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。練習彈使用的是粉筆製成的彈頭，射中時會有些許刺痛感，但除此之外不會造成任何持久性傷害。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+    .desc = Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
 ent-CartridgePistolIncendiary = 子彈（.35自動燃燒彈） | cartridge (.35 auto incendiary)
-    .desc = 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。燃燒彈藥含有自燃化合物，能使目標起火燃燒。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+    .desc = Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
 ent-CartridgePistolUranium = 子彈彈匣（.35 Auto 鈾彈） | cartridge (.35 auto uranium)
-    .desc = 這可說是市面上最受歡迎的口徑，廣泛應用於各類手槍和衝鋒槍。鈾彈藥將子彈的鉛芯替換為可裂變材料，使目標從內部受到輻射照射。 | Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
+    .desc = Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
 ent-CartridgePistolSpent = 子彈（.35 Auto） | cartridge (.35 auto)
     .desc = { ent-BaseCartridgePistol.desc }
     .suffix = spent

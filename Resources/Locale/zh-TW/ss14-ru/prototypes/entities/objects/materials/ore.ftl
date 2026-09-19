@@ -1,5 +1,5 @@
 ent-OreBase = { ent-MaterialBase }
-    .desc = 一塊未經提煉的礦石。 | A piece of unrefined ore.
+    .desc = A piece of unrefined ore.
 ent-GoldOre = 金礦石 | gold ore
     .desc = { ent-OreBase.desc }
     .suffix = Full

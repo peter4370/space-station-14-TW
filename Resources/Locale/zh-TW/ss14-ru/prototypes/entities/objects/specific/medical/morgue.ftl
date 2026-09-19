@@ -1,9 +1,9 @@
 ent-BodyBag = 屍袋 | body bag
-    .desc = 一種專為存放及運送屍體而設計的塑膠袋，用以防止屍體腐爛。 | A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
+    .desc = A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
 ent-BodyBagFolded = 屍袋 | body bag
-    .desc = 一種專為存放及運送屍體而設計的塑膠袋，用以防止屍體腐爛。 | A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
+    .desc = A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
     .suffix = folded
 ent-Ash = ash | ash
-    .desc = 這以前還算有點看頭，但現在已經不是了。 | This used to be something, but now it's not.
+    .desc = This used to be something, but now it's not.
 ent-Ectoplasm = 體外物質 | ectoplasm
-    .desc = 以這種形式出現時，致命性要低得多。 | Much less deadly in this form.
+    .desc = Much less deadly in this form.

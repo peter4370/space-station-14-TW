@@ -1,5 +1,5 @@
 ent-Dart = dart | dart
-    .desc = 一款用於玩飛鏢的輕型飛鏢。千萬別濺到眼睛裡！ | Light throwing dart for playing darts. Don't get in the eye!
+    .desc = Light throwing dart for playing darts. Don't get in the eye!
 ent-SolutionDart = { ent-Solution }
     .desc = { ent-Solution.desc }
 ent-DartBlue = { ent-Dart }
@@ -12,7 +12,7 @@ ent-HypoDart = { ent-Dart }
     .desc = { ent-Dart.desc }
     .suffix = HypoDart
 ent-TargetDarts = 飛鏢靶 | dartboard
-    .desc = 一個用來玩飛鏢的靶子。 | A target for playing darts.
+    .desc = A target for playing darts.
 ent-HypoDartBox = hypodart 盒子 | hypodart box
-    .desc = 一個裝有「hypodart」的小盒子。包裝一經打開便會分解，不留任何痕跡。 | A small box containing a hypodart. Packaging disintegrates when opened, leaving no evidence behind.
+    .desc = A small box containing a hypodart. Packaging disintegrates when opened, leaving no evidence behind.
     .suffix = HypoDart

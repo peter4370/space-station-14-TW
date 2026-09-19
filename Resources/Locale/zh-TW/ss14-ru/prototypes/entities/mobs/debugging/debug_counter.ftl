@@ -1,9 +1,9 @@
 ent-MobDebugCounter = 除錯計數器 | debug counter
-    .desc = 他會數數 | He can count
+    .desc = He can count
     .suffix = AI, DEBUG
 ent-MobDebugRandomCounter = 除錯隨機計數器 | debug random counter
-    .desc = 他可以進行隨機化處理 | He can randomize
+    .desc = He can randomize
     .suffix = AI, DEBUG
 ent-MobDebugRandomLess = 除錯 隨機 較少 | debug random less
-    .desc = 他可以減輕 | He can lessing
+    .desc = He can lessing
     .suffix = AI, DEBUG

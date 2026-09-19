@@ -1,5 +1,5 @@
 ent-AltarBase = 祭壇 | altar
-    .desc = 眾神之祭壇。 | Altar of the Gods.
+    .desc = Altar of the Gods.
 ent-AltarBaseWood = { ent-AltarBase }
     .desc = { ent-AltarBase.desc }
 ent-AltarBaseSteel = { ent-AltarBase }
@@ -41,4 +41,4 @@ ent-AltarHeaven = 天壇 | heaven altar
 ent-AltarFangs = 獠牙祭壇 | fanged altar
     .desc = { ent-AltarBaseSteel.desc }
 ent-AltarBananium = honkmother 祭壇 | honkmother altar
-    .desc = 一座獻給「honkmother」的「香蕉礦」祭壇。 | A bananium altar dedicated to the honkmother.
+    .desc = A bananium altar dedicated to the honkmother.

@@ -2,6 +2,7 @@
 
 traitor-round-end-codewords = 密碼詞如下：[color=White]{ $codewords }[/color]
 traitor-round-end-agent-name = 叛徒
+
 objective-issuer-syndicate = { "[" }color=crimson]「辛迪加」[/color]
 objective-issuer-unknown = { "[" }color=white]未知[/color]
 
@@ -13,7 +14,6 @@ traitor-not-enough-ready-players = 準備好參戰的玩家人數不足！在所
 traitor-no-one-ready = 沒有玩家準備就緒！無法開始「叛徒」模式。
 
 ## TraitorDeathMatch
-
 traitor-death-match-title = 叛徒死亡對決
 traitor-death-match-description = 每個人都是叛徒。每個人都想讓對方死。
 traitor-death-match-station-is-too-unsafe-announcement = 這個站點太不安全，無法繼續待下去。你只剩一分鐘。
@@ -38,6 +38,7 @@ traitor-role-uplink-code =
 traitor-role-uplink-implant =
     您的上行鏈路植入裝置已啟用，請透過快速欄存取。
     除非有人將其從您體內取出，否則上行鏈路是安全的。
+
 # don't need all the flavour text for character menu
 traitor-role-codewords-short =
     密碼詞如下：

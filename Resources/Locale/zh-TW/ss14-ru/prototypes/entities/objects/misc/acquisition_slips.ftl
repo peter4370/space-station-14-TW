@@ -1,5 +1,5 @@
 ent-PaperAcquisitionSlip = 收購單據 | acquisition slip
-    .desc = 一張載有訂單詳情的單據。可將其交給貨運部以完成訂單。 | A slip with order details on it. It can be given to Cargo to complete the order.
+    .desc = A slip with order details on it. It can be given to Cargo to complete the order.
 ent-PaperAcquisitionSlipMedical = { ent-PaperAcquisitionSlip }
     .desc = { ent-PaperAcquisitionSlip.desc }
     .suffix = Medical

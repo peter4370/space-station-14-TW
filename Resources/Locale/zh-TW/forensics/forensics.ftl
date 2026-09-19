@@ -20,9 +20,12 @@ forensic-scanner-match-none = 未找到任何結果！
 forensic-scanner-printer-not-ready = 印表機尚未就緒。
 forensic-scanner-verb-text = 掃描
 forensic-scanner-verb-message = 執行鑑識掃描
+
 forensics-dna-unknown = 未知 DNA
+
 forensics-verb-text = 銷毀證據
 forensics-verb-message = 清除物證上的指紋和 DNA 殘留物！
 forensics-cleaning-user = 你開始清除 { THE($target) } 上的證據……
 forensics-cleaning-others = { CAPITALIZE($user) } 開始清除 { THE($target) } 上的證據。
+
 forensics-cleaning-cannot-clean = { THE($target) } 上沒有任何可以清理的內容！

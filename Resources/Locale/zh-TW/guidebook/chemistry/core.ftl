@@ -23,8 +23,7 @@ guidebook-reagent-effects-metabolites = 代謝後轉化為 { $items }。
 guidebook-reagent-plant-metabolisms-header = 植物代謝
 guidebook-reagent-plant-metabolisms-rate = { "[" }bold]植物代謝[/bold] [color=gray](基礎值為每 3 秒 1 單位)[/color]
 guidebook-reagent-physical-description = { "[" }italic]看來是 { $description }。[/italic]
-guidebook-reagent-recipes-mix-info =
-    { $minTemp ->
+guidebook-reagent-recipes-mix-info = { $minTemp ->
         [0]
             { $hasMax ->
                 [true] { CAPITALIZE($verb) } 下方 { NATURALFIXED($maxTemp, 2) }K

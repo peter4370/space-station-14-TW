@@ -1,12 +1,12 @@
 ent-BaseFlag = { ent-BaseSignWeak }
     .desc = { ent-BaseSignWeak.desc }
 ent-BlankFlag = 空白旗幟 | blank flag
-    .desc = 一塊白色的布。絕對不是法國國旗。 | Some piece of white cloth. Definitely not the flag of France.
+    .desc = Some piece of white cloth. Definitely not the flag of France.
 ent-NTFlag = Nanotrasen 旗幟 | Nanotrasen flag
-    .desc = NT 萬歲！等等，他們居然真的為一家企業設計了旗幟？ | Glory to NT! Wait, they really made a flag for a corporation?
+    .desc = Glory to NT! Wait, they really made a flag for a corporation?
 ent-SyndieFlag = 辛迪加旗幟 | syndicate flag
-    .desc = 聞起來血腥味濃。NT 去死吧！ | Smells bloody. Death to NT!
+    .desc = Smells bloody. Death to NT!
 ent-LGBTQFlag = LGBTQ 旗幟 | LGBTQ flag
-    .desc = 「做個同志，犯點罪」旗幟。 | "Be gay do crime" flag.
+    .desc = "Be gay do crime" flag.
 ent-PirateFlag = 海盜旗 | pirate flag
-    .desc = 豔紅旗升起來吧，一幫小混蛋！ | Raise the jolly roger, scallywags!
+    .desc = Raise the jolly roger, scallywags!

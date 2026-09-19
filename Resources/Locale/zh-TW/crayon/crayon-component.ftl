@@ -1,3 +1,4 @@
+
 ## Entity
 
 crayon-drawing-label = 圖示：[color={ $color }]{ $state }[/color] ({ $charges }/{ $capacity })
@@ -6,7 +7,6 @@ crayon-interact-used-up-text = { $owner } 已被用完。
 crayon-interact-invalid-location = 夠不到那裡！
 
 ## UI
-
 crayon-window-title = 蠟筆
 crayon-window-placeholder = 搜尋，或將以逗號分隔的名單加入佇列
 crayon-category-1-brushes = 畫筆

@@ -1,5 +1,5 @@
 ent-ProximitySensor = 接近感測器 | proximity sensor
-    .desc = 能感知附近的事物。 | Senses things in close proximity.
+    .desc = Senses things in close proximity.
 ent-PartSilicon = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-LeftArmBorg = 賽博格左臂 | cyborg left arm

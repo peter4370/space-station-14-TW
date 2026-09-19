@@ -2,27 +2,36 @@
 spray-painter-ammo-on-examine = 它含有 { $charges } 充能。
 spray-painter-ammo-after-interact-full = 噴漆機已經裝滿了！
 spray-painter-ammo-after-interact-refilled = 請為噴漆罐補充漆料。
+
 spray-painter-interact-no-charges = 剩下的油漆不夠了。
 spray-painter-interact-nothing-to-remove = 沒有需要移除的對象！
 spray-painter-interact-no-color-pick = 實在找不到適合的顏色啊！
 spray-painter-interact-color-picked = 從「{ $id }」中選取顏色。
+
 spray-painter-on-examined-painted-message = 看來是剛粉刷過。
 spray-painter-style-not-available = 無法將所選樣式套用至此物件。
+
 spray-painter-verb-toggle-decals = 切換貼花繪製
+
 spray-painter-item-status-label = 貼紙：{ $mode }
 spray-painter-item-status-add = { "[" }color=green]新增[/color]
 spray-painter-item-status-remove = { "[" }color=red]移除[/color]
 spray-painter-item-status-off = { "[" }color=gray]關閉[/color]
+
 # UI
 spray-painter-window-title = 噴漆工具
+
 spray-painter-selected-style = 已選取的樣式：
+
 spray-painter-selected-decals = 選定的貼紙：
 spray-painter-use-custom-color = 使用自訂顏色
 spray-painter-use-snap-to-tile = 對齊至網格
+
 spray-painter-angle-rotation = 輪替：
 spray-painter-angle-rotation-90-sub = -90°
 spray-painter-angle-rotation-reset = 0°
 spray-painter-angle-rotation-90-add = +90°
+
 spray-painter-selected-color = 選定的顏色：
 spray-painter-color-red = 紅色
 spray-painter-color-yellow = 黃色
@@ -32,6 +41,7 @@ spray-painter-color-cyan = 青色
 spray-painter-color-blue = 藍色
 spray-painter-color-white = 白色
 spray-painter-color-black = 黑色
+
 # Categories (tabs)
 spray-painter-tab-category-airlocks = 氣閘
 spray-painter-tab-category-canisters = 容器
@@ -39,16 +49,20 @@ spray-painter-tab-category-crates = 貨箱
 spray-painter-tab-category-lockers = 置物櫃
 spray-painter-tab-category-pipes = 管子
 spray-painter-tab-category-decals = 貼紙
+
 # Groups (subtabs)
 spray-painter-tab-group-airlockstandard = 標準
 spray-painter-tab-group-airlockglass = 玻璃
+
 spray-painter-tab-group-cratesteel = 鋼
 spray-painter-tab-group-crateplastic = 塑膠
 spray-painter-tab-group-cratesecure = 安全
+
 spray-painter-tab-group-closet = 已解鎖
 spray-painter-tab-group-locker = 安全
 spray-painter-tab-group-wallcloset = 已解鎖（牆）
 spray-painter-tab-group-walllocker = 安全（牆）
+
 # Airlocks
 spray-painter-style-airlockstandard-atmospherics = 充滿氛圍的
 spray-painter-style-airlockstandard-basic = 基礎
@@ -64,6 +78,7 @@ spray-painter-style-airlockstandard-salvage = 打撈部
 spray-painter-style-airlockstandard-science = 科學
 spray-painter-style-airlockstandard-security = 安保
 spray-painter-style-airlockstandard-virology = 病毒學
+
 spray-painter-style-airlockglass-atmospherics = 大氣部
 spray-painter-style-airlockglass-basic = 基礎
 spray-painter-style-airlockglass-cargo = 貨運部
@@ -77,6 +92,7 @@ spray-painter-style-airlockglass-salvage = 打撈部
 spray-painter-style-airlockglass-science = 科學
 spray-painter-style-airlockglass-security = 安保部
 spray-painter-style-airlockglass-virology = 病毒學
+
 # Lockers
 spray-painter-style-locker-atmospherics = 大氣部
 spray-painter-style-locker-basic = 基礎
@@ -103,6 +119,7 @@ spray-painter-style-locker-salvage = 打撈部
 spray-painter-style-locker-scientist = 科學家
 spray-painter-style-locker-security = 安保
 spray-painter-style-locker-welding = 焊接
+
 spray-painter-style-closet-basic = 基礎
 spray-painter-style-closet-biohazard = 生物危害
 spray-painter-style-closet-biohazard-science = 生物危害（科學）
@@ -119,6 +136,7 @@ spray-painter-style-closet-nitrogen = 內部（氮氣）
 spray-painter-style-closet-oxygen = 內部（氧氣）
 spray-painter-style-closet-radiation = 防輻射服
 spray-painter-style-closet-tool = 工具
+
 spray-painter-style-wallcloset-atmospherics = 大氣部
 spray-painter-style-wallcloset-basic = 基礎
 spray-painter-style-wallcloset-black = 黑色
@@ -133,8 +151,10 @@ spray-painter-style-wallcloset-oxygen = 內部（氧氣）
 spray-painter-style-wallcloset-pink = 粉紅色
 spray-painter-style-wallcloset-white = 白色
 spray-painter-style-wallcloset-yellow = 黃色
+
 spray-painter-style-walllocker-evac = Evac 維修
 spray-painter-style-walllocker-medical = 醫療
+
 # Crates
 spray-painter-style-cratesteel-basic = 基礎
 spray-painter-style-cratesteel-electrical = 電氣
@@ -142,12 +162,14 @@ spray-painter-style-cratesteel-engineering = 工程部
 spray-painter-style-cratesteel-radiation = 輻射
 spray-painter-style-cratesteel-science = 科學
 spray-painter-style-cratesteel-surgery = 外科手術
+
 spray-painter-style-crateplastic-basic = 基礎
 spray-painter-style-crateplastic-chemistry = 化學部
 spray-painter-style-crateplastic-command = 指揮部
 spray-painter-style-crateplastic-hydroponics = 水耕區
 spray-painter-style-crateplastic-medical = 醫療
 spray-painter-style-crateplastic-oxygen = 氧氣
+
 spray-painter-style-cratesecure-basic = 基礎
 spray-painter-style-cratesecure-chemistry = 化學部
 spray-painter-style-cratesecure-command = 指揮部
@@ -159,6 +181,7 @@ spray-painter-style-cratesecure-private = 私人
 spray-painter-style-cratesecure-science = 科學
 spray-painter-style-cratesecure-secgear = Secgear
 spray-painter-style-cratesecure-weapon = 武器
+
 # Canisters
 spray-painter-style-canisters-air = 空氣
 spray-painter-style-canisters-ammonia = 氨

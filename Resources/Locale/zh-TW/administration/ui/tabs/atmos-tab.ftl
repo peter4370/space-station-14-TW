@@ -2,6 +2,7 @@ admin-ui-atmos-add = 加入 Atmos
 admin-ui-atmos-add-gas = 加氣
 admin-ui-atmos-fill-gas = 加氣
 admin-ui-atmos-set-temperature = 設定溫度
+
 admin-ui-atmos-grid = 網格
 admin-ui-atmos-grid-current = 當前
 admin-ui-atmos-tile-x = TileX

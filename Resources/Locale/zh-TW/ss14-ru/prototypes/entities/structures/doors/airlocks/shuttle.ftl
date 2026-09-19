@@ -1,11 +1,11 @@
 ent-AirlockShuttle = 外部氣閘 | external airlock
-    .desc = 用於將兩艘太空船連接在一起。 | Necessary for connecting two space craft together.
+    .desc = Necessary for connecting two space craft together.
     .suffix = Docking
 ent-AirlockGlassShuttle = { ent-AirlockShuttle }
     .desc = { ent-AirlockShuttle.desc }
     .suffix = Glass, Docking
 ent-AirlockShuttleAssembly = 外部氣閘組件 | external airlock assembly
-    .desc = 一個用於將兩艘太空船連接在一起的、尚未完工的結構。 | An incomplete structure necessary for connecting two space craft together.
+    .desc = An incomplete structure necessary for connecting two space craft together.
     .suffix = Docking
 ent-AirlockGlassShuttleSyndicate = { ent-AirlockGlassShuttle }
     .desc = { ent-AirlockGlassShuttle.desc }

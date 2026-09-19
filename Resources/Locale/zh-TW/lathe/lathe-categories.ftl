@@ -6,10 +6,12 @@ lathe-category-machines = 機器
 lathe-category-parts = 零件
 lathe-category-tools = 工具
 lathe-category-weapons = 武器
+
 # Biogen
 lathe-category-food = 食物
 lathe-category-chemicals = 化學品
 lathe-category-materials = 材料
+
 # Circuit imprinter
 lathe-category-computers = 電腦
 lathe-category-engineering = 工程部
@@ -19,6 +21,7 @@ lathe-category-research = 研究
 lathe-category-security = 安保
 lathe-category-service = 服務
 lathe-category-supply = 供應
+
 # Cutter
 lathe-category-tiles = 磁磚
 lathe-category-circuit-tile = 電路
@@ -34,14 +37,17 @@ lathe-category-wood-tile = 木材
 lathe-category-plastic-tile = 塑膠
 lathe-category-precious-tile = 珍貴
 lathe-category-industrial-tile = 工業
+
 # Science
 lathe-category-mechs = 機甲
 lathe-category-modules = 模組
 lathe-category-robotics = 機器人學
+
 # Security TechFab
 lathe-category-ammo = 彈藥
 lathe-category-boxes = 盒子
 lathe-category-magazines = 彈匣
+
 # Uniform
 lathe-category-bedsheets = 床單
 lathe-category-carpets = 地毯

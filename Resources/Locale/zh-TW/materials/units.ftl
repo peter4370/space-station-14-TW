@@ -18,6 +18,7 @@ materials-unit-web = 網
 materials-unit-chunk = 大塊
 # boll of cotton
 materials-unit-boll = 莢
+
 # bills of spesos... not very good but they are not (yet?) used for crafting anything
 # also the lathe/atm would need bigger denominations to output...
 materials-unit-bill = 疊

@@ -1,5 +1,5 @@
 ent-BaseTowel = 基礎毛巾 | base towel
-    .desc = 如果你想在這兒生存下去，就得知道你的毛巾放哪裡。 | If you want to survive out here, you gotta know where your towel is.
+    .desc = If you want to survive out here, you gotta know where your towel is.
 ent-TowelColorWhite = 白色毛巾 | white towel
     .desc = { ent-BaseTowel.desc }
 ent-TowelColorNT = NanoTrasen 品牌毛巾 | NanoTrasen brand towel

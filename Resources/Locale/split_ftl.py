@@ -711,30 +711,8 @@ def format_translation(
 
     不使用 Fluent serializer。
 
-    --------------------------------------------------------
-    單行：
-        foo = Hello
-
-    翻譯：
-        你好
-
-    結果：
-        foo = 你好
-
-    --------------------------------------------------------
-    block：
-        foo =
-            Hello
-            World
-
-    翻譯：
-        你好
-        世界
-
-    結果：
-        foo =
-            你好
-            世界
+    第一行永遠不加 continuation indent。
+    第二行開始才使用原始 Entry 的 continuation_indent。
     """
 
     translated = translated.replace(
@@ -744,6 +722,27 @@ def format_translation(
         "\r",
         "\n",
     )
+
+    lines = translated.split("\n")
+
+    if not lines:
+        return ""
+
+    # 第一行：
+    # 不加 continuation indent
+    result = [lines[0]]
+
+    # 第二行以後：
+    # 才套用原本的 continuation indent
+    for line in lines[1:]:
+        if line == "":
+            result.append("")
+        else:
+            result.append(
+                original_entry.continuation_indent + line
+            )
+
+    return "\n".join(result)
 
     # --------------------------------------------------------
     # 原始是單行

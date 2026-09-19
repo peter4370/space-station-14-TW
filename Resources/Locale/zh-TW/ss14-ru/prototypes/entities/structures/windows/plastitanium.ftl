@@ -1,5 +1,5 @@
 ent-PlastitaniumWindowBase = 塑鈦窗 | plastitanium window
-    .desc = 別把那裡的玻璃弄髒了。 | Don't smudge up the glass down there.
+    .desc = Don't smudge up the glass down there.
 ent-PlastitaniumWindowSquareBase = 塑鈦窗 | plastitanium window
     .desc = { ent-PlastitaniumWindowBase.desc }
 ent-PlastitaniumWindowIndestructible = 塑鈦窗 | plastitanium window

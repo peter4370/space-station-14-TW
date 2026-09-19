@@ -33,4 +33,4 @@ ent-PuddleFlour = { ent-PuddleTemporary }
 ent-PuddleSparkle = 閃耀 | sparkle
     .desc = { "" }
 ent-Puddle = 水窪 | puddle
-    .desc = 一灘液體。 | A puddle of liquid.
+    .desc = A puddle of liquid.

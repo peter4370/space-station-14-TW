@@ -1,5 +1,6 @@
 # Shown when examining an in-construction object
 construction-insert-arbitrary-entity = 接著，插入 { $stepName }。
+
 construction-insert-info-examine-name-instrument-brass = 銅管樂器
 construction-insert-info-examine-name-instrument-keyed = 調性樂器
 construction-insert-info-examine-name-instrument-percussion = 打擊樂器

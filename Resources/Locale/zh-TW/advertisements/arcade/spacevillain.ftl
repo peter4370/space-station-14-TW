@@ -13,6 +13,7 @@ advertisement-space-villain-12 = 怕我吧！
 advertisement-space-villain-13 = 你敢在戰場上與我一決高下嗎！？
 advertisement-space-villain-14 = 當心，我還活著！
 advertisement-space-villain-15 = 我好餓！
+
 thankyou-space-villain-1 = 你這小混帳，還以為自己能去哪裡啊？
 thankyou-space-villain-2 = 就這點本事嗎？
 thankyou-space-villain-3 = 這場戰鬥還沒結束！

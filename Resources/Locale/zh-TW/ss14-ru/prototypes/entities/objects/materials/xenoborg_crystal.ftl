@@ -1,5 +1,5 @@
 ent-MaterialXenoborgCrystal = 外星博格水晶 | xenoborg crystal
-    .desc = 一種由核聚變所創造的特殊水晶。它被用於製造異種博格人。 | A special crystal created from nuclear fusion. It's used to make xenoborgs.
+    .desc = A special crystal created from nuclear fusion. It's used to make xenoborgs.
     .suffix = 10
 ent-MaterialXenoborgCrystal5 = { ent-MaterialXenoborgCrystal }
     .desc = { ent-MaterialXenoborgCrystal.desc }

@@ -1,5 +1,5 @@
 ent-BaseBorgChassisNotIonStormable = 賽博格 | cyborg
-    .desc = 一種協助站內活動的人機混合體。牠們非常喜歡被人一再要求宣讀自身的法規。 | A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
+    .desc = A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
 ent-BaseBorgChassis = { ent-BaseBorgChassisNotIonStormable }
     .desc = { ent-BaseBorgChassisNotIonStormable.desc }
 ent-BaseBorgTransponder = { "" }
@@ -15,6 +15,6 @@ ent-BaseBorgChassisDerelict = { ent-BaseBorgChassis }
 ent-BaseBorgChassisSyndicateDerelict = { ent-BaseBorgChassis }
     .desc = { ent-BaseBorgChassis.desc }
 ent-BaseXenoborgChassis = 外星機器人 | xenoborg
-    .desc = 一種旨在自我複製的人機混合體。牠們熱衷於摘取大腦，將其植入嶄新的異種機器人軀體中，藉此擴充自己的軍隊。 | A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army.
+    .desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army.
 ent-BaseXenoborgDestructible = { "" }
     .desc = { "" }

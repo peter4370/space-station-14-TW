@@ -9,16 +9,20 @@ implanter-draw-failed-catastrophically = 植入器一無所獲，並發生災難
 implanter-component-implant-already = { CAPITALIZE(THE({ $target })) } 已經包含 { $implant } 了！
 
 ## UI
-
 implanter-set-draw-verb = 取出植體
 implanter-set-draw-window = 取出植體
 implanter-set-draw-info = 請選擇此植入物取出器應取出的植入物類型：
 implanter-set-draw-type = 植體類型：
+
 implanter-draw-text = 取出
 implanter-inject-text = 注入
+
 implanter-empty-text = 空白
+
 implanter-label-inject = { "[" }color=green]{ $implantName }[/color]
     模式：[color=white]{ $modeString }[/color]
+
 implanter-label-draw = { "[" }color=red]{ $implantName }[/color]
     模式：[color=white]{ $modeString }[/color]
+
 implanter-contained-implant-text = { "[" }color=green]{ $desc }[/color]

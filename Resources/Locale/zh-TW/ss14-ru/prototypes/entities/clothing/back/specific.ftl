@@ -1,11 +1,11 @@
 ent-ClothingBackpackChameleon = 後背包 | backpack
-    .desc = 將它背在背上，然後把物品放進去。 | You wear this on your back and put items into it.
+    .desc = You wear this on your back and put items into it.
     .suffix = Chameleon
 ent-ClothingBackpackWaterTank = 背包水罐 | backpack water tank
-    .desc = 可容納大量液體。可為手持的噴嘴供液，側面設有用於放置該噴嘴的插槽。 | Holds a large amount of fluids. Supplies to spray nozzles in your hands, and has a slot on the side for said spray nozzles.
+    .desc = Holds a large amount of fluids. Supplies to spray nozzles in your hands, and has a slot on the side for said spray nozzles.
 ent-ClothingBagPet = 寵物提袋 | pet bag
-    .desc = 一款專為寵物及小型動物設計的小型袋子。 | A small bag designed for use by pets and small animals.
+    .desc = A small bag designed for use by pets and small animals.
 ent-ClothingBackpackHarmpack = H.A.R.M.P.A.C.K. | H.A.R.M.P.A.C.K.
-    .desc = 現在，你可以同時進行裝彈、出拳和吃點心。 | Now you can reload, punch, and eat a snack - simultaneously.
+    .desc = Now you can reload, punch, and eat a snack - simultaneously.
 ent-XenoborgMaterialBag = 矽儲存方塊 | silicon storage square
-    .desc = 一款藍色空間背包的仿冒品，可吸取特定材質，但因會釋放有害物質，不適合人形生物使用。 | A knockoff version of a bluespace bag, can vacuum up select materials, unfit for use by humanoids due to harmful emissions.
+    .desc = A knockoff version of a bluespace bag, can vacuum up select materials, unfit for use by humanoids due to harmful emissions.

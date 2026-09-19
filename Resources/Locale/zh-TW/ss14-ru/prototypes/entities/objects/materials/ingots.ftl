@@ -1,5 +1,5 @@
 ent-IngotBase = { ent-MaterialBase }
-    .desc = 一塊鑄有 Nanotrasen 標誌的重金屬錠。 | A heavy metal ingot stamped with the Nanotrasen logo.
+    .desc = A heavy metal ingot stamped with the Nanotrasen logo.
 ent-IngotGold = 金條 | gold bar
     .desc = { ent-IngotBase.desc }
     .suffix = Full

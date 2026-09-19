@@ -10,5 +10,7 @@ player-tab-entry-tooltip = 遊玩時間以「天:小時:分鐘」格式顯示。
 player-tab-filter-line-edit-placeholder = 篩選
 player-tab-is-antag-yes = 是
 player-tab-is-antag-no = 不
+
 player-tab-character-name-antag-symbol = { $symbol } { $name }
+
 player-tab-antag-prefix = 🗡

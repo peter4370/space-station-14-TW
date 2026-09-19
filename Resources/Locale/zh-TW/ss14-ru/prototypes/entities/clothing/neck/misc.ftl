@@ -1,10 +1,10 @@
 ent-ClothingNeckStethoscope = 聽診器 | stethoscope
-    .desc = 一款過時的醫療儀器，用來聽取人體的聲音。它還能讓你看起來像個行家。 | An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
+    .desc = An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
 ent-ActionStethoscope = 用聽診器聽診 | Listen with stethoscope
     .desc = { ent-BaseAction.desc }
 ent-ClothingNeckBling = bling | bling
-    .desc = 該死，當個黑幫分子真爽。 | Damn, it feels good to be a gangster.
+    .desc = Damn, it feels good to be a gangster.
 ent-ClothingNeckLawyerbadge = 律師證章 | lawyer badge
-    .desc = 一枚徽章，用以證明持有者是通過北領地律師資格考試、具備執業資格的「合法」律師。 | A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
+    .desc = A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
 ent-Dinkystar = 星星貼紙 | star sticker
-    .desc = 一顆小小的星星，專獻給最勤奮的保全人員！它甚至已經不黏了。 | A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
+    .desc = A dinky lil star for only the hardest working security officers! It's not even sticky anymore.

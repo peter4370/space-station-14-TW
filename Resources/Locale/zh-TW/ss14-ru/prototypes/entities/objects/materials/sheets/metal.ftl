@@ -1,5 +1,5 @@
 ent-SheetMetalBase = { ent-BaseSheet }
-    .desc = 一片金屬板，在太空站中常被用於各種用途。 | A sheet of metal, used often on the station in various applications.
+    .desc = A sheet of metal, used often on the station in various applications.
 ent-SheetSteel = 鋼 | steel
     .desc = { ent-SheetMetalBase.desc }
     .suffix = Full
@@ -10,7 +10,7 @@ ent-SheetSteel1 = 鋼 | steel
     .desc = { ent-SheetSteel.desc }
     .suffix = Single
 ent-SheetBrass = 黃銅 | brass
-    .desc = 一片黃銅片，主要由鐘錶愛好者及拉特瓦里教派殘餘信徒所使用。 | A sheet of brass, primarily used by clockwork enthusiasts and the remnants of Ratvarian cults.
+    .desc = A sheet of brass, primarily used by clockwork enthusiasts and the remnants of Ratvarian cults.
     .suffix = Full
 ent-SheetBrass10 = 黃銅 | brass
     .desc = { ent-SheetBrass.desc }

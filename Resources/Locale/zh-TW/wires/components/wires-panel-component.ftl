@@ -1,5 +1,6 @@
 wires-panel-component-on-examine-open = { "[" }color=lightgray]維護面板[/color] 處於 [color=red]開啟[/color] 狀態。
 wires-panel-component-on-examine-closed = { "[" }color=lightgray]維護面板[/color] 已 [color=darkgreen]關閉[/color]。
+
 wires-panel-verb-view-panel = 檢視維護面板
 
 # wire colors
@@ -16,6 +17,7 @@ wire-name-color-navy = 海軍藍
 wire-name-color-purple = 紫色
 wire-name-color-pink = 粉紅色
 wire-name-color-fuchsia = 紫紅
+
 # letter names
 wire-letter-name-alpha = Alpha
 wire-letter-name-beta = Beta

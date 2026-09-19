@@ -1,6 +1,5 @@
 ### for technical and/or system messages
 
-
 ## General
 
 shell-command-success = 指令執行成功
@@ -12,6 +11,7 @@ shell-cannot-run-command-from-server = 您無法從伺服器執行此指令。
 shell-only-players-can-run-this-command = 只有玩家才能執行此指令。
 shell-must-be-attached-to-entity = 您必須已連線至某個實體，才能執行此指令。
 shell-must-have-body = 您必須擁有一個實體，才能執行此指令。
+
 shell-unknown-error = 發生了一個未知錯誤。
 
 ## Arguments
@@ -25,6 +25,7 @@ shell-need-between-arguments = 需要 { $lower } 到 { $upper } 的參數！
 shell-need-minimum-arguments = 至少需要 { $minimum } 個參數！
 shell-need-minimum-one-argument = 至少需要一個參數！
 shell-need-exactly-zero-arguments = 此指令不接受任何參數。
+
 shell-argument-uid = 實體唯一識別碼
 
 ## Guards
@@ -52,6 +53,7 @@ shell-argument-station-id-invalid = 參數 { $index } 必須為有效的電台�
 shell-argument-map-id-invalid = 參數 { $index } 必須是有效的地圖 ID！
 shell-argument-number-invalid = 參數 { $index } 必須是有效的數字！
 shell-argument-chat-invalid = 參數 { $index } 必須是有效的聊天內容！
+
 # Hints
 shell-argument-username-hint = <username>
 shell-argument-username-optional-hint = { "[" }使用者名稱]

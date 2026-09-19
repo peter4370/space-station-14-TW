@@ -9,4 +9,4 @@ ent-RingBase = { ent-BaseItem }
 ent-GoldRingBase = { "" }
     .desc = { "" }
 ent-SilverRingBase = 銀戒指 | silver ring
-    .desc = 看起來比金色的稍微不那麼有價值。 | Looks slightly less valuable than a gold one.
+    .desc = Looks slightly less valuable than a gold one.

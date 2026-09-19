@@ -13,4 +13,4 @@ ent-ClothingHeadHardsuitInsulatedBase = { ent-ClothingHeadHardsuitBase }
 ent-ClothingHeadSuitWithLightBase = 配備燈光的基本型硬式戰甲頭盔 | base hardsuit helmet with light
     .desc = { "" }
 ent-ClothingHeadHatHoodWinterBase = 基礎款冬季大衣連帽款 | base winter coat hood
-    .desc = 一款專為保暖頭部而設計的兜帽。 | A hood, made to keep your head warm.
+    .desc = A hood, made to keep your head warm.

@@ -1,5 +1,5 @@
 ent-PresentBase = 目前 | present
-    .desc = 一個小盒子，裡面藏著令人驚喜的驚喜。 | A little box with incredible surprises inside.
+    .desc = A little box with incredible surprises inside.
 ent-Present = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }
     .suffix = Empty
@@ -19,4 +19,4 @@ ent-PresentRandomCash = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }
     .suffix = Filled Cash
 ent-PresentTrash = 包裝紙 | wrapping paper
-    .desc = 仔細地摺疊好、用膠帶黏好，並繫上蝴蝶結。接著便鄭重其事地將它撕爛，拋到地板上。 | Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
+    .desc = Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.

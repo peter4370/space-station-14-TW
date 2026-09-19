@@ -1,9 +1,9 @@
 ent-AccessBreakerUnlimited = 身分驗證顛覆者 | authentication disruptor
-    .desc = 一款遭駭客入侵的門禁配置工具，專門用於解鎖數位門鎖並清除門禁權限。 | A hacked access configurator, specialized to unlock and erase access from digital locks.
+    .desc = A hacked access configurator, specialized to unlock and erase access from digital locks.
     .suffix = Unlimited
 ent-AccessBreaker = { ent-AccessBreakerUnlimited }
     .desc = { ent-AccessBreakerUnlimited.desc }
     .suffix = Limited
 ent-XenoborgAccessBreaker = 外星博格身份驗證干擾器 | xenoborg authentication disruptor
-    .desc = 一種由異種博格人設計的存取清除裝置，用於破壞數位鎖。 | An access scrubbing device, engineered by xenoborgs for disrupting digital locks.
+    .desc = An access scrubbing device, engineered by xenoborgs for disrupting digital locks.
     .suffix = Limited

@@ -8,3 +8,4 @@ advertisement-dinnerware-7 = 你其實不需要這些……
 advertisement-dinnerware-8 = 想要的話就拿去吧！
 advertisement-dinnerware-9 = 我相當確定燒杯是不可或缺的。
 advertisement-dinnerware-10 = 為什麼馬克杯的種類這麼多？
+

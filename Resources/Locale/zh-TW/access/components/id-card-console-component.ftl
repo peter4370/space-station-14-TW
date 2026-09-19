@@ -8,6 +8,7 @@ id-card-console-window-insert-button = 插入
 id-card-console-window-job-selection-label = 工作預設值（設定部門和工作圖示）：
 id-card-console-window-select-all-button = 授予所有
 id-card-console-window-deselect-all-button = 撤銷所有
+
 access-id-card-console-component-no-hands-error = 你沒有手。
 id-card-console-privileged-id = 具特權的識別碼
 id-card-console-target-id = 目標識別碼

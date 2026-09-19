@@ -1,5 +1,5 @@
 ent-SurveillanceCameraRouterBase = 攝影機路由器 | camera router
-    .desc = 一款監控攝影機路由器。它負責路由。或許吧。 | A surveillance camera router. It routes. Perhaps.
+    .desc = A surveillance camera router. It routes. Perhaps.
 ent-SurveillanceCameraRouterConstructed = { ent-SurveillanceCameraRouterBase }
     .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Constructed
@@ -28,7 +28,7 @@ ent-SurveillanceCameraRouterGeneral = 通用攝影機路由器 | general camera 
     .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = General
 ent-SurveillanceCameraWirelessRouterBase = 無線攝影機路由器 | wireless camera router
-    .desc = 一款無線監控攝影機路由器。它能進行路由。或許吧。 | A wireless surveillance camera router. It routes. Perhaps.
+    .desc = A wireless surveillance camera router. It routes. Perhaps.
 ent-SurveillanceCameraWirelessRouterConstructed = { ent-SurveillanceCameraWirelessRouterBase }
     .desc = { ent-SurveillanceCameraWirelessRouterBase.desc }
     .suffix = Constructed

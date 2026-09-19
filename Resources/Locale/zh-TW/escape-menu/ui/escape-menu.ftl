@@ -9,4 +9,5 @@ ui-escape-disconnect = 斷開連接
 ui-escape-quit = 退出
 ui-escape-feedback = 回饋
 ui-escape-remarks = 管理員備註
+
 ui-escape-remarks-button-disabled = 此功能已由伺服器停用。

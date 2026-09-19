@@ -9,3 +9,4 @@ advertisement-magivend-8 = 摧毀這座太空站！
 advertisement-magivend-9 = 時空彎曲裝置！
 advertisement-magivend-10 = 1234 加元硬幣，哈哈！
 advertisement-magivend-11 = 納爾西，崛起吧！！！
+

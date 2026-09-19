@@ -1,10 +1,10 @@
 ent-ClothingUniformJumpsuitResearchDirector = 科學主任的高領衫 | research director's turtleneck
-    .desc = 這是一件高領衫，專為那些具備勝任研究總監職位所需專業知識的人士所穿。其布料能提供輕微的防護，抵禦生物污染物。 | It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+    .desc = It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
 ent-ClothingUniformJumpsuitScientist = 科學家連身工作服 | scientist jumpsuit
-    .desc = 它由一種特殊纖維製成，能提升他人對穿戴者的智商印象，同時削弱其個人道德觀。上面印有標誌，表明穿戴者是一名科學家。 | It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
+    .desc = It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
 ent-ClothingUniformJumpsuitScientistFormal = 科學家的正式連身工作服 | scientist's formal jumpsuit
-    .desc = 一款專為優雅科學家設計的制服，最適合搭配同款領帶穿著。 | A uniform for sophisticated scientists, best worn with its matching tie.
+    .desc = A uniform for sophisticated scientists, best worn with its matching tie.
 ent-ClothingUniformJumpsuitRoboticist = 機器人工程師連身工作服 | roboticist jumpsuit
-    .desc = 這是一款修身款的黑色工作服，縫線經過加固處理；非常適合從事工業工作。 | It's a slimming black with reinforced seams; great for industrial work.
+    .desc = It's a slimming black with reinforced seams; great for industrial work.
 ent-ClothingUniformJumpsuitSeniorResearcher = 資深科學家連身工作服 | senior researcher jumpsuit
-    .desc = 這是科學系內展現專業能力與聲望的象徵。 | A sign of skill and prestige within the science department.
+    .desc = A sign of skill and prestige within the science department.

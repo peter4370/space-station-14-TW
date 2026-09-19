@@ -4,8 +4,11 @@ signal-linker-component-unlinked-port = 已成功將 { $machine1 }:{ $port1 } �
 signal-linker-component-connection-refused = { $machine } 拒絕了此連線！
 signal-linker-component-max-connections-receiver = 接收端已達到最大連線數！
 signal-linker-component-max-connections-transmitter = 發射器已達到最大連接數！
+
 signal-linker-component-type-mismatch = 此連接埠的類型與已儲存連接埠的類型不符！
+
 signal-linker-component-out-of-range = 連線超出範圍！
+
 # Verbs
 signal-linking-verb-text-link-default = 連結預設埠
 signal-linking-verb-success = 已連線所有預設 { $machine } 連結。

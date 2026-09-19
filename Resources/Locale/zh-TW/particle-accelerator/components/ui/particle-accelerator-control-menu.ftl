@@ -17,6 +17,7 @@ particle-accelerator-control-menu-draw-value = { $watts }/{ $lastReceive }
 particle-accelerator-control-menu-draw-not-available = { "[" }color=gray]不適用[/color]
 particle-accelerator-control-menu-flavor-left = 請不要讓小丑接近這個控制台！
 particle-accelerator-control-menu-flavor-right = v 1.6
+
 particle-accelerator-radio-message-on = PA 電源已開啟。
 particle-accelerator-radio-message-off = PA 的電源已關閉。
 particle-accelerator-radio-message-num = PA 強度已設定為 { $level } 級。

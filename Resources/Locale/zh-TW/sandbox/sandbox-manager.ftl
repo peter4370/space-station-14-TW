@@ -1,7 +1,9 @@
 sandbox-window-title = 沙盒面板
+
 sandbox-window-map-editing-label = 編輯
 sandbox-window-visibility-label = 可見度
 sandbox-window-your-character-label = 你的角色
+
 sandbox-window-ai-overlay-button = AI 疊加
 sandbox-window-respawn-button = 重生
 sandbox-window-spawn-entities-button = 生成實體

@@ -1,9 +1,9 @@
 ent-MysteryFigureBoxTrash = 展開的紙箱 | unfolded cardboard box
-    .desc = 一個未摺疊的小紙板玩具盒。 | A small, unfolded cardboard toy box.
+    .desc = A small, unfolded cardboard toy box.
 ent-MysteryFigureBox = 神秘太空人迷你人偶盒 | mystery spacemen minifigure box
-    .desc = 一個裝有神秘迷你人偶的盒子。盒子側面印有幾款被遮蔽的「稀有」人偶，其中一個擁有巨大且非人形的輪廓。 | A box containing a mystery minifigure. The side of the box depicts a few blacked-out 'rare' figures, including one with a large, non-humanoid shilouette.
+    .desc = A box containing a mystery minifigure. The side of the box depicts a few blacked-out 'rare' figures, including one with a large, non-humanoid shilouette.
 ent-MysteryLighterBox = 新奇打火機神秘禮盒 | Novelty lighter mystery box
-    .desc = 一盒已停產的促銷打火機，其中許多現已被列為「違禁品」。 | A box of discontinued promotional lighters, many of which have since been declared "contraband".
+    .desc = A box of discontinued promotional lighters, many of which have since been declared "contraband".
     .suffix = Filled
 ent-UplinkLighterBox = { ent-MysteryLighterBox }
     .desc = { ent-MysteryLighterBox.desc }

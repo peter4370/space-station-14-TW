@@ -9,7 +9,9 @@ inner-anomaly-start-message-grav = 萬物同時變得既不自然地沉重，又
 inner-anomaly-start-message-tech = 腦中充斥著大量雜亂無章的資訊，讓你暈頭轉向！你竟成了某項科技異常的宿主。
 inner-anomaly-start-message-rock = 水晶正從你的骨頭裡生長出來！你已成為一處岩石異常的宿主。
 inner-anomaly-start-message-santa = 你已經完全沉迷於聖誕氛圍了！你成了某場聖誕異象的主辦者。
+
 inner-anomaly-end-message = 你內心的異常活動便會無跡可尋地消失……
+
 inner-anomaly-severity-info-50 = 你感覺到那股異常正逐漸佔據你半邊身體。
 inner-anomaly-severity-info-75 = 你感覺到那股異常正逐漸佔據你身體的大部分。
 inner-anomaly-severity-info-90 = 你感覺到那股異常幾乎已完全掌控了你的身體。

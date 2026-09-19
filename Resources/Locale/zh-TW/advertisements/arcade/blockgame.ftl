@@ -11,6 +11,7 @@ advertisement-block-game-10 = 《Nanotrasen 積木遊戲》正是《俄羅斯方
 advertisement-block-game-11 = 現已支援批量處理！
 advertisement-block-game-12 = 我們的律師隨時待命！
 advertisement-block-game-13 = 哈利路亞，積木下雨了！
+
 thankyou-block-game-1 = 很快再玩吧！
 thankyou-block-game-2 = 幹得漂亮！
 thankyou-block-game-3 = 就再打一場？

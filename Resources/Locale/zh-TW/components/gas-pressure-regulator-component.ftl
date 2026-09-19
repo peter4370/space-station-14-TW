@@ -13,6 +13,7 @@ gas-pressure-regulator-ui-target = 設定點
 gas-pressure-regulator-ui-flow = 流程
 gas-pressure-regulator-ui-outlet = 輸出
 gas-pressure-regulator-ui-inlet = 進氣口
+
 # Units
 gas-pressure-regulator-ui-flow-rate-unit = 全景鏡頭
 gas-pressure-regulator-ui-pressure-unit = kPa

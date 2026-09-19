@@ -3,6 +3,7 @@ research-discipline-industrial = 工業類
 research-discipline-arsenal = 軍火類
 research-discipline-experimental = 實驗類
 research-discipline-civilian-services = 民用服務類
+
 research-technology-fulton = 富爾頓家族
 research-technology-salvage-equipment = 打撈設備
 research-technology-advanced-powercells = 先進電力電池
@@ -20,6 +21,7 @@ research-technology-bluespace-storage = Bluespace 儲存服務
 research-technology-optimized-microgalvanism = 優化的微電鍍
 research-technology-space-scanning = 空間掃描
 research-technology-excavation = 大規模挖掘
+
 research-technology-salvage-weapons = 打撈武器
 research-technology-draconic-munitions = 龍族彈藥
 research-technology-uranium-munitions = 鈾彈藥
@@ -38,6 +40,7 @@ research-technology-basic-shuttle-armament = 穿梭機基本武裝
 research-technology-advanced-shuttle-weapon = 先進穿梭武器
 research-technology-thermal-weaponry = 熱能武器
 research-technology-dual-wielding-technology = 雙持技術
+
 research-technology-basic-robotics = 基礎機器人學
 research-technology-basic-anomalous-research = 基礎異常現象研究
 research-technology-basic-xenoarcheology = 外星考古學基礎
@@ -54,6 +57,7 @@ research-technology-advanced-anomaly-research = 進階異常研究
 research-technology-rped = 快速以舊換新
 research-technology-super-parts = 超級零件
 research-technology-deterrence = 威懾科技
+
 research-technology-janitorial-equipment = 清潔設備
 research-technology-laundry-tech = 洗衣技術
 research-technology-basic-hydroponics = 水耕栽培基礎

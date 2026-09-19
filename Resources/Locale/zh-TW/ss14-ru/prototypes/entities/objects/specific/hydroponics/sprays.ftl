@@ -1,9 +1,9 @@
 ent-PlantBGoneSpray = Plant-B-Gone | Plant-B-Gone
-    .desc = 徹底消滅那些惱人的雜草！ | Kills those pesky weeds!
+    .desc = Kills those pesky weeds!
     .suffix = Filled
 ent-WeedSpray = 除草劑 | weed spray
-    .desc = 這是一種噴霧狀的有毒混合物，用於殺死小型雜草。 | It's a toxic mixture, in spray form, to kill small weeds.
+    .desc = It's a toxic mixture, in spray form, to kill small weeds.
     .suffix = Filled
 ent-PestSpray = 殺蟲噴霧 | pest spray
-    .desc = 這是一種除蟲噴霧！請勿吸入！ | It's some pest eliminator spray! Do not inhale!
+    .desc = It's some pest eliminator spray! Do not inhale!
     .suffix = Filled

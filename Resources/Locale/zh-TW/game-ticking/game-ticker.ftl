@@ -26,15 +26,15 @@ game-ticker-get-info-preround-text = 您好，歡迎來到 [color=white]太空�
 game-ticker-no-map-selected = { "[" }color=yellow]尚未選取地圖！[/color]
 game-ticker-player-no-jobs-available-when-joining = 嘗試加入遊戲時，沒有可選的職務。
 
-# 當玩家加入時，在聊天視窗中向管理員顯示的訊息：
+# Displayed in chat to admins when a player joins
 player-join-message = 玩家 { $name } 已加入。
 player-first-join-message = 玩家 { $name } 首次加入。
 
-# 當玩家離開時，在聊天視窗中向管理員顯示的訊息
+# Displayed in chat to admins when a player leaves
 player-leave-message = Player { $name } left.
 
 latejoin-arrival-announcement = { $character } ({ $job }) 已抵達太空站！
-latejoin-arrival-announcement-special =《 { $job } { $character } 》 即將登場！
+latejoin-arrival-announcement-special = 《 { $job } { $character } 》 即將登場！
 latejoin-arrival-sender = 太空站
 latejoin-arrivals-direction = 一輛穿梭機將於稍後抵達，載送您前往您的太空站。
 latejoin-arrivals-direction-time = 穿梭機將載您前往太空站，預計抵達時間為 { $time }。

@@ -7,6 +7,7 @@ deployable-turret-component-access-denied = 存取遭拒
 deployable-turret-component-no-ammo = 武器系統已耗盡
 deployable-turret-component-is-broken = 炮塔受損嚴重，必須進行維修
 deployable-turret-component-cannot-access-wires = 當炮塔處於運作狀態時，您無法接觸到維護面板
+
 # Turret notification for station AI
 station-ai-turret-component-name = { $name } ({ $address })
 station-ai-turret-component-is-attacking-warning = { CAPITALIZE($source) } 已鎖定一項敵對目標。

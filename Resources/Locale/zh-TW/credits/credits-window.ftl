@@ -13,6 +13,7 @@ credits-window-immortals-title = 追思
 credits-window-special-thanks-section-title = 特別鳴謝
 credits-window-previous-page-button = 上一頁
 credits-window-next-page-button = 下一頁
+
 credits-window-attributions-directory = { "[" }color=white]目錄：[/color] { $directory }
 credits-window-attributions-files = { "[" }color=white]檔案：[/color] { $files }
 credits-window-attributions-copyright = { "[" }color=white]版權所有：[/color] { $copyright }

@@ -1,5 +1,5 @@
 ent-TravelCamera = 旅遊相機 | travel camera
-    .desc = 一圖勝千言。配備超亮閃光燈及內建可充電式攝影捲軸。 | A picture says more than a thousand words. Comes with an ultrabright flash and internal recharging photo roll.
+    .desc = A picture says more than a thousand words. Comes with an ultrabright flash and internal recharging photo roll.
 ent-BasePhotograph = 照片 | photograph
     .desc = { ent-BasePaper.desc }
 ent-PhotographBlack = { ent-BasePhotograph }

@@ -1,5 +1,5 @@
 ent-GlowstickBase = 螢光棒 | glowstick
-    .desc = 在狂歡派對和緊急情況下都很實用。 | Useful for raves and emergencies.
+    .desc = Useful for raves and emergencies.
 ent-GlowstickRed = 紅色發光棒 | red glowstick
     .desc = { ent-GlowstickBase.desc }
 ent-GlowstickPurple = 紫色螢光棒 | purple glowstick

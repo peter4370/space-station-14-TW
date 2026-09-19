@@ -1,6 +1,5 @@
 markings-search = 搜尋
--markings-selection =
-    { $selectable ->
+-markings-selection = { $selectable ->
         [0] 您已無剩餘標記。
         [one] 您還可以選擇一個標記。
        *[other] 您還可以選擇 { $selectable } 個標記。
@@ -20,6 +19,7 @@ markings-limits = { $required ->
     }
 }
 markings-reorder = 重新排列標記
+
 humanoid-marking-modifier-respect-limits = 尊重界限
 humanoid-marking-modifier-respect-group-sex = 請遵守群組與性別限制
 humanoid-marking-modifier-base-layers = 底層衣物
@@ -39,6 +39,7 @@ markings-organ-LegRight = 右腿
 markings-organ-FootLeft = 左腳
 markings-organ-FootRight = 右腳
 markings-organ-Eyes = 眼睛
+
 markings-layer-Special = 特別
 markings-layer-Tail = 尾巴
 markings-layer-Tail-Moth = 翅膀
@@ -63,3 +64,4 @@ markings-layer-RFoot = 右腳
 markings-layer-LFoot = 左腳
 markings-layer-Overlay = 覆蓋層
 markings-layer-TailOverlay = 尾巴覆蓋層
+

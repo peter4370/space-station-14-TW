@@ -1,11 +1,11 @@
 ent-ResearchDisk = 研究點磁碟 (1000) | research point disk (1000)
-    .desc = 一張用於研發伺服器的磁碟，內含 1000 個資料點。 | A disk for the R&D server containing 1000 points.
+    .desc = A disk for the R&D server containing 1000 points.
 ent-ResearchDisk5000 = 研究點磁碟 (5000) | research point disk (5000)
-    .desc = 一張存有 5000 個資料點的 R&D 伺服器專用光碟。 | A disk for the R&D server containing 5000 points.
+    .desc = A disk for the R&D server containing 5000 points.
 ent-ResearchDisk10000 = 研究點磁碟 (10000) | research point disk (10000)
-    .desc = 一張用於研發伺服器的磁碟，內含 10,000 個資料點。 | A disk for the R&D server containing 10000 points.
+    .desc = A disk for the R&D server containing 10000 points.
 ent-ResearchDiskDebug = 研究點磁碟 | research point disk
-    .desc = 一張專供研發伺服器使用的光碟，其中收錄了您可能需要的所有資料點。 | A disk for the R&D server containing all the points you could ever need.
+    .desc = A disk for the R&D server containing all the points you could ever need.
     .suffix = DEBUG, DO NOT MAP
 ent-TechnologyDisk = 科技專欄 | technology disk
     .desc = { ent-BaseItem.desc }

@@ -8,4 +8,4 @@ ent-ClothingShoesBootsSecFilled = { "" }
     .desc = { "" }
     .suffix = Filled
 ent-ClothingShoesBaseWinterBoots = { ent-ClothingShoesBaseButcherable }
-    .desc = 毛茸茸的靴子，助您度過最嚴寒的冬天。 | Fluffy boots to help survive even the coldest of winters.
+    .desc = Fluffy boots to help survive even the coldest of winters.

@@ -1,5 +1,5 @@
 ent-ShadowBasaltOne = 影石 | shadowstone
-    .desc = 現實中發光的裂痕。應該沒問題吧。 | Glowing cracks in reality. It's probably fine.
+    .desc = Glowing cracks in reality. It's probably fine.
 ent-ShadowBasaltTwo = { ent-ShadowBasaltOne }
     .desc = { ent-ShadowBasaltOne.desc }
 ent-ShadowBasaltThree = { ent-ShadowBasaltOne }

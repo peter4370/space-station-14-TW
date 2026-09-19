@@ -1,5 +1,5 @@
 ent-SheetOtherBase = { ent-BaseSheet }
-    .desc = 一種常在太空站中用於各種用途的片狀材料。 | A sheet of material, used often on the station in various applications.
+    .desc = A sheet of material, used often on the station in various applications.
 ent-SheetPaper = 紙 | paper
     .desc = { ent-SheetOtherBase.desc }
     .suffix = Full

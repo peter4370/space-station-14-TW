@@ -1,10 +1,10 @@
 ent-CigCartonGreen = Spessman's Smokes 紙盒 | Spessman's Smokes carton
-    .desc = 一盒，內含 6 包 Spessman's Smokes。 | A carton containing 6 packets of Spessman's Smokes.
+    .desc = A carton containing 6 packets of Spessman's Smokes.
 ent-CigCartonRed = DromedaryCo 紙盒 | DromedaryCo carton
-    .desc = 一盒內含 6 包 Dromedarycos。 | A carton containing 6 packets of Dromedarycos.
+    .desc = A carton containing 6 packets of Dromedarycos.
 ent-CigCartonBlue = AcmeCo 紙盒 | AcmeCo carton
-    .desc = 一盒，內含 6 包 AcmeCo. 產品。 | A carton containing 6 packets of AcmeCo.
+    .desc = A carton containing 6 packets of AcmeCo.
 ent-CigCartonBlack = Nomads 紙盒 | Nomads carton
-    .desc = 一盒，內含 6 包 Nomads。 | A carton containing 6 packets of Nomads.
+    .desc = A carton containing 6 packets of Nomads.
 ent-CigCartonMixed = Dan 的濕透香菸 | Dan's soaked smokes
-    .desc = 一盒內含 3 包 Dan 的濕透香菸。 | A carton containg 3 packets of Dan's soaked smokes.
+    .desc = A carton containg 3 packets of Dan's soaked smokes.

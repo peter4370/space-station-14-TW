@@ -1,4 +1,5 @@
 admin-explosion-eui-title = 觸發爆炸
+
 admin-explosion-eui-label-type = 爆炸類型
 admin-explosion-eui-label-mapid = 地圖編號
 admin-explosion-eui-label-xmap = X（地圖）
@@ -13,8 +14,10 @@ admin-explosion-eui-label-angle = 角度
 admin-explosion-eui-label-spread = 點差
 admin-explosion-eui-label-distance = 距離
 admin-explosion-eui-label-spawn = 轟！
+
 cmd-explosionui-desc = 開啟一個視窗，方便您執行太空站摧毀操作。
 cmd-explosionui-help = 用法：explosionui
+
 cmd-explosion-desc = 火車「砰」的一聲
 cmd-explosion-help = 用法：explosion [強度] [斜率] [最大強度] [x y] [地圖 ID] [原型 ID]
 cmd-explosion-failed-to-parse-intensity = 無法解析強度：{ $value }

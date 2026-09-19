@@ -1,11 +1,11 @@
 ent-Holopad = 全息平板 | holopad
-    .desc = 一種用於投射全像影像的地面安裝式裝置。 | A floor-mounted device for projecting holographic images.
+    .desc = A floor-mounted device for projecting holographic images.
 ent-HolopadLongRange = 長距離全息板 | long-range holopad
-    .desc = 一種設置於地面的裝置，用於將全息影像投射至遠處的類似裝置上。 | A floor-mounted device for projecting holographic images to similar devices that are far away.
+    .desc = A floor-mounted device for projecting holographic images to similar devices that are far away.
 ent-HolopadUnlimitedRange = 量子糾纏全息板 | quantum entangling holopad
-    .desc = 一種地面安裝式裝置，用於將全息影像投射至極遠距離處的類似裝置上。 | An floor-mounted device for projecting holographic images to similar devices at extreme distances.
+    .desc = An floor-mounted device for projecting holographic images to similar devices at extreme distances.
 ent-HolopadBluespace = bluespace 全息面板 | bluespace holopad
-    .desc = 一款透過「藍色空間」投影全息影像的實驗性落地式裝置。 | An experimental floor-mounted device for projecting holographic images via bluespace.
+    .desc = An experimental floor-mounted device for projecting holographic images via bluespace.
     .suffix = Unrestricted range
 ent-HolopadHologram = 全息圖 | hologram
     .desc = { "" }

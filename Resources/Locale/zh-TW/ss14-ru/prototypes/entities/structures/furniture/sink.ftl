@@ -1,5 +1,5 @@
 ent-SinkEmpty = 水槽 | sink
-    .desc = 水龍頭已擰緊至最大扭力，但據悉仍會滴水。 | The faucets have been tightened to the maximum possible torque but are still known to drip.
+    .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
     .suffix = Empty
 ent-Sink = { ent-SinkEmpty }
     .desc = { ent-SinkEmpty.desc }

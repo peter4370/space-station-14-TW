@@ -1,5 +1,5 @@
 ent-ClothingHeadsetAlt = 耳機 | headset
-    .desc = 一款經過升級、採用模組化設計的頭戴式對講機。可存放加密金鑰。 | An updated, modular intercom that fits over the head. Takes encryption keys.
+    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
 ent-ClothingHeadsetAltCargo = 司務長專用包耳式耳機 | quartermaster's over-ear headset
     .desc = { ent-ClothingHeadsetAlt.desc }
 ent-ClothingHeadsetAltCentCom = 中央司令部 包耳式耳機 | CentComm over-ear headset
@@ -15,7 +15,7 @@ ent-ClothingHeadsetAltSecurity = 安全主管的包耳式耳機 | head of securi
 ent-ClothingHeadsetAltScience = 科學主任的包耳式耳機 | research director's over-ear headset
     .desc = { ent-ClothingHeadsetAlt.desc }
 ent-ClothingHeadsetAltSyndicate = 血紅色的包耳式耳機 | blood-red over-ear headset
-    .desc = 一款經過升級的模組化幫派對講機，可戴在頭上，並配備加密金鑰插槽（共 5 個插槽）。 | An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+    .desc = An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
 ent-ClothingHeadsetAltFreelancer = 自由工作者專用的包耳式耳機 | freelancer's over-ear headset
     .desc = { ent-ClothingHeadsetAlt.desc }
 ent-ClothingHeadsetAltWizard = 巫師的包耳式耳機 | wizard's over-ear headset

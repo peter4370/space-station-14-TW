@@ -1,5 +1,5 @@
 ent-GasPipeSansLayersIndestructible = 氣體管 | gas pipe
-    .desc = 可儲存氣體。 | Holds gas.
+    .desc = Holds gas.
 ent-GasPipeSansLayers = { ent-GasPipeSansLayersIndestructible }
     .desc = { ent-GasPipeSansLayersIndestructible.desc }
 ent-BaseGasPipeLayers = { "" }
@@ -22,6 +22,6 @@ ent-{'values': ['GasPipeFourway', 'GasPipeFourwayAlt1', 'GasPipeFourwayAlt2']} =
     .desc = { ent-GasPipeBase.desc }
     .suffix = Fourway
 ent-GasPipeBroken = 破裂的管道 | broken pipe
-    .desc = 它以前是用來儲存氣體的。 | It used to hold gas.
+    .desc = It used to hold gas.
 ent-GasPipeManifold = 燃氣管路匯流排 | gas pipe manifold
-    .desc = 可將不同配置的氣體管相互連接。 | Allows gas pipes of different configurations to be connected together.
+    .desc = Allows gas pipes of different configurations to be connected together.

@@ -1,10 +1,10 @@
 ent-Joint = 大麻煙卷 | joint
-    .desc = 一卷用薄紙包裹的乾燥植物材料。 | A roll of dried plant matter wrapped in thin paper.
+    .desc = A roll of dried plant matter wrapped in thin paper.
 ent-JointRainbow = 大麻煙卷 | joint
-    .desc = 一卷用薄紙包裹的乾燥植物材料。內部似乎色彩繽紛。 | A roll of dried plant matter wrapped in thin paper. Seems to be colorful inside.
+    .desc = A roll of dried plant matter wrapped in thin paper. Seems to be colorful inside.
     .suffix = Rainbow
 ent-Blunt = 手捲煙 | blunt
-    .desc = 一捲用乾燥菸葉包裹的乾燥植物材料。 | A roll of dried plant matter wrapped in a dried tobacco leaf.
+    .desc = A roll of dried plant matter wrapped in a dried tobacco leaf.
 ent-BluntRainbow = 手捲煙 | blunt
-    .desc = 一卷用乾燥菸葉包裹的乾燥植物材料。內部似乎色彩繽紛。 | A roll of dried plant matter wrapped in a dried tobacco leaf. Seems to be colorful inside.
+    .desc = A roll of dried plant matter wrapped in a dried tobacco leaf. Seems to be colorful inside.
     .suffix = Rainbow

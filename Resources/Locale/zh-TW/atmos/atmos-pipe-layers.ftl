@@ -1,6 +1,7 @@
 atmos-pipe-layers-component-layer-primary = 主要
 atmos-pipe-layers-component-layer-secondary = 次要的
 atmos-pipe-layers-component-layer-tertiary = 第三級
+
 atmos-pipe-layers-component-change-layer = 已根據其 { $layerName } 設定進行調整。
 atmos-pipe-layers-component-current-layer = 它位於 { $layerName } 的設定中。
 atmos-pipe-layers-component-select-layer = { CAPITALIZE($layerName) } 設定

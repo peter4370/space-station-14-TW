@@ -1,7 +1,7 @@
 ent-BaseFloorDecoration = { "" }
     .desc = { "" }
 ent-Stairs = 樓梯 | stairs
-    .desc = 這是自火箭推進榴彈以來最偉大的發明。 | The greatest invention since rocket-propelled grenades.
+    .desc = The greatest invention since rocket-propelled grenades.
     .suffix = Steel
 ent-StairStage = { ent-Stairs }
     .desc = { ent-Stairs.desc }

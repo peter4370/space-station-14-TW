@@ -14,5 +14,5 @@ wires-menu-help-popup =
     手持多功能工具點擊金色接點，以對其電線進行脈衝操作。
     手持剪線鉗點擊電線，以進行剪斷／接合操作。
 
-    頂部的指示燈顯示機台的狀態，隨意操作電線可能會對其造成影響。
-    每輪的電線佈局各不相同，但同類型機器之間的佈局保持一致。
+    The lights at the top show the state of the machine, messing with wires will probably do stuff to them.
+    Wire layouts are different each round, but consistent between machines of the same type.

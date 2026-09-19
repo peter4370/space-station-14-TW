@@ -1,10 +1,10 @@
 ent-ClothingUniformJumpskirtOperative = 作戰式連身裙 | operative jumpskirt
-    .desc = 專為在深空執行戰術行動的精英組織特工設計的制服。 | Uniform for elite syndicate operatives performing tactical operations in deep space.
+    .desc = Uniform for elite syndicate operatives performing tactical operations in deep space.
 ent-ClothingUniformJumpskirtTacticool = 戰術風連身裙 | tacticool jumpskirt
-    .desc = 專為在深空執行「戰術絕緣手套竊盜」任務、表現平平的實境扮演者（LARPer）所設計的制服。 | Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
+    .desc = Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
 ent-ClothingUniformJumpskirtSyndieFormalDress = 辛迪加正式禮服 | syndicate formal dress
-    .desc = 該組織的制服設計優雅，穿著這身制服去搞些骯髒把戲，實在有些可惜。 | The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this.
+    .desc = The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this.
 ent-ClothingUniformJumpskirtTacticalMaid = 戰術女僕套裝裙 | tactical maid suitskirt
-    .desc = 一般認為，最優秀的傭人應該擁有設計師款套裝。 | It is assumed that the best maids should have designer suits.
+    .desc = It is assumed that the best maids should have designer suits.
 ent-ClothingUniformJumpskirtWeb = 網眼連身裙 | web jumpskirt
-    .desc = 這清楚地表明，你與蛛網合而為一。 | Makes it clear that you are one with the webs.
+    .desc = Makes it clear that you are one with the webs.

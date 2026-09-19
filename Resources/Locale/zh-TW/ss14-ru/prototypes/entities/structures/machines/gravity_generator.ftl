@@ -1,9 +1,9 @@
 ent-BaseGravityGenerator = { ent-BaseMachinePowered }
     .desc = { ent-BaseMachinePowered.desc }
 ent-GravityGenerator = 重力發生器 | gravity generator
-    .desc = 這正是讓你緊貼地面的原因。 | It's what keeps you to the floor.
+    .desc = It's what keeps you to the floor.
 ent-GravityGeneratorMini = 迷你重力發生器 | mini gravity generator
-    .desc = 正是它讓你緊貼地板，現在推出迷你裝。 | It's what keeps you to the floor, now in fun size.
+    .desc = It's what keeps you to the floor, now in fun size.
     .suffix = Charged
 ent-GravityGeneratorMiniUncharged = { ent-GravityGeneratorMini }
     .desc = { ent-GravityGeneratorMini.desc }

@@ -1,5 +1,5 @@
 ent-BaseRailing = 欄杆 | railing
-    .desc = 這只是個基本的護欄，用來防止像你這樣的白癡掉下去。 | Basic railing meant to protect idiots like you from falling.
+    .desc = Basic railing meant to protect idiots like you from falling.
 ent-Railing = { ent-BaseRailing }
     .desc = { ent-BaseRailing.desc }
 ent-RailingCorner = { ent-BaseRailing }

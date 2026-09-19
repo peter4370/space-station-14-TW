@@ -12,10 +12,13 @@ bounty-console-manifest-entry =
 bounty-console-manifest-reward = 獎勵：${ $reward }
 bounty-console-description-label = { "[" }color=gray]{ $description }[/color]
 bounty-console-id-label = ID#{ $id }
+
 bounty-console-flavor-left = 這些懸賞來自當地不擇手段的經銷商。
 bounty-console-flavor-right = v1.4
+
 bounty-manifest-header = { "[" }font size=14][bold]官方貨運懸賞貨單[/bold] (編號：{ $id })[/font]
 bounty-manifest-list-start = 貨物清單：
+
 bounty-console-tab-available-label = 可選
 bounty-console-tab-history-label = 紀錄
 bounty-console-history-empty-label = 未找到懸賞紀錄

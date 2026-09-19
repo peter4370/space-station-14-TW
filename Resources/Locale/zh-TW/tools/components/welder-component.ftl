@@ -4,8 +4,7 @@ welder-component-no-fuel-message = { $owner } 已經沒油了！
 welder-component-no-fuel-in-tank = { $target } 空了。
 welder-component-on-examine-welder-lit-message = { "[" }color=orange]點火[/color]
 welder-component-on-examine-welder-not-lit-message = 未點火
-welder-component-on-examine-detailed-message =
-    燃料：[color={ $colorName }]{ $fuelLeft }/{ $fuelCapacity }[/color]
+welder-component-on-examine-detailed-message = 燃料：[color={ $colorName }]{ $fuelLeft }/{ $fuelCapacity }[/color]
     { $status }
 welder-component-suicide-lit-others-message = { $victim } 把牠們的每個孔洞都焊得嚴嚴實實！看來牠們是在試圖自殺！
 welder-component-suicide-lit-message = 你把身上的每個孔洞都焊得滴水不漏！

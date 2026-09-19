@@ -8,9 +8,11 @@ ui-options-tab-controls = 控制項
 ui-options-tab-audio = 音訊
 ui-options-tab-network = 網路
 ui-options-tab-misc = 概述
+
 ui-options-apply = 儲存並套用
 ui-options-reset-all = 已重設變更
 ui-options-default = 重設為預設值
+
 ui-options-value-percent = { TOSTRING($value, "P0") }
 
 # Misc/General menu
@@ -49,6 +51,8 @@ ui-options-display-label = 顯示
 ui-options-quality-label = 品質
 ui-options-misc-label = 雜項
 ui-options-interface-label = 介面
+
+
 ui-options-auto-fill-highlights = 根據你的角色名稱和職業，自動設定精選清單
 ui-options-highlights-color = 重點標示顏色：
 ui-options-highlights-color-example = 這是已標示的文字。
@@ -92,19 +96,17 @@ ui-options-vp-stretch = 將視口拉伸以適應遊戲視窗
 ui-options-vp-scale = 固定視口比例：
 ui-options-vp-scale-value = x{ $scale }
 ui-options-vp-integer-scaling = 建議使用整數縮放（可能會導致黑邊／畫面裁切）
-ui-options-vp-integer-scaling-tooltip =
-    若啟用此選項，在特定解析度下，視口將根據整數值
-    進行縮放。雖然這能呈現清晰的紋理，但往往
-    會導致螢幕頂部／底部出現黑條，或是視口的一部分
-    無法顯示。
+ui-options-vp-integer-scaling-tooltip = 若啟用此選項，在特定解析度下，視口將根據整數值
+                                        進行縮放。雖然這能呈現清晰的紋理，但往往
+                                        會導致螢幕頂部／底部出現黑條，或是視口的一部分
+                                        無法顯示。
 ui-options-filter-label = 比例濾波器：
 ui-options-filter-nearest = 最近點（無平滑處理）
 ui-options-filter-bilinear = 雙線性（平滑）
 ui-options-vp-vertical-fit = 垂直視口調整
-ui-options-vp-vertical-fit-tooltip =
-    啟用此功能後，當主視口
-    以適應您的螢幕時，將完全忽略水平軸。若您的螢幕尺寸小於視口，則此
-    設定會導致視口在水平軸上被裁切。
+ui-options-vp-vertical-fit-tooltip = 啟用此功能後，當主視口
+                                     以適應您的螢幕時，將完全忽略水平軸。若您的螢幕尺寸小於視口，則此
+                                     設定會導致視口在水平軸上被裁切。
 ui-options-vp-low-res = 低解析度檢視窗
 ui-options-parallax-low-quality = 低品質的視差效果（背景）
 ui-options-ambient-occlusion = 顯示環境光遮蔽
@@ -117,11 +119,13 @@ ui-options-sharpness = 銳利度：
 
 ui-options-hold-to-attack-melee = 長按以攻擊（近戰）
 ui-options-hold-to-attack-ranged = 長按以攻擊（遠程）
+
 ui-options-binds-reset-all = 重設所有鍵位設定
 ui-options-binds-explanation = 點擊以變更綁定，右鍵點擊以清除
 ui-options-unbound = 未綁定
 ui-options-bind-reset = 重設
 ui-options-key-prompt = 請按任意鍵...
+
 ui-options-header-movement = 運動
 ui-options-header-camera = 相機
 ui-options-header-interaction-basic = 基本互動
@@ -138,20 +142,24 @@ ui-options-header-text-cursor-select = 文字選取
 ui-options-header-text-edit = 文字編輯
 ui-options-header-text-chat = 聊天
 ui-options-header-text-other = 其他文字輸入
+
 ui-options-hotkey-keymap = 使用美國 QWERTY 鍵盤
 ui-options-hotkey-toggle-walk = 切換步行模式
+
 ui-options-function-move-up = 向上移動
 ui-options-function-move-left = 向左移動
 ui-options-function-move-down = 向下移動
 ui-options-function-move-right = 向右移動
 ui-options-function-walk = 步行
 ui-options-function-toggle-knockdown = 切換爬行模式
+
 ui-options-function-camera-rotate-left = 向左旋轉
 ui-options-function-camera-rotate-right = 向右旋轉
 ui-options-function-camera-reset = 重設
 ui-options-function-zoom-in = 放大
 ui-options-function-zoom-out = 縮小
 ui-options-function-reset-zoom = 重設縮放比例
+
 ui-options-function-use = 用途
 ui-options-function-use-secondary = 使用次要選項
 ui-options-function-alt-use = 替代用途
@@ -168,6 +176,7 @@ ui-options-function-move-stored-item = 移動儲存的物品
 ui-options-function-rotate-stored-item = 旋轉儲存的物品
 ui-options-function-save-item-location = 儲存物品位置
 ui-options-static-storage-ui = 將儲存視窗鎖定至快速選單
+
 ui-options-function-smart-equip-backpack = Smart-equip 背包
 ui-options-function-smart-equip-belt = Smart-equip 至皮帶
 ui-options-function-smart-equip-suit-storage = 智慧型設備，滿足儲存需求
@@ -183,6 +192,7 @@ ui-options-function-point = 指向位置
 ui-options-function-rotate-object-clockwise = 順時針旋轉
 ui-options-function-rotate-object-counterclockwise = 逆時針旋轉
 ui-options-function-flip-object = Flip
+
 ui-options-function-focus-chat-input-window = 焦點聊天室
 ui-options-function-focus-local-chat-window = 焦點聊天室 (IC)
 ui-options-function-focus-emote = 聚焦聊天（表情符號）
@@ -213,9 +223,11 @@ ui-options-function-window-close-all = 關閉所有視窗
 ui-options-function-window-close-recent = 關閉最近開啟的視窗
 ui-options-function-show-escape-menu = 開關遊戲選單
 ui-options-function-escape-context = 關閉最近開啟的視窗或開關遊戲選單
+
 ui-options-function-take-screenshot = 擷取螢幕截圖
 ui-options-function-take-screenshot-no-ui = 擷取螢幕截圖（不含使用者介面）
 ui-options-function-toggle-fullscreen = 切換全螢幕模式
+
 ui-options-function-editor-place-object = 放置物件
 ui-options-function-editor-cancel-place = 取消安排
 ui-options-function-editor-grid-place = 放入網格中
@@ -223,6 +235,7 @@ ui-options-function-editor-line-place = 放置線
 ui-options-function-editor-rotate-object = 旋轉
 ui-options-function-editor-flip-object = Flip
 ui-options-function-editor-copy-object = 複製
+
 ui-options-function-show-debug-console = 開啟控制台
 ui-options-function-show-debug-monitors = 顯示除錯監控器
 ui-options-function-inspect-entity = 檢查實體
@@ -232,6 +245,7 @@ ui-options-function-inspect-server-component-tooltip = 開啟「ViewVariables」
 ui-options-function-inspect-client-component = 檢查客戶端元件
 ui-options-function-inspect-client-component-tooltip = 開啟「ViewVariables」視窗，並以「quickinspect」指令所設定的客戶端元件，針對滑鼠目前懸停的實體進行檢視。
 ui-options-function-hide-ui = 隱藏使用者介面
+
 ui-options-function-hotbar1 = 快捷欄第 1 格
 ui-options-function-hotbar2 = 快捷欄第 2 格
 ui-options-function-hotbar3 = 快速選單第 3 格
@@ -272,6 +286,7 @@ ui-options-function-loadoutshift7 = 快速選單配置 Shift+7
 ui-options-function-loadoutshift8 = 快速選單配置 Shift+8
 ui-options-function-loadoutshift9 = 快捷欄配置 Shift+9
 ui-options-function-loadoutshift0 = 快速選單配置 Shift+0
+
 ui-options-function-shuttle-strafe-up = 向上橫移
 ui-options-function-shuttle-strafe-right = 向右側移
 ui-options-function-shuttle-strafe-left = 向左側移
@@ -279,6 +294,7 @@ ui-options-function-shuttle-strafe-down = 向下橫向移動
 ui-options-function-shuttle-rotate-left = 向左旋轉
 ui-options-function-shuttle-rotate-right = 向右旋轉
 ui-options-function-shuttle-brake = 煞車
+
 ui-options-function-text-cursor-left = 將游標向左移動
 ui-options-function-text-cursor-right = 將游標向右移動
 ui-options-function-text-cursor-up = 將游標向上移動
@@ -318,37 +334,36 @@ ui-options-function-text-complete-prev = 完成上一項
 ## Network menu
 
 ui-options-net-predict = 客戶端預測
+
 ui-options-net-interp-ratio = 狀態緩衝區大小
-ui-options-net-interp-ratio-tooltip =
-    增加此數值通常會使遊戲更能抵禦
-    伺服器→客戶端封包遺失的情況，然而這樣做
-    實際上會稍微增加延遲，並要求
-    客戶端預測更多未來的幀數。
+ui-options-net-interp-ratio-tooltip = 增加此數值通常會使遊戲更能抵禦
+                                      伺服器→客戶端封包遺失的情況，然而這樣做
+                                      實際上會稍微增加延遲，並要求
+                                      客戶端預測更多未來的幀數。
+
 ui-options-net-predict-tick-bias = 預測刻度偏差
-ui-options-net-predict-tick-bias-tooltip =
-    增加此數值通常會使遊戲更能抵禦
-    從客戶端傳往伺服器的封包遺失，然而這樣做
-    實際上會稍微增加延遲，並要求
-    客戶端預測更多未來的幀數。
+ui-options-net-predict-tick-bias-tooltip = 增加此數值通常會使遊戲更能抵禦
+                                           從客戶端傳往伺服器的封包遺失，然而這樣做
+                                           實際上會稍微增加延遲，並要求
+                                           客戶端預測更多未來的幀數。
+
 ui-options-net-pvs-spawn = PVS 實體生成預算
-ui-options-net-pvs-spawn-tooltip =
-    這會限制伺服器將新生成
-    實體傳送至客戶端的速率。降低此數值有助於減少因實體生成所導致的
-    卡頓，但可能會導致實體突然出現（pop-in）。
+ui-options-net-pvs-spawn-tooltip = 這會限制伺服器將新生成
+                                       實體傳送至客戶端的速率。降低此數值有助於減少因實體生成所導致的
+                                       卡頓，但可能會導致實體突然出現（pop-in）。
+
 ui-options-net-pvs-entry = PVS 實體預算
-ui-options-net-pvs-entry-tooltip =
-    這會限制伺服器將新出現的
-    實體傳送給客戶端的速率。降低此值有助於減少
-    畫面卡頓，但可能會導致畫面突然出現（pop-in）。
+ui-options-net-pvs-entry-tooltip = 這會限制伺服器將新出現的
+                                       實體傳送給客戶端的速率。降低此值有助於減少
+                                       畫面卡頓，但可能會導致畫面突然出現（pop-in）。
+
 ui-options-net-pvs-leave = PVS 脫落率
-ui-options-net-pvs-leave-tooltip =
-    這會限制客戶端移除
-    視線範圍外實體的速度。降低此參數有助於減少
-    行走時的畫面卡頓，但偶爾可能會
-    導致預測錯誤及其他問題。
+ui-options-net-pvs-leave-tooltip = 這會限制客戶端移除
+                                       視線範圍外實體的速度。降低此參數有助於減少
+                                       行走時的畫面卡頓，但偶爾可能會
+                                       導致預測錯誤及其他問題。
 
 ## Toggle window console command
-
 cmd-options-desc = 開啟選項選單，可選擇預先選取特定的分頁。
 cmd-options-help = 用法：options [tab]
 
@@ -357,8 +372,10 @@ cmd-options-help = 用法：options [tab]
 ui-options-accessibility-header-reduced-motion = 動作受限
 ui-options-accessibility-header-visuals = 視覺效果
 ui-options-accessibility-header-content = 內容
+
 ui-options-enable-color-name = 為角色名稱添加顏色
 ui-options-colorblind-friendly = 色盲友善模式
+
 ui-options-reduced-motion = 減少一般的視覺效果
 ui-options-reduced-motion-tooltip = 開啟此功能，部分物品顯示為動作幅度較小的替代圖像。
 
@@ -380,43 +397,54 @@ ui-options-disable-rainbow-overlay = 彩虹疊加層
 ui-options-disable-rainbow-overlay-tooltip = 將彩虹疊加著色器中的動態效果替換為靜態偏移。
 ui-options-disable-singulo-warp = 奇點
 ui-options-disable-singulo-warp-tooltip = 停用奇點上的畫面變形效果。
+
 ui-options-screen-shake-intensity = 畫面晃動強度
+
 ui-options-chat-window-opacity = 聊天視窗的透明度
 ui-options-speech-bubble-text-opacity = 對話氣泡文字的不透明度
 ui-options-speech-bubble-speaker-opacity = 對話框中說話者的不透明度
 ui-options-speech-bubble-background-opacity = 對話氣泡背景的透明度
+
 ui-options-censor-nudity = 審查人物裸露畫面
 
 ## Admin menu
 
 ui-options-admin-player-panel = 管理員選單 玩家清單
+
 ui-options-admin-player-tab-symbol-setting = 字元欄位的對立符號
 ui-options-admin-player-tab-symbol-setting-off = 無對立符號
 ui-options-admin-player-tab-symbol-setting-basic = 顯示標準的對立符號
 ui-options-admin-player-tab-symbol-setting-specific = 顯示特定的對立符號
+
 ui-options-admin-player-tab-role-setting = 角色顯示設定
 ui-options-admin-player-tab-role-setting-roletype = 顯示角色類型
 ui-options-admin-player-tab-role-setting-subtype = 顯示子類型
 ui-options-admin-player-tab-role-setting-roletypesubtype = 顯示角色類型與子類型
 ui-options-admin-player-tab-role-setting-subtyperoletype = 顯示子類型與角色類型
+
 ui-options-admin-player-tab-color-setting = 色彩設定
 ui-options-admin-player-tab-color-setting-off = 我討厭顏色
 ui-options-admin-player-tab-color-setting-character = 將反派角色名稱上色
 ui-options-admin-player-tab-color-setting-roletype = 為所有角色類型上色
 ui-options-admin-player-tab-color-setting-both = 將兩者都上色
+
 ui-options-admin-overlay-title = 管理員覆蓋層
+
 ui-options-admin-overlay-antag-format = 採用 Antag 標籤風格
 ui-options-admin-overlay-antag-format-binary = 顯示 antag 狀態
 ui-options-admin-overlay-antag-format-roletype = 顯示角色類型
 ui-options-admin-overlay-antag-format-subtype = 顯示子類型
+
 ui-options-admin-overlay-antag-symbol = 選擇符號樣式
 ui-options-admin-overlay-antag-symbol-off = 無對立符號
 ui-options-admin-overlay-antag-symbol-basic = 顯示標準的對立符號
 ui-options-admin-overlay-antag-symbol-specific = 顯示特定的對立符號
+
 ui-options-admin-enable-overlay-playtime = 顯示播放時間
 ui-options-admin-enable-overlay-starting-job = 顯示起始工作
 ui-options-admin-overlay-merge-distance = 堆疊合併距離
 ui-options-admin-overlay-ghost-fade-distance = 滑鼠游標的幽靈疊加淡入淡出範圍
 ui-options-admin-overlay-ghost-hide-distance = 「幽靈疊加」功能會根據滑鼠位置隱藏範圍
+
 ui-options-admin-strip-overlay-title = 條狀疊加
 ui-options-admin-strip-overlay-setting = 預設顯示條狀疊加層

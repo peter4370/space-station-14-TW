@@ -10,6 +10,9 @@ role-timer-whitelisted-species = 若要選擇此選項，你的角色必須屬�
 role-timer-blacklisted-species = 若要選擇此選項，您的角色不得屬於以下任何一種種族：
 role-timer-whitelisted-traits = 若要選擇此選項，您的角色必須具備以下其中一項特質：
 role-timer-blacklisted-traits = 若要選擇此選項，您的角色不得具備以下任何一項特質：
+
 role-timer-locked = 已鎖定（將游標懸停於上即可查看詳細資訊）
+
 role-timer-department-unknown = 未知部門
+
 role-ban = 您已被禁止擔任此職務。

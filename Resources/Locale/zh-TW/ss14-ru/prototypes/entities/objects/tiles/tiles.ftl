@@ -1,5 +1,5 @@
 ent-FloorTileItemBase = { ent-BaseItem }
-    .desc = 這些東西用來當投擲武器應該還挺不錯的。 | These could work as a pretty decent throwing weapon.
+    .desc = These could work as a pretty decent throwing weapon.
 ent-FloorTileItemSteelCheckerDark = 鋼製深色棋盤格磁磚 | steel dark checker tile
     .desc = { ent-FloorTileItemSteel.desc }
 ent-FloorTileItemSteelCheckerLight = 鋼製淺色格紋瓷磚 | steel light checker tile

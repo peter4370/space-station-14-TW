@@ -1,5 +1,6 @@
 cmd-adduplink-desc = 在選定的項目上建立上行連結，並將其連結至使用者帳戶
 cmd-adduplink-help = 用法：adduplink [使用者名稱] [項目 ID] [discountEnabled]
+
 add-uplink-command-completion-1 = 使用者名稱（預設為 self）
 add-uplink-command-completion-2 = 上行鏈路 UID（預設為 PDA）
 add-uplink-command-completion-3 = 上行頻寬折扣是否已啟用

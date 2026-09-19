@@ -1,11 +1,11 @@
 ent-ChameleonProjectorNoBattery = 變色龍投影機 | chameleon projector
-    .desc = 全息寄生體技術可用於創造你周遭任何物體的硬光複製品。一旦被拾起或停用，偽裝效果即會消失。 | Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+    .desc = Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
 ent-ChameleonProjector = 變色龍投影機 | chameleon projector
-    .desc = 全息寄生體技術可用於創造你周遭任何物體的硬光複製品。一旦被拾起或停用，偽裝效果即會消失。 | Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+    .desc = Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
     .suffix = Battery
 ent-ChameleonDisguise = 尤里斯·麥克萊納 | Urist McKleiner
     .desc = { "" }
 ent-ActionDisguiseNoRot = 切換旋轉方向 | Toggle Rotation
-    .desc = 使用此功能可防止你的偽裝旋轉，讓你在某些情況下更容易隱藏身形。 | Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
+    .desc = Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
 ent-ActionDisguiseAnchor = 切換錨點 | Toggle Anchored
-    .desc = 對於許多物件來說，您會希望將其錨定，以免過於顯眼。 | For many objects you will want to be anchored to not be completely obvious.
+    .desc = For many objects you will want to be anchored to not be completely obvious.

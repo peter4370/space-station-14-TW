@@ -8,3 +8,4 @@ advertisement-ammo-7 = 槍支不會殺人，但你卻可以！
 advertisement-ammo-8 = 既然有槍，誰還需要承擔責任呢？
 advertisement-ammo-9 = 殺人真好玩！
 advertisement-ammo-10 = 去把他們全都打翻吧！
+

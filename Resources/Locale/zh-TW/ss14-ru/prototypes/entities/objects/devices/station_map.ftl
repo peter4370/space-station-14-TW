@@ -1,5 +1,5 @@
 ent-BaseHandheldStationMap = 太空站地圖 | station map
-    .desc = 顯示當前電台的資訊。 | Displays a readout of the current station.
+    .desc = Displays a readout of the current station.
 ent-HandheldStationMap = { ent-BaseHandheldStationMap }
     .desc = { ent-BaseHandheldStationMap.desc }
     .suffix = Handheld
@@ -13,5 +13,5 @@ ent-HandheldStationMapStatic = { ent-HandheldStationMap }
     .desc = { ent-HandheldStationMap.desc }
     .suffix = Handheld, Works Off-Station
 ent-HandheldStationMapNukeops = 目標站點地圖 | target station map
-    .desc = 顯示目標站點的讀數。 | Displays a readout of the target station.
+    .desc = Displays a readout of the target station.
     .suffix = Handheld, NukeOps

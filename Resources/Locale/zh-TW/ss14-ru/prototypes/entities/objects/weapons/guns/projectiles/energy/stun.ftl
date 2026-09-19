@@ -1,7 +1,7 @@
 ent-BulletTaser = 電擊槍彈頭 | taser bolt
     .desc = { ent-BaseBullet.desc }
 ent-BulletTaserSuper = 電擊槍彈頭 | taser bolt
-    .desc = 如果你能看到這段文字，那你很可能已經被「暈眩 meta」了 | If you can see this, you've probably been stun-meta'd
+    .desc = If you can see this, you've probably been stun-meta'd
 ent-BulletDisabler = 鎖止螺栓 | disabler bolt
     .desc = { ent-BaseBullet.desc }
 ent-BulletDisablerPractice = 失能螺栓實作練習 | disabler bolt practice
@@ -11,4 +11,4 @@ ent-BulletDisablerSmg = 禁用螺栓式衝鋒槍 | disabler bolt smg
 ent-BulletDisablerSmgSpread = 停用雷射齊射 | disabling laser barrage
     .desc = { ent-BulletDisablerSmg.desc }
 ent-EnergyCrossbowBolt = 能量光束 | energy bolt
-    .desc = 這會很痛。 | This'll hurt.
+    .desc = This'll hurt.

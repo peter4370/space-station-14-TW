@@ -1,13 +1,13 @@
 ent-BasePortal = bluespace 入口網站 | bluespace portal
-    .desc = 將您傳送至連結的目的地！ | Transports you to a linked destination!
+    .desc = Transports you to a linked destination!
 ent-PortalRed = { ent-BasePortal }
-    .desc = 這個看起來更像是一個紅域傳送門。 | This one looks more like a redspace portal.
+    .desc = This one looks more like a redspace portal.
 ent-PortalBlue = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
 ent-PortalArtifact = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
 ent-ShadowPortal = 陰影裂隙 | shadow rift
-    .desc = 看起來不太穩。 | Looks unstable.
+    .desc = Looks unstable.
 ent-BasePortalGateway = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
 ent-PortalGatewayBlue = { ent-BasePortalGateway }

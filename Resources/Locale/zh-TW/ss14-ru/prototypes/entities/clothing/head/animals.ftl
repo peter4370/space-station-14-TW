@@ -1,10 +1,10 @@
 ent-ClothingHeadHatAnimalCat = 灰色貓咪帽 | grey cat hat
-    .desc = 一隻灰色貓咪那可愛又毛茸茸的頭。 | A cute and fluffy head of a grey cat.
+    .desc = A cute and fluffy head of a grey cat.
 ent-ClothingHeadHatAnimalCatBrown = 棕色貓咪帽子 | brown cat hat
-    .desc = 一隻棕色貓咪那可愛又毛茸茸的頭。 | A cute and fluffy head of a brown cat.
+    .desc = A cute and fluffy head of a brown cat.
 ent-ClothingHeadHatAnimalCatBlack = 黑貓帽 | black cat hat
-    .desc = 一隻黑貓那可愛又毛茸茸的頭。 | A cute and fluffy head of a black cat.
+    .desc = A cute and fluffy head of a black cat.
 ent-ClothingHeadHatAnimalHeadslime = 頭部黏液帽 | headslime hat
-    .desc = 一種綠色、黏糊糊的「頭黏液」，你可以把它戴在頭上。 | A green, sticky headslime, you put it on your head.
+    .desc = A green, sticky headslime, you put it on your head.
 ent-ClothingHeadHatAnimalMonkey = 猴子帽 | monkey hat
-    .desc = 那是一顆猴頭。它的嘴巴上有個洞，用來吃香蕉。 | That's a monkey head. It has a hole on a mouth to eat bananas.
+    .desc = That's a monkey head. It has a hole on a mouth to eat bananas.

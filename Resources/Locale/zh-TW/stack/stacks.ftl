@@ -15,96 +15,80 @@ stack-reinforced-plasma-glass = 強化等離子玻璃
 stack-reinforced-uranium-glass = 強化鈾玻璃
 stack-gunpowder = 火藥
 stack-cardboard = 紙板
-stack-bones =
-    { $amount ->
+
+stack-bones = { $amount ->
         [1] bone
        *[other] bones
     }
-stack-cloth =
-    { $amount ->
+stack-cloth = { $amount ->
         [1] cloth
        *[other] cloths
     }
-stack-lv-cable =
-    { $amount ->
+stack-lv-cable = { $amount ->
         [1] lv cable
        *[other] lv cables
     }
-stack-mv-cable =
-    { $amount ->
+stack-mv-cable = { $amount ->
         [1] mv cable
        *[other] mv cables
     }
-stack-hv-cable =
-    { $amount ->
+stack-hv-cable = { $amount ->
         [1] hv cable
        *[other] hv cables
     }
-stack-explosive-cord =
-    { $amount ->
+stack-explosive-cord = { $amount ->
         [1] explosive cord
        *[other] explosive cords
     }
-stack-wood-plank =
-    { $amount ->
+stack-wood-plank = { $amount ->
         [1] wood plank
        *[other] wood planks
     }
-stack-durathread =
-    { $amount ->
+stack-durathread = { $amount ->
         [1] durathread
        *[other] durathreads
     }
-stack-rods =
-    { $amount ->
+stack-rods = { $amount ->
         [1] rod
        *[other] rods
     }
-stack-meat-sheet =
-    { $amount ->
+stack-meat-sheet = { $amount ->
         [1] meat sheet
        *[other] meat sheets
     }
-stack-space-carp-tooth =
-    space carp { $amount ->
+stack-space-carp-tooth = space carp { $amount ->
         [1] tooth
        *[other] teeth
     }
-stack-paper =
-    { $amount ->
+stack-paper = { $amount ->
         [1] paper
        *[other] papers
     }
-stack-diamond =
-    { $amount ->
+stack-diamond = { $amount ->
         [1] diamond
        *[other] diamonds
     }
-stack-silk =
-    { $amount ->
+stack-silk = { $amount ->
         [1] silk
        *[other] silks
     }
-stack-cotton =
-    { $amount ->
+stack-cotton = { $amount ->
         [1] cotton
        *[other] cottons
     }
-stack-artifact-fragment =
-    artifact { $amount ->
+stack-artifact-fragment = artifact { $amount ->
         [1] fragment
        *[other] fragments
     }
-stack-xenoborg-crystal =
-    xenoborg { $amount ->
+stack-xenoborg-crystal = xenoborg { $amount ->
         [1] crystal
        *[other] crystals
     }
-stack-conveyor-belt =
-    { $amount ->
+stack-conveyor-belt = { $amount ->
         [1] conveyor belt
        *[other] conveyor belts
     }
+
 # best materials
 stack-ground-tobacco = 煙絲
 stack-ground-cannabis = 研磨大麻
@@ -112,16 +96,16 @@ stack-ground-rainbow-cannabis = 研磨過的彩虹大麻
 stack-dried-tobacco-leaves = 乾燥的菸葉
 stack-dried-cannabis-leaves = 乾燥的大麻葉
 stack-dried-rainbow-cannabis-leaves = 乾燥的彩虹大麻葉
-stack-cigarette-filter =
-    cigarette { $amount ->
+
+stack-cigarette-filter = cigarette { $amount ->
         [1] filter
        *[other] filters
     }
-stack-rolling-paper =
-    rolling { $amount ->
+stack-rolling-paper = rolling { $amount ->
         [1] paper
        *[other] papers
     }
+
 stack-fulton = 富爾頓
 stack-credit = 斯佩索
 stack-plasma = 等離子體

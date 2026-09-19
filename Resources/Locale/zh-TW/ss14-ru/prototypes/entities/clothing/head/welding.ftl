@@ -1,10 +1,10 @@
 ent-WeldingMaskBase = 焊接面罩 | welding mask
     .desc = { ent-ClothingHeadBase.desc }
 ent-ClothingHeadHatWelding = 焊接面罩 | welding mask
-    .desc = 一款頭戴式面罩，旨在全面保護佩戴者免受太空電弧眼損傷。 | A head-mounted face cover designed to protect the wearer completely from space-arc eye.
+    .desc = A head-mounted face cover designed to protect the wearer completely from space-arc eye.
 ent-ClothingHeadHatWeldingMaskFlame = 火焰焊接面罩 | flame welding mask
-    .desc = 一頂彩繪焊接面罩，上面畫有火焰圖案。 | A painted welding helmet, this one has flames on it.
+    .desc = A painted welding helmet, this one has flames on it.
 ent-ClothingHeadHatWeldingMaskFlameBlue = 藍焰焊接面罩 | blue-flame welding mask
-    .desc = 這是一頂彩繪的焊接面罩，上面畫著藍色的火焰。 | A painted welding helmet, this one has blue flames on it.
+    .desc = A painted welding helmet, this one has blue flames on it.
 ent-ClothingHeadHatWeldingMaskPainted = 塗漆焊接面罩 | painted welding mask
-    .desc = 一頂塗成深紅色的焊接面罩。 | A welding helmet, painted in crimson.
+    .desc = A welding helmet, painted in crimson.

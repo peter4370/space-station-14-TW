@@ -1,10 +1,10 @@
 ent-BaseCartridgeRifle = 子彈（.20 步槍） | cartridge (.20 rifle)
     .desc = { ent-BaseCartridge.desc }
 ent-CartridgeRifle = 子彈（.20 步槍） | cartridge (.20 rifle)
-    .desc = 一種用於戰鬥步槍的現代中口徑彈藥。標準動能彈藥在大多數情況下都很常見且實用。 | A modern intermediate cartridge for combat rifles. Standard kinetic ammunition is common and useful in most situations.
+    .desc = A modern intermediate cartridge for combat rifles. Standard kinetic ammunition is common and useful in most situations.
 ent-CartridgeRiflePractice = 子彈（.20 步槍練習用） | cartridge (.20 rifle practice)
-    .desc = 一種用於戰鬥步槍的現代化中口徑彈藥。練習彈會發射一顆石灰彈頭，雖然會帶來些許刺痛感，但除此之外並不會造成任何持久性傷害。 | A modern intermediate cartridge for combat rifles. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+    .desc = A modern intermediate cartridge for combat rifles. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
 ent-CartridgeRifleIncendiary = 子彈（.20 步槍燃燒彈） | cartridge (.20 rifle incendiary)
-    .desc = 一種用於戰鬥步槍的現代中口徑彈藥。燃燒彈內含自燃化合物，能使目標起火燃燒。 | A modern intermediate cartridge for combat rifles. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+    .desc = A modern intermediate cartridge for combat rifles. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
 ent-CartridgeRifleUranium = 子彈（.20 步槍鈾彈） | cartridge (.20 rifle uranium)
-    .desc = 一種用於作戰步槍的現代化中口徑子彈。鈾彈藥以裂變材料取代子彈的鉛芯，從內部對目標進行輻射照射。 | A modern intermediate cartridge for combat rifles. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
+    .desc = A modern intermediate cartridge for combat rifles. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.

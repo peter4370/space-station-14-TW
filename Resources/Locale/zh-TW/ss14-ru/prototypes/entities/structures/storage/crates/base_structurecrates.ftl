@@ -1,5 +1,5 @@
 ent-BaseCrate = 貨箱 | crate
-    .desc = 一個用來裝物品的大容器。 | A large container for items.
+    .desc = A large container for items.
 ent-CrateGeneric = { ent-BaseCrate }
     .desc = { ent-BaseCrate.desc }
 ent-CrateBaseWeldable = { ent-CrateGeneric }

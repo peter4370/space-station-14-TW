@@ -20,20 +20,24 @@ comms-console-station-broadcast-header = 太空站廣播
 comms-console-announce-tab-title = 廣播
 comms-console-broadcast-tab-title = 螢幕
 comms-console-char-limit = { $count }/{ $max }
+
 # Popup
 comms-console-permission-denied = 權限遭拒絕
 comms-console-shuttle-unavailable = 穿梭機目前暫停服務
 comms-console-message-too-long = 訊息過長
 comms-console-message-cannot-send = 通訊服務暫時中斷
+
 # Placeholder values
 comms-console-announcement-sent-by = 由...發送
 comms-console-announcement-unknown-sender = 未知
+
 # Comms console variant titles
 comms-console-announcement-title-station = 通訊主控台
 comms-console-announcement-title-centcom = 中央司令部
 comms-console-announcement-title-nukie = 辛迪加核武特工
 comms-console-announcement-title-station-ai = Station AI
 comms-console-announcement-title-wizard = 巫師
+
 # Flavor text for alert levels
 comms-console-level-Green-flavour-label = 工作將照常進行
 comms-console-level-Blue-flavour-label = 請使用表格 NT-4772-b 記錄可疑活動

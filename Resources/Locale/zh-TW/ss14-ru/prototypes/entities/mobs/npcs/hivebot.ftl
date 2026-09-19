@@ -1,9 +1,9 @@
 ent-MobHivebot = hivebot | hivebot
-    .desc = 令人煩擾的機械化害蟲。 | Agitating, mechanized pests.
+    .desc = Agitating, mechanized pests.
     .suffix = { ent-BaseSimpleMob.suffix }
 ent-MobHivebotRanged = hivebot | hivebot
-    .desc = 令人不安的機械化害蟲。這隻還拿著一把槍。 | Agitating, mechanized pests. This one has a gun.
+    .desc = Agitating, mechanized pests. This one has a gun.
     .suffix = Ranged
 ent-MobHivebotStrong = 強大的 Hivebot | strong hivebot
-    .desc = 令人煩躁的機械化害蟲。這隻看起來比平常的要強大得多。 | Agitating, mechanized pests. This one looks much stronger then normal.
+    .desc = Agitating, mechanized pests. This one looks much stronger then normal.
     .suffix = { ent-MobHivebotRanged.suffix }

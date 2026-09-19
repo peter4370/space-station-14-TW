@@ -1,5 +1,5 @@
 ent-BaseMaterialDoor = 門 | door
-    .desc = 一扇門，它會通往何處？ | A door, where will it lead?
+    .desc = A door, where will it lead?
 ent-BaseMaterialDoorNavMap = { ent-BaseMaterialDoor }
     .desc = { ent-BaseMaterialDoor.desc }
 ent-PlasmaDoor = 等離子門 | plasma door
@@ -13,6 +13,6 @@ ent-WoodDoor = 木門 | wooden door
 ent-PaperDoor = 紙門 | paper door
     .desc = { ent-BaseMaterialDoorNavMap.desc }
 ent-WebDoor = 網路門戶 | web door
-    .desc = 一扇門，通往蜘蛛的國度……抑或是一間空蕩蕩的房間。 | A door, leading to the lands of the spiders... or a spaced room.
+    .desc = A door, leading to the lands of the spiders... or a spaced room.
 ent-CardDoor = 紙板門 | cardboard door
     .desc = { ent-BaseMaterialDoorNavMap.desc }

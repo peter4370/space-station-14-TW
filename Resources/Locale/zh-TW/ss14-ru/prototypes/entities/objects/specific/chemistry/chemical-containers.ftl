@@ -1,5 +1,5 @@
 ent-Jug = 水壺 | jug
-    .desc = 曾用於盛裝大量化學物質或溶液。極不建議一口氣喝光。 | Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
+    .desc = Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
 ent-JugPunctTranex = { ent-Jug }
     .desc = { ent-Jug.desc }
     .suffix = punct & tranex

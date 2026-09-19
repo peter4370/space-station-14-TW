@@ -1,5 +1,5 @@
 ent-KitchenReagentGrinder = 試劑研磨機 | reagent grinder
-    .desc = 來自 BlenderTech。它能被攪碎嗎？讓我們來一探究竟！ | From BlenderTech. Will It Blend? Let's find out!
+    .desc = From BlenderTech. Will It Blend? Let's find out!
 ent-KitchenReagentGrinderBeaker = { ent-KitchenReagentGrinder }
     .desc = { ent-KitchenReagentGrinder.desc }
     .suffix = beaker
@@ -7,4 +7,4 @@ ent-KitchenReagentGrinderBeakerLarge = { ent-KitchenReagentGrinder }
     .desc = { ent-KitchenReagentGrinder.desc }
     .suffix = large beaker
 ent-ReagentGrinderIndustrial = 工業用試劑研磨機 | industrial reagent grinder
-    .desc = 一款工業用試劑研磨機。 | An industrial reagent grinder.
+    .desc = An industrial reagent grinder.

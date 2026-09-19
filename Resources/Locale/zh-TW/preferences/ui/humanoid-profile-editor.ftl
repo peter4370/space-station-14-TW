@@ -42,15 +42,18 @@ humanoid-profile-editor-preference-backpack = 後背包
 humanoid-profile-editor-preference-satchel = 手提包
 humanoid-profile-editor-preference-duffelbag = 旅行袋
 humanoid-profile-editor-guidebook-button-tooltip = 點擊查看更多資訊
+
 # Spawn priority
 humanoid-profile-editor-preference-spawn-priority-none = 無
 humanoid-profile-editor-preference-spawn-priority-arrivals = 抵港班次
 humanoid-profile-editor-preference-spawn-priority-cryosleep = 冷凍睡眠
+
 humanoid-profile-editor-jobs-amount-in-department-tooltip = { $departmentName } 部門的職缺
 humanoid-profile-editor-department-jobs-label = { $departmentName } 職缺
 humanoid-profile-editor-antags-tab = Antags
 humanoid-profile-editor-antag-preference-yes-button = 是的
 humanoid-profile-editor-antag-preference-no-button = 不
+
 humanoid-profile-editor-job-priority-high-button = 高
 humanoid-profile-editor-job-priority-medium-button = 中
 humanoid-profile-editor-job-priority-low-button = 低
@@ -58,13 +61,17 @@ humanoid-profile-editor-job-priority-never-button = 絕不
 humanoid-profile-editor-naming-rules-warning = 警告：若使用具冒犯性或 LRP 的 IC 名稱及描述，本伺服器管理員將予以介入處理。請閱讀我們的 \[規則\] 以了解更多詳情。
 humanoid-profile-editor-markings-tab = 標記
 humanoid-profile-editor-flavortext-tab = 說明
+
 # Traits
 humanoid-profile-editor-traits-tab = 特徵
 humanoid-profile-editor-no-traits = 沒有可用的特徵
+
 humanoid-profile-editor-trait-count-hint = 可選項目：[{ $current }/{ $max }]
+
 trait-category-disabilities = 身心障礙
 trait-category-speech = 語音特徵
 trait-category-quirks = 怪癖
+
 # Voices
 humanoid-profile-editor-voice-masculine = 陽剛
 humanoid-profile-editor-voice-feminine = 女性化

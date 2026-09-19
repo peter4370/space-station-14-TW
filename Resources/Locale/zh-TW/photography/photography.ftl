@@ -1,6 +1,5 @@
 # TODO: Make this a fluent function in RT
-photograph-name-text =
-    這是一張 { PROPER($entity) ->
+photograph-name-text = 這是一張 { PROPER($entity) ->
        *[false] { INDEFINITE($entity) } { $entity }
         [true] { $entity }
     } 的照片。

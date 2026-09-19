@@ -13,6 +13,7 @@ badfeeling-artifact-12 = 那盞燈似乎在閃爍。
 badfeeling-artifact-13 = 影子似乎變長了。
 badfeeling-artifact-14 = 牆壁正逐漸逼近。
 badfeeling-artifact-15 = 好像有哪裡不對勁。
+
 badfeeling-artifact-drastic-1 = 有人正試圖殺你！
 badfeeling-artifact-drastic-2 = 外面有東西！
 badfeeling-artifact-drastic-3 = 你怎麼了？

@@ -1,10 +1,8 @@
 ## UI
 
-injector-volume-transfer-label =
-    卷數：[color=white]{ $currentVolume }/{ $totalVolume }u[/color]
+injector-volume-transfer-label = 卷數：[color=white]{ $currentVolume }/{ $totalVolume }u[/color]
     模式：[color=white]{ $modeString }[/color] ([color=white]{ $transferVolume }u[/color])
-injector-volume-label =
-    音量：[color=white]{ $currentVolume }/{ $totalVolume }u[/color]
+injector-volume-label = 音量：[color=white]{ $currentVolume }/{ $totalVolume }u[/color]
     模式：[color=white]{ $modeString }[/color]
 injector-toggle-verb-text = 切換注入器模式
 
@@ -51,5 +49,4 @@ injector-component-spray-injecting-user = 您開始準備噴嘴。
 injector-component-spray-injecting-target = { CAPITALIZE(THE($user)) } 正試圖將一個噴嘴對準你！
 
 ## Target Popup Success messages
-
 injector-component-feel-prick-message = 你會感覺到一陣輕微的刺痛！

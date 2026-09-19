@@ -1,5 +1,5 @@
 ent-BaseAnomaly = 異常 | anomaly
-    .desc = 一個不可能存在的物體。你真的應該離它這麼近嗎？ | An impossible object. Should you be standing this close to it?
+    .desc = An impossible object. Should you be standing this close to it?
 ent-AnomalyPyroclastic = { ent-BaseAnomaly }
     .desc = { ent-BaseAnomaly.desc }
     .suffix = Pyroclastic
@@ -43,7 +43,7 @@ ent-AnomalyFlora = { ent-BaseAnomaly }
     .desc = { ent-BaseAnomaly.desc }
     .suffix = Flora
 ent-AnomalyFloraBulb = 奇異的發光漿果 | strange glowing berry
-    .desc = 這是一顆美麗而奇特的發光漿果。似乎有東西在裡面生長著…… | It's a beautiful strange glowing berry. It seems to have something growing inside it...
+    .desc = It's a beautiful strange glowing berry. It seems to have something growing inside it...
     .suffix = Flora Anomaly
 ent-AnomalyLiquid = { ent-BaseAnomaly }
     .desc = { ent-BaseAnomaly.desc }

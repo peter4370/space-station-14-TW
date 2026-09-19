@@ -1,7 +1,7 @@
 ent-Cane = 手杖 | cane
-    .desc = 一根木拐杖。 | A wooden cane.
+    .desc = A wooden cane.
 ent-CaneBlade = 甘蔗刀片 | cane blade
-    .desc = 一把刀刃鋒利、握柄呈手杖狀的刀。 | A sharp blade with a cane shaped hilt.
+    .desc = A sharp blade with a cane shaped hilt.
 ent-CaneSheath = { ent-Cane }
     .desc = { ent-Cane.desc }
     .suffix = Empty

@@ -16,5 +16,6 @@ research-console-unlocks-list-entry = - [color=yellow]{ $name }[/color]
 research-console-unlocks-list-entry-generic = - [color=green]{ $text }[/color]
 research-console-prereqs-list-start = 需求：
 research-console-prereqs-list-entry = - [color=orchid]{ $text }[/color]
+
 research-console-no-access-popup = 無法存取！
 research-console-unlock-technology-radio-broadcast = 由 [bold]{ $approver }[/bold] 解鎖 [bold]{ $technology }[/bold]，用於 [bold]{ $amount }[/bold] 的研究。

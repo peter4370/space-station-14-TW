@@ -2,6 +2,7 @@
 # Nouns
 seeds-noun-seeds = 種子
 seeds-noun-spores = 孢子
+
 # Seeds
 seeds-wheat-name = 小麥
 seeds-meatwheat-name = 肉麥

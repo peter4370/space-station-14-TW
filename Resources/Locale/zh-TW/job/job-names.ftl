@@ -49,6 +49,7 @@ job-name-technical-assistant = 技術助理
 job-name-tram-driver = 電車司機
 job-name-visitor = 訪客
 job-name-warden = 典獄長
+
 # unused jobs
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
@@ -61,6 +62,7 @@ job-name-unknown = 未知
 job-name-sus = 蘇斯
 job-name-virologist = 病毒學家
 job-name-zookeeper = 動物園管理員
+
 # antagonist jobs
 job-name-ninja = 忍者
 job-name-syndicate = 辛迪加
@@ -70,10 +72,12 @@ job-name-syndicate-operative = 辛迪加特工
 job-name-pirate = 海盜
 job-name-wizard = 巫師
 job-name-zombie = 殭屍
+
 # Job titles
 job-title-cluwne = Cluwne
 job-title-universal = 通用型
 job-title-visitor = 訪客
+
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = 大氣技術員
 JobBartender = 調酒師

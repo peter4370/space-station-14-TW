@@ -1,6 +1,5 @@
 ### Voting system related console commands
 
-
 ## 'createvote' command
 
 cmd-createvote-desc = 建立一項投票
@@ -37,9 +36,8 @@ cmd-listvotes-help = 用法：listvotes
 ## 'cancelvote' command
 
 cmd-cancelvote-desc = 取消一項正在進行的投票
-cmd-cancelvote-help =
-    用法：cancelvote<id>
-    您可透過 listvotes 指令取得該投票的 ID。
+cmd-cancelvote-help = 用法：cancelvote<id>
+                      您可透過 listvotes 指令取得該投票的 ID。
 cmd-cancelvote-error-invalid-vote-id = 投票 ID 無效
 cmd-cancelvote-error-missing-vote-id = 缺少ID卡號碼
 cmd-cancelvote-arg-id = <id>

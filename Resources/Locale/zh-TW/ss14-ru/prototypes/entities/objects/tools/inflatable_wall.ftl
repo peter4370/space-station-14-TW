@@ -1,8 +1,8 @@
 ent-InflatableWallStack = 充氣路障 | inflatable barricade
-    .desc = 一種摺疊狀的膜，在被激活時會迅速膨脹成大型立方體狀。 | A folded membrane which rapidly expands into a large cubical shape on activation.
+    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
     .suffix = Full
 ent-InflatableDoorStack = 充氣門 | inflatable door
-    .desc = 一種摺疊狀的膜，在被激活時會迅速膨脹成大型立方體狀。 | A folded membrane which rapidly expands into a large cubical shape on activation.
+    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
     .suffix = Full
 ent-InflatableWallStack5 = { ent-InflatableWallStack }
     .desc = { ent-InflatableWallStack.desc }

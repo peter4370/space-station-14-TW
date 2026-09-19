@@ -7,6 +7,8 @@ cmd-mapping-success-load = 從檔案 { $path } 建立未初始化的地圖，其
 cmd-mapping-success-load-grid = 已將未初始化的網格從檔案 { $path } 載入至 ID 為 { $mapId } 的新地圖中。
 cmd-mapping-success = 建立了一個 ID 為 { $mapId } 的未初始化地圖。
 cmd-mapping-warning = 警告：伺服器目前使用的是除錯版本。您可能因此導致所做的變更遺失。
+
+
 # duplicate text from engine load/save map commands.
 # I CBF making this PR depend on that one.
 cmd-mapping-failure-integer = { $arg } 不是有效的整數。

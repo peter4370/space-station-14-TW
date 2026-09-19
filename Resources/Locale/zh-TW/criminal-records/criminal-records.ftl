@@ -18,6 +18,7 @@ criminal-records-status-discharged = 已出院
 criminal-records-status-paroled = 假釋
 criminal-records-status-hostile = 敵對的
 criminal-records-status-eliminated = 遭淘汰
+
 criminal-records-console-wanted-reason = 通緝原因
 criminal-records-console-suspected-reason = 推測原因
 criminal-records-console-reason = 理由
@@ -30,6 +31,7 @@ criminal-records-history-placeholder = 請在此填寫犯罪內容
 criminal-records-no-history = 這位船員的紀錄一塵不染。
 criminal-records-add-history = 新增
 criminal-records-delete-history = 刪除
+
 criminal-records-permission-denied = 權限遭拒絕
 
 ## Security channel notifications
@@ -58,6 +60,5 @@ criminal-records-job-filter = 工作
 criminal-records-species-filter = 物種
 
 ## Arrest auto history lines
-
 criminal-records-console-auto-history = 被捕：{ $reason }
 criminal-records-console-unspecified-reason = <unspecified reason>

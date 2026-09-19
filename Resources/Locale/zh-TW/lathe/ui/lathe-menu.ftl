@@ -6,8 +6,7 @@ lathe-menu-search-designs = 搜尋設計
 lathe-menu-category-all = 全部
 lathe-menu-search-filter = 篩選條件：
 lathe-menu-amount = 數量：
-lathe-menu-recipe-count =
-    { $count ->
+lathe-menu-recipe-count = { $count ->
         [1] { $count } Recipe
        *[other] { $count } Recipes
     }
@@ -17,13 +16,11 @@ lathe-menu-result-reagent-display = { $reagent } ({ $amount }u)
 lathe-menu-material-display = { $material } ({ $amount })
 lathe-menu-tooltip-display = { $amount } 來自 { $material }
 lathe-menu-description-display = { "[" }italic]{ $description }[/italic]
-lathe-menu-material-amount =
-    { $amount ->
+lathe-menu-material-amount = { $amount ->
         [1] { NATURALFIXED($amount, 2) } { $unit }
        *[other] { NATURALFIXED($amount, 2) } { MAKEPLURAL($unit) }
     }
-lathe-menu-material-amount-missing =
-    { $amount ->
+lathe-menu-material-amount-missing = { $amount ->
         [1] { NATURALFIXED($amount, 2) } { $unit } 來自 { $material } ([color=red]{ NATURALFIXED($missingAmount, 2) } { $unit } 缺失[/color])
        *[other] { NATURALFIXED($amount, 2) } { MAKEPLURAL($unit) } of { $material } ([color=red]{ NATURALFIXED($missingAmount, 2) } { MAKEPLURAL($unit) } 缺失[/color])
     }

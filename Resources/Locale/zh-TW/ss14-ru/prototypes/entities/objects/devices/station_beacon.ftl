@@ -1,5 +1,5 @@
 ent-BaseStationBeacon = 站點信標 | station beacon
-    .desc = 一種可將資訊傳輸至太空站地圖的小型裝置。可進行設定。 | A small device that transmits information to station maps. Can be configured.
+    .desc = A small device that transmits information to station maps. Can be configured.
     .suffix = Not teleport point, Ninja bombing target blacklist
 ent-TeleportStationBeacon = { ent-BaseStationBeacon }
     .desc = { ent-BaseStationBeacon.desc }
@@ -11,7 +11,7 @@ ent-DefaultStationBeaconUnanchored = { ent-DefaultStationBeacon }
     .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Unanchored
 ent-StationBeaconPart = 太空站信標平裝盒 | station beacon flatpack
-    .desc = 用於建造太空站信標的組裝式套件。 | A flatpack used for constructing a station beacon.
+    .desc = A flatpack used for constructing a station beacon.
 ent-DefaultStationBeaconCommand = { ent-DefaultStationBeacon }
     .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Command

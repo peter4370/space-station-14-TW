@@ -1,10 +1,12 @@
 station-beacon-general = 概述
+
 station-beacon-command = 指揮部
 station-beacon-bridge = 艦橋
 station-beacon-vault = 保險庫
 station-beacon-gateway = 閘道
 station-beacon-captain = 船長
 station-beacon-hop = HOP (人事總管)
+
 station-beacon-security = 安保部
 station-beacon-brig = 監獄
 station-beacon-brig-med = 監獄醫療部
@@ -16,6 +18,7 @@ station-beacon-detective = 偵探
 station-beacon-courtroom = 法庭
 station-beacon-law = 律師事務所
 station-beacon-security-checkpoint = 檢查點
+
 station-beacon-medical = 醫療部
 station-beacon-medbay = 醫療區
 station-beacon-chemistry = 化學部
@@ -25,6 +28,7 @@ station-beacon-morgue = 停屍間
 station-beacon-surgery = 外科手術區
 station-beacon-psychology = 心理學
 station-beacon-clinic = 診所
+
 station-beacon-science = 科學部
 station-beacon-research-and-development = 研發區
 station-beacon-research-server = 伺服器
@@ -32,11 +36,13 @@ station-beacon-research-director = RD (科學總監)
 station-beacon-robotics = 機械部
 station-beacon-artifact-lab = 神器部
 station-beacon-anomaly-gen = 異常部
+
 station-beacon-supply = 物資部
 station-beacon-cargo = 貨運部
 station-beacon-cargo-bay = 貨艙灣
 station-beacon-qm = 司務部
 station-beacon-salvage = 打撈部
+
 station-beacon-engineering = 工程部
 station-beacon-ce = CE
 station-beacon-ame = AME
@@ -57,16 +63,19 @@ station-beacon-atmos = 大氣部
 station-beacon-teg = TEG
 station-beacon-tech-vault = 科學保險庫
 station-beacon-anchor = 錨點
+
 station-beacon-service = 服務部
 station-beacon-kitchen = 廚房
 station-beacon-bar = 酒吧
 station-beacon-botany = 植物部
 station-beacon-janitor = 清潔間
+
 station-beacon-ai = AI
 station-beacon-ai-sat = AI Sat
 station-beacon-ai-core = AI Core
 station-beacon-ai-upload = AI 上傳區
 station-beacon-ai-power = AI 電力區
+
 station-beacon-arrivals = 抵港區
 station-beacon-evac = Evac
 station-beacon-docking-arm = 對接臂
@@ -89,3 +98,4 @@ station-beacon-escape-pod-SW = 逃生艙 SW
 station-beacon-escape-pod-W = 逃生艙 W
 station-beacon-escape-pod-NW = 逃生艙 NW
 station-beacon-vox = Vox 休息室
+

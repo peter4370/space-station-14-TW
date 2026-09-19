@@ -13,13 +13,14 @@ admin-verbs-unfreeze = 解除凍結
 admin-verbs-camera = 開啟相機
 admin-verbs-camera-description = 開啟一個會跟隨所選實體移動的相機視窗。
 admin-verbs-erase = 刪除
-admin-verbs-erase-description =
-    將玩家從本局及船員名單中移除，並刪除其聊天訊息。
+admin-verbs-erase-description = 將玩家從本局及船員名單中移除，並刪除其聊天訊息。
     其物品將掉落於地面。
     玩家會看到一個彈出視窗，提示他們應假裝該玩家從未存在過。
 toolshed-verb-mark = 馬克
 toolshed-verb-mark-description = 將此實體放入變數 ` $marked `（一個實體清單）中，並取代其先前值。
+
 export-entity-verb-get-data-text = 匯出精靈圖
+
 # Tools verbs
 admin-verbs-rejuvenate = 重煥活力
 admin-verbs-make-indestructible = 打造堅不可摧之物
@@ -47,11 +48,13 @@ admin-verbs-pause-map = 暫停地圖
 admin-verbs-snap-joints = 折斷大麻煙卷
 admin-verbs-make-minigun = 製作迷你加特林機槍
 admin-verbs-set-bullet-amount = 設定子彈數量
+
 # Toggles verbs
 admin-verbs-bolt = 博爾特
 admin-verbs-unbolt = 鬆開螺栓
 admin-verbs-emergency-access-on = 緊急存取已啟用
 admin-verbs-emergency-access-off = 緊急存取功能已關閉
+
 # Dialogs verbs
 admin-verbs-dialog-adjust-stack-amount = 金額（最大值 { $max }）
 admin-verbs-dialog-rename-title = 重新命名

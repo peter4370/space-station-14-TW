@@ -1,27 +1,31 @@
 # UI
 
-
 ## Window
 
 air-alarm-ui-title = 氣體警報器
+
 air-alarm-ui-access-denied = 存取權限不足！
+
 air-alarm-ui-window-pressure-label = 壓力
 air-alarm-ui-window-temperature-label = 溫度
 air-alarm-ui-window-alarm-state-label = 狀態
+
 air-alarm-ui-window-address-label = 地址
 air-alarm-ui-window-device-count-label = 裝置總數
 air-alarm-ui-window-resync-devices-label = 重新同步
+
 air-alarm-ui-window-mode-label = 模式
 air-alarm-ui-window-mode-select-locked-label = { "[" }bold][color=red] 模式選擇器故障！ [/color][/bold]
 air-alarm-ui-window-auto-mode-label = 自動模式
--air-alarm-state-name =
-    { $state ->
+
+-air-alarm-state-name = { $state ->
         [normal] 正常
         [warning] 警告
         [danger] 危險
         [emagged] Emagged
        *[invalid] 無效
     }
+
 air-alarm-ui-window-listing-title = { $address } : { -air-alarm-state-name(state:$state) }
 air-alarm-ui-window-pressure = { $pressure } kPa
 air-alarm-ui-window-pressure-indicator = 壓力：[color={ $color }]{ $pressure } kPa[/color]
@@ -33,24 +37,29 @@ air-alarm-ui-window-alarm-state-indicator = Status: [color={ $color }]{ -air-ala
 air-alarm-ui-window-tab-vents = 通風口
 air-alarm-ui-window-tab-scrubbers = 洗滌塔
 air-alarm-ui-window-tab-sensors = 感測器
+
 air-alarm-ui-gases = { $gas }：{ $amount } 摩爾（{ $percentage }%）
 air-alarm-ui-gases-indicator = { $gas }：[color={ $color }]{ $amount } 摩爾（{ $percentage }%）[/color]
+
 air-alarm-ui-mode-filtering = 篩選
 air-alarm-ui-mode-wide-filtering = 篩選（廣泛）
 air-alarm-ui-mode-fill = 填寫
 air-alarm-ui-mode-panic = 恐慌
 air-alarm-ui-mode-none = 無
+
+
 air-alarm-ui-pump-direction-siphoning = 虹吸
 air-alarm-ui-pump-direction-scrubbing = 刷洗
 air-alarm-ui-pump-direction-releasing = 發布
+
 air-alarm-ui-pressure-bound-nobound = 無界
 air-alarm-ui-pressure-bound-internalbound = 內部邊界
 air-alarm-ui-pressure-bound-externalbound = 艙外邊界
 air-alarm-ui-pressure-bound-both = 兩者皆是
+
 air-alarm-ui-widget-gas-filters = 氣體過濾器
 
 ## Widgets
-
 
 ### General
 

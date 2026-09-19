@@ -1,5 +1,6 @@
 forensic-fibers = { LOC($material) } 纖維
 forensic-fibers-colored = { LOC($color) } { LOC($material) } 纖維
+
 fibers-insulative = 絕緣的
 fibers-insulative-frayed = 磨損的絕緣體
 fibers-synthetic = 合成
@@ -10,6 +11,7 @@ fibers-nitrile = 丁腈
 fibers-nanomachines = 絕緣奈米機器
 fibers-chameleon = 全息變色龍
 fibers-rubber = 橡膠
+
 fibers-purple = 紫色
 fibers-red = 紅色
 fibers-black = 黑色

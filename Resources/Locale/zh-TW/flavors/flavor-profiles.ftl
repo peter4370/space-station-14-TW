@@ -67,22 +67,19 @@ flavor-complex-ketchunaise = 像番茄和美乃滋一樣
 flavor-complex-mayonnaise = 像美乃滋一樣
 flavor-complex-mustard = 像芥末一樣
 
+
 # Food-specific flavors.
 
-
 ## Food chemicals. In case you get something that has this inside.
-
 flavor-complex-nutriment = 例如營養
 flavor-complex-vitamin = 就像維生素一樣
 flavor-complex-protein = 例如蛋白質
 
 ## Generic food taste. This should be replaced with an actual flavor profile,
 ## if you have food that looks like this.
-
 flavor-complex-food = 像食物一樣
 
 ## Basic foodstuffs (ingredients, generic flavors)
-
 flavor-complex-bun = 像麵包一樣
 flavor-complex-bread = 像麵包一樣
 flavor-complex-batter = 像麵糊一樣
@@ -131,9 +128,7 @@ flavor-complex-nettles = 像蕁麻一樣
 flavor-complex-jungle = 像叢林一樣
 flavor-complex-vegetables = 像蔬菜一樣
 flavor-complex-cherry = 像櫻桃一樣
-
 # use it when there multiple types of veggies
-
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
@@ -192,16 +187,13 @@ flavor-complex-canned-tuna = 像鮪魚罐頭一樣
 
 # Drink-specific flavors.
 
-
 ## Generic alcohol/soda taste. This should be replaced with an actual flavor profile.
-
 flavor-complex-alcohol = 像酒精一樣
 flavor-complex-soda = 像汽水一樣
 flavor-complex-juice = 像果汁一樣
 flavor-complex-rocksandstones = 就像岩石和石頭一樣
 
 ## Basic drinks
-
 flavor-complex-water = 如水一般
 flavor-complex-beer = 像尿一樣
 flavor-complex-cognac = 像乾型辛辣的酒一樣
@@ -239,7 +231,6 @@ flavor-complex-mopwata = 就像滯留的、髒水一樣
 flavor-complex-gin = 類似以杜松子釀製的發酵穀物
 
 ## Cocktails
-
 flavor-complex-arnold-palmer = 就像一桿進洞一樣
 flavor-complex-blue-hawaiian = 就像熱帶一樣
 flavor-complex-cosmopolitan = 甜中帶酸
@@ -340,15 +331,13 @@ flavor-complex-coconut-rum = 像帶有堅果風味的發酵糖一樣
 flavor-complex-bacchus-blessing = 就像一堵磚牆
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
-
 flavor-complex-pilk = 像甜牛奶一樣
 
 # Medicine/chemical-specific flavors.
 
-
 ## Generic flavors.
-
 flavor-complex-medicine = 像藥一樣
+
 flavor-complex-carpet = 就像一把毛髮
 flavor-complex-bee = 難以置信
 flavor-complex-sax = 像爵士樂一樣

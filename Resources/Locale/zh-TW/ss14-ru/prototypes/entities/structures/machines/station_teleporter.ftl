@@ -1,5 +1,5 @@
 ent-StationTeleporter = 傳送器 | teleporter
-    .desc = 藍色空間技術的巔峰之作。一座巨型傳送器，讓您能在眨眼之間穿越遼闊的距離。 | The peak of bluespace technology. A giant teleporter that allows you to travel vast distances in the blink of an eye.
+    .desc = The peak of bluespace technology. A giant teleporter that allows you to travel vast distances in the blink of an eye.
     .suffix = Unknown Coordinates, Without Autolink
 ent-StationTeleporterNanotrasen = { ent-StationTeleporter }
     .desc = { ent-StationTeleporter.desc }

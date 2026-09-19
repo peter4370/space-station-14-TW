@@ -6,12 +6,14 @@ marking-UndergarmentTopBra = 經典文胸
 marking-UndergarmentTopBra-classic = 經典文胸
 marking-UndergarmentTopSportsbra = 運動內衣
 marking-UndergarmentTopSportsbra-sports = 運動內衣
+
 marking-UndergarmentBottomBoxers = 拳擊手
 marking-UndergarmentBottomBoxers-boxers = 拳擊手
 marking-UndergarmentBottomBriefs = 簡訊
 marking-UndergarmentBottomBriefs-briefs = 簡訊
 marking-UndergarmentBottomSatin = 緞面
 marking-UndergarmentBottomSatin-satin = 緞面
+
 marking-UndergarmentTopTanktopVox = 無袖上衣
 marking-UndergarmentTopTanktopVox-tanktop_vox = 無袖上衣
 marking-UndergarmentTopBinderVox = Binder
@@ -20,18 +22,21 @@ marking-UndergarmentTopBraVox = 經典文胸
 marking-UndergarmentTopBraVox-classic_vox = 經典文胸
 marking-UndergarmentTopSportsbraVox = 運動內衣
 marking-UndergarmentTopSportsbraVox-sports_vox = 運動內衣
+
 marking-UndergarmentBottomBoxersVox = 拳擊手
 marking-UndergarmentBottomBoxersVox_boxers_vox = 拳擊手
 marking-UndergarmentBottomBriefsVox = 簡訊
 marking-UndergarmentBottomBriefsVox-briefs_vox = 簡訊
 marking-UndergarmentBottomSatinVox = 緞面
 marking-UndergarmentBottomSatinVox-satin_vox = 緞面
+
 marking-UndergarmentBottomBoxersReptilian = 拳擊手
 marking-UndergarmentBottomBoxersReptilian-boxers_reptilian = 拳擊手
 marking-UndergarmentBottomBriefsReptilian = 簡訊
 marking-UndergarmentBottomBriefsReptilian-briefs_reptilian = 簡訊
 marking-UndergarmentBottomSatinReptilian = 緞面
 marking-UndergarmentBottomSatinReptilian-satin_reptilian = 緞面
+
 marking-UndergarmentTopTanktopVulpkanin = 無袖上衣
 marking-UndergarmentTopTanktopVulpkanin-tanktop_vulpkanin = 無袖上衣
 marking-UndergarmentTopBinderVulpkanin = Binder
@@ -40,6 +45,7 @@ marking-UndergarmentTopBraVulpkanin = 經典文胸
 marking-UndergarmentTopBraVulpkanin-classic_vulpkanin = 經典文胸
 marking-UndergarmentTopSportsbraVulpkanin = 運動內衣
 marking-UndergarmentTopSportsbraVulpkanin-sports_vulpkanin = 運動內衣
+
 marking-UndergarmentBottomBoxersVulpkanin = 拳擊手
 marking-UndergarmentBottomBoxersVulpkanin-boxers_vulpkanin = 拳擊手
 marking-UndergarmentBottomBriefsVulpkanin = 簡訊

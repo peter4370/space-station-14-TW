@@ -1,5 +1,5 @@
 ent-BaseXenoArtifactItem = 神器 | artifact
-    .desc = 一件來歷不明的奇異神器。看起來頗有意思。握在手中恰到好處。 | A strange artifact from time unknown. Looks like a good time. Fits in hand perfectly.
+    .desc = A strange artifact from time unknown. Looks like a good time. Fits in hand perfectly.
 ent-DummyArtifactItem = 神器 | artifact
     .desc = { ent-BaseXenoArtifactItem.desc }
     .suffix = Debug
@@ -7,7 +7,7 @@ ent-ComplexXenoArtifactItem = { ent-BaseXenoArtifactItem }
     .desc = { ent-BaseXenoArtifactItem.desc }
     .suffix = Hand-Sized
 ent-ArtifactFragment = 神器碎片 | artifact fragment
-    .desc = 一件神器殘片。如果你有更多碎片，應該就能把它修復好。 | A broken piece of an artifact. You could probably repair it if you had more.
+    .desc = A broken piece of an artifact. You could probably repair it if you had more.
 ent-ArtifactFragment1 = { ent-ArtifactFragment }
     .desc = { ent-ArtifactFragment.desc }
     .suffix = Single

@@ -23,8 +23,10 @@ gas-analyzer-window-percentage-column-name = %
 gas-analyzer-window-molarity-text = { $mol }
 gas-analyzer-window-percentage-text = { $percentage }
 gas-analyzer-window-molarity-percentage-text = { $gasName }: { $amount } 摩爾（{ $percentage }%）
+
 # Used for GasEntry.ToString()
 gas-entry-info = { $gasName }: { $gasAmount } 摩爾
+
 # overrides for trinary devices to have saner names
 gas-analyzer-window-text-inlet = 進氣口
 gas-analyzer-window-text-outlet = 輸出

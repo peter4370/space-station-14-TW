@@ -10,6 +10,7 @@ admin-player-actions-spawn = 在此生成
 admin-player-actions-spawn-message = 生成此角色的新複本，並立即將其意識轉移至該複本中。
 admin-player-spawn-failed = 無法找到有效的座標
 admin-player-actions-player-panel = 開啟播放器面板
+
 admin-player-actions-clone = 複製
 admin-player-actions-clone-message = 生成此角色的複本，但不轉移其意識。
 admin-player-actions-follow = 追蹤

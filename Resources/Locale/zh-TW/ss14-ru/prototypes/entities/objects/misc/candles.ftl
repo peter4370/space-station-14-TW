@@ -1,5 +1,5 @@
 ent-Candle = 蠟燭 | candle
-    .desc = 一根細細的燭芯穿過厚厚的油脂。 | A thin wick threaded through fat.
+    .desc = A thin wick threaded through fat.
 ent-CandleRed = 紅蠟燭 | red candle
     .desc = { ent-Candle.desc }
 ent-CandleBlue = 藍色蠟燭 | blue candle
@@ -23,7 +23,7 @@ ent-CandleGreenSmall = 一支小綠蠟燭 | small green candle
 ent-CandlePurpleSmall = 一支小巧的紫色蠟燭 | small purple candle
     .desc = { ent-CandleSmall.desc }
 ent-CandleInfinite = 魔法蠟燭 | magic candle
-    .desc = 這要麼是魔法，要麼是高科技，但這支蠟燭永遠不會熄滅。話說回來，它的火焰卻相當冰冷。 | It's either magic or high tech, but this candle never goes out. On the other hand, its flame is quite cold.
+    .desc = It's either magic or high tech, but this candle never goes out. On the other hand, its flame is quite cold.
     .suffix = Decorative
 ent-CandleRedInfinite = 魔法紅蠟燭 | magic red candle
     .desc = { ent-CandleInfinite.desc }

@@ -7,9 +7,10 @@ story-gen-book-type6 = 紀錄
 story-gen-book-type7 = 巨著
 story-gen-book-type8 = 期刊
 story-gen-book-type9 = 檔案庫
-story-gen-book-type10 = 法典
-story-gen-book-type11 = 回憶
-story-gen-book-type12 = 彙編
+story-gen-book-type10= 法典
+story-gen-book-type11= 回憶
+story-gen-book-type12= 彙編
+
 story-gen-book-genre1 = 犯罪小說作品
 story-gen-book-genre2 = 喜劇
 story-gen-book-genre3 = 恐怖故事
@@ -19,11 +20,12 @@ story-gen-book-genre6 = 編年史
 story-gen-book-genre7 = 科幻作品
 story-gen-book-genre8 = 奇幻故事
 story-gen-book-genre9 = 浪漫
-story-gen-book-genre10 = 驚悚片
-story-gen-book-genre11 = 歷史小說作品
-story-gen-book-genre12 = 傳記
-story-gen-book-genre13 = 冒險故事
-story-gen-book-genre14 = 戲劇
+story-gen-book-genre10= 驚悚片
+story-gen-book-genre11= 歷史小說作品
+story-gen-book-genre12= 傳記
+story-gen-book-genre13= 冒險故事
+story-gen-book-genre14= 戲劇
+
 story-gen-book-appearance1 = 古老的
 story-gen-book-appearance2 = 破舊的
 story-gen-book-appearance3 = 骯髒的
@@ -33,24 +35,25 @@ story-gen-book-appearance6 = 惡劣的
 story-gen-book-appearance7 = 布滿灰塵的
 story-gen-book-appearance8 = 可怕
 story-gen-book-appearance9 = 該死的
-story-gen-book-appearance10 = 明亮
-story-gen-book-appearance11 = 可疑的
-story-gen-book-appearance12 = 引人入勝
-story-gen-book-appearance13 = 醜陋的
-story-gen-book-appearance14 = 歪斜的
-story-gen-book-appearance15 = 皺巴巴的
-story-gen-book-appearance16 = 骯髒的
-story-gen-book-appearance17 = 優雅
-story-gen-book-appearance18 = 華麗的
-story-gen-book-appearance19 = 風化
-story-gen-book-appearance20 = 爽脆的
-story-gen-book-appearance21 = 極盡奢華
-story-gen-book-appearance22 = 破爛的
-story-gen-book-appearance23 = 拋光過的
-story-gen-book-appearance24 = 浮雕
-story-gen-book-appearance25 = 不匹配
-story-gen-book-appearance26 = 鍍金的
-story-gen-book-appearance27 = 奇怪
+story-gen-book-appearance10= 明亮
+story-gen-book-appearance11= 可疑的
+story-gen-book-appearance12= 引人入勝
+story-gen-book-appearance13= 醜陋的
+story-gen-book-appearance14= 歪斜的
+story-gen-book-appearance15= 皺巴巴的
+story-gen-book-appearance16= 骯髒的
+story-gen-book-appearance17= 優雅
+story-gen-book-appearance18= 華麗的
+story-gen-book-appearance19= 風化
+story-gen-book-appearance20= 爽脆的
+story-gen-book-appearance21= 極盡奢華
+story-gen-book-appearance22= 破爛的
+story-gen-book-appearance23= 拋光過的
+story-gen-book-appearance24= 浮雕
+story-gen-book-appearance25= 不匹配
+story-gen-book-appearance26= 鍍金的
+story-gen-book-appearance27= 奇怪
+
 story-gen-book-character1 = 小丑
 story-gen-book-character2 = mime
 story-gen-book-character3 = 記者
@@ -91,6 +94,7 @@ story-gen-book-character37 = 侏儒
 story-gen-book-character38 = 小偷
 story-gen-book-character39 = 向導
 story-gen-book-character40 = 黏液
+
 story-gen-book-character-trait1 = 蠢
 story-gen-book-character-trait2 = 聰明
 story-gen-book-character-trait3 = 好笑
@@ -115,6 +119,7 @@ story-gen-book-character-trait21 = 令人心痛卻又美麗
 story-gen-book-character-trait22 = 機器人的
 story-gen-book-character-trait23 = 全息的
 story-gen-book-character-trait24 = 笑得前仰後合
+
 story-gen-book-event1 = 一場殭屍疫情
 story-gen-book-event2 = 一次核爆炸
 story-gen-book-event3 = 一樁大規模謀殺案
@@ -139,6 +144,7 @@ story-gen-book-event21 = 吃了太多披薩
 story-gen-book-event22 = 與一位摯友發生爭執
 story-gen-book-event23 = 在一場大火中突然失去家園
 story-gen-book-event24 = 遺失一台PDA
+
 story-gen-book-action1 = 與……共擁一吻
 story-gen-book-action2 = 勒死
 story-gen-book-action3 = 炸得粉碎
@@ -151,6 +157,7 @@ story-gen-book-action9 = 混入……的婚禮
 story-gen-book-action10 = 聯手擊敗他們的共同敵人，
 story-gen-book-action11 = 被迫攜手合作以逃脫
 story-gen-book-action12 = 送一份珍貴的禮物給
+
 story-gen-book-action-trait1 = 笨拙地
 story-gen-book-action-trait2 = 令人作嘔地
 story-gen-book-action-trait3 = 極其精彩地
@@ -164,6 +171,7 @@ story-gen-book-action-trait10 = 嚴重地
 story-gen-book-action-trait11 = 毫不留情地
 story-gen-book-action-trait12 = 俏皮地
 story-gen-book-action-trait13 = 深思熟慮地
+
 story-gen-book-location1 = 在一個地下建築群中
 story-gen-book-location2 = 在一次探險途中
 story-gen-book-location3 = 當被困在太空中時
@@ -198,6 +206,7 @@ story-gen-book-location31 = 同時以心靈投射的方式進入他們的潛意�
 story-gen-book-location32 = 當被困在陰影次元時
 story-gen-book-location33 = 在試圖逃離一座遭摧毀的太空站時
 story-gen-book-location34 = 在特斯拉球與引力奇點之間被夾住時
+
 story-gen-book-element1 = 情節
 story-gen-book-element2 = 轉折
 story-gen-book-element3 = 高潮
@@ -207,6 +216,7 @@ story-gen-book-element6 = 故事的教訓
 story-gen-book-element7 = 本作品的主題
 story-gen-book-element8 = 文學風格
 story-gen-book-element9 = 藝術作品
+
 story-gen-book-element-trait1 = 駭人聽聞
 story-gen-book-element-trait2 = 令人作嘔
 story-gen-book-element-trait3 = 太棒了
@@ -220,3 +230,15 @@ story-gen-book-element-trait10 = 很有意思
 story-gen-book-element-trait11 = 不足
 story-gen-book-element-trait12 = 傷心
 story-gen-book-element-trait13 = 頗為令人沮喪
+
+
+
+
+
+
+
+
+
+
+
+

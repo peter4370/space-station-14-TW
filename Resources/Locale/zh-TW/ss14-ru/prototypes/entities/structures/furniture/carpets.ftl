@@ -1,5 +1,5 @@
 ent-CarpetBase = 地毯 | carpet
-    .desc = 別具一格的步行路面。 | Fancy walking surface.
+    .desc = Fancy walking surface.
 ent-Carpet = { ent-CarpetBase }
     .desc = { ent-CarpetBase.desc }
     .suffix = Red
@@ -33,4 +33,4 @@ ent-CarpetWhite = { ent-CarpetBase }
 ent-CarpetChapel = 禮拜堂的地毯 | chapel's carpet
     .desc = { ent-BaseStructure.desc }
 ent-CarpetCard = 紙板「地毯」 | cardboard "carpet"
-    .desc = 就連油氈都比這好。 | Even lino is better.
+    .desc = Even lino is better.

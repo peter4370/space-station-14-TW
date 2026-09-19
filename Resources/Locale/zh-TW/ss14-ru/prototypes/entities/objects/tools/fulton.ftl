@@ -1,7 +1,7 @@
 ent-FultonBeacon = 富爾頓信號燈 | fulton beacon
-    .desc = Beacon 將接收富爾頓的擷取資料。 | Beacon to receive fulton extractions.
+    .desc = Beacon to receive fulton extractions.
 ent-Fulton = 富爾頓 | fulton
-    .desc = 用於提取貨櫃、物品，或強行將人員徵召至你的行動基地。 | Used to extract containers, items, or forcibly recruit people into your base of operations.
+    .desc = Used to extract containers, items, or forcibly recruit people into your base of operations.
     .suffix = Full
 ent-Fulton1 = 富爾頓 | fulton
     .desc = { ent-Fulton.desc }

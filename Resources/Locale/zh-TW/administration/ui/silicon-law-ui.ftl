@@ -8,4 +8,5 @@ silicon-law-ui-delete = 刪除
 silicon-law-ui-check-corrupted = 已損毀
 silicon-law-ui-check-corrupted-tooltip = 如果法律編號識別碼出現「損壞」的情況，即符號被隨機打亂。
 silicon-law-ui-placeholder = 請在此處輸入內容以修改法律條文……
+
 silicon-laws-updated = 修訂後的法律

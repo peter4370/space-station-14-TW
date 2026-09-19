@@ -38,6 +38,7 @@ cargo-console-menu-account-action-button = 轉帳
 cargo-console-menu-toggle-account-lock-button = 顯示轉帳限額
 cargo-console-menu-account-action-option-withdraw = 提領現金
 cargo-console-menu-account-action-option-transfer = 將資金轉帳至 { $code }
+
 # Orders
 cargo-console-order-not-allowed = 不允許存取
 cargo-console-station-not-found = 沒有可用的電台
@@ -51,6 +52,7 @@ cargo-console-unlock-approved-order-broadcast = { "[" }bold]{ $productName } x{ 
 cargo-console-fund-withdraw-broadcast = { "[" }bold]{ $name } 從 { $name1 } 提領了 { $amount } 斯佩索 \[{ $code1 }\]
 cargo-console-fund-transfer-broadcast = { "[" }bold]{ $name } 將 { $amount } 筆款項從 { $name1 } \[{ $code1 }\] 轉帳至 { $name2 } \[{ $code2 }\][/bold]
 cargo-console-fund-transfer-user-unknown = 未知
+
 cargo-console-paper-reason-default = 無
 cargo-console-paper-approver-default = 未知
 cargo-console-paper-print-name = 訂單編號 #{ $orderNumber }
@@ -58,31 +60,36 @@ cargo-console-paper-print-text = { "[" }head=2]訂單編號 #{ $orderNumber }[/h
     { "[bold]項目：[/bold]" } { $itemName } (x{ $orderQuantity })
     { "[bold]申請人：[/bold]" } { $requester }
 
-    { "[head=3]訂單資訊[/head]" }
-    { "[bold]付款人[/bold]:" } { $account } \[{ $accountcode }\]
-    { "[bold]核准人：[/bold]" } { $approver }
-    { "[bold]理由：[/bold]" } { $reason }
+    { "[head=3]Order Information[/head]" }
+    { "[bold]Payer[/bold]:" } { $account } [font="Monospace"]\[{ $accountcode }\][/font]
+    { "[bold]Approved by:[/bold]" } { $approver }
+    { "[bold]Reason:[/bold]" } { $reason }
+
 # Cargo shuttle console
 cargo-shuttle-console-menu-title = 貨運穿梭機控制台
 cargo-shuttle-console-station-unknown = 未知
 cargo-shuttle-console-shuttle-not-found = 未找到
 cargo-shuttle-console-organics = 在穿梭機上偵測到有機生命體
 cargo-no-shuttle = 未找到貨運穿梭機！
+
 # Funding allocation console
 cargo-funding-alloc-console-menu-title = 資金分配控制台
 cargo-funding-alloc-console-label-account = { "[" }bold]帳戶[/bold]
 cargo-funding-alloc-console-label-code = { "[" }bold] 程式碼 [/bold]
 cargo-funding-alloc-console-label-balance = { "[" }bold] 平衡 [/bold]
 cargo-funding-alloc-console-label-cut = { "[" }bold] 營收分佈（%） [/bold]
+
 cargo-funding-alloc-console-label-primary-cut = 貨運部從非鎖箱來源獲得的資金佔比（%）：
 cargo-funding-alloc-console-label-lockbox-cut = 貨運部從鎖箱銷售中獲得的分成比例（%）：
+
 cargo-funding-alloc-console-label-help-non-adjustible = 貨運部從非鎖箱銷售中獲得 { $percent }% 的利潤。其餘部分則按以下規定分配：
 cargo-funding-alloc-console-label-help-adjustible = 來自非鎖箱來源的剩餘資金，將依照以下規定進行分配：
 cargo-funding-alloc-console-button-save = 儲存變更
 cargo-funding-alloc-console-label-save-fail = { "[" }bold]收入分攤無效！[/bold] [color=red]({ $pos ->
-            [1] +
-           *[-1] -
-        }{ $val }%)[/color]
+        [1] +
+       *[-1] -
+    }{ $val }%)[/color]
+
 # Slip template
 cargo-acquisition-slip-body = { "[" }head=3]資產詳情[/head]
     { "[bold]產品：[/bold]" } { $product }
@@ -91,6 +98,6 @@ cargo-acquisition-slip-body = { "[" }head=3]資產詳情[/head]
     { "[bold]數量：[/bold]" } { $amount }
     { "[bold]總價：[/bold]" } ${ $cost }
 
-    { "[head=3]採購明細[/head]" }
-    { "[bold]訂購人：[/bold]" } { $orderer }
-    { "[bold]原因：[/bold]" } { $reason }
+    { "[head=3]Purchase Detail[/head]" }
+    { "[bold]Orderer:[/bold]" } { $orderer }
+    { "[bold]Reason:[/bold]" } { $reason }

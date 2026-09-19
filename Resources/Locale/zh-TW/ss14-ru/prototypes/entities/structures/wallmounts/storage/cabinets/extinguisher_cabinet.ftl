@@ -1,5 +1,5 @@
 ent-ExtinguisherCabinet = 滅火器櫃 | extinguisher cabinet
-    .desc = 一款專為存放滅火器而設計的小型壁掛式櫃子。 | A small wall mounted cabinet designed to hold a fire extinguisher.
+    .desc = A small wall mounted cabinet designed to hold a fire extinguisher.
 ent-ExtinguisherCabinetOpen = { ent-ExtinguisherCabinet }
     .desc = { ent-ExtinguisherCabinet.desc }
     .suffix = Open

@@ -1,5 +1,5 @@
 ent-SurveillanceCameraBase = 相機 | camera
-    .desc = 一台監視器。它正在監視你。算是吧。 | A surveillance camera. It's watching you. Kinda.
+    .desc = A surveillance camera. It's watching you. Kinda.
 ent-SurveillanceCameraConstructed = 相機 | camera
     .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Constructed
@@ -28,4 +28,4 @@ ent-SurveillanceCameraGeneral = 相機 | camera
     .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = General
 ent-SurveillanceCameraAssembly = 相機 | camera
-    .desc = 一台監視器。看來短期內應該不會監控到任何人。大概吧。 | A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
+    .desc = A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.

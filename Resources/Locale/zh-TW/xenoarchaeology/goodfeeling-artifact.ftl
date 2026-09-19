@@ -12,6 +12,7 @@ goodfeeling-artifact-11 = 你的頭皮感到一陣刺癢。
 goodfeeling-artifact-12 = 所有的顏色似乎都顯得更加鮮豔了。
 goodfeeling-artifact-13 = 一切似乎都變得稍微輕盈了一些。
 goodfeeling-artifact-14 = 世上的煩惱似乎都消散了。
+
 goodfeeling-artifact-drastic-1 = 你會想擁抱遇到的每一個人！
 goodfeeling-artifact-drastic-2 = 一切都進展得非常順利！
 goodfeeling-artifact-drastic-3 = 你感到欣喜若狂。

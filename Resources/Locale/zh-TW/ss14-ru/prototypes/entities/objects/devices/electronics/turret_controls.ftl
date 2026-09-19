@@ -1,5 +1,5 @@
 ent-WeaponEnergyTurretStationControlPanelElectronicsBase = 哨兵砲塔控制面板電子裝置 | sentry turret control panel electronics
-    .desc = 用於哨兵砲塔控制面板的一塊電子電路板。 | An electronics board used in a sentry turret control panel.
+    .desc = An electronics board used in a sentry turret control panel.
     .suffix = { ent-BaseElectronics.suffix }
 ent-WeaponEnergyTurretSecurityControlPanelElectronics = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase }
     .desc = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase.desc }

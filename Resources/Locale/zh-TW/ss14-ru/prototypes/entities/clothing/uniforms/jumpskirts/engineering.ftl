@@ -1,10 +1,10 @@
 ent-ClothingUniformJumpskirtChiefEngineer = 首席工程師的連身裙 | chief engineer's jumpskirt
-    .desc = 這是一件高能見度的連身裙，專門頒發給那些瘋狂到足以晉升為首席工程師的工程師。 | It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer.
+    .desc = It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer.
 ent-ClothingUniformJumpskirtChiefEngineerTurtle = 總工程師的高領毛衣 | chief engineer's turtleneck
-    .desc = 一款專為工程部門工作環境設計的黃色高領衫。 | A yellow turtleneck designed specifically for work in conditions of the engineering department.
+    .desc = A yellow turtleneck designed specifically for work in conditions of the engineering department.
 ent-ClothingUniformJumpskirtEngineering = 工程師連身裙 | engineering jumpskirt
-    .desc = 如果這套防護服不導電的話，說不定工程師們真的會好好做他們該做的事。 | If this suit was non-conductive, maybe engineers would actually do their damn job.
+    .desc = If this suit was non-conductive, maybe engineers would actually do their damn job.
 ent-ClothingUniformJumpskirtAtmos = 大氣技術員的連身裙 | atmospheric technician jumpskirt
-    .desc = 我正在上班。我不能離開工作崗位。工作就是我的呼吸。我正在檢測空氣品質。 | I am at work. I can't leave work. Work is breathing. I am testing air quality.
+    .desc = I am at work. I can't leave work. Work is breathing. I am testing air quality.
 ent-ClothingUniformJumpskirtSeniorEngineer = 資深工程師連身裙 | senior engineer jumpskirt
-    .desc = 工程部門內展現技術實力與聲望的象徵。 | A sign of skill and prestige within the engineering department.
+    .desc = A sign of skill and prestige within the engineering department.

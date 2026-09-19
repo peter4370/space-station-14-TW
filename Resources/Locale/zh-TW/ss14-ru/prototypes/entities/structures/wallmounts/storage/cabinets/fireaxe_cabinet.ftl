@@ -1,5 +1,5 @@
 ent-FireAxeCabinet = 消防斧櫃 | fire axe cabinet
-    .desc = 上面貼著一張小標籤，寫著「僅限緊急情況使用」，並附有斧頭的安全使用說明。說得好像真有那麼回事似的。 | There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
+    .desc = There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
 ent-FireAxeCabinetOpen = { ent-FireAxeCabinet }
     .desc = { ent-FireAxeCabinet.desc }
     .suffix = Open

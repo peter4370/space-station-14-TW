@@ -1,14 +1,17 @@
+
 ### UI
 
 # Current game score
 blockgame-menu-label-points = 要點：{ $points }
+
 # Current game level
 blockgame-menu-label-level = 層級：{ $level }
+
 # Game over information of your round
-blockgame-menu-gameover-info =
-    全域：{ $global }
+blockgame-menu-gameover-info = 全域：{ $global }
     本地：{ $local }
     點數：{ $points }
+
 blockgame-menu-title = Nanotrasen 積木遊戲
 blockgame-menu-button-new-game = 新遊戲
 blockgame-menu-button-scoreboard = 計分板

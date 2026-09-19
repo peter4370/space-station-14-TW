@@ -15,7 +15,6 @@ device-frequency-prototype-name-xenoborg = Xenoborg
 device-frequency-prototype-name-mothership = 母艦
 
 ## camera frequencies
-
 device-frequency-prototype-name-surveillance-camera-test = 子網測試
 device-frequency-prototype-name-surveillance-camera-engineering = 工程用相機
 device-frequency-prototype-name-surveillance-camera-security = 監視攝影機
@@ -26,6 +25,7 @@ device-frequency-prototype-name-surveillance-camera-service = 服務用攝影機
 device-frequency-prototype-name-surveillance-camera-medical = 醫療用攝影機
 device-frequency-prototype-name-surveillance-camera-general = 一般相機
 device-frequency-prototype-name-surveillance-camera-entertainment = 娛樂攝影機
+
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = VNT-
 device-address-prefix-scrubber = SCR-
@@ -37,12 +37,16 @@ device-address-prefix-freezer = FZR-
 device-address-prefix-volume-pump = VPP-
 device-address-prefix-smes = 簡訊-
 device-address-prefix-turret = TRT-
+
 # PDAs and terminals
 device-address-prefix-console = CLS-
 device-address-prefix-fire-alarm = FIR-
 device-address-prefix-air-alarm = AIR-
+
 device-address-prefix-sensor-monitor = 週一-
+
 device-address-examine-message = 該裝置的網址為 { $address }。
+
 # Device net ID names
 device-net-id-private = 私人
 device-net-id-wired = 《Wired》
@@ -50,5 +54,6 @@ device-net-id-wireless = 無線
 device-net-id-apc = Apc
 device-net-id-atmos-devices = Atmos Devices
 device-net-id-reserved = 保留
+
 # Unknown
 device-address-unknown = ????-????

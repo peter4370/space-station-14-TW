@@ -1,10 +1,10 @@
 ### Interaction Popup component
 
-
 ## Petting animals
 
 petting-success-generic = 你撫摸 { THE($target) } 那 { POSS-ADJ($target) } 的頭。
 petting-success-soft-floofy = 你撫摸 { THE($target) } 那 { POSS-ADJ($target) } 柔軟蓬鬆的頭。
+
 petting-success-bingus = 你撫摸了 { THE($target) } 那 { POSS-ADJ($target) } 皺巴巴的小腦袋。
 petting-success-bird = 你撫摸 { THE($target) } 那 { POSS-ADJ($target) } 可愛的羽毛頭。
 petting-success-carp = 你撫摸了 { THE($target) } 那 { POSS-ADJ($target) } 魚魚的小腦袋。
@@ -34,7 +34,9 @@ petting-success-snake = 你撫摸了 { THE($target) } 那 { POSS-ADJ($target) } 
 petting-success-monkey = 你撫摸了 { THE($target) } 那 { POSS-ADJ($target) } 調皮的小腦袋。
 petting-success-nymph = 你撫摸 { THE($target) } 那 { POSS-ADJ($target) } 木製的小腦袋。
 petting-success-scurret = 你撫摸了 { THE($target) } 那個在 { POSS-ADJ($target) } 上、在法律上獨立的頭部。
+
 petting-failure-generic = 你伸出手想撫摸 { THE($target) }，但 { SUBJECT($target) } 卻 { CONJUGATE-BE($target) } 對你保持距離。
+
 petting-failure-bat = 你伸手想撫摸 { THE($target) }，但 { SUBJECT($target) } { CONJUGATE-BE($target) } 跑得太快，根本抓不到！
 petting-failure-carp = 你伸手想撫摸 { THE($target) }，但 { POSS-ADJ($target) } 那尖銳的牙齒讓你猶豫了。
 petting-failure-corrupted-corgi = 你伸出手想撫摸 { THE($target) }，但轉念一想還是算了。
@@ -73,6 +75,7 @@ petting-success-syndicate-cyborg = 你撫摸了 { THE($target) } 那 { POSS-ADJ(
 petting-success-derelict-cyborg = 你撫摸了 { THE($target) } 那 { POSS-ADJ($target) } 生鏽的金屬頭。
 petting-success-recycler = 你輕撫著 { THE($target) } 那 { POSS-ADJ($target) } 略帶威脅感的鋼製外殼。
 petting-success-station-ai = 你撫摸著 { THE($target) } 那 { POSS-ADJ($target) } 冰冷、方形的螢幕。
+
 petting-failure-honkbot = 你伸手想撫摸 { THE($target) }，但 { SUBJECT($target) } 卻以 { CONJUGATE-BASIC($target, "honk", "honks") } 的方式表示拒絕！
 petting-failure-cleanbot = 你伸手想撫摸 { THE($target) }，但 { SUBJECT($target) } 正忙著 { CONJUGATE-BE($target) } 拖地！
 petting-failure-mimebot = 你伸手想撫摸 { THE($target) }，但 { SUBJECT($target) } 正忙著比手畫腳 { CONJUGATE-BE($target) }！
@@ -87,6 +90,7 @@ petting-failure-service-cyborg = 你伸手想撫摸 { THE($target) }，但 { SUB
 petting-failure-syndicate-cyborg = 你伸出手想撫摸 { THE($target) }，但 { POSS-ADJ($target) } 那背信棄義的關係讓你重新考慮。
 petting-failure-derelict-cyborg = 你伸手想撫摸 { THE($target) }，但 { POSS-ADJ($target) } 那鏽跡斑斑且棱角鋒利的外觀讓你打消了這個念頭。
 petting-failure-station-ai = 你伸手想撫摸 { THE($target) }，但 { SUBJECT($target) } { CONJUGATE-BASIC($target, "zap", "zaps") } 將你的手彈開了。
+
 petting-success-station-ai-others = { CAPITALIZE(THE($user)) } 寵物 { THE($target) } 在 { POSS-ADJ($target) } 冰冷、方形的螢幕上。
 
 ## Rattling fences
@@ -103,5 +107,6 @@ hugging-success-generic-target = { CAPITALIZE(THE($user)) } 擁抱你。
 
 petting-success-tesla = 你撫摸了 { THE($target) }，這違反了自然法則和物理定律。
 petting-failure-tesla = 你伸手朝 { THE($target) } 伸去，但 { SUBJECT($target) } { CONJUGATE-BASIC($target, "zap", "zaps") } 將你的手推開。
+
 petting-success-mail-teleporter = 你撫摸 { THE($target) } 那 { POSS-ADJ($target) } 順從而冷漠的外表。
 petting-failure-mail-teleporter = 你伸手想撫摸 { THE($target) }，但 { SUBJECT($target) } 正忙著 { CONJUGATE-BE($target) } 整理郵件！

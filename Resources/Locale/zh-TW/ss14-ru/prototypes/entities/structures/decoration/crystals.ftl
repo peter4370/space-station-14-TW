@@ -1,5 +1,5 @@
 ent-BaseCrystalStalagmite = 水晶 | crystal
-    .desc = 一處由尖銳水晶構成的岩露。 | An outcrop of jagged crystals.
+    .desc = An outcrop of jagged crystals.
 ent-CrystalGreen = { ent-BaseCrystalStalagmite }
     .desc = { ent-BaseCrystalStalagmite.desc }
     .suffix = green

@@ -10,6 +10,8 @@ admin-verb-make-paradox-clone = 建立一個名為「Paradox Clone」的目標�
 admin-verb-make-wizard = 將目標轉化為巫師。
 admin-verb-make-space-ninja = 將目標變成一名太空忍者。
 admin-verb-make-changeling = 將目標變成變形者。
+
+
 admin-verb-text-make-traitor = 《背叛者》
 admin-verb-text-make-initial-infected = 使初始狀態感染
 admin-verb-text-make-zombie = 製作殭屍
@@ -21,4 +23,5 @@ admin-verb-text-make-paradox-clone = 建立 Paradox 克隆體
 admin-verb-text-make-wizard = 建立精靈
 admin-verb-text-make-space-ninja = 打造忍者
 admin-verb-text-make-changeling = 製作《變形者》（製作中）
+
 admin-overlay-antag-classic = ANTAG

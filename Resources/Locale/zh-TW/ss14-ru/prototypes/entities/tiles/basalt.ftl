@@ -1,5 +1,5 @@
 ent-BasaltOne = 玄武岩 | basalt
-    .desc = 搖滾。 | Rock.
+    .desc = Rock.
 ent-BasaltTwo = { ent-BasaltOne }
     .desc = { ent-BasaltOne.desc }
 ent-BasaltThree = { ent-BasaltOne }

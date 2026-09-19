@@ -4,7 +4,6 @@ chem-master-component-activate-no-hands = 你沒有手。
 chem-master-component-cannot-put-entity-message = 你不能把這個放進 ChemMaster 裡！
 
 ## Bound UI
-
 chem-master-bound-user-interface-title = ChemMaster 4000
 
 ## UI

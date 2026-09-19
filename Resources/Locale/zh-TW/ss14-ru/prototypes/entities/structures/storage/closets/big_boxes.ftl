@@ -1,9 +1,9 @@
 ent-BaseBigBox = 紙箱
-    .desc = 咦？只是一個盒子…… | Huh? Just a box...
+    .desc = Huh? Just a box...
 ent-StealthBox = { ent-BaseBigBox }
-    .desc = 讓你們久等了，對吧？ | Kept ya waiting, huh?
+    .desc = Kept ya waiting, huh?
     .suffix = stealth
 ent-BigBox = { ent-BaseBigBox }
     .desc = { ent-BaseBigBox.desc }
 ent-GhostBox = 幽靈盒 | ghost box
-    .desc = 請注意！ | Beware!
+    .desc = Beware!

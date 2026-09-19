@@ -1,5 +1,5 @@
 ent-BaseBullet = BaseBullet | BaseBullet
-    .desc = 如果你能看到這段文字，你八成已經死了！ | If you can see this you're probably dead!
+    .desc = If you can see this you're probably dead!
 ent-BaseBulletTrigger = 基本子彈扳機 | base bullet trigger
     .desc = { ent-BaseBullet.desc }
 ent-BaseBulletPractice = 基礎子彈練習 | base bullet practice

@@ -1,13 +1,13 @@
 ent-BaseSpellbook = 法術書 | spellbook
     .desc = { ent-BaseItem.desc }
 ent-WizardsGrimoire = 巫師的魔典 | wizard's grimoire
-    .desc = 一本厚重的巨著，收錄了用於製作魔法咒語和召喚超自然裝備的複雜玄奧公式。這部蘊含神秘秘術的典籍凝聚了數十年的研究心血；現在就去運用它們，讓某人過個糟心的一天吧。 | A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Decades of study went into researching this collection of mystical secrets; now go use them to ruin someone's day.
+    .desc = A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Decades of study went into researching this collection of mystical secrets; now go use them to ruin someone's day.
     .suffix = Wizard
 ent-WizardsGrimoireNoRefund = { ent-WizardsGrimoire }
     .desc = { ent-WizardsGrimoire.desc }
     .suffix = Wizard, no refunding
 ent-WizardsGrimoireDebug = { ent-WizardsGrimoire }
-    .desc = 一本厚重的巨著，收錄了用於製作魔法咒語與召喚超自然裝備的複雜秘術公式。有人在內封面寫下了「僅供實驗使用」的字樣。 | A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Someone wrote "FOR EXPERIMENTAL USE ONLY" on the inside cover.
+    .desc = A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Someone wrote "FOR EXPERIMENTAL USE ONLY" on the inside cover.
     .suffix = Wizard, DEBUG
 ent-SpawnSpellbook = 生成法術書 | spawn spellbook
     .desc = { ent-BaseSpellbook.desc }

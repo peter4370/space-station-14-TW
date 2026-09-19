@@ -38,6 +38,7 @@ chat-emote-name-whine = 抱怨
 chat-emote-name-howl = 《嚎叫》
 chat-emote-name-growl = 低吼
 chat-emote-name-flap = 襟翼
+
 # Message
 chat-emote-msg-scream = 尖叫聲！
 chat-emote-msg-laugh = 笑了。

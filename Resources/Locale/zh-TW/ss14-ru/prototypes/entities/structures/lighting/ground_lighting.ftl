@@ -1,8 +1,8 @@
 ent-LightPostSmall = 柱燈 | post light
-    .desc = 一盞始終通電的燈。 | An always powered light.
+    .desc = An always powered light.
     .suffix = Always Powered
 ent-PoweredLightPostSmallEmpty = 柱燈 | post light
-    .desc = 一座小型路燈柱。裝設燈管後，即可供電並發光。 | A small light post. Draws power and produces light when equipped with a light tube.
+    .desc = A small light post. Draws power and produces light when equipped with a light tube.
     .suffix = Empty
 ent-PoweredLightPostSmall = 柱燈 | post light
     .desc = { ent-PoweredLightPostSmallEmpty.desc }

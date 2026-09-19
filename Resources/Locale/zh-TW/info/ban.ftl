@@ -9,39 +9,46 @@ cmd-ban-hint = <name/user ID>
 cmd-ban-hint-reason = <reason>
 cmd-ban-hint-duration = { "[" }時長]
 cmd-ban-hint-severity = { "[" }嚴重程度]
+
 cmd-ban-hint-duration-1 = 永久性
 cmd-ban-hint-duration-2 = 1 天
 cmd-ban-hint-duration-3 = 3 天
 cmd-ban-hint-duration-4 = 1 週
 cmd-ban-hint-duration-5 = 2 週
 cmd-ban-hint-duration-6 = 1 個月
+
 # ban panel
 cmd-banpanel-desc = 開啟封禁面板
 cmd-banpanel-help = 用法：banpanel [名稱或使用者 GUID]
 cmd-banpanel-server = 此功能無法從伺服器主控台使用
 cmd-banpanel-player-err = 找不到指定的播放器
+
 # listbans
 cmd-banlist-desc = 列出使用者的有效封禁清單。
 cmd-banlist-help = Usage: banlist <name or user ID>
 cmd-banlist-empty = 未找到針對 { $user } 的有效封禁
 cmd-banlist-hint = <name/user ID>
+
 cmd-ban_exemption_update-desc = 針對某位球員的某種禁令設定豁免。
-cmd-ban_exemption_update-help =
-    Usage: ban_exemption_update <player> <flag> [<flag> [...]]
+cmd-ban_exemption_update-help = Usage: ban_exemption_update <player> <flag> [<flag> [...]]
     Specify multiple flags to give a player multiple ban exemption flags.
     To remove all exemptions, run this command and give "None" as only flag.
+
 cmd-ban_exemption_update-nargs = 預期至少有 2 個參數
 cmd-ban_exemption_update-locate = 無法找到播放器「{ $player }」。
 cmd-ban_exemption_update-invalid-flag = 標誌「{ $flag }」無效。
 cmd-ban_exemption_update-success = 更新了「{ $player }」（{ $uid }）的封禁豁免標記。
 cmd-ban_exemption_update-arg-player = <player>
 cmd-ban_exemption_update-arg-flag = <flag>
+
 cmd-ban_exemption_get-desc = 顯示特定球員的禁賽豁免情況。
 cmd-ban_exemption_get-help = Usage: ban_exemption_get <player>
+
 cmd-ban_exemption_get-nargs = 預期有且僅有 1 個參數
 cmd-ban_exemption_get-none = 該用戶不得豁免任何禁令。
 cmd-ban_exemption_get-show = 該使用者不受以下封禁標記的限制：{ $flags }。
 cmd-ban_exemption_get-arg-player = <player>
+
 # Ban panel
 ban-panel-title = 封禁小組
 ban-panel-player = 玩家
@@ -71,9 +78,11 @@ ban-panel-ip-hwid-tooltip = 請留空並勾選下方的核取方塊，以使用�
 ban-panel-severity = 嚴重程度：
 ban-panel-erase = 刪除該回合的聊天訊息及玩家
 ban-panel-expiry-error = err
+
 # Ban string
 server-ban-string = { $admin } 針對 [{ $name }, { $ip }, { $hwid }] 建立了一項嚴重程度的伺服器封禁（{ $severity }），有效期至 { $expires }，理由為：{ $reason }
 server-ban-string-no-pii = { $admin } 針對 { $severity } 設定了一項嚴重程度的伺服器封禁，有效期至 { $expires }，適用對象為 { $name }，理由為：{ $reason }
 server-ban-string-never = 從未
+
 # Kick on ban
 ban-kick-reason = 您已被封禁

@@ -1,9 +1,9 @@
 ## UI
 
-
 # Bound Interface
 
 gas-canister-bound-user-interface-title = 氣體容器
+
 # Popup
 gas-canister-popup-denied = 存取遭拒
 

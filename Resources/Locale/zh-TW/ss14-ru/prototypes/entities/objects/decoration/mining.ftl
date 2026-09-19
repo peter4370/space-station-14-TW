@@ -1,14 +1,14 @@
 ent-WoodenSign = 木製招牌 | wooden sign
-    .desc = 他正指向某個地方。 | He's pointing somewhere.
+    .desc = He's pointing somewhere.
 ent-WoodenSignRight = { ent-WoodenSign }
     .desc = { ent-WoodenSign.desc }
 ent-BaseWoodenSupport = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
 ent-WoodenSupport = 木製支撐架 | wooden support
-    .desc = 讓你更加確信不會有石頭掉在頭上。 | Increases your confidence that a rock won't fall on your head.
+    .desc = Increases your confidence that a rock won't fall on your head.
 ent-WoodenSupportBeam = 木製支撐樑 | wooden support beam
     .desc = { ent-BaseWoodenSupport.desc }
 ent-WoodenSupportWall = 木製撐牆 | wooden support wall
-    .desc = 一堵破舊腐朽的牆。 | An old, rotten wall.
+    .desc = An old, rotten wall.
 ent-WoodenSupportWallBroken = { ent-BaseWoodenSupport }
     .desc = { ent-BaseWoodenSupport.desc }

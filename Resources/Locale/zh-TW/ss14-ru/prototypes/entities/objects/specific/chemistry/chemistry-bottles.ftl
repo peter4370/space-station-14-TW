@@ -1,5 +1,5 @@
 ent-BaseChemistryEmptyBottle = 瓶子 | bottle
-    .desc = 一瓶小瓶。 | A small bottle.
+    .desc = A small bottle.
 ent-ChemistryEmptyBottle01 = { ent-BaseChemistryEmptyBottle }
     .desc = { ent-BaseChemistryEmptyBottle.desc }
 ent-ChemistryEmptyBottle02 = { ent-BaseChemistryEmptyBottle }

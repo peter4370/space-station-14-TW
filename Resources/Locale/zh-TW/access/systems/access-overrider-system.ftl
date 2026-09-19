@@ -7,3 +7,4 @@ access-overrider-window-missing-privileges = 此裝置的存取權限無法進�
 access-overrider-window-missing-privileges-no-id = 無法變更對此裝置的存取權限。缺少以下權限：
 access-overrider-cannot-modify-access = 您沒有足夠的權限來修改此裝置！
 access-overrider-out-of-range = 連線裝置距離過遠
+

@@ -1,5 +1,5 @@
 ent-BaseFilingCabinet = { ent-BaseStructureDynamic }
-    .desc = 一款能滿足您所有檔案歸檔需求的檔案櫃。 | A cabinet for all your filing needs.
+    .desc = A cabinet for all your filing needs.
     .suffix = Empty
 ent-filingCabinet = 檔案櫃 | filing cabinet
     .desc = { ent-BaseFilingCabinet.desc }
@@ -8,7 +8,7 @@ ent-filingCabinetTall = 高櫃 | tall cabinet
     .desc = { ent-BaseFilingCabinet.desc }
     .suffix = { ent-BaseFilingCabinet.suffix }
 ent-filingCabinetDrawer = 抽屜櫃 | chest drawer
-    .desc = 一個能滿足您所有檔案收納需求的小抽屜，現在還加裝了輪子！ | A small drawer for all your filing needs, Now with wheels!
+    .desc = A small drawer for all your filing needs, Now with wheels!
     .suffix = { ent-BaseFilingCabinet.suffix }
 ent-BaseBureaucraticStorageFill = { "" }
     .desc = { "" }

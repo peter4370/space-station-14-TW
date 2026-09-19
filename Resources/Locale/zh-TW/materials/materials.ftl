@@ -5,11 +5,13 @@ materials-plasma-glass = 等離子玻璃
 materials-reinforced-plasma-glass = 強化等離子玻璃
 materials-uranium-glass = 鈾玻璃
 materials-reinforced-uranium-glass = 強化鈾玻璃
+
 # Metals
 materials-steel = 鋼
 materials-gold = 黃金
 materials-silver = 銀
 materials-plasteel = 塑鋼
+
 # Other
 materials-biomass = 生物質
 materials-cardboard = 紙板
@@ -29,6 +31,7 @@ materials-diamond = 鑽石
 materials-gunpowder = 火藥
 materials-cotton = 棉
 materials-xenoborg-crystal = 外星博格水晶
+
 # Ores
 materials-raw-iron = 生鐵
 materials-raw-quartz = 原石石英
