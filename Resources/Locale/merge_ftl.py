@@ -1,182 +1,217 @@
 #!/usr/bin/env python3
 
-from __future__ import annotations
-
-import argparse
-import json
 import re
-from collections import OrderedDict
+import sys
+import json
 from pathlib import Path
 
 from fluent.syntax import FluentParser
 
 
 # ============================================================
-# 設定
+# Fluent Entry 起始
 # ============================================================
 
-# 一般 Fluent Message / Term key
+# 正常 Fluent message / term
 #
-# 例如：
-#   foo = Hello
-#   bar-baz = World
-#   -my-term = Term
+# foo = ...
+# -foo = ...
 #
 ENTRY_RE = re.compile(
     r"^(-?[A-Za-z][A-Za-z0-9_-]*)[ \t]*="
 )
 
-# 用來判斷「一個 top-level entry 開始」
+# SS14 某些自動產生的特殊 key
 #
-# 不只抓正常 Fluent key。
-# 這是故意的，因為 SS14 某些產生的特殊 key
-# Python fluent.syntax 可能不認得。
+# ent-{'values': ['GasPressurePump', ...]} = ...
 #
-# 例如：
-#   ent-{'values': ['GasPressurePump', ...]} = gas pump
-#
-# 這種也必須能被我們獨立搬到 excluded FTL。
-TOP_LEVEL_ENTRY_RE = re.compile(
-    r"^[^\s#;].*="
+SPECIAL_ENTRY_RE = re.compile(
+    r"^ent-\{.*\}[ \t]*="
 )
 
 
 # ============================================================
-# 純文字讀寫
+# 檔案 I/O
 # ============================================================
 
-def read_text(path: Path) -> str:
-    """
-    原封不動讀取文字檔。
-
-    newline="" 很重要：
-    不讓 Python 自動把 CRLF / LF 做轉換。
-    """
-    with path.open(
-        "r",
-        encoding="utf-8",
-        newline="",
-    ) as f:
+def read_text(path):
+    with open(path, "r", encoding="utf-8", newline="") as f:
         return f.read()
 
 
-def write_text(path: Path, text: str) -> None:
-    """
-    原封不動寫入文字檔。
-    """
-    with path.open(
-        "w",
-        encoding="utf-8",
-        newline="",
-    ) as f:
+def write_text(path, text):
+    with open(path, "w", encoding="utf-8", newline="") as f:
         f.write(text)
 
 
 # ============================================================
-# Key 掃描
+# 判斷 Entry 起始
 # ============================================================
 
-def get_keys(text: str) -> list[str]:
+def is_entry_start(line):
     """
-    從原始 FTL 文字中找出正常的 top-level Message / Term key。
-
-    這裡只負責建立 manifest。
-    不 parse、不 serialize、不修改文字。
-    """
-
-    keys = []
-
-    for line in text.splitlines():
-        if line.startswith((" ", "\t")):
-            continue
-
-        match = ENTRY_RE.match(line)
-
-        if match is not None:
-            keys.append(match.group(1))
-
-    return keys
-
-
-# ============================================================
-# Entry 切割
-# ============================================================
-
-def split_entries(text: str) -> list[tuple[str, str]]:
-    """
-    將一個 FTL 檔案按照 top-level entry 切開。
-
-    回傳：
-        [
-            (header/comment/空白等前置文字 + entry, entry_key),
-            ...
-        ]
-
-    這裡不做 Fluent AST parse。
-
-    目的只是把原始文字分成可以個別送給 parser
-    測試的區塊。
+    判斷一行是不是新的 Fluent Entry。
 
     注意：
-    這個函式不會修改任何文字。
+    - 不修改原始文字
+    - 不嘗試解析 Entry
+    - 只負責找 Entry 的開始位置
+    """
+
+    if ENTRY_RE.match(line):
+        return True
+
+    if SPECIAL_ENTRY_RE.match(line):
+        return True
+
+    return False
+
+
+# ============================================================
+# 切割 FTL
+# ============================================================
+
+def split_entries(text):
+    """
+    把一個 FTL 檔案切成：
+
+        [前置 comment / 空白] + [一個 Entry]
+
+    的單位。
+
+    例如：
+
+        # Foo
+        foo = Hello
+
+        # Bar
+        bar = World
+
+    會變成兩個 Entry：
+
+        # Foo
+        foo = Hello
+
+    和：
+
+        # Bar
+        bar = World
+
+    完全保留原始文字，不經過 serializer。
     """
 
     lines = text.splitlines(keepends=True)
 
-    entries: list[tuple[str, str]] = []
+    entries = []
 
-    current_start = None
-    current_key = None
+    # 尚未遇到第一個 Entry 前的內容
+    pending = []
 
-    for index, line in enumerate(lines):
+    # 目前 Entry
+    current = None
 
-        # 空白行 / comment / indented line
-        # 不算新的 entry
-        if line.startswith((" ", "\t")):
-            continue
+    for line in lines:
 
-        if line.startswith(("#", ";")):
-            continue
+        if is_entry_start(line):
 
-        match = TOP_LEVEL_ENTRY_RE.match(line)
+            # 如果已經有一個 Entry
+            if current is not None:
+                entries.append("".join(current))
 
-        if match is None:
-            continue
+            # pending 是這個 Entry 前面的
+            # comment / 空白 / BOM 等內容
+            current = pending + [line]
+            pending = []
 
-        # 找到新的 top-level entry
-        if current_start is not None:
-            entry_text = "".join(lines[current_start:index])
-            entries.append((entry_text, current_key))
-
-        current_start = index
-
-        # 只在這裡嘗試取得正常 key。
-        # 特殊 SS14 key 可能會取得 None。
-        normal_match = ENTRY_RE.match(line)
-
-        if normal_match is not None:
-            current_key = normal_match.group(1)
         else:
-            current_key = None
 
-    # 最後一個 entry
-    if current_start is not None:
-        entry_text = "".join(lines[current_start:])
-        entries.append((entry_text, current_key))
+            if current is None:
+                # 還沒遇到任何 Entry
+                pending.append(line)
+            else:
+                # Entry 的後續內容
+                current.append(line)
+
+    # 最後一個 Entry
+    if current is not None:
+        entries.append("".join(current))
+
+    # 如果整個檔案沒有任何 Entry
+    elif pending:
+        entries.append("".join(pending))
 
     return entries
 
 
 # ============================================================
-# Parser 檢查
+# 找 Entry Key
+# ============================================================
+
+def get_entry_key(entry_text):
+    """
+    從 Entry 開頭抓 Fluent key。
+
+    正常：
+        foo = ...
+
+    term：
+        -foo = ...
+
+    特殊 SS14 key：
+        ent-{'values': [...]} = ...
+
+    特殊 key 不放入 manifest。
+    """
+
+    lines = entry_text.splitlines()
+
+    for line in lines:
+
+        # 跳過空白
+        if not line.strip():
+            continue
+
+        # 跳過 comment
+        if line.lstrip().startswith("#"):
+            continue
+
+        match = ENTRY_RE.match(line)
+
+        if match:
+            return match.group(1)
+
+        # 特殊 key
+        if SPECIAL_ENTRY_RE.match(line):
+            return None
+
+        # 第一個真正內容不是 Entry
+        return None
+
+    return None
+
+
+# ============================================================
+# Fluent Parser
 # ============================================================
 
 def parse_ok(parser, text):
+    """
+    使用 fluent.syntax 解析 Entry。
+
+    fluent.syntax 的 parser 不一定丟 exception。
+    語法錯誤會變成：
+
+        Resource.body -> Junk -> annotations
+
+    所以必須檢查 AST。
+    """
+
     try:
         resource = parser.parse(text)
 
         for node in resource.body:
             annotations = getattr(node, "annotations", None)
+
             if annotations:
                 return False
 
@@ -187,180 +222,158 @@ def parse_ok(parser, text):
 
 
 # ============================================================
+# 找所有正常 Key
+# ============================================================
+
+def get_keys(entries):
+    """
+    從 Entry 清單取得正常 Fluent key。
+
+    特殊 ent-{...} key 不加入 manifest。
+    """
+
+    keys = []
+
+    for entry in entries:
+        key = get_entry_key(entry)
+
+        if key is not None:
+            keys.append(key)
+
+    return keys
+
+
+# ============================================================
 # Merge
 # ============================================================
 
 def merge_ftl(
-    input_dir: Path,
-    output_file: Path,
-    manifest_file: Path,
-    excluded_file: Path,
-) -> int:
+    input_dir,
+    output_file,
+    manifest_file,
+    excluded_file,
+):
+
+    input_dir = Path(input_dir)
 
     files = sorted(input_dir.rglob("*.ftl"))
-
-    if not files:
-        print(f"找不到 FTL 檔案：{input_dir}")
-        return 1
-
-    manifest = OrderedDict()
-
-    merged_parts: list[str] = []
-    excluded_parts: list[str] = []
-
-    parser = FluentParser()
-
-    total_entries = 0
-    excluded_entries = 0
 
     print(f"找到 {len(files)} 個 FTL 檔案")
     print()
 
-    for index, file_path in enumerate(files, start=1):
+    parser = FluentParser()
 
-        relative_path = file_path.relative_to(input_dir).as_posix()
+    normal_parts = []
+    excluded_parts = []
 
-        print(f"[{index}/{len(files)}] 處理：{relative_path}")
+    manifest = {}
 
-        # ----------------------------------------------------
-        # 完全原樣讀取
-        # ----------------------------------------------------
+    total_entries = 0
+    excluded_entries = 0
+    normal_entries = 0
 
-        text = read_text(file_path)
+    seen_keys = set()
 
-        # ----------------------------------------------------
-        # 建立 manifest
-        # ----------------------------------------------------
+    # ========================================================
+    # 處理每個 FTL
+    # ========================================================
 
-        keys = get_keys(text)
+    for index, path in enumerate(files, 1):
 
-        for key in keys:
+        relative = path.relative_to(input_dir)
 
-            if key in manifest:
-                print()
-                print(f"錯誤：發現重複 key：{key}")
-                print(f"  已存在：{manifest[key]}")
-                print(f"  再次出現：{relative_path}")
-                print()
-                return 1
+        print(
+            f"[{index}/{len(files)}] 處理：{relative}"
+        )
 
-            manifest[key] = relative_path
-
-        # ----------------------------------------------------
-        # 個別 entry parser 檢查
-        # ----------------------------------------------------
+        text = read_text(path)
 
         entries = split_entries(text)
 
-        normal_parts: list[str] = []
+        total_entries += len(entries)
 
-        for entry_text, key in entries:
+        file_normal = []
+        file_excluded = []
 
-            total_entries += 1
+        for entry in entries:
 
-            if parse_ok(parser, entry_text):
+            # 空內容 / 純空白
+            if not entry.strip():
+                continue
 
-                # Parser OK
-                normal_parts.append(entry_text)
+            if parse_ok(parser, entry):
+
+                file_normal.append(entry)
+                normal_entries += 1
+
+                key = get_entry_key(entry)
+
+                if key is not None:
+
+                    if key in seen_keys:
+                        print(
+                            f"  ⚠ 重複 Key：{key}"
+                        )
+
+                    else:
+                        seen_keys.add(key)
+
+                        manifest[key] = str(relative)
 
             else:
 
-                # Parser FAIL
+                file_excluded.append(entry)
                 excluded_entries += 1
 
-                print()
-                print("  [Parser ERROR]")
+                key = get_entry_key(entry)
 
                 if key is not None:
-                    print(f"  Key：{key}")
+                    print(
+                        f"  → 排除：{key}"
+                    )
                 else:
-                    print("  Key：<SS14 特殊 key>")
+                    print(
+                        "  → 排除：特殊 / 無法取得 Key 的 Entry"
+                    )
 
-                print(f"  來源：{relative_path}")
-
-                # 顯示第一行方便確認
-                first_line = entry_text.splitlines()[0]
-                print(f"  內容：{first_line}")
-
-                # 原始文字完整搬到 excluded FTL
-                excluded_parts.append(entry_text)
-
-        # ----------------------------------------------------
-        # 加入正常 merged FTL
-        # ----------------------------------------------------
-
-        normal_text = "".join(normal_parts)
-
-        if normal_text:
-            if merged_parts:
-                previous = merged_parts[-1]
-
-                if not previous.endswith(("\n", "\r")):
-                    merged_parts[-1] = previous + "\n"
-
-            merged_parts.append(normal_text)
+        normal_parts.extend(file_normal)
+        excluded_parts.extend(file_excluded)
 
     # ========================================================
-    # 組合
+    # 寫出正常 FTL
     # ========================================================
 
-    merged_text = "".join(merged_parts)
+    normal_text = "".join(normal_parts)
+
     excluded_text = "".join(excluded_parts)
 
-    # ========================================================
-    # 建立輸出資料夾
-    # ========================================================
-
-    output_file.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    manifest_file.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    excluded_file.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    write_text(output_file, normal_text)
 
     # ========================================================
-    # 寫入正常 merged FTL
+    # 寫出 excluded.ftl
     # ========================================================
 
-    write_text(
-        output_file,
-        merged_text,
-    )
+    write_text(excluded_file, excluded_text)
 
     # ========================================================
-    # 寫入 excluded FTL
+    # Manifest
     # ========================================================
 
-    write_text(
-        excluded_file,
-        excluded_text,
-    )
+    with open(
+        manifest_file,
+        "w",
+        encoding="utf-8",
+        newline="",
+    ) as f:
 
-    # ========================================================
-    # 寫入 manifest
-    # ========================================================
-
-    manifest_text = (
-        json.dumps(
+        json.dump(
             manifest,
+            f,
             ensure_ascii=False,
             indent=2,
         )
-        + "\n"
-    )
 
-    write_text(
-        manifest_file,
-        manifest_text,
-    )
+        f.write("\n")
 
     # ========================================================
     # 完成
@@ -376,57 +389,37 @@ def merge_ftl(
     print(f"檔案數：{len(files)}")
     print(f"Entry 數：{total_entries}")
     print(f"排除 Entry：{excluded_entries}")
-    print(f"正常 Entry：{total_entries - excluded_entries}")
+    print(f"正常 Entry：{normal_entries}")
     print(f"Manifest Key 數：{len(manifest)}")
-
-    return 0
 
 
 # ============================================================
-# CLI
+# Main
 # ============================================================
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=(
-            "將多個 FTL 合併，並使用 fluent.syntax "
-            "將無法解析的 entry 分離到額外的 FTL。"
+
+    if len(sys.argv) != 5:
+
+        print(
+            "用法："
+            f"python3 {Path(sys.argv[0]).name} "
+            "<input_dir> <output_file> "
+            "<manifest_file> <excluded_file>"
         )
-    )
 
-    parser.add_argument(
-        "input_dir",
-        type=Path,
-        help="原本的 FTL 資料夾",
-    )
+        sys.exit(1)
 
-    parser.add_argument(
-        "output_file",
-        type=Path,
-        help="正常的合併 FTL",
-    )
+    input_dir = sys.argv[1]
+    output_file = sys.argv[2]
+    manifest_file = sys.argv[3]
+    excluded_file = sys.argv[4]
 
-    parser.add_argument(
-        "manifest_file",
-        type=Path,
-        help="manifest.json",
-    )
-
-    parser.add_argument(
-        "excluded_file",
-        type=Path,
-        help="Parser 無法解析的 entry 要輸出的 FTL",
-    )
-
-    args = parser.parse_args()
-
-    raise SystemExit(
-        merge_ftl(
-            args.input_dir,
-            args.output_file,
-            args.manifest_file,
-            args.excluded_file,
-        )
+    merge_ftl(
+        input_dir,
+        output_file,
+        manifest_file,
+        excluded_file,
     )
 
 

@@ -15,11 +15,6 @@ examinable-solution-on-examine-volume-no-max = The contained solution is { $fill
 damage-popup-component-switched = Target set to type: { -damage-popup-component-type(setting: $setting) }set-game-preset-decoy-error = If argument 3 is provided it must be a valid preset. Unable to find game preset "{ $preset }"
 
 #set-game-preset-preset-set = Set game preset to "{$preset}"
-nav-beacon-examine-text = It is [color={$enabled ->
-    [true] forestgreen]on
-    *[false] crimson]off
-}[/color] and the display reads [color={ $color }]"{ $label }"[/color]
-
 edible-nom = Nom. { $flavors }{ -edible-satiated(satiated: $satiated, verb: "eat") }
 edible-slurp = Slurp. { $flavors }{ -edible-satiated(satiated: $satiated, verb: "drink") }
 edible-swallow = You swallow { THE($food) }.{ -edible-satiated(satiated: $satiated, verb: "swallow") }
@@ -38,9 +33,34 @@ markings-limits = { $required ->
        *[other] Select up to { $count } markings. { -markings-selection(selectable: $selectable) }
     }
 }
+﻿# Used internally by the THE() function.
+zzzz-the = { PROPER($ent) ->
+    *[false] the { $ent }
+     [true] { $ent }
+    }
+
+# Used internally by the SUBJECT() function.
+﻿# Loc strings for various entity state & client-side PVS related commands
+
+cmd-reset-ent-help = Usage: {$command} <Entity UID>
+﻿### Localization for engine console commands
+
+cmd-hint-float = [float]
+
+## generic command errors
+
 ﻿debug-builtin-connection-screen-invalid-username-with-reason = The given username is invalid: {$invalidreason}
+debug-builtin-connection-screen-invalid-username = Invalid Username.
+﻿## "Textures" dev window tab
+
+dev-window-tab-textures-title = Textures
+﻿# Playback Commands
+
+cmd-replay-play-desc = Resume replay playback.
 ﻿command-help-usage =
     Usage:
+command-help-invertible =
+    The behaviour of this command can be inverted using the "not" prefix.
 ent-{'values': ['GasPressurePump', 'GasPressurePumpAlt1', 'GasPressurePumpAlt2']} = gas pump
     .desc = A pump that moves gas by pressure.
 ent-{'values': ['GasVolumePump', 'GasVolumePumpAlt1', 'GasVolumePumpAlt2']} = volumetric gas pump
