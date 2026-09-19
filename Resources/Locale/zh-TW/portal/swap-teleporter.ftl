@@ -12,7 +12,7 @@ swap-teleporter-verb-destroy-link = 摧毀量子連結
 swap-teleporter-examine-link-present = { "[" }color=forestgreen]它已與另一台裝置建立連結。[/color] 按住 Alt 鍵並點擊以解除量子連結。
 swap-teleporter-examine-link-absent = { "[" }color=yellow]目前尚未建立連結。[/color] 請在另一台裝置上操作以建立量子連結。
 swap-teleporter-examine-time-remaining = Time left to recharge: [color=purple]{ $second } second{ $second ->
-        [one] { "." }
-       *[other] s.
-    }[/color]
+            [one] { "." }
+           *[other] s.
+        }[/color]
 

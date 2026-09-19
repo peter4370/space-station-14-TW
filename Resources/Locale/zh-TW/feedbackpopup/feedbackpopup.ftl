@@ -3,9 +3,9 @@ feedbackpopup-window-name = 徵求意見
 feedbackpopup-control-button-text = 開啟連結
 
 feedbackpopup-control-total-surveys = { $num ->
-        [one] { $num } entry
-       *[other] { $num } entries
-    }
+            [one] { $num } entry
+           *[other] { $num } entries
+        }
 feedbackpopup-control-no-entries= 沒有條目
 feedbackpopup-control-ui-footer = 請告訴我們您的想法！
 

@@ -37,15 +37,15 @@ anomaly-scanner-doafter-examine = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE(
 anomaly-gorilla-core-slot-name = 異常核心
 anomaly-gorilla-charge-none = 它的內部並沒有 [bold]異常核心[/bold]。
 anomaly-gorilla-charge-limit = It has [color={ $count ->
-        [3] green
-        [2] yellow
-        [1] orange
-        [0] red
-       *[other] purple
-    }]{ $count } { $count ->
-        [one] charge
-       *[other] charges
-    }[/color] remaining.
+            [3] green
+            [2] yellow
+            [1] orange
+            [0] red
+           *[other] purple
+        }]{ $count } { $count ->
+            [one] charge
+           *[other] charges
+        }[/color] remaining.
 anomaly-gorilla-charge-infinite = 它擁有 [color=gold]無限的電荷[/color]。[italic]至少目前是這樣……[/italic]
 
 anomaly-sync-connected = 「異常」已成功附加
@@ -66,9 +66,9 @@ anomaly-generator-yes-fire = 狀態：[color=forestgreen]已準備就緒[/color]
 anomaly-generator-no-fire = 狀態：[color=crimson]尚未準備就緒[/color]
 anomaly-generator-generate = 產生異常
 anomaly-generator-charges = { $charges ->
-        [one] { $charges } 收費
-       *[other] { $charges } 收費
-    }
+            [one] { $charges } 收費
+           *[other] { $charges } 收費
+        }
 anomaly-generator-announcement = 已產生一項異常！
 
 anomaly-command-pulse = 對目標異常發射脈衝

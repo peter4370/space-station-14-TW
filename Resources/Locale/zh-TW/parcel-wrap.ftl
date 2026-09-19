@@ -7,6 +7,6 @@ parcel-wrap-popup-being-wrapped-self = 你開始自己包裝包裹。
 
 # Shown when parcel wrap is examined in details range
 parcel-wrap-examine-detail-uses = { $uses ->
-        [one] 尚有 [color={ $markupUsesColor }]{ $uses }[/color] 次使用量
-       *[other] 尚有 [color={ $markupUsesColor }]{ $uses }[/color] 次使用量
-    }。
+            [one] 尚有 [color={ $markupUsesColor }]{ $uses }[/color] 次使用量
+           *[other] 尚有 [color={ $markupUsesColor }]{ $uses }[/color] 次使用量
+        }。

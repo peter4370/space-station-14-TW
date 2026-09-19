@@ -46,19 +46,19 @@ rev-stalemate = 指揮部和革命領袖們全都陣亡了。這場戰役以平�
 rev-reverse-stalemate = 指揮官和主要革命領袖都倖存了。
 
 rev-headrev-count = { $initialCount ->
-        [one] 有一位革命領袖：
-       *[other] 有 { $initialCount } 位革命領袖：
-    }
+            [one] 有一位革命領袖：
+           *[other] 有 { $initialCount } 位革命領袖：
+        }
 
 rev-headrev-name-user = { "[" }color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) converted { $count } { $count ->
-        [one] person
-       *[other] people
-    }
+            [one] person
+           *[other] people
+        }
 
 rev-headrev-name = { "[" }color=#5e9cff]{ $name }[/color] 轉換為 { $count } { $count ->
-        [one] 人
-       *[other] 人
-    }
+            [one] 人
+           *[other] 人
+        }
 
 ## Deconverted window
 

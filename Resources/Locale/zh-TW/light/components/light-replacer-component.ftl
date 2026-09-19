@@ -23,9 +23,9 @@ comp-light-replacer-label = 燈管：{ $tube }
 comp-light-replacer-no-lights = 裡面是空的。
 comp-light-replacer-has-lights = 其中包含以下內容：
 comp-light-replacer-light-listing = { $amount ->
-        [one] { "[" }color=yellow]{ $amount }[/color] [color=gray]{ $name }[/color]
-       *[other] { "[" }color=yellow]{ $amount }[/color] [color=gray]{ MAKEPLURAL($name) }[/color]
-    }
+            [one] { "[" }color=yellow]{ $amount }[/color] [color=gray]{ $name }[/color]
+           *[other] { "[" }color=yellow]{ $amount }[/color] [color=gray]{ MAKEPLURAL($name) }[/color]
+        }
 
 ### Status Control
 

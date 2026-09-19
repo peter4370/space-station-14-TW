@@ -1,10 +1,10 @@
 # Battery Status
 battery-status-charge = 電量：[color=#5E7C16]{ $percent }[/color] %
 battery-status-switchable-state = { $state ->
-            [on] { "[" }color=green]開啟[/color]
-            [off] { "[" }color=red]關閉[/color]
-           *[other] 未知
-        }
+                [on] { "[" }color=green]開啟[/color]
+                [off] { "[" }color=red]關閉[/color]
+               *[other] 未知
+            }
 battery-status-state = 狀態：{ $state }
 
 # Charge Status
@@ -14,10 +14,10 @@ charge-status-recharge = 剩餘時間：[color=yellow]{ $seconds }秒[/color]
 # Tank Pressure Status
 tank-pressure-status = 壓力：[color=orange]{ $pressure } kPa[/color]
 tank-status-switchable-state = { $state ->
-            [open] { "[" }color=red]Open[/color]
-            [closed] { "[" }color=green]Closed[/color]
-           *[other] Unknown
-        }
+                [open] { "[" }color=red]Open[/color]
+                [closed] { "[" }color=green]Closed[/color]
+               *[other] Unknown
+            }
 tank-status-state = 狀態：{ $state }
 
 # Magazine Status

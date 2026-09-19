@@ -13,25 +13,25 @@ analysis-console-info-class = { "[" }font size=11]類別：[/font]
 analysis-console-info-class-value = { "[" }font size=11]{ $class }[/font]
 analysis-console-info-locked = { "[" }font size=11]狀態：[/font]
 analysis-console-info-locked-value = { "[" }font size=11][color={ $state ->
-        [0] 紅色]已鎖定
-        [1] 檸檬綠]已解鎖
-       *[2] 李子色]已啟用
-    }[/color][/font]
+            [0] 紅色]已鎖定
+            [1] 檸檬綠]已解鎖
+           *[2] 李子色]已啟用
+        }[/color][/font]
 analysis-console-info-durability = { "[" }font size=11]耐用性：[/font]
 analysis-console-info-durability-value = { "[" }font size=11][color={ $color }]{ $current }/{ $max }[/color][/font]
 analysis-console-info-effect = { "[" }font size=11]效果：[/font]
 analysis-console-info-effect-value = { "[" }font size=11][color=gray]{ $state ->
-        [true] { $info }
-       *[false] 解鎖節點以獲取資訊
-    }[/color][/font]
+            [true] { $info }
+           *[false] 解鎖節點以獲取資訊
+        }[/color][/font]
 analysis-console-info-trigger = { "[" }font size=11]觸發條件：[/font]
 analysis-console-info-triggered-value = { "[" }font size=11][color=gray]{ $triggers }[/color][/font]
 analysis-console-info-scanner = 正在掃描中...
 analysis-console-info-scanner-paused = 暫停。
 analysis-console-progress-text = { $seconds ->
-        [one] T-{ $seconds } 秒
-       *[other] T-{ $seconds } 秒
-    }
+            [one] T-{ $seconds } 秒
+           *[other] T-{ $seconds } 秒
+        }
 
 analysis-console-extract-value = { "[" }font size=11][color=orange]節點 { $id } (+{ $value })[/color][/font]
 analysis-console-extract-none = { "[" }font size=11][color=orange] 所有未解鎖的節點均已無剩餘點數可提取 [/color][/font]

@@ -11,9 +11,9 @@ wieldable-component-blocked-wield = 手上的{ CAPITALIZE(THE($blocker)) } 讓�
 
 wieldable-component-no-hands = 你人手不夠啊！
 wieldable-component-not-enough-free-hands = { $number ->
-        [one] 你需要一隻空出的手來握持 { THE($item) }。
-       *[other] 你需要 { $number } 隻空出的手來握持 { THE($item) }。
-    }
+            [one] 你需要一隻空出的手來握持 { THE($item) }。
+           *[other] 你需要 { $number } 隻空出的手來握持 { THE($item) }。
+        }
 wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } 不在你手中！
 
 wieldable-component-requires = { CAPITALIZE(THE($item)) } 必須以雙手握持！

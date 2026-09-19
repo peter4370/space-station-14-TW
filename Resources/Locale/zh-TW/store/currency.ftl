@@ -4,9 +4,9 @@ store-currency-inserted-implant = { CAPITALIZE(THE($used)) } 已植入您的植�
 
 store-currency-free = Free
 store-currency-display-debugdollar = { $amount ->
-        [one] Debug Dollar
-       *[other] Debug Dollars
-    }
+            [one] Debug Dollar
+           *[other] Debug Dollars
+        }
 store-currency-display-telecrystal = TC
 store-currency-display-stolen-essence = 被竊的精華
 store-currency-display-silicon-memory = 記憶

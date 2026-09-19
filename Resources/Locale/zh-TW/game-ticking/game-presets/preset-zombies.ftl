@@ -17,9 +17,9 @@ zombie-alone = 你感到徹底的孤獨。
 zombie-shuttle-call = 我們已偵測到殭屍已佔領該站。現正派遣一艘緊急穿梭機前去接回剩餘人員。
 
 zombie-round-end-initial-count = { $initialCount ->
-        [one] 最初有 1 名感染者：
-       *[other] 最初有 { $initialCount } 名感染者：
-    }
+            [one] 最初有 1 名感染者：
+           *[other] 最初有 { $initialCount } 名感染者：
+        }
 zombie-round-end-user-was-initial = - [color=plum]{ $name }[/color] ([color=gray]{ $username }[/color]) 是首批感染者之一。
 
 zombie-round-end-amount-none = { "[" }color=green]所有殭屍都被消滅了！[/color]
@@ -29,7 +29,7 @@ zombie-round-end-amount-high = { "[" }color=crimson]船員中有 { $percent }% �
 zombie-round-end-amount-all = { "[" }color=darkred]全體船員都變成殭屍了！[/color]
 
 zombie-round-end-survivor-count = { $count ->
-        [one] 只剩下一名倖存者：
-       *[other] 只剩下 { $count } 名倖存者：
-    }
+            [one] 只剩下一名倖存者：
+           *[other] 只剩下 { $count } 名倖存者：
+        }
 zombie-round-end-user-was-survivor = - [color=White]{ $name }[/color] ([color=gray]{ $username }[/color]) 在疫情爆發中倖存下來。

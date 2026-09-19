@@ -10,8 +10,8 @@ loadouts-max-limit = 最大數量：{ $count }
 loadouts-points-limit = 分數：{ $count } / { $max }
 
 loadouts-count-items-in-group = { $item } and { $count } other { $count ->
-        [1] item
-       *[other] items
-    }
+            [1] item
+           *[other] items
+        }
 
 loadouts-points-restriction = 積分不足

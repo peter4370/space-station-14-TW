@@ -88,15 +88,15 @@ wanted-list-initiator-label = { "[" }color=darkgray]發起人：[/color] [color=
 wanted-list-unknown-initiator-label = 未知發起者
 
 wanted-list-status-label = { "[" }color=darkgray]status:[/color] { $status ->
-            [suspected] { "[" }color=yellow]suspected[/color]
-            [wanted] { "[" }color=red]wanted[/color]
-            [detained] { "[" }color=#b18644]detained[/color]
-            [paroled] { "[" }color=green]paroled[/color]
-            [discharged] { "[" }color=green]discharged[/color]
-            [hostile] { "[" }color=darkred]hostile[/color]
-            [eliminated] { "[" }color=gray]eliminated[/color]
-           *[other] none
-        }
+                [suspected] { "[" }color=yellow]suspected[/color]
+                [wanted] { "[" }color=red]wanted[/color]
+                [detained] { "[" }color=#b18644]detained[/color]
+                [paroled] { "[" }color=green]paroled[/color]
+                [discharged] { "[" }color=green]discharged[/color]
+                [hostile] { "[" }color=darkred]hostile[/color]
+                [eliminated] { "[" }color=gray]eliminated[/color]
+               *[other] none
+            }
 
 wanted-list-history-table-time-col = 時間
 wanted-list-history-table-reason-col = 犯罪

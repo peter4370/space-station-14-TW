@@ -2,9 +2,9 @@
 
 # Shown when a stack is examined in details range
 comp-stack-examine-detail-count = { $count ->
-        [one] 堆疊中有 [color={ $markupCountColor }]{ $count }[/color] 個物件
-       *[other] 堆疊中有 [color={ $markupCountColor }]{ $count }[/color] 個物件
-    }。
+            [one] 堆疊中有 [color={ $markupCountColor }]{ $count }[/color] 個物件
+           *[other] 堆疊中有 [color={ $markupCountColor }]{ $count }[/color] 個物件
+        }。
 
 # Stack status control
 comp-stack-status = 計數：[color=white]{ $count }[/color]

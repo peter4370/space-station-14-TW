@@ -3,12 +3,12 @@ genpop-prisoner-id-popup-not-served = 刑期尚未服完！
 
 genpop-prisoner-id-crime-default = { "[" }已刪除]
 genpop-prisoner-id-examine-wait = You have served { $minutes } { $minutes ->
-        [1] minute
-       *[other] minutes
-    } { $seconds } { $seconds ->
-        [1] second
-       *[other] seconds
-    } of your { $sentence } minute sentence for { $crime }.
+            [1] minute
+           *[other] minutes
+        } { $seconds } { $seconds ->
+            [1] second
+           *[other] seconds
+        } of your { $sentence } minute sentence for { $crime }.
 genpop-prisoner-id-examine-wait-perm = 您因 { $crime } 而被判處無期徒刑。
 genpop-prisoner-id-examine-served = 您已服完因 { $crime } 而被判處的刑期。
 

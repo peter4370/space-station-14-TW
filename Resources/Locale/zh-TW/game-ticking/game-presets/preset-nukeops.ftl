@@ -26,14 +26,14 @@ nukeops-cond-allnukiesalive = 沒有任何核武特工喪生。
 
 nukeops-disk-location-title = 磁碟的最終位置：
 nukeops-disk-carried-by = { " " }carried by [color=White]{ $name }[/color], [color=orange]{ $job }[/color], { $location } { $user ->
-        [unknown] { "" }
-       *[other] ([color=gray]{ $user }[/color])
-    }
+            [unknown] { "" }
+           *[other] ([color=gray]{ $user }[/color])
+        }
 
 storage-hierarchy-list = { $items-left ->
-      [0] { $existing-text } { $item },
-     *[other] { $existing-text } { $item }, 在
-  }
+          [0] { $existing-text } { $item },
+         *[other] { $existing-text } { $item }, 在
+      }
 
 nukeops-list-start = 這些核武特工分別是：
 nukeops-list-name = - [color=White]{ $name }[/color]

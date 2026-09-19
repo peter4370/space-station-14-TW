@@ -1,7 +1,7 @@
 objectives-round-end-result = { $count ->
-        [one] There was one { $agent }.
-       *[other] There were { $count } { MAKEPLURAL($agent) }.
-    }
+            [one] There was one { $agent }.
+           *[other] There were { $count } { MAKEPLURAL($agent) }.
+        }
 
 objectives-round-end-result-in-custody = 在 { $count } 中的 { $custody } { MAKEPLURAL($agent) } 人被拘留。
 

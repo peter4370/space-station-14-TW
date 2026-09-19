@@ -9,9 +9,9 @@ robotics-console-battery = { "[" }color=gray]電池電量：[/color] [color={ $c
 robotics-console-hp = { "[" }color=gray]誠信：[/color] [color={ $color }]{ $hp }[/color]%
 robotics-console-modules = { "[" }color=gray]已安裝的模組：[/color] { $count }
 robotics-console-brain = { "[" }color=gray]已安裝大腦：[/color] [color={ $brain ->
-        [true] green]是
-       *[false] red]否
-    }[/color]
+            [true] green]是
+           *[false] red]否
+        }[/color]
 
 robotics-console-locked-message = 控制已鎖定，請滑動 ID。
 robotics-console-disable = 停用

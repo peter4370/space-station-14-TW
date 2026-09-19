@@ -86,9 +86,9 @@ cargo-funding-alloc-console-label-help-non-adjustible = 貨運部從非鎖箱銷
 cargo-funding-alloc-console-label-help-adjustible = 來自非鎖箱來源的剩餘資金，將依照以下規定進行分配：
 cargo-funding-alloc-console-button-save = 儲存變更
 cargo-funding-alloc-console-label-save-fail = { "[" }bold]收入分攤無效！[/bold] [color=red]({ $pos ->
-        [1] +
-       *[-1] -
-    }{ $val }%)[/color]
+            [1] +
+           *[-1] -
+        }{ $val }%)[/color]
 
 # Slip template
 cargo-acquisition-slip-body = { "[" }head=3]資產詳情[/head]

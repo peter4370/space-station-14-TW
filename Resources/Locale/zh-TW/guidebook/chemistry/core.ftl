@@ -24,14 +24,14 @@ guidebook-reagent-plant-metabolisms-header = 植物代謝
 guidebook-reagent-plant-metabolisms-rate = { "[" }bold]植物代謝[/bold] [color=gray](基礎值為每 3 秒 1 單位)[/color]
 guidebook-reagent-physical-description = { "[" }italic]看來是 { $description }。[/italic]
 guidebook-reagent-recipes-mix-info = { $minTemp ->
-        [0]
-            { $hasMax ->
-                [true] { CAPITALIZE($verb) } 下方 { NATURALFIXED($maxTemp, 2) }K
-               *[false] { CAPITALIZE($verb) }
-            }
-       *[other]
-            { CAPITALIZE($verb) } { $hasMax ->
-                [true] 介於 { NATURALFIXED($minTemp, 2) }K 與 { NATURALFIXED($maxTemp, 2) } 之間K
-               *[false] 在 { NATURALFIXED($minTemp, 2) }K 之上
-            }
-    }
+            [0]
+                { $hasMax ->
+                    [true] { CAPITALIZE($verb) } 下方 { NATURALFIXED($maxTemp, 2) }K
+                   *[false] { CAPITALIZE($verb) }
+                }
+           *[other]
+                { CAPITALIZE($verb) } { $hasMax ->
+                    [true] 介於 { NATURALFIXED($minTemp, 2) }K 與 { NATURALFIXED($maxTemp, 2) } 之間K
+                   *[false] 在 { NATURALFIXED($minTemp, 2) }K 之上
+                }
+        }

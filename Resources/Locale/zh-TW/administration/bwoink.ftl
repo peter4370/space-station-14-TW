@@ -14,9 +14,9 @@ bwoink-system-introductory-message =
     濫用此訊息系統可能導致紀律處分。
 
 bwoink-system-typing-indicator = { $players } { $count ->
-        [one] 是
-       *[other] 是
-    } 正在輸入中...
+            [one] 是
+           *[other] 是
+        } 正在輸入中...
 
 admin-ahelp-admin-only = 僅限管理員
 admin-ahelp-admin-only-tooltip = 若勾選此選項，該訊息將不會顯示給該玩家（

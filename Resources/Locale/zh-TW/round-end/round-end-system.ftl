@@ -8,10 +8,10 @@ round-end-system-shuttle-sender-announcement = 太空站
 round-end-system-round-restart-eta-announcement = 正在 { $time } { $units } 重新開始本輪...
 
 eta-units-minutes = { $amount ->
-        [one] minute
-       *[other] minutes
-    }
+            [one] minute
+           *[other] minutes
+        }
 eta-units-seconds = { $amount ->
-        [one] second
-       *[other] seconds
-    }
+            [one] second
+           *[other] seconds
+        }

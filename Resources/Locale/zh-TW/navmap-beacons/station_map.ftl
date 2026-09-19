@@ -10,9 +10,9 @@ nav-beacon-toggle-invisible = 無形
 nav-beacon-text-label = 標籤：
 nav-beacon-button-apply = 申請
 nav-beacon-examine-text = 它是 [color={ $enabled ->
-        [true] forestgreen]on
-       *[false] crimson]off
-    }[/color]，而螢幕顯示的內容為 [color={ $color }]"{ $label }"[/color]
+            [true] forestgreen]on
+           *[false] crimson]off
+        }[/color]，而螢幕顯示的內容為 [color={ $color }]"{ $label }"[/color]
 
 nav-beacon-pos-no-beacons = 在荒郊野嶺
 nav-beacon-pos-format = { "[" }color={ $color }]鄰近 { $marker }[/color]

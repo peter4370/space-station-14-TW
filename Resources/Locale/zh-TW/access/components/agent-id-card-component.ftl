@@ -1,8 +1,8 @@
 agent-id-new = { $number ->
-        [0] 未從 { THE($card) } 獲得任何新的存取權限。
-        [one] 從 { THE($card) } 獲得一個新的存取權限。
-       *[other] 從 { THE($card) } 獲得 { $number } 個新的存取權限。
-    }
+            [0] 未從 { THE($card) } 獲得任何新的存取權限。
+            [one] 從 { THE($card) } 獲得一個新的存取權限。
+           *[other] 從 { THE($card) } 獲得 { $number } 個新的存取權限。
+        }
 
 agent-id-open-ui-verb = 變更設定
 

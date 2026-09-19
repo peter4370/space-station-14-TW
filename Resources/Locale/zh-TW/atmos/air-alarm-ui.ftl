@@ -19,12 +19,12 @@ air-alarm-ui-window-mode-select-locked-label = { "[" }bold][color=red] 模式選
 air-alarm-ui-window-auto-mode-label = 自動模式
 
 -air-alarm-state-name = { $state ->
-        [normal] 正常
-        [warning] 警告
-        [danger] 危險
-        [emagged] Emagged
-       *[invalid] 無效
-    }
+            [normal] 正常
+            [warning] 警告
+            [danger] 危險
+            [emagged] Emagged
+           *[invalid] 無效
+        }
 
 air-alarm-ui-window-listing-title = { $address } : { -air-alarm-state-name(state:$state) }
 air-alarm-ui-window-pressure = { $pressure } kPa

@@ -1,9 +1,9 @@
 markings-search = 搜尋
 -markings-selection = { $selectable ->
-        [0] 您已無剩餘標記。
-        [one] 您還可以選擇一個標記。
-       *[other] 您還可以選擇 { $selectable } 個標記。
-    }
+            [0] 您已無剩餘標記。
+            [one] 您還可以選擇一個標記。
+           *[other] 您還可以選擇 { $selectable } 個標記。
+        }
 markings-limits = { $required ->
     [true] { $count ->
         [-1] Select at least one marking.

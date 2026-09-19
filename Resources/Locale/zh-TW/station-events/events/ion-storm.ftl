@@ -32,22 +32,22 @@ ion-storm-law-not-having-harmful = 缺乏 { ION-ADJECTIVE($ion) } { ION-THING($i
 
 # require is a concept or require
 ion-storm-law-requires = { ION-WHO-GENERAL($ion) } { ION-PLURAL($ion) ->
-        [true] REQUIRE
-       *[false] REQUIRES
-    } { ION-REQUIRE($ion) }
+            [true] REQUIRE
+           *[false] REQUIRES
+        } { ION-REQUIRE($ion) }
 ion-storm-law-requires-subjects = { ION-WHO-GENERAL($ion) } { ION-PLURAL($ion) ->
-        [true] 要求
-       *[false] 要求
-    } { ION-NUMBER-BASE($ion) } { ION-NUMBER-MOD($ion) } { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) }
+            [true] 要求
+           *[false] 要求
+        } { ION-NUMBER-BASE($ion) } { ION-NUMBER-MOD($ion) } { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) }
 
 ion-storm-law-allergic = { ION-WHO-GENERAL($ion) } { ION-PLURAL($ion) ->
-        [true] 為
-       *[false] 是
-    } { ION-SEVERITY($ion) } 對 { ION-ALLERGY($ion) } 過敏
+            [true] 為
+           *[false] 是
+        } { ION-SEVERITY($ion) } 對 { ION-ALLERGY($ion) } 過敏
 ion-storm-law-allergic-subjects = { ION-WHO-GENERAL($ion) } { ION-PLURAL($ion) ->
-        [true] ARE
-       *[false] IS
-    } { ION-SEVERITY($ion) } 對 { ION-ADJECTIVE($ion) } 過敏 { ION-SUBJECT($ion) }
+            [true] ARE
+           *[false] IS
+        } { ION-SEVERITY($ion) } 對 { ION-ADJECTIVE($ion) } 過敏 { ION-SUBJECT($ion) }
 
 ion-storm-law-feeling = { ION-WHO-GENERAL($ion) } { ION-FEELING($ion) } { ION-CONCEPT($ion) }
 ion-storm-law-feeling-subjects = { ION-WHO-GENERAL($ion) } { ION-FEELING($ion) } { ION-NUMBER-BASE($ion) } { ION-NUMBER-MOD($ion) } { ION-ADJECTIVE($ion) } { ION-SUBJECT($ion) }
@@ -70,9 +70,9 @@ ion-storm-law-crew-must = { ION-WHO($ion) } 必須 { ION-MUST($ion) }
 ion-storm-law-crew-must-go = { ION-WHO($ion) } 必須前往 { ION-AREA($ion) }
 
 ion-storm-part = { ION-PART($ion) ->
-        [true] PART
-       *[false] NOT PART
-    }
+            [true] PART
+           *[false] NOT PART
+        }
 # due to phrasing, this would mean a law such as
 # ONLY HUMANS ARE NOT PART OF THE CREW
 # would make non-human nukies/syndies/whatever crew :)
