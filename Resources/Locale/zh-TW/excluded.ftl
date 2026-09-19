@@ -157,3 +157,21 @@ ent-{'values': ['GasVentScrubberVox', 'GasVentScrubberVoxAlt1', 'GasVentScrubber
     .desc = { ent-{'sequences': [['AirSensorVoxBase', 'GasVentScrubber'], ['AirSensorVoxBase', 'GasVentScrubberAlt1'], ['AirSensorVoxBase', 'GasVentScrubberAlt2']]}.desc }
 entity-heater-switch-setting = Switch to { -entity-heater-setting-name(setting: $setting) }
 entity-heater-switched-setting = Switched to { -entity-heater-setting-name(setting: $setting) }.
+examinable-solution-on-examine-volume-puddle = The puddle is { $fillLevel ->
+    [exact] [color=white]{ $current }u[/color].
+    [full] huge and overflowing!
+    [mostlyfull] huge and overflowing!
+    [halffull] deep and flowing.
+    [halfempty] very deep.
+   *[mostlyempty] pooling together.
+    [empty] forming multiple small pools.
+}
+-solution-vague-fill-level =
+    { $fillLevel ->
+        [full] [color=white]Full[/color]
+        [mostlyfull] [color=#DFDFDF]Mostly Full[/color]
+        [halffull] [color=#C8C8C8]Half Full[/color]
+        [halfempty] [color=#C8C8C8]Half Empty[/color]
+        [mostlyempty] [color=#A4A4A4]Mostly Empty[/color]
+       *[empty] [color=gray]Empty[/color]
+    }

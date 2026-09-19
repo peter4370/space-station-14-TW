@@ -3233,9 +3233,9 @@ atmos-alerts-window-total-mol-value = { $value } mol
 atmos-alerts-window-pressure-label = Pressure
 atmos-alerts-window-pressure-value = { $value } kPa
 atmos-alerts-window-oxygenation-label = Oxygenation
-atmos-alerts-window-oxygenation-value = { $value }% 
+atmos-alerts-window-oxygenation-value = { $value }%
 atmos-alerts-window-other-gases-label = Other present gases
-atmos-alerts-window-other-gases-value = { $shorthand } ({ $value }%) 
+atmos-alerts-window-other-gases-value = { $shorthand } ({ $value }%)
 atmos-alerts-window-other-gases-value-nil = None
 atmos-alerts-window-silence-alerts = Silence alerts from this alarm
 
@@ -3252,7 +3252,7 @@ atmos-alerts-window-alerts-being-silenced = Silencing alerts...
 atmos-alerts-window-toggle-overlays = Toggle alarm display
 
 atmos-alerts-window-flavor-left = Contact an atmospheric technician for assistance
-atmos-alerts-window-flavor-right = v1.8atmos-pipe-layers-component-layer-primary = primary 
+atmos-alerts-window-flavor-right = v1.8atmos-pipe-layers-component-layer-primary = primary
 atmos-pipe-layers-component-layer-secondary = secondary
 atmos-pipe-layers-component-layer-tertiary = tertiary
 
@@ -3518,7 +3518,7 @@ barsign-prototype-name-whiskeyechoes = Whiskey Echoes
 barsign-prototype-description-whiskeyechoes = An elite bar for elite oper-wait, this is a Nanotrasen station. Why's this sign in the database?
 
 ## EmpBarSign
-barsign-prototype-name-empbarsign = glitchy bar sign 
+barsign-prototype-name-empbarsign = glitchy bar sign
 barsign-prototype-description-empbarsign = Something has gone very wrong.
 
 ## SignOff
@@ -4924,26 +4924,6 @@ shared-solution-container-component-on-examine-main-text = It contains { INDEFIN
 examinable-solution-has-recognizable-chemicals = You can recognize { $recognizedString } in the solution.
 examinable-solution-recognized = [color={ $color }]{ $chemical }[/color]
 
-examinable-solution-on-examine-volume-puddle = The puddle is { $fillLevel ->
-    [exact] [color=white]{ $current }u[/color].
-    [full] huge and overflowing!
-    [mostlyfull] huge and overflowing!
-    [halffull] deep and flowing.
-    [halfempty] very deep.
-   *[mostlyempty] pooling together.
-    [empty] forming multiple small pools.
-}
-
--solution-vague-fill-level =
-    { $fillLevel ->
-        [full] [color=white]Full[/color]
-        [mostlyfull] [color=#DFDFDF]Mostly Full[/color]
-        [halffull] [color=#C8C8C8]Half Full[/color]
-        [halfempty] [color=#C8C8C8]Half Empty[/color]
-        [mostlyempty] [color=#A4A4A4]Mostly Empty[/color]
-       *[empty] [color=gray]Empty[/color]
-    }
-
 ### UI
 
 # Verb name for climbing
@@ -5089,7 +5069,7 @@ terror-revenant = Attention crew, it appears that someone on your station has ma
 atmos-monitoring-window-title = Atmospheric Network Monitor
 atmos-monitoring-window-station-name = [color=white][font size=14]{ $stationName }[/font][/color]
 atmos-monitoring-window-unknown-location = Unknown location
-atmos-monitoring-window-label-gas-opening = Network opening 
+atmos-monitoring-window-label-gas-opening = Network opening
 atmos-monitoring-window-label-gas-scrubber = Air scrubber
 atmos-monitoring-window-label-gas-flow-regulator = Flow regulator
 atmos-monitoring-window-label-thermoregulator = Thermoregulator
@@ -5315,7 +5295,7 @@ ipintel-suspicious = You seem to be attempting to connect using a datacenter, pr
 
 hwid-required = Your client has refused to send a hardware id. Please contact the administration team for further assistance.
 anchored-already-present = There's already something anchored here!
-deconstructible-verb-begin-deconstruct = Begin deconstructing 
+deconstructible-verb-begin-deconstruct = Begin deconstructing
 deconstructible-verb-activate-no-target-text = There is no way to deconstruct this.
 deconstructible-verb-activate-text = Examine to see instructions.construction-component-to-create-header = To continue construction...
 construction-component-to-create-prototype-header = To create { INDEFINITE($targetName) } { $targetName }...
@@ -5739,7 +5719,7 @@ handcuff-component-cuff-interrupt-unbuckled-message = You can't unbuckle while r
 handcuff-component-cannot-drop-cuffs = You are unable to put the restraints on { $target }.
 ## Damage command loc.
 
-damage-command-description = Add or remove damage to an entity. 
+damage-command-description = Add or remove damage to an entity.
 damage-command-help = Usage: { $command } <type/group> <amount> [ignoreResistances] [uid]
 
 damage-command-arg-type = <damage type or group>
@@ -6179,10 +6159,10 @@ delivery-spam-13 =  paper
 
                     The famous Adventures of Ian and Renault book series is one that is enjoyed by young children and at least one severely dyslexic lizard (don't worry, I got better). However, there was an error in the publication, as Ian and Renault would never make a mistake writing. It appears that in The Adventures of Ian and Renault: An Arctic Journey of Courage and Friendship, two lines from The Adventures of Ian and Renault: Exploring the City were used.
                     This made no sense. How did Ian and Renault find a little kitten in the Arctic? What was the little kitten doing there? Why were Ian and Renault doing more than average today? And the worst offender is the second misplaced line, which is "As the day turned to night, they were exhausted abut happy from their adventure in the city" (Ian and Renault, 1). OH, SORRY!!! I'M NOT AWARE THAT THERE'S A CITY IN THE ARCTIC!!! THAT THEY JUST STOPPED AT. YOU KNOW. FOR A COFFEE. OH WAIT!! COFFEE KILLS DOGS AND FOXES!!!!!!!!! WHO WOULD PUBLISH THIS!!!!! YOU'VE JUST KILLED IAN AND RENAULT!!!!!!!!!!!!!!!!!!! HOW COULD YOU!!!!!!!!!!!!!!!!!!! YOU MONSTER!!!!!!!!!!!!!!!!!
-                    And what did you get for killing Ian and Renault. Hmm? A slightly longer book? You need that longer book, don't you? Longer books sell for more, do they? You wanted to make more money? 
-                    LOOK AT WHERE THAT GOT YOU. YOU'VE KILLED THE TWO. CONGRATS. 
-                    THERE WILL BE NO MORE SEQUELS NOW. 
-                    HOW'S THAT FOR MAKING MONEY???? IT SUCKS???? 
+                    And what did you get for killing Ian and Renault. Hmm? A slightly longer book? You need that longer book, don't you? Longer books sell for more, do they? You wanted to make more money?
+                    LOOK AT WHERE THAT GOT YOU. YOU'VE KILLED THE TWO. CONGRATS.
+                    THERE WILL BE NO MORE SEQUELS NOW.
+                    HOW'S THAT FOR MAKING MONEY???? IT SUCKS????
                     { "[" }bold]WELL YOU SHOULDN'T HAVE KILLED THEM!!!!!!!!!!!!!!![/bold]
 detail-examinable-verb-text = Detail
 detail-examinable-verb-disabled = View the object in greater detail.
@@ -10491,7 +10471,7 @@ item-component-size-Large = large
 item-component-size-Huge = huge
 item-component-size-Ginormous = ginormous
 item-component-size-Colossal = colossal
-multi-handed-item-pick-up-fail = {$number -> 
+multi-handed-item-pick-up-fail = {$number ->
     [one] You need one more free hand to pick up { THE($item) }.
     *[other] You need { $number } more free hands to pick up { THE($item) }.
 }
@@ -11293,8 +11273,8 @@ signal-linking-verb-success = Connected all default { $machine } links.
 signal-linking-verb-fail = Failed to connect all default { $machine } links.
 signal-linking-verb-disabled-no-transmitter = First interact with a transmitter, then link default ports.
 signal-linking-verb-disabled-no-receiver = First interact with a receiver, then link default ports.signal-timer-menu-title = Timer
-signal-timer-menu-label = Label: 
-signal-timer-menu-delay = Delay: 
+signal-timer-menu-label = Label:
+signal-timer-menu-delay = Delay:
 signal-timer-menu-start = Start
 signal-port-selector-menu-title = Port Selector
 signal-port-selector-menu-clear = Clear
@@ -12123,7 +12103,7 @@ marking-MothRArmFirewatch = Moth Right Arm (Firewatch)
 marking-MothChestGothic-gothic_chest = Chest
 marking-MothChestGothic = Moth Chest (Gothic)
 
-marking-MothHeadGothic-gothic_head = Head 
+marking-MothHeadGothic-gothic_head = Head
 marking-MothHeadGothic = Moth Head (Gothic)
 
 marking-MothLLegGothic-gothic_l_leg = Left Leg
@@ -14867,9 +14847,9 @@ envelope-letter-slot = Letter
 envelope-sealed-examine = [color=gray]{ CAPITALIZE(THE($envelope)) } is sealed.[/color]
 envelope-torn-examine = [color=yellow]{ CAPITALIZE(THE($envelope)) } is torn and unusable![/color]
 
-envelope-default-message = TO: 
+envelope-default-message = TO:
 
-  FROM: 
+  FROM:
 ### UI
 
 paper-ui-blank-page-message = This page intentionally left blank
@@ -15635,7 +15615,7 @@ magic-9-ball-16 = I dunno
 ### UI
 
 # Displayed in the Character prefs window
-humanoid-character-profile-summary = 
+humanoid-character-profile-summary =
     This is { $name }. {$gender ->
     [male] He is
     [female] She is
@@ -20897,7 +20877,7 @@ ent-ActionSelectBorgType = Select Cyborg Type
 ent-ActionRetractableItemArmBlade = Arm Blade
     .desc = Shed your flesh and reform it into a fleshy blade.
 ent-ActionChangelingBiodegrade = Biodegrade
-    .desc = Vomit acid over your restraints, setting yourself free. 
+    .desc = Vomit acid over your restraints, setting yourself free.
 
         Requires 20 Chemicals.
 ent-ActionChangelingDevour = [color=red]Devour[/color]
@@ -20913,29 +20893,29 @@ ent-ActionChangelingStore = DNA Store
 ent-ActionChangelingVoiceMimic = Voice Mimicry
     .desc = Model your vocal cords to imitate the voice of someone else.
 ent-ActionChangelingStingDna = Extract DNA
-    .desc = Sneakily absorb the identity of unsuspecting victims. Does not grant DNA to your store or objective progress. 
+    .desc = Sneakily absorb the identity of unsuspecting victims. Does not grant DNA to your store or objective progress.
 
         Requires 50 Chemicals.
 ent-BaseActionChangelingSting = { ent-BaseAction }
     .desc = { ent-BaseAction.desc }
 ent-ActionChangelingStingBlind = Blind Sting
-    .desc = Silently sting a target and worsen their sight for a short duration. 
+    .desc = Silently sting a target and worsen their sight for a short duration.
 
         Requires 30 Chemicals.
 ent-ActionChangelingStingCryogenic = Cryogenic Sting
-    .desc = Silently sting a target and slow down their movement drastically. 
+    .desc = Silently sting a target and slow down their movement drastically.
 
         Requires 30 Chemicals.
 ent-ActionChangelingStingLead = Lethal Sting
-    .desc = Silently sting a target and inject them with a lethal dose of a slow acting poison. 
+    .desc = Silently sting a target and inject them with a lethal dose of a slow acting poison.
 
         Requires 50 Chemicals.
 ent-ActionChangelingStingHallucinogenic = Hallucinogenic Sting
-    .desc = Silently sting a target and inject them with chemicals that slow down their higher brain functions. 
+    .desc = Silently sting a target and inject them with chemicals that slow down their higher brain functions.
 
         Requires 30 Chemicals.
 ent-ActionChangelingStingMute = Mute Sting
-    .desc = Silently sting a target and inject them with chemicals that prevent them from speaking. 
+    .desc = Silently sting a target and inject them with chemicals that prevent them from speaking.
 
         Requires 30 Chemicals.
 ent-ActionChangelingLastResort = [color=red]Last Resort[/color]
@@ -41399,7 +41379,7 @@ ent-StationAiUploadComputer = AI upload console
 ent-StationAiFixerComputer = AI restoration console
     .desc = Used to repair damaged artifical intelligences.
 ent-ComputerNukieDelivery = syndicate delivery computer
-    .desc = A computer that can bluespace in certain equipment for Nuclear Operations. 
+    .desc = A computer that can bluespace in certain equipment for Nuclear Operations.
         The circuitboard is integrated into the frame and can't be recovered if deconstructed.
 ent-BaseStructureComputerIndestructible = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
@@ -48816,7 +48796,7 @@ deployable-turret-component-deactivate = Deactivate
 deployable-turret-component-access-denied = Access denied
 deployable-turret-component-no-ammo = Weapon systems depleted
 deployable-turret-component-is-broken = The turret is heavily damaged and must be repaired
-deployable-turret-component-cannot-access-wires = You can't reach the maintenance panel while the turret is active 
+deployable-turret-component-cannot-access-wires = You can't reach the maintenance panel while the turret is active
 
 # Turret notification for station AI
 station-ai-turret-component-name = { $name } ({ $address })
