@@ -4,6 +4,6 @@ defusable-examine-live-display-off = { CAPITALIZE(THE($name)) } 正 [color=red]�
 defusable-examine-inactive = { CAPITALIZE(THE($name)) } 目前處於 [color=lime]非活躍[/color] 狀態，但仍可被啟用。
 defusable-examine-bolts =
     螺栓的狀態為 { $down ->
-        [true] [color=red]向下[/color]
-       *[false] [color=green]向上[/color]
+        [true] { "[" }color=red]向下[/color]
+       *[false] { "[" }color=green]向上[/color]
     }。

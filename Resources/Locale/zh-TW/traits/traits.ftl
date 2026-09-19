@@ -6,7 +6,7 @@ trait-narcolepsy-name = 發作性睡病
 trait-narcolepsy-desc = 你會不經意地睡著。
 trait-pacifist-name = 和平主義者
 trait-pacifist-desc = 你不可攻擊或傷害任何有情眾生。
-permanent-blindness-trait-examined = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神呆滯且目光渙散。看來 { SUBJECT($target) } 似乎無法清楚看見你，甚至可能根本看不見你。[color]
+permanent-blindness-trait-examined = { "[" }color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神呆滯且目光渙散。看來 { SUBJECT($target) } 似乎無法清楚看見你，甚至可能根本看不見你。[color]
 trait-lightweight-name = 微醺
 trait-lightweight-desc = 酒精對你的影響更為強烈。
 trait-monochromacy-name = 單色視覺

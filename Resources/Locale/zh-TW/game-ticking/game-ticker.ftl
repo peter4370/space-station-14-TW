@@ -16,14 +16,14 @@ game-ticker-get-info-text = 您好，歡迎來到 [color=white]太空站 14！[/
                             >[color=yellow]{ $desc }[/color]
 game-ticker-get-info-preround-text = 您好，歡迎來到 [color=white]太空站 14！[/color]
                             當前回合為： [color=white]#{ $roundId }[/color]
-                            當前玩家人數為： [color=white]{ $playerCount }[/color] ([color=white]{ $readyCount }[/color] {$readyCount ->
+                            當前玩家人數為： [color=white]{ $playerCount }[/color] ([color=white]{ $readyCount }[/color] { $readyCount ->
                                 [one] 已準備就緒
-                                *[other] 已準備就緒
+                               *[other] 已準備就緒
                             }
                             當前地圖為：[color=white]{ $mapName }[/color]
                             當前遊戲模式為：[color=white]{ $gmTitle }[/color]
                             >[color=yellow]{ $desc }[/color]
-game-ticker-no-map-selected = [color=yellow]尚未選取地圖！[/color]
+game-ticker-no-map-selected = { "[" }color=yellow]尚未選取地圖！[/color]
 game-ticker-player-no-jobs-available-when-joining = 嘗試加入遊戲時，沒有可選的職務。
 
 # 當玩家加入時，在聊天視窗中向管理員顯示的訊息：

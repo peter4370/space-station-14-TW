@@ -16,10 +16,10 @@ artifact-activation-artifexium = 液體滲入神器孔隙之中……
 
 ### Misc.
 
-artifact-examine-trigger-desc = [color=gray][italic]你是不是在想我？[/italic][/color]
-artifact-node-class-1 = [color=#ff2bb1]物質的[/color]
-artifact-node-class-2 = [color=#ff8b2b]心靈的[/color]
-artifact-node-class-3 = [color=#a9ff38]氣動的[/color]
-artifact-node-class-4 = [color=#2bfff8]支配的[/color]
-artifact-node-class-5 = [color=#7883ff]發光的[/color]
-artifact-node-class-6 = [color=#be78ff]造物的[/color]
+artifact-examine-trigger-desc = { "[" }color=gray][italic]你是不是在想我？[/italic][/color]
+artifact-node-class-1 = { "[" }color=#ff2bb1]物質的[/color]
+artifact-node-class-2 = { "[" }color=#ff8b2b]心靈的[/color]
+artifact-node-class-3 = { "[" }color=#a9ff38]氣動的[/color]
+artifact-node-class-4 = { "[" }color=#2bfff8]支配的[/color]
+artifact-node-class-5 = { "[" }color=#7883ff]發光的[/color]
+artifact-node-class-6 = { "[" }color=#be78ff]造物的[/color]

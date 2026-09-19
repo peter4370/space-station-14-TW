@@ -10,9 +10,9 @@ spray-painter-on-examined-painted-message = 看來是剛粉刷過。
 spray-painter-style-not-available = 無法將所選樣式套用至此物件。
 spray-painter-verb-toggle-decals = 切換貼花繪製
 spray-painter-item-status-label = 貼紙：{ $mode }
-spray-painter-item-status-add = [color=green]新增[/color]
-spray-painter-item-status-remove = [color=red]移除[/color]
-spray-painter-item-status-off = [color=gray]關閉[/color]
+spray-painter-item-status-add = { "[" }color=green]新增[/color]
+spray-painter-item-status-remove = { "[" }color=red]移除[/color]
+spray-painter-item-status-off = { "[" }color=gray]關閉[/color]
 # UI
 spray-painter-window-title = 噴漆工具
 spray-painter-selected-style = 已選取的樣式：

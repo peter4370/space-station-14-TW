@@ -11,12 +11,12 @@ guardian-inside-container = 沒有空間釋放你的守護者！
 ## Injector specific
 
 guardian-injector-empty-invalid-creation = 噴油嘴已報廢。
-guardian-injector-empty-examine = [color=#ba1919]噴油嘴已損壞。[/color]
+guardian-injector-empty-examine = { "[" }color=#ba1919]噴油嘴已損壞。[/color]
 
 ## Guardian deck specific
 
 guardian-deck-invalid-creation = 這副牌一次只能提供一位守護者！
-guardian-deck-used-examine = [color=#ba1919]這副牌的魔法已經用盡了。[/color]
+guardian-deck-used-examine = { "[" }color=#ba1919]這副牌的魔法已經用盡了。[/color]
 
 ## Guardian entity specific
 

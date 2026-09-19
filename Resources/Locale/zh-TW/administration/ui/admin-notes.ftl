@@ -23,10 +23,10 @@ admin-notes-hide = 隱藏
 admin-notes-delete-confirm = 確認刪除
 admin-notes-edited = 最後由 { $author } 於 { $date } 編輯
 admin-notes-unbanned = 由 { $admin } 於 { $date } 解除封禁
-admin-notes-message-desc = [color=white]You have received { $count ->
-        [1] an administrative message
-       *[other] administrative messages
-    } since the last time you played on this server.[/color]
+admin-notes-message-desc = { "[" }color=white]You have received { $count ->
+            [1] an administrative message
+           *[other] administrative messages
+        } since the last time you played on this server.[/color]
 admin-notes-message-admin = 摘自 [bold]{ $admin }[/bold]，撰寫於 { TOSTRING($date, "f") }：
 admin-notes-message-wait = 「接受」按鈕將在 { $time } 秒後啟用。
 admin-notes-message-accept = 永久關閉
@@ -75,10 +75,10 @@ admin-notes-verb-text = 開啟管理員備註
 # Watchlist and message login
 admin-notes-watchlist = { $player } 的觀察名單：{ $message }
 admin-notes-new-message = 您已收到來自 { $admin } 的管理員訊息：{ $message }
-admin-notes-fallback-admin-name = [系統]
+admin-notes-fallback-admin-name = { "[" }系統]
 # Admin remarks
 admin-remarks-command-description = 開啟管理員備註頁面
 admin-remarks-command-error = 管理員留言功能已停用
 admin-remarks-title = 管理員備註
 # Misc
-system-user = [系統]
+system-user = { "[" }系統]

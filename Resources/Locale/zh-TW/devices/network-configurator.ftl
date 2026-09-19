@@ -36,8 +36,8 @@ network-configurator-tooltip-clear = 清除目標裝置清單
 network-configurator-tooltip-copy = 將目標裝置清單複製到手持工具中
 network-configurator-tooltip-show = 顯示目標裝置清單的全息視覺化圖像
 # examine
-network-configurator-examine-mode-link = [color=red]連結[/color]
-network-configurator-examine-mode-list = [color=green]清單[/color]
+network-configurator-examine-mode-link = { "[" }color=red]連結[/color]
+network-configurator-examine-mode-list = { "[" }color=green]清單[/color]
 network-configurator-examine-current-mode = 當前模式：{ $mode }
 network-configurator-examine-switch-modes = 按下 { $key } 切換模式
 # item status

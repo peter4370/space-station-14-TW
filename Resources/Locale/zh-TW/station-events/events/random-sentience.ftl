@@ -5,7 +5,7 @@ random-sentience-event-data-2 = 我們精密的機率模型
 random-sentience-event-data-3 = 我們的全能
 random-sentience-event-data-4 = 貴站的通訊流量
 random-sentience-event-data-5 = 我們偵測到的能量輻射
-random-sentience-event-data-6 = [已刪除]
+random-sentience-event-data-6 = { "[" }已刪除]
 
 ## Phrases used to describe the level of intelligence, though it doesn't actually affect anything.
 

@@ -1,14 +1,14 @@
 # ban
 cmd-ban-desc = 封禁某人
-cmd-ban-help = 用法：ban<name or user ID> <reason> [禁言時間以分鐘為單位；若不指定或指定為 0，則為永久禁言]
+cmd-ban-help = Usage: ban <name or user ID> <reason> [duration in minutes, leave out or 0 for permanent ban]
 cmd-ban-player = 找不到該名稱的玩家。
 cmd-ban-invalid-minutes = { $minutes } 不是有效的分鐘數！
 cmd-ban-invalid-severity = { $severity } 不是有效的嚴重性等級！
 cmd-ban-invalid-arguments = 參數數量不正確
 cmd-ban-hint = <name/user ID>
 cmd-ban-hint-reason = <reason>
-cmd-ban-hint-duration = [時長]
-cmd-ban-hint-severity = [嚴重程度]
+cmd-ban-hint-duration = { "[" }時長]
+cmd-ban-hint-severity = { "[" }嚴重程度]
 cmd-ban-hint-duration-1 = 永久性
 cmd-ban-hint-duration-2 = 1 天
 cmd-ban-hint-duration-3 = 3 天
@@ -22,14 +22,14 @@ cmd-banpanel-server = 此功能無法從伺服器主控台使用
 cmd-banpanel-player-err = 找不到指定的播放器
 # listbans
 cmd-banlist-desc = 列出使用者的有效封禁清單。
-cmd-banlist-help = 用法：禁用清單<name or user ID>
+cmd-banlist-help = Usage: banlist <name or user ID>
 cmd-banlist-empty = 未找到針對 { $user } 的有效封禁
 cmd-banlist-hint = <name/user ID>
 cmd-ban_exemption_update-desc = 針對某位球員的某種禁令設定豁免。
 cmd-ban_exemption_update-help =
-    用法：ban_exemption_update<player> <flag> [<flag> [...]]
-    指定多個標記，可為玩家設定多個封禁豁免標記。
-    若要移除所有豁免，請執行此指令並將唯一標記設為「None」。
+    Usage: ban_exemption_update <player> <flag> [<flag> [...]]
+    Specify multiple flags to give a player multiple ban exemption flags.
+    To remove all exemptions, run this command and give "None" as only flag.
 cmd-ban_exemption_update-nargs = 預期至少有 2 個參數
 cmd-ban_exemption_update-locate = 無法找到播放器「{ $player }」。
 cmd-ban_exemption_update-invalid-flag = 標誌「{ $flag }」無效。
@@ -37,7 +37,7 @@ cmd-ban_exemption_update-success = 更新了「{ $player }」（{ $uid }）的�
 cmd-ban_exemption_update-arg-player = <player>
 cmd-ban_exemption_update-arg-flag = <flag>
 cmd-ban_exemption_get-desc = 顯示特定球員的禁賽豁免情況。
-cmd-ban_exemption_get-help = 用法：ban_exemption_get<player>
+cmd-ban_exemption_get-help = Usage: ban_exemption_get <player>
 cmd-ban_exemption_get-nargs = 預期有且僅有 1 個參數
 cmd-ban_exemption_get-none = 該用戶不得豁免任何禁令。
 cmd-ban_exemption_get-show = 該使用者不受以下封禁標記的限制：{ $flags }。

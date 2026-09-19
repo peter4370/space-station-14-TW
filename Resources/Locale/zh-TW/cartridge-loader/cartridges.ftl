@@ -59,33 +59,33 @@ nano-task-ui-description-placeholder = 獲得某件重要的東西
 nano-task-ui-requester-label = 申請人：
 nano-task-ui-requester-placeholder = 約翰·NanoTrasen
 nano-task-ui-item-title = 編輯任務
-nano-task-printed-description = [bold]說明[/bold]：{ $description }
-nano-task-printed-requester = [bold]請求者[/bold]：{ $requester }
-nano-task-printed-high-priority = [bold]優先級[/bold]: [color=red]高[/color]
-nano-task-printed-medium-priority = [bold]優先級[/bold]：中等
-nano-task-printed-low-priority = [bold]優先級[/bold]：低
+nano-task-printed-description = { "[" }bold]說明[/bold]：{ $description }
+nano-task-printed-requester = { "[" }bold]請求者[/bold]：{ $requester }
+nano-task-printed-high-priority = { "[" }bold]優先級[/bold]: [color=red]高[/color]
+nano-task-printed-medium-priority = { "[" }bold]優先級[/bold]：中等
+nano-task-printed-low-priority = { "[" }bold]優先級[/bold]：低
 # Wanted list cartridge
 wanted-list-program-name = 通緝名單
 wanted-list-label-no-records = 沒關係，牛仔
 wanted-list-search-placeholder = 依名稱與狀態搜尋
-wanted-list-age-label = [color=darkgray]年齡：[/color] [color=white]{ $age }[/color]
-wanted-list-job-label = [color=darkgray]職位：[/color] [color=white]{ $job }[/color]
-wanted-list-species-label = [color=darkgray]物種：[/color] [color=white]{ $species }[/color]
-wanted-list-gender-label = [color=darkgray]性別：[/color] [color=white]{ $gender }[/color]
-wanted-list-reason-label = [color=darkgray]理由：[/color] [color=white]{ $reason }[/color]
+wanted-list-age-label = { "[" }color=darkgray]年齡：[/color] [color=white]{ $age }[/color]
+wanted-list-job-label = { "[" }color=darkgray]職位：[/color] [color=white]{ $job }[/color]
+wanted-list-species-label = { "[" }color=darkgray]物種：[/color] [color=white]{ $species }[/color]
+wanted-list-gender-label = { "[" }color=darkgray]性別：[/color] [color=white]{ $gender }[/color]
+wanted-list-reason-label = { "[" }color=darkgray]理由：[/color] [color=white]{ $reason }[/color]
 wanted-list-unknown-reason-label = 原因不明
-wanted-list-initiator-label = [color=darkgray]發起人：[/color] [color=white]{ $initiator }[/color]
+wanted-list-initiator-label = { "[" }color=darkgray]發起人：[/color] [color=white]{ $initiator }[/color]
 wanted-list-unknown-initiator-label = 未知發起者
-wanted-list-status-label = [color=darkgray]status:[/color] { $status ->
-        [suspected] [color=yellow]suspected[/color]
-        [wanted] [color=red]wanted[/color]
-        [detained] [color=#b18644]detained[/color]
-        [paroled] [color=green]paroled[/color]
-        [discharged] [color=green]discharged[/color]
-        [hostile] [color=darkred]hostile[/color]
-        [eliminated] [color=gray]eliminated[/color]
-       *[other] none
-    }
+wanted-list-status-label = { "[" }color=darkgray]status:[/color] { $status ->
+            [suspected] { "[" }color=yellow]suspected[/color]
+            [wanted] { "[" }color=red]wanted[/color]
+            [detained] { "[" }color=#b18644]detained[/color]
+            [paroled] { "[" }color=green]paroled[/color]
+            [discharged] { "[" }color=green]discharged[/color]
+            [hostile] { "[" }color=darkred]hostile[/color]
+            [eliminated] { "[" }color=gray]eliminated[/color]
+           *[other] none
+        }
 wanted-list-history-table-time-col = 時間
 wanted-list-history-table-reason-col = 犯罪
 wanted-list-history-table-initiator-col = 發起人

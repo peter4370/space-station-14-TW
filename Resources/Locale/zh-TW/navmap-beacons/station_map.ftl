@@ -14,6 +14,6 @@ nav-beacon-examine-text =
        *[false] crimson]off
     }[/color]，而螢幕顯示的內容為 [color={ $color }]"{ $label }"[/color]
 nav-beacon-pos-no-beacons = 在荒郊野嶺
-nav-beacon-pos-format = [color={ $color }]鄰近 { $marker }[/color]
-nav-beacon-pos-format-direction = [color={ $color }]{ $modifier }{ $direction } 中的 { $marker }[/color]
+nav-beacon-pos-format = { "[" }color={ $color }]鄰近 { $marker }[/color]
+nav-beacon-pos-format-direction = { "[" }color={ $color }]{ $modifier }{ $direction } 中的 { $marker }[/color]
 nav-beacon-pos-format-direction-mod-far = far { "" }

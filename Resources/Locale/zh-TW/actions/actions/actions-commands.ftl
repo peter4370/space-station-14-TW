@@ -3,7 +3,7 @@
 
 ## Upgradeaction command loc
 
-upgradeaction-command-help = 用法：upgradeaction<entityUid> [level]
+upgradeaction-command-help = Usage: upgradeaction <entityUid> [level]
 upgradeaction-command-need-one-argument = upgradeaction 至少需要一個參數，即動作實體的 UID。第二個可選參數則是指定的等級。
 upgradeaction-command-max-two-arguments = upgradeaction 最多可接受兩個參數：動作實體的 UID 以及（可選的）要設定的等級。
 upgradeaction-command-second-argument-not-number = upgradeaction 的第二個參數只能是數字。

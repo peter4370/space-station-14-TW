@@ -38,14 +38,14 @@ rev-headrev-count =
         [one] 有一位革命領袖：
        *[other] 有 { $initialCount } 位革命領袖：
     }
-rev-headrev-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) converted { $count } { $count ->
-        [one] person
-       *[other] people
-    }
-rev-headrev-name = [color=#5e9cff]{ $name }[/color] 轉換為 { $count } { $count ->
-        [one] 人
-       *[other] 人
-    }
+rev-headrev-name-user = { "[" }color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) converted { $count } { $count ->
+            [one] person
+           *[other] people
+        }
+rev-headrev-name = { "[" }color=#5e9cff]{ $name }[/color] 轉換為 { $count } { $count ->
+            [one] 人
+           *[other] 人
+        }
 
 ## Deconverted window
 

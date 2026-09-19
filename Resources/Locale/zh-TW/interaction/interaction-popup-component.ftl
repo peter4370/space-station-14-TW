@@ -91,7 +91,7 @@ petting-success-station-ai-others = { CAPITALIZE(THE($user)) } 寵物 { THE($tar
 
 ## Rattling fences
 
-fence-rattle-success = *嘎嘎聲*
+fence-rattle-success = { "*" }嘎嘎聲*
 
 ## Hugging players
 

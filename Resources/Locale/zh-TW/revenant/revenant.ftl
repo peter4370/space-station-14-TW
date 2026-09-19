@@ -12,5 +12,5 @@ revenant-soul-begin-harvest = { CAPITALIZE(THE($target)) } 突然微微升起，
 revenant-soul-finish-harvest = { CAPITALIZE(THE($target)) } 癱倒在地！
 # UI
 revenant-user-interface-title = 技能商店
-revenant-user-interface-essence-amount = [color=plum]{ $amount }[/color] 《被竊的靈精》
+revenant-user-interface-essence-amount = { "[" }color=plum]{ $amount }[/color] 《被竊的靈精》
 revenant-user-interface-cost = { $price } Essence

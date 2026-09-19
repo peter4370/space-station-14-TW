@@ -29,9 +29,9 @@ power-switchable-generator-examine = 輸出功率設定為 { $voltage }。
 power-switchable-generator-switched = 已將輸出切換至 { $voltage }！
 power-switchable-voltage =
     { $voltage ->
-        [HV] [color=orange]HV[/color]
-        [MV] [color=yellow]MV[/color]
-       *[LV] [color=green]LV[/color]
+        [HV] { "[" }color=orange]HV[/color]
+        [MV] { "[" }color=yellow]MV[/color]
+       *[LV] { "[" }color=green]LV[/color]
     }
 power-switchable-switch-voltage = 切換至 { $voltage }
 fuel-generator-verb-disable-on = 請先關閉發電機！

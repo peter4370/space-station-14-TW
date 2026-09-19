@@ -1,7 +1,7 @@
 ### ChangelogWindow.xaml.cs
 
 changelog-window-title = 更新紀錄
-changelog-author-changed = [color=#EEE]{ $author }[/color] 已變更：
+changelog-author-changed = { "[" }color=#EEE]{ $author }[/color] 已變更：
 changelog-today = 今天
 changelog-yesterday = 昨天
 changelog-new-changes = 最新變更

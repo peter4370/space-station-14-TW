@@ -1,5 +1,5 @@
 atmos-monitoring-window-title = 大氣網路監測器
-atmos-monitoring-window-station-name = [color=white][font size=14]{ $stationName }[/font][/color]
+atmos-monitoring-window-station-name = { "[" }color=white][font size=14]{ $stationName }[/font][/color]
 atmos-monitoring-window-unknown-location = 未知地點
 atmos-monitoring-window-label-gas-opening = 網路啟用
 atmos-monitoring-window-label-gas-scrubber = 空氣淨化器

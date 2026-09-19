@@ -28,7 +28,7 @@ changeling-transform-bui-drop-identity-cannot-drop = 我們不能放棄目前的
 changeling-voice-mimic-window-title = 聲音模仿
 # flesh clothing
 changeling-flesh-clothing-removed-popop = { CAPITALIZE(THE($item)) } 化為血肉模糊的殘骸！
-changeling-flesh-clothing-examine-wearer = [color=crimson]此物品是您身體上的一處偽裝部位。若將其卸下，它將會消失！[/color]
+changeling-flesh-clothing-examine-wearer = { "[" }color=crimson]此物品是您身體上的一處偽裝部位。若將其卸下，它將會消失！[/color]
 changeling-flesh-clothing-alert-name = 肉身服裝能力
 changeling-flesh-clothing-alert-desc = 是否啟用服裝變換功能。點擊以切換。
 # biodegrade

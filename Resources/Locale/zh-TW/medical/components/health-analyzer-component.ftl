@@ -11,8 +11,8 @@ health-analyzer-window-entity-status-text = 狀態：
 health-analyzer-window-entity-damage-total-text = 總傷害：
 health-analyzer-window-damage-group-text = { $damageGroup }: { $amount }
 health-analyzer-window-damage-type-text = { $damageType }: { $amount }
-health-analyzer-window-entity-unrevivable-text = [color=yellow]偵測到獨特的身體組成！無法透過常規方法對該患者進行復甦！[/color]
-health-analyzer-window-entity-bleeding-text = [color=red]病患身上有開放性傷口！[/color]
+health-analyzer-window-entity-unrevivable-text = { "[" }color=yellow]偵測到獨特的身體組成！無法透過常規方法對該患者進行復甦！[/color]
+health-analyzer-window-entity-bleeding-text = { "[" }color=red]病患身上有開放性傷口！[/color]
 health-analyzer-window-scan-mode-text = 掃描模式：
 health-analyzer-window-scan-mode-active = 有效
 health-analyzer-window-scan-mode-inactive = 已停用

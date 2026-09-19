@@ -1,7 +1,7 @@
 teleporter-console-slot-name = 磁碟
 teleporter-console-chip-record = 座標已儲存！
-teleporter-console-chip-examine-recorded = [color=#f5b942]記錄的座標：{ $portal }[/color]
-teleporter-console-chip-examine-null = [color=#f5b942]記錄的座標：無[/color]
+teleporter-console-chip-examine-recorded = { "[" }color=#f5b942]記錄的座標：{ $portal }[/color]
+teleporter-console-chip-examine-null = { "[" }color=#f5b942]記錄的座標：無[/color]
 
 # UI
 

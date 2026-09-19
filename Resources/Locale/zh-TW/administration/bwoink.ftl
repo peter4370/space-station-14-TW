@@ -1,6 +1,6 @@
 bwoink-user-title = 管理員訊息
 bwoink-admin-title = 管理員協助
-bwoink-system-starmute-message-no-other-users = *系統：目前無人可接收您的訊息。請嘗試在 Discord 上向遊戲管理員發送 ping 訊息。
+bwoink-system-starmute-message-no-other-users = { "*" }系統：目前無人可接收您的訊息。請嘗試在 Discord 上向遊戲管理員發送 ping 訊息。
 bwoink-system-messages-being-relayed-to-discord =
     所有訊息都會透過 Discord 轉發給遊戲管理員。
     遇到問題時，系統可能會在不另行回覆的情況下進行處理。

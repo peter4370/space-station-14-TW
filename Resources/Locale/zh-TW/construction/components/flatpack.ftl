@@ -7,7 +7,7 @@ flatpacker-ui-title = Flatpacker 1001
 flatpacker-ui-materials-label = 材料
 flatpacker-ui-cost-label = 包裝費用
 flatpacker-ui-no-board-label = 沒有板子！
-flatpacker-ui-board-invalid-label = [color=red]電路板無效！
+flatpacker-ui-board-invalid-label = { "[" }color=red]電路板無效！
     無法列印！[/color]
 flatpacker-ui-insert-board = 請插入一個棋盤以開始遊戲。
 flatpacker-ui-pack-button = Pack

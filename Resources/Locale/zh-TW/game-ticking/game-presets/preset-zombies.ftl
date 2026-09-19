@@ -16,11 +16,11 @@ zombie-round-end-initial-count =
        *[other] 最初有 { $initialCount } 名感染者：
     }
 zombie-round-end-user-was-initial = - [color=plum]{ $name }[/color] ([color=gray]{ $username }[/color]) 是首批感染者之一。
-zombie-round-end-amount-none = [color=green]所有殭屍都被消滅了！[/color]
-zombie-round-end-amount-low = [color=green]幾乎所有的殭屍都被消滅了。[/color]
-zombie-round-end-amount-medium = [color=yellow]{ $percent }% 的船員變成了殭屍。[/color]
-zombie-round-end-amount-high = [color=crimson]船員中有 { $percent }% 變成了殭屍。[/color]
-zombie-round-end-amount-all = [color=darkred]全體船員都變成殭屍了！[/color]
+zombie-round-end-amount-none = { "[" }color=green]所有殭屍都被消滅了！[/color]
+zombie-round-end-amount-low = { "[" }color=green]幾乎所有的殭屍都被消滅了。[/color]
+zombie-round-end-amount-medium = { "[" }color=yellow]{ $percent }% 的船員變成了殭屍。[/color]
+zombie-round-end-amount-high = { "[" }color=crimson]船員中有 { $percent }% 變成了殭屍。[/color]
+zombie-round-end-amount-all = { "[" }color=darkred]全體船員都變成殭屍了！[/color]
 zombie-round-end-survivor-count =
     { $count ->
         [one] 只剩下一名倖存者：

@@ -2,8 +2,8 @@
 
 traitor-round-end-codewords = 密碼詞如下：[color=White]{ $codewords }[/color]
 traitor-round-end-agent-name = 叛徒
-objective-issuer-syndicate = [color=crimson]「辛迪加」[/color]
-objective-issuer-unknown = [color=white]未知[/color]
+objective-issuer-syndicate = { "[" }color=crimson]「辛迪加」[/color]
+objective-issuer-unknown = { "[" }color=white]未知[/color]
 
 # Shown at the end of a round of Traitor
 

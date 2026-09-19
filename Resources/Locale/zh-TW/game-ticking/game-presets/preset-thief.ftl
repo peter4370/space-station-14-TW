@@ -5,5 +5,5 @@ thief-role-greeting-animal =
     你是一隻有偷竊癖的動物。
     偷你喜歡的東西吧。
 thief-role-greeting-equipment = 你隨身攜帶一袋竊賊工具，並天生具備不被察覺的行竊能力。選擇你的起始裝備，然後悄無聲息地展開行動吧。
-objective-issuer-thief = [color=#746694]罪犯[/color]
+objective-issuer-thief = { "[" }color=#746694]罪犯[/color]
 thief-round-end-agent-name = 小偷

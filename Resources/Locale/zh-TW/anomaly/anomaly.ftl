@@ -70,12 +70,12 @@ anomaly-command-supercritical = 使目標異常進入超臨界狀態
 # Flavor text on the footer
 anomaly-generator-flavor-left = 異常現象可能會在操作員體內生成。
 anomaly-generator-flavor-right = v1.1
-anomaly-behavior-unknown = [color=red]錯誤。無法讀取。[/color]
+anomaly-behavior-unknown = { "[" }color=red]錯誤。無法讀取。[/color]
 anomaly-behavior-title = 行為偏差分析：
-anomaly-behavior-point = [color=gold]「異常」產生 { $mod }% 的分數[/color]
-anomaly-behavior-safe = [color=forestgreen]該異常現象極為穩定。脈動現象極為罕見。[/color]
-anomaly-behavior-slow = [color=forestgreen]脈動的頻率要低得多。[/color]
-anomaly-behavior-light = [color=forestgreen]脈動功率顯著降低。[/color]
+anomaly-behavior-point = { "[" }color=gold]「異常」產生 { $mod }% 的分數[/color]
+anomaly-behavior-safe = { "[" }color=forestgreen]該異常現象極為穩定。脈動現象極為罕見。[/color]
+anomaly-behavior-slow = { "[" }color=forestgreen]脈動的頻率要低得多。[/color]
+anomaly-behavior-light = { "[" }color=forestgreen]脈動功率顯著降低。[/color]
 anomaly-behavior-balanced = 未偵測到任何行為異常。
 anomaly-behavior-delayed-force = 脈動的頻率大幅降低，但其能量卻有所增加。
 anomaly-behavior-rapid = 脈動的頻率雖然高得多，但強度卻有所減弱。
@@ -84,8 +84,8 @@ anomaly-behavior-nonsensivity = 偵測到對微粒的微弱反應。
 anomaly-behavior-sensivity = 檢測到對顆粒物的增強反應。
 anomaly-behavior-invisibility = 已偵測到光波扭曲。
 anomaly-behavior-secret = 偵測到干擾。部分資料無法讀取
-anomaly-behavior-inconstancy = [color=crimson]已偵測到無常現象。粒子類型可能會隨時間而改變。[/color]
-anomaly-behavior-fast = [color=crimson]脈動頻率大幅增加。[/color]
-anomaly-behavior-strenght = [color=crimson]脈動功率顯著提升。[/color]
-anomaly-behavior-moving = [color=crimson]偵測到座標不穩定。[color=crimson][/color]
-anomaly-secret-admin = [color=red](ERROR)[/color]
+anomaly-behavior-inconstancy = { "[" }color=crimson]已偵測到無常現象。粒子類型可能會隨時間而改變。[/color]
+anomaly-behavior-fast = { "[" }color=crimson]脈動頻率大幅增加。[/color]
+anomaly-behavior-strenght = { "[" }color=crimson]脈動功率顯著提升。[/color]
+anomaly-behavior-moving = { "[" }color=crimson]偵測到座標不穩定。[color=crimson][/color]
+anomaly-secret-admin = { "[" }color=red](ERROR)[/color]

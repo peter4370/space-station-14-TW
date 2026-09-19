@@ -1,7 +1,7 @@
 # Window headers
 holopad-window-title = { CAPITALIZE($title) }
-holopad-window-subtitle = [color=white][bold]全息通訊系統[/bold][/color]
-holopad-window-options = [color=darkgray][font size=10][italic]請從以下清單中選擇一個選項[/italic][/font][/color]
+holopad-window-subtitle = { "[" }color=white][bold]全息通訊系統[/bold][/color]
+holopad-window-options = { "[" }color=darkgray][font size=10][italic]請從以下清單中選擇一個選項[/italic][/font][/color]
 # Call status
 holopad-window-no-calls-in-progress = 目前沒有進行中的全息通話
 holopad-window-incoming-call = 有全息通話進來，來自：
@@ -11,7 +11,7 @@ holopad-window-call-in-progress = 全息通話正在進行中
 holopad-window-call-ending = 正在斷開連線……
 holopad-window-call-rejected = 無法建立連線
 holopad-window-ai-request = 謹此邀請您出席：
-holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]正在播放緊急廣播[/bold][/color]
+holopad-window-emergency-broadcast-in-progress = { "[" }color=#cf2f2f][bold]正在播放緊急廣播[/bold][/color]
 holopad-window-controls-locked-out = 此裝置的控制權已鎖定至：
 holopad-window-controls-unlock-countdown = 它將在以下時間自動解鎖：{ $countdown }
 # Buttons

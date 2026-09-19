@@ -20,7 +20,7 @@ replay-menu-none = 未找到任何重播。
 # Main Menu Info Box
 replay-info-title = 重播資訊
 replay-info-none-selected = 未選取任何重播
-replay-info-invalid = [color=red]選取的重播無效[/color]
+replay-info-invalid = { "[" }color=red]選取的重播無效[/color]
 replay-info-info =
     { "[" }color=gray]已選取：[/color]  { $name } ({ $file })
     { "[" }color=gray]時間：[/color]   { $time }

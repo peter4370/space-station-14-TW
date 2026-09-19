@@ -1,6 +1,6 @@
 station-event-ion-storm-start-announcement = 在站點附近偵測到離子風暴。請檢查所有由人工智慧控制的設備是否有異常。
 # Characters are randomly selected from the total list, meaning duplicates increase the odds that specific character is seen.
-ion-storm-law-scrambled-number = [scramble rate=250 length={ $length } chars="!!@@###$$%^&*-_=+0011"/]
+ion-storm-law-scrambled-number = { "[" }scramble rate=250 length={ $length } chars="!!@@###$$%^&*-_=+0011"/]
 ion-storm-you = 你
 ion-storm-the-station = 太空站
 ion-storm-the-crew = 船員

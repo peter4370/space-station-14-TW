@@ -1,8 +1,8 @@
 set-game-preset-command-description = 設定接下來指定輪數的遊戲預設方案。亦可在大廳中顯示其他預設方案的標題與說明，藉此誤導玩家。
-set-game-preset-command-help-text = setgamepreset<id> [回合數，預設為 1] [誘餌預設]
+set-game-preset-command-help-text = setgamepreset <id> [number of rounds, defaulting to 1] [decoy preset]
 set-game-preset-command-hint-1 = <id>
-set-game-preset-command-hint-2 = [回合數]
-set-game-preset-command-hint-3 = [誘餌預設]
+set-game-preset-command-hint-2 = { "[" }回合數]
+set-game-preset-command-hint-3 = { "[" }誘餌預設]
 set-game-preset-optional-argument-not-integer = 若提供第 2 個參數，則該參數必須為一個數字。
 set-game-preset-preset-error = 找不到遊戲預設「{ $preset }」
 set-game-preset-decoy-error = 若提供第 3 個參數，則該參數必須為有效的預設設定。無法找到遊戲預設設定「{ $preset }」

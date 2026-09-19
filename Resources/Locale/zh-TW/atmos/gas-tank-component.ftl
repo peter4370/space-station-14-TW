@@ -18,8 +18,8 @@ gas-tank-window-internals-toggle-button = 開關
 gas-tank-window-output-pressure-label = 輸出壓力
 gas-tank-window-tank-pressure-text = 壓力：{ $tankPressure } kPA
 gas-tank-window-internal-text = 內部結構：{ $status }
-gas-tank-window-internal-connected = [color=green]已連線[/color]
-gas-tank-window-internal-disconnected = [color=red]已斷線[/color]
+gas-tank-window-internal-connected = { "[" }color=green]已連線[/color]
+gas-tank-window-internal-disconnected = { "[" }color=red]已斷線[/color]
 
 ## Valve
 

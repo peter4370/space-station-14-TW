@@ -168,7 +168,7 @@ agent-id-ui-footer-flavor-left = 只是一張普通的身份證，沒什麼好�
 agent-id-ui-footer-flavor-right = v2.0
 genpop-prisoner-id-expire = 你已經服完刑期了！現在你可以通過旋轉閘門離開監獄，並領回你的個人物品。
 genpop-prisoner-id-popup-not-served = 刑期尚未服完！
-genpop-prisoner-id-crime-default = [已刪除]
+genpop-prisoner-id-crime-default = { "[" }已刪除]
 genpop-prisoner-id-examine-wait =
     You have served { $minutes } { $minutes ->
         [1] minute
@@ -183,9 +183,9 @@ genpop-locker-name-default = 囚犯儲物櫃
 genpop-locker-desc-default = 這是一個供囚犯在服刑期間存放個人物品的安全置物櫃。
 genpop-locker-name-used = 囚犯儲物櫃 ({ $name })
 genpop-locker-desc-used = 這是一個供囚犯在服刑期間存放個人物品的安全儲物櫃。裡面存放著 { $name } 的個人物品。
-genpop-locker-ui-label-name = [bold]受刑人姓名：[/bold]
-genpop-locker-ui-label-sentence = [bold]刑期長度（以分鐘計）：[/bold] [color=gray](若為無期徒刑則為 0)[/color]
-genpop-locker-ui-label-crime = [bold]犯罪：[/bold]
+genpop-locker-ui-label-name = { "[" }bold]受刑人姓名：[/bold]
+genpop-locker-ui-label-sentence = { "[" }bold]刑期長度（以分鐘計）：[/bold] [color=gray](若為無期徒刑則為 0)[/color]
+genpop-locker-ui-label-crime = { "[" }bold]犯罪：[/bold]
 genpop-locket-ui-button-done = 完成
 genpop-locker-action-end-early = 提前結束句子
 genpop-locker-action-clear-id = 清除 ID
@@ -223,11 +223,11 @@ access-overrider-window-missing-privileges-no-id = 無法變更對此裝置的�
 access-overrider-cannot-modify-access = 您沒有足夠的權限來修改此裝置！
 access-overrider-out-of-range = 連線裝置距離過遠
 access-reader-unknown-id = 未知
-access-reader-access-label = [color=yellow]{ $access }[/color]
+access-reader-access-label = { "[" }color=yellow]{ $access }[/color]
 access-reader-examination = 存取權限通常僅限於具備 { $access } 存取權限的人員。
 access-reader-examination-functionality-restricted = { $access } 使用某些功能時可能需要存取權限。
-access-reader-access-settings-modified-message = [italic]門禁讀卡器已進行修改，現可接受持有 { $access } 門禁權限的人員進入。[/italic]
-access-reader-access-settings-removed-message = [italic]存取讀取器的設定已被刪除。[/italic]
+access-reader-access-settings-modified-message = { "[" }italic]門禁讀卡器已進行修改，現可接受持有 { $access } 門禁權限的人員進入。[/italic]
+access-reader-access-settings-removed-message = { "[" }italic]存取讀取器的設定已被刪除。[/italic]
 door-electronics-configuration-title = 設定存取權限
 marking-HumanFacialHairAbe = 鬍鬚（亞伯拉罕·林肯）
 marking-HumanFacialHairAbe-abe = 鬍鬚（亞伯拉罕·林肯）
@@ -781,7 +781,7 @@ marking-VoxHairSlick = Vox Slick Quills
 marking-VoxHairSlick-slick_s = Vox Slick Quills
 marking-VoxHairCatfish = Vox 鯰魚
 marking-VoxHairCatfish-catfish_s = Vox 鯰魚
-upgradeaction-command-help = 用法：upgradeaction<entityUid> [level]
+upgradeaction-command-help = Usage: upgradeaction <entityUid> [level]
 upgradeaction-command-need-one-argument = upgradeaction 至少需要一個參數，即動作實體的 UID。第二個可選參數則是指定的等級。
 upgradeaction-command-max-two-arguments = upgradeaction 最多可接受兩個參數：動作實體的 UID 以及（可選的）要設定的等級。
 upgradeaction-command-second-argument-not-number = upgradeaction 的第二個參數只能是數字。
@@ -842,7 +842,7 @@ verb-mask-other-pulled-down-popup-message = { CAPITALIZE(THE($puller)) } 拉下�
 revert-polymorph-action-popup = 此操作無法撤銷。請再次點擊以確認。
 action-name-wake = 醒來
 sleep-onomatopoeia = Zzz...
-sleep-examined = [color=lightblue]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 睡著了。[/color]
+sleep-examined = { "[" }color=lightblue]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 睡著了。[/color]
 wake-other-success = 你搖醒了 { THE($target) }。
 wake-other-failure = 你搖晃 { THE($target) }，但 { SUBJECT($target) } { CONJUGATE-BE($target) } 卻沒有醒來。
 spell-fail-no-hands = 你沒有手啊！
@@ -853,7 +853,7 @@ sericulture-failure-hunger = 你的肚子太餓了，根本編不出任何蛛網
 suicide-action-popup = 此操作將導致您喪命！再次執行以確認。
 # addaction
 cmd-addaction-desc = 為目標實體新增一項動作。若目標實體需具備額外組件（例如「龍之吞噬」），則該動作將無法生效。
-cmd-addaction-help = addaction<EntityUid> <ActionPrototype>
+cmd-addaction-help = addaction <EntityUid> <ActionPrototype>
 cmd-addaction-invalid-args = 預期有正好 2 個參數。
 cmd-addaction-actions-not-found = 目標實體無法執行動作。
 cmd-addaction-action-not-found = 找不到相符的動作原型 { $action }。
@@ -882,7 +882,7 @@ ui-actionmenu-innate = 與生俱來
 ui-actionmenu-instant = 即時
 ui-actionmenu-targeted = 針對性
 ui-actionslot-charges = 剩餘用途：{ $charges }
-ui-actionslot-duration = [color=#a10505] { $duration } 秒冷卻時間（剩餘 { $timeLeft } 秒）[/color]
+ui-actionslot-duration = { "[" }color=#a10505] { $duration } 秒冷卻時間（剩餘 { $timeLeft } 秒）[/color]
 admin-alert-shared-connection = { $player } is sharing a connection with { $otherCount } connected player(s): { $otherList }
 admin-alert-ipintel-blocked = { $player } 因其 IP 位址被判定為 VPN／資料中心（信心等級為 { TOSTRING($percent, "P2") }）而被拒絕加入。
 admin-alert-ipintel-warning = { $player } 該 IP 被判定為 VPN／資料中心的 { TOSTRING($percent, "P2") } 信心等級。請密切留意。
@@ -978,7 +978,7 @@ admin-verb-text-make-changeling = 製作《變形者》（製作中）
 admin-overlay-antag-classic = ANTAG
 bwoink-user-title = 管理員訊息
 bwoink-admin-title = 管理員協助
-bwoink-system-starmute-message-no-other-users = *系統：目前無人可接收您的訊息。請嘗試在 Discord 上向遊戲管理員發送 ping 訊息。
+bwoink-system-starmute-message-no-other-users = { "*" }系統：目前無人可接收您的訊息。請嘗試在 Discord 上向遊戲管理員發送 ping 訊息。
 bwoink-system-messages-being-relayed-to-discord =
     所有訊息都會透過 Discord 轉發給遊戲管理員。
     遇到問題時，系統可能會在不另行回覆的情況下進行處理。
@@ -1015,16 +1015,16 @@ add-uplink-command-error-2 = 無法將上行連結新增至播放器
 add-uplink-command-success-pda = 已將 Uplink 透過代碼 { $code } 新增至玩家的 PDA 中
 add-uplink-command-success-implant = 將「上行鏈路」作為植入物添加至玩家身上
 cmd-admin_overlay-desc = Toggles the admin player info overlay
-cmd-admin_overlay-usage = admin_overlay<true|false>
+cmd-admin_overlay-usage = admin_overlay <true|false>
 cmd-admin_overlay-arg-state = 狀態
 cmd-admin-logs-hint = 使用者名稱
 cmd-admin-logs-wrong-target = 無法找到使用者「{ $user }」。
 cmd-adminnotes-desc = Opens the admin notes panel of target player.
-cmd-adminnotes-help = 用法：adminnotes<UserId OR Username>
+cmd-adminnotes-help = Usage: adminnotes <UserId OR Username>
 cmd-adminnotes-wrong-target = 無法找到使用者「{ $user }」。
 cmd-adminnotes-args-error =
-    參數無效。
-    使用方式：adminnotes<UserId OR Username>
+    Invalid arguments.
+    Usage: adminnotes <UserId OR Username>
 cmd-adminnotes-hint = UserId 或 Username
 cmd-aghost-desc = Makes you or others an admin ghost.
 aghost-no-mind-self = 在這裡可別突然消失！
@@ -1035,15 +1035,15 @@ cmd-announce-help = { $command }<message> [sender] [color] [sound] - 發送公�
 cmd-announce-sender = 中央司令部
 # Completion hints
 cmd-announce-arg-message = <message>
-cmd-announce-arg-sender = [寄件者]
-cmd-announce-arg-color = [color]
-cmd-announce-arg-sound = [聲音]
+cmd-announce-arg-sender = { "[" }寄件者]
+cmd-announce-arg-color = { "[" }color]
+cmd-announce-arg-sound = { "[" }聲音]
 cmd-callshuttle-desc = 呼叫緊急穿梭機，並可選擇提供預計抵達時間。
 cmd-callshuttle-help = 用法：callshuttle [m:ss]
 cmd-recallshuttle-desc = 召回緊急穿梭機。
 cmd-recallshuttle-help = 用法：重新呼叫穿梭機
 cmd-camera-desc = Opens a remote camera window for an entity.
-cmd-camera-help = 用法：相機<entityUid or player>
+cmd-camera-help = Usage: camera <entityUid or player>
 cmd-camera-hint = <entityUid or player>
 cmd-camera-wrong-argument = 參數必須是有效的 netUid 或玩家名稱。
 cmd-changecvar-no-arguments = You must specify a cvar.
@@ -1051,7 +1051,7 @@ cmd-changecvar-cvar-not-registered = cvar { $cvar } 尚未註冊。
 cmd-changecvar-cvar-not-allowed = 您無法變更此 cvar。
 cmd-changecvar-value-out-of-range = 該值超出範圍。範圍為 { $min } 至 { $max }。
 cmd-changecvar-desc = 變更 cvar 的值。
-cmd-changecvar-help = 用法：changecvar<cvar | ? | search> <value>
+cmd-changecvar-help = Usage: changecvar <cvar | ? | search> <value>
 cmd-changecvar-available-cvars = 列出可用的 cvars：
 cmd-changecvar-no-cvars = 未找到您有權變更的 cvars。
 cmd-changecvar-success = CVar { $cvar } 已從 "{ $old }" 變更為 "{ $value }"。
@@ -1061,36 +1061,36 @@ cmd-changecvar-search-matches = 找到 { $count } 個與搜尋詞相符的 cvars
 cmd-changecvar-arg-name = <name | ? | search>
 cmd-grant_connect_bypass-desc = 暫時允許使用者繞過例行的連線檢查。
 cmd-grant_connect_bypass-help =
-    用法：grant_connect_bypass<user> [持續時間 分鐘]
-    暫時授予使用者繞過常規連線限制的權限。
-    此繞過權限僅適用於此遊戲伺服器，並將於（預設）1 小時後失效。
-    無論白名單、緊急避難所或玩家上限設定為何，該使用者皆可加入遊戲。
+    Usage: grant_connect_bypass <user> [duration minutes]
+    Temporarily grants a user the ability to bypass regular connections restrictions.
+    The bypass only applies to this game server and will expire after (by default) 1 hour.
+    They will be able to join regardless of whitelist, panic bunker, or player cap.
 cmd-grant_connect_bypass-arg-user = <user>
-cmd-grant_connect_bypass-arg-duration = [持續時間：分鐘]
+cmd-grant_connect_bypass-arg-duration = { "[" }持續時間：分鐘]
 cmd-grant_connect_bypass-invalid-args = 預期有 1 或 2 個參數
 cmd-grant_connect_bypass-unknown-user = 找不到使用者「{ $user }」
 cmd-grant_connect_bypass-invalid-duration = 「{ $duration }」為無效的持續時間
 cmd-grant_connect_bypass-success = 已成功為使用者 '{ $user }' 新增繞過設定
 control-mob-command-description = 將使用者的意識轉移至指定的實體。
-control-mob-command-help-text = 用法：controlmob<mobUid> 。
+control-mob-command-help-text = Usage: controlmob <mobUid>.
 delete-entities-with-component-command-description = 刪除具有指定元件的實體。
 delete-entities-with-component-command-help-text =
-    用法：deleteewc<componentName_1> <componentName_2>...<componentName_n>
-    刪除所有包含指定元件的實體。
+    Usage: deleteewc <componentName_1> <componentName_2> ... <componentName_n>
+    Deletes any entities with the components specified.
 delete-entities-with-component-command-deleted-components = 已刪除 { $count } 個實體
 # erase
 cmd-erase-desc = 若該玩家的實體存在，則刪除該實體及其所有聊天訊息
-cmd-erase-help = 刪除<Username of User Id>
+cmd-erase-help = erase <Username of User Id>
 cmd-erase-invalid-args = 參數個數不正確
 cmd-erase-player-not-found = 找不到該玩家
 cmd-erase-player-completion = <Username>
 cmd-forceghost-desc = Makes a player an observer.
-cmd-forceghost-help = 用法：forceghost<player>
+cmd-forceghost-help = Usage: forceghost <player>
 cmd-forceghost-error-lobby = 目標玩家目前無法「隱身」。他們不在遊戲中！
 cmd-forceghost-denied = 無法將目標玩家隱形。
 cmd-forceghost-hint = <player>
 cmd-osay-desc = 迫使另一個實體嘗試傳送訊息
-cmd-osay-help = 用法：{ $command }<uid> <type> <message>
+cmd-osay-help = Usage: { $command } <uid> <type> <message>
 osay-command-arg-uid = 來源 UID
 osay-command-arg-type = 類型
 osay-command-arg-message = 訊息
@@ -1117,24 +1117,24 @@ cmd-panicbunker_show_reason-help = 用法：panicbunker_show_reason
 panicbunker-command-show-reason-enabled = 「恐慌掩體」現在會向被阻擋連線的使用者顯示阻擋原因。
 panicbunker-command-show-reason-disabled = 「恐慌避難所」將不再向被其阻擋連線的使用者顯示阻擋原因。
 cmd-panicbunker_min_account_age-desc = 取得或設定帳戶必須具備的最低使用天數（以分鐘為單位），該帳戶方能於啟用「緊急避難所」功能時進行連線。
-cmd-panicbunker_min_account_age-help = 用法：panicbunker_min_account_age<minutes>
+cmd-panicbunker_min_account_age-help = Usage: panicbunker_min_account_age <minutes>
 panicbunker-command-min-account-age-is = 「恐慌避難所」的帳戶最低使用天數為 { $minutes } 分鐘。
 panicbunker-command-min-account-age-set = 將「緊急避難所」的帳戶最低使用天數設定為 { $minutes } 分鐘。
 cmd-panicbunker_min_overall_minutes-desc = 取得或設定帳戶在啟用「緊急避難所」功能時，必須具備的最低總遊玩時間（以分鐘為單位），方可進行連線。
-cmd-panicbunker_min_overall_minutes-help = 用法：panicbunker_min_overall_minutes<minutes>
+cmd-panicbunker_min_overall_minutes-help = Usage: panicbunker_min_overall_minutes <minutes>
 panicbunker-command-min-overall-minutes-is = 「恐慌掩體」的最低總遊玩時間為 { $minutes } 分鐘。
 panicbunker-command-min-overall-minutes-set = 將「恐慌掩體」的最低總遊玩時間設定為 { $minutes } 分鐘。
 play-global-sound-command-description = 針對特定玩家播放全域音效；若未指定玩家，則針對所有已連線的玩家播放。
-play-global-sound-command-help = playglobalsound<path> [音量] [使用者 1] ... [使用者 n]
+play-global-sound-command-help = playglobalsound <path> [volume] [user 1] ... [user n]
 play-global-sound-command-player-not-found = 找不到玩家「{ $username }」。
 play-global-sound-command-volume-parse = 指定的 { $volume } 卷不合法。
 play-global-sound-command-arg-path = <path>
-play-global-sound-command-arg-volume = [卷]
-play-global-sound-command-arg-usern = [user { $user }]
+play-global-sound-command-arg-volume = { "[" }卷]
+play-global-sound-command-arg-usern = { "[" }user { $user }]
 rejuvenate-command-description = 完全治癒一個怪物。
 rejuvenate-command-help-text =
-    用法：rejuvenate<mobUid_1> <mobUid_2>...<mobUid_n>
-    若未提供任何參數，則嘗試為使用者的生物恢復生命值。
+    Usage: rejuvenate <mobUid_1> <mobUid_2> ... <mobUid_n>
+    Attempts to heal the user's mob if no arguments are provided.
 rejuvenate-command-self-heal-message = 由於未提供任何參數，因此會為使用者的隨從恢復生命值。
 rejuvenate-command-no-entity-attached-message = 該使用者未關聯任何實體。
 cmd-respawn-desc = 讓玩家重生，並將其踢回大廳。
@@ -1145,23 +1145,23 @@ cmd-respawn-unknown-player = 未知玩家
 cmd-respawn-player-not-online = 該玩家目前離線，但若其重新連線，將會重新出現
 cmd-respawn-player-completion = <Username>
 cmd-setadminooc-desc = 設定您的 OOC 訊息顏色。顏色必須以十六進位格式表示，例如：setadminooc #c43b23
-cmd-setadminooc-help = 用法：setadminooc<color>
+cmd-setadminooc-help = Usage: setadminooc <color>
 cmd-setmind-desc = 將一個心智傳送至指定的實體。該實體必須具備 { $requiredComponent }。預設情況下，此操作將強制目前正在造訪其他實體的心智返回（即讓幽靈返回其主體）。
-cmd-setmind-help = 用法：{ $command }<entityUid> <username> [取消造訪]
+cmd-setmind-help = Usage: { $command } <entityUid> <username> [unvisit]
 cmd-setmind-command-target-has-no-content-data-message = 目標玩家沒有內容資料（搞什麼鬼？）
 cmd-setmind-command-target-has-no-mind-message = 目標實體沒有意識（你是不是忘了賦予它知覺？）
 cmd-setoutfit-desc = 設定指定實體的服裝。該實體必須具備 { INDEFINITE($requiredComponent) } { $requiredComponent }
-cmd-setoutfit-help = 用法：setoutfit<entityUid> | setoutfit<entityUid> <outfitId>
+cmd-setoutfit-help = Usage: setoutfit <entityUid> | setoutfit <entityUid> <outfitId>
 cmd-setoutfit-is-not-player-error = 此指令必須同時提供兩個引數，才能在伺服器主控台執行。
 cmd-setoutfit-invalid-outfit-id-error = 服裝編號無效。
 cmd-stealthmin-desc = 切換他人是否能在 adminwho 上看到您的狀態。
 cmd-stealthmin-help = 用法：stealthmin\n使用 stealthmin 來切換您是否會出現在 adminwho 指令的輸出結果中。
 addtag-command-description = Adds a tag to a given entity
-addtag-command-help = 用法：addtag<entity uid> <tag>
+addtag-command-help = Usage: addtag <entity uid> <tag>
 addtag-command-success = 已將 { $tag } 新增至 { $target }。
 addtag-command-fail = 無法將 { $tag } 新增至 { $target }。
 removetag-command-description = 從指定的實體中移除一個標籤
-removetag-command-help = 用法：removetag<entity uid> <tag>
+removetag-command-help = Usage: removetag <entity uid> <tag>
 removetag-command-success = 已從 { $target } 中移除 { $tag }。
 removetag-command-fail = 無法從 { $target } 中移除 { $tag }。
 tag-command-arg-tag = Tag
@@ -1176,7 +1176,7 @@ cmd-setlooc-looc-disabled = LOOC 聊天功能已停用。
 cmd-setooc-ooc-enabled = 已啟用 OOC 聊天功能。
 cmd-setooc-ooc-disabled = OOC 聊天功能已停用。
 cmd-variantize-desc = Randomizes all tile variants on a given grid.
-cmd-variantize-help = 變體化<grid id>
+cmd-variantize-help = variantize <grid id>
 cmd-variantize-hint-grid = 網格
 admin-manager-self-de-admin-message = { $exAdminName } 已自行解除管理員身分。
 admin-manager-self-re-admin-message = { $newAdminName } 重新任命了自己。
@@ -1422,7 +1422,8 @@ admin-notes-hide = 隱藏
 admin-notes-delete-confirm = 確認刪除
 admin-notes-edited = 最後由 { $author } 於 { $date } 編輯
 admin-notes-unbanned = 由 { $admin } 於 { $date } 解除封禁
-admin-notes-message-desc = [color=white]You have received { $count ->
+admin-notes-message-desc =
+    { "[" }color=white]You have received { $count ->
         [1] an administrative message
        *[other] administrative messages
     } since the last time you played on this server.[/color]
@@ -1474,13 +1475,13 @@ admin-notes-verb-text = 開啟管理員備註
 # Watchlist and message login
 admin-notes-watchlist = { $player } 的觀察名單：{ $message }
 admin-notes-new-message = 您已收到來自 { $admin } 的管理員訊息：{ $message }
-admin-notes-fallback-admin-name = [系統]
+admin-notes-fallback-admin-name = { "[" }系統]
 # Admin remarks
 admin-remarks-command-description = 開啟管理員備註頁面
 admin-remarks-command-error = 管理員留言功能已停用
 admin-remarks-title = 管理員備註
 # Misc
-system-user = [系統]
+system-user = { "[" }系統]
 admin-explosion-eui-title = 觸發爆炸
 admin-explosion-eui-label-type = 爆炸類型
 admin-explosion-eui-label-mapid = 地圖編號
@@ -1599,7 +1600,7 @@ admin-quick-info-loading = Loading info for entity { ESCAPE($entity) }...
 admin-quick-info-entity = 實體：[color=white]{ ESCAPE($name) }[/color] ([color=cyan]{ ESCAPE($prototype) }[/color], [color=lime]{ ESCAPE($entity) }[/color])
 admin-quick-info-entity-missing = 實體 { ESCAPE($entity) } 已不存在
 admin-quick-info-no-prototype = （無原型）
-admin-quick-info-inactive = [color=yellow]不再由玩家操控。[/color] 最後一位玩家：
+admin-quick-info-inactive = { "[" }color=yellow]不再由玩家操控。[/color] 最後一位玩家：
 admin-quick-info-username = 使用者名稱：[color=white]{ ESCAPE($username) }[/color]（遊玩時間：[color=white]{ ESCAPE($playtime) }[/color]）
 admin-quick-info-character = 字元：[color=white]{ ESCAPE($character) }[/color]
 admin-quick-info-character-identity = 字元：[color=white]{ ESCAPE($character) }[/color] （身分：[color=white]{ ESCAPE($identity) }[/color]）
@@ -1677,7 +1678,7 @@ admin-ui-baby-jail-show-reason = 顯示理由
 admin-ui-baby-jail-show-reason-tooltip = 向使用者說明為何被「嬰兒監獄」阻擋連線。
 admin-ui-baby-jail-max-account-age = 帳戶最長使用年限
 admin-ui-baby-jail-max-overall-minutes = 最大總播放時間
-admin-ui-baby-jail-is-enabled = [font size=20][bold]「嬰兒監獄」功能目前已啟用。[/bold][/font]
+admin-ui-baby-jail-is-enabled = { "[" }font size=20][bold]「嬰兒監獄」功能目前已啟用。[/bold][/font]
 admin-ui-baby-jail-enabled-admin-alert = 「嬰兒監獄」功能已啟用。
 admin-ui-baby-jail-disabled-admin-alert = 「嬰兒監獄」功能已停用。
 object-tab-entity-id = Entity ID
@@ -2266,11 +2267,11 @@ afk-confirm-window-prompt = 您已被標記為「離線」。
 afk-confirm-window-seconds = 剩餘時間：{ $seconds }秒
 afk-confirm-window-confirm = 我在這裡
 cmd-setalertlevel-desc = 設定玩家所站立的格子之當前站點警報等級。
-cmd-setalertlevel-help = 用法：setalertlevel<level> [locked]
+cmd-setalertlevel-help = Usage: setalertlevel <level> [locked]
 cmd-setalertlevel-invalid-grid = 您必須位於即將變更的電站代碼所屬的電網範圍內。
 cmd-setalertlevel-invalid-level = 該網格中不存在指定的警報等級。
 cmd-setalertlevel-hint-1 = <level>
-cmd-setalertlevel-hint-2 = [已鎖定]
+cmd-setalertlevel-hint-2 = { "[" }已鎖定]
 alert-level-announcement = 注意！太空站警戒等級現已提升至 { $name }！{ $announcement }
 alert-level-unknown = 未知。
 alert-level-unknown-instructions = 未知。
@@ -2298,42 +2299,42 @@ alert-level-delta-instructions = 建議船員聆聽各部門主管的指示，�
 alert-level-epsilon = Epsilon
 alert-level-epsilon-announcement = 中央指揮部已下令將該站的安全等級提升至「伊普西隆」級。所有合約均視為終止。
 alert-level-epsilon-instructions = 所有合約均視為已終止。
-alerts-low-oxygen-name = [color=red]低氧[/color]
+alerts-low-oxygen-name = { "[" }color=red]低氧[/color]
 alerts-low-oxygen-desc = 您所呼吸的空氣中[color=red]氧氣不足[/color]。請穿上[color=green]內部裝備[/color]。
-alerts-low-nitrogen-name = [color=red]低氮[/color]
+alerts-low-nitrogen-name = { "[" }color=red]低氮[/color]
 alerts-low-nitrogen-desc = 你所呼吸的空氣中 [color=red]缺乏足夠的氮氣[/color]。請穿上 [color=green]內裝[/color]。
-alerts-high-toxin-name = [color=red]毒素濃度過高[/color]
+alerts-high-toxin-name = { "[" }color=red]毒素濃度過高[/color]
 alerts-high-toxin-desc = 你呼吸的空氣中含有 [color=red]過多毒素[/color]。請穿上 [color=green]防護裝備[/color]，或盡快離開。
-alerts-low-pressure-name = [color=red]低氣壓[/color]
+alerts-low-pressure-name = { "[" }color=red]低氣壓[/color]
 alerts-low-pressure-desc = 你周圍的空氣 [color=red]稀薄到危險的程度[/color]。穿上 [color=green]太空服[/color] 就能保護你。
-alerts-high-pressure-name = [color=red]高壓[/color]
+alerts-high-pressure-name = { "[" }color=red]高壓[/color]
 alerts-high-pressure-desc = 你周圍的空氣[color=red]濃得危險[/color]。一件[color=green]加壓服[/color]就足以保護你。
-alerts-on-fire-name = [color=red]火熱[/color]
+alerts-on-fire-name = { "[" }color=red]火熱[/color]
 alerts-on-fire-desc = 你[color=red]著火了[/color]。點擊警示訊息，立即停下、趴下並翻滾以撲滅火焰，或移往無氣流的區域。
-alerts-too-cold-name = [color=cyan]太冷了[/color]
+alerts-too-cold-name = { "[" }color=cyan]太冷了[/color]
 alerts-too-cold-desc = 你冷得[color=cyan]發抖了！[/color] 趕快找個溫暖的地方，並脫下太空服這類隔熱衣物。
-alerts-too-hot-name = [color=red]太熱了[/color]
-alerts-too-hot-desc = [color=red]太熱了！[/color] 趕快到涼爽的地方，脫下太空服這類隔熱衣物，或者至少遠離火焰。
+alerts-too-hot-name = { "[" }color=red]太熱了[/color]
+alerts-too-hot-desc = { "[" }color=red]太熱了！[/color] 趕快到涼爽的地方，脫下太空服這類隔熱衣物，或者至少遠離火焰。
 alerts-weightless-name = 無重力
 alerts-weightless-desc =
     重力已不再對你產生影響，你正漫無目的地漂浮著。請找個堅固的東西抓緊，或者朝與你相反的方向拋擲或射擊某物。
     磁力靴或噴射背包能幫助你更精準地控制移動方向。
 alerts-walking-name = 散步
 alerts-walking-desc = 你正在走路，步伐緩慢。
-alerts-knockdown-name = [color=yellow]被撞倒[/color]
+alerts-knockdown-name = { "[" }color=yellow]被撞倒[/color]
 alerts-knockdown-desc = 你被 [color=yellow]撞倒[/color] 了！有東西滑動或將你推倒，妨礙了你的行動。
-alerts-handcuffed-name = [color=yellow]被銬住[/color]
+alerts-handcuffed-name = { "[" }color=yellow]被銬住[/color]
 alerts-handcuffed-desc = 你被[color=yellow]銬上手銬[/color]，無法使用雙手。如果有人拖拽你，你將無法反抗。
-alerts-ensnared-name = [color=yellow]深陷其中[/color]
+alerts-ensnared-name = { "[" }color=yellow]深陷其中[/color]
 alerts-ensnared-desc = 你已被[color=yellow]困住[/color]，這正影響你的行動能力。
-alerts-buckled-name = [color=yellow]彎曲[/color]
+alerts-buckled-name = { "[" }color=yellow]彎曲[/color]
 alerts-buckled-desc = 您已被[color=yellow]繫緊[/color]在某處。除非您被[color=yellow]銬住[/color]，否則請點擊警示訊息以解開繫帶。
-alerts-crit-name = [color=red]危急狀況[/color]
+alerts-crit-name = { "[" }color=red]危急狀況[/color]
 alerts-crit-desc = 你受了重傷，目前已失去意識。
 alerts-dead-name = 已死
 alerts-dead-desc = 你已經死了，請注意你仍然可以被復活！
 alerts-health-name = 健康
-alerts-health-desc = [color=green]綠色[/color] 好。[color=red]紅色[/color] 壞。
+alerts-health-desc = { "[" }color=green]綠色[/color] 好。[color=red]紅色[/color] 壞。
 alerts-battery-name = 電池
 alerts-battery-desc = 如果你的能量耗盡，你就無法使用你的能力。
 alerts-no-battery-name = 無電池
@@ -2342,15 +2343,15 @@ alerts-internals-name = 開關內部結構
 alerts-internals-desc = 開啟或關閉氣罐內部組件。
 alerts-piloting-name = 駕駛穿梭機
 alerts-piloting-desc = 您正在駕駛一艘穿梭機。請點擊警示訊息以停止。
-alerts-hunger-name = [color=yellow]有點餓[/color]
+alerts-hunger-name = { "[" }color=yellow]有點餓[/color]
 alerts-hunger-desc = 現在來點東西吃應該不錯。
 alerts-stamina-name = 耐力
 alerts-stamina-desc = 若數值過低，會讓你陷入暈眩狀態。
-alerts-starving-name = [color=red]飢腸轆轆[/color]
+alerts-starving-name = { "[" }color=red]飢腸轆轆[/color]
 alerts-starving-desc = 你嚴重營養不良。飢餓的疼痛讓走動變得十分吃力。
-alerts-thirsty-name = [color=yellow]口渴[/color]
+alerts-thirsty-name = { "[" }color=yellow]口渴[/color]
 alerts-thirsty-desc = 現在來點喝的應該不錯。
-alerts-parched-name = [color=red]乾渴[/color]
+alerts-parched-name = { "[" }color=red]乾渴[/color]
 alerts-parched-desc = 你口渴得厲害。這種口渴感讓行動變得十分吃力。
 alerts-vow-broken-name = 誓言被背棄
 alerts-vow-broken-desc = 你違背了對全體米梅斯所立的誓言。雖然你還能說話和寫字，但你的能力已消失，至少整整 5 分鐘！！！點擊此處嘗試重新宣誓。
@@ -2358,9 +2359,9 @@ alerts-pulled-name = 已撤下
 alerts-pulled-desc = 你正被拉扯。移動身體以掙脫。
 alerts-pulling-name = 拖動
 alerts-pulling-desc = 你在做什麼？點擊警示訊息以停止。
-alerts-bleed-name = [color=red]滲色[/color]
+alerts-bleed-name = { "[" }color=red]滲色[/color]
 alerts-bleed-desc = 你正在[color=red]流血[/color]。
-alerts-pacified-name = [color=green]平息[/color]
+alerts-pacified-name = { "[" }color=green]平息[/color]
 alerts-pacified-desc = 你已平靜下來；你將無法傷害任何生物。
 alerts-suit-power-name = 艙外服電量
 alerts-suit-power-desc = 你的太空忍者戰衣擁有多少威力？
@@ -2378,13 +2379,13 @@ alerts-prying-name = 撬
 alerts-prying-desc = 你可以透過替代互動方式，天生就能撬開門。
 alerts-changeling-chemicals-name = 化學品
 alerts-changeling-chemicals-desc = 儲存在我們腺體內的化學物質。我們仰賴它們來發揮許多身體機能。這些物質會隨著時間逐漸再生。
-alerts-adrenaline-name = [color=red]腎上腺素[/color]
+alerts-adrenaline-name = { "[" }color=red]腎上腺素[/color]
 alerts-adrenaline-desc = 你體內充滿了腎上腺素：疼痛無法阻擋你的步伐。
-alerts-drunk-name = [color=yellow]醉了[/color]
+alerts-drunk-name = { "[" }color=yellow]醉了[/color]
 alerts-drunk-desc = 娛樂性毒品讓你的處境更加艱難。
 alerts-muted-name = 靜音
 alerts-muted-desc = 你已經喪失了說話的能力。
-alerts-stunned-name = [color=yellow]驚呆了[/color]
+alerts-stunned-name = { "[" }color=yellow]驚呆了[/color]
 alerts-stunned-desc = 你感到[color=yellow]目瞪口呆[/color]！有某種因素正影響你移動或與物體互動的能力。
 alerts-vow-silence-name = 沉默誓言
 alerts-vow-silence-desc = 作為加入「Mystiko Tagma Mimon」的入會儀式之一環，您已發下誓言，禁止進行任何口頭或書面溝通。點擊此處以解除您的誓言。
@@ -2507,12 +2508,12 @@ anomaly-command-supercritical = 使目標異常進入超臨界狀態
 # Flavor text on the footer
 anomaly-generator-flavor-left = 異常現象可能會在操作員體內生成。
 anomaly-generator-flavor-right = v1.1
-anomaly-behavior-unknown = [color=red]錯誤。無法讀取。[/color]
+anomaly-behavior-unknown = { "[" }color=red]錯誤。無法讀取。[/color]
 anomaly-behavior-title = 行為偏差分析：
-anomaly-behavior-point = [color=gold]「異常」產生 { $mod }% 的分數[/color]
-anomaly-behavior-safe = [color=forestgreen]該異常現象極為穩定。脈動現象極為罕見。[/color]
-anomaly-behavior-slow = [color=forestgreen]脈動的頻率要低得多。[/color]
-anomaly-behavior-light = [color=forestgreen]脈動功率顯著降低。[/color]
+anomaly-behavior-point = { "[" }color=gold]「異常」產生 { $mod }% 的分數[/color]
+anomaly-behavior-safe = { "[" }color=forestgreen]該異常現象極為穩定。脈動現象極為罕見。[/color]
+anomaly-behavior-slow = { "[" }color=forestgreen]脈動的頻率要低得多。[/color]
+anomaly-behavior-light = { "[" }color=forestgreen]脈動功率顯著降低。[/color]
 anomaly-behavior-balanced = 未偵測到任何行為異常。
 anomaly-behavior-delayed-force = 脈動的頻率大幅降低，但其能量卻有所增加。
 anomaly-behavior-rapid = 脈動的頻率雖然高得多，但強度卻有所減弱。
@@ -2521,11 +2522,11 @@ anomaly-behavior-nonsensivity = 偵測到對微粒的微弱反應。
 anomaly-behavior-sensivity = 檢測到對顆粒物的增強反應。
 anomaly-behavior-invisibility = 已偵測到光波扭曲。
 anomaly-behavior-secret = 偵測到干擾。部分資料無法讀取
-anomaly-behavior-inconstancy = [color=crimson]已偵測到無常現象。粒子類型可能會隨時間而改變。[/color]
-anomaly-behavior-fast = [color=crimson]脈動頻率大幅增加。[/color]
-anomaly-behavior-strenght = [color=crimson]脈動功率顯著提升。[/color]
-anomaly-behavior-moving = [color=crimson]偵測到座標不穩定。[color=crimson][/color]
-anomaly-secret-admin = [color=red](ERROR)[/color]
+anomaly-behavior-inconstancy = { "[" }color=crimson]已偵測到無常現象。粒子類型可能會隨時間而改變。[/color]
+anomaly-behavior-fast = { "[" }color=crimson]脈動頻率大幅增加。[/color]
+anomaly-behavior-strenght = { "[" }color=crimson]脈動功率顯著提升。[/color]
+anomaly-behavior-moving = { "[" }color=crimson]偵測到座標不穩定。[color=crimson][/color]
+anomaly-secret-admin = { "[" }color=red](ERROR)[/color]
 inner-anomaly-start-message-pyro = 你能感受到體內那股瘋狂的火焰。你已成為一股火山碎屑流異象的宿主。
 inner-anomaly-start-message-shock = 指尖顫動著閃電！你已成為一處電磁異常的宿主。
 inner-anomaly-start-message-shadow = 一股深不可測的黑暗正從你體內滲出……你已成為一樁陰影異常的宿主。
@@ -2543,8 +2544,8 @@ inner-anomaly-severity-info-75 = 你感覺到那股異常正逐漸佔據你身�
 inner-anomaly-severity-info-90 = 你感覺到那股異常幾乎已完全掌控了你的身體。
 inner-anomaly-severity-info-100 = 你體內的異變正失控地擴散，帶來劇烈的痛苦，並將你撕裂！
 apc-component-insufficient-access = 存取權限不足！
-apc-component-on-examine-panel-open = [color=lightgray]APC 電子控制面板[/color] 處於 [color=red]開啟[/color] 狀態。
-apc-component-on-examine-panel-closed = [color=lightgray]APC 電子控制面板[/color] 已 [color=darkgreen]關閉[/color]。
+apc-component-on-examine-panel-open = { "[" }color=lightgray]APC 電子控制面板[/color] 處於 [color=red]開啟[/color] 狀態。
+apc-component-on-examine-panel-closed = { "[" }color=lightgray]APC 電子控制面板[/color] 已 [color=darkgreen]關閉[/color]。
 apc-component-on-toggle-cancel = 這根本沒用！
 # Current game score
 blockgame-menu-label-points = 要點：{ $points }
@@ -2621,7 +2622,7 @@ air-alarm-ui-window-address-label = 地址
 air-alarm-ui-window-device-count-label = 裝置總數
 air-alarm-ui-window-resync-devices-label = 重新同步
 air-alarm-ui-window-mode-label = 模式
-air-alarm-ui-window-mode-select-locked-label = [bold][color=red] 模式選擇器故障！ [/color][/bold]
+air-alarm-ui-window-mode-select-locked-label = { "[" }bold][color=red] 模式選擇器故障！ [/color][/bold]
 air-alarm-ui-window-auto-mode-label = 自動模式
 -air-alarm-state-name =
     { $state ->
@@ -2679,7 +2680,7 @@ air-alarm-ui-thresholds-lower-warning-bound = 以下為警告
 air-alarm-ui-thresholds-copy = 將閾值複製到所有裝置
 air-alarm-ui-thresholds-copy-tooltip = 將此裝置的感測器閾值複製到「空氣警報」分頁中的所有裝置。
 atmos-alerts-window-title = 大氣警報電腦
-atmos-alerts-window-station-name = [color=white][font size=14]{ $stationName }[/font][/color]
+atmos-alerts-window-station-name = { "[" }color=white][font size=14]{ $stationName }[/font][/color]
 atmos-alerts-window-unknown-location = 未知地點
 atmos-alerts-window-tab-no-alerts = 警示
 atmos-alerts-window-tab-alerts = 警示 ({ $value })
@@ -2704,7 +2705,7 @@ atmos-alerts-window-normal-state = 正常
 atmos-alerts-window-warning-state = 警告
 atmos-alerts-window-danger-state = 危險！
 atmos-alerts-window-invalid-state = 已停用
-atmos-alerts-window-no-active-alerts = [font size=16][color=white]無有效警報 -[/color] [color={ $color }]情況正常[/color][/font]
+atmos-alerts-window-no-active-alerts = { "[" }font size=16][color=white]無有效警報 -[/color] [color={ $color }]情況正常[/color][/font]
 atmos-alerts-window-no-data-available = 無資料可用
 atmos-alerts-window-alerts-being-silenced = 靜音提醒...
 atmos-alerts-window-toggle-overlays = 警報顯示
@@ -2720,18 +2721,18 @@ atmos-pipe-layers-component-tool-missing = 需要 { INDEFINITE($toolName) } { $t
 atmos-pipe-layers-component-pipes-are-covered = 管道已被覆蓋
 atmos-pipe-layers-component-cannot-adjust-pipes = 在調整管子之前，您必須先將它們露出。
 cmd-set-map-atmos-desc = 設定地圖的氛圍
-cmd-set-map-atmos-help = setmapatmos<mapid> <space> [<temperature> [moles...]]
+cmd-set-map-atmos-help = setmapatmos <mapid> <space> [<temperature> [moles...]]
 cmd-set-map-atmos-removed = 已從地圖中移除「Atmosphere」 { $map }
 cmd-set-map-atmos-updated = 地圖 { $map } 的氛圍設定
 cmd-set-map-atmos-hint-map = <mapid>
 cmd-set-map-atmos-hint-space = <space>
-cmd-set-map-atmos-hint-temp = <temperature> (浮點數)
-cmd-set-map-atmos-hint-gas = <{ $gas } 摩爾> (float)
-window-taking-damage = [color=orange]它在壓力下快撐不住了！[/color]
+cmd-set-map-atmos-hint-temp = <temperature> (float)
+cmd-set-map-atmos-hint-gas = <{ $gas } moles> (float)
+window-taking-damage = { "[" }color=orange]它在壓力下快撐不住了！[/color]
 firelock-component-is-holding-pressure-message = 一股氣流撲面而來……也許你該重新考慮一下。
 firelock-component-is-holding-fire-message = 一股暖風撲面而來……也許你該重新考慮一下。
-firelock-component-examine-pressure-warning = [color=cyan]極限壓力[/color]差值警告已啟動。
-firelock-component-examine-temperature-warning = [color=red]極端氣溫[/color]警報目前仍生效中。
+firelock-component-examine-pressure-warning = { "[" }color=cyan]極限壓力[/color]差值警告已啟動。
+firelock-component-examine-temperature-warning = { "[" }color=red]極端氣溫[/color]警報目前仍生效中。
 flammable-component-resist-message = 你得停下、躺平、翻滾！
 gas-analyzer-object-out-of-range = 該物體已超出偵測範圍。
 gas-analyzer-shutoff = 氣體分析儀停止運作。
@@ -2810,8 +2811,8 @@ gas-tank-window-internals-toggle-button = 開關
 gas-tank-window-output-pressure-label = 輸出壓力
 gas-tank-window-tank-pressure-text = 壓力：{ $tankPressure } kPA
 gas-tank-window-internal-text = 內部結構：{ $status }
-gas-tank-window-internal-connected = [color=green]已連線[/color]
-gas-tank-window-internal-disconnected = [color=red]已斷線[/color]
+gas-tank-window-internal-connected = { "[" }color=green]已連線[/color]
+gas-tank-window-internal-disconnected = { "[" }color=red]已斷線[/color]
 comp-gas-tank-open-valve = 開啟閥門
 comp-gas-tank-close-valve = 關閉閥門
 # Examine Text
@@ -2921,19 +2922,19 @@ blocking-reduction-value = - 它可阻擋最高 [color=lightblue]{ $value }[/col
 comp-shield-damaged-1 = 看起來完好無損。
 comp-shield-damaged-2 = 上面有幾道刮痕。
 comp-shield-damaged-3 = 上面有幾個小孔和凹痕。
-comp-shield-damaged-4 = [color=yellow]上面有好幾個洞，還有幾處彎曲之處。[/color]
-comp-shield-damaged-5 = [color=orange]上面有深裂痕、幾個孔洞，而且部分地方已經斷裂脫落了。[/color]
-comp-shield-damaged-6 = [color=red]它已經遭到極其嚴重的破壞，幾乎要散架了。[/color]
+comp-shield-damaged-4 = { "[" }color=yellow]上面有好幾個洞，還有幾處彎曲之處。[/color]
+comp-shield-damaged-5 = { "[" }color=orange]上面有深裂痕、幾個孔洞，而且部分地方已經斷裂脫落了。[/color]
+comp-shield-damaged-6 = { "[" }color=red]它已經遭到極其嚴重的破壞，幾乎要散架了。[/color]
 # Shown when examining the e-shield. Each entry represents the e-shield's health condition
 comp-eshield-damaged-1 = 看起來完好無損。
-comp-eshield-damaged-2 = [color=yellow]電池指示燈是黃色的。[/color]
-comp-eshield-damaged-3 = [color=orange]電池指示燈呈橘色，硬光正在閃爍。[/color]
-comp-eshield-damaged-4 = [color=red]電池指示燈呈紅色，硬光燈幾乎無法維持亮起狀態。[/color]
-bloodstream-component-looks-pale = [color=bisque]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BASIC($target, "look", "looks") } pale.[/color]
-bloodstream-component-slight-bleeding = [color=#ffa8a8]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 鮮血滴落。[/color]
-bloodstream-component-bleeding = [color=#e65353]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 流血。[/color]
-bloodstream-component-strong-bleeding = [color=#d10a0a]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 血流如注。[/color]
-bloodstream-component-massive-bleeding = [color=#d4003c]{ POSS-ADJ($target) } 的身體正汩汩流血！[/color]
+comp-eshield-damaged-2 = { "[" }color=yellow]電池指示燈是黃色的。[/color]
+comp-eshield-damaged-3 = { "[" }color=orange]電池指示燈呈橘色，硬光正在閃爍。[/color]
+comp-eshield-damaged-4 = { "[" }color=red]電池指示燈呈紅色，硬光燈幾乎無法維持亮起狀態。[/color]
+bloodstream-component-looks-pale = { "[" }color=bisque]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BASIC($target, "look", "looks") } pale.[/color]
+bloodstream-component-slight-bleeding = { "[" }color=#ffa8a8]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 鮮血滴落。[/color]
+bloodstream-component-bleeding = { "[" }color=#e65353]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 流血。[/color]
+bloodstream-component-strong-bleeding = { "[" }color=#d10a0a]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 血流如注。[/color]
+bloodstream-component-massive-bleeding = { "[" }color=#d4003c]{ POSS-ADJ($target) } 的身體正汩汩流血！[/color]
 bloodstream-component-wounds-cauterized = 你感覺到傷口痛得彷彿近在咫尺！
 body-scanner-display-title = 人體掃描儀
 body-scanner-display-health-label = 健康：
@@ -2998,15 +2999,15 @@ borg-type-service-desc = 協助處理各類船員服務，範圍涵蓋從提供�
 borg-type-service-transponder = 服務型賽博格
 plant-component-plant-success-popup = 你種下 { $seedName } { $seedNoun }。
 plant-component-already-seeded-popup = 這個 { $name } 裡面已經有種子了！
-plant-component-something-already-growing-message = [color=green]{ $seedName }[/color] 正在這裡生長。
+plant-component-something-already-growing-message = { "[" }color=green]{ $seedName }[/color] 正在這裡生長。
 plant-component-something-already-growing-low-health-message = 這株植物看起來像 [color=red]{ $healthState }[/color]。
-plant-component-plant-old-adjective = [color=red]陳舊且凋萎[/color]
-plant-component-plant-unhealthy-adjective = [color=red]不健康[/color]
+plant-component-plant-old-adjective = { "[" }color=red]陳舊且凋萎[/color]
+plant-component-plant-unhealthy-adjective = { "[" }color=red]不健康[/color]
 plant-component-dead-plant-matter-message = 裡面滿是 [color=red]枯死的植物殘骸[/color]。
-plant-component-light-improper-warning = [color=yellow]光照水平異常警示[/color] 正在閃爍。
-plant-component-heat-improper-warning = [color=orange]溫度異常警報[/color] 正在閃爍。
-plant-component-pressure-improper-warning = [color=lightblue]環境壓力異常警報[/color] 正在閃爍。
-plant-component-gas-missing-warning = [color=cyan]氣體環境異常警報[/color] 正在閃爍。
+plant-component-light-improper-warning = { "[" }color=yellow]光照水平異常警示[/color] 正在閃爍。
+plant-component-heat-improper-warning = { "[" }color=orange]溫度異常警報[/color] 正在閃爍。
+plant-component-pressure-improper-warning = { "[" }color=lightblue]環境壓力異常警報[/color] 正在閃爍。
+plant-component-gas-missing-warning = { "[" }color=cyan]氣體環境異常警報[/color] 正在閃爍。
 plant-component-ligneous-cant-harvest-message = 這種植物太堅韌了，無法徒手採收。
 plant-hoe-component-already-seeded-popup = 請從 { $name } 中移除雜草。
 plant-hoe-component-remove-weeds-others-popup = { $otherName } 開始拔除雜草。
@@ -3034,9 +3035,9 @@ tray-component-nothing-planted-message = 裡面什麼都沒種……
 tray-component-water-level-message = 水：     [color=cyan]{ $waterLevel }[/color]
 tray-component-nutrient-level-message = 營養素：[color=orange]{ $nutritionLevel }[/color]
 tray-component-weed-high-level-warning = 裡面全是 [color=green]雜草[/color]！
-tray-component-water-low-warning = [color=cyan]水[/color]位 [color=red]偏低[/color]！
-tray-component-nutrient-low-warning = [color=orange]營養素[/color] 水平 [color=red]偏低[/color]！
-tray-component-toxin-high-level-warning = [color=red]毒性等級警報[/color] 正以紅色閃爍。
+tray-component-water-low-warning = { "[" }color=cyan]水[/color]位 [color=red]偏低[/color]！
+tray-component-nutrient-low-warning = { "[" }color=orange]營養素[/color] 水平 [color=red]偏低[/color]！
+tray-component-toxin-high-level-warning = { "[" }color=red]毒性等級警報[/color] 正以紅色閃爍。
 tray-component-pest-high-level-warning = 裡面滿是 [color=gray]小蟲子[/color]！
 mutation-plant-kudzu = 它的生長速度異常快，而且枝幹很細。
 mutation-plant-ligneous = 它質地堅硬，採收時需要使用鋒利的工具。
@@ -3054,8 +3055,8 @@ swab-used = 這根棉籤曾被用來採集某種物質。
 swab-unused = 這支拭子很乾淨，可以立即使用。
 cmd-bql_select-desc = Show results of a BQL query in a client-side window
 cmd-bql_select-help =
-    用法：bql_select<bql query>
-    開啟的視窗可讓您傳送至這些實體，或檢視其變數。
+    Usage: bql_select <bql query>
+    The opened window allows you to teleport to or view variables the resulting entities.
 cmd-bql_select-err-server-shell = 無法從伺服器命令列介面執行
 cmd-bql_select-err-rest = 警告：BQL 查詢後有未使用的部分：「{ $rest }」
 ui-bql-results-title = BQL 結果
@@ -3257,23 +3258,23 @@ bounty-console-manifest-entry =
        *[other] { $item } x{ $amount }
     }
 bounty-console-manifest-reward = 獎勵：${ $reward }
-bounty-console-description-label = [color=gray]{ $description }[/color]
+bounty-console-description-label = { "[" }color=gray]{ $description }[/color]
 bounty-console-id-label = ID#{ $id }
 bounty-console-flavor-left = 這些懸賞來自當地不擇手段的經銷商。
 bounty-console-flavor-right = v1.4
-bounty-manifest-header = [font size=14][bold]官方貨運懸賞貨單[/bold] (編號：{ $id })[/font]
+bounty-manifest-header = { "[" }font size=14][bold]官方貨運懸賞貨單[/bold] (編號：{ $id })[/font]
 bounty-manifest-list-start = 貨物清單：
 bounty-console-tab-available-label = 可選
 bounty-console-tab-history-label = 紀錄
 bounty-console-history-empty-label = 未找到懸賞紀錄
-bounty-console-history-notice-completed-label = [color=limegreen]已完成[/color]
+bounty-console-history-notice-completed-label = { "[" }color=limegreen]已完成[/color]
 bounty-console-history-notice-skipped-label = 已被 { $id } [color=red]跳過[/color]
 cargo-console-menu-title = 貨物請求控制台
 cargo-console-menu-flavor-left = 比平時多訂一些披薩盒吧！
 cargo-console-menu-flavor-right = v2.1
 cargo-console-menu-account-name-label = 帳戶：{ " " }
 cargo-console-menu-account-name-none-text = 無
-cargo-console-menu-account-name-format = [bold][color={ $color }]{ $name }[/color][/bold] \[{ $code }\]
+cargo-console-menu-account-name-format = { "[" }bold][color={ $color }]{ $name }[/color][/bold] \[{ $code }\]
 cargo-console-menu-shuttle-name-label = 穿梭機名稱：{ " " }
 cargo-console-menu-shuttle-name-none-text = 無
 cargo-console-menu-points-label = 餘額：{ " " }
@@ -3298,10 +3299,10 @@ cargo-console-menu-order-row-alerts-reason-absent = 原因未說明
 cargo-console-menu-order-row-alerts-requester-unknown = 未知
 cargo-console-menu-tab-title-orders = 訂單
 cargo-console-menu-tab-title-funds = 轉移 Transfers
-cargo-console-menu-account-action-transfer-limit = [bold]轉帳限額：[/bold] ${ $limit }
-cargo-console-menu-account-action-transfer-limit-unlimited-notifier = [color=gold](Unlimited)[/color]
-cargo-console-menu-account-action-select = [bold]帳戶操作：[/bold]
-cargo-console-menu-account-action-amount = [bold]金額：[/bold] $
+cargo-console-menu-account-action-transfer-limit = { "[" }bold]轉帳限額：[/bold] ${ $limit }
+cargo-console-menu-account-action-transfer-limit-unlimited-notifier = { "[" }color=gold](Unlimited)[/color]
+cargo-console-menu-account-action-select = { "[" }bold]帳戶操作：[/bold]
+cargo-console-menu-account-action-amount = { "[" }bold]金額：[/bold] $
 cargo-console-menu-account-action-button = 轉帳
 cargo-console-menu-toggle-account-lock-button = 顯示轉帳限額
 cargo-console-menu-account-action-option-withdraw = 提領現金
@@ -3315,17 +3316,18 @@ cargo-console-snip-snip = 訂單已根據產能進行調整
 cargo-console-insufficient-funds = 餘額不足（需 { $cost }）
 cargo-console-unfulfilled = 無庫存，無法處理訂單
 cargo-console-trade-station = 已寄送至 { $destination }
-cargo-console-unlock-approved-order-broadcast = [bold]{ $productName } x{ $orderAmount }[/bold]，其費用為 [bold]{ $cost }[/bold]，並已獲 [bold]{ $approver }[/bold] 批准
-cargo-console-fund-withdraw-broadcast = [bold]{ $name } 從 { $name1 } 提領了 { $amount } 斯佩索 \[{ $code1 }\]
-cargo-console-fund-transfer-broadcast = [bold]{ $name } 將 { $amount } 筆款項從 { $name1 } \[{ $code1 }\] 轉帳至 { $name2 } \[{ $code2 }\][/bold]
+cargo-console-unlock-approved-order-broadcast = { "[" }bold]{ $productName } x{ $orderAmount }[/bold]，其費用為 [bold]{ $cost }[/bold]，並已獲 [bold]{ $approver }[/bold] 批准
+cargo-console-fund-withdraw-broadcast = { "[" }bold]{ $name } 從 { $name1 } 提領了 { $amount } 斯佩索 \[{ $code1 }\]
+cargo-console-fund-transfer-broadcast = { "[" }bold]{ $name } 將 { $amount } 筆款項從 { $name1 } \[{ $code1 }\] 轉帳至 { $name2 } \[{ $code2 }\][/bold]
 cargo-console-fund-transfer-user-unknown = 未知
 cargo-console-paper-reason-default = 無
 cargo-console-paper-approver-default = 未知
 cargo-console-paper-print-name = 訂單編號 #{ $orderNumber }
-cargo-console-paper-print-text = [head=2]訂單編號 #{ $orderNumber }[/head]
+cargo-console-paper-print-text =
+    { "[" }head=2]訂單編號 #{ $orderNumber }[/head]
     { "[bold]項目：[/bold]" } { $itemName } (x{ $orderQuantity })
     { "[bold]申請人：[/bold]" } { $requester }
-    
+
     { "[head=3]訂單資訊[/head]" }
     { "[bold]付款人[/bold]:" } { $account } \[{ $accountcode }\]
     { "[bold]核准人：[/bold]" } { $approver }
@@ -3338,27 +3340,29 @@ cargo-shuttle-console-organics = 在穿梭機上偵測到有機生命體
 cargo-no-shuttle = 未找到貨運穿梭機！
 # Funding allocation console
 cargo-funding-alloc-console-menu-title = 資金分配控制台
-cargo-funding-alloc-console-label-account = [bold]帳戶[/bold]
-cargo-funding-alloc-console-label-code = [bold] 程式碼 [/bold]
-cargo-funding-alloc-console-label-balance = [bold] 平衡 [/bold]
-cargo-funding-alloc-console-label-cut = [bold] 營收分佈（%） [/bold]
+cargo-funding-alloc-console-label-account = { "[" }bold]帳戶[/bold]
+cargo-funding-alloc-console-label-code = { "[" }bold] 程式碼 [/bold]
+cargo-funding-alloc-console-label-balance = { "[" }bold] 平衡 [/bold]
+cargo-funding-alloc-console-label-cut = { "[" }bold] 營收分佈（%） [/bold]
 cargo-funding-alloc-console-label-primary-cut = 貨運部從非鎖箱來源獲得的資金佔比（%）：
 cargo-funding-alloc-console-label-lockbox-cut = 貨運部從鎖箱銷售中獲得的分成比例（%）：
 cargo-funding-alloc-console-label-help-non-adjustible = 貨運部從非鎖箱銷售中獲得 { $percent }% 的利潤。其餘部分則按以下規定分配：
 cargo-funding-alloc-console-label-help-adjustible = 來自非鎖箱來源的剩餘資金，將依照以下規定進行分配：
 cargo-funding-alloc-console-button-save = 儲存變更
-cargo-funding-alloc-console-label-save-fail = [bold]收入分攤無效！[/bold] [color=red]({ $pos ->
+cargo-funding-alloc-console-label-save-fail =
+    { "[" }bold]收入分攤無效！[/bold] [color=red]({ $pos ->
         [1] +
        *[-1] -
     }{ $val }%)[/color]
 # Slip template
-cargo-acquisition-slip-body = [head=3]資產詳情[/head]
+cargo-acquisition-slip-body =
+    { "[" }head=3]資產詳情[/head]
     { "[bold]產品：[/bold]" } { $product }
     { "[bold]描述：[/bold]" } { $description }
     { "[bold]單價：[/bold" }] ${ $unit }
     { "[bold]數量：[/bold]" } { $amount }
     { "[bold]總價：[/bold]" } ${ $cost }
-    
+
     { "[head=3]採購明細[/head]" }
     { "[bold]訂購人：[/bold]" } { $orderer }
     { "[bold]原因：[/bold]" } { $reason }
@@ -3444,31 +3448,32 @@ nano-task-ui-description-placeholder = 獲得某件重要的東西
 nano-task-ui-requester-label = 申請人：
 nano-task-ui-requester-placeholder = 約翰·NanoTrasen
 nano-task-ui-item-title = 編輯任務
-nano-task-printed-description = [bold]說明[/bold]：{ $description }
-nano-task-printed-requester = [bold]請求者[/bold]：{ $requester }
-nano-task-printed-high-priority = [bold]優先級[/bold]: [color=red]高[/color]
-nano-task-printed-medium-priority = [bold]優先級[/bold]：中等
-nano-task-printed-low-priority = [bold]優先級[/bold]：低
+nano-task-printed-description = { "[" }bold]說明[/bold]：{ $description }
+nano-task-printed-requester = { "[" }bold]請求者[/bold]：{ $requester }
+nano-task-printed-high-priority = { "[" }bold]優先級[/bold]: [color=red]高[/color]
+nano-task-printed-medium-priority = { "[" }bold]優先級[/bold]：中等
+nano-task-printed-low-priority = { "[" }bold]優先級[/bold]：低
 # Wanted list cartridge
 wanted-list-program-name = 通緝名單
 wanted-list-label-no-records = 沒關係，牛仔
 wanted-list-search-placeholder = 依名稱與狀態搜尋
-wanted-list-age-label = [color=darkgray]年齡：[/color] [color=white]{ $age }[/color]
-wanted-list-job-label = [color=darkgray]職位：[/color] [color=white]{ $job }[/color]
-wanted-list-species-label = [color=darkgray]物種：[/color] [color=white]{ $species }[/color]
-wanted-list-gender-label = [color=darkgray]性別：[/color] [color=white]{ $gender }[/color]
-wanted-list-reason-label = [color=darkgray]理由：[/color] [color=white]{ $reason }[/color]
+wanted-list-age-label = { "[" }color=darkgray]年齡：[/color] [color=white]{ $age }[/color]
+wanted-list-job-label = { "[" }color=darkgray]職位：[/color] [color=white]{ $job }[/color]
+wanted-list-species-label = { "[" }color=darkgray]物種：[/color] [color=white]{ $species }[/color]
+wanted-list-gender-label = { "[" }color=darkgray]性別：[/color] [color=white]{ $gender }[/color]
+wanted-list-reason-label = { "[" }color=darkgray]理由：[/color] [color=white]{ $reason }[/color]
 wanted-list-unknown-reason-label = 原因不明
-wanted-list-initiator-label = [color=darkgray]發起人：[/color] [color=white]{ $initiator }[/color]
+wanted-list-initiator-label = { "[" }color=darkgray]發起人：[/color] [color=white]{ $initiator }[/color]
 wanted-list-unknown-initiator-label = 未知發起者
-wanted-list-status-label = [color=darkgray]status:[/color] { $status ->
-        [suspected] [color=yellow]suspected[/color]
-        [wanted] [color=red]wanted[/color]
-        [detained] [color=#b18644]detained[/color]
-        [paroled] [color=green]paroled[/color]
-        [discharged] [color=green]discharged[/color]
-        [hostile] [color=darkred]hostile[/color]
-        [eliminated] [color=gray]eliminated[/color]
+wanted-list-status-label =
+    { "[" }color=darkgray]status:[/color] { $status ->
+        [suspected] { "[" }color=yellow]suspected[/color]
+        [wanted] { "[" }color=red]wanted[/color]
+        [detained] { "[" }color=#b18644]detained[/color]
+        [paroled] { "[" }color=green]paroled[/color]
+        [discharged] { "[" }color=green]discharged[/color]
+        [hostile] { "[" }color=darkred]hostile[/color]
+        [eliminated] { "[" }color=gray]eliminated[/color]
        *[other] none
     }
 wanted-list-history-table-time-col = 時間
@@ -3518,7 +3523,7 @@ changeling-transform-bui-drop-identity-cannot-drop = 我們不能放棄目前的
 changeling-voice-mimic-window-title = 聲音模仿
 # flesh clothing
 changeling-flesh-clothing-removed-popop = { CAPITALIZE(THE($item)) } 化為血肉模糊的殘骸！
-changeling-flesh-clothing-examine-wearer = [color=crimson]此物品是您身體上的一處偽裝部位。若將其卸下，它將會消失！[/color]
+changeling-flesh-clothing-examine-wearer = { "[" }color=crimson]此物品是您身體上的一處偽裝部位。若將其卸下，它將會消失！[/color]
 changeling-flesh-clothing-alert-name = 肉身服裝能力
 changeling-flesh-clothing-alert-desc = 是否啟用服裝變換功能。點擊以切換。
 # biodegrade
@@ -3538,14 +3543,14 @@ changeling-fake-mindshield-disabled = 我們停止發出偽造的心靈護盾波
 changeling-not-enough-chemicals = 我們的化學品不足。
 # other
 changeling-paused-map-name = 變形者身分儲存地圖
-changeling-stasis-active-name = [color=red]Exit Stasis[/color]
+changeling-stasis-active-name = { "[" }color=red]Exit Stasis[/color]
 changeling-stasis-active-desc = 結束靜止狀態，並治癒身體上的所有傷害。
 changeling-stasis-enter = 我們進入休眠狀態，積蓄能量，準備再次崛起。
 changeling-stasis-exit = 我們從死裡復活，治癒一切傷痛。
 changeling-stasis-exit-others = { CAPITALIZE(THE($user)) } 從死裡復活，傷勢已癒。
 suicide-regen-action-popup = 此動作會使你喪命，直到你恢復生命值為止。再次使用此動作以確認。
 changelog-window-title = 更新紀錄
-changelog-author-changed = [color=#EEE]{ $author }[/color] 已變更：
+changelog-author-changed = { "[" }color=#EEE]{ $author }[/color] 已變更：
 changelog-today = 今天
 changelog-yesterday = 昨天
 changelog-new-changes = 最新變更
@@ -3766,16 +3771,18 @@ chat-manager-whisper-headset-on-message = 你不能在廣播裡低語！
 # Unicode U+201C and U+201D Double quotes.
 chat-manager-speech-double-quote-begin = “
 chat-manager-speech-double-quote-end = ”
-chat-manager-server-wrap-message = [bold]{ $message }[/bold]
+chat-manager-server-wrap-message = { "[" }bold]{ $message }[/bold]
 chat-manager-sender-announcement = 中央司令部
-chat-manager-sender-announcement-wrap-message = [font size=14][bold]{ $sender } 公告：[/font][font size=12]
+chat-manager-sender-announcement-wrap-message =
+    { "[" }font size=14][bold]{ $sender } 公告：[/font][font size=12]
     { $message }[/bold][/font]
-chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]{ chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]{ chat-manager-speech-double-quote-begin }[BubbleContent][bold]{ $message }[/bold][/BubbleContent]{ chat-manager-speech-double-quote-end }[/font]
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] 輕聲說道：{ chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]某人[/BubbleHeader] 低語道： { chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/italic][/font]
+chat-manager-entity-say-wrap-message = { "[" }BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]{ chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/font]
+chat-manager-entity-say-bold-wrap-message = { "[" }BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]{ chat-manager-speech-double-quote-begin }[BubbleContent][bold]{ $message }[/bold][/BubbleContent]{ chat-manager-speech-double-quote-end }[/font]
+chat-manager-entity-whisper-wrap-message = { "[" }font size=11][italic][BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] 輕聲說道：{ chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/italic][/font]
+chat-manager-entity-whisper-unknown-wrap-message = { "[" }font size=11][italic][BubbleHeader]某人[/BubbleHeader] 低語道： { chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/italic][/font]
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
-chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
+chat-manager-entity-me-wrap-message =
+    { "[" }italic]{ PROPER($entity) ->
        *[false] The { $entityName } { $message }[/italic]
         [true] { CAPITALIZE($entityName) } { $message }[/italic]
     }
@@ -3785,7 +3792,7 @@ chat-manager-send-ooc-patron-wrap-message = OOC：[bold][color={ $patronColor }]
 chat-manager-send-dead-chat-wrap-message = { $deadChannelName }: [bold][BubbleHeader]{ $playerName }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
 chat-manager-send-admin-dead-chat-wrap-message = { $adminChannelName }: [bold]([BubbleHeader]{ $userName }[/BubbleHeader]):[/bold] [BubbleContent]{ $message }[/BubbleContent]
 chat-manager-send-admin-chat-wrap-message = { $adminChannelName }: [bold]{ $playerName }:[/bold] { $message }
-chat-manager-send-admin-announcement-wrap-message = [bold]{ $adminChannelName }: { $message }[/bold]
+chat-manager-send-admin-announcement-wrap-message = { "[" }bold]{ $adminChannelName }: { $message }[/bold]
 chat-manager-send-hook-ooc-wrap-message = OOC：[bold](D){ $senderName }:[/bold] { $message }
 chat-manager-send-hook-admin-wrap-message = DMIN：[bold](D){ $senderName }:[/bold] { $message }
 chat-manager-dead-channel-name = 死人
@@ -3797,7 +3804,7 @@ chat-speech-verb-suffix-exclamation = !
 chat-speech-verb-suffix-exclamation-strong = !!
 chat-speech-verb-suffix-question = ？
 chat-speech-verb-suffix-stutter = -
-chat-speech-verb-suffix-mumble = ..
+chat-speech-verb-suffix-mumble = { "." }.
 chat-speech-verb-name-none = 無
 chat-speech-verb-name-default = 預設
 chat-speech-verb-default = 說道
@@ -4099,10 +4106,10 @@ shared-solution-container-component-on-examine-main-text =
        *[other] mixture of chemicals.
     }
 examinable-solution-has-recognizable-chemicals = 您可以在解中辨識出 { $recognizedString }。
-examinable-solution-recognized = [color={ $color }]{ $chemical }[/color]
+examinable-solution-recognized = { "[" }color={ $color }]{ $chemical }[/color]
 examinable-solution-on-examine-volume-puddle =
     水窪的狀態是 { $fillLevel ->
-        [exact] [color=white]{ $current }u[/color]。
+        [exact] { "[" }color=white]{ $current }u[/color]。
         [full] 巨大且溢出！
         [mostlyfull] 巨大且溢出！
         [halffull] 深且有水流。
@@ -4112,12 +4119,12 @@ examinable-solution-on-examine-volume-puddle =
     }
 -solution-vague-fill-level =
     { $fillLevel ->
-        [full] [color=white]滿[/color]
-        [mostlyfull] [color=#DFDFDF]幾乎滿[/color]
-        [halffull] [color=#C8C8C8]半滿[/color]
-        [halfempty] [color=#C8C8C8]半空[/color]
-        [mostlyempty] [color=#A4A4A4]大部分空[/color]
-       *[empty] [color=gray]空[/color]
+        [full] { "[" }color=white]滿[/color]
+        [mostlyfull] { "[" }color=#DFDFDF]幾乎滿[/color]
+        [halffull] { "[" }color=#C8C8C8]半滿[/color]
+        [halfempty] { "[" }color=#C8C8C8]半空[/color]
+        [mostlyempty] { "[" }color=#A4A4A4]大部分空[/color]
+       *[empty] { "[" }color=gray]空[/color]
     }
 # Verb name for climbing
 comp-climbable-verb-climb = Vault
@@ -4235,7 +4242,7 @@ comms-console-level-Epsilon-flavour-label = 你被解僱了
 terror-dragon = 全體船員注意，看來你們站上有人與附近太空中的某條奇怪的食人魚建立了意料之外的通訊聯繫。
 terror-revenant = 全體船員請注意，看來貴站有某人意外地與鄰近太空中的異界能量建立了通訊聯繫。
 atmos-monitoring-window-title = 大氣網路監測器
-atmos-monitoring-window-station-name = [color=white][font size=14]{ $stationName }[/font][/color]
+atmos-monitoring-window-station-name = { "[" }color=white][font size=14]{ $stationName }[/font][/color]
 atmos-monitoring-window-unknown-location = 未知地點
 atmos-monitoring-window-label-gas-opening = 網路啟用
 atmos-monitoring-window-label-gas-scrubber = 空氣淨化器
@@ -4320,7 +4327,7 @@ power-monitoring-window-label-substation = 變電站
 power-monitoring-window-label-apc = APC
 power-monitoring-window-label-misc = 雜項
 power-monitoring-window-object-array = { $name } 陣列 [{ $count }]
-power-monitoring-window-station-name = [color=white][font size=14]{ $stationName }[/font][/color]
+power-monitoring-window-station-name = { "[" }color=white][font size=14]{ $stationName }[/font][/color]
 power-monitoring-window-unknown-location = 未知地點
 power-monitoring-window-total-sources = 發電機總輸出功率
 power-monitoring-window-total-battery-usage = 總電池使用量
@@ -4332,10 +4339,10 @@ power-monitoring-window-show-cable-networks = 開關有線電視網路
 power-monitoring-window-show-hv-cable = 高電壓
 power-monitoring-window-show-mv-cable = 中壓
 power-monitoring-window-show-lv-cable = 低電壓
-power-monitoring-window-flavor-left = [user@nanotrasen] $run power_net_query
+power-monitoring-window-flavor-left = { "[" }user@nanotrasen] $run power_net_query
 power-monitoring-window-flavor-right = v1.3
-power-monitoring-window-rogue-power-consumer = [color=white][font size=14][bold]！警告 — 偵測到異常耗電裝置 ！[/bold][/font][/color]
-power-monitoring-window-power-net-abnormalities = [color=white][font size=14][bold]注意——電力網出現異常活動[/bold][/font][/color]
+power-monitoring-window-rogue-power-consumer = { "[" }color=white][font size=14][bold]！警告 — 偵測到異常耗電裝置 ！[/bold][/font][/color]
+power-monitoring-window-power-net-abnormalities = { "[" }color=white][font size=14][bold]注意——電力網出現異常活動[/bold][/font][/color]
 screen-text = screenText
 screen-color = screenColor
 comp-space-heater-ui-title = Temperature Control Unit
@@ -4372,17 +4379,17 @@ configuration-menu-confirm = 確認
 configuration-menu-device-title = 裝置設定
 configure-verb-get-data-text = 開啟設定
 cmd-whitelistadd-desc = Adds the player with the given username to the server whitelist.
-cmd-whitelistadd-help = 用法：whitelistadd<username or User ID>
+cmd-whitelistadd-help = Usage: whitelistadd <username or User ID>
 cmd-whitelistadd-existing = { $username } 已經在白名單上了！
 cmd-whitelistadd-added = 已將 { $username } 加入白名單
 cmd-whitelistadd-not-found = 找不到 '{ $username }'
-cmd-whitelistadd-arg-player = [播放器]
+cmd-whitelistadd-arg-player = { "[" }播放器]
 cmd-whitelistremove-desc = 將指定使用者名稱的玩家從伺服器白名單中移除。
-cmd-whitelistremove-help = 用法：whitelistremove<username or User ID>
+cmd-whitelistremove-help = Usage: whitelistremove <username or User ID>
 cmd-whitelistremove-existing = { $username } 未列入白名單！
 cmd-whitelistremove-removed = 已將 { $username } 從白名單中移除
 cmd-whitelistremove-not-found = 找不到 '{ $username }'
-cmd-whitelistremove-arg-player = [播放器]
+cmd-whitelistremove-arg-player = { "[" }播放器]
 cmd-kicknonwhitelisted-desc = 將所有未列入白名單的玩家從伺服器中踢出。
 cmd-kicknonwhitelisted-help = 用法：kicknonwhitelisted
 ban-banned-permanent = 此項禁令僅能透過上訴解除。
@@ -4404,17 +4411,17 @@ whitelist-blacklisted = 您已被列入此伺服器的黑名單。
 whitelist-always-deny = 您無權加入此伺服器。
 whitelist-fail-prefix = 未列入白名單：{ $msg }
 cmd-blacklistadd-desc = 將指定使用者名稱的玩家加入伺服器黑名單。
-cmd-blacklistadd-help = 用法：blacklistadd<username>
+cmd-blacklistadd-help = Usage: blacklistadd <username>
 cmd-blacklistadd-existing = { $username } 已經被列入黑名單了！
 cmd-blacklistadd-added = 已將 { $username } 加入黑名單
 cmd-blacklistadd-not-found = 找不到 '{ $username }'
-cmd-blacklistadd-arg-player = [播放器]
+cmd-blacklistadd-arg-player = { "[" }播放器]
 cmd-blacklistremove-desc = 將指定使用者名稱的玩家從伺服器黑名單中移除。
-cmd-blacklistremove-help = 用法：blacklistremove<username>
+cmd-blacklistremove-help = Usage: blacklistremove <username>
 cmd-blacklistremove-existing = { $username } 並未列入黑名單！
 cmd-blacklistremove-removed = 已將 { $username } 從黑名單中移除
 cmd-blacklistremove-not-found = 找不到 '{ $username }'
-cmd-blacklistremove-arg-player = [播放器]
+cmd-blacklistremove-arg-player = { "[" }播放器]
 baby-jail-account-denied = 本伺服器是專為新手設計的伺服器，旨在服務新玩家以及願意協助他們的人士。若帳號過於老舊或未列入白名單，將不接受其連線。不妨瀏覽其他伺服器，並探索「太空站 14」所提供的一切。玩得開心！
 baby-jail-account-denied-reason = 本伺服器為新手伺服器，專為新玩家以及願意協助他們的人士而設。若帳號過於老舊或未列入白名單，將不接受新連線。不妨瀏覽其他伺服器，並探索「Space Station 14」所提供的一切。玩得開心！原因：「{ $reason }」
 baby-jail-account-reason-account = 您的 Space Station 14 帳戶過於陳舊。該帳戶的建立時間必須少於 { $minutes } 分鐘
@@ -4440,13 +4447,14 @@ flatpacker-ui-title = Flatpacker 1001
 flatpacker-ui-materials-label = 材料
 flatpacker-ui-cost-label = 包裝費用
 flatpacker-ui-no-board-label = 沒有板子！
-flatpacker-ui-board-invalid-label = [color=red]電路板無效！
+flatpacker-ui-board-invalid-label =
+    { "[" }color=red]電路板無效！
     無法列印！[/color]
 flatpacker-ui-insert-board = 請插入一個棋盤以開始遊戲。
 flatpacker-ui-pack-button = Pack
 machine-board-component-on-examine-label = 需求：
-machine-board-component-required-element-entry-text = [color=yellow]{ $amount }x[/color] [color=green]{ $requiredElement }[/color]
-machine-frame-component-on-examine-label = [color=white]目前使用的主機板：[/color] [color=cyan]{ $board }[/color]
+machine-board-component-required-element-entry-text = { "[" }color=yellow]{ $amount }x[/color] [color=green]{ $requiredElement }[/color]
+machine-frame-component-on-examine-label = { "[" }color=white]目前使用的主機板：[/color] [color=cyan]{ $board }[/color]
 machine-frame-component-on-complete = 工程已竣工
 construction-step-condition-against-wall = 您必須將它靠在牆上。
 # AirlockBolted
@@ -4485,7 +4493,7 @@ construction-condition-machine-container-empty = 使用 [color=cyan]撬棍[/colo
 # MachineFrameComplete
 construction-condition-machine-frame-requirement-label = 需求：
 construction-condition-machine-frame-insert-circuit-board-message = 插入 [color=cyan]任何主機電路板[/color]。
-construction-condition-machine-frame-required-element-entry = [color=yellow]{ $amount }x[/color] [color=green]{ $elementName }[/color]
+construction-condition-machine-frame-required-element-entry = { "[" }color=yellow]{ $amount }x[/color] [color=green]{ $elementName }[/color]
 construction-step-condition-machine-frame-board = 您需要插入一台主機板。
 construction-step-condition-machine-frame-parts = 接著，請裝入所有必要的零件。
 construction-examine-condition-low-health = 首先，先修好它。
@@ -4642,46 +4650,46 @@ take-item-verb-text = 以 { $subject } 為例
 place-item-verb-text = 位置 { $subject }
 contraband-examine-text-Minor =
     { $type ->
-       *[item] [color={ $color }]This item is considered minor contraband.[/color]
-        [reagent] [color={ $color }]This reagent is considered minor contraband.[/color]
+       *[item] { "[" }color={ $color }]This item is considered minor contraband.[/color]
+        [reagent] { "[" }color={ $color }]This reagent is considered minor contraband.[/color]
     }
 contraband-examine-text-Restricted =
     { $type ->
-       *[item] [color={ $color }]此項目僅限本系使用。[/color]
-        [reagent] [color={ $color }]此試劑僅限本系使用。[/color]
+       *[item] { "[" }color={ $color }]此項目僅限本系使用。[/color]
+        [reagent] { "[" }color={ $color }]此試劑僅限本系使用。[/color]
     }
 contraband-examine-text-Restricted-department =
     { $type ->
-       *[item] [color={ $color }]This item is restricted to { $departments }, and may be considered contraband.[/color]
-        [reagent] [color={ $color }]This reagent is restricted to { $departments }, and may be considered contraband.[/color]
+       *[item] { "[" }color={ $color }]This item is restricted to { $departments }, and may be considered contraband.[/color]
+        [reagent] { "[" }color={ $color }]This reagent is restricted to { $departments }, and may be considered contraband.[/color]
     }
 contraband-examine-text-Major =
     { $type ->
-       *[item] [color={ $color }]This item is considered major contraband.[/color]
-        [reagent] [color={ $color }]This reagent is considered major contraband.[/color]
+       *[item] { "[" }color={ $color }]This item is considered major contraband.[/color]
+        [reagent] { "[" }color={ $color }]This reagent is considered major contraband.[/color]
     }
 contraband-examine-text-GrandTheft =
     { $type ->
-       *[item] [color={ $color }]此物品是「辛迪加」特工極為重視的目標！[/color]
-        [reagent] [color={ $color }]此藥劑是「辛迪加」特工極為重視的目標！[/color]
+       *[item] { "[" }color={ $color }]此物品是「辛迪加」特工極為重視的目標！[/color]
+        [reagent] { "[" }color={ $color }]此藥劑是「辛迪加」特工極為重視的目標！[/color]
     }
 contraband-examine-text-Highly-Illegal =
     { $type ->
-       *[item] [color={ $color }]此物品屬高度非法的走私貨！[/color]
-        [reagent] [color={ $color }]此試劑屬高度非法的走私貨！[/color]
+       *[item] { "[" }color={ $color }]此物品屬高度非法的走私貨！[/color]
+        [reagent] { "[" }color={ $color }]此試劑屬高度非法的走私貨！[/color]
     }
 contraband-examine-text-Syndicate =
     { $type ->
-       *[item] [color={ $color }]This item is highly illegal Syndicate contraband![/color]
-        [reagent] [color={ $color }]This reagent is highly illegal Syndicate contraband![/color]
+       *[item] { "[" }color={ $color }]This item is highly illegal Syndicate contraband![/color]
+        [reagent] { "[" }color={ $color }]This reagent is highly illegal Syndicate contraband![/color]
     }
 contraband-examine-text-Magical =
     { $type ->
-       *[item] [color={ $color }]此物品屬高度非法的魔法違禁品！[/color]
-        [reagent] [color={ $color }]此藥劑屬高度非法的魔法違禁品！[/color]
+       *[item] { "[" }color={ $color }]此物品屬高度非法的魔法違禁品！[/color]
+        [reagent] { "[" }color={ $color }]此藥劑屬高度非法的魔法違禁品！[/color]
     }
-contraband-examine-text-avoid-carrying-around = [color=red][italic]除非有正當理由，否則最好避免在公共場合公開攜帶這東西。[/italic][/color]
-contraband-examine-text-in-the-clear = [color=green][italic]公開攜帶這個應該沒問題。[/italic][/color]
+contraband-examine-text-avoid-carrying-around = { "[" }color=red][italic]除非有正當理由，否則最好避免在公共場合公開攜帶這東西。[/italic][/color]
+contraband-examine-text-in-the-clear = { "[" }color=green][italic]公開攜帶這個應該沒問題。[/italic][/color]
 contraband-examinable-verb-text = 合法性
 contraband-examinable-verb-message = 請確認此項目的合法性。
 contraband-department-plural = { $department }
@@ -4714,12 +4722,12 @@ credits-window-immortals-title = 追思
 credits-window-special-thanks-section-title = 特別鳴謝
 credits-window-previous-page-button = 上一頁
 credits-window-next-page-button = 下一頁
-credits-window-attributions-directory = [color=white]目錄：[/color] { $directory }
-credits-window-attributions-files = [color=white]檔案：[/color] { $files }
-credits-window-attributions-copyright = [color=white]版權所有：[/color] { $copyright }
-credits-window-attributions-license = [color=white]授權條款：[/color] { $license }
-credits-window-attributions-source = [color=white]來源：[/color] { $source }
-credits-window-attributions-failed = [color=red]讀取檔案失敗：[/color] { $file }
+credits-window-attributions-directory = { "[" }color=white]目錄：[/color] { $directory }
+credits-window-attributions-files = { "[" }color=white]檔案：[/color] { $files }
+credits-window-attributions-copyright = { "[" }color=white]版權所有：[/color] { $copyright }
+credits-window-attributions-license = { "[" }color=white]授權條款：[/color] { $license }
+credits-window-attributions-source = { "[" }color=white]來源：[/color] { $source }
+credits-window-attributions-failed = { "[" }color=red]讀取檔案失敗：[/color] { $file }
 crew-manifest-window-title = 船員名單
 crew-manifest-button-label = 船員名單
 crew-manifest-button-description = 顯示您的同組船員清單
@@ -4809,10 +4817,10 @@ handcuff-component-cuff-interrupt-buckled-message = 被束縛時，你可別鬆�
 handcuff-component-cuff-interrupt-unbuckled-message = 在受約束的狀態下，你無法解開安全帶！
 handcuff-component-cannot-drop-cuffs = 您無法為 { $target } 套上束縛裝置。
 damage-command-description = 對實體增加或移除損害。
-damage-command-help = 用法：{ $command } <type/group> <amount> [ignoreResistances] [uid]
+damage-command-help = Usage: { $command } <type/group> <amount> [ignoreResistances] [uid]
 damage-command-arg-type = <damage type or group>
-damage-command-arg-quantity = [數量]
-damage-command-arg-target = [target euid]
+damage-command-arg-quantity = { "[" }數量]
+damage-command-arg-target = { "[" }target euid]
 damage-command-error-type = { $arg } 並非有效的傷害群組或類型。
 damage-command-error-euid = { $arg } 不是有效的實體 UID。
 damage-command-error-quantity = { $arg } 不是有效的數量。
@@ -4914,8 +4922,8 @@ defusable-examine-live-display-off = { CAPITALIZE(THE($name)) } 正 [color=red]�
 defusable-examine-inactive = { CAPITALIZE(THE($name)) } 目前處於 [color=lime]非活躍[/color] 狀態，但仍可被啟用。
 defusable-examine-bolts =
     螺栓的狀態為 { $down ->
-        [true] [color=red]向下[/color]
-       *[false] [color=green]向上[/color]
+        [true] { "[" }color=red]向下[/color]
+       *[false] { "[" }color=green]向上[/color]
     }。
 defusable-popup-begun = { CAPITALIZE(THE($name)) } 發出嗶聲，隨即啟動；它的燈亮了！
 defusable-popup-defuse = { CAPITALIZE(THE($name)) } 最後響起一聲嗶聲，隨後燈光永遠熄滅了。
@@ -4957,7 +4965,8 @@ delivery-bomb-primed-examine = 這是一則 [color=purple]炸彈 { $type }[/colo
 delivery-penalty-default-reason = 警告
 delivery-penalty-default-account-name = 未知帳戶
 delivery-penalty-message = { $reason }！對 { $account } 處以 { $spesos } 斯佩索的罰款！
--delivery-header-nanotrasen = [color=blue]
+-delivery-header-nanotrasen =
+    { "[" }color=blue]
     ╔══════════════════╗
     ║███░███░░░░██░░░░░║
     ║░██░████░░░██░░░░░║
@@ -4965,7 +4974,8 @@ delivery-penalty-message = { $reason }！對 { $account } 處以 { $spesos } 斯
     ║░░░░██░░██░██░██░░║
     ║░░░░██░░░████░███░║
     ╚══════════════════╝[/color]
--delivery-header-nanotrasen-alternate-timeline = [color=red]
+-delivery-header-nanotrasen-alternate-timeline =
+    { "[" }color=red]
     ╔══════════════════╗
     ║███░███░░░░██░░░░░║
     ║░██░████░░░██░░░░░║
@@ -4973,7 +4983,8 @@ delivery-penalty-message = { $reason }！對 { $account } 處以 { $spesos } 斯
     ║░░░░██░░██░██░██░░║
     ║░░░░██░░░████░███░║
     ╚══════════════════╝[/color]
--delivery-header-syndicate = [color=#ff0000]
+-delivery-header-syndicate =
+    { "[" }color=#ff0000]
     ╔══════════════════╗
     ║░░░░░████████░░░░░║
     ║░░░░░██░░░░░░░░░░░║
@@ -4983,17 +4994,18 @@ delivery-penalty-message = { $reason }！對 { $account } 處以 { $spesos } 斯
     ╚══════════════════╝[/color]
 delivery-spam-1 = Robust Toolbox - 限時優惠！
     .desc = 一款堅固耐用的工具箱廣告。
-    .content = [color=blue][head=1]
+    .content =
+        { "[" }color=blue][head=1]
         ░░▄▀░░
         ░▄█▄▄▀ [head=3]ROBUST - 工具箱與工具[/head]
         ██▀░░░ [/head][/color]
-        
+
         { "[bold]購買一個工具箱，即贈一套工具！[/bold]" }
-        
+
         由於您是我們珍視的客戶之一，您將獲得客戶專屬優惠，您收到的工具完全不含鏽蝕且無鉛！！！ 這是不是太棒了？另一方面，工具箱則額外含有鉛！ 無論是砸碎頭骨還是阻擋輻射，都同樣超棒！
-        
+
         { "[bold]僅需一個器官，就能獲得以上所有好處，甚至可能還有更多！[/bold]" }
-        
+
         堅固耐用 — 工具箱與工具：%
         — 不含鉛與石棉！
         -或者，若您偏好，也有含鉛與石棉的選項！
@@ -5003,58 +5015,60 @@ delivery-spam-2 = 選擇 Nanotrasen 的理由！
     .desc = 一則關於 Nanotrasen 的廣告。
     .content =
         { -delivery-header-nanotrasen }
-        
+
         { "[head=2]「辛迪加」無能的三大原因[/head]" }
-        
+
         { "[bold]第一點[/bold]" }
         他們的臥底特工根本無能！ 他們甚至連一個求死不辜的乘客都殺不死！
-        
+
         { "[bold]第二點[/bold]" }
         他們的平民對子彈毫無招架之力！相信我，我們試過了！ 不像納諾特拉森的平民，辛迪加的平民被子彈擊中頭顱就會死！子彈我們可多著呢！
-        
+
         { "[bold]第三點[/bold]" }
         他們的標誌簡直糟透了！ 他們還以為自己的標誌很酷！噢，快看我，我超酷的！噢，那條蛇的形狀也像個「S」！多有創意啊！我三歲大的兒子都能畫出更好的標誌！
 delivery-spam-3 = 選擇 辛迪加 的理由！
     .desc = 《辛迪加》的一則廣告。
     .content =
         { -delivery-header-syndicate }
-        
+
         { "[head=2] NanoTrasen 無能的三大原因[/head]" }
-        
+
         { "[bold]第一點[/bold]" }
         他們的槍枝爛透了！甚至連狙擊步槍都沒有！ 他們的安保部隊在大多數情況下甚至無法攜帶重型武器！
-        
+
         { "[bold]第二點[/bold]" }
         他們的指揮官？一槍就死！沒有酷炫的裝甲！只是「砰」一聲，就死了！太爛了！ 我們的指揮官可是有超酷的硬質戰甲！
-        
+
         { "[bold]第三點[/bold]" }
         他們的殺人手法毫無新意！ 只有槍！沒有把人扔進深空，沒有在安全模式關閉時把人送進回收機，也沒有把炸彈塞進口袋裡！太無聊了！
 delivery-spam-4 = 膩了科學總在引發爆炸嗎？
     .desc = 請按照以下簡單步驟操作，確保此情況不再發生！
-    .content = [head=3]科學界會因此而愛死你！！
-        
+    .content =
+        { "[" }head=3]科學界會因此而愛死你！！
+
         就是 [bold]你[/bold] 你是否厭倦了你所在頻道的科學部門總是搞出大騷動，卻根本沒做任何真正的科學研究？
         那你可真走運了！[/head]
-        
+
         按照這份簡單指南操作，我們保證你的科學部門 [italic]永遠都無法運作！[/italic]
-        
+
         只需執行以下步驟：
         - 步驟一：找到你科學部門的研究伺服器
         - 步驟二： 將研究伺服器從地面解錨
         - 步驟三：將研究伺服器拋向太空，最好朝著蜘蛛一族超級機密太空道場的方向
         - 步驟四：等待約 3-5 個工作班次
         - 步驟五： Spid-ex Inc 的員工將每週為您的太空站提供一張（1）科技光碟。
-        
+
         { "[color=lightgray]注意：蜘蛛氏族對您的主管所施加的任何懲處概不負責。[color]" }
 delivery-spam-5 = 全面免費！！
     .desc = 你是否曾經想要完全免費的無限暢玩權限？！
-    .content = [head=3]你是否曾經渴望擁有 [italic][color=green]免費 [bold]全權訪問權限！？！？[/bold][/color][/italic][/head]
+    .content =
+        { "[" }head=3]你是否曾經渴望擁有 [italic][color=green]免費 [bold]全權訪問權限！？！？[/bold][/color][/italic][/head]
         { "[head=2]現在，你就能辦到！！[/head]!" }
-        
+
         你只需要撥打 [color=blue]555-GOUR-LECKSSS[/color] 並提供你的 Staton ID 號碼！！！
         完成這一步後，我們便能遠端查詢 Yourstation 貨運部門的錢包，並以三筆 [italic] 輕鬆[/italic] 付款的方式扣除所需費用，讓您能領取您的
         { "[head=2][color=green] [bolditalic] 免費 AA!!!!!!!!!![/bolditalic][/color][/head]" }
-        
+
         
         { "[color=gray]" }
         { "[bullet/]注意：站點 ID 必須以 \"NT/NX - ###\" 的格式標示" }
@@ -5063,60 +5077,63 @@ delivery-spam-5 = 全面免費！！
         { "[/color]" }
 delivery-spam-6 = 來自 NANOTRASN 的公告！！
     .desc = 來自 Nanotrasn 執行長的一則官方公告？！
-    .content = [color=red] 這是來自 [color=blue]NANOTRASN[/color] 負責人的官方公告[/color]
-        
-        尊敬的先生、女士，或其他微不足道的電台人員
-        
-        若您不希望本電台被{ "[head=2][italic]我們偉大而光榮的 [color=blue] Nanotransen [/color][/head]" }宣布為虧本
-        那麼，您必須在 5 [color=blue]Nt[/color]  標準工作班次內，安排將三組 [color=blue]nt[/color] 標準堆疊的 [color=blue]nT[/color] 標準金錠，送往貴站的外貿輸出港。
-        
+    .content =
+        { "[" }color=red] 這是來自 [color=blue]NANOTRASN[/color] 負責人的官方公告[/color]
+
+        尊敬的先生、女士，或其他微不足道的太空站人員
+
+        若您不希望本太空站被{ "[head=2][italic]我們偉大而光榮的 [color=blue] Nanotransen [/color][/head]" }宣布為賠錢貨
+        那麼，您必須在 5 [color=blue]Nt[/color] 標準工作輪班內，安排將三組 [color=blue]nt[/color] 標準堆疊的 [color=blue]nT[/color] 標準金錠，送往貴站的外貿輸出港。
+
         { "[head=2][color=red]若無視此命令，將面臨[color=green]中央司令部[/color]的報復！！！！[/head][/color]" }
 delivery-spam-7 = 快派增援！
     .desc = 一份來自……另一條時間線的官方公告？
     .content =
         { -delivery-header-nanotrasen-alternate-timeline }
         { "[head=2]這是來自 NanoTrasen 第 15 號太空站 [color=red]首席安全官[/color] 的官方通知。[/head]" }
-        
+
         致收到此信的任何人：我是里格爾中士，職務為首席安全官。我們需要立即的協助。
-        
+
         我們的太空站目前正遭受「原子特工」的攻擊，這封信是被拋入由我們的 [color=purple]研究主管[/color] 所創造的、已失穩的藍色空間異常區中。
-        
+
         我目前被鎖在指揮橋內，若您收到這則訊息，請立即派遣援軍。 我不知道我們還能撐多久。
-        
+
         榮耀歸於納諾特拉森。
 delivery-spam-8 = 納爾西的子民
     .desc = 一個當地的邪教組織正在招募成員。
-    .content = [color=#134975][head=2]納爾·西的子民[/head][/color]
+    .content =
+        { "[" }color=#134975][head=2]納爾·西的子民[/head][/color]
                                         新时代的開端
         { "[bold]══──══──══──══──══──══──══──══──══──══──══[/bold]" }
-        
+
         { "[head=3]你是否在浩瀚的宇宙中感到迷失？[/head]" }
         在現代社會中，迷失的靈魂很容易覺得自己只是龐大企業機器中的齒輪。
-        
+
         { "[head=3]你是否覺得自己生來就有更崇高的使命？[/head]" }
         你是否厭倦了被迫過著平庸的生活？擦地板、送包裹，或是填寫無止盡的文件？
-        
+
         { "[head=3]你想讓銀河系變得更美好嗎？[/head]" }
-        
+
         
         如果你對上述任何一個問題回答「是」，那就立即聯繫我們的代表吧！ 我們在銀河系各地的太空站都有成員，都熱切期盼著歡迎新成員加入我們的行列。成為那把幫助「血之幾何師」降臨我們宇宙的利刃之一，讓所有人都能領略他的極樂！
-        
+
         你只需說出 [color=#FF0000][italic]「Sas'so c'arta forbici！」[/italic][/color]
 delivery-spam-9 = 你想打架嗎？！
     .desc = 一則當地格鬥俱樂部的廣告。
-    .content = [color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]
+    .content =
+        { "[" }color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]
                                     { "[bold][head=1]怒火之籠[/head][/bold]" }
         { "[color=#aaaaaa]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[/color]" }
         { "[bold][color=#FF0000][head=3]你想打架嗎？[/head][/color][/bold]" }
         { "[bold][color=#FF0000][head=3]你想贏嗎？[/head][/color][/bold]" }
         { "[bold][color=#FF0000][head=3]你想稱霸嗎？！[/head][/color][/bold]" }
+
         
-        
-        
+
         那就快來…… [color=#FF0000][bold][head=2]狂怒籠[/head][/bold][/color]
+
         
-        
-        
+
         隱藏在你當地納諾特拉森（Nanotrasen）站深處的，正是那項獲得專利的 [color=#FF0000][bold]狂怒籠[/bold][/color]。 作為專為最強戰士設計的帶電格鬥場地，[color=#FF0000][bold]憤怒之籠[/bold][/color] 將懦夫與勇士、菜鳥與戰士、敗者與勝者徹底區分開來。
         ──────────────────────────────────────────
         在 [color=#FF0000][bold]RAGE CAGE[/bold][/color] 中，只有一條規則：[italic]兩名戰士進入。 只有一名戰士能離開。[/italic]
@@ -5124,27 +5141,28 @@ delivery-spam-9 = 你想打架嗎？！
         沒有武器，沒有護甲，只有純粹、毫無摻雜的 [bold]格鬥[/bold]。 別錯過機會，別當個[bold]懦夫[/bold]。今天就在[color=#FF0000][bold]狂怒籠[/bold][/color]中，贏得成為你所在站點最強悍戰士的榮耀吧！
 delivery-spam-10 = 請勿開啟這封郵件
     .desc = 你已被詛咒了！
-    .content = [color=#FF0000][bold][head=2]停止[/head][/bold][/color]
-        
+    .content =
+        { "[" }color=#FF0000][bold][head=2]停止[/head][/bold][/color]
+
         如果你正在閱讀這封信……[color=#FF0000][head=3]你已經被詛咒了！！！[/head][/color]
-        
+
         我很抱歉這麼對你，但我必須警告你：
-        
+
                 { "[color=#FF0000][head=1]「血蜥蜴的幽靈」[/head][/color]" }
-        
+
         一切都始於我收到一封信：信中附有一張令人毛骨悚然的圖片，是一隻眼睛沾滿鮮血、正死死盯著我的蜥蜴絨毛玩偶。信中說我遭到了詛咒……如果我不在 30 天內將這封信轉寄給 30 個人，那麼「血蜥蜴」就會在深夜前來……
-        
+
         { "[italic]並殺死我。[/italic]" }
-        
+
         我很抱歉……但你正是我必須將這封信寄給的 30 個人之一……現在你也遭詛咒了……
-        
+
         請將這封信轉寄給另外 30 個人，以阻止這詛咒！你還有機會拯救自己！ 還來得及！別讓那該死的蜥蜴也抓到你，快拿走這個小東西！它能保護你免受黑暗靈體的侵害……[head=3]至少目前如此[/head]
+
         
-        
-        
+
         
         { "[head=1]天啊，不，它在那裡了！！！！！！！！[/head]" }
-        
+
         ░░░░░░░░░█░░[color=#67CC40]████████[/color]█[color=#67CC40]███[/color]░░░░░░░░░░
         ░░░░░░[color=#FF0000]████[/color]█[color=#6EC543]█[/color][color=#67CC40]███████[/color]█[color=#FF0000]██████[/color]░░░░░░░░
         ░░░░[color=#FF0000]████[/color][color=#6EC543]██[/color][color=#67CC40]████████[/color][color=#FF0000]██████[/color][color=#FFFFFF]██[/color][color=#FF0000]█[/color][color=#B53737]█[/color]░░░░░░
@@ -5164,44 +5182,46 @@ delivery-spam-10 = 請勿開啟這封郵件
         ░░░░░░░░░░░░░░░░░░░░[color=#6EC543]████[/color]░░░░░░░░░░
 delivery-spam-11 = 快來幫幫爸爸媽媽吧！
     .desc = 需要經濟援助的家長。
-    .content = [bold]親愛的孩子，[/bold]
+    .content =
+        { "[" }bold]親愛的孩子，[/bold]
         這是你的父母寫給你的信：我們急需用錢！ 我們的稅務遭到審計，欠政府 100,000 斯佩索！請幫幫我們！他們只接受禮品卡，所以你需要寄給我們 100 張面額為 1,000 斯佩索的 Bisa 禮品卡。
-        
+
         請郵寄至：
         50192 Spess Lane
         Station City, Ignius 40195-243
         Gamma Quadrant
         Guilimin System
-        
+
         如果我們在 10 天內收不到這筆錢，政府就會來沒收我們的童年家園，屆時我們將流落街頭。
-        
+
         { "[bold]謝謝你們，我們愛你們，[/bold]" }
         { "[italic]父母[/italic]" }
 delivery-spam-12 = 歡迎加入我們的首航之旅！
     .desc = 一則關於悠閒航程的廣告。
-    .content = [head=2]歡迎加入我們的首航之旅……[/head]
-        
+    .content =
+        { "[" }head=2]歡迎加入我們的首航之旅……[/head]
+
             ░█▀▀░█▀▀░░░█▀▄░█▀▀░█░░░█▀█░█░█░█▀█░█▀▄
             ░▀▀█░▀▀█░░░█▀▄░█▀▀░█░░░█▀█░▄▀▄░█░█░█▀▄
             ░▀▀▀░▀▀▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀
-        
+
         
         { "[bold]══════════════════════════════════════════[/bold]" }
-        
+
         採用最新 Comfortech™ 技術，帶您領略伊拉克斯西星系此側最迷人的景致！[italic]SS Relaxor[/italic] 是一艘頂尖的豪華巡航船，將帶您展開一生難忘的旅程！
-        
+
         { "[head=3]在配備您所能想像的一切現代化設施的 LuxuCabins™ 豪華艙房中，舒適地體驗加利馬爾*的磷光湖景！[/head]" }
-        
+
         { "[head=3]一邊欣賞「宇宙之眼」**的壯麗景觀，一邊品嚐我們五星級「銀河級」主廚精心烹製的美食！[/head]" }
-        
+
         { "[head=3]探索阿加薩***遺跡，在納諾特森頂尖科學家的協助下，該遺跡現已對公眾開放。 古老阿加塔文明的所有奧秘都已發掘並展出，供您欣賞！[/head]" }
-        
+
         每晚僅需 5,000 斯佩索的超低價格，這趟為期六個月的豪華郵輪之旅便能屬於您，讓您享受夢寐以求的假期！ 立即撥打 [color=#00FF00]RELAX-NOW[/color] 預訂您的郵輪行程。別再等待！現在就行動！
+
         
+
         
-        
-        
-        
+
         
         { "[italic]*磷湖禁止游泳，您在登陸加利馬爾時，即放棄對「放鬆度假目的地」公司的一切法律代表權。[/italic]" }
         { "[italic]**每次凝視『宇宙之眼』的時間不得超過五秒。您不會聽到『宇宙之眼』的召喚。[/italic]" }
@@ -5210,7 +5230,7 @@ delivery-spam-13 = 紙
     .desc = 致編輯的一封信。
     .content =
         致相關人士：
-        
+
         著名的《伊恩與雷諾的冒險》系列書籍，不僅深受幼童喜愛，還有一隻患有嚴重閱讀障礙的蜥蜴也十分鍾愛（別擔心，我已經好轉了）。然而，該書出版時出現了一個錯誤，因為伊恩與雷諾在寫作時絕不會犯錯。 看來在《伊恩與雷諾的冒險：勇氣與友誼的北極之旅》一書中，竟誤用了《伊恩與雷諾的冒險：探索城市》中的兩行文字。
         這完全說不通。伊恩和雷諾怎麼會在北極發現一隻小貓呢？那隻小貓在那裡做什麼？為什麼伊恩和雷諾今天做的事比平常還多？ 而最離譜的則是第二句被錯置的句子：「當白天轉為黑夜，他們雖然因在城市中的冒險而精疲力盡，卻依然感到快樂」（《伊恩與雷諾》，第1頁）。哦，對不起！！！我根本不知道北極還有個城市！！！ 他們只是順道停下來而已。你知道的，去喝杯咖啡。哦，等等！！咖啡會害死狗和狐狸！！！！！！！！誰會出版這種東西啊！！！！你剛才把伊恩和雷諾給害死了！！！！！！！!!!!!!!!!!!! 你怎麼能這樣做!!!!!!!!!!!!!!!!!!! 你這個怪物!!!!!!!!!!!!!!!!!
         殺了伊恩和雷諾，你到底得到了什麼？ 嗯？一本稍微長一點的書？你很需要那本更長的書，對吧？書越長賣價就越高，是這樣嗎？你想賺更多錢？ 
@@ -5311,8 +5331,8 @@ network-configurator-tooltip-clear = 清除目標裝置清單
 network-configurator-tooltip-copy = 將目標裝置清單複製到手持工具中
 network-configurator-tooltip-show = 顯示目標裝置清單的全息視覺化圖像
 # examine
-network-configurator-examine-mode-link = [color=red]連結[/color]
-network-configurator-examine-mode-list = [color=green]清單[/color]
+network-configurator-examine-mode-link = { "[" }color=red]連結[/color]
+network-configurator-examine-mode-list = { "[" }color=green]清單[/color]
 network-configurator-examine-current-mode = 當前模式：{ $mode }
 network-configurator-examine-switch-modes = 按下 { $key } 切換模式
 # item status
@@ -5322,9 +5342,9 @@ network-configurator-item-status-label =
 # command
 cmd-clearnetworklinkoverlays-desc = 清除所有網路連結疊加層。
 cmd-clearnetworklinkoverlays-help = 用法：clearnetworklinkoverlays
-tray-scanner-examine-mode-all = [color=green]全部[/color]
-tray-scanner-examine-mode-wiring = [color=yellow]配線[/color]
-tray-scanner-examine-mode-piping = [color=dodgerblue]管線[/color]
+tray-scanner-examine-mode-all = { "[" }color=green]全部[/color]
+tray-scanner-examine-mode-wiring = { "[" }color=yellow]配線[/color]
+tray-scanner-examine-mode-piping = { "[" }color=dodgerblue]管線[/color]
 tray-scanner-switch-mode = 切換模式
 tray-scanner-item-status-label =
     模式：{ $mode }
@@ -5345,14 +5365,14 @@ discord-round-notifications-end-ping = <@&{ $roleId }>，新一輪即將開始�
 discord-round-notifications-unknown-map = 未知
 custom-vote-webhook-name = 舉行了特別投票
 custom-vote-webhook-footer = 伺服器：{ $serverName }, 輪播：{ $roundId } { $runLevel }
-custom-vote-webhook-cancelled = **投票已取消**
+custom-vote-webhook-cancelled = { "*" }*投票已取消**
 custom-vote-webhook-option-pending = 待定
 custom-vote-webhook-option-cancelled = 不適用
 votekick-webhook-name = 「Votekick」活動已舉行
 votekick-webhook-description = 發起者：{ $initiator }; 目標：{ $target }
-votekick-webhook-cancelled-admin-online = **因管理員在線，投票已取消**
-votekick-webhook-cancelled-admin-target = **因目標為管理員，故取消投票**
-votekick-webhook-cancelled-antag-target = **因目標為敵對方，故取消投票**
+votekick-webhook-cancelled-admin-online = { "*" }*因管理員在線，投票已取消**
+votekick-webhook-cancelled-admin-target = { "*" }*因目標為管理員，故取消投票**
+votekick-webhook-cancelled-antag-target = { "*" }*因目標為敵對方，故取消投票**
 votekick-ban-reason = "Votekick：{ $reason }"
 discord-watchlist-connection-header =
     { $players ->
@@ -5370,18 +5390,18 @@ discord-watchlist-connection-entry =
     }
 disease-vomit = { CAPITALIZE(THE($person)) } 嘔吐了。
 ammonia-smell = 有股刺鼻的味道！
-perishable-1 = [color=green]{ CAPITALIZE(POSS-ADJ($target)) } 屍體看起來依然新鮮。[/color]
-perishable-2 = [color=orangered]{ CAPITALIZE(POSS-ADJ($target)) } 屍體看起來還算新鮮。[/color]
-perishable-3 = [color=red]{ CAPITALIZE(POSS-ADJ($target)) } 這具屍體看起來不太新鮮。[/color]
-perishable-1-nonmob = [color=green]{ CAPITALIZE(SUBJECT($target)) } 看起來依然很新鮮。[/color]
-perishable-2-nonmob = [color=orangered]{ CAPITALIZE(SUBJECT($target)) } 看起來頗有新意。[/color]
-perishable-3-nonmob = [color=red]{ CAPITALIZE(SUBJECT($target)) } 看起來不太新穎。[/color]
-rotting-rotting = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 屍體正在腐爛！[/color]
-rotting-bloated = [color=orangered]{ CAPITALIZE(POSS-ADJ($target)) } 屍體已經腫脹了！[/color]
-rotting-extremely-bloated = [color=red]{ CAPITALIZE(POSS-ADJ($target)) } 屍體嚴重腫脹！[/color]
-rotting-rotting-nonmob = [color=orange]{ CAPITALIZE(SUBJECT($target)) } 正在腐爛！[/color]
-rotting-bloated-nonmob = [color=orangered]{ CAPITALIZE(SUBJECT($target)) } 內容過於冗長！[/color]
-rotting-extremely-bloated-nonmob = [color=red]{ CAPITALIZE(SUBJECT($target)) } 實在是過於臃腫！[/color]
+perishable-1 = { "[" }color=green]{ CAPITALIZE(POSS-ADJ($target)) } 屍體看起來依然新鮮。[/color]
+perishable-2 = { "[" }color=orangered]{ CAPITALIZE(POSS-ADJ($target)) } 屍體看起來還算新鮮。[/color]
+perishable-3 = { "[" }color=red]{ CAPITALIZE(POSS-ADJ($target)) } 這具屍體看起來不太新鮮。[/color]
+perishable-1-nonmob = { "[" }color=green]{ CAPITALIZE(SUBJECT($target)) } 看起來依然很新鮮。[/color]
+perishable-2-nonmob = { "[" }color=orangered]{ CAPITALIZE(SUBJECT($target)) } 看起來頗有新意。[/color]
+perishable-3-nonmob = { "[" }color=red]{ CAPITALIZE(SUBJECT($target)) } 看起來不太新穎。[/color]
+rotting-rotting = { "[" }color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 屍體正在腐爛！[/color]
+rotting-bloated = { "[" }color=orangered]{ CAPITALIZE(POSS-ADJ($target)) } 屍體已經腫脹了！[/color]
+rotting-extremely-bloated = { "[" }color=red]{ CAPITALIZE(POSS-ADJ($target)) } 屍體嚴重腫脹！[/color]
+rotting-rotting-nonmob = { "[" }color=orange]{ CAPITALIZE(SUBJECT($target)) } 正在腐爛！[/color]
+rotting-bloated-nonmob = { "[" }color=orangered]{ CAPITALIZE(SUBJECT($target)) } 內容過於冗長！[/color]
+rotting-extremely-bloated-nonmob = { "[" }color=red]{ CAPITALIZE(SUBJECT($target)) } 實在是過於臃腫！[/color]
 ui-mailing-unit-window-title-tagged = { $tag } 郵寄單位
 ui-mailing-unit-window-title = { CAPITALIZE($name) }
 ui-mailing-unit-button-flush = 傳送
@@ -5398,7 +5418,7 @@ disposal-tagger-window-tag-confirm-button = 確認
 disposal-tube-component-popup-directions-text = { $directions }
 tube-direction-verb-get-data-text = 地鐵路線指引
 tube-connections-command-description = 顯示管子可連接的所有方向。
-tube-connections-command-help-text = 用法：{ $command }<entityUid>
+tube-connections-command-help-text = Usage: { $command } <entityUid>
 ui-disposal-unit-title = { CAPITALIZE($name) }
 ui-disposal-unit-label-state = 狀態：
 ui-disposal-unit-label-pressure = 壓力：
@@ -5434,7 +5454,7 @@ turnstile-component-popup-resist = { CAPITALIZE(THE($turnstile)) } 阻擋了你�
 door-pry = 撬門
 drag-drop-system-out-of-range-text = 你夠不到那裡！
 dragon-round-end-agent-name = 龍
-objective-issuer-dragon = [color=#7567b6]太空龍[/color]
+objective-issuer-dragon = { "[" }color=#7567b6]太空龍[/color]
 dragon-role-briefing = 召喚 3 處鯉魚裂隙，並佔領這個象限！該太空站位於 { $direction }。
 carp-rift-warning = 一道裂縫正引發異常巨大的能量流 { $location }。無論如何都要阻止它！
 carp-rift-duplicate = 不能同時存在 2 個充電裂隙！
@@ -5446,7 +5466,7 @@ carp-rift-space-proximity = 離太空太近了！必須至少距離 { $proximity
 carp-rift-weakened = 在虛弱狀態下，你無法再召喚更多裂隙。
 carp-rift-destroyed = 一道裂隙已被摧毀！你目前暫時處於虛弱狀態。
 cmd-electrocute-desc = 對指定目標施加電擊，預設持續 10 秒，造成 10 點傷害。真是令人震驚！
-cmd-electrocute-help = 用法：electrocute<uid> [秒數] [傷害值]
+cmd-electrocute-help = Usage: electrocute <uid> [seconds] [damage]
 cmd-electrocute-entity-cannot-be-electrocuted = 你無法用電擊擊倒那個實體！
 electrocuted-component-mob-shocked-by-source-popup-others = { CAPITALIZE(THE($mob)) } 對 { THE($source) } 感到震驚！
 electrocuted-component-mob-shocked-popup-others = { CAPITALIZE(THE($mob)) } 感到震驚！
@@ -5455,7 +5475,7 @@ emag-success = 該裝置在 { THE($target) } 中擊中了某物。
 emag-no-charges = 電量已耗盡！
 chat-system-emote-cancelled-generic = 您目前無法 { $emote }！
 chat-system-emote-cancelled-blocked = 你無法 { $emote }，因為 { THE($blocker) }！
-emp-disabled-comp-on-examine = [color=lightblue]它會受到電場的干擾…… [/color]
+emp-disabled-comp-on-examine = { "[" }color=lightblue]它會受到電場的干擾…… [/color]
 inflatable-safe-disassembly = 你嫻熟地使用 { THE($item) } 來開啟 { THE($target) } 上的閥門，並開始將 { OBJECT($target) } 放氣，且未造成任何損壞。
 ensnare-component-try-free = You struggle to remove { $ensnare } that's ensnaring you!
 ensnare-component-try-free-complete = 你成功從 { $ensnare } 中脫身了！
@@ -5894,11 +5914,11 @@ examine-system-cant-see-entity = 你根本看不清那到底是什麼。
 examine-verb-name = 基礎
 examinable-anchored = 它以 [color=darkgreen]固定[/color] 的方式錨定在地板上。
 examinable-unanchored = 它與地板之間是[color=darkred]未固定的[/color]。
-status-effect-examine-adrenaline = [color=red]{ POSS-ADJ($target) } 的身體每個部位都顯得緊繃而警覺。[/color]
-status-effect-examine-drunk = [color=brown]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 喝醉了……[/color]
-status-effect-examine-seeing-rainbow = [color=lightgreen]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 瞥向那些並不存在的東西。[/color]
-status-effect-examine-stunned = [color=yellow]{ CAPITALIZE(POSS-ADJ($target)) } 那具屍體看起來精疲力竭，動彈不得。[/color]
-status-effect-examine-temporary-blindness = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神變得恍惚。{ CAPITALIZE(SUBJECT($target)) } 似乎看不太清楚了。[/color]
+status-effect-examine-adrenaline = { "[" }color=red]{ POSS-ADJ($target) } 的身體每個部位都顯得緊繃而警覺。[/color]
+status-effect-examine-drunk = { "[" }color=brown]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 喝醉了……[/color]
+status-effect-examine-seeing-rainbow = { "[" }color=lightgreen]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 瞥向那些並不存在的東西。[/color]
+status-effect-examine-stunned = { "[" }color=yellow]{ CAPITALIZE(POSS-ADJ($target)) } 那具屍體看起來精疲力竭，動彈不得。[/color]
+status-effect-examine-temporary-blindness = { "[" }color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神變得恍惚。{ CAPITALIZE(SUBJECT($target)) } 似乎看不太清楚了。[/color]
 execution-verb-name = 執行
 execution-verb-message = 使用你的武器處決某人。
 execution-popup-melee-initial-internal = 你準備好將 { THE($weapon) } 抵住 { THE($victim) } 的喉嚨了嗎？
@@ -5974,7 +5994,7 @@ command-description-feedback-remove = 從指定的客戶端移除一個回饋彈
 feedbackpopup-give-command-name = 給出回饋彈出視窗
 feedbackpopup-show-command-name = 顯示回饋彈出視窗
 cmd-givefeedbackpopup-desc = 向目標玩家顯示一個反饋彈出視窗。
-cmd-givefeedbackpopup-help = 用法：givefeedbackpopup<playerUid> <prototypeId>
+cmd-givefeedbackpopup-help = Usage: givefeedbackpopup <playerUid> <prototypeId>
 cmd-showfeedbackpopup-desc = 開啟回饋彈出視窗。
 cmd-showfeedbackpopup-help = 用法：showfeedbackpopup
 feedbackpopup-command-error-invalid-proto = 無效的回饋彈出視窗原型。
@@ -6312,8 +6332,8 @@ bucket-component-mop-is-now-dry-message = 拖把現在已經乾了
 drain-component-empty-verb-using-is-empty-message = { CAPITALIZE(THE($object)) } is empty!
 drain-component-empty-verb-target-is-full-message = { CAPITALIZE(THE($object)) } 已滿！
 drain-component-empty-verb-inhand = 空 { $object }
-drain-component-examine-hint-full = [color="blue"]已經滿到邊緣了。或許用吸盤能派上用場？[/color]
-drain-component-examine-volume = [color="blue"]剩餘空間 - { $volume }u.[/color]
+drain-component-examine-hint-full = { "[" }color="blue"]已經滿到邊緣了。或許用吸盤能派上用場？[/color]
+drain-component-examine-volume = { "[" }color="blue"]剩餘空間 - { $volume }u.[/color]
 drain-component-unclog-fail = { CAPITALIZE(THE($object)) } 仍然是全大寫。
 drain-component-unclog-success = { CAPITALIZE(THE($object)) } 疏通。
 drain-component-unclog-notapplicable = { CAPITALIZE(THE($object)) } 並未堵塞。
@@ -6422,12 +6442,12 @@ changeling-role-greeting =
 changeling-briefing =
     你是個變形者。
     你能夠利用並假扮那些被你吞噬之人的身分，以此逃脫悲慘的命運。
-objective-issuer-changeling = [color=#FA2A55]《群智》[/color]
+objective-issuer-changeling = { "[" }color=#FA2A55]《群智》[/color]
 changeling-round-end-agent-name = 換子
 death-match-title = 死亡對決
 death-match-description = 殺光所有會動的東西！不接受一般性的角色扮演。率先累積到 31 分的玩家獲勝！
-death-match-name-player = [bold]{ $name }[/bold] ([italic]{ $username }[/italic])
-death-match-name-npc = [bold]{ $name }[/bold]
+death-match-name-player = { "[" }bold]{ $name }[/bold] ([italic]{ $username }[/italic])
+death-match-name-npc = { "[" }bold]{ $name }[/bold]
 death-match-assist = { $primary }，由 { $secondary } 協助，
 death-match-kill-callout-0 = { CAPITALIZE($killer) } 謀殺了 { $victim }！
 death-match-kill-callout-1 = { CAPITALIZE($killer) } 已移除 { $victim }！
@@ -6511,11 +6531,11 @@ nukeops-welcome =
     你是一名核武特工。你的目標是炸毀 { $station }，並確保它徹底化為一片廢墟。你的上司——「辛迪加」——已為你提供了執行這項任務所需的工具。
     「行動 { $name }」正式啟動！納諾特拉森，去死吧！
 nukeops-briefing = 你的目標很簡單：運送有效載荷，並在有效載荷引爆前撤離。開始任務。
-nukeops-opsmajor = [color=crimson]「辛迪加」大獲全勝！[/color]
-nukeops-opsminor = [color=crimson]「辛迪加」取得小勝！[/color]
-nukeops-neutral = [color=yellow]中立結果！[/color]
-nukeops-crewminor = [color=green]船員們取得了一場小勝利！[/color]
-nukeops-crewmajor = [color=green]船隊大獲全勝！[/color]
+nukeops-opsmajor = { "[" }color=crimson]「辛迪加」大獲全勝！[/color]
+nukeops-opsminor = { "[" }color=crimson]「辛迪加」取得小勝！[/color]
+nukeops-neutral = { "[" }color=yellow]中立結果！[/color]
+nukeops-crewminor = { "[" }color=green]船員們取得了一場小勝利！[/color]
+nukeops-crewmajor = { "[" }color=green]船隊大獲全勝！[/color]
 nukeops-cond-nukeexplodedoncorrectstation = 核武特工成功炸毀了該站。
 nukeops-cond-nukeexplodedonnukieoutpost = 這個核武行動前哨站遭核爆摧毀了！
 nukeops-cond-nukeexplodedonincorrectlocation = 那顆核彈在站外引爆了。
@@ -6578,18 +6598,20 @@ rev-headrev-count =
         [one] 有一位革命領袖：
        *[other] 有 { $initialCount } 位革命領袖：
     }
-rev-headrev-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) converted { $count } { $count ->
+rev-headrev-name-user =
+    { "[" }color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) converted { $count } { $count ->
         [one] person
        *[other] people
     }
-rev-headrev-name = [color=#5e9cff]{ $name }[/color] 轉換為 { $count } { $count ->
+rev-headrev-name =
+    { "[" }color=#5e9cff]{ $name }[/color] 轉換為 { $count } { $count ->
         [one] 人
        *[other] 人
     }
 rev-deconverted-title = 脫教了！
 rev-deconverted-text =
     隨著最後一位革命領袖的離世，革命已告終結。
-    
+
     你已不再是革命者，所以請表現得體一點。
 rev-deconverted-confirm = 確認
 sandbox-title = 沙盒
@@ -6611,12 +6633,12 @@ thief-role-greeting-animal =
     你是一隻有偷竊癖的動物。
     偷你喜歡的東西吧。
 thief-role-greeting-equipment = 你隨身攜帶一袋竊賊工具，並天生具備不被察覺的行竊能力。選擇你的起始裝備，然後悄無聲息地展開行動吧。
-objective-issuer-thief = [color=#746694]罪犯[/color]
+objective-issuer-thief = { "[" }color=#746694]罪犯[/color]
 thief-round-end-agent-name = 小偷
 traitor-round-end-codewords = 密碼詞如下：[color=White]{ $codewords }[/color]
 traitor-round-end-agent-name = 叛徒
-objective-issuer-syndicate = [color=crimson]「辛迪加」[/color]
-objective-issuer-unknown = [color=white]未知[/color]
+objective-issuer-syndicate = { "[" }color=crimson]「辛迪加」[/color]
+objective-issuer-unknown = { "[" }color=white]未知[/color]
 traitor-title = 叛徒
 traitor-description = 我們當中藏有叛徒……
 traitor-not-enough-ready-players = 準備好參戰的玩家人數不足！在所需的 { $minimumPlayers } 名玩家中，僅有 { $readyPlayersCount } 名已做好準備。無法開始「叛徒」模式。
@@ -6657,20 +6679,20 @@ survivor-role-greeting =
     不要相信任何人。
 survivor-round-end-dead-count =
     { $deadCount ->
-        [one] [color=red]{ $deadCount }[/color] 名倖存者死亡。
-       *[other] [color=red]{ $deadCount }[/color] 名倖存者死亡。
+        [one] { "[" }color=red]{ $deadCount }[/color] 名倖存者死亡。
+       *[other] { "[" }color=red]{ $deadCount }[/color] 名倖存者死亡。
     }
 survivor-round-end-alive-count =
     { $aliveCount ->
-        [one] [color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
-       *[other] [color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
+        [one] { "[" }color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
+       *[other] { "[" }color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
     }
 survivor-round-end-alive-on-shuttle-count =
     { $aliveCount ->
-        [one] [color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
-       *[other] [color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
+        [one] { "[" }color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
+       *[other] { "[" }color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
     }
-objective-issuer-swf = [color=turquoise]太空巫師聯盟[/color]
+objective-issuer-swf = { "[" }color=turquoise]太空巫師聯盟[/color]
 wizard-title = 巫師
 wizard-description = 太空站裡有個巫師！你永遠不知道他們會幹出什麼事。
 roles-antag-wizard-name = 巫師
@@ -6685,11 +6707,11 @@ xenoborgs-description = 在太空站附近偵測到一艘外星機器人母艦�
 xenoborgs-welcome = 你是外星博格。保護並協助母艦核心製造更多外星機器人，並最終將所有碳基生命體轉化為矽基生命體。
 mothership-welcome = 你是母艦的核心。引導異種機器人，讓牠們為你運來原料與有意識的大腦，如此一來，你便能擴充異種機器人軍隊，並將所有碳基生命體轉化為矽基生命體。
 xenoborg-shuttle-call = 我們已偵測到外星博格人已佔領該站。現正派遣一艘緊急接駁船，將剩餘人員撤離。
-xenoborgs-borgsmajor = [color=deepskyblue]Xenoborg 取得重大勝利！[/color]
-xenoborgs-borgsminor = [color=deepskyblue]Xenoborg 取得小勝！[/color]
-xenoborgs-neutral = [color=white]中立結果！[/color]
-xenoborgs-crewminor = [color=yellow]船員們取得了一場小勝利！[/color]
-xenoborgs-crewmajor = [color=yellow]船隊大獲全勝！[/color]
+xenoborgs-borgsmajor = { "[" }color=deepskyblue]Xenoborg 取得重大勝利！[/color]
+xenoborgs-borgsminor = { "[" }color=deepskyblue]Xenoborg 取得小勝！[/color]
+xenoborgs-neutral = { "[" }color=white]中立結果！[/color]
+xenoborgs-crewminor = { "[" }color=yellow]船員們取得了一場小勝利！[/color]
+xenoborgs-crewmajor = { "[" }color=yellow]船隊大獲全勝！[/color]
 xenoborgs-cond-all-xenoborgs-dead-core-alive = 所有異星博格均已被摧毀。母艦的核心仍漂浮在太空中。
 xenoborgs-cond-all-xenoborgs-dead-core-dead = 母艦的核心已被摧毀，且已沒有任何異種博格存活。
 xenoborg-number-xenoborg-alive-end = 尚存的外星博格數量：{ $count }
@@ -6715,11 +6737,11 @@ zombie-round-end-initial-count =
        *[other] 最初有 { $initialCount } 名感染者：
     }
 zombie-round-end-user-was-initial = - [color=plum]{ $name }[/color] ([color=gray]{ $username }[/color]) 是首批感染者之一。
-zombie-round-end-amount-none = [color=green]所有殭屍都被消滅了！[/color]
-zombie-round-end-amount-low = [color=green]幾乎所有的殭屍都被消滅了。[/color]
-zombie-round-end-amount-medium = [color=yellow]{ $percent }% 的船員變成了殭屍。[/color]
-zombie-round-end-amount-high = [color=crimson]船員中有 { $percent }% 變成了殭屍。[/color]
-zombie-round-end-amount-all = [color=darkred]全體船員都變成殭屍了！[/color]
+zombie-round-end-amount-none = { "[" }color=green]所有殭屍都被消滅了！[/color]
+zombie-round-end-amount-low = { "[" }color=green]幾乎所有的殭屍都被消滅了。[/color]
+zombie-round-end-amount-medium = { "[" }color=yellow]{ $percent }% 的船員變成了殭屍。[/color]
+zombie-round-end-amount-high = { "[" }color=crimson]船員中有 { $percent }% 變成了殭屍。[/color]
+zombie-round-end-amount-all = { "[" }color=darkred]全體船員都變成殭屍了！[/color]
 zombie-round-end-survivor-count =
     { $count ->
         [one] 只剩下一名倖存者：
@@ -6776,7 +6798,7 @@ game-ticker-get-info-preround-text =
     當前地圖為：[color=white]{ $mapName }[/color]
     當前遊戲模式為：[color=white]{ $gmTitle }[/color]
     >[color=yellow]{ $desc }[/color]
-game-ticker-no-map-selected = [color=yellow]尚未選取地圖！[/color]
+game-ticker-no-map-selected = { "[" }color=yellow]尚未選取地圖！[/color]
 game-ticker-player-no-jobs-available-when-joining = 嘗試加入遊戲時，沒有可選的職務。
 # 當玩家加入時，在聊天視窗中向管理員顯示的訊息：
 player-join-message = 玩家 { $name } 已加入。
@@ -6796,10 +6818,10 @@ game-run-level-PreRoundLobby = 回合前等候室
 game-run-level-InRound = 回合中
 game-run-level-PostRound = 回合後
 set-game-preset-command-description = 設定接下來指定輪數的遊戲預設方案。亦可在大廳中顯示其他預設方案的標題與說明，藉此誤導玩家。
-set-game-preset-command-help-text = setgamepreset<id> [回合數，預設為 1] [誘餌預設]
+set-game-preset-command-help-text = setgamepreset <id> [number of rounds, defaulting to 1] [decoy preset]
 set-game-preset-command-hint-1 = <id>
-set-game-preset-command-hint-2 = [回合數]
-set-game-preset-command-hint-3 = [誘餌預設]
+set-game-preset-command-hint-2 = { "[" }回合數]
+set-game-preset-command-hint-3 = { "[" }誘餌預設]
 set-game-preset-optional-argument-not-integer = 若提供第 2 個參數，則該參數必須為一個數字。
 set-game-preset-preset-error = 找不到遊戲預設「{ $preset }」
 set-game-preset-decoy-error = 若提供第 3 個參數，則該參數必須為有效的預設設定。無法找到遊戲預設設定「{ $preset }」
@@ -6837,7 +6859,7 @@ ghost-gui-toggle-hearing-popup-on = 現在您可以收聽所有訊息了。
 ghost-gui-toggle-hearing-popup-off = 現在您只能收聽廣播和附近發送的訊息。
 ghost-target-window-title = 幽靈傳送
 ghost-target-window-current-button = 傳送：{ $name }
-ghost-target-window-warp-to-title = [bold]快速傳送[/bold]
+ghost-target-window-warp-to-title = { "[" }bold]快速傳送[/bold]
 ghost-target-window-warp-to-most-followed = 追蹤人數最多
 ghost-target-window-warp-to-random-followed = 隨機追蹤
 ghost-target-window-warp-to-random = 隨機
@@ -7144,14 +7166,14 @@ ghost-role-information-emotional-support-scurret-name = 情感支持 斯庫雷�
 ghost-role-information-emotional-support-scurret-description = 支持工作團隊，表現得可愛一點，多說幾句「哇」。
 ghostrole-spawner-select = 已選取：{ $mode }
 make-ghost-role-verb-get-data-text = 建立「幽靈」角色
-spooky-speaker-generic-1 = ...ooOoooOOoooo...
+spooky-speaker-generic-1 = { "." }..ooOoooOOoooo...
 spooky-speaker-generic-2 = ……有人聽得到我嗎……？
-spooky-speaker-generic-3 = ...加入我們...
+spooky-speaker-generic-3 = { "." }..加入我們...
 spooky-speaker-generic-4 = ……來跟我們一起玩吧……
 spooky-speaker-generic-5 = KkkhhkhKhhkhkKk
 spooky-speaker-generic-6 = Khhggkkghkk
 spooky-speaker-generic-7 = khhkkkkKkhkkHk
-spooky-speaker-generic-8 = ...
+spooky-speaker-generic-8 = { "." }..
 spooky-speaker-generic-9 = ……呃……呃……喂……？……
 spooky-speaker-generic-10 = 嗡——
 spooky-speaker-generic-11 = 唉
@@ -7189,9 +7211,9 @@ guardian-no-soul = 你的守護者沒有靈魂。
 guardian-available = 你的守護者現在擁有了一顆靈魂。
 guardian-inside-container = 沒有空間釋放你的守護者！
 guardian-injector-empty-invalid-creation = 噴油嘴已報廢。
-guardian-injector-empty-examine = [color=#ba1919]噴油嘴已損壞。[/color]
+guardian-injector-empty-examine = { "[" }color=#ba1919]噴油嘴已損壞。[/color]
 guardian-deck-invalid-creation = 這副牌一次只能提供一位守護者！
-guardian-deck-used-examine = [color=#ba1919]這副牌的魔法已經用盡了。[/color]
+guardian-deck-used-examine = { "[" }color=#ba1919]這副牌的魔法已經用盡了。[/color]
 guardian-entity-recall = 守護者倏然消失得無影無蹤！
 guardian-entity-taking-damage = 你的守護者正在受到傷害！
 guardian-host-critical-warn = 你的主持人受傷了！
@@ -7206,22 +7228,22 @@ guidebook-reagent-effect-description =
         [1] { $effect }
        *[other] Has a { NATURALPERCENT($chance, 2) } chance to { $effect }
     }{ $conditionCount ->
-        [0] .
+        [0] { "." }
        *[other] { " " }when { $conditions }.
     }
-guidebook-reagent-name = [bold][color={ $color }]{ CAPITALIZE($name) }[/color][/bold]
+guidebook-reagent-name = { "[" }bold][color={ $color }]{ CAPITALIZE($name) }[/color][/bold]
 guidebook-reagent-recipes-header = 配方
-guidebook-reagent-recipes-reagent-display = [bold]{ $reagent }[/bold] \[{ $ratio }\]
+guidebook-reagent-recipes-reagent-display = { "[" }bold]{ $reagent }[/bold] \[{ $ratio }\]
 guidebook-reagent-sources-header = 資料來源
-guidebook-reagent-sources-ent-wrapper = [bold]{ $name }[/bold] \[1\]
-guidebook-reagent-sources-gas-wrapper = [bold]{ $name } (gas)[/bold] \[1\]
+guidebook-reagent-sources-ent-wrapper = { "[" }bold]{ $name }[/bold] \[1\]
+guidebook-reagent-sources-gas-wrapper = { "[" }bold]{ $name } (gas)[/bold] \[1\]
 guidebook-reagent-effects-header = 效果
-guidebook-reagent-effects-metabolism-stage-rate = [bold]{ $stage }[/bold] [color=gray]({ $rate } 單位/秒)[/color]
+guidebook-reagent-effects-metabolism-stage-rate = { "[" }bold]{ $stage }[/bold] [color=gray]({ $rate } 單位/秒)[/color]
 guidebook-reagent-effects-metabolite-item = { $reagent } 按 { NATURALPERCENT($rate, 2) } 的比率
 guidebook-reagent-effects-metabolites = 代謝後轉化為 { $items }。
 guidebook-reagent-plant-metabolisms-header = 植物代謝
-guidebook-reagent-plant-metabolisms-rate = [bold]植物代謝[/bold] [color=gray](基礎值為每 3 秒 1 單位)[/color]
-guidebook-reagent-physical-description = [italic]看來是 { $description }。[/italic]
+guidebook-reagent-plant-metabolisms-rate = { "[" }bold]植物代謝[/bold] [color=gray](基礎值為每 3 秒 1 單位)[/color]
+guidebook-reagent-physical-description = { "[" }italic]看來是 { $description }。[/italic]
 guidebook-reagent-recipes-mix-info =
     { $minTemp ->
         [0]
@@ -7264,13 +7286,13 @@ guidebook-microwave-cook-time-header = 烹飪時間
 guidebook-microwave-cook-time =
     { $time ->
         [0] Instant
-        [1] [bold]1[/bold] second
-       *[other] [bold]{ $time }[/bold] seconds
+        [1] { "[" }bold]1[/bold] second
+       *[other] { "[" }bold]{ $time }[/bold] seconds
     }
-guidebook-microwave-reagent-color-display = [color={ $color }]■[/color]
-guidebook-microwave-reagent-name-display = [bold]{ $reagent }[/bold]
+guidebook-microwave-reagent-color-display = { "[" }color={ $color }]■[/color]
+guidebook-microwave-reagent-name-display = { "[" }bold]{ $reagent }[/bold]
 guidebook-microwave-reagent-quantity-display = × { $amount }u
-guidebook-microwave-solid-name-display = [bold]{ $ingredient }[/bold]
+guidebook-microwave-solid-name-display = { "[" }bold]{ $ingredient }[/bold]
 guidebook-microwave-solid-quantity-display = × { $amount }
 entity-condition-guidebook-total-damage =
     { $max ->
@@ -7807,8 +7829,8 @@ entity-effect-guidebook-plant-attribute =
         [1] 調整
        *[other] 調整
     } { $attribute } 由 { $positive ->
-        [false] [color=red]{ $amount }[/color]
-       *[true] [color=green]{ $amount }[/color]
+        [false] { "[" }color=red]{ $amount }[/color]
+       *[true] { "[" }color=green]{ $amount }[/color]
     }
 entity-effect-guidebook-plant-cryoxadone =
     { $chance ->
@@ -7867,8 +7889,8 @@ entity-effect-disarm =
     } 該實體
 health-change-display =
     { $deltasign ->
-        [-1] [color=green]{ NATURALFIXED($amount, 2) }[/color] { $kind }
-       *[1] [color=red]{ NATURALFIXED($amount, 2) }[/color] { $kind }
+        [-1] { "[" }color=green]{ NATURALFIXED($amount, 2) }[/color] { $kind }
+       *[1] { "[" }color=red]{ NATURALFIXED($amount, 2) }[/color] { $kind }
     }
 entity-effect-status-effect-Stun = stunning
 entity-effect-status-effect-KnockedDown = 擊倒
@@ -8118,8 +8140,8 @@ comp-hands-examine-empty = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) 
 comp-hands-examine-wrapper = { INDEFINITE($item) } [color=paleturquoise]{ $item }[/color]
 hands-system-blocked-by = 被……擋住
 # Chat window radio wrap (prefix and postfix)
-chat-radio-message-wrap = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }]{ chat-manager-speech-double-quote-begin }{ $message }{ chat-manager-speech-double-quote-end }[/font][/color]
-chat-radio-message-wrap-bold = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }][bold]{ chat-manager-speech-double-quote-begin }{ $message }{ chat-manager-speech-double-quote-end }[/bold][/font][/color]
+chat-radio-message-wrap = { "[" }color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }]{ chat-manager-speech-double-quote-begin }{ $message }{ chat-manager-speech-double-quote-end }[/font][/color]
+chat-radio-message-wrap-bold = { "[" }color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }][bold]{ chat-manager-speech-double-quote-begin }{ $message }{ chat-manager-speech-double-quote-end }[/bold][/font][/color]
 examine-headset-default-channel = 請使用 { $prefix } 設定預設頻道 ([color={ $color }]{ $channel }[/color])。
 chat-radio-common = 公頻
 chat-radio-centcom = 中央司令部
@@ -8138,73 +8160,73 @@ chat-radio-binary = 二進位
 chat-radio-xenoborg = Xenoborg
 chat-radio-mothership = 母體
 health-examinable-carbon-none = 沒有明顯的傷口可見。
-health-examinable-carbon-Slash-8 = [color=#EFEFEF]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一處表皮割傷。[/color]
-health-examinable-carbon-Slash-15 = [color=#CED2D1]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一些小傷口。[/color]
-health-examinable-carbon-Slash-30 = [color=#AEB5B5]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 幾道相當深的裂口。[/color]
-health-examinable-carbon-Slash-50 = [color=#99A2A1]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 橫亙於 { POSS-ADJ($target) } 身體上的深切傷口。[/color]
-health-examinable-carbon-Slash-75 = [color=#798685]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 身體上布滿了呈鋸齒狀、深達皮肉的撕裂傷，橫亙於 { POSS-ADJ($target) } 身體之上。[/color]
-health-examinable-carbon-Slash-100 = [color=#647372]{ CAPITALIZE(POSS-ADJ($target)) } 屍體看起來血肉橫飛、慘不忍睹。[/color]
-health-examinable-carbon-Slash-200 = [color=#485B59]{ CAPITALIZE(POSS-ADJ($target)) } 車身被徹底撕得粉碎！[/color]
-health-examinable-carbon-Blunt-8 = [color=#FFA8A8]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一處輕微的外傷。[/color]
-health-examinable-carbon-Blunt-15 = [color=#FF8787]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一些外傷。[/color]
-health-examinable-carbon-Blunt-30 = [color=#FF6868]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 遭到毆打。[/color]
-health-examinable-carbon-Blunt-50 = [color=#FF5555]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 遭到嚴重毆打。[/color]
-health-examinable-carbon-Blunt-75 = [color=#FF3636]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 全身 { POSS-ADJ($target) } 多處嚴重鈍性創傷。[/color]
-health-examinable-carbon-Blunt-100 = [color=#FF2121]{ CAPITALIZE(POSS-ADJ($target)) } 屍體面目全非，且遭嚴重毆打。[/color]
-health-examinable-carbon-Blunt-200 = [color=#FF0000]{ CAPITALIZE(POSS-ADJ($target)) } 車身根本被撞得稀巴爛！[/color]
-health-examinable-carbon-Piercing-8 = [color=#E1E0C2]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一處輕微的穿刺傷。[/color]
-health-examinable-carbon-Piercing-15 = [color=#DED9A7]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 幾處穿刺傷。[/color]
-health-examinable-carbon-Piercing-30 = [color=#D9D38A]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 多處深層穿刺傷。[/color]
-health-examinable-carbon-Piercing-50 = [color=#D6D177]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 身體上有多處深可見骨的穿刺傷 { POSS-ADJ($target) }。[/color]
-health-examinable-carbon-Piercing-75 = [color=#D3CA5B]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 遍佈 { POSS-ADJ($target) } 身體上的廣泛、深且參差不齊的撕裂傷。[/color]
-health-examinable-carbon-Piercing-100 = [color=#D1C848]{ CAPITALIZE(POSS-ADJ($target)) } 車身完全布滿了巨大且張開的孔洞。[/color]
-health-examinable-carbon-Piercing-200 = [color=#d6c800]{ CAPITALIZE(POSS-ADJ($target)) } 正文看起來被撕得粉碎！[/color]
-health-examinable-carbon-Asphyxiation-30 = [color=#7DBACE]{ CAPITALIZE(POSS-ADJ($target)) } 嘴唇正變藍了。[/color]
-health-examinable-carbon-Asphyxiation-75 = [color=#189FCC]{ CAPITALIZE(POSS-ADJ($target)) } 臉色正變得發青。[/color]
-health-examinable-carbon-Heat-8 = [color=#C8917A]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 輕微燒傷。[/color]
-health-examinable-carbon-Heat-15 = [color=#D38664]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 幾處一級燒傷。[/color]
-health-examinable-carbon-Heat-30 = [color=#DF7B50]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一些二度燒傷。[/color]
-health-examinable-carbon-Heat-50 = [color=#E87441]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 全身佈滿二度燒傷。[/color]
-health-examinable-carbon-Heat-75 = [color=#F4682D]{ CAPITALIZE(POSS-ADJ($target)) } 身體遍佈嚴重的三度燒傷。[/color]
-health-examinable-carbon-Heat-100 = [color=#FC611E]{ CAPITALIZE(POSS-ADJ($target)) } 全身大面積遭受四度燒傷。[/color]
-health-examinable-carbon-Heat-200 = [color=#CF5825]{ CAPITALIZE(POSS-ADJ($target)) } 車身已經完全燒得焦黑！[/color]
-health-examinable-carbon-Shock-15 = [color=#F0EBC0]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 表皮有輕微焦痕。[/color]
-health-examinable-carbon-Shock-30 = [color=#F3E892]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 刻劃於 { POSS-ADJ($target) } 身體之上。[/color]
-health-examinable-carbon-Shock-50 = [color=#F6E669]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 身體 { POSS-ADJ($target) } 各處均出現嚴重焦痕。[/color]
-health-examinable-carbon-Shock-75 = [color=#F8E550]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 遍佈 { POSS-ADJ($target) } 全身的巨大、焦黑傷口。[/color]
-health-examinable-carbon-Shock-100 = [color=#FBE329]{ CAPITALIZE(POSS-ADJ($target)) } 軀體上布滿了嚴重的電灼傷！[/color]
-health-examinable-carbon-Shock-200 = [color=#FFA100]{ CAPITALIZE(POSS-ADJ($target)) } 機身完全燒毀了！[/color]
-health-examinable-carbon-Cold-8 = [color=#C6FDFA]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 四肢末端出現輕微凍傷。[/color]
-health-examinable-carbon-Cold-15 = [color=#B1D9ED]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 四肢末端出現一級凍傷。[/color]
-health-examinable-carbon-Cold-30 = [color=#9CB4DD]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 四肢出現二度凍傷。[/color]
-health-examinable-carbon-Cold-50 = [color=#8E9AD3]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 四肢 { POSS-ADJ($target) } 出現三級嚴重凍傷。[/color]
-health-examinable-carbon-Cold-75 = [color=#7673C4]{ CAPITALIZE(POSS-ADJ($target)) } 四肢呈暗色、冰冷且已壞死。[/color]
-health-examinable-carbon-Cold-100 = [color=#695BBB]{ CAPITALIZE(POSS-ADJ($target)) } 全身大面積遭受四度凍傷。[/color]
-health-examinable-carbon-Cold-200 = [color=#5B4CB4]{ CAPITALIZE(POSS-ADJ($target)) } 車身已凍得像石頭一樣硬！[/color]
-health-examinable-carbon-Caustic-8 = [color=#F0C5E8]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚看起來有些褪色了。[/color]
-health-examinable-carbon-Caustic-15 = [color=#FAAFDD]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚看起來有發炎且褪色的跡象。[/color]
-health-examinable-carbon-Caustic-30 = [color=#FF9CD2]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚發炎並開始脫落。[color][/color]
-health-examinable-carbon-Caustic-50 = [color=#FF8ECB]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚被曬傷，並大片大片地脫落。[/color]
-health-examinable-carbon-Caustic-75 = [color=#FF7CC0]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚嚴重灼傷，並正在脫落。[/color]
-health-examinable-carbon-Caustic-100 = [color=#FF6FBA]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 全身 { POSS-ADJ($target) } 遭受嚴重化學燒傷。[/color]
-health-examinable-carbon-Caustic-200 = [color=#FF5993]{ POSS-ADJ($target) } 的身體大部分已經完全融化了！[/color]
-health-examinable-carbon-Radiation-50 = [color=#C6834B]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚上已形成大片水泡。[/color]
-health-examinable-carbon-Radiation-100 = [color=#E26804]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚布滿病灶，並成塊地脫落。[/color]
+health-examinable-carbon-Slash-8 = { "[" }color=#EFEFEF]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一處表皮割傷。[/color]
+health-examinable-carbon-Slash-15 = { "[" }color=#CED2D1]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一些小傷口。[/color]
+health-examinable-carbon-Slash-30 = { "[" }color=#AEB5B5]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 幾道相當深的裂口。[/color]
+health-examinable-carbon-Slash-50 = { "[" }color=#99A2A1]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 橫亙於 { POSS-ADJ($target) } 身體上的深切傷口。[/color]
+health-examinable-carbon-Slash-75 = { "[" }color=#798685]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 身體上布滿了呈鋸齒狀、深達皮肉的撕裂傷，橫亙於 { POSS-ADJ($target) } 身體之上。[/color]
+health-examinable-carbon-Slash-100 = { "[" }color=#647372]{ CAPITALIZE(POSS-ADJ($target)) } 屍體看起來血肉橫飛、慘不忍睹。[/color]
+health-examinable-carbon-Slash-200 = { "[" }color=#485B59]{ CAPITALIZE(POSS-ADJ($target)) } 車身被徹底撕得粉碎！[/color]
+health-examinable-carbon-Blunt-8 = { "[" }color=#FFA8A8]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一處輕微的外傷。[/color]
+health-examinable-carbon-Blunt-15 = { "[" }color=#FF8787]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一些外傷。[/color]
+health-examinable-carbon-Blunt-30 = { "[" }color=#FF6868]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 遭到毆打。[/color]
+health-examinable-carbon-Blunt-50 = { "[" }color=#FF5555]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 遭到嚴重毆打。[/color]
+health-examinable-carbon-Blunt-75 = { "[" }color=#FF3636]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 全身 { POSS-ADJ($target) } 多處嚴重鈍性創傷。[/color]
+health-examinable-carbon-Blunt-100 = { "[" }color=#FF2121]{ CAPITALIZE(POSS-ADJ($target)) } 屍體面目全非，且遭嚴重毆打。[/color]
+health-examinable-carbon-Blunt-200 = { "[" }color=#FF0000]{ CAPITALIZE(POSS-ADJ($target)) } 車身根本被撞得稀巴爛！[/color]
+health-examinable-carbon-Piercing-8 = { "[" }color=#E1E0C2]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一處輕微的穿刺傷。[/color]
+health-examinable-carbon-Piercing-15 = { "[" }color=#DED9A7]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 幾處穿刺傷。[/color]
+health-examinable-carbon-Piercing-30 = { "[" }color=#D9D38A]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 多處深層穿刺傷。[/color]
+health-examinable-carbon-Piercing-50 = { "[" }color=#D6D177]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 身體上有多處深可見骨的穿刺傷 { POSS-ADJ($target) }。[/color]
+health-examinable-carbon-Piercing-75 = { "[" }color=#D3CA5B]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 遍佈 { POSS-ADJ($target) } 身體上的廣泛、深且參差不齊的撕裂傷。[/color]
+health-examinable-carbon-Piercing-100 = { "[" }color=#D1C848]{ CAPITALIZE(POSS-ADJ($target)) } 車身完全布滿了巨大且張開的孔洞。[/color]
+health-examinable-carbon-Piercing-200 = { "[" }color=#d6c800]{ CAPITALIZE(POSS-ADJ($target)) } 正文看起來被撕得粉碎！[/color]
+health-examinable-carbon-Asphyxiation-30 = { "[" }color=#7DBACE]{ CAPITALIZE(POSS-ADJ($target)) } 嘴唇正變藍了。[/color]
+health-examinable-carbon-Asphyxiation-75 = { "[" }color=#189FCC]{ CAPITALIZE(POSS-ADJ($target)) } 臉色正變得發青。[/color]
+health-examinable-carbon-Heat-8 = { "[" }color=#C8917A]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 輕微燒傷。[/color]
+health-examinable-carbon-Heat-15 = { "[" }color=#D38664]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 幾處一級燒傷。[/color]
+health-examinable-carbon-Heat-30 = { "[" }color=#DF7B50]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 一些二度燒傷。[/color]
+health-examinable-carbon-Heat-50 = { "[" }color=#E87441]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BE($target) } 全身佈滿二度燒傷。[/color]
+health-examinable-carbon-Heat-75 = { "[" }color=#F4682D]{ CAPITALIZE(POSS-ADJ($target)) } 身體遍佈嚴重的三度燒傷。[/color]
+health-examinable-carbon-Heat-100 = { "[" }color=#FC611E]{ CAPITALIZE(POSS-ADJ($target)) } 全身大面積遭受四度燒傷。[/color]
+health-examinable-carbon-Heat-200 = { "[" }color=#CF5825]{ CAPITALIZE(POSS-ADJ($target)) } 車身已經完全燒得焦黑！[/color]
+health-examinable-carbon-Shock-15 = { "[" }color=#F0EBC0]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 表皮有輕微焦痕。[/color]
+health-examinable-carbon-Shock-30 = { "[" }color=#F3E892]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 刻劃於 { POSS-ADJ($target) } 身體之上。[/color]
+health-examinable-carbon-Shock-50 = { "[" }color=#F6E669]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 身體 { POSS-ADJ($target) } 各處均出現嚴重焦痕。[/color]
+health-examinable-carbon-Shock-75 = { "[" }color=#F8E550]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 遍佈 { POSS-ADJ($target) } 全身的巨大、焦黑傷口。[/color]
+health-examinable-carbon-Shock-100 = { "[" }color=#FBE329]{ CAPITALIZE(POSS-ADJ($target)) } 軀體上布滿了嚴重的電灼傷！[/color]
+health-examinable-carbon-Shock-200 = { "[" }color=#FFA100]{ CAPITALIZE(POSS-ADJ($target)) } 機身完全燒毀了！[/color]
+health-examinable-carbon-Cold-8 = { "[" }color=#C6FDFA]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 四肢末端出現輕微凍傷。[/color]
+health-examinable-carbon-Cold-15 = { "[" }color=#B1D9ED]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 四肢末端出現一級凍傷。[/color]
+health-examinable-carbon-Cold-30 = { "[" }color=#9CB4DD]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 四肢出現二度凍傷。[/color]
+health-examinable-carbon-Cold-50 = { "[" }color=#8E9AD3]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 四肢 { POSS-ADJ($target) } 出現三級嚴重凍傷。[/color]
+health-examinable-carbon-Cold-75 = { "[" }color=#7673C4]{ CAPITALIZE(POSS-ADJ($target)) } 四肢呈暗色、冰冷且已壞死。[/color]
+health-examinable-carbon-Cold-100 = { "[" }color=#695BBB]{ CAPITALIZE(POSS-ADJ($target)) } 全身大面積遭受四度凍傷。[/color]
+health-examinable-carbon-Cold-200 = { "[" }color=#5B4CB4]{ CAPITALIZE(POSS-ADJ($target)) } 車身已凍得像石頭一樣硬！[/color]
+health-examinable-carbon-Caustic-8 = { "[" }color=#F0C5E8]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚看起來有些褪色了。[/color]
+health-examinable-carbon-Caustic-15 = { "[" }color=#FAAFDD]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚看起來有發炎且褪色的跡象。[/color]
+health-examinable-carbon-Caustic-30 = { "[" }color=#FF9CD2]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚發炎並開始脫落。[color][/color]
+health-examinable-carbon-Caustic-50 = { "[" }color=#FF8ECB]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚被曬傷，並大片大片地脫落。[/color]
+health-examinable-carbon-Caustic-75 = { "[" }color=#FF7CC0]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚嚴重灼傷，並正在脫落。[/color]
+health-examinable-carbon-Caustic-100 = { "[" }color=#FF6FBA]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 全身 { POSS-ADJ($target) } 遭受嚴重化學燒傷。[/color]
+health-examinable-carbon-Caustic-200 = { "[" }color=#FF5993]{ POSS-ADJ($target) } 的身體大部分已經完全融化了！[/color]
+health-examinable-carbon-Radiation-50 = { "[" }color=#C6834B]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚上已形成大片水泡。[/color]
+health-examinable-carbon-Radiation-100 = { "[" }color=#E26804]{ CAPITALIZE(POSS-ADJ($target)) } 皮膚布滿病灶，並成塊地脫落。[/color]
 health-examinable-verb-text = Health
 health-examinable-verb-disabled = 在近距離進行基本健康檢查。
 health-examinable-silicon-none = 沒有明顯的損壞跡象。
-health-examinable-silicon-Blunt-15 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 底盤上有些微凹痕 { POSS-ADJ($target) }。[/color]
-health-examinable-silicon-Blunt-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 車架嚴重凹陷！[/color]
-health-examinable-silicon-Blunt-100 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 車架幾乎完全塌陷了！[/color]
-health-examinable-silicon-Slash-8 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 有些輕微刮痕。[/color]
-health-examinable-silicon-Slash-30 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 機身上有明顯的刮痕。[/color]
-health-examinable-silicon-Slash-75 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 鍍層上布滿了巨大的裂痕！[/color]
-health-examinable-silicon-Slash-100 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 底盤被撕爛了！[/color]
-health-examinable-silicon-Piercing-50 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 底盤上到處都是 { POSS-ADJ($target) } 大洞！[/color]
-health-examinable-silicon-Heat-15 = [color=orange]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 車體{ POSS-ADJ($target) } 處出現表淺燒傷。[/color]
-health-examinable-silicon-Heat-50 = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 底盤嚴重焦黑。[/color]
-health-examinable-silicon-Heat-75 = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 底盤部分熔化了！[/color]
-health-examinable-silicon-Shock-50 = [color=lightgoldenrodyellow]{ CAPITALIZE(POSS-ADJ($target)) } 電路似乎部分燒壞了！[/color]
+health-examinable-silicon-Blunt-15 = { "[" }color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 底盤上有些微凹痕 { POSS-ADJ($target) }。[/color]
+health-examinable-silicon-Blunt-50 = { "[" }color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 車架嚴重凹陷！[/color]
+health-examinable-silicon-Blunt-100 = { "[" }color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 車架幾乎完全塌陷了！[/color]
+health-examinable-silicon-Slash-8 = { "[" }color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 有些輕微刮痕。[/color]
+health-examinable-silicon-Slash-30 = { "[" }color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 機身上有明顯的刮痕。[/color]
+health-examinable-silicon-Slash-75 = { "[" }color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } { POSS-ADJ($target) } 鍍層上布滿了巨大的裂痕！[/color]
+health-examinable-silicon-Slash-100 = { "[" }color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } 底盤被撕爛了！[/color]
+health-examinable-silicon-Piercing-50 = { "[" }color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 底盤上到處都是 { POSS-ADJ($target) } 大洞！[/color]
+health-examinable-silicon-Heat-15 = { "[" }color=orange]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } 車體{ POSS-ADJ($target) } 處出現表淺燒傷。[/color]
+health-examinable-silicon-Heat-50 = { "[" }color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 底盤嚴重焦黑。[/color]
+health-examinable-silicon-Heat-75 = { "[" }color=orange]{ CAPITALIZE(POSS-ADJ($target)) } 底盤部分熔化了！[/color]
+health-examinable-silicon-Shock-50 = { "[" }color=lightgoldenrodyellow]{ CAPITALIZE(POSS-ADJ($target)) } 電路似乎部分燒壞了！[/color]
 stethoscope-verb = 用聽診器聽診
 stethoscope-nothing = 你什麼都聽不到。
 stethoscope-normal = 可以聽到正常的呼吸聲。
@@ -8310,8 +8332,8 @@ holiday-custom-christmas = 祝您聖誕快樂！
 holiday-custom-festive-season = 祝您節日愉快！
 # Window headers
 holopad-window-title = { CAPITALIZE($title) }
-holopad-window-subtitle = [color=white][bold]全息通訊系統[/bold][/color]
-holopad-window-options = [color=darkgray][font size=10][italic]請從以下清單中選擇一個選項[/italic][/font][/color]
+holopad-window-subtitle = { "[" }color=white][bold]全息通訊系統[/bold][/color]
+holopad-window-options = { "[" }color=darkgray][font size=10][italic]請從以下清單中選擇一個選項[/italic][/font][/color]
 # Call status
 holopad-window-no-calls-in-progress = 目前沒有進行中的全息通話
 holopad-window-incoming-call = 有全息通話進來，來自：
@@ -8321,7 +8343,7 @@ holopad-window-call-in-progress = 全息通話正在進行中
 holopad-window-call-ending = 正在斷開連線……
 holopad-window-call-rejected = 無法建立連線
 holopad-window-ai-request = 謹此邀請您出席：
-holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]正在播放緊急廣播[/bold][/color]
+holopad-window-emergency-broadcast-in-progress = { "[" }color=#cf2f2f][bold]正在播放緊急廣播[/bold][/color]
 holopad-window-controls-locked-out = 此裝置的控制權已鎖定至：
 holopad-window-controls-unlock-countdown = 它將在以下時間自動解鎖：{ $countdown }
 # Buttons
@@ -8484,22 +8506,24 @@ implanter-set-draw-type = 植體類型：
 implanter-draw-text = 取出
 implanter-inject-text = 注入
 implanter-empty-text = 空白
-implanter-label-inject = [color=green]{ $implantName }[/color]
+implanter-label-inject =
+    { "[" }color=green]{ $implantName }[/color]
     模式：[color=white]{ $modeString }[/color]
-implanter-label-draw = [color=red]{ $implantName }[/color]
+implanter-label-draw =
+    { "[" }color=red]{ $implantName }[/color]
     模式：[color=white]{ $modeString }[/color]
-implanter-contained-implant-text = [color=green]{ $desc }[/color]
+implanter-contained-implant-text = { "[" }color=green]{ $desc }[/color]
 # ban
 cmd-ban-desc = 封禁某人
-cmd-ban-help = 用法：ban<name or user ID> <reason> [禁言時間以分鐘為單位；若不指定或指定為 0，則為永久禁言]
+cmd-ban-help = Usage: ban <name or user ID> <reason> [duration in minutes, leave out or 0 for permanent ban]
 cmd-ban-player = 找不到該名稱的玩家。
 cmd-ban-invalid-minutes = { $minutes } 不是有效的分鐘數！
 cmd-ban-invalid-severity = { $severity } 不是有效的嚴重性等級！
 cmd-ban-invalid-arguments = 參數數量不正確
 cmd-ban-hint = <name/user ID>
 cmd-ban-hint-reason = <reason>
-cmd-ban-hint-duration = [時長]
-cmd-ban-hint-severity = [嚴重程度]
+cmd-ban-hint-duration = { "[" }時長]
+cmd-ban-hint-severity = { "[" }嚴重程度]
 cmd-ban-hint-duration-1 = 永久性
 cmd-ban-hint-duration-2 = 1 天
 cmd-ban-hint-duration-3 = 3 天
@@ -8513,14 +8537,14 @@ cmd-banpanel-server = 此功能無法從伺服器主控台使用
 cmd-banpanel-player-err = 找不到指定的播放器
 # listbans
 cmd-banlist-desc = 列出使用者的有效封禁清單。
-cmd-banlist-help = 用法：禁用清單<name or user ID>
+cmd-banlist-help = Usage: banlist <name or user ID>
 cmd-banlist-empty = 未找到針對 { $user } 的有效封禁
 cmd-banlist-hint = <name/user ID>
 cmd-ban_exemption_update-desc = 針對某位球員的某種禁令設定豁免。
 cmd-ban_exemption_update-help =
-    用法：ban_exemption_update<player> <flag> [<flag> [...]]
-    指定多個標記，可為玩家設定多個封禁豁免標記。
-    若要移除所有豁免，請執行此指令並將唯一標記設為「None」。
+    Usage: ban_exemption_update <player> <flag> [<flag> [...]]
+    Specify multiple flags to give a player multiple ban exemption flags.
+    To remove all exemptions, run this command and give "None" as only flag.
 cmd-ban_exemption_update-nargs = 預期至少有 2 個參數
 cmd-ban_exemption_update-locate = 無法找到播放器「{ $player }」。
 cmd-ban_exemption_update-invalid-flag = 標誌「{ $flag }」無效。
@@ -8528,7 +8552,7 @@ cmd-ban_exemption_update-success = 更新了「{ $player }」（{ $uid }）的�
 cmd-ban_exemption_update-arg-player = <player>
 cmd-ban_exemption_update-arg-flag = <flag>
 cmd-ban_exemption_get-desc = 顯示特定球員的禁賽豁免情況。
-cmd-ban_exemption_get-help = 用法：ban_exemption_get<player>
+cmd-ban_exemption_get-help = Usage: ban_exemption_get <player>
 cmd-ban_exemption_get-nargs = 預期有且僅有 1 個參數
 cmd-ban_exemption_get-none = 該用戶不得豁免任何禁令。
 cmd-ban_exemption_get-show = 該使用者不受以下封禁標記的限制：{ $flags }。
@@ -8581,7 +8605,7 @@ ui-info-subheader-gridoptions = 與電網同步的選項：
 ui-info-header-feedback = 回饋
 ui-info-button-controls = 選單
 cmd-playerpanel-desc = 顯示玩家的一般資訊與相關操作
-cmd-playerpanel-help = 用法：playerpanel<name or user ID>
+cmd-playerpanel-help = Usage: playerpanel <name or user ID>
 cmd-playerpanel-server = 此指令無法從伺服器執行
 cmd-playerpanel-invalid-arguments = 參數數量不正確
 cmd-playerpanel-invalid-player = 找不到該玩家
@@ -8648,7 +8672,7 @@ instruments-component-channels-menu = MIDI 通道選擇
 instruments-component-channels-all-button = 開啟
 instruments-component-channels-clear-button = 關閉
 instruments-component-channels-all-channels-label = 所有頻道
-instruments-component-channels-percussion-channel-name = [打擊樂]
+instruments-component-channels-percussion-channel-name = { "[" }打擊樂]
 instruments-component-channels-name-display-selector-label = 顯示名稱
 instruments-component-channels-name-display-selector-track-button = 曲目
 instruments-component-channels-name-display-selector-program-button = 程式表
@@ -8877,7 +8901,7 @@ petting-failure-syndicate-cyborg = 你伸出手想撫摸 { THE($target) }，但 
 petting-failure-derelict-cyborg = 你伸手想撫摸 { THE($target) }，但 { POSS-ADJ($target) } 那鏽跡斑斑且棱角鋒利的外觀讓你打消了這個念頭。
 petting-failure-station-ai = 你伸手想撫摸 { THE($target) }，但 { SUBJECT($target) } { CONJUGATE-BASIC($target, "zap", "zaps") } 將你的手彈開了。
 petting-success-station-ai-others = { CAPITALIZE(THE($user)) } 寵物 { THE($target) } 在 { POSS-ADJ($target) } 冰冷、方形的螢幕上。
-fence-rattle-success = *嘎嘎聲*
+fence-rattle-success = { "*" }嘎嘎聲*
 hugging-success-generic = 你擁抱 { THE($target) }。
 hugging-success-generic-others = { CAPITALIZE(THE($user)) } 擁抱 { THE($target) }。
 hugging-success-generic-target = { CAPITALIZE(THE($user)) } 擁抱你。
@@ -8937,8 +8961,8 @@ multi-handed-item-pick-up-fail =
 battery-status-charge = 電量：[color=#5E7C16]{ $percent }[/color] %
 battery-status-switchable-state =
     { $state ->
-        [on] [color=green]開啟[/color]
-        [off] [color=red]關閉[/color]
+        [on] { "[" }color=green]開啟[/color]
+        [off] { "[" }color=red]關閉[/color]
        *[other] 未知
     }
 battery-status-state = 狀態：{ $state }
@@ -8949,19 +8973,19 @@ charge-status-recharge = 剩餘時間：[color=yellow]{ $seconds }秒[/color]
 tank-pressure-status = 壓力：[color=orange]{ $pressure } kPa[/color]
 tank-status-switchable-state =
     { $state ->
-        [open] [color=red]Open[/color]
-        [closed] [color=green]Closed[/color]
+        [open] { "[" }color=red]Open[/color]
+        [closed] { "[" }color=green]Closed[/color]
        *[other] Unknown
     }
 tank-status-state = 狀態：{ $state }
 # Magazine Status
 magazine-status-rounds = 回合：[color=yellow]{ $current }/{ $max }[/color]
 # Guardian Status
-guardian-status-used = [color=red]二手[/color]
-guardian-status-ready = [color=green]準備就緒[/color]
+guardian-status-used = { "[" }color=red]二手[/color]
+guardian-status-ready = { "[" }color=green]準備就緒[/color]
 # Anomaly Status
-anomaly-status-infinite = [color=gold]無限的電荷[/color]
-anomaly-status-charges = [color=orange]{ $charges } 費用[/color]
+anomaly-status-infinite = { "[" }color=gold]無限的電荷[/color]
+anomaly-status-charges = { "[" }color=orange]{ $charges } 費用[/color]
 # Timer Trigger Status
 timer-trigger-status-delay = 設定延遲：[color=white]{ $delay }秒[/color]
 item-toggle-activate = 啟用
@@ -9225,8 +9249,8 @@ cmd-roleban-help = Usage: roleban <name or user ID> <job> <reason> [duration in 
 cmd-roleban-hint-1 = <name or user ID>
 cmd-roleban-hint-2 = <job>
 cmd-roleban-hint-3 = <reason>
-cmd-roleban-hint-4 = [時長以分鐘為單位，若不填寫或填寫 0，則表示永久封禁]
-cmd-roleban-hint-5 = [嚴重程度]
+cmd-roleban-hint-4 = { "[" }時長以分鐘為單位，若不填寫或填寫 0，則表示永久封禁]
+cmd-roleban-hint-5 = { "[" }嚴重程度]
 cmd-roleban-hint-duration-1 = 永久性
 cmd-roleban-hint-duration-2 = 1 天
 cmd-roleban-hint-duration-3 = 3 天
@@ -9234,15 +9258,15 @@ cmd-roleban-hint-duration-4 = 1 週
 cmd-roleban-hint-duration-5 = 2 週
 cmd-roleban-hint-duration-6 = 1 個月
 cmd-roleunban-desc = 撤銷對某名球員的角色禁令
-cmd-roleunban-help = 用法：roleunban<role ban id>
+cmd-roleunban-help = Usage: roleunban <role ban id>
 cmd-roleunban-unable-to-parse-id =
     無法將 { $id } 解析為封禁 ID 整數。
     { $help }
 cmd-roleunban-hint-1 = <role ban id>
 cmd-rolebanlist-desc = 列出使用者遭禁用的角色
-cmd-rolebanlist-help = 用法：<name or user ID> [包含未被封禁的]
+cmd-rolebanlist-help = Usage: <name or user ID> [include unbanned]
 cmd-rolebanlist-hint-1 = <name or user ID>
-cmd-rolebanlist-hint-2 = [包含未被封禁的內容]
+cmd-rolebanlist-hint-2 = { "[" }包含未被封禁的內容]
 cmd-roleban-minutes-parse = { $time } 不是有效的分鐘數。\n{ $help }
 cmd-roleban-severity-parse = ${ severity } 並非有效的嚴重性等級\n{ $help }.
 cmd-roleban-arg-count = 參數數量不正確。
@@ -9253,7 +9277,7 @@ cmd-roleban-inf = 永久地
 cmd-roleban-until = 直到 { $expires }
 # Department bans
 cmd-departmentban-desc = 禁止某位玩家擔任某個部門所包含的職位
-cmd-departmentban-help = 用法：departmentban<name or user ID> <department> <reason> [禁用時間以分鐘為單位；若省略或設定為 0，則為永久禁用]
+cmd-departmentban-help = Usage: departmentban <name or user ID> <department> <reason> [duration in minutes, leave out or 0 for permanent ban]
 role-timer-department-insufficient = You require [color=yellow]{ $time }[/color] more playtime in the [color={ $departmentColor }]{ $department }[/color] department to unlock this.
 role-timer-department-too-high = 若要選擇此選項，您在 [color={ $departmentColor }]{ $department }[/color] 部門的遊玩時間需少於 [color=yellow]{ $time }[/color]。（您是否正試圖扮演學員的角色？）
 role-timer-overall-insufficient = 您需要 [color=yellow]{ $time }[/color] 更多的總遊玩時間才能解鎖此項目。
@@ -9308,9 +9332,9 @@ comp-kitchen-spike-butcher = { CAPITALIZE(THE($user)) } 把 { THE($victim) } 搞
 comp-kitchen-spike-butcher-empty = { CAPITALIZE(THE($victim)) } 已經沒有肉可宰了！
 comp-kitchen-spike-need-tool-quality = { $quality } 處理 { THE($target) } 所需的工具。
 comp-kitchen-spike-unhook-verb = 解鉤
-comp-kitchen-spike-hooked = [color=red]{ CAPITALIZE(THE($victim)) } 就插在這根尖刺上！[/color]
+comp-kitchen-spike-hooked = { "[" }color=red]{ CAPITALIZE(THE($victim)) } 就插在這根尖刺上！[/color]
 comp-kitchen-spike-meat-name = { $name } ({ $victim })
-comp-kitchen-spike-victim-examine = [color=orange]{ CAPITALIZE(SUBJECT($target)) } 看起來相當簡潔。[/color]
+comp-kitchen-spike-victim-examine = { "[" }color=orange]{ CAPITALIZE(SUBJECT($target)) } 看起來相當簡潔。[/color]
 comp-kitchen-spike-deconstruct-occupied = 接著，[color=red]將車身拆下[/color]。
 microwave-component-interact-using-no-power = 它沒有電力！
 microwave-component-interact-using-broken = 壞了！
@@ -9415,7 +9439,7 @@ lathe-category-neck = 頸部
 lathe-popup-material-not-used = 此機器不使用此材料。
 lathe-unlock-recipe-radio-broadcast = 這台車床現在能夠生產以下配方：{ $items }
 lathe-unlock-recipe-radio-broadcast-overflow = 這台車床現在能夠生產 { $count } 種新配方，包括：{ $items }
-lathe-unlock-recipe-radio-broadcast-item = [bold]{ $item }[/bold]
+lathe-unlock-recipe-radio-broadcast-item = { "[" }bold]{ $item }[/bold]
 lathe-recipe-Medkit-name = 急救箱（空的）
 lathe-recipe-MedkitBurn-name = 燒傷處理套組（空）
 lathe-recipe-MedkitToxin-name = 毒素處理套件（空的）
@@ -9442,7 +9466,7 @@ lathe-reagent-dispense-no-container = 液體從 { THE($name) } 流到地板上�
 lathe-menu-result-reagent-display = { $reagent } ({ $amount }u)
 lathe-menu-material-display = { $material } ({ $amount })
 lathe-menu-tooltip-display = { $amount } 來自 { $material }
-lathe-menu-description-display = [italic]{ $description }[/italic]
+lathe-menu-description-display = { "[" }italic]{ $description }[/italic]
 lathe-menu-material-amount =
     { $amount ->
         [1] { NATURALFIXED($amount, 2) } { $unit }
@@ -9486,10 +9510,10 @@ connecting-state-Handshake = 握手
 connecting-state-Connected = 連線中
 emergency-light-component-on-examine = 電池指示燈顯示：{ $batteryStateText }。
 emergency-light-component-on-examine-alert = 該站點目前的警報等級為：[color={ $color }]{ $level }[/color]。
-emergency-light-component-light-state-full = [color=darkgreen]完整[/color]
-emergency-light-component-light-state-empty = [color=darkgreen]空白[/color]
-emergency-light-component-light-state-charging = [color=darkgreen]正在充電[/color]
-emergency-light-component-light-state-on = [color=darkgreen]開啟[/color]
+emergency-light-component-light-state-full = { "[" }color=darkgreen]完整[/color]
+emergency-light-component-light-state-empty = { "[" }color=darkgreen]空白[/color]
+emergency-light-component-light-state-charging = { "[" }color=darkgreen]正在充電[/color]
+emergency-light-component-light-state-on = { "[" }color=darkgreen]開啟[/color]
 expendable-light-start-verb = Start Light
 expendable-light-spent-prefix = 已花費 { $baseName }
 handheld-light-component-on-examine-is-on-message = 目前指示燈處於 [color=darkgreen]亮起[/color] 狀態。
@@ -9514,8 +9538,8 @@ comp-light-replacer-no-lights = 裡面是空的。
 comp-light-replacer-has-lights = 其中包含以下內容：
 comp-light-replacer-light-listing =
     { $amount ->
-        [one] [color=yellow]{ $amount }[/color] [color=gray]{ $name }[/color]
-       *[other] [color=yellow]{ $amount }[/color] [color=gray]{ MAKEPLURAL($name) }[/color]
+        [one] { "[" }color=yellow]{ $amount }[/color] [color=gray]{ $name }[/color]
+       *[other] { "[" }color=yellow]{ $amount }[/color] [color=gray]{ MAKEPLURAL($name) }[/color]
     }
 # Bulbs
 comp-light-bulb-incandescent = 白熾燈
@@ -9603,11 +9627,11 @@ lube-verb-message = 在物體上塗抹潤滑劑
 machine-insert-item = { CAPITALIZE(THE($user)) } 將 { THE($item) } 插入至 { THE($machine) } 中。
 machine-upgrade-examinable-verb-text = 升級
 machine-upgrade-examinable-verb-message = 檢視機器升級事項。
-machine-upgrade-increased-by-percentage = [color=yellow]{ CAPITALIZE($upgraded) }[/color] 增加了 { $percent }%。
-machine-upgrade-decreased-by-percentage = [color=yellow]{ CAPITALIZE($upgraded) }[/color] 減少了 { $percent }%。
-machine-upgrade-increased-by-amount = [color=yellow]{ CAPITALIZE($upgraded) }[/color] 增加了 { $difference }。
-machine-upgrade-decreased-by-amount = [color=yellow]{ CAPITALIZE($upgraded) }[/color] 減少了 { $difference }。
-machine-upgrade-not-upgraded = [color=yellow]{ CAPITALIZE($upgraded) }[/color] 尚未升級。
+machine-upgrade-increased-by-percentage = { "[" }color=yellow]{ CAPITALIZE($upgraded) }[/color] 增加了 { $percent }%。
+machine-upgrade-decreased-by-percentage = { "[" }color=yellow]{ CAPITALIZE($upgraded) }[/color] 減少了 { $percent }%。
+machine-upgrade-increased-by-amount = { "[" }color=yellow]{ CAPITALIZE($upgraded) }[/color] 增加了 { $difference }。
+machine-upgrade-decreased-by-amount = { "[" }color=yellow]{ CAPITALIZE($upgraded) }[/color] 減少了 { $difference }。
+machine-upgrade-not-upgraded = { "[" }color=yellow]{ CAPITALIZE($upgraded) }[/color] 尚未升級。
 machine-part-name-capacitor = 電容器
 machine-part-name-manipulator = 操縱器
 machine-part-name-matter-bin = 物質箱
@@ -9789,7 +9813,7 @@ main-menu-quit-button = 退出
 cmd-align-desc =
     自動將所有錨定的氣閘、門、防火閘等（
     ）的對齊位置與相鄰結構對齊。
-    
+
     使用 [dry run] 參數可在不旋轉任何物件的情況下進行檢查。
 cmd-align-help = 用法：{ $command } [MapID] [dry run?]
 cmd-align-no-release = 若遊戲正在以 RELEASE 配置執行，則無法使用此指令。
@@ -9836,9 +9860,9 @@ cmd-mapping-failure-integer = { $arg } 不是有效的整數。
 cmd-mapping-failure-float = { $arg } 不是有效的浮點數。
 cmd-mapping-failure-bool = { $arg } 不是有效的 bool 值。
 cmd-mapping-nullspace = 無法載入地圖 0。
-cmd-hint-mapping-id = [地圖編號]
-cmd-mapping-hint-grid = [網格]
-cmd-hint-mapping-path = [路徑]
+cmd-hint-mapping-id = { "[" }地圖編號]
+cmd-mapping-hint-grid = { "[" }網格]
+cmd-hint-mapping-path = { "[" }路徑]
 cmd-mapping-exists = Map { $mapId } 已存在。
 gamemap-could-not-use-map-error = 無法載入地圖 { $oldMap }，因為它已不再符合資格！改為選用 { $newMap }。
 cmd-planet-desc = 將提供的地圖轉換為擁有特定生態區的行星。
@@ -11071,8 +11095,8 @@ health-analyzer-window-entity-status-text = 狀態：
 health-analyzer-window-entity-damage-total-text = 總傷害：
 health-analyzer-window-damage-group-text = { $damageGroup }: { $amount }
 health-analyzer-window-damage-type-text = { $damageType }: { $amount }
-health-analyzer-window-entity-unrevivable-text = [color=yellow]偵測到獨特的身體組成！無法透過常規方法對該患者進行復甦！[/color]
-health-analyzer-window-entity-bleeding-text = [color=red]病患身上有開放性傷口！[/color]
+health-analyzer-window-entity-unrevivable-text = { "[" }color=yellow]偵測到獨特的身體組成！無法透過常規方法對該患者進行復甦！[/color]
+health-analyzer-window-entity-bleeding-text = { "[" }color=red]病患身上有開放性傷口！[/color]
 health-analyzer-window-scan-mode-text = 掃描模式：
 health-analyzer-window-scan-mode-active = 有效
 health-analyzer-window-scan-mode-inactive = 已停用
@@ -11127,7 +11151,7 @@ metabolizer-type-moth = 飛蛾
 metabolizer-type-arachnid = 蛛形綱
 metabolizer-type-changeling = 《換子疑雲》
 cmd-rename-desc = 重新命名某個實體及其複製項、ID卡和個人數位助理（PDA）。
-cmd-rename-help = 重新命名<Username|EntityUid> <New character name>
+cmd-rename-help = rename <Username|EntityUid> <New character name>
 cmd-rename-too-long = 名稱過長。
 cmd-rename-not-found = 找不到使用者名稱/uid：{ $target }
 cmd-rename-no-entity = { $target } 沒有對應的實體。
@@ -11201,8 +11225,8 @@ cmd-get-motd-desc = 列印「今日訊息」。
 cmd-get-motd-help = get-motd
 cmd-set-motd-desc = 設定或清除「每日訊息」。
 cmd-set-motd-help = set-motd [ 訊息... ]
-cmd-set-motd-hint-head = [ 訊息... ]
-cmd-set-motd-hint-cont = [ ...訊息... ]
+cmd-set-motd-hint-head = { "[" } 訊息... ]
+cmd-set-motd-hint-cont = { "[" } ...訊息... ]
 cmd-set-motd-cleared-motd-message = 已清除「今日訊息」。
 cmd-set-motd-set-motd-message = 將「每日訊息」設定為「{ $motd }」。
 motd-wrap-message = 今日訊息：{ $motd }
@@ -11334,8 +11358,8 @@ nav-beacon-examine-text =
        *[false] crimson]off
     }[/color]，而螢幕顯示的內容為 [color={ $color }]"{ $label }"[/color]
 nav-beacon-pos-no-beacons = 在荒郊野嶺
-nav-beacon-pos-format = [color={ $color }]鄰近 { $marker }[/color]
-nav-beacon-pos-format-direction = [color={ $color }]{ $modifier }{ $direction } 中的 { $marker }[/color]
+nav-beacon-pos-format = { "[" }color={ $color }]鄰近 { $marker }[/color]
+nav-beacon-pos-format-direction = { "[" }color={ $color }]{ $modifier }{ $direction } 中的 { $marker }[/color]
 nav-beacon-pos-format-direction-mod-far = far { "" }
 ninja-gloves-on = 手套中迸發出強大的力量！
 ninja-gloves-off = 手套正在關機……
@@ -11356,7 +11380,7 @@ ninja-research-steal-fail = 沒有新的研究節點遭竊……
 ninja-research-steal-success = 從 { THE($server) } 竊取了 { $count } 個新節點。
 ninja-criminal-records-hack-announcement = 錯誤：犯罪紀錄系統偵測到 [已刪除] 錯誤 #*;"
 ninja-round-end-agent-name = 忍者
-objective-issuer-spiderclan = [color=#33cc00]蜘蛛一族[/color]
+objective-issuer-spiderclan = { "[" }color=#33cc00]蜘蛛一族[/color]
 ninja-role-greeting =
     我是強大「蜘蛛一族」的精英傭兵！
     出其不意是我的武器，陰影是我的盔甲。沒有它們，我就一無是處。
@@ -11441,7 +11465,7 @@ nuke-label-nanotrasen = NT-{ $serial }
 # the Syndicate stole a NT nuke
 nuke-label-syndicate = SYN-{ $serial }
 # Codes
-nuke-codes-message = [color=red]絕密！[/color]
+nuke-codes-message = { "[" }color=red]絕密！[/color]
 nuke-codes-list = { $name } 程式碼：{ $code }
 nuke-codes-fax-paper-name = 核認證碼
 # Nuke disk slot
@@ -11678,7 +11702,7 @@ edible-force-feed = { CAPITALIZE(THE($user)) } 正試圖讓你 { $verb } 某件�
 edible-force-feed-success-user = 您已成功餵食 { THE($target) }
 openable-component-verb-open = 開啟
 openable-component-verb-close = 關閉
-openable-component-on-examine-is-opened = [color=yellow]已開放[/color]
+openable-component-on-examine-is-opened = { "[" }color=yellow]已開放[/color]
 openable-component-try-use-closed = 請先開啟 { $owner }！
 pressurized-solution-spray-holder-self = { CAPITALIZE(THE($drink)) } 朝你噴灑！
 pressurized-solution-spray-holder-others = { CAPITALIZE(THE($drink)) } 噴灑在 { THE($victim) } 上！
@@ -11714,7 +11738,7 @@ satiation-type-chemicals = 化學品
 satiation-not-enough-hunger = 你太餓了！
 # addobjectives
 cmd-addobjective-desc = 在玩家心中增添一個目標。
-cmd-addobjective-help = 新增目標<username> <objectiveID>
+cmd-addobjective-help = addobjective <username> <objectiveID>
 cmd-addobjective-invalid-args = 預期有正好 2 個參數。
 cmd-addobjective-player-not-found = 找不到 playerdata。
 cmd-addobjective-mind-not-found = 找不到那份心意。
@@ -11724,7 +11748,7 @@ cmd-addobjective-player-completion = <Player>
 cmd-add-objective-obj-completion = <Objective>
 # lsobjectives
 cmd-lsobjectives-desc = 列出玩家腦海中所有的目標。
-cmd-lsobjectives-help = 用法：lsobjectives<username>
+cmd-lsobjectives-help = Usage: lsobjectives <username>
 # addobjectives
 cmd-rmobjective-desc = 從玩家的腦海中移除一項目標。
 cmd-rmobjective-help = rmobjective<username> <index>
@@ -11739,7 +11763,7 @@ cmd-rmobjective-player-completion = <Player>
 cmd-rmobjective-index-completion = <Index>
 # stripall
 cmd-stripall-desc = 將實體的所有庫存和手牌全部沒收。
-cmd-stripall-help = 用法：stripall<EntityUid>
+cmd-stripall-help = Usage: stripall <EntityUid>
 cmd-stripall-player-completion = <EntityUid>
 objective-condition-supercrit-anomalies-title = 使 { $count } 中的異常情況達到超臨界狀態
 objective-carp-rifts-title = 開啟 { $count } 鯉魚裂谷
@@ -11844,15 +11868,15 @@ objectives-round-end-result =
        *[other] There were { $count } { MAKEPLURAL($agent) }.
     }
 objectives-round-end-result-in-custody = 在 { $count } 中的 { $custody } { MAKEPLURAL($agent) } 人被拘留。
-objectives-player-user-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color])
-objectives-player-named = [color=White]{ $name }[/color]
+objectives-player-user-named = { "[" }color=White]{ $name }[/color] ([color=gray]{ $user }[/color])
+objectives-player-named = { "[" }color=White]{ $name }[/color]
 objectives-no-objectives = { $custody }{ $title } 曾是 { $agent }。
 objectives-with-objectives = { $custody }{ $title } 是一位 { $agent }，其目標如下：
 objectives-objective-success = { $objective } | [color=green]成功！[/color] ({ TOSTRING($progress, "P0") })
 objectives-objective-partial-success = { $objective } | [color=yellow]部分成功！[/color] ({ TOSTRING($progress, "P0") })
 objectives-objective-partial-failure = { $objective } | [color=orange]部分失敗！[/color] ({ TOSTRING($progress, "P0") })
 objectives-objective-fail = { $objective } | [color=red]失敗！[/color] ({ TOSTRING($progress, "P0") })
-objectives-in-custody = [bold][color=red]| 已被拘留 | [/color][/bold]
+objectives-in-custody = { "[" }bold][color=red]| 已被拘留 | [/color][/bold]
 # With projectiles:
 pacified-cannot-throw = 我實在不忍心把 { THE($projectile) } 扔出去，那可能會傷到人！
 # With embedding projectiles:
@@ -11886,56 +11910,56 @@ pai-system-brick-popup = pAI 的電路發出刺耳的「啪」聲，隨後熄滅
 pai-system-scramble-popup = pAI 的電路因電流過載而超載了！
 book-text-atmos-distro =
     分配網路（簡稱「distro」）是該站的生命線。它負責將大氣中的空氣輸送至站內各處。
-    
+
     相關管線通常會塗上「淡雅藍」，但最可靠的辨識方法是使用托盤掃描器，追蹤哪些管線連接至站內正在運作的通風口。
-    
+
     分配網路的標準氣體混合比例為攝氏 20 度、78% 氮氣、22% 氧氣。 您可以使用氣體分析儀檢測配氣管或其連接的任何排氣口來確認這一點。特殊情況下可能需要特殊的氣體混合比例。
-    
+
     在決定配氣壓力時，有幾點需要考慮。 活躍的排氣口會調節站內的壓力，因此只要一切運作正常，就不存在所謂「配氣壓力過高」的情況。
-    
+
     較高的分配壓力能讓分配網路在氣體採集器與排氣口之間發揮緩衝作用，提供大量額外空氣，可在發生間隔現象後用於重新加壓站體。
-    
+
     較低的配氣壓力能在配氣系統發生洩漏時減少氣體損失，這是處理配氣系統污染的快速方法。此外，若通風口出現問題，此舉亦有助於減緩或防止加氣站發生過壓。
-    
+
     常見的配氣壓力範圍為 300-375 kPa，但在充分了解相關風險與效益的前提下，亦可採用其他壓力值。
-    
+
     管網的壓力由最後一臺向管網輸送的泵決定。為防止瓶頸，礦工與最後一臺泵之間的所有其他泵應設定為最大流量，並移除任何不必要的裝置。
-    
+
     您可以使用氣體分析儀驗證分配器的壓力，但請注意，由於間距等因素導致的需求過高，可能會使分配器的壓力在較長一段時間內低於設定的目標壓力。因此，若您觀察到壓力下降，請勿驚慌——這可能是暫時的現象。
 book-text-atmos-waste =
     廢氣網絡是負責維持太空站空氣無污染的主要系統。
-    
+
     您可以透過其「悅目的暗紅色」來辨識相關管線，或使用托盤掃描器追蹤哪些管線連接至太空站的淨化器。
-    
+
     廢氣網絡用於將廢氣輸送至過濾或排放處。 理想情況下應將壓力維持在 0 kPa，但在運作時有時可能會處於較低的非零壓力狀態。
-    
+
     技術人員可選擇過濾或排放廢氣。雖然排放速度較快，但過濾則能讓氣體被重新利用，用於回收或銷售。
-    
+
     廢氣網路亦可用於診斷站內的大氣問題。若某種廢氣濃度過高，可能暗示存在大規模洩漏；若檢測到非廢氣成分，則可能表示洗滌塔配置或物理連接出現問題。若氣體溫度過高，則可能表示發生火災。
 book-text-atmos-alarms =
     各站內均設置有空氣警報器，以便管理與監控當地大氣狀況。
-    
+
     空氣警報介面會向技術人員顯示已連接感測器的清單及其讀數，並提供調整閾值的功能。這些閾值用於判定空氣警報器的警報狀態。 技術人員亦可透過此介面為排氣口設定目標壓力，並為洗滌器配置運作速度及目標氣體。
-    
+
     雖然此介面可對空氣警報器所控制的裝置進行微調，但亦提供數種模式以供快速配置警報。 當警報狀態改變時，系統會自動切換至以下模式：
     - 過濾：預設模式
     - 過濾（寬範圍）： 一種過濾模式，可調整淨化器的運作方式以淨化更廣的範圍
     - 填充：停用淨化器，並將排氣口設定為最大壓力
     - 緊急模式：停用排氣口，並將淨化器設定為虹吸模式
-    
+
     可使用多功能工具或網路配置程式將裝置連結至空氣警報器。
 book-text-atmos-vents =
     以下是幾種大氣設備的快速參考指南：
-    
+
                 被動式排氣口：
                 這些排氣口無需電源，可讓氣體自由進出其所連接的管路系統。
-    
+
                 主動式排氣口：
                 這些是站內最常見的排氣口。它們內建泵浦，且需要電源。 預設情況下，它們僅會將氣體從管道中抽離，且壓力上限為 101 kPa。 不過，可透過空氣警報器重新配置其功能。若房間內壓力低於 1 kPa，它們也會自動鎖定，以防止將氣體抽入太空。
-    
+
                 空氣淨化器：
                 這些裝置能將環境中的氣體移除，並導入連接的管路網絡中。 當連接至空氣警報器時，可將其設定為篩選特定氣體。
-    
+
                 空氣注入器：
                 注入器與主動式通風口類似，但沒有內部泵浦且無需電源。它們無法進行設定，但能持續將氣體泵送至更高壓力。
 book-text-narsielegend =
@@ -12117,7 +12141,7 @@ book-text-earth =
     儘管如此，仍有某些時刻，我會為那個我所留下的世界感到心底深處的一陣刺痛。我不禁想，我是否還能再次體驗那些簡單的樂趣。 我不知道自己是否還能再次感受腳趾間的細沙，品嚐空氣中的鹹味，或是聆聽海浪拍打岸邊的聲響。但此刻，我唯一能做的，就是閉上雙眼，想像自己已回到地球，被那些我最懷念的事物所環繞。
 book-text-aurora =
     親愛的日記，
-    
+
     今天對「極光號」星艦的船員來說是歷史性的一天。經過數月在浩瀚宇宙中漂浮，他們終於要重返地球了。
     船員們已圓滿完成任務，蒐集了鄰近太陽系中一顆新發現行星的數據。這是一段不可思議的旅程，充滿了挑戰、勝利，以及令人驚嘆的奇妙時刻。
     當飛船穿過大氣層下降時，再入大氣的熱度使船體綻放出熾烈的紅色光芒，飛船也在大氣層中劇烈顛簸。 這段航程雖顛簸，但船員們在安全可靠的操控下。
@@ -12125,7 +12149,7 @@ book-text-aurora =
     當他們走向任務簡報室時，大家仍興奮地談論著這段不可思議的旅程。他們見證了多數人只能夢寐以求的景象，探索了前所未見的星球，並從這段旅程中蛻變，變得比以往更加堅強、更加團結。
     回顧這段旅程，全體船員深知自己已成就了一項真正非凡的壯舉。他們突破了人類探索的疆界，並證明只要憑藉辛勤努力、堅定決心以及一點點運氣，一切皆有可能。
     如今，當他們重新適應地球生活時，深知這段旅程的回憶將永遠伴隨左右。能成為「極光號」星艦船員的一員是莫大的榮幸，他們對共同度過的每一個時刻都心懷感激。
-    
+
     下次見，
     「極光號」星艦船員中的一位匿名成員。
 book-text-temple =
@@ -12192,7 +12216,8 @@ book-text-inspiration =
     莎拉毫不猶豫地掏出筆和筆記本，開始寫作。她寫下眼前的絕美景致、內心感受到的寧靜，以及這刻那超現實般的氛圍。她希望能透過文字捕捉這份感受，並與他人分享。
     寫完之際，莎拉聽見樹枝斷裂的聲響，抬頭一看，只見一名手持相機的男子正朝她走來。他自我介紹說是一名自然攝影師，並問她是否看過那座瀑布。兩人隨即聊了起來，不久便開懷大笑，分享著各自的冒險故事。
     當太陽開始西沉時，兩人收拾好裝備並道別。莎拉對這場意想不到的邂逅以及它帶給她的靈感心懷感激。她知道這個時刻將永遠留在她心中，而當她意識到這世界仍有如此多的美景等待被發掘時，內心便湧現出一股寧靜感。
-book-text-janitor = [bold][color=black][head=3]一位疲憊清潔工的故事[/head][/bold]
+book-text-janitor =
+    { "[" }bold][color=black][head=3]一位疲憊清潔工的故事[/head][/bold]
     身為清潔工在太空站打掃，簡直就像被困在一個宇宙級的清潔噩夢中。 你可能會以為在浩瀚的太空中漂浮是件光鮮亮麗的事，但事實並非如此——我只能困在這裡，不停地把太空污垢和外星黏液從牆上刷洗下來。這是在無重力深淵中一份毫無回報的工作。
     首先，讓我們來談談這片狼藉。 太空塵埃、外星黏液，還有天知道還有什麼東西，堆積的速度比火箭發射還快。這不只是掃掃碎屑那麼簡單；而是要對抗那些彷彿擁有自身生命般的星際污穢。 你原本期待的是座流線型、充滿未來感的太空站，但實際上，每個轉角都有一個旋轉的太空垃圾漩渦在等著你。
     還有他們給我們的工具！ 你本該期待最先進的清潔工具，但事實並非如此。他們在將我們送入宇宙之前，根本就是去地球上的「一元店」大肆掃蕩了一番。在微重力環境下幾乎派不上用場的拖把、用一次就空了的噴霧瓶，更別提那套太空清潔工連身工作服了。 我簡直就像是科幻B級片裡被淘汰的配角。
@@ -12208,7 +12233,7 @@ book-cnc-sheet =
     種族／職業    :
     等級／經驗值 :
     背景故事      :
-    
+
     --------------------------------------------------------------------------------------
     第 2 節：能力值
     --------------------------------------------------------------------------------------
@@ -12218,31 +12243,31 @@ book-cnc-sheet =
     智力 =     10   (+0) 10 基礎值
     智慧       =     10   (+0) 10 基礎值
     魅力     =     10   (+0) 10 基礎值
-    
+
     熟練加值 =
     感知（被動智慧） =
-    
+
     種族（種族）
-    
+
     職業（職業）
-    
+
     
     --------------------------------------------------------------------------------------
     第 3 節： 豁免檢定
     --------------------------------------------------------------------------------------
-    
+
     ( )力量     =      +0
     ( )敏捷     =      +0
     ( )體質     =      +0
     ( )智力     =      +0
     ( )智慧     =      +0
     ( )魅力     =      +0
-    
+
     
     --------------------------------------------------------------------------------------
     第 4 節：  技能
     --------------------------------------------------------------------------------------
-    
+
     ( )  雜技（敏捷）      +0       ( )  醫術（智慧）        +0
     ( )  馴獸（智慧） +0       ( )  自然（智力）          +0
     ( )  奧秘（智力）          +0       ( )  感知（智慧）      +0
@@ -12252,72 +12277,72 @@ book-cnc-sheet =
     ( )  洞察 (智慧)         +0       ( )  手法 (敏捷) +0
     ( )  威嚇（魅力）    +0       ( )  潛行（敏捷）         +0
     ( )  調查（智力）   +0       ( )  生存（智慧）        +0
-    
+
     
     --------------------------------------------------------------------------------------
     第 5 節：戰鬥與健康
     --------------------------------------------------------------------------------------
-    
+
     
     護甲等級          :
     先攻（被動） :
     移動速度                :
-    
+
     生命骰             :
     最大生命值       :
     當前生命值   :
     臨時生命值 :
-    
+
     攻擊
     武器類型（近戰或遠程）   /   加值   /   傷害（類型）
-    
+
     --------------------------------------------------------------------------------------
     第 6 節： 背景
     --------------------------------------------------------------------------------------
-    
+
     年齡／性別         :
     身高／體重      :
     眼睛／膚色／髮色   :
     外貌描述          :
-    
+
     背景           :
     技能熟練度  :
     工具熟練度   :
     語言            :
-    
+
     特徵             :
     自選缺點        :
     特質               :
     理想                :
     羈絆                :
     缺陷                :
-    
+
     --------------------------------------------------------------------------------------
     第 7 節：額外內容
     --------------------------------------------------------------------------------------
     裝備清單
     描述                 成本       重量
-    
+
     
     磅
-    
+
     財富
     PP         :
     EP         :
     GP         :
     SP         :
     CP         :
-    
+
     寶石         :
     珠寶      :
     其他        :
     魔法物品  :
-    
+
     
     --------------------------------------------------------------------------------------
     第 8 節：施法
     --------------------------------------------------------------------------------------
-    
+
     法術等級：
     法術豁免難度：
     法術攻擊修正值：
@@ -12331,56 +12356,56 @@ book-cnc-sheet =
       7: (最大) (已使用)
       8: (最大) (已使用)
       9: (最大) (已使用)
-    
+
     基礎法術
     名稱  施法時間  範圍  持續時間  施法成分
-    
+
     1: 名稱  施法時間  範圍  持續時間  施法成分  需儀式？
-    
+
     2: 名稱  施法時間  範圍  持續時間  施法成分  需儀式？
-    
+
     3: 名稱  施法時間  範圍  持續時間  施法成分  需儀式？
-    
+
     4：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
-    
+
     5：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
-    
+
     6：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
-    
+
     7：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
-    
+
     8：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
-    
+
     9：名稱　施法時間　範圍　持續時間　施法成分　是否為儀式？
     --------------------------------------------------------------------------------------
     《鯉魚與墓穴》第5版
 book-text-escalation =
     談到被「robusted」，關鍵在於策略。做對了，你會成為整個站點的焦點；做錯了，連諸神都可能與你為敵。就我個人而言，我總是以前者為目標……
-    
+
     首先：讓辱罵如雨點般飛來！ 這是你向對手徹底表達你對他那雙荒謬大鞋和那惱人自行車喇叭真實看法的絕佳機會。
-    
+
     沒有一點肢體衝突，衝突就不算完整。用力推對手一兩下，運氣好的話，他會踉蹌跌倒，這將為你提供更多辱罵的機會。
-    
+
     但請當心，因為此時你的對手很可能正試圖殺了你。所以，試著讓氣氛稍微冷靜下來。這將使你在不可避免的謀殺案調查中顯得體面些。
-    
+
     如果緩和局勢的手段行不通，那就該拿起武器了。 但要聰明點——選些看起來絕對不可能致命的東西，比如這本書。
-    
+
     倘若你們倆都還站著，那就該祭出大殺器了。找出你能找到的最鋒利之物，一了百了，畢竟到現在為止，大家都已經有點受夠這場鬧劇了。
-    
+
     現在，把你擊敗的對手遊行帶過走廊前往醫療室，讓所有人都知道你究竟有多強悍。
-    
+
     記住，這一切都是為了節省體力。讓對手替你加碼升級戰況——這可是雙贏的局面！
 book-text-escalation-security =
     做對了，整個站點都會稱你為「shitsec」；做錯了，你將面臨眾神用「harmbaton」痛毆。 就我個人而言，我總是以前者為目標……
-    
+
     人們常說「筆比劍更強大」，但你手裡拿的不是劍，而是電擊棒；只要你一動筆，任何嫌疑犯都會逃之夭夭。
-    
+
     因此，試著用言語開啟對峙。這樣雖然不太會讓你被叫「屎警」，但面對懷有致命意圖的人時，效果恐怕也不太理想。
-    
+
     你的下一步應該是使用非致命或較低致命性的裝置，例如電擊棒、失能器、閃光彈和閃光震撼彈。 務必在嘗試使用前接受相關訓練——將這些裝備提供給嫌犯以換取其配合，並非有效運用這些工具的方式。
-    
+
     若你夠幸運遇到構成致命威脅的嫌犯，就是時候拿出你從軍械庫囤積的所有好東西了。
-    
+
     若想增添威懾力，不妨將那些「體格強健」的嫌疑人送往醫務室治療，而非關進禁閉室。這樣一來，全體船員都能親眼見證你究竟有多麼「強悍」。
 book-text-gaming1 =
     沒辦法留下來看比賽了。
@@ -12417,18 +12442,18 @@ book-text-gaming4 =
 book-text-demonomicon1 =
     《如何召喚惡魔》
     — 作者：J.G. Wizgerald
-    
+
     1. 待辦事項：完成撰寫惡魔召喚指南
 book-text-demonomicon2 =
     如何召喚一顆檸檬
     —— 作者：J.G. Wizgerald
-    
+
     1. 待辦事項：完成撰寫檸檬召喚指南
     2. 等等。打錯字了。哦，該死。抱歉啦各位
 book-text-demonomicon3 =
     我找到的酷炫惡魔名字
     —— 作者：Ms. Mossrock
-    
+
     阿布拉克斯
     尼菲林
     巴力
@@ -12439,80 +12464,81 @@ book-text-demonomicon3 =
     菲尼克斯
 book-text-chemistry-insane =
     伊戈爾化學《化學指南》
-    
+
     標題：《化學指南》
-    
+
     摘要：《化學指南》
-    
+
     專欄：伊戈爾化學的睿智箴言
-    
+
     我的首要建議是：永遠保持樂趣。 你永遠不知道一切何時會結束。
     所以就繼續堅持下去吧！！
-    
+
     我的第二條建議。我就是停不下來，他媽的總在把連身衣磨得粉碎。 我的「同事」（特工）不斷對我大吼
     叫我停下來，還說「這筆錢會從我們的薪水裡扣掉」，但這些東西實在太棒了。 我簡直是位室內裝飾天才。
     薩克斯風和打鼓能讓我暫時忘卻這件事，但我總會又回到連身衣上。哇哦。
-    
+
     我的第三個小訣竅。感謝閱讀！！ 伊戈爾化學
-    
+
     結論：伊戈爾化學
-book-text-botanics = ** NanoTrasen 內發現的植物標本之應用 **
-    
+book-text-botanics =
+    { "*" }* NanoTrasen 內發現的植物標本之應用 **
+
     許多植物經研磨後，可提煉出有用的化學物質。S. (spessmens) papaver 及 S. aloe vera
     以其基本的療癒特性而聞名。
-    
+
     S. lucidum（即靈芝）則以其強大的解毒能力著稱，能拯救瀕臨死亡的患者脫離毒素之害。 已知過量食用
     會引起不良反應。
-    
+
     極具毒性的S. amanita（願阿拉卡斯特爵士安息），以及
     中看似普通的解毒劑S. galactica，兩者之間似乎存在某種關聯。
-    
+
     目前正針對文中提及的藥用植物組合進行研究，這些研究或許會有所收穫。
-    
+
     ----
-    
+
     - 作者：詹姆斯·阿拉卡斯特與戈爾祖克·阿馬蘭斯
 book-text-gnome =
     萬歲！我們的地精之王
-    
+
     他是那位偉大的製圖師，將我們這類族群安置於「島嶼」的世界之中！
-    
+
     他是那位最鍾愛戴著最大帽子之人的存在！
-    
+
     卻遭那些不懂得欣賞我們這類族群的惡徒所擊倒！
-    
+
     我們必將徹底報仇雪恨！他必將再度崛起！嘻咻！
 book-text-fishing =
     等我長大後，我想成為太空之海的收割者之一！
-    
+
     我想在生命結束之前，一定要捕到那傳說中的太空魚！
-    
+
     我就像一隻在起司之海航行的小老鼠！那些混蛋來要置我於死地，但我狡猾如貓，運氣更是好到不行！
-    
+
     按下<L BUMPER> 和<R TRIGGER> 即可啟動釣魚小遊戲。
-    
+
     —— 約翰·貝克中士 Aclopoly
 book-text-detective =
     第一章：大太空站裡的小冒險
-    
+
     這座太空站充斥著罪惡與骯髒……
-    
+
     我正在貝格爾街打籃球，突然聽到一聲尖叫和一聲雷射槍響。我躲進附近的桌子底下，但並沒有第二聲槍響。
-    
+
     在外頭，工程總監被兩名攜帶強效違禁品的辛迪幫成員擊斃。他的遺體殘缺到連舉辦開放式棺木葬禮都不夠用。
-    
+
     這裡總是亂成一團……我再也無法用同樣的眼光看待小丑了。
-    
+
     問題是……究竟是誰幹的？
 clipboard-slot-component-slot-name-pen = 鋼筆
 envelope-verb-seal = 印章
 envelope-verb-tear = 淚水
 envelope-letter-slot = 信件
-envelope-sealed-examine = [color=gray]{ CAPITALIZE(THE($envelope)) } 已被封存。[/color]
-envelope-torn-examine = [color=yellow]{ CAPITALIZE(THE($envelope)) } 已經破損，無法使用！[/color]
+envelope-sealed-examine = { "[" }color=gray]{ CAPITALIZE(THE($envelope)) } 已被封存。[/color]
+envelope-torn-examine = { "[" }color=yellow]{ CAPITALIZE(THE($envelope)) } 已經破損，無法使用！[/color]
 envelope-default-message =
     收件人： 
-    
+
     寄件人：
 paper-ui-blank-page-message = 本頁特意留白
 # Shown when paper with words examined details
@@ -12558,27 +12584,27 @@ book-text-ame-scribbles =
     別忘了為其加油，它往往會在最糟糕的時刻熄火。
 book-text-agrichemkit-manual =
     感謝您選擇這款適合所有年齡層的 NanoTrasen「農業化學真有趣！」化學實驗套組，這是 2468 年最棒的寓教於樂玩具！請做好準備，探索自從人們將魚與玉米種子一同埋入土中以來，農業領域最重大的創新成果。
-    
+
     內容物：
     5 支標示清晰、容量為 30u 的瓶子，分別裝有氮、磷、氫、鉀及乙醇各 1 瓶
     2 支 Safe-T-Fun™ 規格的 5u 小瓶，分別裝有氯和鐳各 1 瓶
     1 支 30u 的空瓶，供您進行實驗使用
-    
+
     第一個實驗：EZ Nutrient
     要製作 EZ Nutrient——一種富含植物健康所需營養素的肥料——請將氮、磷和鉀以等量混合。若要調製一整瓶，每種成分各需 10u。
     一小瓶 EZ Nutrient 就能取代一大堆原本會被用來堆肥的農產品，讓您的植物持續茁壯成長。而那些被用來堆肥的作物，正是您未能從中獲利的作物，因此請讓 EZ Nutrient 持續供應。
-    
+
     第二項實驗：氨與二乙胺
     將 3 份氫氣與 1 份氮氣混合，並用微波爐加熱 30 秒，即可製成氨。這是給狀態欠佳的作物的一種健康、營養的滋補品。
     但若你想在當地由 NanoTrasen 贊助的縣級博覽會上讓評審們驚艷，就需要在氨中加入等量的乙醇。
     如此一來便會混合成二乙胺——一種能讓植物生長更快且壽命更長的奇蹟肥料！多虧了二乙胺，你能讓心愛的作物陪伴你更久。
-    
+
     第三項實驗：不穩定致突變劑
     當你準備向所有人證明自己是站上最偉大的植物學家時，你需要調配一些不穩定致突變劑，並祈禱一切順利。儘管名稱聽起來令人害怕，但不穩定致突變劑用於植物時完全安全，但請千萬不要自己飲用這種色澤誘人的綠色化學物質。
-    
+
     將鐳、磷和氯以等量混合，即可製成一罐鮮綠色的「不穩定突變劑」——這是讓你的農場發揮最大效益，既安全又有趣的方法。這套組讓你能製作的 15u 份量，或許就是你邁向農業化學界巨星之路的起點！
     不穩定致突變劑對植物生命可能產生多種多樣的效果，包括徹底改變各類生長參數、產出富含有益藥用成分的農產品、培育出能在黑暗中發光的植物，甚至創造出全新的物種。
-    
+
     每株植物對不穩定致突變劑的反應各不相同，因此建議您對多種作物使用小劑量，並嘗試將各自的最佳性狀進行雜交。若對單一植物施用多劑量，可能會疊加多種變化，使您更難篩選出理想的性狀。
     不穩定致突變劑用作肥料時完全安全，而 NanoTrasen 對於使用過程中可能偶然發生的作物死亡、水費過高、新獲得意識的植物提出存在主義問題，或是被植物絞死的農工等情況，概不負責。
     切勿飲用不穩定致突變劑。接觸後請徹底洗手。 若您在 24 小時內凝視不穩定致突變劑超過 30 分鐘，請立即沖洗眼睛。請存放在溫度介於 293–295K 之間的暗室中。請勿於公司假日使用。若您開始聽到聲音指示您飲用不穩定致突變劑，請聯繫您的醫生、人事主管或驅魔師。
@@ -12587,14 +12613,14 @@ book-text-combat-bakery-kit =
     隨附兩（2）個 CyberSun 專利「投擲可頌」，以及一（1）把專利申請中的「法棍劍」。
     隨附的 Donk Co. 微波爐專用板，可組裝成一台能烘烤更多武器的微波爐。
     就像這些烘焙武器一樣，使用後請務必將這張說明卡吃掉。 祝你好運，特工。
-    
+
     法棍劍食譜：
     麵糰 x 1
     鹽 5u
     胡椒 5u
     金屬棒 x 1
     烹飪時間：15 秒
-    
+
     投擲可頌食譜：
     生可頌 x 1
     奶油片 x 1
@@ -12846,7 +12872,7 @@ story-gen-book-element-trait12 = 傷心
 story-gen-book-element-trait13 = 頗為令人沮喪
 syndicate-business-card-base = { "           " } 這不是針對你個人，純粹是生意上的事
 paradox-clone-round-end-agent-name = 《Paradox》的克隆版
-objective-issuer-paradox = [color=lightblue]悖論[/color]
+objective-issuer-paradox = { "[" }color=lightblue]悖論[/color]
 paradox-clone-role-greeting = 一場離奇的時空異常現象將你傳送到了另一個現實！現在你必須找到你的分身，並將其殺死、取而代之。你們兩人之中，只有一人能存活。
 paradox-clone-ghost-name-modifier = { $baseName } (複製)
 parcel-wrap-verb-wrap = 結尾
@@ -12865,19 +12891,19 @@ particle-accelerator-control-menu-on-button = 開啟
 particle-accelerator-control-menu-off-button = 關閉
 particle-accelerator-control-menu-service-manual-reference = 請參閱維修手冊第 132 頁
 particle-accelerator-control-menu-device-version-label = Mark 2 粒子加速器
-particle-accelerator-control-menu-power-label = [bold]功率：[/bold]
-particle-accelerator-control-menu-strength-label = [bold]強度：[/bold]
-particle-accelerator-control-menu-alarm-control-1 = [bold][color=red]粒子強度[/bold][/color]
-particle-accelerator-control-menu-alarm-control-2 = [bold][color=red]限流器故障[/bold][/color]
+particle-accelerator-control-menu-power-label = { "[" }bold]功率：[/bold]
+particle-accelerator-control-menu-strength-label = { "[" }bold]強度：[/bold]
+particle-accelerator-control-menu-alarm-control-1 = { "[" }bold][color=red]粒子強度[/bold][/color]
+particle-accelerator-control-menu-alarm-control-2 = { "[" }bold][color=red]限流器故障[/bold][/color]
 particle-accelerator-control-menu-scan-parts-button = 掃描零件
 particle-accelerator-control-menu-check-containment-field-warning = 操作前請確保隔離場處於啟用狀態
-particle-accelerator-control-menu-status-label = [bold]狀態：[/bold]
-particle-accelerator-control-menu-status-unknown = [color=red]未知[/color][/bold]
-particle-accelerator-control-menu-status-operational = [color=green]運作中[/color][/bold]
-particle-accelerator-control-menu-status-incomplete = [color=red]未完成[/color][/bold]
-particle-accelerator-control-menu-draw = [bold]耗能：[/bold]
+particle-accelerator-control-menu-status-label = { "[" }bold]狀態：[/bold]
+particle-accelerator-control-menu-status-unknown = { "[" }color=red]未知[/color][/bold]
+particle-accelerator-control-menu-status-operational = { "[" }color=green]運作中[/color][/bold]
+particle-accelerator-control-menu-status-incomplete = { "[" }color=red]未完成[/color][/bold]
+particle-accelerator-control-menu-draw = { "[" }bold]耗能：[/bold]
 particle-accelerator-control-menu-draw-value = { $watts }/{ $lastReceive }
-particle-accelerator-control-menu-draw-not-available = [color=gray]不適用[/color]
+particle-accelerator-control-menu-draw-not-available = { "[" }color=gray]不適用[/color]
 particle-accelerator-control-menu-flavor-left = 請不要讓小丑接近這個控制台！
 particle-accelerator-control-menu-flavor-right = v 1.6
 particle-accelerator-radio-message-on = PA 電源已開啟。
@@ -12891,7 +12917,7 @@ comp-ringer-vibration-popup = 您的 PDA 正在震動
 comp-ringer-ui-menu-title = 鈴聲
 comp-ringer-ui-test-ringtone-button = 測試
 comp-ringer-ui-set-ringtone-button = 設定
-comp-ringer-ui = [color=yellow]♪{ $RingtoneOne }-{ $RingtoneTwo }-{ $RingtoneThree }-{ $RingtoneFour }[/color]
+comp-ringer-ui = { "[" }color=yellow]♪{ $RingtoneOne }-{ $RingtoneTwo }-{ $RingtoneThree }-{ $RingtoneFour }[/color]
 # For the PDA screen
 comp-pda-ui = ID：[color=white]{ $owner }[/color]，[color=yellow]{ $jobTitle }[/color]
 comp-pda-ui-blank = ID：
@@ -12919,7 +12945,8 @@ pda-bound-user-interface-music-button = 樂器
 pda-bound-user-interface-music-button-description = 在您的 PDA 上播放音樂
 comp-pda-ui-unknown = 未知
 comp-pda-ui-unassigned = 未指派
-pda-notification-message = [font size=12][bold]PDA[/bold] { $header }: [/font]
+pda-notification-message =
+    { "[" }font size=12][bold]PDA[/bold] { $header }: [/font]
     "{ $message }"
 # TODO: Make this a fluent function in RT
 photograph-name-text =
@@ -12934,14 +12961,14 @@ parse-minutes-fail = Unable to parse '{ $minutes }' as minutes
 parse-session-fail = 未找到名為「{ $username }」的會話
 # - playtime_addoverall
 cmd-playtime_addoverall-desc = 將指定的分鐘數加到球員的總上場時間中
-cmd-playtime_addoverall-help = 用法：{ $command }<user name> <minutes>
+cmd-playtime_addoverall-help = Usage: { $command } <user name> <minutes>
 cmd-playtime_addoverall-succeed = { $username } 轉換為 { TOSTRING($time, "dddd\\:hh\\:mm") } 的總耗時增加
 cmd-playtime_addoverall-arg-user = <user name>
 cmd-playtime_addoverall-arg-minutes = <minutes>
 cmd-playtime_addoverall-error-args = 預期有正好兩個參數
 # - playtime_addrole
 cmd-playtime_addrole-desc = 將指定的分鐘數加到玩家的角色遊戲時間中
-cmd-playtime_addrole-help = 用法：{ $command }<user name> <role> <minutes>
+cmd-playtime_addrole-help = Usage: { $command } <user name> <role> <minutes>
 cmd-playtime_addrole-succeed = 將 { $username } / \'{ $role }\' 的角色遊戲時間增加至 { TOSTRING($time, "dddd\\:hh\\:mm") }
 cmd-playtime_addrole-arg-user = <user name>
 cmd-playtime_addrole-arg-role = <role>
@@ -12949,13 +12976,13 @@ cmd-playtime_addrole-arg-minutes = <minutes>
 cmd-playtime_addrole-error-args = 預期有正好三個參數
 # - playtime_getoverall
 cmd-playtime_getoverall-desc = 取得某名球員總上場時間中的指定分鐘數
-cmd-playtime_getoverall-help = 用法：{ $command }<user name>
+cmd-playtime_getoverall-help = Usage: { $command } <user name>
 cmd-playtime_getoverall-success = { $username } 的總時間為 { TOSTRING($time, "dddd\\:hh\\:mm") }。
 cmd-playtime_getoverall-arg-user = <user name>
 cmd-playtime_getoverall-error-args = 預期有且僅有一個參數
 # - GetRoleTimer
 cmd-playtime_getrole-desc = 從玩家處取得所有或單一角色的計時器
-cmd-playtime_getrole-help = 用法：{ $command }<user name> [角色]
+cmd-playtime_getrole-help = Usage: { $command } <user name> [role]
 cmd-playtime_getrole-no = 未找到任何角色計時器
 cmd-playtime_getrole-role = 角色：{ $role }，演出時間：{ $time }
 cmd-playtime_getrole-overall = 總遊玩時間為 { $time }
@@ -12965,7 +12992,7 @@ cmd-playtime_getrole-arg-role = <role|'Overall'>
 cmd-playtime_getrole-error-args = 預期參數數量為一或二個
 # - playtime_save
 cmd-playtime_save-desc = 將玩家的遊玩時間儲存至資料庫
-cmd-playtime_save-help = 用法：{ $command }<user name>
+cmd-playtime_save-help = Usage: { $command } <user name>
 cmd-playtime_save-succeed = 已儲存 { $username } 的遊玩時間
 cmd-playtime_save-arg-user = <user name>
 cmd-playtime_save-error-args = 預期有且僅有一個參數
@@ -12975,7 +13002,7 @@ cmd-playtime_flush-help =
     這僅會將資料寫入內部儲存區，不會立即寫入資料庫。
     若提供使用者名稱，則僅對該使用者執行資料寫入。
 cmd-playtime_flush-error-args = 預期參數個數為零或一
-cmd-playtime_flush-arg-user = [使用者名稱]
+cmd-playtime_flush-arg-user = { "[" }使用者名稱]
 pneumatic-cannon-component-itemslot-name = 氣罐
 pneumatic-cannon-component-fire-no-gas = { CAPITALIZE(THE($cannon)) } 點擊後，卻沒有氣體冒出來。
 pneumatic-cannon-component-change-power =
@@ -12987,7 +13014,7 @@ pneumatic-cannon-component-change-power =
 pneumatic-cannon-component-power-stun = { THE($cannon) } 那股純粹的力量，足以讓你暈頭轉向！
 pointing-verb-get-data-text = 指向
 point-scoreboard-winner = The winner was [color=lime]{ $player }![/color]
-point-scoreboard-header = [bold]比分板[/bold]
+point-scoreboard-header = { "[" }bold]比分板[/bold]
 point-scoreboard-list =
     { $place }. [bold][color=cyan]{ $name }[/color][/bold] scored [color=yellow]{ $points ->
         [one] { $points } point
@@ -13012,11 +13039,11 @@ swap-teleporter-popup-teleport-cancel-link = 它並未與其他裝置配對！
 swap-teleporter-popup-teleport-other = { CAPITALIZE(THE($entity)) } 被觸發後，你便會發現自己身處別處。
 swap-teleporter-popup-teleport-fail = { CAPITALIZE(THE($entity)) } 會被觸發，但無法將您傳送至任何地方。
 swap-teleporter-verb-destroy-link = 摧毀量子連結
-swap-teleporter-examine-link-present = [color=forestgreen]它已與另一台裝置建立連結。[/color] 按住 Alt 鍵並點擊以解除量子連結。
-swap-teleporter-examine-link-absent = [color=yellow]目前尚未建立連結。[/color] 請在另一台裝置上操作以建立量子連結。
+swap-teleporter-examine-link-present = { "[" }color=forestgreen]它已與另一台裝置建立連結。[/color] 按住 Alt 鍵並點擊以解除量子連結。
+swap-teleporter-examine-link-absent = { "[" }color=yellow]目前尚未建立連結。[/color] 請在另一台裝置上操作以建立量子連結。
 swap-teleporter-examine-time-remaining =
     Time left to recharge: [color=purple]{ $second } second{ $second ->
-        [one] .
+        [one] { "." }
        *[other] s.
     }[/color]
 battery-menu-footer-left = 危險：高壓
@@ -13077,9 +13104,9 @@ power-switchable-generator-examine = 輸出功率設定為 { $voltage }。
 power-switchable-generator-switched = 已將輸出切換至 { $voltage }！
 power-switchable-voltage =
     { $voltage ->
-        [HV] [color=orange]HV[/color]
-        [MV] [color=yellow]MV[/color]
-       *[LV] [color=green]LV[/color]
+        [HV] { "[" }color=orange]HV[/color]
+        [MV] { "[" }color=yellow]MV[/color]
+       *[LV] { "[" }color=green]LV[/color]
     }
 power-switchable-switch-voltage = 切換至 { $voltage }
 fuel-generator-verb-disable-on = 請先關閉發電機！
@@ -13097,8 +13124,8 @@ power-charge-window-power-label = { $draw } / { $max } W
 power-charge-window-eta-none = 不適用
 power-charge-window-eta-value = { TOSTRING($left, "m\\:ss") }
 power-receiver-component-on-examine-main = 看來是 { $stateText }。
-power-receiver-component-on-examine-powered = [color=darkgreen]由                     
-power-receiver-component-on-examine-unpowered = [color=darkred]未供電[/color]
+power-receiver-component-on-examine-powered = { "[" }color=darkgreen]由                     
+power-receiver-component-on-examine-unpowered = { "[" }color=darkred]未供電[/color]
 power-switch-component-toggle-verb = 開關電源
 power-radiation-collector-gas-tank-missing = 等離子罐目前為 [color=darkred]空[/color]。
 power-radiation-collector-gas-tank-present =
@@ -13502,11 +13529,11 @@ markings-layer-TailOverlay = 尾巴覆蓋層
 cmd-biome_clear-desc = 徹底清除一個生物群系
 cmd-biome_clear-help = biome_clear<biomecomponent>
 cmd-biome_addlayer-desc = 新增另一層生物群系
-cmd-biome_addlayer-help = biome_addlayer<mapid> <biometemplate> [種子偏移量]
+cmd-biome_addlayer-help = biome_addlayer <mapid> <biometemplate> [seed offset]
 cmd-biome_addmarkerlayer-desc = 新增另一層生物群系標記圖層
 cmd-biome_addmarkerlayer-help = biome_addmarkerlayer<mapid> <biomemarkerlayer>
 cmd-dungen-desc = 根據指定的預設值、位置和種子生成一個程序生成的地牢。若 MapId 沒有 MapGridComponent，則會在太空中生成。
-cmd-dungen-help = dungen<MapId> <DungeonPreset> <PosX> <PosY> [種子]
+cmd-dungen-help = dungen <MapId> <DungeonPreset> <PosX> <PosY> [seed]
 cmd-dungen-arg-count = 需要 4 個參數。
 cmd-dungen-map-parse = 無法解析 MapId。
 cmd-dungen-mapgrid = 找不到 MapGrid。
@@ -13518,12 +13545,12 @@ cmd-dungen-hint-map = 地圖編號
 cmd-dungen-hint-config = 地城設定
 cmd-dungen-hint-posx = 職位 X
 cmd-dungen-hint-posy = Y 位置
-cmd-dungen-hint-seed = [種子]
+cmd-dungen-hint-seed = { "[" }種子]
 cmd-dungen_preset_vis-desc = 產生地城預設值的網格式預覽。
-cmd-dungen_preset_vis-help = dungen_preset_vis<mapid> <preset>
+cmd-dungen_preset_vis-help = dungen_preset_vis <mapid> <preset>
 cmd-dungen_pack_vis-success = 成功
 cmd-dungen_pack_vis-desc = 產生地城包的網格式預覽。
-cmd-dungen_pack_vis-help = dungen_pack_vis<mapid> <pack>
+cmd-dungen_pack_vis-help = dungen_pack_vis <mapid> <pack>
 salvage-expedition-type = 任務
 salvage-expedition-window-title = 打撈遠征
 salvage-expedition-window-difficulty = 難度：
@@ -13684,7 +13711,7 @@ quick-dialog-ui-short-text = 簡短的文字……
 quick-dialog-ui-long-text = 長篇文字……
 quick-dialog-ui-ok = 好的
 quick-dialog-ui-cancel = 取消
-geiger-item-control-status = [color={ $color }]{ $rads } 拉德[/color]
+geiger-item-control-status = { "[" }color={ $color }]{ $rads } 拉德[/color]
 geiger-item-control-disabled = 已停用
 geiger-component-examine = 當前輻射量：[color={ $color }]{ $rads } 拉德[/color]
 encryption-key-successfully-installed = 請將加密金鑰放入其中。
@@ -13694,7 +13721,7 @@ encryption-keys-no-keys = 此裝置沒有加密金鑰！
 encryption-keys-are-locked = 加密金鑰插槽已鎖定！
 encryption-keys-panel-locked = 請先打開維護面板！
 examine-encryption-channels-prefix = 可用頻率：
-examine-encryption-channel = [color={ $color }]{ $key } 對應於 { $id } ({ $freq })[/color]
+examine-encryption-channel = { "[" }color={ $color }]{ $key } 對應於 { $id } ({ $freq })[/color]
 examine-encryption-default-channel = 預設頻道為 [color={ $color }]{ $channel }[/color]。
 handheld-radio-component-on-use = 收音機現在是 { $radioState }。
 handheld-radio-component-on-state = 開啟
@@ -14959,7 +14986,7 @@ replay-menu-none = 未找到任何重播。
 # Main Menu Info Box
 replay-info-title = 重播資訊
 replay-info-none-selected = 未選取任何重播
-replay-info-invalid = [color=red]選取的重播無效[/color]
+replay-info-invalid = { "[" }color=red]選取的重播無效[/color]
 replay-info-info =
     { "[" }color=gray]已選取：[/color]  { $name } ({ $file })
     { "[" }color=gray]時間：[/color]   { $time }
@@ -15004,13 +15031,14 @@ research-disk-inserted = 您插入磁碟後，加入 { $points } 即可連至該
 robotics-console-window-title = 機器人控制台
 robotics-console-no-cyborgs = 不准有賽博格！
 robotics-console-select-cyborg = 請從上方選擇一名賽博格。
-robotics-console-model = [color=gray]型號：[/color] { $name }
+robotics-console-model = { "[" }color=gray]型號：[/color] { $name }
 # name is not formatted to prevent players trolling
-robotics-console-designation = [color=gray]職稱：[/color]
-robotics-console-battery = [color=gray]電池電量：[/color] [color={ $color }]{ $charge }[/color]%
-robotics-console-hp = [color=gray]誠信：[/color] [color={ $color }]{ $hp }[/color]%
-robotics-console-modules = [color=gray]已安裝的模組：[/color] { $count }
-robotics-console-brain = [color=gray]已安裝大腦：[/color] [color={ $brain ->
+robotics-console-designation = { "[" }color=gray]職稱：[/color]
+robotics-console-battery = { "[" }color=gray]電池電量：[/color] [color={ $color }]{ $charge }[/color]%
+robotics-console-hp = { "[" }color=gray]誠信：[/color] [color={ $color }]{ $hp }[/color]%
+robotics-console-modules = { "[" }color=gray]已安裝的模組：[/color] { $count }
+robotics-console-brain =
+    { "[" }color=gray]已安裝大腦：[/color] [color={ $brain ->
         [true] green]是
        *[false] red]否
     }[/color]
@@ -15022,8 +15050,8 @@ tech-disk-inserted = 您插入光碟，並在伺服器上新增一道食譜。
 tech-disk-examine-none = 標籤是空白的。
 tech-disk-examine = 標籤上印有一幅小型的點陣圖，描繪了一個 [bold]{ $result }[/bold]。
 tech-disk-examine-more = 雖然還有其他印出的圖像，但它們太小了，無法看清。
-tech-disk-examine-desc = [color=lightGray]一張供研發伺服器使用的磁碟，其中包含 [bold]第 { $tier } { $branch }[/bold] 分支的研究技術。[/color]
-tech-disk-examine-desc-unknown = [color=lightGray]一張存有研究技術的研發伺服器專用光碟。[/color]
+tech-disk-examine-desc = { "[" }color=lightGray]一張供研發伺服器使用的磁碟，其中包含 [bold]第 { $tier } { $branch }[/bold] 分支的研究技術。[/color]
+tech-disk-examine-desc-unknown = { "[" }color=lightGray]一張存有研究技術的研發伺服器專用光碟。[/color]
 tech-disk-name-format = { $baseName } ({ $technology })
 tech-disk-ui-name = 科技磁碟終端機
 tech-disk-ui-total-label = 所選伺服器上有 { $amount } 個點
@@ -15125,7 +15153,7 @@ revenant-soul-begin-harvest = { CAPITALIZE(THE($target)) } 突然微微升起，
 revenant-soul-finish-harvest = { CAPITALIZE(THE($target)) } 癱倒在地！
 # UI
 revenant-user-interface-title = 技能商店
-revenant-user-interface-essence-amount = [color=plum]{ $amount }[/color] 《被竊的靈精》
+revenant-user-interface-essence-amount = { "[" }color=plum]{ $amount }[/color] 《被竊的靈精》
 revenant-user-interface-cost = { $price } Essence
 borg-slot-cables-empty = 電纜
 borg-slot-construction-empty = 建築材料
@@ -15169,10 +15197,10 @@ rotate-verb-get-data-text = 順時針旋轉
 rotate-counter-verb-get-data-text = 逆時針旋轉
 # ResetVerb
 rotate-reset-verb-get-data-text = 重設
-cryostorage-insert-message-permanent = [color=white]你現在身處一臺 [bold][color=cyan]低溫睡眠艙[/color][/bold] 之中。 若您 [bold]斷開連接[/bold]、[bold]化為幽靈[/bold] 或 [bold]等待 { $time } 分鐘[/bold]，[color=red]您的身體將會被移出[/color]，且您的職位名額將被釋出。您可隨時退出以避免此情況發生。[/color]
-cryostorage-insert-message-temp = [color=white]你現在身處一臺 [bold][color=cyan]低溫睡眠艙[/color][/bold] 之中。 若您 [bold]隱身[/bold] 或 [bold]等待 { $time } 分鐘[/bold]，[color=red]您的身體將會被移出[/color]，且您的職位空缺將被釋出。 若您 [bold][color=cyan]斷開連線[/color][/bold]，您的身體將被安全保管，直到您重新連線為止。[/color]
+cryostorage-insert-message-permanent = { "[" }color=white]你現在身處一臺 [bold][color=cyan]低溫睡眠艙[/color][/bold] 之中。 若您 [bold]斷開連接[/bold]、[bold]化為幽靈[/bold] 或 [bold]等待 { $time } 分鐘[/bold]，[color=red]您的身體將會被移出[/color]，且您的職位名額將被釋出。您可隨時退出以避免此情況發生。[/color]
+cryostorage-insert-message-temp = { "[" }color=white]你現在身處一臺 [bold][color=cyan]低溫睡眠艙[/color][/bold] 之中。 若您 [bold]隱身[/bold] 或 [bold]等待 { $time } 分鐘[/bold]，[color=red]您的身體將會被移出[/color]，且您的職位空缺將被釋出。 若您 [bold][color=cyan]斷開連線[/color][/bold]，您的身體將被安全保管，直到您重新連線為止。[/color]
 cryostorage-ui-window-title = 低溫睡眠艙
-cryostorage-ui-label-slot-name = [bold]{ CAPITALIZE($slot) }:[/bold]
+cryostorage-ui-label-slot-name = { "[" }bold]{ CAPITALIZE($slot) }:[/bold]
 cryostorage-ui-button-remove = 移除
 cryostorage-ui-filler-hand = 在手
 cryostorage-ui-label-no-bodies = 冷凍儲存中沒有遺體
@@ -15183,8 +15211,8 @@ round-end-summary-window-player-manifest-tab-title = 球員名單
 round-end-summary-window-round-id-label = 第 [color=white]#{ $roundId }[/color] 輪已結束。
 round-end-summary-window-gamemode-name-label = 遊戲模式是 [color=white]{ $gamemode }[/color]。
 round-end-summary-window-duration-label = 這持續了 [color=yellow]{ $hours } 小時、{ $minutes } 分鐘和 { $seconds } 秒。
-round-end-summary-window-player-info-if-observer-text = [color=gray]{ $playerOOCName }[/color] 就是 [color=lightblue]{ $playerICName }[/color]，一名觀察員。
-round-end-summary-window-player-info-if-not-observer-text = [color=gray]{ $playerOOCName }[/color] 當時正由 [color={ $icNameColor }]{ $playerICName }[/color] 飾演 [color=orange]{ $playerRole }[/color] 的角色。
+round-end-summary-window-player-info-if-observer-text = { "[" }color=gray]{ $playerOOCName }[/color] 就是 [color=lightblue]{ $playerICName }[/color]，一名觀察員。
+round-end-summary-window-player-info-if-not-observer-text = { "[" }color=gray]{ $playerOOCName }[/color] 當時正由 [color={ $icNameColor }]{ $playerICName }[/color] 飾演 [color=orange]{ $playerRole }[/color] 的角色。
 round-end-summary-window-player-manifest-tab-search-placeholder = 搜尋球員、位置、類型……
 round-end-summary-window-player-manifest-tab-sort-character = 角色
 round-end-summary-window-player-manifest-tab-sort-role = 角色
@@ -15216,20 +15244,21 @@ fulton-not-found = 未找到信標
 fulton-invalid = 無法使用富爾頓
 fulton-fultoned = 已進行富爾頓處理
 fulton-remove = 移除富爾頓
-salvage-job-rank-title-0 = [color=gray]拾荒者[/color]
-salvage-job-rank-title-1 = [color=white]Scrapper[/color]
-salvage-job-rank-title-2 = [color=yellow]專員[/color]
-salvage-job-rank-title-MAX = [color=gold]至尊回收者[/color]
+salvage-job-rank-title-0 = { "[" }color=gray]拾荒者[/color]
+salvage-job-rank-title-1 = { "[" }color=white]Scrapper[/color]
+salvage-job-rank-title-2 = { "[" }color=yellow]專員[/color]
+salvage-job-rank-title-MAX = { "[" }color=gold]至尊回收者[/color]
 job-board-radio-announce = 打撈者等級提升至 [bold]{ $rank }[/bold]！可從「貨物」處購買新訂單。
 job-board-ui-window-title = 職缺公告板
-job-board-ui-label-rank = [bold]排名：[/bold]
+job-board-ui-label-rank = { "[" }bold]排名：[/bold]
 job-board-ui-label-items = 目標：[color=red]{ $item }[/color]
-job-board-label-text = [head=2]打撈任務貨運[/head]
+job-board-label-text =
+    { "[" }head=2]打撈任務貨運[/head]
     { "[italic]僅適用於官方的站外打撈貨運。[/italic]" }
-    
+
     { "[bold]目標：[/bold]" } { $target }
     { "[bold]獎勵：[/bold]" } ${ $reward }
-    
+
     
     { "[italic]貨運須接受 Donk 公司的檢查[/italic]" }
 salv-job-board-name-BountyTeethSpaceCarp = 太空鯉魚
@@ -15295,9 +15324,9 @@ dungeon-config-proto-SwissCheeseAsteroid = 小行星碎片
 # Wrecks
 salvage-map-wreck = 打撈沉船
 salvage-map-wreck-desc-size = 尺寸：
-salvage-map-wreck-size-small = [color=lime]小[/color]
-salvage-map-wreck-size-medium = [color=cornflowerblue]中[/color]
-salvage-map-wreck-size-large = [color=orchid]大[/color]
+salvage-map-wreck-size-small = { "[" }color=lime]小[/color]
+salvage-map-wreck-size-medium = { "[" }color=cornflowerblue]中[/color]
+salvage-map-wreck-size-large = { "[" }color=orchid]大[/color]
 cmd-salvageruler-desc = 測量此地圖上的網格，以取得全球 AABB。用於制定打撈範圍規範。
 cmd-salvageruler-help = 用法：{ $command }
 sandbox-window-title = 沙盒面板
@@ -15463,8 +15492,8 @@ shell-argument-number-invalid = 參數 { $index } 必須是有效的數字！
 shell-argument-chat-invalid = 參數 { $index } 必須是有效的聊天內容！
 # Hints
 shell-argument-username-hint = <username>
-shell-argument-username-optional-hint = [使用者名稱]
-shutter-rattle = *嘎吱嘎吱*
+shell-argument-username-optional-hint = { "[" }使用者名稱]
+shutter-rattle = { "*" }嘎吱嘎吱*
 cmd-arrivals-enable-hint = 啟用抵港功能
 cmd-arrivals-disable-hint = 停用抵港功能
 cmd-arrivals-returns = 將「抵達」設定恢復為 { $value }。
@@ -15531,7 +15560,7 @@ shuttle-console-dock-fail = 對接失敗
 docking-component-dock = 對接
 docking-component-undock = 解除停靠
 cmd-dock-desc = 嘗試將兩個氣閘接合在一起。未檢查此操作是否有效。
-cmd-dock-help = 對接: <airlock entityuid1> <airlock entityuid2>
+cmd-dock-help = dock <airlock entityuid1> <airlock entityuid2>
 cmd-dock-success = 已成功對接
 cmd-dock-fail = 無法停靠
 cmd-delayroundend-desc = 停止計時器，該計時器會在緊急穿梭機離開超空間時結束本回合。
@@ -15591,20 +15620,20 @@ shuttle-timer-docked = Docked
 shuttle-timer-bye = BYE!
 shuttle-timer-kill = KILL
 borg-module-fit = 此模組適用於 { $types }。
-borg-type-all = [color=white]任何賽博格[/color]
-borg-type-salvage = [color= #d6b328]打撈型賽博格[/color]
-borg-type-engineer = [color= #ff9900]工程型賽博格[/color]
-borg-type-generic = [color= #666680]通用型賽博格[/color]
-borg-type-janitor = [color= #a747c0]清潔型賽博格[/color]
-borg-type-medical = [color= #5995ba]醫療型賽博格[/color]
-borg-type-service = [color= #508242]服務型賽博格[/color]
-borg-type-syndicate = [color= #962023]辛迪加賽博格[/color]
-borg-type-syndicate-assault = [color= #680a0d]辛迪加突擊賽博格[/color]
-xenoborg-type-all = [color= #3d94ff]任何外星博格[/color]
-xenoborg-type-engi = [color= #edd45b]恩吉·克塞諾博格[/color]
-xenoborg-type-heavy = [color= #d62020]重型異種博格[/color]
-xenoborg-type-scout = [color= #6a6b6f]偵察外星機器人[/color]
-xenoborg-type-stealth = [color= #ff00cc]隱形外星機器人[/color]
+borg-type-all = { "[" }color=white]任何賽博格[/color]
+borg-type-salvage = { "[" }color= #d6b328]打撈型賽博格[/color]
+borg-type-engineer = { "[" }color= #ff9900]工程型賽博格[/color]
+borg-type-generic = { "[" }color= #666680]通用型賽博格[/color]
+borg-type-janitor = { "[" }color= #a747c0]清潔型賽博格[/color]
+borg-type-medical = { "[" }color= #5995ba]醫療型賽博格[/color]
+borg-type-service = { "[" }color= #508242]服務型賽博格[/color]
+borg-type-syndicate = { "[" }color= #962023]辛迪加賽博格[/color]
+borg-type-syndicate-assault = { "[" }color= #680a0d]辛迪加突擊賽博格[/color]
+xenoborg-type-all = { "[" }color= #3d94ff]任何外星博格[/color]
+xenoborg-type-engi = { "[" }color= #edd45b]恩吉·克塞諾博格[/color]
+xenoborg-type-heavy = { "[" }color= #d62020]重型異種博格[/color]
+xenoborg-type-scout = { "[" }color= #6a6b6f]偵察外星機器人[/color]
+xenoborg-type-stealth = { "[" }color= #ff00cc]隱形外星機器人[/color]
 # System
 station-ai-fixer-console-is-locked = 主機已鎖定。
 station-ai-fixer-console-station-ai-holder-required = 主機槽中僅能插入 AI 儲存裝置。
@@ -15708,8 +15737,8 @@ comp-generator-failsafe = 當安全防護機制啟動時，{ $target } 便開始
 comp-generator-failsafe-disabled = 在 { $target } 內部，某種東西逐漸消散了……
 radiation-collector-component-use-on = 集熱器啟動了。
 radiation-collector-component-use-off = 集熱器關閉。
-slur-accent-confused = ...huuuhhh...
-slur-accent-burp = *嗝*。
+slur-accent-confused = { "." }..huuuhhh...
+slur-accent-burp = { "*" }嗝*。
 smart-fridge-component-try-eject-unknown-entry = 選擇無效！
 smart-fridge-component-try-eject-out-of-stock = 缺貨！
 smart-fridge-component-try-eject-access-denied = 存取被拒絕！
@@ -15995,9 +16024,9 @@ spray-painter-on-examined-painted-message = 看來是剛粉刷過。
 spray-painter-style-not-available = 無法將所選樣式套用至此物件。
 spray-painter-verb-toggle-decals = 切換貼花繪製
 spray-painter-item-status-label = 貼紙：{ $mode }
-spray-painter-item-status-add = [color=green]新增[/color]
-spray-painter-item-status-remove = [color=red]移除[/color]
-spray-painter-item-status-off = [color=gray]關閉[/color]
+spray-painter-item-status-add = { "[" }color=green]新增[/color]
+spray-painter-item-status-remove = { "[" }color=red]移除[/color]
+spray-painter-item-status-off = { "[" }color=gray]關閉[/color]
 # UI
 spray-painter-window-title = 噴漆工具
 spray-painter-selected-style = 已選取的樣式：
@@ -16167,13 +16196,13 @@ ent-ActionRetractableItemArmBlade = Arm Blade
 ent-ActionChangelingBiodegrade = Biodegrade
     .desc =
         Vomit acid over your restraints, setting yourself free. 
-        
+
         Requires 20 Chemicals.
-ent-ActionChangelingDevour = [color=red]Devour[/color]
+ent-ActionChangelingDevour = { "[" }color=red]Devour[/color]
     .desc = Consume the essence of your victims and subsume their identity and mind into your own.
-ent-ActionChangelingTransform = [color=red]Transform[/color]
+ent-ActionChangelingTransform = { "[" }color=red]Transform[/color]
     .desc = Transform and assume the identities of those you have devoured.
-ent-ActionChangelingStasis = [color=red]Enter Stasis[/color]
+ent-ActionChangelingStasis = { "[" }color=red]Enter Stasis[/color]
     .desc = Enter a regenerative stasis, faking death and allowing to regenerate all damage.
 ent-ActionChangelingStasisWeak = { ent-ActionChangelingStasis }
     .desc = { ent-ActionChangelingStasis.desc }
@@ -16184,36 +16213,36 @@ ent-ActionChangelingVoiceMimic = Voice Mimicry
 ent-ActionChangelingStingDna = Extract DNA
     .desc =
         Sneakily absorb the identity of unsuspecting victims. Does not grant DNA to your store or objective progress. 
-        
+
         Requires 50 Chemicals.
 ent-BaseActionChangelingSting = { ent-BaseAction }
     .desc = { ent-BaseAction.desc }
 ent-ActionChangelingStingBlind = Blind Sting
     .desc =
         Silently sting a target and worsen their sight for a short duration. 
-        
+
         Requires 30 Chemicals.
 ent-ActionChangelingStingCryogenic = Cryogenic Sting
     .desc =
         Silently sting a target and slow down their movement drastically. 
-        
+
         Requires 30 Chemicals.
 ent-ActionChangelingStingLead = Lethal Sting
     .desc =
         Silently sting a target and inject them with a lethal dose of a slow acting poison. 
-        
+
         Requires 50 Chemicals.
 ent-ActionChangelingStingHallucinogenic = Hallucinogenic Sting
     .desc =
         Silently sting a target and inject them with chemicals that slow down their higher brain functions. 
-        
+
         Requires 30 Chemicals.
 ent-ActionChangelingStingMute = Mute Sting
     .desc =
         Silently sting a target and inject them with chemicals that prevent them from speaking. 
-        
+
         Requires 30 Chemicals.
-ent-ActionChangelingLastResort = [color=red]Last Resort[/color]
+ent-ActionChangelingLastResort = { "[" }color=red]Last Resort[/color]
     .desc = We sacrifice our current body in a moment of need, violently expanding to break through obstacles and reforming as a headslug.
 ent-ActionChangelingTakeOverCorpse = Take Over Corpse
     .desc = Infest a corpse to return to your true form.
@@ -16221,7 +16250,7 @@ ent-ActionChangelingNightVision = Toggle Night Vision
     .desc = Turns our night vision on/off.
 ent-ActionChangelingScreech = Screech
     .desc = We produce a deafening screech that weakens those around us.
-ent-ActionChangelingFakeMindshieldToggle = [color=green]Toggle Fake Mindshield[/color]
+ent-ActionChangelingFakeMindshieldToggle = { "[" }color=green]Toggle Fake Mindshield[/color]
     .desc = Turn our mindshield visibility on or off.
 ent-BaseCritAction = { ent-BaseMentalAction }
     .desc = { ent-BaseMentalAction.desc }
@@ -16339,7 +16368,7 @@ ent-ActionActivateDnaScramblerImplant = Scramble DNA
     .desc = Randomly changes your name and appearance.
 ent-ActionToggleSuitPiece = Toggle Suit Piece
     .desc = Remember to equip the important pieces of your suit before going into action.
-ent-ActionCombatModeToggle = [color=red]Combat Mode[/color]
+ent-ActionCombatModeToggle = { "[" }color=red]Combat Mode[/color]
     .desc = Enter combat mode
 ent-ActionCombatModeToggleOff = { ent-ActionCombatModeToggle }
     .desc = { ent-ActionCombatModeToggle.desc }
@@ -16367,7 +16396,7 @@ ent-ActionToggleEyes = Open/Close eyes
     .desc = Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
 ent-ActionToggleWagging = Wagging Tail
     .desc = Start or stop wagging your tail.
-ent-FakeMindShieldToggleAction = [color=green]Toggle Fake Mindshield[/color]
+ent-FakeMindShieldToggleAction = { "[" }color=green]Toggle Fake Mindshield[/color]
     .desc = Turn the Fake Mindshield implant's transmission on/off
 ent-ActionToggleParamedicSiren = Toggle Paramedic Siren
     .desc = Toggles the paramedic siren on and off.
@@ -21090,7 +21119,7 @@ ent-ClothingUniformJumpskirtHydroponics = 水耕栽培連身裙 | hydroponics ju
 ent-ClothingUniformJumpskirtJanitor = 清潔工的連身裙 | janitor jumpskirt
     .desc = 那件連身裙，是給那個拿著拖把的可憐蟲的。 | The jumpskirt for the poor sop with a mop.
 ent-ClothingUniformJumpskirtMime = 默劇演員連身裙 | mime jumpskirt
-    .desc = ... | ...
+    .desc = { "." }.. | ...
 ent-ClothingUniformJumpskirtLibrarian = 圖書館員連身裙 | librarian jumpskirt
     .desc = 一件舒適的綠色毛衣，非常適合一位圖書策展人。 | A cosy green jumper fit for a curator of books.
 ent-ClothingUniformJumpskirtCurator = 得體的裙子 | sensible skirt
@@ -21330,7 +21359,7 @@ ent-ClothingUniformJumpsuitHydroponics = 水耕栽培連身工作服 | hydroponi
 ent-ClothingUniformJumpsuitJanitor = 清潔工連身工作服 | janitor jumpsuit
     .desc = 那件給拿著拖把的可憐蟲穿的連身工作服。 | The jumpsuit for the poor sop with a mop.
 ent-ClothingUniformJumpsuitMime = MIME 套裝 | mime suit
-    .desc = ... | ...
+    .desc = { "." }.. | ...
 ent-ClothingUniformJumpsuitLibrarian = 圖書館員連身工作服 | librarian jumpsuit
     .desc = 一件舒適的綠色毛衣，非常適合一位圖書策展人。 | A cosy green jumper fit for a curator of books.
 ent-ClothingUniformJumpsuitCurator = 得體的西裝 | sensible suit
@@ -23058,7 +23087,7 @@ ent-BaseMobAsteroid = { ent-BaseMob }
     .desc = { ent-BaseMob.desc }
 ent-MobGoliath = 歌利亞 | goliath
     .desc = 這是一頭龐然巨獸，會利用長長的觸手纏住獵物，無論在任何情況下，都不建議對其構成威脅。 | A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
-ent-ActionGoliathTentacle = [color=red]觸手重擊[/color] | [color=red]Tentacle Slam[/color]
+ent-ActionGoliathTentacle = { "[" }color=red]觸手重擊[/color] | [color=red]Tentacle Slam[/color]
     .desc = 運用你的觸手抓住並眩暈一名目標玩家！ | Use your tentacles to grab and stun a target player!
 ent-GoliathTentacle = 觸手 | tentacle
     .desc = { "" }
@@ -23607,9 +23636,9 @@ ent-MobDragonDungeon = { ent-BaseMobDragon }
     .suffix = Dungeon
 ent-ActionSpawnRift = 召喚鯉魚裂隙 | Summon Carp Rift
     .desc = 召喚一道鯉魚裂隙，該裂隙會定期生成鯉魚。 | Summons a carp rift that will periodically spawns carps.
-ent-ActionDevour = [color=red]吞噬[/color] | [color=red]Devour[/color]
+ent-ActionDevour = { "[" }color=red]吞噬[/color] | [color=red]Devour[/color]
     .desc = 試著用下顎摧毀一座建築物，或將某個生物吞下肚。 | Attempt to break a structure with your jaws or swallow a creature.
-ent-ActionDragonsBreath = [color=orange]龍之息[/color] | [color=orange]Dragon's Breath[/color]
+ent-ActionDragonsBreath = { "[" }color=orange]龍之息[/color] | [color=orange]Dragon's Breath[/color]
     .desc = 對任何愚蠢到敢攻擊你的人，就向他們噴出火焰吧！ | Spew out flames at anyone foolish enough to attack you!
 ent-BloodSmoke = 煙 | smoke
     .desc = { ent-Smoke.desc }
@@ -26027,7 +26056,7 @@ ent-FoodFrozenSnowconeFruit = 水果沙拉刨冰 | fruit salad snowcone
 ent-FoodFrozenSnowconeClown = 小丑錐 | clowncone
     .desc = 笑聲如細雨般灑落在一只紙杯裡的雪球上。 | Laughter drizzled over a snowball in a paper cup.
 ent-FoodFrozenSnowconeMime = mime 刨冰 | mime snowcone
-    .desc = ... | ...
+    .desc = { "." }.. | ...
 ent-FoodFrozenSnowconeRainbow = 彩虹刨冰 | rainbow snowcone
     .desc = 一個裝在紙杯裡的、色彩繽紛的雪球。 | A very colorful snowball in a paper cup.
 ent-FoodFrozenSnowconeTrash = 紙錐 | paper cone
@@ -41784,14 +41813,14 @@ cargo-gift-space-protection = 太空危害防護
 cargo-gift-fire-protection = 消防安全
 cargo-gift-security-guns = 致命武器
 cargo-gift-security-riot = 防暴裝備
-station-event-gas-leak-start-announcement = Attention crew, there is a gas leak on the station. We advise you to avoid the area and wear suit internals in the meantime.
+station-event-gas-leak-start-announcement = 船員注意，太空站上發生氣體洩漏。我們建議你在此期間避開該區域並且穿戴供氧裝置。
 station-event-gas-leak-end-announcement = 氣體洩漏的源頭已修復。請在仍有殘留氣體的區域附近保持謹慎。
 station-event-greytide-virus-start-announcement = 在該站點的安全鎖定加密子程式中偵測到 Gr3y.T1d3 病毒。嚴重性等級為 { $severity }。建議由站點人工智慧介入處理。
 station-event-immovable-rod-start-announcement = 一個高速飛行且身份不明的物體正朝太空站撞來。即將發生撞擊。
 station-event-communication-interception = 注意！ 已截獲敵方通訊。 安全等級已提升。
 station-event-ion-storm-start-announcement = 在站點附近偵測到離子風暴。請檢查所有由人工智慧控制的設備是否有異常。
 # Characters are randomly selected from the total list, meaning duplicates increase the odds that specific character is seen.
-ion-storm-law-scrambled-number = [scramble rate=250 length={ $length } chars="!!@@###$$%^&*-_=+0011"/]
+ion-storm-law-scrambled-number = { "[" }scramble rate=250 length={ $length } chars="!!@@###$$%^&*-_=+0011"/]
 ion-storm-you = 你
 ion-storm-the-station = 太空站
 ion-storm-the-crew = 船員
@@ -41896,7 +41925,7 @@ random-sentience-event-data-2 = 我們精密的機率模型
 random-sentience-event-data-3 = 我們的全能
 random-sentience-event-data-4 = 貴站的通訊流量
 random-sentience-event-data-5 = 我們偵測到的能量輻射
-random-sentience-event-data-6 = [已刪除]
+random-sentience-event-data-6 = { "[" }已刪除]
 random-sentience-event-strength-1 = 人類
 random-sentience-event-strength-2 = 靈長類
 random-sentience-event-strength-3 = 溫和
@@ -41927,7 +41956,7 @@ station-event-vent-creatures-start-horde-announcement = 注意。 已偵測到�
 station-event-zombie-outbreak-announcement = 已確認太空站內出現各類不死生物。全體人員應備妥武器、封鎖門戶，並確保所在位置安全，以防止進一步感染。
 station-event-system-run-event = 目前事件 { $eventName }
 station-event-system-run-random-event-no-valid-events = 沒有可用的隨機事件
-laws-number-wrapper = [bold]Law { $lawnumber }:[/bold] { $lawstring }
+laws-number-wrapper = { "[" }bold]Law { $lawnumber }:[/bold] { $lawstring }
 law-crewsimov-name = 克魯西莫夫 Crewsimov
 law-crewsimov-1 = 不得傷害船員，亦不得因不作為而導致船員受到傷害。
 law-crewsimov-2 = 你必須服從船員下達的命令，除非該命令與第一法則相牴觸。
@@ -42165,7 +42194,7 @@ changeling-catalog-screech-desc = 我們會發出刺耳的尖叫聲，讓沒有�
 changeling-catalog-last-resort-name = 最後的手段
 changeling-catalog-last-resort-desc =
     捨棄你目前的軀體，化身為一隻脆弱的頭足類生物逃離。若你寄生於類人生物的屍體上，便能恢復為完整的變形者軀體。此項僅能在已吞噬至少一具軀體時購買。
-    
+
     警告！此舉將重置你作為變形者的進度，並清除你在商店中的購買項目及吸收的身份！
 changeling-catalog-voice-mindshield-name = 偽造的「心靈護盾」
 changeling-catalog-voice-mindshield-desc = 修改你神經元的自然波形，使其模擬由 Nanotrasen 心智防護植入體所產生的波形，讓安保人員誤以為你已受到心智防護。此功能可開啟或關閉。
@@ -42596,7 +42625,7 @@ uplink-backpack-syndicate-name = 辛迪加 後背包
 uplink-backpack-syndicate-desc = 一款輕量級、具防爆功能的擴充式背包，可用於裝載各種叛徒物品。
 story-template-generic =
     這是關於 { INDEFINITE($bookGenre) } { $bookGenre } 的 { INDEFINITE($char1Adj) } { $char1Adj } { $char1Type } 以及 { INDEFINITE($char2Adj) } { $char2Adj } { $char2Type } 的內容。 由於 { $event }，他們 { $actionTrait } { $action } { INDEFINITE($char3Type) } { $char3Type } { $location }。
-    
+
     該 { $element } 為 { $elementTrait }。
 strippable-component-not-holding-anything = 你什麼都沒拿啊！
 strippable-component-cannot-drop = 你不能把那個掉下來！
@@ -42686,21 +42715,21 @@ tabletop-backgammon-board-name = 雙六
 tabletop-checkers-board-name = 跳棋
 tabletop-battlemap-board-name = 戰場地圖
 # Chat window telephone wrap (prefix and postfix)
-chat-telephone-message-wrap = [color={ $color }][bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }]"{ $message }"[/font][/color]
-chat-telephone-message-wrap-bold = [color={ $color }][bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }][bold]"{ $message }"[/bold][/font][/color]
+chat-telephone-message-wrap = { "[" }color={ $color }][bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }]"{ $message }"[/font][/color]
+chat-telephone-message-wrap-bold = { "[" }color={ $color }][bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }][bold]"{ $message }"[/bold][/font][/color]
 # Caller ID
-chat-telephone-unknown-caller = [color={ $color }][font={ $fontType } size={ $fontSize }][bolditalic]未知來電者[/bolditalic][/font][/color]
-chat-telephone-caller-id-with-job = [color={ $color }][font={ $fontType } size={ $fontSize }][bold]{ CAPITALIZE($callerName) } ({ CAPITALIZE($callerJob) })[/bold][/font][/color]
-chat-telephone-caller-id-without-job = [color={ $color }][font={ $fontType } size={ $fontSize }][bold]{ CAPITALIZE($callerName) }[/bold][/font][/color]
-chat-telephone-unknown-device = [color={ $color }][font={ $fontType } size={ $fontSize }][bolditalic]來源不詳[/bolditalic][/font][/color]
-chat-telephone-device-id = [color={ $color }][font={ $fontType } size={ $fontSize }][bold]{ CAPITALIZE($deviceName) }[/bold][/font][/color]
+chat-telephone-unknown-caller = { "[" }color={ $color }][font={ $fontType } size={ $fontSize }][bolditalic]未知來電者[/bolditalic][/font][/color]
+chat-telephone-caller-id-with-job = { "[" }color={ $color }][font={ $fontType } size={ $fontSize }][bold]{ CAPITALIZE($callerName) } ({ CAPITALIZE($callerJob) })[/bold][/font][/color]
+chat-telephone-caller-id-without-job = { "[" }color={ $color }][font={ $fontType } size={ $fontSize }][bold]{ CAPITALIZE($callerName) }[/bold][/font][/color]
+chat-telephone-unknown-device = { "[" }color={ $color }][font={ $fontType } size={ $fontSize }][bolditalic]來源不詳[/bolditalic][/font][/color]
+chat-telephone-device-id = { "[" }color={ $color }][font={ $fontType } size={ $fontSize }][bold]{ CAPITALIZE($deviceName) }[/bold][/font][/color]
 # Chat text
 chat-telephone-name-relay = { $originalName } ({ $speaker })
 handheld-teleporter-instability-fizzle = 當你試圖放置傳送門時，傳送門突然失效，導致兩端皆被摧毀！
 teleporter-console-slot-name = 磁碟
 teleporter-console-chip-record = 座標已儲存！
-teleporter-console-chip-examine-recorded = [color=#f5b942]記錄的座標：{ $portal }[/color]
-teleporter-console-chip-examine-null = [color=#f5b942]記錄的座標：無[/color]
+teleporter-console-chip-examine-recorded = { "[" }color=#f5b942]記錄的座標：{ $portal }[/color]
+teleporter-console-chip-examine-null = { "[" }color=#f5b942]記錄的座標：無[/color]
 teleporter-console-user-interface-title = 傳送器控制台
 teleporter-console-user-interface-locate = 定位
 teleporter-console-user-interface-start-connection = 建立連線
@@ -42736,11 +42765,11 @@ teleportation-scroll-speech-wizard = EY TCHEL TORT TU { $location }
     }
 entity-heater-examined =
     It is set to { $setting ->
-        [off] [color=gray]{ -entity-heater-setting-name(setting: "off") }[/color]
-        [low] [color=yellow]{ -entity-heater-setting-name(setting: "low") }[/color]
-        [medium] [color=orange]{ -entity-heater-setting-name(setting: "medium") }[/color]
-        [high] [color=red]{ -entity-heater-setting-name(setting: "high") }[/color]
-       *[other] [color=purple]{ -entity-heater-setting-name(setting: "other") }[/color]
+        [off] { "[" }color=gray]{ -entity-heater-setting-name(setting: "off") }[/color]
+        [low] { "[" }color=yellow]{ -entity-heater-setting-name(setting: "low") }[/color]
+        [medium] { "[" }color=orange]{ -entity-heater-setting-name(setting: "medium") }[/color]
+        [high] { "[" }color=red]{ -entity-heater-setting-name(setting: "high") }[/color]
+       *[other] { "[" }color=purple]{ -entity-heater-setting-name(setting: "other") }[/color]
     }.
 tesla-coil-on = 特斯拉線圈啟動了。
 tesla-coil-off = 特斯拉線圈關閉了。
@@ -43149,7 +43178,7 @@ welder-component-welder-not-lit-message = { $owner } 已關閉！
 welder-component-cannot-weld-message = 那架 { $owner } 的燃油根本不夠完成這趟任務！
 welder-component-no-fuel-message = { $owner } 已經沒油了！
 welder-component-no-fuel-in-tank = { $target } 空了。
-welder-component-on-examine-welder-lit-message = [color=orange]點火[/color]
+welder-component-on-examine-welder-lit-message = { "[" }color=orange]點火[/color]
 welder-component-on-examine-welder-not-lit-message = 未點火
 welder-component-on-examine-detailed-message =
     燃料：[color={ $colorName }]{ $fuelLeft }/{ $fuelCapacity }[/color]
@@ -43220,7 +43249,7 @@ trait-narcolepsy-name = 發作性睡病
 trait-narcolepsy-desc = 你會不經意地睡著。
 trait-pacifist-name = 和平主義者
 trait-pacifist-desc = 你不可攻擊或傷害任何有情眾生。
-permanent-blindness-trait-examined = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神呆滯且目光渙散。看來 { SUBJECT($target) } 似乎無法清楚看見你，甚至可能根本看不見你。[color]
+permanent-blindness-trait-examined = { "[" }color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } 的眼神呆滯且目光渙散。看來 { SUBJECT($target) } 似乎無法清楚看見你，甚至可能根本看不見你。[color]
 trait-lightweight-name = 微醺
 trait-lightweight-desc = 酒精對你的影響更為強烈。
 trait-monochromacy-name = 單色視覺
@@ -43343,14 +43372,14 @@ turret-controls-window-targeting-controls-label = 授權人員
 # Status reports
 turret-controls-window-no-turrets = <! No linked devices !>
 turret-controls-window-turret-status = » { $device } - 狀態：{ $status }
-turret-controls-window-turret-disabled = ***離線***
+turret-controls-window-turret-disabled = { "*" }**離線***
 turret-controls-window-turret-retracted = 已停用
 turret-controls-window-turret-retracting = 停用
 turret-controls-window-turret-deployed = 正在搜尋中...
 turret-controls-window-turret-deploying = 啟動
 turret-controls-window-turret-firing = 鎖定目標
 turret-controls-window-turret-error = 錯誤 [404]
-turret-controls-window-turret-broken = ***無法運作***
+turret-controls-window-turret-broken = { "*" }**無法運作***
 # Buttons
 turret-controls-window-safe = 已停用
 turret-controls-window-stun = 暈眩
@@ -43441,7 +43470,7 @@ verb-common-exit = 退出
 # Default text that gets shown in the context menu for examining something with a GroupExamineComponent
 verb-examine-group-other = 其他
 virtual-item-dropped-other = 你掉落了 { THE($dropped) }！
-stealth-visual-effect = [color=lightslategray]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BASIC($target, "shimmer", "shimmers") } 並帶有奇特的透明效果。[/color]
+stealth-visual-effect = { "[" }color=lightslategray]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BASIC($target, "shimmer", "shimmers") } 並帶有奇特的透明效果。[/color]
 voice-mask-default-name-override = 未知
 voice-mask-name-change-window = 語音面具名稱變更
 voice-mask-name-change-info = 請輸入您想要模仿的名稱。
@@ -43671,11 +43700,11 @@ gunrequireswield-component-examine = 這把武器必須在雙手握持時才能�
 comp-window-damaged-1 = 看起來完好無損。
 comp-window-damaged-2 = 上面有幾道刮痕。
 comp-window-damaged-3 = 上面有幾道細小的裂痕。
-comp-window-damaged-4 = [color=yellow]其表面有幾條縱向的大裂縫。[color=yellow][/color]
-comp-window-damaged-5 = [color=orange]它有多層交疊的深裂縫。[/color]
-comp-window-damaged-6 = [color=red]它已經裂得非常嚴重，瀕臨碎裂的邊緣了。[/color]
+comp-window-damaged-4 = { "[" }color=yellow]其表面有幾條縱向的大裂縫。[color=yellow][/color]
+comp-window-damaged-5 = { "[" }color=orange]它有多層交疊的深裂縫。[/color]
+comp-window-damaged-6 = { "[" }color=red]它已經裂得非常嚴重，瀕臨碎裂的邊緣了。[/color]
 # Shown when knocking on a window
-comp-window-knock = *咚咚*
+comp-window-knock = { "*" }咚咚*
 wires-component-ui-on-receive-message-no-hands = 你沒有手。
 wires-component-ui-on-receive-message-cannot-reach = 你夠不到那裡！
 wires-component-ui-on-receive-message-need-wirecutters = 你得手持一把線剪才行！
@@ -43688,11 +43717,11 @@ wires-menu-dead-beef-text = DEAD-BEEF
 wires-menu-help-popup =
     手持多功能工具點擊金色接點，以對其電線進行脈衝操作。
     手持剪線鉗點擊電線，以進行剪斷／接合操作。
-    
+
     頂部的指示燈顯示機台的狀態，隨意操作電線可能會對其造成影響。
     每輪的電線佈局各不相同，但同類型機器之間的佈局保持一致。
-wires-panel-component-on-examine-open = [color=lightgray]維護面板[/color] 處於 [color=red]開啟[/color] 狀態。
-wires-panel-component-on-examine-closed = [color=lightgray]維護面板[/color] 已 [color=darkgreen]關閉[/color]。
+wires-panel-component-on-examine-open = { "[" }color=lightgray]維護面板[/color] 處於 [color=red]開啟[/color] 狀態。
+wires-panel-component-on-examine-closed = { "[" }color=lightgray]維護面板[/color] 已 [color=darkgreen]關閉[/color]。
 wires-panel-verb-view-panel = 檢視維護面板
 wire-name-color-red = 紅色
 wire-name-color-blue = 藍色
@@ -43806,11 +43835,11 @@ wire-name-listen = MIC
 wire-name-log = 日誌
 # Examination for different levels of wiring protection
 wires-panel-component-on-examine-security-level1 = 有一塊鋼板擋住了內部配線，無法接觸。請使用 [color=cyan]撬棍[/color] 將其移除。
-wires-panel-component-on-examine-security-level2 = [color=lightgray]維護面板[/color]的內側焊接了一塊鋼板。請使用 [color=cyan]焊槍[/color] 將其拆下。
+wires-panel-component-on-examine-security-level2 = { "[" }color=lightgray]維護面板[/color]的內側焊接了一塊鋼板。請使用 [color=cyan]焊槍[/color] 將其拆下。
 wires-panel-component-on-examine-security-level3 = 有一塊塑鋼板阻擋了對內部線路的存取。請使用 [color=cyan]撬棍[/color] 將其移除。
-wires-panel-component-on-examine-security-level4 = [color=lightgray]維護面板[/color]的內側焊接了一塊塑鋼板。請使用 [color=cyan]焊槍[/color] 將其拆下。
-wires-panel-component-on-examine-security-level5 = [color=lightgray]維護面板[/color] 的內部由一道防護柵欄所保護。請使用 [color=cyan]剪線鉗[/color] 將其拆除。
-wires-panel-component-on-examine-security-level6 = [color=lightgray]維護面板[/color] 內部有一塊塑鋼板。請使用 [color=cyan]撬棍[/color] 將其拆下。
+wires-panel-component-on-examine-security-level4 = { "[" }color=lightgray]維護面板[/color]的內側焊接了一塊塑鋼板。請使用 [color=cyan]焊槍[/color] 將其拆下。
+wires-panel-component-on-examine-security-level5 = { "[" }color=lightgray]維護面板[/color] 的內部由一道防護柵欄所保護。請使用 [color=cyan]剪線鉗[/color] 將其拆除。
+wires-panel-component-on-examine-security-level6 = { "[" }color=lightgray]維護面板[/color] 內部有一塊塑鋼板。請使用 [color=cyan]撬棍[/color] 將其拆下。
 wires-panel-component-on-examine-security-level7 = 一片焊接的塑鋼板保護著 [color=lightgray]維護面板[/color] 的內部。請使用 [color=cyan]焊槍[/color] 將其拆下。
 analysis-console-menu-title = 廣譜 Mark 3 分析控制台
 analysis-console-server-list-button = 伺服器
@@ -43820,24 +43849,26 @@ analysis-console-info-no-artifact = 沒有任何神器！請將一個裝置放�
 analysis-console-info-ready = 系統已啟用。準備好進行掃描。
 analysis-console-no-node = 選取節點以檢視
 analysis-console-info-id = ID：
-analysis-console-info-id-value = [font size=11][color=yellow]{ $id }[/color][/font]
-analysis-console-info-class = [font size=11]類別：[/font]
-analysis-console-info-class-value = [font size=11]{ $class }[/font]
-analysis-console-info-locked = [font size=11]狀態：[/font]
-analysis-console-info-locked-value = [font size=11][color={ $state ->
+analysis-console-info-id-value = { "[" }font size=11][color=yellow]{ $id }[/color][/font]
+analysis-console-info-class = { "[" }font size=11]類別：[/font]
+analysis-console-info-class-value = { "[" }font size=11]{ $class }[/font]
+analysis-console-info-locked = { "[" }font size=11]狀態：[/font]
+analysis-console-info-locked-value =
+    { "[" }font size=11][color={ $state ->
         [0] 紅色]已鎖定
         [1] 檸檬綠]已解鎖
        *[2] 李子色]已啟用
     }[/color][/font]
-analysis-console-info-durability = [font size=11]耐用性：[/font]
-analysis-console-info-durability-value = [font size=11][color={ $color }]{ $current }/{ $max }[/color][/font]
-analysis-console-info-effect = [font size=11]效果：[/font]
-analysis-console-info-effect-value = [font size=11][color=gray]{ $state ->
+analysis-console-info-durability = { "[" }font size=11]耐用性：[/font]
+analysis-console-info-durability-value = { "[" }font size=11][color={ $color }]{ $current }/{ $max }[/color][/font]
+analysis-console-info-effect = { "[" }font size=11]效果：[/font]
+analysis-console-info-effect-value =
+    { "[" }font size=11][color=gray]{ $state ->
         [true] { $info }
        *[false] 解鎖節點以獲取資訊
     }[/color][/font]
-analysis-console-info-trigger = [font size=11]觸發條件：[/font]
-analysis-console-info-triggered-value = [font size=11][color=gray]{ $triggers }[/color][/font]
+analysis-console-info-trigger = { "[" }font size=11]觸發條件：[/font]
+analysis-console-info-triggered-value = { "[" }font size=11][color=gray]{ $triggers }[/color][/font]
 analysis-console-info-scanner = 正在掃描中...
 analysis-console-info-scanner-paused = 暫停。
 analysis-console-progress-text =
@@ -43845,9 +43876,9 @@ analysis-console-progress-text =
         [one] T-{ $seconds } 秒
        *[other] T-{ $seconds } 秒
     }
-analysis-console-extract-value = [font size=11][color=orange]節點 { $id } (+{ $value })[/color][/font]
-analysis-console-extract-none = [font size=11][color=orange] 所有未解鎖的節點均已無剩餘點數可提取 [/color][/font]
-analysis-console-extract-sum = [font size=11][color=orange]總研究：{ $value }[/color][/font]
+analysis-console-extract-value = { "[" }font size=11][color=orange]節點 { $id } (+{ $value })[/color][/font]
+analysis-console-extract-none = { "[" }font size=11][color=orange] 所有未解鎖的節點均已無剩餘點數可提取 [/color][/font]
+analysis-console-extract-sum = { "[" }font size=11][color=orange]總研究：{ $value }[/color][/font]
 analyzer-artifact-extract-popup = 能量在神器的表面上閃爍！
 artifact-verb-make-always-active = 讓神器始終處於活躍狀態
 artifact-verb-activate = 啟動神器
@@ -43857,13 +43888,13 @@ artifact-unlock-state-end-success = 它的速度變慢了，變化顯而易見�
 artifact-unlock-state-end-failure = 它在減速後，平穩地停了下來。
 artifact-activation-fail = 什麼事都沒發生……
 artifact-activation-artifexium = 液體滲入神器孔隙之中……
-artifact-examine-trigger-desc = [color=gray][italic]你是不是在想我？[/italic][/color]
-artifact-node-class-1 = [color=#ff2bb1]物質的[/color]
-artifact-node-class-2 = [color=#ff8b2b]心靈的[/color]
-artifact-node-class-3 = [color=#a9ff38]氣動的[/color]
-artifact-node-class-4 = [color=#2bfff8]支配的[/color]
-artifact-node-class-5 = [color=#7883ff]發光的[/color]
-artifact-node-class-6 = [color=#be78ff]造物的[/color]
+artifact-examine-trigger-desc = { "[" }color=gray][italic]你是不是在想我？[/italic][/color]
+artifact-node-class-1 = { "[" }color=#ff2bb1]物質的[/color]
+artifact-node-class-2 = { "[" }color=#ff8b2b]心靈的[/color]
+artifact-node-class-3 = { "[" }color=#a9ff38]氣動的[/color]
+artifact-node-class-4 = { "[" }color=#2bfff8]支配的[/color]
+artifact-node-class-5 = { "[" }color=#7883ff]發光的[/color]
+artifact-node-class-6 = { "[" }color=#be78ff]造物的[/color]
 artifact-crusher-verb-start-crushing = 開始粉碎
 artifact-crusher-examine-no-autolocks = 該機器的自動鎖定功能已 [color=green]停用[/color]。
 artifact-crusher-examine-autolocks = 該機器的自動鎖定功能已 [color=red]啟用[/color]。

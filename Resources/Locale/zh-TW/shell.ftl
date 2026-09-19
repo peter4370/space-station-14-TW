@@ -54,4 +54,4 @@ shell-argument-number-invalid = 參數 { $index } 必須是有效的數字！
 shell-argument-chat-invalid = 參數 { $index } 必須是有效的聊天內容！
 # Hints
 shell-argument-username-hint = <username>
-shell-argument-username-optional-hint = [使用者名稱]
+shell-argument-username-optional-hint = { "[" }使用者名稱]

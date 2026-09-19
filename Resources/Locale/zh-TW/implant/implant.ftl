@@ -17,8 +17,8 @@ implanter-set-draw-type = 植體類型：
 implanter-draw-text = 取出
 implanter-inject-text = 注入
 implanter-empty-text = 空白
-implanter-label-inject = [color=green]{ $implantName }[/color]
+implanter-label-inject = { "[" }color=green]{ $implantName }[/color]
     模式：[color=white]{ $modeString }[/color]
-implanter-label-draw = [color=red]{ $implantName }[/color]
+implanter-label-draw = { "[" }color=red]{ $implantName }[/color]
     模式：[color=white]{ $modeString }[/color]
-implanter-contained-implant-text = [color=green]{ $desc }[/color]
+implanter-contained-implant-text = { "[" }color=green]{ $desc }[/color]

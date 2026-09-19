@@ -2,7 +2,7 @@ welder-component-welder-not-lit-message = { $owner } 已關閉！
 welder-component-cannot-weld-message = 那架 { $owner } 的燃油根本不夠完成這趟任務！
 welder-component-no-fuel-message = { $owner } 已經沒油了！
 welder-component-no-fuel-in-tank = { $target } 空了。
-welder-component-on-examine-welder-lit-message = [color=orange]點火[/color]
+welder-component-on-examine-welder-lit-message = { "[" }color=orange]點火[/color]
 welder-component-on-examine-welder-not-lit-message = 未點火
 welder-component-on-examine-detailed-message =
     燃料：[color={ $colorName }]{ $fuelLeft }/{ $fuelCapacity }[/color]

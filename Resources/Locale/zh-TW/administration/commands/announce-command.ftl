@@ -4,6 +4,6 @@ cmd-announce-help = { $command }<message> [sender] [color] [sound] - 發送公�
 cmd-announce-sender = 中央司令部
 # Completion hints
 cmd-announce-arg-message = <message>
-cmd-announce-arg-sender = [寄件者]
-cmd-announce-arg-color = [color]
-cmd-announce-arg-sound = [聲音]
+cmd-announce-arg-sender = { "[" }寄件者]
+cmd-announce-arg-color = { "[" }color]
+cmd-announce-arg-sound = { "[" }聲音]

@@ -4,11 +4,11 @@ nukeops-welcome =
     你是一名核武特工。你的目標是炸毀 { $station }，並確保它徹底化為一片廢墟。你的上司——「辛迪加」——已為你提供了執行這項任務所需的工具。
     「行動 { $name }」正式啟動！納諾特拉森，去死吧！
 nukeops-briefing = 你的目標很簡單：運送有效載荷，並在有效載荷引爆前撤離。開始任務。
-nukeops-opsmajor = [color=crimson]「辛迪加」大獲全勝！[/color]
-nukeops-opsminor = [color=crimson]「辛迪加」取得小勝！[/color]
-nukeops-neutral = [color=yellow]中立結果！[/color]
-nukeops-crewminor = [color=green]船員們取得了一場小勝利！[/color]
-nukeops-crewmajor = [color=green]船隊大獲全勝！[/color]
+nukeops-opsmajor = { "[" }color=crimson]「辛迪加」大獲全勝！[/color]
+nukeops-opsminor = { "[" }color=crimson]「辛迪加」取得小勝！[/color]
+nukeops-neutral = { "[" }color=yellow]中立結果！[/color]
+nukeops-crewminor = { "[" }color=green]船員們取得了一場小勝利！[/color]
+nukeops-crewmajor = { "[" }color=green]船隊大獲全勝！[/color]
 nukeops-cond-nukeexplodedoncorrectstation = 核武特工成功炸毀了該站。
 nukeops-cond-nukeexplodedonnukieoutpost = 這個核武行動前哨站遭核爆摧毀了！
 nukeops-cond-nukeexplodedonincorrectlocation = 那顆核彈在站外引爆了。

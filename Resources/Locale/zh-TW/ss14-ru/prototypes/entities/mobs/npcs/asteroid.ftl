@@ -2,7 +2,7 @@ ent-BaseMobAsteroid = { ent-BaseMob }
     .desc = { ent-BaseMob.desc }
 ent-MobGoliath = 歌利亞 | goliath
     .desc = 這是一頭龐然巨獸，會利用長長的觸手纏住獵物，無論在任何情況下，都不建議對其構成威脅。 | A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
-ent-ActionGoliathTentacle = [color=red]觸手重擊[/color] | [color=red]Tentacle Slam[/color]
+ent-ActionGoliathTentacle = { "[" }color=red]觸手重擊[/color] | [color=red]Tentacle Slam[/color]
     .desc = 運用你的觸手抓住並眩暈一名目標玩家！ | Use your tentacles to grab and stun a target player!
 ent-GoliathTentacle = 觸手 | tentacle
     .desc = { "" }

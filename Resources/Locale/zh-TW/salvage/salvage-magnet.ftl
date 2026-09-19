@@ -39,6 +39,6 @@ dungeon-config-proto-SwissCheeseAsteroid = 小行星碎片
 # Wrecks
 salvage-map-wreck = 打撈沉船
 salvage-map-wreck-desc-size = 尺寸：
-salvage-map-wreck-size-small = [color=lime]小[/color]
-salvage-map-wreck-size-medium = [color=cornflowerblue]中[/color]
-salvage-map-wreck-size-large = [color=orchid]大[/color]
+salvage-map-wreck-size-small = { "[" }color=lime]小[/color]
+salvage-map-wreck-size-medium = { "[" }color=cornflowerblue]中[/color]
+salvage-map-wreck-size-large = { "[" }color=orchid]大[/color]

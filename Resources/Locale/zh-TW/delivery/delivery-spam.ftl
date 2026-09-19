@@ -4,7 +4,7 @@
 
 ## Headers and reusable elements
 
--delivery-header-nanotrasen = [color=blue]
+-delivery-header-nanotrasen = { "[" }color=blue]
     ╔══════════════════╗
     ║███░███░░░░██░░░░░║
     ║░██░████░░░██░░░░░║
@@ -12,7 +12,7 @@
     ║░░░░██░░██░██░██░░║
     ║░░░░██░░░████░███░║
     ╚══════════════════╝[/color]
--delivery-header-nanotrasen-alternate-timeline = [color=red]
+-delivery-header-nanotrasen-alternate-timeline = { "[" }color=red]
     ╔══════════════════╗
     ║███░███░░░░██░░░░░║
     ║░██░████░░░██░░░░░║
@@ -20,7 +20,7 @@
     ║░░░░██░░██░██░██░░║
     ║░░░░██░░░████░███░║
     ╚══════════════════╝[/color]
--delivery-header-syndicate = [color=#ff0000]
+-delivery-header-syndicate = { "[" }color=#ff0000]
     ╔══════════════════╗
     ║░░░░░████████░░░░░║
     ║░░░░░██░░░░░░░░░░░║

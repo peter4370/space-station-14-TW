@@ -447,8 +447,8 @@ entity-effect-guidebook-plant-attribute =
         [1] 調整
        *[other] 調整
     } { $attribute } 由 { $positive ->
-        [false] [color=red]{ $amount }[/color]
-       *[true] [color=green]{ $amount }[/color]
+        [false] { "[" }color=red]{ $amount }[/color]
+       *[true] { "[" }color=green]{ $amount }[/color]
     }
 entity-effect-guidebook-plant-cryoxadone =
     { $chance ->

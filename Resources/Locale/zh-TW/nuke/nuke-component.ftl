@@ -37,7 +37,7 @@ nuke-label-nanotrasen = NT-{ $serial }
 # the Syndicate stole a NT nuke
 nuke-label-syndicate = SYN-{ $serial }
 # Codes
-nuke-codes-message = [color=red]絕密！[/color]
+nuke-codes-message = { "[" }color=red]絕密！[/color]
 nuke-codes-list = { $name } 程式碼：{ $code }
 nuke-codes-fax-paper-name = 核認證碼
 # Nuke disk slot

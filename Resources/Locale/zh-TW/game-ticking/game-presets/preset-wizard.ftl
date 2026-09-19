@@ -9,23 +9,23 @@ survivor-role-greeting =
     不要相信任何人。
 survivor-round-end-dead-count =
     { $deadCount ->
-        [one] [color=red]{ $deadCount }[/color] 名倖存者死亡。
-       *[other] [color=red]{ $deadCount }[/color] 名倖存者死亡。
+        [one] { "[" }color=red]{ $deadCount }[/color] 名倖存者死亡。
+       *[other] { "[" }color=red]{ $deadCount }[/color] 名倖存者死亡。
     }
 survivor-round-end-alive-count =
     { $aliveCount ->
-        [one] [color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
-       *[other] [color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
+        [one] { "[" }color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
+       *[other] { "[" }color=yellow]{ $aliveCount }[/color] 名倖存者被困在該太空站上。
     }
 survivor-round-end-alive-on-shuttle-count =
     { $aliveCount ->
-        [one] [color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
-       *[other] [color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
+        [one] { "[" }color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
+       *[other] { "[" }color=green]{ $aliveCount }[/color] 名倖存者成功脫險。
     }
 
 ## Wizard
 
-objective-issuer-swf = [color=turquoise]太空巫師聯盟[/color]
+objective-issuer-swf = { "[" }color=turquoise]太空巫師聯盟[/color]
 wizard-title = 巫師
 wizard-description = 太空站裡有個巫師！你永遠不知道他們會幹出什麼事。
 roles-antag-wizard-name = 巫師

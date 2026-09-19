@@ -1,4 +1,4 @@
-laws-number-wrapper = [bold]Law { $lawnumber }:[/bold] { $lawstring }
+laws-number-wrapper = { "[" }bold]Law { $lawnumber }:[/bold] { $lawstring }
 
 law-crewsimov-name = 克魯西莫夫 Crewsimov
 law-crewsimov-1 = 不得傷害船員，亦不得因不作為而導致船員受到傷害。

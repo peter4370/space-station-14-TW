@@ -1,4 +1,4 @@
-changeling-stasis-active-name = [color=red]Exit Stasis[/color]
+changeling-stasis-active-name = { "[" }color=red]Exit Stasis[/color]
 changeling-stasis-active-desc = 結束靜止狀態，並治癒身體上的所有傷害。
 changeling-stasis-enter = 我們進入休眠狀態，積蓄能量，準備再次崛起。
 changeling-stasis-exit = 我們從死裡復活，治癒一切傷痛。

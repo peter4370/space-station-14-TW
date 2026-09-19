@@ -1,5 +1,5 @@
-wires-panel-component-on-examine-open = [color=lightgray]維護面板[/color] 處於 [color=red]開啟[/color] 狀態。
-wires-panel-component-on-examine-closed = [color=lightgray]維護面板[/color] 已 [color=darkgreen]關閉[/color]。
+wires-panel-component-on-examine-open = { "[" }color=lightgray]維護面板[/color] 處於 [color=red]開啟[/color] 狀態。
+wires-panel-component-on-examine-closed = { "[" }color=lightgray]維護面板[/color] 已 [color=darkgreen]關閉[/color]。
 wires-panel-verb-view-panel = 檢視維護面板
 
 # wire colors

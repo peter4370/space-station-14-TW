@@ -8,8 +8,8 @@ cmd-roleban-help = Usage: roleban <name or user ID> <job> <reason> [duration in 
 cmd-roleban-hint-1 = <name or user ID>
 cmd-roleban-hint-2 = <job>
 cmd-roleban-hint-3 = <reason>
-cmd-roleban-hint-4 = [時長以分鐘為單位，若不填寫或填寫 0，則表示永久封禁]
-cmd-roleban-hint-5 = [嚴重程度]
+cmd-roleban-hint-4 = { "[" }時長以分鐘為單位，若不填寫或填寫 0，則表示永久封禁]
+cmd-roleban-hint-5 = { "[" }嚴重程度]
 cmd-roleban-hint-duration-1 = 永久性
 cmd-roleban-hint-duration-2 = 1 天
 cmd-roleban-hint-duration-3 = 3 天
@@ -20,7 +20,7 @@ cmd-roleban-hint-duration-6 = 1 個月
 ### Localization for role unban command
 
 cmd-roleunban-desc = 撤銷對某名球員的角色禁令
-cmd-roleunban-help = 用法：roleunban<role ban id>
+cmd-roleunban-help = Usage: roleunban <role ban id>
 cmd-roleunban-unable-to-parse-id =
     無法將 { $id } 解析為封禁 ID 整數。
     { $help }
@@ -32,12 +32,12 @@ cmd-roleunban-hint-1 = <role ban id>
 ### Localization for roleban list command
 
 cmd-rolebanlist-desc = 列出使用者遭禁用的角色
-cmd-rolebanlist-help = 用法：<name or user ID> [包含未被封禁的]
+cmd-rolebanlist-help = Usage: <name or user ID> [include unbanned]
 
 ## Completion result hints
 
 cmd-rolebanlist-hint-1 = <name or user ID>
-cmd-rolebanlist-hint-2 = [包含未被封禁的內容]
+cmd-rolebanlist-hint-2 = { "[" }包含未被封禁的內容]
 cmd-roleban-minutes-parse = { $time } 不是有效的分鐘數。\n{ $help }
 cmd-roleban-severity-parse = ${ severity } 並非有效的嚴重性等級\n{ $help }.
 cmd-roleban-arg-count = 參數數量不正確。
@@ -48,4 +48,4 @@ cmd-roleban-inf = 永久地
 cmd-roleban-until = 直到 { $expires }
 # Department bans
 cmd-departmentban-desc = 禁止某位玩家擔任某個部門所包含的職位
-cmd-departmentban-help = 用法：departmentban<name or user ID> <department> <reason> [禁用時間以分鐘為單位；若省略或設定為 0，則為永久禁用]
+cmd-departmentban-help = Usage: departmentban <name or user ID> <department> <reason> [duration in minutes, leave out or 0 for permanent ban]

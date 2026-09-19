@@ -27,5 +27,5 @@ pda-bound-user-interface-music-button = 樂器
 pda-bound-user-interface-music-button-description = 在您的 PDA 上播放音樂
 comp-pda-ui-unknown = 未知
 comp-pda-ui-unassigned = 未指派
-pda-notification-message = [font size=12][bold]PDA[/bold] { $header }: [/font]
+pda-notification-message = { "[" }font size=12][bold]PDA[/bold] { $header }: [/font]
     "{ $message }"
