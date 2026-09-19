@@ -18335,6 +18335,1481 @@ positronic-brain-stop-searching-verb-text = Stop searching
 positronic-brain-stopped-searching = Neuron descrambling halted.
 
 positronic-brain-slot-component-slot-name-brain = Brain
+﻿# Used internally by the THE() function.
+zzzz-the = { PROPER($ent) ->
+    *[false] the { $ent }
+     [true] { $ent }
+    }
+
+# Used internally by the SUBJECT() function.
+zzzz-subject-pronoun = { GENDER($ent) ->
+    [male] he
+    [female] she
+    [epicene] they
+   *[neuter] it
+   }
+
+# Used internally by the OBJECT() function.
+zzzz-object-pronoun = { GENDER($ent) ->
+    [male] him
+    [female] her
+    [epicene] them
+   *[neuter] it
+   }
+
+# Used internally by the DAT-OBJ() function.
+# Not used in en-US. Created to support other languages.
+# (e.g., "to him," "for her")
+zzzz-dat-object = { GENDER($ent) ->
+    [male] him
+    [female] her
+    [epicene] them
+   *[neuter] it
+   }
+
+# Used internally by the GENITIVE() function.
+# Not used in en-US. Created to support other languages.
+# e.g., "у него" (Russian), "seines Vaters" (German).
+zzzz-genitive = { GENDER($ent) ->
+    [male] his
+    [female] her
+    [epicene] their
+   *[neuter] its
+   }
+
+# Used internally by the POSS-PRONOUN() function.
+zzzz-possessive-pronoun = { GENDER($ent) ->
+    [male] his
+    [female] hers
+    [epicene] theirs
+   *[neuter] its
+   }
+
+# Used internally by the POSS-ADJ() function.
+zzzz-possessive-adjective = { GENDER($ent) ->
+    [male] his
+    [female] her
+    [epicene] their
+   *[neuter] its
+   }
+
+# Used internally by the REFLEXIVE() function.
+zzzz-reflexive-pronoun = { GENDER($ent) ->
+    [male] himself
+    [female] herself
+    [epicene] themselves
+   *[neuter] itself
+   }
+
+# Used internally by the CONJUGATE-BE() function.
+zzzz-conjugate-be = { GENDER($ent) ->
+    [epicene] are
+   *[other] is
+   }
+
+# Used internally by the CONJUGATE-HAVE() function.
+zzzz-conjugate-have = { GENDER($ent) ->
+    [epicene] have
+   *[other] has
+   }
+
+# Used internally by the CONJUGATE-BASIC() function.
+zzzz-conjugate-basic = { GENDER($ent) ->
+    [epicene] { $first }
+   *[other] { $second }
+   }
+generic-map = map
+generic-grid = grid
+generic-mapid = map Id
+﻿# Loc strings for various entity state & client-side PVS related commands
+
+cmd-reset-ent-help = Usage: {$command} <Entity UID>
+cmd-reset-ent-desc = Reset an entity to the most recently received server state. This will also reset entities that have been detached to null-space.
+
+cmd-reset-all-ents-help = Usage: {$command}
+cmd-reset-all-ents-desc = Resets all entities to the most recently received server state. This only impacts entities that have not been detached to null-space.
+
+cmd-detach-ent-help = Usage: {$command} <Entity UID>
+cmd-detach-ent-desc = Detach an entity to null-space, as if it had left PVS range.
+
+cmd-local-delete-help = Usage: {$command} <Entity UID>
+cmd-local-delete-desc = Deletes an entity. Unlike the normal delete command, this is CLIENT-SIDE. Unless the entity is a client-side entity, this will likely cause errors.
+
+cmd-full-state-reset-help = Usage: {$command}
+cmd-full-state-reset-desc = Discards any entity state information and requests a full-state from the server.
+color-hue-chroma-lightness = {$lightness} {$chroma} {$hue}
+color-hue-chroma = {$chroma} {$hue}
+color-hue-lightness = {$lightness} {$hue}
+color-very-dark = very dark
+color-dark = dark
+color-light = light
+color-very-light = very light
+color-mixed-hue = {$a} {$b}
+color-pale = pale
+color-gray-adjective = gray
+color-strong = strong
+color-pink = pink
+color-red = red
+color-orange = orange
+color-yellow = yellow
+color-green = green
+color-cyan = cyan
+color-blue = blue
+color-purple = purple
+color-brown = brown
+color-white = white
+color-gray = gray
+color-black = black
+color-unknown = unknown color, you should not see this
+
+color-pink-color-red = pinkish red
+color-red-color-orange = reddish orange
+color-orange-color-yellow = orangeish yellow
+color-yellow-color-green = yellowish green
+color-green-color-cyan = greenish cyan
+color-cyan-color-blue = cyanish blue
+color-blue-color-purple = blueish purple
+color-purple-color-pink = purpleish pink
+﻿### Localization for engine console commands
+
+cmd-hint-float = [float]
+
+## generic command errors
+
+cmd-invalid-arg-number-error = Invalid number of arguments.
+
+cmd-parse-failure-integer = {$arg} is not a valid integer.
+cmd-parse-failure-float = {$arg} is not a valid float.
+cmd-parse-failure-bool = {$arg} is not a valid bool.
+cmd-parse-failure-uid = {$arg} is not a valid entity UID.
+cmd-parse-failure-mapid = {$arg} is not a valid MapId.
+cmd-parse-failure-enum = {$arg} is not a {$enum} Enum.
+cmd-parse-failure-grid = {$arg} is not a valid grid.
+cmd-parse-failure-cultureinfo = "{$arg}" is not valid CultureInfo.
+cmd-parse-failure-entity-exist = UID {$arg} does not correspond to an existing entity.
+cmd-parse-failure-session = There is no session with username: {$username}
+cmd-parse-failure-session-guid = There is no session with the GUID: {$guid}
+
+cmd-error-file-not-found = Could not find file: {$file}.
+cmd-error-dir-not-found = Could not find directory: {$dir}.
+
+cmd-failure-no-attached-entity = There is no entity attached to this shell.
+
+## 'help' command
+cmd-help-desc = Display general help or help text for a specific command.
+cmd-help-help = Usage: {$command} [command name]
+    When no command name is provided, displays general-purpose help text. If a command name is provided, displays help text for that command.
+
+cmd-help-no-args = To display help for a specific command, write 'help <command>'. To list all available commands, write 'list'. To search for commands, use 'list <filter>'.
+cmd-help-unknown = Unknown command: { $command }
+cmd-help-top = { $command } - { $description }
+cmd-help-invalid-args = Invalid amount of arguments.
+cmd-help-arg-cmdname = [command name]
+
+## 'cvar' command
+cmd-cvar-desc = Gets or sets a CVar.
+cmd-cvar-help = Usage: {$command} <name | ?> [value]
+    If a value is passed, the value is parsed and stored as the new value of the CVar.
+    If not, the current value of the CVar is displayed.
+    Use 'cvar ?' to get a list of all registered CVars.
+
+cmd-cvar-invalid-args = Must provide exactly one or two arguments.
+cmd-cvar-not-registered = CVar '{ $cvar }' is not registered. Use 'cvar ?' to get a list of all registered CVars.
+cmd-cvar-parse-error = Input value is in incorrect format for type { $type }
+cmd-cvar-compl-list = List available CVars
+cmd-cvar-arg-name = <name | ?>
+cmd-cvar-value-hidden = <value hidden>
+
+## 'cvar_subs' command
+cmd-cvar_subs-desc = Lists the OnValueChanged subscriptions for a CVar.
+cmd-cvar_subs-help = Usage: {$command} <name>
+
+cmd-cvar_subs-invalid-args = Must provide exactly one argument.
+cmd-cvar_subs-arg-name = <name>
+
+## 'list' command
+cmd-list-desc = Lists available commands, with optional search filter.
+cmd-list-help = Usage: {$command} [filter]
+    Lists all available commands. If an argument is provided, it will be used to filter commands by name.
+
+cmd-list-heading = SIDE NAME            DESC{"\u000A"}-------------------------{"\u000A"}
+
+cmd-list-arg-filter = [filter]
+
+## '>' command, aka remote exec
+cmd-remoteexec-desc = Executes server-side commands.
+cmd-remoteexec-help = Usage: > <command> [arg] [arg] [arg...]
+    Executes a command on the server. This is necessary if a command with the same name exists on the client, as simply running the command would run the client command first.
+
+## 'gc' command
+cmd-gc-desc = Run the GC (Garbage Collector).
+cmd-gc-help = Usage: {$command} [generation]
+    Uses GC.Collect() to execute the Garbage Collector.
+    If an argument is provided, it is parsed as a GC generation number and GC.Collect(int) is used.
+    Use the 'gfc' command to do an LOH-compacting full GC.
+cmd-gc-failed-parse = Failed to parse argument.
+cmd-gc-arg-generation = [generation]
+
+## 'gcf' command
+cmd-gcf-desc = Run the GC, fully, compacting LOH and everything.
+cmd-gcf-help = Usage: {$command}
+    Does a full GC.Collect(2, GCCollectionMode.Forced, true, true) while also compacting LOH.
+    This will probably lock up for hundreds of milliseconds, be warned.
+
+## 'gc_mode' command
+cmd-gc_mode-desc = Change/Read the GC Latency mode.
+cmd-gc_mode-help = Usage: {$command} [type]
+    If no argument is provided, returns the current GC latency mode.
+    If an argument is passed, it is parsed as GCLatencyMode and set as the GC latency mode.
+
+cmd-gc_mode-current = current gc latency mode: { $prevMode }
+cmd-gc_mode-possible = possible modes:
+cmd-gc_mode-option = - { $mode }
+cmd-gc_mode-unknown = unknown gc latency mode: { $arg }
+cmd-gc_mode-attempt = attempting gc latency mode change: { $prevMode } -> { $mode }
+cmd-gc_mode-result = resulting gc latency mode: { $mode }
+cmd-gc_mode-arg-type = [type]
+
+## 'mem' command
+cmd-mem-desc = Prints managed memory info.
+cmd-mem-help = Usage: {$command}
+
+cmd-mem-report = Heap Size: { TOSTRING($heapSize, "N0") }
+    Total Allocated: { TOSTRING($totalAllocated, "N0") }
+
+## 'physics' command
+cmd-physics-overlay = {$overlay} is not a recognised overlay
+
+## 'lsasm' command
+cmd-lsasm-desc = Lists loaded assemblies by load context.
+cmd-lsasm-help = Usage: lsasm
+
+## 'exec' command
+cmd-exec-desc = Executes a script file from the game's writeable user data.
+cmd-exec-help = Usage: {$command} <fileName>
+    Each line in the file is executed as a single command, unless it starts with a #
+
+cmd-exec-arg-filename = <fileName>
+
+## 'dump_net_comps' command
+cmd-dump_net_comps-desc = Prints the table of networked components.
+cmd-dump_net_comps-help = Usage: {$command}
+
+cmd-dump_net_comps-error-writeable = Registration still writeable, network ids have not been generated.
+cmd-dump_net_comps-header = Networked Component Registrations:
+
+## 'dump_event_tables' command
+cmd-dump_event_tables-desc = Prints directed event tables for an entity.
+cmd-dump_event_tables-help = Usage: {$command} <entityUid>
+
+cmd-dump_event_tables-missing-arg-entity = Missing entity argument
+cmd-dump_event_tables-error-entity = Invalid entity
+cmd-dump_event_tables-arg-entity = <entityUid>
+
+## 'monitor' command
+cmd-monitor-desc = Toggles a debug monitor in the F3 menu.
+cmd-monitor-help = Usage: {$command} <name>
+    Possible monitors are: { $monitors }
+    You can also use the special values "-all" and "+all" to hide or show all monitors, respectively.
+
+cmd-monitor-arg-monitor = <monitor>
+cmd-monitor-invalid-name = Invalid monitor name
+cmd-monitor-arg-count = Missing monitor argument
+cmd-monitor-minus-all-hint = Hides all monitors
+cmd-monitor-plus-all-hint = Shows all monitors
+
+
+## 'setambientlight' command
+cmd-set-ambient-light-desc = Allows you to set the ambient light for the specified map, in SRGB.
+cmd-set-ambient-light-help = Usage: {$command} [mapid] [r g b a]
+cmd-set-ambient-light-parse = Unable to parse args as a byte values for a color.
+
+## Mapping commands
+
+cmd-savemap-desc = Serializes a map to disk. Will not save a post-init map unless forced.
+cmd-savemap-help = Usage: {$command} <MapID> <Path> [force]
+cmd-savemap-not-exist = Target map does not exist.
+cmd-savemap-init-warning = Attempted to save a post-init map without forcing the save.
+cmd-savemap-attempt = Attempting to save map {$mapId} to {$path}.
+cmd-savemap-success = Map successfully saved.
+cmd-savemap-error = Could not save map! See server log for details.
+cmd-hint-savemap-id = <MapID>
+cmd-hint-savemap-path = <Path>
+cmd-hint-savemap-force = [bool]
+
+cmd-loadmap-desc = Loads a map from disk into the game.
+cmd-loadmap-help = Usage: {$command} <MapID> <Path> [x] [y] [rotation] [consistentUids]
+cmd-loadmap-nullspace = You cannot load into map 0.
+cmd-loadmap-exists = Map {$mapId} already exists.
+cmd-loadmap-success = Map {$mapId} has been loaded from {$path}.
+cmd-loadmap-error = An error occurred while loading map from {$path}.
+cmd-hint-loadmap-x-position = [x-position]
+cmd-hint-loadmap-y-position = [y-position]
+cmd-hint-loadmap-rotation = [rotation]
+cmd-hint-loadmap-uids = [float]
+
+cmd-hint-savebp-id = <Grid EntityID>
+
+## 'flushcookies' command
+# Note: the flushcookies command is from Robust.Client.WebView, it's not in the main engine code.
+
+cmd-flushcookies-desc = Flush CEF cookie storage to disk.
+cmd-flushcookies-help = Usage: {$command}
+    This ensure cookies are properly saved to disk in the event of unclean shutdowns.
+    Note that the actual operation is asynchronous.
+
+cmd-ldrsc-desc = Pre-caches a resource.
+cmd-ldrsc-help = Usage: {$command} <path> <type>
+
+cmd-rldrsc-desc = Reloads a resource.
+cmd-rldrsc-help = Usage: {$command} <path> <type>
+
+cmd-gridtc-desc = Gets the tile count of a grid.
+cmd-gridtc-help = Usage: {$command} <gridId>
+
+
+# Client-side commands
+cmd-guidump-desc = Dump GUI tree to /guidump.txt in user data.
+cmd-guidump-help = Usage: {$command}
+
+cmd-uitest-desc = Open a dummy UI testing window.
+cmd-uitest-help = Usage: {$command}
+
+## 'uitest2' command
+cmd-uitest2-desc = Opens a UI control testing OS window.
+cmd-uitest2-help = Usage: {$command} <tab>
+cmd-uitest2-arg-tab = <tab>
+cmd-uitest2-error-args = Expected at most one argument
+cmd-uitest2-error-tab = Invalid tab: '{$value}'
+cmd-uitest2-title = UITest2
+
+
+cmd-setclipboard-desc = Sets the system clipboard.
+cmd-setclipboard-help = Usage: {$command} <text>
+
+cmd-getclipboard-desc = Gets the system clipboard.
+cmd-getclipboard-help = Usage: {$command}
+
+cmd-togglelight-desc = Toggles light rendering.
+cmd-togglelight-help = Usage: {$command}
+
+cmd-togglefov-desc = Toggles fov for client.
+cmd-togglefov-help = Usage: {$command}
+
+cmd-togglehardfov-desc = Toggles hard fov for client. (for debugging space-station-14#2353)
+cmd-togglehardfov-help = Usage: {$command}
+
+cmd-toggleshadows-desc = Toggles shadow rendering.
+cmd-toggleshadows-help = Usage: {$command}
+
+cmd-togglelightbuf-desc = Toggles lighting rendering. This includes shadows but not FOV.
+cmd-togglelightbuf-help = Usage: {$command}
+
+cmd-chunkinfo-desc = Gets info about a chunk under your mouse cursor.
+cmd-chunkinfo-help = Usage: {$command}
+
+cmd-chunkentities-desc = Lists chunk entities in the client viewport OR in the specified range.
+cmd-chunkentities-help = Usage: {$command} [<root entity> <x> <y> <range>]
+cmd-chunkentities-error-invalid-root = Invalid root entity: {$root}
+cmd-chunkentities-error-parse = x, y, and range must be numbers.
+cmd-chunkentities-error-nullspace = Current eye is in nullspace.
+cmd-chunkentities-error-no-map = No map entity for current eye map {$map}.
+cmd-chunkentities-range-header = Chunk entities for {$root} around ({$x}, {$y}) range {$range}:
+cmd-chunkentities-viewport-header = Chunk entities in client viewport on map {$map} ({$viewport}):
+cmd-chunkentities-total = Total: {$count}
+cmd-chunkentities-root-count = Root {$root}: {$count}
+cmd-chunkentities-entry = {$netEntity} uid={$uid} root={$root} chunk={$chunk} comps={$componentCount} {$name}
+cmd-chunkentities-arg-root = <root entity>
+cmd-chunkentities-arg-x = <x>
+cmd-chunkentities-arg-y = <y>
+cmd-chunkentities-arg-range = <range>
+
+cmd-rldshader-desc = Reloads all shaders.
+cmd-rldshader-help = Usage: {$command}
+
+cmd-cldbglyr-desc = Toggle fov and light debug layers.
+cmd-cldbglyr-help= Usage: {$command} <layer>: Toggle <layer>
+    cldbglyr: Turn all Layers off
+
+cmd-key-info-desc = Keys key info for a key.
+cmd-key-info-help = Usage: {$command} <Key>
+
+## 'bind' command
+cmd-bind-desc = Binds an input key combination to an input command.
+cmd-bind-help = Usage: {$command} { cmd-bind-arg-key } { cmd-bind-arg-mode } { cmd-bind-arg-command }
+    Note that this DOES NOT automatically save bindings.
+    Use the 'svbind' command to save binding configuration.
+
+cmd-bind-arg-key = <KeyName>
+cmd-bind-arg-mode = <BindMode>
+cmd-bind-arg-command = <InputCommand>
+
+cmd-net-draw-interp-desc = Toggles the debug drawing of the network interpolation.
+cmd-net-draw-interp-help = Usage: {$command}
+
+cmd-net-watch-ent-desc = Dumps all network updates for an EntityId to the console.
+cmd-net-watch-ent-help = Usage: {$command} <0|EntityUid>
+
+cmd-net-refresh-desc = Requests a full server state.
+cmd-net-refresh-help = Usage: {$command}
+
+cmd-net-entity-report-desc = Toggles the net entity report panel.
+cmd-net-entity-report-help = Usage: {$command}
+
+cmd-fill-desc = Fill up the console for debugging.
+cmd-fill-help = Usage: {$command}
+                Fills the console with some nonsense for debugging.
+
+cmd-cls-desc = Clears the console.
+cmd-cls-help = Usage: {$command}
+               Clears the debug console of all messages.
+
+cmd-sendgarbage-desc = Sends garbage to the server.
+cmd-sendgarbage-help = Usage: {$command}
+                       The server will reply with 'no u'
+
+cmd-loadgrid-desc = Loads a grid from a file into an existing map.
+cmd-loadgrid-help = Usage: {$command} <MapID> <Path> [x y] [rotation] [storeUids]
+
+cmd-loc-desc = Prints the absolute location of the player's entity to console.
+cmd-loc-help = Usage: {$command}
+
+cmd-tpgrid-desc = Teleports a grid to a new location.
+cmd-tpgrid-help = Usage: {$command} <gridId> <X> <Y> [<MapId>]
+
+cmd-rmgrid-desc = Removes a grid from a map. You cannot remove the default grid.
+cmd-rmgrid-help = Usage: {$command} <gridId>
+
+cmd-mapinit-desc = Runs map init on a map.
+cmd-mapinit-help = Usage: {$command} <mapID>
+
+cmd-lsmap-desc = Lists maps.
+cmd-lsmap-help = Usage: {$command}
+
+cmd-lsgrid-desc = Lists grids.
+cmd-lsgrid-help = Usage: {$command}
+
+cmd-addmap-desc = Adds a new empty map to the round. If the mapID already exists, this command does nothing.
+cmd-addmap-help = Usage: {$command} <mapID> [pre-init]
+
+cmd-rmmap-desc = Removes a map from the world. You cannot remove nullspace.
+cmd-rmmap-help = Usage: {$command} <mapId>
+
+cmd-pausemap-desc = Pauses a map, pausing all simulation processing on it.
+cmd-pausemap-help = Usage: pausemap <map ID>
+
+cmd-unpausemap-desc = Unpauses a map, resuming all simulation processing on it.
+cmd-unpausemap-help = Usage: unpausemap <map ID>
+
+cmd-querymappaused-desc = Check whether a map is paused or not.
+cmd-querymappaused-help = Usage: querymappaused <map ID>
+
+cmd-savegrid-desc = Serializes a grid to disk.
+cmd-savegrid-help = Usage: {$command} <gridID> <Path>
+
+cmd-testbed-desc = Loads a physics testbed on the specified map.
+cmd-testbed-help = Usage: {$command} <mapid> <test>
+
+## 'flushcookies' command
+# Note: the flushcookies command is from Robust.Client.WebView, it's not in the main engine code.
+
+## 'addcomp' command
+cmd-addcomp-desc = Adds a component to an entity.
+cmd-addcomp-help = Usage: {$command} <uid> <componentName>
+cmd-addcompc-desc = Adds a component to an entity on the client.
+cmd-addcompc-help = Usage: {$command} <uid> <componentName>
+
+## 'rmcomp' command
+cmd-rmcomp-desc = Removes a component from an entity.
+cmd-rmcomp-help = Usage: {$command} <uid> <componentName>
+cmd-rmcompc-desc = Removes a component from an entity on the client.
+cmd-rmcompc-help = Usage: {$command} <uid> <componentName>
+
+## 'addview' command
+cmd-addview-desc = Allows you to subscribe to an entity's view for debugging purposes.
+cmd-addview-help = Usage: {$command} <entityUid>
+cmd-addviewc-desc = Allows you to subscribe to an entity's view for debugging purposes.
+cmd-addviewc-help = Usage: {$command} <entityUid>
+
+## 'removeview' command
+cmd-removeview-desc = Allows you to unsubscribe to an entity's view for debugging purposes.
+cmd-removeview-help = Usage: {$command} <entityUid>
+
+## 'loglevel' command
+cmd-loglevel-desc = Changes the log level for a provided sawmill.
+cmd-loglevel-help = Usage: {$command} <sawmill> <level>
+      sawmill: A label prefixing log messages. This is the one you're setting the level for.
+      level: The log level. Must match one of the values of the LogLevel enum.
+
+cmd-testlog-desc = Writes a test log to a sawmill.
+cmd-testlog-help = Usage: {$command} <sawmill> <level> <message>
+    sawmill: A label prefixing the logged message.
+    level: The log level. Must match one of the values of the LogLevel enum.
+    message: The message to be logged. Wrap this in double quotes if you want to use spaces.
+
+## 'vv' command
+cmd-vv-desc = Opens View Variables.
+cmd-vv-help = Usage: {$command} <entity ID|IoC interface name|SIoC interface name>
+
+## 'showvelocities' command
+cmd-showvelocities-desc = Displays your angular and linear velocities.
+cmd-showvelocities-help = Usage: {$command}
+
+## 'setinputcontext' command
+cmd-setinputcontext-desc = Sets the active input context.
+cmd-setinputcontext-help = Usage: {$command} <context>
+
+## 'forall' command
+cmd-forall-desc = Runs a command over all entities with a given component.
+cmd-forall-help = Usage: {$command} <bql query> do <command...>
+
+## 'delete' command
+cmd-delete-desc = Deletes the entity with the specified ID.
+cmd-delete-help = Usage: {$command} <entity UID>
+
+# System commands
+cmd-showtime-desc = Shows the server time.
+cmd-showtime-help = Usage: {$command}
+
+cmd-restart-desc = Gracefully restarts the server (not just the round).
+cmd-restart-help = Usage: {$command}
+
+cmd-shutdown-desc = Gracefully shuts down the server.
+cmd-shutdown-help = Usage: {$command} [<Reason>]
+
+cmd-saveconfig-desc = Saves the server configuration to the config file.
+cmd-saveconfig-help = Usage: {$command}
+
+cmd-netaudit-desc = Prints into about NetMsg security.
+cmd-netaudit-help = Usage: {$command}
+
+# Player commands
+cmd-tp-desc = Teleports a player to any location in the round.
+cmd-tp-help = Usage: {$command} <x> <y> [<mapID>]
+
+cmd-tpto-desc = Teleports the current player or the specified players/entities to the location of the first player/entity.
+cmd-tpto-help = Usage: {$command} <username|uid> [username|NetEntity]...
+cmd-tpto-destination-hint = destination (NetEntity or username)
+cmd-tpto-victim-hint = entity to teleport (NetEntity or username)
+cmd-tpto-parse-error = Cant resolve entity or player: {$str}
+
+cmd-listplayers-desc = Lists all players currently connected.
+cmd-listplayers-help = Usage: {$command}
+
+cmd-kick-desc = Kicks a connected player out of the server, disconnecting them.
+cmd-kick-help = Usage: {$command} <PlayerIndex> [<Reason>]
+
+# Spin command
+cmd-spin-desc = Causes an entity to spin. Default entity is the attached player's parent.
+cmd-spin-help = Usage: {$command} velocity [drag] [entityUid]
+
+# Localization command
+cmd-rldloc-desc = Reloads localization (client & server).
+cmd-rldloc-help = Usage: {$command}
+
+# Debug entity controls
+cmd-spawn-desc = Spawns an entity with specific type.
+cmd-spawn-help = Usage: {$command} <prototype> | {$command} <prototype> <relative entity ID> | {$command} <prototype> <x> <y>
+cmd-cspawn-desc = Spawns a client-side entity with specific type at your feet.
+cmd-cspawn-help = Usage: {$command} <entity type>
+
+cmd-dumpentities-desc = Dump entity list.
+cmd-dumpentities-help = Usage: {$command}
+                        Dumps entity list of UIDs and prototype.
+
+cmd-getcomponentregistration-desc = Gets component registration information.
+cmd-getcomponentregistration-help = Usage: {$command} <componentName>
+
+cmd-showrays-desc = Toggles debug drawing of physics rays. An integer for <raylifetime> must be provided.
+cmd-showrays-help = Usage: {$command} <raylifetime>
+
+cmd-disconnect-desc = Immediately disconnect from the server and go back to the main menu.
+cmd-disconnect-help = Usage: {$command}
+
+cmd-entfo-desc = Displays verbose diagnostics for an entity.
+cmd-entfo-help = Usage: {$command} <entityuid>
+    The entity UID can be prefixed with 'c' to convert it to a client entity UID.
+
+cmd-fuck-desc = Throws an exception.
+cmd-fuck-help = Usage: {$command}
+
+cmd-showpos-desc = Show the position of all entities on the screen.
+cmd-showpos-help = Usage: {$command}
+
+cmd-showrot-desc = Show the rotation of all entities on the screen.
+cmd-showrot-help = Usage: {$command}
+
+cmd-showvel-desc = Show the local velocity of all entites on the screen.
+cmd-showvel-help = Usage: {$command}
+
+cmd-showangvel-desc = Show the angular velocity of all entities on the screen.
+cmd-showangvel-help = Usage: {$command}
+
+cmd-sggcell-desc = Lists entities on a snap grid cell.
+cmd-sggcell-help = Usage: {$command} <gridID> <vector2i>\nThat vector2i param is in the form x<int>,y<int>.
+
+cmd-overrideplayername-desc = Changes the name used when attempting to connect to the server.
+cmd-overrideplayername-help = Usage: {$command} <name>
+
+cmd-showanchored-desc = Shows anchored entities on a particular tile.
+cmd-showanchored-help = Usage: {$command}
+
+cmd-dmetamem-desc = Dumps a type's members in a format suitable for the sandbox configuration file.
+cmd-dmetamem-help = Usage: {$command} <type>
+
+cmd-launchauth-desc = Load authentication tokens from launcher data to aid in testing of live servers.
+cmd-launchauth-help = Usage: {$command} <account name>
+
+cmd-lightbb-desc = Toggles whether to show light bounding boxes.
+cmd-lightbb-help = Usage: {$command}
+
+cmd-monitorinfo-desc = Monitors info.
+cmd-monitorinfo-help = Usage: {$command} <id>
+
+cmd-setmonitor-desc = Set monitor.
+cmd-setmonitor-help = Usage: {$command} <id>
+
+cmd-physics-desc = Shows a debug physics overlay. The arg supplied specifies the overlay.
+cmd-physics-help = Usage: {$command} <aabbs / com / contactnormals / contactpoints / distance / joints / shapeinfo / shapes>
+
+cmd-hardquit-desc = Kills the game client instantly.
+cmd-hardquit-help = Usage: {$command}
+                    Kills the game client instantly, leaving no traces. No telling the server goodbye.
+
+cmd-quit-desc = Shuts down the game client gracefully.
+cmd-quit-help = Usage: {$command}
+                Properly shuts down the game client, notifying the connected server and such.
+
+cmd-csi-desc = Opens a C# interactive console.
+cmd-csi-help = Usage: {$command}
+
+cmd-scsi-desc = Opens a C# interactive console on the server.
+cmd-scsi-help = Usage: {$command}
+
+cmd-watch-desc = Opens a variable watch window.
+cmd-watch-help = Usage: {$command}
+
+cmd-showspritebb-desc = Toggle whether sprite bounds are shown.
+cmd-showspritebb-help = Usage: {$command}
+
+cmd-togglelookup-desc = Shows / hides entitylookup bounds via an overlay.
+cmd-togglelookup-help = Usage: {$command}
+
+cmd-net_entityreport-desc = Toggles the net entity report panel.
+cmd-net_entityreport-help = Usage: {$command}
+
+cmd-net_refresh-desc = Requests a full server state.
+cmd-net_refresh-help = Usage: {$command}
+
+cmd-net_graph-desc = Toggles the net statistics panel.
+cmd-net_graph-help = Usage: {$command}
+
+cmd-net_watchent-desc = Dumps all network updates for an EntityId to the console.
+cmd-net_watchent-help = Usage: {$command} <0|EntityUid>
+
+cmd-net_draw_interp-desc = Toggles the debug drawing of the network interpolation.
+cmd-net_draw_interp-help = Usage: {$command} <0|EntityUid>
+
+cmd-vram-desc = Displays video memory usage statics by the game.
+cmd-vram-help = Usage: {$command}
+
+cmd-showislands-desc = Shows the current physics bodies involved in each physics island.
+cmd-showislands-help = Usage: {$command}
+
+cmd-showgridnodes-desc = Shows the nodes for grid split purposes.
+cmd-showgridnodes-help = Usage: {$command}
+
+cmd-profsnap-desc = Make a profiling snapshot.
+cmd-profsnap-help = Usage: {$command}
+
+cmd-devwindow-desc = Dev Window.
+cmd-devwindow-help = Usage: {$command}
+
+cmd-scene-desc = Immediately changes the UI scene/state.
+cmd-scene-help = Usage: {$command} <className>
+
+cmd-szr_stats-desc = Report serializer statistics.
+cmd-szr_stats-help = Usage: {$command}
+
+cmd-hwid-desc = Returns the current HWID (HardWare ID).
+cmd-hwid-help = Usage: {$command}
+
+cmd-vvread-desc = Retrieve a path's value using VV (View Variables).
+cmd-vvread-help = Usage: {$command} <path>
+
+cmd-vvwrite-desc = Modify a path's value using VV (View Variables).
+cmd-vvwrite-help = Usage: {$command} <path>
+
+cmd-vvinvoke-desc = Invoke/Call a path with arguments using VV.
+cmd-vvinvoke-help = Usage: {$command} <path> [arguments...]
+
+cmd-dump_dependency_injectors-desc = Dump IoCManager's dependency injector cache.
+cmd-dump_dependency_injectors-help = Usage: {$command}
+cmd-dump_dependency_injectors-total-count = Total count: { $total }
+
+cmd-dump_netserializer_type_map-desc = Dump NetSerializer's type map and serializer hash.
+cmd-dump_netserializer_type_map-help = Usage: {$command}
+
+cmd-hub_advertise_now-desc = Immediately advertise to the master hub server.
+cmd-hub_advertise_now-help = Usage: {$command}
+
+cmd-echo-desc = Echo arguments back to the console.
+cmd-echo-help = Usage: {$command} "<message>"
+
+## 'vfs_ls' command
+cmd-vfs_ls-desc = List directory contents in the VFS.
+cmd-vfs_ls-help = Usage: {$command} <path>
+    Example:
+    vfs_list /Assemblies
+
+cmd-vfs_ls-err-args = Need exactly 1 argument.
+cmd-vfs_ls-hint-path = <path>
+
+cmd-reloadtiletextures-desc = Reloads the tile texture atlas to allow hot reloading tile sprites.
+cmd-reloadtiletextures-help = Usage: {$command}
+
+cmd-audio_length-desc = Shows the length of an audio file
+cmd-audio_length-help = Usage: {$command} { cmd-audio_length-arg-file-name }
+cmd-audio_length-arg-file-name = <file name>
+
+## PVS
+cmd-pvs-override-info-desc = Prints information about any PVS overrides associated with an entity.
+cmd-pvs-override-info-empty = Entity {$nuid} has no PVS overrides.
+cmd-pvs-override-info-global = Entity {$nuid} has a global override.
+cmd-pvs-override-info-clients = Entity {$nuid} has a session override for {$clients}.
+
+cmd-localization_set_culture-desc = Set DefaultCulture for the client LocalizationManager.
+cmd-localization_set_culture-help = Usage: {$command} <cultureName>
+cmd-localization_set_culture-culture-name = <cultureName>
+cmd-localization_set_culture-changed = Localization changed to { $code } ({ $nativeName } / { $englishName })
+
+cmd-addmap-hint-2 = runMapInit [true / false]
+color-selector-sliders-red = R
+color-selector-sliders-green = G
+color-selector-sliders-blue = B
+color-selector-sliders-hue = H
+color-selector-sliders-saturation = S
+color-selector-sliders-value = V
+color-selector-sliders-alpha = A
+color-selector-input-hex = Hex
+
+color-selector-sliders-rgb = RGB
+color-selector-sliders-hsv = HSV
+
+option-button-filter = Filter
+## EntitySpawnWindow
+
+entity-spawn-window-title = Entity Spawn Panel
+entity-spawn-window-replace-button-text = Replace
+entity-spawn-window-override-menu-tooltip = Override placement
+entity-spawn-window-no-description = No description
+
+## TileSpawnWindow
+
+tile-spawn-window-title = Place Tiles
+tile-spawn-window-mirror-button-text = Mirror Tiles
+
+## Console
+
+console-line-edit-placeholder = Command Here
+
+## OutputPanel
+
+output-panel-scroll-down-button-text = Scroll Down
+
+## Common Used
+
+window-erase-button-text = Erase Mode
+window-search-bar-placeholder = Search
+window-clear-button = Clear
+﻿debug-builtin-connection-screen-invalid-username-with-reason = The given username is invalid: {$invalidreason}
+debug-builtin-connection-screen-invalid-username = Invalid Username.
+debug-builtin-connection-screen-failed-to-connect = Failed to connect: {$reason}
+defaultwindow-placeholder-title = Exemplary Window Title Here
+﻿## "Textures" dev window tab
+
+dev-window-tab-textures-title = Textures
+dev-window-tab-textures-reload = Reload
+dev-window-tab-textures-filter = Filter
+dev-window-tab-textures-summary = Total (est): { $bytes }
+dev-window-tab-textures-info = Width: { $width } Height: { $height }
+    PixelType: { $pixelType } sRGB: { $srgb }
+    Name: { $name }
+    Est. memory usage: { $bytes }
+
+## "Render Targets" dev window tab
+dev-window-tab-render-targets-title = Render Targets
+dev-window-tab-render-targets-reload = Reload
+dev-window-tab-render-targets-filter = Filter
+dev-window-tab-render-targets-column-id = ID
+dev-window-tab-render-targets-column-name = Name
+dev-window-tab-render-targets-column-size = Size
+dev-window-tab-render-targets-column-type = Type
+dev-window-tab-render-targets-column-vram = VRAM
+dev-window-tab-render-targets-column-thumbnail = Thumbnail
+
+dev-window-tab-render-targets-value-null = null
+dev-window-tab-render-targets-value-not-available = Not available
+dev-window-tab-render-targets-summary = Total VRAM: { $vram }
+discord-rpc-in-main-menu = In Main Menu
+discord-rpc-in-main-menu-logo-text = I think coolsville SUCKS
+discord-rpc-character = Username: {$username}
+discord-rpc-on-server = On Server: {$servername}
+discord-rpc-players = Players: {$players}/{$maxplayers}
+entity-category-name-debug = Debug
+entity-category-desc-debug = Entity prototypes intended for debugging & testing.
+entity-category-suffix-debug = Debug
+
+entity-category-name-spawner = Spawner
+entity-category-desc-spawner = Entity prototypes that spawn other entities.
+
+entity-category-name-hide = Hidden
+entity-category-desc-hide = Entity prototypes that should be hidden from entity spawn menus
+
+entity-category-name-fork = Fork Filtered
+entity-category-desc-fork = Entity prototypes added by the fork. With CVar you can hide all entities without this category
+input-key-Escape = Escape
+input-key-Control = Control
+input-key-Shift = Shift
+input-key-Alt = Alt
+input-key-Alt-mac = ⌥
+input-key-Menu = Menu
+input-key-F1 = F1
+input-key-F2 = F2
+input-key-F3 = F3
+input-key-F4 = F4
+input-key-F5 = F5
+input-key-F6 = F6
+input-key-F7 = F7
+input-key-F8 = F8
+input-key-F9 = F9
+input-key-F10 = F10
+input-key-F11 = F11
+input-key-F12 = F12
+input-key-F13 = F13
+input-key-F14 = F14
+input-key-F15 = F15
+input-key-F16 = F16
+input-key-F17 = F17
+input-key-F18 = F18
+input-key-F19 = F19
+input-key-F20 = F20
+input-key-F21 = F21
+input-key-F22 = F22
+input-key-F23 = F23
+input-key-F24 = F24
+input-key-Pause = Pause
+input-key-Left = Left
+input-key-Up = Up
+input-key-Down = Down
+input-key-Right = Right
+input-key-Space = Space
+input-key-Return = Return
+input-key-NumpadEnter = Numpad Enter
+input-key-NumpadNum0 = Numpad 0
+input-key-NumpadNum1 = Numpad 1
+input-key-NumpadNum2 = Numpad 2
+input-key-NumpadNum3 = Numpad 3
+input-key-NumpadNum4 = Numpad 4
+input-key-NumpadNum5 = Numpad 5
+input-key-NumpadNum6 = Numpad 6
+input-key-NumpadNum7 = Numpad 7
+input-key-NumpadNum8 = Numpad 8
+input-key-NumpadNum9 = Numpad 9
+input-key-NumpadAdd = Numpad Add
+input-key-NumpadSubtract = Numpad Subtract
+input-key-NumpadDivide = Numpad Divide
+input-key-NumpadMultiply = Numpad Multiply
+input-key-NumpadDecimal = Numpad Decimal
+input-key-BackSpace = Backspace
+input-key-Tab = Tab
+input-key-PageUp = Page Up
+input-key-PageDown = Page Down
+input-key-End = End
+input-key-Home = Home
+input-key-Insert = Insert
+input-key-Delete = Delete
+input-key-MouseLeft = Mouse Left
+input-key-MouseRight = Mouse Right
+input-key-MouseMiddle = Mouse Middle
+input-key-MouseButton4 = Mouse 4
+input-key-MouseButton5 = Mouse 5
+input-key-MouseButton6 = Mouse 6
+input-key-MouseButton7 = Mouse 7
+input-key-MouseButton8 = Mouse 8
+input-key-MouseButton9 = Mouse 9
+input-key-CapsLock = Caps Lock
+input-key-ScrollLock = Scroll Lock
+
+input-key-LSystem-win = Left Win
+input-key-RSystem-win = Right Win
+input-key-LSystem-mac = Left ⌘
+input-key-RSystem-mac = Right ⌘
+input-key-LSystem-linux = Left Meta
+input-key-RSystem-linux = Right Meta
+
+input-key-Help = Help
+input-key-Stop = Stop
+input-key-Again = Again
+input-key-Prop = Props
+input-key-Undo = Undo
+input-key-Cut = Cut
+input-key-Copy = Copy
+input-key-Open = Open
+input-key-Paste = Paste
+input-key-Find = Find
+
+input-key-unknown = <unknown key>
+cmd-midipanic-desc = Turns off every note for every active MIDI renderer.
+cmd-merge_grids-desc = Combines 2 grids into 1 grid
+cmd-merge_grids-help = merge_grids <gridUid1> <gridUid2> <offsetX> <offsetY> [angle]
+
+cmd-merge_grids-hintA = Grid A
+cmd-merge_grids-hintB = Grid B
+cmd-merge_grids-xOffset = X offset
+cmd-merge_grids-yOffset = Y offset
+cmd-merge_grids-angle = [Angle]
+﻿# Playback Commands
+
+cmd-replay-play-desc = Resume replay playback.
+cmd-replay-play-help = replay_play
+
+cmd-replay-pause-desc = Pause replay playback
+cmd-replay-pause-help = replay_pause
+
+cmd-replay-toggle-desc = Resume or pause replay playback.
+cmd-replay-toggle-help = replay_toggle
+
+cmd-replay-toggle-screenshot-mode-desc = Toggles screenshot mode for replays, hiding the replay control widget.
+cmd-replay-toggle-screenshot-mode-help = replay_toggle_screenshot_mode
+
+cmd-replay-stop-desc = Stop and unload a replay.
+cmd-replay-stop-help = replay_stop
+
+cmd-replay-load-desc = Load and start a replay.
+cmd-replay-load-help = replay_load <replay folder>
+cmd-replay-load-hint = Replay folder
+
+cmd-replay-skip-desc = Skip forwards or backwards in time.
+cmd-replay-skip-help = replay_skip <tick or timespan>
+cmd-replay-skip-hint = Ticks or timespan (HH:MM:SS).
+
+cmd-replay-set-time-desc = Jump forwards or backwards to some specific time.
+cmd-replay-set-time-help = replay_set <tick or time>
+cmd-replay-set-time-hint = Tick or timespan (HH:MM:SS), starting from
+
+cmd-replay-error-time = "{$time}" is not an integer or timespan.
+cmd-replay-error-args = Wrong number of arguments.
+cmd-replay-error-no-replay = Not currently playing a replay.
+cmd-replay-error-already-loaded = A replay is already loaded.
+cmd-replay-error-run-level = You cannot load a replay while connected to a server.
+
+cmd-replay-toggleui-desc = Toggles the replay control UI.
+
+# Recording commands
+
+cmd-replay-recording-start-desc = Starts a replay recording, optionally with some time limit.
+cmd-replay-recording-start-help = Usage: replay_recording_start [name] [overwrite] [time limit]
+cmd-replay-recording-start-success = Started recording a replay.
+cmd-replay-recording-start-already-recording = Already recording a replay.
+cmd-replay-recording-start-error = An error occurred while trying to start the recording.
+cmd-replay-recording-start-hint-time = [time limit (minutes)]
+cmd-replay-recording-start-hint-name = [name]
+cmd-replay-recording-start-hint-overwrite = [overwrite (bool)]
+
+cmd-replay-recording-stop-desc = Stops a replay recording.
+cmd-replay-recording-stop-help = Usage: replay_recording_stop
+cmd-replay-recording-stop-success = Stopped recording a replay.
+cmd-replay-recording-stop-not-recording = Not currently recording a replay.
+
+cmd-replay-recording-stats-desc = Displays information about the current replay recording.
+cmd-replay-recording-stats-help = Usage: replay_recording_stats
+cmd-replay-recording-stats-result = Duration: {$time} min, Ticks: {$ticks}, Size: {$size} MB, rate: {$rate} MB/min.
+
+
+# Time Control UI
+replay-time-box-scrubbing-label = Dynamic Scrubbing
+replay-time-box-replay-time-label = Recording Time: {$current} / {$end}  ({$percentage}%)
+replay-time-box-server-time-label = Server Time: {$current} / {$end}
+replay-time-box-index-label = Index: {$current} / {$total}
+replay-time-box-tick-label = Tick: {$current} / {$total}
+tab-container-not-tab-title-provided = No title
+﻿command-help-usage =
+    Usage:
+command-help-invertible =
+    The behaviour of this command can be inverted using the "not" prefix.
+command-description-tpto =
+    Teleport the given entities to some target entity.
+command-description-player-list =
+    Returns a list of all player sessions.
+command-description-player-self =
+    Returns the current player session.
+command-description-player-imm =
+    Returns the session associated with the player given as argument.
+command-description-player-entity =
+    Returns the entities of the input sessions.
+command-description-self =
+    Returns the current attached entity.
+command-description-physics-velocity =
+    Returns the velocity of the input entities.
+command-description-physics-angular-velocity =
+    Returns the angular velocity of the input entities.
+command-description-buildinfo =
+    Provides information about the build of the game.
+command-description-cmd-list =
+    Returns a list of all commands, for this side.
+command-description-explain =
+    Explains the given expression, providing command descriptions and signatures. This only works for valid expressions, it can't explain commands that it fails to parse.
+command-description-search =
+    Searches through the input for the provided value.
+command-description-stopwatch =
+    Measures the execution time of the given expression.
+command-description-types-consumers =
+    Provides all commands that can consume the given type.
+command-description-types-tree =
+    Debug tool to return all types the command interpreter can downcast the input to.
+command-description-types-gettype =
+    Returns the type of the input.
+command-description-types-fullname =
+    Returns the full name of the input type according to CoreCLR.
+command-description-as =
+    Casts the input to the given type.
+    Effectively a type hint if you know the type but the interpreter does not.
+command-description-count =
+    Counts the amount of entries in it's input, returning an integer.
+command-description-map =
+    Maps the input over the given block.
+command-description-select =
+    Selects N objects or N% of objects from the input.
+    One can additionally invert this command with not to make it select everything except N objects instead.
+command-description-comp =
+    Returns the given component from the input entities, discarding entities without that component.
+command-description-delete =
+    Deletes the input entities.
+command-description-ent =
+    Returns the provided entity ID.
+command-description-entities =
+    Returns all entities on the server.
+command-description-paused =
+    Filters the input entities by whether or not they are paused.
+command-description-with =
+    Filters the input entities by whether or not they have the given component.
+command-description-fuck =
+    Throws an exception.
+command-description-ecscomp-listty =
+    Lists every type of component registered.
+command-description-cd =
+    Changes the session's current directory to the given relative or absolute path.
+command-description-ls-here =
+    Lists the contents of the current directory.
+command-description-ls-in =
+    Lists the contents of the given relative or absolute path.
+command-description-methods-get =
+    Returns all methods associated with the input type.
+command-description-methods-overrides =
+    Returns all methods overridden on the input type.
+command-description-methods-overridesfrom =
+    Returns all methods overridden from the given type on the input type.
+command-description-cmd-moo =
+    Asks the important questions.
+command-description-cmd-descloc =
+    Returns the localization string for a command's description.
+command-description-cmd-getshim =
+    Returns a command's execution shim.
+command-description-help =
+    Provides a quick rundown of how to use toolshed.
+command-description-ioc-registered =
+    Returns all the types registered with IoCManager on the current thread (usually the game thread)
+command-description-ioc-get =
+    Gets an instance of an IoC registration.
+command-description-loc-tryloc =
+    Tries to get a localization string, returning null if unable.
+command-description-loc-loc =
+    Gets a localization string, returning the unlocalized string if unable.
+command-description-physics-angular_velocity =
+    Returns the angular velocity of the given entities.
+command-description-vars =
+    Provides a list of all variables set in this session.
+command-description-any =
+    Returns true if there's any values in the input, otherwise false.
+command-description-contains =
+    Returns whether the input enumerable contains the specified value.
+command-description-ArrowCommand =
+    Assigns the input to a variable.
+command-description-isempty =
+    Returns true if the input is empty, otherwise false.
+command-description-isnull =
+    Returns true if the input is null, otherwise false.
+command-description-unique =
+    Filters the input sequence for uniqueness, removing duplicate values.
+command-description-where =
+    Given some input sequence IEnumerable<T>, takes a block of signature T -> bool that decides if each input value should be included in the output sequence.
+command-description-do =
+    Backwards compatibility with BQL, applies the given old commands over the input sequence.
+command-description-named =
+    Filters the input entities by their name, with the regex ^selector$.
+command-description-prototyped =
+    Filters the input entities by their prototype.
+command-description-nearby =
+    Creates a new list of all entities nearby the inputs within the given range.
+command-description-first =
+    Returns the first entry of the given enumerable.
+command-description-splat =
+    "Splats" a block, value, or variable, creating N copies of it in a list.
+command-description-val =
+    Casts the given value, block, or variable to the given type. This is mostly a workaround for current limitations of variables.
+command-description-var =
+    Returns the contents of the given variable. This will attempt to automatically infer a variables type. Compound commands that modify a variable may need to use the 'val' command instead.
+command-description-actor-controlled =
+    Filters entities by whether or not they're actively controlled.
+command-description-actor-session =
+    Returns the sessions associated with the input entities.
+command-description-physics-parent =
+    Returns the parent(s) of the input entities.
+command-description-emplace =
+    Runs the given block over it's inputs, with the input value placed into the variable $value within the block.
+    Additionally breaks out $wx, $wy, $proto, $desc, $name, and $paused for entities.
+    Can also have breakout values for other types, consult the documentation for that type for further info.
+command-description-AddCommand =
+    Performs numeric addition.
+command-description-SubtractCommand =
+    Performs numeric subtraction.
+command-description-MultiplyCommand =
+    Performs numeric multiplication.
+command-description-DivideCommand =
+    Performs numeric division.
+command-description-min =
+    Returns the minimum of two values.
+command-description-max =
+    Returns the maximum of two values.
+command-description-BitAndCommand =
+    Performs bitwise AND.
+command-description-bitor =
+    Performs bitwise OR.
+command-description-BitXorCommand =
+    Performs bitwise XOR.
+command-description-neg =
+    Negates the input.
+command-description-GreaterThanCommand =
+    Performs a greater-than comparison, x > y.
+command-description-LessThanCommand =
+    Performs a less-than comparison, x < y.
+command-description-GreaterThanOrEqualCommand =
+    Performs a greater-than-or-equal comparison, x >= y.
+command-description-LessThanOrEqualCommand =
+    Performs a less-than-or-equal comparison, x <= y.
+command-description-EqualCommand =
+    Performs an equality comparison, returning true if the inputs are equal.
+command-description-NotEqualCommand =
+    Performs an equality comparison, returning true if the inputs are not equal.
+command-description-append =
+    Appends a value to the input enumerable.
+command-description-DefaultIfNullCommand =
+    Replaces the input with the type's default value if it is null, albeit only for value types (not objects).
+command-description-OrValueCommand =
+    If the input is null, uses the provided alternate value.
+command-description-DebugPrintCommand =
+    Prints the given value transparently, for debug prints in a command run.
+command-description-i =
+    Integer constant.
+command-description-f =
+    Float constant.
+command-description-s =
+    String constant.
+command-description-b =
+    Bool constant.
+command-description-join =
+    Joins two sequences together into one sequence.
+command-description-reduce =
+    Given a block to use as a reducer, turns a sequence into a single value.
+    The left hand side of the block is implied, and the right hand is stored in $value.
+command-description-rep =
+    Repeats the input value N times to form a sequence.
+command-description-take =
+    Takes N values from the input sequence
+command-description-spawn-at =
+    Spawns an entity at the given coordinates.
+command-description-spawn-on =
+    Spawns an entity on the given entity, at it's coordinates.
+command-description-spawn-in =
+    Spawns an entity in the given container on the given entity, dropping it at its coordinates if it doesn't fit
+command-description-spawn-attached =
+    Spawns an entity attached to the given entity, at (0 0) relative to it.
+command-description-mappos =
+    Returns an entity's coordinates relative to it's current map.
+command-description-pos =
+    Returns an entity's coordinates.
+command-description-tp-coords =
+    Teleports the given entities to the target coordinates.
+command-description-tp-to =
+    Teleports the given entities to the target entity.
+command-description-tp-into =
+    Teleports the given entities "into" the target entity, attaching it at (0 0) relative to it.
+command-description-comp-get =
+    Gets the given component from the given entity.
+command-description-comp-add =
+    Adds the given component to the given entity.
+command-description-comp-ensure =
+    Ensures the given entity has the given component.
+command-description-comp-has =
+    Check if the given entity has the given component.
+command-description-AddVecCommand =
+    Adds a scalar (single value) to every element in the input.
+command-description-SubVecCommand =
+    Subtracts a scalar (single value) from every element in the input.
+command-description-MulVecCommand =
+    Multiplies a scalar (single value) by every element in the input.
+command-description-DivVecCommand =
+    Divides every element in the input by a scalar (single value).
+command-description-rng-to =
+    Returns a number between the input (inclusive) and the argument (exclusive).
+command-description-rng-from =
+    Returns a number between the argument (inclusive) and the input (exclusive))
+command-description-rng-prob =
+    Returns a boolean based on the input probability/chance (from 0 to 1)
+command-description-sum =
+    Computes the sum of the input.
+command-description-bin =
+    "Bins" the input, counting up how many times each unique element occurs.
+command-description-extremes =
+    Returns the two extreme ends of a list, interwoven.
+command-description-sortby =
+    Sorts the input least to greatest by the computed key.
+command-description-sortmapby =
+    Sorts the input least to greatest by the computed key, replacing the value with it's computed key afterward.
+command-description-sort =
+    Sorts the input least to greatest.
+command-description-sortdownby =
+    Sorts the input greatest to least by the computed key.
+command-description-sortmapdownby =
+    Sorts the input greatest to least by the computed key, replacing the value with it's computed key afterward.
+command-description-sortdown =
+    Sorts the input greatest to least.
+command-description-iota =
+    Returns a list of numbers 1 to N.
+command-description-to =
+    Returns a list of numbers N to M.
+command-description-curtick =
+    The current game tick.
+command-description-curtime =
+    The current game time (a TimeSpan)
+command-description-realtime =
+    The current realtime since startup (a TimeSpan)
+command-description-servertime =
+    The current server game time, or zero if we are the server (a TimeSpan)
+command-description-replace =
+    Replaces the input entities with the given prototype, preserving position and rotation (but nothing else)
+command-description-allcomps =
+    Returns all components on the given entity.
+command-description-entitysystemupdateorder-tick =
+    Lists the tick update order of entity systems.
+command-description-entitysystemupdateorder-frame =
+    Lists the frame update order of entity systems.
+command-description-more =
+    Prints the contents of $more, i.e. any extras that Toolshed didn't print from the last command.
+command-description-ModulusCommand =
+    Computes the modulus of two values.
+    This is usually remainder, check C#'s documentation for the type.
+command-description-ModVecCommand =
+    Performs the modulus operation over the input with the given constant right-hand value.
+command-description-BitAndNotCommand =
+    Performs bitwise AND-NOT over the input.
+command-description-bitornot =
+    Performs bitwise OR-NOT over the input.
+command-description-BitXnorCommand =
+    Performs bitwise XNOR over the input.
+command-description-BitNotCommand =
+    Performs bitwise NOT on the input.
+command-description-abs =
+    Computes the absolute value of the input (removing the sign)
+command-description-average =
+    Computes the average (arithmetic mean) of the input.
+command-description-bibytecount =
+    Returns the size of the input in bytes, given that the input implements IBinaryInteger.
+    This is NOT sizeof.
+command-description-shortestbitlength =
+    Returns the minimum number of bits needed to represent the input value.
+command-description-countleadzeros =
+    Counts the number of leading binary zeros in the input value.
+command-description-counttrailingzeros =
+    Counts the number of trailing binary zeros in the input value.
+command-description-fpi =
+    pi (3.14159...) as a float.
+command-description-fe =
+    e (2.71828...) as a float.
+command-description-ftau =
+    tau (6.28318...) as a float.
+command-description-fepsilon =
+    The epsilon value for a float, exactly 1.4e-45.
+command-description-dpi =
+    pi (3.14159...) as a double.
+command-description-de =
+    e (2.71828...) as a double.
+command-description-dtau =
+    tau (6.28318...) as a double.
+command-description-depsilon =
+    The epsilon value for a double, exactly 4.9406564584124654E-324.
+command-description-hpi =
+    pi (3.14...) as a half.
+command-description-he =
+    e (2.71...) as a half.
+command-description-htau =
+    tau (6.28...) as a half.
+command-description-hepsilon =
+    The epsilon value for a half, exactly 5.9604645E-08.
+command-description-floor =
+    Returns the floor of the input value (rounding toward zero).
+command-description-ceil =
+    Returns the ceil of the input value (rounding away from zero).
+command-description-round =
+    Rounds the input value.
+command-description-trunc =
+    Truncates the input value.
+command-description-round2frac =
+    Rounds the input value to the specified number of fractional digits.
+command-description-exponentbytecount =
+    Returns the number of bytes required to store the exponent.
+command-description-significandbytecount =
+    Returns the number of bytes required to store the significand.
+command-description-significandbitcount =
+    Returns the exact bit length of the significand.
+command-description-exponentshortestbitcount =
+    Returns the minimum number of bits to store the exponent.
+command-description-stepnext =
+    Steps to the next float value, adding one to the significand with carry.
+command-description-stepprev =
+    Steps to the previous float value, subtracting one from the significand with carry.
+command-description-checkedto =
+    Converts from the input numeric type to the target, erroring if not possible.
+command-description-saturateto =
+    Converts from the input numeric type to the target, saturating if the value is out of range.
+    For example, converting 382 to a byte would saturate to 255 (the maximum value of a byte).
+command-description-truncto =
+    Converts from the input numeric type to the target, with truncation.
+    In the case of integers, this is a bit cast with sign extension.
+command-description-iscanonical =
+    Returns whether the input is in canonical form.
+command-description-iscomplex =
+    Returns whether the input is a complex number (by value, not by type)
+command-description-iseven =
+    Returns whether the input is even.
+    Not a javascript package.
+command-description-isodd =
+    Returns whether the input is odd.
+command-description-isfinite =
+    Returns whether the input is finite.
+command-description-isimaginary =
+    Returns whether the input is purely imaginary (no real part).
+command-description-isinfinite =
+    Returns whether the input is infinite.
+command-description-isinteger =
+    Returns whether the input is an integer (by value, not by type)
+command-description-isnan =
+    Returns whether the input is Not a Number (NaN).
+    This is a special floating point value, so this is by value, not by type.
+command-description-isnegative =
+    Returns whether the input is negative.
+command-description-ispositive =
+    Returns whether the input is positive.
+command-description-isreal =
+    Returns whether the input is purely real (no imaginary part).
+command-description-issubnormal =
+    Returns whether the input is in sub-normal form.
+command-description-iszero =
+    Returns whether the input is zero.
+command-description-pow =
+    Computes the power of its lefthand to its righthand. x^y.
+command-description-sqrt =
+    Computes the square root of its input.
+command-description-cbrt =
+    Computes the cube root of its input.
+command-description-root =
+    Computes the Nth root of its input.
+command-description-hypot =
+    Computes the hypotenuse of a triangle with the given sides A and B.
+command-description-sin =
+    Computes the sine of the input.
+command-description-sinpi =
+    Computes the sine of the input multiplied by pi.
+command-description-asin =
+    Computes the arcsine of the input.
+command-description-asinpi =
+    Computes the arcsine of the input multiplied by pi.
+command-description-cos =
+    Computes the cosine of the input.
+command-description-cospi =
+    Computes the cosine of the input multiplied by pi.
+command-description-acos =
+    Computes the arcosine of the input.
+command-description-acospi =
+    Computes the arcosine of the input multiplied by pi.
+command-description-tan =
+    Computes the tangent of the input.
+command-description-tanpi =
+    Computes the tangent of the input multiplied by pi.
+command-description-atan =
+    Computes the arctangent of the input.
+command-description-atanpi =
+    Computes the arctangent of the input multiplied by pi.
+command-description-iterate =
+    Iterates the given function over the input N times, returning a list of results.
+    Think of this like successively applying the function to a value, tracking all the intermediate values.
+command-description-pick =
+    Picks a random value from the input.
+command-description-tee =
+    Tees the input into the given block, ignoring the block's result.
+    This essentially lets you have a branch in your code to do multiple operations on one value.
+command-description-cmd-info =
+    Returns a CommandSpec for the given command.
+    On its own, this means it'll print the command's help message.
+command-description-comp-rm =
+    Removes the given component from the entity.
+
+command-description-overlay-toggle = Toggle an overlay on or off
+command-description-overlay-add = Add an overlay (if it does not already exist)
+command-description-overlay-remove = Remove an overlay
+uploadfolder-command-description = Uploads a folder from your UserData folder recursively to the server contentDB.
+uploadfolder-command-help = uploadfolder [folder you want to upload in userdata/UploadFolder]
+uploadfolder-command-wrong-args = Wrong number of arguments!
+uploadfolder-command-folder-not-found = Folder {$folder} not found!
+uploadfolder-command-resource-upload-disabled = Network Resource Uploading is currently disabled. check Server CVars.
+uploadfolder-command-file-too-big = File {$filename} above the current size limit! It must be smaller than {$sizeLimit} MB. skipping.
+uploadfolder-command-success = Uploaded {$fileCount} files
+popup-copy-button = Copy
+popup-title = Alert!
+## ViewVariablesInstanceEntity
+
+view-variables = View Variables
+view-variable-instance-entity-server-components-add-component-button-placeholder = Add Component
+view-variable-instance-entity-client-variables-tab-title = Client Variables
+view-variable-instance-entity-client-components-tab-title = Client Components
+view-variable-instance-entity-server-variables-tab-title = Server Variables
+view-variable-instance-entity-server-components-tab-title = Server Components
+view-variable-instance-entity-client-components-search-bar-placeholder = Search
+view-variable-instance-entity-server-components-search-bar-placeholder = Search
+view-variable-instance-entity-add-window-server-components = Add Component [S]
+view-variable-instance-entity-add-window-client-components = Add Component [C]
+
+
+## SoundSpecifier
+vv-sound-none = None
+vv-sound-path = Path
+vv-sound-collection = Collection
+
+vv-sound-volume = volume
+vv-sound-pitch = Pitch
+vv-sound-max-distance = Max Distance
+vv-sound-rolloff-factor = Rolloff Factor
+vv-sound-reference-distance = Reference Distance
+vv-sound-loop = Loop
+vv-sound-play-offset = Play Offset (s)
+vv-sound-variation = Pitch variation
+
+
+## ProtoId
+vv-protoid-id-placeholder = Prototype ID
+vv-protoid-select-button-label = Select
+vv-protoid-addwindow-title = Set Prototype
 # FlippableComponent
 flippable-component-try-flip-is-stuck = It's stuck.
 
