@@ -243,6 +243,31 @@ def get_keys(entries):
     return keys
 
 
+def append_file_parts(target, parts):
+    """
+    將一個檔案的內容加入合併結果。
+
+    保留原始內容，只在檔案之間缺少換行時補上換行。
+    """
+
+    if not parts:
+        return
+
+    content = "".join(parts)
+
+    if not content:
+        return
+
+    # 如果前一個檔案的結尾沒有換行，補上換行
+    if target and not target[-1].endswith("\n"):
+        target.append("\n")
+
+    target.append(content)
+
+    # 如果目前檔案結尾沒有換行，補上換行
+    if not content.endswith("\n"):
+        target.append("\n")
+
 # ============================================================
 # Merge
 # ============================================================
@@ -336,8 +361,13 @@ def merge_ftl(
                         "  → 排除：特殊 / 無法取得 Key 的 Entry"
                     )
 
-        normal_parts.extend(file_normal)
-        excluded_parts.extend(file_excluded)
+        # ========================================================
+        # 加入目前檔案的內容
+        # 確保不同檔案之間不會黏在一起
+        # ========================================================
+
+        append_file_parts(normal_parts, file_normal)
+        append_file_parts(excluded_parts, file_excluded)
 
     # ========================================================
     # 寫出正常 FTL

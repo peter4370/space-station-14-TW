@@ -256,7 +256,8 @@ access-reader-access-label = [color=yellow]{ $access }[/color]
 access-reader-examination = Access is generally restricted to personnel with { $access } access.
 access-reader-examination-functionality-restricted = { $access } access may be required to use certain functions.
 access-reader-access-settings-modified-message = [italic]The access reader has been modified to accept personnel with { $access } access.[/italic]
-access-reader-access-settings-removed-message = [italic]The settings on the access reader have been deleted.[/italic]door-electronics-configuration-title = Configure Access
+access-reader-access-settings-removed-message = [italic]The settings on the access reader have been deleted.[/italic]
+door-electronics-configuration-title = Configure Access
 marking-HumanFacialHairAbe = Beard (Abraham Lincoln)
 marking-HumanFacialHairAbe-abe = Beard (Abraham Lincoln)
 
@@ -1107,7 +1108,8 @@ action-name-crit-last-words = Say Last Words
 dangerous-action-popup = You cannot bring yourself to take this action because it might hurt someone.
 diona-gib-action-use = { $name } splits apart in an instant!
 
-diona-reform-attempt = { $name } attempts to reform!disarm-action-disarmable = { CAPITALIZE(THE($targetName)) } is not disarmable!
+diona-reform-attempt = { $name } attempts to reform!
+disarm-action-disarmable = { CAPITALIZE(THE($targetName)) } is not disarmable!
 disarm-action-popup-message-other-clients = { CAPITALIZE(THE($performerName)) } disarmed { THE($targetName) }!
 disarm-action-popup-message-cursor = Disarmed { THE($targetName) }!
 disarm-action-shove-popup-message-other-clients = { CAPITALIZE(THE($performerName)) } shoves { THE($targetName) }!
@@ -1420,10 +1422,12 @@ cmd-grant_connect_bypass-invalid-duration = Invalid duration '{ $duration }'
 
 cmd-grant_connect_bypass-success = Successfully added bypass for user '{ $user }'
 control-mob-command-description = Transfers user mind to the specified entity.
-control-mob-command-help-text = Usage: controlmob <mobUid>.delete-entities-with-component-command-description = Deletes entities with the specified components.
+control-mob-command-help-text = Usage: controlmob <mobUid>.
+delete-entities-with-component-command-description = Deletes entities with the specified components.
 delete-entities-with-component-command-help-text = Usage: deleteewc <componentName_1> <componentName_2> ... <componentName_n>
                                                    Deletes any entities with the components specified.
-delete-entities-with-component-command-deleted-components = Deleted { $count } entities# erase
+delete-entities-with-component-command-deleted-components = Deleted { $count } entities
+# erase
 cmd-erase-desc = Erase a player's entity if it exists and all their chat messages
 cmd-erase-help = erase <Username of User Id>
 cmd-erase-invalid-args = Invalid number of arguments
@@ -1490,7 +1494,8 @@ rejuvenate-command-description = Fully heals a mob.
 rejuvenate-command-help-text = Usage: rejuvenate <mobUid_1> <mobUid_2> ... <mobUid_n>
                                Attempts to heal the user's mob if no arguments are provided.
 rejuvenate-command-self-heal-message = Healing the user's mob since no arguments were provided.
-rejuvenate-command-no-entity-attached-message = There's no entity attached to the user.cmd-respawn-desc = Respawns a player, kicking them back to the lobby.
+rejuvenate-command-no-entity-attached-message = There's no entity attached to the user.
+cmd-respawn-desc = Respawns a player, kicking them back to the lobby.
 cmd-respawn-help = respawn [player or UserId]
 
 cmd-respawn-invalid-args = Must provide <= 1 argument.
@@ -1553,7 +1558,8 @@ admin-manager-stealthed-message = You are now a hidden admin.
 admin-manager-unstealthed-message = You are no longer hidden.
 admin-manager-self-enable-stealth = { $stealthAdminName } is now hidden.
 admin-manager-self-disable-stealth = { $exStealthAdminName } is no longer hidden.
-admin-notes-manager-note-notification = Your account has received an administrative note. For further information, open the admin remarks panel via the escape menu.multi-server-kick-reason = Connected to different server in this community.
+admin-notes-manager-note-notification = Your account has received an administrative note. For further information, open the admin remarks panel via the escape menu.
+multi-server-kick-reason = Connected to different server in this community.
 admin-smite-chess-self = You feel exceptionally small.
 admin-smite-chess-others = { CAPITALIZE($name) } shrinks into the chessboard!
 admin-smite-set-alight-self = You burst into flames!
@@ -1919,7 +1925,8 @@ admin-add-reagent-window-title = Add to { $solution }
 admin-add-reagent-window-amount-label = Quantity:
 admin-add-reagent-window-search-placeholder = Filter...
 admin-add-reagent-window-add = Add { $quantity }u { $reagent }
-admin-add-reagent-window-add-invalid-reagent = Select a Reagentadmin-solutions-window-title = Solution Editor - { $targetName }
+admin-add-reagent-window-add-invalid-reagent = Select a Reagent
+admin-solutions-window-title = Solution Editor - { $targetName }
 admin-solutions-window-solution-label = Target solution:
 admin-solutions-window-solution-button = Solution
 admin-solutions-window-solution-button-tooltip = Opens the corresponding server-side Solution instance in ViewVariables. Useful for debugging prediction issues.
@@ -2014,7 +2021,8 @@ role-bans-contract-roles = Hide Roles
 ### SetOutfitMEnu.xaml.cs
 
 set-outfit-menu-title = Set Outfit
-set-outfit-menu-confirm-button = Confirmsilicon-law-ui-verb = Manage Laws
+set-outfit-menu-confirm-button = Confirm
+silicon-law-ui-verb = Manage Laws
 silicon-law-ui-title = Admin Edit: Silicon Laws
 silicon-law-ui-new-law = New Law
 silicon-law-ui-save = Save Changes
@@ -2207,7 +2215,8 @@ thankyou-space-villain-12 = Come back here and fight me!
 advertisement-firebot-1 = No fires detected.
 advertisement-firebot-2 = Only you can prevent station fires.
 advertisement-firebot-3 = Temperature nominal.
-advertisement-firebot-4 = Keep it cool.advertisement-medibot-1 = What kind of medbay is this? Everyone's dropping like dead flies.
+advertisement-firebot-4 = Keep it cool.
+advertisement-medibot-1 = What kind of medbay is this? Everyone's dropping like dead flies.
 advertisement-medibot-2 = I knew it, I should've been a plastic surgeon.
 advertisement-medibot-3 = There's always a catch, and I'm the best there is.
 advertisement-medibot-4 = An apple a day keeps me away.
@@ -2360,7 +2369,8 @@ advertisement-clothes-3 = Look at all this swag!
 advertisement-clothes-4 = Why leave style up to fate? Use the ClothesMate!
 advertisement-clothes-5 = Now with added neck warmers!
 advertisement-clothes-6 = You are looking stylish!
-advertisement-clothes-7 = Lovely outfit you have going there!advertisement-coffee-1 = Have a drink!
+advertisement-clothes-7 = Lovely outfit you have going there!
+advertisement-coffee-1 = Have a drink!
 advertisement-coffee-2 = Drink up!
 advertisement-coffee-3 = It's good for you!
 advertisement-coffee-4 = Would you like a hot joe?
@@ -2543,7 +2553,8 @@ advertisement-nanomed-5 = This stuff saves lives.
 advertisement-nanomed-6 = Don't you want some?
 advertisement-nanomed-7 = Ping!
 advertisement-nanomed-8 = Make sure not to overdose people!
-advertisement-nanomed-9 = Go overdose people!advertisement-nutrimax-1 = We like plants!
+advertisement-nanomed-9 = Go overdose people!
+advertisement-nutrimax-1 = We like plants!
 advertisement-nutrimax-2 = Don't you want some?
 advertisement-nutrimax-3 = The greenest thumbs ever.
 advertisement-nutrimax-4 = We like big plants.
@@ -2562,7 +2573,8 @@ thankyou-pride-3 = What a glow up!
 advertisement-robodrobe-1 = You turn me TRUE, use defines!
 advertisement-robodrobe-2 = 0110001101101100011011110111010001101000011001010111001101101000011001010111001001100101
 advertisement-robodrobe-3 = Steal someone from maintenance and turn them into a robot!
-advertisement-robodrobe-4 = Robotics is fun!advertisement-scidrobe-1 = Longing for the smell of plasma burnt flesh? Buy your science clothing now!
+advertisement-robodrobe-4 = Robotics is fun!
+advertisement-scidrobe-1 = Longing for the smell of plasma burnt flesh? Buy your science clothing now!
 advertisement-scidrobe-2 = Made with 10% Auxetics, so you don't have to worry about losing your arm!
 advertisement-scidrobe-3 = These DEFINITELY will protect you when the artifact inevitably explodes.
 advertisement-secdrobe-1 = Beat perps in style!
@@ -2628,7 +2640,8 @@ advertisement-sovietsoda-5 = If there is a person, there is a problem. If there 
 advertisement-sovietsoda-6 = If its good enough for daily life, it's good enough for us!
 thankyou-sovietsoda-1 = Enjoy, comrade!
 thankyou-sovietsoda-2 = Now get back to work.
-thankyou-sovietsoda-3 = This is all you're getting.advertisement-syndiedrobe-1 = Brand new outfits!
+thankyou-sovietsoda-3 = This is all you're getting.
+advertisement-syndiedrobe-1 = Brand new outfits!
 advertisement-syndiedrobe-2 = Roof-top outfits for any occasion!
 advertisement-syndiedrobe-3 = Being a scoundrel can be stylish.
 advertisement-syndiedrobe-4 = According to the analysis: by dressing more stylishly, the chance of success of your actions increases by 0.0098%!
@@ -2886,7 +2899,8 @@ ame-window-increase-fuel-button = Increase
 ame-window-decrease-fuel-button = Decrease
 ame-fuel-container-component-on-examine-detailed-message = Fuel: [color={ $colorName }]{ $amount }/{ $capacity }[/color]
 ame-part-component-interact-using-no-hands = You have no hands.
-ame-part-component-shielding-already-present = Shielding is already there!anchorable-anchored = Anchored
+ame-part-component-shielding-already-present = Shielding is already there!
+anchorable-anchored = Anchored
 anchorable-unanchored = Unanchored
 anchorable-occupied = Tile occupied
 
@@ -3042,7 +3056,8 @@ inner-anomaly-end-message = The abnormal activity within you disappears without 
 inner-anomaly-severity-info-50 = You feel that the anomaly is taking over half your body.
 inner-anomaly-severity-info-75 = You feel that the anomaly is taking over a large part of your body.
 inner-anomaly-severity-info-90 = You feel that the anomaly has almost completely taken over your body.
-inner-anomaly-severity-info-100 = The anomaly inside you is growing uncontrollably, causing immense pain, and tearing you apart!apc-component-insufficient-access = Insufficient access!
+inner-anomaly-severity-info-100 = The anomaly inside you is growing uncontrollably, causing immense pain, and tearing you apart!
+apc-component-insufficient-access = Insufficient access!
 apc-component-on-examine-panel-open = The [color=lightgray]APC electronics panel[/color] is [color=red]open[/color].
 apc-component-on-examine-panel-closed = The [color=lightgray]APC electronics panel[/color] is [color=darkgreen]closed[/color].
 apc-component-on-toggle-cancel = It does nothing!
@@ -3252,7 +3267,8 @@ atmos-alerts-window-alerts-being-silenced = Silencing alerts...
 atmos-alerts-window-toggle-overlays = Toggle alarm display
 
 atmos-alerts-window-flavor-left = Contact an atmospheric technician for assistance
-atmos-alerts-window-flavor-right = v1.8atmos-pipe-layers-component-layer-primary = primary
+atmos-alerts-window-flavor-right = v1.8
+atmos-pipe-layers-component-layer-primary = primary
 atmos-pipe-layers-component-layer-secondary = secondary
 atmos-pipe-layers-component-layer-tertiary = tertiary
 
@@ -3261,7 +3277,8 @@ atmos-pipe-layers-component-current-layer = It is in its { $layerName } configur
 atmos-pipe-layers-component-select-layer = { CAPITALIZE($layerName) } configuration
 atmos-pipe-layers-component-tool-missing = Requires { INDEFINITE($toolName) } { $toolName }
 atmos-pipe-layers-component-pipes-are-covered = The pipes are covered
-atmos-pipe-layers-component-cannot-adjust-pipes = You need to uncover the pipes before they can be adjusted.cmd-set-map-atmos-desc = Sets a map's atmosphere
+atmos-pipe-layers-component-cannot-adjust-pipes = You need to uncover the pipes before they can be adjusted.
+cmd-set-map-atmos-desc = Sets a map's atmosphere
 cmd-set-map-atmos-help = setmapatmos <mapid> <space> [<temperature> [moles...]]
 cmd-set-map-atmos-removed = Atmosphere removed from map { $map }
 cmd-set-map-atmos-updated = Atmosphere set for map { $map }
@@ -3274,7 +3291,8 @@ firelock-component-is-holding-pressure-message = A gush of air blows in your fac
 firelock-component-is-holding-fire-message = A gush of warm air blows in your face... Maybe you should reconsider.
 firelock-component-examine-pressure-warning = The [color=cyan]extreme pressure[/color] differential warning is active.
 firelock-component-examine-temperature-warning = The [color=red]extreme temperature[/color] warning is active.
-flammable-component-resist-message = You stop, drop, and roll!## Entity
+flammable-component-resist-message = You stop, drop, and roll!
+## Entity
 
 gas-analyzer-object-out-of-range = The object went out of range.
 gas-analyzer-shutoff = The gas analyzer shuts off.
@@ -3337,7 +3355,8 @@ gas-miner-pressure-cutoff-text = Surrounding pressure cutoff: { $pressure } kPA.
 
 gas-miner-state-working-text = The miner is [color=green]active[/color] and mining gas.
 gas-miner-state-idle-text = The miner is [color=yellow]idle[/color] and not mining gas.
-gas-miner-state-disabled-text = The miner is [color=red]disabled[/color] and not mining gas.gas-passive-gate-examined = The flow rate meter indicates [color=lightblue]{ $flowRate } liters/sec[/color].
+gas-miner-state-disabled-text = The miner is [color=red]disabled[/color] and not mining gas.
+gas-passive-gate-examined = The flow rate meter indicates [color=lightblue]{ $flowRate } liters/sec[/color].
 gas-pipe-sensor-distribution-loop = Distribution loop
 gas-pipe-sensor-waste-loop = Waste loop
 gas-pipe-sensor-mixed-air = Mixed air
@@ -3571,7 +3590,8 @@ bloodstream-component-wounds-cauterized = You feel your wounds painfully close!
 
 body-scanner-display-title = Body Scanner
 body-scanner-display-health-label = Health:
-body-scanner-display-body-part-damage-text = { $damage } damagecommand-description-body-insert =
+body-scanner-display-body-part-damage-text = { $damage } damage
+command-description-body-insert =
     Inserts the given organ into the body.
 
 command-description-body-organs =
@@ -3748,7 +3768,8 @@ grave-start-digging-others = { CAPITALIZE($user) } starts digging { THE($grave) 
 grave-start-digging-user = You start digging { THE($grave) } with { THE($tool) }.
 grave-start-digging-user-trapped = You start clawing your way out of { THE($grave) }!
 
-grave-digging-requires-tool = You need a tool to dig this { $grave }!bodyburn-text-others = { CAPITALIZE(THE($name)) } burns to ash!
+grave-digging-requires-tool = You need a tool to dig this { $grave }!
+bodyburn-text-others = { CAPITALIZE(THE($name)) } burns to ash!
 bodyburn-vox-text-others = { CAPITALIZE(THE($name)) } turned into fried vox!
 cable-multitool-system-internal-error-no-power-node = Your multitool reads, "INTERNAL ERROR: NOT A POWER CABLE".
 cable-multitool-system-internal-error-missing-component = Your multitool reads, "INTERNAL ERROR: CABLE ABNORMAL".
@@ -3763,7 +3784,8 @@ cable-multitool-system-statistics = Your multitool shows a list of statistics:
                                     Input Storage: { POWERJOULES($storagec) } / { POWERJOULES($storagem) } ({ TOSTRING($storager, "P1") })
                                     Output Storage: { POWERJOULES($storageoc) } / { POWERJOULES($storageom) } ({ TOSTRING($storageor, "P1") })
 
-candle-extinguish-failed = The flame flickers, but it doesn't go outbounty-item-artifact = Alien artifact
+candle-extinguish-failed = The flame flickers, but it doesn't go out
+bounty-item-artifact = Alien artifact
 bounty-item-baseball-bat = Baseball bat
 bounty-item-box-hugs = Box of hugs
 bounty-item-brain = Brain
@@ -4066,6 +4088,7 @@ cargo-console-order-menu-submit-button = OK
 ## Cargo order database
 
 cargo-order-database-order-overflow-message = { $placeholder } (Overflow)
+
 # Cargo pallet sale console
 cargo-pallet-console-menu-title = Cargo sale console
 cargo-pallet-menu-appraisal-label = Estimated Value:{ " " }
@@ -4879,7 +4902,8 @@ reagent-dispenser-window-no-container-loaded-text = No container loaded.
 reagent-dispenser-window-reagent-name-not-found-text = Reagent name not found
 reagent-dispenser-window-unknown-reagent-text = Unknown reagent
 reagent-dispenser-window-quantity-label-text = { $quantity }u
-rehydratable-component-expands-message = { $owner } expands!scoopable-component-popup = You scoop up { $scooped } into { THE($beaker) }.
+rehydratable-component-expands-message = { $owner } expands!
+scoopable-component-popup = You scoop up { $scooped } into { THE($beaker) }.
 solution-container-mixer-activate = Activate
 solution-container-mixer-no-power = No power!
 solution-container-mixer-popup-nothing-to-mix = Nothing inside!
@@ -4888,7 +4912,8 @@ scannable-solution-verb-message = Examine the chemical composition.
 scannable-solution-main-text = It contains the following chemicals:
 scannable-solution-empty-container = It contains no chemicals.
 scannable-solution-chemical = - { $amount }u [color={ $color }]{ $type }[/color]
-scannable-solution-temperature = Solution temperature: { $temperature }Kspike-solution-generic = You spike { THE($spiked-entity) } with { THE($spike-entity) }.
+scannable-solution-temperature = Solution temperature: { $temperature }K
+spike-solution-generic = You spike { THE($spiked-entity) } with { THE($spike-entity) }.
 spike-solution-empty-generic = { THE($spike-entity) } fails to dissolve in { THE($spiked-entity) }.
 spike-solution-egg = You crack { THE($spike-entity) } into { THE($spiked-entity) }.
 spike-solution-mix = You mix { THE($spike-entity) } into { THE($spiked-entity) }.
@@ -4962,8 +4987,10 @@ accept-cloning-window-title = Cloning Machine
 accept-cloning-window-prompt-text-part = You are being cloned!
                                          Transfer your soul to the clone body?
 accept-cloning-window-accept-button = Yes
-accept-cloning-window-deny-button = Nosheath-insert-verb = Sheathe
-sheath-eject-verb = Unsheatheclothing-boots-sidearm = Sidearm
+accept-cloning-window-deny-button = No
+sheath-insert-verb = Sheathe
+sheath-eject-verb = Unsheathe
+clothing-boots-sidearm = Sidearm
 # Clothing speed examine
 clothing-speed-examinable-verb-text = Clothing
 clothing-speed-examinable-verb-message = Examine the clothing speed values.
@@ -5079,7 +5106,8 @@ atmos-monitoring-window-show-pipe-network = Pipe network
 atmos-monitoring-window-show-gas-pipe-sensors = Gas pipe sensors
 atmos-monitoring-window-label-gases = Present gases
 atmos-monitoring-window-flavor-left = Contact an atmospheric technician for assistance
-atmos-monitoring-window-flavor-right = v1.1### AtmosUnsafeUnanchorComponent
+atmos-monitoring-window-flavor-right = v1.1
+### AtmosUnsafeUnanchorComponent
 
 # Examine text showing pressure in tank.
 comp-atmos-unsafe-unanchor-warning = A gush of air blows in your face... Maybe you should reconsider?
@@ -5192,7 +5220,8 @@ power-monitoring-window-flavor-right = v1.3
 power-monitoring-window-rogue-power-consumer = [color=white][font size=14][bold]! WARNING - ROGUE POWER CONSUMING DEVICE DETECTED ![/bold][/font][/color]
 power-monitoring-window-power-net-abnormalities = [color=white][font size=14][bold]CAUTION - ABNORMAL ACTIVITY IN POWER NET[/bold][/font][/color]
 screen-text = screenText
-screen-color = screenColorcomp-space-heater-ui-title = Temperature Control Unit
+screen-color = screenColor
+comp-space-heater-ui-title = Temperature Control Unit
 comp-space-heater-ui-thermostat = Thermostat:
 comp-space-heater-ui-mode = Mode
 comp-space-heater-ui-increase-temperature-range = +
@@ -5230,7 +5259,8 @@ configuration-menu-confirm = Confirm
 configuration-menu-device-title = Device Configuration
 
 ## ConfigureVerb
-configure-verb-get-data-text = Open Configurationcmd-whitelistadd-desc = Adds the player with the given username to the server whitelist.
+configure-verb-get-data-text = Open Configuration
+cmd-whitelistadd-desc = Adds the player with the given username to the server whitelist.
 cmd-whitelistadd-help = Usage: whitelistadd <username or User ID>
 cmd-whitelistadd-existing = { $username } is already on the whitelist!
 cmd-whitelistadd-added = { $username } added to the whitelist
@@ -5297,7 +5327,8 @@ hwid-required = Your client has refused to send a hardware id. Please contact th
 anchored-already-present = There's already something anchored here!
 deconstructible-verb-begin-deconstruct = Begin deconstructing
 deconstructible-verb-activate-no-target-text = There is no way to deconstruct this.
-deconstructible-verb-activate-text = Examine to see instructions.construction-component-to-create-header = To continue construction...
+deconstructible-verb-activate-text = Examine to see instructions.
+construction-component-to-create-header = To continue construction...
 construction-component-to-create-prototype-header = To create { INDEFINITE($targetName) } { $targetName }...
 deconstruction-header-text = To deconstruct...
 flatpack-unpack-no-room = No room to unpack!
@@ -5315,7 +5346,8 @@ flatpacker-ui-board-invalid-label = [color=red]Invalid board!
 flatpacker-ui-insert-board = Insert a board to begin.
 flatpacker-ui-pack-button = Pack
 machine-board-component-on-examine-label = Requires:
-machine-board-component-required-element-entry-text = [color=yellow]{ $amount }x[/color] [color=green]{ $requiredElement }[/color]machine-frame-component-on-examine-label = [color=white]Current machine board:[/color] [color=cyan]{ $board }[/color]
+machine-board-component-required-element-entry-text = [color=yellow]{ $amount }x[/color] [color=green]{ $requiredElement }[/color]
+machine-frame-component-on-examine-label = [color=white]Current machine board:[/color] [color=cyan]{ $board }[/color]
 machine-frame-component-on-complete = Construction completed
 construction-step-condition-against-wall = You must place it up against a wall.
 # AirlockBolted
@@ -5349,7 +5381,8 @@ construction-step-condition-entity-unanchored = It must be unanchored.
 construction-examine-condition-unlock = First, [color=limegreen]unlock[/color] it.
 construction-examine-condition-lock = First, [color=red]lock[/color] it.
 construction-step-condition-unlock = It must be unlocked.
-construction-step-condition-lock = It must be locked.construction-condition-machine-container-empty = Remove the parts from the frame using a [color=cyan]Crowbar[/color].
+construction-step-condition-lock = It must be locked.
+construction-condition-machine-container-empty = Remove the parts from the frame using a [color=cyan]Crowbar[/color].
 
 # MachineFrameComplete
 construction-condition-machine-frame-requirement-label = Requires:
@@ -5393,7 +5426,8 @@ construction-category-clothing = Clothing
 construction-category-favorites = Favorites
 construction-add-favorite-button = Add to favorites
 construction-remove-from-favorite-button = Remove from favorites
-construction-ghost-examine-message = Building: [color=cyan]{ $name }[/color]## ConstructionSystem
+construction-ghost-examine-message = Building: [color=cyan]{ $name }[/color]
+## ConstructionSystem
 
 construction-system-construct-cannot-start-another-construction = You can't start another construction now!
 construction-system-construct-no-materials = You don't have the materials to build that!
@@ -5483,12 +5517,16 @@ construction-insert-info-examine-name-power-cell = power cell
 construction-insert-entity-with-component = Next, insert an entity with a { $componentName } component.
 
 # Shown when examining an in-construction object
-construction-insert-exact-entity = Next, insert { $entityName }.construction-insert-material-entity = Next, add [color=yellow]{ $amount }x[/color] [color=cyan]{ $materialName }[/color].# Shown when examining an in-construction object
+construction-insert-exact-entity = Next, insert { $entityName }.
+construction-insert-material-entity = Next, add [color=yellow]{ $amount }x[/color] [color=cyan]{ $materialName }[/color].
+# Shown when examining an in-construction object
 construction-insert-prototype-no-name = Next, insert { $prototypeName }.
 
 # Shown when examining an in-construction object
-construction-insert-prototype = Next, insert { $entityName }.construction-temperature-default = Next, heat to [color=red]{ $temperature }[/color].
-construction-use-tool-entity = Next, use a [color=cyan]{ $toolName }[/color].construction-presenter-to-craft = To craft this item, you need to:
+construction-insert-prototype = Next, insert { $entityName }.
+construction-temperature-default = Next, heat to [color=red]{ $temperature }[/color].
+construction-use-tool-entity = Next, use a [color=cyan]{ $toolName }[/color].
+construction-presenter-to-craft = To craft this item, you need to:
 construction-presenter-to-build = To build this, first you need to:
 
 construction-presenter-step-wrapper = { $step-number }. { $text }
@@ -5512,7 +5550,8 @@ container-verb-text-enter = Enter
 container-verb-text-empty = Empty
 
 ## missed
-container-thrown-missed = Missed!take-item-verb-text = Take { $subject }
+container-thrown-missed = Missed!
+take-item-verb-text = Take { $subject }
 place-item-verb-text = Place { $subject }
 contraband-examine-text-Minor =
     { $type ->
@@ -5731,7 +5770,8 @@ damage-command-error-euid = { $arg } is not a valid entity uid.
 damage-command-error-quantity = { $arg } is not a valid quantity.
 damage-command-error-bool = { $arg } is not a valid bool.
 damage-command-error-player = No entity attached to session. You must specify a target uid
-damage-command-error-args = Invalid number of arguments # Damage examines
+damage-command-error-args = Invalid number of arguments
+# Damage examines
 damage-examinable-verb-text = Damage
 damage-examinable-verb-message = Examine the damage values.
 
@@ -5792,7 +5832,8 @@ damage-type-slash = Slash
 damage-type-structural = Structural
 damage-type-holy = Holy
 mouth-taste-metal = You taste something metallic in your mouth!
-rejuvenate-verb-get-data-text = Rejuvenatemelee-stamina = Not enough stamina
+rejuvenate-verb-get-data-text = Rejuvenate
+melee-stamina = Not enough stamina
 slow-on-damage-modifier-examine = Slowness from injuries is reduced by [color=yellow]{ $mod }%[/color]
 stamina-resistance-coefficient-value = - [color=lightyellow]Stamina[/color] damage reduced by [color=lightblue]{ $value }%[/color].
 darts-popup-bullseye = Bullseye! 50 points!
@@ -5800,7 +5841,8 @@ darts-popup-25 = 25 points
 darts-popup-10 = 10 points
 darts-popup-5 = 5 points
 darts-popup-1 = 1 point
-darts-popup-miss = Miss## Used for date picker
+darts-popup-miss = Miss
+## Used for date picker
 
 month-1 = January
 month-2 = February
@@ -6335,7 +6377,8 @@ discord-watchlist-connection-entry = - { $playerName } with message "{ $message 
         [one] { " " }and { $otherWatchlists } other watchlist
         *[other] { " " }and { $otherWatchlists } other watchlists
     }
-disease-vomit = { CAPITALIZE(THE($person)) } vomits.ammonia-smell = Something smells pungent!
+disease-vomit = { CAPITALIZE(THE($person)) } vomits.
+ammonia-smell = Something smells pungent!
 
 ## Perishable
 
@@ -6378,8 +6421,10 @@ disposal-tube-component-popup-directions-text = { $directions }
 
 ## TubeDirectionVerb
 
-tube-direction-verb-get-data-text = Tube Directionstube-connections-command-description = Shows all the directions that a tube can connect in.
-tube-connections-command-help-text = Usage: { $command } <entityUid>## UI
+tube-direction-verb-get-data-text = Tube Directions
+tube-connections-command-description = Shows all the directions that a tube can connect in.
+tube-connections-command-help-text = Usage: { $command } <entityUid>
+## UI
 
 ui-disposal-unit-title = { CAPITALIZE($name) }
 
@@ -6426,8 +6471,11 @@ door-remote-denied = Access denied
 ## AirlockComponent
 
 airlock-component-cannot-pry-is-bolted-message = The airlock's bolts prevent it from being forced!
-airlock-component-cannot-pry-is-powered-message = The powered motors block your efforts!turnstile-component-popup-resist = { CAPITALIZE(THE($turnstile)) } resists your efforts!
-door-pry = Pry doordrag-drop-system-out-of-range-text = You can't reach there!dragon-round-end-agent-name = dragon
+airlock-component-cannot-pry-is-powered-message = The powered motors block your efforts!
+turnstile-component-popup-resist = { CAPITALIZE(THE($turnstile)) } resists your efforts!
+door-pry = Pry door
+drag-drop-system-out-of-range-text = You can't reach there!
+dragon-round-end-agent-name = dragon
 
 objective-issuer-dragon = [color=#7567b6]Space Dragon[/color]
 
@@ -7557,11 +7605,13 @@ residue-green = green
 residue-blue = blue
 residue-red = red
 residue-grey = grey
-residue-brown = brownall-at-once-title = All at once
+residue-brown = brown
+all-at-once-title = All at once
 all-at-once-description = It's just not your day...
 
 aller-at-once-title = Aller at once
-aller-at-once-description = You have fucked up now. You *have* fucked up now.changeling-role-greeting =
+aller-at-once-description = You have fucked up now. You *have* fucked up now.
+changeling-role-greeting =
     You are a changeling, a highly intelligent predator.
     Your primary goal is to escape the station alive via assuming the identities of the denizens of this station.
     You are hungry and will not make it long without sustenance...
@@ -7784,7 +7834,8 @@ survival-title = Survival
 survival-description = No internal threats, but how long can the station survive increasingly chaotic and frequent events?
 
 kessler-syndrome-title = Kessler Syndrome
-kessler-syndrome-description = No internal threats, but the station is quickly falling into a belt of meteors!suspicion-title = Suspicion
+kessler-syndrome-description = No internal threats, but the station is quickly falling into a belt of meteors!
+suspicion-title = Suspicion
 suspicion-description = Suspicion on the Space Station. There are traitors on board... Can you kill them before they kill you?
 thief-role-greeting-human =
     You are criminal scum, a kleptomaniac previously arrested and on parole for petty theft. You need to add more to your collection.
@@ -7966,7 +8017,8 @@ starting-rule-selected-preset = Current gamerules in use: { $preset }
 listgamerules-command-help = Lists all rules that have been added for the round so far.
 rule-death-match-added-announcement = The game is now a death match. Kill everybody else to win!
 rule-death-match-check-winner-stalemate = Everybody is dead, it's a stalemate!
-rule-death-match-check-winner = { $winner } wins the death match!rule-suspicion-added-announcement = There are traitors on the station! Find them, and kill them!
+rule-death-match-check-winner = { $winner } wins the death match!
+rule-suspicion-added-announcement = There are traitors on the station! Find them, and kill them!
 rule-suspicion-traitor-time-has-run-out = Time has run out for the traitors!
 rule-suspicion-check-winner-stalemate = Everybody is dead, it's a stalemate!
 rule-suspicion-check-winner-station-win = The traitors are dead! The innocents win.
@@ -7974,7 +8026,8 @@ rule-suspicion-check-winner-traitor-win = The innocents are dead! The traitors w
 rule-suspicion-end-round-innocents-victory = The innocents have won!
 rule-suspicion-end-round-traitors-victory = The traitors have won!
 rule-suspicion-end-round-nobody-victory = Nobody wins!
-rule-traitor-added-announcement = Hello crew! Have a good shift!# General
+rule-traitor-added-announcement = Hello crew! Have a good shift!
+# General
 rule-restarting-in-seconds = Restarting in { $seconds } seconds.
 rule-time-has-run-out = Time has run out!
 
@@ -8483,7 +8536,9 @@ ghost-role-information-wizard-desc = YER A WIZARD! Show the station what your ma
 
 ghost-role-information-emotional-support-scurret-name = Emotional Support Scurret
 ghost-role-information-emotional-support-scurret-description = Support the crew, be adorable, say "wa" a lot.
-ghostrole-spawner-select = Selected: { $mode }make-ghost-role-verb-get-data-text = Make Ghost Rolespooky-speaker-generic-1 = ...ooOoooOOoooo...
+ghostrole-spawner-select = Selected: { $mode }
+make-ghost-role-verb-get-data-text = Make Ghost Role
+spooky-speaker-generic-1 = ...ooOoooOOoooo...
 spooky-speaker-generic-2 = ...can anyone hear me...?
 spooky-speaker-generic-3 = ...join us...
 spooky-speaker-generic-4 = ...come play with us...
@@ -9510,7 +9565,8 @@ guide-entry-rules-ban-durations = Ban Durations
 
 guide-entry-writing = Writing
 guide-entry-glossary = Glossary
-guide-help-verb = Helphand-labeler-ui-header = Hand Labeler
+guide-help-verb = Help
+hand-labeler-ui-header = Hand Labeler
 
 # The content of the label in the UI above the text entry input.
 hand-labeler-current-text-label = Label:
@@ -10302,9 +10358,11 @@ instruments-component-menu-midi-channel-applause = Applause
 instruments-component-menu-midi-channel-gunshot = Gunshot
 # General
 intellicard-core-occupied = The AI core is already occupied by another digital consciousness.
-intellicard-core-empty = The AI core has no digital consciousness to download.in-range-unoccluded-verb-get-data-text = In Range Unoccluded
+intellicard-core-empty = The AI core has no digital consciousness to download.
+in-range-unoccluded-verb-get-data-text = In Range Unoccluded
 in-range-unoccluded-verb-on-activate-not-occluded = Not occluded
-in-range-unoccluded-verb-on-activate-occluded = Occluded### Interaction Popup component
+in-range-unoccluded-verb-on-activate-occluded = Occluded
+### Interaction Popup component
 
 ## Petting animals
 
@@ -10435,7 +10493,8 @@ inventory-component-dropped-from-unequip =
     *[other] some items!
 }
 slot-block-component-blocked = This slot is blocked by { $item }!
-human-inventory-window-title = Your Inventoryitem-status-not-held = No held item
+human-inventory-window-title = Your Inventory
+item-status-not-held = No held item
 item-recall-marked-name = Recall { CAPITALIZE($item) }
 item-recall-marked-description = Recall { THE($item) } back into your hand.
 
@@ -10776,7 +10835,8 @@ job-greet-introduce-job-name = Your role is: { $jobName }.
 job-greet-important-disconnect-admin-notify = You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via ahelp.
 job-greet-supervisors-warning = As the { $jobName } you answer directly to { $supervisors }. Special circumstances may change this.
 job-greet-crew-shortages = As this station was initially staffed with a skeleton crew, additional access has been added to your ID card.
-job-not-available-wait-in-lobby = The round has started, but you did not receive any of your preferred job roles (or have no preferred job roles selected) and chose to remain in the lobby. You can change this behavior on the customization screen.loadout-window = Loadout
+job-not-available-wait-in-lobby = The round has started, but you did not receive any of your preferred job roles (or have no preferred job roles selected) and chose to remain in the lobby. You can change this behavior on the customization screen.
+loadout-window = Loadout
 loadout-none = None
 loadout-window-title-loadout = { $job } loadout
 ### Localization for role ban command
@@ -11164,8 +11224,10 @@ comp-light-bulb-orange = orange
 comp-light-bulb-black = black
 comp-light-bulb-red = red
 comp-light-bulb-green = green
-powered-light-component-burn-hand = You burn your hand!# ToggleFlashlightVerb
-toggle-flashlight-verb-get-data-text = Toggle flashlightlimited-charges-charges-remaining = {$charges ->
+powered-light-component-burn-hand = You burn your hand!
+# ToggleFlashlightVerb
+toggle-flashlight-verb-get-data-text = Toggle flashlight
+limited-charges-charges-remaining = {$charges ->
     [one] It has [color=fuchsia]{ $charges }[/color] charge remaining.
     *[other] It has [color=fuchsia]{ $charges }[/color] charges remaining.
 }
@@ -11272,7 +11334,8 @@ signal-linking-verb-text-link-default = Link default ports
 signal-linking-verb-success = Connected all default { $machine } links.
 signal-linking-verb-fail = Failed to connect all default { $machine } links.
 signal-linking-verb-disabled-no-transmitter = First interact with a transmitter, then link default ports.
-signal-linking-verb-disabled-no-receiver = First interact with a receiver, then link default ports.signal-timer-menu-title = Timer
+signal-linking-verb-disabled-no-receiver = First interact with a receiver, then link default ports.
+signal-timer-menu-title = Timer
 signal-timer-menu-label = Label:
 signal-timer-menu-delay = Delay:
 signal-timer-menu-start = Start
@@ -11469,7 +11532,8 @@ action-speech-spell-summon-magic = RYGOIN FEMA-VERECO
 action-speech-spell-mind-swap = GIN'YU CAPAN!
 action-speech-spell-cluwne = !KNOH
 action-speech-spell-slip = SLEE PARRI!
-action-speech-spell-charge = DI'RI CEL!main-menu-invalid-username-with-reason = Invalid username:
+action-speech-spell-charge = DI'RI CEL!
+main-menu-invalid-username-with-reason = Invalid username:
                                          { $invalidReason }
 main-menu-invalid-username = Invalid username
 main-menu-failed-to-connect = Failed to connect:
@@ -11512,7 +11576,8 @@ mapping-decals = Decals
 
 mapping-replace = Replace
 mapping-erase-entity = Erase Entity
-mapping-erase-decal = Erase Decalmap-text-default = Use VV to change the displayed text
+mapping-erase-decal = Erase Decal
+map-text-default = Use VV to change the displayed text
 map-text-font-error = "Error - invalid font"
 cmd-mapping-desc = Create or load a map and teleports you to it.
 cmd-mapping-help = Usage: mapping [MapID] [Path] [Grid]
@@ -12450,7 +12515,8 @@ marking-ScarEyeRightSmall-scar_eye_right_small = Right Eye Scar (Small)
 marking-ScarEyeRightSmall = Small Eye Scar (Right)
 
 marking-ScarEyeLeftSmall-scar_eye_left_small = Left Eye Scar (Small)
-marking-ScarEyeLeftSmall = Small Eye Scar (Left)marking-SlimeGradientLeftArm-gradient_l_arm = Slime Left Arm (Gradient)
+marking-ScarEyeLeftSmall = Small Eye Scar (Left)
+marking-SlimeGradientLeftArm-gradient_l_arm = Slime Left Arm (Gradient)
 marking-SlimeGradientLeftArm = Slime Left Arm (Gradient)
 
 marking-SlimeGradientRightArm-gradient_r_arm = Slime Right Arm (Gradient)
@@ -12594,7 +12660,8 @@ marking-UndergarmentBottomBoxersVulpkanin-boxers_vulpkanin = Boxers
 marking-UndergarmentBottomBriefsVulpkanin = Briefs
 marking-UndergarmentBottomBriefsVulpkanin-briefs_vulpkanin = Briefs
 marking-UndergarmentBottomSatinVulpkanin = Satin
-marking-UndergarmentBottomSatinVulpkanin-satin_vulpkanin = Satinmarking-TattooVoxNightlingHead-tattoo_nightling_head = Vox Head Tattoo (Nightling)
+marking-UndergarmentBottomSatinVulpkanin-satin_vulpkanin = Satin
+marking-TattooVoxNightlingHead-tattoo_nightling_head = Vox Head Tattoo (Nightling)
 marking-TattooVoxNightlingHead = Vox Head Tattoo (Nightling)
 
 marking-TattooVoxArrowHead-tattoo_arrow_head = Vox Head Tattoo (Arrow)
@@ -13328,7 +13395,8 @@ pill-label-charcoal-20u = charcoal 20u
 pill-label-ambuzol-15u = ambuzol 15u
 metabolism-component-is-comfortable = You feel comfortable
 metabolism-component-is-sweating = You are sweating
-metabolism-component-is-shivering = You are shiveringmetabolism-stage-respiration = Respiration
+metabolism-component-is-shivering = You are shivering
+metabolism-stage-respiration = Respiration
 metabolism-stage-digestion = Digestion
 metabolism-stage-bloodstream = Bloodstream
 metabolism-stage-metabolites = Metabolites
@@ -13400,8 +13468,10 @@ role-subtype-wizard = Wizard
 role-subtype-xenoborg = Xenoborg
 role-subtype-xenoborg-core = Xenoborg Core
 role-subtype-changeling = Changeling
-control-mob-verb-get-data-text = Control Mobinspect-mind-verb-get-data-text = Inspect Mind
-make-sentient-verb-get-data-text = Make Sentientfake-mindshield-enabled = Your mindshield implant activates.
+control-mob-verb-get-data-text = Control Mob
+inspect-mind-verb-get-data-text = Inspect Mind
+make-sentient-verb-get-data-text = Make Sentient
+fake-mindshield-enabled = Your mindshield implant activates.
 fake-mindshield-disabled = Your mindshield implant deactivates.
 radar-console-window-title = Mass Scanner Console
 shuttle-console-window-title = Shuttle Console
@@ -13417,10 +13487,12 @@ crematorium-entity-storage-component-suicide-message = You cremate yourself!
 crematorium-entity-storage-component-suicide-message-others = { $victim } is cremating { $victim }!
 
 # CremateVerb
-cremate-verb-get-data-text = Crematemorgue-entity-storage-component-on-examine-details-body-has-soul = The content light is [color=green]green[/color], this body might still be saved!
+cremate-verb-get-data-text = Cremate
+morgue-entity-storage-component-on-examine-details-body-has-soul = The content light is [color=green]green[/color], this body might still be saved!
 morgue-entity-storage-component-on-examine-details-body-has-no-soul = The content light is [color=red]red[/color], there's a dead body in here! Oh wait...
 morgue-entity-storage-component-on-examine-details-has-contents = The content light is [color=yellow]yellow[/color], there's something in here.
-morgue-entity-storage-component-on-examine-details-empty = The content light is off, there's nothing in here.cmd-motd-desc = Prints or sets the Message Of The Day.
+morgue-entity-storage-component-on-examine-details-empty = The content light is off, there's nothing in here.
+cmd-motd-desc = Prints or sets the Message Of The Day.
 cmd-motd-help = motd [ message... ]
 cmd-get-motd-desc = Prints the Message Of The Day.
 cmd-get-motd-help = get-motd
@@ -14003,7 +14075,8 @@ vape-component-vape-success-user-forced = You successfully forced to puff { THE(
 vape-component-try-use-vape-forced = { CAPITALIZE(THE($user)) } is trying to make you puff on the vape.
 vape-component-try-use-vape-forced-user = You are forcing { THE($target) } to puff on the vape.
 vape-component-try-use-vape = You are trying to puff on the vape.
-vape-component-vape-empty = The vape is empty!cmd-nutrition-satiation-need = { $satiation } satiation need
+vape-component-vape-empty = The vape is empty!
+cmd-nutrition-satiation-need = { $satiation } satiation need
 
 cmd-setsatiation-desc = Sets your satiation need.
 cmd-setsatiation-help = Sets your specified satiation need to the specified threshold.
@@ -14850,6 +14923,7 @@ envelope-torn-examine = [color=yellow]{ CAPITALIZE(THE($envelope)) } is torn and
 envelope-default-message = TO:
 
   FROM:
+
 ### UI
 
 paper-ui-blank-page-message = This page intentionally left blank
@@ -15229,7 +15303,8 @@ parcel-wrap-examine-detail-uses = { $uses ->
     [one] There is [color={ $markupUsesColor }]{ $uses }[/color] use left
     *[other] There are [color={ $markupUsesColor }]{ $uses }[/color] uses left
 }.
-particle-accelerator-control-box-component-wires-update-limiter-on-pulse = The control box makes a whirring noise.particle-accelerator-control-menu-on-button = On
+particle-accelerator-control-box-component-wires-update-limiter-on-pulse = The control box makes a whirring noise.
+particle-accelerator-control-menu-on-button = On
 particle-accelerator-control-menu-off-button = Off
 particle-accelerator-control-menu-service-manual-reference = Refer to p.132 of service manual
 particle-accelerator-control-menu-device-version-label = Mark 2 Particle Accelerator
@@ -15410,7 +15485,8 @@ pneumatic-cannon-component-change-power = { $power ->
 
 pneumatic-cannon-component-power-stun = The pure force of { THE($cannon) } knocks you over!
 
-pointing-verb-get-data-text = Point atpoint-scoreboard-winner = The winner was [color=lime]{ $player }![/color]
+pointing-verb-get-data-text = Point at
+point-scoreboard-winner = The winner was [color=lime]{ $player }![/color]
 point-scoreboard-header = [bold]Scoreboard[/bold]
 point-scoreboard-list = { $place }. [bold][color=cyan]{ $name }[/color][/bold] scored [color=yellow]{$points ->
     [one] { $points } point
@@ -15561,7 +15637,8 @@ teg-generator-examine-power = It's currently supplying [color=yellow]{ POWERWATT
 teg-generator-examine-power-max-output = It's capable of supplying [color=yellow]{ POWERWATTS($power) }[/color].
 teg-generator-examine-connection = To function, a [color=white]circulator[/color] must be attached on both sides.
 # debug verb for allowing devices to work without requiring power.
-verb-debug-toggle-need-power = Toggle Powerpower-cell-component-examine-details = The charge indicator reads [color=#5E7C16]{ $currentCharge }[/color] %.
+verb-debug-toggle-need-power = Toggle Power
+power-cell-component-examine-details = The charge indicator reads [color=#5E7C16]{ $currentCharge }[/color] %.
 power-cell-component-examine-details-no-battery = There is no power cell inserted.
 power-cell-no-battery = No power cell found
 power-cell-insufficient = Insufficient power
@@ -15621,7 +15698,8 @@ humanoid-character-profile-summary =
     [female] She is
     [epicene] They are
     *[other] It is
-} { $age } years old.# Errors
+} { $age } years old.
+# Errors
 loadout-group-species-restriction = This item is not available for your current species.
 
 # Miscellaneous
@@ -16228,7 +16306,8 @@ roles-antag-xenoborg-objective = Help the mothership create more xenoborgs.
 ## PullingVerb
 
 pulling-verb-get-data-text = Pull
-pulling-verb-get-data-text-stop-pulling = Stop pullingquick-dialog-ui-integer = Integer..
+pulling-verb-get-data-text-stop-pulling = Stop pulling
+quick-dialog-ui-integer = Integer..
 quick-dialog-ui-float = Float..
 quick-dialog-ui-short-text = Short text..
 quick-dialog-ui-long-text = Long text..
@@ -16405,7 +16484,8 @@ frezon-lungs-cold = Your lungs feel colder..
 frezon-euphoric = You feel chilly, but euphoric..
 ### Messages that pop up when metabolizing Frost Oil.
 
-frost-oil-effect-light-cold = You feel a slight cold tingle in your throat...### Messages that can be utilized by multiple reagents.
+frost-oil-effect-light-cold = You feel a slight cold tingle in your throat...
+### Messages that can be utilized by multiple reagents.
 
 generic-reagent-effect-burning-insides = You feel your insides burning up!
 generic-reagent-effect-burning-eyes = Your eyes begin to slightly burn.
@@ -17769,7 +17849,8 @@ norepinephricacid-effect-vision-fail = You can feel your vision failing you.
 norepinephricacid-effect-eye-pain = You feel a deep pain in your eyes!
 norepinephricacid-effect-blindness = Your eyes cease function!
 norepinephricacid-effect-darkness = You are plunged into a world of darkness!
-norepinephricacid-effect-eye-disconnect = Your eyes feel like they're disconnecting!phlogiston-plasma-created = The mixture bubbles, and plasma rises from it!
+norepinephricacid-effect-eye-disconnect = Your eyes feel like they're disconnecting!
+phlogiston-plasma-created = The mixture bubbles, and plasma rises from it!
 psicodine-effect-fearless = You feel totally fearless!
 psicodine-effect-anxieties-wash-away = All of your anxieties wash away!
 psicodine-effect-at-peace = You feel completely at peace.
@@ -17945,7 +18026,8 @@ construction-graph-tag-centrifuge-compatible = centrifugable container
 ## RecyclerComponent
 
 recycler-component-suicide-message-others = { $victim } tries to recycle { $victim }!
-recycler-component-suicide-message = You recycle yourself!reflect-component-examine = It has a [color=lightblue]{ $value }%[/color] chance to [color=cyan]reflect[/color] { $type }.
+recycler-component-suicide-message = You recycle yourself!
+reflect-component-examine = It has a [color=lightblue]{ $value }%[/color] chance to [color=cyan]reflect[/color] { $type }.
 reflect-component-nonenergy = bullets
 reflect-component-energy = energy bolts
 ### Interaction Messages
@@ -17999,7 +18081,8 @@ cmd-replay-spectate-hint = Optional EntityUid
 blueprint-receiver-popup-insert = { CAPITALIZE(THE($user)) } inserted { THE($blueprint) } into { THE($receiver) }.
 blueprint-receiver-popup-recipe-exists = The same blueprint was already inserted!
 research-client-server-selection-menu-title = Research Server Selection
-research-client-server-selection-menu-server-entry-text = ID: { $id } || { $serverName }## UI
+research-client-server-selection-menu-server-entry-text = ID: { $id } || { $serverName }
+## UI
 
 research-console-menu-title = R&D Console
 research-console-menu-research-points-text = Research: [color=orchid]{ $points }[/color]
@@ -18161,7 +18244,8 @@ revenant-soul-finish-harvest = { CAPITALIZE(THE($target)) } slumps onto the grou
 revenant-user-interface-title = Ability Shop
 revenant-user-interface-essence-amount = [color=plum]{ $amount }[/color] Stolen Essence
 
-revenant-user-interface-cost = { $price } Essenceborg-slot-cables-empty = Cables
+revenant-user-interface-cost = { $price } Essence
+borg-slot-cables-empty = Cables
 borg-slot-construction-empty = Construction materials
 borg-slot-circuitboards-empty = Circuitboards
 borg-slot-flatpacks-empty = Flatpacks
@@ -18273,7 +18357,8 @@ zzzz-conjugate-basic = { GENDER($ent) ->
    }
 generic-map = map
 generic-grid = grid
-generic-mapid = map Idcmd-reset-ent-desc = Reset an entity to the most recently received server state. This will also reset entities that have been detached to null-space.
+generic-mapid = map Id
+cmd-reset-ent-desc = Reset an entity to the most recently received server state. This will also reset entities that have been detached to null-space.
 
 cmd-reset-all-ents-help = Usage: {$command}
 cmd-reset-all-ents-desc = Resets all entities to the most recently received server state. This only impacts entities that have not been detached to null-space.
@@ -19005,7 +19090,8 @@ entity-category-name-hide = Hidden
 entity-category-desc-hide = Entity prototypes that should be hidden from entity spawn menus
 
 entity-category-name-fork = Fork Filtered
-entity-category-desc-fork = Entity prototypes added by the fork. With CVar you can hide all entities without this categoryinput-key-Escape = Escape
+entity-category-desc-fork = Entity prototypes added by the fork. With CVar you can hide all entities without this category
+input-key-Escape = Escape
 input-key-Control = Control
 input-key-Shift = Shift
 input-key-Alt = Alt
@@ -19105,7 +19191,8 @@ cmd-merge_grids-hintA = Grid A
 cmd-merge_grids-hintB = Grid B
 cmd-merge_grids-xOffset = X offset
 cmd-merge_grids-yOffset = Y offset
-cmd-merge_grids-angle = [Angle]cmd-replay-play-help = replay_play
+cmd-merge_grids-angle = [Angle]
+cmd-replay-play-help = replay_play
 
 cmd-replay-pause-desc = Pause replay playback
 cmd-replay-pause-help = replay_pause
@@ -19166,7 +19253,8 @@ replay-time-box-replay-time-label = Recording Time: {$current} / {$end}  ({$perc
 replay-time-box-server-time-label = Server Time: {$current} / {$end}
 replay-time-box-index-label = Index: {$current} / {$total}
 replay-time-box-tick-label = Tick: {$current} / {$total}
-tab-container-not-tab-title-provided = No titlecommand-description-tpto =
+tab-container-not-tab-title-provided = No title
+command-description-tpto =
     Teleport the given entities to some target entity.
 command-description-player-list =
     Returns a list of all player sessions.
@@ -19642,7 +19730,8 @@ vv-protoid-addwindow-title = Set Prototype
 flippable-component-try-flip-is-stuck = It's stuck.
 
 # FlippableVerb
-flippable-verb-get-data-text = Flip# RotatableComponent
+flippable-verb-get-data-text = Flip
+# RotatableComponent
 rotatable-component-try-rotate-stuck = It's stuck.
 
 # RotateVerb
@@ -19985,7 +20074,8 @@ shell-argument-chat-invalid = Argument { $index } must be a valid chat!
 # Hints
 shell-argument-username-hint = <username>
 shell-argument-username-optional-hint = [username]
-shutter-rattle = *rattle rattle*cmd-arrivals-enable-hint = Enables arrivals
+shutter-rattle = *rattle rattle*
+cmd-arrivals-enable-hint = Enables arrivals
 cmd-arrivals-disable-hint = Disables arrivals
 
 cmd-arrivals-returns = Set arrivals returns to { $value }.
@@ -19994,7 +20084,8 @@ cmd-arrivals-returns-hint = Toggles allowing players to return via arrivals.
 cmd-arrivals-invalid = Invalid arg supplied.
 
 cmd-arrivals-force-hint = Forces players to arrive.
-cmd-arrivals-forced = Forced { $uid } to arrive to the station.# FTLdiskburner
+cmd-arrivals-forced = Forced { $uid } to arrive to the station.
+# FTLdiskburner
 cmd-ftldisk-desc = Creates an FTL coordinates disk to sail to the map the given EntityID is/on
 cmd-ftldisk-help = ftldisk [EntityID]
 
@@ -20289,7 +20380,8 @@ emitter-unlocked-broadcast = A powered emitter { $location } has been unlocked.
 emitter-unpowered-broadcast = A powered emitter { $location } has lost power.
 emitter-turn-off-broadcast = A powered emitter { $location } was turned off.
 comp-generator-failsafe = The { $target } shakes as the containment failsafe triggers!
-comp-generator-failsafe-disabled = Something fizzles out inside of { $target }...radiation-collector-component-use-on = The collector turns on.
+comp-generator-failsafe-disabled = Something fizzles out inside of { $target }...
+radiation-collector-component-use-on = The collector turns on.
 radiation-collector-component-use-off = The collector turns off.
 
 slur-accent-confused = ...huuuhhh...
@@ -20317,7 +20409,8 @@ exception-censored-11 = Failed to wipe mind: Exception
 exception-censored-12 = Guru Meditation: #0000000F.0000ACA7
 exception-censored-13 = Unexpected token 'w'
 exception-censored-14 = Operation timed out: AwaitNap()
-diona-hurt-by-herbicide-popup = The chemical wilts some of your greenery!namepreset-first = { $first }
+diona-hurt-by-herbicide-popup = The chemical wilts some of your greenery!
+namepreset-first = { $first }
 namepreset-firstlast = { $first } { $last }
 namepreset-firstdashfirst = { $first1 }-{ $first2 }
 namepreset-thefirstoflast = The { $first } of { $last }
@@ -46452,7 +46545,8 @@ anomaly-spawn-sighting-1 = low pulsating sounds heard throughout the station
 anomaly-spawn-sighting-2 = strange sources of light
 anomaly-spawn-sighting-3 = inexplicable shapes
 anomaly-spawn-sighting-4 = forms causing severe mental distress
-anomaly-spawn-sighting-5 = strange effects on the local environmentbluespace-artifact-event-announcement = Our readings have detected an incoming object of alien origin. Please inform the research team of { $sighting }.
+anomaly-spawn-sighting-5 = strange effects on the local environment
+bluespace-artifact-event-announcement = Our readings have detected an incoming object of alien origin. Please inform the research team of { $sighting }.
 
 bluespace-artifact-sighting-1 = bright flashes of light
 bluespace-artifact-sighting-2 = strange sounds coming from maintenance tunnels
@@ -46460,7 +46554,8 @@ bluespace-artifact-sighting-3 = otherworldly structures
 bluespace-artifact-sighting-4 = incomprehensible alien objects
 bluespace-artifact-sighting-5 = unfamiliar objects in strange places
 bluespace-artifact-sighting-6 = unknown alien artifacts
-bluespace-artifact-sighting-7 = explosions of light accompanied by weird soundsstation-event-breaker-flip-announcement = Based on { $data }, we have opted to disable specific APCs to avoid damage to equipment. Please contact the engineering department to re-enable them.
+bluespace-artifact-sighting-7 = explosions of light accompanied by weird sounds
+station-event-breaker-flip-announcement = Based on { $data }, we have opted to disable specific APCs to avoid damage to equipment. Please contact the engineering department to re-enable them.
 station-event-bureaucratic-error-announcement = A recent bureaucratic error in the Organic Resources Department may result in personnel shortages in some departments and redundant staffing in others.
 station-event-clerical-error-announcement = A minor clerical error in the Organic Resources Department has resulted in the permanent destruction of some of the station records.
 cargo-gifts-event-announcement = Congratulations! { $sender } has decided to send { $description } to the station { $dest }. Look for it in your next cargo shipment.
@@ -46602,10 +46697,12 @@ station-event-meteor-cow-start-announcement = The station is colliding with an u
 station-event-meteor-clown-start-announcement = The station is colliding with an unidentified swarm of debris. HONK! Evacuate laughing gas storage immediately.
 station-event-meteor-potato-start-announcement = The station is colliding with an unidentified swarm of debris. High starch content detected.
 station-event-fun-swarm-start-announcement = The station is colliding with an unidentified swarm of debris. Please panic appropriately.
-station-event-mouse-migration-announcement = We have detected an oncoming migration of rodents to the station. Please stay out of maintenance tunnels and try and avoid excessive contact.## PowerGridCheck
+station-event-mouse-migration-announcement = We have detected an oncoming migration of rodents to the station. Please stay out of maintenance tunnels and try and avoid excessive contact.
+## PowerGridCheck
 
 station-event-power-grid-check-start-announcement = Abnormal activity detected in the station's powernet. As a precautionary measure, the station's power will be shut off for an indeterminate duration.
-station-event-power-grid-check-end-announcement = Power has been restored to the station. We apologize for the inconvenience.## Phrases used for where central command got this information.
+station-event-power-grid-check-end-announcement = Power has been restored to the station. We apologize for the inconvenience.
+## Phrases used for where central command got this information.
 random-sentience-event-data-1 = scans from our long-range sensors
 random-sentience-event-data-2 = our sophisticated probabilistic models
 random-sentience-event-data-3 = our omnipotence
@@ -46644,9 +46741,11 @@ station-event-random-sentience-flavor-kobold = kobold
 station-event-random-sentience-flavor-inanimate = inanimate
 station-event-solar-flare-start-announcement = A solar flare has been detected near the station. Some communication channels may not function.
 station-event-solar-flare-end-announcement = The solar flare ended. Communication channels no longer affected.
-station-event-unknown-shuttle-incoming = Attention! An unidentified space shuttle has been spotted approaching your sector.station-event-vent-clog-start-announcement = The scrubbers network is experiencing a backpressure surge. Some ejection of contents may occur.
+station-event-unknown-shuttle-incoming = Attention! An unidentified space shuttle has been spotted approaching your sector.
+station-event-vent-clog-start-announcement = The scrubbers network is experiencing a backpressure surge. Some ejection of contents may occur.
 station-event-vent-creatures-start-horde-announcement = Attention. A large influx of unknown life forms have been detected moving through the station's ventilation systems. They are expected to emerge near { $location }. Please evacuate the area to avoid loss of personnel.
-station-event-zombie-outbreak-announcement = Confirmed sightings of various undead aboard the station. All personnel should arm themselves, barricade doors, and secure their location in order to prevent further infection.## BasicStationEventSchedulerSystem
+station-event-zombie-outbreak-announcement = Confirmed sightings of various undead aboard the station. All personnel should arm themselves, barricade doors, and secure their location in order to prevent further infection.
+## BasicStationEventSchedulerSystem
 
 station-event-system-run-event = Running event { $eventName }
 station-event-system-run-random-event-no-valid-events = No valid event was given
@@ -47644,7 +47743,8 @@ surveillance-camera-setup-ui-set = Set
 wire-name-camera-map = MAP
 suspicion-role-component-role-traitor = traitor
 suspicion-role-component-role-innocent = innocent
-suspicion-role-component-on-examine-tooltip = They were { $article } [color={ $colorName }]{ $role }[/color]!# Shown when greeted with the Suspicion role
+suspicion-role-component-on-examine-tooltip = They were { $article } [color={ $colorName }]{ $role }[/color]!
+# Shown when greeted with the Suspicion role
 suspicion-role-greeting = You're a { $roleName }!
 
 # Shown when greeted with the Suspicion role
@@ -47663,7 +47763,9 @@ suspicion-ally-count-display = {$allyCount ->
     *[zero] You have no allies
     [one] Your ally is { $allyNames }
     [other] Your allies are { $allyNames }
-}traitor-overlay-traitor-text = Traitor## TabletopGameComponent
+}
+traitor-overlay-traitor-text = Traitor
+## TabletopGameComponent
 tabletop-verb-play-game = Play Game
 tabletop-verb-dump-pieces = Dump Pieces
 tabletop-default-board-name = Board Game
@@ -47697,7 +47799,8 @@ chat-telephone-unknown-device = [color={ $color }][font={ $fontType } size={ $fo
 chat-telephone-device-id = [color={ $color }][font={ $fontType } size={ $fontSize }][bold]{ CAPITALIZE($deviceName) }[/bold][/font][/color]
 
 # Chat text
-chat-telephone-name-relay = { $originalName } ({ $speaker })handheld-teleporter-instability-fizzle = The portal fizzles as you try to place it, destroying both ends!
+chat-telephone-name-relay = { $originalName } ({ $speaker })
+handheld-teleporter-instability-fizzle = The portal fizzles as you try to place it, destroying both ends!
 teleporter-console-slot-name = Disk
 teleporter-console-chip-record = Coordinates saved!
 
@@ -47758,7 +47861,8 @@ tesla-coil-on = The tesla coil turns on.
 tesla-coil-off = The tesla coil turns off.
 
 tesla-grounding-on = The grounding rod turns on.
-tesla-grounding-off = The grounding rod turns off.thief-backpack-window-title = Thieving Kit
+tesla-grounding-off = The grounding rod turns off.
+thief-backpack-window-title = Thieving Kit
 
 thief-backpack-window-description =
     Inside are your tools of the trade, which will dissolve when you're ready.
@@ -47829,11 +47933,13 @@ thief-fulton-examined-set = Coordinates entered. Bluespace teleportation of the 
 thief-fulton-examined-unset = Beacon coordinates are not set.
 
 thief-fulton-verb-text = Set coordinates
-thief-fulton-verb-message = Set the coordinates of your thief's hideout, where all nearby items will be sent at the end of the round.catchable-component-success-self = You catch { THE($item) }!
+thief-fulton-verb-message = Set the coordinates of your thief's hideout, where all nearby items will be sent at the end of the round.
+catchable-component-success-self = You catch { THE($item) }!
 catchable-component-success-others = { CAPITALIZE(THE($catcher)) } catches { THE($item) }!
 catchable-component-fail-self = You fail to catch { THE($item) }!
 catchable-component-fail-others = { CAPITALIZE(THE($catcher)) } fails to catch { THE($item) }!
-invalid-floor-placement = Unable to place theretiles-space = space
+invalid-floor-placement = Unable to place there
+tiles-space = space
 tiles-plating = plating
 tiles-rcd-plating = RCD plating
 tiles-lattice = lattice
@@ -48233,7 +48339,8 @@ tool-quality-brushing-tool-name = Wire Brush
 traitor-codes-message-singular = syndicate codeword:
 traitor-codes-message-plural = syndicate codewords:
 traitor-codes-none = no known codewords
-telecrystal-component-sucs-inserted = You slot { THE($source) } into { THE($target) }.uplink-bound-user-interface-insufficient-funds-popup = Insufficient funds!
+telecrystal-component-sucs-inserted = You slot { THE($source) } into { THE($target) }.
+uplink-bound-user-interface-insufficient-funds-popup = Insufficient funds!
 
 uplink-bound-user-interface-tc-balance-popup = TC Balance: [color={ $weightedColor }]{ $balance }[/color]
 
@@ -48325,7 +48432,10 @@ trait-hemophilia-desc = Your body fails to make blood clots.
 
 trait-impaired-mobility-name = Impaired Mobility
 trait-impaired-mobility-desc = You have difficulty moving without a mobility aid.
-attach-to-grandparent-verb-get-data-text = Attach to gridattach-to-grid-verb-get-data-text = Attach to gridattach-to-self-verb-get-data-text = Attach to selfghost-kick-on-trigger-default = Tripped over a kick mine, crashed through the fourth wall.
+attach-to-grandparent-verb-get-data-text = Attach to grid
+attach-to-grid-verb-get-data-text = Attach to grid
+attach-to-self-verb-get-data-text = Attach to self
+ghost-kick-on-trigger-default = Tripped over a kick mine, crashed through the fourth wall.
 ### Locales for PopupOnTrigger
 
 popup-on-trigger-use = You use { THE($entity) }.
@@ -48354,7 +48464,8 @@ toggle-trigger-condition-stick-verb = Toggle auto-activation
 toggle-trigger-condition-stick-on = The device will now activate automatically when planted.
 toggle-trigger-condition-stick-off = The device will no longer activate automatically when planted.
 trigger-on-verb-default = Trigger
-trigger-on-verb-detonation = Start detonationtrigger-on-voice-examine = The display reads: "{ $keyphrase }"
+trigger-on-verb-detonation = Start detonation
+trigger-on-voice-examine = The display reads: "{ $keyphrase }"
 trigger-on-voice-uninitialized = The display reads: Uninitialized...
 
 trigger-on-voice-record = Record
@@ -48371,7 +48482,8 @@ trigger-on-voice-set-default = Set to default keyphrase: "{ $keyphrase }"
 # Action menu stuff (left panel, with hotbars etc)
 
 ui-actionmenu-function-lock-action-slots = (Un)lock dragging and clearing action slots
-ui-actionmenu-function-open-abilities-menu = Open action menu## Loc strings for generic "on/off button" control.
+ui-actionmenu-function-open-abilities-menu = Open action menu
+## Loc strings for generic "on/off button" control.
 ui-button-off = Off
 ui-button-on = On
 
@@ -48416,7 +48528,8 @@ solar-control-window-panel-angular-velocity = Panel Angular Velocity:
 solar-control-window-degrees-per-minute = °/min.
 solar-control-window-press-enter-to-confirm = Press Enter to confirm.
 
-pipe-painter-no-color-selected = (No color selected)stat-values-ui-title = Melee stats
+pipe-painter-no-color-selected = (No color selected)
+stat-values-ui-title = Melee stats
 ### Loc for the transfer amount eui window
 
 ## Title
@@ -48563,7 +48676,8 @@ verb-common-open-ui = Open UI
 verb-common-enter = Enter
 verb-common-exit = Exit
 # Default text that gets shown in the context menu for examining something with a GroupExamineComponent
-verb-examine-group-other = Othervirtual-item-dropped-other = You dropped { THE($dropped) }!
+verb-examine-group-other = Other
+virtual-item-dropped-other = You dropped { THE($dropped) }!
 stealth-visual-effect = [color=lightslategray]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BASIC($target, "shimmer", "shimmers") } with strange transparency.[/color]
 voice-mask-default-name-override = Unknown
 
@@ -48616,7 +48730,8 @@ ui-vote-votekick-failure = Votekick for { $target } failed. Votekick reason: { $
 ui-vote-votekick-not-enough-eligible = Not enough eligible voters online to start a votekick: { $voters }/{ $requirement }
 ui-vote-votekick-server-cancelled = Votekick for { $target } was cancelled by the server.
 # Button text in lobby/escape menu
-ui-vote-menu-button = Call voteui-vote-type-restart = Restart round
+ui-vote-menu-button = Call vote
+ui-vote-type-restart = Restart round
 ui-vote-type-gamemode = Next gamemode
 ui-vote-type-map = Next map
 ui-vote-type-votekick = Votekick
@@ -48705,7 +48820,8 @@ cmd-cancelvote-help = Usage: cancelvote <id>
 cmd-cancelvote-error-invalid-vote-id = Invalid vote ID
 cmd-cancelvote-error-missing-vote-id = Missing ID
 cmd-cancelvote-arg-id = <id>
-vote-options-server-initiator-text = The serverwarp-point-component-on-examine-success = This one's location ID is '{ $location }'
+vote-options-server-initiator-text = The server
+warp-point-component-on-examine-success = This one's location ID is '{ $location }'
 # Markers
 location-beacon = beacon
 
@@ -48800,7 +48916,8 @@ deployable-turret-component-cannot-access-wires = You can't reach the maintenanc
 
 # Turret notification for station AI
 station-ai-turret-component-name = { $name } ({ $address })
-station-ai-turret-component-is-attacking-warning = { CAPITALIZE($source) } has engaged a hostile target.upgradeable-gun-popup-already-present = Upgrade already installed!
+station-ai-turret-component-is-attacking-warning = { CAPITALIZE($source) } has engaged a hostile target.
+upgradeable-gun-popup-already-present = Upgrade already installed!
 upgradeable-gun-popup-upgrade-limit = Max upgrades reached!
 gun-upgrade-popup-insert = Inserted { THE($upgrade) } into { THE($gun) }!
 

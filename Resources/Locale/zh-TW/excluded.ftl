@@ -12,7 +12,8 @@ examinable-solution-on-examine-volume-no-max = The contained solution is { $fill
    *[other] [bold]{ -solution-vague-fill-level(fillLevel: $fillLevel) }[/bold].
 }
 
-damage-popup-component-switched = Target set to type: { -damage-popup-component-type(setting: $setting) }set-game-preset-decoy-error = If argument 3 is provided it must be a valid preset. Unable to find game preset "{ $preset }"
+damage-popup-component-switched = Target set to type: { -damage-popup-component-type(setting: $setting) }
+set-game-preset-decoy-error = If argument 3 is provided it must be a valid preset. Unable to find game preset "{ $preset }"
 
 #set-game-preset-preset-set = Set game preset to "{$preset}"
 edible-nom = Nom. { $flavors }{ -edible-satiated(satiated: $satiated, verb: "eat") }
@@ -166,6 +167,7 @@ examinable-solution-on-examine-volume-puddle = The puddle is { $fillLevel ->
    *[mostlyempty] pooling together.
     [empty] forming multiple small pools.
 }
+
 -solution-vague-fill-level =
     { $fillLevel ->
         [full] [color=white]Full[/color]
