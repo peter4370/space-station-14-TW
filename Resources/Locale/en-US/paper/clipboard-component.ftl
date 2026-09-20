@@ -1,1 +1,1 @@
-clipboard-slot-component-slot-name-pen = 鋼筆
+clipboard-slot-component-slot-name-pen = Pen

@@ -1,1 +1,1 @@
-disassemble-system-verb-disassemble = 拆解
+disassemble-system-verb-disassemble = Disassemble

@@ -1,1 +1,2 @@
-command-description-marked = 將 ` $marked ` 的值以 `<EntityUid>` 清單的形式傳回。
+command-description-marked =
+    Returns the value of $marked as a List<EntityUid>.

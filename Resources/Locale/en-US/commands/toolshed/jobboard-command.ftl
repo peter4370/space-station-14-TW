@@ -1,1 +1,2 @@
-command-description-jobboard-completeJob = 為該站完成一項指定的打撈任務板任務。
+command-description-jobboard-completeJob =
+    Completes a given salvage job board job for the station.

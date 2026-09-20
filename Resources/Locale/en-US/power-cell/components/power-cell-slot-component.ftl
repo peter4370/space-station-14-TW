@@ -1,2 +1,2 @@
 # Verbs
-power-cell-slot-component-slot-name-default = 電源單元
+power-cell-slot-component-slot-name-default = Power cell

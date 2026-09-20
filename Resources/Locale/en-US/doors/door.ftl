@@ -1,1 +1,1 @@
-door-pry = 撬門
+door-pry = Pry door

@@ -1,1 +1,1 @@
-power-switch-component-toggle-verb = 開關電源
+power-switch-component-toggle-verb = Toggle power

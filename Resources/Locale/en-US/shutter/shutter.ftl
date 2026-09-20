@@ -1,1 +1,1 @@
-shutter-rattle = *嘎吱嘎吱*
+shutter-rattle = *rattle rattle*

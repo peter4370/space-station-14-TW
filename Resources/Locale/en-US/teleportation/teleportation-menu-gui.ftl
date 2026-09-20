@@ -1,8 +1,7 @@
 ﻿## Default
-teleportation-menu-default-window-title = 傳送選單
-teleportation-menu-destination-obstructed = 你總覺得自己好像沒去過哪裡……
+teleportation-menu-default-window-title = Teleportation Menu
+teleportation-menu-destination-obstructed = You don't feel like you went anywhere...
 
 ## Wizard
-
-teleportation-scroll-window-title = 傳送卷軸
-teleportation-scroll-speech-wizard = EY TCHEL TORT TU { $location }
+teleportation-scroll-window-title = Teleportation Scroll
+teleportation-scroll-speech-wizard = EY TCHEL TORT TU {$location}

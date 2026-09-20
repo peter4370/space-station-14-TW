@@ -1,1 +1,1 @@
-clothing-boots-sidearm = 配槍
+clothing-boots-sidearm = Sidearm

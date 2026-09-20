@@ -1,51 +1,59 @@
 # Ascalapha odorata
-names-moth-last-dataset-1 = 黑女巫
+names-moth-last-dataset-1 = Blackwitch
+
 # Refers to any of the 3 Acherontia
-names-moth-last-dataset-2 = 死神頭顱
+names-moth-last-dataset-2 = Deathshead
+
 # Saturniinae
-names-moth-last-dataset-3 = 皇帝
+names-moth-last-dataset-3 = Emperor
+
 # Plagodis dolabraria
-names-moth-last-dataset-4 = 焦翼
+names-moth-last-dataset-4 = Scorchedwing
+
 # Temnora
-names-moth-last-dataset-5 = 特姆諾拉
+names-moth-last-dataset-5 = Temnora
+
 # Usta
-names-moth-last-dataset-6 = 烏斯塔
+names-moth-last-dataset-6 = Usta
+
 # Thysania agrippina
-names-moth-last-dataset-7 = 白女巫
+names-moth-last-dataset-7 = Whitewitch
+
 # Operophtera brumata
-names-moth-last-dataset-8 = 冬季
+names-moth-last-dataset-8 = Winter
 
 ## Other languages
-
 # Ancient Greek "moth"
-names-moth-last-dataset-9 = 埃皮奧洛斯
+names-moth-last-dataset-9 = Epiolos
+
 # Conceivably any Old Norse descendant of mǫlr but probably more Danish than anything. "oe" digraph for ø.
-names-moth-last-dataset-10 = 莫勒
+names-moth-last-dataset-10 = Moeller
+
 # Literal pseudo-translation of German Nachtfalter
-names-moth-last-dataset-11 = 夜行者
+names-moth-last-dataset-11 = Nightflitter
 
 ## Myth and legend
-
 # Belief of moths flying at night signalling the reception of a letter
-names-moth-last-dataset-12 = 先驅報
+names-moth-last-dataset-12 = Herald
+
 # Greek figure associated with Hero, and similar sounding to Oleander hawk-moth
-names-moth-last-dataset-13 = 利安德
+names-moth-last-dataset-13 = Leander
+
 # Split between being a myth reference and actual possible surname given the actual Goodman, Hoffman, Newman, Coleman, etc.
-names-moth-last-dataset-14 = 飛蛾人
+names-moth-last-dataset-14 = Mothman
 
 ## Fun names
-
 names-moth-last-dataset-15 = Cometrider
-names-moth-last-dataset-16 = 黃昏
-names-moth-last-dataset-17 = 螢火蟲
-names-moth-last-dataset-18 = 火筆
+names-moth-last-dataset-16 = Eventide
+names-moth-last-dataset-17 = Firefly
+names-moth-last-dataset-18 = Firebrush
 names-moth-last-dataset-19 = Flamecoat
-names-moth-last-dataset-20 = 光織者
-names-moth-last-dataset-21 = 月之舞者
+names-moth-last-dataset-20 = Lightweaver
+names-moth-last-dataset-21 = Moondancer
 names-moth-last-dataset-22 = Nightwish
-names-moth-last-dataset-23 = 夜眼
-names-moth-last-dataset-24 = 貓頭鷹毒草
-names-moth-last-dataset-25 = 絲舌
+names-moth-last-dataset-23 = Nighteyes
+names-moth-last-dataset-24 = Owlbane
+names-moth-last-dataset-25 = Silktongue
 names-moth-last-dataset-26 = Sparkdrawn
-names-moth-last-dataset-27 = 《觀星者》
-names-moth-last-dataset-28 = 星探
+names-moth-last-dataset-27 = Stargazer
+names-moth-last-dataset-28 = Starseeker

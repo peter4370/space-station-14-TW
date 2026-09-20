@@ -1,1 +1,1 @@
-selectable-component-adder-category-name = 新增功能
+selectable-component-adder-category-name = Add feature

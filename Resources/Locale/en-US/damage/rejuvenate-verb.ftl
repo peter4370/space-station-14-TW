@@ -1,1 +1,1 @@
-rejuvenate-verb-get-data-text = 重煥活力
+rejuvenate-verb-get-data-text = Rejuvenate

@@ -1,5 +1,6 @@
 ﻿cmd-toggleghostvisibility-desc = Toggles ghost visibility on the client.
-cmd-toggleghostvisibility-help = 用法：toggleghostvisibility [bool]
-cmd-toggleselfghost-desc = 是否顯示自己的幽靈。
-cmd-toggleselfghost-help = 用法：toggleselfghost
-cmd-toggleselfghost-must-be-ghost = 對象得是個幽靈。
+cmd-toggleghostvisibility-help = Usage: toggleghostvisibility [bool]
+
+cmd-toggleselfghost-desc = Toggles seeing your own ghost.
+cmd-toggleselfghost-help = Usage: toggleselfghost
+cmd-toggleselfghost-must-be-ghost = Entity must be a ghost.

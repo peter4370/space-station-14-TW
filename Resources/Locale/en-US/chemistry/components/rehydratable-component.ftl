@@ -1,1 +1,1 @@
-rehydratable-component-expands-message = { $owner } 擴展了！
+rehydratable-component-expands-message = {$owner} expands!
