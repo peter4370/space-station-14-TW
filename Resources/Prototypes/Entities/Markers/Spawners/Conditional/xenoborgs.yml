@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointXenoborg
   parent: MarkerBase
-  name: 異星博格 | xenoborgs
+  name: xenoborgs
   components:
   - type: AntagGridSpawnPoint
     whitelist:
@@ -16,7 +16,7 @@
 - type: entity
   id: SpawnPointMothershipCore
   parent: MarkerBase
-  name: 母艦核心 | mothership core
+  name: mothership core
   components:
   - type: AntagGridSpawnPoint
     whitelist:

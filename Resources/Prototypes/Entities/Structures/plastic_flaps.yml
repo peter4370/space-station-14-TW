@@ -54,9 +54,9 @@
 - type: entity
   id: PlasticFlapsClear
   parent: PlasticFlapsBase
-  name: 塑膠翻蓋 | plastic flaps
+  name: plastic flaps
   suffix: Clear
-  description: 堅固耐用的塑膠擋板。絕對無法越過那些。沒門兒。 | Heavy duty, plastic flaps. Definitely can't get past those. No way.
+  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Construction
     graph: PlasticFlapsGraph
@@ -65,9 +65,9 @@
 - type: entity
   id: PlasticFlapsOpaque
   parent: PlasticFlapsBase
-  name: 塑膠翻蓋 | plastic flaps
+  name: plastic flaps
   suffix: Opaque
-  description: 堅固耐用的塑膠擋板。絕對無法越過那些。沒門兒。 | Heavy duty, plastic flaps. Definitely can't get past those. No way.
+  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Fixtures
     fixtures:
@@ -89,9 +89,9 @@
 - type: entity
   id: PlasticFlapsAirtightClear
   parent: PlasticFlapsBase
-  name: 密封式塑膠蓋板 | airtight plastic flaps
+  name: airtight plastic flaps
   suffix: Airtight, Clear
-  description: 重型、稍為堅固些、氣密性良好的塑膠擋板。絕對無法穿過那些。沒門。 | Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Airtight
   - type: StaticPrice
@@ -100,9 +100,9 @@
 - type: entity
   id: PlasticFlapsAirtightOpaque
   parent: PlasticFlapsBase
-  name: 密封式塑膠蓋板 | airtight plastic flaps
+  name: airtight plastic flaps
   suffix: Airtight, Opaque
-  description: 重型、稍為堅固些、氣密性良好的塑膠擋板。絕對無法穿過那些。沒門。 | Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
   components:
   - type: Airtight
   - type: StaticPrice

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseSheet
   id: SheetOtherBase
-  description: 一種常在太空站中用於各種用途的片狀材料。 | A sheet of material, used often on the station in various applications.
+  description: A sheet of material, used often on the station in various applications.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/other.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPaper
-  name: 紙 | paper
+  name: paper
   suffix: Full
   components:
   - type: Stack
@@ -41,7 +41,7 @@
 - type: entity
   parent: SheetPaper
   id: SheetPaper1
-  name: 紙 | paper
+  name: paper
   suffix: Single
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlasma
-  name: 等離子體 | plasma
+  name: plasma
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -91,7 +91,7 @@
 - type: entity
   parent: SheetPlasma
   id: SheetPlasma1
-  name: 等離子體 | plasma
+  name: plasma
   suffix: Single
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlastic
-  name: 塑膠 | plastic
+  name: plastic
   suffix: Full
   components:
   - type: Tag
@@ -138,7 +138,7 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic10
-  name: 塑膠 | plastic
+  name: plastic
   suffix: 10
   components:
   - type: Sprite
@@ -149,7 +149,7 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic1
-  name: 塑膠 | plastic
+  name: plastic
   suffix: Single
   components:
   - type: Sprite
@@ -160,7 +160,7 @@
 - type: entity
   parent: [SheetOtherBase, FoodBase]
   id: SheetUranium
-  name: 鈾 | uranium
+  name: uranium
   suffix: Full
   components:
   - type: Edible
@@ -195,7 +195,7 @@
 - type: entity
   parent: SheetUranium
   id: SheetUranium1
-  name: 鈾 | uranium
+  name: uranium
   suffix: Single
   components:
   - type: Stack
@@ -204,7 +204,7 @@
 - type: entity
   parent: SheetOtherBase
   id: MaterialSheetMeat
-  name: 肉片 | meat sheet
+  name: meat sheet
   suffix: Full
   components:
     - type: Sprite

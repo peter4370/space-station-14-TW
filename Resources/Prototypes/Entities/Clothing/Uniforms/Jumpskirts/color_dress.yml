@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlackElegantDress
-  name: 黑色優雅洋裝 | black elegant dress
-  description: 一件綴有漂亮蝴蝶結的優雅洋裝。 | Elegant dress with a beautiful bow.
+  name: black elegant dress
+  description: Elegant dress with a beautiful bow.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/elegantdress.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRedElegantDress
-  name: 紅色優雅洋裝 | red elegant dress
-  description: 一件綴有漂亮蝴蝶結的優雅洋裝。 | Elegant dress with a beautiful bow.
+  name: red elegant dress
+  description: Elegant dress with a beautiful bow.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/elegantdress.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGreenElegantDress
-  name: 綠色優雅洋裝 | green elegant dress
-  description: 一件綴有漂亮蝴蝶結的優雅洋裝。 | Elegant dress with a beautiful bow.
+  name: green elegant dress
+  description: Elegant dress with a beautiful bow.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/elegantdress.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlueElegantDress
-  name: 藍色優雅洋裝 | blue elegant dress
-  description: 一件綴有漂亮蝴蝶結的優雅洋裝。 | Elegant dress with a beautiful bow.
+  name: blue elegant dress
+  description: Elegant dress with a beautiful bow.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/elegantdress.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPurpleElegantDress
-  name: 紫色優雅洋裝 | purple elegant dress
-  description: 一件綴有漂亮蝴蝶結的優雅洋裝。 | Elegant dress with a beautiful bow.
+  name: purple elegant dress
+  description: Elegant dress with a beautiful bow.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/elegantdress.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCyanStripedDress
-  name: 青綠色條紋洋裝 | cyan striped dress
-  description: 這件條紋洋裝真可愛。 | Cute striped dress.
+  name: cyan striped dress
+  description: Cute striped dress.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/stripeddress.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRedStripedDress
-  name: 紅色條紋洋裝 | red striped dress
-  description: 這件條紋洋裝真可愛。 | Cute striped dress.
+  name: red striped dress
+  description: Cute striped dress.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/stripeddress.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGreenStripedDress
-  name: 綠色條紋洋裝 | green striped dress
-  description: 這件條紋洋裝真可愛。 | Cute striped dress.
+  name: green striped dress
+  description: Cute striped dress.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/stripeddress.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPinkStripedDress
-  name: 粉紅色條紋洋裝 | pink striped dress
-  description: 這件條紋洋裝真可愛。 | Cute striped dress.
+  name: pink striped dress
+  description: Cute striped dress.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/stripeddress.rsi
@@ -263,8 +263,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtOrangeStripedDress
-  name: 橘色條紋洋裝 | orange striped dress
-  description: 這件條紋洋裝真可愛。 | Cute striped dress.
+  name: orange striped dress
+  description: Cute striped dress.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/stripeddress.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPurpleTurtleneckDress
-  name: 紫色高領洋裝 | purple turtleneck dress
-  description: 一款設計獨特的高領洋裝。 | Turtleneck dress with a unique design.
+  name: purple turtleneck dress
+  description: Turtleneck dress with a unique design.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/turtledress.rsi
@@ -321,8 +321,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRedTurtleneckDress
-  name: 紅色高領連身裙 | red turtleneck dress
-  description: 一款設計獨特的高領洋裝。 | Turtleneck dress with a unique design.
+  name: red turtleneck dress
+  description: Turtleneck dress with a unique design.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/turtledress.rsi
@@ -350,8 +350,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGreenTurtleneckDress
-  name: 綠色高領連身裙 | green turtleneck dress
-  description: 一款設計獨特的高領洋裝。 | Turtleneck dress with a unique design.
+  name: green turtleneck dress
+  description: Turtleneck dress with a unique design.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/turtledress.rsi
@@ -379,8 +379,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlueTurtleneckDress
-  name: 藍色高領連身裙 | blue turtleneck dress
-  description: 一款設計獨特的高領洋裝。 | Turtleneck dress with a unique design.
+  name: blue turtleneck dress
+  description: Turtleneck dress with a unique design.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/turtledress.rsi
@@ -408,8 +408,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtYellowTurtleneckDress
-  name: 黃色高領連身裙 | yellow turtleneck dress
-  description: 一款設計獨特的高領洋裝。 | Turtleneck dress with a unique design.
+  name: yellow turtleneck dress
+  description: Turtleneck dress with a unique design.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/turtledress.rsi
@@ -437,8 +437,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtYellowOldDress
-  name: 那件黃色的舊洋裝 | yellow old dress
-  description: 經典的西方服飾。 | Classic western dress.
+  name: yellow old dress
+  description: Classic western dress.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirts/ColorDress/dresswestern.rsi

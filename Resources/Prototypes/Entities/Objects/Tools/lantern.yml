@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: 燈籠 | lantern
+  name: lantern
   parent: BaseItem
   id: Lantern
-  description: 神聖之光指引前路。 | The holy light guides the way.
+  description: The holy light guides the way.
   components:
     - type: HandheldLight
       addPrefix: true
@@ -52,7 +52,7 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
+          name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellMedium
     - type: ContainerContainer
       containers:

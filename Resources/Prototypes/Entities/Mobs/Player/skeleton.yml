@@ -1,11 +1,11 @@
 - type: entity
-  name: 骷髏海盜 | skeleton pirate
+  name: skeleton pirate
   parent: MobSkeletonPerson
   id: MobSkeletonPirate
   components:
   - type: GhostRole
-    name: ghost-role-information-skeleton-pirate-name | ghost-role-information-skeleton-pirate-name
-    description: ghost-role-information-skeleton-pirate-description | ghost-role-information-skeleton-pirate-description
+    name: ghost-role-information-skeleton-pirate-name
+    description: ghost-role-information-skeleton-pirate-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -18,13 +18,13 @@
 
 
 - type: entity
-  name: 骷髏騎士 | skeleton biker
+  name: skeleton biker
   parent: MobSkeletonPerson
   id: MobSkeletonBiker
   components:
   - type: GhostRole
-    name: ghost-role-information-skeleton-biker-name | ghost-role-information-skeleton-biker-name
-    description: ghost-role-information-skeleton-biker-description | ghost-role-information-skeleton-biker-description
+    name: ghost-role-information-skeleton-biker-name
+    description: ghost-role-information-skeleton-biker-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -38,11 +38,11 @@
 - type: entity
   parent: MobSkeletonPerson
   id: MobSkeletonCloset
-  name: 衣櫥裡的骷髏 | closet skeleton
+  name: closet skeleton
   components:
   - type: GhostRole
-    name: ghost-role-information-closet-skeleton-name | ghost-role-information-closet-skeleton-name
-    description: ghost-role-information-closet-skeleton-description | ghost-role-information-closet-skeleton-description
+    name: ghost-role-information-closet-skeleton-name
+    description: ghost-role-information-closet-skeleton-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent

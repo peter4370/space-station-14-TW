@@ -1,5 +1,5 @@
 - type: entity
-  name: 隨機圖表生成器 | Random Sheet Spawner
+  name: Random Sheet Spawner
   id: BedsheetSpawner
   parent: MarkerBase
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, BaseItemDestructible ]
   id: BaseHandheldStationMap
-  name: 太空站地圖 | station map
-  description: 顯示當前電台的資訊。 | Displays a readout of the current station.
+  name: station map
+  description: Displays a readout of the current station.
   abstract: true
   components:
     - type: StationMap
@@ -39,7 +39,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default
 
 - type: entity
   id: HandheldStationMapUnpowered
@@ -57,9 +57,9 @@
 - type: entity
   parent: HandheldStationMap
   id: HandheldStationMapNukeops
-  name: 目標站點地圖 | target station map
+  name: target station map
   suffix: Handheld, NukeOps
-  description: 顯示目標站點的讀數。 | Displays a readout of the target station.
+  description: Displays a readout of the target station.
   components:
   - type: Sprite
     sprite: Objects/Devices/tablets.rsi

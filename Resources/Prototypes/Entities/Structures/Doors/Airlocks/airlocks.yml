@@ -154,7 +154,7 @@
 - type: entity
   parent: Airlock
   id: AirlockMaint
-  name: 維護存取權限 | maintenance access
+  name: maintenance access
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/airlock-maints.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatch
-  name: 氣密艙口 | airtight hatch
+  name: airtight hatch
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/airlock-hatch.rsi
@@ -200,7 +200,7 @@
 - type: entity
   parent: Airlock
   id: AirlockXenoborg
-  name: mechadermis 氣閘 | mechadermis airlock
+  name: mechadermis airlock
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/exo-xenoborg.rsi
@@ -247,7 +247,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatchMaintenance
-  name: 維護艙口 | maintenance hatch
+  name: maintenance hatch
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/airlock-hatch-maints.rsi
@@ -257,7 +257,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatchSyndicate
-  name: 氣密艙口 | airtight hatch
+  name: airtight hatch
   suffix: Syndicate
   components:
   - type: Sprite
@@ -416,7 +416,7 @@
   parent: Airlock
   id: AirlockXeno
   suffix: Exo
-  name: 外皮氣閘 | exodermis airlock
+  name: exodermis airlock
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/exo-base.rsi
@@ -464,7 +464,7 @@
   parent: AirlockGlass
   id: AirlockGlassXeno
   suffix: Exo
-  name: 樹脂外皮氣鎖 | resin exodermis airlock
+  name: resin exodermis airlock
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/exo-base.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: IntegrationTestMarker
-  name: 整合測試標記器 | Integration Test Marker
+  name: Integration Test Marker
   components:
   - type: TestMarker
   - type: Sprite

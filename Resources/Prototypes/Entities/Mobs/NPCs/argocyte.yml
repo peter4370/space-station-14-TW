@@ -3,7 +3,7 @@
   parent: [ BaseSimpleMob, BaseMobAnimal, MobCombat, MobBloodstream, BaseMobDestructible ]
   id: BaseMobArgocyte
   suffix: AI
-  description: 一種在行星的「錯誤一側」被發現的危險外星生物，以熱衷於啃食廢墟而聞名。 | A dangerous alien found on the wrong side of planets, known for their propensity for munching on ruins.
+  description: A dangerous alien found on the wrong side of planets, known for their propensity for munching on ruins.
   abstract: true
   components:
   - type: NpcFactionMember
@@ -53,8 +53,8 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteSlurva
-  name: slurva | slurva
-  description: 一個可憐的傢伙，沒什麼本事。 | A pathetic creature, incapable of doing much.
+  name: slurva
+  description: A pathetic creature, incapable of doing much.
   components:
   - type: Sprite
     layers:
@@ -88,7 +88,7 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteBarrier
-  name: 屏障 | barrier
+  name: barrier
   components:
   - type: Sprite
     layers:
@@ -130,8 +130,8 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteSkitter
-  name: skitter | skitter
-  description: 一個狡猾的小外星人……務必確保他們不會偷走你的口糧！ | A devious little alien... Make sure they don't run off with your rations!
+  name: skitter
+  description: A devious little alien... Make sure they don't run off with your rations!
   components:
   - type: Sprite
     layers:
@@ -170,8 +170,8 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteSwiper
-  name: swiper | swiper
-  description: 那一疊鋼材去哪裡了？ | Where did that stack of steel go?
+  name: swiper
+  description: Where did that stack of steel go?
   components:
   - type: Sprite
     layers:
@@ -197,7 +197,7 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteMolder
-  name: 發霉者 | molder
+  name: molder
   components:
   - type: Sprite
     layers:
@@ -224,7 +224,7 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocytePouncer
-  name: 撲擊者 | pouncer
+  name: pouncer
   components:
   - type: Sprite
     layers:
@@ -253,7 +253,7 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteGlider
-  name: 滑翔機 | glider
+  name: glider
   components:
   - type: Sprite
     layers:
@@ -285,7 +285,7 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteHarvester
-  name: 收割機 | harvester
+  name: harvester
   components:
   - type: Sprite
     layers:
@@ -314,8 +314,8 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteCrawler
-  name: 履帶式機器 | crawler
-  description: 這些致命的群居動物，會襲擊毫無防備的旅人。 | Deadly, pack-animals that maul unsuspecting travelers.
+  name: crawler
+  description: Deadly, pack-animals that maul unsuspecting travelers.
   components:
   - type: Sprite
     layers:
@@ -347,7 +347,7 @@
 - type: entity
   parent: [BaseMobArgocyte, BaseSlicingRefinable]
   id: MobArgocyteEnforcer
-  name: 執法者 | enforcer
+  name: enforcer
   components:
   - type: Sprite
     layers:
@@ -379,7 +379,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteFounder
-  name: 創辦人 | founder
+  name: founder
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
@@ -423,7 +423,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteLeviathing
-  name: leviathing | leviathing
+  name: leviathing
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi

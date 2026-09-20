@@ -10,7 +10,7 @@
 
 - type: entity
   id: DebugConsumer
-  name: 消費者 | consumer
+  name: consumer
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -53,7 +53,7 @@
 
 - type: entity
   id: DebugBatteryStorage
-  name: 電池儲能 | battery storage
+  name: battery storage
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -88,7 +88,7 @@
 
 - type: entity
   id: DebugBatteryDischarger
-  name: 電池放電器 | battery discharger
+  name: battery discharger
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -157,7 +157,7 @@
 
 - type: entity
   id: DebugPowerReceiver
-  name: 電力接收器 | power receiver
+  name: power receiver
   suffix: DEBUG
   placement:
     mode: SnapgridCenter

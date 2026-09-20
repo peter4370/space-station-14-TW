@@ -1,8 +1,8 @@
 - type: entity
   parent: BoxCardboard
-  name: 猴子魔方盒 | monkey cube box
+  name: monkey cube box
   id: MonkeyCubeBox
-  description: Drymate 品牌的猴子方塊。只要加水即可！ | Drymate brand monkey cubes. Just add water!
+  description: Drymate brand monkey cubes. Just add water!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -29,9 +29,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: 猴子方塊 | monkey cube
+  name: monkey cube
   id: MonkeyCubeWrapped
-  description: 拆開這個包裝，就能得到一個猴子魔方。 | Unwrap this to get a monkey cube.
+  description: Unwrap this to get a monkey cube.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -44,9 +44,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: 科博爾德立方體盒子 | kobold cube box
+  name: kobold cube box
   id: KoboldCubeBox
-  description: 濃縮的科博爾德裝在立方體裡。只要加水即可！ | Condensed kobolds in a cube. Just add water!
+  description: Condensed kobolds in a cube. Just add water!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -59,9 +59,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: 生物方塊盒 | variant cube box
+  name: variant cube box
   id: VariantCubeBox
-  description: 既有小妖魔方塊，也有猴子方塊。只要加點水就行！ | Both kobold cubes and monkey cubes. Just add water!
+  description: Both kobold cubes and monkey cubes. Just add water!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -77,9 +77,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: 科博爾德方塊 | kobold cube
+  name: kobold cube
   id: KoboldCubeWrapped
-  description: 拆開這個包裝，即可獲得一個哥布林魔方。 | Unwrap this to get a kobold cube.
+  description: Unwrap this to get a kobold cube.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -89,10 +89,10 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: 猴子方塊盒 | monkey cube box
+  name: monkey cube box
   suffix: Syndicate
   id: SyndicateSpongeBox
-  description: Drymate 品牌的猴子方塊。只要加水即可！ | Drymate brand monkey cubes. Just add water!
+  description: Drymate brand monkey cubes. Just add water!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -105,7 +105,7 @@
 
 - type: entity
   parent: MonkeyCubeWrapped
-  name: 猴子方塊 | monkey cube
+  name: monkey cube
   suffix: Wrapped, Syndicate
   id: SyndicateSpongeWrapped
   components:

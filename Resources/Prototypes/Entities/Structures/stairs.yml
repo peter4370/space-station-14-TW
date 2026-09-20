@@ -13,9 +13,9 @@
 - type: entity
   parent: [ BaseFloorDecoration, StructureHealthFurnitureStrong ]
   id: Stairs
-  name: 樓梯 | stairs
+  name: stairs
   suffix: Steel
-  description: 這是自火箭推進榴彈以來最偉大的發明。 | The greatest invention since rocket-propelled grenades.
+  description: The greatest invention since rocket-propelled grenades.
   components:
   - type: Anchorable
     flags:

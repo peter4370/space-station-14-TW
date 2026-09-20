@@ -1,5 +1,5 @@
 - type: entity
-  name: 地獄之子 | hellspawn
+  name: hellspawn
   parent:
   - BaseSimpleMob
   - MobCombat
@@ -8,13 +8,13 @@
   - BaseSlicingRefinable
   - BaseMobDestructible
   id: MobHellspawn
-  description: 一股勢不可擋的屠殺之勢。 | An unstoppable force of carnage.
+  description: An unstoppable force of carnage.
   components:
   - type: GhostRole
     allowMovement: true
     makeSentient: true
-    name: ghost-role-information-hellspawn-name | ghost-role-information-hellspawn-name
-    description: ghost-role-information-hellspawn-description | ghost-role-information-hellspawn-description
+    name: ghost-role-information-hellspawn-name
+    description: ghost-role-information-hellspawn-description
     rules: ghost-role-information-antagonist-rules
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ SeatBase, StructureHealthFurniture ]
-  name: 舒適的長椅 | comfortable bench
+  name: comfortable bench
   id: BenchComfy
-  description: 一張椅背極其舒適的長椅。 | A bench with an extremely comfortable backrest.
+  description: A bench with an extremely comfortable backrest.
   components:
   - type: Transform
     anchored: true
@@ -33,7 +33,7 @@
   id: BenchColorfulComfy
   suffix: Solo. Colorful
   parent: BenchComfy
-  description: 一張椅背極其舒適的長椅。 | A bench with an extremely comfortable backrest.
+  description: A bench with an extremely comfortable backrest.
   components:
   - type: Sprite
     layers:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ProximitySensor
-  name: 接近感測器 | proximity sensor
-  description: 能感知附近的事物。 | Senses things in close proximity.
+  name: proximity sensor
+  description: Senses things in close proximity.
   components:
   - type: Sprite
     sprite: Objects/Misc/proximity_sensor.rsi
@@ -36,7 +36,7 @@
 - type: entity
   id: LeftArmBorg
   parent: PartSilicon
-  name: 賽博格左臂 | cyborg left arm
+  name: cyborg left arm
   components:
   - type: Sprite
     state: borg_l_arm
@@ -51,7 +51,7 @@
 - type: entity
   id: RightArmBorg
   parent: PartSilicon
-  name: 賽博格右臂 | cyborg right arm
+  name: cyborg right arm
   components:
   - type: Sprite
     state: borg_r_arm
@@ -66,7 +66,7 @@
 - type: entity
   id: LeftLegBorg
   parent: PartSilicon
-  name: 賽博格左腿 | cyborg left leg
+  name: cyborg left leg
   components:
   - type: Sprite
     state: borg_l_leg
@@ -81,7 +81,7 @@
 - type: entity
   id: RightLegBorg
   parent: PartSilicon
-  name: 賽博格右腿 | cyborg right leg
+  name: cyborg right leg
   components:
   - type: Sprite
     state: borg_r_leg
@@ -96,7 +96,7 @@
 - type: entity
   id: LightHeadBorg
   parent: PartSilicon
-  name: 賽博格頭部 | cyborg head
+  name: cyborg head
   components:
   - type: Sprite
     state: borg_head
@@ -110,7 +110,7 @@
 - type: entity
   id: TorsoBorg
   parent: PartSilicon
-  name: 賽博格軀幹 | cyborg torso
+  name: cyborg torso
   components:
   - type: Sprite
     state: borg_chest

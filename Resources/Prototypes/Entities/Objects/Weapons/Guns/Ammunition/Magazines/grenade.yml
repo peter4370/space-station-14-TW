@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazineGrenade
-  name: 手榴彈彈匣 | grenade cartridge
+  name: grenade cartridge
   components:
   - type: Tag
     tags:
@@ -42,14 +42,14 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineGrenadeEmpty
-  name: 手榴彈彈匣 | grenade cartridge
+  name: grenade cartridge
   components:
   - type: BallisticAmmoProvider
 
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineGrenadeFrag
-  name: 破片手榴彈彈匣 | frag grenade cartridge
+  name: frag grenade cartridge
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeFrag
@@ -57,7 +57,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineGrenadeEMP
-  name: 電磁脈衝手榴彈彈匣 | EMP grenade cartridge
+  name: EMP grenade cartridge
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeEMP
@@ -65,7 +65,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineGrenadeFlash
-  name: 閃光手榴彈彈匣 | flash grenade cartridge
+  name: flash grenade cartridge
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeFlash
@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineGrenadeBlast
-  name: 爆破手榴彈彈匣 | blast grenade cartridge
+  name: blast grenade cartridge
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeBlast
@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineGrenadeBaton
-  name: 警棍手榴彈彈匣 | baton grenade cartridge
+  name: baton grenade cartridge
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeBaton

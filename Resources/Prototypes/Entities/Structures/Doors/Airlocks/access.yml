@@ -1224,7 +1224,7 @@
       board: [ DoorElectronicsExternal ]
 
 - type: entity
-  name: 抵達氣鎖室 | arrivals airlock
+  name: arrivals airlock
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleArrivals
   suffix: External, Arrivals, Glass, Docking
@@ -1240,7 +1240,7 @@
     dockLegendCategory: Arrivals
 
 - type: entity
-  name: 貨運部氣閘 | cargo airlock
+  name: cargo airlock
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleCargo
   suffix: External, Cargo, Glass, Docking

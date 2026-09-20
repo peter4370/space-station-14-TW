@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomPainting
-  name: 隨機繪畫生成器 | random painting spawner
+  name: random painting spawner
   components:
   - type: Sprite
     layers:

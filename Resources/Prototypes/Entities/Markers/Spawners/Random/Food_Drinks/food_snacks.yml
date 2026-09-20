@@ -1,6 +1,6 @@
 - type: entity
   id: RandomSnacks
-  name: 隨機零食生成器 | random snack spawner
+  name: random snack spawner
   #suffix: ""
   parent: MarkerBase
   placement:

@@ -1,7 +1,7 @@
 #Spawners
 - type: entity
   id: RandomSmokables
-  name: 隨機可吸食生成器 | random smokable spawner
+  name: random smokable spawner
   parent: MarkerBase
   placement:
     mode: PlaceFree
@@ -19,7 +19,7 @@
 
 - type: entity
   id: RandomSoakedCigarette
-  name: 隨機生成浸濕香菸的生成器 | random soaked cigarette spawner
+  name: random soaked cigarette spawner
   parent: MarkerBase
   placement:
     mode: PlaceFree

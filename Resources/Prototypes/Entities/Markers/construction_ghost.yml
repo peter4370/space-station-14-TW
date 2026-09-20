@@ -1,5 +1,5 @@
 - type: entity
-  name: 建築幽靈 | construction ghost
+  name: construction ghost
   id: constructionghost
   categories: [ HideSpawnMenu ]
   components:

@@ -2,8 +2,8 @@
   parent: [AirSensorBase, GasBinaryBase]
   id: !type:CreateVariants
     values: [ GasPipeSensor, GasPipeSensorAlt1, GasPipeSensorAlt2 ]
-  name: 氣體管線感測器 | gas pipe sensor
-  description: 關於附件所列管網中氣體狀況的報告。 | Reports on the status of the gas in the attached pipe network.
+  name: gas pipe sensor
+  description: Reports on the status of the gas in the attached pipe network.
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
   placement:

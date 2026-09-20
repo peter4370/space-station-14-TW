@@ -1,5 +1,5 @@
 - type: entity
-  name: 客戶端複製 | clientsideclone
+  name: clientsideclone
   id: clientsideclone
   categories: [ HideSpawnMenu ]
   components:

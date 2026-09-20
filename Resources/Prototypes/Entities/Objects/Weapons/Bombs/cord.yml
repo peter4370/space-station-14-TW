@@ -2,9 +2,9 @@
 - type: entity
   parent: [ CableStack, BaseSecurityContraband ]
   id: CableDetStack
-  name: 爆破繩 | explosive cord
+  name: explosive cord
   suffix: Full
-  description: 這款爆破繩能清除擋在路上的任何障礙物。 | Explosive cord for removing whatever is in your way.
+  description: Explosive cord for removing whatever is in your way.
   components:
   - type: Stack
     stackType: CableDet

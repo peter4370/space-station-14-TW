@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RandomAnomalySpawner
-  name: 隨機異常生成器 | random anomaly spawner
+  name: random anomaly spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: RandomRockAnomalySpawner
-  name: 隨機岩石異常生成器 | random rock anomaly spawner
+  name: random rock anomaly spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 
 - type: entity
   id: RandomAnomalyInjectorSpawner
-  name: 隨機異常注入器生成器 | random anomaly injector spawner
+  name: random anomaly injector spawner
   parent: MarkerBase
   components:
   - type: Sprite

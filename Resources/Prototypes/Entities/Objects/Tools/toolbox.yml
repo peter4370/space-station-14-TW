@@ -40,10 +40,10 @@
   - type: Appearance
 
 - type: entity
-  name: 緊急工具箱 | emergency toolbox
+  name: emergency toolbox
   parent: ToolboxBase
   id: ToolboxEmergency
-  description: 一個鮮紅色的工具箱，裡面裝滿了應急工具。 | A bright red toolbox, stocked with emergency tools.
+  description: A bright red toolbox, stocked with emergency tools.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
@@ -52,10 +52,10 @@
     sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
 
 - type: entity
-  name: 機械工具箱 | mechanical toolbox
+  name: mechanical toolbox
   parent: ToolboxBase
   id: ToolboxMechanical
-  description: 一個裝滿機械工具的藍色盒子。 | A blue box, stocked with mechanical tools.
+  description: A blue box, stocked with mechanical tools.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
@@ -64,10 +64,10 @@
     sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
 
 - type: entity
-  name: 電動工具箱 | electrical toolbox
+  name: electrical toolbox
   parent: ToolboxBase
   id: ToolboxElectrical
-  description: 一個通常裝有電工工具的工具箱。 | A toolbox typically stocked with electrical gear.
+  description: A toolbox typically stocked with electrical gear.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
@@ -76,11 +76,11 @@
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
 
 - type: entity
-  name: 電動工具箱 | electrical toolbox
+  name: electrical toolbox
   suffix: Syndicate, Turret
   parent: ToolboxElectrical
   id: ToolboxElectricalTurret
-  description: 一個通常裝有電工工具的工具箱。 | A toolbox typically stocked with electrical gear.
+  description: A toolbox typically stocked with electrical gear.
   components:
   - type: Damageable
   - type: Injurable
@@ -103,10 +103,10 @@
     price: 1350
 
 - type: entity
-  name: 藝術工具箱 | artistic toolbox
+  name: artistic toolbox
   parent: ToolboxBase
   id: ToolboxArtistic
-  description: 一個通常裝滿美術用品的工具箱。 | A toolbox typically stocked with artistic supplies.
+  description: A toolbox typically stocked with artistic supplies.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_green.rsi
@@ -115,10 +115,10 @@
     sprite: Objects/Tools/Toolboxes/toolbox_green.rsi
 
 - type: entity
-  name: 可疑的工具箱 | suspicious toolbox
+  name: suspicious toolbox
   parent: [ToolboxBase, BaseSyndicateContraband]
   id: ToolboxSyndicate
-  description: 一個看起來陰森可怖的工具箱，裡面裝滿了辛迪加的頂級工具。 | A sinister looking toolbox filled with elite syndicate tools.
+  description: A sinister looking toolbox filled with elite syndicate tools.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi
@@ -135,10 +135,10 @@
         Blunt: 20
 
 - type: entity
-  name: 黃金工具箱 | golden toolbox
+  name: golden toolbox
   parent: ToolboxBase
   id: ToolboxGolden
-  description: 一個純金工具箱。任何饒舌歌手都會為此不惜一切。 | A solid gold toolbox. A rapper would kill for this.
+  description: A solid gold toolbox. A rapper would kill for this.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_gold.rsi
@@ -147,10 +147,10 @@
     sprite: Objects/Tools/Toolboxes/toolbox_gold.rsi
 
 - type: entity
-  name: foolbox | foolbox
+  name: foolbox
   parent: ToolboxBase
   id: Foolbox
-  description: 一個專為傻瓜準備的工具箱，裡面塞滿了小丑用的道具。 | A toolbox for fools, stocked with clowning equipment.
+  description: A toolbox for fools, stocked with clowning equipment.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/foolbox.rsi

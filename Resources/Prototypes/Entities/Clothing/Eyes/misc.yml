@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesBlindfold
-  name: 眼罩 | blindfold
-  description: 瞎子領瞎子。 | The bind leading the blind.
+  name: blindfold
+  description: The bind leading the blind.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/blindfold.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingHeadEyeBaseFlippable
   id: ClothingEyesEyepatch
-  name: 眼罩 | eyepatch
-  description: 喲。 | Yarr.
+  name: eyepatch
+  description: Yarr.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/eyepatch.rsi

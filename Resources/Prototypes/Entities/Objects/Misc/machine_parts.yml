@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BaseStockPart
-  name: 現貨零件 | stock part
+  name: stock part
   parent: BaseItem
-  description: 什麼？ | What?
+  description: What?
   abstract: true
   components:
     - type: Sprite
@@ -17,9 +17,9 @@
 
 - type: entity
   id: MicroManipulatorStockPart
-  name: 模組化機械零件 | modular machine part
+  name: modular machine part
   parent: BaseStockPart
-  description: 一種用於製造各種裝置的基本機械零件。 | A basic machine part used in the construction of a variety of devices.
+  description: A basic machine part used in the construction of a variety of devices.
   suffix: Rating 1
   components:
     - type: Sprite

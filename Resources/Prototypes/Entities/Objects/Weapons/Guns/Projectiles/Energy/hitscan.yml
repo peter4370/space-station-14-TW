@@ -18,7 +18,7 @@
 
 - type: entity
   id: BasicHitscan
-  name: 基本即時命中 | basic hitscan
+  name: basic hitscan
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanAmmo
@@ -39,7 +39,7 @@
 - type: entity
   parent: BasicHitscan
   id: LaserHitscanBase
-  name: 基本雷射光束 | basic laser ray
+  name: basic laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: LaserProjectile
@@ -47,7 +47,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: RedLightLaser
-  name: 紅光雷射光束 | red light laser ray
+  name: red light laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -58,7 +58,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: RangeLaser
-  name: 綠色雷射 | green laser
+  name: green laser
   categories: [ HideSpawnMenu ]
   components:
   - type: TargetFinderHitscan
@@ -76,7 +76,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: RedLaser
-  name: 紅色雷射光束 | red laser ray
+  name: red laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -87,7 +87,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: RedMediumLaser
-  name: 紅色的放大雷射光束 | red amplified laser ray
+  name: red amplified laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -98,7 +98,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: XenoborgLaser
-  name: 藍色放大雷射光束 | blue amplified laser ray
+  name: blue amplified laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -119,7 +119,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: RedHeavyLaser
-  name: 紅色高能量雷射光束 | red high-energy laser ray
+  name: red high-energy laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -140,7 +140,7 @@
 - type: entity
   parent: RedMediumLaser
   id: XenoborgFireLaser
-  name: 外星機器人發射激光束 | xenoborg fire laser ray
+  name: xenoborg fire laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -163,7 +163,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: XenoborgHeavyLaser
-  name: 藍色高能量雷射光束 | blue high-energy laser ray
+  name: blue high-energy laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -184,7 +184,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: RedLaserPractice
-  name: 紅色練習用雷射光束 | red practice laser ray
+  name: red practice laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -195,7 +195,7 @@
 - type: entity
   parent: BasicHitscan
   id: XrayLaser
-  name: X射線脈衝束 | X-ray pulse beam
+  name: X-ray pulse beam
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -217,7 +217,7 @@
 - type: entity
   parent: BasicHitscan
   id: Pulse
-  name: 藍色高能雷射光束 | blue high-energy laser ray
+  name: blue high-energy laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -238,7 +238,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: RedShuttleLaser
-  name: 穿梭機級紅色激光束 | shuttle class red laser ray
+  name: shuttle class red laser ray
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicRaycast
@@ -262,7 +262,7 @@
 - type: entity
   parent: LaserHitscanBase
   id: DebugLaser
-  name: 除錯雷射光束 | debug laser ray
+  name: debug laser ray
   suffix: DEBUG
   categories: [ HideSpawnMenu ]
   components:
@@ -284,7 +284,7 @@
 - type: entity
   parent: DebugLaser
   id: DebugLaserGib
-  name: 除錯 吉賓光線 | debug gibbing ray
+  name: debug gibbing ray
   suffix: DEBUG
   categories: [ HideSpawnMenu ]
   components:

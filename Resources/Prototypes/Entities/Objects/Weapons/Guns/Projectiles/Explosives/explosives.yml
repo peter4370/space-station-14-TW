@@ -2,7 +2,7 @@
   parent: BaseBulletTrigger
   id: BulletRocket
   categories: [ HideSpawnMenu ]
-  name: 火箭 | rocket
+  name: rocket
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -24,7 +24,7 @@
   parent: BaseBulletTrigger
   id: BulletWeakRocket
   categories: [ HideSpawnMenu ]
-  name: 威力不足的火箭 | weak rocket
+  name: weak rocket
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -46,7 +46,7 @@
   parent: BaseBullet
   id: BulletGrenadeBaton
   categories: [ HideSpawnMenu ]
-  name: 警棍型手榴彈 | baton grenade
+  name: baton grenade
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -65,7 +65,7 @@
   parent: BaseBulletTrigger
   id: BulletGrenadeBlast
   categories: [ HideSpawnMenu ]
-  name: 爆破手榴彈 | blast grenade
+  name: blast grenade
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -83,7 +83,7 @@
   parent: BaseBulletTrigger
   id: BulletGrenadeFlash
   categories: [ HideSpawnMenu ]
-  name: 閃光彈 | flash grenade
+  name: flash grenade
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -99,7 +99,7 @@
   parent: BaseBulletTrigger
   id: BulletGrenadeFrag
   categories: [ HideSpawnMenu ]
-  name: 破片手榴彈 | frag grenade
+  name: frag grenade
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -124,7 +124,7 @@
   parent: BaseBulletTrigger
   id: BulletGrenadeCleanade
   categories: [ HideSpawnMenu ]
-  name: 清潔手榴彈彈藥 | cleanade grenade round
+  name: cleanade grenade round
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -153,7 +153,7 @@
   parent: BaseBulletTrigger
   id: BulletGrenadeEMP
   categories: [ HideSpawnMenu ]
-  name: EMP 火箭 | EMP rocket
+  name: EMP rocket
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -174,7 +174,7 @@
   parent: BaseBulletTrigger
   id: BulletCannonBall
   categories: [ HideSpawnMenu ]
-  name: 砲彈 | cannonball
+  name: cannonball
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
@@ -195,7 +195,7 @@
 - type: entity
   parent: BulletRocket
   id: BulletGuidedXenoborgMissile
-  name: 導引式異種博格飛彈 | guided xenoborg missile
+  name: guided xenoborg missile
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -237,7 +237,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: BulletXenoborgMechadermisRocket
-  name: mechadermis 火箭 | mechadermis rocket
+  name: mechadermis rocket
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

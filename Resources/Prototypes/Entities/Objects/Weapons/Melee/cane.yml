@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Cane
-  name: 手杖 | cane
-  description: 一根木拐杖。 | A wooden cane.
+  name: cane
+  description: A wooden cane.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cane.rsi
@@ -28,10 +28,10 @@
     delay: 1
 
 - type: entity
-  name: 甘蔗刀片 | cane blade
+  name: cane blade
   parent: [BaseSword, BaseSyndicateContraband]
   id: CaneBlade
-  description: 一把刀刃鋒利、握柄呈手杖狀的刀。 | A sharp blade with a cane shaped hilt.
+  description: A sharp blade with a cane shaped hilt.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cane_blade.rsi
@@ -74,7 +74,7 @@
     allowSmartEquip: true
     slots:
       item:
-        name: CaneBlade | CaneBlade
+        name: CaneBlade
         insertVerbText: sheath-insert-verb
         ejectVerbText: sheath-eject-verb
         whitelist:

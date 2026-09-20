@@ -2,7 +2,7 @@
   abstract: true
   parent: MaterialBase
   id: IngotBase
-  description: 一塊鑄有 Nanotrasen 標誌的重金屬錠。 | A heavy metal ingot stamped with the Nanotrasen logo.
+  description: A heavy metal ingot stamped with the Nanotrasen logo.
   components:
   - type: Sprite
     sprite: Objects/Materials/ingots.rsi
@@ -18,7 +18,7 @@
 - type: entity
   parent: IngotBase
   id: IngotGold
-  name: 金條 | gold bar
+  name: gold bar
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -47,7 +47,7 @@
 - type: entity
   parent: IngotGold
   id: IngotGold1
-  name: 金條 | gold bar
+  name: gold bar
   suffix: Single
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: IngotBase
   id: IngotSilver
-  name: 銀條 | silver bar
+  name: silver bar
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -87,7 +87,7 @@
 - type: entity
   parent: IngotSilver
   id: IngotSilver1
-  name: 銀條 | silver bar
+  name: silver bar
   suffix: Single
   components:
   - type: Sprite

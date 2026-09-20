@@ -10,8 +10,8 @@
   parent: EventHumanoidMindShielded
   components:
     - type: GhostRole
-      name: ghost-role-information-command-name | ghost-role-information-command-name
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: ghost-role-information-command-name
+      description: ghost-role-information-command-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
@@ -21,8 +21,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-captain | job-name-captain
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: job-name-captain
+      description: ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCaptain, VisitorCaptainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -32,8 +32,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-ce | job-name-ce
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: job-name-ce
+      description: ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCE, VisitorCEAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -43,8 +43,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-cmo | job-name-cmo
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: job-name-cmo
+      description: ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCMO, VisitorCMOAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -54,8 +54,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-hop | job-name-hop
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: job-name-hop
+      description: ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorHOP, VisitorHOPAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -65,8 +65,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-hos | job-name-hos
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: job-name-hos
+      description: ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorHOS, VisitorHOSAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -76,8 +76,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-rd | job-name-rd
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: job-name-rd
+      description: ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorRD, VisitorRDAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -87,8 +87,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-qm | job-name-qm
-      description: ghost-role-information-command-description | ghost-role-information-command-description
+      name: job-name-qm
+      description: ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorQM, VisitorQMAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -101,8 +101,8 @@
   parent: EventHumanoidMindShielded
   components:
     - type: GhostRole
-      name: ghost-role-information-security-name | ghost-role-information-security-name
-      description: ghost-role-information-security-description | ghost-role-information-security-description
+      name: ghost-role-information-security-name
+      description: ghost-role-information-security-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
@@ -112,7 +112,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-cadet | job-name-cadet
+      name: job-name-cadet
     - type: Loadout
       prototypes: [ VisitorSecurityCadet, VisitorSecurityCadetAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -122,7 +122,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-security | job-name-security
+      name: job-name-security
     - type: Loadout
       prototypes: [ VisitorSecurityOfficer, VisitorSecurityOfficerAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -132,7 +132,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-detective | job-name-detective
+      name: job-name-detective
     - type: Loadout
       prototypes: [ VisitorDetective, VisitorDetectiveAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -142,7 +142,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-warden | job-name-warden
+      name: job-name-warden
     - type: Loadout
       prototypes: [ VisitorWarden, VisitorWardenAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -154,8 +154,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-cargo-name | ghost-role-information-cargo-name
-      description: ghost-role-information-cargo-description | ghost-role-information-cargo-description
+      name: ghost-role-information-cargo-name
+      description: ghost-role-information-cargo-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -165,7 +165,7 @@
   parent: VisitorCargonian
   components:
     - type: GhostRole
-      name: job-name-cargotech | job-name-cargotech
+      name: job-name-cargotech
     - type: Loadout
       prototypes: [ VisitorCargoTech, VisitorCargoTechAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -175,7 +175,7 @@
   parent: VisitorCargonian
   components:
     - type: GhostRole
-      name: job-name-salvagespec | job-name-salvagespec
+      name: job-name-salvagespec
     - type: Loadout
       prototypes: [ VisitorSalvageSpecialist, VisitorSalvageSpecialistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -187,8 +187,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-engineering-name | ghost-role-information-engineering-name
-      description: ghost-role-information-engineering-description | ghost-role-information-engineering-description
+      name: ghost-role-information-engineering-name
+      description: ghost-role-information-engineering-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -198,7 +198,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: job-name-atmostech | job-name-atmostech
+      name: job-name-atmostech
     - type: Loadout
       prototypes: [ VisitorAtmosTech, VisitorAtmosTechAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -208,7 +208,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: job-name-technical-assistant | job-name-technical-assistant
+      name: job-name-technical-assistant
     - type: Loadout
       prototypes: [ VisitorTechnicalAssistant, VisitorTechnicalAssistantAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -218,7 +218,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: job-name-engineer | job-name-engineer
+      name: job-name-engineer
     - type: Loadout
       prototypes: [ VisitorEngineer, VisitorEngineerAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -230,8 +230,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-name | ghost-role-information-medical-name
-      description: ghost-role-information-medical-description | ghost-role-information-medical-description
+      name: ghost-role-information-medical-name
+      description: ghost-role-information-medical-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -241,7 +241,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-intern | job-name-intern
+      name: job-name-intern
     - type: Loadout
       prototypes: [ VisitorMedicalIntern, VisitorMedicalInternAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -251,7 +251,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-doctor | job-name-doctor
+      name: job-name-doctor
     - type: Loadout
       prototypes: [ VisitorMedicalDoctor, VisitorMedicalDoctorAlt , VisitorScrubsPurple, VisitorScrubsGreen, VisitorScrubsBlue]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -261,7 +261,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-paramedic | job-name-paramedic
+      name: job-name-paramedic
     - type: Loadout
       prototypes: [ VisitorParamedic, VisitorParamedicAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -271,7 +271,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-virologist-name | ghost-role-information-medical-virologist-name
+      name: ghost-role-information-medical-virologist-name
     - type: Loadout
       prototypes: [ VisitorVirologist, VisitorVirologistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -281,7 +281,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-geneticist-name | ghost-role-information-medical-geneticist-name
+      name: ghost-role-information-medical-geneticist-name
     - type: Loadout
       prototypes: [ VisitorGeneticist, VisitorGeneticistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -291,7 +291,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-psychologist | job-name-psychologist
+      name: job-name-psychologist
     - type: Loadout
       prototypes: [ VisitorPsychologist, VisitorPsychologistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -301,7 +301,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-chemist | job-name-chemist
+      name: job-name-chemist
     - type: Loadout
       prototypes: [ VisitorChemist, VisitorChemistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -311,7 +311,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-dentist-name | ghost-role-information-medical-dentist-name
+      name: ghost-role-information-medical-dentist-name
     - type: Loadout
       prototypes: [ VisitorDentist ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -323,8 +323,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-science-name | ghost-role-information-science-name
-      description: ghost-role-information-science-description | ghost-role-information-science-description
+      name: ghost-role-information-science-name
+      description: ghost-role-information-science-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -334,7 +334,7 @@
   parent: VisitorScience
   components:
     - type: GhostRole
-      name: job-name-research-assistant | job-name-research-assistant
+      name: job-name-research-assistant
     - type: Loadout
       prototypes: [ VisitorResearchAssistant, VisitorResearchAssistantAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -344,7 +344,7 @@
   parent: VisitorScience
   components:
     - type: GhostRole
-      name: job-name-scientist | job-name-scientist
+      name: job-name-scientist
     - type: Loadout
       prototypes: [ VisitorScientist, VisitorScientistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -356,8 +356,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-civilian-name | ghost-role-information-civilian-name
-      description: ghost-role-information-civilian-description | ghost-role-information-civilian-description
+      name: ghost-role-information-civilian-name
+      description: ghost-role-information-civilian-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -367,7 +367,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-bartender | job-name-bartender
+      name: job-name-bartender
     - type: Loadout
       prototypes: [ VisitorBartender, VisitorBartenderAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -377,7 +377,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-botanist | job-name-botanist
+      name: job-name-botanist
     - type: Loadout
       prototypes: [ VisitorBotanist, VisitorBotanistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -387,7 +387,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-boxer | job-name-boxer
+      name: job-name-boxer
     - type: Loadout
       prototypes: [ VisitorBoxer, VisitorBoxerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -398,7 +398,7 @@
   components:
     - type: BibleUser
     - type: GhostRole
-      name: job-name-chaplain | job-name-chaplain
+      name: job-name-chaplain
     - type: Loadout
       prototypes: [ VisitorChaplain, VisitorChaplainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -408,7 +408,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-chef | job-name-chef
+      name: job-name-chef
     - type: Loadout
       prototypes: [ VisitorChef, VisitorChefAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -419,7 +419,7 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: job-name-clown | job-name-clown
+      name: job-name-clown
     - type: Loadout
       prototypes: [ VisitorClown ]
       roleLoadout: [ RoleSurvivalClown ]
@@ -432,7 +432,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-janitor | job-name-janitor
+      name: job-name-janitor
     - type: Loadout
       prototypes: [ VisitorJanitor, VisitorJanitorAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -442,7 +442,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-lawyer | job-name-lawyer
+      name: job-name-lawyer
     - type: Loadout
       prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -452,8 +452,8 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: ghost-role-information-civilian-centcom-lawyer-name | ghost-role-information-civilian-centcom-lawyer-name
-      description: ghost-role-information-civilian-centcom-lawyer-description | ghost-role-information-civilian-centcom-lawyer-description
+      name: ghost-role-information-civilian-centcom-lawyer-name
+      description: ghost-role-information-civilian-centcom-lawyer-description
     - type: Loadout
       prototypes: [ VisitorLawyerCentcom ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -463,7 +463,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-librarian | job-name-librarian
+      name: job-name-librarian
     - type: Loadout
       prototypes: [ VisitorLibrarian, VisitorLibrarianAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -473,7 +473,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-musician | job-name-musician
+      name: job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI, VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -483,7 +483,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-musician | job-name-musician
+      name: job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -493,7 +493,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-musician | job-name-musician
+      name: job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -504,7 +504,7 @@
   components:
     - type: MimePowers
     - type: GhostRole
-      name: job-name-mime | job-name-mime
+      name: job-name-mime
     - type: Loadout
       prototypes: [ VisitorMime, VisitorMimeAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -514,7 +514,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-reporter | job-name-reporter
+      name: job-name-reporter
     - type: Loadout
       prototypes: [ VisitorReporter, VisitorReporterAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -524,7 +524,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-serviceworker | job-name-serviceworker
+      name: job-name-serviceworker
     - type: Loadout
       prototypes: [ VisitorServiceWorker, VisitorServiceWorkerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -534,7 +534,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-zookeeper | job-name-zookeeper
+      name: job-name-zookeeper
     - type: Loadout
       prototypes: [ VisitorZookeeper, VisitorZookeeperAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -564,8 +564,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -585,8 +585,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -606,8 +606,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -627,8 +627,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -648,8 +648,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -669,8 +669,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -690,8 +690,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name | ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description | ghost-role-information-lost-challenge-commander-description
+      name: ghost-role-information-lost-challenge-commander-name
+      description: ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -715,8 +715,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-cargo-technican-name | ghost-role-information-lost-challenge-cargo-technican-name
-      description: ghost-role-information-lost-challenge-cargo-technican-description | ghost-role-information-lost-challenge-cargo-technican-description
+      name: ghost-role-information-lost-challenge-cargo-technican-name
+      description: ghost-role-information-lost-challenge-cargo-technican-description
       rules: ghost-role-information-lost-disaster-challenge-cargo-technican-rules
       raffle:
         settings: short
@@ -751,8 +751,8 @@
       - Syndicate
     - type: NukeOperative
     - type: GhostRole
-      name: ghost-role-information-syndie-soldier-teamlead-name | ghost-role-information-syndie-soldier-teamlead-name
-      description: ghost-role-information-syndie-soldier-teamlead-description | ghost-role-information-syndie-soldier-teamlead-description
+      name: ghost-role-information-syndie-soldier-teamlead-name
+      description: ghost-role-information-syndie-soldier-teamlead-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -771,8 +771,8 @@
       - Syndicate
     - type: NukeOperative
     - type: GhostRole
-      name: ghost-role-information-syndie-soldier-name | ghost-role-information-syndie-soldier-name
-      description: ghost-role-information-syndie-soldier-description | ghost-role-information-syndie-soldier-description
+      name: ghost-role-information-syndie-soldier-name
+      description: ghost-role-information-syndie-soldier-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -790,8 +790,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: ghost-role-information-syndie-disaster-victim-name | ghost-role-information-syndie-disaster-victim-name
-      description: ghost-role-information-syndie-disaster-victim-description | ghost-role-information-syndie-disaster-victim-description
+      name: ghost-role-information-syndie-disaster-victim-name
+      description: ghost-role-information-syndie-disaster-victim-description
       rules: ghost-role-information-freeagent-rules
       mindRoles:
       - MindRoleGhostRoleFreeAgent
@@ -809,8 +809,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: ghost-role-information-pirate-name | ghost-role-information-pirate-name
-      description: ghost-role-information-pirate-description | ghost-role-information-pirate-description
+      name: ghost-role-information-pirate-name
+      description: ghost-role-information-pirate-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -828,8 +828,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: ghost-role-information-pirate-captain-name | ghost-role-information-pirate-captain-name
-      description: ghost-role-information-pirate-captain-description | ghost-role-information-pirate-captain-description
+      name: ghost-role-information-pirate-captain-name
+      description: ghost-role-information-pirate-captain-description
       rules: ghost-role-information-rules-team-antagonist
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
@@ -846,8 +846,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-blackmarketeer-name | ghost-role-information-blackmarketeer-name
-      description: ghost-role-information-blackmarketeer-description | ghost-role-information-blackmarketeer-description
+      name: ghost-role-information-blackmarketeer-name
+      description: ghost-role-information-blackmarketeer-description
       rules: ghost-role-information-freeagent-rules
       mindRoles:
       - MindRoleGhostRoleFreeAgent
@@ -866,8 +866,8 @@
     - type: SlurredAccent
     - type: SouthernAccent
     - type: GhostRole
-      name: ghost-role-information-cossack-name | ghost-role-information-cossack-name
-      description: ghost-role-information-cossack-description | ghost-role-information-cossack-description
+      name: ghost-role-information-cossack-name
+      description: ghost-role-information-cossack-description
       rules: ghost-role-information-freeagent-rules
       mindRoles:
       - MindRoleGhostRoleFreeAgent

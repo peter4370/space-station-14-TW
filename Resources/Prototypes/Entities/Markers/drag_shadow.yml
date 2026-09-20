@@ -1,5 +1,5 @@
 - type: entity
-  name: 拖曳陰影 | drag shadow
+  name: drag shadow
   id: dragshadow
   categories: [ HideSpawnMenu ]
   components:

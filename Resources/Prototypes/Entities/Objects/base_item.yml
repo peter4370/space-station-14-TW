@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: BaseItem
-  name: "item | item"
+  name: "item"
   components:
   - type: Item
     size: Small
@@ -64,7 +64,7 @@
         acts: ["Destruction"]
 
 - type: entity
-  name: "儲存項目 | storage item"
+  name: "storage item"
   id: BaseStorageItem
   parent: BaseItem
   abstract: true
@@ -156,7 +156,7 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
+          name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellSmall
 
 - type: entity
@@ -171,7 +171,7 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
+          name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellMedium
 
 - type: entity
@@ -186,7 +186,7 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default | power-cell-slot-component-slot-name-default
+          name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellHigh
 
 - type: entity
@@ -229,7 +229,7 @@
   - type: ToolOpenable
     openToolQualityNeeded: Slicing
     closeToolQualityNeeded: Slicing # Should probably be stitching or something if that gets added
-    name: 秘密藏寶絨毛玩偶 | secret-stash-plushie
+    name: secret-stash-plushie
   - type: ContainerContainer
     containers:
       stash: !type:ContainerSlot {}

@@ -1,6 +1,6 @@
 - type: entity
   id: RandomArcade
-  name: 隨機街機生成器 | random arcade spawner
+  name: random arcade spawner
   parent: MarkerBase
   components:
   - type: Sprite

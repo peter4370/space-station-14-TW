@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseStructureDynamic, BaseXenoArtifact]
   id: BaseXenoArtifactStructure
-  name: 神器 | artifact
+  name: artifact
   abstract: true
   components:
   # Visual
@@ -43,7 +43,7 @@
 - type: entity
   id: DummyArtifactStructure
   parent: BaseXenoArtifactStructure
-  name: 神器 | artifact
+  name: artifact
   suffix: Debug
   components:
   - type: XenoArtifact

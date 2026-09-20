@@ -1,7 +1,7 @@
 - type: entity
   id: MedalCase
-  name: 獎牌盒 | medal case
-  description: 附有勳章的盒子。 | Case with medals.
+  name: medal case
+  description: Case with medals.
   parent: [ BaseStorageItem, BaseBagOpenClose, BaseCommandContraband ]
   components:
   - type: Sprite

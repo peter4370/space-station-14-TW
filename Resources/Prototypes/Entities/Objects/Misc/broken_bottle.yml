@@ -1,8 +1,8 @@
 - type: entity
-  name: 碎酒瓶 | broken bottle
+  name: broken bottle
   parent: BaseItem
   id: BrokenBottle
-  description: 在「Space Glasgow」，這被稱為「話題引子」。 | In Space Glasgow this is called a conversation starter.
+  description: In Space Glasgow this is called a conversation starter.
   components:
   - type: Tool
     qualities:

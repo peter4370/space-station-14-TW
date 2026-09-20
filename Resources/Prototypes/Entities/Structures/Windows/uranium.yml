@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseDeltaPressurePlasma, BaseWindowStructure, BaseRCDResistant, StructureHealthBarrier]
   id: UraniumWindow
-  name: 鈾窗 | uranium window
+  name: uranium window
   components:
   - type: Sprite
     sprite: Structures/Windows/window-uranium.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: [BaseDeltaPressurePlasmaQuarter, BaseWindowStructureDirectional, BaseRCDResistant, StructureHealthBarrierWeak]
   id: UraniumWindowDirectional
-  name: 定向鈾窗 | directional uranium window
+  name: directional uranium window
   components:
   - type: Sprite
     sprite: Structures/Windows/directional.rsi
